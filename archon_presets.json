@@ -1,0 +1,628 @@
+{
+  "paladin": {
+    "retribution": {
+      "raid": {
+        "m": 1060,
+        "c": 974,
+        "h": 854,
+        "v": 115
+      },
+      "mplus": {
+        "m": 996,
+        "c": 885,
+        "h": 796,
+        "v": 186
+      },
+      "metaHeroTree": "herald"
+    },
+    "holy_paladin": {
+      "raid": {
+        "m": 1208,
+        "c": 706,
+        "h": 865,
+        "v": 207
+      },
+      "mplus": {
+        "m": 774,
+        "c": 720,
+        "h": 980,
+        "v": 309
+      },
+      "metaHeroTree": "herald"
+    },
+    "protection_paladin": {
+      "raid": {
+        "m": 473,
+        "c": 1037,
+        "h": 1081,
+        "v": 267
+      },
+      "mplus": {
+        "m": 521,
+        "c": 882,
+        "h": 1023,
+        "v": 295
+      },
+      "metaHeroTree": "lightsmith"
+    }
+  },
+  "warrior": {
+    "arms": {
+      "raid": {
+        "m": 564,
+        "c": 1267,
+        "h": 1014,
+        "v": 117
+      },
+      "mplus": {
+        "m": 533,
+        "c": 1173,
+        "h": 949,
+        "v": 199
+      },
+      "metaHeroTree": "slayer"
+    },
+    "fury": {
+      "raid": {
+        "m": 1081,
+        "c": 802,
+        "h": 1117,
+        "v": 171
+      },
+      "mplus": {
+        "m": 1033,
+        "c": 681,
+        "h": 1083,
+        "v": 229
+      },
+      "metaHeroTree": "mountain_thane"
+    },
+    "prot_warrior": {
+      "raid": {
+        "m": 477,
+        "c": 955,
+        "h": 1182,
+        "v": 261
+      },
+      "mplus": {
+        "m": 471,
+        "c": 826,
+        "h": 1080,
+        "v": 310
+      },
+      "metaHeroTree": "mountain_thane"
+    }
+  },
+  "deathknight": {
+    "blood": {
+      "raid": {
+        "m": 475,
+        "c": 981,
+        "h": 1117,
+        "v": 354
+      },
+      "mplus": {
+        "m": 527,
+        "c": 818,
+        "h": 981,
+        "v": 463
+      },
+      "metaHeroTree": "deathbringer"
+    },
+    "frost_dk": {
+      "raid": {
+        "m": 1092,
+        "c": 1334,
+        "h": 502,
+        "v": 117
+      },
+      "mplus": {
+        "m": 997,
+        "c": 1240,
+        "h": 468,
+        "v": 190
+      },
+      "metaHeroTree": "deathbringer"
+    },
+    "unholy": {
+      "raid": {
+        "m": 1146,
+        "c": 1325,
+        "h": 434,
+        "v": 119
+      },
+      "mplus": {
+        "m": 1054,
+        "c": 1151,
+        "h": 467,
+        "v": 180
+      },
+      "metaHeroTree": "rider"
+    }
+  },
+  "hunter": {
+    "beast_mastery": {
+      "raid": {
+        "m": 1211,
+        "c": 1072,
+        "h": 573,
+        "v": 177
+      },
+      "mplus": {
+        "m": 1130,
+        "c": 1024,
+        "h": 467,
+        "v": 227
+      },
+      "metaHeroTree": "packleader"
+    },
+    "marksmanship": {
+      "raid": {
+        "m": 1119,
+        "c": 1565,
+        "h": 258,
+        "v": 223
+      },
+      "mplus": {
+        "m": 884,
+        "c": 1322,
+        "h": 402,
+        "v": 250
+      },
+      "metaHeroTree": "dark_ranger"
+    },
+    "survival": {
+      "raid": {
+        "m": 1298,
+        "c": 889,
+        "h": 741,
+        "v": 119
+      },
+      "mplus": {
+        "m": 1178,
+        "c": 818,
+        "h": 725,
+        "v": 193
+      },
+      "metaHeroTree": "sentinel"
+    }
+  },
+  "shaman": {
+    "elemental": {
+      "raid": {
+        "m": 1017,
+        "c": 987,
+        "h": 732,
+        "v": 150
+      },
+      "mplus": {
+        "m": 979,
+        "c": 894,
+        "h": 713,
+        "v": 213
+      },
+      "metaHeroTree": "stormbringer"
+    },
+    "enhancement": {
+      "raid": {
+        "m": 1102,
+        "c": 762,
+        "h": 954,
+        "v": 134
+      },
+      "mplus": {
+        "m": 1032,
+        "c": 631,
+        "h": 918,
+        "v": 192
+      },
+      "metaHeroTree": "stormbringer"
+    },
+    "restoration_shaman": {
+      "raid": {
+        "m": 300,
+        "c": 1273,
+        "h": 751,
+        "v": 517
+      },
+      "mplus": {
+        "m": 326,
+        "c": 1092,
+        "h": 770,
+        "v": 475
+      },
+      "metaHeroTree": "farseer"
+    }
+  },
+  "rogue": {
+    "assassination": {
+      "raid": {
+        "m": 623,
+        "c": 1265,
+        "h": 989,
+        "v": 171
+      },
+      "mplus": {
+        "m": 573,
+        "c": 1146,
+        "h": 924,
+        "v": 223
+      },
+      "metaHeroTree": "deathstalker"
+    },
+    "outlaw": {
+      "raid": {
+        "m": 179,
+        "c": 1280,
+        "h": 1018,
+        "v": 470
+      },
+      "mplus": {
+        "m": 260,
+        "c": 1197,
+        "h": 936,
+        "v": 416
+      },
+      "metaHeroTree": "fatebound"
+    },
+    "subtlety": {
+      "raid": {
+        "m": 1177,
+        "c": 602,
+        "h": 794,
+        "v": 432
+      },
+      "mplus": {
+        "m": 1136,
+        "c": 627,
+        "h": 760,
+        "v": 293
+      },
+      "metaHeroTree": "deathstalker"
+    }
+  },
+  "monk": {
+    "brewmaster": {
+      "raid": {
+        "m": 672,
+        "c": 1221,
+        "h": 268,
+        "v": 774
+      },
+      "mplus": {
+        "m": 617,
+        "c": 1086,
+        "h": 294,
+        "v": 684
+      },
+      "metaHeroTree": "master_of_harmony"
+    },
+    "windwalker": {
+      "raid": {
+        "m": 1153,
+        "c": 801,
+        "h": 922,
+        "v": 136
+      },
+      "mplus": {
+        "m": 990,
+        "c": 745,
+        "h": 878,
+        "v": 218
+      },
+      "metaHeroTree": "shado_pan"
+    },
+    "mistweaver": {
+      "raid": {
+        "m": 235,
+        "c": 853,
+        "h": 1491,
+        "v": 348
+      },
+      "mplus": {
+        "m": 473,
+        "c": 772,
+        "h": 1186,
+        "v": 298
+      },
+      "metaHeroTree": "conduit_of_the_celestials"
+    }
+  },
+  "demonhunter": {
+    "havoc": {
+      "raid": {
+        "m": 1185,
+        "c": 1406,
+        "h": 298,
+        "v": 132
+      },
+      "mplus": {
+        "m": 1036,
+        "c": 1286,
+        "h": 342,
+        "v": 214
+      },
+      "metaHeroTree": "aldrachi_reaver"
+    },
+    "vengeance": {
+      "raid": {
+        "m": 420,
+        "c": 914,
+        "h": 1190,
+        "v": 307
+      },
+      "mplus": {
+        "m": 462,
+        "c": 836,
+        "h": 1034,
+        "v": 332
+      },
+      "metaHeroTree": "aldrachi_reaver"
+    },
+    "devourer": {
+      "raid": {
+        "m": 1250,
+        "c": 1100,
+        "h": 650,
+        "v": 200
+      },
+      "mplus": {
+        "m": 1150,
+        "c": 1050,
+        "h": 700,
+        "v": 300
+      },
+      "metaHeroTree": "annihilator"
+    }
+  },
+  "druid": {
+    "balance": {
+      "raid": {
+        "m": 1115,
+        "c": 789,
+        "h": 905,
+        "v": 147
+      },
+      "mplus": {
+        "m": 1031,
+        "c": 721,
+        "h": 875,
+        "v": 211
+      },
+      "metaHeroTree": "elunes_chosen"
+    },
+    "feral": {
+      "raid": {
+        "m": 1117,
+        "c": 783,
+        "h": 892,
+        "v": 187
+      },
+      "mplus": {
+        "m": 1047,
+        "c": 717,
+        "h": 790,
+        "v": 242
+      },
+      "metaHeroTree": "wildstalker"
+    },
+    "guardian": {
+      "raid": {
+        "m": 507,
+        "c": 675,
+        "h": 1223,
+        "v": 0
+      },
+      "mplus": {
+        "m": 466,
+        "c": 676,
+        "h": 1091,
+        "v": 469
+      },
+      "metaHeroTree": "elunes_chosen"
+    },
+    "restoration_druid": {
+      "raid": {
+        "m": 991,
+        "c": 245,
+        "h": 1582,
+        "v": 221
+      },
+      "mplus": {
+        "m": 929,
+        "c": 373,
+        "h": 1172,
+        "v": 275
+      },
+      "metaHeroTree": "wildstalker"
+    }
+  },
+  "mage": {
+    "arcane": {
+      "raid": {
+        "m": 491,
+        "c": 773,
+        "h": 1006,
+        "v": 598
+      },
+      "mplus": {
+        "m": 465,
+        "c": 749,
+        "h": 1024,
+        "v": 474
+      },
+      "metaHeroTree": "sunfury"
+    },
+    "fire": {
+      "raid": {
+        "m": 924,
+        "c": 178,
+        "h": 1277,
+        "v": 474
+      },
+      "mplus": {
+        "m": 830,
+        "c": 0,
+        "h": 1225,
+        "v": 305
+      },
+      "metaHeroTree": "sunfury"
+    },
+    "frost_mage": {
+      "raid": {
+        "m": 917,
+        "c": 1030,
+        "h": 712,
+        "v": 279
+      },
+      "mplus": {
+        "m": 981,
+        "c": 943,
+        "h": 671,
+        "v": 209
+      },
+      "metaHeroTree": "frostfire"
+    }
+  },
+  "warlock": {
+    "affliction": {
+      "raid": {
+        "m": 625,
+        "c": 1037,
+        "h": 1077,
+        "v": 172
+      },
+      "mplus": {
+        "m": 563,
+        "c": 934,
+        "h": 1092,
+        "v": 193
+      },
+      "metaHeroTree": "soul_harvester"
+    },
+    "demonology": {
+      "raid": {
+        "m": 708,
+        "c": 1148,
+        "h": 897,
+        "v": 169
+      },
+      "mplus": {
+        "m": 630,
+        "c": 1050,
+        "h": 922,
+        "v": 185
+      },
+      "metaHeroTree": "diabolist"
+    },
+    "destruction": {
+      "raid": {
+        "m": 834,
+        "c": 1037,
+        "h": 877,
+        "v": 161
+      },
+      "mplus": {
+        "m": 710,
+        "c": 890,
+        "h": 926,
+        "v": 199
+      },
+      "metaHeroTree": "diabolist"
+    }
+  },
+  "priest": {
+    "discipline": {
+      "raid": {
+        "m": 707,
+        "c": 511,
+        "h": 1665,
+        "v": 166
+      },
+      "mplus": {
+        "m": 718,
+        "c": 673,
+        "h": 1090,
+        "v": 207
+      },
+      "metaHeroTree": "oracle"
+    },
+    "holy_priest": {
+      "raid": {
+        "m": 979,
+        "c": 1135,
+        "h": 614,
+        "v": 214
+      },
+      "mplus": {
+        "m": 727,
+        "c": 930,
+        "h": 867,
+        "v": 258
+      },
+      "metaHeroTree": "archon"
+    },
+    "shadow": {
+      "raid": {
+        "m": 1171,
+        "c": 753,
+        "h": 907,
+        "v": 123
+      },
+      "mplus": {
+        "m": 1042,
+        "c": 671,
+        "h": 969,
+        "v": 167
+      },
+      "metaHeroTree": "voidweaver"
+    }
+  },
+  "evoker": {
+    "devastation": {
+      "raid": {
+        "m": 826,
+        "c": 1214,
+        "h": 699,
+        "v": 194
+      },
+      "mplus": {
+        "m": 734,
+        "c": 1131,
+        "h": 716,
+        "v": 214
+      },
+      "metaHeroTree": "flameshaper"
+    },
+    "preservation": {
+      "raid": {
+        "m": 1186,
+        "c": 1081,
+        "h": 514,
+        "v": 174
+      },
+      "mplus": {
+        "m": 822,
+        "c": 922,
+        "h": 765,
+        "v": 251
+      },
+      "metaHeroTree": "chronowarden"
+    },
+    "augmentation": {
+      "raid": {
+        "m": 1374,
+        "c": 933,
+        "h": 541,
+        "v": 162
+      },
+      "mplus": {
+        "m": 1068,
+        "c": 880,
+        "h": 611,
+        "v": 215
+      },
+      "metaHeroTree": "chronowarden"
+    }
+  }
+}
