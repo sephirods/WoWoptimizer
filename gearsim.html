@@ -8,9 +8,7 @@
   <meta name="description" content="Calculadora y simulador de equipo para World of Warcraft: Midnight. Optimiza estadísticas secundarias, engarces, abalorios y combinaciones Top Gear para Míticas+ y Raid." />
   <meta name="keywords" content="WoW GearSim, SimC Top Gear, Simulador WoW, Estadísticas Secundarias Midnight, Optimizador WoW, Bloodmallet" />
   <meta name="author" content="WoWOptimizer" />
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
+  <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://wowoptimizer.wasmer.app/gearsim.html" />
 
   <!-- Open Graph / Facebook / Discord -->
@@ -60,6 +58,11 @@
   <script>var whTooltips = {colorLinks: true, iconizeLinks: false, renameLinks: false};</script>
   <script src="https://wow.zamimg.com/js/tooltips.js"></script>
 
+  <!-- Official Bloodmallet Pre-bundled Data Store, Archon Presets & Wowhead Guides -->
+  <script src="bloodmallet_data.js?v=10"></script>
+  <script src="archon_data.js?v=10"></script>
+  <script src="wowhead_data.js?v=10"></script>
+
   <script>
     tailwind.config = {
       darkMode: 'class',
@@ -81,11 +84,8 @@
         }
       }
     }
-  <link rel="stylesheet" href="css/custom.css?v=20260920_latest">
-  <script>
-    const cssLink = document.querySelector('link[href*="css/custom.css"]');
-    if (cssLink) cssLink.href = 'css/custom.css?_t=' + Date.now();
   </script>
+  <link rel="stylesheet" href="css/custom.css">
 </head>
 <body class="min-h-screen flex flex-col">
 
@@ -950,51 +950,30 @@
   </div>
 
 
-  <!-- Core Modular Scripts con Cargador Dinámico Anti-Caché (Zero-Cache) -->
-  <script>
-    (function() {
-      const _t = Date.now();
-      const scripts = [
-        'bloodmallet_data.js',
-        'archon_data.js',
-        'wowhead_data.js',
-        'js/ui/i18n.js',
-        'js/data/classes_plate.js',
-        'js/data/classes_mail.js',
-        'js/data/classes_leather.js',
-        'js/data/classes_cloth.js',
-        'js/data/classes.js',
-        'js/data/state.js',
-        'js/data/gems.js',
-        'js/data/trinkets.js',
-        'js/engine/upgrade_tracks.js',
-        'js/engine/item_scaler.js',
-        'js/engine/simc_parser.js',
-        'js/engine/optimizer.js',
-        'js/engine/simc_exporter.js',
-        'js/ui/tooltips_ui.js',
-        'js/ui/target_ui.js',
-        'js/ui/item_modal_ui.js',
-        'js/ui/inventory_ui.js',
-        'js/ui/results_ui.js',
-        'js/ui/comparator_ui.js',
-        'js/ui/modals_ui.js',
-        'js/ui/tickets_ui.js',
-        'js/ui/dynamic_footer.js',
-        'js/app.js'
-      ];
-
-      let loaded = 0;
-      function loadNext(idx) {
-        if (idx >= scripts.length) return;
-        const s = document.createElement('script');
-        s.src = scripts[idx] + '?_t=' + _t;
-        s.onload = () => loadNext(idx + 1);
-        s.onerror = () => loadNext(idx + 1);
-        document.body.appendChild(s);
-      }
-      loadNext(0);
-    })();
-  </script>
+  <!-- Core Modular Scripts -->
+  <script src="js/ui/i18n.js"></script>
+  <script src="js/data/classes_plate.js"></script>
+  <script src="js/data/classes_mail.js"></script>
+  <script src="js/data/classes_leather.js"></script>
+  <script src="js/data/classes_cloth.js"></script>
+  <script src="js/data/classes.js"></script>
+  <script src="js/data/state.js"></script>
+  <script src="js/data/gems.js"></script>
+  <script src="js/data/trinkets.js"></script>
+  <script src="js/engine/upgrade_tracks.js"></script>
+  <script src="js/engine/item_scaler.js"></script>
+  <script src="js/engine/simc_parser.js"></script>
+  <script src="js/engine/optimizer.js"></script>
+  <script src="js/engine/simc_exporter.js"></script>
+  <script src="js/ui/tooltips_ui.js"></script>
+  <script src="js/ui/target_ui.js"></script>
+  <script src="js/ui/item_modal_ui.js"></script>
+  <script src="js/ui/inventory_ui.js"></script>
+  <script src="js/ui/results_ui.js"></script>
+  <script src="js/ui/comparator_ui.js"></script>
+  <script src="js/ui/modals_ui.js"></script>
+  <script src="js/ui/tickets_ui.js"></script>
+  <script src="js/ui/dynamic_footer.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
