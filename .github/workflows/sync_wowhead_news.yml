@@ -37,5 +37,6 @@ jobs:
             echo "No hay nuevas noticias de Wowhead para publicar."
           else
             git commit -m "chore(news): auto-sync Wowhead recent news & guides [skip ci]"
+            git pull --rebase origin main
             git push origin main
           fi
