@@ -952,6 +952,20 @@ function formatWowheadEditorialContent(html) {
     `;
   });
 
+  // 2.2 Convertir tweets incrustados de Wowhead (markup-bluetweet) en embeds enriquecidos de Twitter/X
+  formatted = formatted.replace(
+    /<div class="[^"]*markup-bluetweet[^"]*"[^>]*>\s*<a[^>]*href="https?:\/\/(?:twitter\.com|x\.com)\/[^/]+\/status\/(\d+)"[^>]*>[\s\S]*?<\/a>\s*<\/div>/gi,
+    (match, tweetId) => {
+      return `
+        <div class="my-6 w-full flex justify-center not-prose tweet-container-wrapper">
+          <blockquote class="twitter-tweet" data-theme="dark" data-dnt="true" data-align="center">
+            <a href="https://twitter.com/x/status/${tweetId}">Cargando Tweet #${tweetId}...</a>
+          </blockquote>
+        </div>
+      `;
+    }
+  );
+
   // 3. Estilizar y balancear tablas: ancho 100%, bordes oscuros sutiles, cabecera resaltada y sin huecos negros
   formatted = formatted.replace(/<table[^>]*class="[^"]*grid[^"]*"[^>]*>/gi, '<div class="w-full overflow-x-auto my-4 rounded-xl border border-wow-border bg-[#0b0e17] shadow-lg"><table class="w-full text-left text-xs border-collapse">');
   formatted = formatted.replace(/<\/table>/gi, '</table></div>');
@@ -1145,6 +1159,29 @@ function openArticleModal(articleId, source = 'auto') {
 
   modal.classList.remove('hidden');
   document.body.style.overflow = 'hidden';
+
+  // Renderizar tweets de Twitter/X si existen en el artículo
+  if (bodyEl && bodyEl.querySelector('.twitter-tweet')) {
+    if (window.twttr && window.twttr.widgets && typeof window.twttr.widgets.load === 'function') {
+      window.twttr.widgets.load(bodyEl);
+    } else {
+      // Cargar el script oficial de Twitter/X bajo demanda si aún no está en la página
+      const existingScript = document.getElementById('twitter-wjs');
+      if (!existingScript) {
+        const twScript = document.createElement('script');
+        twScript.id = 'twitter-wjs';
+        twScript.src = 'https://platform.twitter.com/widgets.js';
+        twScript.async = true;
+        twScript.charset = 'utf-8';
+        twScript.onload = () => {
+          if (window.twttr && window.twttr.widgets) {
+            window.twttr.widgets.load(bodyEl);
+          }
+        };
+        document.head.appendChild(twScript);
+      }
+    }
+  }
 
   // Actualizar el hash en la URL del navegador sin saltos de scroll
   try {
