@@ -30,6 +30,7 @@ const I18N_TRANSLATIONS = {
     appName: "WoW Optimizer",
     appSubtitle: "SimulationCraft Parser, Track Filtering & Gem Engine",
     homeNav: "Home",
+    homeTitle: "Back to Main Portal",
     calculatorNav: "Calculator",
     featuresNav: "Features",
     newsNav: "WoW News",
@@ -221,12 +222,62 @@ const I18N_TRANSLATIONS = {
     toastItemDeleted: "Item deleted.",
     toastSimcImported: "SimC profile imported successfully!",
     toastModeRaid: "🏛️ Stats: Mythic Raid loaded",
-    toastModeMplus: "🗝️ Stats: Mythic+ (M+) loaded"
+    toastModeMplus: "🗝️ Stats: Mythic+ (M+) loaded",
+    guideModalTitle: "Optimizer User Guide",
+    guideModalSubtitle: "Step by step to optimize your gear, secondary stats, and vault rewards",
+    guideStep1Title: "Download & Install Simulationcraft Addon",
+    guideStep1CurseBtn: "CurseForge Addon",
+    guideStep1Intro: "To export your character data, you need the official <strong class=\"text-white\">Simulationcraft</strong> in-game addon:",
+    guideStep1Li1: "Open the <strong class=\"text-amber-300\">CurseForge App</strong>, search for <code class=\"text-amber-300 font-mono\">Simulationcraft</code> and click <strong>Install</strong> (or download it from <a href=\"https://www.curseforge.com/wow/addons/simulationcraft\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-amber-400 underline hover:text-amber-300\">CurseForge</a> and extract into <code class=\"text-slate-300 font-mono text-[11px]\">_retail_\\Interface\\AddOns\\</code>).",
+    guideStep1Li2: "Log into World of Warcraft with your character, type <code class=\"text-amber-300 font-mono font-bold bg-black/60 px-1.5 py-0.5 rounded border border-wow-border\">/simc</code> in the chat box, and press <strong>Enter</strong>.",
+    guideStep1Li3: "A window will pop up displaying all your gear, bags, and Great Vault. Press <kbd class=\"bg-slate-800 border border-slate-700 px-1.5 py-0.5 rounded text-white font-mono font-bold\">Ctrl + C</kbd> to copy the text.",
+    guideStep2Title: "Load your Gear & Bags",
+    guideStep2Desc: "Click <strong class=\"text-emerald-300\"><i class=\"fa-solid fa-file-import\"></i> Import SimC</strong> in the top menu and paste your copied text (<kbd class=\"bg-slate-800 border border-slate-700 px-1 py-0.5 rounded text-white font-mono text-[10px]\">Ctrl + V</kbd>). The optimizer will automatically load your equipped items, bag gear, and weekly <strong class=\"text-yellow-300\">Great Vault</strong> options.",
+    guideStep3Title: "Set Secondary Stat Targets",
+    guideStep3Desc: "Enter desired stat goals for <span class=\"text-purple-400 font-semibold\">Mastery</span>, <span class=\"text-blue-400 font-semibold\">Crit</span>, <span class=\"text-slate-300 font-semibold\">Haste</span>, and <span class=\"text-emerald-400 font-semibold\">Versatility</span>, or click any of the <strong class=\"text-amber-300\">Recommended Presets</strong> from Wowhead / Archon to load them instantly.",
+    guideStep4Title: "Calculate the Best Setup",
+    guideStep4Intro: "Click <strong class=\"text-amber-300\">Calculate Best Setup</strong> to find the mathematically optimal combination among all available items.",
+    guideStep4Vault: "<strong class=\"text-yellow-300\"><i class=\"fa-solid fa-vault mr-1\"></i>Great Vault</strong>: See exactly which item from your weekly vault yields the highest stat compliance.",
+    guideStep4Lock: "<strong class=\"text-amber-400\"><i class=\"fa-solid fa-lock mr-1\"></i>Lock Items</strong>: Click the padlock icon on any item to force it into the combination.",
+    guideStep4Tier: "<strong class=\"text-purple-300\"><i class=\"fa-solid fa-layer-group mr-1\"></i>Tier Set Bonus</strong>: Require 2P or 4P set bonuses.",
+    guideStep5Title: "Gems, Enchants & Simulation",
+    guideStep5Desc: "Inspect the suggested <strong class=\"text-amber-300\">smart gems</strong> and enchants. Click <strong class=\"text-emerald-300\"><i class=\"fa-solid fa-file-export\"></i> Export SimC</strong> to send the setup straight to <strong class=\"text-white\">Raidbots</strong>.",
+    guideShortcutsTitle: "Keyboard Shortcuts",
+    guideRunShortcut: "Run Optimizer",
+    guideSearchShortcut: "Search Inventory",
+    guideCloseShortcut: "Close Modal",
+    guideGotIt: "Got it",
+    backupTitle: "JSON Backup & Export",
+    backupSubtitle: "Save or restore your full inventory and configurations",
+    backupDesc: "You can copy this JSON string or paste a previous backup to restore your items.",
+    backupCopyBtn: "Copy to Clipboard",
+    backupDownloadBtn: "Download .JSON",
+    backupClearBtn: "Clear Inventory",
+    backupRestoreBtn: "Restore from JSON",
+    backupPlaceholder: "Inventory JSON will appear here...",
+    showFilterLabel: "Show:",
+    filterSocketsLabel: "Sockets",
+    filterTierLabel: "Tier Set",
+    filterLockedLabel: "Locked",
+    filterEnabledLabel: "Enabled Only",
+    filterVaultLabel: "Great Vault",
+    sortIlvlDesc: "ilvl (High to Low)",
+    sortIlvlAsc: "ilvl (Low to High)",
+    sortNameAsc: "Name (A-Z)",
+    sortCritDesc: "Crit (Highest)",
+    sortHasteDesc: "Haste (Highest)",
+    sortMasteryDesc: "Mastery (Highest)",
+    sortVersDesc: "Versatility (Highest)",
+    emptyInvTitle: "Your inventory is empty",
+    emptyInvDesc: "Import your items via SimulationCraft string or add items manually.",
+    emptyInvImportBtn: "Import SimC",
+    heroTreeLabel: "Hero Tree:"
   },
   es: {
     appName: "WoW Optimizer",
     appSubtitle: "Parser de SimulationCraft, Filtrado por Rango y Motor de Gemas",
     homeNav: "Inicio",
+    homeTitle: "Volver al Portal Principal",
     calculatorNav: "Calculadora",
     featuresNav: "Características",
     newsNav: "WoW News",
@@ -294,7 +345,7 @@ const I18N_TRANSLATIONS = {
     guideTitle: "Guía de uso y Ayuda",
     importSimcBtn: "Importar SimC",
     addItemBtn: "Añadir Objeto",
-    targetStatsTitle: "Estadísticas Objetivo (Target Stats)",
+    targetStatsTitle: "Estadísticas Objetivo",
     targetStatsSubtitle: "Calcula sobre estadísticas base puras (sin gemas) e integra abalorios de stats secundarios",
     raidMythic: "Raid Mítico",
     mplus: "M+ (Míticas+)",
@@ -418,9 +469,182 @@ const I18N_TRANSLATIONS = {
     toastItemDeleted: "Objeto eliminado.",
     toastSimcImported: "¡Perfil de SimC importado con éxito!",
     toastModeRaid: "🏛️ Estadísticas: Raid Mítico cargadas",
-    toastModeMplus: "🗝️ Estadísticas: Míticas+ (M+) cargadas"
+    toastModeMplus: "🗝️ Estadísticas: Míticas+ (M+) cargadas",
+    guideModalTitle: "Guía de Uso del Optimizador",
+    guideModalSubtitle: "Paso a paso para optimizar tu equipo, estadísticas secundarias y recompensas de la Gran Cámara",
+    guideStep1Title: "Descargar e Instalar Addon Simulationcraft",
+    guideStep1CurseBtn: "Addon CurseForge",
+    guideStep1Intro: "Para exportar los datos de tu personaje, necesitas el addon oficial de <strong class=\"text-white\">Simulationcraft</strong> dentro del juego:",
+    guideStep1Li1: "Abre la aplicación <strong class=\"text-amber-300\">CurseForge</strong>, busca <code class=\"text-amber-300 font-mono\">Simulationcraft</code> y haz clic en <strong>Instalar</strong> (o descárgalo desde <a href=\"https://www.curseforge.com/wow/addons/simulationcraft\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-amber-400 underline hover:text-amber-300\">CurseForge</a> y extráelo en <code class=\"text-slate-300 font-mono text-[11px]\">_retail_\\Interface\\AddOns\\</code>).",
+    guideStep1Li2: "Entra a World of Warcraft con tu personaje, escribe <code class=\"text-amber-300 font-mono font-bold bg-black/60 px-1.5 py-0.5 rounded border border-wow-border\">/simc</code> en la ventana de chat y presiona <strong>Enter</strong>.",
+    guideStep1Li3: "Aparecerá una ventana con el texto de todo tu equipo, bolsas y opciones de la Gran Cámara. Pulsa <kbd class=\"bg-slate-800 border border-slate-700 px-1.5 py-0.5 rounded text-white font-mono font-bold\">Ctrl + C</kbd> para copiarlo.",
+    guideStep2Title: "Cargar tu Equipo y Bolsas",
+    guideStep2Desc: "Haz clic en <strong class=\"text-emerald-300\"><i class=\"fa-solid fa-file-import\"></i> Importar SimC</strong> en el menú superior y pega el texto copiado (<kbd class=\"bg-slate-800 border border-slate-700 px-1 py-0.5 rounded text-white font-mono text-[10px]\">Ctrl + V</kbd>). El optimizador cargará automáticamente tus objetos equipados, los de tus bolsas y las recompensas semanales de la <strong class=\"text-yellow-300\">Gran Cámara</strong>.",
+    guideStep3Title: "Definir Estadísticas Objetivo",
+    guideStep3Desc: "Introduce las metas deseadas para <span class=\"text-purple-400 font-semibold\">Maestría</span>, <span class=\"text-blue-400 font-semibold\">Crítico</span>, <span class=\"text-slate-300 font-semibold\">Celeridad</span> y <span class=\"text-emerald-400 font-semibold\">Versatilidad</span>, o haz clic en cualquiera de los <strong class=\"text-amber-300\">Presets Recomendados</strong> de Wowhead / Archon para aplicarlos al instante.",
+    guideStep4Title: "Calcular la Mejor Combinación",
+    guideStep4Intro: "Haz clic en <strong class=\"text-amber-300\">Calcular Mejor Combinación</strong> para encontrar el set matemáticamente óptimo entre todos tus objetos disponibles.",
+    guideStep4Vault: "<strong class=\"text-yellow-300\"><i class=\"fa-solid fa-vault mr-1\"></i>Gran Cámara</strong>: Descubre exactamente qué objeto de tu cámara semanal otorga el mayor ajuste de estadísticas.",
+    guideStep4Lock: "<strong class=\"text-amber-400\"><i class=\"fa-solid fa-lock mr-1\"></i>Bloquear Objetos</strong>: Haz clic en el candado de cualquier objeto para forzarlo dentro de la combinación.",
+    guideStep4Tier: "<strong class=\"text-purple-300\"><i class=\"fa-solid fa-layer-group mr-1\"></i>Bono de Tier Set</strong>: Exige bonos de 2P o 4P piezas de conjunto.",
+    guideStep5Title: "Gemas, Encantamientos y Simulación",
+    guideStep5Desc: "Revisa las <strong class=\"text-amber-300\">gemas inteligentes</strong> y encantamientos sugeridos. Pulsa <strong class=\"text-emerald-300\"><i class=\"fa-solid fa-file-export\"></i> Exportar SimC</strong> para enviar la combinación directamente a <strong class=\"text-white\">Raidbots</strong>.",
+    guideShortcutsTitle: "Atajos de Teclado",
+    guideRunShortcut: "Ejecutar Optimizador",
+    guideSearchShortcut: "Buscar en Inventario",
+    guideCloseShortcut: "Cerrar Ventana",
+    guideGotIt: "Entendido",
+    backupTitle: "Copia de Seguridad y Exportación JSON",
+    backupSubtitle: "Guarda o restaura todo tu inventario y configuraciones",
+    backupDesc: "Puedes copiar esta cadena JSON o pegar una copia de seguridad previa para restaurar tus objetos.",
+    backupCopyBtn: "Copiar al Portapapeles",
+    backupDownloadBtn: "Descargar .JSON",
+    backupClearBtn: "Vaciar Inventario",
+    backupRestoreBtn: "Restaurar desde JSON",
+    backupPlaceholder: "El JSON del inventario aparecerá aquí...",
+    showFilterLabel: "Mostrar:",
+    filterSocketsLabel: "Ranuras",
+    filterTierLabel: "Conjunto de clase",
+    filterLockedLabel: "Bloqueados",
+    filterEnabledLabel: "Solo habilitados",
+    filterVaultLabel: "Gran Cámara",
+    sortIlvlDesc: "ilvl (Mayor a Menor)",
+    sortIlvlAsc: "ilvl (Menor a Mayor)",
+    sortNameAsc: "Nombre (A-Z)",
+    sortCritDesc: "Crítico (Mayor)",
+    sortHasteDesc: "Celeridad (Mayor)",
+    sortMasteryDesc: "Maestría (Mayor)",
+    sortVersDesc: "Versatilidad (Mayor)",
+    emptyInvTitle: "Tu inventario está vacío",
+    emptyInvDesc: "Importa tus piezas mediante la cadena de SimulationCraft o añade objetos manualmente.",
+    emptyInvImportBtn: "Importar SimC",
+    heroTreeLabel: "Árbol Héroe:"
   }
 };
+
+// Global dictionaries for localized WoW classes, specs, and hero trees
+const WOW_I18N_CLASSES = {
+  paladin: { en: "Paladin", es: "Paladín" },
+  warrior: { en: "Warrior", es: "Guerrero" },
+  deathknight: { en: "Death Knight", es: "Caballero de la Muerte" },
+  hunter: { en: "Hunter", es: "Cazador" },
+  shaman: { en: "Shaman", es: "Chamán" },
+  rogue: { en: "Rogue", es: "Pícaro" },
+  monk: { en: "Monk", es: "Monje" },
+  demonhunter: { en: "Demon Hunter", es: "Cazador de Demonios" },
+  druid: { en: "Druid", es: "Druida" },
+  mage: { en: "Mage", es: "Mago" },
+  warlock: { en: "Warlock", es: "Brujo" },
+  priest: { en: "Priest", es: "Sacerdote" },
+  evoker: { en: "Evoker", es: "Evocador" }
+};
+
+const WOW_I18N_SPECS = {
+  retribution: { en: "Retribution", es: "Reprensión" },
+  protection: { en: "Protection", es: "Protección" },
+  holy: { en: "Holy", es: "Sagrado" },
+  arms: { en: "Arms", es: "Armas" },
+  fury: { en: "Fury", es: "Furia" },
+  prot_warrior: { en: "Protection", es: "Protección" },
+  blood: { en: "Blood", es: "Sangre" },
+  frost_dk: { en: "Frost", es: "Escarcha" },
+  unholy: { en: "Unholy", es: "Profano" },
+  beast_mastery: { en: "Beast Mastery", es: "Dominio de bestias" },
+  marksmanship: { en: "Marksmanship", es: "Puntería" },
+  survival: { en: "Survival", es: "Supervivencia" },
+  elemental: { en: "Elemental", es: "Elemental" },
+  enhancement: { en: "Enhancement", es: "Mejora" },
+  restoration_shaman: { en: "Restoration", es: "Restauración" },
+  devastation: { en: "Devastation", es: "Devastación" },
+  preservation: { en: "Preservation", es: "Preservación" },
+  augmentation: { en: "Augmentation", es: "Aumento" },
+  assassination: { en: "Assassination", es: "Asesinato" },
+  outlaw: { en: "Outlaw", es: "Forajido" },
+  subtlety: { en: "Subtlety", es: "Sutileza" },
+  brewmaster: { en: "Brewmaster", es: "Maestro cervecero" },
+  windwalker: { en: "Windwalker", es: "Viajero del viento" },
+  mistweaver: { en: "Mistweaver", es: "Tejedor de niebla" },
+  havoc: { en: "Havoc", es: "Devastación" },
+  vengeance: { en: "Vengeance", es: "Venganza" },
+  devourer: { en: "Devourer", es: "Devorador" },
+  balance: { en: "Balance", es: "Equilibrio" },
+  feral: { en: "Feral", es: "Feral" },
+  guardian: { en: "Guardian", es: "Guardián" },
+  restoration_druid: { en: "Restoration", es: "Restauración" },
+  arcane: { en: "Arcane", es: "Arcano" },
+  fire: { en: "Fire", es: "Fuego" },
+  frost_mage: { en: "Frost", es: "Escarcha" },
+  affliction: { en: "Affliction", es: "Aflicción" },
+  demonology: { en: "Demonology", es: "Demonología" },
+  destruction: { en: "Destruction", es: "Destrucción" },
+  shadow: { en: "Shadow", es: "Sombras" },
+  discipline: { en: "Discipline", es: "Disciplina" },
+  holy_priest: { en: "Holy", es: "Sagrado" }
+};
+
+const WOW_I18N_HERO_TREES = {
+  herald: { en: "Herald of the Sun", es: "Heraldo del Sol" },
+  templar: { en: "Templar", es: "Templario" },
+  lightsmith: { en: "Lightsmith", es: "Forjador de la Luz" },
+  slayer: { en: "Slayer", es: "Verdugo" },
+  colossus: { en: "Colossus", es: "Coloso" },
+  mountain_thane: { en: "Mountain Thane", es: "Thane de la Montaña" },
+  deathbringer: { en: "Deathbringer", es: "Portador de la Muerte" },
+  rider: { en: "Rider of the Apocalypse", es: "Jinete del Apocalipsis" },
+  sanlayn: { en: "San'layn", es: "San'layn" },
+  packleader: { en: "Pack Leader", es: "Líder de la Manada" },
+  dark_ranger: { en: "Dark Ranger", es: "Guardabosques Oscuro" },
+  sentinel: { en: "Sentinel", es: "Centinela" },
+  stormbringer: { en: "Stormbringer", es: "Invocatormentas" },
+  farseer: { en: "Farseer", es: "Clarividente" },
+  totemic: { en: "Totemic", es: "Totémico" },
+  flameshaper: { en: "Flameshaper", es: "Moldeador de Llamas" },
+  scalecommander: { en: "Scalecommander", es: "Comandante de Escamas" },
+  chronowarden: { en: "Chronowarden", es: "Vigilante del Tiempo" },
+  deathstalker: { en: "Deathstalker", es: "Acechador Mortal" },
+  fatebound: { en: "Fatebound", es: "Vinculado al Destino" },
+  trickster: { en: "Trickster", es: "Bribón" },
+  master_of_harmony: { en: "Master of Harmony", es: "Maestro de la Armonía" },
+  shado_pan: { en: "Shado-Pan", es: "Shado-Pan" },
+  conduit_of_the_celestials: { en: "Conduit of the Celestials", es: "Conducto de los Celestiales" },
+  aldrachi_reaver: { en: "Aldrachi Reaver", es: "Segador Aldrachi" },
+  fel_scarred: { en: "Fel-Scarred", es: "Cicatrices Viles" },
+  elunes_chosen: { en: "Elune's Chosen", es: "Elegido de Elune" },
+  keeper_of_the_grove: { en: "Keeper of the Grove", es: "Guardián de la Arboleda" },
+  wildstalker: { en: "Wildstalker", es: "Acechador Salvaje" },
+  druid_of_the_claw: { en: "Druid of the Claw", es: "Druida de la Zarpa" },
+  sunfury: { en: "Sunfury", es: "Furia del Sol" },
+  spellslinger: { en: "Spellslinger", es: "Lanzahechizos" },
+  frostfire: { en: "Frostfire", es: "Fuegoescarcha" },
+  soul_harvester: { en: "Soul Harvester", es: "Cosechador de Almas" },
+  hellcaller: { en: "Hellcaller", es: "Convocador Infernal" },
+  diabolist: { en: "Diabolist", es: "Diabolista" },
+  voidweaver: { en: "Voidweaver", es: "Tejedor del Vacío" },
+  archon: { en: "Archon", es: "Arconte" },
+  oracle: { en: "Oracle", es: "Oráculo" }
+};
+
+function getLocalizedClassName(classId) {
+  const lang = (currentLang === 'es' || currentLang === 'mx') ? 'es' : 'en';
+  return WOW_I18N_CLASSES[classId] ? WOW_I18N_CLASSES[classId][lang] : classId;
+}
+
+function getLocalizedSpecName(specId) {
+  const lang = (currentLang === 'es' || currentLang === 'mx') ? 'es' : 'en';
+  return WOW_I18N_SPECS[specId] ? WOW_I18N_SPECS[specId][lang] : specId;
+}
+
+function getLocalizedHeroTreeName(treeId, originalName = '') {
+  const lang = (currentLang === 'es' || currentLang === 'mx') ? 'es' : 'en';
+  const cleanId = (treeId || '').toLowerCase().trim();
+  if (WOW_I18N_HERO_TREES[cleanId] && WOW_I18N_HERO_TREES[cleanId][lang]) {
+    // preserve original emoji icon if present
+    const iconMatch = originalName ? originalName.match(/^([^\w\s]+|\p{Extended_Pictographic}+)\s*/u) : null;
+    const prefix = iconMatch ? iconMatch[0] : '';
+    return prefix + WOW_I18N_HERO_TREES[cleanId][lang];
+  }
+  return originalName || treeId;
+}
 
 function t(key, fallback = '') {
   let lang = currentLang || 'en';
@@ -478,6 +702,13 @@ function updateLanguageUI() {
     }
   });
 
+  document.querySelectorAll('[data-i18n-html]').forEach(el => {
+    const key = el.getAttribute('data-i18n-html');
+    if (key && dict && dict[key]) {
+      el.innerHTML = dict[key];
+    }
+  });
+
   document.querySelectorAll('[data-i18n-title]').forEach(el => {
     const key = el.getAttribute('data-i18n-title');
     if (key && dict && dict[key]) {
@@ -504,6 +735,10 @@ function updateLanguageUI() {
   if (typeof renderBlueTracker === 'function') renderBlueTracker();
   if (typeof renderRecentNews === 'function') renderRecentNews();
   if (typeof refreshArticleModalLanguage === 'function') refreshArticleModalLanguage();
+
+  if (typeof updateClassDropdownOptions === 'function') updateClassDropdownOptions();
+  if (typeof updateSpecDropdown === 'function' && typeof currentSpec !== 'undefined') updateSpecDropdown(currentSpec);
+  if (typeof renderPresetsToolbar === 'function') renderPresetsToolbar();
 
   if (typeof window !== 'undefined' && window.$WowheadPower && typeof window.$WowheadPower.refreshLinks === 'function') {
     window.$WowheadPower.refreshLinks();

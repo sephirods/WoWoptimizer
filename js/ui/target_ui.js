@@ -1,9 +1,22 @@
 // Target Configuration Panel, Presets, Hero Trees & Stat Weights
 function initClassAndSpecs() {
   const classSelect = document.getElementById('char-class');
-  if (classSelect) classSelect.value = currentClass;
+  if (classSelect) {
+    classSelect.value = currentClass;
+    updateClassDropdownOptions();
+  }
   updateClassTheme();
   updateSpecDropdown(currentSpec);
+}
+
+function updateClassDropdownOptions() {
+  const classSelect = document.getElementById('char-class');
+  if (!classSelect) return;
+  Array.from(classSelect.options).forEach(opt => {
+    if (typeof getLocalizedClassName === 'function') {
+      opt.innerText = getLocalizedClassName(opt.value);
+    }
+  });
 }
 
 function setContentMode(mode) {
@@ -11,7 +24,7 @@ function setContentMode(mode) {
   currentContentMode = mode;
   saveState();
   applySpecConfig(currentSpec);
-  showToast(mode === 'raid' ? '🏛️ Estadísticas: Raid Mítico cargadas' : '🗝️ Estadísticas: Míticas+ (M+) cargadas', 'info');
+  showToast(mode === 'raid' ? (t('toastModeRaid', '🏛️ Estadísticas: Raid Mítico cargadas')) : (t('toastModeMplus', '🗝️ Estadísticas: Míticas+ (M+) cargadas')), 'info');
 }
 
 function onClassChange() {
@@ -50,7 +63,10 @@ function updateSpecDropdown(preferredSpec = null) {
   const specSelect = document.getElementById('char-spec');
   const classData = WOW_CLASSES[currentClass];
   if (!classData || !specSelect) return;
-  specSelect.innerHTML = classData.specs.map(s => `<option value="${s.id}">${s.name}</option>`).join('');
+  specSelect.innerHTML = classData.specs.map(s => {
+    const locName = typeof getLocalizedSpecName === 'function' ? getLocalizedSpecName(s.id) : s.name;
+    return `<option value="${s.id}">${locName}</option>`;
+  }).join('');
   
   const targetSpec = preferredSpec || currentSpec;
   const validSpec = classData.specs.some(s => s.id === targetSpec) ? targetSpec : classData.specs[0].id;
@@ -111,7 +127,11 @@ function applyCustomPreset(id) {
   document.getElementById('target-haste').value = p.h;
   document.getElementById('target-vers').value = p.v;
   if (p.wep && document.getElementById('weapon-mode')) document.getElementById('weapon-mode').value = p.wep;
-  if (p.tier && document.getElementById('tier-mode')) document.getElementById('tier-mode').value = p.tier;
+  if (p.tier && document.getElementById('tier-mode')) {
+    document.getElementById('tier-mode').value = p.tier;
+    const disp = document.getElementById('tier-mode-display');
+    if (disp) disp.innerText = p.tier;
+  }
 
   updateTargetDistributionStrip();
   runOptimizer();
@@ -201,21 +221,25 @@ function renderPresetsToolbar() {
     </div>
   `;
 
-  const specButtons = classData.specs.map(s => `
+  const specButtons = classData.specs.map(s => {
+    const locName = typeof getLocalizedSpecName === 'function' ? getLocalizedSpecName(s.id) : s.name;
+    return `
     <button type="button" onclick="applySpecConfig('${s.id}')" class="text-xs px-2.5 py-1 rounded-md transition font-medium border ${s.id === currentSpec ? 'bg-amber-500 text-black border-amber-400 font-bold shadow' : 'bg-black/40 text-slate-300 border-wow-border hover:text-white'}">
-      ${s.name.split(' ')[0]}
+      ${locName.split(' ')[0]}
     </button>
-  `).join('');
+  `;
+  }).join('');
 
   const heroButtons = (specData?.heroTrees && specData.heroTrees.length > 0) ? `
     <div class="inline-flex rounded-lg p-0.5 bg-purple-950/70 border border-purple-500/50 shadow-inner mr-1">
-      <span class="text-[10px] text-purple-300 font-bold px-1.5 self-center">Árbol Héroe:</span>
+      <span class="text-[10px] text-purple-300 font-bold px-1.5 self-center">${t('heroTreeLabel', 'Árbol Héroe:')}</span>
       ${specData.heroTrees.map(ht => {
         const isMeta = metaTree ? (ht.id === metaTree || metaTree.includes(ht.id) || ht.id.includes(metaTree)) : (ht === specData.heroTrees[0]);
         const isSelected = (currentHeroTree === ht.id) || (!currentHeroTree && isMeta);
+        const locHeroName = typeof getLocalizedHeroTreeName === 'function' ? getLocalizedHeroTreeName(ht.id, ht.name) : ht.name;
         return `
           <button type="button" onclick="applyHeroTree('${ht.id}')" class="text-xs px-2 py-0.5 rounded-md transition font-bold flex items-center gap-1 ${isSelected ? (isMeta ? 'bg-gradient-to-r from-amber-500 to-yellow-500 text-black shadow-md' : 'bg-purple-600 text-white shadow-md') : 'text-slate-300 hover:text-white hover:bg-white/10'}">
-            <span>${ht.name}</span>
+            <span>${locHeroName}</span>
             ${isMeta ? '<span class="text-[8px] px-1 py-0.2 rounded font-black bg-black/50 text-amber-200 border border-amber-300/40">META</span>' : ''}
           </button>
         `;
@@ -237,7 +261,7 @@ function renderPresetsToolbar() {
       ${heroButtons}
       ${customButtons}
       <button type="button" onclick="saveUserCustomPreset()" class="text-xs px-2 py-1 rounded bg-black/60 hover:bg-slate-800 text-amber-300 border border-amber-500/40 font-semibold flex items-center gap-1" title="Guardar configuración actual como preset personalizado">
-        <i class="fa-solid fa-bookmark text-[10px]"></i> + Preset
+        <i class="fa-solid fa-bookmark text-[10px]"></i> ${t('addPreset', '+ Preset')}
       </button>
     </div>
   `;
@@ -252,7 +276,8 @@ function onSpecChange() {
 
   const titleEl = document.getElementById('current-spec-title');
   if (titleEl) {
-    titleEl.innerText = specData.name;
+    const locName = typeof getLocalizedSpecName === 'function' ? getLocalizedSpecName(specData.id) : specData.name;
+    titleEl.innerText = locName;
     titleEl.style.color = classData.color;
   }
 

@@ -4,6 +4,25 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #07090e;
   color: #e2e8f0;
+  color-scheme: dark; /* Forces Firefox & Chromium native form widgets (selects, inputs, popups) to dark mode */
+}
+
+/* Remove ugly native number spinners/arrows across browsers */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* Dark select & options styling for Firefox & Chromium */
+select, option, optgroup {
+  color-scheme: dark;
+  background-color: #0f131d !important;
+  color: #e2e8f0 !important;
 }
 
 .wow-title {

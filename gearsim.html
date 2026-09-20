@@ -46,8 +46,9 @@
   }
   </script>
   
-  <!-- Tailwind CSS & FontAwesome Icons -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+  <!-- Favicon & Icons -->
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/logo.webp">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   
@@ -143,8 +144,8 @@
       <!-- Actions -->
       <div class="flex items-center space-x-2 flex-wrap gap-y-1">
         <!-- Return to Home Link -->
-        <a href="index.html" class="bg-black/60 hover:bg-black text-amber-300 hover:text-amber-200 text-xs font-bold px-3 py-1.5 rounded-lg border border-wow-border flex items-center gap-1.5 transition shadow-sm" title="Volver al Portal Principal">
-          <i class="fa-solid fa-house text-amber-400"></i> <span class="hidden sm:inline">Inicio</span>
+        <a href="index.html" class="bg-black/60 hover:bg-black text-amber-300 hover:text-amber-200 text-xs font-bold px-3 py-1.5 rounded-lg border border-wow-border flex items-center gap-1.5 transition shadow-sm" title="Back to Main Portal" data-i18n-title="homeTitle">
+          <i class="fa-solid fa-house text-amber-400"></i> <span class="hidden sm:inline" data-i18n="homeNav">Home</span>
         </a>
 
         <!-- Language Selector Dropdown -->
@@ -355,12 +356,14 @@
 
           <div class="flex flex-wrap items-center justify-between gap-4 pt-1">
             <div class="flex items-center gap-4 text-xs flex-wrap">
-              <div class="flex items-center gap-1.5 bg-purple-950/40 border border-purple-500/50 rounded px-2.5 py-1 text-xs shadow-sm">
+              <div class="relative flex items-center gap-1.5 bg-purple-950/40 hover:bg-purple-900/50 border border-purple-500/50 hover:border-purple-400 rounded px-2.5 py-1 text-xs shadow-sm cursor-pointer transition select-none">
                 <span class="text-purple-300 font-bold flex items-center gap-1"><i class="fa-solid fa-layer-group text-purple-400 text-[10px]"></i> <span data-i18n="tierSetMode">Tier Set</span>:</span>
-                <select id="tier-mode" onchange="runOptimizer()" class="bg-transparent text-purple-200 font-bold focus:outline-none cursor-pointer">
-                  <option value="4" class="bg-slate-900 text-purple-300">4</option>
-                  <option value="2" class="bg-slate-900 text-purple-300">2</option>
-                  <option value="0" class="bg-slate-900 text-slate-400" selected>0</option>
+                <span id="tier-mode-display" class="text-purple-200 font-bold ml-0.5">0</span>
+                <i class="fa-solid fa-chevron-down text-[9px] text-purple-400 ml-1"></i>
+                <select id="tier-mode" onchange="document.getElementById('tier-mode-display').innerText = this.value; runOptimizer();" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer bg-[#0e111a] text-purple-200" style="color-scheme: dark;">
+                  <option value="4" class="bg-[#0e111a] text-purple-300">4</option>
+                  <option value="2" class="bg-[#0e111a] text-purple-300">2</option>
+                  <option value="0" class="bg-[#0e111a] text-slate-300" selected>0</option>
                 </select>
               </div>
 
@@ -434,13 +437,13 @@
             </select>
 
             <select id="sort-inventory" onchange="renderInventory()" class="bg-wow-input border border-wow-border rounded-lg px-3 py-1.5 text-sm text-slate-300 focus:outline-none">
-              <option value="ilvl-desc">ilvl (High to Low)</option>
-              <option value="ilvl-asc">ilvl (Low to High)</option>
-              <option value="name-asc">Name (A-Z)</option>
-              <option value="crit-desc">Crit (Highest)</option>
-              <option value="haste-desc">Haste (Highest)</option>
-              <option value="mastery-desc">Mastery (Highest)</option>
-              <option value="vers-desc">Versatility (Highest)</option>
+              <option value="ilvl-desc" data-i18n="sortIlvlDesc">ilvl (High to Low)</option>
+              <option value="ilvl-asc" data-i18n="sortIlvlAsc">ilvl (Low to High)</option>
+              <option value="name-asc" data-i18n="sortNameAsc">Name (A-Z)</option>
+              <option value="crit-desc" data-i18n="sortCritDesc">Crit (Highest)</option>
+              <option value="haste-desc" data-i18n="sortHasteDesc">Haste (Highest)</option>
+              <option value="mastery-desc" data-i18n="sortMasteryDesc">Mastery (Highest)</option>
+              <option value="vers-desc" data-i18n="sortVersDesc">Versatility (Highest)</option>
             </select>
 
             <div class="flex items-center bg-black/60 border border-wow-border rounded-lg p-0.5 text-xs">
@@ -450,9 +453,6 @@
           </div>
 
           <div class="flex items-center gap-2">
-            <button onclick="exportInventoryToCsv()" class="bg-black/50 hover:bg-black text-slate-300 hover:text-white text-xs font-semibold px-3 py-1.5 rounded-lg border border-wow-border flex items-center gap-1.5 transition" title="Export inventory to CSV">
-              <i class="fa-solid fa-file-csv text-emerald-400"></i> <span data-i18n="exportCsv">Export CSV</span>
-            </button>
             <button onclick="openBackupModal()" class="bg-black/50 hover:bg-black text-slate-300 hover:text-white text-xs font-semibold px-3 py-1.5 rounded-lg border border-wow-border flex items-center gap-1.5 transition" title="JSON Backup & Restore">
               <i class="fa-solid fa-cloud-arrow-down text-purple-400"></i> <span data-i18n="backupJson">Backup</span>
             </button>
@@ -467,26 +467,26 @@
         <!-- Quick filter checkboxes & Bulk actions -->
         <div class="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-wow-border/50 text-xs">
           <div class="flex flex-wrap items-center gap-3">
-            <span class="text-slate-400 font-semibold">Show:</span>
+            <span class="text-slate-400 font-semibold" data-i18n="showFilterLabel">Show:</span>
             <label class="flex items-center gap-1.5 cursor-pointer">
               <input type="checkbox" id="inv-filter-sockets" onchange="renderInventory()" class="rounded bg-black border-slate-600 text-amber-500 focus:ring-0">
-              <span class="text-amber-300 font-medium"><i class="fa-solid fa-gem text-[10px]"></i> Sockets</span>
+              <span class="text-amber-300 font-medium"><i class="fa-solid fa-gem text-[10px]"></i> <span data-i18n="filterSocketsLabel">Sockets</span></span>
             </label>
             <label class="flex items-center gap-1.5 cursor-pointer">
               <input type="checkbox" id="inv-filter-tier" onchange="renderInventory()" class="rounded bg-black border-slate-600 text-purple-500 focus:ring-0">
-              <span class="text-purple-300 font-medium">Tier Set</span>
+              <span class="text-purple-300 font-medium" data-i18n="filterTierLabel">Tier Set</span>
             </label>
             <label class="flex items-center gap-1.5 cursor-pointer">
               <input type="checkbox" id="inv-filter-locked" onchange="renderInventory()" class="rounded bg-black border-slate-600 text-amber-400 focus:ring-0">
-              <span class="text-amber-400 font-medium"><i class="fa-solid fa-lock text-[10px]"></i> Locked</span>
+              <span class="text-amber-400 font-medium"><i class="fa-solid fa-lock text-[10px]"></i> <span data-i18n="filterLockedLabel">Locked</span></span>
             </label>
             <label class="flex items-center gap-1.5 cursor-pointer">
               <input type="checkbox" id="inv-filter-active" onchange="renderInventory()" class="rounded bg-black border-slate-600 text-emerald-500 focus:ring-0">
-              <span class="text-slate-300 font-medium">Enabled Only</span>
+              <span class="text-slate-300 font-medium" data-i18n="filterEnabledLabel">Enabled Only</span>
             </label>
             <label class="flex items-center gap-1.5 cursor-pointer">
               <input type="checkbox" id="inv-filter-vault" onchange="renderInventory()" class="rounded bg-black border-slate-600 text-yellow-400 focus:ring-0">
-              <span class="text-yellow-300 font-medium"><i class="fa-solid fa-vault text-[10px]"></i> Great Vault</span>
+              <span class="text-yellow-300 font-medium"><i class="fa-solid fa-vault text-[10px]"></i> <span data-i18n="filterVaultLabel">Great Vault</span></span>
             </label>
           </div>
 
@@ -702,8 +702,8 @@
             <i class="fa-solid fa-cloud-arrow-down"></i>
           </div>
           <div>
-            <h3 class="text-base font-bold text-white">JSON Backup & Export</h3>
-            <p class="text-xs text-slate-400">Save or restore your full inventory and configurations</p>
+            <h3 class="text-base font-bold text-white" data-i18n="backupTitle">JSON Backup & Export</h3>
+            <p class="text-xs text-slate-400" data-i18n="backupSubtitle">Save or restore your full inventory and configurations</p>
           </div>
         </div>
         <button onclick="closeBackupModal()" class="text-slate-400 hover:text-white">
@@ -712,28 +712,28 @@
       </div>
 
       <div class="space-y-3">
-        <textarea id="backup-json-text" rows="9" class="w-full bg-black/60 border border-wow-border rounded-lg p-3 text-xs font-mono text-purple-300 focus:outline-none focus:border-purple-500" placeholder="Inventory JSON will appear here..."></textarea>
+        <textarea id="backup-json-text" rows="9" class="w-full bg-black/60 border border-wow-border rounded-lg p-3 text-xs font-mono text-purple-300 focus:outline-none focus:border-purple-500" placeholder="Inventory JSON will appear here..." data-i18n-placeholder="backupPlaceholder"></textarea>
         
         <div class="flex items-center justify-between gap-2 flex-wrap text-xs">
-          <span class="text-slate-400">You can copy this JSON string or paste a previous backup to restore your items.</span>
+          <span class="text-slate-400" data-i18n="backupDesc">You can copy this JSON string or paste a previous backup to restore your items.</span>
         </div>
       </div>
       <div class="pt-3 border-t border-wow-border flex items-center justify-between gap-2 flex-wrap">
         <div class="flex items-center gap-2 flex-wrap">
           <button type="button" onclick="copyBackupToClipboard()" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold text-white bg-slate-800 hover:bg-slate-700 flex items-center gap-1.5 border border-slate-600">
-            <i class="fa-solid fa-copy"></i> Copy to Clipboard
+            <i class="fa-solid fa-copy"></i> <span data-i18n="backupCopyBtn">Copy to Clipboard</span>
           </button>
           <button type="button" onclick="downloadBackupFile()" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold text-purple-200 bg-purple-950/60 hover:bg-purple-900 border border-purple-500/50 flex items-center gap-1.5">
-            <i class="fa-solid fa-file-arrow-down"></i> Download .JSON
+            <i class="fa-solid fa-file-arrow-down"></i> <span data-i18n="backupDownloadBtn">Download .JSON</span>
           </button>
           <button type="button" onclick="confirmClearInventory()" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold text-red-300 bg-red-950/50 hover:bg-red-900 border border-red-700/50 flex items-center gap-1.5">
-            <i class="fa-solid fa-trash-can"></i> Clear Inventory
+            <i class="fa-solid fa-trash-can"></i> <span data-i18n="backupClearBtn">Clear Inventory</span>
           </button>
         </div>
         <div class="flex items-center gap-2">
           <button type="button" onclick="closeBackupModal()" class="px-4 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white bg-slate-800" data-i18n="closeModal">Close</button>
           <button type="button" onclick="restoreBackupFromJson()" class="px-5 py-1.5 rounded-lg text-xs font-bold text-black bg-amber-400 hover:bg-amber-300 shadow flex items-center gap-1.5">
-            <i class="fa-solid fa-upload"></i> Restore from JSON
+            <i class="fa-solid fa-upload"></i> <span data-i18n="backupRestoreBtn">Restore from JSON</span>
           </button>
         </div>
       </div>
@@ -873,8 +873,8 @@
             <i class="fa-solid fa-book-open"></i>
           </div>
           <div>
-            <h3 class="text-base font-bold text-white">Optimizer User Guide</h3>
-            <p class="text-xs text-slate-400">Step by step to optimize your gear, secondary stats, and vault rewards</p>
+            <h3 class="text-base font-bold text-white" data-i18n="guideModalTitle">Optimizer User Guide</h3>
+            <p class="text-xs text-slate-400" data-i18n="guideModalSubtitle">Step by step to optimize your gear, secondary stats, and vault rewards</p>
           </div>
         </div>
         <button onclick="closeHelpModal()" class="text-slate-400 hover:text-white">
@@ -883,25 +883,35 @@
       </div>
 
       <div class="flex-1 overflow-y-auto space-y-3.5 text-xs text-slate-300 pr-1">
-        <!-- Step 1 -->
-        <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
-          <div class="flex items-center gap-2">
-            <span class="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[11px] flex items-center justify-center">1</span>
-            <h4 class="font-bold text-amber-300 text-sm">Load your Gear & Bags</h4>
+        <!-- Step 1: Install Simulationcraft Addon -->
+        <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-2">
+          <div class="flex items-center justify-between gap-2 flex-wrap">
+            <div class="flex items-center gap-2">
+              <span class="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[11px] flex items-center justify-center shrink-0">1</span>
+              <h4 class="font-bold text-amber-300 text-sm" data-i18n="guideStep1Title">Download & Install Simulationcraft Addon</h4>
+            </div>
+            <a href="https://www.curseforge.com/wow/addons/simulationcraft" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-[#f16436]/20 hover:bg-[#f16436]/30 border border-[#f16436]/50 text-[#f16436] hover:text-white font-bold text-[11px] transition shadow-sm ml-auto">
+              <i class="fa-solid fa-download text-[10px]"></i> <span data-i18n="guideStep1CurseBtn">CurseForge Addon</span> <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+            </a>
           </div>
-          <p class="text-slate-400 pl-7">
-            Click <strong class="text-emerald-300"><i class="fa-solid fa-file-import"></i> Import SimC</strong> and paste your in-game addon text (<code class="text-amber-300 font-mono">/simc</code>). The optimizer will automatically load your equipped items, bag gear, and weekly <strong class="text-yellow-300">Great Vault</strong> options.
-          </p>
+          <div class="text-slate-400 pl-7 space-y-1.5 leading-relaxed">
+            <p data-i18n-html="guideStep1Intro">To export your character data, you need the official <strong class="text-white">Simulationcraft</strong> in-game addon:</p>
+            <ol class="list-decimal list-inside space-y-1 text-slate-300">
+              <li data-i18n-html="guideStep1Li1">Open the <strong class="text-amber-300">CurseForge App</strong>, search for <code class="text-amber-300 font-mono">Simulationcraft</code> and click <strong>Install</strong> (or download it from <a href="https://www.curseforge.com/wow/addons/simulationcraft" target="_blank" rel="noopener noreferrer" class="text-amber-400 underline hover:text-amber-300">CurseForge</a> and extract into <code class="text-slate-300 font-mono text-[11px]">_retail_\Interface\AddOns\</code>).</li>
+              <li data-i18n-html="guideStep1Li2">Log into World of Warcraft with your character, type <code class="text-amber-300 font-mono font-bold bg-black/60 px-1.5 py-0.5 rounded border border-wow-border">/simc</code> in the chat box, and press <strong>Enter</strong>.</li>
+              <li data-i18n-html="guideStep1Li3">A window will pop up displaying all your gear, bags, and Great Vault. Press <kbd class="bg-slate-800 border border-slate-700 px-1.5 py-0.5 rounded text-white font-mono font-bold">Ctrl + C</kbd> to copy the text.</li>
+            </ol>
+          </div>
         </div>
 
         <!-- Step 2 -->
         <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
           <div class="flex items-center gap-2">
             <span class="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[11px] flex items-center justify-center">2</span>
-            <h4 class="font-bold text-amber-300 text-sm">Set Secondary Stat Targets</h4>
+            <h4 class="font-bold text-amber-300 text-sm" data-i18n="guideStep2Title">Load your Gear & Bags</h4>
           </div>
-          <p class="text-slate-400 pl-7">
-            Enter desired stat goals for <span class="text-purple-400 font-semibold">Mastery</span>, <span class="text-blue-400 font-semibold">Crit</span>, <span class="text-slate-300 font-semibold">Haste</span>, and <span class="text-emerald-400 font-semibold">Versatility</span>, or click any of the <strong class="text-amber-300">Recommended Presets</strong> from Wowhead / Archon to load them instantly.
+          <p class="text-slate-400 pl-7" data-i18n-html="guideStep2Desc">
+            Click <strong class="text-emerald-300"><i class="fa-solid fa-file-import"></i> Import SimC</strong> in the top menu and paste your copied text (<kbd class="bg-slate-800 border border-slate-700 px-1 py-0.5 rounded text-white font-mono text-[10px]">Ctrl + V</kbd>). The optimizer will automatically load your equipped items, bag gear, and weekly <strong class="text-yellow-300">Great Vault</strong> options.
           </p>
         </div>
 
@@ -909,42 +919,53 @@
         <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
           <div class="flex items-center gap-2">
             <span class="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[11px] flex items-center justify-center">3</span>
-            <h4 class="font-bold text-amber-300 text-sm">Calculate the Best Setup</h4>
+            <h4 class="font-bold text-amber-300 text-sm" data-i18n="guideStep3Title">Set Secondary Stat Targets</h4>
           </div>
-          <div class="text-slate-400 pl-7 space-y-2">
-            <p>Click <strong class="text-amber-300">Calculate Best Setup</strong> to find the mathematically optimal combination among all available items.</p>
-            <ul class="space-y-1 text-slate-400 list-disc list-inside">
-              <li><strong class="text-yellow-300"><i class="fa-solid fa-vault mr-1"></i>Great Vault</strong>: See exactly which item from your weekly vault yields the highest stat compliance.</li>
-              <li><strong class="text-amber-400"><i class="fa-solid fa-lock mr-1"></i>Lock Items</strong>: Click the padlock icon on any item to force it into the combination.</li>
-              <li><strong class="text-purple-300"><i class="fa-solid fa-layer-group mr-1"></i>Tier Set Bonus</strong>: Require 2P or 4P set bonuses.</li>
-            </ul>
-          </div>
+          <p class="text-slate-400 pl-7" data-i18n-html="guideStep3Desc">
+            Enter desired stat goals for <span class="text-purple-400 font-semibold">Mastery</span>, <span class="text-blue-400 font-semibold">Crit</span>, <span class="text-slate-300 font-semibold">Haste</span>, and <span class="text-emerald-400 font-semibold">Versatility</span>, or click any of the <strong class="text-amber-300">Recommended Presets</strong> from Wowhead / Archon to load them instantly.
+          </p>
         </div>
 
         <!-- Step 4 -->
         <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
           <div class="flex items-center gap-2">
             <span class="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[11px] flex items-center justify-center">4</span>
-            <h4 class="font-bold text-amber-300 text-sm">Gems, Enchants & Simulation</h4>
+            <h4 class="font-bold text-amber-300 text-sm" data-i18n="guideStep4Title">Calculate the Best Setup</h4>
           </div>
-          <p class="text-slate-400 pl-7">
+          <div class="text-slate-400 pl-7 space-y-2">
+            <p data-i18n-html="guideStep4Intro">Click <strong class="text-amber-300">Calculate Best Setup</strong> to find the mathematically optimal combination among all available items.</p>
+            <ul class="space-y-1 text-slate-400 list-disc list-inside">
+              <li data-i18n-html="guideStep4Vault"><strong class="text-yellow-300"><i class="fa-solid fa-vault mr-1"></i>Great Vault</strong>: See exactly which item from your weekly vault yields the highest stat compliance.</li>
+              <li data-i18n-html="guideStep4Lock"><strong class="text-amber-400"><i class="fa-solid fa-lock mr-1"></i>Lock Items</strong>: Click the padlock icon on any item to force it into the combination.</li>
+              <li data-i18n-html="guideStep4Tier"><strong class="text-purple-300"><i class="fa-solid fa-layer-group mr-1"></i>Tier Set Bonus</strong>: Require 2P or 4P set bonuses.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
+          <div class="flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[11px] flex items-center justify-center">5</span>
+            <h4 class="font-bold text-amber-300 text-sm" data-i18n="guideStep5Title">Gems, Enchants & Simulation</h4>
+          </div>
+          <p class="text-slate-400 pl-7" data-i18n-html="guideStep5Desc">
             Inspect the suggested <strong class="text-amber-300">smart gems</strong> and enchants. Click <strong class="text-emerald-300"><i class="fa-solid fa-file-export"></i> Export SimC</strong> to send the setup straight to <strong class="text-white">Raidbots</strong>.
           </p>
         </div>
 
         <!-- Keyboard Shortcuts -->
         <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
-          <h4 class="font-bold text-slate-300 flex items-center gap-1.5"><i class="fa-solid fa-keyboard text-amber-400"></i> Keyboard Shortcuts</h4>
+          <h4 class="font-bold text-slate-300 flex items-center gap-1.5"><i class="fa-solid fa-keyboard text-amber-400"></i> <span data-i18n="guideShortcutsTitle">Keyboard Shortcuts</span></h4>
           <div class="flex flex-wrap items-center gap-3 pt-1 pl-2 text-slate-400">
-            <span><kbd class="bg-slate-800 border border-slate-700 px-2 py-0.5 rounded text-white font-mono font-bold">Ctrl + Enter</kbd> Run Optimizer</span>
-            <span><kbd class="bg-slate-800 border border-slate-700 px-2 py-0.5 rounded text-white font-mono font-bold">Ctrl + K</kbd> Search Inventory</span>
-            <span><kbd class="bg-slate-800 border border-slate-700 px-2 py-0.5 rounded text-white font-mono font-bold">Esc</kbd> Close Modal</span>
+            <span><kbd class="bg-slate-800 border border-slate-700 px-2 py-0.5 rounded text-white font-mono font-bold">Ctrl + Enter</kbd> <span data-i18n="guideRunShortcut">Run Optimizer</span></span>
+            <span><kbd class="bg-slate-800 border border-slate-700 px-2 py-0.5 rounded text-white font-mono font-bold">Ctrl + K</kbd> <span data-i18n="guideSearchShortcut">Search Inventory</span></span>
+            <span><kbd class="bg-slate-800 border border-slate-700 px-2 py-0.5 rounded text-white font-mono font-bold">Esc</kbd> <span data-i18n="guideCloseShortcut">Close Modal</span></span>
           </div>
         </div>
       </div>
 
       <div class="pt-3 border-t border-wow-border flex justify-end flex-shrink-0">
-        <button type="button" onclick="closeHelpModal()" class="px-5 py-1.5 rounded-lg text-xs font-bold text-black bg-amber-400 hover:bg-amber-300 transition shadow" data-i18n="closeModal">Got it</button>
+        <button type="button" onclick="closeHelpModal()" class="px-5 py-1.5 rounded-lg text-xs font-bold text-black bg-amber-400 hover:bg-amber-300 transition shadow" data-i18n="guideGotIt">Got it</button>
       </div>
     </div>
   </div>

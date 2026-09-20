@@ -243,17 +243,24 @@ function renderInventory() {
     const lockedCount = items.filter(x => x.locked).length;
     const vaultCount = items.filter(x => x.isVault).length;
 
+    const lang = (typeof currentLang !== 'undefined' && (currentLang === 'es' || currentLang === 'mx')) ? 'es' : 'en';
+    const txtShowing = lang === 'es' ? 'Mostrando' : 'Showing';
+    const txtOf = lang === 'es' ? 'de' : 'of';
+    const txtMyth = lang === 'es' ? 'Mítico' : 'Mythic';
+    const txtSockets = lang === 'es' ? 'Ranuras' : 'Sockets';
+    const txtVault = lang === 'es' ? 'Gran Cámara' : 'Great Vault';
+
     statsStrip.innerHTML = `
-      <span>Mostrando: <strong class="text-amber-300">${filtered.length}</strong> de <strong class="text-white">${totalCount}</strong></span>
+      <span>${txtShowing}: <strong class="text-amber-300">${filtered.length}</strong> ${txtOf} <strong class="text-white">${totalCount}</strong></span>
       <span class="text-slate-600">•</span>
-      <span class="text-purple-400 font-semibold">Mítico: ${mythCount}</span>
+      <span class="text-purple-400 font-semibold">${txtMyth}: ${mythCount}</span>
       <span class="text-blue-400 font-semibold">Hero: ${heroCount}</span>
       <span class="text-emerald-400 font-semibold">Champ: ${champCount}</span>
       <span class="text-amber-400 font-semibold">Vet: ${vetCount}</span>
       <span class="text-slate-600">•</span>
-      <span class="text-amber-300 font-semibold"><i class="fa-solid fa-gem text-[9px] mr-0.5"></i> ${socketCount} Ranuras</span>
+      <span class="text-amber-300 font-semibold"><i class="fa-solid fa-gem text-[9px] mr-0.5"></i> ${socketCount} ${txtSockets}</span>
       <span class="text-purple-300 font-semibold">${tierCount} Tier</span>
-      ${vaultCount > 0 ? `<span class="text-yellow-300 font-bold bg-yellow-950/60 border border-yellow-500/50 px-1.5 py-0.5 rounded shadow-sm flex items-center gap-1"><i class="fa-solid fa-vault text-[9px] text-yellow-400"></i> ${vaultCount} Gran Cámara</span>` : ''}
+      ${vaultCount > 0 ? `<span class="text-yellow-300 font-bold bg-yellow-950/60 border border-yellow-500/50 px-1.5 py-0.5 rounded shadow-sm flex items-center gap-1"><i class="fa-solid fa-vault text-[9px] text-yellow-400"></i> ${vaultCount} ${txtVault}</span>` : ''}
       ${lockedCount > 0 ? `<span class="text-amber-400 font-bold bg-amber-950/40 border border-amber-500/40 px-1 rounded"><i class="fa-solid fa-lock text-[9px]"></i> ${lockedCount}</span>` : ''}
     `;
   }
@@ -286,12 +293,12 @@ function renderInventory() {
           <i class="fa-solid fa-box-open text-2xl"></i>
         </div>
         <div>
-          <h4 class="text-base font-bold text-white">Tu inventario está vacío</h4>
-          <p class="text-xs text-slate-400 max-w-md mx-auto mt-1">Importa tus piezas mediante la cadena de SimulationCraft o añade objetos manualmente.</p>
+          <h4 class="text-base font-bold text-white">${t('emptyInvTitle', 'Tu inventario está vacío')}</h4>
+          <p class="text-xs text-slate-400 max-w-md mx-auto mt-1">${t('emptyInvDesc', 'Importa tus piezas mediante la cadena de SimulationCraft o añade objetos manualmente.')}</p>
         </div>
         <div class="flex items-center justify-center gap-3 pt-2">
           <button onclick="openSimcModal()" class="px-4 py-2 rounded-lg text-xs font-bold text-white bg-gradient-to-r from-emerald-700 to-teal-700 hover:from-emerald-600 hover:to-teal-600 flex items-center gap-1.5 shadow">
-            <i class="fa-solid fa-file-import"></i> Import SimC
+            <i class="fa-solid fa-file-import"></i> ${t('emptyInvImportBtn', 'Importar SimC')}
           </button>
         </div>
       </div>
