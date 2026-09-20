@@ -98,10 +98,43 @@ const wowTerms = [
   [/Buff/gi, 'Mejora']
 ];
 
-function translateTitle(enTitle) {
+async function fetchOnlineTranslation(text) {
+  if (!text || text.trim().length === 0) return text;
+  return new Promise((resolve) => {
+    const url = 'https://api.mymemory.translated.net/get?q=' + encodeURIComponent(text.trim()) + '&langpair=en|es';
+    const req = https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, res => {
+      let data = '';
+      res.on('data', c => data += c);
+      res.on('end', () => {
+        try {
+          const parsed = JSON.parse(data);
+          if (parsed && parsed.responseData && parsed.responseData.translatedText) {
+            let resText = parsed.responseData.translatedText;
+            // Corregir términos de WoW sobre la traducción
+            for (const [pattern, rep] of wowTerms) {
+              resText = resText.replace(pattern, rep);
+            }
+            return resolve(resText);
+          }
+        } catch (e) {}
+        resolve(null);
+      });
+    });
+    req.on('error', () => resolve(null));
+    req.setTimeout(4000, () => {
+      req.destroy();
+      resolve(null);
+    });
+  });
+}
+
+async function translateTitle(enTitle) {
   if (exactTitleTranslations[enTitle.trim()]) {
     return exactTitleTranslations[enTitle.trim()];
   }
+  const online = await fetchOnlineTranslation(enTitle);
+  if (online) return online;
+
   let es = enTitle;
   for (const [pattern, rep] of wowTerms) {
     es = es.replace(pattern, rep);
@@ -109,10 +142,13 @@ function translateTitle(enTitle) {
   return es;
 }
 
-function translateSummary(enSummary) {
+async function translateSummary(enSummary) {
   if (exactSummaryTranslations[enSummary.trim()]) {
     return exactSummaryTranslations[enSummary.trim()];
   }
+  const online = await fetchOnlineTranslation(enSummary);
+  if (online) return online;
+
   let es = enSummary;
   for (const [pattern, rep] of wowTerms) {
     es = es.replace(pattern, rep);
@@ -192,8 +228,9 @@ async function runBatch() {
         const idMatch = item.link.match(/news(?:=|\/.*?-)([0-9]+)/);
         const articleId = idMatch ? `wh-${idMatch[1]}` : `wh-${Date.now()}`;
 
+        const titleEs = await translateTitle(item.title);
         const summaryEn = articleData.paragraphs[0] || item.title;
-        const summaryEs = translateSummary(summaryEn.slice(0, 180) + '...') || translateTitle(item.title);
+        const summaryEs = await translateSummary(summaryEn.slice(0, 180) + '...') || titleEs;
 
         processedArticles.push({
           id: articleId,
@@ -204,7 +241,7 @@ async function runBatch() {
           badgeColor: 'border-amber-500/60 bg-amber-950/80 text-amber-300',
           title: {
             en: item.title,
-            es: translateTitle(item.title)
+            es: titleEs
           },
           summary: {
             en: summaryEn.slice(0, 180) + '...',
@@ -235,6 +272,16 @@ async function runBatch() {
   const stagingJsPath = path.join(__dirname, '../staging/mock_news_data.js');
   fs.writeFileSync(stagingJsPath, 'window.STAGING_NEWS_DATA = ' + JSON.stringify(processedArticles, null, 2) + ';', 'utf-8');
   console.log(`✓ Sincronizado automáticamente con Staging en: ${stagingJsPath}`);
+
+  // 3. Fusionar directamente con el entorno de producción (js/data/wow_news_data.js)
+  try {
+    const { execSync } = require('child_process');
+    execSync('node ' + path.join(__dirname, 'merge_news_to_production.js'), { stdio: 'inherit' });
+    console.log('✓ Base de datos de producción sincronizada con éxito.');
+  } catch (mergeErr) {
+    console.warn('! Aviso al fusionar con producción:', mergeErr.message);
+  }
+
   console.log('=== Proceso Completado con Éxito ===');
 }
 
