@@ -1613,13 +1613,14 @@
 
         const fileContent = `// Configuración de Noticias Destacadas fijadas en la portada de WoWOptimizer\n// Este archivo es público y se lee en index.html y admin.html\nwindow.WOW_PINNED_NEWS_CONFIG = {\n  "pinnedIds": ${JSON.stringify(pinnedIds, null, 2)},\n  "lastUpdated": "${new Date().toISOString()}"\n};\n`;
 
-        // 1. Obtener SHA actual del archivo en main
+        // 1. Obtener SHA actual y fresco del archivo en main directamente de la API
         let sha = null;
         try {
-          const getRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${FILE_PATH}?ref=main`, {
+          const getRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${FILE_PATH}?ref=main&_ts=${Date.now()}`, {
             headers: {
               'Authorization': `Bearer ${token}`,
-              'Accept': 'application/vnd.github+json'
+              'Accept': 'application/vnd.github+json',
+              'Cache-Control': 'no-cache'
             }
           });
           if (getRes.ok) {
@@ -1661,10 +1662,14 @@
           throw new Error(errData.message || `Error HTTP ${putRes.status}`);
         }
 
-        // 3. Sincronizar también con branch staging
+        // 3. Sincronizar también con branch staging obteniendo su SHA fresco
         try {
-          const getStaging = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${FILE_PATH}?ref=staging`, {
-            headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' }
+          const getStaging = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${FILE_PATH}?ref=staging&_ts=${Date.now()}`, {
+            headers: { 
+              'Authorization': `Bearer ${token}`, 
+              'Accept': 'application/vnd.github+json',
+              'Cache-Control': 'no-cache'
+            }
           });
           let stagingSha = null;
           if (getStaging.ok) {
