@@ -269,10 +269,10 @@
             <span><span data-i18n="targetBudget">Target Budget</span>: <span id="target-total-pts" class="text-white font-black">0</span> pts</span>
           </div>
           <div class="flex items-center gap-3 text-[11px] font-semibold" id="target-ratios-container">
-            <span class="text-purple-300"><i class="fa-solid fa-square text-purple-400 mr-1 text-[10px]"></i>Mast <span id="ratio-mast">0.0%</span></span>
-            <span class="text-blue-300"><i class="fa-solid fa-square text-blue-400 mr-1 text-[10px]"></i>Crit <span id="ratio-crit">0.0%</span></span>
-            <span class="text-slate-300"><i class="fa-solid fa-square text-slate-400 mr-1 text-[10px]"></i>Haste <span id="ratio-haste">0.0%</span></span>
-            <span class="text-emerald-300"><i class="fa-solid fa-square text-emerald-400 mr-1 text-[10px]"></i>Vers <span id="ratio-vers">0.0%</span></span>
+            <span class="text-purple-300"><i class="fa-solid fa-square text-purple-400 mr-1 text-[10px]"></i><span id="label-ratio-mast">Mast</span> <span id="ratio-mast">0.0%</span></span>
+            <span class="text-blue-300"><i class="fa-solid fa-square text-blue-400 mr-1 text-[10px]"></i><span id="label-ratio-crit">Crit</span> <span id="ratio-crit">0.0%</span></span>
+            <span class="text-slate-300"><i class="fa-solid fa-square text-slate-400 mr-1 text-[10px]"></i><span id="label-ratio-haste">Haste</span> <span id="ratio-haste">0.0%</span></span>
+            <span class="text-emerald-300"><i class="fa-solid fa-square text-emerald-400 mr-1 text-[10px]"></i><span id="label-ratio-vers">Vers</span> <span id="ratio-vers">0.0%</span></span>
           </div>
         </div>
 
@@ -326,31 +326,31 @@
             
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-3 mt-2 border-t border-wow-border/40">
               <div>
-                <label class="text-[11px] font-bold text-purple-400 block mb-1">Mastery Weight (x<span id="label-w-mast">1.0</span>)</label>
+                <label class="text-[11px] font-bold text-purple-400 block mb-1"><span data-i18n="weightMastery">Mastery Weight</span> (x<span id="label-w-mast">1.0</span>)</label>
                 <input type="range" id="weight-mastery" min="0.2" max="2.5" step="0.1" value="1.0" oninput="document.getElementById('label-w-mast').innerText = this.value;" class="w-full accent-purple-500 cursor-pointer">
               </div>
               <div>
-                <label class="text-[11px] font-bold text-blue-400 block mb-1">Crit Weight (x<span id="label-w-crit">1.0</span>)</label>
+                <label class="text-[11px] font-bold text-blue-400 block mb-1"><span data-i18n="weightCrit">Crit Weight</span> (x<span id="label-w-crit">1.0</span>)</label>
                 <input type="range" id="weight-crit" min="0.2" max="2.5" step="0.1" value="1.0" oninput="document.getElementById('label-w-crit').innerText = this.value;" class="w-full accent-blue-500 cursor-pointer">
               </div>
               <div>
-                <label class="text-[11px] font-bold text-slate-300 block mb-1">Haste Weight (x<span id="label-w-haste">1.0</span>)</label>
+                <label class="text-[11px] font-bold text-slate-300 block mb-1"><span data-i18n="weightHaste">Haste Weight</span> (x<span id="label-w-haste">1.0</span>)</label>
                 <input type="range" id="weight-haste" min="0.2" max="2.5" step="0.1" value="1.0" oninput="document.getElementById('label-w-haste').innerText = this.value;" class="w-full accent-slate-400 cursor-pointer">
               </div>
               <div>
-                <label class="text-[11px] font-bold text-emerald-400 block mb-1">Versatility Weight (x<span id="label-w-vers">1.0</span>)</label>
+                <label class="text-[11px] font-bold text-emerald-400 block mb-1"><span data-i18n="weightVers">Versatility Weight</span> (x<span id="label-w-vers">1.0</span>)</label>
                 <input type="range" id="weight-vers" min="0.2" max="2.5" step="0.1" value="1.0" oninput="document.getElementById('label-w-vers').innerText = this.value;" class="w-full accent-emerald-500 cursor-pointer">
               </div>
             </div>
 
             <!-- Quick Weight Presets Toolbar -->
             <div class="flex items-center gap-1.5 flex-wrap pt-2.5 mt-2 border-t border-wow-border/30 text-[11px]">
-              <span class="text-slate-400 font-semibold">Quick Presets:</span>
-              <button type="button" onclick="resetWeightsToCurrentSpec()" class="px-2 py-0.5 rounded bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 font-bold border border-amber-500/50 transition flex items-center gap-1"><i class="fa-solid fa-wand-magic-sparkles text-[10px]"></i> Auto Spec</button>
-              <button type="button" onclick="applyWeightPreset(1.0, 1.0, 1.0, 1.0)" class="px-2 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-600 transition">Balanced (1.0x)</button>
-              <button type="button" onclick="applyWeightPreset(1.8, 1.0, 0.8, 0.5)" class="px-2 py-0.5 rounded bg-purple-950/60 hover:bg-purple-900 text-purple-300 border border-purple-600/50 transition">Mastery Focus</button>
-              <button type="button" onclick="applyWeightPreset(1.0, 1.8, 0.8, 0.5)" class="px-2 py-0.5 rounded bg-blue-950/60 hover:bg-blue-900 text-blue-300 border border-blue-600/50 transition">Crit Focus</button>
-              <button type="button" onclick="applyWeightPreset(0.8, 1.0, 1.8, 0.5)" class="px-2 py-0.5 rounded bg-amber-950/60 hover:bg-amber-900 text-amber-300 border border-amber-600/50 transition">Haste Focus</button>
+              <span class="text-slate-400 font-semibold" data-i18n="quickPresetsLabel">Quick Presets:</span>
+              <button type="button" onclick="resetWeightsToCurrentSpec()" class="px-2 py-0.5 rounded bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 font-bold border border-amber-500/50 transition flex items-center gap-1"><i class="fa-solid fa-wand-magic-sparkles text-[10px]"></i> <span data-i18n="autoSpecPreset">Auto Spec</span></button>
+              <button type="button" onclick="applyWeightPreset(1.0, 1.0, 1.0, 1.0)" class="px-2 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-600 transition" data-i18n="presetBalanced">Balanced (1.0x)</button>
+              <button type="button" onclick="applyWeightPreset(1.8, 1.0, 0.8, 0.5)" class="px-2 py-0.5 rounded bg-purple-950/60 hover:bg-purple-900 text-purple-300 border border-purple-600/50 transition" data-i18n="presetMasteryFocus">Mastery Focus</button>
+              <button type="button" onclick="applyWeightPreset(1.0, 1.8, 0.8, 0.5)" class="px-2 py-0.5 rounded bg-blue-950/60 hover:bg-blue-900 text-blue-300 border border-blue-600/50 transition" data-i18n="presetCritFocus">Crit Focus</button>
+              <button type="button" onclick="applyWeightPreset(0.8, 1.0, 1.8, 0.5)" class="px-2 py-0.5 rounded bg-amber-950/60 hover:bg-amber-900 text-amber-300 border border-amber-600/50 transition" data-i18n="presetHasteFocus">Haste Focus</button>
             </div>
           </details>
 
@@ -419,21 +419,21 @@
             
             <select id="filter-slot" onchange="renderInventory()" class="bg-wow-input border border-wow-border rounded-lg px-3 py-1.5 text-sm text-slate-300 focus:outline-none">
               <option value="all" data-i18n="invFilterAllSlots">All Slots</option>
-              <option value="head">Head</option>
-              <option value="neck">Neck</option>
-              <option value="shoulder">Shoulder</option>
-              <option value="back">Back</option>
-              <option value="chest">Chest</option>
-              <option value="wrist">Wrist</option>
-              <option value="hands">Hands</option>
-              <option value="waist">Waist</option>
-              <option value="legs">Legs</option>
-              <option value="feet">Feet</option>
-              <option value="finger">Finger (Rings)</option>
-              <option value="trinket">Trinkets</option>
-              <option value="weapon_2h">2H Weapons</option>
-              <option value="weapon_1h">1H Weapons</option>
-              <option value="shield">Shields</option>
+              <option value="head" data-i18n="slotHead">Head</option>
+              <option value="neck" data-i18n="slotNeck">Neck</option>
+              <option value="shoulder" data-i18n="slotShoulder">Shoulder</option>
+              <option value="back" data-i18n="slotBack">Back</option>
+              <option value="chest" data-i18n="slotChest">Chest</option>
+              <option value="wrist" data-i18n="slotWrist">Wrist</option>
+              <option value="hands" data-i18n="slotHands">Hands</option>
+              <option value="waist" data-i18n="slotWaist">Waist</option>
+              <option value="legs" data-i18n="slotLegs">Legs</option>
+              <option value="feet" data-i18n="slotFeet">Feet</option>
+              <option value="finger" data-i18n="slotFinger">Finger (Rings)</option>
+              <option value="trinket" data-i18n="slotTrinket">Trinkets</option>
+              <option value="weapon_2h" data-i18n="slotWeapon2h">2H Weapons</option>
+              <option value="weapon_1h" data-i18n="slotWeapon1h">1H Weapons</option>
+              <option value="shield" data-i18n="slotShield">Shields</option>
             </select>
 
             <select id="sort-inventory" onchange="renderInventory()" class="bg-wow-input border border-wow-border rounded-lg px-3 py-1.5 text-sm text-slate-300 focus:outline-none">
@@ -609,31 +609,31 @@
           <div>
             <label class="text-xs font-semibold text-slate-300 block mb-1" data-i18n="itemSlotLabel">Slot</label>
             <select id="item-slot" disabled onchange="onItemSlotChange()" class="w-full bg-black/50 border border-wow-border/50 rounded px-2.5 py-1.5 text-sm text-slate-300 cursor-not-allowed select-none focus:outline-none">
-              <option value="head">Head</option>
-              <option value="neck">Neck</option>
-              <option value="shoulder">Shoulder</option>
-              <option value="back">Back</option>
-              <option value="chest">Chest</option>
-              <option value="wrist">Wrist</option>
-              <option value="hands">Hands</option>
-              <option value="waist">Waist</option>
-              <option value="legs">Legs</option>
-              <option value="feet">Feet</option>
-              <option value="finger">Finger</option>
-              <option value="trinket">Trinket</option>
-              <option value="weapon_2h">2H Weapon</option>
-              <option value="weapon_1h">1H Weapon</option>
-              <option value="shield">Shield</option>
+              <option value="head" data-i18n="slotHead">Head</option>
+              <option value="neck" data-i18n="slotNeck">Neck</option>
+              <option value="shoulder" data-i18n="slotShoulder">Shoulder</option>
+              <option value="back" data-i18n="slotBack">Back</option>
+              <option value="chest" data-i18n="slotChest">Chest</option>
+              <option value="wrist" data-i18n="slotWrist">Wrist</option>
+              <option value="hands" data-i18n="slotHands">Hands</option>
+              <option value="waist" data-i18n="slotWaist">Waist</option>
+              <option value="legs" data-i18n="slotLegs">Legs</option>
+              <option value="feet" data-i18n="slotFeet">Feet</option>
+              <option value="finger" data-i18n="slotFinger">Finger</option>
+              <option value="trinket" data-i18n="slotTrinket">Trinket</option>
+              <option value="weapon_2h" data-i18n="slotWeapon2h">2H Weapon</option>
+              <option value="weapon_1h" data-i18n="slotWeapon1h">1H Weapon</option>
+              <option value="shield" data-i18n="slotShield">Shield</option>
             </select>
           </div>
           <div>
             <label class="text-xs font-semibold text-slate-300 block mb-1" data-i18n="itemTrackLabel">Upgrade Track</label>
             <select id="item-track" onchange="onItemTrackChange()" class="w-full bg-wow-input border border-wow-border rounded px-2.5 py-1.5 text-sm text-white focus:outline-none cursor-pointer">
-              <option value="myth">Mythic (Myth)</option>
-              <option value="hero" selected>Heroic (Hero)</option>
-              <option value="champ">Champion (Champ)</option>
-              <option value="vet">Veteran (Vet)</option>
-              <option value="adventurer">Adventurer</option>
+              <option value="myth" data-i18n="trackMythName">Mythic (Myth)</option>
+              <option value="hero" selected data-i18n="trackHeroName">Heroic (Hero)</option>
+              <option value="champ" data-i18n="trackChampName">Champion (Champ)</option>
+              <option value="vet" data-i18n="trackVetName">Veteran (Vet)</option>
+              <option value="adventurer" data-i18n="trackAdvName">Adventurer</option>
             </select>
           </div>
           <div>
@@ -645,7 +645,7 @@
         <!-- Stats Grid (PURE BASE STATS) -->
         <div class="bg-black/30 p-3 rounded-lg border border-wow-border/50">
           <div class="flex items-center justify-between mb-2">
-            <p class="text-xs font-bold text-slate-400 uppercase tracking-wide">Pure Base Stats (No Gems)</p>
+            <p class="text-xs font-bold text-slate-400 uppercase tracking-wide" data-i18n="pureBaseStatsTitle">Pure Base Stats (No Gems)</p>
             <span id="item-modal-stats-total" class="text-[11px] font-bold text-amber-300 bg-amber-950/60 border border-amber-500/40 px-2 py-0.5 rounded font-mono">Total: 0 pts</span>
           </div>
           <div class="grid grid-cols-4 gap-2">
@@ -679,7 +679,7 @@
           </label>
           <label class="flex items-center gap-1.5 cursor-pointer select-none">
             <input type="checkbox" id="item-vault" class="rounded bg-black border-slate-600 text-yellow-400 focus:ring-0">
-            <span class="text-yellow-300 font-medium"><i class="fa-solid fa-vault text-[10px] mr-0.5"></i> Great Vault</span>
+            <span class="text-yellow-300 font-medium"><i class="fa-solid fa-vault text-[10px] mr-0.5"></i> <span data-i18n="badgeVault">Great Vault</span></span>
           </label>
         </div>
 
@@ -797,7 +797,7 @@
           </div>
           <div>
             <h3 class="text-base font-bold text-white" data-i18n="compareModalTitle">Comparison: Currently Equipped vs Optimal Recommendation</h3>
-            <p class="text-xs text-slate-400">Review piece by piece improvements and stat changes</p>
+            <p class="text-xs text-slate-400" data-i18n="compareModalSubtitle">Review piece by piece improvements and stat changes</p>
           </div>
         </div>
         <button onclick="closeCompareModal()" class="text-slate-400 hover:text-white">
@@ -810,7 +810,7 @@
       </div>
 
       <div class="pt-3 border-t border-wow-border flex items-center justify-between gap-2 flex-shrink-0">
-        <span class="text-xs text-slate-400">Green stat differences indicate gains over your currently equipped items.</span>
+        <span class="text-xs text-slate-400" data-i18n="compareFooterNote">Green stat differences indicate gains over your currently equipped items.</span>
         <div class="flex items-center gap-2">
           <button type="button" onclick="closeCompareModal()" class="px-5 py-1.5 rounded-lg text-xs font-bold text-black bg-amber-400 hover:bg-amber-300 shadow" data-i18n="closeModal">Close</button>
         </div>

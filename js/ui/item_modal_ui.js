@@ -29,17 +29,34 @@ function populateIlvlDropdown(track, selectedIlvl = null, slotOverride = null) {
     steps = steps.filter(s => !s.rank.toLowerCase().includes('venomstone'));
   }
 
+  const lang = (typeof currentLang !== 'undefined' && (currentLang === 'es' || currentLang === 'mx')) ? 'es' : 'en';
+
   const numSelected = selectedIlvl !== null ? Number(selectedIlvl) : null;
   if (numSelected && !steps.some(s => s.ilvl === numSelected)) {
-    steps.push({ rank: `Especial / Very Rare (${numSelected})`, ilvl: numSelected });
+    steps.push({ rank: lang === 'es' ? `Especial / Muy Raro (${numSelected})` : `Special / Very Rare (${numSelected})`, ilvl: numSelected });
     steps.sort((a, b) => a.ilvl - b.ilvl);
   }
 
-  select.innerHTML = steps.map(s => `
+  select.innerHTML = steps.map(s => {
+    let rankLabel = s.rank;
+    if (lang === 'es') {
+      rankLabel = rankLabel
+        .replace(/Myth\b/gi, 'Mito')
+        .replace(/Mythic\b/gi, 'Mítico')
+        .replace(/Hero\b/gi, 'Hero')
+        .replace(/Heroic\b/gi, 'Heroico')
+        .replace(/Champion\b/gi, 'Campeón')
+        .replace(/Veteran\b/gi, 'Veterano')
+        .replace(/Adventurer\b/gi, 'Aventurero')
+        .replace(/Crafted\b/gi, 'Fabricado')
+        .replace(/Crests\b/gi, 'Blasones');
+    }
+    return `
     <option value="${s.ilvl}" ${(numSelected !== null && numSelected === s.ilvl) ? 'selected' : ''}>
-      ${s.rank} (${s.ilvl})
+      ${rankLabel} (${s.ilvl})
     </option>
-  `).join('');
+  `;
+  }).join('');
 
   if (numSelected !== null && steps.some(s => s.ilvl === numSelected)) {
     select.value = numSelected;

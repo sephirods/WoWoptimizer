@@ -389,8 +389,9 @@ function openCompareModal() {
                                 (curItem.crit || 0) === (optItem.crit || 0) && 
                                 (curItem.haste || 0) === (optItem.haste || 0) && 
                                 (curItem.vers || 0) === (optItem.vers || 0));
+                const localizedSlot = typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(slot) : slot.replace('_', ' ');
                 rows.push({
-                  slotLabel: slot.replace('_', ' '),
+                  slotLabel: localizedSlot,
                   optItem,
                   curItem,
                   isSame
@@ -437,8 +438,8 @@ function openCompareModal() {
                 }
               }
 
-              const ringLabel = t('itemSlotLabel', 'Slot') === 'Casilla' ? 'Anillo' : 'Finger';
-              const trinketLabel = t('itemSlotLabel', 'Slot') === 'Casilla' ? 'Abalorio' : 'Trinket';
+              const ringLabel = typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName('finger') : 'Finger';
+              const trinketLabel = typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName('trinket') : 'Trinket';
               pairMultiSlot('finger', ringLabel);
               pairMultiSlot('trinket', trinketLabel);
 
@@ -446,7 +447,7 @@ function openCompareModal() {
               const eqWeapons = equipped.filter(x => x.slot === 'weapon_2h' || x.slot === 'weapon_1h' || x.slot === 'shield');
               const remainingEqWep = [...eqWeapons];
               const remainingOptWep = [];
-              const weaponPrefix = t('itemSlotLabel', 'Slot') === 'Casilla' ? 'Arma' : 'Weapon';
+              const weaponPrefix = typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName('weapon') : 'Weapon';
 
               for (const opt of optWeapons) {
                 const matchIdx = remainingEqWep.findIndex(eq => 
@@ -458,7 +459,7 @@ function openCompareModal() {
                    (eq.vers || 0) === (opt.vers || 0))
                 );
                 if (matchIdx !== -1) {
-                  const label = optWeapons.length > 1 ? `${weaponPrefix} ${rows.filter(r => r.slotLabel.startsWith(weaponPrefix)).length + 1}` : opt.slot.replace('_', ' ');
+                  const label = optWeapons.length > 1 ? `${weaponPrefix} ${rows.filter(r => r.slotLabel.startsWith(weaponPrefix)).length + 1}` : (typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(opt.slot) : opt.slot.replace('_', ' '));
                   rows.push({
                     slotLabel: label,
                     optItem: opt,
@@ -474,7 +475,7 @@ function openCompareModal() {
               for (let i = 0; i < remainingOptWep.length; i++) {
                 const opt = remainingOptWep[i];
                 const cur = remainingEqWep[i] || { name: t('noneLabel', 'None'), ilvl: '-', icon: SLOT_FALLBACK_ICONS[opt.slot] };
-                const label = optWeapons.length > 1 ? `${weaponPrefix} ${rows.filter(r => r.slotLabel.startsWith(weaponPrefix)).length + 1}` : opt.slot.replace('_', ' ');
+                const label = optWeapons.length > 1 ? `${weaponPrefix} ${rows.filter(r => r.slotLabel.startsWith(weaponPrefix)).length + 1}` : (typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(opt.slot) : opt.slot.replace('_', ' '));
                 rows.push({
                   slotLabel: label,
                   optItem: opt,
@@ -563,22 +564,62 @@ function openCompareModal() {
                     <!-- Equipado Actualmente -->
                     <td class="p-2.5 text-slate-400">
                       <div class="flex items-start gap-2">
-                        <img src="${getWowheadIconUrl(curItem.icon, optItem.slot, curItem.itemId)}" data-item-id="${curItem.itemId || ''}" referrerpolicy="no-referrer" loading="lazy" onerror="handleImageError(this, '${optItem.slot}')" class="w-7 h-7 rounded border border-slate-600 object-cover flex-shrink-0 mt-0.5">
+                        ${curItem.itemId ? `
+                          <a href="${getWowheadBaseUrl()}/item=${curItem.itemId}" target="_blank" ${getItemWowheadAttr(curItem)} class="flex-shrink-0 mt-0.5">
+                            <img src="${getWowheadIconUrl(curItem.icon, optItem.slot, curItem.itemId)}" data-item-id="${curItem.itemId || ''}" referrerpolicy="no-referrer" loading="lazy" onerror="handleImageError(this, '${optItem.slot}')" class="w-7 h-7 rounded border border-slate-600 object-cover shadow-sm">
+                          </a>
+                        ` : `
+                          <img src="${getWowheadIconUrl(curItem.icon, optItem.slot, curItem.itemId)}" data-item-id="${curItem.itemId || ''}" referrerpolicy="no-referrer" loading="lazy" onerror="handleImageError(this, '${optItem.slot}')" class="w-7 h-7 rounded border border-slate-600 object-cover flex-shrink-0 mt-0.5">
+                        `}
                         <div class="min-w-0">
-                          <div class="font-semibold text-slate-300 truncate max-w-[200px]">${curItem.name}</div>
+                          ${curItem.itemId ? `
+                            <a href="${getWowheadBaseUrl()}/item=${curItem.itemId}" target="_blank" ${getItemWowheadAttr(curItem)} class="font-semibold text-slate-300 hover:text-white truncate max-w-[200px] block">${curItem.name}</a>
+                          ` : `
+                            <div class="font-semibold text-slate-300 truncate max-w-[200px]">${curItem.name}</div>
+                          `}
                           <div class="text-[10px] text-slate-400 font-mono">ilvl ${curItem.ilvl || '-'} ${curItem.socket ? `• <i class="fa-solid fa-gem text-[8px] text-amber-400"></i> ${t('badgeSocket', 'Socket')}` : ''}</div>
                           ${formatItemStatsLine(curItem)}
                           ${curItem.socket ? `
                             <div class="text-[10px] text-slate-400 mt-0.5">
-                              <div class="truncate"><i class="fa-solid fa-gem text-[8px] text-slate-500"></i> ${t('gemLabel', 'Gem')}: <span class="${curGemObj ? 'text-slate-300' : 'text-slate-500 italic'}">${curGemObj ? curGemObj.name : (curGemId ? 'Gem ID ' + curGemId : t('ungemmed', 'No gem'))}</span></div>
-                              ${curGemObj?.desc ? `<div class="text-[9px] text-amber-400/90 font-mono pl-3 truncate">${curGemObj.desc}</div>` : ''}
+                              <div class="truncate">
+                                <i class="fa-solid fa-gem text-[8px] text-slate-500"></i> ${t('gemLabel', 'Gem')}: 
+                                ${curGemObj ? `
+                                  <a href="${getWowheadBaseUrl()}/item=${curGemObj.id}" target="_blank" ${getWowheadItemDataAttr(curGemObj.id)} class="text-slate-300 hover:text-purple-300 font-medium">${curGemObj.name}</a>
+                                ` : `
+                                  <span class="${curGemId ? 'text-slate-300' : 'text-slate-500 italic'}">${curGemId ? 'Gem ID ' + curGemId : t('ungemmed', 'No gem')}</span>
+                                `}
+                              </div>
+                              ${curGemObj?.desc ? `<div class="text-[9px] text-amber-400/90 font-mono pl-3 truncate">${typeof getLocalizedGemDesc === 'function' ? getLocalizedGemDesc(curGemObj.desc) : curGemObj.desc}</div>` : ''}
                             </div>
                           ` : ''}
-                          ${(curEnchId || bisEnch) ? `
+                          ${(curEnchId || bisEnch) ? (() => {
+                            let enchItemId = null;
+                            if (curEnchName && typeof window !== 'undefined' && window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES) {
+                              const normCur = normalizeEnch(curEnchName);
+                              for (const cKey in window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES) {
+                                const clsData = window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES[cKey];
+                                for (const sKey in clsData) {
+                                  const encList = clsData[sKey]?.enchants || [];
+                                  const found = encList.find(e => normalizeEnch(e.name) === normCur);
+                                  if (found && found.id) {
+                                    enchItemId = found.id;
+                                    break;
+                                  }
+                                }
+                                if (enchItemId) break;
+                              }
+                            }
+                            return `
                             <div class="text-[10px] text-slate-400 truncate mt-0.5">
-                              <i class="fa-solid fa-wand-magic-sparkles text-[8px] text-slate-500"></i> ${t('enchantLabel', 'Enchant')}: <span class="${curEnchName ? 'text-slate-300 font-medium' : 'text-slate-500 italic'}">${curEnchName || (curEnchId ? 'Enchant #' + curEnchId : t('unenchanted', 'Unenchanted'))}</span>
+                              <i class="fa-solid fa-wand-magic-sparkles text-[8px] text-slate-500"></i> ${t('enchantLabel', 'Enchant')}: 
+                              ${enchItemId ? `
+                                <a href="${getWowheadBaseUrl()}/item=${enchItemId}" target="_blank" ${getWowheadItemDataAttr(enchItemId)} class="text-slate-300 hover:text-blue-300 font-medium hover:underline">${curEnchName}</a>
+                              ` : `
+                                <span class="${curEnchName ? 'text-slate-300 font-medium' : 'text-slate-500 italic'}">${curEnchName || (curEnchId ? 'Enchant #' + curEnchId : t('unenchanted', 'Unenchanted'))}</span>
+                              `}
                             </div>
-                          ` : ''}
+                            `;
+                          })() : ''}
                         </div>
                       </div>
                     </td>
@@ -598,13 +639,17 @@ function openCompareModal() {
                               ${(!isSame && optCurrentGemObj && optCurrentGemId !== optGemRec.gemItemId) ? `
                                 <div class="text-[9px] text-slate-400 truncate"><i class="fa-solid fa-gem text-[8px] text-slate-500"></i> ${t('gemCurrentInBag', 'Current gem in bag:')} <span class="line-through text-slate-400">${optCurrentGemObj.name}</span></div>
                               ` : ''}
-                              <div class="truncate"><i class="fa-solid fa-gem text-[8px] text-amber-400"></i> ${t('gemToUse', 'Gem to use:')} <span class="font-bold text-amber-200">${optGemRec.gemName}</span></div>
-                              ${optGemRec.gemDesc ? `<div class="text-[9px] text-emerald-400/90 font-mono font-normal pl-3 truncate">${optGemRec.gemDesc}</div>` : ''}
+                              <div class="truncate">
+                                <i class="fa-solid fa-gem text-[8px] text-amber-400"></i> ${t('gemToUse', 'Gem to use:')} 
+                                <a href="${getWowheadBaseUrl()}/item=${optGemRec.gemItemId}" target="_blank" ${getWowheadItemDataAttr(optGemRec.gemItemId)} class="font-bold text-amber-200 hover:text-amber-100 hover:underline">${optGemRec.gemName}</a>
+                              </div>
+                              ${optGemRec.gemDesc ? `<div class="text-[9px] text-emerald-400/90 font-mono font-normal pl-3 truncate">${typeof getLocalizedGemDesc === 'function' ? getLocalizedGemDesc(optGemRec.gemDesc) : optGemRec.gemDesc}</div>` : ''}
                             </div>
                           ` : ''}
                           ${bisEnch ? `
                             <div class="text-[10px] text-blue-300 font-medium truncate mt-0.5">
-                              <i class="fa-solid fa-wand-magic-sparkles text-[8px] text-blue-400"></i> ${t('enchantLabel', 'Enchant')}: <span class="font-bold text-blue-200">${bisEnch.name}</span>
+                              <i class="fa-solid fa-wand-magic-sparkles text-[8px] text-blue-400"></i> ${t('enchantLabel', 'Enchant')}: 
+                              <a href="${getWowheadBaseUrl()}/item=${bisEnch.id}" target="_blank" ${getWowheadItemDataAttr(bisEnch.id)} class="font-bold text-blue-200 hover:text-blue-100 hover:underline">${bisEnch.name}</a>
                             </div>
                           ` : ''}
                         </div>
@@ -613,18 +658,18 @@ function openCompareModal() {
 
                     <!-- Estado / Acción Requerida -->
                     <td class="p-2.5 text-center align-middle">
-                      <div class="flex flex-col gap-1 items-center justify-center">
+                      <div class="flex flex-col gap-1.5 items-center justify-center min-w-[125px]">
                         ${!isSame ? 
-                          `<span class="px-2.5 py-0.5 rounded bg-amber-950/90 text-amber-300 border border-amber-500/60 text-[10px] font-bold shadow-sm inline-flex items-center gap-1">⚡ ${t('equipAction', 'Equip Item')}</span>` : ''
+                          `<span class="w-28 py-1 rounded bg-amber-950/90 text-amber-300 border border-amber-500/60 text-[10px] font-bold shadow-sm inline-flex items-center justify-center gap-1.5 transition">⚡ ${t('equipAction', 'Equip Item')}</span>` : ''
                         }
                         ${(!isSame ? optGemNeedsChange : curGemNeedsChange) ? 
-                          `<span class="px-2 py-0.5 rounded bg-purple-950/90 text-purple-300 border border-purple-500/60 text-[10px] font-bold inline-flex items-center gap-1 shadow-sm">💎 ${(!isSame ? optCurrentGemId : curGemId) ? t('changeGem', 'Change Gem') : t('socketGem', 'Socket Gem')}</span>` : ''
+                          `<span class="w-28 py-1 rounded bg-purple-950/90 text-purple-300 border border-purple-500/60 text-[10px] font-bold inline-flex items-center justify-center gap-1.5 shadow-sm transition">💎 ${(!isSame ? optCurrentGemId : curGemId) ? t('changeGem', 'Change Gem') : t('socketGem', 'Socket Gem')}</span>` : ''
                         }
                         ${(!isSame ? (optEnchantNeedsApply || optEnchantCanOptimize) : (enchantNeedsApply || enchantCanOptimize)) ? 
-                          `<span class="px-2 py-0.5 rounded bg-blue-950/90 text-blue-300 border border-blue-500/60 text-[10px] font-bold inline-flex items-center gap-1 shadow-sm">✨ ${(!isSame ? optEnchId : curEnchId) ? t('reEnchant', 'Re-enchant') : t('applyEnchant', 'Enchant')}</span>` : ''
+                          `<span class="w-28 py-1 rounded bg-blue-950/90 text-blue-300 border border-blue-500/60 text-[10px] font-bold inline-flex items-center justify-center gap-1.5 shadow-sm transition">✨ ${(!isSame ? optEnchId : curEnchId) ? t('reEnchant', 'Re-enchant') : t('applyEnchant', 'Enchant')}</span>` : ''
                         }
                         ${!hasActions ? 
-                          `<span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-400 text-[10px] font-semibold inline-flex items-center gap-1">✓ ${t('keepAction', 'Keep')}</span>` : ''
+                          `<span class="w-28 py-1 rounded bg-slate-800/80 text-slate-400 border border-slate-700/60 text-[10px] font-semibold inline-flex items-center justify-center gap-1.5 transition">✓ ${t('keepAction', 'Keep')}</span>` : ''
                         }
                       </div>
                     </td>
@@ -641,6 +686,9 @@ function openCompareModal() {
   const compareModal = document.getElementById('compare-modal');
   if (compareModal) compareModal.classList.remove('hidden');
   if (window.$WowheadPower) window.$WowheadPower.refreshLinks();
+  setTimeout(() => {
+    if (window.$WowheadPower) window.$WowheadPower.refreshLinks();
+  }, 100);
 }
 
 function closeCompareModal() {

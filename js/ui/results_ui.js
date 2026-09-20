@@ -47,24 +47,26 @@ function renderSpecEnchantsAndConsumablesHtml(className, specId) {
       <div class="space-y-2.5">
         <div class="flex items-center justify-between border-b border-blue-500/30 pb-2">
           <h4 class="text-xs font-bold text-blue-300 uppercase tracking-wider flex items-center gap-1.5">
-            <i class="fa-solid fa-wand-magic-sparkles text-blue-400"></i> Encantamientos BiS Recomendados:
+            <i class="fa-solid fa-wand-magic-sparkles text-blue-400"></i> ${t('bisEnchantsTitle', 'Encantamientos BiS Recomendados:')}
           </h4>
-          <span class="text-[11px] text-slate-400">Temporada Actual</span>
+          <span class="text-[11px] text-slate-400">${t('currentSeason', 'Temporada Actual')}</span>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2.5">
-          ${specData.enchants.map(e => `
+          ${specData.enchants.map(e => {
+            const locSlot = typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(e.slot) : e.slot;
+            return `
             <div class="bg-black/60 border border-blue-500/30 hover:border-blue-400/60 rounded-lg p-2.5 flex items-start gap-2.5 shadow-sm transition">
               <a href="${getWowheadBaseUrl()}/item=${e.id}" target="_blank" ${getWowheadItemDataAttr(e.id)} class="flex-shrink-0">
                 <img src="https://wow.zamimg.com/images/wow/icons/large/${e.icon || 'inv_scroll_05'}.jpg" referrerpolicy="no-referrer" loading="lazy" class="w-8 h-8 rounded border border-blue-400/60 object-cover shadow" onerror="this.src='https://wow.zamimg.com/images/wow/icons/large/inv_scroll_05.jpg'">
               </a>
               <div class="min-w-0 flex-1">
-                <div class="text-[10px] font-bold text-blue-300 uppercase tracking-tight truncate">${e.slot}</div>
+                <div class="text-[10px] font-bold text-blue-300 uppercase tracking-tight truncate">${locSlot}</div>
                 <a href="${getWowheadBaseUrl()}/item=${e.id}" target="_blank" ${getWowheadItemDataAttr(e.id)} class="text-xs font-bold text-purple-300 hover:text-purple-200 mt-0.5 block truncate">${e.name}</a>
                 <div class="text-[10px] text-slate-400 font-medium truncate">${e.desc || e.name}</div>
               </div>
             </div>
-          `).join('')}
+          `; }).join('')}
         </div>
       </div>
 
@@ -72,14 +74,15 @@ function renderSpecEnchantsAndConsumablesHtml(className, specId) {
       <div class="space-y-2.5 pt-2 border-t border-purple-500/20">
         <div class="flex items-center justify-between border-b border-emerald-500/30 pb-2">
           <h4 class="text-xs font-bold text-emerald-300 uppercase tracking-wider flex items-center gap-1.5">
-            <i class="fa-solid fa-flask text-emerald-400"></i> Consumibles BiS Óptimos:
+            <i class="fa-solid fa-flask text-emerald-400"></i> ${t('bisConsumablesTitle', 'Consumibles BiS Óptimos:')}
           </h4>
-          <span class="text-[11px] text-slate-400">Frascos, Pociones, Aceites y Festines</span>
+          <span class="text-[11px] text-slate-400">${t('consumablesSubtitle', 'Frascos, Pociones, Aceites y Festines')}</span>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
           ${specData.consumables.map(c => {
             const fallbackIcon = c.type === 'Food' ? 'inv_misc_food_15' : (c.type === 'Rune' ? 'inv_misc_rune_11' : (c.type === 'Flask' ? 'trade_alchemy_potiona1' : 'inv_potion_108'));
+            const locType = typeof getLocalizedConsumableType === 'function' ? getLocalizedConsumableType(c.type) : c.type;
             return `
             <div class="bg-black/60 border border-emerald-500/30 hover:border-emerald-400/60 rounded-lg p-2.5 flex flex-col justify-between gap-1.5 shadow-sm transition">
               <div class="flex items-center gap-2">
@@ -87,13 +90,13 @@ function renderSpecEnchantsAndConsumablesHtml(className, specId) {
                   <img src="https://wow.zamimg.com/images/wow/icons/large/${c.icon || fallbackIcon}.jpg" referrerpolicy="no-referrer" loading="lazy" class="w-8 h-8 rounded border border-emerald-400/60 object-cover shadow" onerror="this.src='https://wow.zamimg.com/images/wow/icons/large/${fallbackIcon}.jpg'">
                 </a>
                 <div class="min-w-0 flex-1">
-                  <div class="text-[9px] font-bold text-emerald-400 uppercase tracking-tight truncate">${c.type}</div>
+                  <div class="text-[9px] font-bold text-emerald-400 uppercase tracking-tight truncate">${locType}</div>
                   <a href="${getWowheadEntityUrl(c.id, c.type, c.name)}" target="_blank" ${getWowheadEntityDataAttr(c.id, c.type, c.name)} class="text-[11px] font-bold text-slate-200 hover:text-emerald-300 block truncate">${c.name}</a>
                 </div>
               </div>
               <div class="text-[9px] text-slate-400 truncate">${c.desc || c.name}</div>
             </div>
-          `}).join('')}
+          `; }).join('')}
         </div>
       </div>
 
@@ -353,11 +356,11 @@ function renderResults(topResults, targets, benchmark = { count: 0, duration: 0 
                   </a>
                   <div class="min-w-0 flex-1">
                     <div class="flex items-center justify-between gap-1">
-                      <a href="${getWowheadBaseUrl()}/item=${it.itemId || 0}" target="_blank" ${getItemWowheadAttr(it)} class="text-xs font-bold text-purple-300 hover:text-purple-200 truncate block">${it.name}</a>
-                      <span class="text-amber-300 font-bold text-[10px] flex-shrink-0">${it.ilvl}${it.isVenomstoneScaled ? ' <span class="text-[9px] text-emerald-300 bg-emerald-950/80 border border-emerald-500/50 px-1 py-0.2 rounded font-mono font-bold" title="Ascendant Venomstone applied (' + (it.originalIlvl || it.baseIlvl) + ' → ' + it.ilvl + ')">🧪+VENOM</span>' : it.isMaxScaled ? ' <span class="text-[9px] text-emerald-400 font-mono font-bold" title="Simulated at max ilvl (' + (it.originalIlvl || it.baseIlvl) + ' → ' + it.ilvl + ')">▲MAX</span>' : ''}</span>
+                      <a href="${getWowheadBaseUrl()}/item=${it.itemId || 0}" target="_blank" ${getItemWowheadAttr(it)} class="text-xs font-bold ${it.isMissing ? 'text-slate-400 italic' : 'text-purple-300 hover:text-purple-200'} truncate block">${it.isMissing ? `${t('noItemInSlot', 'Sin')} ${typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(it.slot) : it.slot}` : it.name}</a>
+                      <span class="text-amber-300 font-bold text-[10px] flex-shrink-0">${it.ilvl !== undefined ? it.ilvl : '-'}${it.isVenomstoneScaled ? ' <span class="text-[9px] text-emerald-300 bg-emerald-950/80 border border-emerald-500/50 px-1 py-0.2 rounded font-mono font-bold" title="Ascendant Venomstone applied (' + (it.originalIlvl || it.baseIlvl) + ' → ' + it.ilvl + ')">🧪+VENOM</span>' : it.isMaxScaled ? ' <span class="text-[9px] text-emerald-400 font-mono font-bold" title="Simulated at max ilvl (' + (it.originalIlvl || it.baseIlvl) + ' → ' + it.ilvl + ')">▲MAX</span>' : ''}</span>
                     </div>
                     <div class="text-[10px] text-slate-400 flex items-center justify-between mt-0.5">
-                      <span class="capitalize truncate">${it.slot.replace('_', ' ')} ${it.isVault ? `<span class="text-yellow-300 font-bold ml-0.5 bg-yellow-950/80 border border-yellow-500/50 px-1 py-0.2 rounded text-[8px] shadow-sm"><i class="fa-solid fa-vault text-[7px] mr-0.5 text-yellow-400"></i>${t('badgeVault', 'Vault')}</span>` : ''} ${it.socket ? `<i class="fa-solid fa-gem text-[8px] text-amber-300 ml-0.5" title="${t('badgeSocket', 'Socket')}"></i>` : ''} ${it.tier ? `<span class="text-purple-300 font-bold ml-0.5">${t('badgeTier', 'Tier')}</span>` : ''} ${it.slot === 'trinket' ? getTrinketBloodmalletBadge(it) : ''}</span>
+                      <span class="capitalize truncate">${typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(it.slot) : it.slot.replace('_', ' ')} ${it.isVault ? `<span class="text-yellow-300 font-bold ml-0.5 bg-yellow-950/80 border border-yellow-500/50 px-1 py-0.2 rounded text-[8px] shadow-sm"><i class="fa-solid fa-vault text-[7px] mr-0.5 text-yellow-400"></i>${t('badgeVault', 'Vault')}</span>` : ''} ${it.socket ? `<i class="fa-solid fa-gem text-[8px] text-amber-300 ml-0.5" title="${t('badgeSocket', 'Socket')}"></i>` : ''} ${it.tier ? `<span class="text-purple-300 font-bold ml-0.5">${t('badgeTier', 'Tier')}</span>` : ''} ${it.slot === 'trinket' ? getTrinketBloodmalletBadge(it) : ''}</span>
                       <div class="flex items-center gap-1 font-mono text-[9px] flex-shrink-0">
                         ${it.mastery ? `<span class="text-purple-300 font-semibold">+${it.mastery}M</span>` : ''}
                         ${it.crit ? `<span class="text-blue-300 font-semibold">+${it.crit}C</span>` : ''}
@@ -383,18 +386,22 @@ function renderResults(topResults, targets, benchmark = { count: 0, duration: 0 
               </div>
 
               <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5">
-                ${gemData.recommendations.map(g => `
+                ${gemData.recommendations.map(g => {
+                  const slotLabel = typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(g.item.slot) : g.item.slot;
+                  const rawDesc = g.gemDesc || g.benefit || '';
+                  const gemDescLabel = typeof getLocalizedGemDesc === 'function' ? getLocalizedGemDesc(rawDesc) : rawDesc;
+                  return `
                   <div class="bg-black/60 border border-amber-500/30 hover:border-amber-400/60 rounded-lg p-2.5 flex items-start gap-2.5 shadow-sm transition">
                     <a href="${getWowheadBaseUrl()}/item=${g.gemItemId}" target="_blank" ${getWowheadItemDataAttr(g.gemItemId)} class="flex-shrink-0">
                       <img src="https://wow.zamimg.com/images/wow/icons/large/${g.gemIcon}.jpg" referrerpolicy="no-referrer" loading="lazy" class="w-8 h-8 rounded border border-amber-400/60 object-cover shadow" onerror="this.src='https://wow.zamimg.com/images/wow/icons/large/inv_jewelcrafting_cut-standart-gem_color5.jpg'">
                     </a>
                     <div class="min-w-0 flex-1">
-                      <div class="text-[11px] font-bold text-amber-300 capitalize truncate">${g.item.slot.replace('_', ' ')}: ${g.item.name}</div>
+                      <div class="text-[11px] font-bold text-amber-300 capitalize truncate">${slotLabel}: ${g.item.name}</div>
                       <a href="${getWowheadBaseUrl()}/item=${g.gemItemId}" target="_blank" ${getWowheadItemDataAttr(g.gemItemId)} class="text-xs font-bold text-purple-300 hover:text-purple-200 mt-0.5 block truncate">${g.gemName}</a>
-                      <div class="text-[10px] text-slate-300 font-medium truncate">${g.gemDesc || g.benefit}</div>
+                      <div class="text-[10px] text-slate-300 font-medium truncate">${gemDescLabel}</div>
                     </div>
                   </div>
-                `).join('')}
+                `}).join('')}
               </div>
             </div>
           ` : ''}
@@ -463,19 +470,25 @@ function copyDiscordSummary(resultIndex) {
   const res = (typeof currentOptimizationResults !== 'undefined' ? currentOptimizationResults : window.currentOptimizationResults)?.[resultIndex];
   if (!res) return;
   
-  const className = WOW_CLASSES[currentClass]?.name || currentClass;
+  const isEs = (typeof currentLang !== 'undefined' && (currentLang === 'es' || currentLang === 'mx'));
+  const className = typeof getLocalizedClassName === 'function' ? getLocalizedClassName(currentClass) : (WOW_CLASSES[currentClass]?.name || currentClass);
+  const specName = typeof getLocalizedSpecName === 'function' ? getLocalizedSpecName(currentSpec) : currentSpec.toUpperCase();
+  
   const lines = [];
-  lines.push(`⚔️ **WoW Optimizer — ${className} (${currentSpec.toUpperCase()})** ⚔️`);
-  lines.push(`🏆 **Set Óptimo #${resultIndex + 1}** (Tier: ${res.tierCount}/5 | Ranuras: ${res.gemData?.recommendations?.length || 0})`);
-  lines.push(`\n📊 **Estadísticas Base Puras**:`);
-  lines.push(`• **Maestría**: ${res.totMast} (${res.diffMast >= 0 ? '+' : ''}${res.diffMast} vs meta)`);
-  lines.push(`• **Crítico**: ${res.totCrit} (${res.diffCrit >= 0 ? '+' : ''}${res.diffCrit} vs meta)`);
-  lines.push(`• **Celeridad**: ${res.totHaste} (${res.diffHaste >= 0 ? '+' : ''}${res.diffHaste} vs meta)`);
-  lines.push(`• **Versatilidad**: ${res.totVers} (${res.diffVers >= 0 ? '+' : ''}${res.diffVers} vs meta)`);
+  lines.push(`⚔️ **WoW Optimizer — ${className} (${specName.toUpperCase()})** ⚔️`);
+  lines.push(`🏆 **${isEs ? 'Set Óptimo' : 'Optimal Setup'} #${resultIndex + 1}** (Tier: ${res.tierCount}/5 | ${isEs ? 'Ranuras' : 'Sockets'}: ${res.gemData?.recommendations?.length || 0})`);
+  lines.push(`\n📊 **${isEs ? 'Estadísticas Base Puras' : 'Pure Base Stats'}**:`);
+  lines.push(`• **${isEs ? 'Maestría' : 'Mastery'}**: ${res.totMast} (${res.diffMast >= 0 ? '+' : ''}${res.diffMast} ${isEs ? 'vs meta' : 'vs target'})`);
+  lines.push(`• **${isEs ? 'Crítico' : 'Crit'}**: ${res.totCrit} (${res.diffCrit >= 0 ? '+' : ''}${res.diffCrit} ${isEs ? 'vs meta' : 'vs target'})`);
+  lines.push(`• **${isEs ? 'Celeridad' : 'Haste'}**: ${res.totHaste} (${res.diffHaste >= 0 ? '+' : ''}${res.diffHaste} ${isEs ? 'vs meta' : 'vs target'})`);
+  lines.push(`• **${isEs ? 'Versatilidad' : 'Versatility'}**: ${res.totVers} (${res.diffVers >= 0 ? '+' : ''}${res.diffVers} ${isEs ? 'vs meta' : 'vs target'})`);
 
-  lines.push(`\n🛡️ **Equipo Seleccionado**:`);
+  lines.push(`\n🛡️ **${isEs ? 'Equipo Seleccionado' : 'Selected Gear'}**:`);
   res.items.forEach(it => {
-    lines.push(`• **${it.slot.toUpperCase()}**: ${it.name} (ilvl ${it.ilvl})`);
+    const slotLabel = typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(it.slot).toUpperCase() : it.slot.toUpperCase();
+    const itemName = it.isMissing ? `${isEs ? 'Sin' : 'No'} ${typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(it.slot) : it.slot}` : it.name;
+    const ilvlLabel = it.ilvl !== undefined ? it.ilvl : '-';
+    lines.push(`• **${slotLabel}**: ${itemName} (ilvl ${ilvlLabel})`);
   });
 
   if (res.gemData?.recommendations?.length > 0) {
@@ -489,20 +502,21 @@ function copyDiscordSummary(resultIndex) {
     const pDiffHaste = (res.gemData.projected.totHaste || 0) - targetHaste;
     const pDiffVers = (res.gemData.projected.totVers || 0) - targetVers;
 
-    lines.push(`\n💎 **Gemas Sugeridas**:`);
+    lines.push(`\n💎 **${isEs ? 'Gemas Sugeridas' : 'Suggested Gems'}**:`);
     res.gemData.recommendations.forEach(g => {
-      lines.push(`• *${g.item.slot.toUpperCase()}* (${g.item.name}): ${g.gemName}`);
+      const slotLabel = typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(g.item.slot).toUpperCase() : g.item.slot.toUpperCase();
+      lines.push(`• *${slotLabel}* (${g.item.name}): ${g.gemName}`);
     });
-    lines.push(`\n✨ **ESTADÍSTICAS TOTALES PROYECTADAS (CON GEMAS)** ✨`);
-    lines.push(`> 🔮 **Maestría**: **${res.gemData.projected.totMast}** (${pDiffMast >= 0 ? '+' : ''}${pDiffMast} vs meta)`);
-    lines.push(`> 🎯 **Crítico**: **${res.gemData.projected.totCrit}** (${pDiffCrit >= 0 ? '+' : ''}${pDiffCrit} vs meta)`);
-    lines.push(`> ⚡ **Celeridad**: **${res.gemData.projected.totHaste}** (${pDiffHaste >= 0 ? '+' : ''}${pDiffHaste} vs meta)`);
-    lines.push(`> 🛡️ **Versatilidad**: **${res.gemData.projected.totVers}** (${pDiffVers >= 0 ? '+' : ''}${pDiffVers} vs meta)`);
+    lines.push(`\n✨ **${isEs ? 'ESTADÍSTICAS TOTALES PROYECTADAS (CON GEMAS)' : 'PROJECTED FINAL STATS (WITH GEMS)'}** ✨`);
+    lines.push(`> 🔮 **${isEs ? 'Maestría' : 'Mastery'}**: **${res.gemData.projected.totMast}** (${pDiffMast >= 0 ? '+' : ''}${pDiffMast} ${isEs ? 'vs meta' : 'vs target'})`);
+    lines.push(`> 🎯 **${isEs ? 'Crítico' : 'Crit'}**: **${res.gemData.projected.totCrit}** (${pDiffCrit >= 0 ? '+' : ''}${pDiffCrit} ${isEs ? 'vs meta' : 'vs target'})`);
+    lines.push(`> ⚡ **${isEs ? 'Celeridad' : 'Haste'}**: **${res.gemData.projected.totHaste}** (${pDiffHaste >= 0 ? '+' : ''}${pDiffHaste} ${isEs ? 'vs meta' : 'vs target'})`);
+    lines.push(`> 🛡️ **${isEs ? 'Versatilidad' : 'Versatility'}**: **${res.gemData.projected.totVers}** (${pDiffVers >= 0 ? '+' : ''}${pDiffVers} ${isEs ? 'vs meta' : 'vs target'})`);
   }
 
   navigator.clipboard.writeText(lines.join('\n')).then(() => {
-    showToast('¡Resumen para Discord copiado al portapapeles!', 'info');
+    showToast(typeof t === 'function' ? t('discordCopiedToast', '¡Resumen para Discord copiado al portapapeles!') : '¡Resumen copiado!', 'info');
   }).catch(() => {
-    showToast('Error al copiar resumen', 'error');
+    showToast(typeof t === 'function' ? t('discordErrorToast', 'Error al copiar resumen') : 'Error', 'error');
   });
 }

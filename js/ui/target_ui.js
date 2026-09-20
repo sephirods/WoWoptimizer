@@ -24,7 +24,7 @@ function setContentMode(mode) {
   currentContentMode = mode;
   saveState();
   applySpecConfig(currentSpec);
-  showToast(mode === 'raid' ? (t('toastModeRaid', '🏛️ Estadísticas: Raid Mítico cargadas')) : (t('toastModeMplus', '🗝️ Estadísticas: Míticas+ (M+) cargadas')), 'info');
+  showToast(mode === 'raid' ? (t('toastModeRaid', '🏛️ Estadísticas: Banda Mítica cargadas')) : (t('toastModeMplus', '🗝️ Estadísticas: Míticas+ (M+) cargadas')), 'info');
 }
 
 function onClassChange() {
@@ -85,7 +85,10 @@ function getUserCustomPresets() {
 }
 
 function saveUserCustomPreset() {
-  const name = prompt('Nombre para tu preset de estadísticas personalizadas (ej. "Raid Mítico", "M+ AoE"):');
+  const promptMsg = typeof t === 'function' 
+    ? t('promptPresetName', 'Nombre para tu preset de estadísticas personalizadas (ej. "Banda Mítica", "M+ AoE"):') 
+    : 'Nombre para tu preset de estadísticas personalizadas (ej. "Banda Mítica", "M+ AoE"):';
+  const name = prompt(promptMsg);
   if (!name || !name.trim()) return;
 
   const customPreset = {
@@ -105,7 +108,8 @@ function saveUserCustomPreset() {
   presets.push(customPreset);
   localStorage.setItem('wow_user_presets', JSON.stringify(presets));
   renderPresetsToolbar();
-  showToast(`Preset "${customPreset.name}" guardado con éxito`);
+  const savedMsg = typeof t === 'function' ? t('toastPresetSaved', '¡Preset "%s" guardado con éxito!').replace('%s', customPreset.name) : `Preset "${customPreset.name}" guardado`;
+  showToast(savedMsg, 'info');
 }
 
 function deleteUserCustomPreset(id, e) {
@@ -114,7 +118,8 @@ function deleteUserCustomPreset(id, e) {
   presets = presets.filter(p => p.id !== id);
   localStorage.setItem('wow_user_presets', JSON.stringify(presets));
   renderPresetsToolbar();
-  showToast('Preset eliminado');
+  const deletedMsg = typeof t === 'function' ? t('toastPresetDeleted', 'Preset eliminado') : 'Preset eliminado';
+  showToast(deletedMsg, 'info');
 }
 
 function applyCustomPreset(id) {
@@ -135,7 +140,8 @@ function applyCustomPreset(id) {
 
   updateTargetDistributionStrip();
   runOptimizer();
-  showToast(`Preset "${p.name}" aplicado`);
+  const appliedMsg = typeof t === 'function' ? t('toastPresetApplied', 'Preset "%s" aplicado').replace('%s', p.name) : `Preset "${p.name}" aplicado`;
+  showToast(appliedMsg, 'info');
 }
 
 function getSpecMetaHeroTree(className, specId) {
@@ -213,10 +219,10 @@ function renderPresetsToolbar() {
   const modeButtons = `
     <div class="inline-flex rounded-lg p-0.5 bg-black/60 border border-wow-border/80 shadow-inner mr-1">
       <button type="button" onclick="setContentMode('raid')" class="text-xs px-2.5 py-1 rounded-md transition font-bold flex items-center gap-1.5 ${currentContentMode === 'raid' ? 'bg-gradient-to-r from-amber-500 to-yellow-500 text-black shadow-md' : 'text-slate-300 hover:text-white hover:bg-white/5'}">
-        <span>🏛️</span> Raid Mítico
+        <span>🏛️</span> ${t('raidMythic', 'Banda Mítica')}
       </button>
       <button type="button" onclick="setContentMode('mplus')" class="text-xs px-2.5 py-1 rounded-md transition font-bold flex items-center gap-1.5 ${currentContentMode === 'mplus' ? 'bg-gradient-to-r from-cyan-500 to-blue-500 text-black shadow-md' : 'text-slate-300 hover:text-white hover:bg-white/5'}">
-        <span>🗝️</span> M+ (Míticas+)
+        <span>🗝️</span> ${t('mplus', 'M+ (Míticas+)')}
       </button>
     </div>
   `;
@@ -260,7 +266,7 @@ function renderPresetsToolbar() {
       ${specButtons}
       ${heroButtons}
       ${customButtons}
-      <button type="button" onclick="saveUserCustomPreset()" class="text-xs px-2 py-1 rounded bg-black/60 hover:bg-slate-800 text-amber-300 border border-amber-500/40 font-semibold flex items-center gap-1" title="Guardar configuración actual como preset personalizado">
+      <button type="button" onclick="saveUserCustomPreset()" class="text-xs px-2 py-1 rounded bg-black/60 hover:bg-slate-800 text-amber-300 border border-amber-500/40 font-semibold flex items-center gap-1" title="${t('savePresetTitle', 'Guardar configuración actual como preset personalizado')}">
         <i class="fa-solid fa-bookmark text-[10px]"></i> ${t('addPreset', '+ Preset')}
       </button>
     </div>
@@ -283,8 +289,12 @@ function onSpecChange() {
 
   const wepSelect = document.getElementById('weapon-mode');
   if (wepSelect && specData.allowedWeps) {
-    wepSelect.innerHTML = specData.allowedWeps.map(w => `<option value="${w.id}">${w.label}</option>`).join('');
-    wepSelect.value = specData.defaultWep;
+    const currentVal = wepSelect.value || specData.defaultWep;
+    wepSelect.innerHTML = specData.allowedWeps.map(w => {
+      const locLabel = typeof getLocalizedWeaponMode === 'function' ? getLocalizedWeaponMode(w.id, w.label) : w.label;
+      return `<option value="${w.id}">${locLabel}</option>`;
+    }).join('');
+    wepSelect.value = currentVal;
   }
   
   saveState();
@@ -301,6 +311,12 @@ function updateTargetDistributionStrip() {
   const total = mast + crit + haste + vers;
   const totalEl = document.getElementById('target-total-pts');
   if (totalEl) totalEl.innerText = total.toLocaleString();
+
+  const isEs = (typeof currentLang !== 'undefined' && (currentLang === 'es' || currentLang === 'mx'));
+  if (document.getElementById('label-ratio-mast')) document.getElementById('label-ratio-mast').innerText = isEs ? 'Maest' : 'Mast';
+  if (document.getElementById('label-ratio-crit')) document.getElementById('label-ratio-crit').innerText = 'Crit';
+  if (document.getElementById('label-ratio-haste')) document.getElementById('label-ratio-haste').innerText = isEs ? 'Cele' : 'Haste';
+  if (document.getElementById('label-ratio-vers')) document.getElementById('label-ratio-vers').innerText = 'Vers';
 
   if (total > 0) {
     const mastPct = ((mast / total) * 100).toFixed(1);
@@ -418,6 +434,42 @@ function applyWeightPreset(mast, crit, haste, vers, showFeedback = true) {
   if (document.getElementById('label-w-vers')) document.getElementById('label-w-vers').innerText = numV.toFixed(1);
 
   if (showFeedback) {
-    showToast('Ponderaciones actualizadas (pulsa Calcular para aplicar)');
+    const isEs = (typeof currentLang !== 'undefined' && (currentLang === 'es' || currentLang === 'mx'));
+    showToast(isEs ? 'Ponderaciones actualizadas (pulsa Calcular para aplicar)' : 'Weights updated (click Calculate to apply)');
+  }
+}
+
+function resetWeightsToCurrentSpec() {
+  const classData = WOW_CLASSES[currentClass];
+  const specData = classData?.specs?.find(s => s.id === currentSpec) || classData?.specs?.[0];
+  if (!specData) return;
+
+  let activePreset = null;
+  if (window.ARCHON_PRESETS && window.ARCHON_PRESETS[currentClass]) {
+    const cPresets = window.ARCHON_PRESETS[currentClass];
+    const specPreset = cPresets[specData.id] || 
+                       cPresets[`${specData.id}_${currentClass}`] || 
+                       cPresets[`${currentClass}_${specData.id}`] ||
+                       (specData.id === 'protection' && (cPresets['protection_paladin'] || cPresets['prot_warrior'])) ||
+                       (specData.id === 'holy' && (cPresets['holy_paladin'] || cPresets['holy_priest'])) ||
+                       (specData.id === 'frost' && (cPresets['frost_dk'] || cPresets['frost_mage'])) ||
+                       (specData.id === 'restoration' && (cPresets['restoration_druid'] || cPresets['restoration_shaman']));
+    if (specPreset) {
+      activePreset = specPreset[currentContentMode] || specPreset.raid || specPreset.mplus;
+    }
+  }
+  if (!activePreset) {
+    activePreset = (specData.presets && specData.presets[currentContentMode]) 
+      ? specData.presets[currentContentMode] 
+      : (specData.presets?.raid || specData.presets || { m: 0, c: 0, h: 0, v: 0 });
+  }
+
+  const specWeights = deriveWeightsFromArchonPreset(activePreset) || 
+                      (typeof SPEC_DEFAULT_STAT_WEIGHTS !== 'undefined' ? SPEC_DEFAULT_STAT_WEIGHTS[specData.id] : null) || 
+                      { m: 1.0, c: 1.0, h: 1.0, v: 1.0 };
+
+  applyWeightPreset(specWeights.m, specWeights.c, specWeights.h, specWeights.v, true);
+  if (typeof runOptimizer === 'function' && items && items.length > 0) {
+    runOptimizer();
   }
 }

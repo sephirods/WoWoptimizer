@@ -276,13 +276,15 @@ function renderInventory() {
     return 0;
   });
 
+  const isEs = (typeof currentLang !== 'undefined' && (currentLang === 'es' || currentLang === 'mx'));
+
   const trackBadges = {
-    myth: '<span class="text-[10px] bg-purple-950 text-purple-300 border border-purple-600 px-1 rounded font-bold">Mythic</span>',
+    myth: `<span class="text-[10px] bg-purple-950 text-purple-300 border border-purple-600 px-1 rounded font-bold">${isEs ? 'Mítico' : 'Mythic'}</span>`,
     hero: '<span class="text-[10px] bg-blue-950 text-blue-300 border border-blue-600 px-1 rounded font-bold">Hero</span>',
-    champ: '<span class="text-[10px] bg-emerald-950 text-emerald-300 border border-emerald-600 px-1 rounded font-bold">Champ</span>',
+    champ: `<span class="text-[10px] bg-emerald-950 text-emerald-300 border border-emerald-600 px-1 rounded font-bold">${isEs ? 'Camp' : 'Champ'}</span>`,
     vet: '<span class="text-[10px] bg-amber-950 text-amber-300 border border-amber-600 px-1 rounded font-bold">Vet</span>',
-    adventurer: '<span class="text-[10px] bg-slate-800 text-slate-300 border border-slate-600 px-1 rounded font-bold">Adv</span>',
-    crafted: '<span class="text-[10px] bg-orange-950 text-orange-300 border border-orange-600 px-1 rounded font-bold">Crafted</span>'
+    adventurer: `<span class="text-[10px] bg-slate-800 text-slate-300 border border-slate-600 px-1 rounded font-bold">${isEs ? 'Avent' : 'Adv'}</span>`,
+    crafted: `<span class="text-[10px] bg-orange-950 text-orange-300 border border-orange-600 px-1 rounded font-bold">${isEs ? 'Fabricado' : 'Crafted'}</span>`
   };
 
   if (items.length === 0) {
@@ -353,13 +355,13 @@ function renderInventory() {
                       <div class="min-w-0">
                         <div class="flex items-center gap-1.5 flex-wrap">
                           <a href="${getWowheadBaseUrl()}/item=${it.itemId || 0}" target="_blank" ${getItemWowheadAttr(it)} class="font-bold ${it.disabled ? 'text-slate-500 line-through' : 'text-purple-300 hover:text-purple-200'} truncate block max-w-[220px]">${it.name}</a>
-                          ${it.isVault ? '<span class="text-[9px] bg-yellow-950/90 text-yellow-300 border border-yellow-500/60 px-1.5 py-0.2 rounded font-bold inline-flex items-center gap-1 shadow-sm"><i class="fa-solid fa-vault text-[8px] text-yellow-400"></i> Vault</span>' : ''}
+                          ${it.isVault ? `<span class="text-[9px] bg-yellow-950/90 text-yellow-300 border border-yellow-500/60 px-1.5 py-0.2 rounded font-bold inline-flex items-center gap-1 shadow-sm"><i class="fa-solid fa-vault text-[8px] text-yellow-400"></i> ${t('badgeVault', 'Gran Cámara')}</span>` : ''}
                         </div>
                         ${it.locked ? '<span class="text-[9px] text-amber-400 font-bold flex items-center gap-1"><i class="fa-solid fa-lock"></i> Bloqueado</span>' : ''}
                       </div>
                     </div>
                   </td>
-                  <td class="p-3 font-semibold text-slate-300 capitalize">${it.slot.replace('_', ' ')}</td>
+                  <td class="p-3 font-semibold text-slate-300 capitalize">${typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(it.slot) : it.slot.replace('_', ' ')}</td>
                   <td class="p-3">${trackBadges[it.track] || trackBadges.hero}</td>
                   <td class="p-3 text-center font-bold text-amber-400">${it.ilvl}</td>
                   <td class="p-3 font-mono text-[11px]">
@@ -428,14 +430,14 @@ function renderInventory() {
             <span class="text-[11px] font-bold px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20">${it.ilvl}</span>
           </div>
           <div class="flex items-center gap-1.5 mt-0.5 text-xs text-slate-400 capitalize flex-wrap">
-            <span>${it.slot.replace('_', ' ')}</span>
+            <span class="font-medium">${typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(it.slot) : it.slot.replace('_', ' ')}</span>
             ${trackBadges[it.track] || trackBadges.hero}
             <button onclick="toggleItemEquipped('${it.id}')" title="Alternar entre Equipado y Bolsa" class="text-[10px] px-1.5 py-0.5 rounded font-bold transition ${it.isEquipped ? 'bg-emerald-950/80 text-emerald-300 border border-emerald-500/60' : 'bg-slate-900/60 text-slate-500 border border-slate-700/40 hover:text-slate-300'}">
               ${it.isEquipped ? 'Equipado' : 'Bolsa'}
             </button>
             ${it.isVault ? 
-              `<button onclick="toggleItemVault('${it.id}')" title="Clic para alternar Gran Cámara" class="text-[10px] bg-yellow-950/90 text-yellow-300 border border-yellow-500/80 px-1.5 py-0.5 rounded font-bold flex items-center gap-1 shadow-sm ring-1 ring-yellow-400/30 transition"><i class="fa-solid fa-vault text-[9px] text-yellow-400"></i> Gran Cámara</button>` : 
-              `<button onclick="toggleItemVault('${it.id}')" title="Clic para marcar como Gran Cámara" class="text-[10px] text-slate-500 hover:text-yellow-300 border border-slate-700/40 px-1 rounded opacity-50 hover:opacity-100 transition">+Vault</button>`
+              `<button onclick="toggleItemVault('${it.id}')" title="Clic para alternar Gran Cámara" class="text-[10px] bg-yellow-950/90 text-yellow-300 border border-yellow-500/80 px-1.5 py-0.5 rounded font-bold flex items-center gap-1 shadow-sm ring-1 ring-yellow-400/30 transition"><i class="fa-solid fa-vault text-[9px] text-yellow-400"></i> ${t('badgeVault', 'Gran Cámara')}</button>` : 
+              `<button onclick="toggleItemVault('${it.id}')" title="Clic para marcar como Gran Cámara" class="text-[10px] text-slate-500 hover:text-yellow-300 border border-slate-700/40 px-1 rounded opacity-50 hover:opacity-100 transition">${t('addVaultBtn', '+Cámara')}</button>`
             }
             ${it.tier ? 
               `<button onclick="toggleItemTier('${it.id}')" title="Clic para alternar Tier" class="text-[10px] bg-purple-950 hover:bg-purple-900 text-purple-300 border border-purple-600 px-1.5 py-0.5 rounded font-semibold transition">Tier</button>` : 

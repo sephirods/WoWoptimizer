@@ -350,7 +350,18 @@ function runOptimizer(isManualClick = false) {
   const slotGroups = singleSlots.map(s => {
     let list = bySlot[s] || [];
     if (list.length === 0) {
-      return [[{ name: 'Sin ' + s, slot: s, crit: 0, haste: 0, mastery: 0, vers: 0, tier: false }]];
+      return [[{ 
+        id: 'missing_' + s,
+        name: (typeof t === 'function' ? `${t('noItemInSlot', 'Sin')} ${typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(s) : s}` : 'Sin ' + s),
+        slot: s, 
+        ilvl: '-', 
+        crit: 0, 
+        haste: 0, 
+        mastery: 0, 
+        vers: 0, 
+        tier: false,
+        isMissing: true
+      }]];
     }
     
     if (tierSlots.has(s)) {
