@@ -1,7 +1,7 @@
 // MOTOR AUTOMATIZADO DE SINCRONIZACIÓN EN VIVO: BLIZZARD BLUE TRACKER Y WOWHEAD NEWS
 // Obtiene publicaciones oficiales en tiempo real de Blizzard Forums (API Discourse) y Wowhead Retail RSS
 
-const WOW_NEWS_CACHE_KEY = 'wow_live_news_cache_v5';
+const WOW_NEWS_CACHE_KEY = 'wow_live_news_cache_v11';
 const WOW_NEWS_CACHE_TTL = 30 * 60 * 1000; // 30 minutos
 
 // Limpiar tags HTML simples para resúmenes
@@ -60,13 +60,28 @@ function getCanonicalNewsKey(item) {
     .replace(/--|—|-/g, ' ')
     .replace(/\b(us|eu|es)\b/gi, ' ')
     .replace(/\b(esta semana en wow|this week in wow|wow weekly)\b/gi, 'weekly')
-    .replace(/\b(\d{1,2})\s+(january|february|march|april|may|june|july|august|september|october|november|december|enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)\b/gi, '$2')
-    .replace(/\b(january|february|march|april|may|june|july|august|september|october|november|december|enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)\s+(\d{1,2})\b/gi, '$1')
+    .replace(/\b(correcciones en vivo)\b/gi, 'hotfixes')
+    .replace(/\b(ajustes de balance de clases)\b/gi, 'class tuning')
+    .replace(/\b(problemas conocidos)\b/gi, 'known issues')
+    .replace(/\b(septiembre)\b/gi, 'september')
+    .replace(/\b(octubre)\b/gi, 'october')
+    .replace(/\b(noviembre)\b/gi, 'november')
+    .replace(/\b(diciembre)\b/gi, 'december')
+    .replace(/\b(enero)\b/gi, 'january')
+    .replace(/\b(febrero)\b/gi, 'february')
+    .replace(/\b(marzo)\b/gi, 'march')
+    .replace(/\b(abril)\b/gi, 'april')
+    .replace(/\b(mayo)\b/gi, 'may')
+    .replace(/\b(junio)\b/gi, 'june')
+    .replace(/\b(julio)\b/gi, 'july')
+    .replace(/\b(agosto)\b/gi, 'august')
+    .replace(/\b(\d{1,2})\s+(de\s+)?(january|february|march|april|may|june|july|august|september|october|november|december)\b/gi, '$3 $1')
+    .replace(/\b(january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d{1,2})\b/gi, '$1 $2')
     .replace(/[^a-z0-9]/gi, ' ')
     .replace(/\s+/g, ' ')
     .trim();
 
-  return clean.slice(0, 50);
+  return clean.slice(0, 60);
 }
 
 function groupCanonicalNews(articles) {
@@ -290,6 +305,38 @@ async function fetchPostCookedContent(domain, postId, lang = 'en') {
   return null;
 }
 
+// Filtrar publicaciones que NO son noticias editoriales (p. ej. soporte técnico, respuestas individuales a bugs, crashes de launcher)
+function isEditorialNewsPost(title, excerpt) {
+  const combined = `${title || ''} ${excerpt || ''}`.toLowerCase();
+  
+  // Palabras clave típicas de asistencia técnica individual o consultas de soporte a descartar
+  const nonNewsKeywords = [
+    'unable to launch',
+    "can't install",
+    'cannot install',
+    'no wow account selector',
+    'disconnects first player',
+    'oops! something went wrong',
+    'tech supporter',
+    'corrupted file',
+    'error code',
+    'crashing on launch',
+    'battle.net app crashed',
+    'payment issue',
+    'billing question',
+    'refund request',
+    'authenticator issue',
+    'locked account',
+    'ticket status'
+  ];
+
+  for (const kw of nonNewsKeywords) {
+    if (combined.includes(kw)) return false;
+  }
+
+  return true;
+}
+
 // Obtener Blue Posts reales de Blizzard (US, EU, ES)
 async function fetchBlizzardTrackerPosts() {
   const endpoints = [
@@ -317,25 +364,76 @@ async function fetchBlizzardTrackerPosts() {
 
       if (data && data.posts && Array.isArray(data.posts)) {
         const domain = ep.region.toLowerCase() === 'us' ? 'us.forums.blizzard.com' : 'eu.forums.blizzard.com';
-        const postList = data.posts.slice(0, 10);
+        const postList = data.posts.slice(0, 15);
 
         for (const post of postList) {
+          // DESCARTAR estrictamente respuestas y comentarios secundarios: solo admitir temas principales / noticias oficiales (post_number === 1)
+          // Excepción: posts acumulativos de Hotfixes si el título lo indica explícitamente
+          const isHotfixTopic = (post.topic_title || '').toLowerCase().includes('hotfix') || (post.topic_title || '').toLowerCase().includes('correcciones');
+          if (post.post_number && post.post_number > 1 && !isHotfixTopic) {
+            continue;
+          }
+
           const rawExcerpt = stripHtmlTags(post.excerpt || post.raw || '');
           const postDate = post.created_at || new Date().toISOString();
           const authorName = post.user?.name || post.username || 'Blizzard';
           const authorRole = post.user_title || post.primary_group_name || 'Community Manager';
           const titleText = post.topic_title || post.topic?.title || 'Blizzard Official Post';
           
+          // Omitir hilos de soporte técnico y respuestas a consultas de jugadores
+          if (!isEditorialNewsPost(titleText, rawExcerpt)) {
+            continue;
+          }
+
+          // Extraer imagen si viene en el excerpt (típico en blogs de Blizzard enlazados en foros)
+          let extractedImgUrl = null;
+          const imgMatch = (post.excerpt || '').match(/href="([^"]*(?:akamaihd\.net|blz-contentstack|battle\.net)[^"]*\.(?:png|jpg|jpeg|webp))"/i);
+          if (imgMatch && imgMatch[1]) {
+            extractedImgUrl = imgMatch[1];
+          }
+
+          // Limpiar título entre corchetes si viene en el texto crudo
+          let cleanExcerpt = rawExcerpt.replace(/^\[[^\]]+\]\s*/, '').trim();
+
+          const buildBlizzContent = (bodyText, cookedHtml) => {
+            if (cookedHtml) {
+              return `<div class="blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed">${cookedHtml}</div>`;
+            }
+            return `
+              <div class="space-y-4 leading-relaxed text-slate-200">
+                ${extractedImgUrl ? `
+                  <div class="rounded-xl overflow-hidden border border-sky-500/30 shadow-lg max-h-[340px] bg-black/50">
+                    <img src="${extractedImgUrl}" alt="${titleText}" class="w-full h-auto object-cover max-h-[340px] rounded-xl hover:scale-[1.01] transition duration-300" loading="lazy" />
+                  </div>
+                ` : ''}
+                <p class="text-xs sm:text-sm leading-relaxed">${bodyText}</p>
+              </div>
+            `;
+          };
+
+          // En los foros de Blizzard, el hilo de Hotfixes acumula TODO el historial en el Post #1 (Kaivax)
+          // Si el post pertenece a un hilo de Hotfixes pero es una réplica (ej: post #139), apuntar al Post #1 del tema
+          let actualPostId = post.id;
+          let actualPostNumber = post.post_number;
+          if (isHotfixTopic && post.topic_id) {
+            // El post #1 del hilo oficial de Midnight Hotfixes en US es 29891478
+            if (post.topic_id === 2336376) {
+              actualPostId = 29891478;
+              actualPostNumber = 1;
+            }
+          }
+
           results.push({
-            id: `blizz-${post.id || post.topic_id}`,
-            postId: post.id,
+            id: `blizz-${actualPostId || post.topic_id}`,
+            postId: actualPostId,
             topicId: post.topic_id,
             forumDomain: domain,
             region: ep.region,
             postLang: ep.lang,
             source: 'blizzard',
-            author: `${authorName} (${authorRole})`,
+            author: actualPostNumber === 1 ? 'Kaivax (Community Manager)' : `${authorName} (${authorRole})`,
             dateRaw: postDate,
+            imageUrl: extractedImgUrl,
             tag: 'Blue Post',
             category: 'Blizzard Tracker',
             badgeColor: 'border-sky-500/60 bg-sky-950/80 text-sky-300',
@@ -344,12 +442,12 @@ async function fetchBlizzardTrackerPosts() {
               es: ep.lang === 'es' ? titleText : autoTranslateHeadline(titleText)
             },
             summary: {
-              en: rawExcerpt.slice(0, 180) + '...',
-              es: (ep.lang === 'es' ? rawExcerpt : autoTranslateHeadline(rawExcerpt)).slice(0, 180) + '...'
+              en: cleanExcerpt.slice(0, 180) + '...',
+              es: (ep.lang === 'es' ? cleanExcerpt : autoTranslateHeadline(cleanExcerpt)).slice(0, 180) + '...'
             },
             content: {
-              en: post.cooked ? `<div class="blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed">${post.cooked}</div>` : `<p class="text-slate-300 text-sm leading-relaxed">${rawExcerpt}</p>`,
-              es: post.cooked ? `<div class="blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed">${translateCookedContent(post.cooked)}</div>` : `<p class="text-slate-300 text-sm leading-relaxed">${rawExcerpt}</p>`
+              en: buildBlizzContent(cleanExcerpt, post.cooked),
+              es: buildBlizzContent(ep.lang === 'es' ? cleanExcerpt : autoTranslateHeadline(cleanExcerpt), post.cooked ? translateCookedContent(post.cooked) : null)
             },
             hasFullContent: !!post.cooked,
             originalUrl: (() => {
@@ -403,10 +501,26 @@ async function fetchWowheadRecentNews() {
 
     if (data && data.status === 'ok' && Array.isArray(data.items)) {
       return data.items.map((item, idx) => {
-        const rawContent = item.content || item.description || '';
-        const summaryText = stripHtmlTags(item.description || item.content || '').slice(0, 180) + '...';
-        const titleEn = item.title;
-        const titleEs = autoTranslateHeadline(titleEn);
+        const imageUrl = (item.enclosure && item.enclosure.link) || item.thumbnail || null;
+
+        const buildContentHtml = (bodyHtml, langCode) => `
+          <div class="space-y-4 leading-relaxed text-slate-300">
+            ${imageUrl ? `
+              <div class="rounded-xl overflow-hidden border border-amber-500/30 shadow-lg max-h-[340px] bg-black/50">
+                <img src="${imageUrl}" alt="${titleEn}" class="w-full h-auto object-cover max-h-[340px] rounded-xl hover:scale-[1.01] transition duration-300" loading="lazy" />
+              </div>
+            ` : ''}
+            <div class="bg-amber-950/30 border border-amber-500/40 p-3.5 rounded-xl text-xs flex items-center justify-between gap-3">
+              <span class="text-amber-300 font-bold"><i class="fa-solid fa-newspaper mr-1.5"></i> ${langCode === 'en' ? 'Official Wowhead Article' : 'Artículo Oficial de Wowhead'}</span>
+              <a href="${item.link}" target="_blank" rel="noopener noreferrer" class="text-xs text-amber-400 hover:text-white underline font-semibold flex items-center gap-1">
+                ${langCode === 'en' ? 'View on Wowhead' : 'Ver en Wowhead'} <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </a>
+            </div>
+            <div class="text-xs sm:text-sm space-y-3">
+              ${bodyHtml}
+            </div>
+          </div>
+        `;
 
         return {
           id: `wh-${idx + 1}-${item.guid ? item.guid.replace(/[^a-zA-Z0-9]/g, '') : idx}`,
@@ -415,6 +529,7 @@ async function fetchWowheadRecentNews() {
           author: item.author || 'Wowhead Staff',
           category: (item.categories && item.categories[0]) || 'Retail News',
           badgeColor: 'border-amber-500/60 bg-amber-950/80 text-amber-300',
+          imageUrl: imageUrl,
           title: {
             en: titleEn,
             es: titleEs
@@ -424,32 +539,8 @@ async function fetchWowheadRecentNews() {
             es: summaryText
           },
           content: {
-            en: `
-              <div class="space-y-3 leading-relaxed text-slate-300">
-                <div class="bg-amber-950/30 border border-amber-500/40 p-3.5 rounded-xl text-xs flex items-center justify-between gap-3">
-                  <span class="text-amber-300 font-bold"><i class="fa-solid fa-newspaper mr-1.5"></i> Artículo Oficial de Wowhead</span>
-                  <a href="${item.link}" target="_blank" rel="noopener noreferrer" class="text-xs text-amber-400 hover:text-white underline font-semibold flex items-center gap-1">
-                    Ver en Wowhead <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
-                  </a>
-                </div>
-                <div class="text-xs sm:text-sm space-y-3">
-                  ${rawContent}
-                </div>
-              </div>
-            `,
-            es: `
-              <div class="space-y-3 leading-relaxed text-slate-300">
-                <div class="bg-amber-950/30 border border-amber-500/40 p-3.5 rounded-xl text-xs flex items-center justify-between gap-3">
-                  <span class="text-amber-300 font-bold"><i class="fa-solid fa-newspaper mr-1.5"></i> Artículo Oficial de Wowhead</span>
-                  <a href="${item.link}" target="_blank" rel="noopener noreferrer" class="text-xs text-amber-400 hover:text-white underline font-semibold flex items-center gap-1">
-                    Ver en Wowhead <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
-                  </a>
-                </div>
-                <div class="text-xs sm:text-sm space-y-3">
-                  ${rawContent}
-                </div>
-              </div>
-            `
+            en: buildContentHtml(rawContent, 'en'),
+            es: buildContentHtml(rawContent, 'es')
           },
           originalUrl: item.link
         };
@@ -489,20 +580,54 @@ async function syncLiveNews(force = false) {
     const blueMap = new Map();
     // Primero agregar los existentes
     existingBlues.forEach(item => { if (item.id) blueMap.set(item.id, item); });
-    // Luego actualizar con los nuevos descargados, pero si el existente ya tiene hasFullContent, conservarlo
+    
+    // Luego procesar los nuevos descargados
     blues.forEach(item => { 
-      if (item.id) {
-        if (blueMap.has(item.id)) {
-          const existing = blueMap.get(item.id);
-          if (existing.hasFullContent && !item.hasFullContent) {
-            item.content = existing.content;
-            item.hasFullContent = true;
+      if (!item.id) return;
+      
+      // Buscar si ya existe por ID directo, por aliasIds o por clave canónica idéntica
+      let match = blueMap.get(item.id);
+      if (!match) {
+        const itemKey = getCanonicalNewsKey(item);
+        for (const existing of blueMap.values()) {
+          if ((existing.aliasIds && existing.aliasIds.includes(item.id)) ||
+              (item.aliasIds && item.aliasIds.includes(existing.id)) ||
+              (itemKey && getCanonicalNewsKey(existing) === itemKey)) {
+            match = existing;
+            break;
           }
         }
-        blueMap.set(item.id, item); 
       }
+
+      if (match) {
+        // Preservar o adoptar contenido completo priorizando siempre la versión más extensa y detallada
+        const matchLen = (match.content && ((match.content.en && match.content.en.length) || (typeof match.content === 'string' && match.content.length))) || 0;
+        const itemLen = (item.content && ((item.content.en && item.content.en.length) || (typeof item.content === 'string' && item.content.length))) || 0;
+
+        if (matchLen >= itemLen && match.hasFullContent) {
+          item.content = match.content;
+          item.hasFullContent = true;
+        } else if (itemLen > matchLen && item.hasFullContent) {
+          match.content = item.content;
+          match.hasFullContent = true;
+        } else if (match.hasFullContent && !item.hasFullContent) {
+          item.content = match.content;
+          item.hasFullContent = true;
+        } else if (!match.hasFullContent && item.hasFullContent) {
+          match.content = item.content;
+          match.hasFullContent = true;
+        }
+        // Unificar aliasIds
+        const combinedAliases = Array.from(new Set([...(match.aliasIds || [match.id]), ...(item.aliasIds || [item.id])]));
+        match.aliasIds = combinedAliases;
+        item.aliasIds = combinedAliases;
+      }
+      
+      blueMap.set(item.id, item); 
     });
-    const finalBlues = Array.from(blueMap.values());
+    
+    // Agrupar canónicamente los Blue Posts para que US y EU no se muestren como tarjetas duplicadas
+    const finalBlues = groupCanonicalNews(Array.from(blueMap.values()));
     // Ordenar estrictamente por fecha descendente
     finalBlues.sort((a, b) => new Date(b.dateRaw || 0) - new Date(a.dateRaw || 0));
 

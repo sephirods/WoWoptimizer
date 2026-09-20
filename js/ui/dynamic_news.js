@@ -173,6 +173,51 @@ const DEFAULT_PINNED_NEWS_IDS = ['blizz-30111968'];
 let activeBlueRegionFilter = 'ALL';
 let currentOpenArticleId = null;
 let currentOpenArticleSource = 'auto';
+let previousScrollY = 0;
+
+// Embellecedor visual para artículos de Wowhead (añade jerarquía, badges y subtítulos estilizados)
+function formatWowheadEditorialContent(html) {
+  if (!html) return '';
+  let res = html;
+
+  // 1. Quitar cajas repetitivas de aviso inicial
+  res = res.replace(/<div class="bg-amber-950\/30 border border-amber-500\/40[\s\S]*?<\/div>\s*<\/div>/gi, '');
+
+  // 2. Dar formato a los subtítulos comunes que vienen en etiquetas <p> simples
+  const headingPatterns = [
+    /^(What’s New|What's New|Bring Your Sea Shanty|Swashbuckling Skyriding Style|Join the Beach Party|WoW Classic|Why Does This Matter\?|Guaranteed Nymrissa Loot|Flexible Mythic Slot|Pirate's Day Guide)/i,
+    /^(When|Where)\s*:/i,
+    /^(Source|Cost)\s*:/i
+  ];
+
+  res = res.replace(/<p>([A-Za-z0-9\s'’\?,—:\!\.]{3,65})<\/p>/g, (match, text) => {
+    const trimmed = text.trim();
+    if (headingPatterns[0].test(trimmed)) {
+      return `<h3 class="font-cinzel text-base sm:text-lg font-bold text-amber-300 pt-3 pb-1 border-b border-amber-500/20 flex items-center gap-2"><i class="fa-solid fa-compass text-xs text-amber-400"></i> ${trimmed}</h3>`;
+    }
+    return match;
+  });
+
+  // 3. Estilizar líneas de metadatos de objetos (Source: ..., Cost: ...)
+  res = res.replace(/<p>(Pirate's Eyepatch|[\w\s'’]+)<br>Source:\s*([^<]+)<br>Cost:\s*([^<]*)<\/p>/gi, (match, item, src, cost) => {
+    return `
+      <div class="my-3 p-3 rounded-xl bg-black/40 border border-amber-500/30 flex flex-col sm:flex-row sm:items-center justify-between gap-2 shadow">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-lg bg-amber-950/80 border border-amber-500/40 flex items-center justify-center text-amber-300 text-xs">
+            <i class="fa-solid fa-shirt"></i>
+          </div>
+          <div>
+            <div class="font-bold text-xs sm:text-sm text-emerald-400">${item}</div>
+            <div class="text-[11px] text-slate-400">Fuente: <span class="text-slate-200">${src.trim()}</span></div>
+          </div>
+        </div>
+        ${cost.trim() ? `<div class="px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-mono font-bold self-start sm:self-auto">${cost.trim()}</div>` : ''}
+      </div>
+    `;
+  });
+
+  return res;
+}
 
 function getActiveLanguage() {
   if (typeof currentLang !== 'undefined' && (currentLang === 'en' || currentLang === 'es' || currentLang === 'mx')) {
@@ -458,8 +503,15 @@ function renderRecentNews() {
           ? (typeof getRelativeTimeString === 'function' ? getRelativeTimeString(item.dateRaw, lang) : formatReadableDate(item.dateRaw, lang))
           : (resolveLocalized(item.timeAgo, lang) || resolveLocalized(item.date, lang) || 'Reciente');
 
+        const coverThumb = item.imageUrl || (item.enclosure && item.enclosure.link) || null;
+
         return `
-          <div onclick="openArticleModal('${item.id}', 'news')" class="p-3.5 hover:bg-amber-950/20 transition cursor-pointer flex items-start justify-between gap-3 group">
+          <div onclick="openArticleModal('${item.id}', 'news')" class="p-3.5 hover:bg-amber-950/20 transition cursor-pointer flex items-center justify-between gap-3 group">
+            ${coverThumb ? `
+              <div class="w-16 h-12 sm:w-20 sm:h-14 rounded-lg overflow-hidden border border-amber-500/30 bg-black/60 shrink-0">
+                <img src="${coverThumb}" alt="${itemTitle}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" loading="lazy" />
+              </div>
+            ` : ''}
             <div class="space-y-1 flex-1 min-w-0">
               <div class="flex items-center gap-2 flex-wrap">
                 <span class="text-[9px] font-mono font-bold px-1.5 py-0.2 rounded border bg-purple-950 text-purple-300 border-purple-500/40">
@@ -474,7 +526,7 @@ function renderRecentNews() {
                 ${itemSummary}
               </p>
             </div>
-            <i class="fa-solid fa-chevron-right text-xs text-slate-600 group-hover:text-amber-400 group-hover:translate-x-0.5 transition shrink-0 mt-2"></i>
+            <i class="fa-solid fa-chevron-right text-xs text-slate-600 group-hover:text-amber-400 group-hover:translate-x-0.5 transition shrink-0"></i>
           </div>
         `;
       }).join('')}
@@ -482,12 +534,61 @@ function renderRecentNews() {
   `;
 }
 
-function openArticleModal(articleId, source = 'auto') {
-  currentOpenArticleId = articleId;
-  currentOpenArticleSource = source;
+/**
+ * Embellece el contenido de Wowhead RSS dándole formato editorial premium:
+ * - Convierte párrafos breves de una línea en subtítulos Cinzel dorados
+ * - Formatea cajas de metadatos (Source / Cost / When / Where)
+ * - Añade destacados visuales y bullets pulidos
+ */
+function formatWowheadEditorialContent(html) {
+  if (!html) return html;
+  let formatted = html;
 
+  // 1. Eliminar la caja duplicada de "Artículo Oficial de Wowhead / Ver en Wowhead" dentro del cuerpo
+  formatted = formatted.replace(/<div class="bg-amber-950\/30 border border-amber-500\/40 p-3\.5 rounded-xl text-xs flex items-center justify-between gap-3">[\s\S]*?<\/div>/gi, '');
+
+  // 2. Formatear bloques de "Source: ... / Cost: ..." o "When: ... / Where: ..."
+  formatted = formatted.replace(
+    /<p>([^<]*?(?:Source|Cost|When|Where|Fecha|Lugar|Fuente|Costo):[^<]*?)<\/p>/gi,
+    (match, inner) => {
+      return `<div class="my-3 p-3 rounded-lg bg-amber-950/20 border border-amber-500/30 text-xs text-amber-200/90 font-medium space-y-1 shadow-inner">${inner}</div>`;
+    }
+  );
+
+  // 3. Formatear párrafos cortos que actúan como encabezados temáticos (ej: <p>Swashbuckling Skyriding Style <br>...</p> o <p>Pirate's Day Guide</p>)
+  formatted = formatted.replace(/<p>([A-Z0-9][A-Za-z0-9\s'’:,–—!?-]{3,50})<\/p>/g, (match, heading) => {
+    // Evitar si parece un párrafo normal con punto final
+    if (heading.endsWith('.') || heading.length > 55) return match;
+    return `<h3 class="font-cinzel text-base sm:text-lg font-bold text-amber-300 mt-5 mb-2 pb-1 border-b border-amber-500/20 flex items-center gap-2"><i class="fa-solid fa-angles-right text-xs text-amber-400"></i> ${heading}</h3>`;
+  });
+
+  // 4. Formatear subtítulos con saltos de línea al inicio del párrafo (ej: <p>What’s New <br>...</p>)
+  formatted = formatted.replace(/<p>([A-Z0-9][A-Za-z0-9\s'’:,–—!?-]{3,45})\s*<br\s*\/?>([\s\S]*?)<\/p>/g, (match, title, rest) => {
+    if (title.endsWith('.') || title.length > 45) return match;
+    return `
+      <div class="mt-4 mb-3">
+        <h4 class="font-cinzel text-sm sm:text-base font-bold text-amber-300 mb-1 flex items-center gap-2">
+          <i class="fa-solid fa-feather text-amber-400 text-xs"></i> ${title}
+        </h4>
+        <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">${rest}</p>
+      </div>
+    `;
+  });
+
+  return formatted;
+}
+
+function openArticleModal(articleId, source = 'auto') {
   const modal = document.getElementById('article-reader-modal');
   if (!modal) return;
+
+  // Si el modal está cerrado, capturar la posición actual de scroll del usuario
+  if (modal.classList.contains('hidden')) {
+    previousScrollY = window.pageYOffset || document.documentElement.scrollTop || window.scrollY || 0;
+  }
+
+  currentOpenArticleId = articleId;
+  currentOpenArticleSource = source;
 
   const lang = getActiveLanguage();
   const db = getNewsDatabase();
@@ -519,17 +620,43 @@ function openArticleModal(articleId, source = 'auto') {
   if (dateEl) dateEl.innerText = dateText;
   if (authorEl) authorEl.innerText = `${lang === 'en' ? 'By' : 'Por'} ${article.author || 'Blizzard Entertainment'}`;
   if (titleEl) titleEl.innerText = titleText;
-  if (bodyEl) bodyEl.innerHTML = contentText || `<p class="text-slate-300 text-sm leading-relaxed">${summaryText}</p>`;
+  // Detectar si el contenido contiene un enlace a un artículo oficial completo en el portal de noticias de Blizzard
+  let targetExternalUrl = article.originalUrl;
+  let isBlogArticle = false;
+  const blogUrlMatch = contentText ? contentText.match(/href="([^"]*worldofwarcraft\.com\/[^"]*news\/[^"]*)"/i) : null;
+  if (blogUrlMatch && blogUrlMatch[1]) {
+    targetExternalUrl = blogUrlMatch[1];
+    isBlogArticle = true;
+  }
 
-  // Configurar botón de enlace a la fuente oficial si existe originalUrl
+  // Si no hay imagen de encabezado en el cuerpo y el artículo tiene imagen de portada, agregarla al inicio del cuerpo
+  let finalHtml = contentText;
+  if (article.imageUrl && !finalHtml.includes('<img')) {
+    finalHtml = `<div class="w-full max-h-[320px] rounded-xl overflow-hidden mb-4 border border-wow-border bg-black/50 shadow-lg"><img src="${article.imageUrl}" alt="${titleText}" class="w-full h-full object-cover" /></div>` + finalHtml;
+  }
+
+  // Eliminar enlaces redundantes tipo "Ver artículo completo" del cuerpo para evitar duplicidad
+  finalHtml = finalHtml.replace(/<p[^>]*>\s*<a\s+href="[^"]*worldofwarcraft\.com\/[^"]*news\/[^"]*"[^>]*>[\s\S]*?<\/a>\s*<\/p>/gi, '');
+  finalHtml = finalHtml.replace(/<a\s+href="[^"]*worldofwarcraft\.com\/[^"]*news\/[^"]*"[^>]*>[\s\S]*?<\/a>/gi, '');
+
+  // Si el artículo proviene de Wowhead, embellecer la jerarquía editorial, encabezados y cajas de metadatos
+  if (article.source === 'wowhead' && finalHtml) {
+    finalHtml = formatWowheadEditorialContent(finalHtml);
+  }
+
+  if (bodyEl) bodyEl.innerHTML = finalHtml || `<p class="text-slate-300 text-sm leading-relaxed">${summaryText}</p>`;
+
+  // Configurar botón de enlace a la fuente oficial si existe originalUrl o targetExternalUrl
   const extLink = document.getElementById('article-modal-external-link');
   const extLabel = document.getElementById('article-modal-external-label');
   if (extLink) {
-    if (article.originalUrl) {
-      extLink.href = article.originalUrl;
+    if (targetExternalUrl) {
+      extLink.href = targetExternalUrl;
       extLink.classList.remove('hidden');
       if (extLabel) {
-        if (article.source === 'blizzard') {
+        if (isBlogArticle) {
+          extLabel.innerText = lang === 'en' ? 'Read Full Article on Blizzard' : 'Leer Artículo Completo en Blizzard';
+        } else if (article.source === 'blizzard') {
           extLabel.innerText = lang === 'en' ? 'View Official Forum Thread' : 'Ver en Foro Oficial';
         } else if (article.source === 'wowhead') {
           extLabel.innerText = lang === 'en' ? 'View on Wowhead' : 'Ver en Wowhead';
@@ -545,14 +672,15 @@ function openArticleModal(articleId, source = 'auto') {
   modal.classList.remove('hidden');
   document.body.style.overflow = 'hidden';
 
-  // Actualizar el hash en la URL del navegador sin recargar para que refleje la noticia abierta
+  // Actualizar el hash en la URL del navegador sin saltos de scroll
   try {
     const targetHash = `#news-${article.id}`;
     if (window.location.hash !== targetHash) {
-      if (window.location.protocol === 'file:') {
-        window.location.hash = targetHash;
+      if (window.history && window.history.replaceState) {
+        const urlBase = window.location.href.split('#')[0];
+        window.history.replaceState(null, '', urlBase + targetHash);
       } else {
-        history.replaceState(null, '', window.location.pathname + window.location.search + targetHash);
+        window.location.hash = targetHash;
       }
     }
   } catch (e) {}
@@ -562,7 +690,8 @@ function openArticleModal(articleId, source = 'auto') {
   if (needsFullFetch) {
     const rawPostId = article.postId || (article.id && article.id.startsWith('blizz-') ? article.id.replace('blizz-', '') : null);
     if (rawPostId) {
-      const postJsonUrl = `https://${article.forumDomain || 'us.forums.blizzard.com'}/en/wow/posts/${rawPostId}.json`;
+      const postLangPrefix = (article.postLang === 'es') ? 'es' : 'en';
+      const postJsonUrl = `https://${article.forumDomain || 'us.forums.blizzard.com'}/${postLangPrefix}/wow/posts/${rawPostId}.json`;
       
       (async () => {
         try {
@@ -574,8 +703,18 @@ function openArticleModal(articleId, source = 'auto') {
 
           if (!fullData) {
             const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(postJsonUrl)}`;
-            const proxyRes = await fetch(proxyUrl, { signal: AbortSignal.timeout(3500) });
-            if (proxyRes.ok) fullData = await proxyRes.json();
+            try {
+              const proxyRes = await fetch(proxyUrl, { signal: AbortSignal.timeout(4500) });
+              if (proxyRes.ok) fullData = await proxyRes.json();
+            } catch (e) {}
+          }
+
+          if (!fullData) {
+            const fallbackProxyUrl = `https://corsproxy.io/?url=${encodeURIComponent(postJsonUrl)}`;
+            try {
+              const fbRes = await fetch(fallbackProxyUrl, { signal: AbortSignal.timeout(4500) });
+              if (fbRes.ok) fullData = await fbRes.json();
+            } catch (e) {}
           }
 
           if (fullData && fullData.cooked) {
@@ -588,7 +727,16 @@ function openArticleModal(articleId, source = 'auto') {
 
             // Si el modal sigue abierto con este artículo, actualizarlo limpiamente
             if (currentOpenArticleId === articleId && !modal.classList.contains('hidden')) {
-              bodyEl.innerHTML = resolveLocalized(article.content, lang) || fullData.cooked;
+              let updatedHtml = resolveLocalized(article.content, lang) || fullData.cooked;
+              const blogMatch = updatedHtml ? updatedHtml.match(/href="([^"]*worldofwarcraft\.com\/[^"]*news\/[^"]*)"/i) : null;
+              if (blogMatch && blogMatch[1] && extLink && extLabel) {
+                extLink.href = blogMatch[1];
+                extLabel.innerText = lang === 'en' ? 'Read Full Article on Blizzard' : 'Leer Artículo Completo en Blizzard';
+              }
+              // Eliminar enlace redundante del cuerpo para dejar únicamente el botón de acción inferior
+              updatedHtml = updatedHtml.replace(/<p[^>]*>\s*<a\s+href="[^"]*worldofwarcraft\.com\/[^"]*news\/[^"]*"[^>]*>[\s\S]*?<\/a>\s*<\/p>/gi, '');
+              updatedHtml = updatedHtml.replace(/<a\s+href="[^"]*worldofwarcraft\.com\/[^"]*news\/[^"]*"[^>]*>[\s\S]*?<\/a>/gi, '');
+              bodyEl.innerHTML = updatedHtml;
             }
           }
         } catch (err) {
@@ -664,16 +812,37 @@ function closeArticleModal() {
   const modal = document.getElementById('article-reader-modal');
   if (modal) modal.classList.add('hidden');
   document.body.style.overflow = '';
-  // Limpiar el hash de la URL si apuntaba a una noticia
+
+  // Limpiar el hash de la URL si apuntaba a una noticia sin provocar scroll al top
   try {
     if (window.location.hash && window.location.hash.startsWith('#news-')) {
-      if (window.location.protocol === 'file:') {
-        window.location.hash = '';
+      if (window.history && window.history.replaceState) {
+        // history.replaceState funciona tanto en http(s) como en file: en navegadores modernos
+        // Evita el salto brusco a # que provoca window.location.hash = ''
+        const cleanUrl = window.location.href.split('#')[0];
+        window.history.replaceState(null, '', cleanUrl);
       } else {
-        history.replaceState(null, '', window.location.pathname + window.location.search);
+        window.location.hash = '';
       }
     }
   } catch (e) {}
+
+  // Restaurar la posición de scroll exacta en la que estaba el usuario antes de abrir el modal
+  if (typeof previousScrollY === 'number' && previousScrollY > 0) {
+    window.scrollTo({
+      top: previousScrollY,
+      left: 0,
+      behavior: 'instant'
+    });
+    // Respaldo en timeout para navegadores que procesan el desborde en el siguiente tick
+    setTimeout(() => {
+      window.scrollTo({
+        top: previousScrollY,
+        left: 0,
+        behavior: 'instant'
+      });
+    }, 10);
+  }
 }
 
 // Abrir artículo directo desde hash de URL (p. ej. index.html#news-blizz-30111968)
