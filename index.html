@@ -60,6 +60,9 @@
   }
   </script>
   
+  <!-- Preload Hero Background Asset (LCP Optimization) -->
+  <link rel="preload" as="image" href="img/xalatath-bg.webp" type="image/webp" fetchpriority="high">
+  
   <!-- Tailwind CSS & FontAwesome Icons -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
   <script src="https://cdn.tailwindcss.com"></script>
@@ -219,7 +222,14 @@
 
       <!-- Silueta Sutil de Xal'atath (Harbinger of the Void - Casi Imperceptible) -->
       <div class="absolute inset-0 flex items-start sm:items-center justify-center pointer-events-none select-none overflow-hidden z-0 pt-2 sm:pt-0" style="-webkit-mask-image: linear-gradient(to bottom, black 55%, transparent 88%); mask-image: linear-gradient(to bottom, black 55%, transparent 88%);">
-        <img src="img/xalatath-bg.webp" alt="" class="w-full max-w-[440px] sm:max-w-5xl h-[380px] sm:h-full object-contain object-top sm:object-center opacity-[0.14] mix-blend-screen filter contrast-125" loading="eager" decoding="async" />
+        <img src="img/xalatath-bg.webp" 
+             alt="Xal'atath Presagio del Vacío - World of Warcraft: Midnight Season 2" 
+             title="Xal'atath - World of Warcraft: Midnight"
+             width="1024" 
+             height="576" 
+             fetchpriority="high"
+             decoding="async"
+             class="w-full max-w-[440px] sm:max-w-5xl h-[380px] sm:h-full object-contain object-top sm:object-center opacity-[0.14] mix-blend-screen filter contrast-125" />
       </div>
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10 text-center space-y-6 sm:space-y-7">
