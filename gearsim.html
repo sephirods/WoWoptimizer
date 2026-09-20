@@ -59,10 +59,7 @@
   <script>var whTooltips = {colorLinks: true, iconizeLinks: false, renameLinks: false};</script>
   <script src="https://wow.zamimg.com/js/tooltips.js"></script>
 
-  <!-- Official Bloodmallet Pre-bundled Data Store, Archon Presets & Wowhead Guides -->
-  <script src="bloodmallet_data.js?v=10"></script>
-  <script src="archon_data.js?v=10"></script>
-  <script src="wowhead_data.js?v=10"></script>
+
 
   <script>
     tailwind.config = {
@@ -980,30 +977,53 @@
   </div>
 
 
-  <!-- Core Modular Scripts -->
-  <script src="js/ui/i18n.js"></script>
-  <script src="js/data/classes_plate.js"></script>
-  <script src="js/data/classes_mail.js"></script>
-  <script src="js/data/classes_leather.js"></script>
-  <script src="js/data/classes_cloth.js"></script>
-  <script src="js/data/classes.js"></script>
-  <script src="js/data/state.js"></script>
-  <script src="js/data/gems.js"></script>
-  <script src="js/data/trinkets.js"></script>
-  <script src="js/engine/upgrade_tracks.js"></script>
-  <script src="js/engine/item_scaler.js"></script>
-  <script src="js/engine/simc_parser.js"></script>
-  <script src="js/engine/optimizer.js"></script>
-  <script src="js/engine/simc_exporter.js"></script>
-  <script src="js/ui/tooltips_ui.js"></script>
-  <script src="js/ui/target_ui.js"></script>
-  <script src="js/ui/item_modal_ui.js"></script>
-  <script src="js/ui/inventory_ui.js"></script>
-  <script src="js/ui/results_ui.js"></script>
-  <script src="js/ui/comparator_ui.js"></script>
-  <script src="js/ui/modals_ui.js"></script>
-  <script src="js/ui/tickets_ui.js"></script>
-  <script src="js/ui/dynamic_footer.js"></script>
-  <script src="js/app.js"></script>
+  <!-- Core Modular Scripts con Auto-Cache-Busting Dinámico -->
+  <script>
+    (function loadGearsimScripts() {
+      const v = Math.floor(Date.now() / (5 * 60 * 1000));
+      const scripts = [
+        "bloodmallet_data.js",
+        "archon_data.js",
+        "wowhead_data.js",
+        "js/ui/i18n.js",
+        "js/data/classes_plate.js",
+        "js/data/classes_mail.js",
+        "js/data/classes_leather.js",
+        "js/data/classes_cloth.js",
+        "js/data/classes.js",
+        "js/data/state.js",
+        "js/data/gems.js",
+        "js/data/trinkets.js",
+        "js/engine/upgrade_tracks.js",
+        "js/engine/item_scaler.js",
+        "js/engine/simc_parser.js",
+        "js/engine/optimizer.js",
+        "js/engine/simc_exporter.js",
+        "js/ui/tooltips_ui.js",
+        "js/ui/target_ui.js",
+        "js/ui/item_modal_ui.js",
+        "js/ui/inventory_ui.js",
+        "js/ui/results_ui.js",
+        "js/ui/comparator_ui.js",
+        "js/ui/modals_ui.js",
+        "js/ui/tickets_ui.js",
+        "js/ui/dynamic_footer.js",
+        "js/app.js"
+      ];
+      
+      function loadNext(index) {
+        if (index >= scripts.length) return;
+        const s = document.createElement('script');
+        s.src = `${scripts[index]}?v=${v}`;
+        s.onload = () => loadNext(index + 1);
+        s.onerror = () => {
+          console.warn('Error loading gearsim script:', scripts[index]);
+          loadNext(index + 1);
+        };
+        document.body.appendChild(s);
+      }
+      loadNext(0);
+    })();
+  </script>
 </body>
 </html>

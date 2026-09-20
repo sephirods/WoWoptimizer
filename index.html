@@ -506,18 +506,38 @@
   <!-- CONTENEDOR MODULAR PARA FOOTER DINÁMICO & REPORTES DE PROBLEMAS -->
   <div id="app-footer-container"></div>
 
-  <!-- SCRIPTS MODULARES DE SOPORTE -->
-  <script src="js/data/wow_news_data.js?v=20260920_v3"></script>
-  <script src="js/data/pinned_news.js?v=20260920_v3"></script>
-  <script src="js/data/news_fetcher.js?v=20260920_v3"></script>
-  <script src="js/ui/i18n.js?v=20260920_v3"></script>
-  <script src="js/ui/tickets_ui.js"></script>
-  <script src="js/ui/dynamic_news.js?v=20260920_v3"></script>
-  <script src="js/ui/dynamic_footer.js"></script>
+  <!-- SCRIPTS MODULARES CON AUTO-CACHE-BUSTING DINÁMICO (WASMER & LOCAL) -->
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      if (typeof updateLanguageUI === 'function') updateLanguageUI();
-    });
+    (function loadVersionedScripts() {
+      // Version única basada en timestamp cada 5 minutos para desarrollo/producción
+      const v = Math.floor(Date.now() / (5 * 60 * 1000));
+      const scripts = [
+        "js/data/wow_news_data.js",
+        "js/data/pinned_news.js",
+        "js/data/news_fetcher.js",
+        "js/ui/i18n.js",
+        "js/ui/tickets_ui.js",
+        "js/ui/dynamic_news.js",
+        "js/ui/dynamic_footer.js"
+      ];
+      
+      let loaded = 0;
+      function loadNext(index) {
+        if (index >= scripts.length) {
+          if (typeof updateLanguageUI === 'function') updateLanguageUI();
+          return;
+        }
+        const s = document.createElement('script');
+        s.src = `${scripts[index]}?v=${v}`;
+        s.onload = () => loadNext(index + 1);
+        s.onerror = () => {
+          console.warn('Error loading script:', scripts[index]);
+          loadNext(index + 1);
+        };
+        document.body.appendChild(s);
+      }
+      loadNext(0);
+    })();
   </script>
 
 </body>
