@@ -333,10 +333,10 @@
         <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
           <div class="flex items-center gap-2">
             <span class="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[11px] flex items-center justify-center">5</span>
-            <h4 class="font-bold text-amber-300 text-sm" data-i18n="guideStep5Title">Gems, Enchants & Simulation</h4>
+            <h4 class="font-bold text-amber-300 text-sm" data-i18n="guideStep5Title">Compare vs Equipped Gear</h4>
           </div>
           <p class="text-slate-400 pl-7" data-i18n-html="guideStep5Desc">
-            Inspect the suggested <strong class="text-amber-300">smart gems</strong> and enchants. Click <strong class="text-emerald-300"><i class="fa-solid fa-file-export"></i> Export SimC</strong> to send the setup straight to <strong class="text-white">Raidbots</strong>.
+            Click <strong class="text-amber-300"><i class="fa-solid fa-code-compare"></i> Compare vs Equipped</strong> to see a piece-by-piece breakdown: which items to equip, which enchants to apply, and which smart gems to socket for your optimal setup.
           </p>
         </div>
 
