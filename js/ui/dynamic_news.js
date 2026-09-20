@@ -161,6 +161,22 @@ const DEFAULT_PINNED_NEWS_IDS = ['blizz-30111968', 'blizz-24302093'];
       try { updateLanguageUI(); } catch (e) {}
     }
 
+    // Cargar siempre la configuración de noticias fijadas fresca del servidor (Zero-Cache)
+    if (typeof fetch !== 'undefined') {
+      fetch(`js/data/pinned_news.js?_t=${Date.now()}`, { cache: 'no-store' })
+        .then(res => res.text())
+        .then(code => {
+          try {
+            // Ejecutar dinámicamente el script fresco
+            const fn = new Function(code);
+            fn();
+            if (typeof renderPinnedNews === 'function') renderPinnedNews();
+            if (typeof renderBlizzardNews === 'function') renderBlizzardNews();
+          } catch (e) {}
+        })
+        .catch(() => {});
+    }
+
     // Renderizar contenidos de los feeds
     renderPinnedNews();
     renderBlizzardNews();
