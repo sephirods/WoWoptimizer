@@ -684,7 +684,13 @@
                   <p class="text-[11px] text-slate-400">Estas noticias aparecerán destacadas en la parte superior de la sección de noticias del inicio.</p>
                 </div>
               </div>
-              <span id="pinned-news-count-badge" class="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-amber-950 text-amber-300 border border-amber-500/50 font-bold">0 fijadas</span>
+              <div class="flex items-center gap-2">
+                <span id="pinned-news-count-badge" class="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-amber-950 text-amber-300 border border-amber-500/50 font-bold">0 fijadas</span>
+                <button id="btn-publish-pinned" onclick="publishPinnedNewsToGithub()" class="text-xs bg-amber-500 hover:bg-amber-400 text-black font-extrabold px-3.5 py-1.5 rounded-xl flex items-center gap-1.5 transition shadow">
+                  <i id="publish-pinned-icon" class="fa-solid fa-cloud-arrow-up"></i>
+                  <span id="publish-pinned-text">Publicar en Producción</span>
+                </button>
+              </div>
             </div>
             
             <div id="admin-pinned-news-container" class="space-y-2">
