@@ -216,35 +216,53 @@ function isHealerSpec(c, s) {
   return healerSpecs.includes(spc) || (cls === 'paladin' && spc === 'holy') || (cls === 'druid' && (spc === 'restoration' || spc === 'restoration_druid')) || (cls === 'shaman' && (spc === 'restoration' || spc === 'restoration_shaman')) || (cls === 'priest' && (spc === 'holy' || spc === 'discipline' || spc === 'holy_priest')) || (cls === 'monk' && spc === 'mistweaver') || (cls === 'evoker' && spc === 'preservation');
 }
 
+function getArchonHealerSpecData(c, s) {
+  if (!window.ARCHON_HEALER_TRINKETS) return null;
+  const cls = c || currentClass;
+  const spc = s || currentSpec;
+  const classData = window.ARCHON_HEALER_TRINKETS[cls];
+  if (!classData) return null;
+
+  if (classData[spc]) return classData[spc];
+
+  const aliases = {
+    'restoration': cls === 'shaman' ? 'restoration_shaman' : (cls === 'druid' ? 'restoration_druid' : 'restoration'),
+    'holy': cls === 'priest' ? 'holy_priest' : 'holy',
+    'restoration_shaman': 'restoration',
+    'restoration_druid': 'restoration',
+    'holy_priest': 'holy'
+  };
+
+  const alias = aliases[spc];
+  if (alias && classData[alias]) return classData[alias];
+
+  // Búsqueda insensible a mayúsculas o prefijos
+  const cleanSpc = spc.toLowerCase().replace(/[^a-z0-9]/g, '');
+  for (const k of Object.keys(classData)) {
+    const cleanK = k.toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (cleanK === cleanSpc || cleanK.includes(cleanSpc) || cleanSpc.includes(cleanK)) {
+      return classData[k];
+    }
+  }
+  return null;
+}
+
 function getTrinketArchonHealerInfo(item, wowClass, wowSpec, mode) {
   if (!item || item.slot !== 'trinket') return null;
   const c = wowClass || currentClass;
-  let s = wowSpec || currentSpec;
-  if (c === 'shaman' && s === 'restoration') s = 'restoration_shaman';
-  if (c === 'druid' && s === 'restoration') s = 'restoration_druid';
-  if (c === 'priest' && s === 'holy') s = 'holy_priest';
+  const s = wowSpec || currentSpec;
+  const specData = getArchonHealerSpecData(c, s);
+  if (!specData) return null;
   
-  if (!window.ARCHON_HEALER_TRINKETS || !window.ARCHON_HEALER_TRINKETS[c] || !window.ARCHON_HEALER_TRINKETS[c][s]) {
-    return null;
-  }
+  const m = mode || (typeof currentContentMode !== 'undefined' && currentContentMode === 'raid' ? 'raid' : 'mplus');
+  const list = specData[m] || [];
   
-  const m = mode || (currentContentMode === 'raid' ? 'raid' : 'mplus');
-  const list = window.ARCHON_HEALER_TRINKETS[c][s][m] || window.ARCHON_HEALER_TRINKETS[c][s]['mplus'] || window.ARCHON_HEALER_TRINKETS[c][s]['raid'] || [];
-  let found = list.find(x => x.itemId === item.itemId);
+  let found = list.find(x => Number(x.itemId) === Number(item.itemId));
   if (!found && item.name) {
     const clean = item.name.toLowerCase().replace(/[^a-z0-9]/g, '');
     found = list.find(x => x.name && x.name.toLowerCase().replace(/[^a-z0-9]/g, '') === clean);
     if (!found) {
       found = list.find(x => x.name && (clean.includes(x.name.toLowerCase().replace(/[^a-z0-9]/g, '')) || x.name.toLowerCase().replace(/[^a-z0-9]/g, '').includes(clean)));
-    }
-  }
-  if (!found) {
-    const altM = m === 'raid' ? 'mplus' : 'raid';
-    const altList = window.ARCHON_HEALER_TRINKETS[c][s][altM] || [];
-    found = altList.find(x => x.itemId === item.itemId);
-    if (!found && item.name) {
-      const clean = item.name.toLowerCase().replace(/[^a-z0-9]/g, '');
-      found = altList.find(x => x.name && x.name.toLowerCase().replace(/[^a-z0-9]/g, '') === clean);
     }
   }
   return found ? { ...found, isHealer: true, mode: m } : null;

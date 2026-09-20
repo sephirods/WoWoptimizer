@@ -64,28 +64,22 @@ function renderBloodmalletModalList() {
 
   // Caso 1: Especialización Healer (Datos Archon.gg)
   if (isHealerSpec(c, s)) {
+    const isRaid = typeof currentContentMode !== 'undefined' && currentContentMode === 'raid';
+    const modeKey = isRaid ? 'raid' : 'mplus';
+    const modeLabel = isRaid ? 'Mythic Raid' : 'Mythic+ (M+)';
+
     const metaEl = document.getElementById('bm-modal-meta');
     if (metaEl) {
-      metaEl.innerText = 'Fuente: Archon.gg Mythic+ & Raid Meta Rankings (Healer Spec)';
+      metaEl.innerText = `Fuente: Archon.gg ${modeLabel} Meta Rankings (Healer Spec)`;
     }
 
-    const archonData = (window.ARCHON_HEALER_TRINKETS && window.ARCHON_HEALER_TRINKETS[c] && window.ARCHON_HEALER_TRINKETS[c][s]) || { mplus: [], raid: [] };
-    const allArchon = [...(archonData.mplus || []), ...(archonData.raid || [])];
+    const archonSpec = (typeof getArchonHealerSpecData === 'function') 
+      ? getArchonHealerSpecData(c, s) 
+      : ((window.ARCHON_HEALER_TRINKETS && window.ARCHON_HEALER_TRINKETS[c] && window.ARCHON_HEALER_TRINKETS[c][s]) || null);
 
-    // Deduplicar por itemId
-    const uniqueMap = new Map();
-    for (const entry of allArchon) {
-      if (!uniqueMap.has(entry.itemId)) {
-        uniqueMap.set(entry.itemId, entry);
-      } else {
-        const existing = uniqueMap.get(entry.itemId);
-        if (entry.popularity > existing.popularity) {
-          uniqueMap.set(entry.itemId, entry);
-        }
-      }
-    }
+    const modeList = (archonSpec && archonSpec[modeKey]) ? archonSpec[modeKey] : [];
 
-    let entries = Array.from(uniqueMap.values());
+    let entries = [...modeList];
     if (search) {
       entries = entries.filter(e => e.name && e.name.toLowerCase().includes(search));
     }
@@ -95,7 +89,7 @@ function renderBloodmalletModalList() {
     if (entries.length === 0) {
       container.innerHTML = `
         <div class="bg-black/40 border border-wow-border rounded-xl p-8 text-center text-slate-400 text-xs">
-          No se encontraron abalorios con el filtro "${search}".
+          No se encontraron abalorios para ${modeLabel} con el filtro "${search}".
         </div>
       `;
       return;

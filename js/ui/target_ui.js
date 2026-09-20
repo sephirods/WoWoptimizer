@@ -25,6 +25,12 @@ function setContentMode(mode) {
   saveState();
   applySpecConfig(currentSpec);
   showToast(mode === 'raid' ? (t('toastModeRaid', '🏛️ Estadísticas: Banda Mítica cargadas')) : (t('toastModeMplus', '🗝️ Estadísticas: Míticas+ (M+) cargadas')), 'info');
+  
+  // Si la ventana modal de rankings de abalorios está abierta, refrescarla automáticamente
+  const bmModal = document.getElementById('bloodmallet-modal');
+  if (bmModal && !bmModal.classList.contains('hidden') && typeof renderBloodmalletModalList === 'function') {
+    renderBloodmalletModalList();
+  }
 }
 
 function onClassChange() {
