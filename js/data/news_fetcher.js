@@ -1,7 +1,7 @@
 // MOTOR AUTOMATIZADO DE SINCRONIZACIÓN EN VIVO: BLIZZARD BLUE TRACKER Y WOWHEAD NEWS
 // Obtiene publicaciones oficiales en tiempo real de Blizzard Forums (API Discourse) y Wowhead Retail RSS
 
-const WOW_NEWS_CACHE_KEY = 'wow_live_news_cache_v3';
+const WOW_NEWS_CACHE_KEY = 'wow_live_news_cache_v4';
 const WOW_NEWS_CACHE_TTL = 30 * 60 * 1000; // 30 minutos
 
 // Limpiar tags HTML simples para resúmenes
