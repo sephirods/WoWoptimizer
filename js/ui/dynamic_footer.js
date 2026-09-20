@@ -250,6 +250,117 @@
       </form>
     </div>
   </div>
+
+  <!-- MODAL: USER GUIDE & FAQ (LANDING PAGE) -->
+  <div id="help-modal" class="fixed inset-0 bg-black/85 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-wow-panel border border-wow-border rounded-xl max-w-2xl w-full max-h-[88vh] flex flex-col p-6 shadow-2xl space-y-4">
+      <div class="flex items-center justify-between border-b border-wow-border pb-3 flex-shrink-0">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded bg-amber-950/60 border border-amber-500 flex items-center justify-center text-amber-400">
+            <i class="fa-solid fa-book-open"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-white" data-i18n="guideModalTitle">Optimizer User Guide</h3>
+            <p class="text-xs text-slate-400" data-i18n="guideModalSubtitle">Step by step to optimize your gear, secondary stats, and vault rewards</p>
+          </div>
+        </div>
+        <button onclick="closeHelpModal()" class="text-slate-400 hover:text-white">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <div class="flex-1 overflow-y-auto space-y-3.5 text-xs text-slate-300 pr-1">
+        <!-- Step 1: Install Simulationcraft Addon -->
+        <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-2">
+          <div class="flex items-center justify-between gap-2 flex-wrap">
+            <div class="flex items-center gap-2">
+              <span class="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[11px] flex items-center justify-center shrink-0">1</span>
+              <h4 class="font-bold text-amber-300 text-sm" data-i18n="guideStep1Title">Download & Install Simulationcraft Addon</h4>
+            </div>
+            <a href="https://www.curseforge.com/wow/addons/simulationcraft" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-[#f16436]/20 hover:bg-[#f16436]/30 border border-[#f16436]/50 text-[#f16436] hover:text-white font-bold text-[11px] transition shadow-sm ml-auto">
+              <i class="fa-solid fa-download text-[10px]"></i> <span data-i18n="guideStep1CurseBtn">CurseForge Addon</span> <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+            </a>
+          </div>
+          <div class="text-slate-400 pl-7 space-y-1.5 leading-relaxed">
+            <p data-i18n-html="guideStep1Intro">To export your character data, you need the official <strong class="text-white">Simulationcraft</strong> in-game addon:</p>
+            <ol class="list-decimal list-inside space-y-1 text-slate-300">
+              <li data-i18n-html="guideStep1Li1">Open the <strong class="text-amber-300">CurseForge App</strong>, search for <code class="text-amber-300 font-mono">Simulationcraft</code> and click <strong>Install</strong> (or download it from <a href="https://www.curseforge.com/wow/addons/simulationcraft" target="_blank" rel="noopener noreferrer" class="text-amber-400 underline hover:text-amber-300">CurseForge</a> and extract into <code class="text-slate-300 font-mono text-[11px]">_retail_\\Interface\\AddOns\\</code>).</li>
+              <li data-i18n-html="guideStep1Li2">Log into World of Warcraft with your character, type <code class="text-amber-300 font-mono font-bold bg-black/60 px-1.5 py-0.5 rounded border border-wow-border">/simc</code> in the chat box, and press <strong>Enter</strong>.</li>
+              <li data-i18n-html="guideStep1Li3">A window will pop up displaying all your gear, bags, and Great Vault. Press <kbd class="bg-slate-800 border border-slate-700 px-1.5 py-0.5 rounded text-white font-mono font-bold">Ctrl + C</kbd> to copy the text.</li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
+          <div class="flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[11px] flex items-center justify-center">2</span>
+            <h4 class="font-bold text-amber-300 text-sm" data-i18n="guideStep2Title">Load your Gear & Bags</h4>
+          </div>
+          <p class="text-slate-400 pl-7" data-i18n-html="guideStep2Desc">
+            Click <strong class="text-emerald-300"><i class="fa-solid fa-file-import"></i> Import SimC</strong> in the top menu and paste your copied text (<kbd class="bg-slate-800 border border-slate-700 px-1 py-0.5 rounded text-white font-mono text-[10px]">Ctrl + V</kbd>). The optimizer will automatically load your equipped items, bag gear, and weekly <strong class="text-yellow-300">Great Vault</strong> options.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
+          <div class="flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[11px] flex items-center justify-center">3</span>
+            <h4 class="font-bold text-amber-300 text-sm" data-i18n="guideStep3Title">Set Secondary Stat Targets</h4>
+          </div>
+          <p class="text-slate-400 pl-7" data-i18n-html="guideStep3Desc">
+            Enter desired stat goals for <span class="text-purple-400 font-semibold">Mastery</span>, <span class="text-blue-400 font-semibold">Crit</span>, <span class="text-slate-300 font-semibold">Haste</span>, and <span class="text-emerald-400 font-semibold">Versatility</span>, or click any of the <strong class="text-amber-300">Recommended Presets</strong> from Wowhead / Archon to load them instantly.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
+          <div class="flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[11px] flex items-center justify-center">4</span>
+            <h4 class="font-bold text-amber-300 text-sm" data-i18n="guideStep4Title">Calculate the Best Setup</h4>
+          </div>
+          <div class="text-slate-400 pl-7 space-y-2">
+            <p data-i18n-html="guideStep4Intro">Click <strong class="text-amber-300">Calculate Best Setup</strong> to find the mathematically optimal combination among all available items.</p>
+            <ul class="space-y-1 text-slate-400 list-disc list-inside">
+              <li data-i18n-html="guideStep4Vault"><strong class="text-yellow-300"><i class="fa-solid fa-vault mr-1"></i>Great Vault</strong>: See exactly which item from your weekly vault yields the highest stat compliance.</li>
+              <li data-i18n-html="guideStep4Lock"><strong class="text-amber-400"><i class="fa-solid fa-lock mr-1"></i>Lock Items</strong>: Click the padlock icon on any item to force it into the combination.</li>
+              <li data-i18n-html="guideStep4Tier"><strong class="text-purple-300"><i class="fa-solid fa-layer-group mr-1"></i>Tier Set Bonus</strong>: Require 2P or 4P set bonuses.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
+          <div class="flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[11px] flex items-center justify-center">5</span>
+            <h4 class="font-bold text-amber-300 text-sm" data-i18n="guideStep5Title">Gems, Enchants & Simulation</h4>
+          </div>
+          <p class="text-slate-400 pl-7" data-i18n-html="guideStep5Desc">
+            Inspect the suggested <strong class="text-amber-300">smart gems</strong> and enchants. Click <strong class="text-emerald-300"><i class="fa-solid fa-file-export"></i> Export SimC</strong> to send the setup straight to <strong class="text-white">Raidbots</strong>.
+          </p>
+        </div>
+
+        <!-- Keyboard Shortcuts -->
+        <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
+          <h4 class="font-bold text-slate-300 flex items-center gap-1.5"><i class="fa-solid fa-keyboard text-amber-400"></i> <span data-i18n="guideShortcutsTitle">Keyboard Shortcuts</span></h4>
+          <div class="flex flex-wrap items-center gap-3 pt-1 pl-2 text-slate-400">
+            <span><kbd class="bg-slate-800 border border-slate-700 px-2 py-0.5 rounded text-white font-mono font-bold">Ctrl + Enter</kbd> <span data-i18n="guideRunShortcut">Run Optimizer</span></span>
+            <span><kbd class="bg-slate-800 border border-slate-700 px-2 py-0.5 rounded text-white font-mono font-bold">Ctrl + K</kbd> <span data-i18n="guideSearchShortcut">Search Inventory</span></span>
+            <span><kbd class="bg-slate-800 border border-slate-700 px-2 py-0.5 rounded text-white font-mono font-bold">Esc</kbd> <span data-i18n="guideCloseShortcut">Close Modal</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-3 border-t border-wow-border flex items-center justify-between flex-shrink-0 gap-2">
+        <button type="button" onclick="closeHelpModal()" class="px-4 py-2 rounded-xl text-xs font-semibold text-slate-400 hover:text-white bg-transparent hover:bg-slate-800 transition min-h-[38px]" data-i18n="closeModal">
+          Cerrar
+        </button>
+        <a href="gearsim.html" class="px-5 py-2 rounded-xl text-xs font-bold text-black bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-400 hover:to-amber-300 transition shadow-lg shadow-amber-950/40 flex items-center gap-2 min-h-[38px]">
+          <span data-i18n="guideGoToOptimizer">Ir al Optimizador</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+        </a>
+      </div>
+    </div>
+  </div>
   `;
 
   function mountFooter() {
@@ -316,13 +427,24 @@ function acceptCookieConsent() {
   if (banner) banner.classList.add('hidden');
 }
 
+function openHelpModal() {
+  const m = document.getElementById('help-modal');
+  if (m) m.classList.remove('hidden');
+}
+function closeHelpModal() {
+  const m = document.getElementById('help-modal');
+  if (m) m.classList.add('hidden');
+}
+
 // Cierre accesible con tecla Escape
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
     closePrivacyModal();
     closeTermsModal();
     closeContactModal();
+    closeHelpModal();
     if (typeof closeBugReportModal === 'function') closeBugReportModal();
   }
 });
+
 
