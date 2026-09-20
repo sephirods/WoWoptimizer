@@ -1617,10 +1617,10 @@
         let sha = null;
         try {
           const getRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${FILE_PATH}?ref=main&_ts=${Date.now()}`, {
+            cache: 'no-store',
             headers: {
               'Authorization': `Bearer ${token}`,
-              'Accept': 'application/vnd.github+json',
-              'Cache-Control': 'no-cache'
+              'Accept': 'application/vnd.github+json'
             }
           });
           if (getRes.ok) {
@@ -1629,9 +1629,13 @@
           } else if (getRes.status === 401) {
             localStorage.removeItem('wow_gh_sync_token');
             throw new Error('Token inválido o expirado. Vuelve a intentarlo.');
+          } else if (getRes.status !== 404) {
+            const errData = await getRes.json().catch(() => ({}));
+            throw new Error(`Error al verificar archivo en GitHub (${getRes.status}): ${errData.message || getRes.statusText}`);
           }
         } catch (e) {
-          if (e.message.includes('Token inválido')) throw e;
+          if (e.message.includes('Token') || e.message.includes('Error al verificar')) throw e;
+          console.warn('[Admin] Advertencia al obtener SHA inicial:', e);
         }
 
         // 2. Hacer commit y push directo vía API a main
@@ -1665,10 +1669,10 @@
         // 3. Sincronizar también con branch staging obteniendo su SHA fresco
         try {
           const getStaging = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${FILE_PATH}?ref=staging&_ts=${Date.now()}`, {
+            cache: 'no-store',
             headers: { 
               'Authorization': `Bearer ${token}`, 
-              'Accept': 'application/vnd.github+json',
-              'Cache-Control': 'no-cache'
+              'Accept': 'application/vnd.github+json'
             }
           });
           let stagingSha = null;
