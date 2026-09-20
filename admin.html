@@ -1314,10 +1314,14 @@
       try {
         if (hasCustomNews) {
           currentNewsDb = JSON.parse(localStorage.getItem('wow_custom_news_data'));
-        } else if (window.WOW_LIVE_NEWS_DATA && window.WOW_LIVE_NEWS_DATA.blueTracker) {
-          currentNewsDb = window.WOW_LIVE_NEWS_DATA;
-        } else if (window.WOW_NEWS_DATABASE) {
-          currentNewsDb = window.WOW_NEWS_DATABASE;
+        } else {
+          const base = window.WOW_NEWS_DATABASE || { blueTracker: [], blizzardNews: [], recentNews: [] };
+          const live = window.WOW_LIVE_NEWS_DATA || {};
+          currentNewsDb = {
+            blueTracker: (live.blueTracker && live.blueTracker.length > 0) ? live.blueTracker : (base.blueTracker || []),
+            blizzardNews: (base.blizzardNews && base.blizzardNews.length > 0) ? base.blizzardNews : (live.blizzardNews || []),
+            recentNews: (base.recentNews && base.recentNews.length > 0) ? base.recentNews : (live.recentNews || [])
+          };
         }
       } catch (e) {}
 

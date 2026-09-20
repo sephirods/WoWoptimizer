@@ -1,3 +1,5 @@
 node_modules/
 backups/
 *.tmp
+.credentials.md
+.env*
