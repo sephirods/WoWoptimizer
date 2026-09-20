@@ -1089,11 +1089,18 @@ function openArticleModal(articleId, source = 'auto') {
 
   // Normalizar enlaces a foros de Blizzard para evitar el bug de redirección 404 de Blizzard
   if (targetExternalUrl && targetExternalUrl.includes('forums.blizzard.com')) {
-    const postLang = article.postLang || (lang === 'es' ? 'es' : 'en');
-    targetExternalUrl = targetExternalUrl.replace(
-      /(https?:\/\/(?:us|eu)\.forums\.blizzard\.com)\/(?:en|es)?\/?(?:wow\/)?t\//i,
-      `$1/${postLang}/wow/t/`
-    );
+    try {
+      const parsedUrl = new URL(targetExternalUrl);
+      const postLang = article.postLang || (lang === 'es' ? 'es' : 'en');
+      // Capturar slug, topicId y número de post opcional sin importar la estructura previa
+      const m = parsedUrl.pathname.match(/([a-z0-9-]+)\/(\d+)(?:\/(\d+))?$/i);
+      if (m) {
+        const slug = m[1];
+        const topicId = m[2];
+        const postNum = m[3] || '1';
+        targetExternalUrl = `https://${parsedUrl.hostname}/${postLang}/wow/t/${slug}/${topicId}/${postNum}`;
+      }
+    } catch (e) {}
   }
 
   // Si no hay imagen de encabezado en el cuerpo y el artículo tiene imagen de portada, agregarla al inicio del cuerpo

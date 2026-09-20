@@ -40,7 +40,7 @@
 - Apply edits locally only.
 - Present what was modified clearly to the user.
 - DO NOT ask to commit or push. Wait silently for the user's explicit command.
-- **MANDATORY VERSION BUMP BEFORE PUSH**: Whenever the user explicitly commands a push, the assistant MUST update the version query parameter (`?v=...`) on ALL currently versioned scripts across the project (e.g. `index.html`, `gearsim.html`) before committing/pushing, ONLY touching those scripts that already have a version parameter. Never leave stale versions.
+- **MANDATORY SCRIPT VERSIONING ON EVERY EDIT / PUSH (STRICT RULE)**: Whenever ANY JavaScript file is created, edited, or updated, or whenever the user orders a push, the assistant MUST immediately increment/update the version query parameter (`?v=...`) on ALL currently versioned scripts across every HTML file in the project (e.g. `index.html`, `gearsim.html`) BEFORE committing or pushing. Stale script versions or caching issues are strictly forbidden. Always bundle the version bump with the change so that users and browsers always load the freshest scripts without caching artifacts.
 
 ## 5. Execution Directives & Interaction Cadence (MANDATORY)
 

@@ -1,12 +1,12 @@
 // MOTOR AUTOMATIZADO DE SINCRONIZACIÓN EN VIVO: BLIZZARD BLUE TRACKER Y WOWHEAD NEWS
 // Obtiene publicaciones oficiales en tiempo real de Blizzard Forums (API Discourse) y Wowhead Retail RSS
 
-const WOW_NEWS_CACHE_KEY = 'wow_live_news_cache_v24';
+const WOW_NEWS_CACHE_KEY = 'wow_live_news_cache_v25';
 const WOW_NEWS_CACHE_TTL = 30 * 60 * 1000; // 30 minutos
 
 // Limpiar cachés anteriores obsoletas
 try {
-  ['wow_live_news_cache_v10', 'wow_live_news_cache_v11', 'wow_live_news_cache_v12', 'wow_live_news_cache_v13', 'wow_live_news_cache_v14', 'wow_live_news_cache_v15', 'wow_live_news_cache_v16', 'wow_live_news_cache_v17', 'wow_live_news_cache_v18', 'wow_live_news_cache_v19', 'wow_live_news_cache_v20', 'wow_live_news_cache_v21', 'wow_live_news_cache_v22', 'wow_live_news_cache_v23', 'wow_midnight_news_cache_v1', 'wow_midnight_news_cache_v2'].forEach(k => {
+  ['wow_live_news_cache_v10', 'wow_live_news_cache_v11', 'wow_live_news_cache_v12', 'wow_live_news_cache_v13', 'wow_live_news_cache_v14', 'wow_live_news_cache_v15', 'wow_live_news_cache_v16', 'wow_live_news_cache_v17', 'wow_live_news_cache_v18', 'wow_live_news_cache_v19', 'wow_live_news_cache_v20', 'wow_live_news_cache_v21', 'wow_live_news_cache_v22', 'wow_live_news_cache_v23', 'wow_live_news_cache_v24', 'wow_midnight_news_cache_v1', 'wow_midnight_news_cache_v2'].forEach(k => {
     localStorage.removeItem(k);
   });
 } catch (e) {}
