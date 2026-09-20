@@ -852,6 +852,24 @@ function formatWowheadEditorialContent(html) {
   formatted = formatted.replace(/<span[^>]*style="[^"]*background-image:[^"]*class_[^"]*"[^>]*><\/span>/gi, '');
   formatted = formatted.replace(/<span class="c\d+">/gi, '<span class="font-bold text-amber-300">');
 
+  // 2.1 Convertir contenedores wh-youtube en reproductores de YouTube embebidos interactivos
+  formatted = formatted.replace(/<div class="[^"]*wh-youtube[^"]*"[^>]*style="[^"]*background:[^"]*url\((?:&quot;|"|')?https?:\/\/i\.ytimg\.com\/vi\/([a-zA-Z0-9_-]+)\/[^"'\)]*(?:&quot;|"|')?\)[^"]*"[^>]*>[\s\S]*?<\/div>\s*<\/div>/gi, (match, ytId) => {
+    return `
+      <div class="my-5 w-full flex justify-center">
+        <div class="w-full max-w-2xl aspect-video rounded-xl overflow-hidden border border-amber-500/40 shadow-2xl bg-black">
+          <iframe 
+            src="https://www.youtube.com/embed/${ytId}?rel=0" 
+            title="YouTube video player" 
+            class="w-full h-full border-0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen 
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    `;
+  });
+
   // 3. Estilizar y balancear tablas: ancho 100%, bordes oscuros sutiles, cabecera resaltada y sin huecos negros
   formatted = formatted.replace(/<table[^>]*class="[^"]*grid[^"]*"[^>]*>/gi, '<div class="w-full overflow-x-auto my-4 rounded-xl border border-wow-border bg-[#0b0e17] shadow-lg"><table class="w-full text-left text-xs border-collapse">');
   formatted = formatted.replace(/<\/table>/gi, '</table></div>');
