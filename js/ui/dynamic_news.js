@@ -781,9 +781,9 @@ function injectNewsSeoSchema() {
             "publisher": {
               "@type": "Organization",
               "name": "WoWOptimizer",
-              "url": "https://wowoptimizer.wasmer.app/"
+              "url": "https://wowtopgear.app/"
             },
-            "mainEntityOfPage": `https://wowoptimizer.wasmer.app/#news-${item.id}`
+            "mainEntityOfPage": `https://wowtopgear.app/#news-${item.id}`
           }
         };
       })
