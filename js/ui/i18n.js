@@ -1,9 +1,29 @@
 // MULTI-LANGUAGE SYSTEM (i18n: EN / ES / MX)
+function detectBrowserLanguage() {
+  try {
+    const navLang = (navigator.languages && navigator.languages[0]) || navigator.language || navigator.userLanguage || '';
+    const lower = navLang.toLowerCase();
+    if (lower.startsWith('es-mx') || lower.includes('latin') || lower.includes('419') || lower.startsWith('es-ar') || lower.startsWith('es-co') || lower.startsWith('es-cl')) {
+      return 'mx';
+    }
+    if (lower.startsWith('es')) {
+      return 'es';
+    }
+  } catch (e) {}
+  return 'en';
+}
+
 let currentLang = 'en';
 try {
   const savedLang = localStorage.getItem('wow_lang');
-  if (savedLang === 'es' || savedLang === 'mx' || savedLang === 'en') currentLang = savedLang;
-} catch (e) {}
+  if (savedLang === 'es' || savedLang === 'mx' || savedLang === 'en') {
+    currentLang = savedLang;
+  } else {
+    currentLang = detectBrowserLanguage();
+  }
+} catch (e) {
+  currentLang = detectBrowserLanguage();
+}
 
 const I18N_TRANSLATIONS = {
   en: {
