@@ -96,7 +96,7 @@
       }
     }
   </script>
-  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/custom.css?v=20260920_v14">
 </head>
 <body class="min-h-screen flex flex-col">
 
@@ -174,12 +174,19 @@
         <button onclick="copyShareableLink()" class="bg-black/50 hover:bg-black text-slate-300 hover:text-amber-300 text-xs font-semibold px-2.5 py-1.5 rounded-lg border border-wow-border flex items-center gap-1.5 transition" data-i18n-title="shareTitle" title="Copy shareable link with your setup">
           <i class="fa-solid fa-share-nodes text-amber-400"></i> <span data-i18n="shareBtn">Share</span>
         </button>
-        <button onclick="openHelpModal()" class="bg-black/50 hover:bg-black text-slate-300 hover:text-amber-300 text-xs font-semibold px-2.5 py-1.5 rounded-lg border border-wow-border flex items-center gap-1 transition" data-i18n-title="guideTitle" title="User Guide & Help">
-          <i class="fa-solid fa-circle-question text-amber-400"></i> <span data-i18n="guideBtn">Guide</span>
-        </button>
-        <button onclick="openSimcModal()" class="bg-gradient-to-r from-emerald-700 to-teal-700 hover:from-emerald-600 hover:to-teal-600 text-white text-xs sm:text-sm font-bold px-3.5 py-1.5 rounded-lg border border-emerald-400/40 shadow-md flex items-center gap-1.5 transition whitespace-nowrap">
-          <i class="fa-solid fa-file-import text-emerald-300"></i> <span data-i18n="importSimcBtn">Import SimC</span>
-        </button>
+        <div class="relative inline-flex items-center">
+          <button id="btn-nav-import-simc" onclick="openSimcModal()" class="bg-gradient-to-r from-emerald-700 to-teal-700 hover:from-emerald-600 hover:to-teal-600 text-white text-xs sm:text-sm font-bold px-3.5 py-1.5 rounded-lg border border-emerald-400/40 shadow-md flex items-center gap-1.5 transition whitespace-nowrap">
+            <i class="fa-solid fa-file-import text-emerald-300"></i> <span data-i18n="importSimcBtn">Import SimC</span>
+          </button>
+          
+          <!-- Floating Onboarding Hint (Visible when no items are loaded) -->
+          <div id="simc-floating-hint" onclick="openSimcModal()" class="hidden absolute -bottom-11 left-1/2 -translate-x-1/2 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-500 text-slate-950 font-black text-[11px] px-3 py-1 rounded-lg shadow-xl shadow-emerald-950/80 border border-emerald-300 flex items-center gap-1.5 cursor-pointer whitespace-nowrap z-30 select-none simc-tooltip-bounce hover:scale-105 transition-transform">
+            <!-- Arrow pointing up at the button -->
+            <div class="absolute -top-1.5 left-1/2 -translate-x-1/2 w-0 h-0 border-x-4 border-x-transparent border-b-6 border-b-emerald-400"></div>
+            <i class="fa-solid fa-arrow-up text-[10px] text-slate-950 animate-bounce"></i>
+            <span id="simc-hint-text">Import your SimC</span>
+          </div>
+        </div>
         <button onclick="openNewItemModal()" class="bg-gradient-to-r from-purple-700 to-indigo-700 hover:from-purple-600 hover:to-indigo-600 text-white text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-lg border border-purple-400/40 shadow-md flex items-center gap-1.5 transition whitespace-nowrap">
           <i class="fa-solid fa-plus text-purple-300"></i> <span data-i18n="addItemBtn">Add Item</span>
         </button>
@@ -991,29 +998,29 @@
 
 
   <!-- Core Modular Scripts -->
-  <script src="js/ui/i18n.js?v=20260920_v13"></script>
-  <script src="js/data/classes_plate.js?v=20260920_v13"></script>
-  <script src="js/data/classes_mail.js?v=20260920_v13"></script>
-  <script src="js/data/classes_leather.js?v=20260920_v13"></script>
-  <script src="js/data/classes_cloth.js?v=20260920_v13"></script>
-  <script src="js/data/classes.js?v=20260920_v13"></script>
-  <script src="js/data/state.js?v=20260920_v13"></script>
-  <script src="js/data/gems.js?v=20260920_v13"></script>
-  <script src="js/data/trinkets.js?v=20260920_v13"></script>
-  <script src="js/engine/upgrade_tracks.js?v=20260920_v13"></script>
-  <script src="js/engine/item_scaler.js?v=20260920_v13"></script>
-  <script src="js/engine/simc_parser.js?v=20260920_v13"></script>
-  <script src="js/engine/optimizer.js?v=20260920_v13"></script>
-  <script src="js/engine/simc_exporter.js?v=20260920_v13"></script>
-  <script src="js/ui/tooltips_ui.js?v=20260920_v13"></script>
-  <script src="js/ui/target_ui.js?v=20260920_v13"></script>
-  <script src="js/ui/item_modal_ui.js?v=20260920_v13"></script>
-  <script src="js/ui/inventory_ui.js?v=20260920_v13"></script>
-  <script src="js/ui/results_ui.js?v=20260920_v13"></script>
-  <script src="js/ui/comparator_ui.js?v=20260920_v13"></script>
-  <script src="js/ui/modals_ui.js?v=20260920_v13"></script>
-  <script src="js/ui/tickets_ui.js?v=20260920_v13"></script>
-  <script src="js/ui/dynamic_footer.js?v=20260920_v13"></script>
-  <script src="js/app.js?v=20260920_v13"></script>
+  <script src="js/ui/i18n.js?v=20260920_v14"></script>
+  <script src="js/data/classes_plate.js?v=20260920_v14"></script>
+  <script src="js/data/classes_mail.js?v=20260920_v14"></script>
+  <script src="js/data/classes_leather.js?v=20260920_v14"></script>
+  <script src="js/data/classes_cloth.js?v=20260920_v14"></script>
+  <script src="js/data/classes.js?v=20260920_v14"></script>
+  <script src="js/data/state.js?v=20260920_v14"></script>
+  <script src="js/data/gems.js?v=20260920_v14"></script>
+  <script src="js/data/trinkets.js?v=20260920_v14"></script>
+  <script src="js/engine/upgrade_tracks.js?v=20260920_v14"></script>
+  <script src="js/engine/item_scaler.js?v=20260920_v14"></script>
+  <script src="js/engine/simc_parser.js?v=20260920_v14"></script>
+  <script src="js/engine/optimizer.js?v=20260920_v14"></script>
+  <script src="js/engine/simc_exporter.js?v=20260920_v14"></script>
+  <script src="js/ui/tooltips_ui.js?v=20260920_v14"></script>
+  <script src="js/ui/target_ui.js?v=20260920_v14"></script>
+  <script src="js/ui/item_modal_ui.js?v=20260920_v14"></script>
+  <script src="js/ui/inventory_ui.js?v=20260920_v14"></script>
+  <script src="js/ui/results_ui.js?v=20260920_v14"></script>
+  <script src="js/ui/comparator_ui.js?v=20260920_v14"></script>
+  <script src="js/ui/modals_ui.js?v=20260920_v14"></script>
+  <script src="js/ui/tickets_ui.js?v=20260920_v14"></script>
+  <script src="js/ui/dynamic_footer.js?v=20260920_v14"></script>
+  <script src="js/app.js?v=20260920_v14"></script>
 </body>
 </html>

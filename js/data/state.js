@@ -51,6 +51,34 @@ function saveState() {
   window.lockedSlots = lockedSlots;
   const badge = document.getElementById('total-items-badge');
   if (badge) badge.innerText = items.length;
+  updateSimcOnboardingUI();
+}
+
+function updateSimcOnboardingUI() {
+  const btn = document.getElementById('btn-nav-import-simc');
+  const hint = document.getElementById('simc-floating-hint');
+  const hintText = document.getElementById('simc-hint-text');
+  
+  const hasItems = Array.isArray(items) && items.length > 0;
+  
+  if (btn) {
+    if (!hasItems) {
+      btn.classList.add('simc-attention-pulse');
+    } else {
+      btn.classList.remove('simc-attention-pulse');
+    }
+  }
+
+  if (hint) {
+    if (!hasItems) {
+      hint.classList.remove('hidden');
+      if (hintText && typeof t === 'function') {
+        hintText.innerText = t('simcHintText', 'Start here! Import your SimC');
+      }
+    } else {
+      hint.classList.add('hidden');
+    }
+  }
 }
 
 function loadState() {

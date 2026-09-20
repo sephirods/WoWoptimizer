@@ -98,6 +98,7 @@ const I18N_TRANSLATIONS = {
     guideBtn: "Guide",
     guideTitle: "User Guide & Help",
     importSimcBtn: "Import SimC",
+    simcHintText: "Start here! Import your SimC",
     addItemBtn: "Add Item",
     targetStatsTitle: "Target Stats",
     targetStatsSubtitle: "Calculates on pure base stats (excluding gems) and integrates secondary stat trinkets",
@@ -398,6 +399,7 @@ const I18N_TRANSLATIONS = {
     guideBtn: "Guía",
     guideTitle: "Guía de uso y Ayuda",
     importSimcBtn: "Importar SimC",
+    simcHintText: "¡Empieza aquí! Importa tu SimC",
     addItemBtn: "Añadir Objeto",
     targetStatsTitle: "Estadísticas Objetivo",
     targetStatsSubtitle: "Calcula sobre estadísticas base puras (sin gemas) e integra abalorios de stats secundarios",
@@ -928,6 +930,7 @@ function updateLanguageUI() {
   if (typeof updateSpecDropdown === 'function' && typeof currentSpec !== 'undefined') updateSpecDropdown(currentSpec);
   if (typeof renderPresetsToolbar === 'function') renderPresetsToolbar();
   if (typeof updateTargetDistributionStrip === 'function') updateTargetDistributionStrip();
+  if (typeof updateSimcOnboardingUI === 'function') updateSimcOnboardingUI();
 
   if (typeof window !== 'undefined' && window.$WowheadPower && typeof window.$WowheadPower.refreshLinks === 'function') {
     window.$WowheadPower.refreshLinks();
