@@ -231,7 +231,13 @@ async function buildData() {
             es: `<div class="blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200">${translateCookedContent(cooked || excerpt)}</div>`
           },
           hasFullContent: !!cooked,
-          originalUrl: `https://${domain}${p.url || ''}`
+          originalUrl: (() => {
+            let path = p.url || '';
+            if (path.startsWith('/t/')) {
+              path = `/${ep.lang === 'es' ? 'es' : 'en'}/wow${path}`;
+            }
+            return `https://${domain}${path}`;
+          })()
         });
       }
     } catch (err) {

@@ -1087,6 +1087,15 @@ function openArticleModal(articleId, source = 'auto') {
     isBlogArticle = true;
   }
 
+  // Normalizar enlaces a foros de Blizzard para evitar el bug de redirección 404 de Blizzard
+  if (targetExternalUrl && targetExternalUrl.includes('forums.blizzard.com')) {
+    const postLang = article.postLang || (lang === 'es' ? 'es' : 'en');
+    targetExternalUrl = targetExternalUrl.replace(
+      /(https?:\/\/(?:us|eu)\.forums\.blizzard\.com)\/(?:en|es)?\/?(?:wow\/)?t\//i,
+      `$1/${postLang}/wow/t/`
+    );
+  }
+
   // Si no hay imagen de encabezado en el cuerpo y el artículo tiene imagen de portada, agregarla al inicio del cuerpo
   let finalHtml = contentText;
   if (article.imageUrl && !finalHtml.includes('<img')) {
