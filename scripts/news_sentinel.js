@@ -105,8 +105,8 @@ async function checkSentinel() {
     if (blizzRes.status === 200 && blizzRes.body) {
       const matches = Array.from(blizzRes.body.matchAll(/\/news\/([0-9]{7,9})/g)).map(m => m[1]);
       const uniqueIds = Array.from(new Set(matches));
-      // Evaluamos los primeros 3 IDs principales de la portada
-      for (const idNum of uniqueIds.slice(0, 3)) {
+      // Evaluamos los primeros 15 IDs de la portada para no perder noticias recientes tras banners destacados
+      for (const idNum of uniqueIds.slice(0, 15)) {
         const blizzId = `blizz-${idNum}`;
         if (!existingBlizzIds.has(blizzId)) {
           console.log(`[CENTINELA] ¡Nueva Noticia Oficial de Blizzard detectada!: ID ${blizzId}`);

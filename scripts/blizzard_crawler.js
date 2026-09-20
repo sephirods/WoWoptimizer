@@ -36,7 +36,7 @@ async function scrapeBlizzardNews() {
           unique.push(url);
         }
       }
-      return unique.slice(0, 9);
+      return unique.slice(0, 15);
     });
 
     console.log(`Se detectaron ${newsLinks.length} noticias oficiales de Blizzard:`, newsLinks);
