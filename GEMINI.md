@@ -40,6 +40,7 @@
 - Apply edits locally only.
 - Present what was modified clearly to the user.
 - DO NOT ask to commit or push. Wait silently for the user's explicit command.
+- **MANDATORY VERSION BUMP BEFORE PUSH**: Whenever the user explicitly commands a push, the assistant MUST update the version query parameter (`?v=...`) on ALL currently versioned scripts across the project (e.g. `index.html`, `gearsim.html`) before committing/pushing, ONLY touching those scripts that already have a version parameter. Never leave stale versions.
 
 ## 5. Execution Directives & Interaction Cadence (MANDATORY)
 
