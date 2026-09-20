@@ -391,9 +391,28 @@ async function syncLiveNews(force = false) {
 
     const fallbackDb = window.WOW_NEWS_DATABASE || { blueTracker: [], recentNews: [] };
 
+    // Fusionar de forma inteligente para que NUNCA se pierdan posts de US o EU si un endpoint falla
+    const existingBlues = fallbackDb.blueTracker || [];
+    const blueMap = new Map();
+    // Primero agregar los existentes
+    existingBlues.forEach(item => { if (item.id) blueMap.set(item.id, item); });
+    // Luego sobrescribir/añadir los nuevos descargados
+    blues.forEach(item => { if (item.id) blueMap.set(item.id, item); });
+    const finalBlues = Array.from(blueMap.values());
+    // Ordenar estrictamente por fecha descendente
+    finalBlues.sort((a, b) => new Date(b.dateRaw || 0) - new Date(a.dateRaw || 0));
+
+    // Fusionar noticias Wowhead
+    const existingNews = fallbackDb.recentNews || [];
+    const newsMap = new Map();
+    existingNews.forEach(item => { if (item.id) newsMap.set(item.id, item); });
+    news.forEach(item => { if (item.id) newsMap.set(item.id, item); });
+    const finalNews = Array.from(newsMap.values());
+    finalNews.sort((a, b) => new Date(b.dateRaw || 0) - new Date(a.dateRaw || 0));
+
     const mergedData = {
-      blueTracker: blues.length > 0 ? blues : fallbackDb.blueTracker,
-      recentNews: news.length > 0 ? news : fallbackDb.recentNews,
+      blueTracker: finalBlues.length > 0 ? finalBlues : fallbackDb.blueTracker,
+      recentNews: finalNews.length > 0 ? finalNews : fallbackDb.recentNews,
       lastUpdated: new Date().toISOString()
     };
 

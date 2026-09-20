@@ -117,6 +117,10 @@
           <i class="fa-solid fa-ticket text-amber-400"></i> Tickets / Bugs
           <span id="tab-tickets-badge" class="ml-1 text-[10px] px-1.5 py-0.2 rounded-full font-mono bg-slate-800 text-slate-400 border border-slate-700">0</span>
         </button>
+        <button onclick="switchAdminTab('news')" id="nav-news" class="admin-tab-btn flex-1 min-w-[170px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-cyan-300 hover:bg-cyan-950/20 border border-transparent relative">
+          <i class="fa-solid fa-bullhorn text-cyan-400"></i> Noticias & Blues
+          <span id="tab-news-badge" class="ml-1 text-[10px] px-1.5 py-0.2 rounded-full font-mono bg-slate-800 text-slate-400 border border-slate-700">Auto</span>
+        </button>
       </div>
 
       <!-- TAB 1: RESUMEN / ESTADO GENERAL -->
@@ -140,8 +144,8 @@
           </div>
         </div>
 
-        <!-- 4 Dataset Status Cards Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- 5 Dataset Status Cards Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
           
           <!-- Card Archon -->
           <div class="bg-wow-card border border-purple-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-purple-500/60 transition">
@@ -207,6 +211,23 @@
               <p class="text-[11px] text-slate-400">Rankings de abalorios por spec.</p>
             </div>
             <button onclick="switchAdminTab('bloodmallet')" class="w-full text-xs bg-red-950/40 hover:bg-red-900/60 text-red-200 border border-red-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
+              Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </button>
+          </div>
+
+          <!-- Card Noticias & Blue Tracker -->
+          <div class="bg-wow-card border border-cyan-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-cyan-500/60 transition">
+            <div class="flex items-center justify-between">
+              <div class="w-9 h-9 rounded-xl bg-cyan-950/60 border border-cyan-500/50 flex items-center justify-center text-cyan-400">
+                <i class="fa-solid fa-bullhorn"></i>
+              </div>
+              <span id="overview-news-status" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-cyan-950 text-cyan-300 border border-cyan-500/60 font-bold">En Vivo ✓</span>
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-white">Noticias & Blues</h3>
+              <p class="text-[11px] text-slate-400" id="overview-news-subtext">Blizzard Forums & Wowhead RSS.</p>
+            </div>
+            <button onclick="switchAdminTab('news')" class="w-full text-xs bg-cyan-950/40 hover:bg-cyan-900/60 text-cyan-200 border border-cyan-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
               Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
             </button>
           </div>
@@ -573,6 +594,76 @@
         </div>
       </section>
 
+      <!-- TAB 8: NOTICIAS Y BLIZZARD BLUE TRACKER -->
+      <section id="tab-news" class="admin-tab-pane hidden space-y-6">
+        <div class="bg-wow-card border border-cyan-500/40 rounded-2xl p-6 shadow-xl space-y-5">
+          <div class="flex items-center justify-between flex-wrap gap-3 pb-4 border-b border-wow-border">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-cyan-950/80 border border-cyan-500/60 flex items-center justify-center text-cyan-300 text-lg shadow">
+                <i class="fa-solid fa-bullhorn"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2.5">
+                  <h3 class="text-base font-bold text-cyan-300">Noticias y Blizzard Blue Tracker</h3>
+                  <code class="text-amber-300 font-mono text-xs bg-black/40 px-2 py-0.5 rounded border border-white/5">wow_news_data.js</code>
+                </div>
+                <div class="flex items-center gap-2 mt-1 flex-wrap">
+                  <span id="news-data-status" class="text-[10px] px-2 py-0.5 rounded font-mono bg-cyan-950 text-cyan-300 border border-cyan-500/60 font-bold">En Vivo ✓</span>
+                  <span id="news-items-count-badge" class="text-[10px] px-2 py-0.5 rounded font-mono bg-slate-800 text-slate-300 border border-slate-700">0 posts</span>
+                  <span class="text-[11px] text-slate-400">Publicaciones de foros de Blizzard y artículos de noticias Wowhead con traducción al español.</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="flex items-center gap-2 flex-wrap">
+              <button id="btn-sync-news" onclick="syncNewsOnlineAdmin()" class="text-xs bg-cyan-950 hover:bg-cyan-900 text-cyan-200 border border-cyan-500/70 px-4 py-2 rounded-xl font-bold flex items-center gap-2 transition shadow">
+                <i id="sync-news-spinner" class="fa-solid fa-rotate text-cyan-400"></i> <span id="btn-sync-news-text">Sincronizar Noticias Ahora</span>
+              </button>
+              <label class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 px-4 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow cursor-pointer">
+                <i class="fa-solid fa-cloud-arrow-up text-cyan-400"></i> Subir wow_news_data.js
+                <input type="file" accept=".js,.json" class="hidden" onchange="uploadNewsJs(event)">
+              </label>
+              <button id="btn-reset-news" onclick="resetNewsDataToDefault()" class="text-xs text-cyan-400 hover:text-cyan-300 px-3 py-2 rounded-xl border border-cyan-500/30 hover:border-cyan-500/60 font-semibold hidden transition">
+                <i class="fa-solid fa-trash mr-1"></i> Restaurar Original
+              </button>
+            </div>
+          </div>
+
+          <!-- Paneles informativos de sincronización -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-wow-subcard border border-wow-border rounded-xl p-4 text-xs text-slate-300 space-y-2">
+              <h4 class="font-bold text-cyan-400 flex items-center gap-1.5">
+                <i class="fa-solid fa-bolt"></i> Sincronización Automática en Servidor (GitHub Actions):
+              </h4>
+              <p class="text-slate-400 leading-relaxed">
+                El flujo de trabajo <code class="text-amber-300 font-mono">.github/workflows/sync_news.yml</code> se ejecuta de forma totalmente autónoma en la nube <strong>cada 2 horas</strong> (vía cron), descargando los últimos hilos azules y noticias con su HTML completo traducido.
+              </p>
+            </div>
+            <div class="bg-wow-subcard border border-wow-border rounded-xl p-4 text-xs text-slate-300 space-y-2">
+              <h4 class="font-bold text-amber-400 flex items-center gap-1.5">
+                <i class="fa-solid fa-rotate-right"></i> Sincronización en Vivo para Clientes:
+              </h4>
+              <p class="text-slate-400 leading-relaxed">
+                Al pulsar <strong>"Sincronizar Noticias Ahora"</strong>, se consulta la API de Discourse de Blizzard y el RSS de Wowhead directamente, refrescando la memoria local y actualizando los feeds sin tener que esperar.
+              </p>
+            </div>
+          </div>
+
+          <!-- Previsualización / Inspección de publicaciones cargadas -->
+          <div class="space-y-3 pt-2">
+            <div class="flex items-center justify-between flex-wrap gap-2">
+              <h4 class="text-xs font-bold text-slate-200 uppercase tracking-wider flex items-center gap-2">
+                <i class="fa-solid fa-list-check text-cyan-400"></i> Publicaciones en Memoria / Caché Activo
+              </h4>
+              <span id="news-last-sync-time" class="text-[11px] font-mono text-slate-400">Última sync: -</span>
+            </div>
+            <div id="admin-news-preview-container" class="bg-black/40 border border-white/10 rounded-xl max-h-72 overflow-y-auto divide-y divide-white/5 scrollbar-thin p-1">
+              <!-- Renderizado dinámico de noticias -->
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
 
   </main>
@@ -582,6 +673,8 @@
 
   <!-- SCRIPT DE EXTRACCIÓN EMPAQUETADO EXTERNO -->
   <script src="js/data/admin_scripts_bundle.js"></script>
+  <script src="js/data/wow_news_data.js"></script>
+  <script src="js/data/news_fetcher.js"></script>
 
   <!-- SCRIPT DE SEGURIDAD Y FUNCIONES ADMIN -->
   <script>
@@ -675,6 +768,8 @@
           activeBtn.className = 'admin-tab-btn flex-1 min-w-[155px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-sky-300 bg-sky-950/40 border border-sky-500/50 shadow';
         } else if (tabId === 'tickets') {
           activeBtn.className = 'admin-tab-btn flex-1 min-w-[160px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-amber-300 bg-amber-950/40 border border-amber-500/50 shadow';
+        } else if (tabId === 'news') {
+          activeBtn.className = 'admin-tab-btn flex-1 min-w-[170px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-cyan-300 bg-cyan-950/40 border border-cyan-500/50 shadow';
         }
       }
 
@@ -682,6 +777,8 @@
         renderMissingTooltipsTable();
       } else if (tabId === 'tickets') {
         renderTicketsTable();
+      } else if (tabId === 'news') {
+        renderAdminNewsPreview();
       }
     }
 
@@ -707,6 +804,7 @@
       updateDevModalStatusBadges();
       renderMissingTooltipsTable();
       renderTicketsTable();
+      renderAdminNewsPreview();
     }
 
     function refreshAllStatuses() {
@@ -1036,6 +1134,48 @@
         ovBloodmallet.innerText = hasCustomBloodmallet ? 'Actualizado ✓' : 'Por Defecto';
       }
       if (bloodmalletResetBtn) bloodmalletResetBtn.classList.toggle('hidden', !hasCustomBloodmallet);
+
+      // Noticias & Blue Tracker
+      const hasCustomNews = !!localStorage.getItem('wow_custom_news_data');
+      const newsStatus = document.getElementById('news-data-status');
+      const newsResetBtn = document.getElementById('btn-reset-news');
+      const ovNews = document.getElementById('overview-news-status');
+      const ovNewsSubtext = document.getElementById('overview-news-subtext');
+      const tabNewsBadge = document.getElementById('tab-news-badge');
+      const newsCountBadge = document.getElementById('news-items-count-badge');
+
+      let currentNewsDb = null;
+      try {
+        if (hasCustomNews) {
+          currentNewsDb = JSON.parse(localStorage.getItem('wow_custom_news_data'));
+        } else if (window.WOW_LIVE_NEWS_DATA && window.WOW_LIVE_NEWS_DATA.blueTracker) {
+          currentNewsDb = window.WOW_LIVE_NEWS_DATA;
+        } else if (window.WOW_NEWS_DATABASE) {
+          currentNewsDb = window.WOW_NEWS_DATABASE;
+        }
+      } catch (e) {}
+
+      const blueCount = (currentNewsDb && currentNewsDb.blueTracker) ? currentNewsDb.blueTracker.length : 0;
+      const newsCount = (currentNewsDb && currentNewsDb.recentNews) ? currentNewsDb.recentNews.length : 0;
+      const totalCount = blueCount + newsCount;
+
+      if (newsCountBadge) newsCountBadge.innerText = `${blueCount} Blues / ${newsCount} News`;
+      if (tabNewsBadge) tabNewsBadge.innerText = hasCustomNews ? 'Custom' : `${totalCount}`;
+      if (ovNewsSubtext) ovNewsSubtext.innerText = `${blueCount} Blue Posts, ${newsCount} Noticias`;
+
+      if (newsStatus) {
+        newsStatus.className = hasCustomNews 
+          ? 'text-[10px] px-2 py-0.5 rounded font-mono bg-purple-950 text-purple-300 border border-purple-500/60 font-bold'
+          : 'text-[10px] px-2 py-0.5 rounded font-mono bg-cyan-950 text-cyan-300 border border-cyan-500/60 font-bold';
+        newsStatus.innerText = hasCustomNews ? 'Personalizado ✓' : 'En Vivo (Auto)';
+      }
+      if (ovNews) {
+        ovNews.className = hasCustomNews 
+          ? 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-purple-950 text-purple-300 border border-purple-500/60 font-bold'
+          : 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-cyan-950 text-cyan-300 border border-cyan-500/60 font-bold';
+        ovNews.innerText = hasCustomNews ? 'Personalizado ✓' : 'En Vivo ✓';
+      }
+      if (newsResetBtn) newsResetBtn.classList.toggle('hidden', !hasCustomNews);
     }
 
     function parseJsDataset(text, varName) {
@@ -1225,6 +1365,150 @@
       if (btnText) btnText.innerText = 'Actualizar Bloodmallet en Vivo';
       if (spinner) spinner.classList.remove('fa-spin');
       if (btn) btn.disabled = false;
+    }
+
+    function renderAdminNewsPreview() {
+      const container = document.getElementById('admin-news-preview-container');
+      const lastSyncEl = document.getElementById('news-last-sync-time');
+      if (!container) return;
+
+      let newsDb = null;
+      try {
+        const custom = localStorage.getItem('wow_custom_news_data');
+        if (custom) {
+          newsDb = JSON.parse(custom);
+        } else if (window.WOW_LIVE_NEWS_DATA && window.WOW_LIVE_NEWS_DATA.blueTracker) {
+          newsDb = window.WOW_LIVE_NEWS_DATA;
+        } else if (window.WOW_NEWS_DATABASE) {
+          newsDb = window.WOW_NEWS_DATABASE;
+        }
+      } catch (e) {}
+
+      if (!newsDb) {
+        container.innerHTML = '<div class="p-6 text-center text-xs text-slate-400">No hay datos de noticias cargados.</div>';
+        return;
+      }
+
+      if (lastSyncEl) {
+        let ts = newsDb.lastUpdated;
+        if (!ts) {
+          try {
+            const cache = JSON.parse(localStorage.getItem('wow_live_news_cache_v4') || '{}');
+            if (cache.timestamp) ts = new Date(cache.timestamp).toLocaleTimeString();
+          } catch (e) {}
+        }
+        lastSyncEl.innerText = 'Última sync: ' + (ts ? new Date(ts).toLocaleTimeString() : 'Automática');
+      }
+
+      const blues = newsDb.blueTracker || [];
+      const news = newsDb.recentNews || [];
+
+      let html = '';
+
+      if (blues.length === 0 && news.length === 0) {
+        html = '<div class="p-6 text-center text-xs text-slate-400">Sin publicaciones disponibles.</div>';
+      } else {
+        blues.slice(0, 10).forEach(b => {
+          const title = (b.title && (b.title.es || b.title.en)) || 'Sin título';
+          const author = b.author || 'Blizzard';
+          const date = b.dateRaw ? new Date(b.dateRaw).toLocaleDateString() : '';
+          html += `
+            <div class="p-3 flex items-center justify-between gap-3 text-xs hover:bg-white/[0.02] transition">
+              <div class="space-y-0.5 min-w-0 flex-1">
+                <div class="flex items-center gap-2">
+                  <span class="text-[9px] uppercase font-bold px-1.5 py-0.2 rounded border border-sky-500/50 bg-sky-950 text-sky-300">Blue Post (${b.region || 'US'})</span>
+                  <span class="text-[10px] text-slate-500 font-mono">${date}</span>
+                </div>
+                <div class="font-semibold text-slate-200 truncate">${title}</div>
+                <div class="text-[10px] text-slate-400 truncate">Por ${author}</div>
+              </div>
+              <a href="${b.originalUrl || '#'}" target="_blank" rel="noopener noreferrer" class="text-cyan-400 hover:text-white px-2.5 py-1 rounded bg-cyan-950/40 border border-cyan-500/30 text-[11px] font-semibold shrink-0">
+                Ver <i class="fa-solid fa-arrow-up-right-from-square text-[9px] ml-0.5"></i>
+              </a>
+            </div>
+          `;
+        });
+
+        news.slice(0, 8).forEach(n => {
+          const title = (n.title && (n.title.es || n.title.en)) || 'Sin título';
+          const author = n.author || 'Wowhead';
+          const date = n.dateRaw ? new Date(n.dateRaw).toLocaleDateString() : '';
+          html += `
+            <div class="p-3 flex items-center justify-between gap-3 text-xs hover:bg-white/[0.02] transition">
+              <div class="space-y-0.5 min-w-0 flex-1">
+                <div class="flex items-center gap-2">
+                  <span class="text-[9px] uppercase font-bold px-1.5 py-0.2 rounded border border-amber-500/50 bg-amber-950 text-amber-300">Wowhead News</span>
+                  <span class="text-[10px] text-slate-500 font-mono">${date}</span>
+                </div>
+                <div class="font-semibold text-slate-200 truncate">${title}</div>
+                <div class="text-[10px] text-slate-400 truncate">Por ${author}</div>
+              </div>
+              <a href="${n.originalUrl || '#'}" target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:text-white px-2.5 py-1 rounded bg-amber-950/40 border border-amber-500/30 text-[11px] font-semibold shrink-0">
+                Ver <i class="fa-solid fa-arrow-up-right-from-square text-[9px] ml-0.5"></i>
+              </a>
+            </div>
+          `;
+        });
+      }
+
+      container.innerHTML = html;
+    }
+
+    async function syncNewsOnlineAdmin() {
+      const btn = document.getElementById('btn-sync-news');
+      const btnText = document.getElementById('btn-sync-news-text');
+      const spinner = document.getElementById('sync-news-spinner');
+      if (btn) btn.disabled = true;
+      if (spinner) spinner.classList.add('fa-spin');
+      if (btnText) btnText.innerText = 'Sincronizando Blizzard & Wowhead...';
+
+      showToast('Sincronizando hilos de Blizzard y Wowhead en vivo...', 'info');
+
+      try {
+        if (typeof window.syncLiveNews === 'function') {
+          const res = await window.syncLiveNews(true);
+          updateDevModalStatusBadges();
+          renderAdminNewsPreview();
+          const bCount = (res && res.blueTracker) ? res.blueTracker.length : 0;
+          const nCount = (res && res.recentNews) ? res.recentNews.length : 0;
+          showToast(`¡Noticias actualizadas! (${bCount} Blues, ${nCount} Artículos)`, 'success');
+        } else {
+          showToast('Función syncLiveNews no disponible', 'error');
+        }
+      } catch (err) {
+        console.error('Error sincronizando noticias:', err);
+        showToast('Error al sincronizar noticias: ' + err.message, 'error');
+      } finally {
+        if (btnText) btnText.innerText = 'Sincronizar Noticias Ahora';
+        if (spinner) spinner.classList.remove('fa-spin');
+        if (btn) btn.disabled = false;
+      }
+    }
+
+    async function uploadNewsJs(event) {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      try {
+        const text = await file.text();
+        const data = parseJsDataset(text, 'WOW_NEWS_DATABASE');
+        if (!data || (!data.blueTracker && !data.recentNews)) throw new Error('Estructura de wow_news_data.js no válida');
+        localStorage.setItem('wow_custom_news_data', JSON.stringify(data));
+        updateDevModalStatusBadges();
+        renderAdminNewsPreview();
+        showToast('¡wow_news_data.js subido y guardado con éxito!', 'success');
+      } catch (err) {
+        alert('Error: ' + err.message);
+      }
+      event.target.value = '';
+    }
+
+    function resetNewsDataToDefault() {
+      if (confirm('¿Restaurar noticias y Blue Tracker a la versión oficial por defecto?')) {
+        localStorage.removeItem('wow_custom_news_data');
+        updateDevModalStatusBadges();
+        renderAdminNewsPreview();
+        showToast('Noticias restauradas al estado original');
+      }
     }
 
     document.addEventListener('DOMContentLoaded', checkAuth);

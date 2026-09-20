@@ -219,7 +219,8 @@ function renderBlueTracker() {
 
   const lang = getActiveLanguage();
   const db = getNewsDatabase();
-  const list = db.blueTracker || [];
+  let list = (db.blueTracker || []).slice();
+  list.sort((a, b) => new Date(b.dateRaw || 0) - new Date(a.dateRaw || 0));
 
   const filtered = activeBlueRegionFilter === 'ALL'
     ? list
