@@ -1538,9 +1538,19 @@
       if (btn) btn.disabled = false;
     }
 
-    const DEFAULT_PINNED_NEWS_IDS = ['blizz-30111968'];
+    const DEFAULT_PINNED_NEWS_IDS = ['blizz-30111968', 'blizz-24302093'];
 
     function getPinnedNewsIds() {
+      if (typeof window !== 'undefined' && window.WOW_PINNED_NEWS_CONFIG && Array.isArray(window.WOW_PINNED_NEWS_CONFIG.pinnedIds)) {
+        try {
+          const raw = localStorage.getItem('wow_pinned_news_ids');
+          if (raw !== null) {
+            const parsed = JSON.parse(raw);
+            if (Array.isArray(parsed)) return parsed;
+          }
+        } catch (e) {}
+        return window.WOW_PINNED_NEWS_CONFIG.pinnedIds;
+      }
       try {
         const raw = localStorage.getItem('wow_pinned_news_ids');
         if (raw === null) return DEFAULT_PINNED_NEWS_IDS;
@@ -1564,9 +1574,136 @@
         isPinnedNow = true;
       }
       localStorage.setItem('wow_pinned_news_ids', JSON.stringify(pinned));
+      if (window.WOW_PINNED_NEWS_CONFIG) {
+        window.WOW_PINNED_NEWS_CONFIG.pinnedIds = pinned;
+      }
       window.dispatchEvent(new CustomEvent('wow_pinned_news_updated', { detail: { pinnedIds: pinned } }));
       renderAdminNewsPreview();
-      showToast(isPinnedNow ? '📌 Noticia fijada en la portada' : 'Noticia desfijada de la portada', isPinnedNow ? 'success' : 'info');
+      showToast(isPinnedNow ? '📌 Noticia fijada en la portada (Pulsa "Publicar en Producción")' : 'Noticia desfijada de la portada', isPinnedNow ? 'success' : 'info');
+    }
+
+    async function publishPinnedNewsToGithub() {
+      const btn = document.getElementById('btn-publish-pinned');
+      const icon = document.getElementById('publish-pinned-icon');
+      const text = document.getElementById('publish-pinned-text');
+      const statusTime = document.getElementById('publish-pinned-status-time');
+
+      let token = localStorage.getItem('wow_gh_sync_token');
+      if (!token) {
+        token = prompt('Introduce tu GitHub Personal Access Token (PAT) para autorizar la publicación:');
+        if (!token || !token.trim()) {
+          showToast('Publicación cancelada: Se requiere token de GitHub', 'error');
+          return;
+        }
+        token = token.trim();
+        localStorage.setItem('wow_gh_sync_token', token);
+      }
+
+      const pinnedIds = getPinnedNewsIds();
+      const GITHUB_REPO = 'sephirods/WoWoptimizer';
+      const FILE_PATH = 'js/data/pinned_news.js';
+
+      try {
+        if (btn) btn.disabled = true;
+        if (icon) icon.className = 'fa-solid fa-spinner fa-spin';
+        if (text) text.innerText = 'Publicando...';
+
+        const fileContent = `// Configuración de Noticias Destacadas fijadas en la portada de WoWOptimizer\n// Este archivo es público y se lee en index.html y admin.html\nwindow.WOW_PINNED_NEWS_CONFIG = {\n  "pinnedIds": ${JSON.stringify(pinnedIds, null, 2)},\n  "lastUpdated": "${new Date().toISOString()}"\n};\n`;
+
+        // 1. Obtener SHA actual del archivo en main
+        let sha = null;
+        try {
+          const getRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${FILE_PATH}?ref=main`, {
+            headers: {
+              'Authorization': `Bearer ${token}`,
+              'Accept': 'application/vnd.github+json'
+            }
+          });
+          if (getRes.ok) {
+            const getData = await getRes.json();
+            sha = getData.sha;
+          } else if (getRes.status === 401) {
+            localStorage.removeItem('wow_gh_sync_token');
+            throw new Error('Token inválido o expirado. Vuelve a intentarlo.');
+          }
+        } catch (e) {
+          if (e.message.includes('Token inválido')) throw e;
+        }
+
+        // 2. Hacer commit y push directo vía API a main
+        const utf8Bytes = new TextEncoder().encode(fileContent);
+        let binary = '';
+        utf8Bytes.forEach(b => binary += String.fromCharCode(b));
+        const contentBase64 = btoa(binary);
+
+        const putBody = {
+          message: `chore(news): update pinned highlights [${pinnedIds.length} articles]`,
+          content: contentBase64,
+          branch: 'main'
+        };
+        if (sha) putBody.sha = sha;
+
+        const putRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${FILE_PATH}`, {
+          method: 'PUT',
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/vnd.github+json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(putBody)
+        });
+
+        if (!putRes.ok) {
+          const errData = await putRes.json().catch(() => ({}));
+          throw new Error(errData.message || `Error HTTP ${putRes.status}`);
+        }
+
+        // 3. Sincronizar también con branch staging
+        try {
+          const getStaging = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${FILE_PATH}?ref=staging`, {
+            headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' }
+          });
+          let stagingSha = null;
+          if (getStaging.ok) {
+            const stagingData = await getStaging.json();
+            stagingSha = stagingData.sha;
+          }
+          const putStagingBody = {
+            message: `chore(news): sync pinned highlights [${pinnedIds.length} articles]`,
+            content: contentBase64,
+            branch: 'staging'
+          };
+          if (stagingSha) putStagingBody.sha = stagingSha;
+          await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${FILE_PATH}`, {
+            method: 'PUT',
+            headers: {
+              'Authorization': `Bearer ${token}`,
+              'Accept': 'application/vnd.github+json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(putStagingBody)
+          });
+        } catch (stgErr) {
+          console.warn('[Admin] Staging sync warning:', stgErr);
+        }
+
+        if (window.WOW_PINNED_NEWS_CONFIG) {
+          window.WOW_PINNED_NEWS_CONFIG.pinnedIds = pinnedIds;
+          window.WOW_PINNED_NEWS_CONFIG.lastUpdated = new Date().toISOString();
+        }
+
+        showToast(`🎉 ¡${pinnedIds.length} Noticias fijadas publicadas para todo el mundo!`, 'success');
+        if (statusTime) {
+          statusTime.innerText = `Publicado: ${new Date().toLocaleTimeString()}`;
+        }
+      } catch (err) {
+        console.error('[Admin] Error al publicar:', err);
+        showToast(`Error al publicar: ${err.message}`, 'error');
+      } finally {
+        if (btn) btn.disabled = false;
+        if (icon) icon.className = 'fa-solid fa-cloud-arrow-up';
+        if (text) text.innerText = 'Publicar en Producción';
+      }
     }
 
     let activeAdminNewsFeedTab = 'blizz';

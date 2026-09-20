@@ -1,5 +1,5 @@
 // Componente Modular de Noticias (Blue Tracker + Recent News) y Lector Interno de Artículos para Midnight S2
-const DEFAULT_PINNED_NEWS_IDS = ['blizz-30111968'];
+const DEFAULT_PINNED_NEWS_IDS = ['blizz-30111968', 'blizz-24302093'];
 
 (function initDynamicNews() {
   const NEWS_HTML = `
@@ -399,14 +399,17 @@ function setBlueRegionFilter(region) {
 }
 
 function getPinnedNewsIds() {
+  if (typeof window !== 'undefined' && window.WOW_PINNED_NEWS_CONFIG && Array.isArray(window.WOW_PINNED_NEWS_CONFIG.pinnedIds)) {
+    return window.WOW_PINNED_NEWS_CONFIG.pinnedIds;
+  }
   try {
     const raw = localStorage.getItem('wow_pinned_news_ids');
-    if (raw === null) return DEFAULT_PINNED_NEWS_IDS;
-    const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : DEFAULT_PINNED_NEWS_IDS;
-  } catch (e) {
-    return DEFAULT_PINNED_NEWS_IDS;
-  }
+    if (raw !== null) {
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed)) return parsed;
+    }
+  } catch (e) {}
+  return DEFAULT_PINNED_NEWS_IDS;
 }
 
 function renderPinnedNews() {
