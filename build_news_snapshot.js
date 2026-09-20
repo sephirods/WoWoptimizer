@@ -111,6 +111,33 @@ function autoTranslateHeadline(textEn) {
   return translated;
 }
 
+function isEditorialNewsPost(title, excerpt) {
+  const combined = `${title || ''} ${excerpt || ''}`.toLowerCase();
+  const nonNewsKeywords = [
+    'unable to launch',
+    "can't install",
+    'cannot install',
+    'no wow account selector',
+    'disconnects first player',
+    'oops! something went wrong',
+    'tech supporter',
+    'corrupted file',
+    'error code',
+    'crashing on launch',
+    'battle.net app crashed',
+    'payment issue',
+    'billing question',
+    'refund request',
+    'authenticator issue',
+    'locked account',
+    'ticket status'
+  ];
+  for (const kw of nonNewsKeywords) {
+    if (combined.includes(kw)) return false;
+  }
+  return true;
+}
+
 function translateCookedContent(cookedHtml) {
   if (!cookedHtml) return '';
   let res = cookedHtml;
@@ -126,6 +153,25 @@ function translateCookedContent(cookedHtml) {
 }
 
 async function buildData() {
+  console.log('Iniciando construcción de snapshot de noticias...');
+
+  // 1. Cargar base de datos existente para preservar siempre las 9 noticias oficiales de Blizzard
+  let existingBlizzardNews = [];
+  let existingRecentNews = [];
+  try {
+    const currentDbCode = fs.readFileSync('js/data/wow_news_data.js', 'utf8');
+    const fakeWin = {};
+    eval(currentDbCode.replace('window.', 'fakeWin.'));
+    if (fakeWin.WOW_NEWS_DATABASE) {
+      existingBlizzardNews = fakeWin.WOW_NEWS_DATABASE.blizzardNews || [];
+      existingRecentNews = fakeWin.WOW_NEWS_DATABASE.recentNews || [];
+    }
+  } catch (e) {
+    try {
+      existingBlizzardNews = JSON.parse(fs.readFileSync('scripts/latest_blizzard_news.json', 'utf8'));
+    } catch (_) {}
+  }
+
   const eps = [
     { region: 'US', lang: 'en', url: 'https://us.forums.blizzard.com/en/wow/groups/blizzard-tracker/posts.json' },
     { region: 'EU', lang: 'es', url: 'https://eu.forums.blizzard.com/es/wow/groups/blizzard-tracker/posts.json' },
@@ -138,7 +184,18 @@ async function buildData() {
     try {
       const res = await fetch(ep.url);
       const data = await res.json();
-      for (const p of (data.posts || []).slice(0, 6)) {
+      const posts = data.posts || [];
+
+      // Filtrar posts: descartar soporte técnico y aceptar post_number 1 o posts de hotfixes/tuning acumulativos
+      const filteredPosts = posts.filter(p => {
+        const title = p.topic_title || '';
+        const excerpt = p.excerpt || '';
+        if (!isEditorialNewsPost(title, excerpt)) return false;
+        const isCumulativeUpdate = /hotfix|tuning|patch notes|update|reset|balance/i.test(title);
+        return p.post_number === 1 || isCumulativeUpdate;
+      });
+
+      for (const p of filteredPosts.slice(0, 8)) {
         const domain = ep.region.toLowerCase() === 'us' ? 'us.forums.blizzard.com' : 'eu.forums.blizzard.com';
         const pUrl = `https://${domain}${ep.lang === 'es' ? '/es' : '/en'}/wow/posts/${p.id}.json`;
         let cooked = p.cooked || '';
@@ -182,34 +239,35 @@ async function buildData() {
     }
   }
 
-  // Wowhead RSS
-  const whRes = await fetch('https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent('https://www.wowhead.com/news/rss/retail'));
-  const whData = await whRes.json();
-  const recentNews = (whData.items || []).map((item, idx) => {
-    const rawContent = item.content || item.description || '';
-    const summaryText = (item.description || item.content || '').replace(/<[^>]+>/g, '').trim().slice(0, 180) + '...';
-    const titleEn = item.title;
-    const titleEs = autoTranslateHeadline(titleEn);
-    return {
-      id: `wh-${idx + 1}`,
-      source: 'wowhead',
-      dateRaw: item.pubDate,
-      author: item.author || 'Wowhead Staff',
-      category: (item.categories && item.categories[0]) || 'Retail News',
-      badgeColor: 'border-amber-500/60 bg-amber-950/80 text-amber-300',
-      title: { en: titleEn, es: titleEs },
-      summary: { en: summaryText, es: autoTranslateHeadline(summaryText) },
-      content: {
-        en: `<div class="space-y-3 leading-relaxed text-slate-300"><div class="bg-amber-950/30 border border-amber-500/40 p-3.5 rounded-xl text-xs flex items-center justify-between gap-3"><span class="text-amber-300 font-bold"><i class="fa-solid fa-newspaper mr-1.5"></i> Wowhead Official Article</span><a href="${item.link}" target="_blank" rel="noopener noreferrer" class="text-xs text-amber-400 hover:text-white underline font-semibold flex items-center gap-1">View on Wowhead <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a></div><div class="text-xs sm:text-sm space-y-3">${rawContent}</div></div>`,
-        es: `<div class="space-y-3 leading-relaxed text-slate-300"><div class="bg-amber-950/30 border border-amber-500/40 p-3.5 rounded-xl text-xs flex items-center justify-between gap-3"><span class="text-amber-300 font-bold"><i class="fa-solid fa-newspaper mr-1.5"></i> Artículo Oficial de Wowhead</span><a href="${item.link}" target="_blank" rel="noopener noreferrer" class="text-xs text-amber-400 hover:text-white underline font-semibold flex items-center gap-1">Ver en Wowhead <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a></div><div class="text-xs sm:text-sm space-y-3">${translateCookedContent(rawContent)}</div></div>`
-      },
-      originalUrl: item.link
-    };
-  });
+  // Leer de nuevo js/data/wow_news_data.js justo antes de guardar para asegurar que no pisamos nada
+  let currentBlizzardNews = existingBlizzardNews;
+  let currentRecentNews = existingRecentNews;
+  try {
+    const freshDb = fs.readFileSync('js/data/wow_news_data.js', 'utf8');
+    const freshWin = {};
+    eval(freshDb.replace('window.', 'freshWin.'));
+    if (freshWin.WOW_NEWS_DATABASE) {
+      if (Array.isArray(freshWin.WOW_NEWS_DATABASE.blizzardNews)) {
+        currentBlizzardNews = freshWin.WOW_NEWS_DATABASE.blizzardNews;
+      }
+      if (Array.isArray(freshWin.WOW_NEWS_DATABASE.recentNews)) {
+        currentRecentNews = freshWin.WOW_NEWS_DATABASE.recentNews;
+      }
+    }
+  } catch (e) {}
 
-  const output = '// BASE DE DATOS DE NOTICIAS, BLUE TRACKER Y ARTÍCULOS EN VIVO\nwindow.WOW_NEWS_DATABASE = ' + JSON.stringify({ blueTracker, recentNews }, null, 2) + ';\n';
+  // Bot 1: Blue Tracker actualiza EXCLUSIVAMENTE su propiedad blueTracker
+  const outputDb = {
+    blueTracker: blueTracker,
+    blizzardNews: currentBlizzardNews,
+    recentNews: currentRecentNews
+  };
+
+  const output = '// BASE DE DATOS DE NOTICIAS, BLUE TRACKER Y ARTÍCULOS EN VIVO\nwindow.WOW_NEWS_DATABASE = ' + JSON.stringify(outputDb, null, 2) + ';\n';
   fs.writeFileSync('js/data/wow_news_data.js', output, 'utf8');
-  console.log('SUCCESS! Wrote', blueTracker.length, 'blues and', recentNews.length, 'news with full bilingual translations to wow_news_data.js');
+  console.log('[BOT 1 - BLUE TRACKER] Éxito: Se actualizaron ' + blueTracker.length + ' blue posts. Blizzard News (' + outputDb.blizzardNews.length + ') y Recent News (' + outputDb.recentNews.length + ') preservadas intactas.');
 }
 
 buildData();
+
+

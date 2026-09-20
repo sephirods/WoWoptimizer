@@ -1,16 +1,16 @@
-name: Auto Sync Blizzard & Wowhead News
+name: Auto Sync Blizzard Blue Tracker
 
 on:
   schedule:
-    # Se ejecuta automáticamente cada 2 horas
+    # Se ejecuta cada 2 horas
     - cron: '0 */2 * * *'
-  workflow_dispatch: # Permite ejecutarlo manualmente desde GitHub si lo deseas
+  workflow_dispatch: # Ejecución manual permitida
 
 permissions:
   contents: write
 
 jobs:
-  sync-news:
+  sync-blue-tracker:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Fetch Latest Blizzard & Wowhead News
+      - name: Fetch Latest Blue Tracker Posts
         run: node build_news_snapshot.js
 
       - name: Commit & Push Changes
@@ -31,8 +31,8 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add js/data/wow_news_data.js
           if git diff --staged --quiet; then
-            echo "No hay nuevas noticias para publicar."
+            echo "No hay nuevos blue posts para publicar."
           else
-            git commit -m "chore(news): auto-sync latest Blizzard blue tracker & Wowhead news [skip ci]"
+            git commit -m "chore(news): auto-sync Blizzard blue tracker [skip ci]"
             git push origin main
           fi

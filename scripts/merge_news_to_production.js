@@ -3,12 +3,21 @@ const fs = require('fs');
 const wowheadData = JSON.parse(fs.readFileSync('scripts/latest_scraped_news.json', 'utf8'));
 const blizzData = JSON.parse(fs.readFileSync('scripts/latest_blizzard_news.json', 'utf8'));
 
-// Cargar el archivo wow_news_data.js original de forma limpia
+// Cargar el archivo wow_news_data.js existente para respetar lo que ya hay
 const originalContent = fs.readFileSync('js/data/wow_news_data.js', 'utf8');
 const fakeWindow = {};
 eval(originalContent.replace('window.', 'fakeWindow.'));
 
-const blueTrackerJson = fakeWindow.WOW_NEWS_DATABASE.blueTracker;
+const currentDb = fakeWindow.WOW_NEWS_DATABASE || { blueTracker: [], blizzardNews: [], recentNews: [] };
+const blueTrackerJson = currentDb.blueTracker || [];
+// Preservar blizzardNews si ya existen en la base, de lo contrario usar fallback de archivo
+let blizzardNewsJson = currentDb.blizzardNews && currentDb.blizzardNews.length > 0 ? currentDb.blizzardNews : [];
+if (blizzardNewsJson.length === 0 && fs.existsSync('scripts/latest_blizzard_news.json')) {
+  try {
+    const raw = JSON.parse(fs.readFileSync('scripts/latest_blizzard_news.json', 'utf8'));
+    if (Array.isArray(raw) && raw.length > 0) blizzardNewsJson = raw;
+  } catch (e) {}
+}
 
 const recentNews = wowheadData.map(item => ({
   id: item.id,
@@ -30,28 +39,13 @@ const recentNews = wowheadData.map(item => ({
   originalUrl: item.originalUrl
 }));
 
-const blizzardNews = blizzData.map(item => ({
-  id: item.id,
-  source: 'blizzard',
-  author: item.author || 'Blizzard Entertainment',
-  dateRaw: item.dateRaw,
-  category: item.category || 'Oficial',
-  badgeColor: item.badgeColor || 'border-sky-500/60 bg-sky-950/80 text-sky-300',
-  title: item.title,
-  summary: item.summary,
-  imageUrl: item.imageUrl,
-  contentHtml: item.contentHtml,
-  content: item.contentHtml,
-  originalUrl: item.originalUrl,
-  originalUrlEs: item.originalUrlEs
-}));
-
 const newDb = {
   blueTracker: blueTrackerJson,
-  blizzardNews: blizzardNews,
+  blizzardNews: blizzardNewsJson,
   recentNews: recentNews
 };
 
 const newFileContent = '// BASE DE DATOS DE NOTICIAS, BLUE TRACKER Y ARTÍCULOS EN VIVO\nwindow.WOW_NEWS_DATABASE = ' + JSON.stringify(newDb, null, 2) + ';\n';
 fs.writeFileSync('js/data/wow_news_data.js', newFileContent, 'utf8');
-console.log('Successfully updated js/data/wow_news_data.js with ' + blizzardNews.length + ' blizzard news and ' + recentNews.length + ' wowhead news.');
+console.log('[BOT 3 - WOWHEAD NEWS] Éxito: Se actualizaron ' + recentNews.length + ' noticias de Wowhead. Blue Tracker (' + blueTrackerJson.length + ') y Blizzard News (' + blizzardNewsJson.length + ') preservadas.');
+

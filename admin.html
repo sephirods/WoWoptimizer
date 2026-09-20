@@ -654,18 +654,18 @@
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="bg-wow-subcard border border-wow-border rounded-xl p-4 text-xs text-slate-300 space-y-2">
               <h4 class="font-bold text-cyan-400 flex items-center gap-1.5">
-                <i class="fa-solid fa-bolt"></i> Sincronización Automática en Servidor (GitHub Actions):
+                <i class="fa-solid fa-shield-halved"></i> Centinela Inteligente & 3 Bots en GitHub Actions:
               </h4>
               <p class="text-slate-400 leading-relaxed">
-                El flujo de trabajo <code class="text-amber-300 font-mono">.github/workflows/sync_news.yml</code> se ejecuta de forma totalmente autónoma en la nube <strong>cada 2 horas</strong> (vía cron), descargando los últimos hilos azules y noticias con su HTML completo traducido.
+                El flujo <code class="text-amber-300 font-mono">news_sentinel.yml</code> inspecciona las fuentes cada <strong>20 minutos</strong> en &lt; 1s. Si detecta cambios, dispara el bot específico correspondiente (<code class="text-sky-300 font-mono">Blue Tracker</code>, <code class="text-sky-300 font-mono">Blizzard News</code> o <code class="text-sky-300 font-mono">Wowhead</code>) con fallbacks independientes cada 2h, 4h y 6h.
               </p>
             </div>
             <div class="bg-wow-subcard border border-wow-border rounded-xl p-4 text-xs text-slate-300 space-y-2">
               <h4 class="font-bold text-amber-400 flex items-center gap-1.5">
-                <i class="fa-solid fa-rotate-right"></i> Sincronización en Vivo para Clientes:
+                <i class="fa-solid fa-cloud-arrow-down"></i> Sincronización en Vivo y Cache Buster:
               </h4>
               <p class="text-slate-400 leading-relaxed">
-                Al pulsar <strong>"Sincronizar Noticias Ahora"</strong>, se consulta la API de Discourse de Blizzard y el RSS de Wowhead directamente, refrescando la memoria local y actualizando los feeds sin tener que esperar.
+                Al pulsar <strong>"Sincronizar Noticias Ahora"</strong>, se descarga al instante la última versión consolidada de <code class="text-amber-300 font-mono">wow_news_data.js</code> directamente del repositorio en producción, purgando cualquier caché local y refrescando la vista con los 3 feeds intactos.
               </p>
             </div>
           </div>
@@ -692,16 +692,33 @@
             </div>
           </div>
 
-          <!-- Previsualización / Inspección de publicaciones cargadas -->
+          <!-- Previsualización / Inspección de publicaciones cargadas dividida en 3 pestañas -->
           <div class="space-y-3 pt-2">
             <div class="flex items-center justify-between flex-wrap gap-2">
               <h4 class="text-xs font-bold text-slate-200 uppercase tracking-wider flex items-center gap-2">
-                <i class="fa-solid fa-list-check text-cyan-400"></i> Publicaciones en Memoria / Caché Activo
+                <i class="fa-solid fa-layer-group text-cyan-400"></i> Publicaciones en Memoria (3 Feeds Oficiales)
               </h4>
               <span id="news-last-sync-time" class="text-[11px] font-mono text-slate-400">Última sync: -</span>
             </div>
-            <div id="admin-news-preview-container" class="bg-black/40 border border-white/10 rounded-xl max-h-72 overflow-y-auto divide-y divide-white/5 scrollbar-thin p-1">
-              <!-- Renderizado dinámico de noticias -->
+
+            <!-- Selector de Pestañas de Feeds -->
+            <div class="flex items-center gap-2 border-b border-wow-border pb-2 flex-wrap">
+              <button id="admin-feed-tab-blizz" onclick="setAdminNewsFeedTab('blizz')" class="px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-2 bg-sky-950/80 text-sky-300 border border-sky-500/60 shadow">
+                <i class="fa-solid fa-building-columns text-[11px]"></i> Oficiales Blizzard
+                <span id="admin-tab-count-blizz" class="px-1.5 py-0.2 rounded-full bg-sky-500/20 text-[10px] font-mono">0</span>
+              </button>
+              <button id="admin-feed-tab-blue" onclick="setAdminNewsFeedTab('blue')" class="px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-2 text-slate-400 hover:text-white border border-transparent">
+                <i class="fa-solid fa-bullhorn text-[11px]"></i> Blue Tracker
+                <span id="admin-tab-count-blue" class="px-1.5 py-0.2 rounded-full bg-slate-800 text-[10px] font-mono">0</span>
+              </button>
+              <button id="admin-feed-tab-wowhead" onclick="setAdminNewsFeedTab('wowhead')" class="px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-2 text-slate-400 hover:text-white border border-transparent">
+                <i class="fa-solid fa-newspaper text-[11px]"></i> Wowhead News & Guías
+                <span id="admin-tab-count-wowhead" class="px-1.5 py-0.2 rounded-full bg-slate-800 text-[10px] font-mono">0</span>
+              </button>
+            </div>
+
+            <div id="admin-news-preview-container" class="bg-black/40 border border-white/10 rounded-xl max-h-80 overflow-y-auto divide-y divide-white/5 scrollbar-thin p-1">
+              <!-- Renderizado dinámico según la pestaña activa -->
             </div>
           </div>
         </div>
@@ -1305,12 +1322,13 @@
       } catch (e) {}
 
       const blueCount = (currentNewsDb && currentNewsDb.blueTracker) ? currentNewsDb.blueTracker.length : 0;
+      const blizzCount = (currentNewsDb && currentNewsDb.blizzardNews) ? currentNewsDb.blizzardNews.length : 0;
       const newsCount = (currentNewsDb && currentNewsDb.recentNews) ? currentNewsDb.recentNews.length : 0;
-      const totalCount = blueCount + newsCount;
+      const totalCount = blueCount + blizzCount + newsCount;
 
-      if (newsCountBadge) newsCountBadge.innerText = `${blueCount} Blues / ${newsCount} News`;
+      if (newsCountBadge) newsCountBadge.innerText = `${blueCount} Blues / ${blizzCount} Blizzard / ${newsCount} Wowhead`;
       if (tabNewsBadge) tabNewsBadge.innerText = hasCustomNews ? 'Custom' : `${totalCount}`;
-      if (ovNewsSubtext) ovNewsSubtext.innerText = `${blueCount} Blue Posts, ${newsCount} Noticias`;
+      if (ovNewsSubtext) ovNewsSubtext.innerText = `${blueCount} Blues, ${blizzCount} Oficiales, ${newsCount} Wowhead`;
 
       if (newsStatus) {
         newsStatus.className = hasCustomNews 
@@ -1547,6 +1565,23 @@
       showToast(isPinnedNow ? '📌 Noticia fijada en la portada' : 'Noticia desfijada de la portada', isPinnedNow ? 'success' : 'info');
     }
 
+    let activeAdminNewsFeedTab = 'blizz';
+
+    function setAdminNewsFeedTab(tabKey) {
+      activeAdminNewsFeedTab = tabKey;
+      ['blizz', 'blue', 'wowhead'].forEach(t => {
+        const btn = document.getElementById(`admin-feed-tab-${t}`);
+        if (btn) {
+          if (t === tabKey) {
+            btn.className = 'px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-2 bg-sky-950/80 text-sky-300 border border-sky-500/60 shadow';
+          } else {
+            btn.className = 'px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-2 text-slate-400 hover:text-white border border-transparent';
+          }
+        }
+      });
+      renderAdminNewsPreview();
+    }
+
     function renderAdminNewsPreview() {
       const container = document.getElementById('admin-news-preview-container');
       const pinnedContainer = document.getElementById('admin-pinned-news-container');
@@ -1554,15 +1589,21 @@
       const lastSyncEl = document.getElementById('news-last-sync-time');
       if (!container) return;
 
+      // Cargar base de datos garantizando que no falte ninguna de las 3 ramas
       let newsDb = null;
       try {
         const custom = localStorage.getItem('wow_custom_news_data');
         if (custom) {
           newsDb = JSON.parse(custom);
-        } else if (window.WOW_LIVE_NEWS_DATA && window.WOW_LIVE_NEWS_DATA.blueTracker) {
-          newsDb = window.WOW_LIVE_NEWS_DATA;
-        } else if (window.WOW_NEWS_DATABASE) {
-          newsDb = window.WOW_NEWS_DATABASE;
+        } else {
+          // Fusionar window.WOW_NEWS_DATABASE con WOW_LIVE_NEWS_DATA para garantizar presencia de blizzardNews
+          const base = window.WOW_NEWS_DATABASE || { blueTracker: [], blizzardNews: [], recentNews: [] };
+          const live = window.WOW_LIVE_NEWS_DATA || {};
+          newsDb = {
+            blueTracker: (live.blueTracker && live.blueTracker.length > 0) ? live.blueTracker : (base.blueTracker || []),
+            blizzardNews: (base.blizzardNews && base.blizzardNews.length > 0) ? base.blizzardNews : (live.blizzardNews || []),
+            recentNews: (base.recentNews && base.recentNews.length > 0) ? base.recentNews : (live.recentNews || [])
+          };
         }
       } catch (e) {}
 
@@ -1578,20 +1619,40 @@
         let ts = newsDb.lastUpdated;
         if (!ts) {
           try {
-            const cache = JSON.parse(localStorage.getItem('wow_live_news_cache_v5') || '{}');
-            if (cache.timestamp) ts = new Date(cache.timestamp).toLocaleTimeString();
+            ts = localStorage.getItem('wow_admin_last_sync_time');
+            if (!ts) {
+              const cache = JSON.parse(localStorage.getItem('wow_live_news_cache_v24') || '{}');
+              if (cache.timestamp) ts = cache.timestamp;
+            }
           } catch (e) {}
         }
-        lastSyncEl.innerText = 'Última sync: ' + (ts ? new Date(ts).toLocaleTimeString() : 'Automática');
+        
+        let dateStr = 'Reciente';
+        if (ts) {
+          const parsed = new Date(ts);
+          if (!isNaN(parsed.getTime())) {
+            dateStr = parsed.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+          }
+        }
+        lastSyncEl.innerText = 'Última sync: ' + dateStr;
       }
 
       const blues = newsDb.blueTracker || [];
+      const blizzNews = newsDb.blizzardNews || [];
       const news = newsDb.recentNews || [];
       
+      // Actualizar contadores de las 3 pestañas
+      const tabCountBlizz = document.getElementById('admin-tab-count-blizz');
+      const tabCountBlue = document.getElementById('admin-tab-count-blue');
+      const tabCountWh = document.getElementById('admin-tab-count-wowhead');
+      if (tabCountBlizz) tabCountBlizz.innerText = blizzNews.length;
+      if (tabCountBlue) tabCountBlue.innerText = blues.length;
+      if (tabCountWh) tabCountWh.innerText = news.length;
+
       // Agrupar anuncios idénticos de US y EU para evitar duplicaciones
       const groupedBlues = typeof groupCanonicalNews === 'function' ? groupCanonicalNews(blues) : blues;
       const groupedNews = typeof groupCanonicalNews === 'function' ? groupCanonicalNews(news) : news;
-      const allGrouped = [...groupedBlues, ...groupedNews];
+      const allGrouped = [...groupedBlues, ...blizzNews, ...groupedNews];
 
       // Calcular si un artículo agrupado está fijado (si su id principal o alguno de sus alias está en pinnedIds)
       const isGroupPinned = (item) => {
@@ -1620,16 +1681,28 @@
               ${pinnedItems.map(item => {
                 const titleEs = (item.title && item.title.es) || (typeof item.title === 'string' ? item.title : 'Sin título');
                 const titleEn = (item.title && item.title.en) || '';
-                const isBlue = item.source === 'blizzard' || !item.source;
+                const isBlizz = item.category === 'Oficial' || (item.id && item.id.startsWith('blizz-24'));
+                const isBlue = !isBlizz && (item.source === 'blizzard' || !item.source);
                 const author = item.author || (isBlue ? 'Blizzard' : 'Wowhead');
-                const date = item.dateRaw ? new Date(item.dateRaw).toLocaleDateString() : '';
+                const date = item.dateRaw ? (typeof formatReadableDate === 'function' ? formatReadableDate(item.dateRaw, 'es') : item.dateRaw) : '';
                 const regionsStr = (item.regions && item.regions.length > 1) ? item.regions.join(' + ') : (item.region || 'Oficial');
+                
+                let badgeLabel = 'Wowhead News';
+                let badgeClass = 'border-amber-500/50 bg-amber-950 text-amber-300';
+                if (isBlizz) {
+                  badgeLabel = 'Blizzard Oficial';
+                  badgeClass = 'border-sky-500/60 bg-sky-950 text-sky-300';
+                } else if (isBlue) {
+                  badgeLabel = `Blue Post (${regionsStr})`;
+                  badgeClass = 'border-sky-500/50 bg-sky-950 text-sky-300';
+                }
+
                 return `
                   <div class="p-3 flex items-center justify-between gap-3 text-xs hover:bg-white/[0.02] transition">
                     <div class="space-y-1 min-w-0 flex-1">
                       <div class="flex items-center gap-2">
-                        <span class="text-[9px] uppercase font-bold px-1.5 py-0.2 rounded border ${isBlue ? 'border-sky-500/50 bg-sky-950 text-sky-300' : 'border-amber-500/50 bg-amber-950 text-amber-300'}">
-                          ${isBlue ? `Blue Post (${regionsStr})` : 'Wowhead News'}
+                        <span class="text-[9px] uppercase font-bold px-1.5 py-0.2 rounded border ${badgeClass}">
+                          ${badgeLabel}
                         </span>
                         <span class="text-[10px] text-slate-500 font-mono">${date}</span>
                       </div>
@@ -1651,8 +1724,8 @@
                       <button onclick="togglePinNewsArticle('${item.id}')" title="Desfijar de inicio" class="px-2.5 py-1.5 rounded bg-red-950/60 hover:bg-red-900 border border-red-500/50 text-red-200 text-[11px] font-semibold flex items-center gap-1 transition shadow min-h-[32px]">
                         <i class="fa-solid fa-thumbtack text-[10px]"></i> Desfijar
                       </button>
-                      <a href="${item.originalUrl || '#'}" target="_blank" rel="noopener noreferrer" class="text-cyan-400 hover:text-white px-2.5 py-1.5 rounded bg-cyan-950/40 border border-cyan-500/30 text-[11px] font-semibold shrink-0 min-h-[32px] flex items-center">
-                        Ver <i class="fa-solid fa-arrow-up-right-from-square text-[9px] ml-1"></i>
+                      <a href="index.html#news-${item.id}" target="_blank" rel="noopener noreferrer" title="Abrir en lector completo en nueva ventana" class="text-cyan-400 hover:text-white px-2.5 py-1.5 rounded bg-cyan-950/40 border border-cyan-500/30 text-[11px] font-semibold shrink-0 min-h-[32px] flex items-center gap-1 shadow hover:bg-cyan-900/60 transition">
+                        Ver <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
                       </a>
                     </div>
                   </div>
@@ -1663,92 +1736,142 @@
         }
       }
 
-      // 2. Renderizar lista completa unificada con visualización clara ES / EN
+      // 2. Renderizar contenido según la pestaña activa (blizz, blue o wowhead)
       let html = '';
 
-      if (groupedBlues.length === 0 && groupedNews.length === 0) {
-        html = '<div class="p-6 text-center text-xs text-slate-400">Sin publicaciones disponibles.</div>';
-      } else {
-        groupedBlues.forEach(b => {
-          const titleEs = (b.title && b.title.es) || (typeof b.title === 'string' ? b.title : 'Sin título');
-          const titleEn = (b.title && b.title.en) || '';
-          const author = b.author || 'Blizzard';
-          const date = b.dateRaw ? new Date(b.dateRaw).toLocaleDateString() : '';
-          const pinned = isGroupPinned(b);
-          const regionsStr = (b.regions && b.regions.length > 1) ? b.regions.join(' + ') : (b.region || 'US');
-          html += `
-            <div class="p-3 flex items-center justify-between gap-3 text-xs hover:bg-white/[0.02] transition">
-              <div class="space-y-1 min-w-0 flex-1">
-                <div class="flex items-center gap-2">
-                  <span class="text-[9px] uppercase font-bold px-1.5 py-0.2 rounded border border-sky-500/50 bg-sky-950 text-sky-300">Blue Post (${regionsStr})</span>
-                  <span class="text-[10px] text-slate-500 font-mono">${date}</span>
-                </div>
-                <div class="space-y-0.5">
-                  <div class="font-semibold text-slate-200 truncate flex items-center gap-1.5">
-                    ${pinned ? '<i class="fa-solid fa-thumbtack text-amber-400 text-[10px]" title="Fijado en Portada"></i>' : ''}
-                    <span class="text-[10px] px-1 py-0.2 rounded bg-amber-500/20 text-amber-300 font-mono font-bold">ES</span>
-                    <span class="${pinned ? 'text-amber-200' : ''}">${titleEs}</span>
+      if (activeAdminNewsFeedTab === 'blizz') {
+        if (blizzNews.length === 0) {
+          html = '<div class="p-6 text-center text-xs text-slate-400">No hay noticias oficiales de Blizzard registradas.</div>';
+        } else {
+          blizzNews.forEach(bl => {
+            const titleEs = (bl.title && bl.title.es) || (typeof bl.title === 'string' ? bl.title : 'Sin título');
+            const titleEn = (bl.title && bl.title.en) || '';
+            const author = bl.author || 'Blizzard Entertainment';
+            const date = bl.dateRaw ? (typeof formatReadableDate === 'function' ? formatReadableDate(bl.dateRaw, 'es') : bl.dateRaw) : '';
+            const pinned = isGroupPinned(bl);
+            html += `
+              <div class="p-3 flex items-center justify-between gap-3 text-xs hover:bg-white/[0.02] transition">
+                <div class="space-y-1 min-w-0 flex-1">
+                  <div class="flex items-center gap-2">
+                    <span class="text-[9px] uppercase font-bold px-1.5 py-0.2 rounded border border-sky-500/60 bg-sky-950 text-sky-300">Blizzard Oficial</span>
+                    <span class="text-[10px] text-slate-500 font-mono">${date}</span>
                   </div>
-                  ${titleEn && titleEn !== titleEs ? `
-                    <div class="text-[11px] text-slate-400 truncate flex items-center gap-1.5 pl-3">
-                      <span class="text-[9px] px-1 py-0.2 rounded bg-slate-800 text-slate-300 font-mono">EN</span>
-                      <span>${titleEn}</span>
+                  <div class="space-y-0.5">
+                    <div class="font-semibold text-slate-200 truncate flex items-center gap-1.5">
+                      ${pinned ? '<i class="fa-solid fa-thumbtack text-amber-400 text-[10px]" title="Fijado en Portada"></i>' : ''}
+                      <span class="text-[10px] px-1 py-0.2 rounded bg-amber-500/20 text-amber-300 font-mono font-bold">ES</span>
+                      <span class="${pinned ? 'text-amber-200' : ''}">${titleEs}</span>
                     </div>
-                  ` : ''}
-                </div>
-                <div class="text-[10px] text-slate-500 truncate">Por ${author}</div>
-              </div>
-              <div class="flex items-center gap-1.5 shrink-0">
-                <button onclick="togglePinNewsArticle('${b.id}')" title="${pinned ? 'Desfijar de inicio' : 'Fijar en inicio'}" class="px-2.5 py-1 rounded text-[11px] font-semibold flex items-center gap-1 transition min-h-[30px] ${pinned ? 'bg-amber-500/25 text-amber-300 border border-amber-500/60 shadow-sm' : 'bg-white/5 hover:bg-amber-500/15 text-slate-400 hover:text-amber-300 border border-white/10'}">
-                  <i class="fa-solid fa-thumbtack ${pinned ? 'text-amber-400' : ''}"></i> <span>${pinned ? 'Fijado' : 'Fijar'}</span>
-                </button>
-                <a href="${b.originalUrl || '#'}" target="_blank" rel="noopener noreferrer" class="text-cyan-400 hover:text-white px-2.5 py-1 rounded bg-cyan-950/40 border border-cyan-500/30 text-[11px] font-semibold shrink-0 min-h-[30px] flex items-center">
-                  Ver <i class="fa-solid fa-arrow-up-right-from-square text-[9px] ml-1"></i>
-                </a>
-              </div>
-            </div>
-          `;
-        });
-
-        groupedNews.forEach(n => {
-          const titleEs = (n.title && n.title.es) || (typeof n.title === 'string' ? n.title : 'Sin título');
-          const titleEn = (n.title && n.title.en) || '';
-          const author = n.author || 'Wowhead';
-          const date = n.dateRaw ? new Date(n.dateRaw).toLocaleDateString() : '';
-          const pinned = isGroupPinned(n);
-          html += `
-            <div class="p-3 flex items-center justify-between gap-3 text-xs hover:bg-white/[0.02] transition">
-              <div class="space-y-1 min-w-0 flex-1">
-                <div class="flex items-center gap-2">
-                  <span class="text-[9px] uppercase font-bold px-1.5 py-0.2 rounded border border-amber-500/50 bg-amber-950 text-amber-300">Wowhead News</span>
-                  <span class="text-[10px] text-slate-500 font-mono">${date}</span>
-                </div>
-                <div class="space-y-0.5">
-                  <div class="font-semibold text-slate-200 truncate flex items-center gap-1.5">
-                    ${pinned ? '<i class="fa-solid fa-thumbtack text-amber-400 text-[10px]" title="Fijado en Portada"></i>' : ''}
-                    <span class="text-[10px] px-1 py-0.2 rounded bg-amber-500/20 text-amber-300 font-mono font-bold">ES</span>
-                    <span class="${pinned ? 'text-amber-200' : ''}">${titleEs}</span>
+                    ${titleEn && titleEn !== titleEs ? `
+                      <div class="text-[11px] text-slate-400 truncate flex items-center gap-1.5 pl-3">
+                        <span class="text-[9px] px-1 py-0.2 rounded bg-slate-800 text-slate-300 font-mono">EN</span>
+                        <span>${titleEn}</span>
+                      </div>
+                    ` : ''}
                   </div>
-                  ${titleEn && titleEn !== titleEs ? `
-                    <div class="text-[11px] text-slate-400 truncate flex items-center gap-1.5 pl-3">
-                      <span class="text-[9px] px-1 py-0.2 rounded bg-slate-800 text-slate-300 font-mono">EN</span>
-                      <span>${titleEn}</span>
-                    </div>
-                  ` : ''}
+                  <div class="text-[10px] text-slate-500 truncate">Por ${author}</div>
                 </div>
-                <div class="text-[10px] text-slate-500 truncate">Por ${author}</div>
+                <div class="flex items-center gap-1.5 shrink-0">
+                  <button onclick="togglePinNewsArticle('${bl.id}')" title="${pinned ? 'Desfijar de inicio' : 'Fijar en inicio'}" class="px-2.5 py-1 rounded text-[11px] font-semibold flex items-center gap-1 transition min-h-[30px] ${pinned ? 'bg-amber-500/25 text-amber-300 border border-amber-500/60 shadow-sm' : 'bg-white/5 hover:bg-amber-500/15 text-slate-400 hover:text-amber-300 border border-white/10'}">
+                    <i class="fa-solid fa-thumbtack ${pinned ? 'text-amber-400' : ''}"></i> <span>${pinned ? 'Fijado' : 'Fijar'}</span>
+                  </button>
+                  <a href="index.html#news-${bl.id}" target="_blank" rel="noopener noreferrer" title="Abrir en lector completo en nueva ventana" class="text-cyan-400 hover:text-white px-2.5 py-1 rounded bg-cyan-950/40 border border-cyan-500/30 text-[11px] font-semibold shrink-0 min-h-[30px] flex items-center gap-1 shadow hover:bg-cyan-900/60 transition">
+                    Ver <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+                  </a>
+                </div>
               </div>
-              <div class="flex items-center gap-1.5 shrink-0">
-                <button onclick="togglePinNewsArticle('${n.id}')" title="${pinned ? 'Desfijar de inicio' : 'Fijar en inicio'}" class="px-2.5 py-1 rounded text-[11px] font-semibold flex items-center gap-1 transition min-h-[30px] ${pinned ? 'bg-amber-500/25 text-amber-300 border border-amber-500/60 shadow-sm' : 'bg-white/5 hover:bg-amber-500/15 text-slate-400 hover:text-amber-300 border border-white/10'}">
-                  <i class="fa-solid fa-thumbtack ${pinned ? 'text-amber-400' : ''}"></i> <span>${pinned ? 'Fijado' : 'Fijar'}</span>
-                </button>
-                <a href="${n.originalUrl || '#'}" target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:text-white px-2.5 py-1 rounded bg-amber-950/40 border border-amber-500/30 text-[11px] font-semibold shrink-0 min-h-[30px] flex items-center">
-                  Ver <i class="fa-solid fa-arrow-up-right-from-square text-[9px] ml-1"></i>
-                </a>
+            `;
+          });
+        }
+      } else if (activeAdminNewsFeedTab === 'blue') {
+        if (groupedBlues.length === 0) {
+          html = '<div class="p-6 text-center text-xs text-slate-400">No hay publicaciones de Blue Tracker registradas.</div>';
+        } else {
+          groupedBlues.forEach(b => {
+            const titleEs = (b.title && b.title.es) || (typeof b.title === 'string' ? b.title : 'Sin título');
+            const titleEn = (b.title && b.title.en) || '';
+            const author = b.author || 'Blizzard';
+            const date = b.dateRaw ? (typeof formatReadableDate === 'function' ? formatReadableDate(b.dateRaw, 'es') : b.dateRaw) : '';
+            const pinned = isGroupPinned(b);
+            const regionsStr = (b.regions && b.regions.length > 1) ? b.regions.join(' + ') : (b.region || 'US');
+            html += `
+              <div class="p-3 flex items-center justify-between gap-3 text-xs hover:bg-white/[0.02] transition">
+                <div class="space-y-1 min-w-0 flex-1">
+                  <div class="flex items-center gap-2">
+                    <span class="text-[9px] uppercase font-bold px-1.5 py-0.2 rounded border border-sky-500/50 bg-sky-950 text-sky-300">Blue Post (${regionsStr})</span>
+                    <span class="text-[10px] text-slate-500 font-mono">${date}</span>
+                  </div>
+                  <div class="space-y-0.5">
+                    <div class="font-semibold text-slate-200 truncate flex items-center gap-1.5">
+                      ${pinned ? '<i class="fa-solid fa-thumbtack text-amber-400 text-[10px]" title="Fijado en Portada"></i>' : ''}
+                      <span class="text-[10px] px-1 py-0.2 rounded bg-amber-500/20 text-amber-300 font-mono font-bold">ES</span>
+                      <span class="${pinned ? 'text-amber-200' : ''}">${titleEs}</span>
+                    </div>
+                    ${titleEn && titleEn !== titleEs ? `
+                      <div class="text-[11px] text-slate-400 truncate flex items-center gap-1.5 pl-3">
+                        <span class="text-[9px] px-1 py-0.2 rounded bg-slate-800 text-slate-300 font-mono">EN</span>
+                        <span>${titleEn}</span>
+                      </div>
+                    ` : ''}
+                  </div>
+                  <div class="text-[10px] text-slate-500 truncate">Por ${author}</div>
+                </div>
+                <div class="flex items-center gap-1.5 shrink-0">
+                  <button onclick="togglePinNewsArticle('${b.id}')" title="${pinned ? 'Desfijar de inicio' : 'Fijar en inicio'}" class="px-2.5 py-1 rounded text-[11px] font-semibold flex items-center gap-1 transition min-h-[30px] ${pinned ? 'bg-amber-500/25 text-amber-300 border border-amber-500/60 shadow-sm' : 'bg-white/5 hover:bg-amber-500/15 text-slate-400 hover:text-amber-300 border border-white/10'}">
+                    <i class="fa-solid fa-thumbtack ${pinned ? 'text-amber-400' : ''}"></i> <span>${pinned ? 'Fijado' : 'Fijar'}</span>
+                  </button>
+                  <a href="index.html#news-${b.id}" target="_blank" rel="noopener noreferrer" title="Abrir en lector completo en nueva ventana" class="text-cyan-400 hover:text-white px-2.5 py-1 rounded bg-cyan-950/40 border border-cyan-500/30 text-[11px] font-semibold shrink-0 min-h-[30px] flex items-center gap-1 shadow hover:bg-cyan-900/60 transition">
+                    Ver <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+                  </a>
+                </div>
               </div>
-            </div>
-          `;
-        });
+            `;
+          });
+        }
+      } else if (activeAdminNewsFeedTab === 'wowhead') {
+        if (groupedNews.length === 0) {
+          html = '<div class="p-6 text-center text-xs text-slate-400">No hay noticias de Wowhead registradas.</div>';
+        } else {
+          groupedNews.forEach(n => {
+            const titleEs = (n.title && n.title.es) || (typeof n.title === 'string' ? n.title : 'Sin título');
+            const titleEn = (n.title && n.title.en) || '';
+            const author = n.author || 'Wowhead';
+            const date = n.dateRaw ? (typeof formatReadableDate === 'function' ? formatReadableDate(n.dateRaw, 'es') : n.dateRaw) : '';
+            const pinned = isGroupPinned(n);
+            html += `
+              <div class="p-3 flex items-center justify-between gap-3 text-xs hover:bg-white/[0.02] transition">
+                <div class="space-y-1 min-w-0 flex-1">
+                  <div class="flex items-center gap-2">
+                    <span class="text-[9px] uppercase font-bold px-1.5 py-0.2 rounded border border-amber-500/50 bg-amber-950 text-amber-300">Wowhead News</span>
+                    <span class="text-[10px] text-slate-500 font-mono">${date}</span>
+                  </div>
+                  <div class="space-y-0.5">
+                    <div class="font-semibold text-slate-200 truncate flex items-center gap-1.5">
+                      ${pinned ? '<i class="fa-solid fa-thumbtack text-amber-400 text-[10px]" title="Fijado en Portada"></i>' : ''}
+                      <span class="text-[10px] px-1 py-0.2 rounded bg-amber-500/20 text-amber-300 font-mono font-bold">ES</span>
+                      <span class="${pinned ? 'text-amber-200' : ''}">${titleEs}</span>
+                    </div>
+                    ${titleEn && titleEn !== titleEs ? `
+                      <div class="text-[11px] text-slate-400 truncate flex items-center gap-1.5 pl-3">
+                        <span class="text-[9px] px-1 py-0.2 rounded bg-slate-800 text-slate-300 font-mono">EN</span>
+                        <span>${titleEn}</span>
+                      </div>
+                    ` : ''}
+                  </div>
+                  <div class="text-[10px] text-slate-500 truncate">Por ${author}</div>
+                </div>
+                <div class="flex items-center gap-1.5 shrink-0">
+                  <button onclick="togglePinNewsArticle('${n.id}')" title="${pinned ? 'Desfijar de inicio' : 'Fijar en inicio'}" class="px-2.5 py-1 rounded text-[11px] font-semibold flex items-center gap-1 transition min-h-[30px] ${pinned ? 'bg-amber-500/25 text-amber-300 border border-amber-500/60 shadow-sm' : 'bg-white/5 hover:bg-amber-500/15 text-slate-400 hover:text-amber-300 border border-white/10'}">
+                    <i class="fa-solid fa-thumbtack ${pinned ? 'text-amber-400' : ''}"></i> <span>${pinned ? 'Fijado' : 'Fijar'}</span>
+                  </button>
+                  <a href="index.html#news-${n.id}" target="_blank" rel="noopener noreferrer" title="Abrir en lector completo en nueva ventana" class="text-amber-400 hover:text-white px-2.5 py-1 rounded bg-amber-950/40 border border-amber-500/30 text-[11px] font-semibold shrink-0 min-h-[30px] flex items-center gap-1 shadow hover:bg-amber-900/60 transition">
+                    Ver <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+                  </a>
+                </div>
+              </div>
+            `;
+          });
+        }
       }
 
       container.innerHTML = html;
@@ -1760,21 +1883,48 @@
       const spinner = document.getElementById('sync-news-spinner');
       if (btn) btn.disabled = true;
       if (spinner) spinner.classList.add('fa-spin');
-      if (btnText) btnText.innerText = 'Sincronizando Blizzard & Wowhead...';
+      if (btnText) btnText.innerText = 'Sincronizando 3 Feeds...';
 
-      showToast('Sincronizando hilos de Blizzard y Wowhead en vivo...', 'info');
+      showToast('Actualizando base de datos consolidada (Blue Tracker, Blizzard & Wowhead)...', 'info');
 
       try {
-        if (typeof window.syncLiveNews === 'function') {
-          const res = await window.syncLiveNews(true);
-          updateDevModalStatusBadges();
-          renderAdminNewsPreview();
-          const bCount = (res && res.blueTracker) ? res.blueTracker.length : 0;
-          const nCount = (res && res.recentNews) ? res.recentNews.length : 0;
-          showToast(`¡Noticias actualizadas! (${bCount} Blues, ${nCount} Artículos)`, 'success');
-        } else {
-          showToast('Función syncLiveNews no disponible', 'error');
+        // 1. Purgar cachés locales obsoletas
+        try {
+          localStorage.removeItem('wow_live_news_cache_v5');
+          localStorage.removeItem('wow_live_news_cache_v23');
+        } catch (e) {}
+
+        // 2. Descargar fresco wow_news_data.js con cache-busting
+        const cacheBuster = Date.now();
+        const res = await fetch(`js/data/wow_news_data.js?t=${cacheBuster}`);
+        if (res.ok) {
+          const jsCode = await res.text();
+          const fakeWindow = {};
+          const fn = new Function('window', jsCode);
+          fn(fakeWindow);
+          if (fakeWindow.WOW_NEWS_DATABASE) {
+            window.WOW_NEWS_DATABASE = fakeWindow.WOW_NEWS_DATABASE;
+            window.WOW_LIVE_NEWS_DATA = fakeWindow.WOW_NEWS_DATABASE;
+          }
         }
+
+        // 3. Si existe syncLiveNews, ejecutar para complementar
+        if (typeof window.syncLiveNews === 'function') {
+          await window.syncLiveNews(true);
+        }
+
+        // Registrar timestamp de sincronización
+        const syncNow = new Date().toISOString();
+        localStorage.setItem('wow_admin_last_sync_time', syncNow);
+
+        updateDevModalStatusBadges();
+        renderAdminNewsPreview();
+
+        const db = window.WOW_NEWS_DATABASE || {};
+        const bCount = (db.blueTracker || []).length;
+        const blizzCount = (db.blizzardNews || []).length;
+        const wCount = (db.recentNews || []).length;
+        showToast(`¡3 Feeds sincronizados! (${bCount} Blues, ${blizzCount} Blizzard, ${wCount} Wowhead)`, 'success');
       } catch (err) {
         console.error('Error sincronizando noticias:', err);
         showToast('Error al sincronizar noticias: ' + err.message, 'error');

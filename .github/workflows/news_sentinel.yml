@@ -1,0 +1,41 @@
+name: WoW News Sentinel (Smart Fast-Trigger)
+
+on:
+  schedule:
+    # Se ejecuta cada 20 minutos
+    - cron: '*/20 * * * *'
+  workflow_dispatch: # Permite ejecución manual desde la pestaña Actions
+
+permissions:
+  contents: write
+
+jobs:
+  check-and-trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Puppeteer Dependencies (Just-In-Case a Bot is Triggered)
+        run: npm install puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
+
+      - name: Run News Sentinel
+        run: node scripts/news_sentinel.js
+
+      - name: Commit & Push If Changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add js/data/wow_news_data.js scripts/latest_scraped_news.json staging/mock_news_data.js
+          if git diff --staged --quiet; then
+            echo "El Centinela no detectó cambios nuevos. Todo está al día."
+          else
+            git commit -m "chore(news): sentinel smart-update wow news [skip ci]"
+            git push origin main
+          fi

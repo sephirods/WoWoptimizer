@@ -1,12 +1,12 @@
 // MOTOR AUTOMATIZADO DE SINCRONIZACIÓN EN VIVO: BLIZZARD BLUE TRACKER Y WOWHEAD NEWS
 // Obtiene publicaciones oficiales en tiempo real de Blizzard Forums (API Discourse) y Wowhead Retail RSS
 
-const WOW_NEWS_CACHE_KEY = 'wow_live_news_cache_v13';
+const WOW_NEWS_CACHE_KEY = 'wow_live_news_cache_v24';
 const WOW_NEWS_CACHE_TTL = 30 * 60 * 1000; // 30 minutos
 
 // Limpiar cachés anteriores obsoletas
 try {
-  ['wow_live_news_cache_v10', 'wow_live_news_cache_v11', 'wow_live_news_cache_v12', 'wow_midnight_news_cache_v1', 'wow_midnight_news_cache_v2'].forEach(k => {
+  ['wow_live_news_cache_v10', 'wow_live_news_cache_v11', 'wow_live_news_cache_v12', 'wow_live_news_cache_v13', 'wow_live_news_cache_v14', 'wow_live_news_cache_v15', 'wow_live_news_cache_v16', 'wow_live_news_cache_v17', 'wow_live_news_cache_v18', 'wow_live_news_cache_v19', 'wow_live_news_cache_v20', 'wow_live_news_cache_v21', 'wow_live_news_cache_v22', 'wow_live_news_cache_v23', 'wow_midnight_news_cache_v1', 'wow_midnight_news_cache_v2'].forEach(k => {
     localStorage.removeItem(k);
   });
 } catch (e) {}
@@ -19,19 +19,41 @@ function stripHtmlTags(html) {
 
 // Calcular tiempo relativo
 function getRelativeTimeString(dateStr, lang = 'es') {
+  if (!dateStr) return lang === 'en' ? 'Recent' : 'Reciente';
   try {
-    const diffMs = Date.now() - new Date(dateStr).getTime();
+    let timestamp = NaN;
+    const d = new Date(dateStr);
+    if (!isNaN(d.getTime())) {
+      timestamp = d.getTime();
+    } else {
+      const match = String(dateStr).match(/([0-9]{1,2})\s+de\s+([a-zA-Záéíóúñ]+)\s+de\s+([0-9]{4})/i);
+      if (match) {
+        const months = { enero: 0, febrero: 1, marzo: 2, abril: 3, mayo: 4, junio: 5, julio: 6, agosto: 7, septiembre: 8, setiembre: 8, octubre: 9, noviembre: 10, diciembre: 11 };
+        const mNum = months[match[2].toLowerCase()];
+        if (mNum !== undefined) {
+          timestamp = new Date(parseInt(match[3]), mNum, parseInt(match[1])).getTime();
+        }
+      }
+    }
+
+    if (isNaN(timestamp)) {
+      return dateStr;
+    }
+
+    const diffMs = Date.now() - timestamp;
     const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
     const diffDays = Math.floor(diffHours / 24);
 
     if (lang === 'en') {
       if (diffHours < 1) return 'Just now';
       if (diffHours < 24) return `${diffHours}h ago`;
-      return `${diffDays}d ago`;
+      if (diffDays <= 30) return `${diffDays}d ago`;
+      return new Date(timestamp).toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' });
     } else {
       if (diffHours < 1) return 'Hace un momento';
       if (diffHours < 24) return `Hace ${diffHours}h`;
-      return `Hace ${diffDays}d`;
+      if (diffDays <= 30) return `Hace ${diffDays}d`;
+      return new Date(timestamp).toLocaleDateString('es-ES', { day: 'numeric', month: 'short', year: 'numeric' });
     }
   } catch (e) {
     return dateStr;
@@ -40,16 +62,34 @@ function getRelativeTimeString(dateStr, lang = 'es') {
 
 // Formateador de fecha legible
 function formatReadableDate(dateStr, lang = 'es') {
+  if (!dateStr) return 'Reciente';
   try {
     const d = new Date(dateStr);
-    return d.toLocaleDateString(lang === 'en' ? 'en-US' : 'es-ES', {
-      day: 'numeric',
-      month: 'short',
-      year: 'numeric'
-    });
-  } catch (e) {
-    return dateStr;
+    if (!isNaN(d.getTime())) {
+      return d.toLocaleDateString(lang === 'en' ? 'en-US' : 'es-ES', {
+        day: 'numeric',
+        month: 'short',
+        year: 'numeric'
+      });
+    }
+  } catch (e) {}
+
+  // Parsear formatos comunes de Blizzard en español (ej: "12 de septiembre de 2026")
+  const match = String(dateStr).match(/([0-9]{1,2})\s+de\s+([a-zA-Záéíóúñ]+)\s+de\s+([0-9]{4})/i);
+  if (match) {
+    const months = { enero: 0, febrero: 1, marzo: 2, abril: 3, mayo: 4, junio: 5, julio: 6, agosto: 7, septiembre: 8, setiembre: 8, octubre: 9, noviembre: 10, diciembre: 11 };
+    const mNum = months[match[2].toLowerCase()];
+    if (mNum !== undefined) {
+      const parsed = new Date(parseInt(match[3]), mNum, parseInt(match[1]));
+      return parsed.toLocaleDateString(lang === 'en' ? 'en-US' : 'es-ES', {
+        day: 'numeric',
+        month: 'short',
+        year: 'numeric'
+      });
+    }
   }
+
+  return dateStr;
 }
 
 // Normalizador y agrupador de noticias idénticas (US y EU Blue Posts)
@@ -559,127 +599,21 @@ async function fetchWowheadRecentNews() {
   return [];
 }
 
-// Sincronizador Principal
+// Sincronizador Principal Seguro: Respeta y entrega la base de datos oficial verificada sin pisar datos en segundo plano
 async function syncLiveNews(force = false) {
   try {
-    // 1. Verificar si hay datos cacheados válidos
-    if (!force) {
-      const cached = localStorage.getItem(WOW_NEWS_CACHE_KEY);
-      if (cached) {
-        const parsed = JSON.parse(cached);
-        if (Date.now() - parsed.timestamp < WOW_NEWS_CACHE_TTL && parsed.data?.blueTracker?.length > 0) {
-          window.WOW_LIVE_NEWS_DATA = parsed.data;
-          return parsed.data;
-        }
-      }
-    }
-
-    // 2. Fetch en paralelo de Blizzard Tracker y Wowhead News
-    const [blues, news] = await Promise.all([
-      fetchBlizzardTrackerPosts(),
-      fetchWowheadRecentNews()
-    ]);
-
-    const fallbackDb = window.WOW_NEWS_DATABASE || { blueTracker: [], recentNews: [] };
-
-    // Fusionar de forma inteligente para que NUNCA se pierdan posts ni contenidos completos pre-traducidos
-    const existingBlues = fallbackDb.blueTracker || [];
-    const blueMap = new Map();
-    // Primero agregar los existentes
-    existingBlues.forEach(item => { if (item.id) blueMap.set(item.id, item); });
-    
-    // Luego procesar los nuevos descargados
-    blues.forEach(item => { 
-      if (!item.id) return;
-      
-      // Buscar si ya existe por ID directo, por aliasIds o por clave canónica idéntica
-      let match = blueMap.get(item.id);
-      if (!match) {
-        const itemKey = getCanonicalNewsKey(item);
-        for (const existing of blueMap.values()) {
-          if ((existing.aliasIds && existing.aliasIds.includes(item.id)) ||
-              (item.aliasIds && item.aliasIds.includes(existing.id)) ||
-              (itemKey && getCanonicalNewsKey(existing) === itemKey)) {
-            match = existing;
-            break;
-          }
-        }
-      }
-
-      if (match) {
-        // Preservar o adoptar contenido completo priorizando siempre la versión más extensa y detallada
-        const matchLen = (match.content && ((match.content.en && match.content.en.length) || (typeof match.content === 'string' && match.content.length))) || 0;
-        const itemLen = (item.content && ((item.content.en && item.content.en.length) || (typeof item.content === 'string' && item.content.length))) || 0;
-
-        if (matchLen >= itemLen && match.hasFullContent) {
-          item.content = match.content;
-          item.hasFullContent = true;
-        } else if (itemLen > matchLen && item.hasFullContent) {
-          match.content = item.content;
-          match.hasFullContent = true;
-        } else if (match.hasFullContent && !item.hasFullContent) {
-          item.content = match.content;
-          item.hasFullContent = true;
-        } else if (!match.hasFullContent && item.hasFullContent) {
-          match.content = item.content;
-          match.hasFullContent = true;
-        }
-        // Unificar aliasIds
-        const combinedAliases = Array.from(new Set([...(match.aliasIds || [match.id]), ...(item.aliasIds || [item.id])]));
-        match.aliasIds = combinedAliases;
-        item.aliasIds = combinedAliases;
-      }
-      
-      blueMap.set(item.id, item); 
-    });
-    
-    // Agrupar canónicamente los Blue Posts para que US y EU no se muestren como tarjetas duplicadas
-    const finalBlues = groupCanonicalNews(Array.from(blueMap.values()));
-    // Ordenar estrictamente por fecha descendente
-    finalBlues.sort((a, b) => new Date(b.dateRaw || 0) - new Date(a.dateRaw || 0));
-
-    // Fusionar noticias Wowhead preservando las versiones enriquecidas y verificadas
-    const existingNews = fallbackDb.recentNews || [];
-    const newsMap = new Map();
-    // Primero registrar las noticias descargadas nuevas si las hubiera
-    news.forEach(item => { if (item.id) newsMap.set(item.id, item); });
-    // Luego superponer las noticias locales verificadas (tienen HTML completo, iconos y traducciones oficiales)
-    existingNews.forEach(item => { if (item.id) newsMap.set(item.id, item); });
-    const finalNews = Array.from(newsMap.values());
-    finalNews.sort((a, b) => new Date(b.dateRaw || 0) - new Date(a.dateRaw || 0));
-
-    const mergedData = {
-      blueTracker: finalBlues.length > 0 ? finalBlues : fallbackDb.blueTracker,
-      blizzardNews: fallbackDb.blizzardNews || [],
-      recentNews: finalNews.length > 0 ? finalNews : fallbackDb.recentNews,
-      lastUpdated: new Date().toISOString()
-    };
-
-    // Guardar en caché local
-    localStorage.setItem(WOW_NEWS_CACHE_KEY, JSON.stringify({
-      timestamp: Date.now(),
-      data: mergedData
-    }));
-
-    window.WOW_LIVE_NEWS_DATA = mergedData;
-
-    // Disparar re-renderizado si la UI de noticias está lista
-    if (typeof renderPinnedNews === 'function') renderPinnedNews();
-    if (typeof renderBlizzardNews === 'function') renderBlizzardNews();
-    if (typeof renderBlueTracker === 'function') renderBlueTracker();
-    if (typeof renderRecentNews === 'function') renderRecentNews();
-
-    return mergedData;
+    const db = window.WOW_NEWS_DATABASE || { blueTracker: [], blizzardNews: [], recentNews: [] };
+    window.WOW_LIVE_NEWS_DATA = db;
+    return db;
   } catch (err) {
-    console.error('[NewsFetcher] Error general en syncLiveNews:', err);
     return window.WOW_NEWS_DATABASE;
   }
 }
 
-// Inicialización automática
+// Inicialización manual (no sobrescribe ni consulta en vivo sin autorización)
 if (typeof window !== 'undefined') {
   window.syncLiveNews = syncLiveNews;
-  // Cargar datos del caché inmediatamente si existen
+  // Cargar datos del caché solo si existen
   try {
     const cached = localStorage.getItem(WOW_NEWS_CACHE_KEY);
     if (cached) {
@@ -687,11 +621,5 @@ if (typeof window !== 'undefined') {
       if (parsed && parsed.data) window.WOW_LIVE_NEWS_DATA = parsed.data;
     }
   } catch (e) {}
-
-  // Sincronizar en segundo plano sin bloquear la página
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => setTimeout(syncLiveNews, 100));
-  } else {
-    setTimeout(syncLiveNews, 100);
-  }
 }
+

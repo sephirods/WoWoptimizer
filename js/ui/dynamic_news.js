@@ -249,6 +249,94 @@ function resolveLocalized(field, lang) {
   return String(field);
 }
 
+// Extraer extracto limpio (~150 caracteres) eliminando HTML, saltos y avisos redundantes
+function getArticleExcerpt(item, lang = 'es', maxLength = 160) {
+  if (!item) return '';
+  
+  // 1. Probar campo summary localizado
+  const rawSummary = resolveLocalized(item.summary, lang);
+  if (rawSummary && rawSummary.trim() && rawSummary.trim() !== '...' && rawSummary.trim().length > 10) {
+    let clean = rawSummary.replace(/^\[.*?\]\s*/, '').trim();
+    if (clean.length > maxLength) {
+      return clean.slice(0, maxLength).trim() + '...';
+    }
+    return clean;
+  }
+
+  // 2. Extraer del contenido HTML (contentHtml o content)
+  const rawContent = resolveLocalized(item.contentHtml || item.content, lang) || resolveLocalized(item.content, lang) || '';
+  if (rawContent) {
+    // Buscar párrafos reales ignorando etiquetas vacías o de sólo imagen
+    const plain = rawContent
+      .replace(/<aside[\s\S]*?<\/aside>/gi, '')
+      .replace(/<style[\s\S]*?<\/style>/gi, '')
+      .replace(/<script[\s\S]*?<\/script>/gi, '')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&amp;/g, '&')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'")
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    if (plain && plain.length > 15) {
+      if (plain.length > maxLength) {
+        return plain.slice(0, maxLength).trim() + '...';
+      }
+      return plain;
+    }
+  }
+
+  // 3. Fallback al título
+  return resolveLocalized(item.title, lang) || '';
+}
+
+// Formateador robusto de tiempo relativo (soporta ISO 8601 y fechas de texto en español)
+function getArticleRelativeTime(dateStr, lang = 'es') {
+  if (!dateStr) return lang === 'en' ? 'Recent' : 'Reciente';
+
+  let timestamp = NaN;
+  const d = new Date(dateStr);
+  if (!isNaN(d.getTime())) {
+    timestamp = d.getTime();
+  } else {
+    // Parsear formatos comunes de Blizzard en español (ej: "12 de septiembre de 2026")
+    const match = String(dateStr).match(/([0-9]{1,2})\s+de\s+([a-zA-Záéíóúñ]+)\s+de\s+([0-9]{4})/i);
+    if (match) {
+      const months = { enero: 0, febrero: 1, marzo: 2, abril: 3, mayo: 4, junio: 5, julio: 6, agosto: 7, septiembre: 8, setiembre: 8, octubre: 9, noviembre: 10, diciembre: 11 };
+      const mNum = months[match[2].toLowerCase()];
+      if (mNum !== undefined) {
+        timestamp = new Date(parseInt(match[3]), mNum, parseInt(match[1])).getTime();
+      }
+    }
+  }
+
+  if (isNaN(timestamp)) {
+    // Si no se puede parsear a timestamp, retornar el texto original si no es vacío
+    return dateStr;
+  }
+
+  const diffMs = Date.now() - timestamp;
+  const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
+  const diffDays = Math.floor(diffHours / 24);
+
+  if (diffHours < 1) {
+    return lang === 'en' ? 'Just now' : 'Hace un momento';
+  } else if (diffHours < 24) {
+    return lang === 'en' ? `${diffHours}h ago` : `Hace ${diffHours}h`;
+  } else if (diffDays <= 30) {
+    return lang === 'en' ? `${diffDays}d ago` : `Hace ${diffDays}d`;
+  } else {
+    // Si pasaron más de 30 días, mostrar la fecha legible corta
+    return new Date(timestamp).toLocaleDateString(lang === 'en' ? 'en-US' : 'es-ES', {
+      day: 'numeric',
+      month: 'short',
+      year: 'numeric'
+    });
+  }
+}
+
+
 function getNewsDatabase() {
   // 1. Si el usuario subió datos personalizados en el panel admin
   try {
@@ -382,24 +470,37 @@ function renderPinnedNews() {
       <div class="grid grid-cols-1 ${pinnedArticles.length > 1 ? 'md:grid-cols-2' : ''} gap-3 sm:gap-4 bg-transparent border-none">
         ${pinnedArticles.map(item => {
           const itemTitle = resolveLocalized(item.title, lang);
-          const itemSummary = resolveLocalized(item.summary, lang);
-          const isBlue = (item.source === 'blizzard' || !item.source);
-          const sourceTag = isBlue 
-            ? 'Blue Post' 
-            : 'Wowhead News';
+          const itemSummary = getArticleExcerpt(item, lang, 150);
+          const isBlizz = item.category === 'Oficial' || (item.id && item.id.startsWith('blizz-24'));
+          const isBlue = !isBlizz && (item.source === 'blizzard' || !item.source);
+          
+          let sourceTag = 'Wowhead News';
+          let sourceModal = 'news';
+          let tagClass = 'bg-purple-950 text-purple-300 border-purple-500/40';
+          
+          if (isBlizz) {
+            sourceTag = 'Blizzard Oficial';
+            sourceModal = 'blizzard';
+            tagClass = 'bg-sky-950 text-sky-300 border-sky-500/60';
+          } else if (isBlue) {
+            sourceTag = 'Blue Post';
+            sourceModal = 'blue';
+            tagClass = 'bg-sky-950 text-sky-300 border-sky-500/50';
+          }
+
           const timeDisplay = item.dateRaw 
-            ? (typeof getRelativeTimeString === 'function' ? getRelativeTimeString(item.dateRaw, lang) : (typeof formatReadableDate === 'function' ? formatReadableDate(item.dateRaw, lang) : new Date(item.dateRaw).toLocaleDateString()))
+            ? getArticleRelativeTime(item.dateRaw, lang)
             : (resolveLocalized(item.timeAgo, lang) || resolveLocalized(item.date, lang) || 'Reciente');
 
           return `
-            <div onclick="openArticleModal('${item.id}', '${isBlue ? 'blue' : 'news'}')" class="group cursor-pointer bg-black/50 hover:bg-black/80 border border-amber-500/30 hover:border-amber-400/80 rounded-xl p-3.5 sm:p-4 transition duration-200 shadow-md flex flex-col justify-between gap-2.5 relative overflow-hidden">
+            <div onclick="openArticleModal('${item.id}', '${sourceModal}')" class="group cursor-pointer bg-black/50 hover:bg-black/80 border border-amber-500/30 hover:border-amber-400/80 rounded-xl p-3.5 sm:p-4 transition duration-200 shadow-md flex flex-col justify-between gap-2.5 relative overflow-hidden">
               <div class="absolute top-0 right-0 w-16 h-16 bg-amber-500/5 rounded-bl-full pointer-events-none group-hover:bg-amber-500/10 transition"></div>
               <div class="space-y-2">
                 <div class="flex items-center gap-2 flex-wrap">
                   <span class="text-[9px] font-mono font-bold px-2 py-0.5 rounded-full border border-amber-500/60 bg-amber-500/20 text-amber-300 flex items-center gap-1 shadow-sm">
                     <i class="fa-solid fa-thumbtack text-[8px]"></i> ${badgeText}
                   </span>
-                  <span class="text-[9px] font-mono font-bold px-1.5 py-0.2 rounded border ${isBlue ? 'border-sky-500/50 bg-sky-950 text-sky-300' : 'bg-purple-950 text-purple-300 border-purple-500/40'}">
+                  <span class="text-[9px] font-mono font-bold px-1.5 py-0.2 rounded border ${tagClass}">
                     ${sourceTag}
                   </span>
                   <span class="text-[10px] text-slate-400 font-mono">${timeDisplay}</span>
@@ -550,7 +651,18 @@ function injectNewsSeoSchema() {
         let publishedDate = new Date().toISOString();
         if (item.dateRaw) {
           const parsed = new Date(item.dateRaw);
-          if (!isNaN(parsed.getTime())) publishedDate = parsed.toISOString();
+          if (!isNaN(parsed.getTime())) {
+            publishedDate = parsed.toISOString();
+          } else {
+            const match = String(item.dateRaw).match(/([0-9]{1,2})\s+de\s+([a-zA-Záéíóúñ]+)\s+de\s+([0-9]{4})/i);
+            if (match) {
+              const months = { enero: 0, febrero: 1, marzo: 2, abril: 3, mayo: 4, junio: 5, julio: 6, agosto: 7, septiembre: 8, setiembre: 8, octubre: 9, noviembre: 10, diciembre: 11 };
+              const mNum = months[match[2].toLowerCase()];
+              if (mNum !== undefined) {
+                publishedDate = new Date(parseInt(match[3]), mNum, parseInt(match[1])).toISOString();
+              }
+            }
+          }
         }
         return {
           "@type": "ListItem",
@@ -717,7 +829,31 @@ function formatWowheadEditorialContent(html) {
   // 1. Eliminar la caja duplicada de "Artículo Oficial de Wowhead / Ver en Wowhead" dentro del cuerpo
   formatted = formatted.replace(/<div class="bg-amber-950\/30 border border-amber-500\/40 p-3\.5 rounded-xl text-xs flex items-center justify-between gap-3">[\s\S]*?<\/div>/gi, '');
 
-  // 2. Formatear bloques de "Source: ... / Cost: ..." o "When: ... / Where: ..."
+  // 2. Corregir iconos rotos o artefactos morados en texto inline de clases (ej. Paladin's, Mage's)
+  formatted = formatted.replace(/<span[^>]*style="[^"]*background-image:[^"]*class_[^"]*"[^>]*><\/span>/gi, '');
+  formatted = formatted.replace(/<span class="c\d+">/gi, '<span class="font-bold text-amber-300">');
+
+  // 3. Estilizar y balancear tablas: ancho 100%, bordes oscuros sutiles, cabecera resaltada y sin huecos negros
+  formatted = formatted.replace(/<table[^>]*class="[^"]*grid[^"]*"[^>]*>/gi, '<div class="w-full overflow-x-auto my-4 rounded-xl border border-wow-border bg-[#0b0e17] shadow-lg"><table class="w-full text-left text-xs border-collapse">');
+  formatted = formatted.replace(/<\/table>/gi, '</table></div>');
+  formatted = formatted.replace(/<tr data-background="[^"]*">/gi, '<tr class="bg-purple-950/40 text-purple-200 border-b border-wow-border font-cinzel font-bold">');
+  formatted = formatted.replace(/<tr>/gi, '<tr class="border-b border-white/5 hover:bg-white/[0.02] transition">');
+  formatted = formatted.replace(/<td>/gi, '<td class="p-2.5 sm:p-3 text-slate-300">');
+  formatted = formatted.replace(/<th>/gi, '<th class="p-2.5 sm:p-3 text-purple-200 font-semibold">');
+
+  // 4. Transformar cajas de notas oficiales / hotfixes / citas en cajas temáticas de Blizzard brillantes
+  formatted = formatted.replace(/<div class="box"[^>]*>([\s\S]*?)<\/div>/gi, (match, inner) => {
+    return `
+      <div class="my-4 p-4 rounded-xl bg-sky-950/30 border border-sky-500/40 text-xs sm:text-sm text-sky-200/95 space-y-2 shadow-lg backdrop-blur-sm relative overflow-hidden">
+        <div class="flex items-center gap-2 text-sky-400 font-cinzel font-bold text-sm mb-1 pb-1.5 border-b border-sky-500/20">
+          <i class="fa-solid fa-bullhorn text-xs"></i> Actualización Oficial de Balance
+        </div>
+        <div class="leading-relaxed space-y-2">${inner}</div>
+      </div>
+    `;
+  });
+
+  // 5. Formatear bloques de "Source: ... / Cost: ..." o "When: ... / Where: ..."
   formatted = formatted.replace(
     /<p>([^<]*?(?:Source|Cost|When|Where|Fecha|Lugar|Fuente|Costo):[^<]*?)<\/p>/gi,
     (match, inner) => {
@@ -725,14 +861,14 @@ function formatWowheadEditorialContent(html) {
     }
   );
 
-  // 3. Formatear párrafos cortos que actúan como encabezados temáticos (ej: <p>Swashbuckling Skyriding Style <br>...</p> o <p>Pirate's Day Guide</p>)
+  // 6. Formatear párrafos cortos que actúan como encabezados temáticos (ej: <p>Swashbuckling Skyriding Style <br>...</p> o <p>Pirate's Day Guide</p>)
   formatted = formatted.replace(/<p>([A-Z0-9][A-Za-z0-9\s'’:,–—!?-]{3,50})<\/p>/g, (match, heading) => {
     // Evitar si parece un párrafo normal con punto final
     if (heading.endsWith('.') || heading.length > 55) return match;
     return `<h3 class="font-cinzel text-base sm:text-lg font-bold text-amber-300 mt-5 mb-2 pb-1 border-b border-amber-500/20 flex items-center gap-2"><i class="fa-solid fa-angles-right text-xs text-amber-400"></i> ${heading}</h3>`;
   });
 
-  // 4. Formatear subtítulos con saltos de línea al inicio del párrafo (ej: <p>What’s New <br>...</p>)
+  // 7. Formatear subtítulos con saltos de línea al inicio del párrafo (ej: <p>What’s New <br>...</p>)
   formatted = formatted.replace(/<p>([A-Z0-9][A-Za-z0-9\s'’:,–—!?-]{3,45})\s*<br\s*\/?>([\s\S]*?)<\/p>/g, (match, title, rest) => {
     if (title.endsWith('.') || title.length > 45) return match;
     return `
@@ -762,11 +898,21 @@ function openArticleModal(articleId, source = 'auto') {
 
   const lang = getActiveLanguage();
   const db = getNewsDatabase();
-  const allArticles = [...(db.blueTracker || []), ...(db.blizzardNews || []), ...(db.recentNews || [])];
-  const groupedArticles = typeof groupCanonicalNews === 'function' ? groupCanonicalNews(allArticles) : allArticles;
 
-  article = groupedArticles.find(x => x.id === articleId || (x.aliasIds && x.aliasIds.includes(articleId))) ||
-            allArticles.find(x => x.id === articleId);
+  // Priorizar búsqueda directa por ID exacto en la colección respectiva para evitar colisiones entre foros y artículos oficiales
+  let article = null;
+  if (source === 'blizzard' || articleId.startsWith('blizz-24')) {
+    article = (db.blizzardNews || []).find(x => x.id === articleId);
+  } else if (source === 'news' || articleId.startsWith('wh-')) {
+    article = (db.recentNews || []).find(x => x.id === articleId);
+  }
+
+  if (!article) {
+    const allArticles = [...(db.blizzardNews || []), ...(db.recentNews || []), ...(db.blueTracker || [])];
+    const groupedArticles = typeof groupCanonicalNews === 'function' ? groupCanonicalNews(allArticles) : allArticles;
+    article = allArticles.find(x => x.id === articleId) ||
+              groupedArticles.find(x => x.id === articleId || (x.aliasIds && x.aliasIds.includes(articleId)));
+  }
 
   if (!article) return;
 
@@ -777,11 +923,34 @@ function openArticleModal(articleId, source = 'auto') {
   const bodyEl = document.getElementById('article-modal-body');
 
   const titleText = resolveLocalized(article.title, lang);
-  const contentText = resolveLocalized(article.content, lang);
+  const contentText = resolveLocalized(article.contentHtml || article.content, lang) || resolveLocalized(article.content, lang) || (typeof article.contentHtml === 'string' ? article.contentHtml : '');
   const summaryText = resolveLocalized(article.summary, lang);
-  const dateText = article.dateRaw
-    ? (typeof formatReadableDate === 'function' ? formatReadableDate(article.dateRaw, lang) : article.dateRaw)
-    : (resolveLocalized(article.date, lang) || 'Reciente');
+  
+  let dateText = resolveLocalized(article.date, lang) || 'Reciente';
+  if (article.dateRaw) {
+    if (typeof formatReadableDate === 'function') {
+      dateText = formatReadableDate(article.dateRaw, lang);
+    } else {
+      dateText = article.dateRaw;
+    }
+  }
+  // Si formatReadableDate retornó 'Invalid Date' debido a formato de texto en español (ej. '12 de septiembre de 2026')
+  if (!dateText || dateText.includes('Invalid Date')) {
+    const rawVal = article.dateRaw || '';
+    const match = rawVal.match(/([0-9]{1,2})\s+de\s+([a-zA-Záéíóúñ]+)\s+de\s+([0-9]{4})/i);
+    if (match) {
+      const months = { enero: 0, febrero: 1, marzo: 2, abril: 3, mayo: 4, junio: 5, julio: 6, agosto: 7, septiembre: 8, setiembre: 8, octubre: 9, noviembre: 10, diciembre: 11 };
+      const mNum = months[match[2].toLowerCase()];
+      if (mNum !== undefined) {
+        const parsed = new Date(parseInt(match[3]), mNum, parseInt(match[1]));
+        dateText = parsed.toLocaleDateString(lang === 'en' ? 'en-US' : 'es-ES', { day: 'numeric', month: 'short', year: 'numeric' });
+      } else {
+        dateText = rawVal;
+      }
+    } else {
+      dateText = rawVal || 'Reciente';
+    }
+  }
 
   if (tagEl) {
     tagEl.innerText = article.category || article.tag || 'Noticia Oficial';
@@ -802,7 +971,7 @@ function openArticleModal(articleId, source = 'auto') {
   // Si no hay imagen de encabezado en el cuerpo y el artículo tiene imagen de portada, agregarla al inicio del cuerpo
   let finalHtml = contentText;
   if (article.imageUrl && !finalHtml.includes('<img')) {
-    finalHtml = `<div class="w-full max-h-[320px] rounded-xl overflow-hidden mb-4 border border-wow-border bg-black/50 shadow-lg"><img src="${article.imageUrl}" alt="${titleText}" class="w-full h-full object-cover" /></div>` + finalHtml;
+    finalHtml = `<div class="w-full rounded-xl overflow-hidden mb-4 border border-wow-border bg-black/60 shadow-lg flex items-center justify-center p-1"><img src="${article.imageUrl}" alt="${titleText}" class="w-full max-h-[480px] h-auto object-contain rounded-lg mx-auto" /></div>` + finalHtml;
   }
 
   // Eliminar enlaces redundantes tipo "Ver artículo completo" del cuerpo para evitar duplicidad
@@ -920,8 +1089,9 @@ function openArticleModal(articleId, source = 'auto') {
 function shareCurrentArticle() {
   const lang = getActiveLanguage();
   const db = getNewsDatabase();
-  const article = (db.blueTracker || []).find(x => x.id === currentOpenArticleId) ||
-                  (db.recentNews || []).find(x => x.id === currentOpenArticleId);
+  const article = (db.blizzardNews || []).find(x => x.id === currentOpenArticleId) ||
+                  (db.recentNews || []).find(x => x.id === currentOpenArticleId) ||
+                  (db.blueTracker || []).find(x => x.id === currentOpenArticleId);
 
   if (!article) return;
 

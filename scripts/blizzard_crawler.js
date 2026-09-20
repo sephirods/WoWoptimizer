@@ -75,13 +75,26 @@ async function scrapeBlizzardNews() {
           contentHtml = clone.innerHTML;
         }
 
-        const firstP = contentEl?.querySelector('p')?.innerText?.trim() || '';
+        let firstP = '';
+        if (contentEl) {
+          const ps = contentEl.querySelectorAll('p');
+          for (const p of ps) {
+            const txt = p.innerText?.trim() || '';
+            if (txt.length > 25 && !txt.startsWith('Ver artículo completo') && !txt.startsWith('View Full Article')) {
+              firstP = txt;
+              break;
+            }
+          }
+          if (!firstP) {
+            firstP = contentEl.innerText?.trim()?.split('\n')?.[0] || '';
+          }
+        }
 
         return {
           title,
           imageUrl: ogImg,
           date,
-          summary: firstP.slice(0, 180) + '...',
+          summary: firstP ? (firstP.slice(0, 180) + '...') : '...',
           contentHtml
         };
       });
@@ -154,7 +167,33 @@ async function scrapeBlizzardNews() {
   const stagingJs = path.join(__dirname, '../staging/mock_blizzard_data.js');
   fs.writeFileSync(stagingJs, 'window.STAGING_BLIZZARD_DATA = ' + JSON.stringify(articles, null, 2) + ';', 'utf-8');
   console.log(`✓ Sincronizado automáticamente en: ${stagingJs}`);
+
+  // Bot 2: Integrar noticias oficiales a producción preservando blueTracker y recentNews
+  try {
+    const prodPath = path.join(__dirname, '../js/data/wow_news_data.js');
+    const prodContent = fs.readFileSync(prodPath, 'utf8');
+    const fakeWin = {};
+    eval(prodContent.replace('window.', 'fakeWin.'));
+
+    const currentDb = fakeWin.WOW_NEWS_DATABASE || { blueTracker: [], blizzardNews: [], recentNews: [] };
+    const blueTracker = currentDb.blueTracker || [];
+    const recentNews = currentDb.recentNews || [];
+
+    const newDb = {
+      blueTracker: blueTracker,
+      blizzardNews: articles,
+      recentNews: recentNews
+    };
+
+    const newContent = '// BASE DE DATOS DE NOTICIAS, BLUE TRACKER Y ARTÍCULOS EN VIVO\nwindow.WOW_NEWS_DATABASE = ' + JSON.stringify(newDb, null, 2) + ';\n';
+    fs.writeFileSync(prodPath, newContent, 'utf8');
+    console.log(`[BOT 2 - BLIZZARD NEWS] Éxito: Se actualizaron ${articles.length} noticias oficiales de Blizzard. Blue Tracker (${blueTracker.length}) y Recent News (${recentNews.length}) preservadas intactas.`);
+  } catch (err) {
+    console.error('Error sincronizando Blizzard con producción:', err.message);
+  }
+
   console.log('=== Fin Scraper Blizzard ===');
 }
 
 scrapeBlizzardNews();
+
