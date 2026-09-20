@@ -60,6 +60,36 @@
   }
   </script>
   
+  <!-- DETECTOR DE ACTUALIZACIÓN AUTOMÁTICA (AUTO-RELOAD ZERO-CACHE) -->
+  <script>
+    (function() {
+      // Si la URL tiene un parámetro especial de depuración no bucleamos
+      if (window.location.search.includes('nobust=1')) return;
+      try {
+        fetch('js/data/version.json?_t=' + Date.now(), { cache: 'no-store' })
+          .then(res => {
+            if (!res.ok) return null;
+            return res.json();
+          })
+          .then(data => {
+            if (!data || !data.version) return;
+            const savedVer = localStorage.getItem('wow_app_current_version');
+            if (savedVer && savedVer !== data.version) {
+              // Si la versión en el servidor es más nueva que la que guardó el navegador
+              localStorage.setItem('wow_app_current_version', data.version);
+              // Limpiar caches internas locales que pudieran interferir
+              localStorage.removeItem('wow_live_news_cache_v24');
+              // Recargar forzosamente la página al usuario
+              window.location.reload();
+            } else if (!savedVer) {
+              localStorage.setItem('wow_app_current_version', data.version);
+            }
+          })
+          .catch(() => {});
+      } catch (e) {}
+    })();
+  </script>
+  
   <!-- Tailwind CSS & FontAwesome Icons -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
   <script src="https://cdn.tailwindcss.com"></script>

@@ -1,0 +1,11 @@
+kind: wasmer.io/App.v0
+name: wowoptimizer
+app_id: wowoptimizer
+package: .
+redirect: []
+headers:
+  - match: ".*"
+    headers:
+      Cache-Control: "no-cache, no-store, must-revalidate"
+      Pragma: "no-cache"
+      Expires: "0"
