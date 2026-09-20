@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cinzel:wght@600;700;900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #07090e;
+  color: #e2e8f0;
+}
+
+.wow-title {
+  font-family: 'Cinzel', serif;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0d14;
+}
+::-webkit-scrollbar-thumb {
+  background: #252c3f;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a335ee;
+}
+
+/* Wowhead Tooltip Stars & Icons Alignment */
+.wowhead-tooltip table td span > ins,
+[id^="wowhead-tooltip"] table td span > ins,
+.wowhead-tooltip .q-star,
+[id^="wowhead-tooltip"] .q-star {
+  display: inline-block !important;
+  max-width: 14px !important;
+  max-height: 14px !important;
+  width: 14px !important;
+  height: 14px !important;
+  vertical-align: middle !important;
+  background-size: contain !important;
+  margin: 0 2px !important;
+}
+
+/* Blizzard Official Blue Post Typography Styling */
+.blizzard-full-post {
+  color: #cbd5e1;
+  font-size: 0.875rem;
+  line-height: 1.625;
+}
+.blizzard-full-post p {
+  margin-bottom: 0.75rem;
+}
+.blizzard-full-post hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 1rem 0;
+}
+.blizzard-full-post h2,
+.blizzard-full-post h3 {
+  color: #38bdf8;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+}
+.blizzard-full-post ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.blizzard-full-post li strong {
+  color: #f1f5f9;
+}
+.blizzard-full-post blockquote {
+  border-left: 3px solid #38bdf8;
+  background: rgba(14, 165, 233, 0.05);
+  padding: 0.5rem 1rem;
+  margin: 0.75rem 0;
+  font-style: italic;
+  color: #94a3b8;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.blizzard-full-post a {
+  color: #38bdf8;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.blizzard-full-post a:hover {
+  color: #7dd3fc;
+}
+.blizzard-full-post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin: 0.75rem 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+

@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard | WoW Gear Optimizer</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            wow: {
+              panel: '#121520',
+              card: '#181c2b',
+              subcard: '#0f121b',
+              border: '#252d42',
+              input: '#0c0e16'
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-[#090b11] text-slate-200 min-h-screen flex flex-col font-sans selection:bg-amber-500 selection:text-black">
+
+  <!-- TOP HEADER / NAVBAR -->
+  <header class="bg-[#0e111a]/95 backdrop-blur border-b border-wow-border sticky top-0 z-40 shadow-2xl">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500/20 to-yellow-600/10 border border-amber-500/50 flex items-center justify-center text-amber-400 text-lg shadow-inner">
+          <i class="fa-solid fa-shield-halved"></i>
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <h1 class="text-base sm:text-lg font-black text-amber-400 tracking-wide">WoW Optimizer</h1>
+            <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/30">Admin Suite</span>
+          </div>
+          <p class="text-[11px] text-slate-400 hidden sm:block">Control Central de Extracción, Sincronización y Monitoreo de Datos</p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2.5">
+        <a href="index.html" class="text-xs text-slate-300 hover:text-amber-300 font-semibold flex items-center gap-1.5 transition px-3.5 py-1.5 rounded-xl border border-wow-border hover:border-amber-500/50 bg-wow-subcard">
+          <i class="fa-solid fa-arrow-left text-amber-400"></i> <span class="hidden sm:inline">Volver a la App</span>
+        </a>
+        <button id="btn-logout" onclick="logoutAdmin()" class="hidden text-xs text-red-400 hover:text-red-300 font-semibold px-3 py-1.5 rounded-xl border border-red-500/30 hover:border-red-500/60 bg-red-950/20 transition flex items-center gap-1.5">
+          <i class="fa-solid fa-right-from-bracket"></i> <span class="hidden sm:inline">Cerrar Sesión</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENEDOR PRINCIPAL -->
+  <main id="main-content" class="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 lg:p-8 flex flex-col justify-center">
+
+    <!-- 1. LOGIN SCREEN -->
+    <div id="login-section" class="max-w-md w-full mx-auto bg-wow-panel border border-amber-500/40 rounded-3xl p-7 sm:p-9 shadow-2xl space-y-6">
+      <div class="text-center space-y-2.5">
+        <div class="w-16 h-16 mx-auto rounded-2xl bg-amber-500/10 border border-amber-500/40 flex items-center justify-center text-amber-400 text-2xl shadow-lg ring-4 ring-amber-500/5">
+          <i class="fa-solid fa-lock"></i>
+        </div>
+        <h2 class="text-xl font-bold text-white tracking-tight">Acceso Administrativo</h2>
+        <p class="text-xs text-slate-400 leading-relaxed">Ingresa tu contraseña para acceder a los extractores, herramientas de sincronización y al monitor de tooltips.</p>
+      </div>
+
+      <form onsubmit="handleLogin(event)" class="space-y-4">
+        <div>
+          <label class="block text-[11px] font-bold text-slate-300 uppercase tracking-wider mb-1.5">Contraseña de Administrador</label>
+          <div class="relative">
+            <input type="password" id="admin-pass" placeholder="Ingresa tu contraseña" required autofocus class="w-full bg-wow-input border border-wow-border rounded-xl px-4 py-2.5 text-sm text-amber-300 placeholder-slate-600 focus:outline-none focus:border-amber-400 pr-10 shadow-inner">
+            <button type="button" onclick="togglePassVisibility()" class="absolute inset-y-0 right-0 pr-3.5 flex items-center text-slate-400 hover:text-slate-200 text-sm">
+              <i id="eye-icon" class="fa-solid fa-eye"></i>
+            </button>
+          </div>
+          <p id="login-error" class="text-xs text-red-400 mt-2 hidden font-semibold flex items-center gap-1.5">
+            <i class="fa-solid fa-circle-exclamation"></i> Contraseña incorrecta. Inténtalo de nuevo.
+          </p>
+        </div>
+
+        <button type="submit" class="w-full bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-400 hover:to-yellow-500 text-black font-extrabold py-2.5 rounded-xl transition duration-150 shadow-lg flex items-center justify-center gap-2 text-sm">
+          <i class="fa-solid fa-key"></i> Desbloquear Panel
+        </button>
+      </form>
+    </div>
+
+    <!-- 2. ADMIN DASHBOARD DESBLOQUEADO -->
+    <div id="admin-dashboard" class="hidden space-y-6">
+
+      <!-- MENÚ DE PESTAÑAS (DASHBOARD NAVIGATION) -->
+      <div class="bg-wow-panel border border-wow-border rounded-2xl p-2 shadow-xl flex items-center gap-1.5 overflow-x-auto scrollbar-thin">
+        <button onclick="switchAdminTab('overview')" id="nav-overview" class="admin-tab-btn flex-1 min-w-[130px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-amber-400 bg-amber-500/15 border border-amber-500/40 shadow">
+          <i class="fa-solid fa-gauge-high"></i> Resumen
+        </button>
+        <button onclick="switchAdminTab('archon')" id="nav-archon" class="admin-tab-btn flex-1 min-w-[130px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-purple-300 hover:bg-purple-950/20 border border-transparent">
+          <i class="fa-solid fa-shield-halved text-purple-400"></i> Archon Presets
+        </button>
+        <button onclick="switchAdminTab('stat_priorities')" id="nav-stat_priorities" class="admin-tab-btn flex-1 min-w-[145px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-emerald-300 hover:bg-emerald-950/20 border border-transparent">
+          <i class="fa-solid fa-chart-column text-emerald-400"></i> Prioridades Stats
+        </button>
+        <button onclick="switchAdminTab('wowhead')" id="nav-wowhead" class="admin-tab-btn flex-1 min-w-[145px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-amber-300 hover:bg-amber-950/20 border border-transparent">
+          <i class="fa-solid fa-wand-magic-sparkles text-amber-400"></i> Enchants & Comida
+        </button>
+        <button onclick="switchAdminTab('bloodmallet')" id="nav-bloodmallet" class="admin-tab-btn flex-1 min-w-[140px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-red-300 hover:bg-red-950/20 border border-transparent">
+          <i class="fa-solid fa-fire text-red-400"></i> Bloodmallet DPS
+        </button>
+        <button onclick="switchAdminTab('tooltips')" id="nav-tooltips" class="admin-tab-btn flex-1 min-w-[155px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-sky-300 hover:bg-sky-950/20 border border-transparent relative">
+          <i class="fa-solid fa-bug text-sky-400"></i> Monitor Tooltips
+          <span id="tab-missing-badge" class="ml-1 text-[10px] px-1.5 py-0.2 rounded-full font-mono bg-slate-800 text-slate-400 border border-slate-700">0</span>
+        </button>
+        <button onclick="switchAdminTab('tickets')" id="nav-tickets" class="admin-tab-btn flex-1 min-w-[160px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-amber-300 hover:bg-amber-950/20 border border-transparent relative">
+          <i class="fa-solid fa-ticket text-amber-400"></i> Tickets / Bugs
+          <span id="tab-tickets-badge" class="ml-1 text-[10px] px-1.5 py-0.2 rounded-full font-mono bg-slate-800 text-slate-400 border border-slate-700">0</span>
+        </button>
+      </div>
+
+      <!-- TAB 1: RESUMEN / ESTADO GENERAL -->
+      <section id="tab-overview" class="admin-tab-pane space-y-6">
+        
+        <!-- Welcome Hero Banner -->
+        <div class="bg-gradient-to-r from-wow-card via-wow-panel to-wow-card border border-wow-border rounded-2xl p-6 shadow-xl flex items-center justify-between flex-wrap gap-4">
+          <div class="space-y-1">
+            <h2 class="text-xl font-bold text-white flex items-center gap-2.5">
+              <span class="w-3 h-3 rounded-full bg-emerald-400 animate-pulse shadow"></span>
+              Panel de Control y Estado de Datasets
+            </h2>
+            <p class="text-xs text-slate-400 max-w-2xl">
+              Aquí puedes supervisar los datos cargados por defecto vs personalizados en el optimizador, ejecutar scripts en vivo para mantener los datos de The War Within actualizados, y depurar errores.
+            </p>
+          </div>
+          <div class="flex items-center gap-2">
+            <button onclick="refreshAllStatuses()" class="text-xs bg-wow-subcard hover:bg-slate-800 text-slate-200 border border-wow-border px-3.5 py-2 rounded-xl font-bold flex items-center gap-1.5 transition">
+              <i class="fa-solid fa-arrows-rotate text-amber-400"></i> Actualizar Estados
+            </button>
+          </div>
+        </div>
+
+        <!-- 4 Dataset Status Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          
+          <!-- Card Archon -->
+          <div class="bg-wow-card border border-purple-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-purple-500/60 transition">
+            <div class="flex items-center justify-between">
+              <div class="w-9 h-9 rounded-xl bg-purple-950/60 border border-purple-500/50 flex items-center justify-center text-purple-400">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <span id="overview-archon-status" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold">Por Defecto</span>
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-white">Presets Archon.gg</h3>
+              <p class="text-[11px] text-slate-400">Builds de M+ y Raid para las 39 specs.</p>
+            </div>
+            <button onclick="switchAdminTab('archon')" class="w-full text-xs bg-purple-950/40 hover:bg-purple-900/60 text-purple-200 border border-purple-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
+              Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </button>
+          </div>
+
+          <!-- Card Stat Priorities -->
+          <div class="bg-wow-card border border-emerald-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-emerald-500/60 transition">
+            <div class="flex items-center justify-between">
+              <div class="w-9 h-9 rounded-xl bg-emerald-950/60 border border-emerald-500/50 flex items-center justify-center text-emerald-400">
+                <i class="fa-solid fa-chart-column"></i>
+              </div>
+              <span id="overview-stat-priorities-status" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold">Por Defecto</span>
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-white">Prioridades Wowhead</h3>
+              <p class="text-[11px] text-slate-400">Pesos y Árboles Héroe oficiales.</p>
+            </div>
+            <button onclick="switchAdminTab('stat_priorities')" class="w-full text-xs bg-emerald-950/40 hover:bg-emerald-900/60 text-emerald-200 border border-emerald-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
+              Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </button>
+          </div>
+
+          <!-- Card Wowhead Enchants -->
+          <div class="bg-wow-card border border-amber-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-amber-500/60 transition">
+            <div class="flex items-center justify-between">
+              <div class="w-9 h-9 rounded-xl bg-amber-950/60 border border-amber-500/50 flex items-center justify-center text-amber-400">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </div>
+              <span id="overview-wowhead-status" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold">Por Defecto</span>
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-white">Enchants & Comida</h3>
+              <p class="text-[11px] text-slate-400">Gemas, frascos e iconos reales.</p>
+            </div>
+            <button onclick="switchAdminTab('wowhead')" class="w-full text-xs bg-amber-950/40 hover:bg-amber-900/60 text-amber-200 border border-amber-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
+              Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </button>
+          </div>
+
+          <!-- Card Bloodmallet -->
+          <div class="bg-wow-card border border-red-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-red-500/60 transition">
+            <div class="flex items-center justify-between">
+              <div class="w-9 h-9 rounded-xl bg-red-950/60 border border-red-500/50 flex items-center justify-center text-red-400">
+                <i class="fa-solid fa-fire"></i>
+              </div>
+              <span id="overview-bloodmallet-status" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold">Por Defecto</span>
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-white">Sims Bloodmallet</h3>
+              <p class="text-[11px] text-slate-400">Rankings de abalorios por spec.</p>
+            </div>
+            <button onclick="switchAdminTab('bloodmallet')" class="w-full text-xs bg-red-950/40 hover:bg-red-900/60 text-red-200 border border-red-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
+              Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Quick Summary & Missing Tooltips Health Card -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+          <div class="lg:col-span-2 bg-wow-card border border-wow-border rounded-2xl p-6 shadow-xl space-y-4">
+            <h3 class="text-base font-bold text-white flex items-center gap-2">
+              <i class="fa-solid fa-circle-info text-amber-400"></i> ¿Cómo funciona el sistema de datos?
+            </h3>
+            <div class="text-xs text-slate-300 space-y-2.5 leading-relaxed">
+              <p>
+                El optimizador cuenta con datasets base estáticos (<code class="text-amber-300 font-mono">archon_data.js</code>, <code class="text-amber-300 font-mono">wow_stat_priorities.js</code>, <code class="text-amber-300 font-mono">wowhead_data.js</code>, <code class="text-amber-300 font-mono">bloodmallet_data.js</code>) embebidos en el código.
+              </p>
+              <p>
+                Cuando ejecutas los scripts de extracción y subes los archivos actualizados en este panel, se almacenan en el <strong class="text-amber-400">almacenamiento local persistente</strong> y toman prioridad inmediata en toda la aplicación sin requerir desplegar el servidor.
+              </p>
+              <p>
+                Si alguna vez deseas volver a los valores estándar, cada módulo cuenta con un botón de <strong class="text-red-400">"Restaurar Original"</strong>.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-wow-card border border-sky-500/30 rounded-2xl p-6 shadow-xl space-y-4 flex flex-col justify-between">
+            <div class="space-y-2">
+              <div class="flex items-center justify-between">
+                <h3 class="text-sm font-bold text-sky-300 flex items-center gap-2">
+                  <i class="fa-solid fa-heart-pulse"></i> Salud de Tooltips
+                </h3>
+                <span id="overview-missing-badge" class="text-xs px-2.5 py-0.5 rounded-full font-mono bg-emerald-950/80 border border-emerald-500/60 text-emerald-300 font-bold">0 Fallos</span>
+              </div>
+              <p class="text-xs text-slate-400">
+                Monitorea cada tooltip solicitado a Wowhead y registra objetos o hechizos "Not Found".
+              </p>
+            </div>
+            <button onclick="switchAdminTab('tooltips')" class="w-full text-xs bg-sky-950/60 hover:bg-sky-900/80 text-sky-200 border border-sky-500/50 py-2 rounded-xl font-bold transition flex items-center justify-center gap-2">
+              <i class="fa-solid fa-list-check"></i> Ver Tooltips
+            </button>
+          </div>
+
+          <div class="bg-wow-card border border-amber-500/30 rounded-2xl p-6 shadow-xl space-y-4 flex flex-col justify-between">
+            <div class="space-y-2">
+              <div class="flex items-center justify-between">
+                <h3 class="text-sm font-bold text-amber-300 flex items-center gap-2">
+                  <i class="fa-solid fa-ticket"></i> Reportes / Tickets
+                </h3>
+                <span id="overview-tickets-badge" class="text-xs px-2.5 py-0.5 rounded-full font-mono bg-slate-800 border border-slate-700 text-slate-300 font-bold">0 Tickets</span>
+              </div>
+              <p class="text-xs text-slate-400">
+                Buzón de incidencias, errores reportados y sugerencias enviadas por la comunidad.
+              </p>
+            </div>
+            <button onclick="switchAdminTab('tickets')" class="w-full text-xs bg-amber-950/60 hover:bg-amber-900/80 text-amber-200 border border-amber-500/50 py-2 rounded-xl font-bold transition flex items-center justify-center gap-2">
+              <i class="fa-solid fa-inbox"></i> Ver Tickets
+            </button>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- TAB 2: ARCHON PRESETS -->
+      <section id="tab-archon" class="admin-tab-pane hidden space-y-6">
+        <div class="bg-wow-card border border-purple-500/40 rounded-2xl p-6 shadow-xl space-y-5">
+          <div class="flex items-center justify-between flex-wrap gap-3 pb-4 border-b border-wow-border">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-purple-950/80 border border-purple-500/60 flex items-center justify-center text-purple-300 text-lg shadow">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2.5">
+                  <h3 class="text-base font-bold text-purple-300">Presets de Archon.gg</h3>
+                  <code class="text-amber-300 font-mono text-xs bg-black/40 px-2 py-0.5 rounded border border-white/5">archon_data.js</code>
+                </div>
+                <div class="flex items-center gap-2 mt-1">
+                  <span id="archon-data-status" class="text-[10px] px-2 py-0.5 rounded font-mono bg-slate-800 text-slate-300 border border-slate-700">Por Defecto</span>
+                  <span class="text-[11px] text-slate-400">Contiene los objetivos meta para Mítica+ y Banda de las 39 especializaciones.</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="flex items-center gap-2 flex-wrap">
+              <button onclick="copyArchonExtractorScript()" class="text-xs bg-purple-950 hover:bg-purple-900 text-purple-200 border border-purple-500/70 px-4 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow">
+                <i class="fa-solid fa-copy text-amber-400"></i> Copiar Script
+              </button>
+              <label class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 px-4 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow cursor-pointer">
+                <i class="fa-solid fa-cloud-arrow-up text-purple-400"></i> Subir archon_data.js
+                <input type="file" accept=".js,.json" class="hidden" onchange="uploadArchonJs(event)">
+              </label>
+              <button id="btn-reset-archon" onclick="resetArchonDataToDefault()" class="text-xs text-red-400 hover:text-red-300 px-3 py-2 rounded-xl border border-red-500/30 hover:border-red-500/60 font-semibold hidden transition">
+                <i class="fa-solid fa-trash mr-1"></i> Restaurar
+              </button>
+            </div>
+          </div>
+
+          <div class="bg-wow-subcard border border-wow-border rounded-xl p-4 text-xs text-slate-300 space-y-2">
+            <h4 class="font-bold text-amber-400 flex items-center gap-1.5">
+              <i class="fa-solid fa-circle-question"></i> Instrucciones de Extracción:
+            </h4>
+            <ol class="list-decimal list-inside space-y-1 text-slate-400">
+              <li>Abre <a href="https://www.archon.gg/wow" target="_blank" class="text-amber-400 underline font-semibold">archon.gg/wow</a> en tu navegador.</li>
+              <li>Abre las herramientas de desarrollador presionando <kbd class="bg-black/60 px-1.5 py-0.5 rounded text-amber-300 border border-white/10 font-mono">F12</kbd> y selecciona la pestaña <strong>Console</strong>.</li>
+              <li>Pulsa <strong>"Copiar Script"</strong> arriba, pégalo en la consola y presiona <kbd class="bg-black/60 px-1.5 py-0.5 rounded text-amber-300 border border-white/10 font-mono">Enter</kbd>.</li>
+              <li>El script escaneará automáticamente y descargará el archivo <code class="text-purple-300 font-mono">archon_data.js</code>.</li>
+              <li>Sube el archivo aquí con el botón <strong>"Subir archon_data.js"</strong> para activar los nuevos datos en el optimizador.</li>
+            </ol>
+          </div>
+
+          <div>
+            <div class="flex items-center justify-between mb-1.5">
+              <span class="text-[11px] font-bold uppercase tracking-wider text-slate-400">Vista Previa del Script de Consola</span>
+              <button onclick="copyArchonExtractorScript()" class="text-[10px] text-amber-400 hover:underline font-semibold">Copiar código completo</button>
+            </div>
+            <pre id="archon-script-preview" class="bg-black/80 border border-white/10 rounded-xl p-4 text-[11px] font-mono text-purple-300 max-h-56 overflow-y-auto select-all scrollbar-thin"></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 3: STAT PRIORITIES & HERO TREES -->
+      <section id="tab-stat_priorities" class="admin-tab-pane hidden space-y-6">
+        <div class="bg-wow-card border border-emerald-500/40 rounded-2xl p-6 shadow-xl space-y-5">
+          <div class="flex items-center justify-between flex-wrap gap-3 pb-4 border-b border-wow-border">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-emerald-950/80 border border-emerald-500/60 flex items-center justify-center text-emerald-300 text-lg shadow">
+                <i class="fa-solid fa-chart-column"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2.5">
+                  <h3 class="text-base font-bold text-emerald-300">Prioridades de Estadísticas Wowhead</h3>
+                  <code class="text-amber-300 font-mono text-xs bg-black/40 px-2 py-0.5 rounded border border-white/5">wow_stat_priorities.js</code>
+                </div>
+                <div class="flex items-center gap-2 mt-1">
+                  <span id="stat-priorities-data-status" class="text-[10px] px-2 py-0.5 rounded font-mono bg-slate-800 text-slate-300 border border-slate-700">Por Defecto</span>
+                  <span class="text-[11px] text-slate-400">Pesos oficiales de Maestría, Celeridad, Crítico, Versatilidad y Árboles Héroe.</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="flex items-center gap-2 flex-wrap">
+              <button onclick="copyStatPrioritiesExtractorScript()" class="text-xs bg-emerald-950 hover:bg-emerald-900 text-emerald-200 border border-emerald-500/70 px-4 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow">
+                <i class="fa-solid fa-copy text-amber-400"></i> Copiar Script
+              </button>
+              <label class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 px-4 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow cursor-pointer">
+                <i class="fa-solid fa-cloud-arrow-up text-emerald-400"></i> Subir wow_stat_priorities.js
+                <input type="file" accept=".js,.json" class="hidden" onchange="uploadStatPrioritiesJs(event)">
+              </label>
+              <button id="btn-reset-stat-priorities" onclick="resetStatPrioritiesDataToDefault()" class="text-xs text-red-400 hover:text-red-300 px-3 py-2 rounded-xl border border-red-500/30 hover:border-red-500/60 font-semibold hidden transition">
+                <i class="fa-solid fa-trash mr-1"></i> Restaurar
+              </button>
+            </div>
+          </div>
+
+          <div class="bg-wow-subcard border border-wow-border rounded-xl p-4 text-xs text-slate-300 space-y-2">
+            <h4 class="font-bold text-amber-400 flex items-center gap-1.5">
+              <i class="fa-solid fa-circle-question"></i> Instrucciones de Extracción:
+            </h4>
+            <ol class="list-decimal list-inside space-y-1 text-slate-400">
+              <li>Abre <a href="https://www.wowhead.com" target="_blank" class="text-amber-400 underline font-semibold">wowhead.com</a> en tu navegador.</li>
+              <li>Abre las herramientas de desarrollador (<kbd class="bg-black/60 px-1.5 py-0.5 rounded text-amber-300 border border-white/10 font-mono">F12</kbd> > <strong>Console</strong>).</li>
+              <li>Copia el script con el botón superior, pégalo en la consola y presiona <kbd class="bg-black/60 px-1.5 py-0.5 rounded text-amber-300 border border-white/10 font-mono">Enter</kbd>.</li>
+              <li>Se descargarán las prioridades de las 39 especializaciones en <code class="text-emerald-300 font-mono">wow_stat_priorities.js</code>.</li>
+              <li>Sube el archivo descargado para sincronizar los pesos del optimizador al instante.</li>
+            </ol>
+          </div>
+
+          <div>
+            <div class="flex items-center justify-between mb-1.5">
+              <span class="text-[11px] font-bold uppercase tracking-wider text-slate-400">Vista Previa del Script de Consola</span>
+              <button onclick="copyStatPrioritiesExtractorScript()" class="text-[10px] text-amber-400 hover:underline font-semibold">Copiar código completo</button>
+            </div>
+            <pre id="stat-priorities-script-preview" class="bg-black/80 border border-white/10 rounded-xl p-4 text-[11px] font-mono text-emerald-300 max-h-56 overflow-y-auto select-all scrollbar-thin"></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 4: WOWHEAD ENCHANTS & CONSUMABLES -->
+      <section id="tab-wowhead" class="admin-tab-pane hidden space-y-6">
+        <div class="bg-wow-card border border-amber-500/40 rounded-2xl p-6 shadow-xl space-y-5">
+          <div class="flex items-center justify-between flex-wrap gap-3 pb-4 border-b border-wow-border">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-amber-950/80 border border-amber-500/60 flex items-center justify-center text-amber-300 text-lg shadow">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2.5">
+                  <h3 class="text-base font-bold text-amber-300">Encantamientos y Consumibles Wowhead</h3>
+                  <code class="text-amber-300 font-mono text-xs bg-black/40 px-2 py-0.5 rounded border border-white/5">wowhead_data.js</code>
+                </div>
+                <div class="flex items-center gap-2 mt-1">
+                  <span id="wowhead-data-status" class="text-[10px] px-2 py-0.5 rounded font-mono bg-slate-800 text-slate-300 border border-slate-700">Por Defecto</span>
+                  <span class="text-[11px] text-slate-400">Gemas, frascos, pociones, encantamientos de armas e iconos oficiales.</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="flex items-center gap-2 flex-wrap">
+              <button onclick="copyWowheadExtractorScript()" class="text-xs bg-amber-950 hover:bg-amber-900 text-amber-200 border border-amber-500/70 px-4 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow">
+                <i class="fa-solid fa-copy text-amber-400"></i> Copiar Script
+              </button>
+              <label class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 px-4 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow cursor-pointer">
+                <i class="fa-solid fa-cloud-arrow-up text-amber-400"></i> Subir wowhead_data.js
+                <input type="file" accept=".js,.json" class="hidden" onchange="uploadWowheadJs(event)">
+              </label>
+              <button id="btn-reset-wowhead" onclick="resetWowheadDataToDefault()" class="text-xs text-red-400 hover:text-red-300 px-3 py-2 rounded-xl border border-red-500/30 hover:border-red-500/60 font-semibold hidden transition">
+                <i class="fa-solid fa-trash mr-1"></i> Restaurar
+              </button>
+            </div>
+          </div>
+
+          <div class="bg-wow-subcard border border-wow-border rounded-xl p-4 text-xs text-slate-300 space-y-2">
+            <h4 class="font-bold text-amber-400 flex items-center gap-1.5">
+              <i class="fa-solid fa-circle-question"></i> Instrucciones de Extracción:
+            </h4>
+            <ol class="list-decimal list-inside space-y-1 text-slate-400">
+              <li>Abre cualquier página de <a href="https://www.wowhead.com" target="_blank" class="text-amber-400 underline font-semibold">wowhead.com</a> en tu navegador.</li>
+              <li>Abre las herramientas de desarrollador (<kbd class="bg-black/60 px-1.5 py-0.5 rounded text-amber-300 border border-white/10 font-mono">F12</kbd> > <strong>Console</strong>).</li>
+              <li>Pega el script extractor y presiona <kbd class="bg-black/60 px-1.5 py-0.5 rounded text-amber-300 border border-white/10 font-mono">Enter</kbd>.</li>
+              <li>El script recorrerá las guías y consultará la API de tooltips para guardar los iconos reales de cada ítem en <code class="text-amber-300 font-mono">wowhead_data.js</code>.</li>
+              <li>Sube el archivo para que aparezca reflejado en el modal de consumibles del optimizador.</li>
+            </ol>
+          </div>
+
+          <div>
+            <div class="flex items-center justify-between mb-1.5">
+              <span class="text-[11px] font-bold uppercase tracking-wider text-slate-400">Vista Previa del Script de Consola</span>
+              <button onclick="copyWowheadExtractorScript()" class="text-[10px] text-amber-400 hover:underline font-semibold">Copiar código completo</button>
+            </div>
+            <pre id="wowhead-script-preview" class="bg-black/80 border border-white/10 rounded-xl p-4 text-[11px] font-mono text-amber-300 max-h-56 overflow-y-auto select-all scrollbar-thin"></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 5: BLOODMALLET SIMULATIONS -->
+      <section id="tab-bloodmallet" class="admin-tab-pane hidden space-y-6">
+        <div class="bg-wow-card border border-red-500/40 rounded-2xl p-6 shadow-xl space-y-5">
+          <div class="flex items-center justify-between flex-wrap gap-3 pb-4 border-b border-wow-border">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-red-950/80 border border-red-500/60 flex items-center justify-center text-red-300 text-lg shadow">
+                <i class="fa-solid fa-fire"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2.5">
+                  <h3 class="text-base font-bold text-red-300">Simulaciones de Bloodmallet</h3>
+                  <code class="text-amber-300 font-mono text-xs bg-black/40 px-2 py-0.5 rounded border border-white/5">bloodmallet_data.js</code>
+                </div>
+                <div class="flex items-center gap-2 mt-1">
+                  <span id="bloodmallet-data-status" class="text-[10px] px-2 py-0.5 rounded font-mono bg-slate-800 text-slate-300 border border-slate-700">Por Defecto</span>
+                  <span class="text-[11px] text-slate-400">Simulaciones numéricas de abalorios y tier list de DPS para todas las especializaciones.</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="flex items-center gap-2 flex-wrap">
+              <button id="btn-sync-bm" onclick="syncBloodmalletOnlineAdmin()" class="text-xs bg-red-950 hover:bg-red-900 text-red-200 border border-red-500/70 px-4 py-2 rounded-xl font-bold flex items-center gap-2 transition shadow">
+                <i id="sync-bm-spinner" class="fa-solid fa-rotate text-amber-400"></i> <span id="btn-sync-bm-text">Actualizar Bloodmallet en Vivo</span>
+              </button>
+              <label class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 px-4 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow cursor-pointer">
+                <i class="fa-solid fa-cloud-arrow-up text-red-400"></i> Subir bloodmallet_data.js
+                <input type="file" accept=".js,.json" class="hidden" onchange="uploadBloodmalletJs(event)">
+              </label>
+              <button id="btn-reset-bloodmallet" onclick="resetBloodmalletDataToDefault()" class="text-xs text-red-400 hover:text-red-300 px-3 py-2 rounded-xl border border-red-500/30 hover:border-red-500/60 font-semibold hidden transition">
+                <i class="fa-solid fa-trash mr-1"></i> Restaurar
+              </button>
+            </div>
+          </div>
+
+          <div class="bg-wow-subcard border border-wow-border rounded-xl p-4 text-xs text-slate-300 space-y-2">
+            <h4 class="font-bold text-amber-400 flex items-center gap-1.5">
+              <i class="fa-solid fa-bolt"></i> Sincronización en 1 Clic Directa desde la API:
+            </h4>
+            <p class="text-slate-400 leading-relaxed">
+              No necesitas copiar ningún script. Al hacer clic en <strong>"Actualizar Bloodmallet en Vivo"</strong>, tu navegador se conecta a los servidores oficiales de <code class="text-red-300 font-mono">bloodmallet.com</code>, descarga en segundo plano los 39 archivos JSON de simulaciones y los almacena directamente en la aplicación.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 6: MONITOR DE ERRORES TOOLTIPS -->
+      <section id="tab-tooltips" class="admin-tab-pane hidden space-y-6">
+        <div class="bg-wow-card border border-sky-500/40 rounded-2xl p-6 shadow-xl space-y-5">
+          <div class="flex items-center justify-between flex-wrap gap-3 pb-4 border-b border-wow-border">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-sky-950/80 border border-sky-500/60 flex items-center justify-center text-sky-300 text-lg shadow">
+                <i class="fa-solid fa-bug"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2.5">
+                  <h3 class="text-base font-bold text-sky-300">Monitor de Tooltips Fallidos ("Not Found")</h3>
+                  <span id="missing-count-badge" class="font-mono text-xs text-white bg-slate-800 border border-slate-700 px-2.5 py-0.5 rounded-full">0 detectados</span>
+                </div>
+                <p class="text-xs text-slate-400 mt-0.5">
+                  Registra automáticamente cuando un enlace de Wowhead no encuentra el item o cuando requiere tratarse como <code class="text-purple-300 font-mono">spell</code> en vez de <code class="text-blue-300 font-mono">item</code>.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <button onclick="renderMissingTooltipsTable()" class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 px-3.5 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow">
+                <i class="fa-solid fa-arrows-rotate text-amber-400"></i> Refrescar
+              </button>
+              <button onclick="clearMissingTooltipsLog()" class="text-xs bg-red-950/60 hover:bg-red-900/80 text-red-200 border border-red-500/60 px-3.5 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow">
+                <i class="fa-solid fa-trash"></i> Limpiar Registro
+              </button>
+            </div>
+          </div>
+
+          <!-- Filtro rápido de búsqueda -->
+          <div class="flex items-center gap-3">
+            <div class="relative flex-1">
+              <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-slate-500 text-xs"></i>
+              <input type="text" id="filter-tooltips-input" oninput="filterTooltipsLog()" placeholder="Filtrar por ID, nombre o tipo..." class="w-full bg-wow-subcard border border-wow-border rounded-xl pl-9 pr-4 py-2 text-xs text-slate-200 focus:outline-none focus:border-sky-400 shadow-inner">
+            </div>
+          </div>
+
+          <!-- Tabla de logs -->
+          <div id="missing-tooltips-container" class="overflow-x-auto rounded-xl border border-wow-border">
+            <!-- Inyectado dinámicamente -->
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 7: TICKETS DE USUARIOS / REPORTES DE BUGS -->
+      <section id="tab-tickets" class="admin-tab-pane hidden space-y-6">
+        <div class="bg-wow-card border border-amber-500/40 rounded-2xl p-6 shadow-xl space-y-5">
+          <div class="flex items-center justify-between flex-wrap gap-3 pb-4 border-b border-wow-border">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-amber-950/80 border border-amber-500/60 flex items-center justify-center text-amber-300 text-lg shadow">
+                <i class="fa-solid fa-ticket"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2.5">
+                  <h3 class="text-base font-bold text-amber-300">Bandeja de Tickets y Reportes de Usuarios</h3>
+                  <span id="tickets-count-badge" class="font-mono text-xs text-white bg-slate-800 border border-slate-700 px-2.5 py-0.5 rounded-full">0 tickets</span>
+                </div>
+                <p class="text-xs text-slate-400 mt-0.5">
+                  Reportes enviados por los usuarios a través del botón "Encontré un Problema" con protección anti-bot, honeypot y rate limiting.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <button onclick="renderTicketsTable()" class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 px-3.5 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow">
+                <i class="fa-solid fa-arrows-rotate text-amber-400"></i> Refrescar
+              </button>
+              <button onclick="clearAllTickets()" class="text-xs bg-red-950/60 hover:bg-red-900/80 text-red-200 border border-red-500/60 px-3.5 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow">
+                <i class="fa-solid fa-trash"></i> Vaciar Tickets
+              </button>
+            </div>
+          </div>
+
+          <!-- Filtro rápido de búsqueda -->
+          <div class="flex items-center gap-3">
+            <div class="relative flex-1">
+              <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-slate-500 text-xs"></i>
+              <input type="text" id="filter-tickets-input" oninput="renderTicketsTable()" placeholder="Buscar en tickets por ID, categoría, título o contenido..." class="w-full bg-wow-subcard border border-wow-border rounded-xl pl-9 pr-4 py-2 text-xs text-slate-200 focus:outline-none focus:border-amber-400 shadow-inner">
+            </div>
+          </div>
+
+          <!-- Tabla de tickets -->
+          <div id="tickets-container" class="overflow-x-auto rounded-xl border border-wow-border">
+            <!-- Inyectado dinámicamente -->
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+  </main>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div id="toast-container" class="fixed bottom-4 right-4 z-50 flex flex-col gap-2 pointer-events-none"></div>
+
+  <!-- SCRIPT DE EXTRACCIÓN EMPAQUETADO EXTERNO -->
+  <script src="js/data/admin_scripts_bundle.js"></script>
+
+  <!-- SCRIPT DE SEGURIDAD Y FUNCIONES ADMIN -->
+  <script>
+    const ADMIN_PASSWORD_HASH = "Juan8969796.";
+    let activeTabId = 'overview';
+
+    function showToast(msg, type = 'info') {
+      const c = document.getElementById('toast-container');
+      if (!c) return;
+      const el = document.createElement('div');
+      const bg = type === 'success' ? 'bg-emerald-950/95 border-emerald-500 text-emerald-200' :
+                 type === 'error' ? 'bg-red-950/95 border-red-500 text-red-200' :
+                 'bg-slate-900/95 border-amber-500/70 text-amber-200';
+      el.className = `${bg} border px-4 py-2.5 rounded-xl shadow-2xl text-xs font-semibold flex items-center gap-2 pointer-events-auto transition duration-300 translate-y-2 opacity-0`;
+      el.innerHTML = `<span>${msg}</span>`;
+      c.appendChild(el);
+      requestAnimationFrame(() => {
+        el.classList.remove('translate-y-2', 'opacity-0');
+      });
+      setTimeout(() => {
+        el.classList.add('opacity-0', 'translate-y-2');
+        setTimeout(() => el.remove(), 300);
+      }, 3500);
+    }
+
+    function togglePassVisibility() {
+      const pass = document.getElementById('admin-pass');
+      const icon = document.getElementById('eye-icon');
+      if (pass.type === 'password') {
+        pass.type = 'text';
+        icon.className = 'fa-solid fa-eye-slash';
+      } else {
+        pass.type = 'password';
+        icon.className = 'fa-solid fa-eye';
+      }
+    }
+
+    function handleLogin(e) {
+      e.preventDefault();
+      const input = document.getElementById('admin-pass');
+      const val = (input?.value || '').trim();
+      if (val === ADMIN_PASSWORD_HASH) {
+        sessionStorage.setItem('wow_admin_auth', 'authenticated');
+        document.getElementById('login-error').classList.add('hidden');
+        renderAdminDashboard();
+        showToast('¡Sesión administrativa iniciada con éxito!', 'success');
+      } else {
+        document.getElementById('login-error').classList.remove('hidden');
+        if (input) {
+          input.focus();
+          input.select();
+        }
+      }
+    }
+
+    function logoutAdmin() {
+      sessionStorage.removeItem('wow_admin_auth');
+      location.reload();
+    }
+
+    function checkAuth() {
+      if (sessionStorage.getItem('wow_admin_auth') === 'authenticated') {
+        renderAdminDashboard();
+      }
+    }
+
+    function switchAdminTab(tabId) {
+      activeTabId = tabId;
+      document.querySelectorAll('.admin-tab-pane').forEach(el => el.classList.add('hidden'));
+      const activePane = document.getElementById(`tab-${tabId}`);
+      if (activePane) activePane.classList.remove('hidden');
+
+      // Actualizar estilo botones
+      document.querySelectorAll('.admin-tab-btn').forEach(btn => {
+        btn.className = 'admin-tab-btn flex-1 min-w-[130px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-slate-200 hover:bg-slate-800/40 border border-transparent';
+      });
+
+      const activeBtn = document.getElementById(`nav-${tabId}`);
+      if (activeBtn) {
+        if (tabId === 'overview') {
+          activeBtn.className = 'admin-tab-btn flex-1 min-w-[130px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-amber-400 bg-amber-500/15 border border-amber-500/40 shadow';
+        } else if (tabId === 'archon') {
+          activeBtn.className = 'admin-tab-btn flex-1 min-w-[130px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-purple-300 bg-purple-950/40 border border-purple-500/50 shadow';
+        } else if (tabId === 'stat_priorities') {
+          activeBtn.className = 'admin-tab-btn flex-1 min-w-[145px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-emerald-300 bg-emerald-950/40 border border-emerald-500/50 shadow';
+        } else if (tabId === 'wowhead') {
+          activeBtn.className = 'admin-tab-btn flex-1 min-w-[145px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-amber-300 bg-amber-950/40 border border-amber-500/50 shadow';
+        } else if (tabId === 'bloodmallet') {
+          activeBtn.className = 'admin-tab-btn flex-1 min-w-[140px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-red-300 bg-red-950/40 border border-red-500/50 shadow';
+        } else if (tabId === 'tooltips') {
+          activeBtn.className = 'admin-tab-btn flex-1 min-w-[155px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-sky-300 bg-sky-950/40 border border-sky-500/50 shadow';
+        } else if (tabId === 'tickets') {
+          activeBtn.className = 'admin-tab-btn flex-1 min-w-[160px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-amber-300 bg-amber-950/40 border border-amber-500/50 shadow';
+        }
+      }
+
+      if (tabId === 'tooltips') {
+        renderMissingTooltipsTable();
+      } else if (tabId === 'tickets') {
+        renderTicketsTable();
+      }
+    }
+
+    function renderAdminDashboard() {
+      const main = document.getElementById('main-content');
+      if (main) {
+        main.classList.remove('justify-center');
+        main.classList.add('justify-start');
+      }
+
+      document.getElementById('login-section').classList.add('hidden');
+      document.getElementById('admin-dashboard').classList.remove('hidden');
+      document.getElementById('btn-logout').classList.remove('hidden');
+
+      const archonPre = document.getElementById('archon-script-preview');
+      const wowheadPre = document.getElementById('wowhead-script-preview');
+      const statPrioritiesPre = document.getElementById('stat-priorities-script-preview');
+
+      if (archonPre && window.ARCHON_EXTRACTOR_SCRIPT_CODE) archonPre.textContent = window.ARCHON_EXTRACTOR_SCRIPT_CODE;
+      if (wowheadPre && window.WOWHEAD_EXTRACTOR_SCRIPT_CODE) wowheadPre.textContent = window.WOWHEAD_EXTRACTOR_SCRIPT_CODE;
+      if (statPrioritiesPre && window.STAT_PRIORITIES_EXTRACTOR_SCRIPT_CODE) statPrioritiesPre.textContent = window.STAT_PRIORITIES_EXTRACTOR_SCRIPT_CODE;
+
+      updateDevModalStatusBadges();
+      renderMissingTooltipsTable();
+      renderTicketsTable();
+    }
+
+    function refreshAllStatuses() {
+      updateDevModalStatusBadges();
+      showToast('Estados actualizados', 'info');
+    }
+
+    function renderMissingTooltipsTable() {
+      const container = document.getElementById('missing-tooltips-container');
+      const badge = document.getElementById('missing-count-badge');
+      const tabBadge = document.getElementById('tab-missing-badge');
+      const overviewBadge = document.getElementById('overview-missing-badge');
+      if (!container) return;
+
+      let logs = [];
+      try {
+        logs = JSON.parse(localStorage.getItem('wow_missing_tooltips_log') || '[]');
+      } catch (e) {
+        logs = [];
+      }
+
+      if (badge) {
+        badge.innerText = `${logs.length} detectados`;
+        badge.className = logs.length > 0 
+          ? 'font-mono text-xs text-red-200 bg-red-950/80 border border-red-500/60 px-2.5 py-0.5 rounded-full font-bold'
+          : 'font-mono text-xs text-emerald-200 bg-emerald-950/80 border border-emerald-500/60 px-2.5 py-0.5 rounded-full font-bold';
+      }
+
+      if (tabBadge) {
+        tabBadge.innerText = logs.length;
+        tabBadge.className = logs.length > 0
+          ? 'ml-1 text-[10px] px-1.5 py-0.2 rounded-full font-mono bg-red-950 text-red-300 border border-red-500/60 font-bold'
+          : 'ml-1 text-[10px] px-1.5 py-0.2 rounded-full font-mono bg-slate-800 text-slate-400 border border-slate-700';
+      }
+
+      if (overviewBadge) {
+        overviewBadge.innerText = logs.length > 0 ? `${logs.length} Fallos Detectados` : '0 Fallos (Saludable)';
+        overviewBadge.className = logs.length > 0
+          ? 'text-xs px-2.5 py-0.5 rounded-full font-mono bg-red-950/80 border border-red-500/60 text-red-300 font-bold'
+          : 'text-xs px-2.5 py-0.5 rounded-full font-mono bg-emerald-950/80 border border-emerald-500/60 text-emerald-300 font-bold';
+      }
+
+      if (logs.length === 0) {
+        container.innerHTML = `
+          <div class="bg-black/30 p-8 text-center text-xs text-emerald-300">
+            <i class="fa-solid fa-circle-check text-2xl mb-2 block text-emerald-400"></i>
+            ¡Todo limpio! No se ha detectado ningún tooltip roto o "Not Found" en Wowhead.
+          </div>
+        `;
+        return;
+      }
+
+      const filterVal = (document.getElementById('filter-tooltips-input')?.value || '').toLowerCase();
+      const filtered = filterVal
+        ? logs.filter(l => (l.id && String(l.id).includes(filterVal)) || (l.name && l.name.toLowerCase().includes(filterVal)) || (l.kind && l.kind.toLowerCase().includes(filterVal)))
+        : logs;
+
+      container.innerHTML = `
+        <table class="w-full text-left text-xs border-collapse">
+          <thead>
+            <tr class="bg-black/60 border-b border-wow-border text-slate-400 font-bold uppercase tracking-wider text-[10px]">
+              <th class="p-3">Tipo</th>
+              <th class="p-3">ID</th>
+              <th class="p-3">Nombre / Etiqueta</th>
+              <th class="p-3 text-center">Incidencias</th>
+              <th class="p-3">Última Detección</th>
+              <th class="p-3 text-right">Acción</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-white/5 font-mono">
+            ${filtered.map(log => `
+              <tr class="hover:bg-white/5 transition">
+                <td class="p-3">
+                  <span class="px-2 py-0.5 rounded text-[10px] font-bold ${log.kind === 'spell' ? 'bg-purple-950 text-purple-300 border border-purple-500/50' : 'bg-blue-950 text-blue-300 border border-blue-500/50'}">
+                    ${(log.kind || 'ITEM').toUpperCase()}
+                  </span>
+                </td>
+                <td class="p-3 text-amber-300 font-bold">${log.id}</td>
+                <td class="p-3 font-sans font-semibold text-slate-200">${log.name || '-'}</td>
+                <td class="p-3 text-center text-red-300 font-bold">${log.occurrences || 1}</td>
+                <td class="p-3 text-slate-400 text-[10px]">${log.lastSeen ? new Date(log.lastSeen).toLocaleString() : '-'}</td>
+                <td class="p-3 text-right">
+                  <a href="${log.url || 'https://www.wowhead.com/' + log.kind + '=' + log.id}" target="_blank" class="text-amber-400 hover:text-amber-300 underline font-sans text-xs inline-flex items-center gap-1">
+                    Ver en Wowhead <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+                  </a>
+                </td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      `;
+    }
+
+    function filterTooltipsLog() {
+      renderMissingTooltipsTable();
+    }
+
+    function clearMissingTooltipsLog() {
+      if (confirm('¿Vaciar el historial de tooltips no encontrados?')) {
+        localStorage.removeItem('wow_missing_tooltips_log');
+        renderMissingTooltipsTable();
+        showToast('Historial de tooltips vaciado', 'info');
+      }
+    }
+
+    // GESTIÓN DE TICKETS / BUG REPORTS
+    function renderTicketsTable() {
+      const container = document.getElementById('tickets-container');
+      const badge = document.getElementById('tickets-count-badge');
+      const tabBadge = document.getElementById('tab-tickets-badge');
+      const overviewBadge = document.getElementById('overview-tickets-badge');
+      if (!container) return;
+
+      let tickets = [];
+      try {
+        tickets = JSON.parse(localStorage.getItem('wow_admin_tickets') || '[]');
+      } catch (e) {
+        tickets = [];
+      }
+
+      const openCount = tickets.filter(t => t.status !== 'resolved').length;
+
+      if (badge) {
+        badge.innerText = `${tickets.length} tickets (${openCount} abiertos)`;
+        badge.className = openCount > 0
+          ? 'font-mono text-xs text-amber-200 bg-amber-950/80 border border-amber-500/60 px-2.5 py-0.5 rounded-full font-bold'
+          : 'font-mono text-xs text-slate-300 bg-slate-800 border border-slate-700 px-2.5 py-0.5 rounded-full font-bold';
+      }
+
+      if (tabBadge) {
+        tabBadge.innerText = openCount;
+        tabBadge.className = openCount > 0
+          ? 'ml-1 text-[10px] px-1.5 py-0.2 rounded-full font-mono bg-amber-950 text-amber-300 border border-amber-500/60 font-bold'
+          : 'ml-1 text-[10px] px-1.5 py-0.2 rounded-full font-mono bg-slate-800 text-slate-400 border border-slate-700';
+      }
+
+      if (overviewBadge) {
+        overviewBadge.innerText = openCount > 0 ? `${openCount} Abiertos` : '0 Pendientes';
+        overviewBadge.className = openCount > 0
+          ? 'text-xs px-2.5 py-0.5 rounded-full font-mono bg-amber-950/80 border border-amber-500/60 text-amber-300 font-bold'
+          : 'text-xs px-2.5 py-0.5 rounded-full font-mono bg-emerald-950/80 border border-emerald-500/60 text-emerald-300 font-bold';
+      }
+
+      if (tickets.length === 0) {
+        container.innerHTML = `
+          <div class="bg-black/30 p-8 text-center text-xs text-slate-400">
+            <i class="fa-solid fa-inbox text-2xl mb-2 block text-amber-400/60"></i>
+            No hay tickets registrados por el momento. La bandeja está limpia.
+          </div>
+        `;
+        return;
+      }
+
+      const filterVal = (document.getElementById('filter-tickets-input')?.value || '').toLowerCase().trim();
+      const filtered = filterVal
+        ? tickets.filter(t => 
+            (t.id && t.id.toLowerCase().includes(filterVal)) ||
+            (t.title && t.title.toLowerCase().includes(filterVal)) ||
+            (t.desc && t.desc.toLowerCase().includes(filterVal)) ||
+            (t.type && t.type.toLowerCase().includes(filterVal)) ||
+            (t.contact && t.contact.toLowerCase().includes(filterVal))
+          )
+        : tickets;
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div class="bg-black/30 p-8 text-center text-xs text-slate-400">
+            No se encontraron tickets que coincidan con "${filterVal}".
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = `
+        <div class="divide-y divide-white/5 font-sans">
+          ${filtered.map(t => {
+            const isResolved = t.status === 'resolved';
+            const badgeType = t.type === 'bug' ? 'bg-red-950 text-red-300 border-red-500/50' :
+                              t.type === 'item' ? 'bg-blue-950 text-blue-300 border-blue-500/50' :
+                              t.type === 'ui' ? 'bg-purple-950 text-purple-300 border-purple-500/50' :
+                              'bg-amber-950 text-amber-300 border-amber-500/50';
+            const typeLabel = t.type === 'bug' ? 'Bug / Error' :
+                              t.type === 'item' ? 'Objeto / Stat' :
+                              t.type === 'ui' ? 'Diseño / UI' : 'Sugerencia';
+
+            const formattedDate = t.createdAt ? new Date(t.createdAt).toLocaleString() : '-';
+            const dev = t.device || {};
+
+            return `
+              <div class="p-4 transition hover:bg-white/[0.02] ${isResolved ? 'opacity-60 bg-black/20' : 'bg-black/30'}">
+                <div class="flex items-start justify-between gap-3 flex-wrap">
+                  <div class="space-y-1.5 flex-1 min-w-[260px]">
+                    <div class="flex items-center gap-2 flex-wrap">
+                      <span class="font-mono text-[11px] font-bold text-amber-400">${t.id}</span>
+                      <span class="text-[10px] font-bold px-2 py-0.5 rounded border ${badgeType}">${typeLabel}</span>
+                      <span class="text-[10px] px-2 py-0.5 rounded font-bold border ${isResolved ? 'bg-emerald-950 text-emerald-300 border-emerald-500/40' : 'bg-amber-950 text-amber-300 border-amber-500/40'}">
+                        ${isResolved ? '✓ Resuelto' : '● Pendiente'}
+                      </span>
+                      <span class="text-[10px] text-slate-500">${formattedDate}</span>
+                    </div>
+                    <h4 class="text-sm font-bold text-slate-100 ${isResolved ? 'line-through text-slate-400' : ''}">${t.title || 'Sin título'}</h4>
+                    <p class="text-xs text-slate-300 whitespace-pre-wrap leading-relaxed bg-black/40 p-3 rounded-xl border border-white/5 font-sans">${t.desc || 'Sin descripción'}</p>
+                    
+                    <!-- Metadata de entorno -->
+                    <div class="flex items-center gap-2 flex-wrap pt-1 text-[10px] font-mono text-slate-400">
+                      ${t.contact ? `<span class="bg-slate-800/80 px-2 py-0.5 rounded border border-slate-700 text-slate-300"><i class="fa-solid fa-envelope mr-1 text-amber-400"></i>${t.contact}</span>` : ''}
+                      ${dev.currentClass ? `<span class="bg-slate-800/80 px-2 py-0.5 rounded border border-slate-700 text-slate-300">Clase: ${dev.currentClass} (${dev.currentSpec || '-'})</span>` : ''}
+                      ${dev.itemsCount ? `<span class="bg-slate-800/80 px-2 py-0.5 rounded border border-slate-700 text-slate-300">Items: ${dev.itemsCount}</span>` : ''}
+                      ${dev.userAgent ? `<span class="bg-slate-800/80 px-2 py-0.5 rounded border border-slate-700 text-slate-400 truncate max-w-xs" title="${dev.userAgent}"><i class="fa-solid fa-laptop mr-1"></i>${dev.userAgent}</span>` : ''}
+                    </div>
+                  </div>
+
+                  <!-- Botones de acción -->
+                  <div class="flex items-center gap-2 self-start">
+                    <button onclick="toggleTicketStatus('${t.id}')" class="text-xs ${isResolved ? 'bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-600' : 'bg-emerald-950 hover:bg-emerald-900 text-emerald-300 border border-emerald-500/60'} px-3 py-1.5 rounded-xl font-bold transition flex items-center gap-1.5 shadow">
+                      <i class="fa-solid ${isResolved ? 'fa-arrow-rotate-left' : 'fa-check'}"></i> ${isResolved ? 'Reabrir' : 'Marcar Resuelto'}
+                    </button>
+                    <button onclick="deleteTicket('${t.id}')" class="text-xs bg-red-950/60 hover:bg-red-900 text-red-300 border border-red-500/50 p-1.5 px-2.5 rounded-xl transition shadow" title="Eliminar Ticket">
+                      <i class="fa-solid fa-trash"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      `;
+    }
+
+    function toggleTicketStatus(ticketId) {
+      let tickets = [];
+      try {
+        tickets = JSON.parse(localStorage.getItem('wow_admin_tickets') || '[]');
+      } catch (e) {
+        tickets = [];
+      }
+      const ticket = tickets.find(t => t.id === ticketId);
+      if (ticket) {
+        ticket.status = ticket.status === 'resolved' ? 'open' : 'resolved';
+        localStorage.setItem('wow_admin_tickets', JSON.stringify(tickets));
+        renderTicketsTable();
+        showToast(`Ticket ${ticketId} actualizado a ${ticket.status === 'resolved' ? 'Resuelto' : 'Abierto'}`, 'info');
+      }
+    }
+
+    function deleteTicket(ticketId) {
+      if (confirm(`¿Eliminar permanentemente el ticket ${ticketId}?`)) {
+        let tickets = [];
+        try {
+          tickets = JSON.parse(localStorage.getItem('wow_admin_tickets') || '[]');
+        } catch (e) {
+          tickets = [];
+        }
+        tickets = tickets.filter(t => t.id !== ticketId);
+        localStorage.setItem('wow_admin_tickets', JSON.stringify(tickets));
+        renderTicketsTable();
+        showToast('Ticket eliminado', 'info');
+      }
+    }
+
+    function clearAllTickets() {
+      if (confirm('¿Vaciar permanentemente TODOS los tickets de la bandeja?')) {
+        localStorage.removeItem('wow_admin_tickets');
+        renderTicketsTable();
+        showToast('Todos los tickets han sido eliminados', 'info');
+      }
+    }
+
+    function updateDevModalStatusBadges() {
+      const hasCustomArchon = !!localStorage.getItem('wow_custom_archon_data');
+      const hasCustomWowhead = !!localStorage.getItem('wow_custom_wowhead_data');
+      const hasCustomBloodmallet = !!localStorage.getItem('wow_custom_bloodmallet_data');
+      const hasCustomStatPriorities = !!localStorage.getItem('wow_custom_stat_priorities_data');
+
+      // Archon
+      const archonStatus = document.getElementById('archon-data-status');
+      const archonResetBtn = document.getElementById('btn-reset-archon');
+      const ovArchon = document.getElementById('overview-archon-status');
+      if (archonStatus) {
+        archonStatus.className = hasCustomArchon ? 'text-[10px] px-2 py-0.5 rounded font-mono bg-purple-950 text-purple-300 border border-purple-500/60 font-bold' : 'text-[10px] px-2 py-0.5 rounded font-mono bg-slate-800 text-slate-300 border border-slate-700';
+        archonStatus.innerText = hasCustomArchon ? 'Personalizado ✓' : 'Por Defecto';
+      }
+      if (ovArchon) {
+        ovArchon.className = hasCustomArchon ? 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-purple-950 text-purple-300 border border-purple-500/60 font-bold' : 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold';
+        ovArchon.innerText = hasCustomArchon ? 'Personalizado ✓' : 'Por Defecto';
+      }
+      if (archonResetBtn) archonResetBtn.classList.toggle('hidden', !hasCustomArchon);
+
+      // Stat Priorities
+      const statPrioritiesStatus = document.getElementById('stat-priorities-data-status');
+      const statPrioritiesResetBtn = document.getElementById('btn-reset-stat-priorities');
+      const ovStat = document.getElementById('overview-stat-priorities-status');
+      if (statPrioritiesStatus) {
+        statPrioritiesStatus.className = hasCustomStatPriorities ? 'text-[10px] px-2 py-0.5 rounded font-mono bg-emerald-950 text-emerald-300 border border-emerald-500/60 font-bold' : 'text-[10px] px-2 py-0.5 rounded font-mono bg-slate-800 text-slate-300 border border-slate-700';
+        statPrioritiesStatus.innerText = hasCustomStatPriorities ? 'Personalizado ✓' : 'Por Defecto';
+      }
+      if (ovStat) {
+        ovStat.className = hasCustomStatPriorities ? 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-emerald-950 text-emerald-300 border border-emerald-500/60 font-bold' : 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold';
+        ovStat.innerText = hasCustomStatPriorities ? 'Personalizado ✓' : 'Por Defecto';
+      }
+      if (statPrioritiesResetBtn) statPrioritiesResetBtn.classList.toggle('hidden', !hasCustomStatPriorities);
+
+      // Wowhead
+      const wowheadStatus = document.getElementById('wowhead-data-status');
+      const wowheadResetBtn = document.getElementById('btn-reset-wowhead');
+      const ovWowhead = document.getElementById('overview-wowhead-status');
+      if (wowheadStatus) {
+        wowheadStatus.className = hasCustomWowhead ? 'text-[10px] px-2 py-0.5 rounded font-mono bg-amber-950 text-amber-300 border border-amber-500/60 font-bold' : 'text-[10px] px-2 py-0.5 rounded font-mono bg-slate-800 text-slate-300 border border-slate-700';
+        wowheadStatus.innerText = hasCustomWowhead ? 'Personalizado ✓' : 'Por Defecto';
+      }
+      if (ovWowhead) {
+        ovWowhead.className = hasCustomWowhead ? 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-amber-950 text-amber-300 border border-amber-500/60 font-bold' : 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold';
+        ovWowhead.innerText = hasCustomWowhead ? 'Personalizado ✓' : 'Por Defecto';
+      }
+      if (wowheadResetBtn) wowheadResetBtn.classList.toggle('hidden', !hasCustomWowhead);
+
+      // Bloodmallet
+      const bloodmalletStatus = document.getElementById('bloodmallet-data-status');
+      const bloodmalletResetBtn = document.getElementById('btn-reset-bloodmallet');
+      const ovBloodmallet = document.getElementById('overview-bloodmallet-status');
+      if (bloodmalletStatus) {
+        bloodmalletStatus.className = hasCustomBloodmallet ? 'text-[10px] px-2 py-0.5 rounded font-mono bg-red-950 text-red-300 border border-red-500/60 font-bold' : 'text-[10px] px-2 py-0.5 rounded font-mono bg-slate-800 text-slate-300 border border-slate-700';
+        bloodmalletStatus.innerText = hasCustomBloodmallet ? 'Actualizado ✓' : 'Por Defecto';
+      }
+      if (ovBloodmallet) {
+        ovBloodmallet.className = hasCustomBloodmallet ? 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-red-950 text-red-300 border border-red-500/60 font-bold' : 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold';
+        ovBloodmallet.innerText = hasCustomBloodmallet ? 'Actualizado ✓' : 'Por Defecto';
+      }
+      if (bloodmalletResetBtn) bloodmalletResetBtn.classList.toggle('hidden', !hasCustomBloodmallet);
+    }
+
+    function parseJsDataset(text, varName) {
+      const trimmed = text.trim();
+      try {
+        return JSON.parse(trimmed);
+      } catch (e) {}
+
+      const match = trimmed.match(/=\s*(\{[\s\S]*\})\s*;?/);
+      if (match) {
+        try {
+          return JSON.parse(match[1]);
+        } catch (e) {}
+      }
+
+      try {
+        const fn = new Function('var window = {}; var ' + varName + '; ' + trimmed + '; return (typeof window !== "undefined" && window.' + varName + ') || (typeof ' + varName + ' !== "undefined" ? ' + varName + ' : null);');
+        const res = fn();
+        if (res && typeof res === 'object') return res;
+      } catch (e) {}
+
+      throw new Error('No se pudo interpretar el archivo.');
+    }
+
+    function copyArchonExtractorScript() {
+      const code = window.ARCHON_EXTRACTOR_SCRIPT_CODE || '';
+      navigator.clipboard.writeText(code).then(() => {
+        showToast('¡Script de Archon copiado al portapapeles!', 'success');
+      }).catch(() => showToast('Error al copiar script', 'error'));
+    }
+
+    function copyWowheadExtractorScript() {
+      const code = window.WOWHEAD_EXTRACTOR_SCRIPT_CODE || '';
+      navigator.clipboard.writeText(code).then(() => {
+        showToast('¡Script de Wowhead copiado al portapapeles!', 'success');
+      }).catch(() => showToast('Error al copiar script', 'error'));
+    }
+
+    function copyStatPrioritiesExtractorScript() {
+      const code = window.STAT_PRIORITIES_EXTRACTOR_SCRIPT_CODE || '';
+      navigator.clipboard.writeText(code).then(() => {
+        showToast('¡Script de Stat Priorities copiado!', 'success');
+      }).catch(() => showToast('Error al copiar script', 'error'));
+    }
+
+    async function uploadArchonJs(event) {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      try {
+        const text = await file.text();
+        const data = parseJsDataset(text, 'ARCHON_PRESETS');
+        if (!data || typeof data !== 'object') throw new Error('Estructura no válida');
+        localStorage.setItem('wow_custom_archon_data', JSON.stringify(data));
+        updateDevModalStatusBadges();
+        showToast('¡archon_data.js subido y guardado con éxito!', 'success');
+      } catch (err) {
+        alert('Error: ' + err.message);
+      }
+      event.target.value = '';
+    }
+
+    function resetArchonDataToDefault() {
+      if (confirm('¿Restaurar presets de Archon a los originales por defecto?')) {
+        localStorage.removeItem('wow_custom_archon_data');
+        updateDevModalStatusBadges();
+        showToast('Presets de Archon restaurados');
+      }
+    }
+
+    async function uploadWowheadJs(event) {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      try {
+        const text = await file.text();
+        const data = parseJsDataset(text, 'WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES');
+        if (!data || typeof data !== 'object') throw new Error('Estructura no válida');
+        localStorage.setItem('wow_custom_wowhead_data', JSON.stringify(data));
+        updateDevModalStatusBadges();
+        showToast('¡wowhead_data.js subido y guardado con éxito!', 'success');
+      } catch (err) {
+        alert('Error: ' + err.message);
+      }
+      event.target.value = '';
+    }
+
+    function resetWowheadDataToDefault() {
+      if (confirm('¿Restaurar encantamientos y consumibles de Wowhead a los originales?')) {
+        localStorage.removeItem('wow_custom_wowhead_data');
+        updateDevModalStatusBadges();
+        showToast('Encantamientos y consumibles de Wowhead restaurados');
+      }
+    }
+
+    async function uploadStatPrioritiesJs(event) {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      try {
+        const text = await file.text();
+        const data = parseJsDataset(text, 'WOWHEAD_STAT_PRIORITIES');
+        if (!data || typeof data !== 'object') throw new Error('Estructura no válida');
+        localStorage.setItem('wow_custom_stat_priorities_data', JSON.stringify(data));
+        updateDevModalStatusBadges();
+        showToast('¡wow_stat_priorities.js subido y guardado con éxito!', 'success');
+      } catch (err) {
+        alert('Error: ' + err.message);
+      }
+      event.target.value = '';
+    }
+
+    function resetStatPrioritiesDataToDefault() {
+      if (confirm('¿Restaurar prioridades de estadísticas a las originales?')) {
+        localStorage.removeItem('wow_custom_stat_priorities_data');
+        updateDevModalStatusBadges();
+        showToast('Prioridades de estadísticas restauradas');
+      }
+    }
+
+    async function uploadBloodmalletJs(event) {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      try {
+        const text = await file.text();
+        const data = parseJsDataset(text, 'BLOODMALLET_DATA');
+        if (!data || typeof data !== 'object') throw new Error('Estructura no válida');
+        localStorage.setItem('wow_custom_bloodmallet_data', JSON.stringify(data));
+        updateDevModalStatusBadges();
+        showToast('¡bloodmallet_data.js subido y guardado con éxito!', 'success');
+      } catch (err) {
+        alert('Error: ' + err.message);
+      }
+      event.target.value = '';
+    }
+
+    function resetBloodmalletDataToDefault() {
+      if (confirm('¿Restaurar simulaciones de Bloodmallet a las originales?')) {
+        localStorage.removeItem('wow_custom_bloodmallet_data');
+        updateDevModalStatusBadges();
+        showToast('Simulaciones de Bloodmallet restauradas');
+      }
+    }
+
+    async function syncBloodmalletOnlineAdmin() {
+      const btn = document.getElementById('btn-sync-bm');
+      const btnText = document.getElementById('btn-sync-bm-text');
+      const spinner = document.getElementById('sync-bm-spinner');
+      if (btn) btn.disabled = true;
+      if (spinner) spinner.classList.add('fa-spin');
+
+      const SPECS = [
+        'death_knight_blood', 'death_knight_frost', 'death_knight_unholy',
+        'demon_hunter_havoc', 'demon_hunter_vengeance',
+        'druid_balance', 'druid_feral', 'druid_guardian', 'druid_restoration',
+        'evoker_devastation', 'evoker_preservation', 'evoker_augmentation',
+        'hunter_beast_mastery', 'hunter_marksmanship', 'hunter_survival',
+        'mage_arcane', 'mage_fire', 'mage_frost',
+        'monk_brewmaster', 'monk_mistweaver', 'monk_windwalker',
+        'paladin_holy', 'paladin_protection', 'paladin_retribution',
+        'priest_discipline', 'priest_holy', 'priest_shadow',
+        'rogue_assassination', 'rogue_outlaw', 'rogue_subtlety',
+        'shaman_elemental', 'shaman_enhancement', 'shaman_restoration',
+        'warlock_affliction', 'warlock_demonology', 'warlock_destruction',
+        'warrior_arms', 'warrior_fury', 'warrior_protection'
+      ];
+
+      const dataset = {};
+      let completed = 0;
+      showToast('Descargando simulaciones de Bloodmallet...', 'info');
+
+      for (const slug of SPECS) {
+        if (btnText) btnText.innerText = 'Descargando (' + completed + '/' + SPECS.length + ')...';
+        try {
+          const res = await fetch('https://bloodmallet.com/data/trinkets/castingpatchwerk/' + slug + '.json');
+          if (res.ok) {
+            const json = await res.json();
+            dataset[slug] = json;
+          }
+        } catch (e) {
+          console.warn('Error en ' + slug + ':', e);
+        }
+        completed++;
+      }
+
+      localStorage.setItem('wow_custom_bloodmallet_data', JSON.stringify(dataset));
+      updateDevModalStatusBadges();
+      showToast('¡Simulaciones de Bloodmallet actualizadas y guardadas!', 'success');
+
+      if (btnText) btnText.innerText = 'Actualizar Bloodmallet en Vivo';
+      if (spinner) spinner.classList.remove('fa-spin');
+      if (btn) btn.disabled = false;
+    }
+
+    document.addEventListener('DOMContentLoaded', checkAuth);
+  </script>
+</body>
+</html>

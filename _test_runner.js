@@ -1,8 +1,10 @@
 const fs = require('fs');
 const vm = require('vm');
 
+global.tailwind = { config: {} };
 global.window = {
   ...global,
+  tailwind: global.tailwind,
   addEventListener: () => {},
   removeEventListener: () => {},
   location: { hash: '' }
@@ -11,9 +13,20 @@ require('./bloodmallet_data.js');
 require('./archon_data.js');
 require('./wowhead_data.js');
 
-const html = fs.readFileSync('index.html', 'utf8');
-const scriptMatches = [...html.matchAll(/<script(?![^>]*src=)[^>]*>([\s\S]*?)<\/script>/gi)];
-const mainScript = scriptMatches[scriptMatches.length - 1][1];
+const targetHtmlFile = fs.existsSync('optimizer.html') ? 'optimizer.html' : 'index.html';
+const html = fs.readFileSync(targetHtmlFile, 'utf8');
+const srcMatches = [...html.matchAll(/<script\s+src="([^"]+)"><\/script>/gi)];
+let mainScript = '';
+for (const match of srcMatches) {
+  const filePath = match[1];
+  if (fs.existsSync(filePath)) {
+    mainScript += `\n/* --- ${filePath} --- */\n` + fs.readFileSync(filePath, 'utf8') + '\n';
+  }
+}
+const inlineMatches = [...html.matchAll(/<script(?![^>]*src=)[^>]*>([\s\S]*?)<\/script>/gi)];
+for (const match of inlineMatches) {
+  mainScript += '\n/* --- inline script --- */\n' + match[1] + '\n';
+}
 
 const elements = {};
 const getEl = (id) => {
@@ -67,7 +80,9 @@ const context = {
   BLOODMALLET_DATA: global.BLOODMALLET_DATA,
   ARCHON_DATA: global.ARCHON_DATA,
   WOWHEAD_DATA: global.WOWHEAD_DATA,
-  BLOODMALLET_ITEM_ICONS: global.BLOODMALLET_ITEM_ICONS
+  BLOODMALLET_ITEM_ICONS: global.BLOODMALLET_ITEM_ICONS,
+  tailwind: global.tailwind,
+  console: console
 };
 
 (async () => {

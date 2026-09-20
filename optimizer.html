@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WoW Multi-Class Stat & Gear Optimizer</title>
+  
+  <!-- Tailwind CSS & FontAwesome Icons -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+  <!-- Wowhead Live Tooltips & Data -->
+  <script>var whTooltips = {colorLinks: true, iconizeLinks: false, renameLinks: false};</script>
+  <script src="https://wow.zamimg.com/js/tooltips.js"></script>
+  <meta name="referrer" content="no-referrer" />
+
+  <!-- Official Bloodmallet Pre-bundled Data Store, Archon Presets & Wowhead Guides -->
+  <script src="bloodmallet_data.js?v=10"></script>
+  <script src="archon_data.js?v=10"></script>
+  <script src="wowhead_data.js?v=10"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            wow: {
+              epic: '#a335ee',
+              rare: '#0070dd',
+              uncommon: '#1eff00',
+              legendary: '#ff8000',
+              dark: '#080a0f',
+              panel: '#121520',
+              card: '#1a1e2d',
+              border: '#272f44',
+              input: '#0c0e16'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-[#0e111a] border-b border-wow-border sticky top-0 z-40 shadow-xl">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-3">
+      
+      <!-- Brand & Class/Spec Selector with True Class Colors -->
+      <div class="flex items-center space-x-3 flex-wrap gap-y-2">
+        <div id="class-avatar" class="w-11 h-11 rounded-lg flex items-center justify-center shadow-lg border transition-all select-none shrink-0">
+          <i id="class-icon-display" class="fa-solid fa-shield-halved text-xl"></i>
+        </div>
+        <div>
+          <div class="flex items-center gap-2 flex-wrap">
+            <h1 class="wow-title text-xl font-bold text-amber-400 tracking-wide whitespace-nowrap">
+              WoW Optimizer
+            </h1>
+            
+            <!-- Class Selector with Colored Options -->
+            <select id="char-class" onchange="onClassChange()" class="bg-black/70 border border-wow-border text-xs font-bold rounded-lg px-2.5 py-1.5 focus:outline-none cursor-pointer transition">
+              <option value="paladin" style="color: #F48CBA;">Paladin</option>
+              <option value="warrior" style="color: #C69B6D;">Warrior</option>
+              <option value="deathknight" style="color: #C41E3A;">Death Knight</option>
+              <option value="hunter" style="color: #AAD372;">Hunter</option>
+              <option value="shaman" style="color: #0070DD;">Shaman</option>
+              <option value="rogue" style="color: #FFF468;">Rogue</option>
+              <option value="monk" style="color: #00FF98;">Monk</option>
+              <option value="demonhunter" style="color: #A330C9;">Demon Hunter</option>
+              <option value="druid" style="color: #FF7C0A;">Druid</option>
+              <option value="mage" style="color: #3FC7EB;">Mage</option>
+              <option value="warlock" style="color: #8788EE;">Warlock</option>
+              <option value="priest" style="color: #FFFFFF;">Priest</option>
+              <option value="evoker" style="color: #33937F;">Evoker</option>
+            </select>
+
+            <!-- Spec Selector -->
+            <select id="char-spec" onchange="onSpecChange()" class="bg-black/70 border border-wow-border text-xs font-bold rounded-lg px-2.5 py-1.5 text-amber-300 focus:outline-none cursor-pointer">
+              <!-- Injected dynamically -->
+            </select>
+          </div>
+          <p class="text-[11px] text-slate-400 mt-0.5 hidden sm:block">SimulationCraft Parser, Track Filtering & Gem Engine</p>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <div class="flex items-center space-x-2 bg-black/50 p-1 rounded-lg border border-wow-border">
+        <button id="tab-opt-btn" onclick="switchTab('optimizer')" class="px-4 py-1.5 rounded-md text-sm font-semibold transition bg-amber-500 text-black shadow flex items-center">
+          <i class="fa-solid fa-calculator mr-1.5"></i> <span data-i18n="tabOptimizer">Optimizer</span>
+        </button>
+        <button id="tab-inv-btn" onclick="switchTab('inventory')" class="px-4 py-1.5 rounded-md text-sm font-semibold transition text-slate-300 hover:text-white flex items-center">
+          <i class="fa-solid fa-boxes-stacked mr-1.5"></i> <span data-i18n="tabInventory">Inventory</span> (<span id="total-items-badge">0</span>)
+        </button>
+      </div>
+
+      <!-- Actions -->
+      <div class="flex items-center space-x-2 flex-wrap gap-y-1">
+        <!-- Return to Home Link -->
+        <a href="index.html" class="bg-black/60 hover:bg-black text-amber-300 hover:text-amber-200 text-xs font-bold px-3 py-1.5 rounded-lg border border-wow-border flex items-center gap-1.5 transition shadow-sm" title="Volver al Portal Principal">
+          <i class="fa-solid fa-house text-amber-400"></i> <span class="hidden sm:inline">Inicio</span>
+        </a>
+
+        <!-- Language Selector Dropdown -->
+        <div class="relative inline-block">
+          <select id="lang-select" onchange="setLanguage(this.value)" class="bg-black/60 hover:bg-black text-amber-300 text-xs font-bold pl-2 pr-6 py-1.5 rounded-lg border border-wow-border focus:outline-none focus:border-amber-400 cursor-pointer appearance-none shadow-sm transition">
+            <option value="en" class="bg-slate-900 text-slate-200">🇺🇸 EN</option>
+            <option value="es" class="bg-slate-900 text-slate-200">🇪🇸 ES</option>
+            <option value="mx" class="bg-slate-900 text-slate-200">🇲🇽 MX</option>
+          </select>
+          <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-1.5 text-amber-400 text-[10px]">
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+        <button onclick="copyShareableLink()" class="bg-black/50 hover:bg-black text-slate-300 hover:text-amber-300 text-xs font-semibold px-2.5 py-1.5 rounded-lg border border-wow-border flex items-center gap-1.5 transition" data-i18n-title="shareTitle" title="Copy shareable link with your setup">
+          <i class="fa-solid fa-share-nodes text-amber-400"></i> <span data-i18n="shareBtn">Share</span>
+        </button>
+        <button onclick="openHelpModal()" class="bg-black/50 hover:bg-black text-slate-300 hover:text-amber-300 text-xs font-semibold px-2.5 py-1.5 rounded-lg border border-wow-border flex items-center gap-1 transition" data-i18n-title="guideTitle" title="User Guide & Help">
+          <i class="fa-solid fa-circle-question text-amber-400"></i> <span data-i18n="guideBtn">Guide</span>
+        </button>
+        <button onclick="openSimcModal()" class="bg-gradient-to-r from-emerald-700 to-teal-700 hover:from-emerald-600 hover:to-teal-600 text-white text-xs sm:text-sm font-bold px-3.5 py-1.5 rounded-lg border border-emerald-400/40 shadow-md flex items-center gap-1.5 transition whitespace-nowrap">
+          <i class="fa-solid fa-file-import text-emerald-300"></i> <span data-i18n="importSimcBtn">Import SimC</span>
+        </button>
+        <button onclick="openNewItemModal()" class="bg-gradient-to-r from-purple-700 to-indigo-700 hover:from-purple-600 hover:to-indigo-600 text-white text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-lg border border-purple-400/40 shadow-md flex items-center gap-1.5 transition whitespace-nowrap">
+          <i class="fa-solid fa-plus text-purple-300"></i> <span data-i18n="addItemBtn">Add Item</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1 max-w-7xl w-full mx-auto p-3 sm:p-4 md:p-6">
+
+    <!-- OPTIMIZER VIEW -->
+    <div id="view-optimizer" class="space-y-6">
+      
+      <!-- Target Configuration Panel -->
+      <div class="bg-wow-panel border border-wow-border rounded-xl p-5 shadow-xl">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-wow-border/60 pb-4 mb-4">
+          <div>
+            <h2 class="text-lg font-bold text-white flex items-center gap-2">
+              <i class="fa-solid fa-crosshairs text-amber-400"></i> <span data-i18n="targetStatsTitle">Target Stats</span> (<span id="current-spec-title" class="font-black">Retribution</span>)
+            </h2>
+            <p class="text-xs text-slate-400" data-i18n="targetStatsSubtitle">Calculates on pure base stats (excluding gems) and integrates secondary stat trinkets</p>
+          </div>
+
+          <!-- Quick Presets -->
+          <div class="flex items-center gap-2 flex-wrap" id="spec-presets-container">
+            <!-- Injected via JS -->
+          </div>
+        </div>
+
+        <!-- Input Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-5 gap-3">
+          <div class="bg-wow-input p-3 rounded-lg border border-purple-500/30">
+            <div class="flex items-center justify-between mb-1">
+              <label class="text-xs font-bold text-purple-400 uppercase tracking-wider block">
+                <i class="fa-solid fa-wand-magic-sparkles mr-1"></i> <span data-i18n="statMastery">Mastery</span>
+              </label>
+              <div class="flex items-center gap-1 text-[10px]">
+                <button type="button" onclick="adjustTarget('target-mastery', -50)" class="px-1 rounded bg-black/60 hover:bg-slate-800 text-slate-400 hover:text-white border border-wow-border">-50</button>
+                <button type="button" onclick="adjustTarget('target-mastery', 50)" class="px-1 rounded bg-purple-950/60 hover:bg-purple-900 text-purple-300 border border-purple-500/40">+50</button>
+              </div>
+            </div>
+            <input type="number" id="target-mastery" value="0" oninput="updateTargetDistributionStrip();" class="w-full bg-black/40 border border-purple-500/50 rounded px-2.5 py-1.5 text-white font-bold text-lg focus:outline-none focus:border-purple-400" />
+          </div>
+
+          <div class="bg-wow-input p-3 rounded-lg border border-blue-500/30">
+            <div class="flex items-center justify-between mb-1">
+              <label class="text-xs font-bold text-blue-400 uppercase tracking-wider block">
+                <i class="fa-solid fa-crosshairs mr-1"></i> <span data-i18n="statCrit">Crit</span>
+              </label>
+              <div class="flex items-center gap-1 text-[10px]">
+                <button type="button" onclick="adjustTarget('target-crit', -50)" class="px-1 rounded bg-black/60 hover:bg-slate-800 text-slate-400 hover:text-white border border-wow-border">-50</button>
+                <button type="button" onclick="adjustTarget('target-crit', 50)" class="px-1 rounded bg-blue-950/60 hover:bg-blue-900 text-blue-300 border border-blue-500/40">+50</button>
+              </div>
+            </div>
+            <input type="number" id="target-crit" value="0" oninput="updateTargetDistributionStrip();" class="w-full bg-black/40 border border-blue-500/50 rounded px-2.5 py-1.5 text-white font-bold text-lg focus:outline-none focus:border-blue-400" />
+          </div>
+
+          <div class="bg-wow-input p-3 rounded-lg border border-slate-400/30">
+            <div class="flex items-center justify-between mb-1">
+              <label class="text-xs font-bold text-slate-300 uppercase tracking-wider block">
+                <i class="fa-solid fa-forward mr-1"></i> <span data-i18n="statHaste">Haste</span>
+              </label>
+              <div class="flex items-center gap-1 text-[10px]">
+                <button type="button" onclick="adjustTarget('target-haste', -50)" class="px-1 rounded bg-black/60 hover:bg-slate-800 text-slate-400 hover:text-white border border-wow-border">-50</button>
+                <button type="button" onclick="adjustTarget('target-haste', 50)" class="px-1 rounded bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-500/40">+50</button>
+              </div>
+            </div>
+            <input type="number" id="target-haste" value="0" oninput="updateTargetDistributionStrip();" class="w-full bg-black/40 border border-slate-500/50 rounded px-2.5 py-1.5 text-white font-bold text-lg focus:outline-none focus:border-slate-300" />
+          </div>
+
+          <div class="bg-wow-input p-3 rounded-lg border border-emerald-500/30">
+            <div class="flex items-center justify-between mb-1">
+              <label class="text-xs font-bold text-emerald-400 uppercase tracking-wider block">
+                <i class="fa-solid fa-shield-heart mr-1"></i> <span data-i18n="statVers">Vers</span>
+              </label>
+              <div class="flex items-center gap-1 text-[10px]">
+                <button type="button" onclick="adjustTarget('target-vers', -50)" class="px-1 rounded bg-black/60 hover:bg-slate-800 text-slate-400 hover:text-white border border-wow-border">-50</button>
+                <button type="button" onclick="adjustTarget('target-vers', 50)" class="px-1 rounded bg-emerald-950/60 hover:bg-emerald-900 text-emerald-300 border border-emerald-500/40">+50</button>
+              </div>
+            </div>
+            <input type="number" id="target-vers" value="0" oninput="updateTargetDistributionStrip();" class="w-full bg-black/40 border border-emerald-500/50 rounded px-2.5 py-1.5 text-white font-bold text-lg focus:outline-none focus:border-emerald-400" />
+          </div>
+
+          <div class="bg-wow-input p-3 rounded-lg border border-amber-500/30 col-span-2 sm:col-span-1">
+            <label class="text-xs font-bold text-amber-400 uppercase tracking-wider block mb-1">
+              <i class="fa-solid fa-swords mr-1"></i> <span data-i18n="weaponMode">Weapon Mode</span>
+            </label>
+            <select id="weapon-mode" onchange="runOptimizer()" class="w-full bg-black/40 border border-amber-500/50 rounded px-2.5 py-1.5 text-white font-medium text-sm focus:outline-none">
+              <!-- Dynamically populated per class/spec -->
+            </select>
+          </div>
+        </div>
+
+        <!-- Target Distribution Live Ratio Strip -->
+        <div id="target-stat-distribution-strip" class="mt-3 bg-black/40 p-2.5 rounded-lg border border-wow-border/50 flex flex-wrap items-center justify-between gap-2 text-xs">
+          <div class="flex items-center gap-1.5 font-bold text-slate-300">
+            <i class="fa-solid fa-chart-pie text-amber-400"></i>
+            <span><span data-i18n="targetBudget">Target Budget</span>: <span id="target-total-pts" class="text-white font-black">0</span> pts</span>
+          </div>
+          <div class="flex items-center gap-3 text-[11px] font-semibold" id="target-ratios-container">
+            <span class="text-purple-300"><i class="fa-solid fa-square text-purple-400 mr-1 text-[10px]"></i>Mast <span id="ratio-mast">0.0%</span></span>
+            <span class="text-blue-300"><i class="fa-solid fa-square text-blue-400 mr-1 text-[10px]"></i>Crit <span id="ratio-crit">0.0%</span></span>
+            <span class="text-slate-300"><i class="fa-solid fa-square text-slate-400 mr-1 text-[10px]"></i>Haste <span id="ratio-haste">0.0%</span></span>
+            <span class="text-emerald-300"><i class="fa-solid fa-square text-emerald-400 mr-1 text-[10px]"></i>Vers <span id="ratio-vers">0.0%</span></span>
+          </div>
+        </div>
+
+        <!-- TRACK FILTER & ADVANCED STRATEGY -->
+        <div class="mt-4 pt-3 border-t border-wow-border/60 space-y-3">
+          
+          <!-- Track Filters -->
+          <div class="flex flex-wrap items-center gap-2.5 text-xs">
+            <span class="font-bold text-slate-300 flex items-center gap-1.5">
+              <i class="fa-solid fa-filter text-amber-400"></i> <span data-i18n="trackQuality">Quality / Track</span>:
+            </span>
+            <label class="flex items-center gap-1.5 cursor-pointer bg-purple-950/40 border border-purple-500/40 px-2 py-1 rounded">
+              <input type="checkbox" id="track-myth" checked onchange="runOptimizer()" class="rounded bg-black text-purple-600 focus:ring-0">
+              <span class="text-purple-300 font-bold" data-i18n="trackMyth">Mythic</span>
+            </label>
+            <label class="flex items-center gap-1.5 cursor-pointer bg-blue-950/40 border border-blue-500/40 px-2 py-1 rounded">
+              <input type="checkbox" id="track-hero" checked onchange="runOptimizer()" class="rounded bg-black text-blue-500 focus:ring-0">
+              <span class="text-blue-300 font-bold" data-i18n="trackHero">Heroic</span>
+            </label>
+            <label class="flex items-center gap-1.5 cursor-pointer bg-emerald-950/40 border border-emerald-500/40 px-2 py-1 rounded">
+              <input type="checkbox" id="track-champ" onchange="runOptimizer()" class="rounded bg-black text-emerald-500 focus:ring-0">
+              <span class="text-emerald-300 font-bold" data-i18n="trackChamp">Champion</span>
+            </label>
+            <label class="flex items-center gap-1.5 cursor-pointer bg-amber-950/40 border border-amber-500/40 px-2 py-1 rounded">
+              <input type="checkbox" id="track-vet" onchange="runOptimizer()" class="rounded bg-black text-amber-500 focus:ring-0">
+              <span class="text-amber-300 font-bold" data-i18n="trackVet">Vet / Other</span>
+            </label>
+
+            <!-- Quick Track Presets -->
+            <div class="flex items-center gap-1">
+              <button type="button" onclick="applyTrackPreset('all')" class="px-1.5 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-[10px] text-slate-300 border border-slate-600" data-i18n="trackAll">All</button>
+              <button type="button" onclick="applyTrackPreset('myth-hero')" class="px-1.5 py-0.5 rounded bg-blue-950/60 hover:bg-blue-900 text-[10px] text-blue-300 border border-blue-600/50" data-i18n="trackMythHero">Myt+Hero</button>
+              <button type="button" onclick="applyTrackPreset('myth-only')" class="px-1.5 py-0.5 rounded bg-purple-950/60 hover:bg-purple-900 text-[10px] text-purple-300 border border-purple-600/50" data-i18n="trackMythOnly">Myth Only</button>
+            </div>
+
+            <!-- Min ilvl input -->
+            <div class="flex items-center gap-1.5 ml-auto bg-black/40 border border-wow-border px-2.5 py-1 rounded text-xs">
+              <span class="text-slate-400 font-semibold" data-i18n="minIlvl">Min ilvl:</span>
+              <input type="number" id="filter-min-ilvl" value="290" min="0" max="999" oninput="runOptimizer()" class="w-14 bg-black/70 border border-wow-border/70 rounded px-1.5 py-0.5 text-amber-300 font-bold text-center focus:outline-none focus:border-amber-400">
+            </div>
+          </div>
+
+          <!-- Advanced Tuning & Weights (Collapsible) -->
+          <details class="group bg-black/30 border border-wow-border/50 rounded-lg p-2.5 text-xs transition">
+            <summary class="cursor-pointer font-bold text-slate-300 hover:text-white flex items-center justify-between select-none">
+              <span class="flex items-center gap-2">
+                <i class="fa-solid fa-sliders text-amber-400"></i> <span data-i18n="statWeightsTitle">Stat Weights & Priority Scaling (Advanced)</span>
+              </span>
+              <span class="text-[10px] text-slate-400 group-open:rotate-180 transition-transform"><i class="fa-solid fa-chevron-down"></i></span>
+            </summary>
+            
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-3 mt-2 border-t border-wow-border/40">
+              <div>
+                <label class="text-[11px] font-bold text-purple-400 block mb-1">Mastery Weight (x<span id="label-w-mast">1.0</span>)</label>
+                <input type="range" id="weight-mastery" min="0.2" max="2.5" step="0.1" value="1.0" oninput="document.getElementById('label-w-mast').innerText = this.value;" class="w-full accent-purple-500 cursor-pointer">
+              </div>
+              <div>
+                <label class="text-[11px] font-bold text-blue-400 block mb-1">Crit Weight (x<span id="label-w-crit">1.0</span>)</label>
+                <input type="range" id="weight-crit" min="0.2" max="2.5" step="0.1" value="1.0" oninput="document.getElementById('label-w-crit').innerText = this.value;" class="w-full accent-blue-500 cursor-pointer">
+              </div>
+              <div>
+                <label class="text-[11px] font-bold text-slate-300 block mb-1">Haste Weight (x<span id="label-w-haste">1.0</span>)</label>
+                <input type="range" id="weight-haste" min="0.2" max="2.5" step="0.1" value="1.0" oninput="document.getElementById('label-w-haste').innerText = this.value;" class="w-full accent-slate-400 cursor-pointer">
+              </div>
+              <div>
+                <label class="text-[11px] font-bold text-emerald-400 block mb-1">Versatility Weight (x<span id="label-w-vers">1.0</span>)</label>
+                <input type="range" id="weight-vers" min="0.2" max="2.5" step="0.1" value="1.0" oninput="document.getElementById('label-w-vers').innerText = this.value;" class="w-full accent-emerald-500 cursor-pointer">
+              </div>
+            </div>
+
+            <!-- Quick Weight Presets Toolbar -->
+            <div class="flex items-center gap-1.5 flex-wrap pt-2.5 mt-2 border-t border-wow-border/30 text-[11px]">
+              <span class="text-slate-400 font-semibold">Quick Presets:</span>
+              <button type="button" onclick="resetWeightsToCurrentSpec()" class="px-2 py-0.5 rounded bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 font-bold border border-amber-500/50 transition flex items-center gap-1"><i class="fa-solid fa-wand-magic-sparkles text-[10px]"></i> Auto Spec</button>
+              <button type="button" onclick="applyWeightPreset(1.0, 1.0, 1.0, 1.0)" class="px-2 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-600 transition">Balanced (1.0x)</button>
+              <button type="button" onclick="applyWeightPreset(1.8, 1.0, 0.8, 0.5)" class="px-2 py-0.5 rounded bg-purple-950/60 hover:bg-purple-900 text-purple-300 border border-purple-600/50 transition">Mastery Focus</button>
+              <button type="button" onclick="applyWeightPreset(1.0, 1.8, 0.8, 0.5)" class="px-2 py-0.5 rounded bg-blue-950/60 hover:bg-blue-900 text-blue-300 border border-blue-600/50 transition">Crit Focus</button>
+              <button type="button" onclick="applyWeightPreset(0.8, 1.0, 1.8, 0.5)" class="px-2 py-0.5 rounded bg-amber-950/60 hover:bg-amber-900 text-amber-300 border border-amber-600/50 transition">Haste Focus</button>
+            </div>
+          </details>
+
+          <div class="flex flex-wrap items-center justify-between gap-4 pt-1">
+            <div class="flex items-center gap-4 text-xs flex-wrap">
+              <div class="flex items-center gap-1.5 bg-purple-950/40 border border-purple-500/50 rounded px-2.5 py-1 text-xs shadow-sm">
+                <span class="text-purple-300 font-bold flex items-center gap-1"><i class="fa-solid fa-layer-group text-purple-400 text-[10px]"></i> <span data-i18n="tierSetMode">Tier Set</span>:</span>
+                <select id="tier-mode" onchange="runOptimizer()" class="bg-transparent text-purple-200 font-bold focus:outline-none cursor-pointer">
+                  <option value="4" class="bg-slate-900 text-purple-300">4</option>
+                  <option value="2" class="bg-slate-900 text-purple-300">2</option>
+                  <option value="0" class="bg-slate-900 text-slate-400" selected>0</option>
+                </select>
+              </div>
+
+              <label class="flex items-center gap-1.5 bg-gradient-to-r from-amber-950/60 to-orange-950/50 border border-amber-500/50 hover:border-amber-400 rounded-lg px-2.5 py-1 text-xs cursor-pointer shadow-sm transition select-none" title="Simulates all items at max upgrade rank for their track (Veteran 6/6: 296, Champion 6/6: 309, Heroic 6/6: 321, Mythic 6/6: 334)">
+                <input type="checkbox" id="toggle-max-ilvl" onchange="runOptimizer()" class="rounded bg-black border-amber-500 text-amber-500 focus:ring-0 cursor-pointer">
+                <span class="text-amber-300 font-bold flex items-center gap-1">
+                  <i class="fa-solid fa-angles-up text-amber-400 text-[11px]"></i> <span data-i18n="simMaxIlvl">Max ilvl</span>
+                </span>
+              </label>
+
+              <label class="flex items-center gap-1.5 bg-gradient-to-r from-emerald-950/70 to-teal-950/60 border border-emerald-500/50 hover:border-emerald-400 rounded-lg px-2.5 py-1 text-xs cursor-pointer shadow-sm transition select-none" title="Applies Ascendant Venomstone upgrade (+7 ilvls on Hero/Crafted Hero up to 328/325, +6/+7 ilvls on Myth/Crafted Myth up to 340/338)">
+                <input type="checkbox" id="toggle-venomstone" onchange="runOptimizer()" class="rounded bg-black border-emerald-500 text-emerald-500 focus:ring-0 cursor-pointer">
+                <span class="text-emerald-300 font-bold flex items-center gap-1">
+                  <i class="fa-solid fa-flask-vial text-emerald-400 text-[11px]"></i> <span data-i18n="simVenomstones">Venomstones</span>
+                </span>
+              </label>
+
+              <button type="button" onclick="openBloodmalletModal()" class="bg-red-950/40 hover:bg-red-900/60 text-xs font-semibold px-3 py-1.5 rounded-lg border border-red-500/50 text-red-200 hover:text-white flex items-center gap-1.5 transition shadow-sm" title="View official trinket rankings for your class">
+                <i class="fa-solid fa-chart-simple text-red-400"></i> <span data-i18n="trinketRankings">Trinket Rankings</span>
+              </button>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <button onclick="openCompareModal()" class="bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold px-4 py-2 rounded-lg border border-slate-600 flex items-center gap-1.5 transition">
+                <i class="fa-solid fa-code-compare text-amber-400"></i> <span data-i18n="compareVsEquipped">Compare vs Equipped</span>
+              </button>
+              <button id="btn-run-optimizer" onclick="onCalculateBtnClick()" class="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold text-xs sm:text-sm px-5 py-2 rounded-lg shadow-lg shadow-amber-500/20 flex items-center gap-2 transition cursor-pointer active:scale-95">
+                <i class="fa-solid fa-bolt text-slate-950"></i> <span id="btn-calc-text" data-i18n="calcBestSetup">Calculate Best Setup</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Optimization Results Section -->
+      <div id="results-container" class="space-y-6">
+        <!-- Injected via JS -->
+      </div>
+    </div>
+
+    <!-- INVENTORY VIEW -->
+    <div id="view-inventory" class="hidden space-y-4">
+      <div class="bg-wow-panel border border-wow-border p-4 rounded-xl space-y-3">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+          <div class="flex flex-wrap items-center gap-2 flex-1">
+            <div class="relative w-full sm:w-60">
+              <i class="fa-solid fa-magnifying-glass absolute left-3 top-2.5 text-slate-400 text-sm"></i>
+              <input type="text" id="search-inventory" oninput="toggleSearchClearBtn(); renderInventory()" placeholder="Search item by name..." data-i18n-placeholder="invSearchPlaceholder" class="w-full bg-wow-input border border-wow-border rounded-lg pl-9 pr-8 py-1.5 text-sm text-white focus:outline-none focus:border-amber-400" />
+              <button id="search-clear-btn" onclick="clearInventorySearch()" class="hidden absolute right-2.5 top-2 text-slate-400 hover:text-white text-xs">
+                <i class="fa-solid fa-circle-xmark"></i>
+              </button>
+            </div>
+            
+            <select id="filter-slot" onchange="renderInventory()" class="bg-wow-input border border-wow-border rounded-lg px-3 py-1.5 text-sm text-slate-300 focus:outline-none">
+              <option value="all" data-i18n="invFilterAllSlots">All Slots</option>
+              <option value="head">Head</option>
+              <option value="neck">Neck</option>
+              <option value="shoulder">Shoulder</option>
+              <option value="back">Back</option>
+              <option value="chest">Chest</option>
+              <option value="wrist">Wrist</option>
+              <option value="hands">Hands</option>
+              <option value="waist">Waist</option>
+              <option value="legs">Legs</option>
+              <option value="feet">Feet</option>
+              <option value="finger">Finger (Rings)</option>
+              <option value="trinket">Trinkets</option>
+              <option value="weapon_2h">2H Weapons</option>
+              <option value="weapon_1h">1H Weapons</option>
+              <option value="shield">Shields</option>
+            </select>
+
+            <select id="sort-inventory" onchange="renderInventory()" class="bg-wow-input border border-wow-border rounded-lg px-3 py-1.5 text-sm text-slate-300 focus:outline-none">
+              <option value="ilvl-desc">ilvl (High to Low)</option>
+              <option value="ilvl-asc">ilvl (Low to High)</option>
+              <option value="name-asc">Name (A-Z)</option>
+              <option value="crit-desc">Crit (Highest)</option>
+              <option value="haste-desc">Haste (Highest)</option>
+              <option value="mastery-desc">Mastery (Highest)</option>
+              <option value="vers-desc">Versatility (Highest)</option>
+            </select>
+
+            <div class="flex items-center bg-black/60 border border-wow-border rounded-lg p-0.5 text-xs">
+              <button id="view-mode-cards-btn" onclick="setInventoryViewMode('cards')" class="px-2.5 py-1 rounded bg-amber-500 text-black font-bold transition" title="Card View"><i class="fa-solid fa-table-cells-large"></i></button>
+              <button id="view-mode-table-btn" onclick="setInventoryViewMode('table')" class="px-2.5 py-1 rounded text-slate-400 hover:text-white transition" title="Compact Table View"><i class="fa-solid fa-list"></i></button>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <button onclick="exportInventoryToCsv()" class="bg-black/50 hover:bg-black text-slate-300 hover:text-white text-xs font-semibold px-3 py-1.5 rounded-lg border border-wow-border flex items-center gap-1.5 transition" title="Export inventory to CSV">
+              <i class="fa-solid fa-file-csv text-emerald-400"></i> <span data-i18n="exportCsv">Export CSV</span>
+            </button>
+            <button onclick="openBackupModal()" class="bg-black/50 hover:bg-black text-slate-300 hover:text-white text-xs font-semibold px-3 py-1.5 rounded-lg border border-wow-border flex items-center gap-1.5 transition" title="JSON Backup & Restore">
+              <i class="fa-solid fa-cloud-arrow-down text-purple-400"></i> <span data-i18n="backupJson">Backup</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Inventory Quality & Category Counters Banner -->
+        <div id="inventory-stats-strip" class="flex flex-wrap items-center gap-2 text-[11px] text-slate-400 pt-1">
+          <!-- Injected via renderInventory -->
+        </div>
+
+        <!-- Quick filter checkboxes & Bulk actions -->
+        <div class="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-wow-border/50 text-xs">
+          <div class="flex flex-wrap items-center gap-3">
+            <span class="text-slate-400 font-semibold">Show:</span>
+            <label class="flex items-center gap-1.5 cursor-pointer">
+              <input type="checkbox" id="inv-filter-sockets" onchange="renderInventory()" class="rounded bg-black border-slate-600 text-amber-500 focus:ring-0">
+              <span class="text-amber-300 font-medium"><i class="fa-solid fa-gem text-[10px]"></i> Sockets</span>
+            </label>
+            <label class="flex items-center gap-1.5 cursor-pointer">
+              <input type="checkbox" id="inv-filter-tier" onchange="renderInventory()" class="rounded bg-black border-slate-600 text-purple-500 focus:ring-0">
+              <span class="text-purple-300 font-medium">Tier Set</span>
+            </label>
+            <label class="flex items-center gap-1.5 cursor-pointer">
+              <input type="checkbox" id="inv-filter-locked" onchange="renderInventory()" class="rounded bg-black border-slate-600 text-amber-400 focus:ring-0">
+              <span class="text-amber-400 font-medium"><i class="fa-solid fa-lock text-[10px]"></i> Locked</span>
+            </label>
+            <label class="flex items-center gap-1.5 cursor-pointer">
+              <input type="checkbox" id="inv-filter-active" onchange="renderInventory()" class="rounded bg-black border-slate-600 text-emerald-500 focus:ring-0">
+              <span class="text-slate-300 font-medium">Enabled Only</span>
+            </label>
+            <label class="flex items-center gap-1.5 cursor-pointer">
+              <input type="checkbox" id="inv-filter-vault" onchange="renderInventory()" class="rounded bg-black border-slate-600 text-yellow-400 focus:ring-0">
+              <span class="text-yellow-300 font-medium"><i class="fa-solid fa-vault text-[10px]"></i> Great Vault</span>
+            </label>
+          </div>
+
+          <!-- Bulk Action Quick Buttons -->
+          <div class="flex items-center gap-1.5 flex-wrap text-[11px]">
+            <button onclick="bulkEnableAll(true)" class="px-2 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-emerald-300 border border-emerald-500/30" data-i18n="enableAll">Enable All</button>
+            <button onclick="bulkEnableAll(false)" class="px-2 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-red-300 border border-red-500/30" data-i18n="ignoreAll">Ignore All</button>
+            <button onclick="bulkLockEquipped()" class="px-2 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-amber-300 border border-amber-500/30" data-i18n="lockEquipped"><i class="fa-solid fa-lock text-[9px] mr-1"></i>Lock Equipped</button>
+            <button onclick="bulkUnlockAll()" class="px-2 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-600" data-i18n="unlockAll"><i class="fa-solid fa-lock-open text-[9px] mr-1"></i>Unlock</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Inventory Grid -->
+      <div id="inventory-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- Injected via JS -->
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Dynamic App Footer Container (Injected by js/ui/dynamic_footer.js) -->
+  <div id="app-footer-container"></div>
+
+  <!-- MODAL: SIMULATIONCRAFT IMPORT -->
+  <div id="simc-modal" class="fixed inset-0 bg-black/85 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-wow-panel border border-wow-border rounded-xl max-w-2xl w-full p-6 shadow-2xl space-y-4">
+      <div class="flex items-center justify-between border-b border-wow-border pb-3">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded bg-emerald-900/60 border border-emerald-500 flex items-center justify-center text-emerald-400">
+            <i class="fa-solid fa-file-code"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-white">Import from SimulationCraft (/simc)</h3>
+            <p class="text-xs text-slate-400">Paste the text from the in-game SimC addon</p>
+          </div>
+        </div>
+        <button onclick="closeSimcModal()" class="text-slate-400 hover:text-white">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <div class="space-y-3">
+        <textarea id="simc-input" rows="10" placeholder="Paste your SimulationCraft text here... (paladin=... head=... ### Gear from Bags...)" class="w-full bg-black/60 border border-wow-border rounded-lg p-3 text-xs font-mono text-emerald-300 focus:outline-none focus:border-emerald-500"></textarea>
+        
+        <div class="flex items-center justify-between text-xs text-slate-400">
+          <span id="simc-status">Ready to process your equipped items and bag gear.</span>
+          <label class="flex items-center gap-1.5 cursor-pointer">
+            <input type="checkbox" id="simc-overwrite" checked class="rounded bg-black border-slate-600 text-emerald-600 focus:ring-0">
+            <span class="text-slate-300 font-medium">Overwrite existing inventory</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="pt-3 border-t border-wow-border flex justify-end gap-2">
+        <button type="button" onclick="closeSimcModal()" class="px-4 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white bg-slate-800" data-i18n="cancelBtn">Cancel</button>
+        <button type="button" onclick="parseAndImportSimC()" class="px-5 py-1.5 rounded-lg text-xs font-bold text-black bg-emerald-400 hover:bg-emerald-300 shadow flex items-center gap-1.5">
+          <i class="fa-solid fa-check"></i> Parse & Import
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: ADD / EDIT ITEM -->
+  <div id="item-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-wow-panel border border-wow-border rounded-xl max-w-lg w-full p-5 sm:p-6 shadow-2xl space-y-4 max-h-[90vh] overflow-y-auto">
+      <div class="flex items-center justify-between border-b border-wow-border pb-3">
+        <h3 id="modal-title" class="text-base font-bold text-white flex items-center gap-2">
+          <i class="fa-solid fa-gem text-amber-400"></i> <span data-i18n="addItemModalTitle">Add New Item</span>
+        </h3>
+        <button onclick="closeItemModal()" class="text-slate-400 hover:text-white">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <!-- Quick Wowhead Auto-Lookup Box -->
+      <div id="wowhead-lookup-box" class="bg-black/50 p-3 rounded-lg border border-wow-border space-y-2">
+        <div class="flex items-center justify-between">
+          <label class="text-xs font-bold text-amber-400 flex items-center gap-1.5">
+            <i class="fa-solid fa-link text-amber-400"></i> Wowhead Link or Item ID
+          </label>
+          <span id="wowhead-fetch-status" class="text-[11px] text-slate-400">Paste link to auto-fill</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <input type="text" id="item-wowhead-url" oninput="onWowheadUrlInput(this.value)" placeholder="https://www.wowhead.com/item=251149/... or 251149" class="w-full bg-wow-input border border-wow-border focus:border-amber-400 rounded px-3 py-1.5 text-xs text-white placeholder-slate-500 focus:outline-none transition font-mono" />
+          <button type="button" onclick="triggerWowheadUrlFetch()" class="bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-400 hover:to-yellow-400 text-black font-bold text-xs px-3 py-1.5 rounded transition shrink-0 flex items-center gap-1 shadow">
+            <i class="fa-solid fa-magnifying-glass"></i> Load
+          </button>
+        </div>
+        
+        <!-- Live Item Preview Card -->
+        <div id="item-wowhead-preview" class="hidden items-center gap-3 pt-2 border-t border-wow-border/50">
+          <img id="item-preview-icon" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><rect width='32' height='32' fill='%23121520'/></svg>" referrerpolicy="no-referrer" onerror="handleImageError(this, document.getElementById('item-slot')?.value || 'head')" class="w-8 h-8 rounded border border-purple-500 shadow shrink-0 object-cover" />
+          <div class="min-w-0 flex-1">
+            <div class="flex items-center gap-2">
+              <p id="item-preview-name" class="text-xs font-bold text-purple-300 truncate"></p>
+              <span id="item-preview-slot" class="text-[10px] bg-slate-800 text-slate-300 px-1.5 py-0.5 rounded border border-wow-border uppercase font-mono"></span>
+            </div>
+            <p id="item-preview-details" class="text-[10px] text-slate-400 truncate"></p>
+          </div>
+        </div>
+      </div>
+
+      <form id="item-form" onsubmit="saveItem(event)" class="space-y-3">
+        <input type="hidden" id="edit-item-id" />
+
+        <div class="grid grid-cols-3 gap-3">
+          <div class="col-span-2">
+            <label class="text-xs font-semibold text-slate-300 block mb-1" data-i18n="itemNameLabel">Item Name</label>
+            <input type="text" id="item-name" readonly required placeholder="Auto-filled via Wowhead..." class="w-full bg-black/50 border border-wow-border/50 rounded px-3 py-1.5 text-sm text-slate-300 cursor-not-allowed select-none focus:outline-none" />
+          </div>
+          <div>
+            <label class="text-xs font-semibold text-slate-300 block mb-1" data-i18n="itemIlvlLabel">Item Level (ilvl)</label>
+            <select id="item-ilvl" onchange="onItemIlvlChange()" class="w-full bg-wow-input border border-amber-400/60 rounded px-2.5 py-1.5 text-sm text-amber-300 font-bold focus:outline-none focus:border-amber-400 cursor-pointer">
+            </select>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-3 gap-3">
+          <div>
+            <label class="text-xs font-semibold text-slate-300 block mb-1" data-i18n="itemSlotLabel">Slot</label>
+            <select id="item-slot" disabled onchange="onItemSlotChange()" class="w-full bg-black/50 border border-wow-border/50 rounded px-2.5 py-1.5 text-sm text-slate-300 cursor-not-allowed select-none focus:outline-none">
+              <option value="head">Head</option>
+              <option value="neck">Neck</option>
+              <option value="shoulder">Shoulder</option>
+              <option value="back">Back</option>
+              <option value="chest">Chest</option>
+              <option value="wrist">Wrist</option>
+              <option value="hands">Hands</option>
+              <option value="waist">Waist</option>
+              <option value="legs">Legs</option>
+              <option value="feet">Feet</option>
+              <option value="finger">Finger</option>
+              <option value="trinket">Trinket</option>
+              <option value="weapon_2h">2H Weapon</option>
+              <option value="weapon_1h">1H Weapon</option>
+              <option value="shield">Shield</option>
+            </select>
+          </div>
+          <div>
+            <label class="text-xs font-semibold text-slate-300 block mb-1" data-i18n="itemTrackLabel">Upgrade Track</label>
+            <select id="item-track" onchange="onItemTrackChange()" class="w-full bg-wow-input border border-wow-border rounded px-2.5 py-1.5 text-sm text-white focus:outline-none cursor-pointer">
+              <option value="myth">Mythic (Myth)</option>
+              <option value="hero" selected>Heroic (Hero)</option>
+              <option value="champ">Champion (Champ)</option>
+              <option value="vet">Veteran (Vet)</option>
+              <option value="adventurer">Adventurer</option>
+            </select>
+          </div>
+          <div>
+            <label class="text-xs font-semibold text-slate-300 block mb-1">Wowhead ID</label>
+            <input type="text" id="item-wowhead-id" readonly placeholder="Auto" class="w-full bg-black/50 border border-wow-border/50 rounded px-2.5 py-1.5 text-sm text-slate-300 cursor-not-allowed select-none font-mono focus:outline-none" />
+          </div>
+        </div>
+
+        <!-- Stats Grid (PURE BASE STATS) -->
+        <div class="bg-black/30 p-3 rounded-lg border border-wow-border/50">
+          <div class="flex items-center justify-between mb-2">
+            <p class="text-xs font-bold text-slate-400 uppercase tracking-wide">Pure Base Stats (No Gems)</p>
+            <span id="item-modal-stats-total" class="text-[11px] font-bold text-amber-300 bg-amber-950/60 border border-amber-500/40 px-2 py-0.5 rounded font-mono">Total: 0 pts</span>
+          </div>
+          <div class="grid grid-cols-4 gap-2">
+            <div>
+              <label class="text-[11px] text-purple-400 font-bold block mb-0.5" data-i18n="statMastery">Mastery</label>
+              <input type="number" id="item-mastery" value="0" oninput="updateItemModalStatSum()" class="w-full bg-wow-input border border-purple-500/40 rounded px-2 py-1 text-sm text-white text-center font-bold" />
+            </div>
+            <div>
+              <label class="text-[11px] text-blue-400 font-bold block mb-0.5" data-i18n="statCrit">Crit</label>
+              <input type="number" id="item-crit" value="0" oninput="updateItemModalStatSum()" class="w-full bg-wow-input border border-blue-500/40 rounded px-2 py-1 text-sm text-white text-center font-bold" />
+            </div>
+            <div>
+              <label class="text-[11px] text-slate-300 font-bold block mb-0.5" data-i18n="statHaste">Haste</label>
+              <input type="number" id="item-haste" value="0" oninput="updateItemModalStatSum()" class="w-full bg-wow-input border border-slate-500/40 rounded px-2 py-1 text-sm text-white text-center font-bold" />
+            </div>
+            <div>
+              <label class="text-[11px] text-emerald-400 font-bold block mb-0.5" data-i18n="statVers">Vers</label>
+              <input type="number" id="item-vers" value="0" oninput="updateItemModalStatSum()" class="w-full bg-wow-input border border-emerald-500/40 rounded px-2 py-1 text-sm text-white text-center font-bold" />
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-4 text-xs pt-1">
+          <label id="item-tier-wrapper" class="flex items-center gap-1.5 cursor-pointer select-none">
+            <input type="checkbox" id="item-tier" class="rounded bg-black border-slate-600 text-purple-600 focus:ring-0">
+            <span class="text-purple-300 font-medium" data-i18n="itemIsTier">Is Tier Set Piece</span>
+          </label>
+          <label class="flex items-center gap-1.5 cursor-pointer select-none">
+            <input type="checkbox" id="item-socket" class="rounded bg-black border-slate-600 text-amber-500 focus:ring-0">
+            <span class="text-amber-300 font-medium" data-i18n="itemHasSocket">Has Prismatic Socket</span>
+          </label>
+          <label class="flex items-center gap-1.5 cursor-pointer select-none">
+            <input type="checkbox" id="item-vault" class="rounded bg-black border-slate-600 text-yellow-400 focus:ring-0">
+            <span class="text-yellow-300 font-medium"><i class="fa-solid fa-vault text-[10px] mr-0.5"></i> Great Vault</span>
+          </label>
+        </div>
+
+        <div class="pt-4 border-t border-wow-border flex justify-end gap-2">
+          <button type="button" onclick="closeItemModal()" class="px-4 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white bg-slate-800" data-i18n="cancelBtn">Cancel</button>
+          <button type="submit" class="px-5 py-1.5 rounded-lg text-xs font-bold text-black bg-purple-400 hover:bg-purple-300 shadow flex items-center gap-1.5">
+            <i class="fa-solid fa-floppy-disk"></i> <span data-i18n="saveItemBtn">Save Item</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- MODAL: BACKUP & JSON EXPORT / IMPORT -->
+  <div id="backup-modal" class="fixed inset-0 bg-black/85 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-wow-panel border border-wow-border rounded-xl max-w-2xl w-full p-6 shadow-2xl space-y-4">
+      <div class="flex items-center justify-between border-b border-wow-border pb-3">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded bg-purple-900/60 border border-purple-500 flex items-center justify-center text-purple-300">
+            <i class="fa-solid fa-cloud-arrow-down"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-white">JSON Backup & Export</h3>
+            <p class="text-xs text-slate-400">Save or restore your full inventory and configurations</p>
+          </div>
+        </div>
+        <button onclick="closeBackupModal()" class="text-slate-400 hover:text-white">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <div class="space-y-3">
+        <textarea id="backup-json-text" rows="9" class="w-full bg-black/60 border border-wow-border rounded-lg p-3 text-xs font-mono text-purple-300 focus:outline-none focus:border-purple-500" placeholder="Inventory JSON will appear here..."></textarea>
+        
+        <div class="flex items-center justify-between gap-2 flex-wrap text-xs">
+          <span class="text-slate-400">You can copy this JSON string or paste a previous backup to restore your items.</span>
+        </div>
+      </div>
+      <div class="pt-3 border-t border-wow-border flex items-center justify-between gap-2 flex-wrap">
+        <div class="flex items-center gap-2 flex-wrap">
+          <button type="button" onclick="copyBackupToClipboard()" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold text-white bg-slate-800 hover:bg-slate-700 flex items-center gap-1.5 border border-slate-600">
+            <i class="fa-solid fa-copy"></i> Copy to Clipboard
+          </button>
+          <button type="button" onclick="downloadBackupFile()" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold text-purple-200 bg-purple-950/60 hover:bg-purple-900 border border-purple-500/50 flex items-center gap-1.5">
+            <i class="fa-solid fa-file-arrow-down"></i> Download .JSON
+          </button>
+          <button type="button" onclick="confirmClearInventory()" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold text-red-300 bg-red-950/50 hover:bg-red-900 border border-red-700/50 flex items-center gap-1.5">
+            <i class="fa-solid fa-trash-can"></i> Clear Inventory
+          </button>
+        </div>
+        <div class="flex items-center gap-2">
+          <button type="button" onclick="closeBackupModal()" class="px-4 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white bg-slate-800" data-i18n="closeModal">Close</button>
+          <button type="button" onclick="restoreBackupFromJson()" class="px-5 py-1.5 rounded-lg text-xs font-bold text-black bg-amber-400 hover:bg-amber-300 shadow flex items-center gap-1.5">
+            <i class="fa-solid fa-upload"></i> Restore from JSON
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: SIMULATIONCRAFT EXPORT -->
+  <div id="simc-export-modal" class="fixed inset-0 bg-black/85 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-wow-panel border border-wow-border rounded-xl max-w-3xl w-full p-6 shadow-2xl space-y-4">
+      <div class="flex items-center justify-between border-b border-wow-border pb-3 flex-wrap gap-2">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded bg-emerald-900/60 border border-emerald-500 flex items-center justify-center text-emerald-300">
+            <i class="fa-solid fa-file-export"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-white">Export to SimulationCraft / Raidbots</h3>
+            <p class="text-xs text-slate-400">Optimized text with talents, enchants, and gems</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-2">
+          <button type="button" id="simc-mode-quick-btn" onclick="switchSimcExportMode('quick')" class="px-3.5 py-1.5 rounded-lg text-xs font-bold text-amber-300 bg-amber-950/90 border border-amber-500/60 shadow flex items-center gap-1.5 transition">
+            <i class="fa-solid fa-bolt text-amber-400"></i> Quick Sim
+          </button>
+          <button type="button" id="simc-mode-topgear-btn" onclick="switchSimcExportMode('topgear')" class="px-3.5 py-1.5 rounded-lg text-xs font-bold text-slate-400 hover:text-sky-300 bg-black/40 hover:bg-sky-950/40 border border-wow-border flex items-center gap-1.5 transition">
+            <i class="fa-solid fa-boxes-stacked text-sky-400"></i> Top Gear
+          </button>
+          <button onclick="closeSimcExportModal()" class="text-slate-400 hover:text-white p-1 ml-1 transition" title="Close">
+            <i class="fa-solid fa-xmark text-lg"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="space-y-2">
+        <textarea id="simc-export-text" rows="13" readonly class="w-full bg-black/70 border border-wow-border rounded-lg p-3 text-xs font-mono text-emerald-300 focus:outline-none focus:border-emerald-500 select-all leading-relaxed"></textarea>
+      </div>
+
+      <div class="pt-3 border-t border-wow-border flex flex-col sm:flex-row items-center justify-between gap-3">
+        <span id="simc-copy-status" class="text-xs text-slate-400">Quick Sim Mode: Only optimal equipped set (no bag items).</span>
+        <div class="flex flex-wrap items-center gap-2">
+          <button type="button" onclick="closeSimcExportModal()" class="px-4 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white bg-slate-800 transition" data-i18n="closeModal">
+            Close
+          </button>
+          <button type="button" onclick="copySimcExportText()" class="px-4 py-1.5 rounded-lg text-xs font-bold text-black bg-emerald-400 hover:bg-emerald-300 shadow flex items-center gap-1.5 transition">
+            <i class="fa-solid fa-copy"></i> Copy Text
+          </button>
+          <button type="button" id="simc-open-raidbots-btn" onclick="openCurrentModeInRaidbots()" class="px-4 py-1.5 rounded-lg text-xs font-bold text-amber-300 bg-amber-950/90 hover:bg-amber-900 border border-amber-500/60 shadow flex items-center gap-1.5 transition" title="Open in Raidbots and copy text to clipboard">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> <span id="simc-raidbots-btn-text">Open in Raidbots</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: GEAR SET COMPARATOR -->
+  <div id="compare-modal" class="fixed inset-0 bg-black/85 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-wow-panel border border-wow-border rounded-xl max-w-4xl w-full max-h-[90vh] flex flex-col p-6 shadow-2xl space-y-4">
+      <div class="flex items-center justify-between border-b border-wow-border pb-3 flex-shrink-0">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded bg-amber-900/60 border border-amber-500 flex items-center justify-center text-amber-300">
+            <i class="fa-solid fa-code-compare"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-white" data-i18n="compareModalTitle">Comparison: Currently Equipped vs Optimal Recommendation</h3>
+            <p class="text-xs text-slate-400">Review piece by piece improvements and stat changes</p>
+          </div>
+        </div>
+        <button onclick="closeCompareModal()" class="text-slate-400 hover:text-white">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <div id="compare-content" class="flex-1 overflow-y-auto space-y-4 pr-1">
+        <!-- Injected via JS -->
+      </div>
+
+      <div class="pt-3 border-t border-wow-border flex items-center justify-between gap-2 flex-shrink-0">
+        <span class="text-xs text-slate-400">Green stat differences indicate gains over your currently equipped items.</span>
+        <div class="flex items-center gap-2">
+          <button type="button" onclick="closeCompareModal()" class="px-5 py-1.5 rounded-lg text-xs font-bold text-black bg-amber-400 hover:bg-amber-300 shadow" data-i18n="closeModal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: BLOODMALLET OFFICIAL TRINKET RANKING -->
+  <div id="bloodmallet-modal" class="fixed inset-0 bg-black/85 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-wow-panel border border-wow-border rounded-xl max-w-4xl w-full max-h-[90vh] flex flex-col p-6 shadow-2xl space-y-4">
+      <div class="flex items-center justify-between border-b border-wow-border pb-3 flex-shrink-0">
+        <div class="flex items-center gap-2.5">
+          <div id="bm-modal-icon-box" class="w-8 h-8 rounded bg-red-950/80 border border-red-500 flex items-center justify-center text-red-400 transition-all shadow">
+            <i id="bm-modal-icon" class="fa-solid fa-fire"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-white flex items-center gap-2">
+              <span data-i18n="trinketModalTitle">Official Trinket Rankings</span>
+              <span id="bm-modal-spec-badge" class="text-xs px-2 py-0.5 rounded font-mono transition-all"></span>
+            </h3>
+            <p id="bm-modal-meta" class="text-xs text-slate-400">Live data extracted directly from bloodmallet.com / archon.gg</p>
+          </div>
+        </div>
+        <button onclick="closeBloodmalletModal()" class="text-slate-400 hover:text-white">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <!-- Filter / Search within modal -->
+      <div class="flex items-center justify-between gap-3 flex-shrink-0">
+        <div class="relative flex-1">
+          <i class="fa-solid fa-magnifying-glass absolute left-3 top-2.5 text-slate-400 text-xs"></i>
+          <input type="text" id="bm-modal-search" oninput="renderBloodmalletModalList()" placeholder="Filter trinket by name or source..." data-i18n-placeholder="trinketSearchPlaceholder" class="w-full bg-wow-input border border-wow-border rounded-lg pl-8 pr-3 py-1.5 text-xs text-white focus:outline-none focus:border-red-400" />
+        </div>
+        <div class="flex items-center gap-2 text-xs">
+          <label class="flex items-center gap-2 cursor-pointer bg-amber-950/40 border border-amber-500/60 hover:border-amber-400 px-3 py-1.5 rounded-lg text-xs transition select-none shadow-sm" title="Enable/disable official ranking priority (Bloodmallet / Archon) in optimizer">
+            <input type="checkbox" id="use-bloodmallet-scoring" checked onchange="onBloodmalletToggle()" class="rounded bg-black border-amber-500 text-amber-500 focus:ring-0">
+            <span class="text-amber-300 font-bold flex items-center gap-1.5"><i class="fa-solid fa-trophy text-amber-400"></i> <span data-i18n="prioritizeMetaRanking">Prioritize Meta Rankings</span></span>
+          </label>
+        </div>
+      </div>
+
+      <div id="bm-modal-content" class="flex-1 overflow-y-auto space-y-2 pr-1">
+        <!-- Injected via JS -->
+      </div>
+
+      <div class="pt-3 border-t border-wow-border flex items-center justify-between gap-2 flex-shrink-0">
+        <span class="text-xs text-slate-400" data-i18n="trinketFooterNote">Trinkets highlighted in yellow are currently in your inventory.</span>
+        <button type="button" onclick="closeBloodmalletModal()" class="px-5 py-1.5 rounded-lg text-xs font-semibold text-slate-300 hover:text-white bg-slate-800" data-i18n="closeModal">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: USER GUIDE & FAQ -->
+  <div id="help-modal" class="fixed inset-0 bg-black/85 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-wow-panel border border-wow-border rounded-xl max-w-2xl w-full max-h-[88vh] flex flex-col p-6 shadow-2xl space-y-4">
+      <div class="flex items-center justify-between border-b border-wow-border pb-3 flex-shrink-0">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded bg-amber-950/60 border border-amber-500 flex items-center justify-center text-amber-400">
+            <i class="fa-solid fa-book-open"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-white">Optimizer User Guide</h3>
+            <p class="text-xs text-slate-400">Step by step to optimize your gear, secondary stats, and vault rewards</p>
+          </div>
+        </div>
+        <button onclick="closeHelpModal()" class="text-slate-400 hover:text-white">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <div class="flex-1 overflow-y-auto space-y-3.5 text-xs text-slate-300 pr-1">
+        <!-- Step 1 -->
+        <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
+          <div class="flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[11px] flex items-center justify-center">1</span>
+            <h4 class="font-bold text-amber-300 text-sm">Load your Gear & Bags</h4>
+          </div>
+          <p class="text-slate-400 pl-7">
+            Click <strong class="text-emerald-300"><i class="fa-solid fa-file-import"></i> Import SimC</strong> and paste your in-game addon text (<code class="text-amber-300 font-mono">/simc</code>). The optimizer will automatically load your equipped items, bag gear, and weekly <strong class="text-yellow-300">Great Vault</strong> options.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
+          <div class="flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[11px] flex items-center justify-center">2</span>
+            <h4 class="font-bold text-amber-300 text-sm">Set Secondary Stat Targets</h4>
+          </div>
+          <p class="text-slate-400 pl-7">
+            Enter desired stat goals for <span class="text-purple-400 font-semibold">Mastery</span>, <span class="text-blue-400 font-semibold">Crit</span>, <span class="text-slate-300 font-semibold">Haste</span>, and <span class="text-emerald-400 font-semibold">Versatility</span>, or click any of the <strong class="text-amber-300">Recommended Presets</strong> from Wowhead / Archon to load them instantly.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
+          <div class="flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[11px] flex items-center justify-center">3</span>
+            <h4 class="font-bold text-amber-300 text-sm">Calculate the Best Setup</h4>
+          </div>
+          <div class="text-slate-400 pl-7 space-y-2">
+            <p>Click <strong class="text-amber-300">Calculate Best Setup</strong> to find the mathematically optimal combination among all available items.</p>
+            <ul class="space-y-1 text-slate-400 list-disc list-inside">
+              <li><strong class="text-yellow-300"><i class="fa-solid fa-vault mr-1"></i>Great Vault</strong>: See exactly which item from your weekly vault yields the highest stat compliance.</li>
+              <li><strong class="text-amber-400"><i class="fa-solid fa-lock mr-1"></i>Lock Items</strong>: Click the padlock icon on any item to force it into the combination.</li>
+              <li><strong class="text-purple-300"><i class="fa-solid fa-layer-group mr-1"></i>Tier Set Bonus</strong>: Require 2P or 4P set bonuses.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
+          <div class="flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[11px] flex items-center justify-center">4</span>
+            <h4 class="font-bold text-amber-300 text-sm">Gems, Enchants & Simulation</h4>
+          </div>
+          <p class="text-slate-400 pl-7">
+            Inspect the suggested <strong class="text-amber-300">smart gems</strong> and enchants. Click <strong class="text-emerald-300"><i class="fa-solid fa-file-export"></i> Export SimC</strong> to send the setup straight to <strong class="text-white">Raidbots</strong>.
+          </p>
+        </div>
+
+        <!-- Keyboard Shortcuts -->
+        <div class="bg-black/40 p-3.5 rounded-lg border border-wow-border/60 space-y-1.5">
+          <h4 class="font-bold text-slate-300 flex items-center gap-1.5"><i class="fa-solid fa-keyboard text-amber-400"></i> Keyboard Shortcuts</h4>
+          <div class="flex flex-wrap items-center gap-3 pt-1 pl-2 text-slate-400">
+            <span><kbd class="bg-slate-800 border border-slate-700 px-2 py-0.5 rounded text-white font-mono font-bold">Ctrl + Enter</kbd> Run Optimizer</span>
+            <span><kbd class="bg-slate-800 border border-slate-700 px-2 py-0.5 rounded text-white font-mono font-bold">Ctrl + K</kbd> Search Inventory</span>
+            <span><kbd class="bg-slate-800 border border-slate-700 px-2 py-0.5 rounded text-white font-mono font-bold">Esc</kbd> Close Modal</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-3 border-t border-wow-border flex justify-end flex-shrink-0">
+        <button type="button" onclick="closeHelpModal()" class="px-5 py-1.5 rounded-lg text-xs font-bold text-black bg-amber-400 hover:bg-amber-300 transition shadow" data-i18n="closeModal">Got it</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Core Modular Scripts -->
+  <script src="js/ui/i18n.js"></script>
+  <script src="js/data/classes_plate.js"></script>
+  <script src="js/data/classes_mail.js"></script>
+  <script src="js/data/classes_leather.js"></script>
+  <script src="js/data/classes_cloth.js"></script>
+  <script src="js/data/classes.js"></script>
+  <script src="js/data/state.js"></script>
+  <script src="js/data/gems.js"></script>
+  <script src="js/data/trinkets.js"></script>
+  <script src="js/engine/upgrade_tracks.js"></script>
+  <script src="js/engine/item_scaler.js"></script>
+  <script src="js/engine/simc_parser.js"></script>
+  <script src="js/engine/optimizer.js"></script>
+  <script src="js/engine/simc_exporter.js"></script>
+  <script src="js/ui/tooltips_ui.js"></script>
+  <script src="js/ui/target_ui.js"></script>
+  <script src="js/ui/item_modal_ui.js"></script>
+  <script src="js/ui/inventory_ui.js"></script>
+  <script src="js/ui/results_ui.js"></script>
+  <script src="js/ui/comparator_ui.js"></script>
+  <script src="js/ui/modals_ui.js"></script>
+  <script src="js/ui/tickets_ui.js"></script>
+  <script src="js/ui/dynamic_footer.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
