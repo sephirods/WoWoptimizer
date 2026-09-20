@@ -6,7 +6,7 @@
   <footer class="mt-auto border-t border-wow-border bg-[#0a0c12] py-6 px-3 sm:px-4 text-xs text-slate-400">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
       <div class="flex items-center gap-2 text-center md:text-left flex-wrap justify-center md:justify-start">
-        <span class="wow-title text-sm font-bold text-amber-400">WoW Optimizer</span>
+        <span class="wow-title text-sm font-bold text-amber-400">WoWTopGear</span>
         <span class="text-slate-600 hidden sm:inline">|</span>
         <span class="text-[10px] sm:text-[11px] text-slate-400">World of Warcraft® Stat & Gear Engine</span>
       </div>
@@ -58,10 +58,10 @@
       </div>
       <div class="text-xs text-slate-300 space-y-3 leading-relaxed">
         <p><strong class="text-white">Last Updated:</strong> September 2026</p>
-        <p>This Privacy Policy explains how <strong>WoW Optimizer</strong> ("we", "our") collects, uses, and protects information when you use our web application.</p>
+        <p>This Privacy Policy explains how <strong>WoWTopGear</strong> ("we", "our") collects, uses, and protects information when you use our web application.</p>
         
         <h4 class="font-bold text-amber-400 text-sm">1. Information We Process</h4>
-        <p>WoW Optimizer is a client-side calculator. When you paste your SimulationCraft (/simc) profile or character statistics, that data is processed directly inside your browser and stored locally on your device via <code>localStorage</code>. We do not store or transmit your character profiles to external private databases.</p>
+        <p>WoWTopGear is a client-side calculator. When you paste your SimulationCraft (/simc) profile or character statistics, that data is processed directly inside your browser and stored locally on your device via <code>localStorage</code>. We do not store or transmit your character profiles to external private databases.</p>
 
         <h4 class="font-bold text-amber-400 text-sm">2. Cookies & Local Storage</h4>
         <p>We use browser <code>localStorage</code> solely to preserve your selected character class, specialization, stat targets, inventory items, and language preferences across sessions so that you don't lose your setup when refreshing the page.</p>
@@ -102,16 +102,16 @@
       </div>
       <div class="text-xs text-slate-300 space-y-3 leading-relaxed">
         <p><strong class="text-white">Last Updated:</strong> September 2026</p>
-        <p>By using WoW Optimizer, you agree to these Terms of Service. If you disagree, please discontinue use of the tool.</p>
+        <p>By using WoWTopGear, you agree to these Terms of Service. If you disagree, please discontinue use of the tool.</p>
 
         <h4 class="font-bold text-amber-400 text-sm">1. Intended Use</h4>
-        <p>WoW Optimizer is a community-created utility designed to assist players in calculating secondary stat distributions and equipment combinations for World of Warcraft®. It is provided free of charge for personal, non-commercial use.</p>
+        <p>WoWTopGear is a community-created utility designed to assist players in calculating secondary stat distributions and equipment combinations for World of Warcraft®. It is provided free of charge for personal, non-commercial use.</p>
 
         <h4 class="font-bold text-amber-400 text-sm">2. Disclaimer of Warranties</h4>
         <p>The calculations, recommendations, and simulations provided are estimates based on mathematical models, community guides (Wowhead, Archon, Bloodmallet), and game data. They are provided "AS IS" without warranty of any kind.</p>
 
         <h4 class="font-bold text-amber-400 text-sm">3. Intellectual Property Rights</h4>
-        <p>World of Warcraft®, Warcraft®, Blizzard Entertainment® and all associated assets, artwork, and trademarks are the registered trademarks of Blizzard Entertainment, Inc. WoW Optimizer is not affiliated with, endorsed, or sponsored by Blizzard Entertainment.</p>
+        <p>World of Warcraft®, Warcraft®, Blizzard Entertainment® and all associated assets, artwork, and trademarks are the registered trademarks of Blizzard Entertainment, Inc. WoWTopGear is not affiliated with, endorsed, or sponsored by Blizzard Entertainment.</p>
       </div>
       <div class="pt-3 border-t border-wow-border flex justify-end">
         <button type="button" onclick="closeTermsModal()" class="px-5 py-1.5 rounded-lg text-xs font-bold text-black bg-amber-400 hover:bg-amber-300 shadow" data-i18n="closeModal">Close</button>

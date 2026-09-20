@@ -475,7 +475,7 @@ function copyDiscordSummary(resultIndex) {
   const specName = typeof getLocalizedSpecName === 'function' ? getLocalizedSpecName(currentSpec) : currentSpec.toUpperCase();
   
   const lines = [];
-  lines.push(`⚔️ **WoW Optimizer — ${className} (${specName.toUpperCase()})** ⚔️`);
+  lines.push(`⚔️ **WoWTopGear — ${className} (${specName.toUpperCase()})** ⚔️`);
   lines.push(`🏆 **${isEs ? 'Set Óptimo' : 'Optimal Setup'} #${resultIndex + 1}** (Tier: ${res.tierCount}/5 | ${isEs ? 'Ranuras' : 'Sockets'}: ${res.gemData?.recommendations?.length || 0})`);
   lines.push(`\n📊 **${isEs ? 'Estadísticas Base Puras' : 'Pure Base Stats'}**:`);
   lines.push(`• **${isEs ? 'Maestría' : 'Mastery'}**: ${res.totMast} (${res.diffMast >= 0 ? '+' : ''}${res.diffMast} ${isEs ? 'vs meta' : 'vs target'})`);
