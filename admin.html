@@ -121,6 +121,10 @@
           <i class="fa-solid fa-bullhorn text-cyan-400"></i> Noticias & Blues
           <span id="tab-news-badge" class="ml-1 text-[10px] px-1.5 py-0.2 rounded-full font-mono bg-slate-800 text-slate-400 border border-slate-700">Auto</span>
         </button>
+        <button onclick="switchAdminTab('analytics')" id="nav-analytics" class="admin-tab-btn flex-1 min-w-[175px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-violet-300 hover:bg-violet-950/20 border border-transparent relative">
+          <i class="fa-solid fa-chart-line text-violet-400"></i> Tráfico & Vistas
+          <span class="ml-1 text-[10px] px-1.5 py-0.2 rounded-full font-mono bg-emerald-950 text-emerald-400 border border-emerald-500/50">Live</span>
+        </button>
       </div>
 
       <!-- TAB 1: RESUMEN / ESTADO GENERAL -->
@@ -144,8 +148,8 @@
           </div>
         </div>
 
-        <!-- 5 Dataset Status Cards Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+        <!-- 6 Dataset & Traffic Status Cards Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           
           <!-- Card Archon -->
           <div class="bg-wow-card border border-purple-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-purple-500/60 transition">
@@ -156,8 +160,8 @@
               <span id="overview-archon-status" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold">Por Defecto</span>
             </div>
             <div>
-              <h3 class="text-sm font-bold text-white">Presets Archon.gg</h3>
-              <p class="text-[11px] text-slate-400">Builds de M+ y Raid para las 39 specs.</p>
+              <h3 class="text-sm font-bold text-white">Presets Archon</h3>
+              <p class="text-[11px] text-slate-400">M+ y Raid 39 specs.</p>
             </div>
             <button onclick="switchAdminTab('archon')" class="w-full text-xs bg-purple-950/40 hover:bg-purple-900/60 text-purple-200 border border-purple-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
               Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
@@ -173,8 +177,8 @@
               <span id="overview-stat-priorities-status" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold">Por Defecto</span>
             </div>
             <div>
-              <h3 class="text-sm font-bold text-white">Prioridades Wowhead</h3>
-              <p class="text-[11px] text-slate-400">Pesos y Árboles Héroe oficiales.</p>
+              <h3 class="text-sm font-bold text-white">Prioridades Stats</h3>
+              <p class="text-[11px] text-slate-400">Pesos y Árboles Héroe.</p>
             </div>
             <button onclick="switchAdminTab('stat_priorities')" class="w-full text-xs bg-emerald-950/40 hover:bg-emerald-900/60 text-emerald-200 border border-emerald-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
               Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
@@ -191,7 +195,7 @@
             </div>
             <div>
               <h3 class="text-sm font-bold text-white">Enchants & Comida</h3>
-              <p class="text-[11px] text-slate-400">Gemas, frascos e iconos reales.</p>
+              <p class="text-[11px] text-slate-400">Gemas, frascos e iconos.</p>
             </div>
             <button onclick="switchAdminTab('wowhead')" class="w-full text-xs bg-amber-950/40 hover:bg-amber-900/60 text-amber-200 border border-amber-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
               Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
@@ -207,8 +211,8 @@
               <span id="overview-bloodmallet-status" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold">Por Defecto</span>
             </div>
             <div>
-              <h3 class="text-sm font-bold text-white">Sims Bloodmallet</h3>
-              <p class="text-[11px] text-slate-400">Rankings de abalorios por spec.</p>
+              <h3 class="text-sm font-bold text-white">Bloodmallet DPS</h3>
+              <p class="text-[11px] text-slate-400">Sims abalorios por spec.</p>
             </div>
             <button onclick="switchAdminTab('bloodmallet')" class="w-full text-xs bg-red-950/40 hover:bg-red-900/60 text-red-200 border border-red-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
               Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
@@ -225,10 +229,27 @@
             </div>
             <div>
               <h3 class="text-sm font-bold text-white">Noticias & Blues</h3>
-              <p class="text-[11px] text-slate-400" id="overview-news-subtext">Blizzard Forums & Wowhead RSS.</p>
+              <p class="text-[11px] text-slate-400" id="overview-news-subtext">Foros & Wowhead RSS.</p>
             </div>
             <button onclick="switchAdminTab('news')" class="w-full text-xs bg-cyan-950/40 hover:bg-cyan-900/60 text-cyan-200 border border-cyan-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
               Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </button>
+          </div>
+
+          <!-- Card Tráfico & Vistas (GoatCounter) -->
+          <div class="bg-wow-card border border-violet-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-violet-500/60 transition">
+            <div class="flex items-center justify-between">
+              <div class="w-9 h-9 rounded-xl bg-violet-950/60 border border-violet-500/50 flex items-center justify-center text-violet-400">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <span class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-emerald-950 text-emerald-400 border border-emerald-500/50 font-bold">En Vivo</span>
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-white">Tráfico & Vistas</h3>
+              <p class="text-[11px] text-slate-400">Vistas y Visitantes únicos.</p>
+            </div>
+            <button onclick="switchAdminTab('analytics')" class="w-full text-xs bg-violet-950/40 hover:bg-violet-900/60 text-violet-200 border border-violet-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
+              Ver Métricas <i class="fa-solid fa-arrow-right text-[10px]"></i>
             </button>
           </div>
 
@@ -686,6 +707,101 @@
         </div>
       </section>
 
+      <!-- TAB 9: TRÁFICO, VISITAS Y AUDIENCIA (GOATCOUNTER) -->
+      <section id="tab-analytics" class="admin-tab-pane hidden space-y-6">
+        <div class="bg-wow-card border border-violet-500/40 rounded-2xl p-6 shadow-xl space-y-6">
+          
+          <!-- Encabezado de métricas -->
+          <div class="flex items-center justify-between flex-wrap gap-4 pb-4 border-b border-wow-border">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-violet-950/80 border border-violet-500/60 flex items-center justify-center text-violet-300 text-lg shadow">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2.5">
+                  <h3 class="text-base font-bold text-violet-300">Monitoreo de Tráfico y Visitas Únicas</h3>
+                  <span class="font-mono text-[10px] text-emerald-400 bg-emerald-950/80 border border-emerald-500/50 px-2.5 py-0.5 rounded-full font-bold">GoatCounter Live</span>
+                </div>
+                <p class="text-xs text-slate-400 mt-0.5">
+                  Conteo en tiempo real de páginas vistas y visitantes únicos (agrupados anónimamente por IP) para <code class="text-slate-200 font-mono">index.html</code> y <code class="text-slate-200 font-mono">gearsim.html</code>.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <a href="https://sephirods.goatcounter.com" target="_blank" rel="noopener noreferrer" class="text-xs bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white border border-violet-400/40 px-4 py-2 rounded-xl font-bold flex items-center gap-2 transition shadow-lg">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Abrir Panel Completo
+              </a>
+            </div>
+          </div>
+
+          <!-- 3 Tarjetas de Resumen Rápido -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-wow-subcard border border-violet-500/30 rounded-xl p-4 shadow space-y-2">
+              <div class="flex items-center justify-between text-xs text-slate-400">
+                <span class="font-bold flex items-center gap-1.5"><i class="fa-solid fa-house text-violet-400"></i> Portada (Index)</span>
+                <span class="font-mono text-[11px] px-2 py-0.5 rounded bg-violet-950/50 text-violet-300 border border-violet-500/30">/index.html</span>
+              </div>
+              <div class="text-xs text-slate-300">
+                Página principal con héroe Midnight 12.1, calculadora rápida y noticias dinámicas.
+              </div>
+              <div class="pt-1 flex items-center gap-2">
+                <a href="https://sephirods.goatcounter.com/?filter=/" target="_blank" class="text-[11px] text-violet-300 hover:text-white font-semibold flex items-center gap-1">
+                  Ver detalle en GoatCounter <i class="fa-solid fa-chevron-right text-[9px]"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="bg-wow-subcard border border-violet-500/30 rounded-xl p-4 shadow space-y-2">
+              <div class="flex items-center justify-between text-xs text-slate-400">
+                <span class="font-bold flex items-center gap-1.5"><i class="fa-solid fa-calculator text-amber-400"></i> Simulador (GearSim)</span>
+                <span class="font-mono text-[11px] px-2 py-0.5 rounded bg-amber-950/50 text-amber-300 border border-amber-500/30">/gearsim.html</span>
+              </div>
+              <div class="text-xs text-slate-300">
+                Optimizador multiclase con Bloodmallet, Archon, gemas, comida y exportador SimC.
+              </div>
+              <div class="pt-1 flex items-center gap-2">
+                <a href="https://sephirods.goatcounter.com/?filter=/gearsim" target="_blank" class="text-[11px] text-amber-300 hover:text-white font-semibold flex items-center gap-1">
+                  Ver detalle en GoatCounter <i class="fa-solid fa-chevron-right text-[9px]"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="bg-wow-subcard border border-violet-500/30 rounded-xl p-4 shadow space-y-2">
+              <div class="flex items-center justify-between text-xs text-slate-400">
+                <span class="font-bold flex items-center gap-1.5"><i class="fa-solid fa-user-shield text-emerald-400"></i> Privacidad & GDPR</span>
+                <span class="font-mono text-[11px] px-2 py-0.5 rounded bg-emerald-950/50 text-emerald-300 border border-emerald-500/30">100% Limpio</span>
+              </div>
+              <div class="text-xs text-slate-300">
+                Conteo de visitantes únicos por IP con hash irreversible diario, sin cookies invasivas ni riesgo de bloqueo.
+              </div>
+              <div class="pt-1 flex items-center gap-2 text-[11px] text-emerald-400 font-mono">
+                <i class="fa-solid fa-check-double text-xs"></i> 0 advertencias antivirus
+              </div>
+            </div>
+          </div>
+
+          <!-- Marco con el Dashboard Embebido de GoatCounter -->
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <h4 class="text-xs font-bold text-slate-200 uppercase tracking-wider flex items-center gap-2">
+                <i class="fa-solid fa-chart-simple text-violet-400"></i> Panel Interactivo de Métricas en Vivo
+              </h4>
+              <button onclick="reloadAnalyticsFrame()" class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 px-3 py-1.5 rounded-lg font-bold flex items-center gap-1.5 transition">
+                <i class="fa-solid fa-arrows-rotate text-violet-400"></i> Recargar Panel
+              </button>
+            </div>
+            <div class="relative w-full rounded-2xl overflow-hidden border border-wow-border bg-[#0b0e17] shadow-2xl" style="height: 650px;">
+              <iframe id="analytics-iframe" src="https://sephirods.goatcounter.com" class="w-full h-full border-0" title="GoatCounter Analytics Dashboard" loading="lazy"></iframe>
+            </div>
+            <p class="text-[11px] text-slate-400">
+              * Nota: Si tu navegador bloquea la carga en iframe por políticas de cookies de terceros, puedes pulsar en <a href="https://sephirods.goatcounter.com" target="_blank" class="text-violet-400 underline font-bold hover:text-violet-300">Abrir Panel Completo</a> para visualizarlo directamente.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
     </div>
 
   </main>
@@ -792,6 +908,8 @@
           activeBtn.className = 'admin-tab-btn flex-1 min-w-[160px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-amber-300 bg-amber-950/40 border border-amber-500/50 shadow';
         } else if (tabId === 'news') {
           activeBtn.className = 'admin-tab-btn flex-1 min-w-[170px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-cyan-300 bg-cyan-950/40 border border-cyan-500/50 shadow';
+        } else if (tabId === 'analytics') {
+          activeBtn.className = 'admin-tab-btn flex-1 min-w-[175px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-violet-300 bg-violet-950/40 border border-violet-500/50 shadow';
         }
       }
 
@@ -801,6 +919,15 @@
         renderTicketsTable();
       } else if (tabId === 'news') {
         renderAdminNewsPreview();
+      } else if (tabId === 'analytics') {
+        reloadAnalyticsFrame();
+      }
+    }
+
+    function reloadAnalyticsFrame() {
+      const iframe = document.getElementById('analytics-iframe');
+      if (iframe) {
+        iframe.src = 'https://sephirods.goatcounter.com?_=' + Date.now();
       }
     }
 

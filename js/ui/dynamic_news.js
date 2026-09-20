@@ -166,6 +166,11 @@ const DEFAULT_PINNED_NEWS_IDS = ['blizz-30111968'];
     renderBlizzardNews();
     renderBlueTracker();
     renderRecentNews();
+
+    // Generar/actualizar Schema.org JSON-LD (NewsArticle / ItemList) para SEO
+    if (typeof injectNewsSeoSchema === 'function') {
+      try { injectNewsSeoSchema(); } catch (e) {}
+    }
   }
 
   if (document.readyState === 'loading') {
@@ -518,6 +523,70 @@ function renderBlizzardNews() {
       </div>
     </div>
   `;
+}
+
+// Inyectar Schema.org JSON-LD (NewsArticle / ItemList) para posicionamiento orgánico en Google
+function injectNewsSeoSchema() {
+  if (typeof document === 'undefined') return;
+  try {
+    const db = getNewsDatabase();
+    const lang = getActiveLanguage();
+    const articles = [
+      ...(db.pinnedHighlights || []),
+      ...(db.blizzardNews || []),
+      ...(db.blueTracker || []),
+      ...(db.recentNews || [])
+    ].slice(0, 10);
+
+    if (!articles.length) return;
+
+    const schemaData = {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": lang === 'en' ? "World of Warcraft Midnight News & Balance Updates" : "Noticias y Ajustes de Balance de World of Warcraft Midnight",
+      "itemListElement": articles.map((item, idx) => {
+        const itemTitle = resolveLocalized(item.title, lang);
+        const itemSummary = resolveLocalized(item.summary, lang) || itemTitle;
+        let publishedDate = new Date().toISOString();
+        if (item.dateRaw) {
+          const parsed = new Date(item.dateRaw);
+          if (!isNaN(parsed.getTime())) publishedDate = parsed.toISOString();
+        }
+        return {
+          "@type": "ListItem",
+          "position": idx + 1,
+          "item": {
+            "@type": "NewsArticle",
+            "headline": itemTitle,
+            "description": itemSummary,
+            "datePublished": publishedDate,
+            "image": item.imageUrl || "https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png",
+            "author": {
+              "@type": "Organization",
+              "name": item.author || "Blizzard Entertainment"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "WoWOptimizer",
+              "url": "https://wowoptimizer.wasmer.app/"
+            },
+            "mainEntityOfPage": `https://wowoptimizer.wasmer.app/#news-${item.id}`
+          }
+        };
+      })
+    };
+
+    let scriptEl = document.getElementById('news-schema-jsonld');
+    if (!scriptEl) {
+      scriptEl = document.createElement('script');
+      scriptEl.id = 'news-schema-jsonld';
+      scriptEl.type = 'application/ld+json';
+      document.head.appendChild(scriptEl);
+    }
+    scriptEl.textContent = JSON.stringify(schemaData, null, 2);
+  } catch (err) {
+    console.warn('Error inyectando NewsArticle Schema:', err);
+  }
 }
 
 function renderBlueTracker() {
@@ -986,5 +1055,12 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closeArticleModal();
 });
 
-
-
+// Sincronizar Schema SEO al cambiar de idioma o al actualizar datos de noticias
+window.addEventListener('languageChanged', () => {
+  if (typeof injectNewsSeoSchema === 'function') injectNewsSeoSchema();
+});
+window.addEventListener('storage', (e) => {
+  if (e.key === 'wow_custom_news_data' || e.key === 'wow_lang') {
+    if (typeof injectNewsSeoSchema === 'function') injectNewsSeoSchema();
+  }
+});
