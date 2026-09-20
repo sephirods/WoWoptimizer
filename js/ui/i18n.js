@@ -500,6 +500,7 @@ function updateLanguageUI() {
     runOptimizer();
   }
   if (typeof renderPinnedNews === 'function') renderPinnedNews();
+  if (typeof renderBlizzardNews === 'function') renderBlizzardNews();
   if (typeof renderBlueTracker === 'function') renderBlueTracker();
   if (typeof renderRecentNews === 'function') renderRecentNews();
   if (typeof refreshArticleModalLanguage === 'function') refreshArticleModalLanguage();

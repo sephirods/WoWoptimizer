@@ -1,8 +1,15 @@
 // MOTOR AUTOMATIZADO DE SINCRONIZACIÓN EN VIVO: BLIZZARD BLUE TRACKER Y WOWHEAD NEWS
 // Obtiene publicaciones oficiales en tiempo real de Blizzard Forums (API Discourse) y Wowhead Retail RSS
 
-const WOW_NEWS_CACHE_KEY = 'wow_live_news_cache_v11';
+const WOW_NEWS_CACHE_KEY = 'wow_live_news_cache_v13';
 const WOW_NEWS_CACHE_TTL = 30 * 60 * 1000; // 30 minutos
+
+// Limpiar cachés anteriores obsoletas
+try {
+  ['wow_live_news_cache_v10', 'wow_live_news_cache_v11', 'wow_live_news_cache_v12', 'wow_midnight_news_cache_v1', 'wow_midnight_news_cache_v2'].forEach(k => {
+    localStorage.removeItem(k);
+  });
+} catch (e) {}
 
 // Limpiar tags HTML simples para resúmenes
 function stripHtmlTags(html) {
@@ -631,16 +638,19 @@ async function syncLiveNews(force = false) {
     // Ordenar estrictamente por fecha descendente
     finalBlues.sort((a, b) => new Date(b.dateRaw || 0) - new Date(a.dateRaw || 0));
 
-    // Fusionar noticias Wowhead
+    // Fusionar noticias Wowhead preservando las versiones enriquecidas y verificadas
     const existingNews = fallbackDb.recentNews || [];
     const newsMap = new Map();
-    existingNews.forEach(item => { if (item.id) newsMap.set(item.id, item); });
+    // Primero registrar las noticias descargadas nuevas si las hubiera
     news.forEach(item => { if (item.id) newsMap.set(item.id, item); });
+    // Luego superponer las noticias locales verificadas (tienen HTML completo, iconos y traducciones oficiales)
+    existingNews.forEach(item => { if (item.id) newsMap.set(item.id, item); });
     const finalNews = Array.from(newsMap.values());
     finalNews.sort((a, b) => new Date(b.dateRaw || 0) - new Date(a.dateRaw || 0));
 
     const mergedData = {
       blueTracker: finalBlues.length > 0 ? finalBlues : fallbackDb.blueTracker,
+      blizzardNews: fallbackDb.blizzardNews || [],
       recentNews: finalNews.length > 0 ? finalNews : fallbackDb.recentNews,
       lastUpdated: new Date().toISOString()
     };
@@ -655,6 +665,7 @@ async function syncLiveNews(force = false) {
 
     // Disparar re-renderizado si la UI de noticias está lista
     if (typeof renderPinnedNews === 'function') renderPinnedNews();
+    if (typeof renderBlizzardNews === 'function') renderBlizzardNews();
     if (typeof renderBlueTracker === 'function') renderBlueTracker();
     if (typeof renderRecentNews === 'function') renderRecentNews();
 

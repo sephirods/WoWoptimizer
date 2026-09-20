@@ -36,3 +36,8 @@
 - Present what was modified clearly to the user.
 - Wait for the user to visually review, test, and approve before touching any Git write or deployment actions.
 
+## 5. Execution Directives & Interaction Cadence (MANDATORY)
+
+- **MANDATORY TURN 1 RESPONSE & PERMISSION**: The assistant MUST respond to the user on Turn 1 before executing actions, explaining what will be done and requesting permission to proceed. Never execute changes silently.
+- **CHECK-IN EVERY 3 TURNS**: Once authorized, provide a clear progress update at least once every 3 turns/actions before continuing, UNLESS the user explicitly states to proceed autonomously until the end.
+- **NO SILENT ANALYSIS LOOPS**: Never spend multiple minutes or get trapped in long investigation loops. Report findings directly and maintain constant communication.

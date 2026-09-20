@@ -20,6 +20,11 @@ const DEFAULT_PINNED_NEWS_IDS = ['blizz-30111968'];
         <!-- Rendered dynamically -->
       </div>
 
+      <!-- Blizzard Official News Carousel / Cards Section -->
+      <div id="blizzard-news-container" class="space-y-4">
+        <!-- Rendered dynamically -->
+      </div>
+
       <!-- 2 Columns Grid: Blue Tracker + Recent News -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
         
@@ -158,6 +163,7 @@ const DEFAULT_PINNED_NEWS_IDS = ['blizz-30111968'];
 
     // Renderizar contenidos de los feeds
     renderPinnedNews();
+    renderBlizzardNews();
     renderBlueTracker();
     renderRecentNews();
   }
@@ -246,7 +252,7 @@ function getNewsDatabase() {
   } catch (e) {}
 
   // 2. Base de datos oficial local empaquetada (siempre fresca y con traducciones verificadas)
-  const baseDb = window.WOW_NEWS_DATABASE || { blueTracker: [], recentNews: [] };
+  const baseDb = window.WOW_NEWS_DATABASE || { blueTracker: [], blizzardNews: [], recentNews: [] };
 
   // 3. Si el sincronizador en vivo descargó nuevos hilos más recientes, fusionarlos
   // sin pisar nunca los contenidos completos ni las traducciones nativas verificadas
@@ -271,9 +277,16 @@ function getNewsDatabase() {
       baseMap.set(lb.id, lb);
     });
 
+    // Asegurar que las noticias Wowhead enriquecidas y verificadas de baseDb se preserven
+    const liveNewsList = (window.WOW_LIVE_NEWS_DATA.recentNews && window.WOW_LIVE_NEWS_DATA.recentNews.length > 0) ? window.WOW_LIVE_NEWS_DATA.recentNews : (baseDb.recentNews || []);
+    const mergedRecentMap = new Map();
+    liveNewsList.forEach(item => { if (item.id) mergedRecentMap.set(item.id, item); });
+    (baseDb.recentNews || []).forEach(item => { if (item.id) mergedRecentMap.set(item.id, item); });
+
     return {
       blueTracker: Array.from(baseMap.values()),
-      recentNews: (window.WOW_LIVE_NEWS_DATA.recentNews && window.WOW_LIVE_NEWS_DATA.recentNews.length > 0) ? window.WOW_LIVE_NEWS_DATA.recentNews : (baseDb.recentNews || [])
+      blizzardNews: baseDb.blizzardNews || [],
+      recentNews: Array.from(mergedRecentMap.values())
     };
   }
 
@@ -316,7 +329,7 @@ function renderPinnedNews() {
 
   const lang = getActiveLanguage();
   const db = getNewsDatabase();
-  const allArticles = [...(db.blueTracker || []), ...(db.recentNews || [])];
+  const allArticles = [...(db.blueTracker || []), ...(db.blizzardNews || []), ...(db.recentNews || [])];
   
   // Agrupar canónicamente para evitar que fijar US y EU duplique la misma tarjeta
   const groupedArticles = typeof groupCanonicalNews === 'function' ? groupCanonicalNews(allArticles) : allArticles;
@@ -412,11 +425,99 @@ if (typeof window !== 'undefined') {
   window.addEventListener('storage', (e) => {
     if (e.key === 'wow_pinned_news_ids' || e.key === 'wow_custom_news_data') {
       renderPinnedNews();
+      renderBlizzardNews();
     }
   });
   window.addEventListener('wow_pinned_news_updated', () => {
     renderPinnedNews();
+    renderBlizzardNews();
   });
+}
+
+function renderBlizzardNews() {
+  const container = document.getElementById('blizzard-news-container');
+  if (!container) return;
+
+  const lang = getActiveLanguage();
+  const db = getNewsDatabase();
+  const list = db.blizzardNews || [];
+
+  if (list.length === 0) {
+    container.classList.add('hidden');
+    container.innerHTML = '';
+    return;
+  }
+
+  container.classList.remove('hidden');
+
+  const titleText = lang === 'en' ? 'Blizzard Official Articles & Features' : 'Artículos Oficiales de Blizzard';
+  const badgeText = lang === 'en' ? 'Official' : 'Oficial';
+  const readFullText = lang === 'en' ? 'Read full article' : 'Leer artículo completo';
+
+  container.innerHTML = `
+    <div class="bg-wow-card border border-sky-500/40 rounded-2xl p-4 sm:p-5 shadow-2xl space-y-4">
+      <div class="flex items-center justify-between pb-3 border-b border-sky-500/20 gap-3 flex-wrap">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-lg bg-sky-950/80 border border-sky-500/50 flex items-center justify-center text-sky-400 text-sm font-bold shadow shrink-0">
+            <i class="fa-solid fa-scroll"></i>
+          </div>
+          <div>
+            <h3 class="text-sm sm:text-base font-bold text-white flex items-center gap-2">
+              <span>${titleText}</span>
+              <span class="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-sky-500/20 border border-sky-500/40 text-sky-300">
+                ${list.length}
+              </span>
+            </h3>
+          </div>
+        </div>
+        <span class="text-[11px] font-mono text-sky-400/80 flex items-center gap-1.5">
+          <i class="fa-solid fa-circle-check text-[10px]"></i> ${lang === 'en' ? 'Verified Blizzard Editorial' : 'Editorial Verificada de Blizzard'}
+        </span>
+      </div>
+
+      <!-- Grid responsive horizontal / 3 columnas en desktop -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4">
+        ${list.map(item => {
+          const itemTitle = resolveLocalized(item.title, lang);
+          const itemSummary = resolveLocalized(item.summary, lang);
+          const timeDisplay = item.dateRaw || 'Reciente';
+          const coverImg = item.imageUrl || 'https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png';
+
+          return `
+            <div onclick="openArticleModal('${item.id}', 'blizzard')" class="group cursor-pointer bg-black/40 hover:bg-black/70 border border-sky-500/25 hover:border-sky-400/70 rounded-xl overflow-hidden transition duration-200 shadow-md flex flex-col justify-between">
+              <!-- Cover Image -->
+              <div class="w-full h-36 sm:h-40 overflow-hidden relative bg-black/60 shrink-0">
+                <img src="${coverImg}" alt="${itemTitle}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" loading="lazy" />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20"></div>
+                <span class="absolute top-2.5 left-2.5 text-[9px] font-mono font-bold px-2 py-0.5 rounded-full border border-sky-400/60 bg-sky-950/90 text-sky-200 shadow">
+                  ${badgeText}
+                </span>
+              </div>
+
+              <!-- Content details -->
+              <div class="p-3.5 sm:p-4 flex-1 flex flex-col justify-between space-y-2">
+                <div class="space-y-1.5">
+                  <div class="text-[10px] text-sky-400 font-mono flex items-center gap-1.5">
+                    <i class="fa-regular fa-calendar-days text-[10px]"></i> ${timeDisplay}
+                  </div>
+                  <h4 class="text-xs sm:text-sm font-bold text-slate-100 group-hover:text-sky-300 transition line-clamp-2 leading-snug">
+                    ${itemTitle}
+                  </h4>
+                </div>
+
+                <div class="pt-2 border-t border-white/5 flex items-center justify-between text-[11px] font-semibold text-sky-400 group-hover:text-sky-300">
+                  <span class="flex items-center gap-1">
+                    ${readFullText} <i class="fa-solid fa-arrow-right text-[10px] group-hover:translate-x-1 transition"></i>
+                  </span>
+                  <i class="fa-solid fa-book-open text-xs text-sky-500/60"></i>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    </div>
+  `;
 }
 
 function renderBlueTracker() {
@@ -592,7 +693,7 @@ function openArticleModal(articleId, source = 'auto') {
 
   const lang = getActiveLanguage();
   const db = getNewsDatabase();
-  const allArticles = [...(db.blueTracker || []), ...(db.recentNews || [])];
+  const allArticles = [...(db.blueTracker || []), ...(db.blizzardNews || []), ...(db.recentNews || [])];
   const groupedArticles = typeof groupCanonicalNews === 'function' ? groupCanonicalNews(allArticles) : allArticles;
 
   article = groupedArticles.find(x => x.id === articleId || (x.aliasIds && x.aliasIds.includes(articleId))) ||

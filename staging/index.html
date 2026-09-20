@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staging Preview - Bot Autónomo de Noticias WoW</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Wowhead Official CDN & Tooltips Setup -->
+  <link rel="stylesheet" href="https://wow.zamimg.com/css/basic.css">
+  <link rel="stylesheet" href="https://wow.zamimg.com/css/global.css">
+  <link rel="stylesheet" href="https://wow.zamimg.com/css/themes/theme-live.css">
+  <script>
+    window.WH = window.WH || {};
+    window.WH.staticUrl = 'https://wow.zamimg.com';
+    window.WH.staticStorageUrl = 'https://wow.zamimg.com';
+    window.WH.wowheadUrl = 'https://www.wowhead.com';
+    window.WH.dataEnv = { staticUrl: 'https://wow.zamimg.com' };
+    
+    // Configuración oficial de Wowhead Tooltips para sitios externos
+    const whTooltips = {
+      colorLinks: true,
+      iconizeLinks: false,
+      renameLinks: false
+    };
+
+    // SOLUCIÓN DEFINITIVA AUTOMÁTICA: Convertir el ins de Wowhead a <img> real en tiempo de ejecución
+    document.addEventListener('DOMContentLoaded', () => {
+      const observer = new MutationObserver((mutations) => {
+        for (const mutation of mutations) {
+          for (const node of mutation.addedNodes) {
+            if (node.nodeType === 1 && (node.classList.contains('whtt-tooltip-icon') || node.querySelector?.('.whtt-tooltip-icon'))) {
+              const iconBox = node.classList.contains('whtt-tooltip-icon') ? node : node.querySelector('.whtt-tooltip-icon');
+              const ins = iconBox?.querySelector('ins');
+              if (ins && !iconBox.querySelector('img.wh-fixed-icon')) {
+                const match = ins.style.backgroundImage.match(/url\(['"]?(.*?)['"]?\)/);
+                if (match && match[1]) {
+                  const img = document.createElement('img');
+                  img.className = 'wh-fixed-icon';
+                  img.src = match[1];
+                  img.style.cssText = 'width:44px;height:44px;border-radius:4px;display:block;position:absolute;top:0;left:0;z-index:5;';
+                  iconBox.querySelector('.iconmedium')?.appendChild(img);
+                }
+              }
+            }
+          }
+        }
+      });
+      observer.observe(document.body, { childList: true, subtree: true });
+    });
+  </script>
+  <script src="https://wow.zamimg.com/js/tooltips.js"></script>
+
+  <style>
+    body { background-color: #0b0f19; color: #e2e8f0; font-family: system-ui, -apple-system, sans-serif; }
+    
+    /* ICONO OFICIAL DEL TOOLTIP (44x44 A LA IZQUIERDA CON SU IMAGEN) */
+    .whtt-tooltip-icon {
+      position: absolute !important;
+      left: -54px !important;
+      top: 0 !important;
+      width: 44px !important;
+      height: 44px !important;
+      display: block !important;
+      visibility: visible !important;
+      z-index: 100 !important;
+    }
+    .whtt-tooltip-icon .iconmedium {
+      width: 44px !important;
+      height: 44px !important;
+      display: block !important;
+      position: relative !important;
+      background: #000 !important;
+      border: none !important;
+    }
+    .whtt-tooltip-icon .iconmedium ins {
+      display: block !important;
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 44px !important;
+      height: 44px !important;
+      background-size: cover !important;
+      background-position: center !important;
+      border-radius: 4px !important;
+      z-index: 1 !important;
+    }
+    .whtt-tooltip-icon .iconmedium del {
+      display: block !important;
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 44px !important;
+      height: 44px !important;
+      pointer-events: none !important;
+      z-index: 2 !important;
+    }
+
+    /* REGLA LIMPIA: Alinear iconos y texto en una sola linea sin romper */
+    .icontiny, a.icontiny, a[data-entity="item"] {
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 4px !important;
+      vertical-align: middle !important;
+      text-decoration: none !important;
+    }
+    .icontiny img {
+      margin: 0 !important;
+      vertical-align: middle !important;
+    }
+    /* Botones CTA oficiales de Wowhead (.wh-button / .zam-button) */
+    .wh-button, .zam-button {
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-direction: row !important; /* Icono a la izquierda, texto a la derecha */
+      gap: 10px !important;
+      background: #181d27 !important;
+      border: 1px solid #3b4252 !important;
+      border-radius: 8px !important;
+      padding: 8px 16px !important;
+      color: #f3f4f6 !important;
+      font-weight: 700 !important;
+      font-size: 14px !important;
+      text-decoration: none !important;
+      width: auto !important;
+      max-width: fit-content !important;
+      margin: 14px auto !important;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+      transition: all 0.2s ease !important;
+    }
+    .wh-button:hover, .zam-button:hover {
+      background: #252d3d !important;
+      border-color: #f59e0b !important;
+      transform: translateY(-1px) !important;
+    }
+    .wh-button-icon, .zam-button-icon {
+      border: none !important;
+      background: transparent !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      box-shadow: none !important;
+      display: flex !important;
+      align-items: center !important;
+    }
+    .wh-button-icon img, .zam-button-icon img {
+      width: 24px !important;
+      height: 24px !important;
+      border-radius: 4px !important;
+      border: 1px solid rgba(0,0,0,0.6) !important;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.6) !important;
+      display: block !important;
+    }
+    /* TABLAS DE NOTICIAS DE WOW */
+    .wowhead-container table, #modal-content table {
+      width: 100% !important;
+      border-collapse: collapse !important;
+      margin: 18px 0 !important;
+      background: #111622 !important;
+      border: 1px solid #283044 !important;
+      border-radius: 8px !important;
+      overflow: hidden !important;
+    }
+    .wowhead-container th, #modal-content th {
+      background: #182030 !important;
+      color: #f1f5f9 !important;
+      font-weight: 700 !important;
+      text-align: left !important;
+      padding: 10px 14px !important;
+      border-bottom: 2px solid #334155 !important;
+      border-right: 1px solid #283044 !important;
+    }
+    .wowhead-container td, #modal-content td {
+      padding: 9px 14px !important;
+      border-bottom: 1px solid #1e293b !important;
+      border-right: 1px solid #1e293b !important;
+      color: #cbd5e1 !important;
+    }
+    .wowhead-container tr:hover, #modal-content tr:hover {
+      background: rgba(255, 255, 255, 0.03) !important;
+    }
+
+    /* LISTAS ANIDADAS CON VIÑETAS (BLUE POSTS Y NOTAS DE PARCHE) */
+    .wowhead-container ul, #modal-content ul {
+      list-style-type: disc !important;
+      padding-left: 1.5rem !important;
+      margin: 0.5rem 0 0.75rem 0 !important;
+    }
+    .wowhead-container ul ul, #modal-content ul ul {
+      list-style-type: circle !important;
+      padding-left: 1.25rem !important;
+      margin: 0.25rem 0 !important;
+    }
+    .wowhead-container ul ul ul, #modal-content ul ul ul {
+      list-style-type: square !important;
+      padding-left: 1rem !important;
+    }
+    .wowhead-container li, #modal-content li {
+      margin-bottom: 0.35rem !important;
+      line-height: 1.5 !important;
+    }
+
+    /* IMÁGENES Y PIES DE FOTO / LEYENDAS */
+    .wowhead-container img, #modal-content img {
+      max-width: 100% !important;
+      height: auto !important;
+      border-radius: 8px !important;
+      margin: 12px auto !important;
+      display: block !important;
+    }
+    .wowhead-container em, #modal-content em,
+    .wowhead-container i, #modal-content i {
+      display: inline !important;
+      font-style: italic !important;
+      text-align: inherit !important;
+    }
+    .wowhead-container figcaption, #modal-content figcaption,
+    .wowhead-container .caption, #modal-content .caption {
+      display: block;
+      text-align: center;
+      font-size: 13px;
+      color: #94a3b8;
+      margin-top: 4px;
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body class="p-4 sm:p-8 min-h-screen">
+  <div class="max-w-6xl mx-auto">
+    <!-- Header Staging -->
+    <header class="mb-8 p-6 bg-slate-900/80 border border-amber-500/30 rounded-2xl shadow-xl flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 bg-amber-500/10 border border-amber-500/40 rounded-full text-amber-400 text-xs font-semibold mb-2">
+          <i class="fa-solid fa-flask"></i> ENTORNO DE STAGING AISLADO
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-extrabold text-white flex items-center gap-3">
+          Noticias Extraídas con Bot Autónomo
+        </h1>
+        <p class="text-slate-400 text-sm mt-1">
+          Probando extracción en vivo de imágenes CDN, iconos de WoW y renderizado dinámico sin tocar archivos de producción.
+        </p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <!-- Selector de Pestañas -->
+        <div class="bg-slate-950 p-1 rounded-xl border border-slate-800 flex items-center gap-1">
+          <button id="tab-wowhead" class="px-3.5 py-1.5 rounded-lg text-xs font-bold transition bg-amber-500 text-slate-950 flex items-center gap-1.5 shadow">
+            <i class="fa-solid fa-fire"></i> Wowhead News
+          </button>
+          <button id="tab-blizzard" class="px-3.5 py-1.5 rounded-lg text-xs font-bold transition text-slate-400 hover:text-white flex items-center gap-1.5">
+            <i class="fa-solid fa-shield-halved text-sky-400"></i> Blizzard Oficial
+          </button>
+        </div>
+
+        <!-- Selector de Idioma -->
+        <button id="lang-btn" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 border border-slate-600 rounded-xl text-sm font-semibold transition flex items-center gap-2">
+          <i class="fa-solid fa-language text-amber-400"></i>
+          <span id="lang-text">ES / EN</span>
+        </button>
+        <!-- Botón Recargar Datos -->
+        <button id="reload-btn" class="px-4 py-2 bg-amber-600 hover:bg-amber-500 text-slate-950 font-bold rounded-xl text-sm transition flex items-center gap-2">
+          <i class="fa-solid fa-rotate"></i> Recargar
+        </button>
+      </div>
+    </header>
+
+    <!-- Contenedor Grid de Noticias -->
+    <div id="news-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Se inyecta dinámicamente -->
+    </div>
+
+    <!-- Modal de Lectura Completa -->
+    <div id="news-modal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
+      <div class="bg-slate-900 border border-amber-500/40 rounded-2xl max-w-4xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden animate-fadeIn">
+        <!-- Modal Header -->
+        <div class="p-5 border-b border-slate-800 flex items-center justify-between bg-slate-950/70">
+          <div class="flex items-center gap-2">
+            <span id="modal-category" class="px-2.5 py-0.5 bg-amber-500/10 border border-amber-500/40 text-amber-400 rounded-md text-xs font-bold uppercase"></span>
+            <span id="modal-date" class="text-xs text-slate-500"></span>
+          </div>
+          <button id="close-modal-btn" class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition">
+            <i class="fa-solid fa-xmark text-lg"></i>
+          </button>
+        </div>
+
+        <!-- Modal Body con scroll -->
+        <div class="p-6 overflow-y-auto space-y-4 text-slate-300 text-sm leading-relaxed" id="modal-body">
+          <h1 id="modal-title" class="text-xl sm:text-2xl font-extrabold text-white"></h1>
+          <div id="modal-image-container" class="rounded-xl overflow-hidden border border-slate-800 mb-4 max-h-[360px] bg-black">
+            <img id="modal-image" src="" class="w-full h-auto object-cover max-h-[360px]" />
+          </div>
+          <div id="modal-content" class="wowhead-container space-y-4"></div>
+        </div>
+
+        <!-- Modal Footer -->
+        <div class="p-4 border-t border-slate-800 bg-slate-950/70 flex justify-between items-center text-xs">
+          <a id="modal-source-link" href="#" target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:underline font-semibold flex items-center gap-1.5">
+            Ver fuente original <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          </a>
+          <button onclick="document.getElementById('news-modal').classList.add('hidden')" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-xl font-semibold transition">
+            Cerrar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="mock_news_data.js"></script>
+  <script src="mock_blizzard_data.js"></script>
+  <script src="news_preview.js"></script>
+</body>
+</html>
