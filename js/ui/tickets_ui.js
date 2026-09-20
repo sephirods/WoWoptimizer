@@ -157,16 +157,32 @@ function submitBugReport(event) {
     localStorage.setItem('wow_admin_tickets', JSON.stringify(tickets));
     localStorage.setItem('wow_last_ticket_submit_time', Date.now().toString());
 
+    // Generar URL pre-poblada para GitHub Issues (para que cualquier usuario pueda enviarlo a GitHub en 1 clic si lo desea)
+    const issueTitle = encodeURIComponent(`[${type.toUpperCase()}] ${title}`);
+    const issueBody = encodeURIComponent(`### Descripción del Problema / Reporte
+${desc}
+
+---
+### Información del Entorno
+- **Ticket ID:** \`${ticketId}\`
+- **Categoría:** \`${type}\`
+- **Contacto:** ${contact || 'No proporcionado'}
+- **Clase / Spec:** ${ticket.device.currentClass || 'N/A'} (${ticket.device.currentSpec || 'N/A'})
+- **Objetos en Inventario:** ${ticket.device.itemsCount}
+- **URL:** ${ticket.device.url}
+- **Navegador:** \`${ticket.device.userAgent}\`
+`);
+    const githubIssueUrl = `https://github.com/sephirods/WoWoptimizer/issues/new?title=${issueTitle}&body=${issueBody}&labels=${type}`;
+
     // Éxito
-    showFeedback(`¡Gracias! Ticket <strong>${ticketId}</strong> registrado correctamente. Lo revisaremos en el panel de administración.`, false);
+    showFeedback(`¡Gracias! Ticket <strong>${ticketId}</strong> registrado localmente.<br><a href="${githubIssueUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 mt-2 bg-[#238636] hover:bg-[#2ea043] text-white font-bold px-3 py-1.5 rounded-lg text-xs transition shadow"><i class="fa-brands fa-github"></i> Publicar también en GitHub Issues</a>`, false);
     
     setTimeout(() => {
-      closeBugReportModal();
       if (typeof showToast === 'function') {
-        showToast(`Ticket ${ticketId} enviado con éxito. ¡Gracias por tu reporte!`, 'success');
+        showToast(`Ticket ${ticketId} registrado con éxito. ¡Gracias!`, 'success');
       }
       if (submitBtn) submitBtn.disabled = false;
-    }, 2000);
+    }, 4000);
 
   } catch (err) {
     showFeedback('Error al guardar el ticket: ' + err.message, true);

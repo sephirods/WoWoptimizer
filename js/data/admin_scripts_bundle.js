@@ -51,3 +51,116 @@ window.WOW_NEWS_EXTRACTOR_SCRIPT_CODE = `/**
   return dataset;
 })();`;
 
+window.ARCHON_HEALER_EXTRACTOR_SCRIPT_CODE = `/**
+ * EXTRACTOR OFICIAL DE ABALORIOS HEALER PARA ARCHON.GG (CONSOLA DE NAVEGADOR)
+ * 
+ * INSTRUCCIONES:
+ * 1. Abre https://www.archon.gg/wow en tu navegador (Chrome, Edge, Firefox).
+ * 2. Presiona F12 y ve a la pestaña 'Console' (Consola).
+ * 3. Pega todo este código y presiona Enter.
+ * 4. Espera a que termine de escanear los 7 healers en Mítica+ y Banda.
+ * 5. Se descargará automáticamente el archivo 'archon_healers.js' listo para subirlo en el Panel Admin.
+ */
+
+(async () => {
+  console.log('%c🚀 INICIANDO EXTRACCIÓN DE TODOS LOS HEALERS DE ARCHON...', 'color: #38bdf8; font-weight: bold; font-size: 14px;');
+
+  const HEALER_TARGETS = [
+    { classKey: 'paladin', specKey: 'holy', urlPath: 'holy/paladin' },
+    { classKey: 'priest', specKey: 'discipline', urlPath: 'discipline/priest' },
+    { classKey: 'priest', specKey: 'holy_priest', urlPath: 'holy/priest' },
+    { classKey: 'shaman', specKey: 'restoration_shaman', urlPath: 'restoration/shaman' },
+    { classKey: 'druid', specKey: 'restoration_druid', urlPath: 'restoration/druid' },
+    { classKey: 'monk', specKey: 'mistweaver', urlPath: 'mistweaver/monk' },
+    { classKey: 'evoker', specKey: 'preservation', urlPath: 'preservation/evoker' }
+  ];
+
+  const MODES = [
+    { key: 'mplus', urlSub: 'mythic-plus/trinkets/10/all-dungeons/this-week' },
+    { key: 'raid', urlSub: 'raid/trinkets/mythic/all-bosses' }
+  ];
+
+  const masterData = {};
+
+  function parseHtmlTrinkets(htmlText) {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(htmlText, 'text/html');
+    const rows = [];
+
+    doc.querySelectorAll('table.react-table tbody tr').forEach(tr => {
+      const link = tr.querySelector('a[href*="wowhead.com/item="]');
+      if (!link) return;
+      const itemMatch = link.href.match(/item=(\\d+)/);
+      if (!itemMatch) return;
+      const itemId = parseInt(itemMatch[1]);
+      
+      const nameEl = tr.querySelector('.icon__label, a[href*="wowhead.com/item="] span span');
+      const name = nameEl ? nameEl.innerText.trim() : ('Item ' + itemId);
+      
+      const popEl = tr.querySelector('.react-table__cell--popularityAndReportLink span, .react-table__cell--popularity span');
+      const popText = popEl ? popEl.innerText.trim() : '0%';
+      const popMatch = popText.match(/([0-9.]+)%/);
+      const popularity = popMatch ? parseFloat(popMatch[1]) : 0;
+      
+      const maxKeyEl = tr.querySelector('.react-table__cell--maxKey span');
+      const maxKey = maxKeyEl ? maxKeyEl.innerText.trim() : '';
+      
+      const imgEl = tr.querySelector('img.icon__image');
+      let icon = '';
+      if (imgEl && imgEl.src) {
+        const im = imgEl.src.match(/\\/abilities\\/([^.]+)/);
+        if (im) icon = im[1];
+      }
+      
+      rows.push({ itemId, name, popularity, maxKey, icon });
+    });
+
+    return rows;
+  }
+
+  for (const h of HEALER_TARGETS) {
+    if (!masterData[h.classKey]) masterData[h.classKey] = {};
+    if (!masterData[h.classKey][h.specKey]) masterData[h.classKey][h.specKey] = {};
+
+    for (const m of MODES) {
+      const url = \`https://www.archon.gg/wow/builds/\${h.urlPath}/\${m.urlSub}\`;
+      console.log(\`Descargando (\${h.classKey} - \${h.specKey} - \${m.key})...\`);
+      try {
+        const resp = await fetch(url);
+        if (resp.ok) {
+          const html = await resp.text();
+          const trinkets = parseHtmlTrinkets(html);
+          masterData[h.classKey][h.specKey][m.key] = trinkets;
+          console.log(\`  ✓ \${trinkets.length} abalorios encontrados.\`);
+        } else {
+          console.warn(\`  ✗ HTTP \${resp.status} en \${url}\`);
+          masterData[h.classKey][h.specKey][m.key] = [];
+        }
+      } catch (e) {
+        console.error(\`  ✗ Error en \${url}:\`, e);
+        masterData[h.classKey][h.specKey][m.key] = [];
+      }
+      await new Promise(r => setTimeout(r, 400));
+    }
+  }
+
+  const finalOutput = JSON.stringify(masterData, null, 2);
+  const fileContent = '// Archon.gg Top Healer Trinkets\\nwindow.ARCHON_HEALER_TRINKETS = ' + finalOutput + ';\\n';
+
+  const blob = new Blob([fileContent], { type: 'text/javascript' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'archon_healers.js';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+
+  console.log('%c✅ ¡EXTRACCIÓN COMPLETA! Se descargó archon_healers.js y se copió al portapapeles.', 'color: #22c55e; font-weight: bold; font-size: 16px;');
+  
+  if (typeof copy === 'function') {
+    copy(finalOutput);
+  }
+  
+  return masterData;
+})();
+`;

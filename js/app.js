@@ -11,6 +11,15 @@ function loadCustomDatasetsFromStorage() {
   }
 
   try {
+    const customArchonHealers = localStorage.getItem('wow_custom_archon_healers');
+    if (customArchonHealers) {
+      window.ARCHON_HEALER_TRINKETS = JSON.parse(customArchonHealers);
+    }
+  } catch (e) {
+    console.warn('Error cargando abalorios healer personalizados:', e);
+  }
+
+  try {
     const customWowhead = localStorage.getItem('wow_custom_wowhead_data');
     if (customWowhead) {
       window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = JSON.parse(customWowhead);

@@ -103,6 +103,9 @@
         <button onclick="switchAdminTab('archon')" id="nav-archon" class="admin-tab-btn flex-1 min-w-[130px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-purple-300 hover:bg-purple-950/20 border border-transparent">
           <i class="fa-solid fa-shield-halved text-purple-400"></i> Archon Presets
         </button>
+        <button onclick="switchAdminTab('archon_healers')" id="nav-archon_healers" class="admin-tab-btn flex-1 min-w-[145px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-sky-300 hover:bg-sky-950/20 border border-transparent">
+          <i class="fa-solid fa-heart-pulse text-sky-400"></i> Abalorios Healers
+        </button>
         <button onclick="switchAdminTab('stat_priorities')" id="nav-stat_priorities" class="admin-tab-btn flex-1 min-w-[145px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-emerald-300 hover:bg-emerald-950/20 border border-transparent">
           <i class="fa-solid fa-chart-column text-emerald-400"></i> Prioridades Stats
         </button>
@@ -151,6 +154,39 @@
           </div>
         </div>
 
+        <!-- GITHUB INTEGRATION & GLOBAL DEPLOYMENT CARD -->
+        <div class="bg-wow-card border border-amber-500/40 rounded-2xl p-5 shadow-xl space-y-3">
+          <div class="flex items-center justify-between flex-wrap gap-3">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-slate-900 border border-amber-400/50 flex items-center justify-center text-amber-400 text-xl shadow">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2 flex-wrap">
+                  <h3 class="text-sm font-bold text-white">Sincronización Global con GitHub (Wasmer Deploy)</h3>
+                  <span id="github-token-badge" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-amber-950 text-amber-300 border border-amber-500/50 font-bold">Sin configurar</span>
+                </div>
+                <p class="text-xs text-slate-400 mt-0.5">Publica los archivos subidos directamente al repositorio <code class="text-amber-300 font-mono">sephirods/WoWoptimizer</code> para que los cambios apliquen a <strong>todos los usuarios</strong> en Wasmer.</p>
+              </div>
+            </div>
+            <a href="https://github.com/settings/tokens/new?scopes=repo&description=WoWOptimizer+Admin+Suite" target="_blank" rel="noopener noreferrer" class="text-xs bg-slate-800 hover:bg-slate-700 text-amber-300 border border-amber-500/40 px-3 py-1.5 rounded-xl font-bold flex items-center gap-1.5 transition">
+              <i class="fa-solid fa-key"></i> Crear Token en GitHub <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+            </a>
+          </div>
+
+          <div class="flex items-center gap-2 pt-1 flex-wrap sm:flex-nowrap">
+            <div class="relative flex-1 min-w-[200px]">
+              <input type="password" id="github-token-input" placeholder="Pega tu GitHub Personal Access Token (ghp_... o github_pat_...)" class="w-full bg-wow-input border border-wow-border rounded-xl px-3.5 py-2 text-xs font-mono text-amber-300 focus:outline-none focus:border-amber-400 placeholder-slate-600 shadow-inner">
+            </div>
+            <button type="button" onclick="handleSaveGitHubToken()" class="text-xs bg-amber-500 hover:bg-amber-400 text-black font-bold px-4 py-2 rounded-xl transition shadow flex items-center gap-1.5 whitespace-nowrap">
+              <i class="fa-solid fa-floppy-disk"></i> Guardar Token
+            </button>
+            <button type="button" onclick="handleClearGitHubToken()" class="text-xs bg-red-950/40 hover:bg-red-900/60 text-red-300 border border-red-500/40 font-bold px-3 py-2 rounded-xl transition whitespace-nowrap">
+              Eliminar
+            </button>
+          </div>
+        </div>
+
         <!-- 6 Dataset & Traffic Status Cards Grid -->
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           
@@ -167,6 +203,23 @@
               <p class="text-[11px] text-slate-400">M+ y Raid 39 specs.</p>
             </div>
             <button onclick="switchAdminTab('archon')" class="w-full text-xs bg-purple-950/40 hover:bg-purple-900/60 text-purple-200 border border-purple-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
+              Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </button>
+          </div>
+
+          <!-- Card Archon Healer Trinkets -->
+          <div class="bg-wow-card border border-sky-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-sky-500/60 transition">
+            <div class="flex items-center justify-between">
+              <div class="w-9 h-9 rounded-xl bg-sky-950/60 border border-sky-500/50 flex items-center justify-center text-sky-400">
+                <i class="fa-solid fa-heart-pulse"></i>
+              </div>
+              <span id="overview-archon-healers-status" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold">Por Defecto</span>
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-white">Abalorios Healers</h3>
+              <p class="text-[11px] text-slate-400">Archon 7 specs Healer.</p>
+            </div>
+            <button onclick="switchAdminTab('archon_healers')" class="w-full text-xs bg-sky-950/40 hover:bg-sky-900/60 text-sky-200 border border-sky-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
               Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
             </button>
           </div>
@@ -266,7 +319,7 @@
             </h3>
             <div class="text-xs text-slate-300 space-y-2.5 leading-relaxed">
               <p>
-                El optimizador cuenta con datasets base estáticos (<code class="text-amber-300 font-mono">archon_data.js</code>, <code class="text-amber-300 font-mono">wow_stat_priorities.js</code>, <code class="text-amber-300 font-mono">wowhead_data.js</code>, <code class="text-amber-300 font-mono">bloodmallet_data.js</code>) embebidos en el código.
+                El optimizador cuenta con datasets base estáticos (<code class="text-amber-300 font-mono">archon_data.js</code>, <code class="text-amber-300 font-mono">archon_healers.js</code>, <code class="text-amber-300 font-mono">wow_stat_priorities.js</code>, <code class="text-amber-300 font-mono">wowhead_data.js</code>, <code class="text-amber-300 font-mono">bloodmallet_data.js</code>) embebidos en el código.
               </p>
               <p>
                 Cuando ejecutas los scripts de extracción y subes los archivos actualizados en este panel, se almacenan en el <strong class="text-amber-400">almacenamiento local persistente</strong> y toman prioridad inmediata en toda la aplicación sin requerir desplegar el servidor.
@@ -367,6 +420,63 @@
               <button onclick="copyArchonExtractorScript()" class="text-[10px] text-amber-400 hover:underline font-semibold">Copiar código completo</button>
             </div>
             <pre id="archon-script-preview" class="bg-black/80 border border-white/10 rounded-xl p-4 text-[11px] font-mono text-purple-300 max-h-56 overflow-y-auto select-all scrollbar-thin"></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB: ABALORIOS HEALERS (ARCHON.GG) -->
+      <section id="tab-archon_healers" class="admin-tab-pane hidden space-y-6">
+        <div class="bg-wow-card border border-sky-500/40 rounded-2xl p-6 shadow-xl space-y-5">
+          <div class="flex items-center justify-between flex-wrap gap-3 pb-4 border-b border-wow-border">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-sky-950/80 border border-sky-500/60 flex items-center justify-center text-sky-300 text-lg shadow">
+                <i class="fa-solid fa-heart-pulse"></i>
+              </div>
+              <div>
+                <div class="flex items-center gap-2.5">
+                  <h3 class="text-base font-bold text-sky-300">Abalorios Healers de Archon.gg</h3>
+                  <code class="text-amber-300 font-mono text-xs bg-black/40 px-2 py-0.5 rounded border border-white/5">archon_healers.js</code>
+                </div>
+                <div class="flex items-center gap-2 mt-1">
+                  <span id="archon-healers-data-status" class="text-[10px] px-2 py-0.5 rounded font-mono bg-slate-800 text-slate-300 border border-slate-700">Por Defecto</span>
+                  <span class="text-[11px] text-slate-400">Popularidad de abalorios y throughput para las 7 specs de Sanadores (M+ y Raid).</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="flex items-center gap-2 flex-wrap">
+              <button onclick="copyArchonHealerExtractorScript()" class="text-xs bg-sky-950 hover:bg-sky-900 text-sky-200 border border-sky-500/70 px-4 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow">
+                <i class="fa-solid fa-copy text-amber-400"></i> Copiar Script
+              </button>
+              <label class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 px-4 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow cursor-pointer">
+                <i class="fa-solid fa-cloud-arrow-up text-sky-400"></i> Subir archon_healers.js
+                <input type="file" accept=".js,.json" class="hidden" onchange="uploadArchonHealersJs(event)">
+              </label>
+              <button id="btn-reset-archon-healers" onclick="resetArchonHealersDataToDefault()" class="text-xs text-red-400 hover:text-red-300 px-3 py-2 rounded-xl border border-red-500/30 hover:border-red-500/60 font-semibold hidden transition">
+                <i class="fa-solid fa-trash mr-1"></i> Restaurar
+              </button>
+            </div>
+          </div>
+
+          <div class="bg-wow-subcard border border-wow-border rounded-xl p-4 text-xs text-slate-300 space-y-2">
+            <h4 class="font-bold text-amber-400 flex items-center gap-1.5">
+              <i class="fa-solid fa-circle-question"></i> Instrucciones de Extracción:
+            </h4>
+            <ol class="list-decimal list-inside space-y-1 text-slate-400">
+              <li>Abre <a href="https://www.archon.gg/wow" target="_blank" class="text-amber-400 underline font-semibold">archon.gg/wow</a> en tu navegador.</li>
+              <li>Abre las herramientas de desarrollador presionando <kbd class="bg-black/60 px-1.5 py-0.5 rounded text-amber-300 border border-white/10 font-mono">F12</kbd> y selecciona la pestaña <strong>Console</strong>.</li>
+              <li>Pulsa <strong>"Copiar Script"</strong> arriba, pégalo en la consola y presiona <kbd class="bg-black/60 px-1.5 py-0.5 rounded text-amber-300 border border-white/10 font-mono">Enter</kbd>.</li>
+              <li>El script recorrerá las 7 especializaciones de healer y descargará automáticamente el archivo <code class="text-sky-300 font-mono">archon_healers.js</code>.</li>
+              <li>Sube el archivo aquí con el botón <strong>"Subir archon_healers.js"</strong> para activar los datos actualizados para todos los usuarios.</li>
+            </ol>
+          </div>
+
+          <div>
+            <div class="flex items-center justify-between mb-1.5">
+              <span class="text-[11px] font-bold uppercase tracking-wider text-slate-400">Vista Previa del Script de Consola</span>
+              <button onclick="copyArchonHealerExtractorScript()" class="text-[10px] text-amber-400 hover:underline font-semibold">Copiar código completo</button>
+            </div>
+            <pre id="archon-healers-script-preview" class="bg-black/80 border border-white/10 rounded-xl p-4 text-[11px] font-mono text-sky-300 max-h-56 overflow-y-auto select-all scrollbar-thin"></pre>
           </div>
         </div>
       </section>
@@ -923,6 +1033,8 @@
           activeBtn.className = 'admin-tab-btn flex-1 min-w-[130px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-amber-400 bg-amber-500/15 border border-amber-500/40 shadow';
         } else if (tabId === 'archon') {
           activeBtn.className = 'admin-tab-btn flex-1 min-w-[130px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-purple-300 bg-purple-950/40 border border-purple-500/50 shadow';
+        } else if (tabId === 'archon_healers') {
+          activeBtn.className = 'admin-tab-btn flex-1 min-w-[145px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-sky-300 bg-sky-950/40 border border-sky-500/50 shadow';
         } else if (tabId === 'stat_priorities') {
           activeBtn.className = 'admin-tab-btn flex-1 min-w-[145px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-emerald-300 bg-emerald-950/40 border border-emerald-500/50 shadow';
         } else if (tabId === 'wowhead') {
@@ -970,14 +1082,17 @@
       document.getElementById('btn-logout').classList.remove('hidden');
 
       const archonPre = document.getElementById('archon-script-preview');
+      const archonHealersPre = document.getElementById('archon-healers-script-preview');
       const wowheadPre = document.getElementById('wowhead-script-preview');
       const statPrioritiesPre = document.getElementById('stat-priorities-script-preview');
 
       if (archonPre && window.ARCHON_EXTRACTOR_SCRIPT_CODE) archonPre.textContent = window.ARCHON_EXTRACTOR_SCRIPT_CODE;
+      if (archonHealersPre && window.ARCHON_HEALER_EXTRACTOR_SCRIPT_CODE) archonHealersPre.textContent = window.ARCHON_HEALER_EXTRACTOR_SCRIPT_CODE;
       if (wowheadPre && window.WOWHEAD_EXTRACTOR_SCRIPT_CODE) wowheadPre.textContent = window.WOWHEAD_EXTRACTOR_SCRIPT_CODE;
       if (statPrioritiesPre && window.STAT_PRIORITIES_EXTRACTOR_SCRIPT_CODE) statPrioritiesPre.textContent = window.STAT_PRIORITIES_EXTRACTOR_SCRIPT_CODE;
 
       updateDevModalStatusBadges();
+      updateGitHubTokenUI();
       renderMissingTooltipsTable();
       renderTicketsTable();
       renderAdminNewsPreview();
@@ -985,6 +1100,7 @@
 
     function refreshAllStatuses() {
       updateDevModalStatusBadges();
+      updateGitHubTokenUI();
       showToast('Estados actualizados', 'info');
     }
 
@@ -1087,19 +1203,55 @@
     }
 
     // GESTIÓN DE TICKETS / BUG REPORTS
-    function renderTicketsTable() {
+    async function renderTicketsTable() {
       const container = document.getElementById('tickets-container');
       const badge = document.getElementById('tickets-count-badge');
       const tabBadge = document.getElementById('tab-tickets-badge');
       const overviewBadge = document.getElementById('overview-tickets-badge');
       if (!container) return;
 
-      let tickets = [];
+      let localTickets = [];
       try {
-        tickets = JSON.parse(localStorage.getItem('wow_admin_tickets') || '[]');
+        localTickets = JSON.parse(localStorage.getItem('wow_admin_tickets') || '[]');
       } catch (e) {
-        tickets = [];
+        localTickets = [];
       }
+
+      // Si tenemos token o queremos consultar los Issues reales del repo
+      let githubTickets = [];
+      const token = getGitHubToken();
+      try {
+        const headers = { 'Accept': 'application/vnd.github.v3+json' };
+        if (token) headers['Authorization'] = `Bearer ${token}`;
+        const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/issues?state=all&per_page=50`, { headers });
+        if (res.ok) {
+          const issues = await res.json();
+          if (Array.isArray(issues)) {
+            githubTickets = issues.map(iss => ({
+              id: '#' + iss.number,
+              title: iss.title,
+              desc: iss.body || '',
+              type: (iss.labels && iss.labels.length > 0) ? iss.labels[0].name : 'bug',
+              contact: iss.user ? ('@' + iss.user.login) : '',
+              status: iss.state === 'closed' ? 'resolved' : 'open',
+              createdAt: new Date(iss.created_at).getTime(),
+              githubUrl: iss.html_url,
+              isGithub: true
+            }));
+          }
+        }
+      } catch (err) {
+        console.warn('Error consultando GitHub Issues:', err);
+      }
+
+      // Combinar tickets locales + GitHub (sin duplicar si ya existen)
+      const combinedMap = new Map();
+      githubTickets.forEach(t => combinedMap.set(t.id, t));
+      localTickets.forEach(t => {
+        if (!combinedMap.has(t.id)) combinedMap.set(t.id, t);
+      });
+
+      const tickets = Array.from(combinedMap.values()).sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
 
       const openCount = tickets.filter(t => t.status !== 'resolved').length;
 
@@ -1175,6 +1327,7 @@
                   <div class="space-y-1.5 flex-1 min-w-[260px]">
                     <div class="flex items-center gap-2 flex-wrap">
                       <span class="font-mono text-[11px] font-bold text-amber-400">${t.id}</span>
+                      ${t.githubUrl ? `<a href="${t.githubUrl}" target="_blank" class="text-[10px] bg-slate-800 hover:bg-slate-700 text-sky-300 border border-slate-600 px-2 py-0.5 rounded font-bold transition flex items-center gap-1"><i class="fa-brands fa-github"></i> GitHub Issue <i class="fa-solid fa-arrow-up-right-from-square text-[8px]"></i></a>` : ''}
                       <span class="text-[10px] font-bold px-2 py-0.5 rounded border ${badgeType}">${typeLabel}</span>
                       <span class="text-[10px] px-2 py-0.5 rounded font-bold border ${isResolved ? 'bg-emerald-950 text-emerald-300 border-emerald-500/40' : 'bg-amber-950 text-amber-300 border-amber-500/40'}">
                         ${isResolved ? '✓ Resuelto' : '● Pendiente'}
@@ -1251,11 +1404,12 @@
 
     function updateDevModalStatusBadges() {
       const hasCustomArchon = !!localStorage.getItem('wow_custom_archon_data');
+      const hasCustomArchonHealers = !!localStorage.getItem('wow_custom_archon_healers');
       const hasCustomWowhead = !!localStorage.getItem('wow_custom_wowhead_data');
       const hasCustomBloodmallet = !!localStorage.getItem('wow_custom_bloodmallet_data');
       const hasCustomStatPriorities = !!localStorage.getItem('wow_custom_stat_priorities_data');
 
-      // Archon
+      // Archon Presets
       const archonStatus = document.getElementById('archon-data-status');
       const archonResetBtn = document.getElementById('btn-reset-archon');
       const ovArchon = document.getElementById('overview-archon-status');
@@ -1268,6 +1422,20 @@
         ovArchon.innerText = hasCustomArchon ? 'Personalizado ✓' : 'Por Defecto';
       }
       if (archonResetBtn) archonResetBtn.classList.toggle('hidden', !hasCustomArchon);
+
+      // Archon Healer Trinkets
+      const archonHealersStatus = document.getElementById('archon-healers-data-status');
+      const archonHealersResetBtn = document.getElementById('btn-reset-archon-healers');
+      const ovArchonHealers = document.getElementById('overview-archon-healers-status');
+      if (archonHealersStatus) {
+        archonHealersStatus.className = hasCustomArchonHealers ? 'text-[10px] px-2 py-0.5 rounded font-mono bg-sky-950 text-sky-300 border border-sky-500/60 font-bold' : 'text-[10px] px-2 py-0.5 rounded font-mono bg-slate-800 text-slate-300 border border-slate-700';
+        archonHealersStatus.innerText = hasCustomArchonHealers ? 'Personalizado ✓' : 'Por Defecto';
+      }
+      if (ovArchonHealers) {
+        ovArchonHealers.className = hasCustomArchonHealers ? 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-sky-950 text-sky-300 border border-sky-500/60 font-bold' : 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold';
+        ovArchonHealers.innerText = hasCustomArchonHealers ? 'Personalizado ✓' : 'Por Defecto';
+      }
+      if (archonHealersResetBtn) archonHealersResetBtn.classList.toggle('hidden', !hasCustomArchonHealers);
 
       // Stat Priorities
       const statPrioritiesStatus = document.getElementById('stat-priorities-data-status');
@@ -1388,6 +1556,13 @@
       }).catch(() => showToast('Error al copiar script', 'error'));
     }
 
+    function copyArchonHealerExtractorScript() {
+      const code = window.ARCHON_HEALER_EXTRACTOR_SCRIPT_CODE || '';
+      navigator.clipboard.writeText(code).then(() => {
+        showToast('¡Script de Abalorios Healers copiado!', 'success');
+      }).catch(() => showToast('Error al copiar script', 'error'));
+    }
+
     function copyWowheadExtractorScript() {
       const code = window.WOWHEAD_EXTRACTOR_SCRIPT_CODE || '';
       navigator.clipboard.writeText(code).then(() => {
@@ -1402,16 +1577,166 @@
       }).catch(() => showToast('Error al copiar script', 'error'));
     }
 
+    // ==========================================
+    // GITHUB DEPLOYMENT & INTEGRATION SERVICE
+    // ==========================================
+    const GITHUB_REPO_OWNER = 'sephirods';
+    const GITHUB_REPO_NAME = 'WoWoptimizer';
+    const GITHUB_REPO_BRANCH = 'main';
+
+    function getGitHubToken() {
+      return localStorage.getItem('wow_admin_github_token') || '';
+    }
+
+    function handleSaveGitHubToken() {
+      const input = document.getElementById('github-token-input');
+      const val = (input?.value || '').trim();
+      if (!val) {
+        alert('Por favor introduce un token de GitHub válido (con permiso repo).');
+        return;
+      }
+      localStorage.setItem('wow_admin_github_token', val);
+      updateGitHubTokenUI();
+      showToast('¡GitHub Token guardado! Las subidas y sincronizaciones ahora se publicarán directamente a Wasmer para todos los usuarios.', 'success');
+    }
+
+    function handleClearGitHubToken() {
+      if (confirm('¿Eliminar el GitHub Token guardado de este navegador?')) {
+        localStorage.removeItem('wow_admin_github_token');
+        updateGitHubTokenUI();
+        showToast('GitHub Token eliminado. Las subidas volverán a ser solo locales.', 'info');
+      }
+    }
+
+    function updateGitHubTokenUI() {
+      const token = getGitHubToken();
+      const input = document.getElementById('github-token-input');
+      const badge = document.getElementById('github-token-badge');
+      if (input) {
+        input.value = token ? '••••••••••••••••••••••••••••••••••••••••' : '';
+      }
+      if (badge) {
+        if (token) {
+          badge.className = 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-emerald-950 text-emerald-300 border border-emerald-500/50 font-bold';
+          badge.innerHTML = '<i class="fa-solid fa-check mr-1"></i> Conectado (Despliegue Global Activo)';
+        } else {
+          badge.className = 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-amber-950 text-amber-300 border border-amber-500/50 font-bold';
+          badge.innerHTML = '<i class="fa-solid fa-triangle-exclamation mr-1"></i> Token no configurado (Solo Local)';
+        }
+      }
+    }
+
+    function utf8ToBase64(str) {
+      const bytes = new TextEncoder().encode(str);
+      let binary = '';
+      for (let i = 0; i < bytes.byteLength; i++) {
+        binary += String.fromCharCode(bytes[i]);
+      }
+      return btoa(binary);
+    }
+
+    function base64ToUtf8(base64) {
+      const binStr = atob(base64.replace(/\s/g, ''));
+      const bytes = new Uint8Array(binStr.length);
+      for (let i = 0; i < binStr.length; i++) {
+        bytes[i] = binStr.charCodeAt(i);
+      }
+      return new TextDecoder().decode(bytes);
+    }
+
+    async function commitFileToGitHub(path, content, commitMessage) {
+      const token = getGitHubToken();
+      if (!token) throw new Error('Token de GitHub no configurado');
+
+      const getUrl = `https://api.github.com/repos/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/contents/${path}?ref=${GITHUB_REPO_BRANCH}`;
+      let sha = null;
+      try {
+        const getRes = await fetch(getUrl, {
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/vnd.github.v3+json'
+          }
+        });
+        if (getRes.ok) {
+          const getData = await getRes.json();
+          sha = getData.sha;
+        }
+      } catch (e) {
+        console.warn('Error verificando SHA en GitHub:', e);
+      }
+
+      const putUrl = `https://api.github.com/repos/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/contents/${path}`;
+      const putBody = {
+        message: commitMessage,
+        content: utf8ToBase64(content),
+        branch: GITHUB_REPO_BRANCH
+      };
+      if (sha) putBody.sha = sha;
+
+      const putRes = await fetch(putUrl, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json',
+          'Accept': 'application/vnd.github.v3+json'
+        },
+        body: JSON.stringify(putBody)
+      });
+
+      if (!putRes.ok) {
+        const putErr = await putRes.json().catch(() => ({}));
+        throw new Error(putErr.message || `Error HTTP ${putRes.status} al crear commit en GitHub`);
+      }
+
+      return await putRes.json();
+    }
+
+    async function bumpScriptVersionInGitHub(scriptName) {
+      const token = getGitHubToken();
+      if (!token) return;
+      try {
+        const getRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/contents/gearsim.html?ref=${GITHUB_REPO_BRANCH}`, {
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/vnd.github.v3+json'
+          }
+        });
+        if (!getRes.ok) return;
+        const data = await getRes.json();
+        const html = base64ToUtf8(data.content);
+        const newVer = Date.now();
+        const regex = new RegExp(`(${scriptName}\\?v=)[^"']+`, 'g');
+        if (!regex.test(html)) return;
+        const updatedHtml = html.replace(regex, `$1${newVer}`);
+        await commitFileToGitHub('gearsim.html', updatedHtml, `chore(cache): bump ${scriptName} version to ${newVer} [skip ci]`);
+      } catch (e) {
+        console.warn('Error actualizando versión de caché en gearsim.html:', e);
+      }
+    }
+
+    async function publishDatasetDirectly(fileName, rawText, varName, localKey) {
+      const data = parseJsDataset(rawText, varName);
+      if (!data || typeof data !== 'object') throw new Error('Estructura no válida para ' + varName);
+      localStorage.setItem(localKey, JSON.stringify(data));
+      updateDevModalStatusBadges();
+
+      const token = getGitHubToken();
+      if (token) {
+        showToast(`Creando commit en GitHub para ${fileName}...`, 'info');
+        await commitFileToGitHub(fileName, rawText, `chore(datasets): update ${fileName} via Admin Suite [skip ci]`);
+        await bumpScriptVersionInGitHub(fileName);
+        showToast(`¡${fileName} publicado con éxito en GitHub! Wasmer actualizará los cambios para todos los usuarios en segundos.`, 'success');
+      } else {
+        showToast(`¡${fileName} guardado localmente! Para que aplique a todos los usuarios, configura tu GitHub Token en "Resumen".`, 'info');
+      }
+    }
+
     async function uploadArchonJs(event) {
       const file = event.target.files?.[0];
       if (!file) return;
       try {
         const text = await file.text();
-        const data = parseJsDataset(text, 'ARCHON_PRESETS');
-        if (!data || typeof data !== 'object') throw new Error('Estructura no válida');
-        localStorage.setItem('wow_custom_archon_data', JSON.stringify(data));
-        updateDevModalStatusBadges();
-        showToast('¡archon_data.js subido y guardado con éxito!', 'success');
+        await publishDatasetDirectly('archon_data.js', text, 'ARCHON_PRESETS', 'wow_custom_archon_data');
       } catch (err) {
         alert('Error: ' + err.message);
       }
@@ -1422,7 +1747,27 @@
       if (confirm('¿Restaurar presets de Archon a los originales por defecto?')) {
         localStorage.removeItem('wow_custom_archon_data');
         updateDevModalStatusBadges();
-        showToast('Presets de Archon restaurados');
+        showToast('Presets de Archon restaurados localmente');
+      }
+    }
+
+    async function uploadArchonHealersJs(event) {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      try {
+        const text = await file.text();
+        await publishDatasetDirectly('archon_healers.js', text, 'ARCHON_HEALER_TRINKETS', 'wow_custom_archon_healers');
+      } catch (err) {
+        alert('Error: ' + err.message);
+      }
+      event.target.value = '';
+    }
+
+    function resetArchonHealersDataToDefault() {
+      if (confirm('¿Restaurar abalorios de healers a los originales por defecto?')) {
+        localStorage.removeItem('wow_custom_archon_healers');
+        updateDevModalStatusBadges();
+        showToast('Abalorios de healers restaurados localmente');
       }
     }
 
@@ -1431,11 +1776,7 @@
       if (!file) return;
       try {
         const text = await file.text();
-        const data = parseJsDataset(text, 'WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES');
-        if (!data || typeof data !== 'object') throw new Error('Estructura no válida');
-        localStorage.setItem('wow_custom_wowhead_data', JSON.stringify(data));
-        updateDevModalStatusBadges();
-        showToast('¡wowhead_data.js subido y guardado con éxito!', 'success');
+        await publishDatasetDirectly('wowhead_data.js', text, 'WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES', 'wow_custom_wowhead_data');
       } catch (err) {
         alert('Error: ' + err.message);
       }
@@ -1446,7 +1787,7 @@
       if (confirm('¿Restaurar encantamientos y consumibles de Wowhead a los originales?')) {
         localStorage.removeItem('wow_custom_wowhead_data');
         updateDevModalStatusBadges();
-        showToast('Encantamientos y consumibles de Wowhead restaurados');
+        showToast('Encantamientos y consumibles de Wowhead restaurados localmente');
       }
     }
 
@@ -1455,11 +1796,7 @@
       if (!file) return;
       try {
         const text = await file.text();
-        const data = parseJsDataset(text, 'WOWHEAD_STAT_PRIORITIES');
-        if (!data || typeof data !== 'object') throw new Error('Estructura no válida');
-        localStorage.setItem('wow_custom_stat_priorities_data', JSON.stringify(data));
-        updateDevModalStatusBadges();
-        showToast('¡wow_stat_priorities.js subido y guardado con éxito!', 'success');
+        await publishDatasetDirectly('wow_stat_priorities.js', text, 'WOWHEAD_STAT_PRIORITIES', 'wow_custom_stat_priorities_data');
       } catch (err) {
         alert('Error: ' + err.message);
       }
@@ -1470,7 +1807,7 @@
       if (confirm('¿Restaurar prioridades de estadísticas a las originales?')) {
         localStorage.removeItem('wow_custom_stat_priorities_data');
         updateDevModalStatusBadges();
-        showToast('Prioridades de estadísticas restauradas');
+        showToast('Prioridades de estadísticas restauradas localmente');
       }
     }
 
@@ -1479,11 +1816,7 @@
       if (!file) return;
       try {
         const text = await file.text();
-        const data = parseJsDataset(text, 'BLOODMALLET_DATA');
-        if (!data || typeof data !== 'object') throw new Error('Estructura no válida');
-        localStorage.setItem('wow_custom_bloodmallet_data', JSON.stringify(data));
-        updateDevModalStatusBadges();
-        showToast('¡bloodmallet_data.js subido y guardado con éxito!', 'success');
+        await publishDatasetDirectly('bloodmallet_data.js', text, 'BLOODMALLET_DATA', 'wow_custom_bloodmallet_data');
       } catch (err) {
         alert('Error: ' + err.message);
       }
@@ -1494,7 +1827,7 @@
       if (confirm('¿Restaurar simulaciones de Bloodmallet a las originales?')) {
         localStorage.removeItem('wow_custom_bloodmallet_data');
         updateDevModalStatusBadges();
-        showToast('Simulaciones de Bloodmallet restauradas');
+        showToast('Simulaciones de Bloodmallet restauradas localmente');
       }
     }
 
@@ -1539,9 +1872,13 @@
         completed++;
       }
 
-      localStorage.setItem('wow_custom_bloodmallet_data', JSON.stringify(dataset));
-      updateDevModalStatusBadges();
-      showToast('¡Simulaciones de Bloodmallet actualizadas y guardadas!', 'success');
+      try {
+        const fileContent = `// OFFICIAL BLOODMALLET TRINKET SIMULATION DATASET\nwindow.BLOODMALLET_DATA = ${JSON.stringify(dataset, null, 2)};\n`;
+        await publishDatasetDirectly('bloodmallet_data.js', fileContent, 'BLOODMALLET_DATA', 'wow_custom_bloodmallet_data');
+      } catch (err) {
+        console.error('Error publicando bloodmallet_data.js:', err);
+        showToast('Error al publicar Bloodmallet: ' + err.message, 'error');
+      }
 
       if (btnText) btnText.innerText = 'Actualizar Bloodmallet en Vivo';
       if (spinner) spinner.classList.remove('fa-spin');
