@@ -261,7 +261,7 @@ function renderPresetsToolbar() {
   `).join('');
 
   presetsDiv.innerHTML = `
-    <div class="flex items-center gap-1.5 flex-wrap">
+    <div class="flex items-center justify-center md:justify-end gap-1.5 flex-wrap w-full">
       ${modeButtons}
       ${specButtons}
       ${heroButtons}

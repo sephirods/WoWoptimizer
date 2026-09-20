@@ -19,11 +19,31 @@ input[type="number"] {
 }
 
 /* Dark select & options styling for Firefox & Chromium */
-select, option, optgroup {
+select, optgroup {
   color-scheme: dark;
   background-color: #0f131d !important;
   color: #e2e8f0 !important;
 }
+
+option {
+  color-scheme: dark;
+  background-color: #0f131d !important;
+  color: #e2e8f0;
+}
+
+#char-class option[value="paladin"] { color: #F48CBA !important; }
+#char-class option[value="warrior"] { color: #C69B6D !important; }
+#char-class option[value="deathknight"] { color: #C41E3A !important; }
+#char-class option[value="hunter"] { color: #AAD372 !important; }
+#char-class option[value="shaman"] { color: #0070DD !important; }
+#char-class option[value="rogue"] { color: #FFF468 !important; }
+#char-class option[value="monk"] { color: #00FF98 !important; }
+#char-class option[value="demonhunter"] { color: #A330C9 !important; }
+#char-class option[value="druid"] { color: #FF7C0A !important; }
+#char-class option[value="mage"] { color: #3FC7EB !important; }
+#char-class option[value="warlock"] { color: #8788EE !important; }
+#char-class option[value="priest"] { color: #FFFFFF !important; }
+#char-class option[value="evoker"] { color: #33937F !important; }
 
 .wow-title {
   font-family: 'Cinzel', serif;

@@ -95,54 +95,56 @@
     <div class="max-w-7xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-3">
       
       <!-- Brand & Class/Spec Selector with True Class Colors -->
-      <div class="flex items-center space-x-3 flex-wrap gap-y-2">
-        <div id="class-avatar" class="w-11 h-11 rounded-lg flex items-center justify-center shadow-lg border transition-all select-none shrink-0">
-          <i id="class-icon-display" class="fa-solid fa-shield-halved text-xl"></i>
-        </div>
-        <div>
-          <div class="flex items-center gap-2 flex-wrap">
-            <h1 class="wow-title text-xl font-bold text-amber-400 tracking-wide whitespace-nowrap">
-              WoW Optimizer
-            </h1>
-            
-            <!-- Class Selector with Colored Options -->
-            <select id="char-class" onchange="onClassChange()" class="bg-black/70 border border-wow-border text-xs font-bold rounded-lg px-2.5 py-1.5 focus:outline-none cursor-pointer transition">
-              <option value="paladin" style="color: #F48CBA;">Paladin</option>
-              <option value="warrior" style="color: #C69B6D;">Warrior</option>
-              <option value="deathknight" style="color: #C41E3A;">Death Knight</option>
-              <option value="hunter" style="color: #AAD372;">Hunter</option>
-              <option value="shaman" style="color: #0070DD;">Shaman</option>
-              <option value="rogue" style="color: #FFF468;">Rogue</option>
-              <option value="monk" style="color: #00FF98;">Monk</option>
-              <option value="demonhunter" style="color: #A330C9;">Demon Hunter</option>
-              <option value="druid" style="color: #FF7C0A;">Druid</option>
-              <option value="mage" style="color: #3FC7EB;">Mage</option>
-              <option value="warlock" style="color: #8788EE;">Warlock</option>
-              <option value="priest" style="color: #FFFFFF;">Priest</option>
-              <option value="evoker" style="color: #33937F;">Evoker</option>
-            </select>
-
-            <!-- Spec Selector -->
-            <select id="char-spec" onchange="onSpecChange()" class="bg-black/70 border border-wow-border text-xs font-bold rounded-lg px-2.5 py-1.5 text-amber-300 focus:outline-none cursor-pointer">
-              <!-- Injected dynamically -->
-            </select>
+      <div class="flex items-center justify-between sm:justify-start space-x-3 w-full sm:w-auto">
+        <div class="flex items-center space-x-3">
+          <div id="class-avatar" class="w-10 h-10 sm:w-11 sm:h-11 rounded-lg flex items-center justify-center shadow-lg border transition-all select-none shrink-0">
+            <i id="class-icon-display" class="fa-solid fa-shield-halved text-lg sm:text-xl"></i>
           </div>
-          <p class="text-[11px] text-slate-400 mt-0.5 hidden sm:block">SimulationCraft Parser, Track Filtering & Gem Engine</p>
+          <div>
+            <div class="flex items-center gap-2 flex-wrap">
+              <h1 class="wow-title text-lg sm:text-xl font-bold text-amber-400 tracking-wide whitespace-nowrap">
+                WoW Optimizer
+              </h1>
+              
+              <!-- Class Selector with Colored Options -->
+              <select id="char-class" onchange="onClassChange()" class="bg-black/70 border border-wow-border text-xs font-bold rounded-lg px-2 py-1 sm:px-2.5 sm:py-1.5 focus:outline-none cursor-pointer transition">
+                <option value="paladin" style="color: #F48CBA;">Paladin</option>
+                <option value="warrior" style="color: #C69B6D;">Warrior</option>
+                <option value="deathknight" style="color: #C41E3A;">Death Knight</option>
+                <option value="hunter" style="color: #AAD372;">Hunter</option>
+                <option value="shaman" style="color: #0070DD;">Shaman</option>
+                <option value="rogue" style="color: #FFF468;">Rogue</option>
+                <option value="monk" style="color: #00FF98;">Monk</option>
+                <option value="demonhunter" style="color: #A330C9;">Demon Hunter</option>
+                <option value="druid" style="color: #FF7C0A;">Druid</option>
+                <option value="mage" style="color: #3FC7EB;">Mage</option>
+                <option value="warlock" style="color: #8788EE;">Warlock</option>
+                <option value="priest" style="color: #FFFFFF;">Priest</option>
+                <option value="evoker" style="color: #33937F;">Evoker</option>
+              </select>
+
+              <!-- Spec Selector -->
+              <select id="char-spec" onchange="onSpecChange()" class="bg-black/70 border border-wow-border text-xs font-bold rounded-lg px-2 py-1 sm:px-2.5 sm:py-1.5 text-amber-300 focus:outline-none cursor-pointer">
+                <!-- Injected dynamically -->
+              </select>
+            </div>
+            <p class="text-[11px] text-slate-400 mt-0.5 hidden sm:block">SimulationCraft Parser, Track Filtering & Gem Engine</p>
+          </div>
         </div>
       </div>
 
       <!-- Navigation Tabs -->
-      <div class="flex items-center space-x-2 bg-black/50 p-1 rounded-lg border border-wow-border">
-        <button id="tab-opt-btn" onclick="switchTab('optimizer')" class="px-4 py-1.5 rounded-md text-sm font-semibold transition bg-amber-500 text-black shadow flex items-center">
+      <div class="flex items-center justify-center w-full sm:w-auto space-x-2 bg-black/50 p-1 rounded-lg border border-wow-border">
+        <button id="tab-opt-btn" onclick="switchTab('optimizer')" class="flex-1 sm:flex-none justify-center px-4 py-1.5 rounded-md text-sm font-semibold transition bg-amber-500 text-black shadow flex items-center">
           <i class="fa-solid fa-calculator mr-1.5"></i> <span data-i18n="tabOptimizer">Optimizer</span>
         </button>
-        <button id="tab-inv-btn" onclick="switchTab('inventory')" class="px-4 py-1.5 rounded-md text-sm font-semibold transition text-slate-300 hover:text-white flex items-center">
+        <button id="tab-inv-btn" onclick="switchTab('inventory')" class="flex-1 sm:flex-none justify-center px-4 py-1.5 rounded-md text-sm font-semibold transition text-slate-300 hover:text-white flex items-center">
           <i class="fa-solid fa-boxes-stacked mr-1.5"></i> <span data-i18n="tabInventory">Inventory</span> (<span id="total-items-badge">0</span>)
         </button>
       </div>
 
       <!-- Actions -->
-      <div class="flex items-center space-x-2 flex-wrap gap-y-1">
+      <div class="flex items-center justify-center sm:justify-end w-full sm:w-auto space-x-2 flex-wrap gap-y-1.5">
         <!-- Return to Home Link -->
         <a href="index.html" class="bg-black/60 hover:bg-black text-amber-300 hover:text-amber-200 text-xs font-bold px-3 py-1.5 rounded-lg border border-wow-border flex items-center gap-1.5 transition shadow-sm" title="Back to Main Portal" data-i18n-title="homeTitle">
           <i class="fa-solid fa-house text-amber-400"></i> <span class="hidden sm:inline" data-i18n="homeNav">Home</span>
@@ -187,7 +189,7 @@
         <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-wow-border/60 pb-4 mb-4">
           <div>
             <h2 class="text-lg font-bold text-white flex items-center gap-2">
-              <i class="fa-solid fa-crosshairs text-amber-400"></i> <span data-i18n="targetStatsTitle">Target Stats</span> (<span id="current-spec-title" class="font-black">Retribution</span>)
+              <i class="fa-solid fa-crosshairs text-amber-400"></i> <span data-i18n="targetStatsTitle">Target Stats</span>
             </h2>
             <p class="text-xs text-slate-400" data-i18n="targetStatsSubtitle">Calculates on pure base stats (excluding gems) and integrates secondary stat trinkets</p>
           </div>
@@ -280,38 +282,42 @@
         <div class="mt-4 pt-3 border-t border-wow-border/60 space-y-3">
           
           <!-- Track Filters -->
-          <div class="flex flex-wrap items-center gap-2.5 text-xs">
-            <span class="font-bold text-slate-300 flex items-center gap-1.5">
-              <i class="fa-solid fa-filter text-amber-400"></i> <span data-i18n="trackQuality">Quality / Track</span>:
-            </span>
-            <label class="flex items-center gap-1.5 cursor-pointer bg-purple-950/40 border border-purple-500/40 px-2 py-1 rounded">
-              <input type="checkbox" id="track-myth" checked onchange="runOptimizer()" class="rounded bg-black text-purple-600 focus:ring-0">
-              <span class="text-purple-300 font-bold" data-i18n="trackMyth">Mythic</span>
-            </label>
-            <label class="flex items-center gap-1.5 cursor-pointer bg-blue-950/40 border border-blue-500/40 px-2 py-1 rounded">
-              <input type="checkbox" id="track-hero" checked onchange="runOptimizer()" class="rounded bg-black text-blue-500 focus:ring-0">
-              <span class="text-blue-300 font-bold" data-i18n="trackHero">Heroic</span>
-            </label>
-            <label class="flex items-center gap-1.5 cursor-pointer bg-emerald-950/40 border border-emerald-500/40 px-2 py-1 rounded">
-              <input type="checkbox" id="track-champ" onchange="runOptimizer()" class="rounded bg-black text-emerald-500 focus:ring-0">
-              <span class="text-emerald-300 font-bold" data-i18n="trackChamp">Champion</span>
-            </label>
-            <label class="flex items-center gap-1.5 cursor-pointer bg-amber-950/40 border border-amber-500/40 px-2 py-1 rounded">
-              <input type="checkbox" id="track-vet" onchange="runOptimizer()" class="rounded bg-black text-amber-500 focus:ring-0">
-              <span class="text-amber-300 font-bold" data-i18n="trackVet">Vet / Other</span>
-            </label>
-
-            <!-- Quick Track Presets -->
-            <div class="flex items-center gap-1">
-              <button type="button" onclick="applyTrackPreset('all')" class="px-1.5 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-[10px] text-slate-300 border border-slate-600" data-i18n="trackAll">All</button>
-              <button type="button" onclick="applyTrackPreset('myth-hero')" class="px-1.5 py-0.5 rounded bg-blue-950/60 hover:bg-blue-900 text-[10px] text-blue-300 border border-blue-600/50" data-i18n="trackMythHero">Myt+Hero</button>
-              <button type="button" onclick="applyTrackPreset('myth-only')" class="px-1.5 py-0.5 rounded bg-purple-950/60 hover:bg-purple-900 text-[10px] text-purple-300 border border-purple-600/50" data-i18n="trackMythOnly">Myth Only</button>
+          <div class="flex flex-wrap items-center justify-between gap-2.5 text-xs">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="font-bold text-slate-300 flex items-center gap-1.5">
+                <i class="fa-solid fa-filter text-amber-400"></i> <span data-i18n="trackQuality">Quality / Track</span>:
+              </span>
+              <label class="flex items-center gap-1.5 cursor-pointer bg-purple-950/40 border border-purple-500/40 px-2 py-1 rounded">
+                <input type="checkbox" id="track-myth" checked onchange="runOptimizer()" class="rounded bg-black text-purple-600 focus:ring-0">
+                <span class="text-purple-300 font-bold" data-i18n="trackMyth">Mythic</span>
+              </label>
+              <label class="flex items-center gap-1.5 cursor-pointer bg-blue-950/40 border border-blue-500/40 px-2 py-1 rounded">
+                <input type="checkbox" id="track-hero" checked onchange="runOptimizer()" class="rounded bg-black text-blue-500 focus:ring-0">
+                <span class="text-blue-300 font-bold" data-i18n="trackHero">Heroic</span>
+              </label>
+              <label class="flex items-center gap-1.5 cursor-pointer bg-emerald-950/40 border border-emerald-500/40 px-2 py-1 rounded">
+                <input type="checkbox" id="track-champ" onchange="runOptimizer()" class="rounded bg-black text-emerald-500 focus:ring-0">
+                <span class="text-emerald-300 font-bold" data-i18n="trackChamp">Champion</span>
+              </label>
+              <label class="flex items-center gap-1.5 cursor-pointer bg-amber-950/40 border border-amber-500/40 px-2 py-1 rounded">
+                <input type="checkbox" id="track-vet" onchange="runOptimizer()" class="rounded bg-black text-amber-500 focus:ring-0">
+                <span class="text-amber-300 font-bold" data-i18n="trackVet">Vet / Other</span>
+              </label>
             </div>
 
-            <!-- Min ilvl input -->
-            <div class="flex items-center gap-1.5 ml-auto bg-black/40 border border-wow-border px-2.5 py-1 rounded text-xs">
-              <span class="text-slate-400 font-semibold" data-i18n="minIlvl">Min ilvl:</span>
-              <input type="number" id="filter-min-ilvl" value="290" min="0" max="999" oninput="runOptimizer()" class="w-14 bg-black/70 border border-wow-border/70 rounded px-1.5 py-0.5 text-amber-300 font-bold text-center focus:outline-none focus:border-amber-400">
+            <!-- Quick Track Presets & Min ilvl -->
+            <div class="flex items-center justify-between sm:justify-end gap-2 w-full sm:w-auto">
+              <div class="flex items-center gap-1">
+                <button type="button" onclick="applyTrackPreset('all')" class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-[11px] text-slate-300 border border-slate-600" data-i18n="trackAll">All</button>
+                <button type="button" onclick="applyTrackPreset('myth-hero')" class="px-2 py-1 rounded bg-blue-950/60 hover:bg-blue-900 text-[11px] text-blue-300 border border-blue-600/50" data-i18n="trackMythHero">Myt+Hero</button>
+                <button type="button" onclick="applyTrackPreset('myth-only')" class="px-2 py-1 rounded bg-purple-950/60 hover:bg-purple-900 text-[11px] text-purple-300 border border-purple-600/50" data-i18n="trackMythOnly">Myth Only</button>
+              </div>
+
+              <!-- Min ilvl input -->
+              <div class="flex items-center gap-1.5 bg-black/40 border border-wow-border px-2.5 py-1 rounded text-xs ml-auto sm:ml-0">
+                <span class="text-slate-400 font-semibold" data-i18n="minIlvl">Min ilvl:</span>
+                <input type="number" id="filter-min-ilvl" value="290" min="0" max="999" oninput="runOptimizer()" class="w-14 bg-black/70 border border-wow-border/70 rounded px-1.5 py-0.5 text-amber-300 font-bold text-center focus:outline-none focus:border-amber-400">
+              </div>
             </div>
           </div>
 
@@ -354,10 +360,12 @@
             </div>
           </details>
 
-          <div class="flex flex-wrap items-center justify-between gap-4 pt-1">
-            <div class="flex items-center gap-4 text-xs flex-wrap">
-              <div class="relative flex items-center gap-1.5 bg-purple-950/40 hover:bg-purple-900/50 border border-purple-500/50 hover:border-purple-400 rounded px-2.5 py-1 text-xs shadow-sm cursor-pointer transition select-none">
-                <span class="text-purple-300 font-bold flex items-center gap-1"><i class="fa-solid fa-layer-group text-purple-400 text-[10px]"></i> <span data-i18n="tierSetMode">Tier Set</span>:</span>
+          <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-3 pt-2.5 border-t border-wow-border/40 mt-1">
+            <!-- Optimization Filters & Tools -->
+            <div class="grid grid-cols-2 sm:flex sm:items-center gap-2 text-xs w-full lg:w-auto">
+              <span data-i18n="optionsLabel" class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider hidden sm:inline mr-0.5">Opciones:</span>
+              <div class="relative flex items-center justify-center gap-1.5 bg-purple-950/40 hover:bg-purple-900/50 border border-purple-500/50 hover:border-purple-400 rounded-lg px-2.5 py-1.5 text-xs shadow-sm cursor-pointer transition select-none">
+                <span class="text-purple-300 font-bold flex items-center gap-1"><i class="fa-solid fa-layer-group text-purple-400 text-[11px]"></i> <span data-i18n="tierSetMode">Tier Set</span>:</span>
                 <span id="tier-mode-display" class="text-purple-200 font-bold ml-0.5">0</span>
                 <i class="fa-solid fa-chevron-down text-[9px] text-purple-400 ml-1"></i>
                 <select id="tier-mode" onchange="document.getElementById('tier-mode-display').innerText = this.value; runOptimizer();" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer bg-[#0e111a] text-purple-200" style="color-scheme: dark;">
@@ -367,30 +375,31 @@
                 </select>
               </div>
 
-              <label class="flex items-center gap-1.5 bg-gradient-to-r from-amber-950/60 to-orange-950/50 border border-amber-500/50 hover:border-amber-400 rounded-lg px-2.5 py-1 text-xs cursor-pointer shadow-sm transition select-none" title="Simulates all items at max upgrade rank for their track (Veteran 6/6: 296, Champion 6/6: 309, Heroic 6/6: 321, Mythic 6/6: 334)">
+              <label class="flex items-center justify-center gap-1.5 bg-gradient-to-r from-amber-950/60 to-orange-950/50 border border-amber-500/50 hover:border-amber-400 rounded-lg px-2.5 py-1.5 text-xs cursor-pointer shadow-sm transition select-none" title="Simulates all items at max upgrade rank for their track (Veteran 6/6: 296, Champion 6/6: 309, Heroic 6/6: 321, Mythic 6/6: 334)">
                 <input type="checkbox" id="toggle-max-ilvl" onchange="runOptimizer()" class="rounded bg-black border-amber-500 text-amber-500 focus:ring-0 cursor-pointer">
                 <span class="text-amber-300 font-bold flex items-center gap-1">
                   <i class="fa-solid fa-angles-up text-amber-400 text-[11px]"></i> <span data-i18n="simMaxIlvl">Max ilvl</span>
                 </span>
               </label>
 
-              <label class="flex items-center gap-1.5 bg-gradient-to-r from-emerald-950/70 to-teal-950/60 border border-emerald-500/50 hover:border-emerald-400 rounded-lg px-2.5 py-1 text-xs cursor-pointer shadow-sm transition select-none" title="Applies Ascendant Venomstone upgrade (+7 ilvls on Hero/Crafted Hero up to 328/325, +6/+7 ilvls on Myth/Crafted Myth up to 340/338)">
+              <label class="flex items-center justify-center gap-1.5 bg-gradient-to-r from-emerald-950/70 to-teal-950/60 border border-emerald-500/50 hover:border-emerald-400 rounded-lg px-2.5 py-1.5 text-xs cursor-pointer shadow-sm transition select-none" title="Applies Ascendant Venomstone upgrade (+7 ilvls on Hero/Crafted Hero up to 328/325, +6/+7 ilvls on Myth/Crafted Myth up to 340/338)">
                 <input type="checkbox" id="toggle-venomstone" onchange="runOptimizer()" class="rounded bg-black border-emerald-500 text-emerald-500 focus:ring-0 cursor-pointer">
                 <span class="text-emerald-300 font-bold flex items-center gap-1">
                   <i class="fa-solid fa-flask-vial text-emerald-400 text-[11px]"></i> <span data-i18n="simVenomstones">Venomstones</span>
                 </span>
               </label>
 
-              <button type="button" onclick="openBloodmalletModal()" class="bg-red-950/40 hover:bg-red-900/60 text-xs font-semibold px-3 py-1.5 rounded-lg border border-red-500/50 text-red-200 hover:text-white flex items-center gap-1.5 transition shadow-sm" title="View official trinket rankings for your class">
+              <button type="button" onclick="openBloodmalletModal()" class="bg-red-950/40 hover:bg-red-900/60 text-xs font-semibold px-2.5 py-1.5 rounded-lg border border-red-500/50 text-red-200 hover:text-white flex items-center justify-center gap-1.5 transition shadow-sm" title="View official trinket rankings for your class">
                 <i class="fa-solid fa-chart-simple text-red-400"></i> <span data-i18n="trinketRankings">Trinket Rankings</span>
               </button>
             </div>
 
-            <div class="flex items-center gap-2.5">
-              <button onclick="openCompareModal()" class="bg-gradient-to-r from-amber-500/15 via-amber-400/20 to-amber-500/15 hover:from-amber-500/30 hover:to-amber-400/30 text-amber-300 hover:text-amber-200 text-xs sm:text-sm font-bold px-4 py-2 rounded-lg border border-amber-400/60 hover:border-amber-300 shadow-md shadow-amber-950/40 flex items-center gap-2 transition cursor-pointer active:scale-95">
+            <!-- Primary Actions Area -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:items-center gap-2.5 sm:gap-3 pt-1 lg:pt-0 w-full lg:w-auto">
+              <button onclick="openCompareModal()" class="w-full lg:w-auto justify-center bg-gradient-to-r from-amber-500/15 via-amber-400/20 to-amber-500/15 hover:from-amber-500/30 hover:to-amber-400/30 text-amber-300 hover:text-amber-200 text-xs sm:text-sm font-bold px-4 py-2.5 sm:py-2 rounded-lg border border-amber-400/60 hover:border-amber-300 shadow-md shadow-amber-950/40 flex items-center gap-2 transition cursor-pointer active:scale-95">
                 <i class="fa-solid fa-code-compare text-amber-400"></i> <span data-i18n="compareVsEquipped">Compare vs Equipped</span>
               </button>
-              <button id="btn-run-optimizer" onclick="onCalculateBtnClick()" class="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold text-xs sm:text-sm px-5 py-2 rounded-lg shadow-lg shadow-amber-500/20 flex items-center gap-2 transition cursor-pointer active:scale-95">
+              <button id="btn-run-optimizer" onclick="onCalculateBtnClick()" class="w-full lg:w-auto justify-center bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold text-xs sm:text-sm px-5 py-2.5 sm:py-2 rounded-lg shadow-lg shadow-amber-500/20 flex items-center gap-2 transition cursor-pointer active:scale-95">
                 <i class="fa-solid fa-bolt text-slate-950"></i> <span id="btn-calc-text" data-i18n="calcBestSetup">Calculate Best Setup</span>
               </button>
             </div>
