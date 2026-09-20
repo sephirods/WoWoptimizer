@@ -26,7 +26,7 @@ const DEFAULT_PINNED_NEWS_IDS = ['blizz-30111968'];
       </div>
 
       <!-- 2 Columns Grid: Blue Tracker + Recent News -->
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 bg-transparent border-none">
         
         <!-- Column 1: Blue Tracker -->
         <div class="bg-wow-card border border-sky-500/30 rounded-2xl p-4 sm:p-5 shadow-xl space-y-4">
@@ -374,7 +374,7 @@ function renderPinnedNews() {
         </div>
       </div>
 
-      <div class="grid grid-cols-1 ${pinnedArticles.length > 1 ? 'md:grid-cols-2' : ''} gap-3 sm:gap-4">
+      <div class="grid grid-cols-1 ${pinnedArticles.length > 1 ? 'md:grid-cols-2' : ''} gap-3 sm:gap-4 bg-transparent border-none">
         ${pinnedArticles.map(item => {
           const itemTitle = resolveLocalized(item.title, lang);
           const itemSummary = resolveLocalized(item.summary, lang);
@@ -476,7 +476,7 @@ function renderBlizzardNews() {
       </div>
 
       <!-- Grid responsive horizontal / 3 columnas en desktop -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4 bg-transparent border-none">
         ${list.map(item => {
           const itemTitle = resolveLocalized(item.title, lang);
           const itemSummary = resolveLocalized(item.summary, lang);
