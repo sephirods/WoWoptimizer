@@ -30,14 +30,15 @@ const DEFAULT_PINNED_NEWS_IDS = ['blizz-30111968', 'blizz-24302093'];
         
         <!-- Column 1: Blue Tracker -->
         <div class="bg-wow-card border border-sky-500/30 rounded-2xl p-4 sm:p-5 shadow-xl space-y-4">
-          <div class="flex items-center justify-between pb-3 border-b border-wow-border gap-2 flex-wrap sm:flex-nowrap">
-            <div class="flex items-center gap-2.5">
+          <div class="flex items-center justify-between pb-3 border-b border-wow-border gap-2">
+            <div class="flex items-center gap-2 sm:gap-2.5 min-w-0">
               <div class="w-8 h-8 rounded-lg bg-sky-950/80 border border-sky-500/50 flex items-center justify-center text-sky-400 text-sm font-bold shadow shrink-0">
                 <i class="fa-solid fa-bullhorn"></i>
               </div>
-              <div>
-                <h3 class="text-sm font-bold text-white flex items-center gap-1.5 sm:gap-2">
-                  Blue Tracker <span class="text-[10px] font-normal text-slate-400 hidden min-[400px]:inline">Oficial Blizzard</span>
+              <div class="min-w-0">
+                <h3 class="text-xs sm:text-sm font-bold text-white flex items-center gap-1.5 sm:gap-2 truncate">
+                  <span>Blue Tracker</span>
+                  <span class="text-[10px] font-normal text-slate-400 hidden sm:inline">Oficial Blizzard</span>
                 </h3>
               </div>
             </div>
@@ -559,6 +560,25 @@ if (typeof window !== 'undefined') {
   });
 }
 
+let blizzardVisibleCount = 6;
+
+function loadMoreBlizzardNews() {
+  blizzardVisibleCount += 3;
+  renderBlizzardNews();
+}
+
+function showLessBlizzardNews() {
+  blizzardVisibleCount = 6;
+  renderBlizzardNews();
+}
+
+function scrollBlizzardCarousel(direction) {
+  const carousel = document.getElementById('blizzard-mobile-carousel');
+  if (!carousel) return;
+  const cardWidth = carousel.querySelector('.snap-center')?.offsetWidth || 280;
+  carousel.scrollBy({ left: direction * (cardWidth + 12), behavior: 'smooth' });
+}
+
 function renderBlizzardNews() {
   const container = document.getElementById('blizzard-news-container');
   if (!container) return;
@@ -578,68 +598,130 @@ function renderBlizzardNews() {
   const titleText = lang === 'en' ? 'Blizzard Official Articles & Features' : 'Artículos Oficiales de Blizzard';
   const badgeText = lang === 'en' ? 'Official' : 'Oficial';
   const readFullText = lang === 'en' ? 'Read full article' : 'Leer artículo completo';
+  const loadMoreText = lang === 'en' ? 'Load More Articles' : 'Cargar más noticias';
+  const showLessText = lang === 'en' ? 'Show Less' : 'Mostrar menos';
+  const showingText = lang === 'en' ? 'Showing' : 'Mostrando';
+  const ofText = lang === 'en' ? 'of' : 'de';
+
+  const visibleCount = Math.min(blizzardVisibleCount, list.length);
+  const desktopList = list.slice(0, visibleCount);
+  const hasMore = visibleCount < list.length;
+
+  const renderCard = (item, isMobile = false) => {
+    const itemTitle = resolveLocalized(item.title, lang);
+    const itemSummary = resolveLocalized(item.summary, lang);
+    const timeDisplay = item.dateRaw || 'Reciente';
+    const coverImg = item.imageUrl || 'https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png';
+    const cardClass = isMobile
+      ? 'w-[82vw] max-w-[310px] snap-center shrink-0 flex flex-col justify-between group cursor-pointer bg-black/50 hover:bg-black/80 border border-sky-500/30 hover:border-sky-400/70 rounded-xl overflow-hidden shadow-lg transition duration-200'
+      : 'group cursor-pointer bg-black/40 hover:bg-black/70 border border-sky-500/25 hover:border-sky-400/70 rounded-xl overflow-hidden transition duration-200 shadow-md flex flex-col justify-between';
+
+    return `
+      <div onclick="openArticleModal('${item.id}', 'blizzard')" class="${cardClass}">
+        <!-- Cover Image -->
+        <div class="w-full ${isMobile ? 'h-36' : 'h-36 sm:h-40'} overflow-hidden relative bg-black/60 shrink-0">
+          <img src="${coverImg}" alt="${itemTitle}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-black/20"></div>
+          <span class="absolute top-2.5 left-2.5 text-[9px] font-mono font-bold px-2 py-0.5 rounded-full border border-sky-400/60 bg-sky-950/90 text-sky-200 shadow">
+            ${badgeText}
+          </span>
+        </div>
+
+        <!-- Content details -->
+        <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between space-y-2">
+          <div class="space-y-1.5">
+            <div class="text-[10px] text-sky-400 font-mono flex items-center gap-1.5">
+              <i class="fa-regular fa-calendar-days text-[10px]"></i> ${timeDisplay}
+            </div>
+            <h4 class="text-xs sm:text-sm font-bold text-slate-100 group-hover:text-sky-300 transition line-clamp-2 leading-snug">
+              ${itemTitle}
+            </h4>
+          </div>
+
+          <div class="pt-2 border-t border-white/5 flex items-center justify-between text-[11px] font-semibold text-sky-400 group-hover:text-sky-300">
+            <span class="flex items-center gap-1">
+              ${readFullText} <i class="fa-solid fa-arrow-right text-[10px] group-hover:translate-x-1 transition"></i>
+            </span>
+            <i class="fa-solid fa-book-open text-xs text-sky-500/60"></i>
+          </div>
+        </div>
+      </div>
+    `;
+  };
 
   container.innerHTML = `
     <div class="bg-wow-card border border-sky-500/40 rounded-2xl p-4 sm:p-5 shadow-2xl space-y-4">
-      <div class="flex items-center justify-between pb-3 border-b border-sky-500/20 gap-3 flex-wrap">
-        <div class="flex items-center gap-2.5">
+      <div class="flex items-center justify-between pb-3 border-b border-sky-500/20 gap-2">
+        <div class="flex items-center gap-2 sm:gap-2.5 min-w-0">
           <div class="w-8 h-8 rounded-lg bg-sky-950/80 border border-sky-500/50 flex items-center justify-center text-sky-400 text-sm font-bold shadow shrink-0">
             <i class="fa-solid fa-scroll"></i>
           </div>
-          <div>
-            <h3 class="text-sm sm:text-base font-bold text-white flex items-center gap-2">
-              <span>${titleText}</span>
-              <span class="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-sky-500/20 border border-sky-500/40 text-sky-300">
+          <div class="min-w-0">
+            <h3 class="text-xs sm:text-base font-bold text-white flex items-center gap-1.5 sm:gap-2">
+              <span class="sm:hidden font-bold">Blizzard News</span>
+              <span class="hidden sm:inline">${titleText}</span>
+              <span class="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-sky-500/20 border border-sky-500/40 text-sky-300 shrink-0">
                 ${list.length}
               </span>
             </h3>
           </div>
         </div>
-        <span class="text-[11px] font-mono text-sky-400/80 flex items-center gap-1.5">
-          <i class="fa-solid fa-circle-check text-[10px]"></i> ${lang === 'en' ? 'Verified Blizzard Editorial' : 'Editorial Verificada de Blizzard'}
-        </span>
+
+        <div class="flex items-center gap-2 shrink-0">
+          <!-- Controles del carrusel en móvil: en la misma fila a la derecha, perfectamente centrados -->
+          <div class="flex sm:hidden items-center gap-1 bg-black/60 p-1 rounded-xl border border-sky-500/40 shadow">
+            <button onclick="scrollBlizzardCarousel(-1)" aria-label="Anterior" class="w-7 h-7 flex items-center justify-center rounded-lg text-sky-300 hover:text-white bg-sky-950/60 border border-sky-500/40 text-center leading-none">
+              <i class="fa-solid fa-chevron-left text-[11px] pointer-events-none"></i>
+            </button>
+            <button onclick="scrollBlizzardCarousel(1)" aria-label="Siguiente" class="w-7 h-7 flex items-center justify-center rounded-lg text-sky-300 hover:text-white bg-sky-950/60 border border-sky-500/40 text-center leading-none">
+              <i class="fa-solid fa-chevron-right text-[11px] pointer-events-none"></i>
+            </button>
+          </div>
+          <span class="hidden sm:flex text-[11px] font-mono text-sky-400/80 items-center gap-1.5">
+            <i class="fa-solid fa-circle-check text-[10px]"></i> ${lang === 'en' ? 'Verified Blizzard Editorial' : 'Editorial Verificada de Blizzard'}
+          </span>
+        </div>
       </div>
 
-      <!-- Grid responsive horizontal / 3 columnas en desktop -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4 bg-transparent border-none">
-        ${list.map(item => {
-          const itemTitle = resolveLocalized(item.title, lang);
-          const itemSummary = resolveLocalized(item.summary, lang);
-          const timeDisplay = item.dateRaw || 'Reciente';
-          const coverImg = item.imageUrl || 'https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png';
+      <!-- VISTA MÓVIL (<640px): Carrusel táctil con snap horizontal fluido -->
+      <div class="block sm:hidden">
+        <div id="blizzard-mobile-carousel" class="flex gap-3 overflow-x-auto snap-x snap-mandatory scrollbar-none pb-2 pt-1 -mx-2 px-2 scroll-smooth">
+          ${list.map(item => renderCard(item, true)).join('')}
+        </div>
+        <div class="flex items-center justify-center gap-1.5 pt-2 text-[10px] text-slate-400 font-mono">
+          <i class="fa-solid fa-hand-pointer text-[9px] text-sky-400 animate-pulse"></i>
+          <span>${lang === 'en' ? 'Swipe to explore all articles' : 'Desliza para ver más noticias'}</span>
+        </div>
+      </div>
 
-          return `
-            <div onclick="openArticleModal('${item.id}', 'blizzard')" class="group cursor-pointer bg-black/40 hover:bg-black/70 border border-sky-500/25 hover:border-sky-400/70 rounded-xl overflow-hidden transition duration-200 shadow-md flex flex-col justify-between">
-              <!-- Cover Image -->
-              <div class="w-full h-36 sm:h-40 overflow-hidden relative bg-black/60 shrink-0">
-                <img src="${coverImg}" alt="${itemTitle}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20"></div>
-                <span class="absolute top-2.5 left-2.5 text-[9px] font-mono font-bold px-2 py-0.5 rounded-full border border-sky-400/60 bg-sky-950/90 text-sky-200 shadow">
-                  ${badgeText}
-                </span>
-              </div>
+      <!-- VISTA DESKTOP / TABLET (>=640px): Grid de 6 iniciales con botón Cargar Más de 3 en 3 -->
+      <div class="hidden sm:block space-y-5">
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4 bg-transparent border-none">
+          ${desktopList.map(item => renderCard(item, false)).join('')}
+        </div>
 
-              <!-- Content details -->
-              <div class="p-3.5 sm:p-4 flex-1 flex flex-col justify-between space-y-2">
-                <div class="space-y-1.5">
-                  <div class="text-[10px] text-sky-400 font-mono flex items-center gap-1.5">
-                    <i class="fa-regular fa-calendar-days text-[10px]"></i> ${timeDisplay}
-                  </div>
-                  <h4 class="text-xs sm:text-sm font-bold text-slate-100 group-hover:text-sky-300 transition line-clamp-2 leading-snug">
-                    ${itemTitle}
-                  </h4>
-                </div>
+        <!-- Barra de acción "Cargar más" de 3 en 3 -->
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-3 pt-2 border-t border-sky-500/20">
+          <span class="text-xs font-mono text-slate-400">
+            ${showingText} <strong class="text-sky-300">${visibleCount}</strong> ${ofText} <strong class="text-slate-200">${list.length}</strong>
+          </span>
 
-                <div class="pt-2 border-t border-white/5 flex items-center justify-between text-[11px] font-semibold text-sky-400 group-hover:text-sky-300">
-                  <span class="flex items-center gap-1">
-                    ${readFullText} <i class="fa-solid fa-arrow-right text-[10px] group-hover:translate-x-1 transition"></i>
-                  </span>
-                  <i class="fa-solid fa-book-open text-xs text-sky-500/60"></i>
-                </div>
-              </div>
-            </div>
-          `;
-        }).join('')}
+          <div class="flex items-center gap-2">
+            ${hasMore ? `
+              <button onclick="loadMoreBlizzardNews()" class="px-4 py-2 rounded-xl text-xs font-bold font-mono tracking-wide bg-sky-950/90 hover:bg-sky-900 border border-sky-500/50 hover:border-sky-400 text-sky-200 hover:text-white shadow-lg transition flex items-center gap-2 min-h-[38px]">
+                <i class="fa-solid fa-plus text-[10px]"></i>
+                <span>${loadMoreText} (+3)</span>
+              </button>
+            ` : ''}
+
+            ${visibleCount > 6 ? `
+              <button onclick="showLessBlizzardNews()" class="px-3 py-2 rounded-xl text-xs font-semibold font-mono text-slate-400 hover:text-slate-200 bg-black/40 hover:bg-black/70 border border-slate-700/50 transition flex items-center gap-1.5 min-h-[38px]">
+                <i class="fa-solid fa-chevron-up text-[10px]"></i>
+                <span>${showLessText}</span>
+              </button>
+            ` : ''}
+          </div>
+        </div>
       </div>
     </div>
   `;

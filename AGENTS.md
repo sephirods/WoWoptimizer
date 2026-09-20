@@ -30,11 +30,16 @@
 - **NO GIT ROLLBACK OR RESET**:
   - Never run `git reset`, `git revert`, `git checkout .`, or `git clean` without explicit user permission.
 
+- **STRICTLY PROHIBITED TO SUGGEST OR ASK FOR COMMITS/PUSHES (MANDATORY)**:
+  - The assistant MUST NEVER ask, suggest, hint, or insist on running `git commit` or `git push` under ANY circumstances.
+  - The assistant applies code edits locally and simply confirms what was changed.
+  - ONLY when the user explicitly, directly, and on their own initiative orders a commit or push (e.g. "haz commit", "sube los cambios"), may the assistant execute it. Zero prompting from the assistant.
+
 ## 4. Workflow Protocol
 
 - Apply edits locally only.
 - Present what was modified clearly to the user.
-- Wait for the user to visually review, test, and approve before touching any Git write or deployment actions.
+- DO NOT ask to commit or push. Wait silently for the user's explicit command.
 
 ## 5. Execution Directives & Interaction Cadence (MANDATORY)
 
