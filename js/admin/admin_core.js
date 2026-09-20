@@ -104,14 +104,53 @@ function switchAdminTab(tabId) {
   } else if (tabId === 'news') {
     renderAdminNewsPreview();
   } else if (tabId === 'analytics') {
-    reloadAnalyticsFrame();
+    fetchAnalyticsCounts();
   }
 }
 
-function reloadAnalyticsFrame() {
-  const iframe = document.getElementById('analytics-iframe');
-  if (iframe) {
-    iframe.src = 'https://sephirods.goatcounter.com?_=' + Date.now();
+async function fetchAnalyticsCounts() {
+  const icon = document.getElementById('refresh-analytics-icon');
+  if (icon) icon.classList.add('fa-spin');
+
+  const setEl = (id, val) => {
+    const el = document.getElementById(id);
+    if (el) el.innerText = val;
+  };
+
+  try {
+    const fetchCount = async (path) => {
+      try {
+        const res = await fetch(`https://sephirods.goatcounter.com/counter/${encodeURIComponent(path)}.json?_ts=${Date.now()}`);
+        if (!res.ok) return 0;
+        const data = await res.json();
+        return parseInt((data.count || '0').replace(/[^0-9]/g, ''), 10) || 0;
+      } catch (e) {
+        return 0;
+      }
+    };
+
+    const [total, indexCount, gearsim1, gearsim2] = await Promise.all([
+      fetchCount('TOTAL'),
+      fetchCount('/'),
+      fetchCount('/gearsim'),
+      fetchCount('/gearsim.html')
+    ]);
+
+    const gearsimTotal = gearsim1 + gearsim2;
+
+    setEl('analytics-count-total', total.toLocaleString());
+    setEl('analytics-count-index', indexCount.toLocaleString());
+    setEl('analytics-count-gearsim', gearsimTotal.toLocaleString());
+
+    setEl('overview-analytics-total', `${total.toLocaleString()} visitas`);
+
+    const lastEl = document.getElementById('analytics-last-update');
+    if (lastEl) lastEl.innerText = 'Actualizado: ' + new Date().toLocaleTimeString();
+
+  } catch (err) {
+    console.warn('Error al obtener métricas de GoatCounter:', err);
+  } finally {
+    if (icon) icon.classList.remove('fa-spin');
   }
 }
 
@@ -141,6 +180,7 @@ function renderAdminDashboard() {
   renderMissingTooltipsTable();
   renderTicketsTable();
   renderAdminNewsPreview();
+  fetchAnalyticsCounts();
 }
 
 function refreshAllStatuses() {
