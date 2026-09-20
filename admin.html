@@ -649,6 +649,28 @@
             </div>
           </div>
 
+          <!-- Gestión de Noticias Fijadas / Pineadas (Home Highlights) -->
+          <div class="bg-wow-subcard border border-amber-500/40 rounded-xl p-4 space-y-3">
+            <div class="flex items-center justify-between flex-wrap gap-2">
+              <div class="flex items-center gap-2">
+                <div class="w-7 h-7 rounded-lg bg-amber-500/20 border border-amber-500/50 flex items-center justify-center text-amber-400 text-xs">
+                  <i class="fa-solid fa-thumbtack"></i>
+                </div>
+                <div>
+                  <h4 class="text-xs font-bold text-amber-300 uppercase tracking-wider flex items-center gap-2">
+                    Noticias Fijadas en Portada (Home Highlights)
+                  </h4>
+                  <p class="text-[11px] text-slate-400">Estas noticias aparecerán destacadas en la parte superior de la sección de noticias del inicio.</p>
+                </div>
+              </div>
+              <span id="pinned-news-count-badge" class="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-amber-950 text-amber-300 border border-amber-500/50 font-bold">0 fijadas</span>
+            </div>
+            
+            <div id="admin-pinned-news-container" class="space-y-2">
+              <!-- Renderizado dinámico de noticias pineadas -->
+            </div>
+          </div>
+
           <!-- Previsualización / Inspección de publicaciones cargadas -->
           <div class="space-y-3 pt-2">
             <div class="flex items-center justify-between flex-wrap gap-2">
@@ -1367,8 +1389,41 @@
       if (btn) btn.disabled = false;
     }
 
+    const DEFAULT_PINNED_NEWS_IDS = ['blizz-30111968'];
+
+    function getPinnedNewsIds() {
+      try {
+        const raw = localStorage.getItem('wow_pinned_news_ids');
+        if (raw === null) return DEFAULT_PINNED_NEWS_IDS;
+        const parsed = JSON.parse(raw);
+        return Array.isArray(parsed) ? parsed : DEFAULT_PINNED_NEWS_IDS;
+      } catch (e) {
+        return DEFAULT_PINNED_NEWS_IDS;
+      }
+    }
+
+    function togglePinNewsArticle(id) {
+      if (!id) return;
+      let pinned = getPinnedNewsIds();
+      const index = pinned.indexOf(id);
+      let isPinnedNow = false;
+      if (index >= 0) {
+        pinned.splice(index, 1);
+        isPinnedNow = false;
+      } else {
+        pinned.unshift(id);
+        isPinnedNow = true;
+      }
+      localStorage.setItem('wow_pinned_news_ids', JSON.stringify(pinned));
+      window.dispatchEvent(new CustomEvent('wow_pinned_news_updated', { detail: { pinnedIds: pinned } }));
+      renderAdminNewsPreview();
+      showToast(isPinnedNow ? '📌 Noticia fijada en la portada' : 'Noticia desfijada de la portada', isPinnedNow ? 'success' : 'info');
+    }
+
     function renderAdminNewsPreview() {
       const container = document.getElementById('admin-news-preview-container');
+      const pinnedContainer = document.getElementById('admin-pinned-news-container');
+      const pinnedBadge = document.getElementById('pinned-news-count-badge');
       const lastSyncEl = document.getElementById('news-last-sync-time');
       if (!container) return;
 
@@ -1384,8 +1439,11 @@
         }
       } catch (e) {}
 
+      const pinnedIds = getPinnedNewsIds();
+
       if (!newsDb) {
         container.innerHTML = '<div class="p-6 text-center text-xs text-slate-400">No hay datos de noticias cargados.</div>';
+        if (pinnedContainer) pinnedContainer.innerHTML = '<div class="p-4 text-center text-xs text-slate-500">Sin datos de noticias.</div>';
         return;
       }
 
@@ -1393,7 +1451,7 @@
         let ts = newsDb.lastUpdated;
         if (!ts) {
           try {
-            const cache = JSON.parse(localStorage.getItem('wow_live_news_cache_v4') || '{}');
+            const cache = JSON.parse(localStorage.getItem('wow_live_news_cache_v5') || '{}');
             if (cache.timestamp) ts = new Date(cache.timestamp).toLocaleTimeString();
           } catch (e) {}
         }
@@ -1402,50 +1460,165 @@
 
       const blues = newsDb.blueTracker || [];
       const news = newsDb.recentNews || [];
+      
+      // Agrupar anuncios idénticos de US y EU para evitar duplicaciones
+      const groupedBlues = typeof groupCanonicalNews === 'function' ? groupCanonicalNews(blues) : blues;
+      const groupedNews = typeof groupCanonicalNews === 'function' ? groupCanonicalNews(news) : news;
+      const allGrouped = [...groupedBlues, ...groupedNews];
 
+      // Calcular si un artículo agrupado está fijado (si su id principal o alguno de sus alias está en pinnedIds)
+      const isGroupPinned = (item) => {
+        if (!item) return false;
+        if (pinnedIds.includes(item.id)) return true;
+        if (item.aliasIds && item.aliasIds.some(aid => pinnedIds.includes(aid))) return true;
+        return false;
+      };
+
+      // 1. Renderizar sección de noticias fijadas (con títulos bilingües y des-duplicadas)
+      if (pinnedContainer) {
+        const pinnedItems = allGrouped.filter(isGroupPinned);
+        if (pinnedBadge) {
+          pinnedBadge.innerText = `${pinnedItems.length} fijada${pinnedItems.length === 1 ? '' : 's'}`;
+        }
+
+        if (pinnedItems.length === 0) {
+          pinnedContainer.innerHTML = `
+            <div class="p-3 text-center text-xs text-slate-400 bg-black/20 border border-dashed border-amber-500/20 rounded-lg">
+              No hay noticias fijadas actualmente. Pulsa el botón <span class="text-amber-400 font-semibold inline-flex items-center gap-1 mx-1 px-1.5 py-0.5 rounded bg-white/5 border border-white/10"><i class="fa-solid fa-thumbtack text-[10px]"></i> Fijar</span> en cualquier noticia de la lista para destacarla en el inicio.
+            </div>
+          `;
+        } else {
+          pinnedContainer.innerHTML = `
+            <div class="divide-y divide-white/5 bg-black/30 border border-amber-500/30 rounded-xl overflow-hidden">
+              ${pinnedItems.map(item => {
+                const titleEs = (item.title && item.title.es) || (typeof item.title === 'string' ? item.title : 'Sin título');
+                const titleEn = (item.title && item.title.en) || '';
+                const isBlue = item.source === 'blizzard' || !item.source;
+                const author = item.author || (isBlue ? 'Blizzard' : 'Wowhead');
+                const date = item.dateRaw ? new Date(item.dateRaw).toLocaleDateString() : '';
+                const regionsStr = (item.regions && item.regions.length > 1) ? item.regions.join(' + ') : (item.region || 'Oficial');
+                return `
+                  <div class="p-3 flex items-center justify-between gap-3 text-xs hover:bg-white/[0.02] transition">
+                    <div class="space-y-1 min-w-0 flex-1">
+                      <div class="flex items-center gap-2">
+                        <span class="text-[9px] uppercase font-bold px-1.5 py-0.2 rounded border ${isBlue ? 'border-sky-500/50 bg-sky-950 text-sky-300' : 'border-amber-500/50 bg-amber-950 text-amber-300'}">
+                          ${isBlue ? `Blue Post (${regionsStr})` : 'Wowhead News'}
+                        </span>
+                        <span class="text-[10px] text-slate-500 font-mono">${date}</span>
+                      </div>
+                      <div class="space-y-0.5">
+                        <div class="font-semibold text-amber-200 truncate flex items-center gap-1.5">
+                          <span class="text-[10px] px-1 py-0.2 rounded bg-amber-500/20 text-amber-300 font-mono font-bold">ES</span>
+                          <span>${titleEs}</span>
+                        </div>
+                        ${titleEn && titleEn !== titleEs ? `
+                          <div class="text-[11px] text-slate-400 truncate flex items-center gap-1.5">
+                            <span class="text-[9px] px-1 py-0.2 rounded bg-slate-800 text-slate-300 font-mono">EN</span>
+                            <span>${titleEn}</span>
+                          </div>
+                        ` : ''}
+                      </div>
+                      <div class="text-[10px] text-slate-500 truncate">Por ${author}</div>
+                    </div>
+                    <div class="flex items-center gap-1.5 shrink-0">
+                      <button onclick="togglePinNewsArticle('${item.id}')" title="Desfijar de inicio" class="px-2.5 py-1.5 rounded bg-red-950/60 hover:bg-red-900 border border-red-500/50 text-red-200 text-[11px] font-semibold flex items-center gap-1 transition shadow min-h-[32px]">
+                        <i class="fa-solid fa-thumbtack text-[10px]"></i> Desfijar
+                      </button>
+                      <a href="${item.originalUrl || '#'}" target="_blank" rel="noopener noreferrer" class="text-cyan-400 hover:text-white px-2.5 py-1.5 rounded bg-cyan-950/40 border border-cyan-500/30 text-[11px] font-semibold shrink-0 min-h-[32px] flex items-center">
+                        Ver <i class="fa-solid fa-arrow-up-right-from-square text-[9px] ml-1"></i>
+                      </a>
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          `;
+        }
+      }
+
+      // 2. Renderizar lista completa unificada con visualización clara ES / EN
       let html = '';
 
-      if (blues.length === 0 && news.length === 0) {
+      if (groupedBlues.length === 0 && groupedNews.length === 0) {
         html = '<div class="p-6 text-center text-xs text-slate-400">Sin publicaciones disponibles.</div>';
       } else {
-        blues.slice(0, 10).forEach(b => {
-          const title = (b.title && (b.title.es || b.title.en)) || 'Sin título';
+        groupedBlues.forEach(b => {
+          const titleEs = (b.title && b.title.es) || (typeof b.title === 'string' ? b.title : 'Sin título');
+          const titleEn = (b.title && b.title.en) || '';
           const author = b.author || 'Blizzard';
           const date = b.dateRaw ? new Date(b.dateRaw).toLocaleDateString() : '';
+          const pinned = isGroupPinned(b);
+          const regionsStr = (b.regions && b.regions.length > 1) ? b.regions.join(' + ') : (b.region || 'US');
           html += `
             <div class="p-3 flex items-center justify-between gap-3 text-xs hover:bg-white/[0.02] transition">
-              <div class="space-y-0.5 min-w-0 flex-1">
+              <div class="space-y-1 min-w-0 flex-1">
                 <div class="flex items-center gap-2">
-                  <span class="text-[9px] uppercase font-bold px-1.5 py-0.2 rounded border border-sky-500/50 bg-sky-950 text-sky-300">Blue Post (${b.region || 'US'})</span>
+                  <span class="text-[9px] uppercase font-bold px-1.5 py-0.2 rounded border border-sky-500/50 bg-sky-950 text-sky-300">Blue Post (${regionsStr})</span>
                   <span class="text-[10px] text-slate-500 font-mono">${date}</span>
                 </div>
-                <div class="font-semibold text-slate-200 truncate">${title}</div>
-                <div class="text-[10px] text-slate-400 truncate">Por ${author}</div>
+                <div class="space-y-0.5">
+                  <div class="font-semibold text-slate-200 truncate flex items-center gap-1.5">
+                    ${pinned ? '<i class="fa-solid fa-thumbtack text-amber-400 text-[10px]" title="Fijado en Portada"></i>' : ''}
+                    <span class="text-[10px] px-1 py-0.2 rounded bg-amber-500/20 text-amber-300 font-mono font-bold">ES</span>
+                    <span class="${pinned ? 'text-amber-200' : ''}">${titleEs}</span>
+                  </div>
+                  ${titleEn && titleEn !== titleEs ? `
+                    <div class="text-[11px] text-slate-400 truncate flex items-center gap-1.5 pl-3">
+                      <span class="text-[9px] px-1 py-0.2 rounded bg-slate-800 text-slate-300 font-mono">EN</span>
+                      <span>${titleEn}</span>
+                    </div>
+                  ` : ''}
+                </div>
+                <div class="text-[10px] text-slate-500 truncate">Por ${author}</div>
               </div>
-              <a href="${b.originalUrl || '#'}" target="_blank" rel="noopener noreferrer" class="text-cyan-400 hover:text-white px-2.5 py-1 rounded bg-cyan-950/40 border border-cyan-500/30 text-[11px] font-semibold shrink-0">
-                Ver <i class="fa-solid fa-arrow-up-right-from-square text-[9px] ml-0.5"></i>
-              </a>
+              <div class="flex items-center gap-1.5 shrink-0">
+                <button onclick="togglePinNewsArticle('${b.id}')" title="${pinned ? 'Desfijar de inicio' : 'Fijar en inicio'}" class="px-2.5 py-1 rounded text-[11px] font-semibold flex items-center gap-1 transition min-h-[30px] ${pinned ? 'bg-amber-500/25 text-amber-300 border border-amber-500/60 shadow-sm' : 'bg-white/5 hover:bg-amber-500/15 text-slate-400 hover:text-amber-300 border border-white/10'}">
+                  <i class="fa-solid fa-thumbtack ${pinned ? 'text-amber-400' : ''}"></i> <span>${pinned ? 'Fijado' : 'Fijar'}</span>
+                </button>
+                <a href="${b.originalUrl || '#'}" target="_blank" rel="noopener noreferrer" class="text-cyan-400 hover:text-white px-2.5 py-1 rounded bg-cyan-950/40 border border-cyan-500/30 text-[11px] font-semibold shrink-0 min-h-[30px] flex items-center">
+                  Ver <i class="fa-solid fa-arrow-up-right-from-square text-[9px] ml-1"></i>
+                </a>
+              </div>
             </div>
           `;
         });
 
-        news.slice(0, 8).forEach(n => {
-          const title = (n.title && (n.title.es || n.title.en)) || 'Sin título';
+        groupedNews.forEach(n => {
+          const titleEs = (n.title && n.title.es) || (typeof n.title === 'string' ? n.title : 'Sin título');
+          const titleEn = (n.title && n.title.en) || '';
           const author = n.author || 'Wowhead';
           const date = n.dateRaw ? new Date(n.dateRaw).toLocaleDateString() : '';
+          const pinned = isGroupPinned(n);
           html += `
             <div class="p-3 flex items-center justify-between gap-3 text-xs hover:bg-white/[0.02] transition">
-              <div class="space-y-0.5 min-w-0 flex-1">
+              <div class="space-y-1 min-w-0 flex-1">
                 <div class="flex items-center gap-2">
                   <span class="text-[9px] uppercase font-bold px-1.5 py-0.2 rounded border border-amber-500/50 bg-amber-950 text-amber-300">Wowhead News</span>
                   <span class="text-[10px] text-slate-500 font-mono">${date}</span>
                 </div>
-                <div class="font-semibold text-slate-200 truncate">${title}</div>
-                <div class="text-[10px] text-slate-400 truncate">Por ${author}</div>
+                <div class="space-y-0.5">
+                  <div class="font-semibold text-slate-200 truncate flex items-center gap-1.5">
+                    ${pinned ? '<i class="fa-solid fa-thumbtack text-amber-400 text-[10px]" title="Fijado en Portada"></i>' : ''}
+                    <span class="text-[10px] px-1 py-0.2 rounded bg-amber-500/20 text-amber-300 font-mono font-bold">ES</span>
+                    <span class="${pinned ? 'text-amber-200' : ''}">${titleEs}</span>
+                  </div>
+                  ${titleEn && titleEn !== titleEs ? `
+                    <div class="text-[11px] text-slate-400 truncate flex items-center gap-1.5 pl-3">
+                      <span class="text-[9px] px-1 py-0.2 rounded bg-slate-800 text-slate-300 font-mono">EN</span>
+                      <span>${titleEn}</span>
+                    </div>
+                  ` : ''}
+                </div>
+                <div class="text-[10px] text-slate-500 truncate">Por ${author}</div>
               </div>
-              <a href="${n.originalUrl || '#'}" target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:text-white px-2.5 py-1 rounded bg-amber-950/40 border border-amber-500/30 text-[11px] font-semibold shrink-0">
-                Ver <i class="fa-solid fa-arrow-up-right-from-square text-[9px] ml-0.5"></i>
-              </a>
+              <div class="flex items-center gap-1.5 shrink-0">
+                <button onclick="togglePinNewsArticle('${n.id}')" title="${pinned ? 'Desfijar de inicio' : 'Fijar en inicio'}" class="px-2.5 py-1 rounded text-[11px] font-semibold flex items-center gap-1 transition min-h-[30px] ${pinned ? 'bg-amber-500/25 text-amber-300 border border-amber-500/60 shadow-sm' : 'bg-white/5 hover:bg-amber-500/15 text-slate-400 hover:text-amber-300 border border-white/10'}">
+                  <i class="fa-solid fa-thumbtack ${pinned ? 'text-amber-400' : ''}"></i> <span>${pinned ? 'Fijado' : 'Fijar'}</span>
+                </button>
+                <a href="${n.originalUrl || '#'}" target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:text-white px-2.5 py-1 rounded bg-amber-950/40 border border-amber-500/30 text-[11px] font-semibold shrink-0 min-h-[30px] flex items-center">
+                  Ver <i class="fa-solid fa-arrow-up-right-from-square text-[9px] ml-1"></i>
+                </a>
+              </div>
             </div>
           `;
         });

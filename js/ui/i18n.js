@@ -12,7 +12,7 @@ const I18N_TRANSLATIONS = {
     homeNav: "Home",
     calculatorNav: "Calculator",
     featuresNav: "Features",
-    newsNav: "S2 News",
+    newsNav: "WoW News",
     communityNav: "Community & Guides",
     launchOptimizerBtn: "Open Optimizer",
     startCalculatorBtn: "Launch Calculator",
@@ -209,7 +209,7 @@ const I18N_TRANSLATIONS = {
     homeNav: "Inicio",
     calculatorNav: "Calculadora",
     featuresNav: "Características",
-    newsNav: "Noticias S2",
+    newsNav: "WoW News",
     communityNav: "Comunidad & Guías",
     launchOptimizerBtn: "Abrir Optimizador",
     startCalculatorBtn: "Iniciar Calculadora",
@@ -479,6 +479,7 @@ function updateLanguageUI() {
   if (typeof runOptimizer === 'function' && typeof currentOptimizationResults !== 'undefined' && currentOptimizationResults.length > 0) {
     runOptimizer();
   }
+  if (typeof renderPinnedNews === 'function') renderPinnedNews();
   if (typeof renderBlueTracker === 'function') renderBlueTracker();
   if (typeof renderRecentNews === 'function') renderRecentNews();
   if (typeof refreshArticleModalLanguage === 'function') refreshArticleModalLanguage();
