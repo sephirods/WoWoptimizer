@@ -11,11 +11,11 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
-  <link rel="canonical" href="https://wowoptimizer.wasmer.app/" />
+  <link rel="canonical" href="https://wowtopgear.app/" />
 
   <!-- Open Graph / Facebook / Discord -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://wowoptimizer.wasmer.app/" />
+  <meta property="og:url" content="https://wowtopgear.app/" />
   <meta property="og:title" content="WoWOptimizer | World of Warcraft: Midnight Season 2 (Parche 12.1)" />
   <meta property="og:description" content="Suite analítica para optimizar estadísticas secundarias, abalorios y combinaciones Top Gear de Mítica+ y Banda en tiempo real." />
   <meta property="og:image" content="https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png" />
@@ -23,10 +23,19 @@
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:url" content="https://wowoptimizer.wasmer.app/" />
+  <meta name="twitter:url" content="https://wowtopgear.app/" />
   <meta name="twitter:title" content="WoWOptimizer | World of Warcraft: Midnight Season 2" />
   <meta name="twitter:description" content="Suite analítica para optimizar estadísticas secundarias, abalorios y combinaciones Top Gear en tiempo real." />
   <meta name="twitter:image" content="https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png" />
+
+  <!-- Clean URL Handler -->
+  <script>
+    if (window.location.pathname.endsWith('.html')) {
+      const cleanPath = window.location.pathname.replace(/\.html$/, '');
+      const finalPath = cleanPath === '/index' ? '/' : cleanPath;
+      window.history.replaceState(null, '', finalPath + window.location.search + window.location.hash);
+    }
+  </script>
 
   <!-- Structured Data (JSON-LD) -->
   <script type="application/ld+json">
@@ -35,9 +44,9 @@
     "@graph": [
       {
         "@type": "WebApplication",
-        "@id": "https://wowoptimizer.wasmer.app/#webapp",
+        "@id": "https://wowtopgear.app/#webapp",
         "name": "WoWOptimizer",
-        "url": "https://wowoptimizer.wasmer.app/",
+        "url": "https://wowtopgear.app/",
         "applicationCategory": "GameApplication",
         "operatingSystem": "Any",
         "browserRequirements": "Requires JavaScript. Requires HTML5.",
@@ -178,7 +187,7 @@
 
       <!-- Quick Nav Links -->
       <nav class="hidden lg:flex items-center gap-6 text-xs font-semibold">
-        <a href="gearsim.html" class="text-amber-400 hover:text-amber-300 flex items-center gap-1.5 transition">
+        <a href="gearsim" class="text-amber-400 hover:text-amber-300 flex items-center gap-1.5 transition">
           <i class="fa-solid fa-calculator"></i> <span data-i18n="calculatorNav">Calculadora</span>
         </a>
         <a href="#features" class="text-slate-300 hover:text-white transition" data-i18n="featuresNav">Características</a>
@@ -202,7 +211,7 @@
 
         <!-- Botón Optimizador con botón de Guía (?) en la esquina -->
         <div class="relative inline-flex items-center">
-          <a href="gearsim.html" class="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black text-xs sm:text-sm font-bold px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl shadow-lg shadow-amber-950/40 border border-amber-300/60 flex items-center gap-1.5 sm:gap-2 transition min-h-[36px]">
+          <a href="gearsim" class="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black text-xs sm:text-sm font-bold px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl shadow-lg shadow-amber-950/40 border border-amber-300/60 flex items-center gap-1.5 sm:gap-2 transition min-h-[36px]">
             <i class="fa-solid fa-play text-xs"></i> <span class="hidden min-[480px]:inline" data-i18n="launchOptimizerBtn">Abrir Optimizador</span><span class="inline min-[480px]:hidden">Optimizador</span>
           </a>
           <button type="button" onclick="openHelpModal()" class="absolute -top-2 -right-2 w-5 h-5 rounded-full shadow-md flex items-center justify-center transition transform hover:scale-110 active:scale-95 z-10 cursor-pointer" style="background-color: #000000 !important; border: none !important; padding: 0 !important; line-height: 1 !important;" data-i18n-title="guideTitle" title="User Guide & Help">
@@ -263,8 +272,9 @@
         <!-- Action CTAs (Mobile-First touch targets) -->
         <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 pt-1 max-w-md sm:max-w-none mx-auto w-full">
           <div class="relative w-full sm:w-auto inline-flex items-center justify-center">
-            <a href="gearsim.html" class="w-full sm:w-auto px-6 sm:px-8 py-3.5 rounded-xl bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 hover:from-amber-400 hover:to-amber-300 text-black font-extrabold text-sm sm:text-base shadow-xl shadow-amber-950/50 border border-yellow-200/50 flex items-center justify-center gap-2.5 transition transform active:scale-95 hover:scale-[1.02] min-h-[44px]">
-              <i class="fa-solid fa-bolt-lightning"></i> <span data-i18n="startCalculatorBtn">Iniciar Calculadora</span>
+            <a href="gearsim" class="w-full sm:w-auto px-6 sm:px-8 py-3.5 rounded-xl bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 hover:from-amber-400 hover:to-amber-300 text-black font-extrabold text-sm sm:text-base shadow-xl shadow-amber-950/50 border border-yellow-200/50 flex items-center justify-center gap-2.5 transition transform active:scale-95 hover:scale-[1.02] min-h-[44px]">
+              <i class="fa-solid fa-play text-xs sm:text-sm"></i>
+              <span data-i18n="heroLaunchBtn">Iniciar Optimizador</span>
             </a>
             <button type="button" onclick="openHelpModal()" class="absolute -top-2.5 -right-2.5 w-6 h-6 rounded-full shadow-lg flex items-center justify-center transition transform hover:scale-110 active:scale-95 z-10 cursor-pointer" style="background-color: #000000 !important; border: none !important; padding: 0 !important; line-height: 1 !important;" data-i18n-title="guideTitle" title="User Guide & Help">
               <span style="color: #fbbf24 !important; font-size: 13px; font-weight: 900; font-family: sans-serif; line-height: 1; user-select: none;">?</span>
@@ -490,7 +500,7 @@
         </div>
         <div class="flex justify-center">
           <div class="relative w-full sm:w-auto inline-flex items-center justify-center">
-            <a href="gearsim.html" class="inline-flex items-center justify-center gap-2.5 sm:gap-3 w-full sm:w-auto px-6 sm:px-8 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-black font-extrabold text-sm shadow-xl shadow-amber-950/60 transition transform active:scale-95 hover:scale-105 min-h-[44px]">
+            <a href="gearsim" class="inline-flex items-center justify-center gap-2.5 sm:gap-3 w-full sm:w-auto px-6 sm:px-8 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-black font-extrabold text-sm shadow-xl shadow-amber-950/60 transition transform active:scale-95 hover:scale-105 min-h-[44px]">
               <i class="fa-solid fa-play"></i> <span data-i18n="ctaBtn">Abrir WoWOptimizer Ahora</span>
             </a>
             <button type="button" onclick="openHelpModal()" class="absolute -top-2.5 -right-2.5 w-6 h-6 rounded-full shadow-lg flex items-center justify-center transition transform hover:scale-110 active:scale-95 z-10 cursor-pointer" style="background-color: #000000 !important; border: none !important; padding: 0 !important; line-height: 1 !important;" data-i18n-title="guideTitle" title="User Guide & Help">
@@ -507,13 +517,13 @@
   <div id="app-footer-container"></div>
 
   <!-- SCRIPTS MODULARES DE SOPORTE -->
-  <script src="js/data/wow_news_data.js?v=20260920_v6"></script>
-  <script src="js/data/pinned_news.js?v=20260920_v6"></script>
-  <script src="js/data/news_fetcher.js?v=20260920_v6"></script>
-  <script src="js/ui/i18n.js?v=20260920_v6"></script>
-  <script src="js/ui/tickets_ui.js?v=20260920_v6"></script>
-  <script src="js/ui/dynamic_news.js?v=20260920_v6"></script>
-  <script src="js/ui/dynamic_footer.js?v=20260920_v6"></script>
+  <script src="js/data/wow_news_data.js?v=20260920_v7"></script>
+  <script src="js/data/pinned_news.js?v=20260920_v7"></script>
+  <script src="js/data/news_fetcher.js?v=20260920_v7"></script>
+  <script src="js/ui/i18n.js?v=20260920_v7"></script>
+  <script src="js/ui/tickets_ui.js?v=20260920_v7"></script>
+  <script src="js/ui/dynamic_news.js?v=20260920_v7"></script>
+  <script src="js/ui/dynamic_footer.js?v=20260920_v7"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       if (typeof updateLanguageUI === 'function') updateLanguageUI();
