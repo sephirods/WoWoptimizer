@@ -118,14 +118,17 @@ async function fetchAnalyticsCounts() {
   };
 
   try {
+    let isBlocked = false;
     const fetchCount = async (path) => {
       try {
-        const res = await fetch(`https://sephirods.goatcounter.com/counter/${encodeURIComponent(path)}.json?_ts=${Date.now()}`);
+        const encodedPath = path.startsWith('/') ? '%' + '2F' + path.slice(1) : path;
+        const res = await fetch(`https://sephirods.goatcounter.com/counter/${encodedPath}.json?_ts=${Date.now()}`);
         if (!res.ok) return 0;
         const data = await res.json();
         return parseInt((data.count || '0').replace(/[^0-9]/g, ''), 10) || 0;
       } catch (e) {
-        return 0;
+        isBlocked = true;
+        return null;
       }
     };
 
@@ -136,16 +139,22 @@ async function fetchAnalyticsCounts() {
       fetchCount('/gearsim.html')
     ]);
 
-    const gearsimTotal = gearsim1 + gearsim2;
-
-    setEl('analytics-count-total', total.toLocaleString());
-    setEl('analytics-count-index', indexCount.toLocaleString());
-    setEl('analytics-count-gearsim', gearsimTotal.toLocaleString());
-
-    setEl('overview-analytics-total', `${total.toLocaleString()} visitas`);
-
-    const lastEl = document.getElementById('analytics-last-update');
-    if (lastEl) lastEl.innerText = 'Actualizado: ' + new Date().toLocaleTimeString();
+    if (isBlocked || total === null) {
+      setEl('analytics-count-total', 'Bloqueado (AdBlock)');
+      setEl('analytics-count-index', 'Bloqueado (AdBlock)');
+      setEl('analytics-count-gearsim', 'Bloqueado (AdBlock)');
+      setEl('overview-analytics-total', 'AdBlock Activo');
+      const lastEl = document.getElementById('analytics-last-update');
+      if (lastEl) lastEl.innerText = 'Actualizado: ' + new Date().toLocaleTimeString() + ' (Desactiva AdBlocker para ver datos)';
+    } else {
+      const gearsimTotal = (gearsim1 || 0) + (gearsim2 || 0);
+      setEl('analytics-count-total', total.toLocaleString());
+      setEl('analytics-count-index', (indexCount || 0).toLocaleString());
+      setEl('analytics-count-gearsim', gearsimTotal.toLocaleString());
+      setEl('overview-analytics-total', `${total.toLocaleString()} visitas`);
+      const lastEl = document.getElementById('analytics-last-update');
+      if (lastEl) lastEl.innerText = 'Actualizado: ' + new Date().toLocaleTimeString();
+    }
 
   } catch (err) {
     console.warn('Error al obtener métricas de GoatCounter:', err);
