@@ -40,7 +40,7 @@
 - Apply edits locally only.
 - Present what was modified clearly to the user.
 - DO NOT ask to commit or push. Wait silently for the user's explicit command.
-- **MANDATORY SCRIPT VERSIONING ON EVERY EDIT / PUSH (STRICT RULE)**: Whenever ANY JavaScript file is created, edited, or updated, or whenever the user orders a push, the assistant MUST immediately increment/update the version query parameter (`?v=...`) on ALL currently versioned scripts across every HTML file in the project (e.g. `index.html`, `gearsim.html`) BEFORE committing or pushing. Stale script versions or caching issues are strictly forbidden. Always bundle the version bump with the change so that users and browsers always load the freshest scripts without caching artifacts.
+- **MANDATORY SCRIPT VERSIONING ON PUSH ONLY (STRICT RULE)**: Script version query parameters (`?v=...`) across HTML files MUST ONLY be incremented/updated when the user explicitly orders a push, NOT on local edits.
 
 ## 5. Execution Directives & Interaction Cadence (MANDATORY)
 

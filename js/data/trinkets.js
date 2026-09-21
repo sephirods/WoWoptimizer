@@ -343,3 +343,5 @@ async function syncBloodmalletData(showFeedback = false) {
     if (icon) icon.classList.remove('fa-spin');
   }
 }
+
+window.bloodmalletDataCache = bloodmalletDataCache;

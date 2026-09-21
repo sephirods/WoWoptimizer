@@ -122,7 +122,7 @@ function renderBloodmalletModalList() {
             <div class="flex items-center gap-2.5 min-w-0">
               <span class="text-xs font-black text-slate-500 w-5 text-right flex-shrink-0">#${idx + 1}</span>
               <a href="https://www.wowhead.com/item=${entry.itemId}" target="_blank" data-wowhead="item=${entry.itemId}" class="flex-shrink-0">
-                <img src="${typeof getWowheadIconUrl === 'function' ? getWowheadIconUrl(null, 'trinket', entry.itemId) : 'https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg'}" data-item-id="${entry.itemId}" referrerpolicy="no-referrer" loading="lazy" class="w-8 h-8 rounded border ${isOwned ? 'border-amber-400' : 'border-emerald-500/40'} object-cover">
+                <img src="${typeof getWowheadIconUrl === 'function' ? getWowheadIconUrl(entry.icon, 'trinket', entry.itemId) : 'https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg'}" data-item-id="${entry.itemId}" referrerpolicy="no-referrer" loading="lazy" class="w-8 h-8 rounded border ${isOwned ? 'border-amber-400' : 'border-emerald-500/40'} object-cover">
               </a>
               <div class="min-w-0">
                 <div class="flex items-center gap-2 flex-wrap">

@@ -364,8 +364,9 @@ function openCompareModal() {
         </div>
       </div>
 
-      <div class="bg-black/40 rounded-xl border border-wow-border overflow-hidden">
-        <table class="w-full text-xs text-left">
+      <!-- DESKTOP TABLE VIEW (md:block) -->
+      <div class="hidden md:block bg-black/40 rounded-xl border border-wow-border overflow-x-auto min-w-0">
+        <table class="w-full text-xs text-left min-w-[620px]">
           <thead class="bg-black/70 text-slate-400 border-b border-wow-border uppercase font-semibold text-[10px]">
             <tr>
               <th class="p-2.5">${t('colSlot', 'SLOT')}</th>
@@ -679,6 +680,248 @@ function openCompareModal() {
             })()}
           </tbody>
         </table>
+      </div>
+
+      <!-- MOBILE STACKED CARDS VIEW (block md:hidden) -->
+      <div class="block md:hidden space-y-3">
+        ${(() => {
+          const singleSlots = ['head', 'neck', 'shoulder', 'back', 'chest', 'wrist', 'hands', 'waist', 'legs', 'feet'];
+          const rows = [];
+
+          for (const slot of singleSlots) {
+            const optItem = best.items.find(x => x.slot === slot);
+            if (!optItem) continue;
+            const curItem = equipped.find(x => x.slot === slot) || { name: t('noneLabel', 'None'), ilvl: '-', icon: SLOT_FALLBACK_ICONS[slot] };
+            const isSame = (curItem.id && optItem.id && curItem.id === optItem.id) || 
+                           (curItem.name === optItem.name && curItem.ilvl === optItem.ilvl && 
+                            (curItem.mastery || 0) === (optItem.mastery || 0) && 
+                            (curItem.crit || 0) === (optItem.crit || 0) && 
+                            (curItem.haste || 0) === (optItem.haste || 0) && 
+                            (curItem.vers || 0) === (optItem.vers || 0));
+            const localizedSlot = typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(slot) : slot.replace('_', ' ');
+            rows.push({ slotLabel: localizedSlot, optItem, curItem, isSame });
+          }
+
+          function pairMultiSlotMobile(slotKey, labelPrefix) {
+            const optList = best.items.filter(x => x.slot === slotKey);
+            const eqList = equipped.filter(x => x.slot === slotKey);
+            const remainingEq = [...eqList];
+            const remainingOpt = [];
+
+            for (const opt of optList) {
+              const matchIdx = remainingEq.findIndex(eq => 
+                (eq.id && opt.id && eq.id === opt.id) || 
+                (eq.name === opt.name && eq.ilvl === opt.ilvl && 
+                 (eq.mastery || 0) === (opt.mastery || 0) && 
+                 (eq.crit || 0) === (opt.crit || 0) && 
+                 (eq.haste || 0) === (opt.haste || 0) && 
+                 (eq.vers || 0) === (opt.vers || 0))
+              );
+              if (matchIdx !== -1) {
+                rows.push({
+                  slotLabel: `${labelPrefix} ${rows.filter(r => r.slotLabel.startsWith(labelPrefix)).length + 1}`,
+                  optItem: opt,
+                  curItem: remainingEq[matchIdx],
+                  isSame: true
+                });
+                remainingEq.splice(matchIdx, 1);
+              } else {
+                remainingOpt.push(opt);
+              }
+            }
+
+            for (let i = 0; i < remainingOpt.length; i++) {
+              const opt = remainingOpt[i];
+              const cur = remainingEq[i] || { name: t('noneLabel', 'None'), ilvl: '-', icon: SLOT_FALLBACK_ICONS[slotKey] };
+              rows.push({
+                slotLabel: `${labelPrefix} ${rows.filter(r => r.slotLabel.startsWith(labelPrefix)).length + 1}`,
+                optItem: opt,
+                curItem: cur,
+                isSame: false
+              });
+            }
+          }
+
+          const ringLabel = typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName('finger') : 'Finger';
+          const trinketLabel = typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName('trinket') : 'Trinket';
+          pairMultiSlotMobile('finger', ringLabel);
+          pairMultiSlotMobile('trinket', trinketLabel);
+
+          const optWeapons = best.items.filter(x => x.slot === 'weapon_2h' || x.slot === 'weapon_1h' || x.slot === 'shield');
+          const eqWeapons = equipped.filter(x => x.slot === 'weapon_2h' || x.slot === 'weapon_1h' || x.slot === 'shield');
+          const remainingEqWep = [...eqWeapons];
+          const remainingOptWep = [];
+          const weaponPrefix = typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName('weapon') : 'Weapon';
+
+          for (const opt of optWeapons) {
+            const matchIdx = remainingEqWep.findIndex(eq => 
+              (eq.id && opt.id && eq.id === opt.id) || 
+              (eq.name === opt.name && eq.ilvl === opt.ilvl && 
+               (eq.mastery || 0) === (opt.mastery || 0) && 
+               (eq.crit || 0) === (opt.crit || 0) && 
+               (eq.haste || 0) === (opt.haste || 0) && 
+               (eq.vers || 0) === (opt.vers || 0))
+            );
+            if (matchIdx !== -1) {
+              const label = optWeapons.length > 1 ? `${weaponPrefix} ${rows.filter(r => r.slotLabel.startsWith(weaponPrefix)).length + 1}` : (typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(opt.slot) : opt.slot.replace('_', ' '));
+              rows.push({ slotLabel: label, optItem: opt, curItem: remainingEqWep[matchIdx], isSame: true });
+              remainingEqWep.splice(matchIdx, 1);
+            } else {
+              remainingOptWep.push(opt);
+            }
+          }
+
+          for (let i = 0; i < remainingOptWep.length; i++) {
+            const opt = remainingOptWep[i];
+            const cur = remainingEqWep[i] || { name: t('noneLabel', 'None'), ilvl: '-', icon: SLOT_FALLBACK_ICONS[opt.slot] };
+            const label = optWeapons.length > 1 ? `${weaponPrefix} ${rows.filter(r => r.slotLabel.startsWith(weaponPrefix)).length + 1}` : (typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(opt.slot) : opt.slot.replace('_', ' '));
+            rows.push({ slotLabel: label, optItem: opt, curItem: cur, isSame: false });
+          }
+
+          const specData = resolveWowheadSpecData(currentClass, currentSpec);
+          const specEnchants = specData?.enchants || [];
+
+          function normalizeEnch(str) {
+            if (!str) return '';
+            let s = resolveEnchantEffectToName(str).toLowerCase();
+            return s.replace(/^enchant\s+[a-z_]+\s*-\s*/i, '').replace(/^formula:\s*/i, '').replace(/[^a-z0-9]/g, '');
+          }
+
+          function getSlotBiSEnchant(slotKey) {
+            const s = (slotKey || '').toLowerCase();
+            if (s.includes('head') || s.includes('cabeza') || s.includes('helm')) return specEnchants.find(e => /head|cabeza|helm/i.test(e.slot));
+            if (s.includes('shoulder') || s.includes('hombro')) return specEnchants.find(e => /shoulder|hombro/i.test(e.slot));
+            if (s.includes('chest') || s.includes('pecho')) return specEnchants.find(e => /chest|pecho/i.test(e.slot));
+            if (s.includes('wrist') || s.includes('muñeca')) return specEnchants.find(e => /wrist|muñeca/i.test(e.slot));
+            if (s.includes('legs') || s.includes('pierna')) return specEnchants.find(e => /legs|pierna/i.test(e.slot));
+            if (s.includes('feet') || s.includes('pie') || s.includes('bota') || s.includes('boot')) return specEnchants.find(e => /feet|pie|bota|boot/i.test(e.slot));
+            if (s.includes('back') || s.includes('capa') || s.includes('espalda') || s.includes('cloak')) return specEnchants.find(e => /back|capa|espalda|cloak/i.test(e.slot));
+            if (s.includes('finger') || s.includes('anillo') || s.includes('ring')) return specEnchants.find(e => /finger|anillo|ring/i.test(e.slot));
+            if (s.includes('weapon') || s.includes('arma') || s.includes('main_hand') || s.includes('off_hand')) return specEnchants.find(e => /weapon|arma/i.test(e.slot));
+            return null;
+          }
+
+          function formatItemStatsLine(it) {
+            if (!it) return '';
+            const parts = [];
+            if (it.mastery) parts.push(`<span class="text-purple-300 font-semibold">+${it.mastery} Mast</span>`);
+            if (it.crit) parts.push(`<span class="text-blue-300 font-semibold">+${it.crit} Crit</span>`);
+            if (it.haste) parts.push(`<span class="text-slate-300 font-semibold">+${it.haste} Haste</span>`);
+            if (it.vers) parts.push(`<span class="text-emerald-300 font-semibold">+${it.vers} Vers</span>`);
+            return parts.length > 0 ? `<div class="text-[10px] text-slate-400 mt-0.5 flex items-center gap-1.5 flex-wrap">${parts.join(' ')}</div>` : '';
+          }
+
+          return rows.map(({ slotLabel, optItem, curItem, isSame }) => {
+            const optGemRec = best.gemData?.recommendations?.find(r => r.item.id === optItem.id || (r.item.name === optItem.name && r.item.slot === optItem.slot));
+            const curGemStats = getItemGemStats(curItem);
+            const curGemId = curGemStats.gemId || (curItem.rawSimcOptions && curItem.rawSimcOptions.match(/gem_id=(\d+)/i) ? Number(curItem.rawSimcOptions.match(/gem_id=(\d+)/i)[1]) : null);
+            const curGemObj = curGemId ? Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === curGemId) : null;
+            const curGemNeedsChange = curItem.socket && optGemRec && (!curGemId || curGemId !== optGemRec.gemItemId);
+
+            const optCurrentGemStats = getItemGemStats(optItem);
+            const optCurrentGemId = optCurrentGemStats.gemId || (optItem.rawSimcOptions && optItem.rawSimcOptions.match(/gem_id=(\d+)/i) ? Number(optItem.rawSimcOptions.match(/gem_id=(\d+)/i)[1]) : null);
+            const optCurrentGemObj = optCurrentGemId ? Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === optCurrentGemId) : null;
+            const optGemNeedsChange = optItem.socket && optGemRec && (!optCurrentGemId || optCurrentGemId !== optGemRec.gemItemId);
+
+            const bisEnch = getSlotBiSEnchant(optItem.slot);
+            const curEnchMatch = curItem.rawSimcOptions ? curItem.rawSimcOptions.match(/enchant_id=(\d+)/i) : null;
+            const curEnchId = curEnchMatch ? Number(curEnchMatch[1]) : (curItem.enchant_id ? Number(curItem.enchant_id) : null);
+            const curEnchName = curEnchId ? getEnchantName(curEnchId) : null;
+
+            const normCur = normalizeEnch(curEnchName);
+            const normBis = normalizeEnch(bisEnch?.name);
+            const isEnchantMatching = (normCur && normBis && (normCur === normBis || normCur.includes(normBis) || normBis.includes(normCur))) || (curEnchId && bisEnch && bisEnch.id === curEnchId);
+            const enchantNeedsApply = bisEnch && !curEnchId;
+            const enchantCanOptimize = bisEnch && curEnchId && !isEnchantMatching;
+
+            const optEnchMatch = optItem.rawSimcOptions ? optItem.rawSimcOptions.match(/enchant_id=(\d+)/i) : null;
+            const optEnchId = optEnchMatch ? Number(optEnchMatch[1]) : (optItem.enchant_id ? Number(optItem.enchant_id) : null);
+            const optEnchName = optEnchId ? getEnchantName(optEnchId) : null;
+            const normOpt = normalizeEnch(optEnchName);
+            const isOptEnchMatching = (normOpt && normBis && (normOpt === normBis || normOpt.includes(normBis) || normBis.includes(normOpt))) || (optEnchId && bisEnch && bisEnch.id === optEnchId);
+            const optEnchantNeedsApply = bisEnch && !optEnchId;
+            const optEnchantCanOptimize = bisEnch && optEnchId && !isOptEnchMatching;
+
+            const hasActions = !isSame || (isSame ? (curGemNeedsChange || enchantNeedsApply || enchantCanOptimize) : (optGemNeedsChange || optEnchantNeedsApply || optEnchantCanOptimize));
+
+            return `
+              <div class="bg-wow-panel/90 rounded-xl border ${!isSame ? 'border-amber-500/70 bg-amber-950/20' : (hasActions ? 'border-purple-500/50 bg-purple-950/20' : 'border-wow-border/80')} p-3 space-y-2.5 shadow">
+                <!-- Header: Slot & Status -->
+                <div class="flex items-center justify-between border-b border-white/10 pb-1.5">
+                  <span class="font-bold text-xs text-amber-300 uppercase tracking-wide flex items-center gap-1.5">${slotLabel}</span>
+                  <div class="flex items-center gap-1 flex-wrap justify-end">
+                    ${!isSame ? `<span class="px-2 py-0.5 rounded bg-amber-950/90 text-amber-300 border border-amber-500/60 text-[10px] font-bold">⚡ ${t('equipAction', 'Equip Item')}</span>` : ''}
+                    ${(!isSame ? optGemNeedsChange : curGemNeedsChange) ? `<span class="px-2 py-0.5 rounded bg-purple-950/90 text-purple-300 border border-purple-500/60 text-[10px] font-bold">💎 ${(!isSame ? optCurrentGemId : curGemId) ? t('changeGem', 'Change Gem') : t('socketGem', 'Socket Gem')}</span>` : ''}
+                    ${(!isSame ? (optEnchantNeedsApply || optEnchantCanOptimize) : (enchantNeedsApply || enchantCanOptimize)) ? `<span class="px-2 py-0.5 rounded bg-blue-950/90 text-blue-300 border border-blue-500/60 text-[10px] font-bold">✨ ${(!isSame ? optEnchId : curEnchId) ? t('reEnchant', 'Re-enchant') : t('applyEnchant', 'Enchant')}</span>` : ''}
+                    ${!hasActions ? `<span class="px-2 py-0.5 rounded bg-slate-800/80 text-slate-400 border border-slate-700/60 text-[10px] font-semibold">✓ ${t('keepAction', 'Keep')}</span>` : ''}
+                  </div>
+                </div>
+
+                <!-- Equipado Actualmente -->
+                <div class="space-y-1">
+                  <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">${t('colCurrentlyEquipped', 'CURRENTLY EQUIPPED')}</span>
+                  <div class="flex items-start gap-2 bg-black/40 p-2 rounded-lg border border-white/5">
+                    ${curItem.itemId ? `
+                      <a href="${getWowheadBaseUrl()}/item=${curItem.itemId}" target="_blank" ${getItemWowheadAttr(curItem)} class="shrink-0 mt-0.5">
+                        <img src="${getWowheadIconUrl(curItem.icon, optItem.slot, curItem.itemId)}" data-item-id="${curItem.itemId || ''}" referrerpolicy="no-referrer" loading="lazy" onerror="handleImageError(this, '${optItem.slot}')" class="w-7 h-7 rounded border border-slate-600 object-cover shadow-sm">
+                      </a>
+                    ` : `
+                      <img src="${getWowheadIconUrl(curItem.icon, optItem.slot, curItem.itemId)}" data-item-id="${curItem.itemId || ''}" referrerpolicy="no-referrer" loading="lazy" onerror="handleImageError(this, '${optItem.slot}')" class="w-7 h-7 rounded border border-slate-600 object-cover shrink-0 mt-0.5">
+                    `}
+                    <div class="min-w-0 flex-1">
+                      ${curItem.itemId ? `
+                        <a href="${getWowheadBaseUrl()}/item=${curItem.itemId}" target="_blank" ${getItemWowheadAttr(curItem)} class="font-semibold text-xs text-slate-200 hover:text-white truncate block">${curItem.name}</a>
+                      ` : `
+                        <div class="font-semibold text-xs text-slate-300 truncate">${curItem.name}</div>
+                      `}
+                      <div class="text-[10px] text-slate-400 font-mono">ilvl ${curItem.ilvl || '-'} ${curItem.socket ? `• <i class="fa-solid fa-gem text-[8px] text-amber-400"></i> ${t('badgeSocket', 'Socket')}` : ''}</div>
+                      ${formatItemStatsLine(curItem)}
+                      ${curItem.socket ? `
+                        <div class="text-[10px] text-slate-400 mt-0.5">
+                          <span class="text-slate-400">${t('gemLabel', 'Gem')}: </span>
+                          ${curGemObj ? `<a href="${getWowheadBaseUrl()}/item=${curGemObj.id}" target="_blank" ${getWowheadItemDataAttr(curGemObj.id)} class="text-slate-300 font-medium">${curGemObj.name}</a>` : `<span class="${curGemId ? 'text-slate-300' : 'text-slate-500 italic'}">${curGemId ? 'Gem ID ' + curGemId : t('ungemmed', 'No gem')}</span>`}
+                        </div>
+                      ` : ''}
+                      ${(curEnchId || bisEnch) ? `
+                        <div class="text-[10px] text-slate-400 mt-0.5">
+                          <span class="text-slate-400">${t('enchantLabel', 'Enchant')}: </span>
+                          <span class="${curEnchName ? 'text-slate-300 font-medium' : 'text-slate-500 italic'}">${curEnchName || (curEnchId ? 'Enchant #' + curEnchId : t('unenchanted', 'Unenchanted'))}</span>
+                        </div>
+                      ` : ''}
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Recomendación Óptima -->
+                <div class="space-y-1">
+                  <span class="text-[10px] font-bold text-purple-400 uppercase tracking-wider block">${t('colOptimalRecommendation', 'OPTIMAL RECOMMENDATION')}</span>
+                  <div class="flex items-start gap-2 bg-purple-950/40 p-2 rounded-lg border border-purple-500/30">
+                    <a href="${getWowheadBaseUrl()}/item=${optItem.itemId || 0}" target="_blank" ${getItemWowheadAttr(optItem)} class="shrink-0 mt-0.5">
+                      <img src="${getWowheadIconUrl(optItem.icon, optItem.slot, optItem.itemId)}" data-item-id="${optItem.itemId || ''}" referrerpolicy="no-referrer" loading="lazy" onerror="handleImageError(this, '${optItem.slot}')" class="w-7 h-7 rounded border border-purple-500/60 object-cover shadow-sm">
+                    </a>
+                    <div class="min-w-0 flex-1">
+                      <a href="${getWowheadBaseUrl()}/item=${optItem.itemId || 0}" target="_blank" ${getItemWowheadAttr(optItem)} class="font-bold text-xs text-purple-300 hover:text-purple-200 truncate block">${optItem.name}</a>
+                      <div class="text-[10px] text-amber-300 font-semibold font-mono">ilvl ${optItem.ilvl} ${optItem.socket ? `• <i class="fa-solid fa-gem text-[8px] text-amber-400"></i> ${t('badgeSocket', 'Socket')}` : ''} ${optItem.tier ? `• <span class="text-purple-300">${t('badgeTier', 'Tier')}</span>` : ''}</div>
+                      ${formatItemStatsLine(optItem)}
+                      ${optGemRec ? `
+                        <div class="text-[10px] text-amber-300 font-medium mt-0.5">
+                          <i class="fa-solid fa-gem text-[8px] text-amber-400"></i> ${t('gemToUse', 'Gem to use:')} 
+                          <a href="${getWowheadBaseUrl()}/item=${optGemRec.gemItemId}" target="_blank" ${getWowheadItemDataAttr(optGemRec.gemItemId)} class="font-bold text-amber-200 hover:text-amber-100 hover:underline">${optGemRec.gemName}</a>
+                        </div>
+                      ` : ''}
+                      ${bisEnch ? `
+                        <div class="text-[10px] text-blue-300 font-medium mt-0.5">
+                          <i class="fa-solid fa-wand-magic-sparkles text-[8px] text-blue-400"></i> ${t('enchantLabel', 'Enchant')}: 
+                          <a href="${getWowheadBaseUrl()}/item=${bisEnch.id}" target="_blank" ${getWowheadItemDataAttr(bisEnch.id)} class="font-bold text-blue-200 hover:text-blue-100 hover:underline">${bisEnch.name}</a>
+                        </div>
+                      ` : ''}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            `;
+          }).join('');
+        })()}
       </div>
     `;
   }

@@ -173,6 +173,9 @@ function getItemWowheadAttr(it) {
 }
 
 function getWowheadIconUrl(iconName, slot, itemId) {
+  if (iconName) {
+    return `https://wow.zamimg.com/images/wow/icons/large/${iconName}.jpg`;
+  }
   if (itemId) {
     if (window.BLOODMALLET_ITEM_ICONS && window.BLOODMALLET_ITEM_ICONS[itemId]) {
       return `https://wow.zamimg.com/images/wow/icons/large/${window.BLOODMALLET_ITEM_ICONS[itemId]}.jpg`;
@@ -181,7 +184,7 @@ function getWowheadIconUrl(iconName, slot, itemId) {
       return `https://wow.zamimg.com/images/wow/icons/large/${metadataCache[itemId].icon}.jpg`;
     }
   }
-  return `https://wow.zamimg.com/images/wow/icons/large/${iconName || SLOT_FALLBACK_ICONS[slot] || 'inv_misc_questionmark'}.jpg`;
+  return `https://wow.zamimg.com/images/wow/icons/large/${SLOT_FALLBACK_ICONS[slot] || 'inv_misc_questionmark'}.jpg`;
 }
 
 function detectSlotFromTooltipHtml(html, name = '') {
@@ -312,30 +315,62 @@ async function fetchWowheadItemMetadata(itemId, targetIlvl = 321, bonusStr = '',
   return null;
 }
 
+const pendingIconFetches = new Set();
+
 function resolveAllItemIconsAsync() {
   let needsSave = false;
-  items.forEach((it) => {
-    if (!it.itemId) return;
-    const iconFromBm = window.BLOODMALLET_ITEM_ICONS ? window.BLOODMALLET_ITEM_ICONS[it.itemId] : null;
-    const meta = metadataCache[it.itemId];
-    const targetIcon = iconFromBm || meta?.icon;
-    if (targetIcon && it.icon !== targetIcon) {
-      it.icon = targetIcon;
-      updateItemImageElements(it.itemId, targetIcon);
-      needsSave = true;
+  if (typeof items !== 'undefined' && Array.isArray(items)) {
+    items.forEach((it) => {
+      if (!it.itemId) return;
+      const iconFromBm = window.BLOODMALLET_ITEM_ICONS ? window.BLOODMALLET_ITEM_ICONS[it.itemId] : null;
+      const meta = metadataCache[it.itemId];
+      const targetIcon = iconFromBm || meta?.icon;
+      if (targetIcon && it.icon !== targetIcon) {
+        it.icon = targetIcon;
+        updateItemImageElements(it.itemId, targetIcon);
+        needsSave = true;
+      }
+      if (meta?.slot && (it.slot === 'weapon_2h' || it.slot === 'weapon_1h' || it.slot === 'shield') && it.slot !== meta.slot) {
+        it.slot = meta.slot;
+        needsSave = true;
+      }
+      const resolvedArmor = meta?.armorType || it.armorType || detectArmorTypeFromTooltipHtml('', it.name);
+      if (resolvedArmor && it.armorType !== resolvedArmor) {
+        it.armorType = resolvedArmor;
+        needsSave = true;
+      }
+    });
+    if (needsSave && typeof saveState === 'function') {
+      saveState();
     }
-    if (meta?.slot && (it.slot === 'weapon_2h' || it.slot === 'weapon_1h' || it.slot === 'shield') && it.slot !== meta.slot) {
-      it.slot = meta.slot;
-      needsSave = true;
-    }
-    const resolvedArmor = meta?.armorType || it.armorType || detectArmorTypeFromTooltipHtml('', it.name);
-    if (resolvedArmor && it.armorType !== resolvedArmor) {
-      it.armorType = resolvedArmor;
-      needsSave = true;
-    }
-  });
-  if (needsSave && typeof saveState === 'function') {
-    saveState();
+  }
+
+  // Resolver también imágenes visibles en el DOM (como el modal de abalorios / rankings)
+  if (typeof document !== 'undefined') {
+    const allImgs = document.querySelectorAll('img[data-item-id]');
+    allImgs.forEach(img => {
+      const rawId = img.getAttribute('data-item-id');
+      const id = rawId ? Number(rawId) : 0;
+      if (!id) return;
+
+      const iconFromBm = window.BLOODMALLET_ITEM_ICONS ? window.BLOODMALLET_ITEM_ICONS[id] : null;
+      const meta = metadataCache[id];
+      const targetIcon = iconFromBm || meta?.icon;
+
+      if (targetIcon) {
+        const targetSrc = `https://wow.zamimg.com/images/wow/icons/large/${targetIcon}.jpg`;
+        if (img.src !== targetSrc && !img.src.endsWith(`${targetIcon}.jpg`)) {
+          img.src = targetSrc;
+        }
+      } else if (!pendingIconFetches.has(id)) {
+        pendingIconFetches.add(id);
+        fetchWowheadItemMetadata(id).then(resMeta => {
+          if (resMeta && resMeta.icon) {
+            updateItemImageElements(id, resMeta.icon);
+          }
+        }).catch(() => {});
+      }
+    });
   }
 }
 

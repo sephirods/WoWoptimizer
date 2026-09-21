@@ -41,3 +41,5 @@ function detectWeaponSlotFromName(name) {
   if (lower.includes('bow') || lower.includes('arco') || lower.includes('gun') || lower.includes('rifle') || lower.includes('crossbow') || lower.includes('ballesta')) return 'weapon_2h';
   return 'weapon_2h';
 }
+
+window.SLOT_FALLBACK_ICONS = SLOT_FALLBACK_ICONS;
