@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/traza-un-nuevo-camino-con-world-of-warcraft-forever/80045/1"
     },
     {
+      "id": "blizz-6384048",
+      "postId": 6384048,
+      "topicId": 630568,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-09-21T21:42:41.266Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "\"A Firm Response\" Hotfixed",
+        "es": "\"A Firm Response\" Hotfixed"
+      },
+      "summary": {
+        "en": "Today, we’ve fixed an issue with the quest “A Firm Response”. The issue was: \nThe event that takes place during “A Firm Response” would become stuck and Windshaper Skyborne on Zeph...",
+        "es": "Today, we’ve fixed an issue with the quest “A Firm Response”. The issue was: \nThe event that takes place during “A Firm Response” would become stuck and Windshaper Skyborne on Zeph..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Today, we’ve fixed an issue with the quest “A Firm Response”. The issue was:</p>\n<p>The event that takes place during “A Firm Response” would become stuck and Windshaper Skyborne on Zephras Isle could not proceed. You’d walk up to talk to Belathaan Brightwish near the Shrine of Akir on Zephras to start the event and it would then lock up and stall after Lorthuna Spawned.</p>\n<p>We attempted a fix a couple of days ago, but it didn’t work. Today’s fix looks like it worked, and we’re seeing testers complete the quest.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Today, we’ve fixed an issue with the quest “A Firm Response”. The issue was:</p>\n<p>The event that takes place during “A Firm Response” would become stuck and Windshaper Skyborne on Zephras Isle could not proceed. You’d walk up to talk to Belathaan Brightwish near the Shrine of Akir on Zephras to start the event and it would then lock up and stall after Lorthuna Spawned.</p>\n<p>We attempted a fix a couple of days ago, but it didn’t work. Today’s fix looks like it worked, and we’re seeing testers complete the quest.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/a-firm-response-hotfixed/630568/1"
+    },
+    {
       "id": "blizz-6383873",
       "postId": 6383873,
       "topicId": 629804,
@@ -644,34 +672,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/blizzcon-2026-wow-forever-beta-midnight-s3-and-more-in-this-week%E2%80%99s-wow-weekly/629711/1"
-    },
-    {
-      "id": "blizz-6374592",
-      "postId": 6374592,
-      "topicId": 625785,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-09-17T23:29:13.324Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - 17 September",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - 17 September"
-      },
-      "summary": {
-        "en": "September 17, 2026 \nDungeons and Raids \n\nRuby Life Pools\n\nAddressed an issue where Blazebound Destroyers or Primalist Flamedancers could fail to contribute towards enemy forces if ...",
-        "es": "September 17, 2026 \nMazmorras and Bandas \n\nRuby Life Pools\n\nAddressed an issue where Blazebound Destroyers or Primalist Flamedancers could fail to contribute towards enemy forces i..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 17, 2026</strong></p>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>Ruby Life Pools</strong>\n<ul>\n<li>Addressed an issue where Blazebound Destroyers or Primalist Flamedancers could fail to contribute towards enemy forces if no player was on their threat table when they finished their death sequence.\n<ul>\n<li><em>Developers’ notes: A known side-effect of this change is that these creatures will no longer display their contribution towards enemy forces on their tooltip in the default UI.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>Fixed an issue where Unnerving Fixation was targeting tanks more often than intended.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Player versus Player</strong></p>\n<ul>\n<li>Significantly increased PvP rating inflation for all rated PvP modes with emphasis on <em>Battleground Blitz, Rated Battlegrounds, and Rated 3v3 Arena</em>.\n<ul>\n<li><em>Developers’ notes: We’ve seen your feedback that achievable PvP ratings are not meeting expectations, so we’re applying a significant increase to PvP rating inflation starting now for all rated PvP modes with emphasis on Battleground Blitz, Rated Battlegrounds, and Rated 3v3 Arena. As with past changes to inflation, this adjustment is intended to improve progression as the season continues and support healthier ladder movement. We’ll continue monitoring rating distribution and make further adjustments as necessary. Thank you for your continued feedback and we’ll see you on the battlefield!</em></li>\n</ul>\n</li>\n<li>Font of Venomous Rage trinket damage reduced by 50% in PvP combat.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 17, 2026</strong></p>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>Ruby Life Pools</strong>\n<ul>\n<li>Addressed an issue where Blazebound Destroyers or Primalist Flamedancers could fail to contribute towards enemy forces if no player was on their threat table when they finished their death sequence.\n<ul>\n<li><em>Developers’ notes: A known side-effect of this change is that these creatures will no longer display their contribution towards enemy forces on their tooltip in the default UI.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>Fixed an issue where Unnerving Fixation was targeting tanks more often than intended.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li>Significantly increased PvP rating inflation for all rated PvP modes with emphasis on <em>Battleground Blitz, Rated Battlegrounds, and Rated 3v3 Arena</em>.\n<ul>\n<li><em>Developers’ notes: We’ve seen your feedback that achievable PvP ratings are not meeting expectations, so we’re applying a significant increase to PvP rating inflation starting now for all rated PvP modes with emphasis on Battleground Blitz, Rated Battlegrounds, and Rated 3v3 Arena. As with past changes to inflation, this adjustment is intended to improve progression as the season continues and support healthier ladder movement. We’ll continue monitoring rating distribution and make further adjustments as necessary. Thank you for your continued feedback and we’ll see you on the battlefield!</em></li>\n</ul>\n</li>\n<li>Font of Venomous Rage trinket daño reducido un 50% in PvP combat.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-17-september/625785/35"
     }
   ],
   "blizzardNews": [
