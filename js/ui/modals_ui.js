@@ -156,10 +156,25 @@ function renderBloodmalletModalList() {
 
   // Caso 2: DPS / Tank (Datos Bloodmallet)
   const { wowClass, wowSpec } = getBloodmalletClassSpec(c, s);
-  const cacheKey = `${wowClass}_${wowSpec}_castingpatchwerk`;
+  const isMplus = typeof currentContentMode !== 'undefined' && currentContentMode === 'mplus';
+  const fightStyle = isMplus ? 'castingpatchwerk5' : 'castingpatchwerk';
+  const modeLabel = isMplus ? '5 Targets (Mythic+ / AoE)' : '1 Target (Mythic Raid)';
+
+  let cacheKey = `${wowClass}_${wowSpec}_${fightStyle}`;
 
   if (!bloodmalletDataCache[cacheKey] && window.BLOODMALLET_DATA && window.BLOODMALLET_DATA[cacheKey]) {
     bloodmalletDataCache[cacheKey] = window.BLOODMALLET_DATA[cacheKey];
+  }
+
+  // Fallback a 1 target si castingpatchwerk5 aún no está disponible
+  if ((!bloodmalletDataCache[cacheKey] || !bloodmalletDataCache[cacheKey].data) && isMplus) {
+    const fallbackKey = `${wowClass}_${wowSpec}_castingpatchwerk`;
+    if (!bloodmalletDataCache[fallbackKey] && window.BLOODMALLET_DATA && window.BLOODMALLET_DATA[fallbackKey]) {
+      bloodmalletDataCache[fallbackKey] = window.BLOODMALLET_DATA[fallbackKey];
+    }
+    if (bloodmalletDataCache[fallbackKey] && bloodmalletDataCache[fallbackKey].data) {
+      cacheKey = fallbackKey;
+    }
   }
 
   // Fallback para specs
@@ -176,7 +191,7 @@ function renderBloodmalletModalList() {
     container.innerHTML = `
       <div class="bg-black/40 border border-wow-border rounded-xl p-8 text-center space-y-3">
         <i class="fa-solid fa-spinner fa-spin text-2xl text-amber-400"></i>
-        <p class="text-xs text-slate-300">Descargando datos oficiales de simulación para ${wowClass}/${wowSpec} desde bloodmallet.com...</p>
+        <p class="text-xs text-slate-300">Descargando datos oficiales de simulación para ${wowClass}/${wowSpec} (${modeLabel}) desde bloodmallet.com...</p>
         <button type="button" onclick="syncBloodmalletData(true)" class="px-4 py-1.5 rounded-lg text-xs font-bold text-white bg-red-900 hover:bg-red-800 border border-red-500/50">Forzar Sincronización</button>
       </div>
     `;
@@ -184,8 +199,10 @@ function renderBloodmalletModalList() {
   }
 
   const metaEl = document.getElementById('bm-modal-meta');
-  if (metaEl && bmData.metadata) {
-    metaEl.innerText = `SimulationCraft: ${bmData.metadata.SimulationCraft || '66096c1'} | Bloodytools: ${bmData.metadata.bloodytools || 'latest'} | Actualizado: ${bmData.metadata.timestamp?.split(' ')[0] || 'Reciente'}`;
+  if (metaEl) {
+    const simcVer = bmData.metadata?.SimulationCraft || '66096c1';
+    const upDate = bmData.metadata?.timestamp?.split(' ')[0] || 'Reciente';
+    metaEl.innerText = `Fuente: Bloodmallet.com ${modeLabel} | SimC: ${simcVer} | Actualizado: ${upDate}`;
   }
 
   const baseline = Object.values(bmData.data.baseline || {})[0] || 0;

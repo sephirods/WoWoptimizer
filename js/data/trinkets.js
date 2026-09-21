@@ -113,16 +113,26 @@ async function fetchBloodmalletData(appClass, appSpec, fightStyle = 'castingpatc
   return json;
 }
 
-function getTrinketBloodmalletInfo(item, wowClass, wowSpec) {
+function getTrinketBloodmalletInfo(item, wowClass, wowSpec, mode) {
   if (!item || item.slot !== 'trinket') return null;
   const { wowClass: c, wowSpec: s } = getBloodmalletClassSpec(wowClass || currentClass, wowSpec || currentSpec);
-  const cacheKey = `${c}_${s}_castingpatchwerk`;
+  const m = mode || (typeof currentContentMode !== 'undefined' && currentContentMode === 'mplus' ? 'mplus' : 'raid');
+  const fightStyle = m === 'mplus' ? 'castingpatchwerk5' : 'castingpatchwerk';
+  const cacheKey = `${c}_${s}_${fightStyle}`;
   
   if (!bloodmalletDataCache[cacheKey] && window.BLOODMALLET_DATA && window.BLOODMALLET_DATA[cacheKey]) {
     bloodmalletDataCache[cacheKey] = window.BLOODMALLET_DATA[cacheKey];
   }
 
-  const bmData = bloodmalletDataCache[cacheKey];
+  let bmData = bloodmalletDataCache[cacheKey];
+  if (!bmData && fightStyle === 'castingpatchwerk5') {
+    const fallbackKey = `${c}_${s}_castingpatchwerk`;
+    if (!bloodmalletDataCache[fallbackKey] && window.BLOODMALLET_DATA && window.BLOODMALLET_DATA[fallbackKey]) {
+      bloodmalletDataCache[fallbackKey] = window.BLOODMALLET_DATA[fallbackKey];
+    }
+    bmData = bloodmalletDataCache[fallbackKey];
+  }
+
   if (!bmData || !bmData.data) return null;
 
   const baseline = Object.values(bmData.data.baseline || {})[0] || 0;
@@ -270,14 +280,14 @@ function getTrinketArchonHealerInfo(item, wowClass, wowSpec, mode) {
 
 function getTrinketBloodmalletBadge(item) {
   if (!item || item.slot !== 'trinket') return '';
+  const activeMode = typeof currentContentMode !== 'undefined' && currentContentMode === 'mplus' ? 'mplus' : 'raid';
   if (isHealerSpec(currentClass, currentSpec)) {
-    const activeMode = typeof currentContentMode !== 'undefined' && currentContentMode === 'raid' ? 'raid' : 'mplus';
     const archon = getTrinketArchonHealerInfo(item, currentClass, currentSpec, activeMode);
     if (!archon) return '';
     const keyBadge = archon.maxKey ? `<span class="px-1 py-0.2 rounded bg-purple-950/80 border border-purple-500/50 text-purple-300 text-[9px] font-bold ml-1">${archon.maxKey}</span>` : '';
     return `<span class="inline-flex items-center gap-1 text-[9px] font-bold text-amber-300 bg-amber-950/70 border border-amber-500/50 px-1.5 py-0.5 rounded ml-1" title="Popularidad Oficial Archon.gg (${archon.popularity}% Pick Rate)"><i class="fa-solid fa-chart-line text-amber-400 text-[8px]"></i> Archon: ${archon.popularity}%</span>${keyBadge}`;
   }
-  const bmInfo = getTrinketBloodmalletInfo(item, currentClass, currentSpec);
+  const bmInfo = getTrinketBloodmalletInfo(item, currentClass, currentSpec, activeMode);
   if (!bmInfo) return '';
 
   const typeBadge = bmInfo.isActive 
@@ -288,14 +298,15 @@ function getTrinketBloodmalletBadge(item) {
     ? '+' + (bmInfo.dpsGain / 1000).toFixed(1) + 'k DPS'
     : '+' + bmInfo.dpsGain + ' DPS';
 
-  return `<span class="inline-flex items-center gap-1 text-[9px] font-bold text-red-300 bg-red-950/60 border border-red-500/40 px-1.5 py-0.5 rounded ml-1" title="DPS Simulado Bloodmallet (+${bmInfo.dpsGain.toLocaleString()} DPS vs Baseline)"><i class="fa-solid fa-fire text-amber-400 text-[8px]"></i> ${dpsFormatted}</span>${typeBadge}`;
+  const modeBadge = activeMode === 'mplus' ? ' (5T)' : ' (1T)';
+  return `<span class="inline-flex items-center gap-1 text-[9px] font-bold text-red-300 bg-red-950/60 border border-red-500/40 px-1.5 py-0.5 rounded ml-1" title="DPS Simulado Bloodmallet (+${bmInfo.dpsGain.toLocaleString()} DPS vs Baseline${modeBadge})"><i class="fa-solid fa-fire text-amber-400 text-[8px]"></i> ${dpsFormatted}</span>${typeBadge}`;
 }
 
 function getTrinketDpsScore(item, wowClass, wowSpec, mode) {
   if (!item || item.slot !== 'trinket') return 0;
   const c = wowClass || currentClass;
   const s = wowSpec || currentSpec;
-  const m = mode || (typeof currentContentMode !== 'undefined' && currentContentMode === 'raid' ? 'raid' : 'mplus');
+  const m = mode || (typeof currentContentMode !== 'undefined' && currentContentMode === 'mplus' ? 'mplus' : 'raid');
   if (isHealerSpec(c, s)) {
     const archon = getTrinketArchonHealerInfo(item, c, s, m);
     if (!archon) return 0;
@@ -303,7 +314,7 @@ function getTrinketDpsScore(item, wowClass, wowSpec, mode) {
     const ilvlFactor = Math.pow(1.012, itemIlvl - 308);
     return Math.round(archon.popularity * 1000 * ilvlFactor);
   }
-  const bmInfo = getTrinketBloodmalletInfo(item, c, s);
+  const bmInfo = getTrinketBloodmalletInfo(item, c, s, m);
   return bmInfo ? bmInfo.dpsGain : 0;
 }
 

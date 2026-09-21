@@ -7,42 +7,72 @@ async function syncBloodmalletOnlineAdmin() {
   if (spinner) spinner.classList.add('fa-spin');
 
   const SPECS = [
-    'death_knight_blood', 'death_knight_frost', 'death_knight_unholy',
-    'demon_hunter_havoc', 'demon_hunter_vengeance',
-    'druid_balance', 'druid_feral', 'druid_guardian', 'druid_restoration',
-    'evoker_devastation', 'evoker_preservation', 'evoker_augmentation',
-    'hunter_beast_mastery', 'hunter_marksmanship', 'hunter_survival',
-    'mage_arcane', 'mage_fire', 'mage_frost',
-    'monk_brewmaster', 'monk_mistweaver', 'monk_windwalker',
-    'paladin_holy', 'paladin_protection', 'paladin_retribution',
-    'priest_discipline', 'priest_holy', 'priest_shadow',
-    'rogue_assassination', 'rogue_outlaw', 'rogue_subtlety',
-    'shaman_elemental', 'shaman_enhancement', 'shaman_restoration',
-    'warlock_affliction', 'warlock_demonology', 'warlock_destruction',
-    'warrior_arms', 'warrior_fury', 'warrior_protection'
+    { class: 'death_knight', spec: 'blood' },
+    { class: 'death_knight', spec: 'frost' },
+    { class: 'death_knight', spec: 'unholy' },
+    { class: 'demon_hunter', spec: 'havoc' },
+    { class: 'demon_hunter', spec: 'vengeance' },
+    { class: 'druid', spec: 'balance' },
+    { class: 'druid', spec: 'feral' },
+    { class: 'druid', spec: 'guardian' },
+    { class: 'evoker', spec: 'devastation' },
+    { class: 'evoker', spec: 'augmentation' },
+    { class: 'hunter', spec: 'beast_mastery' },
+    { class: 'hunter', spec: 'marksmanship' },
+    { class: 'hunter', spec: 'survival' },
+    { class: 'mage', spec: 'arcane' },
+    { class: 'mage', spec: 'fire' },
+    { class: 'mage', spec: 'frost' },
+    { class: 'monk', spec: 'brewmaster' },
+    { class: 'monk', spec: 'windwalker' },
+    { class: 'paladin', spec: 'protection' },
+    { class: 'paladin', spec: 'retribution' },
+    { class: 'priest', spec: 'shadow' },
+    { class: 'rogue', spec: 'assassination' },
+    { class: 'rogue', spec: 'outlaw' },
+    { class: 'rogue', spec: 'subtlety' },
+    { class: 'shaman', spec: 'elemental' },
+    { class: 'shaman', spec: 'enhancement' },
+    { class: 'warlock', spec: 'affliction' },
+    { class: 'warlock', spec: 'demonology' },
+    { class: 'warlock', spec: 'destruction' },
+    { class: 'warrior', spec: 'arms' },
+    { class: 'warrior', spec: 'fury' },
+    { class: 'warrior', spec: 'protection' }
   ];
 
+  const STYLES = ['castingpatchwerk', 'castingpatchwerk5'];
   const dataset = {};
+  const total = SPECS.length * STYLES.length;
   let completed = 0;
-  showToast('Descargando simulaciones de Bloodmallet...', 'info');
+  showToast('Iniciando descarga de Bloodmallet (1 Target y 5 Targets)...', 'info');
 
-  for (const slug of SPECS) {
-    if (btnText) btnText.innerText = 'Descargando (' + completed + '/' + SPECS.length + ')...';
-    try {
-      const res = await fetch('https://bloodmallet.com/data/trinkets/castingpatchwerk/' + slug + '.json');
-      if (res.ok) {
-        const json = await res.json();
-        dataset[slug] = json;
+  for (const s of SPECS) {
+    for (const style of STYLES) {
+      const key = `${s.class}_${s.spec}_${style}`;
+      if (btnText) btnText.innerText = `Descargando (${completed + 1}/${total})...`;
+      try {
+        const url = `https://bloodmallet.com/chart/get/trinkets/${style}/${s.class}/${s.spec}`;
+        const res = await fetch(url);
+        if (res.ok) {
+          const json = await res.json();
+          if (json && json.data) {
+            dataset[key] = json;
+          }
+        }
+      } catch (e) {
+        console.warn(`Error en ${key}:`, e);
       }
-    } catch (e) {
-      console.warn('Error en ' + slug + ':', e);
+      completed++;
+      await new Promise(r => setTimeout(r, 50));
     }
-    completed++;
   }
 
   try {
-    const fileContent = `// OFFICIAL BLOODMALLET TRINKET SIMULATION DATASET\nwindow.BLOODMALLET_DATA = ${JSON.stringify(dataset, null, 2)};\n`;
+    const existingIcons = (typeof window !== 'undefined' && window.BLOODMALLET_ITEM_ICONS) ? window.BLOODMALLET_ITEM_ICONS : {};
+    const fileContent = `// OFFICIAL BLOODMALLET COMPILED DATASET WITH RESOLVED ICONS\nwindow.BLOODMALLET_ITEM_ICONS = ${JSON.stringify(existingIcons, null, 2)};\n\nwindow.BLOODMALLET_DATA = ${JSON.stringify(dataset, null, 2)};\n`;
     await publishDatasetDirectly('bloodmallet_data.js', fileContent, 'BLOODMALLET_DATA', 'wow_custom_bloodmallet_data');
+    showToast('¡Bloodmallet actualizado con 1 Target y 5 Targets para todos los DPS y Tanks!', 'success');
   } catch (err) {
     console.error('Error publicando bloodmallet_data.js:', err);
     showToast('Error al publicar Bloodmallet: ' + err.message, 'error');
