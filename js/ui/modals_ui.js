@@ -79,12 +79,28 @@ function renderBloodmalletModalList() {
 
     const modeList = (archonSpec && archonSpec[modeKey]) ? archonSpec[modeKey] : [];
 
-    let entries = [...modeList];
+    // Deduplicar abalorios por itemId seleccionando la entrada con mayor popularidad y nombre válido
+    const uniqueMap = new Map();
+    for (const item of modeList) {
+      if (!item || !item.itemId) continue;
+      const id = Number(item.itemId);
+      const existing = uniqueMap.get(id);
+      const pop = Number(item.popularity) || 0;
+      if (!existing || pop > (Number(existing.popularity) || 0)) {
+        uniqueMap.set(id, {
+          ...item,
+          name: item.name || (existing && existing.name) || `Item #${id}`
+        });
+      } else if (!existing.name && item.name) {
+        existing.name = item.name;
+      }
+    }
+    let entries = Array.from(uniqueMap.values());
     if (search) {
       entries = entries.filter(e => e.name && e.name.toLowerCase().includes(search));
     }
 
-    entries.sort((a, b) => b.popularity - a.popularity);
+    entries.sort((a, b) => (Number(b.popularity) || 0) - (Number(a.popularity) || 0));
 
     if (entries.length === 0) {
       container.innerHTML = `

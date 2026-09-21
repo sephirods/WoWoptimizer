@@ -236,8 +236,7 @@ function getArchonHealerSpecData(c, s) {
   const alias = aliases[spc];
   if (alias && classData[alias]) return classData[alias];
 
-  // Búsqueda insensible a mayúsculas o prefijos
-  const cleanSpc = spc.toLowerCase().replace(/[^a-z0-9]/g, '');
+  const cleanSpc = String(spc).toLowerCase().replace(/[^a-z0-9]/g, '');
   for (const k of Object.keys(classData)) {
     const cleanK = k.toLowerCase().replace(/[^a-z0-9]/g, '');
     if (cleanK === cleanSpc || cleanK.includes(cleanSpc) || cleanSpc.includes(cleanK)) {
@@ -257,21 +256,23 @@ function getTrinketArchonHealerInfo(item, wowClass, wowSpec, mode) {
   const m = mode || (typeof currentContentMode !== 'undefined' && currentContentMode === 'raid' ? 'raid' : 'mplus');
   const list = specData[m] || [];
   
-  let found = list.find(x => Number(x.itemId) === Number(item.itemId));
-  if (!found && item.name) {
+  let matches = list.filter(x => Number(x.itemId) === Number(item.itemId));
+  if (matches.length === 0 && item.name) {
     const clean = item.name.toLowerCase().replace(/[^a-z0-9]/g, '');
-    found = list.find(x => x.name && x.name.toLowerCase().replace(/[^a-z0-9]/g, '') === clean);
-    if (!found) {
-      found = list.find(x => x.name && (clean.includes(x.name.toLowerCase().replace(/[^a-z0-9]/g, '')) || x.name.toLowerCase().replace(/[^a-z0-9]/g, '').includes(clean)));
+    matches = list.filter(x => x.name && x.name.toLowerCase().replace(/[^a-z0-9]/g, '') === clean);
+    if (matches.length === 0) {
+      matches = list.filter(x => x.name && (clean.includes(x.name.toLowerCase().replace(/[^a-z0-9]/g, '')) || x.name.toLowerCase().replace(/[^a-z0-9]/g, '').includes(clean)));
     }
   }
+  let found = matches.length > 0 ? [...matches].sort((a, b) => (Number(b.popularity) || 0) - (Number(a.popularity) || 0))[0] : null;
   return found ? { ...found, isHealer: true, mode: m } : null;
 }
 
 function getTrinketBloodmalletBadge(item) {
   if (!item || item.slot !== 'trinket') return '';
   if (isHealerSpec(currentClass, currentSpec)) {
-    const archon = getTrinketArchonHealerInfo(item, currentClass, currentSpec);
+    const activeMode = typeof currentContentMode !== 'undefined' && currentContentMode === 'raid' ? 'raid' : 'mplus';
+    const archon = getTrinketArchonHealerInfo(item, currentClass, currentSpec, activeMode);
     if (!archon) return '';
     const keyBadge = archon.maxKey ? `<span class="px-1 py-0.2 rounded bg-purple-950/80 border border-purple-500/50 text-purple-300 text-[9px] font-bold ml-1">${archon.maxKey}</span>` : '';
     return `<span class="inline-flex items-center gap-1 text-[9px] font-bold text-amber-300 bg-amber-950/70 border border-amber-500/50 px-1.5 py-0.5 rounded ml-1" title="Popularidad Oficial Archon.gg (${archon.popularity}% Pick Rate)"><i class="fa-solid fa-chart-line text-amber-400 text-[8px]"></i> Archon: ${archon.popularity}%</span>${keyBadge}`;
@@ -290,12 +291,13 @@ function getTrinketBloodmalletBadge(item) {
   return `<span class="inline-flex items-center gap-1 text-[9px] font-bold text-red-300 bg-red-950/60 border border-red-500/40 px-1.5 py-0.5 rounded ml-1" title="DPS Simulado Bloodmallet (+${bmInfo.dpsGain.toLocaleString()} DPS vs Baseline)"><i class="fa-solid fa-fire text-amber-400 text-[8px]"></i> ${dpsFormatted}</span>${typeBadge}`;
 }
 
-function getTrinketDpsScore(item, wowClass, wowSpec) {
+function getTrinketDpsScore(item, wowClass, wowSpec, mode) {
   if (!item || item.slot !== 'trinket') return 0;
   const c = wowClass || currentClass;
   const s = wowSpec || currentSpec;
+  const m = mode || (typeof currentContentMode !== 'undefined' && currentContentMode === 'raid' ? 'raid' : 'mplus');
   if (isHealerSpec(c, s)) {
-    const archon = getTrinketArchonHealerInfo(item, c, s);
+    const archon = getTrinketArchonHealerInfo(item, c, s, m);
     if (!archon) return 0;
     const itemIlvl = item.ilvl || 308;
     const ilvlFactor = Math.pow(1.012, itemIlvl - 308);
