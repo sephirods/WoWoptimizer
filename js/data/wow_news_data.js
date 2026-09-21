@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30141135",
+      "postId": 30141135,
+      "topicId": 2357133,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-21T19:00:08.716Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Create a Name of Your Own in WoW: Forever",
+        "es": "Create a Name of Your Own in WoW: Forever"
+      },
+      "summary": {
+        "en": "[Create a Name of Your Own in WoW: Forever] In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With t...",
+        "es": "[Create a Name of Your Own in WoW: Forever] In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With t..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\" alt=\"Create a Name of Your Own in WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With the addition of two names, players have more room to create something personal while keeping each full name unique within a region. That means you may still be able to use the same first name as another character, but your complete two-name combination is unique to you. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24304161\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\" alt=\"Create a Name of Your Own in WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With the addition of two names, players have more room to create something personal while keeping each full name unique within a region. That means you may still be able to use the same first name as another character, but your complete two-name combination is unique to you. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24304161\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/create-a-name-of-your-own-in-wow-forever/2357133/1"
+    },
+    {
       "id": "blizz-30139646",
       "postId": 30139646,
       "topicId": 2357001,
@@ -198,32 +226,32 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-world-of-warcraft-forever-beta-now-live/2352596/1"
     },
     {
-      "id": "blizz-30096301",
-      "postId": 30096301,
-      "topicId": 2352595,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1231294",
+      "postId": 1231294,
+      "topicId": 80163,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-09-17T21:00:25.033Z",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-21T19:00:06.890Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Beta Discussion Forum Right This Way",
-        "es": "Beta Discussion Forum Right This Way"
+        "en": "Crea un nombre verdaderamente tuyo en WoW: Forever",
+        "es": "Crea un nombre verdaderamente tuyo en WoW: Forever"
       },
       "summary": {
-        "en": "We’ve opened this new forum for WoW: Forever Beta discussions. \nSee you there!...",
-        "es": "We’ve opened this new forum for WoW: Forever Beta discussions. \nSee you there!..."
+        "en": "[Crea un nombre verdaderamente tuyo en WoW: Forever] En World of Warcraft: Forever, el nombre de tu personaje es una oportunidad para expresarte y establecer tu identidad en Azerot...",
+        "es": "[Crea un nombre verdaderamente tuyo en WoW: Forever] En World of Warcraft: Forever, el nombre de tu personaje es una oportunidad para expresarte y establecer tu identidad en Azerot..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://us.forums.blizzard.com/en/wow/c/in-development/wow-forever-beta-discussion/349\">We’ve opened this new forum for WoW: Forever Beta discussions.</a></p>\n<p>See you there!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://us.forums.blizzard.com/en/wow/c/in-development/wow-forever-beta-discussion/349\">We’ve opened this new forum for WoW: Forever Beta discussions.</a></p>\n<p>See you there!</p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\" alt=\"Crea un nombre verdaderamente tuyo en WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>En World of Warcraft: Forever, el nombre de tu personaje es una oportunidad para expresarte y establecer tu identidad en Azeroth. Con la incorporación del segundo nombre, los jugadores tienen más posibilidades de crear algo personal y único en la región. Es decir, podrás usar el mismo primer nombre que otro personaje, pero la combinación de tus dos nombres será exclusiva para ti. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304161\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\" alt=\"Crea un nombre verdaderamente tuyo en WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>En World of Warcraft: Forever, el nombre de tu personaje es una oportunidad para expresarte y establecer tu identidad en Azeroth. Con la incorporación del segundo nombre, los jugadores tienen más posibilidades de crear algo personal y único en la región. Es decir, podrás usar el mismo primer nombre que otro personaje, pero la combinación de tus dos nombres será exclusiva para ti. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304161\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-discussion-forum-right-this-way/2352595/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/crea-un-nombre-verdaderamente-tuyo-en-wow-forever/80163/1"
     },
     {
       "id": "blizz-1231282",
@@ -422,32 +450,60 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/traza-un-nuevo-camino-con-world-of-warcraft-forever/80045/1"
     },
     {
-      "id": "blizz-1230554",
-      "postId": 1230554,
-      "topicId": 80044,
+      "id": "blizz-6383784",
+      "postId": 6383784,
+      "topicId": 630533,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-13T07:30:56.669Z",
+      "dateRaw": "2026-09-21T19:00:11.618Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "World of Warcraft en la BlizzCon 2026: Resumen de noticias",
-        "es": "World of Warcraft en la BlizzCon 2026: Resumen de noticias"
+        "en": "Create a Name of Your Own in WoW: Forever",
+        "es": "Create a Name of Your Own in WoW: Forever"
       },
       "summary": {
-        "en": "[World of Warcraft en la BlizzCon 2026: Resumen de noticias] La BlizzCon 2026 ha llegado a su fin y hemos recopilado las últimas novedades, avances y noticias del evento sobre Worl...",
-        "es": "[World of Warcraft en la BlizzCon 2026: Resumen de noticias] La BlizzCon 2026 ha llegado a su fin y hemos recopilado las últimas novedades, avances y noticias del evento sobre Worl..."
+        "en": "[Create a Name of Your Own in WoW: Forever] In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With t...",
+        "es": "[Create a Name of Your Own in WoW: Forever] In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With t..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\" alt=\"World of Warcraft en la BlizzCon 2026: Resumen de noticias\" width=\"833\" height=\"468\"></a></p><p>La BlizzCon 2026 ha llegado a su fin y hemos recopilado las últimas novedades, avances y noticias del evento sobre World of Warcraft en un mismo sitio. ¡Enteraos de todo!</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24301145\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\" alt=\"World of Warcraft en la BlizzCon 2026: Resumen de noticias\" width=\"833\" height=\"468\"></a></p><p>La BlizzCon 2026 ha llegado a su fin y hemos recopilado las últimas novedades, avances y noticias del evento sobre World of Warcraft en un mismo sitio. ¡Enteraos de todo!</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24301145\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\" alt=\"Create a Name of Your Own in WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With the addition of two names, players have more room to create something personal while keeping each full name unique within a region. That means you may still be able to use the same first name as another character, but your complete two-name combination is unique to you. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304161\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\" alt=\"Create a Name of Your Own in WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With the addition of two names, players have more room to create something personal while keeping each full name unique within a region. That means you may still be able to use the same first name as another character, but your complete two-name combination is unique to you. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304161\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-en-la-blizzcon-2026-resumen-de-noticias/80044/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/create-a-name-of-your-own-in-wow-forever/630533/1"
+    },
+    {
+      "id": "blizz-6383783",
+      "postId": 6383783,
+      "topicId": 630532,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-21T19:00:09.434Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Create a Name of Your Own in WoW: Forever",
+        "es": "Create a Name of Your Own in WoW: Forever"
+      },
+      "summary": {
+        "en": "[Create a Name of Your Own in WoW: Forever] In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With t...",
+        "es": "[Create a Name of Your Own in WoW: Forever] In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With t..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\" alt=\"Create a Name of Your Own in WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With the addition of two names, players have more room to create something personal while keeping each full name unique within a region. That means you may still be able to use the same first name as another character, but your complete two-name combination is unique to you. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304161\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\" alt=\"Create a Name of Your Own in WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With the addition of two names, players have more room to create something personal while keeping each full name unique within a region. That means you may still be able to use the same first name as another character, but your complete two-name combination is unique to you. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304161\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/create-a-name-of-your-own-in-wow-forever/630532/1"
     },
     {
       "id": "blizz-6383544",
@@ -616,62 +672,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-known-issues-18-september/629369/1"
-    },
-    {
-      "id": "blizz-6374070",
-      "postId": 6374070,
-      "topicId": 629287,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-17T21:00:58.820Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The World of Warcraft: Forever Beta Now Live",
-        "es": "The World of Warcraft: Forever Beta Ya Disponible"
-      },
-      "summary": {
-        "en": "[The World of Warcraft: Forever Beta Now Live] The World of Warcraft: Forever beta begins September 17 and is available through October 21. Opt in for a chance to join testing, or ...",
-        "es": "[The World of Warcraft: Forever Beta Ya Disponible] The World of Warcraft: Forever beta begins September 17 and is available through October 21. Opt in for a chance to join testing..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" alt=\"The World of Warcraft: Forever Beta Now Live\" width=\"833\" height=\"468\"></a></p><p>The World of Warcraft: Forever beta begins September 17 and is available through October 21. Opt in for a chance to join testing, or gain beta access by purchasing eligible World of Warcraft: Forever bundles, then share your feedback as we prepare for launch on November 4 at 3:00 p.m. PST. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304160\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" alt=\"The World of Warcraft: Forever Beta Now Live\" width=\"833\" height=\"468\"></a></p><p>The World of Warcraft: Forever beta begins September 17 and is available through October 21. Opt in for a chance to join testing, or gain beta access by purchasing eligible World of Warcraft: Forever bundles, then share your feedback as we prepare for launch on November 4 at 3:00 p.m. PST. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304160\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-world-of-warcraft-forever-beta-now-live/629287/1"
-    },
-    {
-      "id": "blizz-6373995",
-      "postId": 6373995,
-      "topicId": 629277,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-09-17T20:36:40.952Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Midnight Season 2 PvP Rating Inflation Increased",
-        "es": "Midnight Temporada 2 PvP Rating Inflation Increased"
-      },
-      "summary": {
-        "en": "We’ve seen your feedback that achievable PvP ratings are not meeting expectations, so we’re applying a significant increase to PvP rating inflation starting now for all rated PvP m...",
-        "es": "We’ve seen your feedback that achievable PvP ratings are not meeting expectations, so we’re applying a significant increase to PvP rating inflation starting now for all rated PvP m..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve seen your feedback that achievable PvP ratings are not meeting expectations, so we’re applying a significant increase to PvP rating inflation starting now for all rated PvP modes with emphasis on Battleground Blitz, Rated Battlegrounds, and Rated 3v3 Arena.</p>\n<p>As with past changes to inflation, this adjustment is intended to improve progression as the season continues and support healthier ladder movement. We’ll continue monitoring rating distribution and make further adjustments as necessary.</p>\n<p>Thank you for your continued feedback and we’ll see you on the battlefield!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve seen your feedback that achievable PvP ratings are not meeting expectations, so we’re applying a significant increase to PvP rating inflation starting now for all rated PvP modes with emphasis on Battleground Blitz, Rated Battlegrounds, and Rated 3v3 Arena.</p>\n<p>As with past changes to inflation, this adjustment is intended to improve progression as the season continues and support healthier ladder movement. We’ll continue monitoring rating distribution and make further adjustments as necessary.</p>\n<p>Thank you for your continued feedback and we’ll see you on the battlefield!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/midnight-season-2-pvp-rating-inflation-increased/629277/1"
     }
   ],
   "blizzardNews": [
