@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/precompra-la-collectors-edition-de-world-of-warcraft%C2%AE-forever/80040/1"
     },
     {
+      "id": "blizz-6381918",
+      "postId": 6381918,
+      "topicId": 630307,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-09-21T00:01:57.955Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Addressing EU Beta Routing Issues",
+        "es": "Addressing EU Beta Routing Issues"
+      },
+      "summary": {
+        "en": "As many Beta testers in this region know, in the first couple of days of the WoW: Forever Beta, we experienced routing issues that impacted testers’ ability to move, interact with ...",
+        "es": "As many Beta testers in this region know, in the first couple of days of the WoW: Forever Beta, we experienced routing issues that impacted testers’ ability to move, interact with ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>As many Beta testers in this region know, in the first couple of days of the WoW: Forever Beta, we experienced routing issues that impacted testers’ ability to move, interact with the world, and in some cases, to stay connected. We immediately put our engineers on the case and they’ve been working to understand and address any parts of the issue that were within our control.</p>\n<p><strong>I’m happy to report that, over the last 24 hours, we’ve developed and implemented solutions to streamline routing to the Beta for the EU region.</strong></p>\n<p>As we continue to carefully observe the game performance for EU testers, we can see that there may still be routing issues for some players that are out of our control. This is always the case when a local Internet Service Provider (ISP) is experiencing a connection issue, or something upstream from the ISP is temporarily routing via a less-direct route for whatever reason, or the players themselves are running firewall-type software that’s introducing a slowdown (and in some cases, outright blocking connection to the game).</p>\n<p>We believe that our fixes for issues that were within our control should have improved (and hopefully fixed) what some players were experiencing.</p>\n<p>And we will continue to monitor the situation very closely. Finding and fixing game performance issues is a key reason to do a public test like this one.</p>\n<p>Thank you very much for your patience and understanding.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>As many Beta testers in this region know, in the first couple of days of the WoW: Forever Beta, we experienced routing issues that impacted testers’ ability to move, interact with the world, and in some cases, to stay connected. We immediately put our engineers on the case and they’ve been working to understand and address any parts of the issue that were within our control.</p>\n<p><strong>I’m happy to report that, over the last 24 hours, we’ve developed and implemented solutions to streamline routing to the Beta for the EU region.</strong></p>\n<p>As we continue to carefully observe the game performance for EU testers, we can see that there may still be routing issues for some players that are out of our control. This is always the case when a local Internet Service Provider (ISP) is experiencing a connection issue, or something upstream from the ISP is temporarily routing via a less-direct route for whatever reason, or the players themselves are running firewall-type software that’s introducing a slowdown (and in some cases, outright blocking connection to the game).</p>\n<p>We believe that our fixes for issues that were within our control should have improved (and hopefully fixed) what some players were experiencing.</p>\n<p>And we will continue to monitor the situation very closely. Finding and fixing game performance issues is a key reason to do a public test like this one.</p>\n<p>Thank you very much for your patience and understanding.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/addressing-eu-beta-routing-issues/630307/1"
+    },
+    {
       "id": "blizz-6377649",
       "postId": 6377649,
       "topicId": 629804,
@@ -644,34 +672,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/almost-there/629254/1"
-    },
-    {
-      "id": "blizz-6371081",
-      "postId": 6371081,
-      "topicId": 629006,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-09-16T19:33:14.229Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "PTR Raid Testing: Mythic Kith’ix (15-25)",
-        "es": "PTR Banda Testing: Mítica+ Kith’ix (15-25)"
-      },
-      "summary": {
-        "en": "Hello everyone, \nWe will be running a 1-hour test of the Unbinding of Kith’ix on the public test realm from 00:00 to 01:00 CEST (15:00-16:00 PDT, 18:00-19:00 EDT) on Wednesday, 16 ...",
-        "es": "Hello everyone, \nWe will be running a 1-hour test of the Unbinding of Kith’ix on the public test realm from 00:00 to 01:00 CEST (15:00-16:00 PDT, 18:00-19:00 EDT) on Wednesday, 16 ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Hello everyone,</p>\n<p>We will be running a 1-hour test of the Unbinding of Kith’ix on the public test realm from 00:00 to 01:00 CEST (15:00-16:00 PDT, 18:00-19:00 EDT) on Wednesday, 16 September. During that time players will be able to enter the instance on Mythic difficulty and enjoy the entire raid experience.</p>\n<p>We hope to see you there.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Hello everyone,</p>\n<p>We will be running a 1-hour test of the Unbinding of Kith’ix on the public test realm from 00:00 to 01:00 CEST (15:00-16:00 PDT, 18:00-19:00 EDT) on Wednesday, 16 September. During that time players will be able to enter the instance on Mythic difficulty and enjoy the entire raid experience.</p>\n<p>We hope to see you there.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/ptr-raid-testing-mythic-kith%E2%80%99ix-15-25/629006/1"
     }
   ],
   "blizzardNews": [
