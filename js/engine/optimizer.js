@@ -198,15 +198,8 @@ function runOptimizer(isManualClick = false) {
   const lockedIds = new Set(lockedItems.map(it => it.id));
   const lockedTierCount = lockedItems.filter(it => it.tier).length;
 
-  // Minimum Tier Pieces Constraint (0+, 2+, 4+ with no upper cap)
-  let minTier = 0;
-  if (tierMode === '4') {
-    minTier = Math.max(4, lockedTierCount);
-  } else if (tierMode === '2') {
-    minTier = Math.max(2, lockedTierCount);
-  } else {
-    minTier = lockedTierCount;
-  }
+  // Minimum Tier Pieces Constraint (0+, 2+, 4+)
+  const minTier = (tierMode === '4') ? 4 : (tierMode === '2') ? 2 : 0;
 
   const bySlot = {
     head: activeItems.filter(x => x.slot === 'head'),
@@ -407,20 +400,11 @@ function runOptimizer(isManualClick = false) {
       return lockedInSlot.map(it => [it]);
     }
 
-    if (tierSlots.has(s)) {
-      const tierItems = list.filter(x => x.tier).sort((a, b) => scoreCandidate(b) - scoreCandidate(a));
-      const nonTierItems = list.filter(x => !x.tier).sort((a, b) => scoreCandidate(b) - scoreCandidate(a));
-
-      let candidates = [...tierItems, ...nonTierItems];
-      if (candidates.length === 0) candidates = list;
-      return candidates.map(it => [it]);
-    } else {
-      list.sort((a, b) => {
-        if (a.socket !== b.socket) return a.socket ? -1 : 1;
-        return scoreCandidate(b) - scoreCandidate(a);
-      });
-      return list.map(it => [it]);
-    }
+    list.sort((a, b) => {
+      if (a.socket !== b.socket) return a.socket ? -1 : 1;
+      return scoreCandidate(b) - scoreCandidate(a);
+    });
+    return list.map(it => [it]);
   });
 
   slotGroups.push(ringCombos);

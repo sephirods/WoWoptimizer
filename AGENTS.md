@@ -49,3 +49,10 @@
 - **NO SILENT ANALYSIS LOOPS**: Never spend multiple minutes or get trapped in long investigation loops. Report findings directly and maintain constant communication.
 - **DIRECT ACTION OVER OVER-VERIFICATION**: Once the root cause is identified and the user approves the solution, apply the code change DIRECTLY. Do NOT launch background test scripts, headless browser simulations, or redundant investigative steps. The user verifies visually in real time; apply and let the user validate.
 
+## 6. Strict Domain Knowledge & Zero Unrequested Game Mechanics Assumptions (MANDATORY)
+
+- **NEVER ASSUME GAME MECHANICS OR INVENT UNREQUESTED RULES**:
+  - The assistant is strictly prohibited from assuming, inventing, or hardcoding unrequested game mechanics, class restrictions, artificial item scoring, or priority rules.
+  - The user is the sole authority on game mechanics, system requirements, and application behavior.
+  - Apply ONLY the exact mathematical rules, constraints, and instructions explicitly provided by the user. Zero unauthorized domain assumptions.
+

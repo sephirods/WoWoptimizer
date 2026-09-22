@@ -41,3 +41,10 @@
 - **MANDATORY TURN 1 RESPONSE & PERMISSION**: The assistant MUST respond to the user on Turn 1 before executing actions, explaining what will be done and requesting permission to proceed. Never execute changes silently.
 - **CHECK-IN EVERY 3 TURNS**: Once authorized, provide a clear progress update at least once every 3 turns/actions before continuing, UNLESS the user explicitly states to proceed autonomously until the end.
 - **NO SILENT ANALYSIS LOOPS**: Never spend multiple minutes or get trapped in long investigation loops. Report findings directly and maintain constant communication.
+
+## 6. Strict Domain Knowledge & Zero Unrequested Game Mechanics Assumptions (MANDATORY)
+
+- **NEVER ASSUME GAME MECHANICS OR INVENT UNREQUESTED RULES**:
+  - The assistant is strictly prohibited from assuming, inventing, or hardcoding unrequested game mechanics, class restrictions, artificial item scoring, or priority rules.
+  - The user is the sole authority on game mechanics, system requirements, and application behavior.
+  - Apply ONLY the exact mathematical rules, constraints, and instructions explicitly provided by the user. Zero unauthorized domain assumptions.
