@@ -72,7 +72,7 @@
       
       const url = mode === 'raid'
         ? `https://www.archon.gg/wow/builds/${item.specSlug}/${item.classSlug}/raid/overview/mythic/all-bosses`
-        : `https://www.archon.gg/wow/builds/${item.specSlug}/${item.classSlug}/mythic-plus/overview/10/all-dungeons/this-week`;
+        : `https://www.archon.gg/wow/builds/${item.specSlug}/${item.classSlug}/mythic-plus/overview/high-keys/all-dungeons/this-week`;
 
       try {
         const res = await fetch(url);
