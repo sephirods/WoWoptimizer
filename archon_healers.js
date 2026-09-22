@@ -6,168 +6,168 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 14.4,
+          "popularity": 40.8,
           "maxKey": "+22",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
-        },
-        {
-          "itemId": 250214,
-          "name": "",
-          "popularity": 6,
-          "maxKey": "+21",
-          "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 4.3,
+          "popularity": 12.9,
           "maxKey": "+22",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
+          "itemId": 250214,
+          "name": "",
+          "popularity": 8.6,
+          "maxKey": "+21",
+          "icon": "inv_enchant_essenceastrallarge"
+        },
+        {
           "itemId": 250215,
           "name": "",
-          "popularity": 3.4,
+          "popularity": 5,
           "maxKey": "+21",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
-          "itemId": 250214,
-          "name": "",
-          "popularity": 3.4,
-          "maxKey": "+20",
-          "icon": "inv_enchant_essenceastrallarge"
-        },
-        {
           "itemId": 250215,
           "name": "",
-          "popularity": 2.5,
-          "maxKey": "+20",
+          "popularity": 3.5,
+          "maxKey": "+21",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
-          "itemId": 250214,
+          "itemId": 270162,
           "name": "",
-          "popularity": 1.6,
-          "maxKey": "+19",
-          "icon": "inv_enchant_essenceastrallarge"
+          "popularity": 2.1,
+          "maxKey": "+20",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
-          "itemId": 250214,
+          "itemId": 270162,
           "name": "",
           "popularity": 1.6,
           "maxKey": "+21",
-          "icon": "inv_enchant_essenceastrallarge"
-        },
-        {
-          "itemId": 270162,
-          "name": "",
-          "popularity": 1.5,
-          "maxKey": "+20",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
-        },
-        {
-          "itemId": 270162,
-          "name": "",
-          "popularity": 1.5,
-          "maxKey": "+21",
-          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
-        },
-        {
-          "itemId": 270164,
-          "name": "",
-          "popularity": 1.1,
-          "maxKey": "+20",
-          "icon": "inv_10_tailoring_bag1_color2"
-        },
-        {
-          "itemId": 193757,
-          "name": "",
-          "popularity": 1.1,
-          "maxKey": "+20",
-          "icon": "inv_item_dragonegg_redbroken01"
-        },
-        {
-          "itemId": 270162,
-          "name": "",
-          "popularity": 40.6,
-          "maxKey": "+22",
-          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
-        },
-        {
-          "itemId": 270164,
-          "name": "",
-          "popularity": 24.8,
-          "maxKey": "+22",
-          "icon": "inv_10_tailoring_bag1_color2"
-        },
-        {
-          "itemId": 250214,
-          "name": "Lightspire Core",
-          "popularity": 19,
-          "maxKey": "+21",
-          "icon": "inv_enchant_essenceastrallarge"
-        },
-        {
-          "itemId": 250215,
-          "name": "Freightrunner's Flask",
-          "popularity": 17.8,
-          "maxKey": "+21",
-          "icon": "inv_alchemy_90_flask_red"
-        },
-        {
-          "itemId": 273796,
-          "name": "Vile Vial of Volatile Venom",
-          "popularity": 11.3,
-          "maxKey": "+21",
-          "icon": "inv_121_trinket_dungeon_ulatek_vile"
-        },
-        {
-          "itemId": 270167,
-          "name": "Wavecaller's Seastone",
-          "popularity": 9.1,
-          "maxKey": "+22",
-          "icon": "inv_tradeskillitem_sorcererswater"
-        },
-        {
-          "itemId": 274493,
-          "name": "Effigy of Ula'tek's Faithful",
-          "popularity": 7,
-          "maxKey": "+20",
-          "icon": "ability_fomor_boss_rune_green"
-        },
-        {
-          "itemId": 193757,
-          "name": "Ruby Whelp Shell",
-          "popularity": 6.8,
-          "maxKey": "+21",
-          "icon": "inv_item_dragonegg_redbroken01"
-        },
-        {
-          "itemId": 250248,
-          "name": "Mycolic Medicine",
-          "popularity": 6.4,
-          "maxKey": "+20",
-          "icon": "inv_misc_starspecklemushroom"
-        },
-        {
-          "itemId": 250255,
-          "name": "Unstable Felheart Crystal",
-          "popularity": 5.3,
-          "maxKey": "+21",
-          "icon": "tooltip_crystallizedfel"
         },
         {
           "itemId": 248583,
-          "name": "Drum of Renewed Bonds",
-          "popularity": 4.8,
+          "name": "",
+          "popularity": 1.5,
           "maxKey": "+21",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 1.5,
+          "maxKey": "+21",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 250214,
+          "name": "",
+          "popularity": 1.3,
+          "maxKey": "+21",
+          "icon": "inv_enchant_essenceastrallarge"
+        },
+        {
+          "itemId": 250255,
+          "name": "",
+          "popularity": 1.3,
+          "maxKey": "+21",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 1.3,
+          "maxKey": "+20",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 80,
+          "maxKey": "+22",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 49.7,
+          "maxKey": "+22",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270167,
+          "name": "Wavecaller's Seastone",
+          "popularity": 16.4,
+          "maxKey": "+22",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 250215,
+          "name": "Freightrunner's Flask",
+          "popularity": 12.7,
+          "maxKey": "+21",
+          "icon": "inv_alchemy_90_flask_red"
+        },
+        {
+          "itemId": 250214,
+          "name": "Lightspire Core",
+          "popularity": 12.3,
+          "maxKey": "+21",
+          "icon": "inv_enchant_essenceastrallarge"
+        },
+        {
+          "itemId": 273796,
+          "name": "Vile Vial of Volatile Venom",
+          "popularity": 3.6,
+          "maxKey": "+21",
+          "icon": "inv_121_trinket_dungeon_ulatek_vile"
+        },
+        {
+          "itemId": 274493,
+          "name": "Effigy of Ula'tek's Faithful",
+          "popularity": 3.2,
+          "maxKey": "+20",
+          "icon": "ability_fomor_boss_rune_green"
+        },
+        {
+          "itemId": 250255,
+          "name": "Unstable Felheart Crystal",
+          "popularity": 2.7,
+          "maxKey": "+21",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 2.2,
+          "maxKey": "+21",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
+          "itemId": 248583,
+          "name": "Drum of Renewed Bonds",
+          "popularity": 2,
+          "maxKey": "+21",
+          "icon": "inv_archaeology_70_tauren_drum"
+        },
+        {
+          "itemId": 193757,
+          "name": "Ruby Whelp Shell",
+          "popularity": 1.9,
+          "maxKey": "+21",
+          "icon": "inv_item_dragonegg_redbroken01"
+        },
+        {
           "itemId": 251792,
           "name": "Glorious Crusader's Keepsake",
-          "popularity": 4.5,
+          "popularity": 1.7,
           "maxKey": "+21",
           "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         }
@@ -176,65 +176,65 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 37.7,
+          "popularity": 40.3,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 250214,
           "name": "",
-          "popularity": 8.5,
+          "popularity": 8.2,
           "maxKey": "",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 6.8,
+          "popularity": 7.1,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 250215,
           "name": "",
-          "popularity": 3.6,
+          "popularity": 3.3,
           "maxKey": "",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
           "itemId": 250214,
           "name": "",
-          "popularity": 2.6,
+          "popularity": 2.5,
           "maxKey": "",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
-          "itemId": 249809,
-          "name": "",
-          "popularity": 2.5,
-          "maxKey": "",
-          "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
-        },
-        {
           "itemId": 250215,
           "name": "",
-          "popularity": 2.4,
+          "popularity": 2.5,
           "maxKey": "",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
-          "itemId": 251792,
-          "name": "",
-          "popularity": 2.3,
-          "maxKey": "",
-          "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
-        },
-        {
           "itemId": 270164,
           "name": "",
-          "popularity": 2.3,
+          "popularity": 2.4,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 249809,
+          "name": "",
+          "popularity": 2.2,
+          "maxKey": "",
+          "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
+        },
+        {
+          "itemId": 251792,
+          "name": "",
+          "popularity": 2.2,
+          "maxKey": "",
+          "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         },
         {
           "itemId": 270162,
@@ -246,100 +246,100 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 248583,
           "name": "",
-          "popularity": 2.1,
+          "popularity": 1.9,
           "maxKey": "",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
-          "itemId": 249343,
+          "itemId": 270162,
           "name": "",
-          "popularity": 1.2,
+          "popularity": 1.3,
           "maxKey": "",
-          "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 72.9,
+          "popularity": 74.3,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 51.3,
+          "popularity": 54.1,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 250214,
           "name": "Lightspire Core",
-          "popularity": 14.7,
+          "popularity": 13.9,
           "maxKey": "",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 12,
+          "popularity": 12.3,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 250215,
           "name": "Freightrunner's Flask",
-          "popularity": 9.5,
+          "popularity": 8.7,
           "maxKey": "",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
           "itemId": 249809,
           "name": "Locus-Walker's Ribbon",
-          "popularity": 5.6,
+          "popularity": 4.7,
           "maxKey": "",
           "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
         },
         {
           "itemId": 274493,
           "name": "Effigy of Ula'tek's Faithful",
-          "popularity": 4.8,
+          "popularity": 4.7,
           "maxKey": "",
           "icon": "ability_fomor_boss_rune_green"
         },
         {
           "itemId": 251792,
           "name": "Glorious Crusader's Keepsake",
-          "popularity": 4.7,
+          "popularity": 4.3,
           "maxKey": "",
           "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         },
         {
           "itemId": 248583,
           "name": "Drum of Renewed Bonds",
-          "popularity": 4.5,
+          "popularity": 4.3,
           "maxKey": "",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
           "itemId": 249343,
           "name": "Gaze of the Alnseer",
-          "popularity": 3.6,
+          "popularity": 3.1,
           "maxKey": "",
           "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
         },
         {
-          "itemId": 273796,
-          "name": "Vile Vial of Volatile Venom",
-          "popularity": 2.8,
-          "maxKey": "",
-          "icon": "inv_121_trinket_dungeon_ulatek_vile"
-        },
-        {
           "itemId": 270171,
           "name": "Preternatural Antivenom",
-          "popularity": 2.4,
+          "popularity": 2.7,
           "maxKey": "",
           "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
+          "itemId": 273796,
+          "name": "Vile Vial of Volatile Venom",
+          "popularity": 2.6,
+          "maxKey": "",
+          "icon": "inv_121_trinket_dungeon_ulatek_vile"
         }
       ]
     }
@@ -350,205 +350,205 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 5.5,
+          "popularity": 14.7,
           "maxKey": "+19",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 3.2,
+          "popularity": 11.6,
           "maxKey": "+20",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
-          "itemId": 250214,
+          "itemId": 270167,
           "name": "",
-          "popularity": 2.3,
-          "maxKey": "+18",
-          "icon": "inv_enchant_essenceastrallarge"
+          "popularity": 4.2,
+          "maxKey": "+19",
+          "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 250214,
           "name": "",
-          "popularity": 2.2,
-          "maxKey": "+16",
-          "icon": "inv_enchant_essenceastrallarge"
-        },
-        {
-          "itemId": 250214,
-          "name": "",
-          "popularity": 1.9,
+          "popularity": 3.4,
           "maxKey": "+18",
           "icon": "inv_enchant_essenceastrallarge"
-        },
-        {
-          "itemId": 250215,
-          "name": "",
-          "popularity": 1.8,
-          "maxKey": "+18",
-          "icon": "inv_alchemy_90_flask_red"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 1.5,
-          "maxKey": "+18",
-          "icon": "inv_10_tailoring_bag1_color2"
-        },
-        {
-          "itemId": 270167,
-          "name": "",
-          "popularity": 1.4,
+          "popularity": 2.5,
           "maxKey": "+19",
-          "icon": "inv_tradeskillitem_sorcererswater"
-        },
-        {
-          "itemId": 250215,
-          "name": "",
-          "popularity": 1.4,
-          "maxKey": "+16",
-          "icon": "inv_alchemy_90_flask_red"
+          "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 193757,
           "name": "",
-          "popularity": 1.1,
+          "popularity": 2.1,
           "maxKey": "+18",
           "icon": "inv_item_dragonegg_redbroken01"
         },
         {
-          "itemId": 250214,
+          "itemId": 250215,
           "name": "",
-          "popularity": 1.1,
+          "popularity": 2.1,
           "maxKey": "+18",
-          "icon": "inv_enchant_essenceastrallarge"
-        },
-        {
-          "itemId": 270167,
-          "name": "",
-          "popularity": 1,
-          "maxKey": "+18",
-          "icon": "inv_tradeskillitem_sorcererswater"
+          "icon": "inv_alchemy_90_flask_red"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 21.4,
+          "popularity": 2.1,
+          "maxKey": "+19",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 250215,
+          "name": "",
+          "popularity": 2,
+          "maxKey": "+18",
+          "icon": "inv_alchemy_90_flask_red"
+        },
+        {
+          "itemId": 250214,
+          "name": "",
+          "popularity": 2,
+          "maxKey": "+18",
+          "icon": "inv_enchant_essenceastrallarge"
+        },
+        {
+          "itemId": 246304,
+          "name": "",
+          "popularity": 2,
+          "maxKey": "+18",
+          "icon": "inv_12_profession_inscriptions_darkmoondominions_bloom"
+        },
+        {
+          "itemId": 250224,
+          "name": "",
+          "popularity": 1.7,
+          "maxKey": "+18",
+          "icon": "inv_icon_shadowcouncilorb_purple"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 49.2,
           "maxKey": "+20",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270167,
           "name": "",
-          "popularity": 17.4,
+          "popularity": 30.6,
           "maxKey": "+19",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
+          "itemId": 270164,
+          "name": "Gebbo's Bottomless Bag",
+          "popularity": 20.5,
+          "maxKey": "+20",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
           "itemId": 250214,
           "name": "Lightspire Core",
-          "popularity": 16.5,
+          "popularity": 14.8,
           "maxKey": "+18",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 250215,
           "name": "Freightrunner's Flask",
-          "popularity": 14,
+          "popularity": 10.1,
           "maxKey": "+18",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
           "itemId": 273796,
           "name": "Vile Vial of Volatile Venom",
-          "popularity": 12.1,
+          "popularity": 9.7,
           "maxKey": "+18",
           "icon": "inv_121_trinket_dungeon_ulatek_vile"
         },
         {
-          "itemId": 270164,
-          "name": "Gebbo's Bottomless Bag",
-          "popularity": 11.1,
-          "maxKey": "+20",
-          "icon": "inv_10_tailoring_bag1_color2"
+          "itemId": 270169,
+          "name": "Hex Lord's Dooming Idol",
+          "popularity": 9.1,
+          "maxKey": "+19",
+          "icon": "inv_archaeology_orcclans_crackedidol"
         },
         {
           "itemId": 193757,
           "name": "Ruby Whelp Shell",
-          "popularity": 7.6,
+          "popularity": 8.1,
           "maxKey": "+18",
           "icon": "inv_item_dragonegg_redbroken01"
         },
         {
-          "itemId": 251792,
-          "name": "Glorious Crusader's Keepsake",
-          "popularity": 6.4,
+          "itemId": 250248,
+          "name": "Mycolic Medicine",
+          "popularity": 3.3,
           "maxKey": "+17",
-          "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
+          "icon": "inv_misc_starspecklemushroom"
         },
         {
-          "itemId": 249343,
-          "name": "Gaze of the Alnseer",
-          "popularity": 5.8,
-          "maxKey": "+19",
-          "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
-        },
-        {
-          "itemId": 250256,
-          "name": "Heart of Wind",
-          "popularity": 5.7,
-          "maxKey": "+17",
-          "icon": "inv_10_jewelcrafting3_soulcage_air"
-        },
-        {
-          "itemId": 274493,
-          "name": "Effigy of Ula'tek's Faithful",
-          "popularity": 5.5,
-          "maxKey": "+19",
-          "icon": "ability_fomor_boss_rune_green"
+          "itemId": 250224,
+          "name": "Mindpiercer's Sigil",
+          "popularity": 3.1,
+          "maxKey": "+18",
+          "icon": "inv_icon_shadowcouncilorb_purple"
         },
         {
           "itemId": 273649,
           "name": "Stormbound Emblem of Dazar",
-          "popularity": 5.4,
+          "popularity": 3.1,
           "maxKey": "+17",
           "icon": "inv_7_0raid_necklace_14a"
+        },
+        {
+          "itemId": 248583,
+          "name": "Drum of Renewed Bonds",
+          "popularity": 3,
+          "maxKey": "+17",
+          "icon": "inv_archaeology_70_tauren_drum"
         }
       ],
       "raid": [
         {
           "itemId": 270167,
           "name": "",
-          "popularity": 23.5,
+          "popularity": 24.1,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 17.7,
+          "popularity": 19,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 8,
+          "popularity": 8.6,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 5.4,
+          "popularity": 5.8,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 3.6,
+          "popularity": 3.5,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
@@ -562,98 +562,98 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 2.7,
+          "popularity": 2.6,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 251792,
           "name": "",
-          "popularity": 2.5,
+          "popularity": 2,
           "maxKey": "",
           "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         },
         {
           "itemId": 250214,
           "name": "",
-          "popularity": 1.9,
+          "popularity": 1.8,
           "maxKey": "",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 248583,
           "name": "",
-          "popularity": 1.8,
+          "popularity": 1.6,
           "maxKey": "",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
           "itemId": 248583,
           "name": "",
-          "popularity": 1.8,
+          "popularity": 1.6,
           "maxKey": "",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
           "itemId": 251792,
           "name": "",
-          "popularity": 1.7,
+          "popularity": 1.5,
           "maxKey": "",
           "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         },
         {
           "itemId": 270167,
           "name": "",
-          "popularity": 57.9,
+          "popularity": 60,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 270169,
           "name": "Hex Lord's Dooming Idol",
-          "popularity": 40.1,
+          "popularity": 39.3,
           "maxKey": "",
           "icon": "inv_archaeology_orcclans_crackedidol"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 35.9,
+          "popularity": 37.2,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 20.1,
+          "popularity": 21.3,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 251792,
           "name": "Glorious Crusader's Keepsake",
-          "popularity": 10.2,
+          "popularity": 9.1,
           "maxKey": "",
           "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         },
         {
           "itemId": 248583,
           "name": "Drum of Renewed Bonds",
-          "popularity": 7.7,
+          "popularity": 6.9,
           "maxKey": "",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
           "itemId": 250214,
           "name": "Lightspire Core",
-          "popularity": 5.5,
+          "popularity": 5.2,
           "maxKey": "",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 250215,
           "name": "Freightrunner's Flask",
-          "popularity": 5.1,
+          "popularity": 5,
           "maxKey": "",
           "icon": "inv_alchemy_90_flask_red"
         },
@@ -665,25 +665,25 @@ window.ARCHON_HEALER_TRINKETS = {
           "icon": "ability_fomor_boss_rune_green"
         },
         {
+          "itemId": 249343,
+          "name": "Gaze of the Alnseer",
+          "popularity": 2.4,
+          "maxKey": "",
+          "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
+        },
+        {
           "itemId": 268292,
           "name": "Sporelord's Mycelial Insignia",
-          "popularity": 2.5,
+          "popularity": 2,
           "maxKey": "",
           "icon": "inv_1207_fungarianraid_trinket"
         },
         {
           "itemId": 193757,
           "name": "Ruby Whelp Shell",
-          "popularity": 2.5,
+          "popularity": 1.9,
           "maxKey": "",
           "icon": "inv_item_dragonegg_redbroken01"
-        },
-        {
-          "itemId": 249343,
-          "name": "Gaze of the Alnseer",
-          "popularity": 2.4,
-          "maxKey": "",
-          "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
         }
       ]
     },
@@ -692,63 +692,77 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 9.9,
+          "popularity": 25.9,
           "maxKey": "+21",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 4.6,
-          "maxKey": "+20",
+          "popularity": 13.1,
+          "maxKey": "+21",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 250214,
           "name": "",
-          "popularity": 4,
+          "popularity": 7.6,
           "maxKey": "+20",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
-          "itemId": 250214,
+          "itemId": 250215,
+          "name": "",
+          "popularity": 3.8,
+          "maxKey": "+19",
+          "icon": "inv_alchemy_90_flask_red"
+        },
+        {
+          "itemId": 270162,
           "name": "",
           "popularity": 2.8,
           "maxKey": "+19",
-          "icon": "inv_enchant_essenceastrallarge"
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 250215,
           "name": "",
-          "popularity": 2.4,
-          "maxKey": "+19",
-          "icon": "inv_alchemy_90_flask_red"
-        },
-        {
-          "itemId": 250215,
-          "name": "",
-          "popularity": 2.1,
+          "popularity": 2.5,
           "maxKey": "+19",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
           "itemId": 250214,
           "name": "",
-          "popularity": 1.4,
+          "popularity": 2.2,
           "maxKey": "+19",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 1.4,
-          "maxKey": "+18",
+          "popularity": 1.9,
+          "maxKey": "+19",
           "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 193757,
+          "name": "",
+          "popularity": 1.6,
+          "maxKey": "+19",
+          "icon": "inv_item_dragonegg_redbroken01"
+        },
+        {
+          "itemId": 250214,
+          "name": "",
+          "popularity": 1.6,
+          "maxKey": "+19",
+          "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 250215,
           "name": "",
-          "popularity": 1.4,
+          "popularity": 1.3,
           "maxKey": "+19",
           "icon": "inv_alchemy_90_flask_red"
         },
@@ -756,169 +770,155 @@ window.ARCHON_HEALER_TRINKETS = {
           "itemId": 270162,
           "name": "",
           "popularity": 1.3,
-          "maxKey": "+19",
+          "maxKey": "+18",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
-        },
-        {
-          "itemId": 193757,
-          "name": "",
-          "popularity": 1.2,
-          "maxKey": "+19",
-          "icon": "inv_item_dragonegg_redbroken01"
-        },
-        {
-          "itemId": 250214,
-          "name": "",
-          "popularity": 1.1,
-          "maxKey": "+19",
-          "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 33.6,
+          "popularity": 66,
           "maxKey": "+21",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 20.6,
+          "popularity": 36.5,
           "maxKey": "+21",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
+          "itemId": 270167,
+          "name": "Wavecaller's Seastone",
+          "popularity": 19.9,
+          "maxKey": "+21",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
           "itemId": 250214,
           "name": "Lightspire Core",
-          "popularity": 16.5,
+          "popularity": 16.3,
           "maxKey": "+20",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 250215,
           "name": "Freightrunner's Flask",
-          "popularity": 16.2,
+          "popularity": 13.3,
           "maxKey": "+19",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
-          "itemId": 270167,
-          "name": "Wavecaller's Seastone",
-          "popularity": 12.5,
-          "maxKey": "+20",
-          "icon": "inv_tradeskillitem_sorcererswater"
-        },
-        {
           "itemId": 273796,
           "name": "Vile Vial of Volatile Venom",
-          "popularity": 9.3,
+          "popularity": 5.9,
           "maxKey": "+19",
           "icon": "inv_121_trinket_dungeon_ulatek_vile"
         },
         {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 5.1,
+          "maxKey": "+20",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
           "itemId": 193757,
           "name": "Ruby Whelp Shell",
-          "popularity": 7.2,
+          "popularity": 3.6,
           "maxKey": "+20",
           "icon": "inv_item_dragonegg_redbroken01"
         },
         {
+          "itemId": 250255,
+          "name": "Unstable Felheart Crystal",
+          "popularity": 3,
+          "maxKey": "+19",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
           "itemId": 274493,
           "name": "Effigy of Ula'tek's Faithful",
-          "popularity": 6.4,
+          "popularity": 2.6,
           "maxKey": "+19",
           "icon": "ability_fomor_boss_rune_green"
         },
         {
+          "itemId": 270169,
+          "name": "Hex Lord's Dooming Idol",
+          "popularity": 2.5,
+          "maxKey": "+19",
+          "icon": "inv_archaeology_orcclans_crackedidol"
+        },
+        {
           "itemId": 250248,
           "name": "Mycolic Medicine",
-          "popularity": 5.5,
+          "popularity": 2.5,
           "maxKey": "+18",
           "icon": "inv_misc_starspecklemushroom"
-        },
-        {
-          "itemId": 248583,
-          "name": "Drum of Renewed Bonds",
-          "popularity": 5.1,
-          "maxKey": "+18",
-          "icon": "inv_archaeology_70_tauren_drum"
-        },
-        {
-          "itemId": 193748,
-          "name": "Kyrakka's Searing Embers",
-          "popularity": 4.8,
-          "maxKey": "+19",
-          "icon": "inv_10_dungeonjewelry_primalist_trinket_4_fire"
-        },
-        {
-          "itemId": 270171,
-          "name": "Preternatural Antivenom",
-          "popularity": 4.8,
-          "maxKey": "+20",
-          "icon": "inv_11_0_dungeon_tentaclevial_green"
         }
       ],
       "raid": [
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 30.9,
+          "popularity": 32.7,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 11.8,
+          "popularity": 12.1,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 250214,
           "name": "",
-          "popularity": 5.3,
+          "popularity": 5.1,
           "maxKey": "",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 4,
+          "popularity": 4.1,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 250215,
           "name": "",
-          "popularity": 3.1,
+          "popularity": 3,
           "maxKey": "",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 2.6,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
           "itemId": 268292,
           "name": "",
-          "popularity": 2.9,
+          "popularity": 2.6,
           "maxKey": "",
           "icon": "inv_1207_fungarianraid_trinket"
         },
         {
           "itemId": 248583,
           "name": "",
-          "popularity": 2.8,
+          "popularity": 2.6,
           "maxKey": "",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 2.7,
-          "maxKey": "",
-          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
-        },
-        {
-          "itemId": 270162,
-          "name": "",
-          "popularity": 1.9,
+          "popularity": 2.1,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
@@ -932,28 +932,28 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 251792,
           "name": "",
-          "popularity": 1.7,
+          "popularity": 1.6,
           "maxKey": "",
           "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         },
         {
           "itemId": 249809,
           "name": "",
-          "popularity": 1.6,
+          "popularity": 1.5,
           "maxKey": "",
           "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 70.4,
+          "popularity": 71.3,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 44.9,
+          "popularity": 46.6,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
@@ -967,63 +967,63 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 250214,
           "name": "Lightspire Core",
-          "popularity": 10.1,
+          "popularity": 9.7,
           "maxKey": "",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 250215,
           "name": "Freightrunner's Flask",
-          "popularity": 8.5,
+          "popularity": 8.2,
           "maxKey": "",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
           "itemId": 248583,
           "name": "Drum of Renewed Bonds",
-          "popularity": 6,
+          "popularity": 5.8,
           "maxKey": "",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
           "itemId": 274493,
           "name": "Effigy of Ula'tek's Faithful",
-          "popularity": 5.6,
+          "popularity": 5.5,
           "maxKey": "",
           "icon": "ability_fomor_boss_rune_green"
         },
         {
           "itemId": 268292,
           "name": "Sporelord's Mycelial Insignia",
-          "popularity": 5.5,
+          "popularity": 4.9,
           "maxKey": "",
           "icon": "inv_1207_fungarianraid_trinket"
         },
         {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 4.1,
+          "maxKey": "",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
           "itemId": 270169,
           "name": "Hex Lord's Dooming Idol",
-          "popularity": 4.3,
+          "popularity": 4.1,
           "maxKey": "",
           "icon": "inv_archaeology_orcclans_crackedidol"
         },
         {
           "itemId": 251792,
           "name": "Glorious Crusader's Keepsake",
-          "popularity": 4,
+          "popularity": 3.9,
           "maxKey": "",
           "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         },
         {
-          "itemId": 270171,
-          "name": "Preternatural Antivenom",
-          "popularity": 3.8,
-          "maxKey": "",
-          "icon": "inv_11_0_dungeon_tentaclevial_green"
-        },
-        {
           "itemId": 273796,
           "name": "Vile Vial of Volatile Venom",
-          "popularity": 3.5,
+          "popularity": 3.4,
           "maxKey": "",
           "icon": "inv_121_trinket_dungeon_ulatek_vile"
         }
@@ -1036,338 +1036,338 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 9.6,
+          "popularity": 23.9,
           "maxKey": "+21",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
-        },
-        {
-          "itemId": 270162,
-          "name": "",
-          "popularity": 4.4,
-          "maxKey": "+21",
-          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
-        },
-        {
-          "itemId": 250215,
-          "name": "",
-          "popularity": 4.3,
-          "maxKey": "+20",
-          "icon": "inv_alchemy_90_flask_red"
         },
         {
           "itemId": 250255,
           "name": "",
-          "popularity": 4.1,
+          "popularity": 22,
           "maxKey": "+22",
           "icon": "tooltip_crystallizedfel"
         },
         {
-          "itemId": 193757,
+          "itemId": 270162,
           "name": "",
-          "popularity": 2.8,
-          "maxKey": "+20",
-          "icon": "inv_item_dragonegg_redbroken01"
-        },
-        {
-          "itemId": 193757,
-          "name": "",
-          "popularity": 2.8,
-          "maxKey": "+20",
-          "icon": "inv_item_dragonegg_redbroken01"
+          "popularity": 8.6,
+          "maxKey": "+21",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 250215,
           "name": "",
-          "popularity": 2,
+          "popularity": 6.1,
           "maxKey": "+20",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
-          "itemId": 250215,
+          "itemId": 193757,
           "name": "",
-          "popularity": 1.5,
+          "popularity": 4.1,
           "maxKey": "+20",
-          "icon": "inv_alchemy_90_flask_red"
+          "icon": "inv_item_dragonegg_redbroken01"
+        },
+        {
+          "itemId": 250255,
+          "name": "",
+          "popularity": 2.5,
+          "maxKey": "+20",
+          "icon": "tooltip_crystallizedfel"
         },
         {
           "itemId": 248583,
           "name": "",
-          "popularity": 1.4,
+          "popularity": 2.3,
           "maxKey": "+20",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
-          "itemId": 270164,
+          "itemId": 250215,
+          "name": "",
+          "popularity": 1.7,
+          "maxKey": "+20",
+          "icon": "inv_alchemy_90_flask_red"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 1.7,
+          "maxKey": "+20",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 250215,
           "name": "",
           "popularity": 1.3,
           "maxKey": "+20",
-          "icon": "inv_10_tailoring_bag1_color2"
-        },
-        {
-          "itemId": 250215,
-          "name": "",
-          "popularity": 1.2,
-          "maxKey": "+20",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
-          "itemId": 250215,
+          "itemId": 250214,
           "name": "",
           "popularity": 1.1,
-          "maxKey": "+19",
-          "icon": "inv_alchemy_90_flask_red"
+          "maxKey": "+20",
+          "icon": "inv_enchant_essenceastrallarge"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 1.1,
+          "maxKey": "+21",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "Soulcoiler Ritual Vessel",
-          "popularity": 36.2,
+          "popularity": 77.5,
           "maxKey": "+22",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
-          "itemId": 250215,
-          "name": "Freightrunner's Flask",
-          "popularity": 20.3,
-          "maxKey": "+20",
-          "icon": "inv_alchemy_90_flask_red"
-        },
-        {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 19.6,
+          "popularity": 31.4,
           "maxKey": "+21",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
-          "itemId": 193757,
-          "name": "Ruby Whelp Shell",
-          "popularity": 13.4,
-          "maxKey": "+20",
-          "icon": "inv_item_dragonegg_redbroken01"
-        },
-        {
           "itemId": 250255,
           "name": "Unstable Felheart Crystal",
-          "popularity": 12.2,
+          "popularity": 28.8,
           "maxKey": "+22",
           "icon": "tooltip_crystallizedfel"
         },
         {
-          "itemId": 273796,
-          "name": "Vile Vial of Volatile Venom",
-          "popularity": 10.5,
+          "itemId": 250215,
+          "name": "Freightrunner's Flask",
+          "popularity": 12.8,
           "maxKey": "+20",
-          "icon": "inv_121_trinket_dungeon_ulatek_vile"
+          "icon": "inv_alchemy_90_flask_red"
         },
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 10.4,
+          "popularity": 11.8,
           "maxKey": "+21",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
+          "itemId": 193757,
+          "name": "Ruby Whelp Shell",
+          "popularity": 7.6,
+          "maxKey": "+20",
+          "icon": "inv_item_dragonegg_redbroken01"
+        },
+        {
+          "itemId": 273796,
+          "name": "Vile Vial of Volatile Venom",
+          "popularity": 3.5,
+          "maxKey": "+20",
+          "icon": "inv_121_trinket_dungeon_ulatek_vile"
+        },
+        {
           "itemId": 248583,
           "name": "Drum of Renewed Bonds",
-          "popularity": 6.7,
+          "popularity": 3.2,
           "maxKey": "+20",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 2.6,
+          "maxKey": "+20",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
           "itemId": 250214,
           "name": "Lightspire Core",
-          "popularity": 5.8,
+          "popularity": 2.1,
           "maxKey": "+20",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 274493,
           "name": "Effigy of Ula'tek's Faithful",
-          "popularity": 5.6,
+          "popularity": 2.1,
           "maxKey": "+21",
           "icon": "ability_fomor_boss_rune_green"
         },
         {
-          "itemId": 250248,
-          "name": "Mycolic Medicine",
-          "popularity": 5.6,
-          "maxKey": "+19",
-          "icon": "inv_misc_starspecklemushroom"
-        },
-        {
-          "itemId": 251792,
-          "name": "Glorious Crusader's Keepsake",
-          "popularity": 4.7,
+          "itemId": 250254,
+          "name": "Seed of Radiant Hope",
+          "popularity": 1.8,
           "maxKey": "+20",
-          "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
+          "icon": "inv12_jewelrytrinkets_dungeon_seedofradianthope"
         }
       ],
       "raid": [
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 33.7,
+          "popularity": 35.5,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 12,
+          "popularity": 12.7,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 250215,
           "name": "",
-          "popularity": 5.8,
+          "popularity": 5.5,
           "maxKey": "",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
           "itemId": 248583,
           "name": "",
-          "popularity": 4.5,
+          "popularity": 4.2,
           "maxKey": "",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
           "itemId": 251792,
           "name": "",
-          "popularity": 3.1,
+          "popularity": 2.9,
           "maxKey": "",
           "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         },
         {
-          "itemId": 264507,
-          "name": "",
-          "popularity": 2.9,
-          "maxKey": "",
-          "icon": "inv_112_raidtrinkets_etherealenergystoragebattery_gold"
-        },
-        {
           "itemId": 270164,
           "name": "",
-          "popularity": 2.7,
+          "popularity": 2.8,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 2.6,
+          "popularity": 2.8,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
+          "itemId": 264507,
+          "name": "",
+          "popularity": 2.6,
+          "maxKey": "",
+          "icon": "inv_112_raidtrinkets_etherealenergystoragebattery_gold"
+        },
+        {
           "itemId": 193757,
           "name": "",
-          "popularity": 2.4,
+          "popularity": 2.5,
           "maxKey": "",
           "icon": "inv_item_dragonegg_redbroken01"
         },
         {
           "itemId": 250215,
           "name": "",
-          "popularity": 2.2,
+          "popularity": 2.3,
           "maxKey": "",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 2,
+          "popularity": 1.9,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
-          "itemId": 270164,
+          "itemId": 248583,
           "name": "",
           "popularity": 1.4,
           "maxKey": "",
-          "icon": "inv_10_tailoring_bag1_color2"
+          "icon": "inv_archaeology_70_tauren_drum"
         },
         {
           "itemId": 270162,
           "name": "Soulcoiler Ritual Vessel",
-          "popularity": 74.8,
+          "popularity": 76.3,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 46.2,
+          "popularity": 47.9,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 18.8,
+          "popularity": 19.4,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 250215,
           "name": "Freightrunner's Flask",
-          "popularity": 12.6,
+          "popularity": 11.6,
           "maxKey": "",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
           "itemId": 248583,
           "name": "Drum of Renewed Bonds",
-          "popularity": 8.3,
+          "popularity": 7.7,
           "maxKey": "",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
           "itemId": 251792,
           "name": "Glorious Crusader's Keepsake",
-          "popularity": 5.7,
+          "popularity": 5.3,
           "maxKey": "",
           "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         },
         {
-          "itemId": 264507,
-          "name": "Crucible of Erratic Energies",
-          "popularity": 5,
-          "maxKey": "",
-          "icon": "inv_112_raidtrinkets_etherealenergystoragebattery_gold"
-        },
-        {
           "itemId": 270171,
           "name": "Preternatural Antivenom",
-          "popularity": 4.8,
+          "popularity": 5.2,
           "maxKey": "",
           "icon": "inv_11_0_dungeon_tentaclevial_green"
         },
         {
-          "itemId": 193757,
-          "name": "Ruby Whelp Shell",
-          "popularity": 4.2,
+          "itemId": 264507,
+          "name": "Crucible of Erratic Energies",
+          "popularity": 4.3,
           "maxKey": "",
-          "icon": "inv_item_dragonegg_redbroken01"
+          "icon": "inv_112_raidtrinkets_etherealenergystoragebattery_gold"
         },
         {
           "itemId": 274493,
           "name": "Effigy of Ula'tek's Faithful",
-          "popularity": 4.1,
+          "popularity": 4,
           "maxKey": "",
           "icon": "ability_fomor_boss_rune_green"
         },
         {
+          "itemId": 193757,
+          "name": "Ruby Whelp Shell",
+          "popularity": 3.9,
+          "maxKey": "",
+          "icon": "inv_item_dragonegg_redbroken01"
+        },
+        {
           "itemId": 273796,
           "name": "Vile Vial of Volatile Venom",
-          "popularity": 3.8,
+          "popularity": 3.5,
           "maxKey": "",
           "icon": "inv_121_trinket_dungeon_ulatek_vile"
         },
         {
           "itemId": 270169,
           "name": "Hex Lord's Dooming Idol",
-          "popularity": 2.1,
+          "popularity": 2,
           "maxKey": "",
           "icon": "inv_archaeology_orcclans_crackedidol"
         }
@@ -1380,37 +1380,65 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 8.1,
+          "popularity": 21.5,
           "maxKey": "+19",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 250214,
           "name": "",
-          "popularity": 4,
+          "popularity": 9.6,
           "maxKey": "+19",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 3.2,
+          "popularity": 6.9,
           "maxKey": "+19",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 250214,
           "name": "",
-          "popularity": 2.5,
+          "popularity": 4.1,
           "maxKey": "+19",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 2.1,
+          "popularity": 3.3,
           "maxKey": "+20",
           "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 250214,
+          "name": "",
+          "popularity": 2.7,
+          "maxKey": "+18",
+          "icon": "inv_enchant_essenceastrallarge"
+        },
+        {
+          "itemId": 250214,
+          "name": "",
+          "popularity": 2.3,
+          "maxKey": "+19",
+          "icon": "inv_enchant_essenceastrallarge"
+        },
+        {
+          "itemId": 250255,
+          "name": "",
+          "popularity": 2.1,
+          "maxKey": "+20",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 250214,
+          "name": "",
+          "popularity": 1.9,
+          "maxKey": "+18",
+          "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 250214,
@@ -1420,181 +1448,139 @@ window.ARCHON_HEALER_TRINKETS = {
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
-          "itemId": 249343,
+          "itemId": 270162,
           "name": "",
-          "popularity": 1.5,
-          "maxKey": "+16",
-          "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
-        },
-        {
-          "itemId": 250214,
-          "name": "",
-          "popularity": 1.4,
+          "popularity": 1.8,
           "maxKey": "+18",
-          "icon": "inv_enchant_essenceastrallarge"
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 249343,
           "name": "",
-          "popularity": 1.4,
+          "popularity": 1.3,
           "maxKey": "+19",
           "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
-        },
-        {
-          "itemId": 270167,
-          "name": "",
-          "popularity": 1.3,
-          "maxKey": "+18",
-          "icon": "inv_tradeskillitem_sorcererswater"
-        },
-        {
-          "itemId": 270164,
-          "name": "",
-          "popularity": 1.3,
-          "maxKey": "+16",
-          "icon": "inv_10_tailoring_bag1_color2"
-        },
-        {
-          "itemId": 250214,
-          "name": "",
-          "popularity": 1.3,
-          "maxKey": "+19",
-          "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 270162,
           "name": "Soulcoiler Ritual Vessel",
-          "popularity": 25.4,
+          "popularity": 50.2,
           "maxKey": "+19",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 21.1,
+          "popularity": 36.5,
           "maxKey": "+20",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 250214,
           "name": "Lightspire Core",
-          "popularity": 21,
+          "popularity": 28.6,
           "maxKey": "+19",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 12.9,
+          "popularity": 18.2,
           "maxKey": "+20",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
+          "itemId": 250255,
+          "name": "Unstable Felheart Crystal",
+          "popularity": 7.1,
+          "maxKey": "+20",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 270169,
+          "name": "Hex Lord's Dooming Idol",
+          "popularity": 6.7,
+          "maxKey": "+19",
+          "icon": "inv_archaeology_orcclans_crackedidol"
+        },
+        {
           "itemId": 273796,
           "name": "Vile Vial of Volatile Venom",
-          "popularity": 11.5,
+          "popularity": 6.6,
           "maxKey": "+18",
           "icon": "inv_121_trinket_dungeon_ulatek_vile"
         },
         {
+          "itemId": 248583,
+          "name": "Drum of Renewed Bonds",
+          "popularity": 4.2,
+          "maxKey": "+19",
+          "icon": "inv_archaeology_70_tauren_drum"
+        },
+        {
           "itemId": 249343,
           "name": "Gaze of the Alnseer",
-          "popularity": 9.7,
+          "popularity": 4.2,
           "maxKey": "+19",
           "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
         },
         {
-          "itemId": 250256,
-          "name": "Heart of Wind",
-          "popularity": 7.1,
-          "maxKey": "+17",
-          "icon": "inv_10_jewelcrafting3_soulcage_air"
+          "itemId": 250248,
+          "name": "Mycolic Medicine",
+          "popularity": 4.1,
+          "maxKey": "+18",
+          "icon": "inv_misc_starspecklemushroom"
         },
         {
           "itemId": 274493,
           "name": "Effigy of Ula'tek's Faithful",
-          "popularity": 6.7,
+          "popularity": 3.2,
           "maxKey": "+18",
           "icon": "ability_fomor_boss_rune_green"
         },
         {
           "itemId": 193757,
           "name": "Ruby Whelp Shell",
-          "popularity": 6.6,
+          "popularity": 2.8,
           "maxKey": "+19",
           "icon": "inv_item_dragonegg_redbroken01"
-        },
-        {
-          "itemId": 251792,
-          "name": "Glorious Crusader's Keepsake",
-          "popularity": 6.6,
-          "maxKey": "+18",
-          "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
-        },
-        {
-          "itemId": 248583,
-          "name": "Drum of Renewed Bonds",
-          "popularity": 6.4,
-          "maxKey": "+19",
-          "icon": "inv_archaeology_70_tauren_drum"
-        },
-        {
-          "itemId": 250248,
-          "name": "Mycolic Medicine",
-          "popularity": 6.2,
-          "maxKey": "+18",
-          "icon": "inv_misc_starspecklemushroom"
         }
       ],
       "raid": [
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 23.7,
+          "popularity": 24.3,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 7.2,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270167,
           "name": "",
-          "popularity": 6.8,
+          "popularity": 6.9,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
-          "itemId": 270162,
-          "name": "",
-          "popularity": 6.6,
-          "maxKey": "",
-          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
-        },
-        {
           "itemId": 270164,
           "name": "",
-          "popularity": 4.4,
+          "popularity": 4.9,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 250214,
           "name": "",
-          "popularity": 4.3,
+          "popularity": 4.6,
           "maxKey": "",
           "icon": "inv_enchant_essenceastrallarge"
-        },
-        {
-          "itemId": 250214,
-          "name": "",
-          "popularity": 3.6,
-          "maxKey": "",
-          "icon": "inv_enchant_essenceastrallarge"
-        },
-        {
-          "itemId": 249809,
-          "name": "",
-          "popularity": 3.6,
-          "maxKey": "",
-          "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
         },
         {
           "itemId": 248583,
@@ -1604,6 +1590,20 @@ window.ARCHON_HEALER_TRINKETS = {
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
+          "itemId": 250214,
+          "name": "",
+          "popularity": 3.4,
+          "maxKey": "",
+          "icon": "inv_enchant_essenceastrallarge"
+        },
+        {
+          "itemId": 249809,
+          "name": "",
+          "popularity": 3.3,
+          "maxKey": "",
+          "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
+        },
+        {
           "itemId": 248583,
           "name": "",
           "popularity": 2.8,
@@ -1611,44 +1611,44 @@ window.ARCHON_HEALER_TRINKETS = {
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
-          "itemId": 249809,
-          "name": "",
-          "popularity": 2.6,
-          "maxKey": "",
-          "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
-        },
-        {
           "itemId": 270162,
           "name": "",
-          "popularity": 2.3,
+          "popularity": 2.7,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 251792,
           "name": "",
-          "popularity": 2.3,
+          "popularity": 2.4,
           "maxKey": "",
           "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         },
         {
+          "itemId": 249809,
+          "name": "",
+          "popularity": 2.1,
+          "maxKey": "",
+          "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
+        },
+        {
           "itemId": 270162,
           "name": "Soulcoiler Ritual Vessel",
-          "popularity": 50.8,
+          "popularity": 52.6,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 48.5,
+          "popularity": 48.9,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 17.7,
+          "popularity": 19,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
@@ -1660,37 +1660,37 @@ window.ARCHON_HEALER_TRINKETS = {
           "icon": "inv_archaeology_orcclans_crackedidol"
         },
         {
-          "itemId": 249809,
-          "name": "Locus-Walker's Ribbon",
-          "popularity": 13.2,
-          "maxKey": "",
-          "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
-        },
-        {
           "itemId": 250214,
           "name": "Lightspire Core",
-          "popularity": 13,
+          "popularity": 12.5,
           "maxKey": "",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
+          "itemId": 249809,
+          "name": "Locus-Walker's Ribbon",
+          "popularity": 11.4,
+          "maxKey": "",
+          "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
+        },
+        {
           "itemId": 248583,
           "name": "Drum of Renewed Bonds",
-          "popularity": 11.3,
+          "popularity": 11,
           "maxKey": "",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
           "itemId": 251792,
           "name": "Glorious Crusader's Keepsake",
-          "popularity": 8.3,
+          "popularity": 8.1,
           "maxKey": "",
           "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         },
         {
           "itemId": 249343,
           "name": "Gaze of the Alnseer",
-          "popularity": 7.5,
+          "popularity": 6.7,
           "maxKey": "",
           "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
         },
@@ -1704,14 +1704,14 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 273796,
           "name": "Vile Vial of Volatile Venom",
-          "popularity": 2,
+          "popularity": 1.9,
           "maxKey": "",
           "icon": "inv_121_trinket_dungeon_ulatek_vile"
         },
         {
           "itemId": 193757,
           "name": "Ruby Whelp Shell",
-          "popularity": 1,
+          "popularity": 1.1,
           "maxKey": "",
           "icon": "inv_item_dragonegg_redbroken01"
         }
@@ -1724,214 +1724,207 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 11.1,
+          "popularity": 28.8,
           "maxKey": "+21",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 3.7,
+          "popularity": 8.9,
           "maxKey": "+20",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
+          "itemId": 250214,
+          "name": "",
+          "popularity": 4.9,
+          "maxKey": "+20",
+          "icon": "inv_enchant_essenceastrallarge"
+        },
+        {
+          "itemId": 249808,
+          "name": "",
+          "popularity": 4.5,
+          "maxKey": "+21",
+          "icon": "inv_12_trinket_raid_voidspire_healer2_litanyoflightblindwrath"
+        },
+        {
+          "itemId": 193757,
+          "name": "",
+          "popularity": 3,
+          "maxKey": "+21",
+          "icon": "inv_item_dragonegg_redbroken01"
+        },
+        {
           "itemId": 249343,
           "name": "",
-          "popularity": 2.2,
-          "maxKey": "+17",
+          "popularity": 1.9,
+          "maxKey": "+19",
           "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
         },
         {
           "itemId": 250248,
           "name": "",
-          "popularity": 2,
+          "popularity": 1.9,
           "maxKey": "+19",
           "icon": "inv_misc_starspecklemushroom"
         },
         {
-          "itemId": 250214,
+          "itemId": 249808,
           "name": "",
-          "popularity": 1.7,
-          "maxKey": "+20",
-          "icon": "inv_enchant_essenceastrallarge"
+          "popularity": 1.9,
+          "maxKey": "+19",
+          "icon": "inv_12_trinket_raid_voidspire_healer2_litanyoflightblindwrath"
         },
         {
-          "itemId": 270162,
+          "itemId": 270164,
           "name": "",
-          "popularity": 1.6,
-          "maxKey": "+18",
-          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+          "popularity": 1.8,
+          "maxKey": "+20",
+          "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 250215,
           "name": "",
-          "popularity": 1.4,
+          "popularity": 1.8,
           "maxKey": "+18",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
-          "itemId": 248583,
+          "itemId": 270162,
           "name": "",
-          "popularity": 1.3,
-          "maxKey": "+19",
-          "icon": "inv_archaeology_70_tauren_drum"
+          "popularity": 1.8,
+          "maxKey": "+18",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 251792,
           "name": "",
-          "popularity": 1.2,
+          "popularity": 1.7,
           "maxKey": "+20",
           "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         },
         {
-          "itemId": 249343,
-          "name": "",
-          "popularity": 1.1,
-          "maxKey": "+19",
-          "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
-        },
-        {
-          "itemId": 193757,
-          "name": "",
-          "popularity": 1.1,
-          "maxKey": "+20",
-          "icon": "inv_item_dragonegg_redbroken01"
-        },
-        {
-          "itemId": 270162,
-          "name": "",
-          "popularity": 1.1,
-          "maxKey": "+19",
-          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
-        },
-        {
           "itemId": 270162,
           "name": "Soulcoiler Ritual Vessel",
-          "popularity": 34,
+          "popularity": 68.4,
           "maxKey": "+21",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 19.9,
+          "popularity": 39.2,
           "maxKey": "+21",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
-          "itemId": 273796,
-          "name": "Vile Vial of Volatile Venom",
-          "popularity": 12.3,
-          "maxKey": "+19",
-          "icon": "inv_121_trinket_dungeon_ulatek_vile"
-        },
-        {
-          "itemId": 250215,
-          "name": "Freightrunner's Flask",
-          "popularity": 10.4,
-          "maxKey": "+20",
-          "icon": "inv_alchemy_90_flask_red"
-        },
-        {
-          "itemId": 249808,
-          "name": "Litany of Lightblind Wrath",
-          "popularity": 9.7,
-          "maxKey": "+21",
-          "icon": "inv_12_trinket_raid_voidspire_healer2_litanyoflightblindwrath"
-        },
-        {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 9.1,
+          "popularity": 13.9,
           "maxKey": "+20",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
-          "itemId": 250248,
-          "name": "Mycolic Medicine",
-          "popularity": 8.8,
-          "maxKey": "+19",
-          "icon": "inv_misc_starspecklemushroom"
+          "itemId": 249808,
+          "name": "Litany of Lightblind Wrath",
+          "popularity": 11.5,
+          "maxKey": "+21",
+          "icon": "inv_12_trinket_raid_voidspire_healer2_litanyoflightblindwrath"
         },
         {
           "itemId": 250214,
           "name": "Lightspire Core",
-          "popularity": 8.1,
+          "popularity": 10.3,
           "maxKey": "+20",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
-          "itemId": 249343,
-          "name": "Gaze of the Alnseer",
-          "popularity": 7,
-          "maxKey": "+19",
-          "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
+          "itemId": 250215,
+          "name": "Freightrunner's Flask",
+          "popularity": 7.5,
+          "maxKey": "+20",
+          "icon": "inv_alchemy_90_flask_red"
         },
         {
           "itemId": 193757,
           "name": "Ruby Whelp Shell",
-          "popularity": 6.8,
+          "popularity": 5.8,
           "maxKey": "+21",
           "icon": "inv_item_dragonegg_redbroken01"
         },
         {
-          "itemId": 250256,
-          "name": "Heart of Wind",
-          "popularity": 6.2,
-          "maxKey": "+17",
-          "icon": "inv_10_jewelcrafting3_soulcage_air"
+          "itemId": 273796,
+          "name": "Vile Vial of Volatile Venom",
+          "popularity": 5.6,
+          "maxKey": "+19",
+          "icon": "inv_121_trinket_dungeon_ulatek_vile"
         },
         {
-          "itemId": 248583,
-          "name": "Drum of Renewed Bonds",
-          "popularity": 6.1,
+          "itemId": 250255,
+          "name": "Unstable Felheart Crystal",
+          "popularity": 3.6,
+          "maxKey": "+20",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 251792,
+          "name": "Glorious Crusader's Keepsake",
+          "popularity": 3.4,
+          "maxKey": "+20",
+          "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
+        },
+        {
+          "itemId": 249343,
+          "name": "Gaze of the Alnseer",
+          "popularity": 3,
           "maxKey": "+19",
-          "icon": "inv_archaeology_70_tauren_drum"
+          "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
+        },
+        {
+          "itemId": 250248,
+          "name": "Mycolic Medicine",
+          "popularity": 2.9,
+          "maxKey": "+19",
+          "icon": "inv_misc_starspecklemushroom"
         }
       ],
       "raid": [
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 38.5,
+          "popularity": 40.6,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 7.8,
+          "popularity": 8.5,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 248583,
           "name": "",
-          "popularity": 5.1,
+          "popularity": 5,
           "maxKey": "",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
           "itemId": 251792,
           "name": "",
-          "popularity": 4.5,
+          "popularity": 4.2,
           "maxKey": "",
           "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 3.4,
+          "popularity": 3.3,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
-        },
-        {
-          "itemId": 250248,
-          "name": "",
-          "popularity": 2.9,
-          "maxKey": "",
-          "icon": "inv_misc_starspecklemushroom"
         },
         {
           "itemId": 270162,
@@ -1941,123 +1934,130 @@ window.ARCHON_HEALER_TRINKETS = {
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
-          "itemId": 268292,
+          "itemId": 250248,
           "name": "",
           "popularity": 2.6,
           "maxKey": "",
-          "icon": "inv_1207_fungarianraid_trinket"
+          "icon": "inv_misc_starspecklemushroom"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 2.1,
+          "popularity": 2.2,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
+          "itemId": 268292,
+          "name": "",
+          "popularity": 2,
+          "maxKey": "",
+          "icon": "inv_1207_fungarianraid_trinket"
+        },
+        {
           "itemId": 270164,
           "name": "",
-          "popularity": 1.8,
+          "popularity": 1.9,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
-          "itemId": 270167,
+          "itemId": 249343,
           "name": "",
-          "popularity": 1.5,
+          "popularity": 1.4,
           "maxKey": "",
-          "icon": "inv_tradeskillitem_sorcererswater"
+          "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
         },
         {
           "itemId": 250215,
           "name": "",
-          "popularity": 1.4,
+          "popularity": 1.3,
           "maxKey": "",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
           "itemId": 270162,
           "name": "Soulcoiler Ritual Vessel",
-          "popularity": 77.8,
+          "popularity": 78.9,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 48.7,
+          "popularity": 50.6,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 12.4,
+          "popularity": 13.2,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 248583,
           "name": "Drum of Renewed Bonds",
-          "popularity": 8.7,
+          "popularity": 8.4,
           "maxKey": "",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
           "itemId": 270169,
           "name": "Hex Lord's Dooming Idol",
-          "popularity": 7.7,
+          "popularity": 6.9,
           "maxKey": "",
           "icon": "inv_archaeology_orcclans_crackedidol"
         },
         {
           "itemId": 251792,
           "name": "Glorious Crusader's Keepsake",
-          "popularity": 6.7,
+          "popularity": 6.3,
           "maxKey": "",
           "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         },
         {
           "itemId": 270171,
           "name": "Preternatural Antivenom",
-          "popularity": 4.8,
+          "popularity": 5,
           "maxKey": "",
           "icon": "inv_11_0_dungeon_tentaclevial_green"
         },
         {
-          "itemId": 250215,
-          "name": "Freightrunner's Flask",
-          "popularity": 4.2,
-          "maxKey": "",
-          "icon": "inv_alchemy_90_flask_red"
-        },
-        {
-          "itemId": 268292,
-          "name": "Sporelord's Mycelial Insignia",
-          "popularity": 4.1,
-          "maxKey": "",
-          "icon": "inv_1207_fungarianraid_trinket"
-        },
-        {
-          "itemId": 249808,
-          "name": "Litany of Lightblind Wrath",
-          "popularity": 4,
-          "maxKey": "",
-          "icon": "inv_12_trinket_raid_voidspire_healer2_litanyoflightblindwrath"
-        },
-        {
           "itemId": 274493,
           "name": "Effigy of Ula'tek's Faithful",
-          "popularity": 3.8,
+          "popularity": 4.2,
           "maxKey": "",
           "icon": "ability_fomor_boss_rune_green"
         },
         {
-          "itemId": 250248,
-          "name": "Mycolic Medicine",
+          "itemId": 250215,
+          "name": "Freightrunner's Flask",
           "popularity": 3.8,
           "maxKey": "",
+          "icon": "inv_alchemy_90_flask_red"
+        },
+        {
+          "itemId": 249808,
+          "name": "Litany of Lightblind Wrath",
+          "popularity": 3.6,
+          "maxKey": "",
+          "icon": "inv_12_trinket_raid_voidspire_healer2_litanyoflightblindwrath"
+        },
+        {
+          "itemId": 250248,
+          "name": "Mycolic Medicine",
+          "popularity": 3.5,
+          "maxKey": "",
           "icon": "inv_misc_starspecklemushroom"
+        },
+        {
+          "itemId": 268292,
+          "name": "Sporelord's Mycelial Insignia",
+          "popularity": 3.3,
+          "maxKey": "",
+          "icon": "inv_1207_fungarianraid_trinket"
         }
       ]
     }
@@ -2068,319 +2068,312 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 12.3,
+          "popularity": 29.9,
           "maxKey": "+21",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 4.9,
+          "popularity": 11.4,
           "maxKey": "+21",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 250214,
           "name": "",
-          "popularity": 4.4,
+          "popularity": 7.6,
           "maxKey": "+20",
-          "icon": "inv_enchant_essenceastrallarge"
-        },
-        {
-          "itemId": 270164,
-          "name": "",
-          "popularity": 2.1,
-          "maxKey": "+19",
-          "icon": "inv_10_tailoring_bag1_color2"
-        },
-        {
-          "itemId": 250214,
-          "name": "",
-          "popularity": 1.8,
-          "maxKey": "+18",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 250215,
           "name": "",
-          "popularity": 1.6,
-          "maxKey": "+19",
-          "icon": "inv_alchemy_90_flask_red"
-        },
-        {
-          "itemId": 250214,
-          "name": "",
-          "popularity": 1.6,
-          "maxKey": "+19",
-          "icon": "inv_enchant_essenceastrallarge"
-        },
-        {
-          "itemId": 270162,
-          "name": "",
-          "popularity": 1.5,
-          "maxKey": "+19",
-          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
-        },
-        {
-          "itemId": 250215,
-          "name": "",
-          "popularity": 1.5,
+          "popularity": 3.7,
           "maxKey": "+20",
           "icon": "inv_alchemy_90_flask_red"
-        },
-        {
-          "itemId": 270162,
-          "name": "",
-          "popularity": 1.3,
-          "maxKey": "+19",
-          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 248583,
           "name": "",
-          "popularity": 1.2,
+          "popularity": 3.4,
           "maxKey": "+21",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 3.3,
+          "maxKey": "+19",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 250215,
+          "name": "",
+          "popularity": 2.7,
+          "maxKey": "+19",
+          "icon": "inv_alchemy_90_flask_red"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 1.9,
+          "maxKey": "+19",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
           "itemId": 251792,
           "name": "",
-          "popularity": 1,
+          "popularity": 1.8,
           "maxKey": "+19",
           "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         },
         {
+          "itemId": 250214,
+          "name": "",
+          "popularity": 1.4,
+          "maxKey": "+19",
+          "icon": "inv_enchant_essenceastrallarge"
+        },
+        {
+          "itemId": 250214,
+          "name": "",
+          "popularity": 1.1,
+          "maxKey": "+19",
+          "icon": "inv_enchant_essenceastrallarge"
+        },
+        {
+          "itemId": 250214,
+          "name": "",
+          "popularity": 1,
+          "maxKey": "+18",
+          "icon": "inv_enchant_essenceastrallarge"
+        },
+        {
           "itemId": 270162,
           "name": "Soulcoiler Ritual Vessel",
-          "popularity": 37.3,
+          "popularity": 70.6,
           "maxKey": "+21",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 24.8,
+          "popularity": 41.5,
           "maxKey": "+21",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
-          "itemId": 250214,
-          "name": "Lightspire Core",
-          "popularity": 15.1,
-          "maxKey": "+20",
-          "icon": "inv_enchant_essenceastrallarge"
-        },
-        {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 12.4,
+          "popularity": 17,
           "maxKey": "+21",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
+          "itemId": 250214,
+          "name": "Lightspire Core",
+          "popularity": 14.8,
+          "maxKey": "+20",
+          "icon": "inv_enchant_essenceastrallarge"
+        },
+        {
           "itemId": 250215,
           "name": "Freightrunner's Flask",
-          "popularity": 11.1,
+          "popularity": 10.4,
           "maxKey": "+20",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
-          "itemId": 273796,
-          "name": "Vile Vial of Volatile Venom",
-          "popularity": 7.4,
-          "maxKey": "+19",
-          "icon": "inv_121_trinket_dungeon_ulatek_vile"
-        },
-        {
-          "itemId": 274493,
-          "name": "Effigy of Ula'tek's Faithful",
-          "popularity": 7,
-          "maxKey": "+20",
-          "icon": "ability_fomor_boss_rune_green"
-        },
-        {
           "itemId": 248583,
           "name": "Drum of Renewed Bonds",
-          "popularity": 5.8,
+          "popularity": 4.6,
           "maxKey": "+21",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
-          "itemId": 193757,
-          "name": "Ruby Whelp Shell",
-          "popularity": 5.5,
-          "maxKey": "+18",
-          "icon": "inv_item_dragonegg_redbroken01"
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 4,
+          "maxKey": "+19",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
         },
         {
           "itemId": 251792,
           "name": "Glorious Crusader's Keepsake",
-          "popularity": 5.4,
+          "popularity": 3.3,
           "maxKey": "+19",
           "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
         },
         {
-          "itemId": 249343,
-          "name": "Gaze of the Alnseer",
-          "popularity": 5,
-          "maxKey": "+19",
-          "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
+          "itemId": 193757,
+          "name": "Ruby Whelp Shell",
+          "popularity": 3.2,
+          "maxKey": "+18",
+          "icon": "inv_item_dragonegg_redbroken01"
         },
         {
-          "itemId": 270171,
-          "name": "Preternatural Antivenom",
-          "popularity": 4.8,
+          "itemId": 273796,
+          "name": "Vile Vial of Volatile Venom",
+          "popularity": 2.7,
           "maxKey": "+19",
-          "icon": "inv_11_0_dungeon_tentaclevial_green"
+          "icon": "inv_121_trinket_dungeon_ulatek_vile"
+        },
+        {
+          "itemId": 250255,
+          "name": "Unstable Felheart Crystal",
+          "popularity": 2.5,
+          "maxKey": "+19",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 274493,
+          "name": "Effigy of Ula'tek's Faithful",
+          "popularity": 2.5,
+          "maxKey": "+20",
+          "icon": "ability_fomor_boss_rune_green"
         }
       ],
       "raid": [
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 35.6,
+          "popularity": 37.7,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 8.1,
+          "popularity": 8.3,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 250214,
           "name": "",
-          "popularity": 5.2,
+          "popularity": 5,
+          "maxKey": "",
+          "icon": "inv_enchant_essenceastrallarge"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 4.1,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 249809,
+          "name": "",
+          "popularity": 4,
+          "maxKey": "",
+          "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
+        },
+        {
+          "itemId": 248583,
+          "name": "",
+          "popularity": 2.5,
+          "maxKey": "",
+          "icon": "inv_archaeology_70_tauren_drum"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 2.1,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 250215,
+          "name": "",
+          "popularity": 2,
+          "maxKey": "",
+          "icon": "inv_alchemy_90_flask_red"
+        },
+        {
+          "itemId": 251792,
+          "name": "",
+          "popularity": 1.9,
+          "maxKey": "",
+          "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
+        },
+        {
+          "itemId": 250214,
+          "name": "",
+          "popularity": 1.9,
           "maxKey": "",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
           "itemId": 249809,
           "name": "",
-          "popularity": 4.5,
+          "popularity": 1.9,
           "maxKey": "",
           "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
         },
         {
-          "itemId": 270164,
-          "name": "",
-          "popularity": 3.8,
-          "maxKey": "",
-          "icon": "inv_10_tailoring_bag1_color2"
-        },
-        {
-          "itemId": 248583,
-          "name": "",
-          "popularity": 2.3,
-          "maxKey": "",
-          "icon": "inv_archaeology_70_tauren_drum"
-        },
-        {
           "itemId": 250215,
           "name": "",
-          "popularity": 2.2,
+          "popularity": 1.8,
           "maxKey": "",
           "icon": "inv_alchemy_90_flask_red"
         },
         {
           "itemId": 270162,
-          "name": "",
-          "popularity": 2.1,
-          "maxKey": "",
-          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
-        },
-        {
-          "itemId": 249809,
-          "name": "",
-          "popularity": 2.1,
-          "maxKey": "",
-          "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
-        },
-        {
-          "itemId": 250214,
-          "name": "",
-          "popularity": 2,
-          "maxKey": "",
-          "icon": "inv_enchant_essenceastrallarge"
-        },
-        {
-          "itemId": 251792,
-          "name": "",
-          "popularity": 2,
-          "maxKey": "",
-          "icon": "inv_12_trinket_gloriuscrusaderskeepsake"
-        },
-        {
-          "itemId": 249343,
-          "name": "",
-          "popularity": 1.7,
-          "maxKey": "",
-          "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
-        },
-        {
-          "itemId": 270162,
           "name": "Soulcoiler Ritual Vessel",
-          "popularity": 69.4,
+          "popularity": 70.5,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 50.5,
+          "popularity": 52.8,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 15.7,
+          "popularity": 15.9,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
-          "itemId": 249809,
-          "name": "Locus-Walker's Ribbon",
-          "popularity": 10.4,
-          "maxKey": "",
-          "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
-        },
-        {
           "itemId": 250214,
           "name": "Lightspire Core",
-          "popularity": 9.8,
+          "popularity": 9.1,
           "maxKey": "",
           "icon": "inv_enchant_essenceastrallarge"
         },
         {
-          "itemId": 250215,
-          "name": "Freightrunner's Flask",
-          "popularity": 7.2,
+          "itemId": 249809,
+          "name": "Locus-Walker's Ribbon",
+          "popularity": 9.1,
           "maxKey": "",
-          "icon": "inv_alchemy_90_flask_red"
+          "icon": "inv_12_trinket_raid_voidspire_int2_locuswalkerslastribbon"
         },
         {
           "itemId": 248583,
           "name": "Drum of Renewed Bonds",
-          "popularity": 7.1,
+          "popularity": 7.3,
           "maxKey": "",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
-          "itemId": 274493,
-          "name": "Effigy of Ula'tek's Faithful",
-          "popularity": 5.2,
+          "itemId": 250215,
+          "name": "Freightrunner's Flask",
+          "popularity": 6.8,
           "maxKey": "",
-          "icon": "ability_fomor_boss_rune_green"
+          "icon": "inv_alchemy_90_flask_red"
         },
         {
-          "itemId": 249343,
-          "name": "Gaze of the Alnseer",
-          "popularity": 4.4,
+          "itemId": 274493,
+          "name": "Effigy of Ula'tek's Faithful",
+          "popularity": 5.1,
           "maxKey": "",
-          "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
+          "icon": "ability_fomor_boss_rune_green"
         },
         {
           "itemId": 251792,
@@ -2392,14 +2385,21 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270171,
           "name": "Preternatural Antivenom",
-          "popularity": 3.4,
+          "popularity": 3.8,
           "maxKey": "",
           "icon": "inv_11_0_dungeon_tentaclevial_green"
         },
         {
+          "itemId": 249343,
+          "name": "Gaze of the Alnseer",
+          "popularity": 3.8,
+          "maxKey": "",
+          "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer"
+        },
+        {
           "itemId": 268292,
           "name": "Sporelord's Mycelial Insignia",
-          "popularity": 2.4,
+          "popularity": 2,
           "maxKey": "",
           "icon": "inv_1207_fungarianraid_trinket"
         }
