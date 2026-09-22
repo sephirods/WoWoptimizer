@@ -134,15 +134,16 @@ async function parseAndImportSimC() {
       }
     }
 
-    let activeHeaderText = text;
     const savedLoadoutIdx = text.indexOf('# Saved Loadout:');
     const gearBagsIdx = text.indexOf('# Gear from Bags');
     const vaultIdx = text.indexOf('Great Vault');
+    const weeklyVaultIdx = text.indexOf('Weekly Reward');
     const firstItemIdx = text.search(/^[a-z0-9_]+=,id=\d+/m);
     let cutoff = text.length;
     if (savedLoadoutIdx !== -1 && savedLoadoutIdx < cutoff) cutoff = savedLoadoutIdx;
     if (gearBagsIdx !== -1 && gearBagsIdx < cutoff) cutoff = gearBagsIdx;
     if (vaultIdx !== -1 && vaultIdx < cutoff) cutoff = vaultIdx;
+    if (weeklyVaultIdx !== -1 && weeklyVaultIdx < cutoff) cutoff = weeklyVaultIdx;
     if (firstItemIdx !== -1 && firstItemIdx < cutoff) cutoff = firstItemIdx;
     activeHeaderText = text.substring(0, cutoff).toLowerCase();
 
@@ -235,7 +236,13 @@ async function parseAndImportSimC() {
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
     
-    if (line.includes('Great Vault Options') || line.includes('Great Vault')) {
+    if (line.includes('End of Weekly Reward Choices') || line.includes('End of Great Vault')) {
+      inVault = false;
+      inBags = true;
+      continue;
+    }
+
+    if (line.includes('Great Vault Options') || line.includes('Great Vault') || line.includes('Weekly Reward Choices') || line.includes('Weekly Reward')) {
       inVault = true;
       inBags = true;
       continue;
