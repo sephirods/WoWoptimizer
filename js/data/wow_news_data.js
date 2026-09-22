@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30145886",
+      "postId": 30145886,
+      "topicId": 2336376,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-09-22T00:51:34.400Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Midnight Hotfixes - September 21",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - September 21"
+      },
+      "summary": {
+        "en": "September 21, 2026 \nClasses \n\nEvoker\n\nFixed an issue preventing Unravel from activating when Fire Breath was cast with Tip the Scales.\nFixed an issue where Unravel may not hit all ...",
+        "es": "September 21, 2026 \nClasses \n\nEvoker\n\nFixed an issue preventing Unravel from activating when Fire Breath was cast with Tip the Scales.\nFixed an issue where Unravel may not hit all ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 21, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>Evoker</strong>\n<ul>\n<li>Fixed an issue preventing Unravel from activating when Fire Breath was cast with Tip the Scales.</li>\n<li>Fixed an issue where Unravel may not hit all targets struck by Fire Breath.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li>Fixed an issue where following Lindormi’s Guidance in Den of Nalorakk and Altar of Fangs would lead to ending the dungeon short of the enemy forces requirement.</li>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>Fixed a rare issue where Toxic Deluge would fail to create Coalesced Venoms and Virulent Mutations.</li>\n<li>Fixed a rare issue where Fangs of the Crucible and Defilement of the Crucible would not create area denial on both halves of the platform.</li>\n<li>Resolved an issue where pets could engage Zul’jan during the roleplay.</li>\n</ul>\n</li>\n<li><strong>Ula’tek</strong>\n<ul>\n<li>[<em>With weekly restarts</em>] Ula’tek’s Stone Venom damage reduced by 40% on all difficulties.</li>\n<li>[<em>With weekly restarts</em>] Boiling Venom on Mythic difficulty is now an Important Aura.</li>\n<li>Fixed an issue where Stone Venom could fail to inflict damage to players far from Ula’tek.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 21, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>EVOCADOR</strong>\n<ul>\n<li>Fixed an issue preventing Unravel from activating when Fuego Breath was cast with Tip the Scales.</li>\n<li>Fixed an issue where Unravel may not hit all targets struck by Fuego Breath.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li>Fixed an issue where following Lindormi’s Guidance in Den of Nalorakk and Altar of Fangs would lead to ending the dungeon short of the enemy forces requirement.</li>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>Fixed a rare issue where Toxic Deluge would fail to create Coalesced Venoms and Virulent Mutations.</li>\n<li>Fixed a rare issue where Fangs of the Crucible and Defilement of the Crucible would not create area denial on both halves of the platform.</li>\n<li>Resolved an issue where pets could engage Zul’jan during the roleplay.</li>\n</ul>\n</li>\n<li><strong>Ula’tek</strong>\n<ul>\n<li>[<em>With weekly restarts</em>] Ula’tek’s Stone Venom daño reducido un 40% on all difficulties.</li>\n<li>[<em>With weekly restarts</em>] Boiling Venom on Mythic difficulty ahora es an Important Aura.</li>\n<li>Fixed an issue where Stone Venom could fail to inflict damage to players far from Ula’tek.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-september-21/2336376/141"
+    },
+    {
       "id": "blizz-30141670",
       "postId": 30141670,
       "topicId": 2354340,
@@ -183,8 +211,8 @@ window.WOW_NEWS_DATABASE = {
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - September 17",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - September 17"
+        "en": "World of Warcraft: Midnight Hotfixes - September 21",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - September 21"
       },
       "summary": {
         "en": "September 17, 2026 \nDungeons and Raids \n\nRuby Life Pools\n\nAddressed an issue where Blazebound Destroyers or Primalist Flamedancers could fail to contribute towards enemy forces if ...",
@@ -195,35 +223,7 @@ window.WOW_NEWS_DATABASE = {
         "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 17, 2026</strong></p>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>Ruby Life Pools</strong>\n<ul>\n<li>Addressed an issue where Blazebound Destroyers or Primalist Flamedancers could fail to contribute towards enemy forces if no player was on their threat table when they finished their death sequence.\n<ul>\n<li><em>Developers’ notes: A known side-effect of this change is that these creatures will no longer display their contribution towards enemy forces on their tooltip in the default UI.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>Fixed an issue where Unnerving Fixation was targeting tanks more often than intended.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li>Significantly increased PvP rating inflation for all rated PvP modes with emphasis on <em>Battleground Blitz, Rated Battlegrounds, and Rated 3v3 Arena</em>.\n<ul>\n<li><em>Developers’ notes: We’ve seen your feedback that achievable PvP ratings are not meeting expectations, so we’re applying a significant increase to PvP rating inflation starting now for all rated PvP modes with emphasis on Battleground Blitz, Rated Battlegrounds, and Rated 3v3 Arena. As with past changes to inflation, this adjustment is intended to improve progression as the season continues and support healthier ladder movement. We’ll continue monitoring rating distribution and make further adjustments as necessary. Thank you for your continued feedback and we’ll see you on the battlefield!</em></li>\n</ul>\n</li>\n<li>Font of Venomous Rage trinket daño reducido un 50% in PvP combat.</li>\n</ul></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-september-17/2336376/139"
-    },
-    {
-      "id": "blizz-30097031",
-      "postId": 30097031,
-      "topicId": 2352687,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-09-17T21:47:56.293Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW Forever Beta Known Issues - September 18",
-        "es": "WoW Forever Beta Problemas Conocidos - September 18"
-      },
-      "summary": {
-        "en": "We’re opening the WoW Forever Beta today with the following known issues. \nKnown Issues \nSeptember 18, 2026\n\nBarber Chairs cause a LUA error.\nCharacter friends in Beta disabled.\nTh...",
-        "es": "We’re opening the WoW Forever Beta today with the following Problemas Conocidos. \nProblemas Conocidos \nSeptember 18, 2026\n\nBarber Chairs cause a LUA error.\nCharacter friends in Bet..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re opening the WoW Forever Beta today with the following known issues.</p>\n<h2><a name=\"p-30097031-known-issues-september-18-2026-1\" class=\"anchor\" href=\"#p-30097031-known-issues-september-18-2026-1\" aria-label=\"Heading link\"></a>Known Issues<br>\nSeptember 18, 2026</h2>\n<ul>\n<li>Barber Chairs cause a LUA error.</li>\n<li>Character friends in Beta disabled.</li>\n<li>The minimap may be partially off the screen.</li>\n<li>Waylaid Crates do not function on items with a maximum stack size smaller than the quantity required. This is fixed in the next Beta build.</li>\n<li>Waylaid Crate: Apprentice Curiosities does not accept Greater Magic Essence, and incorrectly allows you to target Lesser Magic Essence. This is fixed in the next Beta build.</li>\n<li>Teldrassil - During the quest “Escaping Ban’ethil”, Sentinel Lynessa Duskblossom runs a bit too fast and spams her Strike ability. This is fixed in the next Beta build.</li>\n<li>Starshards (Night Elf Priest Racial) does not benefit from the Twilight Focus talent. This is fixed in the next Beta build.</li>\n<li>Vengeance (Retribution Paladin Talent) can activate off of periodic critical strikes. This is fixed in the next Beta build.</li>\n<li>Ranking up Holy Strike doesn’t feel great per rank. This is fixed in the next Beta build.</li>\n<li>Character pane does not display Level, Class or Titles (work in progress)</li>\n<li>Create Firestone Ranks 3 and 4 do not display the conjured item tooltip portion of these abilities. This is fixed in the next Beta build.</li>\n<li>Warlock pets do not display Mana as a resource on the character sheet, and do not mention the scaling from their master (work in progress).</li>\n<li>Warlock pets do not display the correct scaling for Health from Stamina on the character sheet (work in progress).</li>\n<li>Pet Hit chance for both Hunters and Warlocks do not display the master’s scaling coefficient (work in progress).</li>\n<li>Pet Expertise is not displayed for both Hunters and Warlocks (work in progress).</li>\n<li>Pet Movement Speed’s information on the character sheet is not displaying the correct base values in yards per second (work in progress).</li>\n<li>The Glancing Blow chance for casters is incorrect at all levels, and the damage reduction of a glancing blow is also incorrect (work in progress).</li>\n<li>The Glancing Blow damage reduction penalty for Melee is incorrect on targets that are higher level than themselves.\n<ul>\n<li>The chance a Glancing Blow occurs is correct for all levels for melee characters, and the damage reduction penalty for Glancing Blows for equal-level targets is correct. It is only the damage reduction penalty against higher level targets that is incorrect (work in progress).</li>\n</ul>\n</li>\n<li>Because of the above, the Glancing Blow chances displayed on the character sheet are not accurate (work in progress).</li>\n<li>You can open the Legacy System with the hotkey “Y” before reaching level 25.  Doing so results in LUA errors on tab 1 and 3.</li>\n<li>Player’s may find they are unable to sign guild charters. To alleviate this, we have temporarily made it possible to hand-in a guild charter with no signatures. (work in progress)</li>\n<li>Coldridge Valley does not reveal on the map when explored. This will be fixed in the next Beta build.</li>\n<li>\n<ul>\n<li>The Cooldown Manager is a work in progress. Complete implementation varies from class to class.</li>\n</ul>\n</li>\n<li>Armor bonuses from consumables and buffs are multiplied by Bear Form armor bonuses.</li>\n<li>Queueing an On-Next Attack ability (Heroic Strike/Cleave/Raptor Strike) disables your spell queue window.</li>\n<li>Taking damage while channeling Arcane Missiles will fire off a full damage bolt instead of a bolt with truncated damage.</li>\n<li>Resurrection sickness’s duration is not correct at lower levels.</li>\n</ul>\n<p>This post will be updated as issues are resolved and/or added to this list.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re opening the WoW Forever Beta today with the following known issues.</p>\n<h2><a name=\"p-30097031-known-issues-september-18-2026-1\" class=\"anchor\" href=\"#p-30097031-known-issues-september-18-2026-1\" aria-label=\"Heading link\"></a>Known Issues<br>\nSeptember 18, 2026</h2>\n<ul>\n<li>Barber Chairs cause a LUA error.</li>\n<li>Character friends in Beta disabled.</li>\n<li>The minimap may be partially off the screen.</li>\n<li>Waylaid Crates do not function on items with a maximum stack size smaller than the quantity required. This is fixed in the next Beta build.</li>\n<li>Waylaid Crate: Apprentice Curiosities does not accept Greater Magic Essence, and incorrectly allows you to target Lesser Magic Essence. This is fixed in the next Beta build.</li>\n<li>Teldrassil - During the quest “Escaping Ban’ethil”, Sentinel Lynessa Duskblossom runs a bit too fast and spams her Strike ability. This is fixed in the next Beta build.</li>\n<li>Starshards (Night Elf Priest Racial) does not benefit from the Twilight Focus talent. This is fixed in the next Beta build.</li>\n<li>Venganza (Reprensión Paladin Talent) can activate off of periodic critical strikes. This is fixed in the next Beta build.</li>\n<li>Ranking up Sagrado Strike doesn’t feel great per rank. This is fixed in the next Beta build.</li>\n<li>Character pane does not display Level, Class or Titles (work in progress)</li>\n<li>Create Firestone Ranks 3 and 4 do not display the conjured item tooltip portion of these abilities. This is fixed in the next Beta build.</li>\n<li>Warlock pets do not display Mana as a resource on the character sheet, and do not mention the scaling from their master (work in progress).</li>\n<li>Warlock pets do not display the correct scaling for Health from Stamina on the character sheet (work in progress).</li>\n<li>Pet Hit chance for both Hunters and Warlocks do not display the master’s scaling coefficient (work in progress).</li>\n<li>Pet Expertise is not displayed for both Hunters and Warlocks (work in progress).</li>\n<li>Pet Movement Speed’s information on the character sheet is not displaying the correct base values in yards per second (work in progress).</li>\n<li>The Glancing Blow chance for casters is incorrect at all levels, and the damage reduction of a glancing blow is also incorrect (work in progress).</li>\n<li>The Glancing Blow damage reduction penalty for Melee is incorrect on targets that are higher level than themselves.\n<ul>\n<li>The chance a Glancing Blow occurs is correct for all levels for melee characters, and the damage reduction penalty for Glancing Blows for equal-level targets is correct. It is only the damage reduction penalty against higher level targets that is incorrect (work in progress).</li>\n</ul>\n</li>\n<li>Because of the above, the Glancing Blow chances displayed on the character sheet are not accurate (work in progress).</li>\n<li>You can open the Legacy System with the hotkey “Y” before reaching level 25.  Doing so results in LUA errors on tab 1 and 3.</li>\n<li>Player’s may find they are unable to sign guild charters. To alleviate this, we have temporarily made it possible to hand-in a guild charter with no signatures. (work in progress)</li>\n<li>Coldridge Valley does not reveal on the map when explored. This will be fixed in the next Beta build.</li>\n<li>\n<ul>\n<li>The Cooldown Manager is a work in progress. Complete implementation varies from class to class.</li>\n</ul>\n</li>\n<li>Armor bonuses from consumables and buffs are multiplied by Bear Form armor bonuses.</li>\n<li>Queueing an On-Next Attack ability (Heroic Strike/Cleave/Raptor Strike) disables your spell queue window.</li>\n<li>Taking damage while channeling Arcano Missiles will fire off a full damage bolt instead of a bolt with truncated damage.</li>\n<li>Resurrection sickness’s duration is not correct at lower levels.</li>\n</ul>\n<p>This post will be updated as issues are resolved and/or added to this list.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-known-issues-september-18/2352687/1"
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-september-21/2336376/139"
     },
     {
       "id": "blizz-1231294",
@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/traza-un-nuevo-camino-con-world-of-warcraft-forever/80045/1"
     },
     {
+      "id": "blizz-6384247",
+      "postId": 6384247,
+      "topicId": 625785,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-09-22T00:52:21.612Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Midnight Hotfixes - 21 September",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - 21 September"
+      },
+      "summary": {
+        "en": "September 21, 2026 \nClasses \n\nEvoker\n\nFixed an issue preventing Unravel from activating when Fire Breath was cast with Tip the Scales.\nFixed an issue where Unravel may not hit all ...",
+        "es": "September 21, 2026 \nClasses \n\nEvoker\n\nFixed an issue preventing Unravel from activating when Fire Breath was cast with Tip the Scales.\nFixed an issue where Unravel may not hit all ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 21, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>Evoker</strong>\n<ul>\n<li>Fixed an issue preventing Unravel from activating when Fire Breath was cast with Tip the Scales.</li>\n<li>Fixed an issue where Unravel may not hit all targets struck by Fire Breath.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li>Fixed an issue where following Lindormi’s Guidance in Den of Nalorakk and Altar of Fangs would lead to ending the dungeon short of the enemy forces requirement.</li>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>Fixed a rare issue where Toxic Deluge would fail to create Coalesced Venoms and Virulent Mutations.</li>\n<li>Fixed a rare issue where Fangs of the Crucible and Defilement of the Crucible would not create area denial on both halves of the platform.</li>\n<li>Resolved an issue where pets could engage Zul’jan during the roleplay.</li>\n</ul>\n</li>\n<li><strong>Ula’tek</strong>\n<ul>\n<li>[<em>With weekly restarts</em>] Ula’tek’s Stone Venom damage reduced by 40% on all difficulties.</li>\n<li>[<em>With weekly restarts</em>] Boiling Venom on Mythic difficulty is now an Important Aura.</li>\n<li>Fixed an issue where Stone Venom could fail to inflict damage to players far from Ula’tek.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 21, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>EVOCADOR</strong>\n<ul>\n<li>Fixed an issue preventing Unravel from activating when Fuego Breath was cast with Tip the Scales.</li>\n<li>Fixed an issue where Unravel may not hit all targets struck by Fuego Breath.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li>Fixed an issue where following Lindormi’s Guidance in Den of Nalorakk and Altar of Fangs would lead to ending the dungeon short of the enemy forces requirement.</li>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>Fixed a rare issue where Toxic Deluge would fail to create Coalesced Venoms and Virulent Mutations.</li>\n<li>Fixed a rare issue where Fangs of the Crucible and Defilement of the Crucible would not create area denial on both halves of the platform.</li>\n<li>Resolved an issue where pets could engage Zul’jan during the roleplay.</li>\n</ul>\n</li>\n<li><strong>Ula’tek</strong>\n<ul>\n<li>[<em>With weekly restarts</em>] Ula’tek’s Stone Venom daño reducido un 40% on all difficulties.</li>\n<li>[<em>With weekly restarts</em>] Boiling Venom on Mythic difficulty ahora es an Important Aura.</li>\n<li>Fixed an issue where Stone Venom could fail to inflict damage to players far from Ula’tek.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-21-september/625785/36"
+    },
+    {
       "id": "blizz-6384048",
       "postId": 6384048,
       "topicId": 630568,
@@ -644,34 +672,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/class-tuning-incoming-22-september/629804/1"
-    },
-    {
-      "id": "blizz-6376966",
-      "postId": 6376966,
-      "topicId": 629711,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-18T17:00:08.433Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Blizzcon 2026, WoW Forever Beta, Midnight S3, and More in This Week’s Wow Weekly",
-        "es": "Blizzcon 2026, WoW Forever Beta, Midnight S3, and More in This Week’s Wow Weekly"
-      },
-      "summary": {
-        "en": "[Blizzcon 2026, WoW Forever Beta, Midnight S3, and More in This Week’s Wow Weekly] This week’s WoW Weekly roundup spotlights BlizzCon 2026 and the latest World of Warcraft announce...",
-        "es": "[Blizzcon 2026, WoW Forever Beta, Midnight S3, and More in This Week’s Wow Weekly] This week’s WoW Weekly roundup spotlights BlizzCon 2026 and the latest World of Warcraft announce..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1v/1V3Z6ASWNQ651789690733688.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1v/1V3Z6ASWNQ651789690733688.png\" alt=\"Blizzcon 2026, WoW Forever Beta, Midnight S3, and More in This Week’s Wow Weekly\" width=\"833\" height=\"468\"></a></p><p>This week’s WoW Weekly roundup spotlights BlizzCon 2026 and the latest World of Warcraft announcements, including World of Warcraft: Forever, answers to community questions from our modern WoW and WoW Forever live Q&amp;A, a peek at the Midnight Season 3 Dungeon pool, and more! </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304074\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1v/1V3Z6ASWNQ651789690733688.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1v/1V3Z6ASWNQ651789690733688.png\" alt=\"Blizzcon 2026, WoW Forever Beta, Midnight S3, and More in This Week’s Wow Weekly\" width=\"833\" height=\"468\"></a></p><p>This week’s WoW Weekly roundup spotlights BlizzCon 2026 and the latest World of Warcraft announcements, including World of Warcraft: Forever, answers to community questions from our modern WoW and WoW Forever live Q&amp;A, a peek at the Midnight Season 3 Dungeon pool, and more! </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304074\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/blizzcon-2026-wow-forever-beta-midnight-s3-and-more-in-this-week%E2%80%99s-wow-weekly/629711/1"
     }
   ],
   "blizzardNews": [
