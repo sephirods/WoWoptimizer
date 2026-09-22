@@ -140,12 +140,13 @@ function runOptimizer(isManualClick = false) {
   const allowVet = document.getElementById('track-vet')?.checked ?? true;
   const minIlvl = parseInt(document.getElementById('filter-min-ilvl')?.value) || 0;
   const simMaxIlvl = document.getElementById('toggle-max-ilvl')?.checked ?? false;
+  const simVaultAutoScale = document.getElementById('toggle-vault-auto-scale')?.checked ?? true;
   const simVenomstone = document.getElementById('toggle-venomstone')?.checked ?? false;
 
   const t0 = performance.now();
   let combinationsEvaluated = 0;
 
-  // Filter active items (and scale stats if toggle-max-ilvl or toggle-venomstone is active)
+  // Filter active items (and scale stats if toggle-max-ilvl, toggle-vault-auto-scale, or toggle-venomstone is active)
   const activeItems = (typeof items !== 'undefined' ? items : []).filter(it => {
     if (it.disabled) return false;
     if (!isItemUsableBySpec(it, currentClass, currentSpec)) return false;
@@ -157,11 +158,19 @@ function runOptimizer(isManualClick = false) {
     if ((track === 'vet' || track === 'crafted') && !allowVet) return false;
     return true;
   }).map(it => {
-    if (!simMaxIlvl && !simVenomstone) return it;
-
     const isCrafted = isItemCrafted(it);
     const canUseVenom = simVenomstone && isSlotEligibleForVenomstone(it.slot);
-    const targetIlvl = getMaxIlvlForTrack(it.track, it.ilvl, canUseVenom, isCrafted);
+    let targetIlvl = (simMaxIlvl || simVenomstone) ? getMaxIlvlForTrack(it.track, it.ilvl, canUseVenom, isCrafted) : (it.ilvl || 0);
+
+    if (!simMaxIlvl && !simVenomstone && simVaultAutoScale && it.isVault) {
+      const allItemsList = typeof items !== 'undefined' ? items : [];
+      const highestOwned = getHighestOwnedIlvlForSlot(it.slot, allItemsList);
+      const trackMax = getMaxIlvlForTrack(it.track, it.ilvl, false, isCrafted);
+      if (highestOwned > 0) {
+        targetIlvl = Math.max(it.ilvl || 0, Math.min(highestOwned, trackMax));
+      }
+    }
+
     if (targetIlvl > (it.ilvl || 0)) {
       const baseIlvl = it.baseIlvl || it.ilvl || 321;
       const baseM = (it.baseMastery !== undefined) ? it.baseMastery : (it.mastery || 0);
@@ -178,6 +187,7 @@ function runOptimizer(isManualClick = false) {
         vers: scaleStatByIlvl(baseV, baseIlvl, targetIlvl),
         isMaxScaled: !canUseVenom && simMaxIlvl,
         isVenomstoneScaled: canUseVenom,
+        isVaultScaled: !simMaxIlvl && !simVenomstone && simVaultAutoScale && !!it.isVault,
         originalIlvl: it.ilvl
       };
     }

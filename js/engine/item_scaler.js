@@ -287,3 +287,23 @@ function scaleStatByIlvl(baseStat, baseIlvl = 321, targetIlvl = 321) {
 function findKnownItemInfo(name, itemId) {
   return null;
 }
+
+function getHighestOwnedIlvlForSlot(slot, itemsList = []) {
+  if (!itemsList || itemsList.length === 0 || !slot) return 0;
+
+  const s = slot.toLowerCase();
+  const ownedInSlot = itemsList.filter(it => {
+    if (!it || it.disabled || it.isVault) return false;
+    const itSlot = (it.slot || '').toLowerCase();
+
+    if (s === 'finger' || s === 'ring') return itSlot === 'finger' || itSlot === 'ring';
+    if (s === 'trinket') return itSlot === 'trinket';
+    if (s === 'weapon_2h' || s === 'weapon_1h' || s === 'shield' || s === 'offhand') {
+      return itSlot === 'weapon_2h' || itSlot === 'weapon_1h' || itSlot === 'shield' || itSlot === 'offhand';
+    }
+    return itSlot === s;
+  });
+
+  if (ownedInSlot.length === 0) return 0;
+  return Math.max(...ownedInSlot.map(it => it.ilvl || 0));
+}
