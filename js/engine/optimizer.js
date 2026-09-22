@@ -402,22 +402,20 @@ function runOptimizer(isManualClick = false) {
       }]];
     }
     
+    const lockedInSlot = list.filter(x => x.locked);
+    if (lockedInSlot.length > 0) {
+      return lockedInSlot.map(it => [it]);
+    }
+
     if (tierSlots.has(s)) {
-      const tierItems = list.filter(x => x.tier).sort((a, b) => {
-        if (a.locked !== b.locked) return a.locked ? -1 : 1;
-        return scoreCandidate(b) - scoreCandidate(a);
-      });
-      const nonTierItems = list.filter(x => !x.tier).sort((a, b) => {
-        if (a.locked !== b.locked) return a.locked ? -1 : 1;
-        return scoreCandidate(b) - scoreCandidate(a);
-      });
+      const tierItems = list.filter(x => x.tier).sort((a, b) => scoreCandidate(b) - scoreCandidate(a));
+      const nonTierItems = list.filter(x => !x.tier).sort((a, b) => scoreCandidate(b) - scoreCandidate(a));
 
       let candidates = [...tierItems, ...nonTierItems];
       if (candidates.length === 0) candidates = list;
       return candidates.map(it => [it]);
     } else {
       list.sort((a, b) => {
-        if (a.locked !== b.locked) return a.locked ? -1 : 1;
         if (a.socket !== b.socket) return a.socket ? -1 : 1;
         return scoreCandidate(b) - scoreCandidate(a);
       });

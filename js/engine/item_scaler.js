@@ -15,41 +15,6 @@ const CLASS_ARMOR_TYPE = {
   priest: 'cloth'
 };
 
-const TIER_CLASS_RESTRICTIONS = {
-  'skulking viper': 'hunter',
-  'skyborne predator': 'hunter',
-  'flame-wreathed': 'hunter',
-  'consecrated flame': 'paladin',
-  'heartfire': 'paladin',
-  'zealot': 'paladin',
-  'risen sacrifice': 'deathknight',
-  'skullguard': 'deathknight',
-  'exhumed centurion': 'deathknight',
-  'ironbreaker': 'warrior',
-  'warscythe': 'warrior',
-  'molten vanguard': 'warrior',
-  'deepest wilds': 'druid',
-  'greatlynx': 'druid',
-  'deathstalker': 'rogue',
-  'spectral shadow': 'rogue',
-  'aldrachi': 'demonhunter',
-  'fel-scarred': 'demonhunter',
-  'stormbringer': 'shaman',
-  'totemic': 'shaman',
-  'farseer': 'shaman',
-  'weyrn': 'evoker',
-  'flameshaper': 'evoker',
-  'scalecommander': 'evoker',
-  'wayward chronomancer': 'mage',
-  'spellslinger': 'mage',
-  'arcane tempest': 'mage',
-  'diabolic': 'warlock',
-  'hexflame': 'warlock',
-  'hellcaller': 'warlock',
-  'virtuous sun': 'priest',
-  'benediction': 'priest'
-};
-
 function isRangedWeapon(name, it) {
   if (!name && !it?.name) return false;
   const n = (name || it?.name || '').toLowerCase();
@@ -146,13 +111,6 @@ function isItemUsableBySpec(it, cls, specId) {
 
   const ARMOR_SLOTS = ['head', 'shoulder', 'chest', 'wrist', 'hands', 'waist', 'legs', 'feet'];
   if (ARMOR_SLOTS.includes(it.slot)) {
-    const n = (it.name || '').toLowerCase();
-    for (const [tierKeyword, tierClass] of Object.entries(TIER_CLASS_RESTRICTIONS)) {
-      if (n.includes(tierKeyword)) {
-        if (cls !== tierClass) return false;
-      }
-    }
-
     const classArmor = CLASS_ARMOR_TYPE[cls];
     const itemArmor = it.armorType || (typeof metadataCache !== 'undefined' && it.itemId && metadataCache[it.itemId]?.armorType) || detectArmorTypeFromTooltipHtml('', it.name);
     if (classArmor && itemArmor && itemArmor !== classArmor) {
