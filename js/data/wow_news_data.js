@@ -534,34 +534,6 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/class-tuning-incoming-22-september/629804/31"
     },
     {
-      "id": "blizz-6383784",
-      "postId": 6383784,
-      "topicId": 630533,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-21T19:00:11.618Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Create a Name of Your Own in WoW: Forever",
-        "es": "Create a Name of Your Own in WoW: Forever"
-      },
-      "summary": {
-        "en": "[Create a Name of Your Own in WoW: Forever] In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With t...",
-        "es": "[Create a Name of Your Own in WoW: Forever] In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With t..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\" alt=\"Create a Name of Your Own in WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With the addition of two names, players have more room to create something personal while keeping each full name unique within a region. That means you may still be able to use the same first name as another character, but your complete two-name combination is unique to you. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304161\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\" alt=\"Create a Name of Your Own in WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With the addition of two names, players have more room to create something personal while keeping each full name unique within a region. That means you may still be able to use the same first name as another character, but your complete two-name combination is unique to you. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304161\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/create-a-name-of-your-own-in-wow-forever/630533/1"
-    },
-    {
       "id": "blizz-6383783",
       "postId": 6383783,
       "topicId": 630532,
@@ -672,6 +644,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/class-tuning-incoming-22-september/629804/1"
+    },
+    {
+      "id": "blizz-6376966",
+      "postId": 6376966,
+      "topicId": 629711,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-18T17:00:08.433Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Blizzcon 2026, WoW Forever Beta, Midnight S3, and More in This Week’s Wow Weekly",
+        "es": "Blizzcon 2026, WoW Forever Beta, Midnight S3, and More in This Week’s Wow Weekly"
+      },
+      "summary": {
+        "en": "[Blizzcon 2026, WoW Forever Beta, Midnight S3, and More in This Week’s Wow Weekly] This week’s WoW Weekly roundup spotlights BlizzCon 2026 and the latest World of Warcraft announce...",
+        "es": "[Blizzcon 2026, WoW Forever Beta, Midnight S3, and More in This Week’s Wow Weekly] This week’s WoW Weekly roundup spotlights BlizzCon 2026 and the latest World of Warcraft announce..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1v/1V3Z6ASWNQ651789690733688.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1v/1V3Z6ASWNQ651789690733688.png\" alt=\"Blizzcon 2026, WoW Forever Beta, Midnight S3, and More in This Week’s Wow Weekly\" width=\"833\" height=\"468\"></a></p><p>This week’s WoW Weekly roundup spotlights BlizzCon 2026 and the latest World of Warcraft announcements, including World of Warcraft: Forever, answers to community questions from our modern WoW and WoW Forever live Q&amp;A, a peek at the Midnight Season 3 Dungeon pool, and more! </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304074\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1v/1V3Z6ASWNQ651789690733688.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1v/1V3Z6ASWNQ651789690733688.png\" alt=\"Blizzcon 2026, WoW Forever Beta, Midnight S3, and More in This Week’s Wow Weekly\" width=\"833\" height=\"468\"></a></p><p>This week’s WoW Weekly roundup spotlights BlizzCon 2026 and the latest World of Warcraft announcements, including World of Warcraft: Forever, answers to community questions from our modern WoW and WoW Forever live Q&amp;A, a peek at the Midnight Season 3 Dungeon pool, and more! </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304074\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/blizzcon-2026-wow-forever-beta-midnight-s3-and-more-in-this-week%E2%80%99s-wow-weekly/629711/1"
     }
   ],
   "blizzardNews": [
