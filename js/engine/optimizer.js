@@ -241,20 +241,31 @@ function runOptimizer(isManualClick = false) {
   }
   if (weaponsCombos.length === 0) weaponsCombos = [[]];
 
+  const isSameUniqueItem = (a, b) => {
+    if (!a || !b) return false;
+    if (a.id && b.id && a.id === b.id) return true;
+    if (a.itemId && b.itemId && a.itemId === b.itemId) return true;
+    if (a.name && b.name && a.name.trim().toLowerCase() === b.name.trim().toLowerCase()) return true;
+    return false;
+  };
+
   // Rings
   const ringCombos = [];
   if (bySlot.finger.length === 1) {
-    ringCombos.push([bySlot.finger[0], bySlot.finger[0]]);
+    ringCombos.push([bySlot.finger[0]]);
   } else {
     for (let i = 0; i < bySlot.finger.length; i++) {
       for (let j = i + 1; j < bySlot.finger.length; j++) {
-        ringCombos.push([bySlot.finger[i], bySlot.finger[j]]);
+        if (!isSameUniqueItem(bySlot.finger[i], bySlot.finger[j])) {
+          ringCombos.push([bySlot.finger[i], bySlot.finger[j]]);
+        }
       }
     }
   }
+  if (ringCombos.length === 0 && bySlot.finger.length > 0) ringCombos.push([bySlot.finger[0]]);
   if (ringCombos.length === 0) ringCombos.push([]);
 
-  // Trinkets (Strict Bloodmallet DPS Ranking Priority)
+  // Trinkets (Strict Bloodmallet DPS Ranking Priority & Unique Item Validation)
   const useBloodmallet = document.getElementById('use-bloodmallet-scoring')?.checked ?? true;
   let trinketPool = [...bySlot.trinket];
   if (trinketPool.length > 1) {
@@ -271,27 +282,44 @@ function runOptimizer(isManualClick = false) {
 
   const trinketCombos = [];
   if (trinketPool.length === 1) {
-    trinketCombos.push([trinketPool[0], trinketPool[0]]);
+    trinketCombos.push([trinketPool[0]]);
   } else if (trinketPool.length >= 2) {
     const lockedTrinkets = trinketPool.filter(t => t.locked);
     if (lockedTrinkets.length >= 2) {
-      trinketCombos.push([lockedTrinkets[0], lockedTrinkets[1]]);
+      if (!isSameUniqueItem(lockedTrinkets[0], lockedTrinkets[1])) {
+        trinketCombos.push([lockedTrinkets[0], lockedTrinkets[1]]);
+      } else {
+        trinketCombos.push([lockedTrinkets[0]]);
+      }
     } else if (lockedTrinkets.length === 1) {
-      const others = trinketPool.filter(t => t.id !== lockedTrinkets[0].id);
-      others.forEach(oth => trinketCombos.push([lockedTrinkets[0], oth]));
+      const others = trinketPool.filter(t => !isSameUniqueItem(lockedTrinkets[0], t));
+      if (others.length > 0) {
+        others.forEach(oth => trinketCombos.push([lockedTrinkets[0], oth]));
+      } else {
+        trinketCombos.push([lockedTrinkets[0]]);
+      }
     } else if (useBloodmallet) {
-      trinketCombos.push([trinketPool[0], trinketPool[1]]);
-      if (trinketPool.length > 2) {
-        trinketCombos.push([trinketPool[0], trinketPool[2]]);
+      const t1 = trinketPool[0];
+      const validSeconds = trinketPool.slice(1).filter(t2 => !isSameUniqueItem(t1, t2));
+      if (validSeconds.length > 0) {
+        trinketCombos.push([t1, validSeconds[0]]);
+        if (validSeconds.length > 1) {
+          trinketCombos.push([t1, validSeconds[1]]);
+        }
+      } else {
+        trinketCombos.push([t1]);
       }
     } else {
       for (let i = 0; i < trinketPool.length; i++) {
         for (let j = i + 1; j < trinketPool.length; j++) {
-          trinketCombos.push([trinketPool[i], trinketPool[j]]);
+          if (!isSameUniqueItem(trinketPool[i], trinketPool[j])) {
+            trinketCombos.push([trinketPool[i], trinketPool[j]]);
+          }
         }
       }
     }
   }
+  if (trinketCombos.length === 0 && trinketPool.length > 0) trinketCombos.push([trinketPool[0]]);
   if (trinketCombos.length === 0) trinketCombos.push([]);
 
   // Item power scoring helper
@@ -395,8 +423,9 @@ function runOptimizer(isManualClick = false) {
   const topResults = [];
   const currentSelection = new Array(slotGroups.length);
 
-  function explore(depth, curCrit, curHaste, curMast, curVers, curTier) {
+  function explore(depth, curCrit, curHaste, curMast, curVers, curTier, curVault = 0) {
     if (combinationsEvaluated > 40000) return;
+    if (curVault > 1) return;
 
     if (depth === slotGroups.length) {
       combinationsEvaluated++;
@@ -479,7 +508,7 @@ function runOptimizer(isManualClick = false) {
       const choice = choices[i];
       currentSelection[depth] = choice;
 
-      let dCrit = 0, dHaste = 0, dMast = 0, dVers = 0, dTier = 0;
+      let dCrit = 0, dHaste = 0, dMast = 0, dVers = 0, dTier = 0, dVault = 0;
       for (let k = 0; k < choice.length; k++) {
         const it = choice[k];
         if (it) {
@@ -488,14 +517,17 @@ function runOptimizer(isManualClick = false) {
           dMast += (it.mastery || 0);
           dVers += (it.vers || 0);
           if (it.tier) dTier++;
+          if (it.isVault) dVault++;
         }
       }
 
-      explore(depth + 1, curCrit + dCrit, curHaste + dHaste, curMast + dMast, curVers + dVers, curTier + dTier);
+      if (curVault + dVault > 1) continue;
+
+      explore(depth + 1, curCrit + dCrit, curHaste + dHaste, curMast + dMast, curVers + dVers, curTier + dTier, curVault + dVault);
     }
   }
 
-  explore(0, 0, 0, 0, 0, 0);
+  explore(0, 0, 0, 0, 0, 0, 0);
 
   topResults.forEach(res => {
     res.gemData = calculateSmartGemRecommendations(
