@@ -2,6 +2,62 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30165841",
+      "postId": 30165841,
+      "topicId": 2359225,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-23T17:00:09.769Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Get to Know the World of Warcraft: Forever Legacy System",
+        "es": "Get to Know the World of Warcraft: Forever Legacy System"
+      },
+      "summary": {
+        "en": "[Get to Know the World of Warcraft: Forever Legacy System] Explore the Legacy System in World of Warcraft: Forever, an account-wide progression system that lets you complete challe...",
+        "es": "[Get to Know the World of Warcraft: Forever Legacy System] Explore the Legacy System in World of Warcraft: Forever, an account-wide progression system that lets you complete challe..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Get to Know the World of Warcraft: Forever Legacy System\" width=\"833\" height=\"468\"></a></p><p>Explore the Legacy System in World of Warcraft: Forever, an account-wide progression system that lets you complete challenges, earn Legacy Points, unlock character-specific perks, and collect cosmetic rewards as you adventure across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24307383\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Get to Know the World of Warcraft: Forever Legacy System\" width=\"833\" height=\"468\"></a></p><p>Explore the Legacy System in World of Warcraft: Forever, an account-wide progression system that lets you complete challenges, earn Legacy Points, unlock character-specific perks, and collect cosmetic rewards as you adventure across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24307383\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/get-to-know-the-world-of-warcraft-forever-legacy-system/2359225/1"
+    },
+    {
+      "id": "blizz-30165424",
+      "postId": 30165424,
+      "topicId": 2359185,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-09-23T16:29:31.854Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Auto-shoot Bug and Fix Incoming",
+        "es": "Auto-shoot Bug and Fix Próximamente"
+      },
+      "summary": {
+        "en": "We’ve been tracking an issue in the WoW Forever Beta where the 0.5-second cast time that precedes a Hunter’s auto-shot or the use of a wand is not functioning properly. \nDue to a b...",
+        "es": "We’ve been tracking an issue in the WoW Forever Beta where the 0.5-second cast time that precedes a Hunter’s auto-shot or the use of a wand is not functioning properly. \nDue to a b..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve been tracking an issue in the WoW Forever Beta where the 0.5-second cast time that precedes a Hunter’s auto-shot or the use of a wand is not functioning properly.</p>\n<p>Due to a bug, these auto-shots are currently incurring a much shorter cast time, which in practice means that Hunters and wand users don’t need to stop to shoot for as long as intended.</p>\n<p>This is something that we will fix in an upcoming Beta build, hopefully next week.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve been tracking an issue in the WoW Forever Beta where the 0.5-second cast time that precedes a Hunter’s auto-shot or the use of a wand is not functioning properly.</p>\n<p>Due to a bug, these auto-shots are currently incurring a much shorter cast time, which in practice means that Hunters and wand users don’t need to stop to shoot for as long as intended.</p>\n<p>This is something that we will fix in an upcoming Beta build, hopefully next week.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/auto-shoot-bug-and-fix-incoming/2359185/1"
+    },
+    {
       "id": "blizz-30159397",
       "postId": 30159397,
       "topicId": 2358655,
@@ -170,60 +226,60 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/class-tuning-incoming-september-22/2354340/107"
     },
     {
-      "id": "blizz-30141135",
-      "postId": 30141135,
-      "topicId": 2357133,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1231419",
+      "postId": 1231419,
+      "topicId": 80182,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-21T19:00:08.716Z",
+      "dateRaw": "2026-09-23T17:00:15.788Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Create a Name of Your Own in WoW: Forever",
-        "es": "Create a Name of Your Own in WoW: Forever"
+        "en": "Familiarízate con el sistema de legado de World of Warcraft: Forever",
+        "es": "Familiarízate con el sistema de legado de World of Warcraft: Forever"
       },
       "summary": {
-        "en": "[Create a Name of Your Own in WoW: Forever] In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With t...",
-        "es": "[Create a Name of Your Own in WoW: Forever] In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With t..."
+        "en": "[Familiarízate con el sistema de legado de World of Warcraft: Forever.] Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que t...",
+        "es": "[Familiarízate con el sistema de legado de World of Warcraft: Forever.] Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que t..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\" alt=\"Create a Name of Your Own in WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With the addition of two names, players have more room to create something personal while keeping each full name unique within a region. That means you may still be able to use the same first name as another character, but your complete two-name combination is unique to you. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24304161\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\" alt=\"Create a Name of Your Own in WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With the addition of two names, players have more room to create something personal while keeping each full name unique within a region. That means you may still be able to use the same first name as another character, but your complete two-name combination is unique to you. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24304161\">View Full Article</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Familiarízate con el sistema de legado de World of Warcraft: Forever.\" width=\"833\" height=\"468\"></a></p><p>Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que te permite completar desafíos, ganar puntos de legado, desbloquear ventajas específicas del personaje y conseguir recompensas cosméticas a lo largo de tu aventura por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307383\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Familiarízate con el sistema de legado de World of Warcraft: Forever.\" width=\"833\" height=\"468\"></a></p><p>Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que te permite completar desafíos, ganar puntos de legado, desbloquear ventajas específicas del personaje y conseguir recompensas cosméticas a lo largo de tu aventura por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307383\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/create-a-name-of-your-own-in-wow-forever/2357133/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/familiar%C3%ADzate-con-el-sistema-de-legado-de-world-of-warcraft-forever/80182/1"
     },
     {
-      "id": "blizz-30139646",
-      "postId": 30139646,
-      "topicId": 2357001,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1231418",
+      "postId": 1231418,
+      "topicId": 80181,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-21T17:00:08.758Z",
+      "dateRaw": "2026-09-23T17:00:13.931Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Choose Your Ruleset in World of Warcraft: Forever",
-        "es": "Choose Your Ruleset in World of Warcraft: Forever"
+        "en": "Familiarízate con el sistema de legado de World of Warcraft: Forever",
+        "es": "Familiarízate con el sistema de legado de World of Warcraft: Forever"
       },
       "summary": {
-        "en": "[Choose Your Ruleset in World of Warcraft: Forever] World of Warcraft: Forever is taking a new approach to where and how players begin their journey. Instead of choosing from a lon...",
-        "es": "[Choose Your Ruleset in World of Warcraft: Forever] World of Warcraft: Forever is taking a new approach to where and how players begin their journey. Instead of choosing from a lon..."
+        "en": "[Familiarízate con el sistema de legado de World of Warcraft: Forever.] Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que t...",
+        "es": "[Familiarízate con el sistema de legado de World of Warcraft: Forever.] Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que t..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1p/1PD2ZLVROZOB1789961389530.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1p/1PD2ZLVROZOB1789961389530.png\" alt=\"Choose Your Ruleset in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever is taking a new approach to where and how players begin their journey. Instead of choosing from a long list of realms, players will select a ruleset—Normal, PvP, Roleplaying, or Hardcore—that matches how they want to experience Azeroth. Each option operates as its own large ecosystem for grouping, dungeons, raids, and community, with Hardcore joining the available lineup sometime after launch. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302070\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1p/1PD2ZLVROZOB1789961389530.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1p/1PD2ZLVROZOB1789961389530.png\" alt=\"Choose Your Ruleset in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever is taking a new approach to where and how players begin their journey. Instead of choosing from a long list of realms, players will select a ruleset—Normal, PvP, Roleplaying, or Hardcore—that matches how they want to experience Azeroth. Each option operates as its own large ecosystem for grouping, dungeons, raids, and community, with Hardcore joining the available lineup sometime after launch. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302070\">View Full Article</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Familiarízate con el sistema de legado de World of Warcraft: Forever.\" width=\"833\" height=\"468\"></a></p><p>Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que te permite completar desafíos, ganar puntos de legado, desbloquear ventajas específicas del personaje y conseguir recompensas cosméticas a lo largo de tu aventura por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307383\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Familiarízate con el sistema de legado de World of Warcraft: Forever.\" width=\"833\" height=\"468\"></a></p><p>Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que te permite completar desafíos, ganar puntos de legado, desbloquear ventajas específicas del personaje y conseguir recompensas cosméticas a lo largo de tu aventura por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307383\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/choose-your-ruleset-in-world-of-warcraft-forever/2357001/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/familiar%C3%ADzate-con-el-sistema-de-legado-de-world-of-warcraft-forever/80181/1"
     },
     {
       "id": "blizz-1231360",
@@ -394,60 +450,60 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/la-beta-de-world-of-warcraft-forever-ya-est%C3%A1-disponible/80119/1"
     },
     {
-      "id": "blizz-1231009",
-      "postId": 1231009,
-      "topicId": 80112,
+      "id": "blizz-6388367",
+      "postId": 6388367,
+      "topicId": 630973,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-17T17:28:07.771Z",
+      "dateRaw": "2026-09-23T17:00:13.918Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Aquí tienes una vista previa de la reserva de mazmorras de la temporada 3 de Midnight",
-        "es": "Aquí tienes una vista previa de la reserva de mazmorras de la temporada 3 de Midnight"
+        "en": "Get to Know the World of Warcraft: Forever Legacy System",
+        "es": "Get to Know the World of Warcraft: Forever Legacy System"
       },
       "summary": {
-        "en": "[Aquí tienes una vista previa de la reserva de mazmorras de la temporada 3 de Midnight] Durante la mesa redonda «Midnight: Lo que nos depara el futuro» de la BlizzCon 2026, pudimos...",
-        "es": "[Aquí tienes una vista previa de la reserva de mazmorras de la temporada 3 de Midnight] Durante la mesa redonda «Midnight: Lo que nos depara el futuro» de la BlizzCon 2026, pudimos..."
+        "en": "[Get to Know the World of Warcraft: Forever Legacy System] Explore the Legacy System in World of Warcraft: Forever, an account-wide progression system that lets you complete challe...",
+        "es": "[Get to Know the World of Warcraft: Forever Legacy System] Explore the Legacy System in World of Warcraft: Forever, an account-wide progression system that lets you complete challe..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pv/PVC89FX3FR6J1789522731680.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pv/PVC89FX3FR6J1789522731680.png\" alt=\"Aquí tienes una vista previa de la reserva de mazmorras de la temporada 3 de Midnight\" width=\"833\" height=\"468\"></a></p><p>Durante la mesa redonda «Midnight: Lo que nos depara el futuro» de la BlizzCon 2026, pudimos echar un vistazo a la temporada 3 y a lo que está por llegar, incluidas las mazmorras de temporada. El equipo de desarrollo fue más allá y compartió más información sobre los cambios que tiene planeados para dichas mazmorras y los siguientes pasos que llegarán al Reino Público de Pruebas más adelante. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307305\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pv/PVC89FX3FR6J1789522731680.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pv/PVC89FX3FR6J1789522731680.png\" alt=\"Aquí tienes una vista previa de la reserva de mazmorras de la temporada 3 de Midnight\" width=\"833\" height=\"468\"></a></p><p>Durante la mesa redonda «Midnight: Lo que nos depara el futuro» de la BlizzCon 2026, pudimos echar un vistazo a la temporada 3 y a lo que está por llegar, incluidas las mazmorras de temporada. El equipo de desarrollo fue más allá y compartió más información sobre los cambios que tiene planeados para dichas mazmorras y los siguientes pasos que llegarán al Reino Público de Pruebas más adelante. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307305\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Get to Know the World of Warcraft: Forever Legacy System\" width=\"833\" height=\"468\"></a></p><p>Explore the Legacy System in World of Warcraft: Forever, an account-wide progression system that lets you complete challenges, earn Legacy Points, unlock character-specific perks, and collect cosmetic rewards as you adventure across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24307383\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Get to Know the World of Warcraft: Forever Legacy System\" width=\"833\" height=\"468\"></a></p><p>Explore the Legacy System in World of Warcraft: Forever, an account-wide progression system that lets you complete challenges, earn Legacy Points, unlock character-specific perks, and collect cosmetic rewards as you adventure across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24307383\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/aqu%C3%AD-tienes-una-vista-previa-de-la-reserva-de-mazmorras-de-la-temporada-3-de-midnight/80112/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/get-to-know-the-world-of-warcraft-forever-legacy-system/630973/1"
     },
     {
-      "id": "blizz-1231008",
-      "postId": 1231008,
-      "topicId": 80111,
+      "id": "blizz-6388307",
+      "postId": 6388307,
+      "topicId": 630969,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-17T17:28:06.862Z",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-09-23T16:29:39.256Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Aquí tienes una vista previa de la reserva de mazmorras de la temporada 3 de Midnight",
-        "es": "Aquí tienes una vista previa de la reserva de mazmorras de la temporada 3 de Midnight"
+        "en": "Auto-shoot Bug and Fix Incoming",
+        "es": "Auto-shoot Bug and Fix Próximamente"
       },
       "summary": {
-        "en": "[Aquí tienes una vista previa de la reserva de mazmorras de la temporada 3 de Midnight] Durante la mesa redonda «Midnight: Lo que nos depara el futuro» de la BlizzCon 2026, pudimos...",
-        "es": "[Aquí tienes una vista previa de la reserva de mazmorras de la temporada 3 de Midnight] Durante la mesa redonda «Midnight: Lo que nos depara el futuro» de la BlizzCon 2026, pudimos..."
+        "en": "We’ve been tracking an issue in the WoW Forever Beta where the 0.5-second cast time that precedes a Hunter’s auto-shot or the use of a wand is not functioning properly. \nDue to a b...",
+        "es": "We’ve been tracking an issue in the WoW Forever Beta where the 0.5-second cast time that precedes a Hunter’s auto-shot or the use of a wand is not functioning properly. \nDue to a b..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pv/PVC89FX3FR6J1789522731680.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pv/PVC89FX3FR6J1789522731680.png\" alt=\"Aquí tienes una vista previa de la reserva de mazmorras de la temporada 3 de Midnight\" width=\"833\" height=\"468\"></a></p><p>Durante la mesa redonda «Midnight: Lo que nos depara el futuro» de la BlizzCon 2026, pudimos echar un vistazo a la temporada 3 y a lo que está por llegar, incluidas las mazmorras de temporada. El equipo de desarrollo fue más allá y compartió más información sobre los cambios que tiene planeados para dichas mazmorras y los siguientes pasos que llegarán al Reino Público de Pruebas más adelante. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307305\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pv/PVC89FX3FR6J1789522731680.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pv/PVC89FX3FR6J1789522731680.png\" alt=\"Aquí tienes una vista previa de la reserva de mazmorras de la temporada 3 de Midnight\" width=\"833\" height=\"468\"></a></p><p>Durante la mesa redonda «Midnight: Lo que nos depara el futuro» de la BlizzCon 2026, pudimos echar un vistazo a la temporada 3 y a lo que está por llegar, incluidas las mazmorras de temporada. El equipo de desarrollo fue más allá y compartió más información sobre los cambios que tiene planeados para dichas mazmorras y los siguientes pasos que llegarán al Reino Público de Pruebas más adelante. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307305\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve been tracking an issue in the WoW Forever Beta where the 0.5-second cast time that precedes a Hunter’s auto-shot or the use of a wand is not functioning properly.</p>\n<p>Due to a bug, these auto-shots are currently incurring a much shorter cast time, which in practice means that Hunters and wand users don’t need to stop to shoot for as long as intended.</p>\n<p>This is something that we will fix in an upcoming Beta build, hopefully next week.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve been tracking an issue in the WoW Forever Beta where the 0.5-second cast time that precedes a Hunter’s auto-shot or the use of a wand is not functioning properly.</p>\n<p>Due to a bug, these auto-shots are currently incurring a much shorter cast time, which in practice means that Hunters and wand users don’t need to stop to shoot for as long as intended.</p>\n<p>This is something that we will fix in an upcoming Beta build, hopefully next week.</p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/aqu%C3%AD-tienes-una-vista-previa-de-la-reserva-de-mazmorras-de-la-temporada-3-de-midnight/80111/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/auto-shoot-bug-and-fix-incoming/630969/1"
     },
     {
       "id": "blizz-6386765",
@@ -616,62 +672,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/a-firm-response-hotfixed/630568/1"
-    },
-    {
-      "id": "blizz-6383873",
-      "postId": 6383873,
-      "topicId": 629804,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-09-21T19:41:57.419Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Class Tuning Incoming -- 22 September",
-        "es": "Ajustes de Balance de Clases Próximamente -- 22 September"
-      },
-      "summary": {
-        "en": "Made the following changes to the original post: \nDEATH KNIGHT \n\nBlood\n\nDeath Strike damage increased by 15%.\n\nDevelopers’ notes: We are making a small adjustment to the Death Stri...",
-        "es": "Made the following changes to the original post: \nDEATH KNIGHT \n\nBlood\n\nDeath Strike damage increased by 15%.\n\nDevelopers’ notes: We are making a small adjustment to the Death Stri..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Made the <code>following changes</code> to the original post:</p>\n<p><strong>DEATH KNIGHT</strong></p>\n<ul>\n<li><strong>Blood</strong>\n<ul>\n<li>Death Strike damage increased by <code>15%</code>.\n<ul>\n<li><em>Developers’ notes:</em> <em>We are making a small adjustment to the Death Strike damage increase. We are reducing the damage increase to 15%, down from 25% which will still be a buff in single target but will be closer to neutral in cleave priority damage which was the original intent of the changes.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>DEMON HUNTER</strong></p>\n<ul>\n<li><strong>Vengeance</strong>\n<ul>\n<li><strong>Aldrachi Reaver</strong>\n<ul>\n<li>Reaver’s Glaive damage increased by <code>25%</code>.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>WARRIOR</strong></p>\n<ul>\n<li><strong>Fury</strong>\n<ul>\n<li><strong>Mountain Thane</strong>\n<ul>\n<li>Lightning Strike damage increased by 50%. <code>Does not apply to PvP combat.</code></li>\n<li>Ground Current damage increased by 50%. <code>Does not apply to PvP combat.</code></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Protection</strong>\n<ul>\n<li><strong>Mountain Thane</strong>\n<ul>\n<li>Lightning Strike damage increased by 50%. <code>Does not apply to PvP combat.</code></li>\n<li>Ground Current damage increased by 50%. <code>Does not apply to PvP combat.</code></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Made the <code>following changes</code> to the original post:</p>\n<p><strong>CABALLERO DE LA MUERTE</strong></p>\n<ul>\n<li><strong>Sangre</strong>\n<ul>\n<li>Death Strike damage increased by <code>15%</code>.\n<ul>\n<li><em>Developers’ notes:</em> <em>We are making a small adjustment to the Death Strike damage increase. We are reducing the damage increase to 15%, down from 25% which will still be a buff in single target but will be closer to neutral in cleave priority damage which was the original intent of the changes.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>CAZADOR DE DEMONIOS</strong></p>\n<ul>\n<li><strong>Venganza</strong>\n<ul>\n<li><strong>Aldrachi Reaver</strong>\n<ul>\n<li>Reaver’s Glaive damage increased by <code>25%</code>.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>GUERRERO</strong></p>\n<ul>\n<li><strong>Furia</strong>\n<ul>\n<li><strong>Mountain Thane</strong>\n<ul>\n<li>Lightning Strike daño aumentado un 50%. <code>Does not apply to PvP combat.</code></li>\n<li>Ground Current daño aumentado un 50%. <code>Does not apply to PvP combat.</code></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Protección</strong>\n<ul>\n<li><strong>Mountain Thane</strong>\n<ul>\n<li>Lightning Strike daño aumentado un 50%. <code>Does not apply to PvP combat.</code></li>\n<li>Ground Current daño aumentado un 50%. <code>Does not apply to PvP combat.</code></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/class-tuning-incoming-22-september/629804/31"
-    },
-    {
-      "id": "blizz-6383783",
-      "postId": 6383783,
-      "topicId": 630532,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-21T19:00:09.434Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Create a Name of Your Own in WoW: Forever",
-        "es": "Create a Name of Your Own in WoW: Forever"
-      },
-      "summary": {
-        "en": "[Create a Name of Your Own in WoW: Forever] In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With t...",
-        "es": "[Create a Name of Your Own in WoW: Forever] In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With t..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\" alt=\"Create a Name of Your Own in WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With the addition of two names, players have more room to create something personal while keeping each full name unique within a region. That means you may still be able to use the same first name as another character, but your complete two-name combination is unique to you. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304161\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png\" alt=\"Create a Name of Your Own in WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>In World of Warcraft: Forever, every character name is an opportunity to express yourself and establish your identity in Azeroth. With the addition of two names, players have more room to create something personal while keeping each full name unique within a region. That means you may still be able to use the same first name as another character, but your complete two-name combination is unique to you. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304161\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/create-a-name-of-your-own-in-wow-forever/630532/1"
     }
   ],
   "blizzardNews": [
