@@ -9,10 +9,10 @@ window.ARCHON_PRESETS = {
         "v": 358
       },
       "mplus": {
-        "m": 419,
-        "c": 912,
-        "h": 1100,
-        "v": 664
+        "m": 416,
+        "c": 918,
+        "h": 1104,
+        "v": 665
       },
       "metaHeroTree": "sanlayn"
     },
@@ -24,9 +24,9 @@ window.ARCHON_PRESETS = {
         "v": 122
       },
       "mplus": {
-        "m": 1130,
-        "c": 1372,
-        "h": 450,
+        "m": 1134,
+        "c": 1367,
+        "h": 448,
         "v": 132
       },
       "metaHeroTree": "deathbringer"
@@ -39,10 +39,10 @@ window.ARCHON_PRESETS = {
         "v": 118
       },
       "mplus": {
-        "m": 1139,
-        "c": 1294,
+        "m": 1140,
+        "c": 1298,
         "h": 452,
-        "v": 118
+        "v": 120
       },
       "metaHeroTree": "sanlayn"
     }
@@ -56,9 +56,9 @@ window.ARCHON_PRESETS = {
         "v": 138
       },
       "mplus": {
-        "m": 1184,
-        "c": 1438,
-        "h": 262,
+        "m": 1193,
+        "c": 1448,
+        "h": 263,
         "v": 143
       },
       "metaHeroTree": "fel_scarred"
@@ -71,10 +71,10 @@ window.ARCHON_PRESETS = {
         "v": 314
       },
       "mplus": {
-        "m": 347,
-        "c": 908,
-        "h": 1248,
-        "v": 371
+        "m": 344,
+        "c": 909,
+        "h": 1253,
+        "v": 372
       },
       "metaHeroTree": "annihilator"
     }
@@ -88,9 +88,9 @@ window.ARCHON_PRESETS = {
         "v": 148
       },
       "mplus": {
-        "m": 1090,
-        "c": 773,
-        "h": 928,
+        "m": 1091,
+        "c": 764,
+        "h": 930,
         "v": 158
       },
       "metaHeroTree": "elunes_chosen"
@@ -103,9 +103,9 @@ window.ARCHON_PRESETS = {
         "v": 181
       },
       "mplus": {
-        "m": 1209,
-        "c": 767,
-        "h": 822,
+        "m": 1210,
+        "c": 770,
+        "h": 820,
         "v": 202
       },
       "metaHeroTree": "druid_of_the_claw"
@@ -118,10 +118,10 @@ window.ARCHON_PRESETS = {
         "v": 504
       },
       "mplus": {
-        "m": 366,
-        "c": 777,
-        "h": 1242,
-        "v": 475
+        "m": 368,
+        "c": 779,
+        "h": 1243,
+        "v": 476
       },
       "metaHeroTree": "elunes_chosen"
     },
@@ -133,10 +133,10 @@ window.ARCHON_PRESETS = {
         "v": 223
       },
       "mplus": {
-        "m": 1034,
+        "m": 1033,
         "c": 258,
-        "h": 1371,
-        "v": 277
+        "h": 1374,
+        "v": 278
       },
       "metaHeroTree": "wildstalker"
     }
@@ -150,10 +150,10 @@ window.ARCHON_PRESETS = {
         "v": 197
       },
       "mplus": {
-        "m": 816,
-        "c": 1218,
-        "h": 716,
-        "v": 186
+        "m": 819,
+        "c": 1219,
+        "h": 715,
+        "v": 187
       },
       "metaHeroTree": "scalecommander"
     },
@@ -165,10 +165,10 @@ window.ARCHON_PRESETS = {
         "v": 176
       },
       "mplus": {
-        "m": 339,
-        "c": 864,
-        "h": 1103,
-        "v": 418
+        "m": 338,
+        "c": 865,
+        "h": 1102,
+        "v": 422
       },
       "metaHeroTree": "flameshaper"
     },
@@ -180,10 +180,10 @@ window.ARCHON_PRESETS = {
         "v": 162
       },
       "mplus": {
-        "m": 1391,
-        "c": 924,
+        "m": 1426,
+        "c": 891,
         "h": 461,
-        "v": 145
+        "v": 146
       },
       "metaHeroTree": "chronowarden"
     }
@@ -197,10 +197,10 @@ window.ARCHON_PRESETS = {
         "v": 175
       },
       "mplus": {
-        "m": 1318,
-        "c": 1159,
-        "h": 281,
-        "v": 241
+        "m": 1322,
+        "c": 1163,
+        "h": 278,
+        "v": 243
       },
       "metaHeroTree": "packleader"
     },
@@ -212,10 +212,10 @@ window.ARCHON_PRESETS = {
         "v": 224
       },
       "mplus": {
-        "m": 1020,
-        "c": 1492,
-        "h": 267,
-        "v": 226
+        "m": 1049,
+        "c": 1509,
+        "h": 264,
+        "v": 227
       },
       "metaHeroTree": "sentinel"
     },
@@ -227,10 +227,10 @@ window.ARCHON_PRESETS = {
         "v": 118
       },
       "mplus": {
-        "m": 1275,
+        "m": 1276,
         "c": 873,
-        "h": 777,
-        "v": 134
+        "h": 780,
+        "v": 133
       },
       "metaHeroTree": "packleader"
     }
@@ -244,10 +244,10 @@ window.ARCHON_PRESETS = {
         "v": 606
       },
       "mplus": {
-        "m": 316,
-        "c": 781,
-        "h": 1003,
-        "v": 778
+        "m": 318,
+        "c": 782,
+        "h": 1002,
+        "v": 781
       },
       "metaHeroTree": "sunfury"
     },
@@ -259,10 +259,10 @@ window.ARCHON_PRESETS = {
         "v": 526
       },
       "mplus": {
-        "m": 870,
-        "c": 188,
-        "h": 1324,
-        "v": 436
+        "m": 871,
+        "c": 192,
+        "h": 1323,
+        "v": 475
       },
       "metaHeroTree": "sunfury"
     },
@@ -274,10 +274,10 @@ window.ARCHON_PRESETS = {
         "v": 283
       },
       "mplus": {
-        "m": 1076,
-        "c": 1076,
+        "m": 1079,
+        "c": 1077,
         "h": 659,
-        "v": 167
+        "v": 165
       },
       "metaHeroTree": "spellslinger"
     }
@@ -291,10 +291,10 @@ window.ARCHON_PRESETS = {
         "v": 776
       },
       "mplus": {
-        "m": 612,
-        "c": 1237,
-        "h": 202,
-        "v": 878
+        "m": 616,
+        "c": 1238,
+        "h": 201,
+        "v": 879
       },
       "metaHeroTree": "master_of_harmony"
     },
@@ -306,9 +306,9 @@ window.ARCHON_PRESETS = {
         "v": 345
       },
       "mplus": {
-        "m": 680,
-        "c": 634,
-        "h": 1328,
+        "m": 684,
+        "c": 630,
+        "h": 1330,
         "v": 278
       },
       "metaHeroTree": "conduit_of_the_celestials"
@@ -321,9 +321,9 @@ window.ARCHON_PRESETS = {
         "v": 135
       },
       "mplus": {
-        "m": 1195,
-        "c": 795,
-        "h": 883,
+        "m": 1199,
+        "c": 797,
+        "h": 882,
         "v": 155
       },
       "metaHeroTree": "conduit_of_the_celestials"
@@ -338,10 +338,10 @@ window.ARCHON_PRESETS = {
         "v": 209
       },
       "mplus": {
-        "m": 300,
-        "c": 778,
-        "h": 1140,
-        "v": 671
+        "m": 298,
+        "c": 779,
+        "h": 1141,
+        "v": 676
       },
       "metaHeroTree": "lightsmith"
     },
@@ -353,10 +353,10 @@ window.ARCHON_PRESETS = {
         "v": 261
       },
       "mplus": {
-        "m": 377,
-        "c": 1082,
-        "h": 1079,
-        "v": 287
+        "m": 375,
+        "c": 1085,
+        "h": 1080,
+        "v": 288
       },
       "metaHeroTree": "lightsmith"
     },
@@ -368,10 +368,10 @@ window.ARCHON_PRESETS = {
         "v": 115
       },
       "mplus": {
-        "m": 1098,
-        "c": 931,
-        "h": 870,
-        "v": 144
+        "m": 1101,
+        "c": 922,
+        "h": 871,
+        "v": 146
       },
       "metaHeroTree": "herald"
     }
@@ -386,9 +386,9 @@ window.ARCHON_PRESETS = {
       },
       "mplus": {
         "m": 772,
-        "c": 668,
+        "c": 705,
         "h": 1302,
-        "v": 184
+        "v": 181
       },
       "metaHeroTree": "oracle"
     },
@@ -402,7 +402,7 @@ window.ARCHON_PRESETS = {
       "mplus": {
         "m": 859,
         "c": 938,
-        "h": 1010,
+        "h": 1011,
         "v": 250
       },
       "metaHeroTree": "oracle"
@@ -415,8 +415,8 @@ window.ARCHON_PRESETS = {
         "v": 124
       },
       "mplus": {
-        "m": 1119,
-        "c": 769,
+        "m": 1120,
+        "c": 772,
         "h": 961,
         "v": 124
       },
@@ -432,10 +432,10 @@ window.ARCHON_PRESETS = {
         "v": 169
       },
       "mplus": {
-        "m": 682,
-        "c": 1287,
-        "h": 941,
-        "v": 190
+        "m": 689,
+        "c": 1289,
+        "h": 938,
+        "v": 191
       },
       "metaHeroTree": "fatebound"
     },
@@ -447,10 +447,10 @@ window.ARCHON_PRESETS = {
         "v": 474
       },
       "mplus": {
-        "m": 174,
-        "c": 1328,
-        "h": 927,
-        "v": 554
+        "m": 173,
+        "c": 1329,
+        "h": 925,
+        "v": 560
       },
       "metaHeroTree": "trickster"
     },
@@ -462,10 +462,10 @@ window.ARCHON_PRESETS = {
         "v": 435
       },
       "mplus": {
-        "m": 1240,
-        "c": 732,
-        "h": 717,
-        "v": 359
+        "m": 1239,
+        "c": 736,
+        "h": 715,
+        "v": 362
       },
       "metaHeroTree": "deathstalker"
     }
@@ -479,10 +479,10 @@ window.ARCHON_PRESETS = {
         "v": 151
       },
       "mplus": {
-        "m": 995,
-        "c": 1109,
-        "h": 681,
-        "v": 175
+        "m": 997,
+        "c": 1112,
+        "h": 680,
+        "v": 176
       },
       "metaHeroTree": "farseer"
     },
@@ -494,10 +494,10 @@ window.ARCHON_PRESETS = {
         "v": 135
       },
       "mplus": {
-        "m": 1132,
+        "m": 1133,
         "c": 717,
         "h": 937,
-        "v": 128
+        "v": 130
       },
       "metaHeroTree": "stormbringer"
     },
@@ -510,9 +510,9 @@ window.ARCHON_PRESETS = {
       },
       "mplus": {
         "m": 245,
-        "c": 1182,
+        "c": 1184,
         "h": 786,
-        "v": 653
+        "v": 656
       },
       "metaHeroTree": "totemic"
     }
@@ -526,9 +526,9 @@ window.ARCHON_PRESETS = {
         "v": 172
       },
       "mplus": {
-        "m": 499,
+        "m": 503,
         "c": 1022,
-        "h": 1199,
+        "h": 1201,
         "v": 180
       },
       "metaHeroTree": "soul_harvester"
@@ -541,8 +541,8 @@ window.ARCHON_PRESETS = {
         "v": 171
       },
       "mplus": {
-        "m": 671,
-        "c": 1180,
+        "m": 673,
+        "c": 1182,
         "h": 922,
         "v": 172
       },
@@ -556,10 +556,10 @@ window.ARCHON_PRESETS = {
         "v": 164
       },
       "mplus": {
-        "m": 738,
-        "c": 1031,
-        "h": 947,
-        "v": 166
+        "m": 742,
+        "c": 1032,
+        "h": 930,
+        "v": 163
       },
       "metaHeroTree": "diabolist"
     }
@@ -573,10 +573,10 @@ window.ARCHON_PRESETS = {
         "v": 118
       },
       "mplus": {
-        "m": 639,
-        "c": 1261,
-        "h": 981,
-        "v": 187
+        "m": 644,
+        "c": 1265,
+        "h": 982,
+        "v": 189
       },
       "metaHeroTree": "slayer"
     },
@@ -588,10 +588,10 @@ window.ARCHON_PRESETS = {
         "v": 168
       },
       "mplus": {
-        "m": 1131,
-        "c": 724,
+        "m": 1133,
+        "c": 727,
         "h": 1130,
-        "v": 189
+        "v": 190
       },
       "metaHeroTree": "slayer"
     },
@@ -603,8 +603,8 @@ window.ARCHON_PRESETS = {
         "v": 261
       },
       "mplus": {
-        "m": 415,
-        "c": 816,
+        "m": 417,
+        "c": 818,
         "h": 1259,
         "v": 305
       },
