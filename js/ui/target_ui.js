@@ -150,7 +150,7 @@ function applyCustomPreset(id) {
   showToast(appliedMsg, 'info');
 }
 
-function getSpecMetaHeroTree(className, specId) {
+function getSpecMetaHeroTree(className, specId, mode = (typeof currentContentMode !== 'undefined' ? currentContentMode : 'raid')) {
   if (window.ARCHON_PRESETS && window.ARCHON_PRESETS[className]) {
     const cp = window.ARCHON_PRESETS[className];
     const specData = cp[specId] || cp[`${specId}_${className}`] || cp[`${className}_${specId}`] ||
@@ -158,7 +158,17 @@ function getSpecMetaHeroTree(className, specId) {
                      (specId === 'holy' && (cp['holy_paladin'] || cp['holy_priest'])) ||
                      (specId === 'frost' && (cp['frost_dk'] || cp['frost_mage'])) ||
                      (specId === 'restoration' && (cp['restoration_druid'] || cp['restoration_shaman']));
-    if (specData && specData.metaHeroTree) return specData.metaHeroTree;
+    if (specData) {
+      if (mode && specData[mode] && specData[mode].metaHeroTree) {
+        return specData[mode].metaHeroTree;
+      }
+      if (typeof specData.metaHeroTree === 'object' && specData.metaHeroTree !== null) {
+        if (mode && specData.metaHeroTree[mode]) return specData.metaHeroTree[mode];
+      }
+      if (typeof specData.metaHeroTree === 'string') {
+        return specData.metaHeroTree;
+      }
+    }
   }
   return null;
 }
@@ -172,7 +182,7 @@ function applyHeroTree(treeId) {
 
   currentHeroTree = tree.id;
   if (typeof window !== 'undefined') window.currentHeroTree = currentHeroTree;
-  const metaTree = getSpecMetaHeroTree(currentClass, currentSpec);
+  const metaTree = getSpecMetaHeroTree(currentClass, currentSpec, currentContentMode);
   const isMeta = metaTree ? (tree.id === metaTree || metaTree.includes(tree.id) || tree.id.includes(metaTree)) : (tree === specData.heroTrees[0]);
 
   let activePreset = null;
@@ -220,7 +230,7 @@ function renderPresetsToolbar() {
   const classData = WOW_CLASSES[currentClass];
   const specData = classData?.specs.find(s => s.id === currentSpec);
   const customPresets = getUserCustomPresets().filter(p => p.className === currentClass && p.spec === currentSpec);
-  const metaTree = getSpecMetaHeroTree(currentClass, currentSpec);
+  const metaTree = getSpecMetaHeroTree(currentClass, currentSpec, currentContentMode);
 
   const modeButtons = `
     <div class="inline-flex rounded-lg p-0.5 bg-black/60 border border-wow-border/80 shadow-inner mr-1">
@@ -369,7 +379,7 @@ function applySpecConfig(specId, autoAdjustWeights = true) {
   if (!specData) return;
 
   currentSpec = specData.id;
-  const metaTree = getSpecMetaHeroTree(currentClass, specData.id);
+  const metaTree = getSpecMetaHeroTree(currentClass, specData.id, currentContentMode);
   currentHeroTree = metaTree || specData.heroTrees?.[0]?.id || null;
 
   let activePreset = null;

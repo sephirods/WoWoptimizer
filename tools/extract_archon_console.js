@@ -177,7 +177,11 @@
           if (rawHeroName.includes('herald')) rawHeroName = 'herald';
           if (rawHeroName.includes('rider')) rawHeroName = 'rider';
 
-          results[item.classKey][item.specKey].metaHeroTree = rawHeroName;
+          results[item.classKey][item.specKey][modeKey].metaHeroTree = rawHeroName;
+          if (!results[item.classKey][item.specKey].metaHeroTree || typeof results[item.classKey][item.specKey].metaHeroTree !== 'object') {
+            results[item.classKey][item.specKey].metaHeroTree = {};
+          }
+          results[item.classKey][item.specKey].metaHeroTree[modeKey] = rawHeroName;
         }
       } catch (err) {
         console.warn(`   ❌ Error en ${item.specKey} (${modeKey}):`, err.message);

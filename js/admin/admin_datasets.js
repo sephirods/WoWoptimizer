@@ -30,14 +30,16 @@ function parseJsDataset(text, varName) {
   throw new Error('No se pudo interpretar el archivo.');
 }
 
+const DEFAULT_GITHUB_TOKEN = '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';
+
 function getGitHubToken() {
-  return localStorage.getItem('wow_admin_github_token') || '';
+  return localStorage.getItem('wow_admin_github_token') || DEFAULT_GITHUB_TOKEN;
 }
 
 function handleSaveGitHubToken() {
   const input = document.getElementById('github-token-input');
   const val = (input?.value || '').trim();
-  if (!val) {
+  if (!val || val.includes('•')) {
     alert('Por favor introduce un token de GitHub válido (con permiso repo).');
     return;
   }

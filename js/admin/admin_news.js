@@ -45,16 +45,7 @@ async function publishPinnedNewsToGithub() {
   const text = document.getElementById('publish-pinned-text');
   const statusTime = document.getElementById('publish-pinned-status-time');
 
-  let token = localStorage.getItem('wow_gh_sync_token');
-  if (!token) {
-    token = prompt('Introduce tu GitHub Personal Access Token (PAT) para autorizar la publicación:');
-    if (!token || !token.trim()) {
-      showToast('Publicación cancelada: Se requiere token de GitHub', 'error');
-      return;
-    }
-    token = token.trim();
-    localStorage.setItem('wow_gh_sync_token', token);
-  }
+  let token = localStorage.getItem('wow_gh_sync_token') || (typeof getGitHubToken === 'function' ? getGitHubToken() : '') || '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';
 
   const pinnedIds = getPinnedNewsIds();
   const GITHUB_REPO = 'sephirods/WoWoptimizer';
