@@ -30,7 +30,7 @@ function parseJsDataset(text, varName) {
   throw new Error('No se pudo interpretar el archivo.');
 }
 
-const DEFAULT_GITHUB_TOKEN = atob('Z2l0aHViX3BhdF8xMUFYWFVGNlkwQUJWU3lOV2JuczJLX0lnNnNITGdGdUhmQUhxYmVnTzZ1dGV2TEpqeUhYQWpTUm53SUhWQk0yOE5XVTQ0Q0k2RlN5REpDR3lu');
+const DEFAULT_GITHUB_TOKEN = atob('Z2hwX0Z1N0tTMmVGaXA4cEVtMXBZMUlLZWI1azlIQ2FqczByaWNrMw==');
 
 function getGitHubToken() {
   return localStorage.getItem('wow_admin_github_token') || DEFAULT_GITHUB_TOKEN;

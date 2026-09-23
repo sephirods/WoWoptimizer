@@ -45,7 +45,7 @@ async function publishPinnedNewsToGithub() {
   const text = document.getElementById('publish-pinned-text');
   const statusTime = document.getElementById('publish-pinned-status-time');
 
-  let token = localStorage.getItem('wow_gh_sync_token') || (typeof getGitHubToken === 'function' ? getGitHubToken() : '') || atob('Z2l0aHViX3BhdF8xMUFYWFVGNlkwQUJWU3lOV2JuczJLX0lnNnNITGdGdUhmQUhxYmVnTzZ1dGV2TEpqeUhYQWpTUm53SUhWQk0yOE5XVTQ0Q0k2RlN5REpDR3lu');
+  let token = localStorage.getItem('wow_gh_sync_token') || (typeof getGitHubToken === 'function' ? getGitHubToken() : '') || atob('Z2hwX0Z1N0tTMmVGaXA4cEVtMXBZMUlLZWI1azlIQ2FqczByaWNrMw==');
 
   const pinnedIds = getPinnedNewsIds();
   const GITHUB_REPO = 'sephirods/WoWoptimizer';
