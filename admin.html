@@ -155,35 +155,23 @@
         </div>
 
         <!-- GITHUB INTEGRATION & GLOBAL DEPLOYMENT CARD -->
-        <div class="bg-wow-card border border-amber-500/40 rounded-2xl p-5 shadow-xl space-y-3">
+        <div class="bg-wow-card border border-emerald-500/40 rounded-2xl p-5 shadow-xl">
           <div class="flex items-center justify-between flex-wrap gap-3">
             <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-xl bg-slate-900 border border-amber-400/50 flex items-center justify-center text-amber-400 text-xl shadow">
+              <div class="w-10 h-10 rounded-xl bg-slate-900 border border-emerald-400/50 flex items-center justify-center text-emerald-400 text-xl shadow">
                 <i class="fa-brands fa-github"></i>
               </div>
               <div>
                 <div class="flex items-center gap-2 flex-wrap">
-                  <h3 class="text-sm font-bold text-white">Sincronización Global con GitHub (Wasmer Deploy)</h3>
-                  <span id="github-token-badge" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-amber-950 text-amber-300 border border-amber-500/50 font-bold">Sin configurar</span>
+                  <h3 class="text-sm font-bold text-white">Sincronización Global con GitHub</h3>
+                  <span id="github-token-badge" class="text-[10px] px-2.5 py-0.5 rounded-full font-mono bg-emerald-950 text-emerald-300 border border-emerald-500/50 font-bold"><i class="fa-solid fa-check mr-1"></i> Conectado (Despliegue Global Activo)</span>
                 </div>
-                <p class="text-xs text-slate-400 mt-0.5">Publica los archivos subidos directamente al repositorio <code class="text-amber-300 font-mono">sephirods/WoWoptimizer</code> para que los cambios apliquen a <strong>todos los usuarios</strong> en Wasmer.</p>
+                <p class="text-xs text-slate-400 mt-0.5">Las actualizaciones de datos y noticias se publican automáticamente al repositorio <code class="text-amber-300 font-mono">sephirods/WoWoptimizer</code> para todos los usuarios en wowtopgear.app.</p>
               </div>
             </div>
-            <a href="https://github.com/settings/tokens/new?scopes=repo&description=WoWOptimizer+Admin+Suite" target="_blank" rel="noopener noreferrer" class="text-xs bg-slate-800 hover:bg-slate-700 text-amber-300 border border-amber-500/40 px-3 py-1.5 rounded-xl font-bold flex items-center gap-1.5 transition">
-              <i class="fa-solid fa-key"></i> Crear Token en GitHub <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+            <a href="https://github.com/sephirods/WoWoptimizer" target="_blank" rel="noopener noreferrer" class="text-xs bg-slate-800 hover:bg-slate-700 text-emerald-300 border border-emerald-500/40 px-3 py-1.5 rounded-xl font-bold flex items-center gap-1.5 transition">
+              <i class="fa-brands fa-github"></i> Ver Repositorio <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
             </a>
-          </div>
-
-          <div class="flex items-center gap-2 pt-1 flex-wrap sm:flex-nowrap">
-            <div class="relative flex-1 min-w-[200px]">
-              <input type="password" id="github-token-input" placeholder="Pega tu GitHub Personal Access Token (ghp_... o github_pat_...)" class="w-full bg-wow-input border border-wow-border rounded-xl px-3.5 py-2 text-xs font-mono text-amber-300 focus:outline-none focus:border-amber-400 placeholder-slate-600 shadow-inner">
-            </div>
-            <button type="button" onclick="handleSaveGitHubToken()" class="text-xs bg-amber-500 hover:bg-amber-400 text-black font-bold px-4 py-2 rounded-xl transition shadow flex items-center gap-1.5 whitespace-nowrap">
-              <i class="fa-solid fa-floppy-disk"></i> Guardar Token
-            </button>
-            <button type="button" onclick="handleClearGitHubToken()" class="text-xs bg-red-950/40 hover:bg-red-900/60 text-red-300 border border-red-500/40 font-bold px-3 py-2 rounded-xl transition whitespace-nowrap">
-              Eliminar
-            </button>
           </div>
         </div>
 
@@ -967,17 +955,17 @@
   <div id="toast-container" class="fixed bottom-4 right-4 z-50 flex flex-col gap-2 pointer-events-none"></div>
 
   <!-- SCRIPT DE EXTRACCIÓN EMPAQUETADO EXTERNO -->
-  <script src="js/data/admin_scripts_bundle.js?v=20260923_v1"></script>
-  <script src="js/data/wow_news_data.js?v=20260923_v1"></script>
-  <script src="js/data/pinned_news.js?v=20260923_v1"></script>
-  <script src="js/data/news_fetcher.js?v=20260923_v1"></script>
+  <script src="js/data/admin_scripts_bundle.js?v=20260923_v2"></script>
+  <script src="js/data/wow_news_data.js?v=20260923_v2"></script>
+  <script src="js/data/pinned_news.js?v=20260923_v2"></script>
+  <script src="js/data/news_fetcher.js?v=20260923_v2"></script>
 
   <!-- MÓDULOS DE ADMINISTRACIÓN -->
-  <script src="js/admin/admin_core.js?v=20260923_v1"></script>
-  <script src="js/admin/admin_datasets.js?v=20260923_v1"></script>
-  <script src="js/admin/admin_bloodmallet.js?v=20260923_v1"></script>
-  <script src="js/admin/admin_tickets.js?v=20260923_v1"></script>
-  <script src="js/admin/admin_news.js?v=20260923_v1"></script>
+  <script src="js/admin/admin_core.js?v=20260923_v2"></script>
+  <script src="js/admin/admin_datasets.js?v=20260923_v2"></script>
+  <script src="js/admin/admin_bloodmallet.js?v=20260923_v2"></script>
+  <script src="js/admin/admin_tickets.js?v=20260923_v2"></script>
+  <script src="js/admin/admin_news.js?v=20260923_v2"></script>
   <script>
     document.addEventListener('DOMContentLoaded', checkAuth);
   </script>
