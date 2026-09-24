@@ -219,10 +219,10 @@ window.WOW_NEWS_DATABASE = {
         "es": "We’ve been tracking an issue in the WoW Forever Beta where the 0.5-second cast time that precedes a Hunter’s auto-shot or the use of a wand is not functioning properly. \nDue to a b..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">We’ve been tracking an issue in the WoW Forever Beta where the 0.5-second cast time that precedes a Hunter’s auto-shot or the use of a wand is not functioning properly. \nDue to a bug, these auto-shots are currently incurring a much shorter cast time, which in practice means that Hunters and wand use&hellip;</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">We’ve been tracking an issue in the WoW Forever Beta where the 0.5-second cast time that precedes a Hunter’s auto-shot or the use of a wand is not functioning properly. \nDue to a bug, these auto-shots are currently incurring a much shorter cast time, which in practice means that Hunters and wand use&hellip;</div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve been tracking an issue in the WoW Forever Beta where the 0.5-second cast time that precedes a Hunter’s auto-shot or the use of a wand is not functioning properly.</p>\n<p>Due to a bug, these auto-shots are currently incurring a much shorter cast time, which in practice means that Hunters and wand users don’t need to stop to shoot for as long as intended.</p>\n<p>This is something that we will fix in an upcoming Beta build, hopefully next week.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve been tracking an issue in the WoW Forever Beta where the 0.5-second cast time that precedes a Hunter’s auto-shot or the use of a wand is not functioning properly.</p>\n<p>Due to a bug, these auto-shots are currently incurring a much shorter cast time, which in practice means that Hunters and wand users don’t need to stop to shoot for as long as intended.</p>\n<p>This is something that we will fix in an upcoming Beta build, hopefully next week.</p></div>"
       },
-      "hasFullContent": false,
+      "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/auto-shoot-bug-and-fix-incoming/2359185/1"
     },
     {
