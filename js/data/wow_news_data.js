@@ -226,6 +226,62 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-meet-the-new-skyborne/2358236/1"
     },
     {
+      "id": "blizz-1231443",
+      "postId": 1231443,
+      "topicId": 80190,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-09-24T04:36:11.016Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Sobre la categoría WoW: Forever - Comunidad",
+        "es": "Sobre la categoría WoW: Forever - Comunidad"
+      },
+      "summary": {
+        "en": "Os damos la bienvenida al foro de búsqueda de comunidades de World of Warcraft: Forever. Podéis usar este espacio para organizar vuestras comunidades con otros jugadores de WoW: Fo...",
+        "es": "Os damos la bienvenida al foro de búsqueda de comunidades de World of Warcraft: Forever. Podéis usar este espacio para organizar vuestras comunidades con otros jugadores de WoW: Fo..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Os damos la bienvenida al foro de búsqueda de comunidades de World of Warcraft: Forever. Podéis usar este espacio para organizar vuestras comunidades con otros jugadores de WoW: Forever.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Os damos la bienvenida al foro de búsqueda de comunidades de World of Warcraft: Forever. Podéis usar este espacio para organizar vuestras comunidades con otros jugadores de WoW: Forever.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/sobre-la-categor%C3%ADa-wow-forever-comunidad/80190/1"
+    },
+    {
+      "id": "blizz-1231439",
+      "postId": 1231439,
+      "topicId": 80189,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-09-24T04:33:57.229Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Sobre la categoría WoW: Forever - General",
+        "es": "Sobre la categoría WoW: Forever - General"
+      },
+      "summary": {
+        "en": "Os damos la bienvenida al foro de discusión general de World of Warcraft: Forever. En este foro, los jugadores podréis hablar de todo lo relacionado con World of Warcraft: Forever....",
+        "es": "Os damos la bienvenida al foro de discusión general de World of Warcraft: Forever. En este foro, los jugadores podréis hablar de todo lo relacionado con World of Warcraft: Forever...."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Os damos la bienvenida al foro de discusión general de World of Warcraft: Forever. En este foro, los jugadores podréis hablar de todo lo relacionado con World of Warcraft: Forever.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Os damos la bienvenida al foro de discusión general de World of Warcraft: Forever. En este foro, los jugadores podréis hablar de todo lo relacionado con World of Warcraft: Forever.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/sobre-la-categor%C3%ADa-wow-forever-general/80189/1"
+    },
+    {
       "id": "blizz-1231419",
       "postId": 1231419,
       "topicId": 80182,
@@ -252,34 +308,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/familiar%C3%ADzate-con-el-sistema-de-legado-de-world-of-warcraft-forever/80182/1"
-    },
-    {
-      "id": "blizz-1231418",
-      "postId": 1231418,
-      "topicId": 80181,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-23T17:00:13.931Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Familiarízate con el sistema de legado de World of Warcraft: Forever",
-        "es": "Familiarízate con el sistema de legado de World of Warcraft: Forever"
-      },
-      "summary": {
-        "en": "[Familiarízate con el sistema de legado de World of Warcraft: Forever.] Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que t...",
-        "es": "[Familiarízate con el sistema de legado de World of Warcraft: Forever.] Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que t..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Familiarízate con el sistema de legado de World of Warcraft: Forever.\" width=\"833\" height=\"468\"></a></p><p>Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que te permite completar desafíos, ganar puntos de legado, desbloquear ventajas específicas del personaje y conseguir recompensas cosméticas a lo largo de tu aventura por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307383\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Familiarízate con el sistema de legado de World of Warcraft: Forever.\" width=\"833\" height=\"468\"></a></p><p>Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que te permite completar desafíos, ganar puntos de legado, desbloquear ventajas específicas del personaje y conseguir recompensas cosméticas a lo largo de tu aventura por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307383\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/familiar%C3%ADzate-con-el-sistema-de-legado-de-world-of-warcraft-forever/80181/1"
     },
     {
       "id": "blizz-1231360",
@@ -420,34 +448,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-blizzcon-2026-beta-de-wow-forever-temporada-3-de-midnight-y-mucho-m%C3%A1s/80129/1"
-    },
-    {
-      "id": "blizz-1231046",
-      "postId": 1231046,
-      "topicId": 80119,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-17T21:01:20.182Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "La beta de World of Warcraft: Forever ya está disponible",
-        "es": "La beta de World of Warcraft: Forever ya está disponible"
-      },
-      "summary": {
-        "en": "[La beta de World of Warcraft: Forever ya está disponible] La beta de World of Warcraft: Forever comienza el 17 de septiembre y estará disponible hasta el 21 de octubre. Apúntate p...",
-        "es": "[La beta de World of Warcraft: Forever ya está disponible] La beta de World of Warcraft: Forever comienza el 17 de septiembre y estará disponible hasta el 21 de octubre. Apúntate p..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" alt=\"La beta de World of Warcraft: Forever ya está disponible\" width=\"833\" height=\"468\"></a></p><p>La beta de World of Warcraft: Forever comienza el 17 de septiembre y estará disponible hasta el 21 de octubre. Apúntate para tener una posibilidad de unirte a las pruebas u obtén acceso a la beta con la compra de uno de los lotes de World of Warcraft: Forever que cumplen los requisitos. Después, comparte tus comentarios para prepararnos para el lanzamiento que tendrá lugar el 5 de noviembre a las 00:00 CET. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304160\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" alt=\"La beta de World of Warcraft: Forever ya está disponible\" width=\"833\" height=\"468\"></a></p><p>La beta de World of Warcraft: Forever comienza el 17 de septiembre y estará disponible hasta el 21 de octubre. Apúntate para tener una posibilidad de unirte a las pruebas u obtén acceso a la beta con la compra de uno de los lotes de World of Warcraft: Forever que cumplen los requisitos. Después, comparte tus comentarios para prepararnos para el lanzamiento que tendrá lugar el 5 de noviembre a las 00:00 CET. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304160\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/la-beta-de-world-of-warcraft-forever-ya-est%C3%A1-disponible/80119/1"
     },
     {
       "id": "blizz-6389101",
