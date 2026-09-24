@@ -1,19 +1,19 @@
-// Archon.gg Presets Oficiales Extraídos
+// Archon.gg Presets Oficiales Extraidos
 window.ARCHON_PRESETS = {
   "deathknight": {
     "blood": {
       "raid": {
         "m": 490,
-        "c": 988,
-        "h": 1120,
-        "v": 357,
+        "c": 1019,
+        "h": 1122,
+        "v": 356,
         "metaHeroTree": "sanlayn"
       },
       "mplus": {
-        "m": 414,
-        "c": 922,
-        "h": 1106,
-        "v": 666,
+        "m": 412,
+        "c": 927,
+        "h": 1108,
+        "v": 705,
         "metaHeroTree": "sanlayn"
       },
       "metaHeroTree": {
@@ -23,17 +23,17 @@ window.ARCHON_PRESETS = {
     },
     "frost_dk": {
       "raid": {
-        "m": 1097,
-        "c": 1337,
-        "h": 504,
+        "m": 1099,
+        "c": 1336,
+        "h": 509,
         "v": 121,
         "metaHeroTree": "deathbringer"
       },
       "mplus": {
-        "m": 1137,
-        "c": 1368,
-        "h": 448,
-        "v": 133,
+        "m": 1139,
+        "c": 1369,
+        "h": 449,
+        "v": 135,
         "metaHeroTree": "deathbringer"
       },
       "metaHeroTree": {
@@ -43,21 +43,21 @@ window.ARCHON_PRESETS = {
     },
     "unholy": {
       "raid": {
-        "m": 1150,
-        "c": 1331,
-        "h": 437,
-        "v": 118,
-        "metaHeroTree": "rider"
+        "m": 1149,
+        "c": 1332,
+        "h": 444,
+        "v": 117,
+        "metaHeroTree": "sanlayn"
       },
       "mplus": {
         "m": 1141,
-        "c": 1300,
-        "h": 451,
-        "v": 120,
+        "c": 1301,
+        "h": 455,
+        "v": 123,
         "metaHeroTree": "sanlayn"
       },
       "metaHeroTree": {
-        "raid": "rider",
+        "raid": "sanlayn",
         "mplus": "sanlayn"
       }
     }
@@ -65,16 +65,16 @@ window.ARCHON_PRESETS = {
   "demonhunter": {
     "havoc": {
       "raid": {
-        "m": 1189,
-        "c": 1419,
-        "h": 300,
-        "v": 137,
+        "m": 1191,
+        "c": 1423,
+        "h": 306,
+        "v": 135,
         "metaHeroTree": "fel_scarred"
       },
       "mplus": {
         "m": 1197,
-        "c": 1450,
-        "h": 262,
+        "c": 1452,
+        "h": 265,
         "v": 142,
         "metaHeroTree": "fel_scarred"
       },
@@ -85,17 +85,17 @@ window.ARCHON_PRESETS = {
     },
     "vengeance": {
       "raid": {
-        "m": 417,
-        "c": 917,
-        "h": 1227,
-        "v": 315,
+        "m": 419,
+        "c": 919,
+        "h": 1231,
+        "v": 317,
         "metaHeroTree": "annihilator"
       },
       "mplus": {
-        "m": 342,
-        "c": 909,
-        "h": 1255,
-        "v": 400,
+        "m": 341,
+        "c": 911,
+        "h": 1254,
+        "v": 403,
         "metaHeroTree": "annihilator"
       },
       "metaHeroTree": {
@@ -107,17 +107,17 @@ window.ARCHON_PRESETS = {
   "druid": {
     "balance": {
       "raid": {
-        "m": 1118,
-        "c": 791,
-        "h": 910,
+        "m": 1124,
+        "c": 793,
+        "h": 909,
         "v": 148,
         "metaHeroTree": "elunes_chosen"
       },
       "mplus": {
-        "m": 1092,
-        "c": 767,
-        "h": 930,
-        "v": 159,
+        "m": 1094,
+        "c": 768,
+        "h": 937,
+        "v": 158,
         "metaHeroTree": "elunes_chosen"
       },
       "metaHeroTree": {
@@ -127,17 +127,17 @@ window.ARCHON_PRESETS = {
     },
     "feral": {
       "raid": {
-        "m": 1127,
-        "c": 787,
-        "h": 899,
-        "v": 180,
+        "m": 1131,
+        "c": 788,
+        "h": 903,
+        "v": 182,
         "metaHeroTree": "wildstalker"
       },
       "mplus": {
-        "m": 1212,
-        "c": 774,
-        "h": 817,
-        "v": 202,
+        "m": 1213,
+        "c": 777,
+        "h": 818,
+        "v": 201,
         "metaHeroTree": "druid_of_the_claw"
       },
       "metaHeroTree": {
@@ -147,17 +147,17 @@ window.ARCHON_PRESETS = {
     },
     "guardian": {
       "raid": {
-        "m": 482,
-        "c": 708,
+        "m": 483,
+        "c": 713,
         "h": 1231,
         "v": 503,
         "metaHeroTree": "elunes_chosen"
       },
       "mplus": {
-        "m": 370,
-        "c": 782,
-        "h": 1245,
-        "v": 475,
+        "m": 373,
+        "c": 785,
+        "h": 1246,
+        "v": 505,
         "metaHeroTree": "elunes_chosen"
       },
       "metaHeroTree": {
@@ -168,16 +168,16 @@ window.ARCHON_PRESETS = {
     "restoration_druid": {
       "raid": {
         "m": 991,
-        "c": 249,
-        "h": 1582,
+        "c": 248,
+        "h": 1589,
         "v": 223,
         "metaHeroTree": "wildstalker"
       },
       "mplus": {
-        "m": 1033,
-        "c": 257,
-        "h": 1377,
-        "v": 278,
+        "m": 1036,
+        "c": 256,
+        "h": 1381,
+        "v": 279,
         "metaHeroTree": "wildstalker"
       },
       "metaHeroTree": {
@@ -189,17 +189,17 @@ window.ARCHON_PRESETS = {
   "evoker": {
     "devastation": {
       "raid": {
-        "m": 832,
-        "c": 1207,
-        "h": 701,
-        "v": 197,
+        "m": 854,
+        "c": 1209,
+        "h": 700,
+        "v": 195,
         "metaHeroTree": "scalecommander"
       },
       "mplus": {
-        "m": 821,
-        "c": 1222,
-        "h": 714,
-        "v": 185,
+        "m": 824,
+        "c": 1226,
+        "h": 713,
+        "v": 186,
         "metaHeroTree": "scalecommander"
       },
       "metaHeroTree": {
@@ -209,17 +209,17 @@ window.ARCHON_PRESETS = {
     },
     "preservation": {
       "raid": {
-        "m": 1184,
-        "c": 1085,
-        "h": 517,
-        "v": 175,
+        "m": 1183,
+        "c": 1091,
+        "h": 518,
+        "v": 174,
         "metaHeroTree": "flameshaper"
       },
       "mplus": {
-        "m": 334,
+        "m": 323,
         "c": 864,
-        "h": 1101,
-        "v": 466,
+        "h": 1102,
+        "v": 471,
         "metaHeroTree": "flameshaper"
       },
       "metaHeroTree": {
@@ -229,17 +229,17 @@ window.ARCHON_PRESETS = {
     },
     "augmentation": {
       "raid": {
-        "m": 1417,
-        "c": 953,
-        "h": 515,
-        "v": 158,
+        "m": 1425,
+        "c": 952,
+        "h": 534,
+        "v": 156,
         "metaHeroTree": "chronowarden"
       },
       "mplus": {
-        "m": 1432,
-        "c": 894,
-        "h": 464,
-        "v": 144,
+        "m": 493,
+        "c": 924,
+        "h": 468,
+        "v": 146,
         "metaHeroTree": "chronowarden"
       },
       "metaHeroTree": {
@@ -251,17 +251,17 @@ window.ARCHON_PRESETS = {
   "hunter": {
     "beastmastery": {
       "raid": {
-        "m": 1222,
-        "c": 1083,
-        "h": 570,
-        "v": 175,
+        "m": 1223,
+        "c": 1112,
+        "h": 571,
+        "v": 174,
         "metaHeroTree": "packleader"
       },
       "mplus": {
-        "m": 1325,
-        "c": 1164,
-        "h": 276,
-        "v": 244,
+        "m": 1328,
+        "c": 1167,
+        "h": 274,
+        "v": 245,
         "metaHeroTree": "packleader"
       },
       "metaHeroTree": {
@@ -271,17 +271,17 @@ window.ARCHON_PRESETS = {
     },
     "marksmanship": {
       "raid": {
-        "m": 1128,
-        "c": 1570,
-        "h": 261,
-        "v": 223,
+        "m": 1133,
+        "c": 1577,
+        "h": 259,
+        "v": 224,
         "metaHeroTree": "sentinel"
       },
       "mplus": {
-        "m": 1055,
-        "c": 1515,
-        "h": 259,
-        "v": 228,
+        "m": 1059,
+        "c": 1517,
+        "h": 255,
+        "v": 234,
         "metaHeroTree": "sentinel"
       },
       "metaHeroTree": {
@@ -291,17 +291,17 @@ window.ARCHON_PRESETS = {
     },
     "survival": {
       "raid": {
-        "m": 1303,
-        "c": 922,
+        "m": 1306,
+        "c": 923,
         "h": 746,
-        "v": 120,
+        "v": 119,
         "metaHeroTree": "sentinel"
       },
       "mplus": {
-        "m": 1276,
-        "c": 876,
-        "h": 778,
-        "v": 134,
+        "m": 1284,
+        "c": 882,
+        "h": 779,
+        "v": 132,
         "metaHeroTree": "sentinel"
       },
       "metaHeroTree": {
@@ -313,17 +313,17 @@ window.ARCHON_PRESETS = {
   "mage": {
     "arcane": {
       "raid": {
-        "m": 489,
-        "c": 777,
-        "h": 1007,
+        "m": 512,
+        "c": 776,
+        "h": 1008,
         "v": 607,
         "metaHeroTree": "sunfury"
       },
       "mplus": {
-        "m": 338,
+        "m": 340,
         "c": 782,
         "h": 1001,
-        "v": 784,
+        "v": 785,
         "metaHeroTree": "sunfury"
       },
       "metaHeroTree": {
@@ -333,17 +333,17 @@ window.ARCHON_PRESETS = {
     },
     "fire": {
       "raid": {
-        "m": 895,
-        "c": 189,
-        "h": 1274,
-        "v": 534,
+        "m": 869,
+        "c": 199,
+        "h": 1277,
+        "v": 538,
         "metaHeroTree": "sunfury"
       },
       "mplus": {
-        "m": 867,
-        "c": 190,
-        "h": 1319,
-        "v": 453,
+        "m": 865,
+        "c": 195,
+        "h": 1311,
+        "v": 484,
         "metaHeroTree": "sunfury"
       },
       "metaHeroTree": {
@@ -353,17 +353,17 @@ window.ARCHON_PRESETS = {
     },
     "frost_mage": {
       "raid": {
-        "m": 919,
+        "m": 923,
         "c": 1031,
-        "h": 713,
-        "v": 287,
+        "h": 715,
+        "v": 286,
         "metaHeroTree": "spellslinger"
       },
       "mplus": {
-        "m": 1082,
-        "c": 1076,
-        "h": 660,
-        "v": 167,
+        "m": 1085,
+        "c": 1077,
+        "h": 661,
+        "v": 169,
         "metaHeroTree": "spellslinger"
       },
       "metaHeroTree": {
@@ -375,16 +375,16 @@ window.ARCHON_PRESETS = {
   "monk": {
     "brewmaster": {
       "raid": {
-        "m": 669,
-        "c": 1223,
-        "h": 279,
-        "v": 777,
+        "m": 701,
+        "c": 1225,
+        "h": 280,
+        "v": 780,
         "metaHeroTree": "shado_pan"
       },
       "mplus": {
         "m": 615,
-        "c": 1252,
-        "h": 202,
+        "c": 1254,
+        "h": 201,
         "v": 882,
         "metaHeroTree": "master_of_harmony"
       },
@@ -395,17 +395,17 @@ window.ARCHON_PRESETS = {
     },
     "mistweaver": {
       "raid": {
-        "m": 235,
+        "m": 234,
         "c": 875,
-        "h": 1498,
-        "v": 347,
+        "h": 1524,
+        "v": 348,
         "metaHeroTree": "conduit_of_the_celestials"
       },
       "mplus": {
-        "m": 686,
-        "c": 625,
-        "h": 1332,
-        "v": 278,
+        "m": 690,
+        "c": 618,
+        "h": 1350,
+        "v": 279,
         "metaHeroTree": "conduit_of_the_celestials"
       },
       "metaHeroTree": {
@@ -415,17 +415,17 @@ window.ARCHON_PRESETS = {
     },
     "windwalker": {
       "raid": {
-        "m": 1164,
-        "c": 806,
-        "h": 926,
-        "v": 135,
+        "m": 1168,
+        "c": 809,
+        "h": 927,
+        "v": 134,
         "metaHeroTree": "conduit_of_the_celestials"
       },
       "mplus": {
-        "m": 1204,
-        "c": 805,
+        "m": 1206,
+        "c": 808,
         "h": 880,
-        "v": 155,
+        "v": 156,
         "metaHeroTree": "conduit_of_the_celestials"
       },
       "metaHeroTree": {
@@ -437,17 +437,17 @@ window.ARCHON_PRESETS = {
   "paladin": {
     "holy_paladin": {
       "raid": {
-        "m": 1203,
-        "c": 714,
-        "h": 871,
-        "v": 209,
+        "m": 1205,
+        "c": 715,
+        "h": 872,
+        "v": 208,
         "metaHeroTree": "herald"
       },
       "mplus": {
-        "m": 297,
-        "c": 779,
-        "h": 1142,
-        "v": 680,
+        "m": 296,
+        "c": 780,
+        "h": 1141,
+        "v": 683,
         "metaHeroTree": "lightsmith"
       },
       "metaHeroTree": {
@@ -457,17 +457,17 @@ window.ARCHON_PRESETS = {
     },
     "protection_paladin": {
       "raid": {
-        "m": 475,
-        "c": 1065,
-        "h": 1089,
-        "v": 259,
+        "m": 478,
+        "c": 1071,
+        "h": 1108,
+        "v": 256,
         "metaHeroTree": "lightsmith"
       },
       "mplus": {
-        "m": 375,
-        "c": 1089,
+        "m": 374,
+        "c": 1092,
         "h": 1080,
-        "v": 287,
+        "v": 290,
         "metaHeroTree": "lightsmith"
       },
       "metaHeroTree": {
@@ -477,17 +477,17 @@ window.ARCHON_PRESETS = {
     },
     "retribution": {
       "raid": {
-        "m": 1079,
-        "c": 976,
-        "h": 855,
-        "v": 115,
+        "m": 1080,
+        "c": 998,
+        "h": 852,
+        "v": 114,
         "metaHeroTree": "herald"
       },
       "mplus": {
-        "m": 1104,
-        "c": 933,
+        "m": 1107,
+        "c": 935,
         "h": 873,
-        "v": 147,
+        "v": 148,
         "metaHeroTree": "herald"
       },
       "metaHeroTree": {
@@ -499,16 +499,16 @@ window.ARCHON_PRESETS = {
   "priest": {
     "discipline": {
       "raid": {
-        "m": 694,
-        "c": 513,
-        "h": 1693,
-        "v": 170,
+        "m": 715,
+        "c": 511,
+        "h": 1698,
+        "v": 173,
         "metaHeroTree": "voidweaver"
       },
       "mplus": {
         "m": 768,
-        "c": 705,
-        "h": 1306,
+        "c": 703,
+        "h": 1312,
         "v": 188,
         "metaHeroTree": "oracle"
       },
@@ -520,16 +520,16 @@ window.ARCHON_PRESETS = {
     "holy_priest": {
       "raid": {
         "m": 984,
-        "c": 1136,
-        "h": 617,
-        "v": 214,
+        "c": 1138,
+        "h": 618,
+        "v": 216,
         "metaHeroTree": "oracle"
       },
       "mplus": {
-        "m": 862,
+        "m": 861,
         "c": 939,
-        "h": 1012,
-        "v": 250,
+        "h": 1013,
+        "v": 252,
         "metaHeroTree": "oracle"
       },
       "metaHeroTree": {
@@ -539,17 +539,17 @@ window.ARCHON_PRESETS = {
     },
     "shadow": {
       "raid": {
-        "m": 1174,
-        "c": 768,
-        "h": 909,
+        "m": 1178,
+        "c": 771,
+        "h": 910,
         "v": 125,
         "metaHeroTree": "archon"
       },
       "mplus": {
         "m": 1123,
-        "c": 774,
-        "h": 960,
-        "v": 125,
+        "c": 776,
+        "h": 961,
+        "v": 129,
         "metaHeroTree": "voidweaver"
       },
       "metaHeroTree": {
@@ -561,16 +561,16 @@ window.ARCHON_PRESETS = {
   "rogue": {
     "assassination": {
       "raid": {
-        "m": 632,
-        "c": 1288,
+        "m": 637,
+        "c": 1294,
         "h": 986,
-        "v": 170,
+        "v": 171,
         "metaHeroTree": "fatebound"
       },
       "mplus": {
-        "m": 693,
-        "c": 1289,
-        "h": 937,
+        "m": 698,
+        "c": 1291,
+        "h": 936,
         "v": 192,
         "metaHeroTree": "fatebound"
       },
@@ -581,17 +581,17 @@ window.ARCHON_PRESETS = {
     },
     "outlaw": {
       "raid": {
-        "m": 180,
+        "m": 183,
         "c": 1284,
         "h": 1021,
-        "v": 476,
+        "v": 480,
         "metaHeroTree": "trickster"
       },
       "mplus": {
-        "m": 175,
-        "c": 1331,
-        "h": 924,
-        "v": 562,
+        "m": 176,
+        "c": 1332,
+        "h": 923,
+        "v": 565,
         "metaHeroTree": "trickster"
       },
       "metaHeroTree": {
@@ -601,17 +601,17 @@ window.ARCHON_PRESETS = {
     },
     "subtlety": {
       "raid": {
-        "m": 1182,
-        "c": 609,
-        "h": 794,
-        "v": 435,
+        "m": 1184,
+        "c": 612,
+        "h": 795,
+        "v": 436,
         "metaHeroTree": "deathstalker"
       },
       "mplus": {
-        "m": 1239,
-        "c": 738,
-        "h": 714,
-        "v": 362,
+        "m": 1235,
+        "c": 744,
+        "h": 712,
+        "v": 354,
         "metaHeroTree": "deathstalker"
       },
       "metaHeroTree": {
@@ -623,17 +623,17 @@ window.ARCHON_PRESETS = {
   "shaman": {
     "elemental": {
       "raid": {
-        "m": 1020,
-        "c": 994,
-        "h": 730,
-        "v": 151,
+        "m": 1021,
+        "c": 996,
+        "h": 732,
+        "v": 150,
         "metaHeroTree": "farseer"
       },
       "mplus": {
-        "m": 999,
-        "c": 1114,
-        "h": 677,
-        "v": 177,
+        "m": 1000,
+        "c": 1116,
+        "h": 676,
+        "v": 178,
         "metaHeroTree": "farseer"
       },
       "metaHeroTree": {
@@ -643,16 +643,16 @@ window.ARCHON_PRESETS = {
     },
     "enhancement": {
       "raid": {
-        "m": 1112,
-        "c": 770,
-        "h": 952,
+        "m": 1114,
+        "c": 775,
+        "h": 950,
         "v": 136,
         "metaHeroTree": "stormbringer"
       },
       "mplus": {
-        "m": 1135,
+        "m": 1138,
         "c": 718,
-        "h": 935,
+        "h": 937,
         "v": 130,
         "metaHeroTree": "stormbringer"
       },
@@ -663,17 +663,17 @@ window.ARCHON_PRESETS = {
     },
     "restoration_shaman": {
       "raid": {
-        "m": 300,
-        "c": 1279,
-        "h": 754,
+        "m": 299,
+        "c": 1284,
+        "h": 770,
         "v": 521,
         "metaHeroTree": "totemic"
       },
       "mplus": {
-        "m": 244,
-        "c": 1185,
-        "h": 786,
-        "v": 658,
+        "m": 243,
+        "c": 1187,
+        "h": 785,
+        "v": 659,
         "metaHeroTree": "totemic"
       },
       "metaHeroTree": {
@@ -685,16 +685,16 @@ window.ARCHON_PRESETS = {
   "warlock": {
     "affliction": {
       "raid": {
-        "m": 624,
-        "c": 1040,
-        "h": 1106,
+        "m": 622,
+        "c": 1045,
+        "h": 1112,
         "v": 175,
         "metaHeroTree": "soul_harvester"
       },
       "mplus": {
-        "m": 505,
+        "m": 507,
         "c": 1023,
-        "h": 1204,
+        "h": 1205,
         "v": 182,
         "metaHeroTree": "soul_harvester"
       },
@@ -705,17 +705,17 @@ window.ARCHON_PRESETS = {
     },
     "demonology": {
       "raid": {
-        "m": 708,
-        "c": 1154,
-        "h": 900,
-        "v": 172,
+        "m": 707,
+        "c": 1158,
+        "h": 901,
+        "v": 175,
         "metaHeroTree": "diabolist"
       },
       "mplus": {
-        "m": 673,
-        "c": 1185,
-        "h": 922,
-        "v": 173,
+        "m": 674,
+        "c": 1187,
+        "h": 921,
+        "v": 175,
         "metaHeroTree": "diabolist"
       },
       "metaHeroTree": {
@@ -725,17 +725,17 @@ window.ARCHON_PRESETS = {
     },
     "destruction": {
       "raid": {
-        "m": 826,
-        "c": 1047,
-        "h": 881,
-        "v": 165,
+        "m": 824,
+        "c": 1051,
+        "h": 892,
+        "v": 167,
         "metaHeroTree": "hellcaller"
       },
       "mplus": {
-        "m": 743,
-        "c": 1033,
-        "h": 929,
-        "v": 165,
+        "m": 719,
+        "c": 1034,
+        "h": 933,
+        "v": 167,
         "metaHeroTree": "diabolist"
       },
       "metaHeroTree": {
@@ -747,17 +747,17 @@ window.ARCHON_PRESETS = {
   "warrior": {
     "arms": {
       "raid": {
-        "m": 569,
-        "c": 1273,
-        "h": 1023,
-        "v": 117,
+        "m": 571,
+        "c": 1276,
+        "h": 1025,
+        "v": 116,
         "metaHeroTree": "slayer"
       },
       "mplus": {
-        "m": 647,
-        "c": 1265,
-        "h": 982,
-        "v": 190,
+        "m": 649,
+        "c": 1266,
+        "h": 983,
+        "v": 191,
         "metaHeroTree": "slayer"
       },
       "metaHeroTree": {
@@ -767,17 +767,17 @@ window.ARCHON_PRESETS = {
     },
     "fury": {
       "raid": {
-        "m": 1091,
-        "c": 804,
-        "h": 1120,
-        "v": 167,
+        "m": 1095,
+        "c": 805,
+        "h": 1121,
+        "v": 163,
         "metaHeroTree": "slayer"
       },
       "mplus": {
-        "m": 1135,
-        "c": 744,
+        "m": 1136,
+        "c": 743,
         "h": 1129,
-        "v": 189,
+        "v": 190,
         "metaHeroTree": "slayer"
       },
       "metaHeroTree": {
@@ -787,17 +787,17 @@ window.ARCHON_PRESETS = {
     },
     "protection_warrior": {
       "raid": {
-        "m": 479,
-        "c": 966,
-        "h": 1205,
-        "v": 261,
+        "m": 474,
+        "c": 968,
+        "h": 1211,
+        "v": 260,
         "metaHeroTree": "mountain_thane"
       },
       "mplus": {
         "m": 415,
-        "c": 819,
-        "h": 1260,
-        "v": 306,
+        "c": 822,
+        "h": 1261,
+        "v": 308,
         "metaHeroTree": "mountain_thane"
       },
       "metaHeroTree": {
