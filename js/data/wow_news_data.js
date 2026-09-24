@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30178760",
+      "postId": 30178760,
+      "topicId": 2360203,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-24T16:16:42.509Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Watch the World of Warcraft: Forever Podcast, Ep. 1",
+        "es": "Watch the World of Warcraft: Forever Podcast, Ep. 1"
+      },
+      "summary": {
+        "en": "[Watch the World of Warcraft: Forever Podcast, Ep. 1] Join Senior Game Designer Josh “Aggrend” Greenfield, Lead Classic Designer Tim Jones, and content creators Countdown To Classi...",
+        "es": "[Watch the World of Warcraft: Forever Podcast, Ep. 1] Join Senior Game Designer Josh “Aggrend” Greenfield, Lead Classic Designer Tim Jones, and content creators Countdown To Classi..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\" alt=\"Watch the World of Warcraft: Forever Podcast, Ep. 1\" width=\"833\" height=\"468\"></a></p><p>Join Senior Game Designer Josh “Aggrend” Greenfield, Lead Classic Designer Tim Jones, and content creators Countdown To Classic and Xaryu in the first episode of the World of Warcraft: Forever Podcast. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24304076\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\" alt=\"Watch the World of Warcraft: Forever Podcast, Ep. 1\" width=\"833\" height=\"468\"></a></p><p>Join Senior Game Designer Josh “Aggrend” Greenfield, Lead Classic Designer Tim Jones, and content creators Countdown To Classic and Xaryu in the first episode of the World of Warcraft: Forever Podcast. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24304076\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/watch-the-world-of-warcraft-forever-podcast-ep-1/2360203/1"
+    },
+    {
       "id": "blizz-30171418",
       "postId": 30171418,
       "topicId": 2336376,
@@ -198,32 +226,60 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-september-23/2336376/143"
     },
     {
-      "id": "blizz-30155347",
-      "postId": 30155347,
-      "topicId": 2358236,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1231485",
+      "postId": 1231485,
+      "topicId": 80198,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-22T19:00:31.798Z",
+      "dateRaw": "2026-09-24T16:17:47.597Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "WoW: Forever Meet the New Skyborne",
-        "es": "WoW: Forever Meet the New Skyborne"
+        "en": "Ve el episodio 1 del pódcast de World of Warcraft: Forever",
+        "es": "Ve el episodio 1 del pódcast de World of Warcraft: Forever"
       },
       "summary": {
-        "en": "[WoW: Forever Meet the New Skyborne] The Skyborne—also known as the shen’dorei, or hidden people—are a new playable race in World of Warcraft: Forever. Their journey begins on Zeph...",
-        "es": "[WoW: Forever Meet the New Skyborne] The Skyborne—also known as the shen’dorei, or hidden people—are a new playable race in World of Warcraft: Forever. Their journey begins on Zeph..."
+        "en": "[Ve el episodio 1 del pódcast de World of Warcraft: Forever] Acompaña al diseñador sénior del juego Josh «Aggrend» Greenfield, al diseñador jefe de Classic Tim Jones y a los creado...",
+        "es": "[Ve el episodio 1 del pódcast de World of Warcraft: Forever] Acompaña al diseñador sénior del juego Josh «Aggrend» Greenfield, al diseñador jefe de Classic Tim Jones y a los creado..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/to/TO55V6TRR1RW1790054798721.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/to/TO55V6TRR1RW1790054798721.png\" alt=\"WoW: Forever Meet the New Skyborne\" width=\"833\" height=\"468\"></a></p><p>The Skyborne—also known as the shen’dorei, or hidden people—are a new playable race in World of Warcraft: Forever. Their journey begins on Zephras Isle, a level 1–12 starting experience that blends classic Warcraft aesthetics with elemental architecture and a story shaped by wind and ancestry. At character creation, you’ll choose whether your Skyborne joins the proud Horde or the noble Alliance. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302071\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/to/TO55V6TRR1RW1790054798721.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/to/TO55V6TRR1RW1790054798721.png\" alt=\"WoW: Forever Meet the New Skyborne\" width=\"833\" height=\"468\"></a></p><p>The Skyborne—also known as the shen’dorei, or hidden people—are a new playable race in World of Warcraft: Forever. Their journey begins on Zephras Isle, a level 1–12 starting experience that blends classic Warcraft aesthetics with elemental architecture and a story shaped by wind and ancestry. At character creation, you’ll choose whether your Skyborne joins the proud Horde or the noble Alliance. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302071\">View Full Article</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\" alt=\"Ve el episodio 1 del pódcast de World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Acompaña al diseñador sénior del juego Josh «Aggrend» Greenfield, al diseñador jefe de Classic Tim Jones y a los creadores de contenido Countdown To Classic y Xaryu en el primer episodio del pódcast de World of Warcraft: Forever. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304076\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\" alt=\"Ve el episodio 1 del pódcast de World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Acompaña al diseñador sénior del juego Josh «Aggrend» Greenfield, al diseñador jefe de Classic Tim Jones y a los creadores de contenido Countdown To Classic y Xaryu en el primer episodio del pódcast de World of Warcraft: Forever. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304076\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-meet-the-new-skyborne/2358236/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/ve-el-episodio-1-del-p%C3%B3dcast-de-world-of-warcraft-forever/80198/1"
+    },
+    {
+      "id": "blizz-1231484",
+      "postId": 1231484,
+      "topicId": 80197,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-24T16:17:47.009Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Ve el episodio 1 del pódcast de World of Warcraft: Forever",
+        "es": "Ve el episodio 1 del pódcast de World of Warcraft: Forever"
+      },
+      "summary": {
+        "en": "[Ve el episodio 1 del pódcast de World of Warcraft: Forever] Acompaña al diseñador sénior del juego Josh «Aggrend» Greenfield, al diseñador jefe de Classic Tim Jones y a los creado...",
+        "es": "[Ve el episodio 1 del pódcast de World of Warcraft: Forever] Acompaña al diseñador sénior del juego Josh «Aggrend» Greenfield, al diseñador jefe de Classic Tim Jones y a los creado..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\" alt=\"Ve el episodio 1 del pódcast de World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Acompaña al diseñador sénior del juego Josh «Aggrend» Greenfield, al diseñador jefe de Classic Tim Jones y a los creadores de contenido Countdown To Classic y Xaryu en el primer episodio del pódcast de World of Warcraft: Forever. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304076\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\" alt=\"Ve el episodio 1 del pódcast de World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Acompaña al diseñador sénior del juego Josh «Aggrend» Greenfield, al diseñador jefe de Classic Tim Jones y a los creadores de contenido Countdown To Classic y Xaryu en el primer episodio del pódcast de World of Warcraft: Forever. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304076\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/ve-el-episodio-1-del-p%C3%B3dcast-de-world-of-warcraft-forever/80197/1"
     },
     {
       "id": "blizz-1231443",
@@ -394,60 +450,32 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/crea-un-nombre-verdaderamente-tuyo-en-wow-forever/80163/1"
     },
     {
-      "id": "blizz-1231282",
-      "postId": 1231282,
-      "topicId": 80161,
+      "id": "blizz-6390691",
+      "postId": 6390691,
+      "topicId": 631202,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-21T17:00:08.678Z",
+      "dateRaw": "2026-09-24T16:16:47.111Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Elige un conjunto de reglas para World of Warcraft: Forever",
-        "es": "Elige un conjunto de reglas para World of Warcraft: Forever"
+        "en": "Watch the World of Warcraft: Forever Podcast, Ep. 1",
+        "es": "Watch the World of Warcraft: Forever Podcast, Ep. 1"
       },
       "summary": {
-        "en": "[Elige un conjunto de reglas para World of Warcraft: Forever] World of Warcraft: Forever va a adoptar un nuevo enfoque en la forma y el lugar en los que los jugadores inician su av...",
-        "es": "[Elige un conjunto de reglas para World of Warcraft: Forever] World of Warcraft: Forever va a adoptar un nuevo enfoque en la forma y el lugar en los que los jugadores inician su av..."
+        "en": "[Watch the World of Warcraft: Forever Podcast, Ep. 1] Join Senior Game Designer Josh “Aggrend” Greenfield, Lead Classic Designer Tim Jones, and content creators Countdown To Classi...",
+        "es": "[Watch the World of Warcraft: Forever Podcast, Ep. 1] Join Senior Game Designer Josh “Aggrend” Greenfield, Lead Classic Designer Tim Jones, and content creators Countdown To Classi..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1p/1PD2ZLVROZOB1789961389530.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1p/1PD2ZLVROZOB1789961389530.png\" alt=\"Elige un conjunto de reglas para World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever va a adoptar un nuevo enfoque en la forma y el lugar en los que los jugadores inician su aventura. En lugar de elegir de una larga lista de reinos, los jugadores elegirán un conjunto de reglas (normal, JcJ, rol o Hardcore) adaptadas a como que quieren experimentar Azeroth. Cada opción forma su propio gran ecosistema para formar grupos, completar mazmorras, participar en bandas y formar comunidades. Hardcore se unirá a la lista disponible en algún momento tras el lanzamiento. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302070\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1p/1PD2ZLVROZOB1789961389530.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1p/1PD2ZLVROZOB1789961389530.png\" alt=\"Elige un conjunto de reglas para World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever va a adoptar un nuevo enfoque en la forma y el lugar en los que los jugadores inician su aventura. En lugar de elegir de una larga lista de reinos, los jugadores elegirán un conjunto de reglas (normal, JcJ, rol o Hardcore) adaptadas a como que quieren experimentar Azeroth. Cada opción forma su propio gran ecosistema para formar grupos, completar mazmorras, participar en bandas y formar comunidades. Hardcore se unirá a la lista disponible en algún momento tras el lanzamiento. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302070\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\" alt=\"Watch the World of Warcraft: Forever Podcast, Ep. 1\" width=\"833\" height=\"468\"></a></p><p>Join Senior Game Designer Josh “Aggrend” Greenfield, Lead Classic Designer Tim Jones, and content creators Countdown To Classic and Xaryu in the first episode of the World of Warcraft: Forever Podcast. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304076\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/c8/C8KM5R6G60GK1789239785464.png\" alt=\"Watch the World of Warcraft: Forever Podcast, Ep. 1\" width=\"833\" height=\"468\"></a></p><p>Join Senior Game Designer Josh “Aggrend” Greenfield, Lead Classic Designer Tim Jones, and content creators Countdown To Classic and Xaryu in the first episode of the World of Warcraft: Forever Podcast. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304076\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/elige-un-conjunto-de-reglas-para-world-of-warcraft-forever/80161/1"
-    },
-    {
-      "id": "blizz-1231110",
-      "postId": 1231110,
-      "topicId": 80129,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-18T17:00:08.023Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Esta semana en WoW: BlizzCon 2026, beta de WoW Forever, temporada 3 de Midnight y mucho más",
-        "es": "Esta semana en WoW: BlizzCon 2026, beta de WoW Forever, temporada 3 de Midnight y mucho más"
-      },
-      "summary": {
-        "en": "[Esta semana en WoW: BlizzCon 2026, beta de WoW Forever, temporada 3 de Midnight y mucho más] El resumen de Esta semana en WoW pone el foco en la BlizzCon 2026 y en los últimos anu...",
-        "es": "[Esta semana en WoW: BlizzCon 2026, beta de WoW Forever, temporada 3 de Midnight y mucho más] El resumen de Esta semana en WoW pone el foco en la BlizzCon 2026 y en los últimos anu..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1v/1V3Z6ASWNQ651789690733688.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1v/1V3Z6ASWNQ651789690733688.png\" alt=\"Esta semana en WoW: BlizzCon 2026, beta de WoW Forever, temporada 3 de Midnight y mucho más\" width=\"833\" height=\"468\"></a></p><p>El resumen de Esta semana en WoW pone el foco en la BlizzCon 2026 y en los últimos anuncios de World of Warcraft, donde no faltó World of Warcraft: Forever, respuestas a las preguntas de la comunidad de la sesión en directo de preguntas y respuestas de WoW moderno y WoW Forever, un adelanto de la reserva de mazmorras de la temporada 3 de Midnight y mucho más. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304074\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1v/1V3Z6ASWNQ651789690733688.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1v/1V3Z6ASWNQ651789690733688.png\" alt=\"Esta semana en WoW: BlizzCon 2026, beta de WoW Forever, temporada 3 de Midnight y mucho más\" width=\"833\" height=\"468\"></a></p><p>El resumen de Esta semana en WoW pone el foco en la BlizzCon 2026 y en los últimos anuncios de World of Warcraft, donde no faltó World of Warcraft: Forever, respuestas a las preguntas de la comunidad de la sesión en directo de preguntas y respuestas de WoW moderno y WoW Forever, un adelanto de la reserva de mazmorras de la temporada 3 de Midnight y mucho más. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304074\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-blizzcon-2026-beta-de-wow-forever-temporada-3-de-midnight-y-mucho-m%C3%A1s/80129/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/watch-the-world-of-warcraft-forever-podcast-ep-1/631202/1"
     },
     {
       "id": "blizz-6389101",
@@ -644,34 +672,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-23-september/625785/37"
-    },
-    {
-      "id": "blizz-6386305",
-      "postId": 6386305,
-      "topicId": 630770,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-22T19:00:18.555Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW: Forever Meet the New Skyborne",
-        "es": "WoW: Forever Meet the New Skyborne"
-      },
-      "summary": {
-        "en": "[WoW: Forever Meet the New Skyborne] The Skyborne—also known as the shen’dorei, or hidden people—are a new playable race in World of Warcraft: Forever. Their journey begins on Zeph...",
-        "es": "[WoW: Forever Meet the New Skyborne] The Skyborne—also known as the shen’dorei, or hidden people—are a new playable race in World of Warcraft: Forever. Their journey begins on Zeph..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/to/TO55V6TRR1RW1790054798721.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/to/TO55V6TRR1RW1790054798721.png\" alt=\"WoW: Forever Meet the New Skyborne\" width=\"833\" height=\"468\"></a></p><p>The Skyborne—also known as the shen’dorei, or hidden people—are a new playable race in World of Warcraft: Forever. Their journey begins on Zephras Isle, a level 1–12 starting experience that blends classic Warcraft aesthetics with elemental architecture and a story shaped by wind and ancestry. At character creation, you’ll choose whether your Skyborne joins the proud Horde or the noble Alliance. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24302071\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/to/TO55V6TRR1RW1790054798721.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/to/TO55V6TRR1RW1790054798721.png\" alt=\"WoW: Forever Meet the New Skyborne\" width=\"833\" height=\"468\"></a></p><p>The Skyborne—also known as the shen’dorei, or hidden people—are a new playable race in World of Warcraft: Forever. Their journey begins on Zephras Isle, a level 1–12 starting experience that blends classic Warcraft aesthetics with elemental architecture and a story shaped by wind and ancestry. At character creation, you’ll choose whether your Skyborne joins the proud Horde or the noble Alliance. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24302071\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-meet-the-new-skyborne/630770/1"
     }
   ],
   "blizzardNews": [
