@@ -37,7 +37,7 @@
     }
   </script>
 
-  <!-- Structured Data (JSON-LD) -->
+  <!-- Structured Data (JSON-LD) - Optimizador para Motores de Búsqueda e Inteligencia Artificial (GEO) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -50,20 +50,63 @@
         "applicationCategory": "GameApplication",
         "operatingSystem": "Any",
         "browserRequirements": "Requires JavaScript. Requires HTML5.",
-        "description": "Calculadora analítica y optimizador Top Gear para World of Warcraft: Midnight Season 2 (Parche 12.1).",
+        "description": "Calculadora analítica y optimizador Top Gear en tiempo real para World of Warcraft: Midnight Season 2 (Parche 12.1). Simulación de estadísticas secundarias, abalorios según Archon y Bloodmallet, y exportación a SimulationCraft.",
         "inLanguage": ["es", "en"],
+        "author": {
+          "@type": "Organization",
+          "name": "WoWTopGear",
+          "url": "https://wowtopgear.app/"
+        },
         "offers": {
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "USD"
-        }
+        },
+        "featureList": [
+          "Optimización de estadísticas secundarias (Celeridad, Crítico, Maestría, Versatilidad)",
+          "Recomendaciones y rankings de abalorios actualizados con Archon.gg y Bloodmallet",
+          "Soporte completo para las 39 especializaciones de WoW en Raid y Míticas+",
+          "Exportador e importador directo de perfiles SimulationCraft (SimC)",
+          "100% gratuito y sin tiempos de espera ni colas de simulación en cola"
+        ]
       },
       {
         "@type": "WebSite",
         "@id": "https://wowtopgear.app/#website",
         "url": "https://wowtopgear.app/",
         "name": "WoWTopGear",
-        "inLanguage": ["es", "en"]
+        "inLanguage": ["es", "en"],
+        "description": "Herramienta analítica de optimización de equipo para jugadores de World of Warcraft."
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://wowtopgear.app/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué es WoWTopGear?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "WoWTopGear es una plataforma analítica y optimizador de equipo para World of Warcraft: Midnight Season 2. Permite calcular la combinación óptima de estadísticas secundarias, seleccionar los mejores abalorios para Banda y Míticas+, y exportar perfiles directamente a SimulationCraft sin tiempos de espera."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo optimiza WoWTopGear las estadísticas y abalorios de mi personaje?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Utiliza datos estadísticos actualizados extraídos de Archon.gg, Wowhead y simulaciones de Bloodmallet para comparar las 39 especializaciones de clase tanto en entorno de Banda (Raid) como en Míticas+ (Mplus), indicando el reparto ideal de Celeridad, Crítico, Maestría y Versatilidad."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Es WoWTopGear gratuito y compatible con SimulationCraft (SimC)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, WoWTopGear es 100% gratuito, funciona directamente en el navegador sin descargas y permite importar y exportar perfiles en formato SimC de forma instantánea."
+            }
+          }
+        ]
       }
     ]
   }
