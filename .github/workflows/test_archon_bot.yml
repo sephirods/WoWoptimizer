@@ -1,4 +1,4 @@
-name: Test Archon Cloudflare Access
+name: Test Archon Presets Cloudflare Access
 
 on:
   workflow_dispatch: # Se ejecuta únicamente cuando pulses el botón "Run workflow" manualmente en GitHub Actions
