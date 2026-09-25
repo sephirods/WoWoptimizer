@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/crea-un-nombre-verdaderamente-tuyo-en-wow-forever/80163/1"
     },
     {
+      "id": "blizz-6391929",
+      "postId": 6391929,
+      "topicId": 625785,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-09-25T00:19:11.678Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Midnight Hotfixes - 24 September",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - 24 September"
+      },
+      "summary": {
+        "en": "September 24, 2026 \nDelves \n\nIn the Shadow Enclave delve variant “Infiltrate and Ameliorate”, Oddball “Ingredient” now teleport to one of several points in the play space if droppe...",
+        "es": "September 24, 2026 \nDelves \n\nIn the Shadow Enclave delve variant “Infiltrate and Ameliorate”, Oddball “Ingredient” now teleport to one of several points in the play space if droppe..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 24, 2026</strong></p>\n<p><strong>Delves</strong></p>\n<ul>\n<li>In the Shadow Enclave delve variant “Infiltrate and Ameliorate”, Oddball “Ingredient” now teleport to one of several points in the play space if dropped into the pit.</li>\n</ul>\n<p><strong>Player versus Player</strong></p>\n<ul>\n<li><em>Developers’ notes: We’ve added a few more adjustments to our prior changes to movement speed reduction effects.</em></li>\n<li><strong>Hunter</strong>\n<ul>\n<li>Wing Clip now reduces movement speed by 40% in PvP combat.</li>\n<li>Improved Snaring now increases the movement speed reduction of Wing Clip by 10% in PvP combat.</li>\n</ul>\n</li>\n<li><strong>Mage</strong>\n<ul>\n<li><strong>Arcane</strong>\n<ul>\n<li>Chrono Shift (PvP Talent) now reduces movement speed by 30% in PvP combat (was 50%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Paladin</strong>\n<ul>\n<li>Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 24, 2026</strong></p>\n<p><strong>Delves</strong></p>\n<ul>\n<li>In the Sombras Enclave delve variant “Infiltrate and Ameliorate”, Oddball “Ingredient” now teleport to one of several points in the play space if dropped into the pit.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li><em>Developers’ notes: We’ve added a few more adjustments to our prior changes to movement speed reduction effects.</em></li>\n<li><strong>CAZADOR</strong>\n<ul>\n<li>Wing Clip ahora reduce movement speed by 40% in PvP combat.</li>\n<li>Improved Snaring ahora aumenta the movement speed reduction of Wing Clip by 10% in PvP combat.</li>\n</ul>\n</li>\n<li><strong>MAGO</strong>\n<ul>\n<li><strong>Arcano</strong>\n<ul>\n<li>Chrono Shift (PvP Talent) ahora reduce movement speed by 30% in PvP combat (antes era 50%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li>Consecrated Ground ahora reduce movement speed by 20% in PvP combat (antes era 50%).</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-24-september/625785/40"
+    },
+    {
       "id": "blizz-6391806",
       "postId": 6391806,
       "topicId": 631318,
@@ -575,8 +603,8 @@ window.WOW_NEWS_DATABASE = {
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - 23 September",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - 23 September"
+        "en": "World of Warcraft: Midnight Hotfixes - 24 September",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - 24 September"
       },
       "summary": {
         "en": "September 23, 2026 \nClasses \n\nDeath Knight\n\nUnholy\n\nResolved an issue with Blightfall doing less damage as more time passes since the plague was applied.\n\n\n\n\nMonk\n\nWindwalker\n\nFixe...",
@@ -587,7 +615,7 @@ window.WOW_NEWS_DATABASE = {
         "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 23, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>CABALLERO DE LA MUERTE</strong>\n<ul>\n<li><strong>Profano</strong>\n<ul>\n<li>Resolved an issue with Blightfall doing less damage as more time passes since the plague was applied.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MONJE</strong>\n<ul>\n<li><strong>Viajero del viento</strong>\n<ul>\n<li>Fixed an issue that caused PvP adjustments to Viajero del viento’s Celestial Conduit and Flurry Strikes to apply in PvE as well.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Delves</strong></p>\n<ul>\n<li>Fixed issue where Valeera becomes unable to change talents and gain abilities after a faction change. Players experiencing this will need to enter a delve on the affected character, then leave the delve, and then log out to correct the issue.</li>\n</ul></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-23-september/625785/39"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-24-september/625785/39"
     },
     {
       "id": "blizz-6388827",
@@ -631,8 +659,8 @@ window.WOW_NEWS_DATABASE = {
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - 23 September",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - 23 September"
+        "en": "World of Warcraft: Midnight Hotfixes - 24 September",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - 24 September"
       },
       "summary": {
         "en": "Corrected the text of the Coiled Altar hotfix from September 15: \n\n1 Spiteful Soulcoiler will always spawn nearby Malacrass on Mythic difficulty.\nIncreased the likelihood a Spitefu...",
@@ -643,35 +671,7 @@ window.WOW_NEWS_DATABASE = {
         "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Corrected the text of the Coiled Altar hotfix from September 15:</p>\n<ul>\n<li><s>1 Spiteful Soulcoiler will always spawn nearby Malacrass on Mythic difficulty.</s></li>\n<li>Increased the likelihood a Spiteful Soulcoiler will spawn near Malacrass on Mythic difficulty.</li>\n</ul></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-23-september/625785/38"
-    },
-    {
-      "id": "blizz-6388367",
-      "postId": 6388367,
-      "topicId": 630973,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-23T17:00:13.918Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Get to Know the World of Warcraft: Forever Legacy System",
-        "es": "Get to Know the World of Warcraft: Forever Legacy System"
-      },
-      "summary": {
-        "en": "[Get to Know the World of Warcraft: Forever Legacy System] Explore the Legacy System in World of Warcraft: Forever, an account-wide progression system that lets you complete challe...",
-        "es": "[Get to Know the World of Warcraft: Forever Legacy System] Explore the Legacy System in World of Warcraft: Forever, an account-wide progression system that lets you complete challe..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Get to Know the World of Warcraft: Forever Legacy System\" width=\"833\" height=\"468\"></a></p><p>Explore the Legacy System in World of Warcraft: Forever, an account-wide progression system that lets you complete challenges, earn Legacy Points, unlock character-specific perks, and collect cosmetic rewards as you adventure across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24307383\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Get to Know the World of Warcraft: Forever Legacy System\" width=\"833\" height=\"468\"></a></p><p>Explore the Legacy System in World of Warcraft: Forever, an account-wide progression system that lets you complete challenges, earn Legacy Points, unlock character-specific perks, and collect cosmetic rewards as you adventure across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24307383\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/get-to-know-the-world-of-warcraft-forever-legacy-system/630973/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-24-september/625785/38"
     }
   ],
   "blizzardNews": [
