@@ -2,6 +2,146 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30200159",
+      "postId": 30200159,
+      "topicId": 2362048,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-09-25T17:59:14.768Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Beta Realm Restarts Incoming - Sept. 25",
+        "es": "Beta Realm Restarts Próximamente - Sept. 25"
+      },
+      "summary": {
+        "en": "To implement fixes that should address stability issues, we will shutdown and restart the Beta in the next few minutes. \nThe maintenance period should be very brief....",
+        "es": "To implement fixes that should address stability issues, we will shutdown and restart the Beta in the next few minutes. \nThe Mantenimiento period should be very brief...."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>To implement fixes that should address stability issues, we will shutdown and restart the Beta in the next few minutes.</p>\n<p>The maintenance period should be very brief.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>To implement fixes that should address stability issues, we will shutdown and restart the Beta in the next few minutes.</p>\n<p>The maintenance period should be very brief.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-realm-restarts-incoming-sept-25/2362048/1"
+    },
+    {
+      "id": "blizz-30199475",
+      "postId": 30199475,
+      "topicId": 2361993,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Aggrend (WoW Game Developer)",
+      "dateRaw": "2026-09-25T17:24:56.488Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "What insights would you like to see in a future episode of the WoW: Forever Podcast?",
+        "es": "What insights would you like to see in a future episode of the WoW: Forever Podcast?"
+      },
+      "summary": {
+        "en": "Greetings! \nWe’ve been super excited about the reception to our first episode of the WoW: Forever Podcast and are already gearing up for next week’s show! \nThis next episode is goi...",
+        "es": "Greetings! \nWe’ve been super excited about the reception to our first episode of the WoW: Forever Podcast and are already gearing up for next week’s show! \nThis next episode is goi..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Greetings!</p>\n<p>We’ve been super excited about the reception to our first episode of the <a href=\"https://www.youtube.com/watch?v=m49-jvGPCkA\">WoW: Forever Podcast</a> and are already gearing up for next week’s show!</p>\n<p>This next episode is going to focus heavily <strong><span class=\"bbcode-u\">Class Design</span></strong> with special guests from our systems design team, so please look forward to that!</p>\n<p>Looking forward past that, the team wanted to know if there are any other topics that you would like developer insights on for future episodes?</p>\n<p>So, feel free to post and let us know what topics you’d like to see us dig into and discuss in the WoW: Forever Podcast!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Greetings!</p>\n<p>We’ve been super excited about the reception to our first episode of the <a href=\"https://www.youtube.com/watch?v=m49-jvGPCkA\">WoW: Forever Podcast</a> and are already gearing up for next week’s show!</p>\n<p>This next episode is going to focus heavily <strong><span class=\"bbcode-u\">Class Design</span></strong> with special guests from our systems design team, so please look forward to that!</p>\n<p>Looking forward past that, the team wanted to know if there are any other topics that you would like developer insights on for future episodes?</p>\n<p>So, feel free to post and let us know what topics you’d like to see us dig into and discuss in the WoW: Forever Podcast!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/what-insights-would-you-like-to-see-in-a-future-episode-of-the-wow-forever-podcast/2361993/1"
+    },
+    {
+      "id": "blizz-30199376",
+      "postId": 30199376,
+      "topicId": 2336376,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-09-25T17:20:04.142Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Midnight Hotfixes - September 24",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - September 24"
+      },
+      "summary": {
+        "en": "September 24, 2026 \nDelves \n\nIn the Shadow Enclave delve variant “Infiltrate and Ameliorate”, Oddball “Ingredient” now teleport to one of several points in the play space if droppe...",
+        "es": "September 24, 2026 \nDelves \n\nIn the Shadow Enclave delve variant “Infiltrate and Ameliorate”, Oddball “Ingredient” now teleport to one of several points in the play space if droppe..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 24, 2026</strong></p>\n<p><strong>Delves</strong></p>\n<ul>\n<li>In the Shadow Enclave delve variant “Infiltrate and Ameliorate”, Oddball “Ingredient” now teleport to one of several points in the play space if dropped into the pit.</li>\n</ul>\n<p><strong>Player versus Player</strong></p>\n<ul>\n<li><em>Developers’ notes: We’ve added a few more adjustments to our prior changes to movement speed reduction effects.</em></li>\n<li><strong>Hunter</strong>\n<ul>\n<li>Wing Clip now reduces movement speed by 40% in PvP combat.</li>\n<li>Improved Snaring now increases the movement speed reduction of Wing Clip by 10% in PvP combat.</li>\n</ul>\n</li>\n<li><strong>Mage</strong>\n<ul>\n<li><strong>Arcane</strong>\n<ul>\n<li>Chrono Shift (PvP Talent) now reduces movement speed by 30% in PvP combat (was 50%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Paladin</strong>\n<ul>\n<li>Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 24, 2026</strong></p>\n<p><strong>Delves</strong></p>\n<ul>\n<li>In the Sombras Enclave delve variant “Infiltrate and Ameliorate”, Oddball “Ingredient” now teleport to one of several points in the play space if dropped into the pit.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li><em>Developers’ notes: We’ve added a few more adjustments to our prior changes to movement speed reduction effects.</em></li>\n<li><strong>CAZADOR</strong>\n<ul>\n<li>Wing Clip ahora reduce movement speed by 40% in PvP combat.</li>\n<li>Improved Snaring ahora aumenta the movement speed reduction of Wing Clip by 10% in PvP combat.</li>\n</ul>\n</li>\n<li><strong>MAGO</strong>\n<ul>\n<li><strong>Arcano</strong>\n<ul>\n<li>Chrono Shift (PvP Talent) ahora reduce movement speed by 30% in PvP combat (antes era 50%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li>Consecrated Ground ahora reduce movement speed by 20% in PvP combat (antes era 50%).</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-september-24/2336376/154"
+    },
+    {
+      "id": "blizz-30198977",
+      "postId": 30198977,
+      "topicId": 2361933,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-25T17:00:16.655Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Forever Headlines a Packed WoW Weekly",
+        "es": "World of Warcraft: Forever Headlines a Packed WoW Weekly"
+      },
+      "summary": {
+        "en": "[World of Warcraft: Forever Headlines a Packed WoW Weekly] Get to know World of Warcraft: Forever through our latest articles on choosing your ruleset, naming your character, class...",
+        "es": "[World of Warcraft: Forever Headlines a Packed WoW Weekly] Get to know World of Warcraft: Forever through our latest articles on choosing your ruleset, naming your character, class..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\" alt=\"World of Warcraft: Forever Headlines a Packed WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>Get to know World of Warcraft: Forever through our latest articles on choosing your ruleset, naming your character, class and race combinations, the new Skyborne race, and the Legacy System, then watch episode 1 of the World of Warcraft: Forever Podcast. You can also look ahead to October’s Trading Post and catch up on the Brewfest in-game holiday, what’s happening in the WoW Portal Room, and more in WoW Weekly. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24303315\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\" alt=\"World of Warcraft: Forever Headlines a Packed WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>Get to know World of Warcraft: Forever through our latest articles on choosing your ruleset, naming your character, class and race combinations, the new Skyborne race, and the Legacy System, then watch episode 1 of the World of Warcraft: Forever Podcast. You can also look ahead to October’s Trading Post and catch up on the Brewfest in-game holiday, what’s happening in the WoW Portal Room, and more in WoW Weekly. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24303315\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-headlines-a-packed-wow-weekly/2361933/1"
+    },
+    {
+      "id": "blizz-30198971",
+      "postId": 30198971,
+      "topicId": 2361931,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-25T17:00:08.321Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft®: Forever Escape Together Comes to Toronto",
+        "es": "World of Warcraft®: Forever Escape Together Comes to Toronto"
+      },
+      "summary": {
+        "en": "[World of Warcraft®: Forever Escape Together Comes to Toronto] The Horde and the Alliance are pushing their rivalry to the test, and you&#39;re invited to watch—and even take part ...",
+        "es": "[World of Warcraft®: Forever Escape Together Comes to Toronto] The Horde and the Alliance are pushing their rivalry to the test, and you&#39;re invited to watch—and even take part ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/96/96CYIADI0CPD1790257550294.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/96/96CYIADI0CPD1790257550294.png\" alt=\"World of Warcraft®: Forever Escape Together Comes to Toronto\" width=\"833\" height=\"468\"></a></p><p>The Horde and the Alliance are pushing their rivalry to the test, and you're invited to watch—and even take part in the adventure! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302094\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/96/96CYIADI0CPD1790257550294.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/96/96CYIADI0CPD1790257550294.png\" alt=\"World of Warcraft®: Forever Escape Together Comes to Toronto\" width=\"833\" height=\"468\"></a></p><p>The Horde and the Alliance are pushing their rivalry to the test, and you're invited to watch—and even take part in the adventure! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302094\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft%C2%AE-forever-escape-together-comes-to-toronto/2361931/1"
+    },
+    {
       "id": "blizz-30185543",
       "postId": 30185543,
       "topicId": 2360739,
@@ -86,144 +226,32 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-september-24/2360696/1"
     },
     {
-      "id": "blizz-30181803",
-      "postId": 30181803,
-      "topicId": 2360489,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-09-24T19:50:55.653Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Beta Realm Maintenance is Underway - September 24",
-        "es": "Beta Realm Mantenimiento is Underway - September 24"
-      },
-      "summary": {
-        "en": "We took the Beta down for maintenance and to deploy a new build. We don’t have an ETA just yet, but it should take at least a couple of hours. \nWe’ll have a full change log (develo...",
-        "es": "We took the Beta down for Mantenimiento and to deploy a new build. We don’t have an ETA just yet, but it should take at least a couple of hours. \nWe’ll have a full change log (deve..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We took the Beta down for maintenance and to deploy a new build. We don’t have an ETA just yet, but it should take at least a couple of hours.</p>\n<p>We’ll have a full change log (development notes) as well as updated known issues post here soon.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We took the Beta down for maintenance and to deploy a new build. We don’t have an ETA just yet, but it should take at least a couple of hours.</p>\n<p>We’ll have a full change log (development notes) as well as updated known issues post here soon.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-realm-maintenance-is-underway-september-24/2360489/1"
-    },
-    {
-      "id": "blizz-30180358",
-      "postId": 30180358,
-      "topicId": 2347306,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Nethaera (Community Manager)",
-      "dateRaw": "2026-09-24T18:26:00.892Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "[Updated 9/24] Pre-Purchase the World of Warcraft®: Forever Collector’s Edition",
-        "es": "[Updated 9/24] Pre-Purchase the World of Warcraft®: Forever Collector’s Edition"
-      },
-      "summary": {
-        "en": "We’ve updated this article to note some additional stock availability. \n\nWe are making additional English versions of the World of Warcraft: Forever Collector’s Edition available f...",
-        "es": "We’ve updated this article to note some additional stock availability. \n\nWe are making additional English versions of the World of Warcraft: Forever Collector’s Edition available f..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve updated this article to note some additional stock availability.</p>\n<blockquote>\n<p>We are making additional English versions of the World of Warcraft: Forever Collector’s Edition available for purchase starting as early as today (exact timing will vary by retailer) in North America, United Kingdom, Europe, Australia and New Zealand, giving those interested another opportunity to add this keepsake set to their collection to display their Warcraft pride beyond Azeroth. Please note, orders placed from this restock are expected to be shipped and delivered February 2027, after the November 4, 2026, launch of WoW: Forever. Also note, there is a strict purchase limit of one (1) copy per household on the Blizzard Gear Store.</p>\n</blockquote>\n<blockquote>\n<p><strong><a href=\"https://gear.blizzard.com/products/wowccl0012-world-of-warcraft-forever-collectors-edition?utm_source=partner&amp;utm_medium=blog&amp;utm_campaign=wowforever-ce-restock\">Pre-purchase now</a></strong></p>\n</blockquote></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve updated this article to note some additional stock availability.</p>\n<blockquote>\n<p>We are making additional English versions of the World of Warcraft: Forever Collector’s Edition available for purchase starting as early as today (exact timing will vary by retailer) in North America, United Kingdom, Europe, Australia and New Zealand, giving those interested another opportunity to add this keepsake set to their collection to display their Warcraft pride beyond Azeroth. Please note, orders placed from this restock are expected to be shipped and delivered February 2027, after the November 4, 2026, launch of WoW: Forever. Also note, there is a strict purchase limit of one (1) copy per household on the Blizzard Gear Store.</p>\n</blockquote>\n<blockquote>\n<p><strong><a href=\"https://gear.blizzard.com/products/wowccl0012-world-of-warcraft-forever-collectors-edition?utm_source=partner&amp;utm_medium=blog&amp;utm_campaign=wowforever-ce-restock\">Pre-purchase now</a></strong></p>\n</blockquote></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/updated-924-pre-purchase-the-world-of-warcraft%C2%AE-forever-collector%E2%80%99s-edition/2347306/106"
-    },
-    {
-      "id": "blizz-30178760",
-      "postId": 30178760,
-      "topicId": 2360203,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1231582",
+      "postId": 1231582,
+      "topicId": 80222,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-24T16:16:42.509Z",
+      "dateRaw": "2026-09-25T17:00:12.668Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Watch the World of Warcraft: Forever Podcast, Ep. 1",
-        "es": "Watch the World of Warcraft: Forever Podcast, Ep. 1"
+        "en": "World of Warcraft: Forever ha tenido una semana llena de novedades",
+        "es": "World of Warcraft: Forever ha tenido una semana llena de novedades"
       },
       "summary": {
-        "en": "[Watch the World of Warcraft: Forever Podcast, Ep. 1] Join Senior Game Designer Josh “Aggrend” Greenfield, Lead Classic Designer Tim Jones, and content creators Countdown To Classi...",
-        "es": "[Watch the World of Warcraft: Forever Podcast, Ep. 1] Join Senior Game Designer Josh “Aggrend” Greenfield, Lead Classic Designer Tim Jones, and content creators Countdown To Classi..."
+        "en": "[World of Warcraft: Forever ha tenido una semana llena de novedades.] Familiarízate con World of Warcraft: Forever con nuestros últimos artículos sobre los conjuntos de reglas, nom...",
+        "es": "[World of Warcraft: Forever ha tenido una semana llena de novedades.] Familiarízate con World of Warcraft: Forever con nuestros últimos artículos sobre los conjuntos de reglas, nom..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ep/EPSTZUAPQ9TV1790269181996.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ep/EPSTZUAPQ9TV1790269181996.png\" alt=\"Watch the World of Warcraft: Forever Podcast, Ep. 1\" width=\"833\" height=\"468\"></a></p><p>Join Senior Game Designer Josh “Aggrend” Greenfield, Lead Classic Designer Tim Jones, and content creators Countdown To Classic and Xaryu in the first episode of the World of Warcraft: Forever Podcast. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24304076\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ep/EPSTZUAPQ9TV1790269181996.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ep/EPSTZUAPQ9TV1790269181996.png\" alt=\"Watch the World of Warcraft: Forever Podcast, Ep. 1\" width=\"833\" height=\"468\"></a></p><p>Join Senior Game Designer Josh “Aggrend” Greenfield, Lead Classic Designer Tim Jones, and content creators Countdown To Classic and Xaryu in the first episode of the World of Warcraft: Forever Podcast. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24304076\">View Full Article</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\" alt=\"World of Warcraft: Forever ha tenido una semana llena de novedades.\" width=\"833\" height=\"468\"></a></p><p>Familiarízate con World of Warcraft: Forever con nuestros últimos artículos sobre los conjuntos de reglas, nombres de personajes, combinaciones de razas y clases, la nueva raza de los cielonatos y el sistema de legado, y no te pierdas el episodio 1 del pódcast de World of Warcraft: Forever. También puedes echar un vistazo al puesto comercial de octubre y al evento de la Fiesta de la Cerveza, además de comprobar qué se cuece en WoW Portal Room y mucho más en Esta semana en WoW. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303315\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\" alt=\"World of Warcraft: Forever ha tenido una semana llena de novedades.\" width=\"833\" height=\"468\"></a></p><p>Familiarízate con World of Warcraft: Forever con nuestros últimos artículos sobre los conjuntos de reglas, nombres de personajes, combinaciones de razas y clases, la nueva raza de los cielonatos y el sistema de legado, y no te pierdas el episodio 1 del pódcast de World of Warcraft: Forever. También puedes echar un vistazo al puesto comercial de octubre y al evento de la Fiesta de la Cerveza, además de comprobar qué se cuece en WoW Portal Room y mucho más en Esta semana en WoW. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303315\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/watch-the-world-of-warcraft-forever-podcast-ep-1/2360203/1"
-    },
-    {
-      "id": "blizz-30171418",
-      "postId": 30171418,
-      "topicId": 2336376,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-09-24T00:12:40.381Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - September 23",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - September 23"
-      },
-      "summary": {
-        "en": "September 23, 2026 \nClasses \n\nDeath Knight\n\nUnholy\n\nResolved an issue with Blightfall doing less damage as more time passes since the plague was applied.\n\n\n\n\nMonk\n\nWindwalker\n\nFixe...",
-        "es": "September 23, 2026 \nClasses \n\nDeath Knight\n\nUnholy\n\nResolved an issue with Blightfall doing less damage as more time passes since the plague was applied.\n\n\n\n\nMonk\n\nWindwalker\n\nFixe..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 23, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>Death Knight</strong>\n<ul>\n<li><strong>Unholy</strong>\n<ul>\n<li>Resolved an issue with Blightfall doing less damage as more time passes since the plague was applied.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Monk</strong>\n<ul>\n<li><strong>Windwalker</strong>\n<ul>\n<li>Fixed an issue that caused PvP adjustments to Windwalker’s Celestial Conduit and Flurry Strikes to apply in PvE as well.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Delves</strong></p>\n<ul>\n<li>Fixed issue where Valeera becomes unable to change talents and gain abilities after a faction change. Players experiencing this will need to enter a delve on the affected character, then leave the delve, and then log out to correct the issue.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 23, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>CABALLERO DE LA MUERTE</strong>\n<ul>\n<li><strong>Profano</strong>\n<ul>\n<li>Resolved an issue with Blightfall doing less damage as more time passes since the plague was applied.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MONJE</strong>\n<ul>\n<li><strong>Viajero del viento</strong>\n<ul>\n<li>Fixed an issue that caused PvP adjustments to Viajero del viento’s Celestial Conduit and Flurry Strikes to apply in PvE as well.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Delves</strong></p>\n<ul>\n<li>Fixed issue where Valeera becomes unable to change talents and gain abilities after a faction change. Players experiencing this will need to enter a delve on the affected character, then leave the delve, and then log out to correct the issue.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-september-23/2336376/149"
-    },
-    {
-      "id": "blizz-30168763",
-      "postId": 30168763,
-      "topicId": 2359491,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-09-23T20:37:11.676Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Increased Weather Effects",
-        "es": "Increased Weather Effects"
-      },
-      "summary": {
-        "en": "Coming soon to the Beta \n\n  \n    [Increased weather effects are coming to WoW: Forever Beta Zones]...",
-        "es": "Coming soon to the Beta \n\n  \n    [Increased weather effects are coming to WoW: Forever Beta Zones]..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Coming soon to the Beta</p>\n<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"grhjK8xH3H4\" data-video-title=\"Increased weather effects are coming to WoW: Forever Beta Zones\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=grhjK8xH3H4\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/grhjK8xH3H4/maxresdefault.jpg\" title=\"Increased weather effects are coming to WoW: Forever Beta Zones\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Coming soon to the Beta</p>\n<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"grhjK8xH3H4\" data-video-title=\"Increased weather effects are coming to WoW: Forever Beta Zones\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=grhjK8xH3H4\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/grhjK8xH3H4/maxresdefault.jpg\" title=\"Increased weather effects are coming to WoW: Forever Beta Zones\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/increased-weather-effects/2359491/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-ha-tenido-una-semana-llena-de-novedades/80222/1"
     },
     {
       "id": "blizz-1231485",
@@ -422,32 +450,88 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/crea-un-nombre-verdaderamente-tuyo-en-wow-forever/80163/1"
     },
     {
-      "id": "blizz-1231282",
-      "postId": 1231282,
-      "topicId": 80161,
+      "id": "blizz-6394315",
+      "postId": 6394315,
+      "topicId": 631613,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-21T17:00:08.678Z",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-09-25T17:59:34.239Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Elige un conjunto de reglas para World of Warcraft: Forever",
-        "es": "Elige un conjunto de reglas para World of Warcraft: Forever"
+        "en": "Beta Realm Restarts Incoming - 25 September",
+        "es": "Beta Realm Restarts Próximamente - 25 September"
       },
       "summary": {
-        "en": "[Elige un conjunto de reglas para World of Warcraft: Forever] World of Warcraft: Forever va a adoptar un nuevo enfoque en la forma y el lugar en los que los jugadores inician su av...",
-        "es": "[Elige un conjunto de reglas para World of Warcraft: Forever] World of Warcraft: Forever va a adoptar un nuevo enfoque en la forma y el lugar en los que los jugadores inician su av..."
+        "en": "To implement fixes that should address stability issues, we will shutdown and restart the Beta in the next few minutes. \nThe maintenance period should be very brief....",
+        "es": "To implement fixes that should address stability issues, we will shutdown and restart the Beta in the next few minutes. \nThe Mantenimiento period should be very brief...."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1p/1PD2ZLVROZOB1789961389530.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1p/1PD2ZLVROZOB1789961389530.png\" alt=\"Elige un conjunto de reglas para World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever va a adoptar un nuevo enfoque en la forma y el lugar en los que los jugadores inician su aventura. En lugar de elegir de una larga lista de reinos, los jugadores elegirán un conjunto de reglas (normal, JcJ, rol o Hardcore) adaptadas a como que quieren experimentar Azeroth. Cada opción forma su propio gran ecosistema para formar grupos, completar mazmorras, participar en bandas y formar comunidades. Hardcore se unirá a la lista disponible en algún momento tras el lanzamiento. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302070\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1p/1PD2ZLVROZOB1789961389530.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1p/1PD2ZLVROZOB1789961389530.png\" alt=\"Elige un conjunto de reglas para World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever va a adoptar un nuevo enfoque en la forma y el lugar en los que los jugadores inician su aventura. En lugar de elegir de una larga lista de reinos, los jugadores elegirán un conjunto de reglas (normal, JcJ, rol o Hardcore) adaptadas a como que quieren experimentar Azeroth. Cada opción forma su propio gran ecosistema para formar grupos, completar mazmorras, participar en bandas y formar comunidades. Hardcore se unirá a la lista disponible en algún momento tras el lanzamiento. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302070\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>To implement fixes that should address stability issues, we will shutdown and restart the Beta in the next few minutes.</p>\n<p>The maintenance period should be very brief.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>To implement fixes that should address stability issues, we will shutdown and restart the Beta in the next few minutes.</p>\n<p>The maintenance period should be very brief.</p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/elige-un-conjunto-de-reglas-para-world-of-warcraft-forever/80161/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/beta-realm-restarts-incoming-25-september/631613/1"
+    },
+    {
+      "id": "blizz-6394247",
+      "postId": 6394247,
+      "topicId": 631603,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Aggrend (WoW Game Developer)",
+      "dateRaw": "2026-09-25T17:25:38.425Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "What insights would you like to see in a future episode of the WoW: Forever Podcast?",
+        "es": "What insights would you like to see in a future episode of the WoW: Forever Podcast?"
+      },
+      "summary": {
+        "en": "Greetings! \nWe’ve been super excited about the reception to our first episode of the WoW: Forever Podcast and are already gearing up for next week’s show! \nThis next episode is goi...",
+        "es": "Greetings! \nWe’ve been super excited about the reception to our first episode of the WoW: Forever Podcast and are already gearing up for next week’s show! \nThis next episode is goi..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Greetings!</p>\n<p>We’ve been super excited about the reception to our first episode of the <a href=\"https://www.youtube.com/watch?v=m49-jvGPCkA\">WoW: Forever Podcast</a> and are already gearing up for next week’s show!</p>\n<p>This next episode is going to focus heavily <strong><span class=\"bbcode-u\">Class Design</span></strong> with special guests from our systems design team, so please look forward to that!</p>\n<p>Looking forward past that, the team wanted to know if there are any other topics that you would like developer insights on for future episodes?</p>\n<p>So, feel free to post and let us know what topics you’d like to see us dig into and discuss in the WoW: Forever Podcast!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Greetings!</p>\n<p>We’ve been super excited about the reception to our first episode of the <a href=\"https://www.youtube.com/watch?v=m49-jvGPCkA\">WoW: Forever Podcast</a> and are already gearing up for next week’s show!</p>\n<p>This next episode is going to focus heavily <strong><span class=\"bbcode-u\">Class Design</span></strong> with special guests from our systems design team, so please look forward to that!</p>\n<p>Looking forward past that, the team wanted to know if there are any other topics that you would like developer insights on for future episodes?</p>\n<p>So, feel free to post and let us know what topics you’d like to see us dig into and discuss in the WoW: Forever Podcast!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/what-insights-would-you-like-to-see-in-a-future-episode-of-the-wow-forever-podcast/631603/1"
+    },
+    {
+      "id": "blizz-6394187",
+      "postId": 6394187,
+      "topicId": 631594,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-25T17:00:13.233Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Forever Headlines a Packed WoW Weekly",
+        "es": "World of Warcraft: Forever Headlines a Packed WoW Weekly"
+      },
+      "summary": {
+        "en": "[World of Warcraft: Forever Headlines a Packed WoW Weekly] Get to know World of Warcraft: Forever through our latest articles on choosing your ruleset, naming your character, class...",
+        "es": "[World of Warcraft: Forever Headlines a Packed WoW Weekly] Get to know World of Warcraft: Forever through our latest articles on choosing your ruleset, naming your character, class..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\" alt=\"World of Warcraft: Forever Headlines a Packed WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>Get to know World of Warcraft: Forever through our latest articles on choosing your ruleset, naming your character, class and race combinations, the new Skyborne race, and the Legacy System, then watch episode 1 of the World of Warcraft: Forever Podcast. You can also look ahead to October’s Trading Post and catch up on the Brewfest in-game holiday, what’s happening in the WoW Portal Room, and more in WoW Weekly. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24303315\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\" alt=\"World of Warcraft: Forever Headlines a Packed WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>Get to know World of Warcraft: Forever through our latest articles on choosing your ruleset, naming your character, class and race combinations, the new Skyborne race, and the Legacy System, then watch episode 1 of the World of Warcraft: Forever Podcast. You can also look ahead to October’s Trading Post and catch up on the Brewfest in-game holiday, what’s happening in the WoW Portal Room, and more in WoW Weekly. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24303315\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-headlines-a-packed-wow-weekly/631594/1"
     },
     {
       "id": "blizz-6391929",
@@ -588,90 +672,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/watch-the-world-of-warcraft-forever-podcast-ep-1/631202/1"
-    },
-    {
-      "id": "blizz-6389101",
-      "postId": 6389101,
-      "topicId": 625785,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-09-24T00:12:50.901Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - 24 September",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - 24 September"
-      },
-      "summary": {
-        "en": "September 23, 2026 \nClasses \n\nDeath Knight\n\nUnholy\n\nResolved an issue with Blightfall doing less damage as more time passes since the plague was applied.\n\n\n\n\nMonk\n\nWindwalker\n\nFixe...",
-        "es": "September 23, 2026 \nClasses \n\nDeath Knight\n\nUnholy\n\nResolved an issue with Blightfall doing less damage as more time passes since the plague was applied.\n\n\n\n\nMonk\n\nWindwalker\n\nFixe..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 23, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>Death Knight</strong>\n<ul>\n<li><strong>Unholy</strong>\n<ul>\n<li>Resolved an issue with Blightfall doing less damage as more time passes since the plague was applied.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Monk</strong>\n<ul>\n<li><strong>Windwalker</strong>\n<ul>\n<li>Fixed an issue that caused PvP adjustments to Windwalker’s Celestial Conduit and Flurry Strikes to apply in PvE as well.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Delves</strong></p>\n<ul>\n<li>Fixed issue where Valeera becomes unable to change talents and gain abilities after a faction change. Players experiencing this will need to enter a delve on the affected character, then leave the delve, and then log out to correct the issue.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 23, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>CABALLERO DE LA MUERTE</strong>\n<ul>\n<li><strong>Profano</strong>\n<ul>\n<li>Resolved an issue with Blightfall doing less damage as more time passes since the plague was applied.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MONJE</strong>\n<ul>\n<li><strong>Viajero del viento</strong>\n<ul>\n<li>Fixed an issue that caused PvP adjustments to Viajero del viento’s Celestial Conduit and Flurry Strikes to apply in PvE as well.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Delves</strong></p>\n<ul>\n<li>Fixed issue where Valeera becomes unable to change talents and gain abilities after a faction change. Players experiencing this will need to enter a delve on the affected character, then leave the delve, and then log out to correct the issue.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-24-september/625785/39"
-    },
-    {
-      "id": "blizz-6388827",
-      "postId": 6388827,
-      "topicId": 631017,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-09-23T20:37:39.625Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Increased Weather Effects",
-        "es": "Increased Weather Effects"
-      },
-      "summary": {
-        "en": "Coming soon to the Beta \n\n  \n    [Increased weather effects are coming to WoW: Forever Beta Zones]...",
-        "es": "Coming soon to the Beta \n\n  \n    [Increased weather effects are coming to WoW: Forever Beta Zones]..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Coming soon to the Beta</p>\n<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"grhjK8xH3H4\" data-video-title=\"Increased weather effects are coming to WoW: Forever Beta Zones\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=grhjK8xH3H4\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/grhjK8xH3H4/maxresdefault.jpg\" title=\"Increased weather effects are coming to WoW: Forever Beta Zones\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Coming soon to the Beta</p>\n<div class=\"youtube-onebox lazy-video-container\" data-video-id=\"grhjK8xH3H4\" data-video-title=\"Increased weather effects are coming to WoW: Forever Beta Zones\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=grhjK8xH3H4\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/grhjK8xH3H4/maxresdefault.jpg\" title=\"Increased weather effects are coming to WoW: Forever Beta Zones\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/increased-weather-effects/631017/1"
-    },
-    {
-      "id": "blizz-6388674",
-      "postId": 6388674,
-      "topicId": 625785,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-09-23T19:15:41.865Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - 24 September",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - 24 September"
-      },
-      "summary": {
-        "en": "Corrected the text of the Coiled Altar hotfix from September 15: \n\n1 Spiteful Soulcoiler will always spawn nearby Malacrass on Mythic difficulty.\nIncreased the likelihood a Spitefu...",
-        "es": "Corrected the text of the Coiled Altar hotfix from September 15: \n\n1 Spiteful Soulcoiler will always spawn nearby Malacrass on Mítica+ difficulty.\nIncreased the likelihood a Spitef..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Corrected the text of the Coiled Altar hotfix from September 15:</p>\n<ul>\n<li><s>1 Spiteful Soulcoiler will always spawn nearby Malacrass on Mythic difficulty.</s></li>\n<li>Increased the likelihood a Spiteful Soulcoiler will spawn near Malacrass on Mythic difficulty.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Corrected the text of the Coiled Altar hotfix from September 15:</p>\n<ul>\n<li><s>1 Spiteful Soulcoiler will always spawn nearby Malacrass on Mythic difficulty.</s></li>\n<li>Increased the likelihood a Spiteful Soulcoiler will spawn near Malacrass on Mythic difficulty.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-24-september/625785/38"
     }
   ],
   "blizzardNews": [
