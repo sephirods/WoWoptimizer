@@ -20,19 +20,26 @@ const MIDNIGHT_GEM_STATS_MAP = {
   240918: { crit: 0, haste: 0, mast: 7, vers: 16 }  // Vers + Mast
 };
 
+function getItemGemId(it) {
+  if (!it) return null;
+  if (it.gem_id) return Number(it.gem_id);
+  if (it.gemItemId) return Number(it.gemItemId);
+  if (it.rawSimcOptions) {
+    const gm = it.rawSimcOptions.match(/gem_id=(\d+)/i) || 
+              it.rawSimcOptions.match(/gems=([\d/]+)/i) || 
+              it.rawSimcOptions.match(/gem1=(\d+)/i);
+    if (gm) return Number(gm[1].split('/')[0]);
+  }
+  return null;
+}
+
 function getItemGemStats(it) {
-  if (!it || !it.socket) return { crit: 0, haste: 0, mast: 0, vers: 0 };
-  let gemId = null;
-  if (it.gem_id) gemId = Number(it.gem_id);
-  else if (it.gemItemId) gemId = Number(it.gemItemId);
-  else if (it.rawSimcOptions) {
-    const gm = it.rawSimcOptions.match(/gem_id=(\d+)/i) || it.rawSimcOptions.match(/gems=(\d+)/i);
-    if (gm) gemId = Number(gm[1]);
-  }
+  if (!it || !it.socket) return { crit: 0, haste: 0, mast: 0, vers: 0, gemId: null };
+  const gemId = getItemGemId(it);
   if (gemId && MIDNIGHT_GEM_STATS_MAP[gemId]) {
-    return MIDNIGHT_GEM_STATS_MAP[gemId];
+    return { ...MIDNIGHT_GEM_STATS_MAP[gemId], gemId };
   }
-  return { crit: 0, haste: 0, mast: 0, vers: 0 };
+  return { crit: 0, haste: 0, mast: 0, vers: 0, gemId };
 }
 
 // OFFICIAL MIDNIGHT SEASON 2 ENCHANTS DATABASE
@@ -527,15 +534,25 @@ function openCompareModal() {
 
               return rows.map(({ slotLabel, optItem, curItem, isSame }) => {
                 const optGemRec = best.gemData?.recommendations?.find(r => r.item.id === optItem.id || (r.item.name === optItem.name && r.item.slot === optItem.slot));
+                const recGemStats = optGemRec?.gemItemId ? MIDNIGHT_GEM_STATS_MAP[optGemRec.gemItemId] : null;
+
                 const curGemStats = getItemGemStats(curItem);
-                const curGemId = curGemStats.gemId || (curItem.rawSimcOptions && curItem.rawSimcOptions.match(/gem_id=(\d+)/i) ? Number(curItem.rawSimcOptions.match(/gem_id=(\d+)/i)[1]) : null);
+                const curGemId = curGemStats.gemId;
                 const curGemObj = curGemId ? Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === curGemId) : null;
-                const curGemNeedsChange = curItem.socket && optGemRec && (!curGemId || curGemId !== optGemRec.gemItemId);
+                const curGemMatches = optGemRec && curGemId && (
+                  curGemId === optGemRec.gemItemId ||
+                  (recGemStats && curGemStats.crit === recGemStats.crit && curGemStats.haste === recGemStats.haste && curGemStats.mast === recGemStats.mast && curGemStats.vers === recGemStats.vers)
+                );
+                const curGemNeedsChange = curItem.socket && optGemRec && !curGemMatches;
 
                 const optCurrentGemStats = getItemGemStats(optItem);
-                const optCurrentGemId = optCurrentGemStats.gemId || (optItem.rawSimcOptions && optItem.rawSimcOptions.match(/gem_id=(\d+)/i) ? Number(optItem.rawSimcOptions.match(/gem_id=(\d+)/i)[1]) : null);
+                const optCurrentGemId = optCurrentGemStats.gemId;
                 const optCurrentGemObj = optCurrentGemId ? Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === optCurrentGemId) : null;
-                const optGemNeedsChange = optItem.socket && optGemRec && (!optCurrentGemId || optCurrentGemId !== optGemRec.gemItemId);
+                const optGemMatches = optGemRec && optCurrentGemId && (
+                  optCurrentGemId === optGemRec.gemItemId ||
+                  (recGemStats && optCurrentGemStats.crit === recGemStats.crit && optCurrentGemStats.haste === recGemStats.haste && optCurrentGemStats.mast === recGemStats.mast && optCurrentGemStats.vers === recGemStats.vers)
+                );
+                const optGemNeedsChange = optItem.socket && optGemRec && !optGemMatches;
 
                 const bisEnch = getSlotBiSEnchant(optItem.slot);
                 const curEnchMatch = curItem.rawSimcOptions ? curItem.rawSimcOptions.match(/enchant_id=(\d+)/i) : null;
@@ -813,15 +830,25 @@ function openCompareModal() {
 
           return rows.map(({ slotLabel, optItem, curItem, isSame }) => {
             const optGemRec = best.gemData?.recommendations?.find(r => r.item.id === optItem.id || (r.item.name === optItem.name && r.item.slot === optItem.slot));
+            const recGemStats = optGemRec?.gemItemId ? MIDNIGHT_GEM_STATS_MAP[optGemRec.gemItemId] : null;
+
             const curGemStats = getItemGemStats(curItem);
-            const curGemId = curGemStats.gemId || (curItem.rawSimcOptions && curItem.rawSimcOptions.match(/gem_id=(\d+)/i) ? Number(curItem.rawSimcOptions.match(/gem_id=(\d+)/i)[1]) : null);
+            const curGemId = curGemStats.gemId;
             const curGemObj = curGemId ? Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === curGemId) : null;
-            const curGemNeedsChange = curItem.socket && optGemRec && (!curGemId || curGemId !== optGemRec.gemItemId);
+            const curGemMatches = optGemRec && curGemId && (
+              curGemId === optGemRec.gemItemId ||
+              (recGemStats && curGemStats.crit === recGemStats.crit && curGemStats.haste === recGemStats.haste && curGemStats.mast === recGemStats.mast && curGemStats.vers === recGemStats.vers)
+            );
+            const curGemNeedsChange = curItem.socket && optGemRec && !curGemMatches;
 
             const optCurrentGemStats = getItemGemStats(optItem);
-            const optCurrentGemId = optCurrentGemStats.gemId || (optItem.rawSimcOptions && optItem.rawSimcOptions.match(/gem_id=(\d+)/i) ? Number(optItem.rawSimcOptions.match(/gem_id=(\d+)/i)[1]) : null);
+            const optCurrentGemId = optCurrentGemStats.gemId;
             const optCurrentGemObj = optCurrentGemId ? Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === optCurrentGemId) : null;
-            const optGemNeedsChange = optItem.socket && optGemRec && (!optCurrentGemId || optCurrentGemId !== optGemRec.gemItemId);
+            const optGemMatches = optGemRec && optCurrentGemId && (
+              optCurrentGemId === optGemRec.gemItemId ||
+              (recGemStats && optCurrentGemStats.crit === recGemStats.crit && optCurrentGemStats.haste === recGemStats.haste && optCurrentGemStats.mast === recGemStats.mast && optCurrentGemStats.vers === recGemStats.vers)
+            );
+            const optGemNeedsChange = optItem.socket && optGemRec && !optGemMatches;
 
             const bisEnch = getSlotBiSEnchant(optItem.slot);
             const curEnchMatch = curItem.rawSimcOptions ? curItem.rawSimcOptions.match(/enchant_id=(\d+)/i) : null;

@@ -18,27 +18,39 @@ function calculateSmartGemRecommendations(itemsInSet, targets, baseStats) {
   let addVers = 0;
 
   const recommendations = [];
-  let metaAssigned = false;
 
-  // Assign unique Thalassian Meta Diamond to Neck if socketed, otherwise first socketed item
-  const neckSocketItem = socketedItems.find(it => it.slot === 'neck' || it.metaSocket || it.slot === 'meta_gem');
-  const metaTargetItem = neckSocketItem || socketedItems[0];
-
-  socketedItems.forEach(it => {
-    if (!metaAssigned && it === metaTargetItem) {
-      metaAssigned = true;
-      const meta = MIDNIGHT_GEMS_CATALOG.meta_indecipherable;
-      recommendations.push({
-        item: it,
-        gemItemId: meta.id,
-        gemName: meta.name,
-        gemIcon: meta.icon,
-        gemDesc: meta.desc,
-        benefit: 'Gema de Estadística Principal de Medianoche (Thalassian Diamond).'
-      });
-      return;
+  function getItemExistingGemId(it) {
+    if (!it) return null;
+    if (it.gem_id) return Number(it.gem_id);
+    if (it.gemItemId) return Number(it.gemItemId);
+    if (it.rawSimcOptions) {
+      const m = it.rawSimcOptions.match(/gem_id=(\d+)/i) || 
+                it.rawSimcOptions.match(/gems=([\d/]+)/i) || 
+                it.rawSimcOptions.match(/gem1=(\d+)/i);
+      if (m) return Number(m[1].split('/')[0]);
     }
+    return null;
+  }
 
+  // Assign unique Thalassian Meta Diamond to Neck if socketed
+  const neckSocketItem = socketedItems.find(it => it.slot === 'neck' || it.metaSocket || it.slot === 'meta_gem');
+  if (neckSocketItem) {
+    const meta = MIDNIGHT_GEMS_CATALOG.meta_indecipherable;
+    recommendations.push({
+      item: neckSocketItem,
+      gemItemId: meta.id,
+      gemName: meta.name,
+      gemIcon: meta.icon,
+      gemDesc: meta.desc,
+      benefit: 'Gema de Estadística Principal de Medianoche (Thalassian Diamond).'
+    });
+  }
+
+  const regularSocketItems = socketedItems.filter(it => it !== neckSocketItem);
+  const regularSocketCount = regularSocketItems.length;
+
+  const chosenGems = [];
+  for (let i = 0; i < regularSocketCount; i++) {
     const deficits = [
       { stat: 'crit', val: defCrit - addCrit, name: 'Crítico' },
       { stat: 'haste', val: defHaste - addHaste, name: 'Celeridad' },
@@ -75,14 +87,54 @@ function calculateSmartGemRecommendations(itemsInSet, targets, baseStats) {
       else if (secondaryStat.stat === 'vers') addVers += 7;
     }
 
-    recommendations.push({
-      item: it,
-      gemItemId: chosenGem.id,
-      gemName: chosenGem.name,
-      gemIcon: chosenGem.icon,
-      gemDesc: chosenGem.desc,
-      benefit: usePure ? `Cubre el déficit faltante de ${primaryStat.name} con gema pura (+20).` : `Maximiza estadísticas (+23 total) balanceando ${primaryStat.name} (+16) y ${secondaryStat.name} (+7).`
+    chosenGems.push({
+      gem: chosenGem,
+      usePure,
+      primaryStat,
+      secondaryStat
     });
+  }
+
+  // Distribute chosen gems prioritizing items that already have one of the chosen gems socketed
+  const unassignedItems = [];
+  const availableGems = [...chosenGems];
+
+  regularSocketItems.forEach(it => {
+    const existingGemId = getItemExistingGemId(it);
+    if (existingGemId) {
+      const gemIdx = availableGems.findIndex(g => g.gem.id === existingGemId);
+      if (gemIdx !== -1) {
+        const matched = availableGems.splice(gemIdx, 1)[0];
+        recommendations.push({
+          item: it,
+          gemItemId: matched.gem.id,
+          gemName: matched.gem.name,
+          gemIcon: matched.gem.icon,
+          gemDesc: matched.gem.desc,
+          benefit: matched.usePure
+            ? `Mantiene la gema actual de ${matched.primaryStat.name} (+20).`
+            : `Mantiene la gema actual balanceando ${matched.primaryStat.name} (+16) y ${matched.secondaryStat.name} (+7).`
+        });
+        return;
+      }
+    }
+    unassignedItems.push(it);
+  });
+
+  unassignedItems.forEach((it, idx) => {
+    const assigned = availableGems[idx];
+    if (assigned) {
+      recommendations.push({
+        item: it,
+        gemItemId: assigned.gem.id,
+        gemName: assigned.gem.name,
+        gemIcon: assigned.gem.icon,
+        gemDesc: assigned.gem.desc,
+        benefit: assigned.usePure
+          ? `Cubre el déficit faltante de ${assigned.primaryStat.name} con gema pura (+20).`
+          : `Maximiza estadísticas (+23 total) balanceando ${assigned.primaryStat.name} (+16) y ${assigned.secondaryStat.name} (+7).`
+      });
+    }
   });
 
   const projected = {

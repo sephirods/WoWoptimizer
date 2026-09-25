@@ -33,7 +33,15 @@ function parseJsDataset(text, varName) {
 const DEFAULT_GITHUB_TOKEN = ['ghp_dtHPpEtT2yigiBj', 'Tj0K3GNmZw7GEu72cQism'].join('');
 
 function getGitHubToken() {
-  return localStorage.getItem('wow_admin_github_token') || DEFAULT_GITHUB_TOKEN;
+  const stored = localStorage.getItem('wow_admin_github_token');
+  if (stored && !stored.includes('•') && /^[\x00-\x7F]+$/.test(stored.trim())) {
+    return stored.trim();
+  }
+  // Si en localStorage quedaron balas (••••) o valores corruptos, limpiarlos automáticamente
+  if (stored) {
+    try { localStorage.removeItem('wow_admin_github_token'); } catch (e) {}
+  }
+  return DEFAULT_GITHUB_TOKEN;
 }
 
 function handleSaveGitHubToken() {
