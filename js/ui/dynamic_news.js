@@ -258,12 +258,21 @@ function getActiveLanguage() {
   return 'es';
 }
 
+function isErrorTitleText(str) {
+  if (!str || typeof str !== 'string') return false;
+  return /error\s*(500|404|403)|page not found|página no encontrada|\b(500|404)\s*-\s*wow/i.test(str.trim());
+}
+
 function resolveLocalized(field, lang) {
   if (!field) return '';
   if (typeof field === 'object' && !Array.isArray(field)) {
-    return field[lang] || field['en'] || field['es'] || '';
+    const requested = field[lang];
+    if (requested && !isErrorTitleText(requested)) return requested;
+    const fallback = field['en'] || field['es'] || '';
+    if (!isErrorTitleText(fallback)) return fallback;
+    return requested || '';
   }
-  return String(field);
+  return isErrorTitleText(String(field)) ? '' : String(field);
 }
 
 // Extraer extracto limpio (~150 caracteres) eliminando HTML, saltos y avisos redundantes

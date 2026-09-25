@@ -248,6 +248,7 @@ async function buildData() {
   // Leer de nuevo js/data/wow_news_data.js justo antes de guardar para asegurar que no pisamos nada
   let currentBlizzardNews = existingBlizzardNews;
   let currentRecentNews = existingRecentNews;
+  let existingBlueTracker = [];
   try {
     const freshDb = fs.readFileSync('js/data/wow_news_data.js', 'utf8');
     const freshWin = {};
@@ -259,19 +260,39 @@ async function buildData() {
       if (Array.isArray(freshWin.WOW_NEWS_DATABASE.recentNews)) {
         currentRecentNews = freshWin.WOW_NEWS_DATABASE.recentNews;
       }
+      if (Array.isArray(freshWin.WOW_NEWS_DATABASE.blueTracker)) {
+        existingBlueTracker = freshWin.WOW_NEWS_DATABASE.blueTracker;
+      }
     }
   } catch (e) {}
 
+  // Combinar posts nuevos con el histórico existente preservando hasta 50 publicaciones
+  const mergedBlue = [];
+  const seenIds = new Set();
+  for (const p of blueTracker) {
+    if (p && p.id && !seenIds.has(p.id)) {
+      seenIds.add(p.id);
+      mergedBlue.push(p);
+    }
+  }
+  for (const p of existingBlueTracker) {
+    if (p && p.id && !seenIds.has(p.id)) {
+      seenIds.add(p.id);
+      mergedBlue.push(p);
+    }
+  }
+  const finalBlueTracker = mergedBlue.slice(0, 50);
+
   // Bot 1: Blue Tracker actualiza EXCLUSIVAMENTE su propiedad blueTracker
   const outputDb = {
-    blueTracker: blueTracker,
+    blueTracker: finalBlueTracker,
     blizzardNews: currentBlizzardNews,
     recentNews: currentRecentNews
   };
 
   const output = '// BASE DE DATOS DE NOTICIAS, BLUE TRACKER Y ARTÍCULOS EN VIVO\nwindow.WOW_NEWS_DATABASE = ' + JSON.stringify(outputDb, null, 2) + ';\n';
   fs.writeFileSync('js/data/wow_news_data.js', output, 'utf8');
-  console.log('[BOT 1 - BLUE TRACKER] Éxito: Se actualizaron ' + blueTracker.length + ' blue posts. Blizzard News (' + outputDb.blizzardNews.length + ') y Recent News (' + outputDb.recentNews.length + ') preservadas intactas.');
+  console.log('[BOT 1 - BLUE TRACKER] Éxito: Se consolidaron ' + finalBlueTracker.length + ' blue posts (histórico preservado). Blizzard News (' + outputDb.blizzardNews.length + ') y Recent News (' + outputDb.recentNews.length + ') preservadas intactas.');
 }
 
 buildData();

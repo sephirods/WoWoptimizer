@@ -845,7 +845,7 @@ window.WOW_NEWS_DATABASE = {
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
         "en": "World of Warcraft®: Forever Escape Together Comes to Toronto",
-        "es": "Error 500 - WoW"
+        "es": "World of Warcraft®: Forever Escape Together llega a Toronto"
       },
       "summary": {
         "en": "Heroes of Azeroth, the Horde and the Alliance are putting their rivalry to the ultimate test—and you're invited to tune in and join the excitement....",

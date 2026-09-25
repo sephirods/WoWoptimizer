@@ -125,25 +125,32 @@ async function scrapeBlizzardNews() {
           console.warn(`  ! No se pudo obtener versión en español para ${id}, usando inglés.`);
         }
 
+        function isErrorTitle(t) {
+          if (!t || typeof t !== 'string') return true;
+          return /error\s*(500|404|403)|page not found|página no encontrada|not found|\b(500|404)\s*-\s*wow/i.test(t);
+        }
+
+        const isEsValid = dataEs && dataEs.title && !isErrorTitle(dataEs.title);
+
         articles.push({
           id,
           source: 'blizzard',
           author: 'Blizzard Entertainment',
-          dateRaw: dataEs?.date || dataEn.date,
+          dateRaw: isEsValid ? (dataEs?.date || dataEn.date) : dataEn.date,
           category: 'Oficial',
           badgeColor: 'border-sky-500/60 bg-sky-950/80 text-sky-300',
           title: {
             en: dataEn.title,
-            es: (dataEs && dataEs.title && !dataEs.title.includes('Page Not Found')) ? dataEs.title : dataEn.title
+            es: isEsValid ? dataEs.title : dataEn.title
           },
           summary: {
             en: dataEn.summary,
-            es: (dataEs && dataEs.summary && dataEs.summary.length > 5) ? dataEs.summary : dataEn.summary
+            es: (isEsValid && dataEs.summary && dataEs.summary.length > 5) ? dataEs.summary : dataEn.summary
           },
           imageUrl: dataEn.imageUrl || dataEs?.imageUrl || '',
           contentHtml: {
             en: dataEn.contentHtml,
-            es: (dataEs && dataEs.contentHtml && dataEs.contentHtml.length > 50) ? dataEs.contentHtml : dataEn.contentHtml
+            es: (isEsValid && dataEs.contentHtml && dataEs.contentHtml.length > 50) ? dataEs.contentHtml : dataEn.contentHtml
           },
           originalUrl: linkEn,
           originalUrlEs: linkEs
@@ -158,17 +165,8 @@ async function scrapeBlizzardNews() {
     await browser.close();
   }
 
-  // Guardar JSON de Blizzard
-  const outJson = path.join(__dirname, 'latest_blizzard_news.json');
-  fs.writeFileSync(outJson, JSON.stringify(articles, null, 2), 'utf-8');
-  console.log(`\n✓ Guardado snapshot de Blizzard en: ${outJson}`);
-
-  // Sincronizar automáticamente con Staging
-  const stagingJs = path.join(__dirname, '../staging/mock_blizzard_data.js');
-  fs.writeFileSync(stagingJs, 'window.STAGING_BLIZZARD_DATA = ' + JSON.stringify(articles, null, 2) + ';', 'utf-8');
-  console.log(`✓ Sincronizado automáticamente en: ${stagingJs}`);
-
-  // Bot 2: Integrar noticias oficiales a producción preservando blueTracker y recentNews
+  // Bot 2: Integrar noticias oficiales a producción preservando histórico (hasta 50 noticias)
+  let finalBlizzardNews = articles;
   try {
     const prodPath = path.join(__dirname, '../js/data/wow_news_data.js');
     const prodContent = fs.readFileSync(prodPath, 'utf8');
@@ -178,19 +176,46 @@ async function scrapeBlizzardNews() {
     const currentDb = fakeWin.WOW_NEWS_DATABASE || { blueTracker: [], blizzardNews: [], recentNews: [] };
     const blueTracker = currentDb.blueTracker || [];
     const recentNews = currentDb.recentNews || [];
+    const existingBlizz = currentDb.blizzardNews || [];
+
+    // Combinar nuevas noticias con las existentes preservando histórico sin duplicados
+    const merged = [];
+    const seenIds = new Set();
+    for (const art of articles) {
+      if (art && art.id && !seenIds.has(art.id)) {
+        seenIds.add(art.id);
+        merged.push(art);
+      }
+    }
+    for (const art of existingBlizz) {
+      if (art && art.id && !seenIds.has(art.id)) {
+        seenIds.add(art.id);
+        merged.push(art);
+      }
+    }
+    finalBlizzardNews = merged.slice(0, 50);
 
     const newDb = {
       blueTracker: blueTracker,
-      blizzardNews: articles,
+      blizzardNews: finalBlizzardNews,
       recentNews: recentNews
     };
 
     const newContent = '// BASE DE DATOS DE NOTICIAS, BLUE TRACKER Y ARTÍCULOS EN VIVO\nwindow.WOW_NEWS_DATABASE = ' + JSON.stringify(newDb, null, 2) + ';\n';
     fs.writeFileSync(prodPath, newContent, 'utf8');
-    console.log(`[BOT 2 - BLIZZARD NEWS] Éxito: Se actualizaron ${articles.length} noticias oficiales de Blizzard. Blue Tracker (${blueTracker.length}) y Recent News (${recentNews.length}) preservadas intactas.`);
+    console.log(`[BOT 2 - BLIZZARD NEWS] Éxito: Se consolidaron ${finalBlizzardNews.length} noticias oficiales de Blizzard (histórico preservado). Blue Tracker (${blueTracker.length}) y Recent News (${recentNews.length}) intactas.`);
   } catch (err) {
     console.error('Error sincronizando Blizzard con producción:', err.message);
   }
+
+  // Guardar snapshots actualizados de Blizzard
+  const outJson = path.join(__dirname, 'latest_blizzard_news.json');
+  fs.writeFileSync(outJson, JSON.stringify(finalBlizzardNews, null, 2), 'utf-8');
+  console.log(`✓ Guardado snapshot de Blizzard en: ${outJson}`);
+
+  const stagingJs = path.join(__dirname, '../staging/mock_blizzard_data.js');
+  fs.writeFileSync(stagingJs, 'window.STAGING_BLIZZARD_DATA = ' + JSON.stringify(finalBlizzardNews, null, 2) + ';', 'utf-8');
+  console.log(`✓ Sincronizado automáticamente en: ${stagingJs}`);
 
   console.log('=== Fin Scraper Blizzard ===');
 }

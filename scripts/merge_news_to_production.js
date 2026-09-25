@@ -39,13 +39,30 @@ const recentNews = wowheadData.map(item => ({
   originalUrl: item.originalUrl
 }));
 
+const existingRecent = currentDb.recentNews || [];
+const mergedRecent = [];
+const seenIds = new Set();
+for (const item of recentNews) {
+  if (item && item.id && !seenIds.has(item.id)) {
+    seenIds.add(item.id);
+    mergedRecent.push(item);
+  }
+}
+for (const item of existingRecent) {
+  if (item && item.id && !seenIds.has(item.id)) {
+    seenIds.add(item.id);
+    mergedRecent.push(item);
+  }
+}
+const finalRecentNews = mergedRecent.slice(0, 50);
+
 const newDb = {
   blueTracker: blueTrackerJson,
   blizzardNews: blizzardNewsJson,
-  recentNews: recentNews
+  recentNews: finalRecentNews
 };
 
 const newFileContent = '// BASE DE DATOS DE NOTICIAS, BLUE TRACKER Y ARTÍCULOS EN VIVO\nwindow.WOW_NEWS_DATABASE = ' + JSON.stringify(newDb, null, 2) + ';\n';
 fs.writeFileSync('js/data/wow_news_data.js', newFileContent, 'utf8');
-console.log('[BOT 3 - WOWHEAD NEWS] Éxito: Se actualizaron ' + recentNews.length + ' noticias de Wowhead. Blue Tracker (' + blueTrackerJson.length + ') y Blizzard News (' + blizzardNewsJson.length + ') preservadas.');
+console.log('[BOT 3 - WOWHEAD NEWS] Éxito: Se consolidaron ' + finalRecentNews.length + ' noticias de Wowhead (histórico preservado). Blue Tracker (' + blueTrackerJson.length + ') y Blizzard News (' + blizzardNewsJson.length + ') preservadas.');
 
