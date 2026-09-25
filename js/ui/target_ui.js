@@ -289,6 +289,18 @@ function renderPresetsToolbar() {
   `;
 }
 
+function updateWeaponModeDropdown(specData, forceDefault = false) {
+  const wepSelect = document.getElementById('weapon-mode');
+  if (!wepSelect || !specData?.allowedWeps) return;
+  const isAllowed = !forceDefault && specData.allowedWeps.some(w => w.id === wepSelect.value);
+  const targetVal = isAllowed ? wepSelect.value : (specData.defaultWep || specData.allowedWeps[0]?.id || '2h');
+  wepSelect.innerHTML = specData.allowedWeps.map(w => {
+    const locLabel = typeof getLocalizedWeaponMode === 'function' ? getLocalizedWeaponMode(w.id, w.label) : w.label;
+    return `<option value="${w.id}">${locLabel}</option>`;
+  }).join('');
+  wepSelect.value = targetVal;
+}
+
 function onSpecChange() {
   const specSelect = document.getElementById('char-spec');
   if (specSelect) currentSpec = specSelect.value;
@@ -303,15 +315,7 @@ function onSpecChange() {
     titleEl.style.color = classData.color;
   }
 
-  const wepSelect = document.getElementById('weapon-mode');
-  if (wepSelect && specData.allowedWeps) {
-    const currentVal = wepSelect.value || specData.defaultWep;
-    wepSelect.innerHTML = specData.allowedWeps.map(w => {
-      const locLabel = typeof getLocalizedWeaponMode === 'function' ? getLocalizedWeaponMode(w.id, w.label) : w.label;
-      return `<option value="${w.id}">${locLabel}</option>`;
-    }).join('');
-    wepSelect.value = currentVal;
-  }
+  updateWeaponModeDropdown(specData);
   
   saveState();
   renderPresetsToolbar();
@@ -406,9 +410,7 @@ function applySpecConfig(specId, autoAdjustWeights = true) {
   if (document.getElementById('target-crit')) document.getElementById('target-crit').value = activePreset.c || 0;
   if (document.getElementById('target-haste')) document.getElementById('target-haste').value = activePreset.h || 0;
   if (document.getElementById('target-vers')) document.getElementById('target-vers').value = activePreset.v || 0;
-  if (document.getElementById('weapon-mode') && specData.defaultWep) {
-    document.getElementById('weapon-mode').value = specData.defaultWep;
-  }
+  updateWeaponModeDropdown(specData);
 
   if (autoAdjustWeights) {
     const specWeights = deriveWeightsFromArchonPreset(activePreset) || (typeof SPEC_DEFAULT_STAT_WEIGHTS !== 'undefined' ? SPEC_DEFAULT_STAT_WEIGHTS[specData.id] : null) || { m: 1.0, c: 1.0, h: 1.0, v: 1.0 };
