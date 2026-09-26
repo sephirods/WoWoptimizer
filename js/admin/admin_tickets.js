@@ -1,17 +1,41 @@
 // Admin Suite: Missing Tooltips Log & User Feedback Tickets
-function renderMissingTooltipsTable() {
+async function renderMissingTooltipsTable() {
   const container = document.getElementById('missing-tooltips-container');
   const badge = document.getElementById('missing-count-badge');
   const tabBadge = document.getElementById('tab-missing-badge');
   const overviewBadge = document.getElementById('overview-missing-badge');
   if (!container) return;
 
-  let logs = [];
+  let localLogs = [];
   try {
-    logs = JSON.parse(localStorage.getItem('wow_missing_tooltips_log') || '[]');
+    localLogs = JSON.parse(localStorage.getItem('wow_missing_tooltips_log') || '[]');
   } catch (e) {
-    logs = [];
+    localLogs = [];
   }
+
+  let remoteLogs = [];
+  try {
+    if (typeof window !== 'undefined' && window.TelemetryLogger && typeof window.TelemetryLogger.fetchRemoteLog === 'function') {
+      remoteLogs = await window.TelemetryLogger.fetchRemoteLog('js/data/missing_tooltips_log.json');
+    }
+  } catch (err) {
+    console.warn('Error cargando log centralizado de tooltips:', err);
+  }
+
+  // Combinar logs locales y remotos deduplicando por tipo + id
+  const map = new Map();
+  remoteLogs.forEach(l => map.set(`${l.kind || 'item'}-${l.id}`, l));
+  localLogs.forEach(l => {
+    const k = `${l.kind || 'item'}-${l.id}`;
+    if (!map.has(k)) {
+      map.set(k, l);
+    } else {
+      const existing = map.get(k);
+      existing.occurrences = Math.max(existing.occurrences || 1, l.occurrences || 1);
+    }
+  });
+
+  const logs = Array.from(map.values()).sort((a, b) => new Date(b.lastSeen || 0) - new Date(a.lastSeen || 0));
 
   if (badge) {
     badge.innerText = `${logs.length} detectados`;
@@ -111,6 +135,15 @@ async function renderTicketsTable() {
     localTickets = [];
   }
 
+  let gitLogTickets = [];
+  try {
+    if (typeof window !== 'undefined' && window.TelemetryLogger && typeof window.TelemetryLogger.fetchRemoteLog === 'function') {
+      gitLogTickets = await window.TelemetryLogger.fetchRemoteLog('js/data/user_tickets_log.json');
+    }
+  } catch (err) {
+    console.warn('Error consultando user_tickets_log.json:', err);
+  }
+
   let githubTickets = [];
   const token = typeof getGitHubToken === 'function' ? getGitHubToken() : '';
   try {
@@ -140,6 +173,7 @@ async function renderTicketsTable() {
   }
 
   const combinedMap = new Map();
+  gitLogTickets.forEach(t => combinedMap.set(t.id, t));
   githubTickets.forEach(t => combinedMap.set(t.id, t));
   localTickets.forEach(t => {
     if (!combinedMap.has(t.id)) combinedMap.set(t.id, t);

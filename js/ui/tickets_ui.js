@@ -154,35 +154,28 @@ function submitBugReport(event) {
     tickets.unshift(ticket);
     if (tickets.length > 200) tickets = tickets.slice(0, 200);
 
+    // Guardado local de respaldo
     localStorage.setItem('wow_admin_tickets', JSON.stringify(tickets));
     localStorage.setItem('wow_last_ticket_submit_time', Date.now().toString());
 
-    // Generar URL pre-poblada para GitHub Issues (para que cualquier usuario pueda enviarlo a GitHub en 1 clic si lo desea)
-    const issueTitle = encodeURIComponent(`[${type.toUpperCase()}] ${title}`);
-    const issueBody = encodeURIComponent(`### Descripción del Problema / Reporte
-${desc}
+    // TELEMETRÍA AUTOMÁTICA Y SILENCIOSA A GIT (sin requerir interacción del usuario)
+    if (typeof window !== 'undefined' && window.TelemetryLogger && typeof window.TelemetryLogger.logUserTicket === 'function') {
+      window.TelemetryLogger.logUserTicket(ticket).catch(() => {});
+    }
 
----
-### Información del Entorno
-- **Ticket ID:** \`${ticketId}\`
-- **Categoría:** \`${type}\`
-- **Contacto:** ${contact || 'No proporcionado'}
-- **Clase / Spec:** ${ticket.device.currentClass || 'N/A'} (${ticket.device.currentSpec || 'N/A'})
-- **Objetos en Inventario:** ${ticket.device.itemsCount}
-- **URL:** ${ticket.device.url}
-- **Navegador:** \`${ticket.device.userAgent}\`
-`);
-    const githubIssueUrl = `https://github.com/sephirods/WoWoptimizer/issues/new?title=${issueTitle}&body=${issueBody}&labels=${type}`;
-
-    // Éxito
-    showFeedback(`¡Gracias! Ticket <strong>${ticketId}</strong> registrado localmente.<br><a href="${githubIssueUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 mt-2 bg-[#238636] hover:bg-[#2ea043] text-white font-bold px-3 py-1.5 rounded-lg text-xs transition shadow"><i class="fa-brands fa-github"></i> Publicar también en GitHub Issues</a>`, false);
+    // Éxito inmediato
+    showFeedback(`¡Gracias! Tu reporte <strong>${ticketId}</strong> ha sido enviado correctamente al equipo de desarrollo.`, false);
     
     setTimeout(() => {
       if (typeof showToast === 'function') {
-        showToast(`Ticket ${ticketId} registrado con éxito. ¡Gracias!`, 'success');
+        showToast(`Ticket ${ticketId} enviado con éxito. ¡Gracias!`, 'success');
       }
       if (submitBtn) submitBtn.disabled = false;
-    }, 4000);
+      const modal = document.getElementById('bug-report-modal');
+      if (modal && !modal.classList.contains('hidden')) {
+        setTimeout(() => closeBugReportModal(), 1200);
+      }
+    }, 1200);
 
   } catch (err) {
     showFeedback('Error al guardar el ticket: ' + err.message, true);

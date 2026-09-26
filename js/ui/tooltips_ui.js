@@ -74,6 +74,13 @@ function recordMissingTooltipEntity(entityInfo) {
     }
     localStorage.setItem('wow_missing_tooltips_log', JSON.stringify(logs));
   } catch (e) {}
+
+  // Telemetría silenciosa automática a Git
+  try {
+    if (typeof window !== 'undefined' && window.TelemetryLogger && typeof window.TelemetryLogger.logMissingTooltip === 'function') {
+      window.TelemetryLogger.logMissingTooltip(entityInfo);
+    }
+  } catch (err) {}
 }
 
 function initTooltipNotFoundDetector() {

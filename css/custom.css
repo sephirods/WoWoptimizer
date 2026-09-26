@@ -4,7 +4,8 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #07090e;
   color: #e2e8f0;
-  color-scheme: dark; /* Forces Firefox & Chromium native form widgets (selects, inputs, popups) to dark mode */
+  color-scheme: dark;
+  /* Forces Firefox & Chromium native form widgets (selects, inputs, popups) to dark mode */
 }
 
 /* Remove ugly native number spinners/arrows across browsers */
@@ -13,13 +14,15 @@ input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
 input[type="number"] {
   -moz-appearance: textfield;
   appearance: textfield;
 }
 
 /* Dark select & options styling for Firefox & Chromium */
-select, optgroup {
+select,
+optgroup {
   color-scheme: dark;
   background-color: #0f131d !important;
   color: #e2e8f0 !important;
@@ -31,19 +34,57 @@ option {
   color: #e2e8f0;
 }
 
-#char-class option[value="paladin"] { color: #F48CBA !important; }
-#char-class option[value="warrior"] { color: #C69B6D !important; }
-#char-class option[value="deathknight"] { color: #C41E3A !important; }
-#char-class option[value="hunter"] { color: #AAD372 !important; }
-#char-class option[value="shaman"] { color: #0070DD !important; }
-#char-class option[value="rogue"] { color: #FFF468 !important; }
-#char-class option[value="monk"] { color: #00FF98 !important; }
-#char-class option[value="demonhunter"] { color: #A330C9 !important; }
-#char-class option[value="druid"] { color: #FF7C0A !important; }
-#char-class option[value="mage"] { color: #3FC7EB !important; }
-#char-class option[value="warlock"] { color: #8788EE !important; }
-#char-class option[value="priest"] { color: #FFFFFF !important; }
-#char-class option[value="evoker"] { color: #33937F !important; }
+#char-class option[value="paladin"] {
+  color: #ff0202 !important;
+}
+
+#char-class option[value="warrior"] {
+  color: #C69B6D !important;
+}
+
+#char-class option[value="deathknight"] {
+  color: #C41E3A !important;
+}
+
+#char-class option[value="hunter"] {
+  color: #AAD372 !important;
+}
+
+#char-class option[value="shaman"] {
+  color: #0070DD !important;
+}
+
+#char-class option[value="rogue"] {
+  color: #FFF468 !important;
+}
+
+#char-class option[value="monk"] {
+  color: #00FF98 !important;
+}
+
+#char-class option[value="demonhunter"] {
+  color: #A330C9 !important;
+}
+
+#char-class option[value="druid"] {
+  color: #FF7C0A !important;
+}
+
+#char-class option[value="mage"] {
+  color: #3FC7EB !important;
+}
+
+#char-class option[value="warlock"] {
+  color: #8788EE !important;
+}
+
+#char-class option[value="priest"] {
+  color: #FFFFFF !important;
+}
+
+#char-class option[value="evoker"] {
+  color: #33937F !important;
+}
 
 .wow-title {
   font-family: 'Cinzel', serif;
@@ -54,20 +95,23 @@ option {
   width: 6px;
   height: 6px;
 }
+
 ::-webkit-scrollbar-track {
   background: #0b0d14;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #252c3f;
   border-radius: 3px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #a335ee;
 }
 
 /* Wowhead Tooltip Stars & Icons Alignment */
-.wowhead-tooltip table td span > ins,
-[id^="wowhead-tooltip"] table td span > ins,
+.wowhead-tooltip table td span>ins,
+[id^="wowhead-tooltip"] table td span>ins,
 .wowhead-tooltip .q-star,
 [id^="wowhead-tooltip"] .q-star {
   display: inline-block !important;
@@ -86,14 +130,17 @@ option {
   font-size: 0.875rem;
   line-height: 1.625;
 }
+
 .blizzard-full-post p {
   margin-bottom: 0.75rem;
 }
+
 .blizzard-full-post hr {
   border: none;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   margin: 1rem 0;
 }
+
 .blizzard-full-post h2,
 .blizzard-full-post h3 {
   color: #38bdf8;
@@ -104,6 +151,7 @@ option {
   padding-bottom: 0.25rem;
   border-bottom: 1px solid rgba(56, 189, 248, 0.2);
 }
+
 .blizzard-full-post ul {
   list-style-type: disc;
   padding-left: 1.25rem;
@@ -112,9 +160,11 @@ option {
   flex-direction: column;
   gap: 0.35rem;
 }
+
 .blizzard-full-post li strong {
   color: #f1f5f9;
 }
+
 .blizzard-full-post blockquote {
   border-left: 3px solid #38bdf8;
   background: rgba(14, 165, 233, 0.05);
@@ -124,14 +174,17 @@ option {
   color: #94a3b8;
   border-radius: 0 0.5rem 0.5rem 0;
 }
+
 .blizzard-full-post a {
   color: #38bdf8;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
 .blizzard-full-post a:hover {
   color: #7dd3fc;
 }
+
 .blizzard-full-post img {
   max-width: 100%;
   height: auto;
@@ -155,6 +208,7 @@ option {
   visibility: visible !important;
   z-index: 100 !important;
 }
+
 .whtt-tooltip-icon .iconmedium {
   width: 44px !important;
   height: 44px !important;
@@ -165,6 +219,7 @@ option {
   overflow: hidden !important;
   border: none !important;
 }
+
 .whtt-tooltip-icon .iconmedium ins {
   display: block !important;
   position: absolute !important;
@@ -177,6 +232,7 @@ option {
   border-radius: 3px !important;
   z-index: 1 !important;
 }
+
 .whtt-tooltip-icon .iconmedium del {
   display: block !important;
   position: absolute !important;
@@ -189,20 +245,24 @@ option {
 }
 
 /* Inline Tiny Icons with link */
-.icontiny, a.icontiny, a[data-entity="item"] {
+.icontiny,
+a.icontiny,
+a[data-entity="item"] {
   display: inline-flex !important;
   align-items: center !important;
   gap: 4px !important;
   vertical-align: middle !important;
   text-decoration: none !important;
 }
+
 .icontiny img {
   margin: 0 !important;
   vertical-align: middle !important;
 }
 
 /* Wowhead Action Buttons (.wh-button / .zam-button) */
-.wh-button, .zam-button {
+.wh-button,
+.zam-button {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -222,12 +282,16 @@ option {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
   transition: all 0.2s ease !important;
 }
-.wh-button:hover, .zam-button:hover {
+
+.wh-button:hover,
+.zam-button:hover {
   background: #252d3d !important;
   border-color: #f59e0b !important;
   transform: translateY(-1px) !important;
 }
-.wh-button-icon, .zam-button-icon {
+
+.wh-button-icon,
+.zam-button-icon {
   border: none !important;
   background: transparent !important;
   padding: 0 !important;
@@ -236,17 +300,20 @@ option {
   display: flex !important;
   align-items: center !important;
 }
-.wh-button-icon img, .zam-button-icon img {
+
+.wh-button-icon img,
+.zam-button-icon img {
   width: 24px !important;
   height: 24px !important;
   border-radius: 4px !important;
-  border: 1px solid rgba(0,0,0,0.6) !important;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.6) !important;
+  border: 1px solid rgba(0, 0, 0, 0.6) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6) !important;
   display: block !important;
 }
 
 /* WoW News Tables */
-#article-reader-modal table, .wowhead-container table {
+#article-reader-modal table,
+.wowhead-container table {
   width: 100% !important;
   border-collapse: collapse !important;
   margin: 18px 0 !important;
@@ -255,7 +322,9 @@ option {
   border-radius: 8px !important;
   overflow: hidden !important;
 }
-#article-reader-modal th, .wowhead-container th {
+
+#article-reader-modal th,
+.wowhead-container th {
   background: #182030 !important;
   color: #f1f5f9 !important;
   font-weight: 700 !important;
@@ -264,46 +333,61 @@ option {
   border-bottom: 2px solid #334155 !important;
   border-right: 1px solid #283044 !important;
 }
-#article-reader-modal td, .wowhead-container td {
+
+#article-reader-modal td,
+.wowhead-container td {
   padding: 9px 14px !important;
   border-bottom: 1px solid #1e293b !important;
   border-right: 1px solid #1e293b !important;
   color: #cbd5e1 !important;
 }
-#article-reader-modal tr:hover, .wowhead-container tr:hover {
+
+#article-reader-modal tr:hover,
+.wowhead-container tr:hover {
   background: rgba(255, 255, 255, 0.03) !important;
 }
 
 /* Lists and Nested Bullet Points */
-#article-reader-modal ul, .wowhead-container ul {
+#article-reader-modal ul,
+.wowhead-container ul {
   list-style-type: disc !important;
   padding-left: 1.5rem !important;
   margin: 0.5rem 0 0.75rem 0 !important;
 }
-#article-reader-modal ul ul, .wowhead-container ul ul {
+
+#article-reader-modal ul ul,
+.wowhead-container ul ul {
   list-style-type: circle !important;
   padding-left: 1.25rem !important;
   margin: 0.25rem 0 !important;
 }
-#article-reader-modal ul ul ul, .wowhead-container ul ul ul {
+
+#article-reader-modal ul ul ul,
+.wowhead-container ul ul ul {
   list-style-type: square !important;
   padding-left: 1rem !important;
 }
-#article-reader-modal li, .wowhead-container li {
+
+#article-reader-modal li,
+.wowhead-container li {
   margin-bottom: 0.35rem !important;
   line-height: 1.5 !important;
 }
 
 /* Caption and Images in News */
-#article-reader-modal img, .wowhead-container img {
+#article-reader-modal img,
+.wowhead-container img {
   max-width: 100% !important;
   height: auto !important;
   border-radius: 8px !important;
   margin: 12px auto !important;
   display: block !important;
 }
-#article-reader-modal figcaption, .wowhead-container figcaption,
-#article-reader-modal .caption, .wowhead-container .caption {
+
+#article-reader-modal figcaption,
+.wowhead-container figcaption,
+#article-reader-modal .caption,
+.wowhead-container .caption {
   display: block;
   text-align: center;
   font-size: 13px;
@@ -314,11 +398,14 @@ option {
 
 /* SimC Attention Pulse and Floating Guide Tooltip */
 @keyframes simcGlowPulse {
-  0%, 100% {
+
+  0%,
+  100% {
     box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7), 0 0 15px rgba(16, 185, 129, 0.5);
     border-color: rgba(52, 211, 153, 0.9);
     transform: scale(1);
   }
+
   50% {
     box-shadow: 0 0 0 8px rgba(16, 185, 129, 0), 0 0 25px rgba(16, 185, 129, 0.85);
     border-color: rgba(110, 231, 183, 1);
@@ -333,9 +420,12 @@ option {
 }
 
 @keyframes simcArrowBounce {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(4px);
   }
