@@ -113,10 +113,13 @@ function filterTooltipsLog() {
   renderMissingTooltipsTable();
 }
 
-function clearMissingTooltipsLog() {
+async function clearMissingTooltipsLog() {
   if (confirm('¿Vaciar el historial de tooltips no encontrados?')) {
     localStorage.removeItem('wow_missing_tooltips_log');
-    renderMissingTooltipsTable();
+    if (typeof window !== 'undefined' && window.TelemetryLogger && typeof window.TelemetryLogger.overwriteJsonFileInGit === 'function') {
+      await window.TelemetryLogger.overwriteJsonFileInGit('js/data/missing_tooltips_log.json', [], 'telemetry: clear missing tooltips log');
+    }
+    await renderMissingTooltipsTable();
     showToast('Historial de tooltips vaciado', 'info');
   }
 }
@@ -288,7 +291,7 @@ async function renderTicketsTable() {
   `;
 }
 
-function toggleTicketStatus(ticketId) {
+async function toggleTicketStatus(ticketId) {
   let tickets = [];
   try {
     tickets = JSON.parse(localStorage.getItem('wow_admin_tickets') || '[]');
@@ -299,30 +302,68 @@ function toggleTicketStatus(ticketId) {
   if (ticket) {
     ticket.status = ticket.status === 'resolved' ? 'open' : 'resolved';
     localStorage.setItem('wow_admin_tickets', JSON.stringify(tickets));
-    renderTicketsTable();
-    showToast(`Ticket ${ticketId} actualizado a ${ticket.status === 'resolved' ? 'Resuelto' : 'Abierto'}`, 'info');
   }
-}
 
-function deleteTicket(ticketId) {
-  if (confirm(`¿Eliminar permanentemente el ticket ${ticketId}?`)) {
-    let tickets = [];
+  // Actualizar también en el log central de Git
+  let newStatus = 'resolved';
+  if (typeof window !== 'undefined' && window.TelemetryLogger && typeof window.TelemetryLogger.fetchRemoteLog === 'function') {
     try {
-      tickets = JSON.parse(localStorage.getItem('wow_admin_tickets') || '[]');
+      let gitList = await window.TelemetryLogger.fetchRemoteLog('js/data/user_tickets_log.json');
+      const target = gitList.find(t => t.id === ticketId);
+      if (target) {
+        target.status = target.status === 'resolved' ? 'open' : 'resolved';
+        newStatus = target.status;
+        await window.TelemetryLogger.overwriteJsonFileInGit('js/data/user_tickets_log.json', gitList, `ticket: update status ${ticketId} to ${newStatus}`);
+      }
     } catch (e) {
-      tickets = [];
+      console.warn('Error sincronizando status con Git:', e);
     }
-    tickets = tickets.filter(t => t.id !== ticketId);
-    localStorage.setItem('wow_admin_tickets', JSON.stringify(tickets));
-    renderTicketsTable();
-    showToast('Ticket eliminado', 'info');
   }
+
+  await renderTicketsTable();
+  showToast(`Ticket ${ticketId} actualizado a ${newStatus === 'resolved' ? 'Resuelto' : 'Abierto'}`, 'info');
 }
 
-function clearAllTickets() {
-  if (confirm('¿Vaciar permanentemente TODOS los tickets de la bandeja?')) {
-    localStorage.removeItem('wow_admin_tickets');
-    renderTicketsTable();
-    showToast('Todos los tickets han sido eliminados', 'info');
+async function deleteTicket(ticketId) {
+  if (!confirm(`¿Eliminar permanentemente el ticket ${ticketId}?`)) return;
+
+  // 1. Borrar de localStorage
+  try {
+    let localTickets = JSON.parse(localStorage.getItem('wow_admin_tickets') || '[]');
+    localTickets = localTickets.filter(t => t.id !== ticketId);
+    localStorage.setItem('wow_admin_tickets', JSON.stringify(localTickets));
+  } catch (e) {}
+
+  // 2. Borrar del archivo central en Git
+  if (typeof window !== 'undefined' && window.TelemetryLogger && typeof window.TelemetryLogger.fetchRemoteLog === 'function') {
+    try {
+      let gitList = await window.TelemetryLogger.fetchRemoteLog('js/data/user_tickets_log.json');
+      const filteredGit = gitList.filter(t => t.id !== ticketId);
+      await window.TelemetryLogger.overwriteJsonFileInGit('js/data/user_tickets_log.json', filteredGit, `ticket: delete ticket ${ticketId}`);
+    } catch (e) {
+      console.warn('Error eliminando ticket en Git:', e);
+    }
   }
+
+  await renderTicketsTable();
+  showToast('Ticket eliminado correctamente', 'info');
+}
+
+async function clearAllTickets() {
+  if (!confirm('¿Vaciar permanentemente TODOS los tickets de la bandeja?')) return;
+
+  // 1. Borrar de localStorage
+  localStorage.removeItem('wow_admin_tickets');
+
+  // 2. Borrar del archivo central en Git
+  if (typeof window !== 'undefined' && window.TelemetryLogger && typeof window.TelemetryLogger.overwriteJsonFileInGit === 'function') {
+    try {
+      await window.TelemetryLogger.overwriteJsonFileInGit('js/data/user_tickets_log.json', [], 'ticket: clear all user tickets');
+    } catch (e) {
+      console.warn('Error vaciando tickets en Git:', e);
+    }
+  }
+
+  await renderTicketsTable();
+  showToast('Todos los tickets han sido eliminados de la bandeja', 'info');
 }

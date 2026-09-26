@@ -244,9 +244,70 @@
     return [];
   }
 
+  /**
+   * Overwrites/Updates a JSON array file directly in Git (for deletions and status toggles)
+   */
+  async function overwriteJsonFileInGit(filePath, updatedList, commitMessage) {
+    const token = getToken();
+    if (!token) return false;
+
+    return new Promise((resolve) => {
+      enqueueGitOperation(async () => {
+        try {
+          const getUrl = `https://api.github.com/repos/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/contents/${filePath}?ref=${GITHUB_REPO_BRANCH}&t=${Date.now()}`;
+          let sha = null;
+
+          try {
+            const getRes = await fetch(getUrl, {
+              headers: {
+                'Authorization': `Bearer ${token}`,
+                'Accept': 'application/vnd.github.v3+json'
+              },
+              cache: 'no-store'
+            });
+            if (getRes.ok) {
+              const getData = await getRes.json();
+              sha = getData.sha;
+            }
+          } catch (e) {}
+
+          const putUrl = `https://api.github.com/repos/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/contents/${filePath}`;
+          const formattedJson = JSON.stringify(updatedList, null, 2);
+          const putBody = {
+            message: `${commitMessage} [skip ci]`,
+            content: utf8ToBase64(formattedJson),
+            branch: GITHUB_REPO_BRANCH
+          };
+          if (sha) putBody.sha = sha;
+
+          const putRes = await fetch(putUrl, {
+            method: 'PUT',
+            headers: {
+              'Authorization': `Bearer ${token}`,
+              'Content-Type': 'application/json',
+              'Accept': 'application/vnd.github.v3+json'
+            },
+            body: JSON.stringify(putBody)
+          });
+
+          if (putRes.ok) {
+            console.log(`[Telemetry] Updated ${filePath} successfully in Git`);
+            resolve(true);
+          } else {
+            resolve(false);
+          }
+        } catch (err) {
+          console.warn('[Telemetry] Error updating file in Git:', err);
+          resolve(false);
+        }
+      });
+    });
+  }
+
   window.TelemetryLogger = {
     logMissingTooltip,
     logUserTicket,
-    fetchRemoteLog
+    fetchRemoteLog,
+    overwriteJsonFileInGit
   };
 })(typeof window !== 'undefined' ? window : this);
