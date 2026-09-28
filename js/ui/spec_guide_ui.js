@@ -191,6 +191,7 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
   const spData = SPEC_NAMES_MAP[specKey] || { en: specKey, es: specKey };
   const className = isEs ? clsData.es : clsData.en;
   const specName = isEs ? spData.es : spData.en;
+  const fullSpecName = isEs ? `${className} ${specName}` : `${specName} ${className}`;
   const modeName = activeMode === 'raid' ? (isEs ? 'Banda Mítica' : 'Mythic Raid') : (isEs ? 'Míticas+ (High Keys)' : 'Mythic+ (High Keys)');
 
   // 1. Obtener Datos de Archon y Wowhead
@@ -257,13 +258,13 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
       <section class="bg-wow-card border border-wow-border p-6 rounded-2xl shadow-xl flex flex-col md:flex-row items-center md:items-center justify-between gap-6 text-center md:text-left">
         <div class="space-y-2 max-w-3xl flex flex-col items-center md:items-start">
           <h1 class="text-2xl sm:text-3xl font-black text-white tracking-tight flex items-center justify-center md:justify-start flex-wrap gap-2.5">
-            <span style="color: ${clsData.color};">${specName} ${className}</span>
+            <span style="color: ${clsData.color};">${fullSpecName}</span>
             <span class="text-slate-200">${activeMode === 'raid' ? (isEs ? 'Build de Banda Mítica' : 'Mythic Raid Build') : (isEs ? 'Build de Míticas+ (High Keys)' : 'Mythic+ (High Keys) Build')}</span>
           </h1>
           <p class="text-xs sm:text-sm text-slate-300 leading-relaxed text-center md:text-left">
             ${isEs 
-              ? `La build más popular de <strong class="text-white">${specName} ${className}</strong> en WoW: Midnight. Configuraciones basadas en datos y actualizadas a diario para la Temporada 2 en Midnight 12.1.`
-              : `The most popular <strong class="text-white">${specName} ${className}</strong> Build in WoW - Midnight. Data-driven builds updated daily for Season 2 in Midnight 12.1.`}
+              ? `La build más popular de <strong class="text-white">${fullSpecName}</strong> en WoW: Midnight. Configuraciones basadas en datos y actualizadas a diario para la Temporada 2 en Midnight 12.1.`
+              : `The most popular <strong class="text-white">${fullSpecName}</strong> Build in WoW - Midnight. Data-driven builds updated daily for Season 2 in Midnight 12.1.`}
           </p>
           <div class="flex items-center justify-center md:justify-start gap-3 pt-1 text-[11px] text-slate-400 flex-wrap">
             <span class="flex items-center gap-1.5"><i class="fa-regular fa-clock text-amber-400"></i> ${isEs ? `Actualizado: <strong>${lastUpdatedString}</strong>` : `Last updated: <strong>${lastUpdatedString}</strong>`}</span>
@@ -312,8 +313,8 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
         <!-- PÁRRAFO DINÁMICO SEO ARCHON 1:1 (TALENTOS) -->
         <p class="text-xs sm:text-sm text-slate-300 leading-relaxed bg-black/30 border border-white/5 p-3.5 rounded-xl">
           ${isEs 
-            ? `Esta es la build de talentos más recomendada para <strong class="text-white">${specName} ${className}</strong> en <strong class="text-amber-400">${modeName}</strong>. Nuestra recomendación se basa en la popularidad combinada de los árboles de Especialización y Árbol de Héroe (${heroName}), y en la popularidad de los árboles de Clase que usan dichos árboles.`
-            : `This is the most recommended <strong class="text-white">${specName} ${className}</strong> talent build for <strong class="text-amber-400">${modeName}</strong>. Our recommendation is based on the combined popularity of the Spec & Hero Trees (${heroName}) and by the popularity of Class Trees that use those trees.`}
+            ? `Esta es la build de talentos más recomendada para <strong class="text-white">${fullSpecName}</strong> en <strong class="text-amber-400">${modeName}</strong>. Nuestra recomendación se basa en la popularidad combinada de los árboles de Especialización y Árbol de Héroe (${heroName}), y en la popularidad de los árboles de Clase que usan dichos árboles.`
+            : `This is the most recommended <strong class="text-white">${fullSpecName}</strong> talent build for <strong class="text-amber-400">${modeName}</strong>. Our recommendation is based on the combined popularity of the Spec & Hero Trees (${heroName}) and by the popularity of Class Trees that use those trees.`}
         </p>
 
         <!-- BARRA DESTACADA DE RENDIMIENTO (DPS / HPS & TOP LOG WARCRAFT LOGS) -->
@@ -396,8 +397,8 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
         <!-- PÁRRAFO DINÁMICO SEO ARCHON 1:1 (STATS) -->
         <p class="text-xs sm:text-sm text-slate-300 leading-relaxed bg-black/30 border border-white/5 p-3.5 rounded-xl">
           ${isEs 
-            ? `Según los datos de las últimas 2 semanas, la prioridad de estadísticas para <strong class="text-white">${specName} ${className}</strong> parece ser <strong class="text-amber-400">${statsOrderString}</strong>. Sin embargo, puede existir cierto sesgo según el equipo disponible para los jugadores.`
-            : `Based on data in the last 2 weeks, the stat priority for <strong class="text-white">${specName} ${className}</strong> looks to be <strong class="text-amber-400">${statsOrderString}</strong>. However, there may be bias based on what gear is available to players.`}
+            ? `Según los datos de las últimas 2 semanas, la prioridad de estadísticas para <strong class="text-white">${fullSpecName}</strong> parece ser <strong class="text-amber-400">${statsOrderString}</strong>. Sin embargo, puede existir cierto sesgo según el equipo disponible para los jugadores.`
+            : `Based on data in the last 2 weeks, the stat priority for <strong class="text-white">${fullSpecName}</strong> looks to be <strong class="text-amber-400">${statsOrderString}</strong>. However, there may be bias based on what gear is available to players.`}
         </p>
 
         <!-- Cadena de Prioridad: Vertical en móvil (flecha abajo), Horizontal en PC (flecha derecha) -->
@@ -488,8 +489,8 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
         <!-- PÁRRAFO DINÁMICO SEO ARCHON 1:1 (GEAR OVERVIEW) -->
         <p class="text-xs sm:text-sm text-slate-300 leading-relaxed bg-black/30 border border-white/5 p-3.5 rounded-xl">
           ${isEs 
-            ? `El equipo más popular para <strong class="text-white">${specName} ${className}</strong> según todos los datos de las últimas 2 semanas. Esto representa un conjunto de equipo óptimo para este momento de la Temporada 2 (Parche 12.1) cercano a Best in Slot, con piezas de conjunto hasta la bonificación máxima.`
-            : `The most popular <strong class="text-white">${specName} ${className}</strong> gear based on all data across the last 2 weeks. This represents a strong set of gear for this point in 12.1 that is close to Best in Slot with tier pieces up to the maximum set bonus.`}
+            ? `El equipo más popular para <strong class="text-white">${fullSpecName}</strong> según todos los datos de las últimas 2 semanas. Esto representa un conjunto de equipo óptimo para este momento de la Temporada 2 (Parche 12.1) cercano a Best in Slot, con piezas de conjunto hasta la bonificación máxima.`
+            : `The most popular <strong class="text-white">${fullSpecName}</strong> gear based on all data across the last 2 weeks. This represents a strong set of gear for this point in 12.1 that is close to Best in Slot with tier pieces up to the maximum set bonus.`}
         </p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
@@ -559,8 +560,8 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
           <!-- PÁRRAFO DINÁMICO SEO ARCHON 1:1 (ENCANTAMIENTOS) -->
           <p class="text-xs text-slate-300 leading-relaxed bg-black/30 border border-white/5 p-3 rounded-xl">
             ${isEs 
-              ? `Los encantamientos óptimos para <strong class="text-white">${specName} ${className}</strong> en Midnight 12.1 están seleccionados para potenciar prioritariamente <strong class="text-amber-400">${orderedSecNames[0]}</strong> y tu atributo principal (<strong class="text-white">${primaryName}</strong>), garantizando el mayor rendimiento por slot de equipo.`
-              : `The optimal enchants for <strong class="text-white">${specName} ${className}</strong> in Midnight 12.1 are chosen to prioritize <strong class="text-amber-400">${orderedSecNames[0]}</strong> and your primary stat (<strong class="text-white">${primaryName}</strong>), delivering maximum throughput per gear slot.`}
+              ? `Los encantamientos óptimos para <strong class="text-white">${fullSpecName}</strong> en Midnight 12.1 están seleccionados para potenciar prioritariamente <strong class="text-amber-400">${orderedSecNames[0]}</strong> y tu atributo principal (<strong class="text-white">${primaryName}</strong>), garantizando el mayor rendimiento por slot de equipo.`
+              : `The optimal enchants for <strong class="text-white">${fullSpecName}</strong> in Midnight 12.1 are chosen to prioritize <strong class="text-amber-400">${orderedSecNames[0]}</strong> and your primary stat (<strong class="text-white">${primaryName}</strong>), delivering maximum throughput per gear slot.`}
           </p>
           <div class="space-y-2.5">
             ${enchants.map(enc => {
@@ -594,8 +595,8 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
           <!-- PÁRRAFO DINÁMICO SEO ARCHON 1:1 (CONSUMIBLES) -->
           <p class="text-xs text-slate-300 leading-relaxed bg-black/30 border border-white/5 p-3 rounded-xl">
             ${isEs 
-              ? `Guía de consumibles recomendados para <strong class="text-white">${specName} ${className}</strong> en Banda Mítica y Míticas+ (High Keys). Incluye los mejores frascos, pociones de combate, aceites y comidas de la Temporada 2 de Midnight (Parche 12.1).`
-              : `Recommended consumable setup for <strong class="text-white">${specName} ${className}</strong> in Mythic Raid and Mythic+ (High Keys). Covers top tier flasks, combat potions, oils, and food for Midnight Season 2 (Patch 12.1).`}
+              ? `Guía de consumibles recomendados para <strong class="text-white">${fullSpecName}</strong> en Banda Mítica y Míticas+ (High Keys). Incluye los mejores frascos, pociones de combate, aceites y comidas de la Temporada 2 de Midnight (Parche 12.1).`
+              : `Recommended consumable setup for <strong class="text-white">${fullSpecName}</strong> in Mythic Raid and Mythic+ (High Keys). Covers top tier flasks, combat potions, oils, and food for Midnight Season 2 (Patch 12.1).`}
           </p>
           <div class="space-y-2.5">
             ${consumables.map(con => {
@@ -628,7 +629,7 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
         <div class="space-y-2 max-w-2xl mx-auto">
           <h3 class="font-cinzel text-lg sm:text-xl font-bold text-white flex items-center justify-center gap-2">
             <i class="fa-solid fa-wand-magic-sparkles text-amber-400"></i>
-            <span>${isEs ? `¿Listo para Optimizar tu ${specName} ${className}?` : `Ready to Optimize your ${specName} ${className}?`}</span>
+            <span>${isEs ? `¿Listo para Optimizar tu ${fullSpecName}?` : `Ready to Optimize your ${fullSpecName}?`}</span>
           </h3>
           <p class="text-xs sm:text-sm text-slate-300">
             ${isEs 
