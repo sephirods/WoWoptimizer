@@ -147,9 +147,13 @@
     }
   ];
 
+  let isRenderingHeader = false;
   function renderHeader() {
-    const container = document.getElementById('app-header-container');
-    if (!container) return;
+    if (isRenderingHeader) return;
+    isRenderingHeader = true;
+    try {
+      const container = document.getElementById('app-header-container');
+      if (!container) return;
 
     let basePath = container.dataset.basePath;
     if (basePath === undefined) {
@@ -396,14 +400,19 @@
       }
     };
 
-    if (typeof currentLang !== 'undefined') {
-      const select = document.getElementById('lang-select');
-      if (select) select.value = currentLang;
-    }
-    if (typeof updateLanguageUI === 'function') {
-      updateLanguageUI();
+      if (typeof currentLang !== 'undefined') {
+        const select = document.getElementById('lang-select');
+        if (select) select.value = currentLang;
+      }
+      if (typeof updateLanguageUI === 'function') {
+        updateLanguageUI();
+      }
+    } finally {
+      isRenderingHeader = false;
     }
   }
+
+  window.renderHeader = renderHeader;
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', renderHeader);
