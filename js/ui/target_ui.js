@@ -162,11 +162,17 @@ function getSpecMetaHeroTree(className, specId, mode = (typeof currentContentMod
       if (mode && specData[mode] && specData[mode].metaHeroTree) {
         return specData[mode].metaHeroTree;
       }
+      if (mode && specData[mode] && specData[mode].heroTree) {
+        return specData[mode].heroTree.toLowerCase().replace(/[^a-z0-9]/g, '');
+      }
       if (typeof specData.metaHeroTree === 'object' && specData.metaHeroTree !== null) {
         if (mode && specData.metaHeroTree[mode]) return specData.metaHeroTree[mode];
       }
       if (typeof specData.metaHeroTree === 'string') {
         return specData.metaHeroTree;
+      }
+      if (typeof specData.heroTree === 'string') {
+        return specData.heroTree.toLowerCase().replace(/[^a-z0-9]/g, '');
       }
     }
   }

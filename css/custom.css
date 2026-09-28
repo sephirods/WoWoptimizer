@@ -434,3 +434,42 @@ a[data-entity="item"] {
 .simc-tooltip-bounce {
   animation: simcArrowBounce 1.5s infinite ease-in-out;
 }
+
+/* ============================================================
+   ARCHON TALENTS: BOTONES EXPORTAR Y EDITAR ARRIBA EN MÓVIL (< 1024px)
+   ============================================================ */
+@media (max-width: 1023px) {
+  .talent-tree-wrapper .builds-talent-tree-build-section__talent-trees {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    position: static !important;
+  }
+
+  .talent-tree-wrapper .talent-tree__interactions-export,
+  .talent-tree-wrapper div.talent-tree__interactions-export,
+  .talent-tree__interactions-export {
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+    order: -9999 !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0.75rem !important;
+    width: 100% !important;
+    max-width: 320px !important;
+    margin: 0 auto 1.25rem auto !important;
+    z-index: 50 !important;
+  }
+
+  .talent-tree-wrapper .talent-tree {
+    order: 2 !important;
+    width: 100% !important;
+  }
+}

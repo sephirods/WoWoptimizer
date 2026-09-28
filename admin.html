@@ -101,10 +101,7 @@
           <i class="fa-solid fa-gauge-high"></i> Resumen
         </button>
         <button onclick="switchAdminTab('archon')" id="nav-archon" class="admin-tab-btn flex-1 min-w-[130px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-purple-300 hover:bg-purple-950/20 border border-transparent">
-          <i class="fa-solid fa-shield-halved text-purple-400"></i> Archon Presets
-        </button>
-        <button onclick="switchAdminTab('archon_healers')" id="nav-archon_healers" class="admin-tab-btn flex-1 min-w-[145px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-sky-300 hover:bg-sky-950/20 border border-transparent">
-          <i class="fa-solid fa-heart-pulse text-sky-400"></i> Abalorios Healers
+          <i class="fa-solid fa-shield-halved text-purple-400"></i> Archon.gg (40 Specs)
         </button>
         <button onclick="switchAdminTab('stat_priorities')" id="nav-stat_priorities" class="admin-tab-btn flex-1 min-w-[145px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-emerald-300 hover:bg-emerald-950/20 border border-transparent">
           <i class="fa-solid fa-chart-column text-emerald-400"></i> Prioridades Stats
@@ -178,7 +175,7 @@
         <!-- 6 Dataset & Traffic Status Cards Grid -->
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           
-          <!-- Card Archon -->
+          <!-- Card Archon Unificado (Presets, BiS, Talentos y Healers) -->
           <div class="bg-wow-card border border-purple-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-purple-500/60 transition">
             <div class="flex items-center justify-between">
               <div class="w-9 h-9 rounded-xl bg-purple-950/60 border border-purple-500/50 flex items-center justify-center text-purple-400">
@@ -187,27 +184,10 @@
               <span id="overview-archon-status" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold">Por Defecto</span>
             </div>
             <div>
-              <h3 class="text-sm font-bold text-white">Presets Archon</h3>
-              <p class="text-[11px] text-slate-400">M+ y Raid 39 specs.</p>
+              <h3 class="text-sm font-bold text-white">Datos Archon.gg</h3>
+              <p class="text-[11px] text-slate-400">Presets, BiS, Talentos y Abalorios (40 specs).</p>
             </div>
             <button onclick="switchAdminTab('archon')" class="w-full text-xs bg-purple-950/40 hover:bg-purple-900/60 text-purple-200 border border-purple-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
-              Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </button>
-          </div>
-
-          <!-- Card Archon Healer Trinkets -->
-          <div class="bg-wow-card border border-sky-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-sky-500/60 transition">
-            <div class="flex items-center justify-between">
-              <div class="w-9 h-9 rounded-xl bg-sky-950/60 border border-sky-500/50 flex items-center justify-center text-sky-400">
-                <i class="fa-solid fa-heart-pulse"></i>
-              </div>
-              <span id="overview-archon-healers-status" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold">Por Defecto</span>
-            </div>
-            <div>
-              <h3 class="text-sm font-bold text-white">Abalorios Healers</h3>
-              <p class="text-[11px] text-slate-400">Archon 7 specs Healer.</p>
-            </div>
-            <button onclick="switchAdminTab('archon_healers')" class="w-full text-xs bg-sky-950/40 hover:bg-sky-900/60 text-sky-200 border border-sky-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
               Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
             </button>
           </div>
@@ -355,7 +335,7 @@
 
       </section>
 
-      <!-- TAB 2: ARCHON PRESETS -->
+      <!-- TAB 2: ARCHON UNIFICADO (40 SPECS: STATS, TALENTOS, BIS GEAR Y ABALORIOS HEALERS) -->
       <section id="tab-archon" class="admin-tab-pane hidden space-y-6">
         <div class="bg-wow-card border border-purple-500/40 rounded-2xl p-6 shadow-xl space-y-5">
           <div class="flex items-center justify-between flex-wrap gap-3 pb-4 border-b border-wow-border">
@@ -365,19 +345,19 @@
               </div>
               <div>
                 <div class="flex items-center gap-2.5">
-                  <h3 class="text-base font-bold text-purple-300">Presets de Archon.gg</h3>
+                  <h3 class="text-base font-bold text-purple-300">Datos Oficiales Archon.gg</h3>
                   <code class="text-amber-300 font-mono text-xs bg-black/40 px-2 py-0.5 rounded border border-white/5">archon_data.js</code>
                 </div>
                 <div class="flex items-center gap-2 mt-1">
                   <span id="archon-data-status" class="text-[10px] px-2 py-0.5 rounded font-mono bg-slate-800 text-slate-300 border border-slate-700">Por Defecto</span>
-                  <span class="text-[11px] text-slate-400">Contiene los objetivos meta para Mítica+ y Banda de las 39 especializaciones.</span>
+                  <span class="text-[11px] text-slate-400">Presets de estadísticas, árboles héroe, strings de talentos, BiS gear y abalorios de healers (40 specs).</span>
                 </div>
               </div>
             </div>
             
             <div class="flex items-center gap-2 flex-wrap">
               <button onclick="copyArchonExtractorScript()" class="text-xs bg-purple-950 hover:bg-purple-900 text-purple-200 border border-purple-500/70 px-4 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow">
-                <i class="fa-solid fa-copy text-amber-400"></i> Copiar Script
+                <i class="fa-solid fa-copy text-amber-400"></i> Copiar Script Unificado
               </button>
               <label class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 px-4 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow cursor-pointer">
                 <i class="fa-solid fa-cloud-arrow-up text-purple-400"></i> Subir archon_data.js
@@ -391,14 +371,14 @@
 
           <div class="bg-wow-subcard border border-wow-border rounded-xl p-4 text-xs text-slate-300 space-y-2">
             <h4 class="font-bold text-amber-400 flex items-center gap-1.5">
-              <i class="fa-solid fa-circle-question"></i> Instrucciones de Extracción:
+              <i class="fa-solid fa-circle-question"></i> Instrucciones de Extracción Unificada:
             </h4>
             <ol class="list-decimal list-inside space-y-1 text-slate-400">
               <li>Abre <a href="https://www.archon.gg/wow" target="_blank" class="text-amber-400 underline font-semibold">archon.gg/wow</a> en tu navegador.</li>
               <li>Abre las herramientas de desarrollador presionando <kbd class="bg-black/60 px-1.5 py-0.5 rounded text-amber-300 border border-white/10 font-mono">F12</kbd> y selecciona la pestaña <strong>Console</strong>.</li>
-              <li>Pulsa <strong>"Copiar Script"</strong> arriba, pégalo en la consola y presiona <kbd class="bg-black/60 px-1.5 py-0.5 rounded text-amber-300 border border-white/10 font-mono">Enter</kbd>.</li>
-              <li>El script escaneará automáticamente y descargará el archivo <code class="text-purple-300 font-mono">archon_data.js</code>.</li>
-              <li>Sube el archivo aquí con el botón <strong>"Subir archon_data.js"</strong> para activar los nuevos datos en el optimizador.</li>
+              <li>Pulsa <strong>"Copiar Script Unificado"</strong> arriba, pégalo en la consola y presiona <kbd class="bg-black/60 px-1.5 py-0.5 rounded text-amber-300 border border-white/10 font-mono">Enter</kbd>.</li>
+              <li>El script recorrerá las 40 especializaciones de Midnight y descargará automáticamente el archivo unificado <code class="text-purple-300 font-mono">archon_data.js</code>.</li>
+              <li>Sube el archivo aquí con el botón <strong>"Subir archon_data.js"</strong> para actualizar automáticamente las estadísticas, los talentos, el BiS gear y los abalorios de healers simultáneamente.</li>
             </ol>
           </div>
 
@@ -408,63 +388,6 @@
               <button onclick="copyArchonExtractorScript()" class="text-[10px] text-amber-400 hover:underline font-semibold">Copiar código completo</button>
             </div>
             <pre id="archon-script-preview" class="bg-black/80 border border-white/10 rounded-xl p-4 text-[11px] font-mono text-purple-300 max-h-56 overflow-y-auto select-all scrollbar-thin"></pre>
-          </div>
-        </div>
-      </section>
-
-      <!-- TAB: ABALORIOS HEALERS (ARCHON.GG) -->
-      <section id="tab-archon_healers" class="admin-tab-pane hidden space-y-6">
-        <div class="bg-wow-card border border-sky-500/40 rounded-2xl p-6 shadow-xl space-y-5">
-          <div class="flex items-center justify-between flex-wrap gap-3 pb-4 border-b border-wow-border">
-            <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-xl bg-sky-950/80 border border-sky-500/60 flex items-center justify-center text-sky-300 text-lg shadow">
-                <i class="fa-solid fa-heart-pulse"></i>
-              </div>
-              <div>
-                <div class="flex items-center gap-2.5">
-                  <h3 class="text-base font-bold text-sky-300">Abalorios Healers de Archon.gg</h3>
-                  <code class="text-amber-300 font-mono text-xs bg-black/40 px-2 py-0.5 rounded border border-white/5">archon_healers.js</code>
-                </div>
-                <div class="flex items-center gap-2 mt-1">
-                  <span id="archon-healers-data-status" class="text-[10px] px-2 py-0.5 rounded font-mono bg-slate-800 text-slate-300 border border-slate-700">Por Defecto</span>
-                  <span class="text-[11px] text-slate-400">Popularidad de abalorios y throughput para las 7 specs de Sanadores (M+ y Raid).</span>
-                </div>
-              </div>
-            </div>
-            
-            <div class="flex items-center gap-2 flex-wrap">
-              <button onclick="copyArchonHealerExtractorScript()" class="text-xs bg-sky-950 hover:bg-sky-900 text-sky-200 border border-sky-500/70 px-4 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow">
-                <i class="fa-solid fa-copy text-amber-400"></i> Copiar Script
-              </button>
-              <label class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 px-4 py-2 rounded-xl font-bold flex items-center gap-1.5 transition shadow cursor-pointer">
-                <i class="fa-solid fa-cloud-arrow-up text-sky-400"></i> Subir archon_healers.js
-                <input type="file" accept=".js,.json" class="hidden" onchange="uploadArchonHealersJs(event)">
-              </label>
-              <button id="btn-reset-archon-healers" onclick="resetArchonHealersDataToDefault()" class="text-xs text-red-400 hover:text-red-300 px-3 py-2 rounded-xl border border-red-500/30 hover:border-red-500/60 font-semibold hidden transition">
-                <i class="fa-solid fa-trash mr-1"></i> Restaurar
-              </button>
-            </div>
-          </div>
-
-          <div class="bg-wow-subcard border border-wow-border rounded-xl p-4 text-xs text-slate-300 space-y-2">
-            <h4 class="font-bold text-amber-400 flex items-center gap-1.5">
-              <i class="fa-solid fa-circle-question"></i> Instrucciones de Extracción:
-            </h4>
-            <ol class="list-decimal list-inside space-y-1 text-slate-400">
-              <li>Abre <a href="https://www.archon.gg/wow" target="_blank" class="text-amber-400 underline font-semibold">archon.gg/wow</a> en tu navegador.</li>
-              <li>Abre las herramientas de desarrollador presionando <kbd class="bg-black/60 px-1.5 py-0.5 rounded text-amber-300 border border-white/10 font-mono">F12</kbd> y selecciona la pestaña <strong>Console</strong>.</li>
-              <li>Pulsa <strong>"Copiar Script"</strong> arriba, pégalo en la consola y presiona <kbd class="bg-black/60 px-1.5 py-0.5 rounded text-amber-300 border border-white/10 font-mono">Enter</kbd>.</li>
-              <li>El script recorrerá las 7 especializaciones de healer y descargará automáticamente el archivo <code class="text-sky-300 font-mono">archon_healers.js</code>.</li>
-              <li>Sube el archivo aquí con el botón <strong>"Subir archon_healers.js"</strong> para activar los datos actualizados para todos los usuarios.</li>
-            </ol>
-          </div>
-
-          <div>
-            <div class="flex items-center justify-between mb-1.5">
-              <span class="text-[11px] font-bold uppercase tracking-wider text-slate-400">Vista Previa del Script de Consola</span>
-              <button onclick="copyArchonHealerExtractorScript()" class="text-[10px] text-amber-400 hover:underline font-semibold">Copiar código completo</button>
-            </div>
-            <pre id="archon-healers-script-preview" class="bg-black/80 border border-white/10 rounded-xl p-4 text-[11px] font-mono text-sky-300 max-h-56 overflow-y-auto select-all scrollbar-thin"></pre>
           </div>
         </div>
       </section>
@@ -511,7 +434,7 @@
               <li>Abre <a href="https://www.wowhead.com" target="_blank" class="text-amber-400 underline font-semibold">wowhead.com</a> en tu navegador.</li>
               <li>Abre las herramientas de desarrollador (<kbd class="bg-black/60 px-1.5 py-0.5 rounded text-amber-300 border border-white/10 font-mono">F12</kbd> > <strong>Console</strong>).</li>
               <li>Copia el script con el botón superior, pégalo en la consola y presiona <kbd class="bg-black/60 px-1.5 py-0.5 rounded text-amber-300 border border-white/10 font-mono">Enter</kbd>.</li>
-              <li>Se descargarán las prioridades de las 39 especializaciones en <code class="text-emerald-300 font-mono">wow_stat_priorities.js</code>.</li>
+              <li>Se descargarán las prioridades de las 40 especializaciones en <code class="text-emerald-300 font-mono">wow_stat_priorities.js</code>.</li>
               <li>Sube el archivo descargado para sincronizar los pesos del optimizador al instante.</li>
             </ol>
           </div>
@@ -622,7 +545,7 @@
               <i class="fa-solid fa-bolt"></i> Sincronización en 1 Clic Directa desde la API:
             </h4>
             <p class="text-slate-400 leading-relaxed">
-              No necesitas copiar ningún script. Al hacer clic en <strong>"Actualizar Bloodmallet en Vivo"</strong>, tu navegador se conecta a los servidores oficiales de <code class="text-red-300 font-mono">bloodmallet.com</code>, descarga en segundo plano los 39 archivos JSON de simulaciones y los almacena directamente en la aplicación.
+              No necesitas copiar ningún script. Al hacer clic en <strong>"Actualizar Bloodmallet en Vivo"</strong>, tu navegador se conecta a los servidores oficiales de <code class="text-red-300 font-mono">bloodmallet.com</code>, descarga en segundo plano los 40 archivos JSON de simulaciones y los almacena directamente en la aplicación.
             </p>
           </div>
         </div>
@@ -955,18 +878,18 @@
   <div id="toast-container" class="fixed bottom-4 right-4 z-50 flex flex-col gap-2 pointer-events-none"></div>
 
   <!-- SCRIPT DE EXTRACCIÓN EMPAQUETADO EXTERNO -->
-  <script src="js/data/admin_scripts_bundle.js?v=20260926_1848"></script>
-  <script src="js/data/wow_news_data.js?v=20260926_1848"></script>
-  <script src="js/data/pinned_news.js?v=20260926_1848"></script>
-  <script src="js/data/news_fetcher.js?v=20260926_1848"></script>
-  <script src="js/data/telemetry_logger.js?v=20260926_1848"></script>
+  <script src="js/data/admin_scripts_bundle.js?v=20260928_v20"></script>
+  <script src="js/data/wow_news_data.js?v=20260928_v20"></script>
+  <script src="js/data/pinned_news.js?v=20260928_v20"></script>
+  <script src="js/data/news_fetcher.js?v=20260928_v20"></script>
+  <script src="js/data/telemetry_logger.js?v=20260928_v20"></script>
 
   <!-- MÓDULOS DE ADMINISTRACIÓN -->
-  <script src="js/admin/admin_core.js?v=20260926_1848"></script>
-  <script src="js/admin/admin_datasets.js?v=20260926_1848"></script>
-  <script src="js/admin/admin_bloodmallet.js?v=20260926_1848"></script>
-  <script src="js/admin/admin_tickets.js?v=20260926_1848"></script>
-  <script src="js/admin/admin_news.js?v=20260926_1848"></script>
+  <script src="js/admin/admin_core.js?v=20260928_v20"></script>
+  <script src="js/admin/admin_datasets.js?v=20260928_v20"></script>
+  <script src="js/admin/admin_bloodmallet.js?v=20260928_v20"></script>
+  <script src="js/admin/admin_tickets.js?v=20260928_v20"></script>
+  <script src="js/admin/admin_news.js?v=20260928_v20"></script>
   <script>
     document.addEventListener('DOMContentLoaded', checkAuth);
   </script>

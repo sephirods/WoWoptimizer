@@ -3,20 +3,506 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://wowtopgear.app/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/?lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/" />
   </url>
   <url>
     <loc>https://wowtopgear.app/gearsim.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/gearsim.html?lang=es" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/gearsim.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/gearsim.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/gearsim.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/gearsim.html" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/paladin/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/paladin/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/paladin/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/paladin/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/paladin/holy/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/paladin/holy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/paladin/holy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/paladin/holy/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/paladin/protection/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/paladin/protection/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/paladin/protection/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/paladin/protection/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/paladin/retribution/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/paladin/retribution/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/paladin/retribution/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/paladin/retribution/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/warrior/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/warrior/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/warrior/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/warrior/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/warrior/arms/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/warrior/arms/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/warrior/arms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/warrior/arms/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/warrior/fury/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/warrior/fury/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/warrior/fury/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/warrior/fury/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/warrior/protection/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/warrior/protection/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/warrior/protection/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/warrior/protection/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/deathknight/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/deathknight/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/deathknight/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/deathknight/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/deathknight/blood/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/deathknight/blood/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/deathknight/blood/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/deathknight/blood/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/deathknight/frost/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/deathknight/frost/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/deathknight/frost/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/deathknight/frost/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/deathknight/unholy/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/deathknight/unholy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/deathknight/unholy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/deathknight/unholy/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/hunter/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/hunter/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/hunter/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/hunter/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/hunter/beast-mastery/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/hunter/beast-mastery/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/hunter/beast-mastery/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/hunter/beast-mastery/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/hunter/marksmanship/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/hunter/marksmanship/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/hunter/marksmanship/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/hunter/marksmanship/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/hunter/survival/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/hunter/survival/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/hunter/survival/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/hunter/survival/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/rogue/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/rogue/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/rogue/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/rogue/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/rogue/assassination/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/rogue/assassination/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/rogue/assassination/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/rogue/assassination/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/rogue/outlaw/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/rogue/outlaw/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/rogue/outlaw/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/rogue/outlaw/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/rogue/subtlety/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/rogue/subtlety/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/rogue/subtlety/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/rogue/subtlety/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/priest/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/priest/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/priest/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/priest/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/priest/discipline/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/priest/discipline/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/priest/discipline/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/priest/discipline/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/priest/holy/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/priest/holy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/priest/holy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/priest/holy/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/priest/shadow/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/priest/shadow/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/priest/shadow/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/priest/shadow/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/shaman/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/shaman/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/shaman/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/shaman/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/shaman/elemental/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/shaman/elemental/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/shaman/elemental/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/shaman/elemental/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/shaman/enhancement/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/shaman/enhancement/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/shaman/enhancement/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/shaman/enhancement/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/shaman/restoration/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/shaman/restoration/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/shaman/restoration/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/shaman/restoration/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/mage/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/mage/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/mage/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/mage/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/mage/arcane/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/mage/arcane/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/mage/arcane/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/mage/arcane/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/mage/fire/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/mage/fire/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/mage/fire/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/mage/fire/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/mage/frost/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/mage/frost/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/mage/frost/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/mage/frost/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/warlock/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/warlock/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/warlock/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/warlock/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/warlock/affliction/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/warlock/affliction/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/warlock/affliction/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/warlock/affliction/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/warlock/demonology/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/warlock/demonology/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/warlock/demonology/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/warlock/demonology/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/warlock/destruction/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/warlock/destruction/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/warlock/destruction/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/warlock/destruction/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/monk/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/monk/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/monk/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/monk/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/monk/brewmaster/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/monk/brewmaster/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/monk/brewmaster/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/monk/brewmaster/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/monk/mistweaver/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/monk/mistweaver/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/monk/mistweaver/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/monk/mistweaver/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/monk/windwalker/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/monk/windwalker/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/monk/windwalker/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/monk/windwalker/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/druid/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/druid/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/druid/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/druid/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/druid/balance/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/druid/balance/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/druid/balance/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/druid/balance/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/druid/feral/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/druid/feral/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/druid/feral/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/druid/feral/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/druid/guardian/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/druid/guardian/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/druid/guardian/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/druid/guardian/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/druid/restoration/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/druid/restoration/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/druid/restoration/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/druid/restoration/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/demonhunter/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/demonhunter/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/demonhunter/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/demonhunter/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/demonhunter/devourer/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/demonhunter/devourer/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/demonhunter/devourer/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/demonhunter/devourer/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/demonhunter/havoc/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/demonhunter/havoc/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/demonhunter/havoc/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/demonhunter/havoc/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/demonhunter/vengeance/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/demonhunter/vengeance/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/demonhunter/vengeance/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/demonhunter/vengeance/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/evoker/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/evoker/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/evoker/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/evoker/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/evoker/augmentation/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/evoker/augmentation/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/evoker/augmentation/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/evoker/augmentation/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/evoker/devastation/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/evoker/devastation/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/evoker/devastation/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/evoker/devastation/" />
+  </url>
+  <url>
+    <loc>https://wowtopgear.app/classes/evoker/preservation/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wowtopgear.app/classes/evoker/preservation/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://wowtopgear.app/classes/evoker/preservation/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wowtopgear.app/classes/evoker/preservation/" />
   </url>
 </urlset>

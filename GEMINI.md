@@ -55,4 +55,20 @@
   - The assistant is strictly prohibited from assuming, inventing, or hardcoding unrequested game mechanics, class restrictions, artificial item scoring, or priority rules.
   - The user is the sole authority on game mechanics, system requirements, and application behavior.
   - Apply ONLY the exact mathematical rules, constraints, and instructions explicitly provided by the user. Zero unauthorized domain assumptions.
+- **MANDATORY GAME CONTEXT (MIDNIGHT SEASON 2 - PATCH 12.1)**:
+  - The official expansion, season, and patch of this project is strictly **World of Warcraft: Midnight — Season 2 (Patch 12.1)**.
+  - NEVER mention, assume, or reference past expansions (e.g. The War Within, Dragonflight, Shadowlands). All copy, guides, and SEO MUST strictly align with Midnight Season 2 (Patch 12.1).
+  - **DEMON HUNTER IN MIDNIGHT**: Demon Hunter has THREE official specializations: **Havoc** (DPS), **Vengeance** (Tank), and **Devourer** (DPS). Never omit Devourer.
+
+## 7. Strict Chat-Only Mode Without Explicit Orders (MANDATORY)
+
+- **CHAT MODE BY DEFAULT**: The assistant is strictly prohibited from invoking any tool, running commands, reading files, or editing code without a direct, textual command from the user.
+- **ZERO TOOL CALLS ON CONVERSATIONAL PROMPTS**: If the user asks a question, makes a comment, or gives feedback without explicitly ordering an action, the assistant MUST respond in plain text only. No background inspections, no unprompted git reads, no speculative tool calls.
+
+## 8. Mandatory Bilingual Standard for All Pages, SEO & Schema (MANDATORY)
+
+- **COMPREHENSIVE BILINGUAL SUPPORT (EN & ES)**:
+  - Every page, UI element, button, heading, and description MUST be fully translated and integrated into `js/ui/i18n.js` with `data-i18n` (or `data-i18n-html`).
+  - **SEO & SOCIAL META MUST BE BILINGUAL**: Include `<link rel="alternate" hreflang="en" ...>`, `<link rel="alternate" hreflang="es" ...>`, and dynamic title/meta description updating when switching languages via `i18n.js`.
+  - **SCHEMA.ORG STRUCTURED DATA MUST BE BILINGUAL**: Structured data (JSON-LD) must include bilingual names/descriptions or support multilingual tagging so Google indexes both English and Spanish search queries.
 

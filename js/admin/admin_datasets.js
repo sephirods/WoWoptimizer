@@ -188,7 +188,18 @@ async function uploadArchonJs(event) {
   if (!file) return;
   try {
     const text = await file.text();
+    // 1. Guardar y procesar ARCHON_PRESETS (Stats, Talentos, Hero Tree y BiS)
     await publishDatasetDirectly('archon_data.js', text, 'ARCHON_PRESETS', 'wow_custom_archon_data');
+
+    // 2. Si el archivo incluye también ARCHON_HEALER_TRINKETS (unificado), procesarlo automáticamente
+    if (text.includes('ARCHON_HEALER_TRINKETS')) {
+      try {
+        await publishDatasetDirectly('archon_healers.js', text, 'ARCHON_HEALER_TRINKETS', 'wow_custom_archon_healers');
+        showToast('¡Datos unificados de Archon aplicados! Presets (40 specs) y Abalorios Healers actualizados.', 'success');
+      } catch (healerErr) {
+        console.warn('Aviso al procesar abalorios healers del archivo unificado:', healerErr);
+      }
+    }
   } catch (err) {
     alert('Error: ' + err.message);
   }

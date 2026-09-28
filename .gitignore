@@ -3,3 +3,5 @@ backups/
 *.tmp
 .credentials.md
 .env*
+promo-video/
+.agents/
