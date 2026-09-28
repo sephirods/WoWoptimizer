@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /admin.html
 
 # Motores de Búsqueda Generativa (IA / LLMs)
 User-agent: GPTBot
