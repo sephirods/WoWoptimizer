@@ -1,4 +1,12 @@
 // Componente Modular de Encabezado (Header Dinámico) para Portada y Páginas de Clases/Guías
+// Interruptor Central de Aviso de Actualización de Parche / Temporada
+window.WOW_PATCH_NOTICE = window.WOW_PATCH_NOTICE || {
+  active: false, // Cambiar a 'true' cuando Blizzard lance un nuevo parche y se estén sincronizando datos
+  fromPatch: "12.1",
+  toPatch: "12.1.5",
+  season: "Season 2"
+};
+
 (function initDynamicHeader() {
   const WOW_CLASSES_MENU = [
     {
@@ -239,12 +247,35 @@
       `;
     }).join('');
 
+    const notice = window.WOW_PATCH_NOTICE;
+    const isDismissed = (typeof sessionStorage !== 'undefined' && sessionStorage.getItem('wow_patch_notice_dismissed') === 'true');
+    const showNotice = (notice && notice.active && !isDismissed);
+
+    const noticeBannerHtml = showNotice ? `
+      <div id="wow-patch-notice-bar" class="bg-gradient-to-r from-amber-950 via-purple-950 to-amber-950 border-b border-amber-500/40 text-amber-200 text-xs px-3 sm:px-4 py-2 relative z-50 shadow-md">
+        <div class="max-w-7xl mx-auto flex items-center justify-between gap-3">
+          <div class="flex items-center gap-2.5 min-w-0">
+            <i class="fa-solid fa-triangle-exclamation text-amber-400 shrink-0 text-sm"></i>
+            <span class="truncate sm:whitespace-normal leading-tight font-medium">
+              ${isEs
+                ? `<strong>Actualización en curso:</strong> Sincronizando simulaciones, talentos y datos BiS para el <strong>Parche ${notice.toPatch}</strong>. Algunos datos pueden reflejar el Parche ${notice.fromPatch} mientras se procesan los nuevos registros oficiales.`
+                : `<strong>Update in progress:</strong> Syncing simulations, talents, and BiS gear for <strong>Patch ${notice.toPatch}</strong>. Some builds and stats may reflect Patch ${notice.fromPatch} while new logs are processed.`}
+            </span>
+          </div>
+          <button type="button" onclick="dismissPatchNotice()" class="text-amber-400/80 hover:text-white p-1 rounded transition shrink-0 ml-2 cursor-pointer" title="${isEs ? 'Cerrar aviso' : 'Dismiss notice'}">
+            <i class="fa-solid fa-xmark text-sm"></i>
+          </button>
+        </div>
+      </div>
+    ` : '';
+
     container.innerHTML = `
       <style>
         .class-menu-item:hover > .class-submenu {
           display: block !important;
         }
       </style>
+      ${noticeBannerHtml}
       <header class="bg-[#0b0e17]/95 backdrop-blur border-b border-wow-border sticky top-0 z-40 shadow-2xl">
         <div class="max-w-7xl mx-auto px-3 sm:px-6 py-2.5 sm:py-3 flex items-center justify-between gap-2 sm:gap-4">
           
@@ -413,6 +444,14 @@
   }
 
   window.renderHeader = renderHeader;
+
+  window.dismissPatchNotice = function() {
+    try {
+      sessionStorage.setItem('wow_patch_notice_dismissed', 'true');
+    } catch (e) {}
+    const el = document.getElementById('wow-patch-notice-bar');
+    if (el) el.remove();
+  };
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', renderHeader);

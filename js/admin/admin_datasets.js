@@ -169,7 +169,11 @@ async function bumpScriptVersionInGitHub(scriptName) {
 async function publishDatasetDirectly(fileName, rawText, varName, localKey) {
   const data = parseJsDataset(rawText, varName);
   if (!data || typeof data !== 'object') throw new Error('Estructura no válida para ' + varName);
-  localStorage.setItem(localKey, JSON.stringify(data));
+  try {
+    localStorage.setItem(localKey, JSON.stringify(data));
+  } catch (quotaErr) {
+    console.warn(`[Admin] Archivo grande (${fileName}): no cabe en localStorage (límite 5MB), procediendo con publicación directa:`, quotaErr);
+  }
   updateDevModalStatusBadges();
 
   const token = getGitHubToken();
