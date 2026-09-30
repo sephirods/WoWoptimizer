@@ -1,4 +1,4 @@
-// BIS ENCHANTS & CONSUMABLES DATASET (WITH OFFICIAL WOWHEAD ICONS)
+// ENCANTAMIENTOS Y CONSUMIBLES OFICIALES EXTRAÍDOS
 window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
   "paladin": {
     "retribution": {
@@ -197,7 +197,7 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
           "type": "Weapon Buff",
           "id": 433568,
           "name": "Rite of Sanctification",
-          "icon": "spell_holy_blessingofprotection",
+          "icon": "inv_inscription_weaponscroll01",
           "desc": "Rite of Sanctification"
         },
         {
@@ -649,21 +649,21 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
           "slot": "Weapon",
           "id": 326805,
           "name": "Rune of Sanguination",
-          "icon": "spell_deathknight_bloodpresence",
+          "icon": "ability_argus_deathfog",
           "desc": "Rune of Sanguination"
         },
         {
           "slot": "Weapon",
           "id": 53344,
           "name": "Rune of the Fallen Crusader",
-          "icon": "spell_deathknight_butcher2",
+          "icon": "spell_holy_blessingofstrength",
           "desc": "Rune of the Fallen Crusader"
         },
         {
           "slot": "Weapon",
           "id": 326805,
           "name": "Rune of Sanguination",
-          "icon": "spell_deathknight_bloodpresence",
+          "icon": "ability_argus_deathfog",
           "desc": "Rune of Sanguination"
         },
         {
@@ -811,6 +811,13 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
           "name": "Rune of Razorice",
           "icon": "spell_frost_frostarmor",
           "desc": "Rune of Razorice"
+        },
+        {
+          "slot": "Two-Hand",
+          "id": 53344,
+          "name": "Rune of the Fallen Crusader",
+          "icon": "spell_holy_blessingofstrength",
+          "desc": "Rune of the Fallen Crusader"
         }
       ],
       "consumables": [
@@ -864,7 +871,7 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
           "slot": "Weapon",
           "id": 327082,
           "name": "Rune of the Apocalypse",
-          "icon": "spell_shadow_unholyfrenzy",
+          "icon": "spell_deathknight_thrash_ghoul",
           "desc": "Rune of the Apocalypse"
         },
         {
@@ -1399,6 +1406,20 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
     "enhancement": {
       "enchants": [
         {
+          "slot": "Weapon (Main Hand)",
+          "id": 273072,
+          "name": "Enchant Weapon - Rite of the Hash'ey",
+          "icon": "inv_12_profession_enchanting_enchantedvellum_purple",
+          "desc": "Enchant Weapon - Rite of the Hash'ey"
+        },
+        {
+          "slot": "Weapon (Off Hand)",
+          "id": 273072,
+          "name": "Enchant Weapon - Rite of the Hash'ey",
+          "icon": "inv_12_profession_enchanting_enchantedvellum_purple",
+          "desc": "Enchant Weapon - Rite of the Hash'ey"
+        },
+        {
           "slot": "Helm",
           "id": 244007,
           "name": "Enchant Helm - Empowered Rune of Avoidance",
@@ -1474,7 +1495,7 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
           "type": "Weapon Buff",
           "id": 33757,
           "name": "Weapon",
-          "icon": "inv_shoulder_64",
+          "icon": "spell_shaman_unleashweapon_wind",
           "desc": "Weapon"
         },
         {
@@ -1592,7 +1613,7 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
           "type": "Weapon Buff",
           "id": 382021,
           "name": "Earthliving Weapon",
-          "icon": "spell_nature_earthlivingweapon",
+          "icon": "spell_shaman_giftearthmother",
           "desc": "Earthliving Weapon"
         },
         {
@@ -1873,14 +1894,14 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
     "subtlety": {
       "enchants": [
         {
-          "slot": "Weapon - Main Hand",
+          "slot": "Weapon (Weapon - Main Hand)",
           "id": 273072,
           "name": "Enchant Weapon - Rite of the Hash'ey",
           "icon": "inv_12_profession_enchanting_enchantedvellum_purple",
           "desc": "Enchant Weapon - Rite of the Hash'ey"
         },
         {
-          "slot": "Weapon - Off Hand",
+          "slot": "Weapon (Weapon - Off Hand)",
           "id": 273072,
           "name": "Enchant Weapon - Rite of the Hash'ey",
           "icon": "inv_12_profession_enchanting_enchantedvellum_purple",
@@ -2007,7 +2028,7 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
     "brewmaster": {
       "enchants": [
         {
-          "slot": "Weapons (2h &amp; Dual-Wield)",
+          "slot": "Weapons (2h & Dual-Wield)",
           "id": 244029,
           "name": "Enchant Weapon - Acuity of the Ren'dorei",
           "icon": "inv_12_profession_enchanting_enchantedvellum_purple",
@@ -2564,7 +2585,14 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
     "devourer": {
       "enchants": [
         {
-          "slot": "Weapon",
+          "slot": "Weapon (Main Hand)",
+          "id": 273071,
+          "name": "Enchant Weapon - Rite of the Hash'ey",
+          "icon": "inv_12_profession_enchanting_enchantedvellum_purple",
+          "desc": "Enchant Weapon - Rite of the Hash'ey"
+        },
+        {
+          "slot": "Weapon (Off Hand)",
           "id": 273071,
           "name": "Enchant Weapon - Rite of the Hash'ey",
           "icon": "inv_12_profession_enchanting_enchantedvellum_purple",
@@ -2788,7 +2816,7 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
     "feral": {
       "enchants": [
         {
-          "slot": "Weapon - Main Hand",
+          "slot": "Weapon (Weapon - Main Hand)",
           "id": 244029,
           "name": "Enchant Weapon - Acuity of the Ren'dorei",
           "icon": "inv_12_profession_enchanting_enchantedvellum_purple",
@@ -4108,10 +4136,10 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
         },
         {
           "slot": "Rings",
-          "id": 243987,
-          "name": "Enchant Ring - Nature's Fury",
+          "id": 243957,
+          "name": "Enchant Ring - Eyes of the Eagle",
           "icon": "inv_12_profession_enchanting_enchantedvellum_blue",
-          "desc": "Enchant Ring - Nature's Fury"
+          "desc": "Enchant Ring - Eyes of the Eagle"
         }
       ],
       "consumables": [
@@ -4226,6 +4254,13 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
         }
       ],
       "consumables": [
+        {
+          "type": "Flask",
+          "id": 241324,
+          "name": "Flask of the Blood Knights",
+          "icon": "inv_12_profession_alchemy_flask_sindoreipotion_white-",
+          "desc": "Flask of the Blood Knights"
+        },
         {
           "type": "Flask",
           "id": 241326,
