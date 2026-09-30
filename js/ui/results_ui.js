@@ -399,7 +399,7 @@ function renderResults(topResults, targets, benchmark = { count: 0, duration: 0 
                     </a>
                     <div class="min-w-0 flex-1">
                       <div class="text-[11px] font-bold text-amber-300 capitalize truncate">${slotLabel}: ${g.item.name}</div>
-                      <a href="${getWowheadBaseUrl()}/item=${g.gemItemId}" target="_blank" ${getWowheadItemDataAttr(g.gemItemId)} class="text-xs font-bold text-purple-300 hover:text-purple-200 mt-0.5 block truncate">${g.gemName}</a>
+                      <a href="${getWowheadBaseUrl()}/item=${g.gemItemId}" target="_blank" data-item-id="${g.gemItemId}" ${getWowheadItemDataAttr(g.gemItemId)} class="spec-auto-translate text-xs font-bold text-purple-300 hover:text-purple-200 mt-0.5 block truncate">${g.gemName}</a>
                       <div class="text-[10px] text-slate-300 font-medium truncate">${gemDescLabel}</div>
                     </div>
                   </div>
@@ -421,15 +421,16 @@ function renderResults(topResults, targets, benchmark = { count: 0, duration: 0 
     if (window.$WowheadPower) window.$WowheadPower.refreshLinks();
   }, 50);
 
-  // Auto-traducción oficial bilingüe de encantamientos y consumibles en resultados
-  const isEsResults = (typeof currentLang !== 'undefined' && (currentLang === 'es' || currentLang === 'mx'));
-  if (isEsResults && container) {
+  // Auto-traducción oficial multilenguaje (es / mx) de encantamientos, consumibles y gemas en resultados
+  const activeLang = typeof currentLang !== 'undefined' ? currentLang : 'en';
+  if ((activeLang === 'es' || activeLang === 'mx') && container) {
+    const localeCode = activeLang === 'mx' ? 'mx' : 'es';
     const autoTranslateEls = container.querySelectorAll('.spec-auto-translate');
     autoTranslateEls.forEach(async (el) => {
       const itemId = el.getAttribute('data-item-id');
       if (!itemId) return;
       try {
-        const res = await fetch(`https://nether.wowhead.com/tooltip/item/${itemId}?locale=es`);
+        const res = await fetch(`https://nether.wowhead.com/tooltip/item/${itemId}?locale=${localeCode}`);
         if (res.ok) {
           const itemData = await res.json();
           if (itemData && itemData.name) {

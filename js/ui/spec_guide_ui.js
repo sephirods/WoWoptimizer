@@ -779,14 +779,15 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
     } catch (e) {}
   });
 
-  // 6. Si estamos en español, traducir nombres de encantamientos y consumibles automáticamente
+  // 6. Si estamos en español (es / mx), traducir nombres de encantamientos y consumibles automáticamente
   if (isEs) {
+    const localeCode = (typeof currentLang !== 'undefined' && currentLang === 'mx') ? 'mx' : 'es';
     const autoTranslateLinks = container.querySelectorAll('.spec-auto-translate');
     autoTranslateLinks.forEach(async (linkEl) => {
       const itemId = linkEl.getAttribute('data-item-id');
       if (!itemId) return;
       try {
-        const res = await fetch(`https://nether.wowhead.com/tooltip/item/${itemId}?locale=es`);
+        const res = await fetch(`https://nether.wowhead.com/tooltip/item/${itemId}?locale=${localeCode}`);
         if (res.ok) {
           const itemData = await res.json();
           if (itemData.name) {
