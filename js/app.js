@@ -1,50 +1,18 @@
 // App Initialization, Hash State, LZ Compressor & Global Event Listeners
 
 function loadCustomDatasetsFromStorage() {
-  try {
-    const customArchon = localStorage.getItem('wow_custom_archon_data');
-    if (customArchon) {
-      window.ARCHON_PRESETS = JSON.parse(customArchon);
-    }
-  } catch (e) {
-    console.warn('Error cargando archon personalizado:', e);
-  }
-
-  try {
-    const customArchonHealers = localStorage.getItem('wow_custom_archon_healers');
-    if (customArchonHealers) {
-      window.ARCHON_HEALER_TRINKETS = JSON.parse(customArchonHealers);
-    }
-  } catch (e) {
-    console.warn('Error cargando abalorios healer personalizados:', e);
-  }
-
-  try {
-    const customWowhead = localStorage.getItem('wow_custom_wowhead_data');
-    if (customWowhead) {
-      window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = JSON.parse(customWowhead);
-    }
-  } catch (e) {
-    console.warn('Error cargando wowhead personalizado:', e);
-  }
-
-  try {
-    const customBloodmallet = localStorage.getItem('wow_custom_bloodmallet_data');
-    if (customBloodmallet) {
-      window.BLOODMALLET_DATA = JSON.parse(customBloodmallet);
-    }
-  } catch (e) {
-    console.warn('Error cargando bloodmallet personalizado:', e);
-  }
-
-  try {
-    const customStatPriorities = localStorage.getItem('wow_custom_stat_priorities_data');
-    if (customStatPriorities) {
-      window.WOWHEAD_STAT_PRIORITIES = JSON.parse(customStatPriorities);
-    }
-  } catch (e) {
-    console.warn('Error cargando stat priorities personalizado:', e);
-  }
+  // Limpiar datasets obsoletos de localStorage para liberar cuota de memoria
+  // y asegurar que siempre se carguen los archivos oficiales más recientes
+  const obsoleteKeys = [
+    'wow_custom_archon_data',
+    'wow_custom_archon_healers',
+    'wow_custom_wowhead_data',
+    'wow_custom_bloodmallet_data',
+    'wow_custom_stat_priorities_data'
+  ];
+  obsoleteKeys.forEach(key => {
+    try { localStorage.removeItem(key); } catch (e) {}
+  });
 }
 
 // Track Filter Quick Presets
