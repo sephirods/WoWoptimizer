@@ -124,23 +124,24 @@ if (typeof window !== 'undefined') {
   }
 }
 
-function isSpellEntity(id, type, name = '') {
-  if (type === 'spell' || type === 'Weapon Buff') return true;
-  if (id === 382021) return true; // Earthliving Weapon
-  if (name && (name.toLowerCase().includes('weapon imbue') || name.toLowerCase().includes('earthliving weapon'))) return true;
+function isSpellEntity(id, type, name = '', entityKind = '') {
+  if (!id) return false;
+  if (entityKind === 'spell') return true;
+  if (entityKind === 'item') return false;
+  if (type === 'spell') return true;
   return false;
 }
 
-function getWowheadEntityUrl(id, type, name = '') {
+function getWowheadEntityUrl(id, type, name = '', entityKind = '') {
   const base = getWowheadBaseUrl();
-  const kind = isSpellEntity(id, type, name) ? 'spell' : 'item';
+  const kind = isSpellEntity(id, type, name, entityKind) ? 'spell' : 'item';
   return `${base}/${kind}=${id}`;
 }
 
-function getWowheadEntityDataAttr(id, type, name = '') {
+function getWowheadEntityDataAttr(id, type, name = '', entityKind = '') {
   if (!id) return '';
   const domainParam = getWowheadDomainParam();
-  const kind = isSpellEntity(id, type, name) ? 'spell' : 'item';
+  const kind = isSpellEntity(id, type, name, entityKind) ? 'spell' : 'item';
   return `data-wowhead="${kind}=${id}${domainParam}"`;
 }
 

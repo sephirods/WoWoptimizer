@@ -602,16 +602,18 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
             ${consumables.map(con => {
               const typeTranslated = isEs ? (CONSUMABLE_TYPES_ES[con.type] || con.type) : con.type;
               const conIcon = con.icon || 'inv_potion_51';
-              const conUrl = `https://${isEs ? 'es' : 'www'}.wowhead.com/item=${con.id}`;
+              const entityKind = con.entityKind || (con.type === 'spell' ? 'spell' : 'item');
+              const conUrl = `https://${isEs ? 'es' : 'www'}.wowhead.com/${entityKind}=${con.id}`;
+              const dataAttr = `${entityKind}=${con.id}&domain=${isEs ? 'es' : 'en'}`;
               return `
                 <div class="bg-wow-subcard border border-wow-border rounded-xl p-3 flex items-center justify-between gap-3">
                   <div class="flex items-center gap-3 min-w-0">
-                    <a href="${conUrl}" data-wowhead="item=${con.id}&domain=${isEs ? 'es' : 'en'}" target="_blank" class="block shrink-0">
+                    <a href="${conUrl}" data-wowhead="${dataAttr}" target="_blank" class="block shrink-0">
                       <img src="https://wow.zamimg.com/images/wow/icons/medium/${conIcon}.jpg" alt="${con.name}" class="w-8 h-8 rounded-lg border border-emerald-400/40 shadow object-cover hover:border-emerald-300 transition" onerror="this.src='https://wow.zamimg.com/images/wow/icons/medium/inv_potion_51.jpg'"/>
                     </a>
                     <div class="min-w-0">
                       <span class="text-[10px] uppercase font-bold text-emerald-400 block">${typeTranslated}</span>
-                      <a href="${conUrl}" data-item-id="${con.id}" data-wowhead="item=${con.id}&domain=${isEs ? 'es' : 'en'}" target="_blank" class="spec-auto-translate text-xs text-white hover:underline truncate font-medium block">
+                      <a href="${conUrl}" data-item-id="${con.id}" data-wowhead="${dataAttr}" target="_blank" class="spec-auto-translate text-xs text-white hover:underline truncate font-medium block">
                         ${con.name}
                       </a>
                     </div>

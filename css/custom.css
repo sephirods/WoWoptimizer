@@ -35,7 +35,7 @@ option {
 }
 
 #char-class option[value="paladin"] {
-  color: #ff0202 !important;
+  color: #F48CBA !important;
 }
 
 #char-class option[value="warrior"] {
@@ -472,4 +472,4 @@ a[data-entity="item"] {
     order: 2 !important;
     width: 100% !important;
   }
-}
+}

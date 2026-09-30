@@ -62,7 +62,7 @@ function renderSpecEnchantsAndConsumablesHtml(className, specId) {
               </a>
               <div class="min-w-0 flex-1">
                 <div class="text-[10px] font-bold text-blue-300 uppercase tracking-tight truncate">${locSlot}</div>
-                <a href="${getWowheadBaseUrl()}/item=${e.id}" target="_blank" ${getWowheadItemDataAttr(e.id)} class="text-xs font-bold text-purple-300 hover:text-purple-200 mt-0.5 block truncate">${e.name}</a>
+                <a href="${getWowheadBaseUrl()}/item=${e.id}" target="_blank" data-item-id="${e.id}" ${getWowheadItemDataAttr(e.id)} class="spec-auto-translate text-xs font-bold text-purple-300 hover:text-purple-200 mt-0.5 block truncate">${e.name}</a>
                 <div class="text-[10px] text-slate-400 font-medium truncate">${e.desc || e.name}</div>
               </div>
             </div>
@@ -83,15 +83,17 @@ function renderSpecEnchantsAndConsumablesHtml(className, specId) {
           ${specData.consumables.map(c => {
             const fallbackIcon = c.type === 'Food' ? 'inv_misc_food_15' : (c.type === 'Rune' ? 'inv_misc_rune_11' : (c.type === 'Flask' ? 'trade_alchemy_potiona1' : 'inv_potion_108'));
             const locType = typeof getLocalizedConsumableType === 'function' ? getLocalizedConsumableType(c.type) : c.type;
+            const conUrl = getWowheadEntityUrl(c.id, c.type, c.name, c.entityKind);
+            const conAttr = getWowheadEntityDataAttr(c.id, c.type, c.name, c.entityKind);
             return `
             <div class="bg-black/60 border border-emerald-500/30 hover:border-emerald-400/60 rounded-lg p-2.5 flex flex-col justify-between gap-1.5 shadow-sm transition">
               <div class="flex items-center gap-2">
-                <a href="${getWowheadEntityUrl(c.id, c.type, c.name)}" target="_blank" ${getWowheadEntityDataAttr(c.id, c.type, c.name)} class="flex-shrink-0">
+                <a href="${conUrl}" ${conAttr} target="_blank" class="flex-shrink-0">
                   <img src="https://wow.zamimg.com/images/wow/icons/large/${c.icon || fallbackIcon}.jpg" referrerpolicy="no-referrer" loading="lazy" class="w-8 h-8 rounded border border-emerald-400/60 object-cover shadow" onerror="this.src='https://wow.zamimg.com/images/wow/icons/large/${fallbackIcon}.jpg'">
                 </a>
                 <div class="min-w-0 flex-1">
                   <div class="text-[9px] font-bold text-emerald-400 uppercase tracking-tight truncate">${locType}</div>
-                  <a href="${getWowheadEntityUrl(c.id, c.type, c.name)}" target="_blank" ${getWowheadEntityDataAttr(c.id, c.type, c.name)} class="text-[11px] font-bold text-slate-200 hover:text-emerald-300 block truncate">${c.name}</a>
+                  <a href="${conUrl}" target="_blank" data-item-id="${c.id}" ${conAttr} class="spec-auto-translate text-[11px] font-bold text-slate-200 hover:text-emerald-300 block truncate">${c.name}</a>
                 </div>
               </div>
               <div class="text-[9px] text-slate-400 truncate">${c.desc || c.name}</div>
@@ -418,6 +420,26 @@ function renderResults(topResults, targets, benchmark = { count: 0, duration: 0 
   setTimeout(() => {
     if (window.$WowheadPower) window.$WowheadPower.refreshLinks();
   }, 50);
+
+  // Auto-traducción oficial bilingüe de encantamientos y consumibles en resultados
+  const isEsResults = (typeof currentLang !== 'undefined' && (currentLang === 'es' || currentLang === 'mx'));
+  if (isEsResults && container) {
+    const autoTranslateEls = container.querySelectorAll('.spec-auto-translate');
+    autoTranslateEls.forEach(async (el) => {
+      const itemId = el.getAttribute('data-item-id');
+      if (!itemId) return;
+      try {
+        const res = await fetch(`https://nether.wowhead.com/tooltip/item/${itemId}?locale=es`);
+        if (res.ok) {
+          const itemData = await res.json();
+          if (itemData && itemData.name) {
+            el.textContent = itemData.name;
+          }
+        }
+      } catch (e) {}
+    });
+  }
+
   resolveAllItemIconsAsync();
 }
 
