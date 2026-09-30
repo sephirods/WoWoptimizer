@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30268551",
+      "postId": 30268551,
+      "topicId": 2367361,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-30T19:00:02.331Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Forever Class Deep Dives — Hunter and Druid",
+        "es": "World of Warcraft: Forever Class Deep Dives — Hunter and Druid"
+      },
+      "summary": {
+        "en": "[World of Warcraft: Forever Class Deep Dives — Hunter and Druid] Answer the call of the wild and take on nature’s many forms in World of Warcraft: Forever. We’re sharing Developmen...",
+        "es": "[World of Warcraft: Forever Class Deep Dives — Hunter and Druid] Answer the call of the wild and take on nature’s many forms in World of Warcraft: Forever. We’re sharing Developmen..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Hunter and Druid\" width=\"833\" height=\"468\"></a></p><p>Answer the call of the wild and take on nature’s many forms in World of Warcraft: Forever. We’re sharing Development Team insights on Hunter and Druid, including how these classes are evolving through talent updates, class-defining abilities, and new ways to play. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24301515\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Hunter and Druid\" width=\"833\" height=\"468\"></a></p><p>Answer the call of the wild and take on nature’s many forms in World of Warcraft: Forever. We’re sharing Development Team insights on Hunter and Druid, including how these classes are evolving through talent updates, class-defining abilities, and new ways to play. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24301515\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-class-deep-dives-%E2%80%94-hunter-and-druid/2367361/1"
+    },
+    {
       "id": "blizz-30259371",
       "postId": 30259371,
       "topicId": 2227871,
@@ -196,34 +224,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/watch-holly-longdale-and-clay-stone%E2%80%99s-keynote-presentations-live-from-pax-aus-9-11-october/2365459/1"
-    },
-    {
-      "id": "blizz-30200159",
-      "postId": 30200159,
-      "topicId": 2362048,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-09-25T17:59:14.768Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Beta Realm Restarts Incoming - Sept. 25",
-        "es": "Beta Realm Restarts Próximamente - Sept. 25"
-      },
-      "summary": {
-        "en": "To implement fixes that should address stability issues, we will shutdown and restart the Beta in the next few minutes. \nThe maintenance period should be very brief....",
-        "es": "To implement fixes that should address stability issues, we will shutdown and restart the Beta in the next few minutes. \nThe Mantenimiento period should be very brief...."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>To implement fixes that should address stability issues, we will shutdown and restart the Beta in the next few minutes.</p>\n<p>The maintenance period should be very brief.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>To implement fixes that should address stability issues, we will shutdown and restart the Beta in the next few minutes.</p>\n<p>The maintenance period should be very brief.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-realm-restarts-incoming-sept-25/2362048/1"
     },
     {
       "id": "blizz-1231832",
@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/crea-un-h%C3%A9roe-a-tu-imagen-y-semejanza-en-world-of-warcraft-forever/80170/1"
     },
     {
+      "id": "blizz-6404661",
+      "postId": 6404661,
+      "topicId": 632696,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-30T19:00:03.602Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Forever Class Deep Dives — Hunter and Druid",
+        "es": "World of Warcraft: Forever Class Deep Dives — Hunter and Druid"
+      },
+      "summary": {
+        "en": "[World of Warcraft: Forever Class Deep Dives — Hunter and Druid] Answer the call of the wild and take on nature’s many forms in World of Warcraft: Forever. We’re sharing Developmen...",
+        "es": "[World of Warcraft: Forever Class Deep Dives — Hunter and Druid] Answer the call of the wild and take on nature’s many forms in World of Warcraft: Forever. We’re sharing Developmen..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Hunter and Druid\" width=\"833\" height=\"468\"></a></p><p>Answer the call of the wild and take on nature’s many forms in World of Warcraft: Forever. We’re sharing Development Team insights on Hunter and Druid, including how these classes are evolving through talent updates, class-defining abilities, and new ways to play. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24301515\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Hunter and Druid\" width=\"833\" height=\"468\"></a></p><p>Answer the call of the wild and take on nature’s many forms in World of Warcraft: Forever. We’re sharing Development Team insights on Hunter and Druid, including how these classes are evolving through talent updates, class-defining abilities, and new ways to play. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24301515\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-class-deep-dives-%E2%80%94-hunter-and-druid/632696/1"
+    },
+    {
       "id": "blizz-6402757",
       "postId": 6402757,
       "topicId": 601545,
@@ -644,6 +672,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-29-september/625785/40"
+    },
+    {
+      "id": "blizz-30200159",
+      "postId": 30200159,
+      "topicId": 2362048,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-09-25T17:59:14.768Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Beta Realm Restarts Incoming - Sept. 25",
+        "es": "Beta Realm Restarts Próximamente - Sept. 25"
+      },
+      "summary": {
+        "en": "To implement fixes that should address stability issues, we will shutdown and restart the Beta in the next few minutes. \nThe maintenance period should be very brief....",
+        "es": "To implement fixes that should address stability issues, we will shutdown and restart the Beta in the next few minutes. \nThe Mantenimiento period should be very brief...."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>To implement fixes that should address stability issues, we will shutdown and restart the Beta in the next few minutes.</p>\n<p>The maintenance period should be very brief.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>To implement fixes that should address stability issues, we will shutdown and restart the Beta in the next few minutes.</p>\n<p>The maintenance period should be very brief.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-realm-restarts-incoming-sept-25/2362048/1"
     },
     {
       "id": "blizz-6391806",
