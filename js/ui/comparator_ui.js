@@ -659,7 +659,7 @@ function openCompareModal() {
                               ` : ''}
                               <div class="truncate">
                                 <i class="fa-solid fa-gem text-[8px] text-amber-400"></i> ${t('gemToUse', 'Gem to use:')} 
-                                <a href="${getWowheadBaseUrl()}/item=${optGemRec.gemItemId}" data-item-id="${optGemRec.gemItemId}" target="_blank" ${getWowheadItemDataAttr(optGemRec.gemItemId)} class="spec-auto-translate font-bold text-amber-200 hover:text-amber-100 hover:underline">${optGemRec.gemName}</a>
+                                <a href="${getWowheadBaseUrl()}/item=${optGemRec.gemItemId}" target="_blank" ${getWowheadItemDataAttr(optGemRec.gemItemId)} class="font-bold text-amber-200 hover:text-amber-100 hover:underline">${optGemRec.gemName}</a>
                               </div>
                               ${optGemRec.gemDesc ? `<div class="text-[9px] text-emerald-400/90 font-mono font-normal pl-3 truncate">${typeof getLocalizedGemDesc === 'function' ? getLocalizedGemDesc(optGemRec.gemDesc) : optGemRec.gemDesc}</div>` : ''}
                             </div>
@@ -667,7 +667,7 @@ function openCompareModal() {
                           ${bisEnch ? `
                             <div class="text-[10px] text-blue-300 font-medium truncate mt-0.5">
                               <i class="fa-solid fa-wand-magic-sparkles text-[8px] text-blue-400"></i> ${t('enchantLabel', 'Enchant')}: 
-                              <a href="${getWowheadBaseUrl()}/item=${bisEnch.id}" data-item-id="${bisEnch.id}" target="_blank" ${getWowheadItemDataAttr(bisEnch.id)} class="spec-auto-translate font-bold text-blue-200 hover:text-blue-100 hover:underline">${bisEnch.name}</a>
+                              <a href="${getWowheadBaseUrl()}/item=${bisEnch.id}" target="_blank" ${getWowheadItemDataAttr(bisEnch.id)} class="font-bold text-blue-200 hover:text-blue-100 hover:underline">${bisEnch.name}</a>
                             </div>
                           ` : ''}
                         </div>
@@ -933,13 +933,13 @@ function openCompareModal() {
                       ${optGemRec ? `
                         <div class="text-[10px] text-amber-300 font-medium mt-0.5">
                           <i class="fa-solid fa-gem text-[8px] text-amber-400"></i> ${t('gemToUse', 'Gem to use:')} 
-                          <a href="${getWowheadBaseUrl()}/item=${optGemRec.gemItemId}" data-item-id="${optGemRec.gemItemId}" target="_blank" ${getWowheadItemDataAttr(optGemRec.gemItemId)} class="spec-auto-translate font-bold text-amber-200 hover:text-amber-100 hover:underline">${optGemRec.gemName}</a>
+                          <a href="${getWowheadBaseUrl()}/item=${optGemRec.gemItemId}" target="_blank" ${getWowheadItemDataAttr(optGemRec.gemItemId)} class="font-bold text-amber-200 hover:text-amber-100 hover:underline">${optGemRec.gemName}</a>
                         </div>
                       ` : ''}
                       ${bisEnch ? `
                         <div class="text-[10px] text-blue-300 font-medium mt-0.5">
                           <i class="fa-solid fa-wand-magic-sparkles text-[8px] text-blue-400"></i> ${t('enchantLabel', 'Enchant')}: 
-                          <a href="${getWowheadBaseUrl()}/item=${bisEnch.id}" data-item-id="${bisEnch.id}" target="_blank" ${getWowheadItemDataAttr(bisEnch.id)} class="spec-auto-translate font-bold text-blue-200 hover:text-blue-100 hover:underline">${bisEnch.name}</a>
+                          <a href="${getWowheadBaseUrl()}/item=${bisEnch.id}" target="_blank" ${getWowheadItemDataAttr(bisEnch.id)} class="font-bold text-blue-200 hover:text-blue-100 hover:underline">${bisEnch.name}</a>
                         </div>
                       ` : ''}
                     </div>
@@ -954,28 +954,7 @@ function openCompareModal() {
   }
 
   const compareModal = document.getElementById('compare-modal');
-  if (compareModal) {
-    compareModal.classList.remove('hidden');
-
-    // Auto-traducción oficial bilingüe de encantamientos y gemas al español
-    const isEs = (typeof currentLang !== 'undefined' && (currentLang === 'es' || currentLang === 'mx'));
-    if (isEs) {
-      const autoTranslateLinks = compareModal.querySelectorAll('.spec-auto-translate');
-      autoTranslateLinks.forEach(async (linkEl) => {
-        const itemId = linkEl.getAttribute('data-item-id');
-        if (!itemId) return;
-        try {
-          const res = await fetch(`https://nether.wowhead.com/tooltip/item/${itemId}?locale=es`);
-          if (res.ok) {
-            const itemData = await res.json();
-            if (itemData && itemData.name) {
-              linkEl.textContent = itemData.name;
-            }
-          }
-        } catch (e) {}
-      });
-    }
-  }
+  if (compareModal) compareModal.classList.remove('hidden');
   if (window.$WowheadPower) window.$WowheadPower.refreshLinks();
   setTimeout(() => {
     if (window.$WowheadPower) window.$WowheadPower.refreshLinks();
