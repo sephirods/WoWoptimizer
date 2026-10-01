@@ -2,6 +2,118 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30281239",
+      "postId": 30281239,
+      "topicId": 2367661,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-01T17:12:53.756Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Beta Update Maintenance - October 1",
+        "es": "Beta Update Mantenimiento - October 1"
+      },
+      "summary": {
+        "en": "We think we’ll take the Beta offline in about 45 minutes. \nSee you on the other side!...",
+        "es": "We think we’ll take the Beta offline in about 45 minutes. \nSee you on the other side!..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We think we’ll take the Beta offline in about 45 minutes.</p>\n<p>See you on the other side!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We think we’ll take the Beta offline in about 45 minutes.</p>\n<p>See you on the other side!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-update-maintenance-october-1/2367661/191"
+    },
+    {
+      "id": "blizz-30280975",
+      "postId": 30280975,
+      "topicId": 2368213,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-01T17:00:13.032Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "12.1.5 Content Update Notes",
+        "es": "12.1.5 Content Update Notes"
+      },
+      "summary": {
+        "en": "[12.1.5 Content Update Notes] Read all the changes that are coming in the 12.1.5 content update.  View Full Article...",
+        "es": "[12.1.5 Content Update Notes] Read all the changes that are coming in the 12.1.5 content update.  View Full Article..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\" alt=\"12.1.5 Content Update Notes\" width=\"833\" height=\"468\"></a></p><p>Read all the changes that are coming in the 12.1.5 content update. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24304162\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\" alt=\"12.1.5 Content Update Notes\" width=\"833\" height=\"468\"></a></p><p>Read all the changes that are coming in the 12.1.5 content update. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24304162\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/1215-content-update-notes/2368213/1"
+    },
+    {
+      "id": "blizz-30280608",
+      "postId": 30280608,
+      "topicId": 2368192,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-01T16:38:45.070Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬",
+        "es": "The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬"
+      },
+      "summary": {
+        "en": "[Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast]...",
+        "es": "[Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast]..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"uDRcv_w85j8\" data-video-title=\"Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=uDRcv_w85j8\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/uDRcv_w85j8/maxresdefault.jpg\" title=\"Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"uDRcv_w85j8\" data-video-title=\"Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=uDRcv_w85j8\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/uDRcv_w85j8/maxresdefault.jpg\" title=\"Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/2368192/1"
+    },
+    {
+      "id": "blizz-30280320",
+      "postId": 30280320,
+      "topicId": 2368175,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-01T16:22:25.453Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Watch Now! WoW: Forever Podcast Ep.2, Speedrunning Classes",
+        "es": "Watch Now! WoW: Forever Podcast Ep.2, Speedrunning Classes"
+      },
+      "summary": {
+        "en": "[Watch Now! WoW: Forever Podcast Ep.2, Speedrunning Classes] Join Host Countdown To Classic, Senior Game Designer Josh “Aggrend” Greenfield, Principal Game Designer Kris Zierhut, a...",
+        "es": "[Watch Now! WoW: Forever Podcast Ep.2, Speedrunning Classes] Join Host Countdown To Classic, Senior Game Designer Josh “Aggrend” Greenfield, Principal Game Designer Kris Zierhut, a..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xp/XPQ805F9I1HL1790870053515.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xp/XPQ805F9I1HL1790870053515.png\" alt=\"Watch Now! WoW: Forever Podcast Ep.2, Speedrunning Classes\" width=\"833\" height=\"468\"></a></p><p>Join Host Countdown To Classic, Senior Game Designer Josh “Aggrend” Greenfield, Principal Game Designer Kris Zierhut, and Senior Game Designer Aidan Moon, with special guest and content creator Sodapoppin. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24298592\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xp/XPQ805F9I1HL1790870053515.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xp/XPQ805F9I1HL1790870053515.png\" alt=\"Watch Now! WoW: Forever Podcast Ep.2, Speedrunning Classes\" width=\"833\" height=\"468\"></a></p><p>Join Host Countdown To Classic, Senior Game Designer Josh “Aggrend” Greenfield, Principal Game Designer Kris Zierhut, and Senior Game Designer Aidan Moon, with special guest and content creator Sodapoppin. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24298592\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/watch-now-wow-forever-podcast-ep2-speedrunning-classes/2368175/1"
+    },
+    {
       "id": "blizz-30272813",
       "postId": 30272813,
       "topicId": 2367661,
@@ -114,116 +226,60 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-burning-crusade-hotfixes-updated-september-29/2227871/188"
     },
     {
-      "id": "blizz-30259366",
-      "postId": 30259366,
-      "topicId": 2336376,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-09-30T00:11:34.749Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - September 29",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - September 29"
-      },
-      "summary": {
-        "en": "September 29, 2026 \nDungeons and Raids \n\nThe Venomous Abyss\n\nUla’tek\n\nFixed an issue with Ula’tek’s Mother’s Wrath where it can be cast at a target that isn’t the current target if...",
-        "es": "September 29, 2026 \nMazmorras and Bandas \n\nThe Venomous Abyss\n\nUla’tek\n\nFixed an issue with Ula’tek’s Mother’s Wrath where it can be cast at a target that isn’t the current target ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 29, 2026</strong></p>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Ula’tek</strong>\n<ul>\n<li>Fixed an issue with Ula’tek’s Mother’s Wrath where it can be cast at a target that isn’t the current target if a non-target has higher threat but hasn’t passed the threat threshold to force a target change.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Events</strong></p>\n<ul>\n<li><strong>Brewfest</strong>\n<ul>\n<li>Items that drop from Coren Direbrew should now have the required level set to the player who receives the item. They could still trade it but players at lower levels will have to reach the required level to equip it.</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 29, 2026</strong></p>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Ula’tek</strong>\n<ul>\n<li>Fixed an issue with Ula’tek’s Mother’s Wrath where it can be cast at a target that isn’t the current target if a non-target has higher threat but hasn’t passed the threat threshold to force a target change.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Events</strong></p>\n<ul>\n<li><strong>Brewfest</strong>\n<ul>\n<li>Items that drop from Coren Direbrew should now have the required level set to the player who receives the item. They could still trade it but players at lower levels will have to reach the required level to equip it.</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-september-29/2336376/158"
-    },
-    {
-      "id": "blizz-30254164",
-      "postId": 30254164,
-      "topicId": 2366152,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Nethaera (Community Manager)",
-      "dateRaw": "2026-09-29T17:26:28.723Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Midnight’s 12.1.5 Content Update Arrives October 13",
-        "es": "Midnight’s 12.1.5 Content Update Arrives October 13"
-      },
-      "summary": {
-        "en": "We don’t. This is an issue with the system that creates forum threads.  Just like the system defaults all forum threads to this forum and then we move them if needed. It’s certainl...",
-        "es": "We don’t. This is an issue with the system that creates forum threads.  Just like the system defaults all forum threads to this forum and then we move them if needed. It’s certainl..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><aside class=\"quote no-group\" data-username=\"Requitus-stormrage\" data-display-name=\"Requitus\" data-post=\"2\" data-topic=\"2366152\" data-full=\"true\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/stormrage/111/247349359-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg\" class=\"avatar\"> Requitus:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>Curious as to why you always double-post these announcements.</p>\n</blockquote>\n</aside>\n<p>We don’t. This is an issue with the system that creates forum threads.  Just like the system defaults all forum threads to this forum and then we move them if needed. It’s certainly not on purpose and not easily reproduced as much as it may be an annoyance when it happens.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><aside class=\"quote no-group\" data-username=\"Requitus-stormrage\" data-display-name=\"Requitus\" data-post=\"2\" data-topic=\"2366152\" data-full=\"true\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/stormrage/111/247349359-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg\" class=\"avatar\"> Requitus:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>Curious as to why you always double-post these announcements.</p>\n</blockquote>\n</aside>\n<p>We don’t. This is an issue with the system that creates forum threads.  Just like the system defaults all forum threads to this forum and then we move them if needed. It’s certainly not on purpose and not easily reproduced as much as it may be an annoyance when it happens.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/midnight%E2%80%99s-1215-content-update-arrives-october-13/2366152/10"
-    },
-    {
-      "id": "blizz-30253693",
-      "postId": 30253693,
-      "topicId": 2366152,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1231919",
+      "postId": 1231919,
+      "topicId": 80290,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-29T17:00:13.373Z",
+      "dateRaw": "2026-10-01T19:02:12.024Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Midnight’s 12.1.5 Content Update Arrives October 13",
-        "es": "Midnight’s 12.1.5 Content Update Arrives October 13"
+        "en": "Repaso a fondo de las clases sacerdote y guerrero en World of Warcraft: Forever",
+        "es": "Repaso a fondo de las clases sacerdote y guerrero en World of Warcraft: Forever"
       },
       "summary": {
-        "en": "[Midnight’s 12.1.5 Content Update Arrives October 13] Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-b...",
-        "es": "[Midnight’s 12.1.5 Content Update Arrives October 13] Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-b..."
+        "en": "[Repaso a fondo de las clases sacerdote y guerrero en World of Warcraft: Forever] Los sacerdotes y los guerreros son los siguientes en nuestro repaso a fondo de las clases de World...",
+        "es": "[Repaso a fondo de las clases sacerdote y guerrero en World of Warcraft: Forever] Los sacerdotes y los guerreros son los siguientes en nuestro repaso a fondo de las clases de World..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\" alt=\"Midnight’s 12.1.5 Content Update Arrives October 13\" width=\"833\" height=\"468\"></a></p><p>Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-boss raid, Season 2's mid-season refresh, the dramatic conclusion to the saga of Quel’Thalas and Zul’Aman, Aqir Invasions, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24307306\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\" alt=\"Midnight’s 12.1.5 Content Update Arrives October 13\" width=\"833\" height=\"468\"></a></p><p>Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-boss raid, Season 2's mid-season refresh, the dramatic conclusion to the saga of Quel’Thalas and Zul’Aman, Aqir Invasions, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24307306\">View Full Article</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/0r/0RWZZTA4YM5I1790725765674.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/0r/0RWZZTA4YM5I1790725765674.png\" alt=\"Repaso a fondo de las clases sacerdote y guerrero en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Los sacerdotes y los guerreros son los siguientes en nuestro repaso a fondo de las clases de World of Warcraft: Forever, con actualizaciones basadas en las funciones, los ritmos y las herramientas propias que ya conoces. Este análisis incluye facultades básicas nuevas y ajustadas, una actualización de los hechizos raciales del sacerdote, cambios en la ira y las actitudes de los guerreros, y modificaciones de los talentos de Disciplina, Sagrado, Sombra, Armas, Furia y Protección. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24301514\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/0r/0RWZZTA4YM5I1790725765674.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/0r/0RWZZTA4YM5I1790725765674.png\" alt=\"Repaso a fondo de las clases sacerdote y guerrero en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Los sacerdotes y los guerreros son los siguientes en nuestro repaso a fondo de las clases de World of Warcraft: Forever, con actualizaciones basadas en las funciones, los ritmos y las herramientas propias que ya conoces. Este análisis incluye facultades básicas nuevas y ajustadas, una actualización de los hechizos raciales del sacerdote, cambios en la ira y las actitudes de los guerreros, y modificaciones de los talentos de Disciplina, Sagrado, Sombra, Armas, Furia y Protección. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24301514\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/midnight%E2%80%99s-1215-content-update-arrives-october-13/2366152/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/repaso-a-fondo-de-las-clases-sacerdote-y-guerrero-en-world-of-warcraft-forever/80290/1"
     },
     {
-      "id": "blizz-30253691",
-      "postId": 30253691,
-      "topicId": 2366151,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1231910",
+      "postId": 1231910,
+      "topicId": 80285,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-29T17:00:12.400Z",
+      "dateRaw": "2026-10-01T17:00:08.047Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Midnight’s 12.1.5 Content Update Arrives October 13",
-        "es": "Midnight’s 12.1.5 Content Update Arrives October 13"
+        "en": "Notas de la actualización de contenido 12.1.5",
+        "es": "Notas de la actualización de contenido 12.1.5"
       },
       "summary": {
-        "en": "[Midnight’s 12.1.5 Content Update Arrives October 13] Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-b...",
-        "es": "[Midnight’s 12.1.5 Content Update Arrives October 13] Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-b..."
+        "en": "[Notas de la actualización de contenido 12.1.5] No te pierdas todos los cambios que llegarán con la actualización de contenido 12.1.5.  Ver artículo completo...",
+        "es": "[Notas de la actualización de contenido 12.1.5] No te pierdas todos los cambios que llegarán con la actualización de contenido 12.1.5.  Ver artículo completo..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\" alt=\"Midnight’s 12.1.5 Content Update Arrives October 13\" width=\"833\" height=\"468\"></a></p><p>Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-boss raid, Season 2's mid-season refresh, the dramatic conclusion to the saga of Quel’Thalas and Zul’Aman, Aqir Invasions, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24307306\">View Full Article</a></p>\n<p>This is a double post. Please see the other forum thread for any discussions.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\" alt=\"Midnight’s 12.1.5 Content Update Arrives October 13\" width=\"833\" height=\"468\"></a></p><p>Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-boss raid, Season 2's mid-season refresh, the dramatic conclusion to the saga of Quel’Thalas and Zul’Aman, Aqir Invasions, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24307306\">View Full Article</a></p>\n<p>This is a double post. Please see the other forum thread for any discussions.</p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\" alt=\"Notas de la actualización de contenido 12.1.5\" width=\"833\" height=\"468\"></a></p><p>No te pierdas todos los cambios que llegarán con la actualización de contenido 12.1.5. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304162\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\" alt=\"Notas de la actualización de contenido 12.1.5\" width=\"833\" height=\"468\"></a></p><p>No te pierdas todos los cambios que llegarán con la actualización de contenido 12.1.5. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304162\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/midnight%E2%80%99s-1215-content-update-arrives-october-13/2366151/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/notas-de-la-actualizaci%C3%B3n-de-contenido-1215/80285/1"
     },
     {
       "id": "blizz-1231832",
@@ -394,60 +450,88 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/familiar%C3%ADzate-con-el-sistema-de-legado-de-world-of-warcraft-forever/80182/1"
     },
     {
-      "id": "blizz-1231360",
-      "postId": 1231360,
-      "topicId": 80171,
+      "id": "blizz-6406753",
+      "postId": 6406753,
+      "topicId": 632751,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-22T19:02:34.017Z",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-01T17:13:18.749Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Conoce a los nuevos célicos de WoW: Forever",
-        "es": "Conoce a los nuevos célicos de WoW: Forever"
+        "en": "Beta Update Maintenance - Evening of 1 October",
+        "es": "Beta Update Mantenimiento - Evening of 1 October"
       },
       "summary": {
-        "en": "[Conoce a los nuevos célicos de WoW: Forever] Los célicos, también conocidos como los shen&#39;dorei o el pueblo escondido, son una nueva raza jugable en World of Warcraft: Forever...",
-        "es": "[Conoce a los nuevos célicos de WoW: Forever] Los célicos, también conocidos como los shen&#39;dorei o el pueblo escondido, son una nueva raza jugable en World of Warcraft: Forever..."
+        "en": "We think we’ll take the Beta offline in about 45 minutes. \nSee you on the other side!...",
+        "es": "We think we’ll take the Beta offline in about 45 minutes. \nSee you on the other side!..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/to/TO55V6TRR1RW1790054798721.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/to/TO55V6TRR1RW1790054798721.png\" alt=\"Conoce a los nuevos célicos de WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>Los célicos, también conocidos como los shen'dorei o el pueblo escondido, son una nueva raza jugable en World of Warcraft: Forever. Su viaje comienza en la Isla de Zephras, una experiencia inicial de los niveles 1 a 12 que combina la estética clásica de Warcraft con una arquitectura elemental y una historia definida por el viento y los ancestros. En el momento de crear el personaje, decidirás si tu célico se une a la orgullosa Horda o a la noble Alianza.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302071\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/to/TO55V6TRR1RW1790054798721.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/to/TO55V6TRR1RW1790054798721.png\" alt=\"Conoce a los nuevos célicos de WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>Los célicos, también conocidos como los shen'dorei o el pueblo escondido, son una nueva raza jugable en World of Warcraft: Forever. Su viaje comienza en la Isla de Zephras, una experiencia inicial de los niveles 1 a 12 que combina la estética clásica de Warcraft con una arquitectura elemental y una historia definida por el viento y los ancestros. En el momento de crear el personaje, decidirás si tu célico se une a la orgullosa Horda o a la noble Alianza.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302071\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We think we’ll take the Beta offline in about 45 minutes.</p>\n<p>See you on the other side!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We think we’ll take the Beta offline in about 45 minutes.</p>\n<p>See you on the other side!</p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/conoce-a-los-nuevos-c%C3%A9licos-de-wow-forever/80171/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/beta-update-maintenance-evening-of-1-october/632751/13"
     },
     {
-      "id": "blizz-1231351",
-      "postId": 1231351,
-      "topicId": 80170,
+      "id": "blizz-6406735",
+      "postId": 6406735,
+      "topicId": 632922,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-22T17:00:07.420Z",
+      "dateRaw": "2026-10-01T17:00:08.458Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever",
-        "es": "Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever"
+        "en": "12.1.5 Content Update Notes",
+        "es": "12.1.5 Content Update Notes"
       },
       "summary": {
-        "en": "[Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever] Explora las razas jugables, combinaciones de clase y rasgos raciales actualizados que llegan con World of Warc...",
-        "es": "[Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever] Explora las razas jugables, combinaciones de clase y rasgos raciales actualizados que llegan con World of Warc..."
+        "en": "[12.1.5 Content Update Notes] Read all the changes that are coming in the 12.1.5 content update.  View Full Article...",
+        "es": "[12.1.5 Content Update Notes] Read all the changes that are coming in the 12.1.5 content update.  View Full Article..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/md/MD8WVKVK66W31790051503373.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/md/MD8WVKVK66W31790051503373.png\" alt=\"Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Explora las razas jugables, combinaciones de clase y rasgos raciales actualizados que llegan con World of Warcraft: Forever, incluidas nuevas opciones para tus razas favoritas de siempre junto con una completamente nueva: los cielonatos.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304075\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/md/MD8WVKVK66W31790051503373.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/md/MD8WVKVK66W31790051503373.png\" alt=\"Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Explora las razas jugables, combinaciones de clase y rasgos raciales actualizados que llegan con World of Warcraft: Forever, incluidas nuevas opciones para tus razas favoritas de siempre junto con una completamente nueva: los cielonatos.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304075\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">[12.1.5 Content Update Notes] Read all the changes that are coming in the 12.1.5 content update.  View Full Article</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">[12.1.5 Content Update Notes] Read all the changes that are coming in the 12.1.5 content update.  View Full Article</div>"
+      },
+      "hasFullContent": false,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/1215-content-update-notes/632922/1"
+    },
+    {
+      "id": "blizz-6406697",
+      "postId": 6406697,
+      "topicId": 632918,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-01T16:46:13.925Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬",
+        "es": "The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬"
+      },
+      "summary": {
+        "en": "[Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast]...",
+        "es": "[Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast]..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"uDRcv_w85j8\" data-video-title=\"Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=uDRcv_w85j8\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/uDRcv_w85j8/maxresdefault.jpg\" title=\"Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"uDRcv_w85j8\" data-video-title=\"Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=uDRcv_w85j8\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/uDRcv_w85j8/maxresdefault.jpg\" title=\"Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/crea-un-h%C3%A9roe-a-tu-imagen-y-semejanza-en-world-of-warcraft-forever/80170/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/632918/1"
     },
     {
       "id": "blizz-6405081",
@@ -588,6 +672,174 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-29-september/625785/43"
+    },
+    {
+      "id": "blizz-30259366",
+      "postId": 30259366,
+      "topicId": 2336376,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-09-30T00:11:34.749Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Midnight Hotfixes - September 29",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - September 29"
+      },
+      "summary": {
+        "en": "September 29, 2026 \nDungeons and Raids \n\nThe Venomous Abyss\n\nUla’tek\n\nFixed an issue with Ula’tek’s Mother’s Wrath where it can be cast at a target that isn’t the current target if...",
+        "es": "September 29, 2026 \nMazmorras and Bandas \n\nThe Venomous Abyss\n\nUla’tek\n\nFixed an issue with Ula’tek’s Mother’s Wrath where it can be cast at a target that isn’t the current target ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 29, 2026</strong></p>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Ula’tek</strong>\n<ul>\n<li>Fixed an issue with Ula’tek’s Mother’s Wrath where it can be cast at a target that isn’t the current target if a non-target has higher threat but hasn’t passed the threat threshold to force a target change.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Events</strong></p>\n<ul>\n<li><strong>Brewfest</strong>\n<ul>\n<li>Items that drop from Coren Direbrew should now have the required level set to the player who receives the item. They could still trade it but players at lower levels will have to reach the required level to equip it.</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 29, 2026</strong></p>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Ula’tek</strong>\n<ul>\n<li>Fixed an issue with Ula’tek’s Mother’s Wrath where it can be cast at a target that isn’t the current target if a non-target has higher threat but hasn’t passed the threat threshold to force a target change.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Events</strong></p>\n<ul>\n<li><strong>Brewfest</strong>\n<ul>\n<li>Items that drop from Coren Direbrew should now have the required level set to the player who receives the item. They could still trade it but players at lower levels will have to reach the required level to equip it.</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-september-29/2336376/158"
+    },
+    {
+      "id": "blizz-30254164",
+      "postId": 30254164,
+      "topicId": 2366152,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Nethaera (Community Manager)",
+      "dateRaw": "2026-09-29T17:26:28.723Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Midnight’s 12.1.5 Content Update Arrives October 13",
+        "es": "Midnight’s 12.1.5 Content Update Arrives October 13"
+      },
+      "summary": {
+        "en": "We don’t. This is an issue with the system that creates forum threads.  Just like the system defaults all forum threads to this forum and then we move them if needed. It’s certainl...",
+        "es": "We don’t. This is an issue with the system that creates forum threads.  Just like the system defaults all forum threads to this forum and then we move them if needed. It’s certainl..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><aside class=\"quote no-group\" data-username=\"Requitus-stormrage\" data-display-name=\"Requitus\" data-post=\"2\" data-topic=\"2366152\" data-full=\"true\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/stormrage/111/247349359-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg\" class=\"avatar\"> Requitus:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>Curious as to why you always double-post these announcements.</p>\n</blockquote>\n</aside>\n<p>We don’t. This is an issue with the system that creates forum threads.  Just like the system defaults all forum threads to this forum and then we move them if needed. It’s certainly not on purpose and not easily reproduced as much as it may be an annoyance when it happens.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><aside class=\"quote no-group\" data-username=\"Requitus-stormrage\" data-display-name=\"Requitus\" data-post=\"2\" data-topic=\"2366152\" data-full=\"true\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/stormrage/111/247349359-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg\" class=\"avatar\"> Requitus:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>Curious as to why you always double-post these announcements.</p>\n</blockquote>\n</aside>\n<p>We don’t. This is an issue with the system that creates forum threads.  Just like the system defaults all forum threads to this forum and then we move them if needed. It’s certainly not on purpose and not easily reproduced as much as it may be an annoyance when it happens.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/midnight%E2%80%99s-1215-content-update-arrives-october-13/2366152/10"
+    },
+    {
+      "id": "blizz-30253693",
+      "postId": 30253693,
+      "topicId": 2366152,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-29T17:00:13.373Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Midnight’s 12.1.5 Content Update Arrives October 13",
+        "es": "Midnight’s 12.1.5 Content Update Arrives October 13"
+      },
+      "summary": {
+        "en": "[Midnight’s 12.1.5 Content Update Arrives October 13] Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-b...",
+        "es": "[Midnight’s 12.1.5 Content Update Arrives October 13] Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-b..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\" alt=\"Midnight’s 12.1.5 Content Update Arrives October 13\" width=\"833\" height=\"468\"></a></p><p>Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-boss raid, Season 2's mid-season refresh, the dramatic conclusion to the saga of Quel’Thalas and Zul’Aman, Aqir Invasions, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24307306\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\" alt=\"Midnight’s 12.1.5 Content Update Arrives October 13\" width=\"833\" height=\"468\"></a></p><p>Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-boss raid, Season 2's mid-season refresh, the dramatic conclusion to the saga of Quel’Thalas and Zul’Aman, Aqir Invasions, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24307306\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/midnight%E2%80%99s-1215-content-update-arrives-october-13/2366152/1"
+    },
+    {
+      "id": "blizz-30253691",
+      "postId": 30253691,
+      "topicId": 2366151,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-29T17:00:12.400Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Midnight’s 12.1.5 Content Update Arrives October 13",
+        "es": "Midnight’s 12.1.5 Content Update Arrives October 13"
+      },
+      "summary": {
+        "en": "[Midnight’s 12.1.5 Content Update Arrives October 13] Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-b...",
+        "es": "[Midnight’s 12.1.5 Content Update Arrives October 13] Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-b..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\" alt=\"Midnight’s 12.1.5 Content Update Arrives October 13\" width=\"833\" height=\"468\"></a></p><p>Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-boss raid, Season 2's mid-season refresh, the dramatic conclusion to the saga of Quel’Thalas and Zul’Aman, Aqir Invasions, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24307306\">View Full Article</a></p>\n<p>This is a double post. Please see the other forum thread for any discussions.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\" alt=\"Midnight’s 12.1.5 Content Update Arrives October 13\" width=\"833\" height=\"468\"></a></p><p>Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-boss raid, Season 2's mid-season refresh, the dramatic conclusion to the saga of Quel’Thalas and Zul’Aman, Aqir Invasions, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24307306\">View Full Article</a></p>\n<p>This is a double post. Please see the other forum thread for any discussions.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/midnight%E2%80%99s-1215-content-update-arrives-october-13/2366151/1"
+    },
+    {
+      "id": "blizz-1231360",
+      "postId": 1231360,
+      "topicId": 80171,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-22T19:02:34.017Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Conoce a los nuevos célicos de WoW: Forever",
+        "es": "Conoce a los nuevos célicos de WoW: Forever"
+      },
+      "summary": {
+        "en": "[Conoce a los nuevos célicos de WoW: Forever] Los célicos, también conocidos como los shen&#39;dorei o el pueblo escondido, son una nueva raza jugable en World of Warcraft: Forever...",
+        "es": "[Conoce a los nuevos célicos de WoW: Forever] Los célicos, también conocidos como los shen&#39;dorei o el pueblo escondido, son una nueva raza jugable en World of Warcraft: Forever..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/to/TO55V6TRR1RW1790054798721.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/to/TO55V6TRR1RW1790054798721.png\" alt=\"Conoce a los nuevos célicos de WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>Los célicos, también conocidos como los shen'dorei o el pueblo escondido, son una nueva raza jugable en World of Warcraft: Forever. Su viaje comienza en la Isla de Zephras, una experiencia inicial de los niveles 1 a 12 que combina la estética clásica de Warcraft con una arquitectura elemental y una historia definida por el viento y los ancestros. En el momento de crear el personaje, decidirás si tu célico se une a la orgullosa Horda o a la noble Alianza.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302071\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/to/TO55V6TRR1RW1790054798721.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/to/TO55V6TRR1RW1790054798721.png\" alt=\"Conoce a los nuevos célicos de WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>Los célicos, también conocidos como los shen'dorei o el pueblo escondido, son una nueva raza jugable en World of Warcraft: Forever. Su viaje comienza en la Isla de Zephras, una experiencia inicial de los niveles 1 a 12 que combina la estética clásica de Warcraft con una arquitectura elemental y una historia definida por el viento y los ancestros. En el momento de crear el personaje, decidirás si tu célico se une a la orgullosa Horda o a la noble Alianza.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302071\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/conoce-a-los-nuevos-c%C3%A9licos-de-wow-forever/80171/1"
+    },
+    {
+      "id": "blizz-1231351",
+      "postId": 1231351,
+      "topicId": 80170,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-22T17:00:07.420Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever",
+        "es": "Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever"
+      },
+      "summary": {
+        "en": "[Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever] Explora las razas jugables, combinaciones de clase y rasgos raciales actualizados que llegan con World of Warc...",
+        "es": "[Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever] Explora las razas jugables, combinaciones de clase y rasgos raciales actualizados que llegan con World of Warc..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/md/MD8WVKVK66W31790051503373.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/md/MD8WVKVK66W31790051503373.png\" alt=\"Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Explora las razas jugables, combinaciones de clase y rasgos raciales actualizados que llegan con World of Warcraft: Forever, incluidas nuevas opciones para tus razas favoritas de siempre junto con una completamente nueva: los cielonatos.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304075\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/md/MD8WVKVK66W31790051503373.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/md/MD8WVKVK66W31790051503373.png\" alt=\"Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Explora las razas jugables, combinaciones de clase y rasgos raciales actualizados que llegan con World of Warcraft: Forever, incluidas nuevas opciones para tus razas favoritas de siempre junto con una completamente nueva: los cielonatos.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304075\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/crea-un-h%C3%A9roe-a-tu-imagen-y-semejanza-en-world-of-warcraft-forever/80170/1"
     },
     {
       "id": "blizz-6402148",
