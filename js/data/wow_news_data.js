@@ -23,10 +23,10 @@ window.WOW_NEWS_DATABASE = {
         "es": "With the new build of the WoW Forever Beta, we have an unexpected bug where Australian players are being presented with a dialog when they log in telling them their social features..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>With the new build of the WoW Forever Beta, we have an unexpected bug where Australian players are being presented with a dialog when they log in telling them their social features are locked down. This is not the case, of course.</p>\n<p>We’ll get the bug fixed as soon as possible.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>With the new build of the WoW Forever Beta, we have an unexpected bug where Australian players are being presented with a dialog when they log in telling them their social features are locked down. This is not the case, of course.</p>\n<p>We’ll get the bug fixed as soon as possible.</p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">With the new build of the WoW Forever Beta, we have an unexpected bug where Australian players are being presented with a dialog when they log in telling them their social features are locked down. This is not the case, of course. \nWe’ll get the bug fixed as soon as possible.</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">With the new build of the WoW Forever Beta, we have an unexpected bug where Australian players are being presented with a dialog when they log in telling them their social features are locked down. This is not the case, of course. \nWe’ll get the bug fixed as soon as possible.</div>"
       },
-      "hasFullContent": true,
+      "hasFullContent": false,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/temporary-dialog-bug-for-australian-testers/2368931/1"
     },
     {
