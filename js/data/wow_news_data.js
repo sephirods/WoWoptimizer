@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30272813",
+      "postId": 30272813,
+      "topicId": 2367661,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-01T00:17:30.340Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Beta Update Maintenance - October 1",
+        "es": "Beta Update Mantenimiento - October 1"
+      },
+      "summary": {
+        "en": "Tomorrow morning PDT, we will take the WoW Forever Beta offline for maintenance. Several hours later, the Beta will resume with an updated build that includes changes and fixes, wi...",
+        "es": "Tomorrow morning PDT, we will take the WoW Forever Beta offline for Mantenimiento. Several hours later, the Beta will resume with an updated build that includes changes and fixes, ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Tomorrow morning PDT, we will take the WoW Forever Beta offline for maintenance. Several hours later, the Beta will resume with an updated build that includes changes and fixes, with the level cap raised to 30.</p>\n<p><a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-september-24/2360696/1\">We’ll have all the details here tomorrow</a>.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Tomorrow morning PDT, we will take the WoW Forever Beta offline for maintenance. Several hours later, the Beta will resume with an updated build that includes changes and fixes, with the level cap raised to 30.</p>\n<p><a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-september-24/2360696/1\">We’ll have all the details here tomorrow</a>.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-update-maintenance-october-1/2367661/1"
+    },
+    {
       "id": "blizz-30270281",
       "postId": 30270281,
       "topicId": 2367485,
@@ -196,34 +224,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/midnight%E2%80%99s-1215-content-update-arrives-october-13/2366151/1"
-    },
-    {
-      "id": "blizz-30244014",
-      "postId": 30244014,
-      "topicId": 2365460,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-28T22:00:07.406Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October",
-        "es": "Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October"
-      },
-      "summary": {
-        "en": "[Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October] PAX Aus is right around the corner and World of Warcraft: Forever will be there Friday ...",
-        "es": "[Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October] PAX Aus is right around the corner and World of Warcraft: Forever will be there Friday ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg\" alt=\"Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October\" width=\"833\" height=\"468\"></a></p><p>PAX Aus is right around the corner and World of Warcraft: Forever will be there Friday 9 October to Sunday 11 October AEDT! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302503\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg\" alt=\"Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October\" width=\"833\" height=\"468\"></a></p><p>PAX Aus is right around the corner and World of Warcraft: Forever will be there Friday 9 October to Sunday 11 October AEDT! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302503\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/watch-holly-longdale-and-clay-stone%E2%80%99s-keynote-presentations-live-from-pax-aus-9-11-october/2365460/1"
     },
     {
       "id": "blizz-1231832",
@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/crea-un-h%C3%A9roe-a-tu-imagen-y-semejanza-en-world-of-warcraft-forever/80170/1"
     },
     {
+      "id": "blizz-6405081",
+      "postId": 6405081,
+      "topicId": 632751,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-01T00:19:30.169Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Beta Update Maintenance - Evening of 1 October",
+        "es": "Beta Update Mantenimiento - Evening of 1 October"
+      },
+      "summary": {
+        "en": "This evening CEST, we will take the WoW Forever Beta offline for maintenance. A few hours later, (early in the morning of October 2), the Beta will resume with an updated build tha...",
+        "es": "This evening CEST, we will take the WoW Forever Beta offline for Mantenimiento. A few hours later, (early in the morning of October 2), the Beta will resume with an updated build t..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>This evening CEST, we will take the WoW Forever Beta offline for maintenance. A few hours later, (early in the morning of October 2), the Beta will resume with an updated build that includes changes and fixes, with the level cap raised to 30.</p>\n<p><a href=\"https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-24-september/631316/1\">We’ll have all the details here tomorrow</a>.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>This evening CEST, we will take the WoW Forever Beta offline for maintenance. A few hours later, (early in the morning of October 2), the Beta will resume with an updated build that includes changes and fixes, with the level cap raised to 30.</p>\n<p><a href=\"https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-24-september/631316/1\">We’ll have all the details here tomorrow</a>.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/beta-update-maintenance-evening-of-1-october/632751/1"
+    },
+    {
       "id": "blizz-6404878",
       "postId": 6404878,
       "topicId": 632719,
@@ -644,6 +672,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/what-insights-would-you-like-to-see-in-a-future-episode-of-the-wow-forever-podcast/631603/1"
+    },
+    {
+      "id": "blizz-30244014",
+      "postId": 30244014,
+      "topicId": 2365460,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-28T22:00:07.406Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October",
+        "es": "Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October"
+      },
+      "summary": {
+        "en": "[Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October] PAX Aus is right around the corner and World of Warcraft: Forever will be there Friday ...",
+        "es": "[Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October] PAX Aus is right around the corner and World of Warcraft: Forever will be there Friday ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg\" alt=\"Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October\" width=\"833\" height=\"468\"></a></p><p>PAX Aus is right around the corner and World of Warcraft: Forever will be there Friday 9 October to Sunday 11 October AEDT! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302503\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg\" alt=\"Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October\" width=\"833\" height=\"468\"></a></p><p>PAX Aus is right around the corner and World of Warcraft: Forever will be there Friday 9 October to Sunday 11 October AEDT! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302503\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/watch-holly-longdale-and-clay-stone%E2%80%99s-keynote-presentations-live-from-pax-aus-9-11-october/2365460/1"
     },
     {
       "id": "blizz-6394187",
