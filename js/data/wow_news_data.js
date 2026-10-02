@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30304669",
+      "postId": 30304669,
+      "topicId": 2369930,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-02T17:06:50.306Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly",
+        "es": "WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly"
+      },
+      "summary": {
+        "en": "[WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly] A new week brings even more to discover across World of Warcraft. Explore the latest WoW: Forever class spotlight...",
+        "es": "[WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly] A new week brings even more to discover across World of Warcraft. Explore the latest WoW: Forever class spotlight..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\" alt=\"WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly\" width=\"833\" height=\"468\"></a></p><p>A new week brings even more to discover across World of Warcraft. Explore the latest WoW: Forever class spotlights featuring the Hunter, Druid, Priest, and Warrior, and tune in for episode 2 of the WoW: Forever Podcast. Then, see what’s on the horizon for Midnight with the 12.1.5 content update. Discover it all in this week’s WoW Weekly. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310649\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\" alt=\"WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly\" width=\"833\" height=\"468\"></a></p><p>A new week brings even more to discover across World of Warcraft. Explore the latest WoW: Forever class spotlights featuring the Hunter, Druid, Priest, and Warrior, and tune in for episode 2 of the WoW: Forever Podcast. Then, see what’s on the horizon for Midnight with the 12.1.5 content update. Discover it all in this week’s WoW Weekly. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310649\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-classes-take-center-stage-in-this-week%E2%80%99s-wow-weekly/2369930/1"
+    },
+    {
       "id": "blizz-30296856",
       "postId": 30296856,
       "topicId": 2369360,
@@ -198,32 +226,60 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/actions-taken-against-botting-and-rmt/2368705/1"
     },
     {
-      "id": "blizz-30281239",
-      "postId": 30281239,
-      "topicId": 2367661,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1231967",
+      "postId": 1231967,
+      "topicId": 80301,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-01T17:12:53.756Z",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-02T17:06:08.517Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Beta Update Maintenance - October 1",
-        "es": "Beta Update Mantenimiento - October 1"
+        "en": "Esta semana en WoW: Las clases de WoW: Forever salen a la palestra",
+        "es": "Esta semana en WoW: Las clases de WoW: Forever salen a la palestra"
       },
       "summary": {
-        "en": "We think we’ll take the Beta offline in about 45 minutes. \nSee you on the other side!...",
-        "es": "We think we’ll take the Beta offline in about 45 minutes. \nSee you on the other side!..."
+        "en": "[Esta semana en WoW: Las clases de WoW: Forever salen a la palestra] Esta semana hay muchas cosas más por descubrir en World of Warcraft. Explora los últimos artículos sobre las cl...",
+        "es": "[Esta semana en WoW: Las clases de WoW: Forever salen a la palestra] Esta semana hay muchas cosas más por descubrir en World of Warcraft. Explora los últimos artículos sobre las cl..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We think we’ll take the Beta offline in about 45 minutes.</p>\n<p>See you on the other side!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We think we’ll take the Beta offline in about 45 minutes.</p>\n<p>See you on the other side!</p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\" alt=\"Esta semana en WoW: Las clases de WoW: Forever salen a la palestra\" width=\"833\" height=\"468\"></a></p><p>Esta semana hay muchas cosas más por descubrir en World of Warcraft. Explora los últimos artículos sobre las clases de WoW: Forever con el cazador, el druida, el sacerdote y el guerrero, y no te pierdas el episodio 2 del pódcast de WoW: Forever. Después, echa un vistazo a lo que está por llegar a Midnight con la actualización de contenido 12.1.5. Descúbrelo todo en «Esta semana en WoW». </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310649\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\" alt=\"Esta semana en WoW: Las clases de WoW: Forever salen a la palestra\" width=\"833\" height=\"468\"></a></p><p>Esta semana hay muchas cosas más por descubrir en World of Warcraft. Explora los últimos artículos sobre las clases de WoW: Forever con el cazador, el druida, el sacerdote y el guerrero, y no te pierdas el episodio 2 del pódcast de WoW: Forever. Después, echa un vistazo a lo que está por llegar a Midnight con la actualización de contenido 12.1.5. Descúbrelo todo en «Esta semana en WoW». </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310649\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-update-maintenance-october-1/2367661/191"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-las-clases-de-wow-forever-salen-a-la-palestra/80301/1"
+    },
+    {
+      "id": "blizz-1231966",
+      "postId": 1231966,
+      "topicId": 80300,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-02T16:36:38.212Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Forever: Repaso a fondo de las clases cazador y druida",
+        "es": "World of Warcraft: Forever: Repaso a fondo de las clases cazador y druida"
+      },
+      "summary": {
+        "en": "[World of Warcraft: Forever: Repaso a fondo de las clases cazador y druida] Responde a la llamada de lo salvaje y adopta las muchas formas de la naturaleza en World of Warcraft: Fo...",
+        "es": "[World of Warcraft: Forever: Repaso a fondo de las clases cazador y druida] Responde a la llamada de lo salvaje y adopta las muchas formas de la naturaleza en World of Warcraft: Fo..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de las clases cazador y druida\" width=\"833\" height=\"468\"></a></p><p>Responde a la llamada de lo salvaje y adopta las muchas formas de la naturaleza en World of Warcraft: Forever. Compartimos las perspectivas del equipo de desarrollo sobre el cazador y el druida, incluida la evolución de estas clases a través de actualizaciones de talentos, facultades definitorias y nuevas formas de jugar.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24301515\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de las clases cazador y druida\" width=\"833\" height=\"468\"></a></p><p>Responde a la llamada de lo salvaje y adopta las muchas formas de la naturaleza en World of Warcraft: Forever. Compartimos las perspectivas del equipo de desarrollo sobre el cazador y el druida, incluida la evolución de estas clases a través de actualizaciones de talentos, facultades definitorias y nuevas formas de jugar.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24301515\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-repaso-a-fondo-de-las-clases-cazador-y-druida/80300/1"
     },
     {
       "id": "blizz-1231919",
@@ -394,60 +450,32 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/sobre-la-categor%C3%ADa-wow-forever-comunidad/80190/1"
     },
     {
-      "id": "blizz-1231439",
-      "postId": 1231439,
-      "topicId": 80189,
+      "id": "blizz-6409710",
+      "postId": 6409710,
+      "topicId": 633217,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-09-24T04:33:57.229Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Sobre la categoría WoW: Forever - General",
-        "es": "Sobre la categoría WoW: Forever - General"
-      },
-      "summary": {
-        "en": "Os damos la bienvenida al foro de discusión general de World of Warcraft: Forever. En este foro, los jugadores podréis hablar de todo lo relacionado con World of Warcraft: Forever....",
-        "es": "Os damos la bienvenida al foro de discusión general de World of Warcraft: Forever. En este foro, los jugadores podréis hablar de todo lo relacionado con World of Warcraft: Forever...."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Os damos la bienvenida al foro de discusión general de World of Warcraft: Forever. En este foro, los jugadores podréis hablar de todo lo relacionado con World of Warcraft: Forever.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Os damos la bienvenida al foro de discusión general de World of Warcraft: Forever. En este foro, los jugadores podréis hablar de todo lo relacionado con World of Warcraft: Forever.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/sobre-la-categor%C3%ADa-wow-forever-general/80189/1"
-    },
-    {
-      "id": "blizz-1231419",
-      "postId": 1231419,
-      "topicId": 80182,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-23T17:00:15.788Z",
+      "dateRaw": "2026-10-02T17:06:14.291Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Familiarízate con el sistema de legado de World of Warcraft: Forever",
-        "es": "Familiarízate con el sistema de legado de World of Warcraft: Forever"
+        "en": "WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly",
+        "es": "WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly"
       },
       "summary": {
-        "en": "[Familiarízate con el sistema de legado de World of Warcraft: Forever.] Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que t...",
-        "es": "[Familiarízate con el sistema de legado de World of Warcraft: Forever.] Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que t..."
+        "en": "[WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly] A new week brings even more to discover across World of Warcraft. Explore the latest WoW: Forever class spotlight...",
+        "es": "[WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly] A new week brings even more to discover across World of Warcraft. Explore the latest WoW: Forever class spotlight..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Familiarízate con el sistema de legado de World of Warcraft: Forever.\" width=\"833\" height=\"468\"></a></p><p>Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que te permite completar desafíos, ganar puntos de legado, desbloquear ventajas específicas del personaje y conseguir recompensas cosméticas a lo largo de tu aventura por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307383\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Familiarízate con el sistema de legado de World of Warcraft: Forever.\" width=\"833\" height=\"468\"></a></p><p>Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que te permite completar desafíos, ganar puntos de legado, desbloquear ventajas específicas del personaje y conseguir recompensas cosméticas a lo largo de tu aventura por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307383\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\" alt=\"WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly\" width=\"833\" height=\"468\"></a></p><p>A new week brings even more to discover across World of Warcraft. Explore the latest WoW: Forever class spotlights featuring the Hunter, Druid, Priest, and Warrior, and tune in for episode 2 of the WoW: Forever Podcast. Then, see what’s on the horizon for Midnight with the 12.1.5 content update. Discover it all in this week’s WoW Weekly. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310649\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\" alt=\"WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly\" width=\"833\" height=\"468\"></a></p><p>A new week brings even more to discover across World of Warcraft. Explore the latest WoW: Forever class spotlights featuring the Hunter, Druid, Priest, and Warrior, and tune in for episode 2 of the WoW: Forever Podcast. Then, see what’s on the horizon for Midnight with the 12.1.5 content update. Discover it all in this week’s WoW Weekly. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310649\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/familiar%C3%ADzate-con-el-sistema-de-legado-de-world-of-warcraft-forever/80182/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-classes-take-center-stage-in-this-week%E2%80%99s-wow-weekly/633217/1"
     },
     {
       "id": "blizz-6408238",
@@ -644,6 +672,90 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/beta-update-maintenance-evening-of-1-october/632751/13"
+    },
+    {
+      "id": "blizz-30281239",
+      "postId": 30281239,
+      "topicId": 2367661,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-01T17:12:53.756Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Beta Update Maintenance - October 1",
+        "es": "Beta Update Mantenimiento - October 1"
+      },
+      "summary": {
+        "en": "We think we’ll take the Beta offline in about 45 minutes. \nSee you on the other side!...",
+        "es": "We think we’ll take the Beta offline in about 45 minutes. \nSee you on the other side!..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We think we’ll take the Beta offline in about 45 minutes.</p>\n<p>See you on the other side!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We think we’ll take the Beta offline in about 45 minutes.</p>\n<p>See you on the other side!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-update-maintenance-october-1/2367661/191"
+    },
+    {
+      "id": "blizz-1231439",
+      "postId": 1231439,
+      "topicId": 80189,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-09-24T04:33:57.229Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Sobre la categoría WoW: Forever - General",
+        "es": "Sobre la categoría WoW: Forever - General"
+      },
+      "summary": {
+        "en": "Os damos la bienvenida al foro de discusión general de World of Warcraft: Forever. En este foro, los jugadores podréis hablar de todo lo relacionado con World of Warcraft: Forever....",
+        "es": "Os damos la bienvenida al foro de discusión general de World of Warcraft: Forever. En este foro, los jugadores podréis hablar de todo lo relacionado con World of Warcraft: Forever...."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Os damos la bienvenida al foro de discusión general de World of Warcraft: Forever. En este foro, los jugadores podréis hablar de todo lo relacionado con World of Warcraft: Forever.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Os damos la bienvenida al foro de discusión general de World of Warcraft: Forever. En este foro, los jugadores podréis hablar de todo lo relacionado con World of Warcraft: Forever.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/sobre-la-categor%C3%ADa-wow-forever-general/80189/1"
+    },
+    {
+      "id": "blizz-1231419",
+      "postId": 1231419,
+      "topicId": 80182,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-23T17:00:15.788Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Familiarízate con el sistema de legado de World of Warcraft: Forever",
+        "es": "Familiarízate con el sistema de legado de World of Warcraft: Forever"
+      },
+      "summary": {
+        "en": "[Familiarízate con el sistema de legado de World of Warcraft: Forever.] Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que t...",
+        "es": "[Familiarízate con el sistema de legado de World of Warcraft: Forever.] Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que t..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Familiarízate con el sistema de legado de World of Warcraft: Forever.\" width=\"833\" height=\"468\"></a></p><p>Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que te permite completar desafíos, ganar puntos de legado, desbloquear ventajas específicas del personaje y conseguir recompensas cosméticas a lo largo de tu aventura por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307383\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Familiarízate con el sistema de legado de World of Warcraft: Forever.\" width=\"833\" height=\"468\"></a></p><p>Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que te permite completar desafíos, ganar puntos de legado, desbloquear ventajas específicas del personaje y conseguir recompensas cosméticas a lo largo de tu aventura por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307383\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/familiar%C3%ADzate-con-el-sistema-de-legado-de-world-of-warcraft-forever/80182/1"
     },
     {
       "id": "blizz-6406735",
@@ -1288,118 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/what-insights-would-you-like-to-see-in-a-future-episode-of-the-wow-forever-podcast/631603/1"
-    },
-    {
-      "id": "blizz-30244014",
-      "postId": 30244014,
-      "topicId": 2365460,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-28T22:00:07.406Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October",
-        "es": "Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October"
-      },
-      "summary": {
-        "en": "[Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October] PAX Aus is right around the corner and World of Warcraft: Forever will be there Friday ...",
-        "es": "[Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October] PAX Aus is right around the corner and World of Warcraft: Forever will be there Friday ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg\" alt=\"Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October\" width=\"833\" height=\"468\"></a></p><p>PAX Aus is right around the corner and World of Warcraft: Forever will be there Friday 9 October to Sunday 11 October AEDT! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302503\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg\" alt=\"Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October\" width=\"833\" height=\"468\"></a></p><p>PAX Aus is right around the corner and World of Warcraft: Forever will be there Friday 9 October to Sunday 11 October AEDT! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302503\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/watch-holly-longdale-and-clay-stone%E2%80%99s-keynote-presentations-live-from-pax-aus-9-11-october/2365460/1"
-    },
-    {
-      "id": "blizz-6394187",
-      "postId": 6394187,
-      "topicId": 631594,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-25T17:00:13.233Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Forever Headlines a Packed WoW Weekly",
-        "es": "World of Warcraft: Forever Headlines a Packed WoW Weekly"
-      },
-      "summary": {
-        "en": "[World of Warcraft: Forever Headlines a Packed WoW Weekly] Get to know World of Warcraft: Forever through our latest articles on choosing your ruleset, naming your character, class...",
-        "es": "[World of Warcraft: Forever Headlines a Packed WoW Weekly] Get to know World of Warcraft: Forever through our latest articles on choosing your ruleset, naming your character, class..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\" alt=\"World of Warcraft: Forever Headlines a Packed WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>Get to know World of Warcraft: Forever through our latest articles on choosing your ruleset, naming your character, class and race combinations, the new Skyborne race, and the Legacy System, then watch episode 1 of the World of Warcraft: Forever Podcast. You can also look ahead to October’s Trading Post and catch up on the Brewfest in-game holiday, what’s happening in the WoW Portal Room, and more in WoW Weekly. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24303315\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\" alt=\"World of Warcraft: Forever Headlines a Packed WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>Get to know World of Warcraft: Forever through our latest articles on choosing your ruleset, naming your character, class and race combinations, the new Skyborne race, and the Legacy System, then watch episode 1 of the World of Warcraft: Forever Podcast. You can also look ahead to October’s Trading Post and catch up on the Brewfest in-game holiday, what’s happening in the WoW Portal Room, and more in WoW Weekly. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24303315\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-headlines-a-packed-wow-weekly/631594/1"
-    },
-    {
-      "id": "blizz-30244012",
-      "postId": 30244012,
-      "topicId": 2365459,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-28T22:00:06.586Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October",
-        "es": "Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October"
-      },
-      "summary": {
-        "en": "[Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October] PAX Aus is right around the corner and World of Warcraft: Forever will be there Friday ...",
-        "es": "[Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October] PAX Aus is right around the corner and World of Warcraft: Forever will be there Friday ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg\" alt=\"Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October\" width=\"833\" height=\"468\"></a></p><p>PAX Aus is right around the corner and World of Warcraft: Forever will be there Friday 9 October to Sunday 11 October AEDT! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302503\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yp/YP2BOCSJ3RAD1790621932295.jpg\" alt=\"Watch Holly Longdale and Clay Stone’s Keynote Presentations Live from PAX Aus 9-11 October\" width=\"833\" height=\"468\"></a></p><p>PAX Aus is right around the corner and World of Warcraft: Forever will be there Friday 9 October to Sunday 11 October AEDT! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302503\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/watch-holly-longdale-and-clay-stone%E2%80%99s-keynote-presentations-live-from-pax-aus-9-11-october/2365459/1"
-    },
-    {
-      "id": "blizz-6391929",
-      "postId": 6391929,
-      "topicId": 625785,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-09-25T00:19:11.678Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - 29 September",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - 29 September"
-      },
-      "summary": {
-        "en": "September 24, 2026 \nDelves \n\nIn the Shadow Enclave delve variant “Infiltrate and Ameliorate”, Oddball “Ingredient” now teleport to one of several points in the play space if droppe...",
-        "es": "September 24, 2026 \nDelves \n\nIn the Shadow Enclave delve variant “Infiltrate and Ameliorate”, Oddball “Ingredient” now teleport to one of several points in the play space if droppe..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 24, 2026</strong></p>\n<p><strong>Delves</strong></p>\n<ul>\n<li>In the Shadow Enclave delve variant “Infiltrate and Ameliorate”, Oddball “Ingredient” now teleport to one of several points in the play space if dropped into the pit.</li>\n</ul>\n<p><strong>Player versus Player</strong></p>\n<ul>\n<li><em>Developers’ notes: We’ve added a few more adjustments to our prior changes to movement speed reduction effects.</em></li>\n<li><strong>Hunter</strong>\n<ul>\n<li>Wing Clip now reduces movement speed by 40% in PvP combat.</li>\n<li>Improved Snaring now increases the movement speed reduction of Wing Clip by 10% in PvP combat.</li>\n</ul>\n</li>\n<li><strong>Mage</strong>\n<ul>\n<li><strong>Arcane</strong>\n<ul>\n<li>Chrono Shift (PvP Talent) now reduces movement speed by 30% in PvP combat (was 50%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Paladin</strong>\n<ul>\n<li>Consecrated Ground now reduces movement speed by 20% in PvP combat (was 50%).</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 24, 2026</strong></p>\n<p><strong>Delves</strong></p>\n<ul>\n<li>In the Sombras Enclave delve variant “Infiltrate and Ameliorate”, Oddball “Ingredient” now teleport to one of several points in the play space if dropped into the pit.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li><em>Developers’ notes: We’ve added a few more adjustments to our prior changes to movement speed reduction effects.</em></li>\n<li><strong>CAZADOR</strong>\n<ul>\n<li>Wing Clip ahora reduce movement speed by 40% in PvP combat.</li>\n<li>Improved Snaring ahora aumenta the movement speed reduction of Wing Clip by 10% in PvP combat.</li>\n</ul>\n</li>\n<li><strong>MAGO</strong>\n<ul>\n<li><strong>Arcano</strong>\n<ul>\n<li>Chrono Shift (PvP Talent) ahora reduce movement speed by 30% in PvP combat (antes era 50%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li>Consecrated Ground ahora reduce movement speed by 20% in PvP combat (antes era 50%).</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-29-september/625785/40"
     }
   ],
   "blizzardNews": [
