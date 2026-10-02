@@ -567,16 +567,18 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
             ${enchants.map(enc => {
               const slotTranslated = isEs ? (ENCHANT_SLOTS_ES[enc.slot] || enc.slot) : enc.slot;
               const encIcon = enc.icon || 'inv_misc_enchantedscroll';
-              const encUrl = `https://${isEs ? 'es' : 'www'}.wowhead.com/item=${enc.id}`;
+              const entityKind = enc.entityKind || 'item';
+              const encUrl = `https://${isEs ? 'es' : 'www'}.wowhead.com/${entityKind}=${enc.id}`;
+              const dataAttr = `${entityKind}=${enc.id}&domain=${isEs ? 'es' : 'en'}`;
               return `
                 <div class="bg-wow-subcard border border-wow-border rounded-xl p-3 flex items-center justify-between gap-3">
                   <div class="flex items-center gap-3 min-w-0">
-                    <a href="${encUrl}" data-wowhead="item=${enc.id}&domain=${isEs ? 'es' : 'en'}" target="_blank" class="block shrink-0">
+                    <a href="${encUrl}" data-wowhead="${dataAttr}" target="_blank" class="block shrink-0">
                       <img src="https://wow.zamimg.com/images/wow/icons/medium/${encIcon}.jpg" alt="${enc.name}" class="w-8 h-8 rounded-lg border border-amber-400/40 shadow object-cover hover:border-amber-300 transition" onerror="this.src='https://wow.zamimg.com/images/wow/icons/medium/inv_misc_enchantedscroll.jpg'"/>
                     </a>
                     <div class="min-w-0">
                       <span class="text-[10px] uppercase font-bold text-amber-400 block">${slotTranslated}</span>
-                      <a href="${encUrl}" data-item-id="${enc.id}" data-wowhead="item=${enc.id}&domain=${isEs ? 'es' : 'en'}" target="_blank" class="spec-auto-translate text-xs text-white hover:underline truncate font-medium block">
+                      <a href="${encUrl}" data-item-id="${enc.id}" data-wowhead="${dataAttr}" target="_blank" class="spec-auto-translate text-xs text-white hover:underline truncate font-medium block">
                         ${enc.name}
                       </a>
                     </div>

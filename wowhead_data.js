@@ -225,7 +225,7 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
           "name": "Rite of Sanctification",
           "icon": "inv_inscription_weaponscroll01",
           "desc": "Rite of Sanctification",
-          "entityKind": "item"
+          "entityKind": "spell"
         },
         {
           "type": "Augment Rune",
@@ -737,7 +737,7 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
           "name": "Rune of Sanguination",
           "icon": "ability_argus_deathfog",
           "desc": "Rune of Sanguination",
-          "entityKind": "item"
+          "entityKind": "spell"
         },
         {
           "slot": "Weapon",
@@ -753,7 +753,7 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
           "name": "Rune of Sanguination",
           "icon": "ability_argus_deathfog",
           "desc": "Rune of Sanguination",
-          "entityKind": "item"
+          "entityKind": "spell"
         },
         {
           "slot": "Helm",
@@ -989,7 +989,7 @@ window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES = {
           "name": "Rune of the Apocalypse",
           "icon": "spell_deathknight_thrash_ghoul",
           "desc": "Rune of the Apocalypse",
-          "entityKind": "item"
+          "entityKind": "spell"
         },
         {
           "slot": "Helmet",

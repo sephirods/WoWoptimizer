@@ -55,14 +55,16 @@ function renderSpecEnchantsAndConsumablesHtml(className, specId) {
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2.5">
           ${specData.enchants.map(e => {
             const locSlot = typeof getLocalizedSlotName === 'function' ? getLocalizedSlotName(e.slot) : e.slot;
+            const encUrl = getWowheadEntityUrl(e.id, e.slot, e.name, e.entityKind);
+            const encAttr = getWowheadEntityDataAttr(e.id, e.slot, e.name, e.entityKind);
             return `
             <div class="bg-black/60 border border-blue-500/30 hover:border-blue-400/60 rounded-lg p-2.5 flex items-start gap-2.5 shadow-sm transition">
-              <a href="${getWowheadBaseUrl()}/item=${e.id}" target="_blank" ${getWowheadItemDataAttr(e.id)} class="flex-shrink-0">
+              <a href="${encUrl}" target="_blank" ${encAttr} class="flex-shrink-0">
                 <img src="https://wow.zamimg.com/images/wow/icons/large/${e.icon || 'inv_scroll_05'}.jpg" referrerpolicy="no-referrer" loading="lazy" class="w-8 h-8 rounded border border-blue-400/60 object-cover shadow" onerror="this.src='https://wow.zamimg.com/images/wow/icons/large/inv_scroll_05.jpg'">
               </a>
               <div class="min-w-0 flex-1">
                 <div class="text-[10px] font-bold text-blue-300 uppercase tracking-tight truncate">${locSlot}</div>
-                <a href="${getWowheadBaseUrl()}/item=${e.id}" target="_blank" data-item-id="${e.id}" ${getWowheadItemDataAttr(e.id)} class="spec-auto-translate text-xs font-bold text-purple-300 hover:text-purple-200 mt-0.5 block truncate">${e.name}</a>
+                <a href="${encUrl}" target="_blank" data-item-id="${e.id}" ${encAttr} class="spec-auto-translate text-xs font-bold text-purple-300 hover:text-purple-200 mt-0.5 block truncate">${e.name}</a>
                 <div class="text-[10px] text-slate-400 font-medium truncate">${e.desc || e.name}</div>
               </div>
             </div>
