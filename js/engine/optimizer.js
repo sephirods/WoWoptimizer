@@ -393,7 +393,7 @@ function runOptimizer(isManualClick = false) {
     } else if (['wrist', 'back'].includes(it.slot)) {
       slotWeight = 14;
     } else if (['finger', 'neck'].includes(it.slot)) {
-      slotWeight = 6;
+      slotWeight = 18;
     } else if (it.slot === 'trinket') {
       slotWeight = 18;
     }
