@@ -155,19 +155,19 @@ window.WOW_NEWS_DATABASE = {
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Temporary Dialog Bug for Australian Testers",
-        "es": "Temporary Dialog Bug for Australian Testers"
+        "en": "Dialog Bug for Australian Testers -- fixed",
+        "es": "Dialog Bug for Australian Testers -- fixed"
       },
       "summary": {
-        "en": "With the new build of the WoW Forever Beta, we have an unexpected bug where Australian players are being presented with a dialog when they log in telling them their social features...",
-        "es": "With the new build of the WoW Forever Beta, we have an unexpected bug where Australian players are being presented with a dialog when they log in telling them their social features..."
+        "en": "Update 04:00 AEDT October 4\nWe’ve fixed the bug that was causing this. \n\nWith the new build of the WoW Forever Beta, we have an unexpected bug where Australian players are being pr...",
+        "es": "Update 04:00 AEDT October 4\nWe’ve fixed the bug that was causing this. \n\nWith the new build of the WoW Forever Beta, we have an unexpected bug where Australian players are being pr..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>With the new build of the WoW Forever Beta, we have an unexpected bug where Australian players are being presented with a dialog when they log in telling them their social features are locked down. This is not the case, of course.</p>\n<p>We’ll get the bug fixed as soon as possible.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>With the new build of the WoW Forever Beta, we have an unexpected bug where Australian players are being presented with a dialog when they log in telling them their social features are locked down. This is not the case, of course.</p>\n<p>We’ll get the bug fixed as soon as possible.</p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><h2><a name=\"p-30291346-update-0400-aedt-october-4-1\" class=\"anchor\" href=\"#p-30291346-update-0400-aedt-october-4-1\" aria-label=\"Heading link\"></a>Update 04:00 AEDT October 4</h2>\n<p><strong>We’ve fixed the bug that was causing this.</strong></p>\n<hr>\n<p>With the new build of the WoW Forever Beta, we have an unexpected bug where Australian players are being presented with a dialog when they log in telling them their social features are locked down. This is not the case, of course.</p>\n<p><s>We’ll get the bug fixed as soon as possible.</s></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><h2><a name=\"p-30291346-update-0400-aedt-october-4-1\" class=\"anchor\" href=\"#p-30291346-update-0400-aedt-october-4-1\" aria-label=\"Heading link\"></a>Update 04:00 AEDT October 4</h2>\n<p><strong>We’ve fixed the bug that was causing this.</strong></p>\n<hr>\n<p>With the new build of the WoW Forever Beta, we have an unexpected bug where Australian players are being presented with a dialog when they log in telling them their social features are locked down. This is not the case, of course.</p>\n<p><s>We’ll get the bug fixed as soon as possible.</s></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/temporary-dialog-bug-for-australian-testers/2368931/1"
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/dialog-bug-for-australian-testers-fixed/2368931/1"
     },
     {
       "id": "blizz-30290854",
