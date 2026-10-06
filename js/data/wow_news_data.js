@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30348193",
+      "postId": 30348193,
+      "topicId": 2373436,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-05T23:17:57.247Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Brief Realm Maintenance - October 5",
+        "es": "Brief Realm Mantenimiento - October 5"
+      },
+      "summary": {
+        "en": "We’re going to do realm restarts in a few minutes, to apply some fixes that should improve the quality of the game service. \nBeta testers who are in-game will see server messages c...",
+        "es": "We’re going to do realm restarts in a few minutes, to apply some fixes that should improve the quality of the game service. \nBeta testers who are in-game will see server messages c..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re going to do realm restarts in a few minutes, to apply some fixes that should improve the quality of the game service.</p>\n<p>Beta testers who are in-game will see server messages counting down to the restart time.</p>\n<p>And the Beta will re-open a few minutes after it goes offline.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re going to do realm restarts in a few minutes, to apply some fixes that should improve the quality of the game service.</p>\n<p>Beta testers who are in-game will see server messages counting down to the restart time.</p>\n<p>And the Beta will re-open a few minutes after it goes offline.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/brief-realm-maintenance-october-5/2373436/1"
+    },
+    {
       "id": "blizz-30308918",
       "postId": 30308918,
       "topicId": 2370266,
@@ -196,34 +224,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-1/2360696/4"
-    },
-    {
-      "id": "blizz-30288600",
-      "postId": 30288600,
-      "topicId": 2368776,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-01T21:54:09.650Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Legacy Points for Beta Testing",
-        "es": "Legacy Points for Beta Testing"
-      },
-      "summary": {
-        "en": "Over the first two weeks of the WoW Forever Beta, we’ve seen an increasing number of testers pushing to earn points in the Legacy system. \nIn a future week of the Beta, we’re plann...",
-        "es": "Over the first two weeks of the WoW Forever Beta, we’ve seen an increasing number of testers pushing to earn points in the Legacy system. \nIn a future week of the Beta, we’re plann..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Over the first two weeks of the WoW Forever Beta, we’ve seen an increasing number of testers pushing to earn points in the Legacy system.</p>\n<p>In a future week of the Beta, we’re planning to grant all testers 16 Legacy points so that the system can be tested without first requiring a great deal of leveling different classes, clearing dungeons, etc.</p>\n<p>Once applied, we expect to keep that grant in place until the end of the Beta.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Over the first two weeks of the WoW Forever Beta, we’ve seen an increasing number of testers pushing to earn points in the Legacy system.</p>\n<p>In a future week of the Beta, we’re planning to grant all testers 16 Legacy points so that the system can be tested without first requiring a great deal of leveling different classes, clearing dungeons, etc.</p>\n<p>Once applied, we expect to keep that grant in place until the end of the Beta.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/legacy-points-for-beta-testing/2368776/1"
     },
     {
       "id": "blizz-1231967",
@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/sobre-la-categor%C3%ADa-wow-forever-comunidad/80190/1"
     },
     {
+      "id": "blizz-6415609",
+      "postId": 6415609,
+      "topicId": 633813,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-05T23:18:27.383Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Brief Realm Maintenance - 6 October",
+        "es": "Brief Realm Mantenimiento - 6 October"
+      },
+      "summary": {
+        "en": "We’re going to do realm restarts in a few minutes, to apply some fixes that should improve the quality of the game service. \nBeta testers who are in-game will see server messages c...",
+        "es": "We’re going to do realm restarts in a few minutes, to apply some fixes that should improve the quality of the game service. \nBeta testers who are in-game will see server messages c..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re going to do realm restarts in a few minutes, to apply some fixes that should improve the quality of the game service.</p>\n<p>Beta testers who are in-game will see server messages counting down to the restart time.</p>\n<p>And the Beta will re-open a few minutes after it goes offline.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re going to do realm restarts in a few minutes, to apply some fixes that should improve the quality of the game service.</p>\n<p>Beta testers who are in-game will see server messages counting down to the restart time.</p>\n<p>And the Beta will re-open a few minutes after it goes offline.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/brief-realm-maintenance-6-october/633813/1"
+    },
+    {
       "id": "blizz-6410394",
       "postId": 6410394,
       "topicId": 633266,
@@ -644,6 +672,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/legacy-points-for-beta-testing/633003/1"
+    },
+    {
+      "id": "blizz-30288600",
+      "postId": 30288600,
+      "topicId": 2368776,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-01T21:54:09.650Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Legacy Points for Beta Testing",
+        "es": "Legacy Points for Beta Testing"
+      },
+      "summary": {
+        "en": "Over the first two weeks of the WoW Forever Beta, we’ve seen an increasing number of testers pushing to earn points in the Legacy system. \nIn a future week of the Beta, we’re plann...",
+        "es": "Over the first two weeks of the WoW Forever Beta, we’ve seen an increasing number of testers pushing to earn points in the Legacy system. \nIn a future week of the Beta, we’re plann..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Over the first two weeks of the WoW Forever Beta, we’ve seen an increasing number of testers pushing to earn points in the Legacy system.</p>\n<p>In a future week of the Beta, we’re planning to grant all testers 16 Legacy points so that the system can be tested without first requiring a great deal of leveling different classes, clearing dungeons, etc.</p>\n<p>Once applied, we expect to keep that grant in place until the end of the Beta.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Over the first two weeks of the WoW Forever Beta, we’ve seen an increasing number of testers pushing to earn points in the Legacy system.</p>\n<p>In a future week of the Beta, we’re planning to grant all testers 16 Legacy points so that the system can be tested without first requiring a great deal of leveling different classes, clearing dungeons, etc.</p>\n<p>Once applied, we expect to keep that grant in place until the end of the Beta.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/legacy-points-for-beta-testing/2368776/1"
     },
     {
       "id": "blizz-6407536",
@@ -1344,62 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/conoce-a-los-nuevos-c%C3%A9licos-de-wow-forever/80171/1"
-    },
-    {
-      "id": "blizz-1231351",
-      "postId": 1231351,
-      "topicId": 80170,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-22T17:00:07.420Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever",
-        "es": "Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever"
-      },
-      "summary": {
-        "en": "[Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever] Explora las razas jugables, combinaciones de clase y rasgos raciales actualizados que llegan con World of Warc...",
-        "es": "[Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever] Explora las razas jugables, combinaciones de clase y rasgos raciales actualizados que llegan con World of Warc..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/md/MD8WVKVK66W31790051503373.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/md/MD8WVKVK66W31790051503373.png\" alt=\"Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Explora las razas jugables, combinaciones de clase y rasgos raciales actualizados que llegan con World of Warcraft: Forever, incluidas nuevas opciones para tus razas favoritas de siempre junto con una completamente nueva: los cielonatos.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304075\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/md/MD8WVKVK66W31790051503373.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/md/MD8WVKVK66W31790051503373.png\" alt=\"Crea un héroe a tu imagen y semejanza en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Explora las razas jugables, combinaciones de clase y rasgos raciales actualizados que llegan con World of Warcraft: Forever, incluidas nuevas opciones para tus razas favoritas de siempre junto con una completamente nueva: los cielonatos.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304075\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/crea-un-h%C3%A9roe-a-tu-imagen-y-semejanza-en-world-of-warcraft-forever/80170/1"
-    },
-    {
-      "id": "blizz-6402148",
-      "postId": 6402148,
-      "topicId": 632485,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-29T17:00:11.904Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Midnight’s 12.1.5 Content Update Arrives 14 October",
-        "es": "Midnight’s 12.1.5 Content Update Arrives 14 October"
-      },
-      "summary": {
-        "en": "[Midnight’s 12.1.5 Content Update Arrives 14 October] Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-b...",
-        "es": "[Midnight’s 12.1.5 Content Update Arrives 14 October] Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-b..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\" alt=\"Midnight’s 12.1.5 Content Update Arrives 14 October\" width=\"833\" height=\"468\"></a></p><p>Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-boss raid, Season 2's mid-season refresh, the dramatic conclusion to the saga of Quel’Thalas and Zul’Aman, Aqir Invasions, and more. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24307306\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\" alt=\"Midnight’s 12.1.5 Content Update Arrives 14 October\" width=\"833\" height=\"468\"></a></p><p>Midnight’s 12.1.5 content update brings the Labyrinth of Kindo’jan—a massive nine-chamber Delve-like challenge, a new single-boss raid, Season 2's mid-season refresh, the dramatic conclusion to the saga of Quel’Thalas and Zul’Aman, Aqir Invasions, and more. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24307306\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/midnight%E2%80%99s-1215-content-update-arrives-14-october/632485/1"
     }
   ],
   "blizzardNews": [
