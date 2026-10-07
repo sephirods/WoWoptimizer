@@ -2,6 +2,62 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30375457",
+      "postId": 30375457,
+      "topicId": 2375228,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-07T19:00:15.933Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Battle for the Darkspear Islands in World of Warcraft: Forever",
+        "es": "Battle for the Darkspear Islands in World of Warcraft: Forever"
+      },
+      "summary": {
+        "en": "[Battle for the Darkspear Islands in World of Warcraft: Forever] Stake your claim in the Darkspear Islands, a new 15v15 battleground in World of Warcraft: Forever where teams fight...",
+        "es": "[Battle for the Darkspear Islands in World of Warcraft: Forever] Stake your claim in the Darkspear Islands, a new 15v15 battleground in World of Warcraft: Forever where teams fight..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/12/12VVZ0SP9UBM1790889158204.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/12/12VVZ0SP9UBM1790889158204.png\" alt=\"Battle for the Darkspear Islands in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Stake your claim in the Darkspear Islands, a new 15v15 battleground in World of Warcraft: Forever where teams fight to control strategic points, capture the flag, and earn reputation rewards with the Darkspear Raiders or Theramore Expeditionary Force. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24307308\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/12/12VVZ0SP9UBM1790889158204.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/12/12VVZ0SP9UBM1790889158204.png\" alt=\"Battle for the Darkspear Islands in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Stake your claim in the Darkspear Islands, a new 15v15 battleground in World of Warcraft: Forever where teams fight to control strategic points, capture the flag, and earn reputation rewards with the Darkspear Raiders or Theramore Expeditionary Force. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24307308\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/battle-for-the-darkspear-islands-in-world-of-warcraft-forever/2375228/1"
+    },
+    {
+      "id": "blizz-30373680",
+      "postId": 30373680,
+      "topicId": 2375129,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-07T17:00:13.957Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "How PvP Progression in World of Warcraft: Forever Works",
+        "es": "How PvP Progression in World of Warcraft: Forever Works"
+      },
+      "summary": {
+        "en": "[How PvP Progression in World of Warcraft: Forever Works] World of Warcraft: Forever reimagines PvP (Player vs. Player) progression with an approachable system built around Honor, ...",
+        "es": "[How PvP Progression in World of Warcraft: Forever Works] World of Warcraft: Forever reimagines PvP (Player vs. Player) progression with an approachable system built around Honor, ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ab/ABQG457IQXQF1790901647323.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ab/ABQG457IQXQF1790901647323.png\" alt=\"How PvP Progression in World of Warcraft: Forever Works\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever reimagines PvP (Player vs. Player) progression with an approachable system built around Honor, Rank Points, seasonal goals, and familiar original ranks. Players can earn rewards through battlegrounds, PvP quests, weekly journey tasks, and gear upgrades while working toward iconic titles such as High Warlord and Grand Marshal. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24303316\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ab/ABQG457IQXQF1790901647323.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ab/ABQG457IQXQF1790901647323.png\" alt=\"How PvP Progression in World of Warcraft: Forever Works\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever reimagines PvP (Player vs. Player) progression with an approachable system built around Honor, Rank Points, seasonal goals, and familiar original ranks. Players can earn rewards through battlegrounds, PvP quests, weekly journey tasks, and gear upgrades while working toward iconic titles such as High Warlord and Grand Marshal. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24303316\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/how-pvp-progression-in-world-of-warcraft-forever-works/2375129/1"
+    },
+    {
       "id": "blizz-30362058",
       "postId": 30362058,
       "topicId": 2336376,
@@ -170,60 +226,60 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-classes-take-center-stage-in-this-week%E2%80%99s-wow-weekly/2369930/1"
     },
     {
-      "id": "blizz-30296856",
-      "postId": 30296856,
-      "topicId": 2369360,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1232303",
+      "postId": 1232303,
+      "topicId": 80341,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-02T02:57:41.440Z",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-07T19:00:11.397Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Warrior Updates in Today's Beta Build",
-        "es": "Warrior Updates in Today's Beta Build"
+        "en": "Lucha por las Islas Lanza Negra en World of Warcraft: Forever",
+        "es": "Lucha por las Islas Lanza Negra en World of Warcraft: Forever"
       },
       "summary": {
-        "en": "A number of additional updates for Warriors in WoW Forever made it into today’s new Beta build, and we just added all of the following to our Development Notes for today. \nWarrior ...",
-        "es": "A number of additional updates for Warriors in WoW Forever made it into today’s new Beta build, and we just added all of the following to our Development Notes for today. \nWarrior ..."
+        "en": "[Lucha por las Islas Lanza Negra en World of Warcraft: Forever] Deja tu huella en las Islas Lanza Negra, el nuevo campo de batalla 15c15 de World of Warcraft: Forever donde los equ...",
+        "es": "[Lucha por las Islas Lanza Negra en World of Warcraft: Forever] Deja tu huella en las Islas Lanza Negra, el nuevo campo de batalla 15c15 de World of Warcraft: Forever donde los equ..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>A number of additional updates for Warriors in WoW Forever made it into today’s new Beta build, and we just added all of the following to our <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-1/2360696/4\">Development Notes</a> for today.</p>\n<p><strong>Warrior</strong></p>\n<ul>\n<li>Additional Rage generated from landing Critical Strikes increased to 100% increased Rage (was 75%).</li>\n<li>Fixed a bug that was causing Dual Wield Specialization to grant its increase to Hit Chance to both weapons.</li>\n<li>Developers’ notes: Because of the above bug, our tests needed some correcting, so we did another pass on Fury Warrior.</li>\n<li><strong>Fury</strong>\n<ul>\n<li><em>Developers’ notes: Our goal here is to give Fury more access to utility and meaningful choices early in the tree for leveling, and free up points later for more choices instead of being stuck placing points into Enrage to get Flurry.</em></li>\n<li>Booming Voice is now a 10/20/30/40/50% increase area of effect to your Shouts and a 5/10/15/20/25% reduction to their Rage costs.</li>\n<li>Unbridled Wrath no longer grants twice as much Rage to two-handed weapons.</li>\n<li>New Talent Lingering Rage in Row 2 of Fury. Lingering Rage increases the time before your Rage begins to decay when leaving combat by 2/4/6/8/10 seconds.</li>\n<li>Blood Craze no longer activates off of Bloodthirst casts.</li>\n<li>The Improved Cleave talent has been removed.</li>\n<li>The Boundless Rage talent has been removed.</li>\n<li>New Talent Furious Precision in Row 3 of Fury. Furious Precision increases your chance to hit with off-hand attacks by 4/7/10%.</li>\n<li>Raging Blows now reduces the Rage cost of your Cleave and Whirlwind abilities by 3.</li>\n<li>Raging Blows no longer causes your Whirlwind to strike with your offhand. Whirlwind will now always strike with both weapons without requiring a talent point.</li>\n<li>Dual Wield Specialization no longer grants hit to your off-hand attacks.</li>\n<li>Enrage is no longer required to reach the Flurry talent.</li>\n<li>Death Wish is now required to reach the Flurry talent.</li>\n<li>New Talent Gore Drinker in Row 6 of Fury, requires the Enrage talent. Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next 3 melee attacks to restore 0.5/1% of your maximum Health.</li>\n<li>Improved Berserker Rage moved to Row 5 of Fury (Was Row 6).</li>\n<li>Berserker Rage is now available at level 30 (Was 32)</li>\n<li>Bloodthirst’s Attack Power ratio has been increased to 45% (Was 35%).</li>\n</ul>\n</li>\n<li><strong>Protection</strong>\n<ul>\n<li><em>Developers’ notes: Our goal is to give non-shield users a clear path to the middle of the tree, where Protection could serve as a PvP tech secondary specialization, with more access to Improved Bloodrage, Iron Will, Improved Disarm, Last Stand, and Improved Shield Bash.</em></li>\n<li>Iron Will moved to the Row 1 of Protection (Was Row 2 of Fury).</li>\n<li>Anticipation moved to Row 2 (Was Row 1).</li>\n<li>Toughness has been removed.</li>\n<li>Improved Bloodrage moved to Row 1 (Was Row 2).</li>\n<li>Improved Revenge moved to Row 2 (Was Row 3).</li>\n<li>Improved Disarm moved to Row 3 (Was Row 4).</li>\n<li>Improved Shield Bash moved to Row 4 (Was Row 5).</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>A number of additional updates for Warriors in WoW Forever made it into today’s new Beta build, and we just added all of the following to our <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-1/2360696/4\">Development Notes</a> for today.</p>\n<p><strong>GUERRERO</strong></p>\n<ul>\n<li>Additional Rage generated from landing Critical Strikes increased to 100% increased Rage (antes era 75%).</li>\n<li>Fixed a bug that was causing Dual Wield Specialization to grant its increase to Hit Chance to both weapons.</li>\n<li>Developers’ notes: Because of the above bug, our tests needed some correcting, so we did another pass on Furia Warrior.</li>\n<li><strong>Furia</strong>\n<ul>\n<li><em>Developers’ notes: Our goal here is to give Furia more access to utility and meaningful choices early in the tree for leveling, and free up points later for more choices instead of being stuck placing points into Enrage to get Flurry.</em></li>\n<li>Booming Voice ahora es a 10/20/30/40/50% increase area of effect to your Shouts and a 5/10/15/20/25% reduction to their Rage costs.</li>\n<li>Unbridled Wrath no longer grants twice as much Rage to two-handed weapons.</li>\n<li>New Talent Lingering Rage in Row 2 of Furia. Lingering Rage increases the time before your Rage begins to decay when leaving combat by 2/4/6/8/10 seconds.</li>\n<li>Sangre Craze no longer activates off of Bloodthirst casts.</li>\n<li>The Improved Cleave talent has been removed.</li>\n<li>The Boundless Rage talent has been removed.</li>\n<li>New Talent Furious Precision in Row 3 of Furia. Furious Precision increases your chance to hit with off-hand attacks by 4/7/10%.</li>\n<li>Raging Blows ahora reduce the Rage cost of your Cleave and Whirlwind abilities by 3.</li>\n<li>Raging Blows no longer causes your Whirlwind to strike with your offhand. Whirlwind will now always strike with both weapons without requiring a talent point.</li>\n<li>Dual Wield Specialization no longer grants hit to your off-hand attacks.</li>\n<li>Enrage is no longer required to reach the Flurry talent.</li>\n<li>Death Wish ahora es required to reach the Flurry talent.</li>\n<li>New Talent Gore Drinker in Row 6 of Furia, requires the Enrage talent. Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next 3 melee attacks to restore 0.5/1% of your maximum Health.</li>\n<li>Improved Berserker Rage moved to Row 5 of Furia (Was Row 6).</li>\n<li>Berserker Rage ahora es available at level 30 (Was 32)</li>\n<li>Bloodthirst’s Attack Power ratio has been increased to 45% (antes era 35%).</li>\n</ul>\n</li>\n<li><strong>Protección</strong>\n<ul>\n<li><em>Developers’ notes: Our goal is to give non-shield users a clear path to the middle of the tree, where Protección could serve as a PvP tech secondary specialization, with more access to Improved Bloodrage, Iron Will, Improved Disarm, Last Stand, and Improved Shield Bash.</em></li>\n<li>Iron Will moved to the Row 1 of Protección (Was Row 2 of Furia).</li>\n<li>Anticipation moved to Row 2 (Was Row 1).</li>\n<li>Toughness has been removed.</li>\n<li>Improved Bloodrage moved to Row 1 (Was Row 2).</li>\n<li>Improved Revenge moved to Row 2 (Was Row 3).</li>\n<li>Improved Disarm moved to Row 3 (Was Row 4).</li>\n<li>Improved Shield Bash moved to Row 4 (Was Row 5).</li>\n</ul>\n</li>\n</ul></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/12/12VVZ0SP9UBM1790889158204.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/12/12VVZ0SP9UBM1790889158204.png\" alt=\"Lucha por las Islas Lanza Negra en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Deja tu huella en las Islas Lanza Negra, el nuevo campo de batalla 15c15 de World of Warcraft: Forever donde los equipos lucharán para hacerse con el control de puntos estratégicos, capturar la bandera y obtener recompensas de reputación con los Asaltantes Lanza Negra o la Fuerza Expedicionaria de Theramore. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307308\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/12/12VVZ0SP9UBM1790889158204.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/12/12VVZ0SP9UBM1790889158204.png\" alt=\"Lucha por las Islas Lanza Negra en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Deja tu huella en las Islas Lanza Negra, el nuevo campo de batalla 15c15 de World of Warcraft: Forever donde los equipos lucharán para hacerse con el control de puntos estratégicos, capturar la bandera y obtener recompensas de reputación con los Asaltantes Lanza Negra o la Fuerza Expedicionaria de Theramore. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307308\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/warrior-updates-in-todays-beta-build/2369360/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/lucha-por-las-islas-lanza-negra-en-world-of-warcraft-forever/80341/1"
     },
     {
-      "id": "blizz-30293698",
-      "postId": 30293698,
-      "topicId": 2369114,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1232301",
+      "postId": 1232301,
+      "topicId": 80339,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-02T00:03:22.137Z",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-07T17:00:14.430Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Beta Service Issue - October 1",
-        "es": "Beta Service Issue - October 1"
+        "en": "Cómo funciona la progresión JcJ en World of Warcraft: Forever",
+        "es": "Cómo funciona la progresión JcJ en World of Warcraft: Forever"
       },
       "summary": {
-        "en": "We’re aware of and working to address an issue that appears to be preventing testers from logging into the WoW: Forever Beta. \nWe will continue to work to fix this as swiftly as po...",
-        "es": "We’re aware of and working to address an issue that appears to be preventing testers from logging into the WoW: Forever Beta. \nWe will continue to work to fix this as swiftly as po..."
+        "en": "[Cómo funciona la progresión JcJ en World of Warcraft: Forever] World of Warcraft: Forever plantea la progresión JcJ (jugador contra jugador) mediante un sistema accesible que se c...",
+        "es": "[Cómo funciona la progresión JcJ en World of Warcraft: Forever] World of Warcraft: Forever plantea la progresión JcJ (jugador contra jugador) mediante un sistema accesible que se c..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re aware of and working to address an issue that appears to be preventing testers from logging into the WoW: Forever Beta.</p>\n<p>We will continue to work to fix this as swiftly as possible.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re aware of and working to address an issue that appears to be preventing testers from logging into the WoW: Forever Beta.</p>\n<p>We will continue to work to fix this as swiftly as possible.</p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ab/ABQG457IQXQF1790901647323.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ab/ABQG457IQXQF1790901647323.png\" alt=\"Cómo funciona la progresión JcJ en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever plantea la progresión JcJ (jugador contra jugador) mediante un sistema accesible que se centra en el honor, los puntos de rango, los objetivos de temporada y los rangos originales que ya conocemos. Los jugadores podrán conseguir recompensas mediante los campos de batalla, misiones JcJ, tareas semanales y mejoras de equipo, y todo mientras se esfuerzan por obtener títulos emblemáticos como Gran Señor de la Guerra y Gran mariscal. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303316\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ab/ABQG457IQXQF1790901647323.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ab/ABQG457IQXQF1790901647323.png\" alt=\"Cómo funciona la progresión JcJ en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever plantea la progresión JcJ (jugador contra jugador) mediante un sistema accesible que se centra en el honor, los puntos de rango, los objetivos de temporada y los rangos originales que ya conocemos. Los jugadores podrán conseguir recompensas mediante los campos de batalla, misiones JcJ, tareas semanales y mejoras de equipo, y todo mientras se esfuerzan por obtener títulos emblemáticos como Gran Señor de la Guerra y Gran mariscal. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303316\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-service-issue-october-1/2369114/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/c%C3%B3mo-funciona-la-progresi%C3%B3n-jcj-en-world-of-warcraft-forever/80339/1"
     },
     {
       "id": "blizz-1231967",
@@ -394,60 +450,60 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-ha-tenido-una-semana-llena-de-novedades/80222/1"
     },
     {
-      "id": "blizz-1231485",
-      "postId": 1231485,
-      "topicId": 80198,
+      "id": "blizz-6419106",
+      "postId": 6419106,
+      "topicId": 634197,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-24T16:17:47.597Z",
+      "dateRaw": "2026-10-07T19:00:07.604Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Ve el episodio 1 del pódcast de World of Warcraft: Forever",
-        "es": "Ve el episodio 1 del pódcast de World of Warcraft: Forever"
+        "en": "Battle for the Darkspear Islands in World of Warcraft: Forever",
+        "es": "Battle for the Darkspear Islands in World of Warcraft: Forever"
       },
       "summary": {
-        "en": "[Ve el episodio 1 del pódcast de World of Warcraft: Forever] Acompaña al diseñador sénior del juego Josh «Aggrend» Greenfield, al diseñador jefe de Classic Tim Jones y a los creado...",
-        "es": "[Ve el episodio 1 del pódcast de World of Warcraft: Forever] Acompaña al diseñador sénior del juego Josh «Aggrend» Greenfield, al diseñador jefe de Classic Tim Jones y a los creado..."
+        "en": "[Battle for the Darkspear Islands in World of Warcraft: Forever] Stake your claim in the Darkspear Islands, a new 15v15 battleground in World of Warcraft: Forever where teams fight...",
+        "es": "[Battle for the Darkspear Islands in World of Warcraft: Forever] Stake your claim in the Darkspear Islands, a new 15v15 battleground in World of Warcraft: Forever where teams fight..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ep/EPSTZUAPQ9TV1790269181996.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ep/EPSTZUAPQ9TV1790269181996.png\" alt=\"Ve el episodio 1 del pódcast de World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Acompaña al diseñador sénior del juego Josh «Aggrend» Greenfield, al diseñador jefe de Classic Tim Jones y a los creadores de contenido Countdown To Classic y Xaryu en el primer episodio del pódcast de World of Warcraft: Forever. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304076\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ep/EPSTZUAPQ9TV1790269181996.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ep/EPSTZUAPQ9TV1790269181996.png\" alt=\"Ve el episodio 1 del pódcast de World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Acompaña al diseñador sénior del juego Josh «Aggrend» Greenfield, al diseñador jefe de Classic Tim Jones y a los creadores de contenido Countdown To Classic y Xaryu en el primer episodio del pódcast de World of Warcraft: Forever. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304076\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/12/12VVZ0SP9UBM1790889158204.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/12/12VVZ0SP9UBM1790889158204.png\" alt=\"Battle for the Darkspear Islands in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Stake your claim in the Darkspear Islands, a new 15v15 battleground in World of Warcraft: Forever where teams fight to control strategic points, capture the flag, and earn reputation rewards with the Darkspear Raiders or Theramore Expeditionary Force. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24307308\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/12/12VVZ0SP9UBM1790889158204.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/12/12VVZ0SP9UBM1790889158204.png\" alt=\"Battle for the Darkspear Islands in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Stake your claim in the Darkspear Islands, a new 15v15 battleground in World of Warcraft: Forever where teams fight to control strategic points, capture the flag, and earn reputation rewards with the Darkspear Raiders or Theramore Expeditionary Force. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24307308\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/ve-el-episodio-1-del-p%C3%B3dcast-de-world-of-warcraft-forever/80198/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/battle-for-the-darkspear-islands-in-world-of-warcraft-forever/634197/1"
     },
     {
-      "id": "blizz-1231443",
-      "postId": 1231443,
-      "topicId": 80190,
+      "id": "blizz-6418973",
+      "postId": 6418973,
+      "topicId": 634178,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-09-24T04:36:11.016Z",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-07T17:00:06.667Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Sobre la categoría WoW: Forever - Comunidad",
-        "es": "Sobre la categoría WoW: Forever - Comunidad"
+        "en": "How PvP Progression in World of Warcraft: Forever Works",
+        "es": "How PvP Progression in World of Warcraft: Forever Works"
       },
       "summary": {
-        "en": "Os damos la bienvenida al foro de búsqueda de comunidades de World of Warcraft: Forever. Podéis usar este espacio para organizar vuestras comunidades con otros jugadores de WoW: Fo...",
-        "es": "Os damos la bienvenida al foro de búsqueda de comunidades de World of Warcraft: Forever. Podéis usar este espacio para organizar vuestras comunidades con otros jugadores de WoW: Fo..."
+        "en": "[How PvP Progression in World of Warcraft: Forever Works] World of Warcraft: Forever reimagines PvP (Player vs. Player) progression with an approachable system built around Honor, ...",
+        "es": "[How PvP Progression in World of Warcraft: Forever Works] World of Warcraft: Forever reimagines PvP (Player vs. Player) progression with an approachable system built around Honor, ..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Os damos la bienvenida al foro de búsqueda de comunidades de World of Warcraft: Forever. Podéis usar este espacio para organizar vuestras comunidades con otros jugadores de WoW: Forever.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Os damos la bienvenida al foro de búsqueda de comunidades de World of Warcraft: Forever. Podéis usar este espacio para organizar vuestras comunidades con otros jugadores de WoW: Forever.</p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ab/ABQG457IQXQF1790901647323.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ab/ABQG457IQXQF1790901647323.png\" alt=\"How PvP Progression in World of Warcraft: Forever Works\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever reimagines PvP (Player vs. Player) progression with an approachable system built around Honor, Rank Points, seasonal goals, and familiar original ranks. Players can earn rewards through battlegrounds, PvP quests, weekly journey tasks, and gear upgrades while working toward iconic titles such as High Warlord and Grand Marshal. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24303316\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ab/ABQG457IQXQF1790901647323.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ab/ABQG457IQXQF1790901647323.png\" alt=\"How PvP Progression in World of Warcraft: Forever Works\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever reimagines PvP (Player vs. Player) progression with an approachable system built around Honor, Rank Points, seasonal goals, and familiar original ranks. Players can earn rewards through battlegrounds, PvP quests, weekly journey tasks, and gear upgrades while working toward iconic titles such as High Warlord and Grand Marshal. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24303316\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/sobre-la-categor%C3%ADa-wow-forever-comunidad/80190/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/how-pvp-progression-in-world-of-warcraft-forever-works/634178/1"
     },
     {
       "id": "blizz-6417597",
@@ -616,6 +672,118 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-classes-take-center-stage-in-this-week%E2%80%99s-wow-weekly/633217/1"
+    },
+    {
+      "id": "blizz-30296856",
+      "postId": 30296856,
+      "topicId": 2369360,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-02T02:57:41.440Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Warrior Updates in Today's Beta Build",
+        "es": "Warrior Updates in Today's Beta Build"
+      },
+      "summary": {
+        "en": "A number of additional updates for Warriors in WoW Forever made it into today’s new Beta build, and we just added all of the following to our Development Notes for today. \nWarrior ...",
+        "es": "A number of additional updates for Warriors in WoW Forever made it into today’s new Beta build, and we just added all of the following to our Development Notes for today. \nWarrior ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>A number of additional updates for Warriors in WoW Forever made it into today’s new Beta build, and we just added all of the following to our <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-1/2360696/4\">Development Notes</a> for today.</p>\n<p><strong>Warrior</strong></p>\n<ul>\n<li>Additional Rage generated from landing Critical Strikes increased to 100% increased Rage (was 75%).</li>\n<li>Fixed a bug that was causing Dual Wield Specialization to grant its increase to Hit Chance to both weapons.</li>\n<li>Developers’ notes: Because of the above bug, our tests needed some correcting, so we did another pass on Fury Warrior.</li>\n<li><strong>Fury</strong>\n<ul>\n<li><em>Developers’ notes: Our goal here is to give Fury more access to utility and meaningful choices early in the tree for leveling, and free up points later for more choices instead of being stuck placing points into Enrage to get Flurry.</em></li>\n<li>Booming Voice is now a 10/20/30/40/50% increase area of effect to your Shouts and a 5/10/15/20/25% reduction to their Rage costs.</li>\n<li>Unbridled Wrath no longer grants twice as much Rage to two-handed weapons.</li>\n<li>New Talent Lingering Rage in Row 2 of Fury. Lingering Rage increases the time before your Rage begins to decay when leaving combat by 2/4/6/8/10 seconds.</li>\n<li>Blood Craze no longer activates off of Bloodthirst casts.</li>\n<li>The Improved Cleave talent has been removed.</li>\n<li>The Boundless Rage talent has been removed.</li>\n<li>New Talent Furious Precision in Row 3 of Fury. Furious Precision increases your chance to hit with off-hand attacks by 4/7/10%.</li>\n<li>Raging Blows now reduces the Rage cost of your Cleave and Whirlwind abilities by 3.</li>\n<li>Raging Blows no longer causes your Whirlwind to strike with your offhand. Whirlwind will now always strike with both weapons without requiring a talent point.</li>\n<li>Dual Wield Specialization no longer grants hit to your off-hand attacks.</li>\n<li>Enrage is no longer required to reach the Flurry talent.</li>\n<li>Death Wish is now required to reach the Flurry talent.</li>\n<li>New Talent Gore Drinker in Row 6 of Fury, requires the Enrage talent. Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next 3 melee attacks to restore 0.5/1% of your maximum Health.</li>\n<li>Improved Berserker Rage moved to Row 5 of Fury (Was Row 6).</li>\n<li>Berserker Rage is now available at level 30 (Was 32)</li>\n<li>Bloodthirst’s Attack Power ratio has been increased to 45% (Was 35%).</li>\n</ul>\n</li>\n<li><strong>Protection</strong>\n<ul>\n<li><em>Developers’ notes: Our goal is to give non-shield users a clear path to the middle of the tree, where Protection could serve as a PvP tech secondary specialization, with more access to Improved Bloodrage, Iron Will, Improved Disarm, Last Stand, and Improved Shield Bash.</em></li>\n<li>Iron Will moved to the Row 1 of Protection (Was Row 2 of Fury).</li>\n<li>Anticipation moved to Row 2 (Was Row 1).</li>\n<li>Toughness has been removed.</li>\n<li>Improved Bloodrage moved to Row 1 (Was Row 2).</li>\n<li>Improved Revenge moved to Row 2 (Was Row 3).</li>\n<li>Improved Disarm moved to Row 3 (Was Row 4).</li>\n<li>Improved Shield Bash moved to Row 4 (Was Row 5).</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>A number of additional updates for Warriors in WoW Forever made it into today’s new Beta build, and we just added all of the following to our <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-1/2360696/4\">Development Notes</a> for today.</p>\n<p><strong>GUERRERO</strong></p>\n<ul>\n<li>Additional Rage generated from landing Critical Strikes increased to 100% increased Rage (antes era 75%).</li>\n<li>Fixed a bug that was causing Dual Wield Specialization to grant its increase to Hit Chance to both weapons.</li>\n<li>Developers’ notes: Because of the above bug, our tests needed some correcting, so we did another pass on Furia Warrior.</li>\n<li><strong>Furia</strong>\n<ul>\n<li><em>Developers’ notes: Our goal here is to give Furia more access to utility and meaningful choices early in the tree for leveling, and free up points later for more choices instead of being stuck placing points into Enrage to get Flurry.</em></li>\n<li>Booming Voice ahora es a 10/20/30/40/50% increase area of effect to your Shouts and a 5/10/15/20/25% reduction to their Rage costs.</li>\n<li>Unbridled Wrath no longer grants twice as much Rage to two-handed weapons.</li>\n<li>New Talent Lingering Rage in Row 2 of Furia. Lingering Rage increases the time before your Rage begins to decay when leaving combat by 2/4/6/8/10 seconds.</li>\n<li>Sangre Craze no longer activates off of Bloodthirst casts.</li>\n<li>The Improved Cleave talent has been removed.</li>\n<li>The Boundless Rage talent has been removed.</li>\n<li>New Talent Furious Precision in Row 3 of Furia. Furious Precision increases your chance to hit with off-hand attacks by 4/7/10%.</li>\n<li>Raging Blows ahora reduce the Rage cost of your Cleave and Whirlwind abilities by 3.</li>\n<li>Raging Blows no longer causes your Whirlwind to strike with your offhand. Whirlwind will now always strike with both weapons without requiring a talent point.</li>\n<li>Dual Wield Specialization no longer grants hit to your off-hand attacks.</li>\n<li>Enrage is no longer required to reach the Flurry talent.</li>\n<li>Death Wish ahora es required to reach the Flurry talent.</li>\n<li>New Talent Gore Drinker in Row 6 of Furia, requires the Enrage talent. Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next 3 melee attacks to restore 0.5/1% of your maximum Health.</li>\n<li>Improved Berserker Rage moved to Row 5 of Furia (Was Row 6).</li>\n<li>Berserker Rage ahora es available at level 30 (Was 32)</li>\n<li>Bloodthirst’s Attack Power ratio has been increased to 45% (antes era 35%).</li>\n</ul>\n</li>\n<li><strong>Protección</strong>\n<ul>\n<li><em>Developers’ notes: Our goal is to give non-shield users a clear path to the middle of the tree, where Protección could serve as a PvP tech secondary specialization, with more access to Improved Bloodrage, Iron Will, Improved Disarm, Last Stand, and Improved Shield Bash.</em></li>\n<li>Iron Will moved to the Row 1 of Protección (Was Row 2 of Furia).</li>\n<li>Anticipation moved to Row 2 (Was Row 1).</li>\n<li>Toughness has been removed.</li>\n<li>Improved Bloodrage moved to Row 1 (Was Row 2).</li>\n<li>Improved Revenge moved to Row 2 (Was Row 3).</li>\n<li>Improved Disarm moved to Row 3 (Was Row 4).</li>\n<li>Improved Shield Bash moved to Row 4 (Was Row 5).</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/warrior-updates-in-todays-beta-build/2369360/1"
+    },
+    {
+      "id": "blizz-30293698",
+      "postId": 30293698,
+      "topicId": 2369114,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-02T00:03:22.137Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Beta Service Issue - October 1",
+        "es": "Beta Service Issue - October 1"
+      },
+      "summary": {
+        "en": "We’re aware of and working to address an issue that appears to be preventing testers from logging into the WoW: Forever Beta. \nWe will continue to work to fix this as swiftly as po...",
+        "es": "We’re aware of and working to address an issue that appears to be preventing testers from logging into the WoW: Forever Beta. \nWe will continue to work to fix this as swiftly as po..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re aware of and working to address an issue that appears to be preventing testers from logging into the WoW: Forever Beta.</p>\n<p>We will continue to work to fix this as swiftly as possible.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re aware of and working to address an issue that appears to be preventing testers from logging into the WoW: Forever Beta.</p>\n<p>We will continue to work to fix this as swiftly as possible.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-service-issue-october-1/2369114/1"
+    },
+    {
+      "id": "blizz-1231485",
+      "postId": 1231485,
+      "topicId": 80198,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-24T16:17:47.597Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Ve el episodio 1 del pódcast de World of Warcraft: Forever",
+        "es": "Ve el episodio 1 del pódcast de World of Warcraft: Forever"
+      },
+      "summary": {
+        "en": "[Ve el episodio 1 del pódcast de World of Warcraft: Forever] Acompaña al diseñador sénior del juego Josh «Aggrend» Greenfield, al diseñador jefe de Classic Tim Jones y a los creado...",
+        "es": "[Ve el episodio 1 del pódcast de World of Warcraft: Forever] Acompaña al diseñador sénior del juego Josh «Aggrend» Greenfield, al diseñador jefe de Classic Tim Jones y a los creado..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ep/EPSTZUAPQ9TV1790269181996.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ep/EPSTZUAPQ9TV1790269181996.png\" alt=\"Ve el episodio 1 del pódcast de World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Acompaña al diseñador sénior del juego Josh «Aggrend» Greenfield, al diseñador jefe de Classic Tim Jones y a los creadores de contenido Countdown To Classic y Xaryu en el primer episodio del pódcast de World of Warcraft: Forever. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304076\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ep/EPSTZUAPQ9TV1790269181996.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ep/EPSTZUAPQ9TV1790269181996.png\" alt=\"Ve el episodio 1 del pódcast de World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Acompaña al diseñador sénior del juego Josh «Aggrend» Greenfield, al diseñador jefe de Classic Tim Jones y a los creadores de contenido Countdown To Classic y Xaryu en el primer episodio del pódcast de World of Warcraft: Forever. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304076\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/ve-el-episodio-1-del-p%C3%B3dcast-de-world-of-warcraft-forever/80198/1"
+    },
+    {
+      "id": "blizz-1231443",
+      "postId": 1231443,
+      "topicId": 80190,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-09-24T04:36:11.016Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Sobre la categoría WoW: Forever - Comunidad",
+        "es": "Sobre la categoría WoW: Forever - Comunidad"
+      },
+      "summary": {
+        "en": "Os damos la bienvenida al foro de búsqueda de comunidades de World of Warcraft: Forever. Podéis usar este espacio para organizar vuestras comunidades con otros jugadores de WoW: Fo...",
+        "es": "Os damos la bienvenida al foro de búsqueda de comunidades de World of Warcraft: Forever. Podéis usar este espacio para organizar vuestras comunidades con otros jugadores de WoW: Fo..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Os damos la bienvenida al foro de búsqueda de comunidades de World of Warcraft: Forever. Podéis usar este espacio para organizar vuestras comunidades con otros jugadores de WoW: Forever.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Os damos la bienvenida al foro de búsqueda de comunidades de World of Warcraft: Forever. Podéis usar este espacio para organizar vuestras comunidades con otros jugadores de WoW: Forever.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/sobre-la-categor%C3%ADa-wow-forever-comunidad/80190/1"
     },
     {
       "id": "blizz-6408238",
@@ -1232,174 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-class-deep-dives-%E2%80%94-priest-and-warrior/632719/1"
-    },
-    {
-      "id": "blizz-30272813",
-      "postId": 30272813,
-      "topicId": 2367661,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-01T00:17:30.340Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Beta Update Maintenance - October 1",
-        "es": "Beta Update Mantenimiento - October 1"
-      },
-      "summary": {
-        "en": "Tomorrow morning PDT, we will take the WoW Forever Beta offline for maintenance. Several hours later, the Beta will resume with an updated build that includes changes and fixes, wi...",
-        "es": "Tomorrow morning PDT, we will take the WoW Forever Beta offline for Mantenimiento. Several hours later, the Beta will resume with an updated build that includes changes and fixes, ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Tomorrow morning PDT, we will take the WoW Forever Beta offline for maintenance. Several hours later, the Beta will resume with an updated build that includes changes and fixes, with the level cap raised to 30.</p>\n<p><a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-september-24/2360696/1\">We’ll have all the details here tomorrow</a>.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Tomorrow morning PDT, we will take the WoW Forever Beta offline for maintenance. Several hours later, the Beta will resume with an updated build that includes changes and fixes, with the level cap raised to 30.</p>\n<p><a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-september-24/2360696/1\">We’ll have all the details here tomorrow</a>.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-update-maintenance-october-1/2367661/1"
-    },
-    {
-      "id": "blizz-30270281",
-      "postId": 30270281,
-      "topicId": 2367485,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-30T21:00:07.379Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Forever Class Deep Dives — Priest and Warrior",
-        "es": "World of Warcraft: Forever Class Deep Dives — Priest and Warrior"
-      },
-      "summary": {
-        "en": "[World of Warcraft: Forever Class Deep Dives — Priest and Warrior] Priests and Warriors are next in our World of Warcraft: Forever class deep dives, with updates that build on the ...",
-        "es": "[World of Warcraft: Forever Class Deep Dives — Priest and Warrior] Priests and Warriors are next in our World of Warcraft: Forever class deep dives, with updates that build on the ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/0r/0RWZZTA4YM5I1790725765674.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/0r/0RWZZTA4YM5I1790725765674.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Priest and Warrior\" width=\"833\" height=\"468\"></a></p><p>Priests and Warriors are next in our World of Warcraft: Forever class deep dives, with updates that build on the roles, rhythms, and class-defining tools players know. This look covers new and adjusted baseline abilities, refreshed racial Priest spells, Rage and stance updates for Warriors, and talent changes across Discipline, Holy, Shadow, Arms, Fury, and Protection. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24301514\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/0r/0RWZZTA4YM5I1790725765674.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/0r/0RWZZTA4YM5I1790725765674.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Priest and Warrior\" width=\"833\" height=\"468\"></a></p><p>Priests and Warriors are next in our World of Warcraft: Forever class deep dives, with updates that build on the roles, rhythms, and class-defining tools players know. This look covers new and adjusted baseline abilities, refreshed racial Priest spells, Rage and stance updates for Warriors, and talent changes across Disciplina, Sagrado, Sombras, Armas, Furia, and Protección. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24301514\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-class-deep-dives-%E2%80%94-priest-and-warrior/2367485/1"
-    },
-    {
-      "id": "blizz-30268551",
-      "postId": 30268551,
-      "topicId": 2367361,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-30T19:00:02.331Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Forever Class Deep Dives — Hunter and Druid",
-        "es": "World of Warcraft: Forever Class Deep Dives — Hunter and Druid"
-      },
-      "summary": {
-        "en": "[World of Warcraft: Forever Class Deep Dives — Hunter and Druid] Answer the call of the wild and take on nature’s many forms in World of Warcraft: Forever. We’re sharing Developmen...",
-        "es": "[World of Warcraft: Forever Class Deep Dives — Hunter and Druid] Answer the call of the wild and take on nature’s many forms in World of Warcraft: Forever. We’re sharing Developmen..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Hunter and Druid\" width=\"833\" height=\"468\"></a></p><p>Answer the call of the wild and take on nature’s many forms in World of Warcraft: Forever. We’re sharing Development Team insights on Hunter and Druid, including how these classes are evolving through talent updates, class-defining abilities, and new ways to play. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24301515\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Hunter and Druid\" width=\"833\" height=\"468\"></a></p><p>Answer the call of the wild and take on nature’s many forms in World of Warcraft: Forever. We’re sharing Development Team insights on Hunter and Druid, including how these classes are evolving through talent updates, class-defining abilities, and new ways to play. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24301515\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-class-deep-dives-%E2%80%94-hunter-and-druid/2367361/1"
-    },
-    {
-      "id": "blizz-30259371",
-      "postId": 30259371,
-      "topicId": 2227871,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-09-30T00:12:52.902Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The Burning Crusade Hotfixes - Updated September 29",
-        "es": "The Burning Crusade Correcciones en Vivo - Updated September 29"
-      },
-      "summary": {
-        "en": "September 29, 2026 \nThe Burning Crusade Classic \n\nHonorary Brewer Hand Stamp can now be purchased....",
-        "es": "September 29, 2026 \nThe Burning Crusade Classic \n\nHonorary Brewer Hand Stamp can now be purchased...."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 29, 2026</strong></p>\n<p><strong>The Burning Crusade Classic</strong></p>\n<ul>\n<li>Honorary Brewer Hand Stamp can now be purchased.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 29, 2026</strong></p>\n<p><strong>The Burning Crusade Classic</strong></p>\n<ul>\n<li>Honorary Brewer Hand Stamp can now be purchased.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-burning-crusade-hotfixes-updated-september-29/2227871/188"
-    },
-    {
-      "id": "blizz-6404661",
-      "postId": 6404661,
-      "topicId": 632696,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-30T19:00:03.602Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Forever Class Deep Dives — Hunter and Druid",
-        "es": "World of Warcraft: Forever Class Deep Dives — Hunter and Druid"
-      },
-      "summary": {
-        "en": "[World of Warcraft: Forever Class Deep Dives — Hunter and Druid] Answer the call of the wild and take on nature’s many forms in World of Warcraft: Forever. We’re sharing Developmen...",
-        "es": "[World of Warcraft: Forever Class Deep Dives — Hunter and Druid] Answer the call of the wild and take on nature’s many forms in World of Warcraft: Forever. We’re sharing Developmen..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Hunter and Druid\" width=\"833\" height=\"468\"></a></p><p>Answer the call of the wild and take on nature’s many forms in World of Warcraft: Forever. We’re sharing Development Team insights on Hunter and Druid, including how these classes are evolving through talent updates, class-defining abilities, and new ways to play. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24301515\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/6k/6KDPMU7O014G1790727331617.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Hunter and Druid\" width=\"833\" height=\"468\"></a></p><p>Answer the call of the wild and take on nature’s many forms in World of Warcraft: Forever. We’re sharing Development Team insights on Hunter and Druid, including how these classes are evolving through talent updates, class-defining abilities, and new ways to play. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24301515\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-class-deep-dives-%E2%80%94-hunter-and-druid/632696/1"
-    },
-    {
-      "id": "blizz-6402757",
-      "postId": 6402757,
-      "topicId": 601545,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-09-30T00:14:36.007Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The Burning Crusade Hotfixes - Updated 29 September",
-        "es": "The Burning Crusade Correcciones en Vivo - Updated 29 September"
-      },
-      "summary": {
-        "en": "September 29, 2026 \nThe Burning Crusade Classic \n\nHonorary Brewer Hand Stamp can now be purchased....",
-        "es": "September 29, 2026 \nThe Burning Crusade Classic \n\nHonorary Brewer Hand Stamp can now be purchased...."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 29, 2026</strong></p>\n<p><strong>The Burning Crusade Classic</strong></p>\n<ul>\n<li>Honorary Brewer Hand Stamp can now be purchased.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>September 29, 2026</strong></p>\n<p><strong>The Burning Crusade Classic</strong></p>\n<ul>\n<li>Honorary Brewer Hand Stamp can now be purchased.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-burning-crusade-hotfixes-updated-29-september/601545/106"
     }
   ],
   "blizzardNews": [
