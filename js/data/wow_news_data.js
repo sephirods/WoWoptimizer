@@ -2,6 +2,90 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30387589",
+      "postId": 30387589,
+      "topicId": 2376010,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-08T16:27:48.056Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming",
+        "es": "The WoW: Forever Podcast: Episode 3 - Dive Into Mazmorras With Devs ft. @Hammerdancegaming"
+      },
+      "summary": {
+        "en": "[Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast]...",
+        "es": "[Dive into Mazmorras with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast]..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"LwOWAf06YPg\" data-video-title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=LwOWAf06YPg\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/LwOWAf06YPg/maxresdefault.jpg\" title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"LwOWAf06YPg\" data-video-title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=LwOWAf06YPg\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/LwOWAf06YPg/maxresdefault.jpg\" title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/2376010/1"
+    },
+    {
+      "id": "blizz-30387552",
+      "postId": 30387552,
+      "topicId": 2376008,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-08T16:26:12.058Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Check Out Episode 3 of the WoW: Forever Podcast",
+        "es": "Check Out Episode 3 of the WoW: Forever Podcast"
+      },
+      "summary": {
+        "en": "[Check Out Episode 3 of the WoW: Forever Podcast] Join WoW: Forever Podcast host Countdown To Classic and special guest Hammerdance as they sit down with Senior Game Designers Josh...",
+        "es": "[Check Out Episode 3 of the WoW: Forever Podcast] Join WoW: Forever Podcast host Countdown To Classic and special guest Hammerdance as they sit down with Senior Game Designers Josh..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\" alt=\"Check Out Episode 3 of the WoW: Forever Podcast\" width=\"833\" height=\"468\"></a></p><p>Join WoW: Forever Podcast host Countdown To Classic and special guest Hammerdance as they sit down with Senior Game Designers Josh “Aggrend” Greenfield, Jay Hartman, and Rowan Ryder as they dive into dungeon leveling, questing, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310653\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\" alt=\"Check Out Episode 3 of the WoW: Forever Podcast\" width=\"833\" height=\"468\"></a></p><p>Join WoW: Forever Podcast host Countdown To Classic and special guest Hammerdance as they sit down with Senior Game Designers Josh “Aggrend” Greenfield, Jay Hartman, and Rowan Ryder as they dive into dungeon leveling, questing, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310653\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/check-out-episode-3-of-the-wow-forever-podcast/2376008/1"
+    },
+    {
+      "id": "blizz-30386130",
+      "postId": 30386130,
+      "topicId": 2375900,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-08T14:58:41.184Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Beta Realm Maintenance - October 8",
+        "es": "Beta Realm Mantenimiento - October 8"
+      },
+      "summary": {
+        "en": "Starting in one hour at 9:00 a.m. PDT, we will take the WoW Forever Beta down for maintenance and updates. We’re starting a bit earlier today than we have on previous Thursdays, be...",
+        "es": "Starting in one hour at 9:00 a.m. PDT, we will take the WoW Forever Beta down for Mantenimiento and updates. We’re starting a bit earlier today than we have on previous Thursdays, ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Starting in one hour at 9:00 a.m. PDT, we will take the WoW Forever Beta down for maintenance and updates. We’re starting a bit earlier today than we have on previous Thursdays, because we’ve gathered up several fixes for behind-the-scenes, non-gameplay issues that we’re going to deploy and then test internally, in addition to a full suite of bug fixes and gameplay adjustments.</p>\n<p>If this was a live game, we’d post in the Breaking News banner that we expect to bring realms back online by 3:00 p.m. PDT.</p>\n<p>We’ll have a full update of our <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-1/2360696/\">Development Notes</a> and <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-known-issues-october-1/2352687/\">Known Issues</a> posts later today.</p>\n<p>Thank you for joining us on this adventure!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Starting in one hour at 9:00 a.m. PDT, we will take the WoW Forever Beta down for maintenance and updates. We’re starting a bit earlier today than we have on previous Thursdays, because we’ve gathered up several fixes for behind-the-scenes, non-gameplay issues that we’re going to deploy and then test internally, in addition to a full suite of bug fixes and gameplay adjustments.</p>\n<p>If this was a live game, we’d post in the Breaking News banner that we expect to bring realms back online by 3:00 p.m. PDT.</p>\n<p>We’ll have a full update of our <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-1/2360696/\">Development Notes</a> and <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-known-issues-october-1/2352687/\">Known Issues</a> posts later today.</p>\n<p>Thank you for joining us on this adventure!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-realm-maintenance-october-8/2375900/1"
+    },
+    {
       "id": "blizz-30378087",
       "postId": 30378087,
       "topicId": 2375390,
@@ -142,88 +226,32 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/how-pvp-progression-in-world-of-warcraft-forever-works/2375129/1"
     },
     {
-      "id": "blizz-30362058",
-      "postId": 30362058,
-      "topicId": 2336376,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1232358",
+      "postId": 1232358,
+      "topicId": 80351,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-06T22:21:42.341Z",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-08T16:29:01.898Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - October 6",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - October 6"
+        "en": "No te pierdas el episodio 3 del pódcast de WoW: Forever",
+        "es": "No te pierdas el episodio 3 del pódcast de WoW: Forever"
       },
       "summary": {
-        "en": "October 6, 2026 \nClasses \n\nDeath Knight\n\nUnholy\n\nDevelopers’ notes: A recent bug fix resulted in Blightfall dealing significantly more damage than we expected. Alongside this tunin...",
-        "es": "October 6, 2026 \nClasses \n\nDeath Knight\n\nUnholy\n\nDevelopers’ notes: A recent bug fix resulted in Blightfall dealing significantly more damage than we expected. Alongside this tunin..."
+        "en": "[No te pierdas el episodio 3 del pódcast de WoW: Forever] Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Hammerdance en su charla...",
+        "es": "[No te pierdas el episodio 3 del pódcast de WoW: Forever] Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Hammerdance en su charla..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 6, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>Death Knight</strong>\n<ul>\n<li><strong>Unholy</strong>\n<ul>\n<li><em>Developers’ notes: A recent bug fix resulted in Blightfall dealing significantly more damage than we expected. Alongside this tuning change, we’re also making sure the damage is represented accurately when an Augmentation Evoker is present in the group.</em></li>\n<li>Blightfall now deals 100% of the remaining plague damage (was 200%).</li>\n<li>Resolved an issue causing Augmentation Evoker Reattribution damage from plague erupt effects to be attributed to the Death Knight.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Demon Hunter</strong>\n<ul>\n<li><strong>Devourer</strong>\n<ul>\n<li><em>Developers’ notes: Many of Devourer’s single target damage sources are receiving buffs that will match their output more closely with our expectations.</em></li>\n<li>Consume/Devour damage increased by 8%. Does not affect PvP combat.</li>\n<li>Reap/Cull damage increased by 8%. Does not affect PvP combat.</li>\n<li>Eradicate primary target damage increased by 8%. Does not affect PvP combat.</li>\n<li>Collapsing Star primary target damage increased by 8%. Does not affect PvP combat.</li>\n<li>The Hunt initial damage increased by 10%. Does not affect PvP combat.</li>\n<li>Voidblade damage increased by 10%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Monk</strong>\n<ul>\n<li><strong>Brewmaster</strong>\n<ul>\n<li><em>Developers’ notes: We’re finding Brewmasters’ death rates in dungeons is higher than we’d like, so we’re adjusting some rotational sources of damage reduction to help improve baseline durability.</em></li>\n<li>Quick Sip now purifies 8% of current Stagger amount each time you gain 3 seconds of Stagger duration (was 5%).</li>\n<li>Pretense of Instability grants 10% dodge for 8 seconds after drinking a Brew (was 5 seconds).</li>\n</ul>\n</li>\n<li><strong>Mistweaver</strong>\n<ul>\n<li><em>Developers’ notes: We’re making a few raid focused adjustments to Mistweaver with the aim of increasing their overall performance in that content.</em></li>\n<li>Invigorating Mists healing increased by 15%.</li>\n<li>Enveloping Mist healing increased by 15%. Does not apply in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Rogue</strong>\n<ul>\n<li><strong>Subtlety</strong>\n<ul>\n<li><strong>Trickster</strong>\n<ul>\n<li><em>Developers’ notes: We’re buffing Trickster for Subtlety to reduce the performance gap between it and Deathstalker. We want Trickster to be a more viable alternative for players who prefer its gameplay and thematic identity.</em></li>\n<li>Fazed now causes enemies to take 7% more damage (was 5%). Does not affect PvP combat.</li>\n<li>Unseen Blade damage increased by 15%. Does not affect PvP combat.</li>\n<li>Coup de Grace damage increased by 10%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Shaman</strong>\n<ul>\n<li><strong>Enhancement</strong>\n<ul>\n<li><em>Developers’ notes: We’re aiming to increase Enhancement Shaman’s throughput all around as they have been underperforming this season, while additionally increasing Lava Lash’s contribution to its overall breakdown.</em></li>\n<li>All ability and auto-attack damage increased by 4%. Does not affect PvP combat.</li>\n<li>Lava Lash damage increased by 35%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Ula’tek</strong>\n<ul>\n<li><strong>General</strong>\n<ul>\n<li>Spectral Coils damage reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Toxic Burn damage reduced by 30% on Mythic difficulty.</li>\n<li>The number of waves that emit from a tail during Caustic Waves reduced to 3 on Mythic difficulty (was 7).</li>\n</ul>\n</li>\n<li><strong>Stage 2</strong>\n<ul>\n<li>Warden’s Protection damage reduced by 80%.</li>\n<li>Reduced the number of ground targets during Virulent Spit.</li>\n<li>Grasping Fangs periodic damage reduced by 30% on Heroic and Mythic difficulties.</li>\n<li>Blight Vein duration reduced to 4 seconds on Heroic and Mythic difficulties (was 6 seconds).</li>\n</ul>\n</li>\n<li><strong>Stage 3</strong>\n<ul>\n<li>Blightscale Shrieker health reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Blightscale Clutch health reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Slithering Clutch health reduced by 20% on Mythic difficulties.</li>\n<li>Circling Prey raid damage reduced by 30% on Heroic and Mythic difficulties.</li>\n<li>Adjusted the Drain Rate of Serpent’s Bite so you no longer need more than 3 people to soak regardless of raid size.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Player versus Player</strong></p>\n<ul>\n<li><em>Developers’ notes: With this pass, we’re buffing several underperforming PvP Talents to increase your breadth of options as you play.</em></li>\n<li><strong>Tank Specializations</strong>\n<ul>\n<li>Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor.\n<ul>\n<li>Focused Assault now stacks to 6 times (was 5).</li>\n<li>Duration increased to 10 seconds (was 6 seconds).</li>\n<li>Cooldown reduced to 15 seconds (was 20 seconds).</li>\n<li>Range increased to 15 yards (was 10 yards).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Death Knight</strong>\n<ul>\n<li>Dark Simulacrum (PvP Talent) cooldown reduced to 15 seconds (was 20 seconds).</li>\n<li><strong>Blood</strong>\n<ul>\n<li>Death Chain (PvP Talent) now affects 4 targets (was 3).</li>\n<li>Death Chain (PvP Talent) initial damage increased by 500%.</li>\n<li>Price of Progress (PvP Talent) now causes the Death Knight to be unable to be slowed under 100% of normal speed (was 90%).</li>\n<li>Price of Progress (PvP Talent) now sacrifices 1% health every 1.5 seconds (was 1 second).</li>\n</ul>\n</li>\n<li><strong>Frost</strong>\n<ul>\n<li>Death’s Cold Embrace (PvP Talent) now increases the damage of Remorseless Winter by 450% (was 400%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Demon Hunter</strong>\n<ul>\n<li>Cover of Darkness now increases Darkness duration by 4 seconds (was 2 seconds).</li>\n<li><strong>Havoc</strong>\n<ul>\n<li>Illidan’s Grasp damage increased by 50%.</li>\n</ul>\n</li>\n<li><strong>Vengeance</strong>\n<ul>\n<li>Illidan’s Grasp damage increased by 50%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Druid</strong>\n<ul>\n<li><strong>Balance</strong>\n<ul>\n<li>Moon and Stars radius increased by 60%.</li>\n<li>Moon and Stars now displays as important on player nameplates.</li>\n<li>Tireless Pursuit duration increased to 6 seconds (was 3 seconds).</li>\n</ul>\n</li>\n<li><strong>Restoration</strong>\n<ul>\n<li>Ancient of Lore: Mass Blooming is now affected by Wild Growth talents like Improved Wild Growth and Early Spring.</li>\n<li>Ancient of Lore: Mass Blooming healing increased by 30%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Evoker</strong>\n<ul>\n<li>Dreamwalker’s Embrace damage i0ncreased by 140%.</li>\n<li><strong>Augmentation</strong>\n<ul>\n<li>All spell and ability damage increased by 8% in PvP combat.</li>\n<li>Seismic Slam stuns enemies for 5 seconds (was 4 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Hunter</strong>\n<ul>\n<li>Hunting Pack (PvP Talent) radius increased to 40 yards (was 30 yards).</li>\n<li><strong>Beast Mastery</strong>\n<ul>\n<li>Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Mage</strong>\n<ul>\n<li><strong>Fire</strong>\n<ul>\n<li>World in Flames now empowers Flamestrike to deal up to 75% more damage (was 50%).</li>\n<li>Glass Cannon now increases the damage of Fireball, Scorch, and Ignite by 25% (was 20%).</li>\n</ul>\n</li>\n<li><strong>Frost</strong>\n<ul>\n<li>Frost Bomb damage increased by 150%.</li>\n<li>Icy Feet now grants snare immunity for 4 seconds (was 3 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Monk</strong>\n<ul>\n<li>Mighty Ox Kick (PvP Talent) cooldown reduced to 20 seconds (was 30 seconds).</li>\n<li><strong>Mistweaver</strong>\n<ul>\n<li>Healing Sphere (PvP Talent) now allows maximum of 5 Healing Spheres to be active at a time (was 3).</li>\n<li>Healing Sphere (PvP Talent) healing increased by 100%.</li>\n</ul>\n</li>\n<li><strong>Windwalker</strong>\n<ul>\n<li>Perpetual Paralysis (PvP Talent) now spreads to 3 targets (was 2).</li>\n<li>Perpetual Paralysis (PvP Talent) now prefers player targets.</li>\n<li>Perpetual Paralysis (PvP Talent) spread range increased to 15 yards (was 10 yards).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Paladin</strong>\n<ul>\n<li>Spellbreaker damage increased by 50%.</li>\n<li><strong>Retribution</strong>\n<ul>\n<li>Ultimate Retribution’s duration increased to 20 seconds (was 12 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Priest</strong>\n<ul>\n<li>Absolute Faith absorption increased by 113%.</li>\n<li>Improved Mass Dispel reduces the cooldown of Mass Dispel by 75 seconds (was 60 seconds).</li>\n</ul>\n</li>\n<li><strong>Rogue</strong>\n<ul>\n<li>Thick as Thieves duration increased to 10 seconds (was 6 seconds).</li>\n<li>Death from Above now increases damage by 30% (was 15%).</li>\n<li><strong>Outlaw</strong>\n<ul>\n<li>All damage increased by 5% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Shaman</strong>\n<ul>\n<li>Electrocute damage increased by 100% and is now a rolling periodic.</li>\n<li><strong>Restoration</strong>\n<ul>\n<li><em>Developers’ notes: We’re increasing the effectiveness of Earth Shield as its importance has felt lackluster and we would like its placement and management to influence gameplay to a higher degree for both Restoration Shamans and their opposition.</em></li>\n<li>Call of Al’Akir now increases the cooldown of Nature’s Swiftness by 20 seconds (was 30 seconds).</li>\n<li>Earth Shield healing increased by 15% in PvP combat.</li>\n<li>Earthen Harmony now causes Earth Shield to reduce damage taken by 8% in PvP combat (was 5%).</li>\n<li>Earthen Harmony now increases Earth Shield healing received by 200% based on its target’s missing health (was 150%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Warlock</strong>\n<ul>\n<li>Bonds of Fel damage increased by 100%.</li>\n<li>Bloodstone duration increased to 18 seconds (was 12 seconds).</li>\n<li>Bloodstone now has a unique visual and updated sound effect.</li>\n<li><strong>Demonology</strong>\n<ul>\n<li>Call Fel Lord’s Fel Cleave damage increased by 150%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Warrior</strong>\n<ul>\n<li>Dragon Charge damage increased by 300%.</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 6, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>CABALLERO DE LA MUERTE</strong>\n<ul>\n<li><strong>Profano</strong>\n<ul>\n<li><em>Developers’ notes: A recent bug fix resulted in Blightfall dealing significantly more damage than we expected. Alongside this tuning change, we’re also making sure the damage is represented accurately when an Aumento Evoker is present in the group.</em></li>\n<li>Blightfall now deals 100% of the remaining plague damage (antes era 200%).</li>\n<li>Resolved an issue causing Aumento Evoker Reattribution damage from plague erupt effects to be attributed to the Death Knight.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR DE DEMONIOS</strong>\n<ul>\n<li><strong>Devourer</strong>\n<ul>\n<li><em>Developers’ notes: Many of Devourer’s single target damage sources are receiving buffs that will match their output more closely with our expectations.</em></li>\n<li>Consume/Devour daño aumentado un 8%. Does not affect PvP combat.</li>\n<li>Reap/Cull daño aumentado un 8%. Does not affect PvP combat.</li>\n<li>Eradicate primary target daño aumentado un 8%. Does not affect PvP combat.</li>\n<li>Collapsing Star primary target daño aumentado un 8%. Does not affect PvP combat.</li>\n<li>The Hunt initial daño aumentado un 10%. Does not affect PvP combat.</li>\n<li>Voidblade daño aumentado un 10%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MONJE</strong>\n<ul>\n<li><strong>Maestro cervecero</strong>\n<ul>\n<li><em>Developers’ notes: We’re finding Brewmasters’ death rates in dungeons is higher than we’d like, so we’re adjusting some rotational sources of damage reduction to help improve baseline durability.</em></li>\n<li>Quick Sip now purifies 8% of current Stagger amount each time you gain 3 seconds of Stagger duration (antes era 5%).</li>\n<li>Pretense of Instability grants 10% dodge for 8 seconds after drinking a Brew (was 5 seconds).</li>\n</ul>\n</li>\n<li><strong>Tejedor de niebla</strong>\n<ul>\n<li><em>Developers’ notes: We’re making a few raid focused adjustments to Tejedor de niebla with the aim of increasing their overall performance in that content.</em></li>\n<li>Invigorating Mists sanación aumentada un 15%.</li>\n<li>Enveloping Mist sanación aumentada un 15%. Does not apply in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>PÍCARO</strong>\n<ul>\n<li><strong>Sutileza</strong>\n<ul>\n<li><strong>Trickster</strong>\n<ul>\n<li><em>Developers’ notes: We’re buffing Trickster for Sutileza to reduce the performance gap between it and Deathstalker. We want Trickster to be a more viable alternative for players who prefer its gameplay and thematic identity.</em></li>\n<li>Fazed ahora causa enemies to take 7% more damage (antes era 5%). Does not affect PvP combat.</li>\n<li>Unseen Blade daño aumentado un 15%. Does not affect PvP combat.</li>\n<li>Coup de Grace daño aumentado un 10%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li><strong>Mejora</strong>\n<ul>\n<li><em>Developers’ notes: We’re aiming to increase Mejora Shaman’s throughput all around as they have been underperforming this season, while additionally increasing Lava Lash’s contribution to its overall breakdown.</em></li>\n<li>All ability and auto-attack daño aumentado un 4%. Does not affect PvP combat.</li>\n<li>Lava Lash daño aumentado un 35%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Ula’tek</strong>\n<ul>\n<li><strong>General</strong>\n<ul>\n<li>Spectral Coils daño reducido un 20% on Heroic and Mythic difficulties.</li>\n<li>Toxic Burn daño reducido un 30% on Mythic difficulty.</li>\n<li>The number of waves that emit from a tail during Caustic Waves reduced to 3 on Mythic difficulty (was 7).</li>\n</ul>\n</li>\n<li><strong>Stage 2</strong>\n<ul>\n<li>Warden’s Protección daño reducido un 80%.</li>\n<li>Reduced the number of ground targets during Virulent Spit.</li>\n<li>Grasping Fangs periodic daño reducido un 30% on Heroic and Mythic difficulties.</li>\n<li>Blight Vein duration reduced to 4 seconds on Heroic and Mythic difficulties (was 6 seconds).</li>\n</ul>\n</li>\n<li><strong>Stage 3</strong>\n<ul>\n<li>Blightscale Shrieker health reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Blightscale Clutch health reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Slithering Clutch health reduced by 20% on Mythic difficulties.</li>\n<li>Circling Prey raid daño reducido un 30% on Heroic and Mythic difficulties.</li>\n<li>Adjusted the Drain Rate of Serpent’s Bite so you no longer need more than 3 people to soak regardless of raid size.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li><em>Developers’ notes: With this pass, we’re buffing several underperforming PvP Talents to increase your breadth of options as you play.</em></li>\n<li><strong>Tank Specializations</strong>\n<ul>\n<li>Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor.\n<ul>\n<li>Focused Assault now stacks to 6 times (was 5).</li>\n<li>Duration increased to 10 seconds (was 6 seconds).</li>\n<li>Cooldown reduced to 15 seconds (was 20 seconds).</li>\n<li>Range increased to 15 yards (was 10 yards).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CABALLERO DE LA MUERTE</strong>\n<ul>\n<li>Dark Simulacrum (PvP Talent) cooldown reduced to 15 seconds (was 20 seconds).</li>\n<li><strong>Sangre</strong>\n<ul>\n<li>Death Chain (PvP Talent) now affects 4 targets (was 3).</li>\n<li>Death Chain (PvP Talent) initial daño aumentado un 500%.</li>\n<li>Price of Progress (PvP Talent) ahora causa the Death Knight to be unable to be slowed under 100% of normal speed (antes era 90%).</li>\n<li>Price of Progress (PvP Talent) now sacrifices 1% health every 1.5 seconds (was 1 second).</li>\n</ul>\n</li>\n<li><strong>Escarcha</strong>\n<ul>\n<li>Death’s Cold Embrace (PvP Talent) ahora aumenta the damage of Remorseless Winter by 450% (antes era 400%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR DE DEMONIOS</strong>\n<ul>\n<li>Cover of Darkness ahora aumenta Darkness duration by 4 seconds (was 2 seconds).</li>\n<li><strong>Devastación</strong>\n<ul>\n<li>Illidan’s Grasp daño aumentado un 50%.</li>\n</ul>\n</li>\n<li><strong>Venganza</strong>\n<ul>\n<li>Illidan’s Grasp daño aumentado un 50%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>DRUIDA</strong>\n<ul>\n<li><strong>Equilibrio</strong>\n<ul>\n<li>Moon and Stars radius increased by 60%.</li>\n<li>Moon and Stars now displays as important on player nameplates.</li>\n<li>Tireless Pursuit duration increased to 6 seconds (was 3 seconds).</li>\n</ul>\n</li>\n<li><strong>Restauración</strong>\n<ul>\n<li>Ancient of Lore: Mass Blooming ahora es affected by Wild Growth talents like Improved Wild Growth and Early Spring.</li>\n<li>Ancient of Lore: Mass Blooming sanación aumentada un 30%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>EVOCADOR</strong>\n<ul>\n<li>Dreamwalker’s Embrace damage i0ncreased by 140%.</li>\n<li><strong>Aumento</strong>\n<ul>\n<li>All spell and ability daño aumentado un 8% in PvP combat.</li>\n<li>Seismic Slam stuns enemies for 5 seconds (was 4 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR</strong>\n<ul>\n<li>Hunting Pack (PvP Talent) radius increased to 40 yards (was 30 yards).</li>\n<li><strong>Dominio de bestias</strong>\n<ul>\n<li>Dire Beast: Hawk (PvP Talent) daño aumentado un 500% and now deals Nature damage (was Physical).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MAGO</strong>\n<ul>\n<li><strong>Fuego</strong>\n<ul>\n<li>World in Flames now empowers Flamestrike to deal up to 75% more damage (antes era 50%).</li>\n<li>Glass Cannon ahora aumenta the damage of Fireball, Scorch, and Ignite by 25% (antes era 20%).</li>\n</ul>\n</li>\n<li><strong>Escarcha</strong>\n<ul>\n<li>Escarcha Bomb daño aumentado un 150%.</li>\n<li>Icy Feet now grants snare immunity for 4 seconds (was 3 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MONJE</strong>\n<ul>\n<li>Mighty Ox Kick (PvP Talent) cooldown reduced to 20 seconds (was 30 seconds).</li>\n<li><strong>Tejedor de niebla</strong>\n<ul>\n<li>Healing Sphere (PvP Talent) now allows maximum of 5 Healing Spheres to be active at a time (was 3).</li>\n<li>Healing Sphere (PvP Talent) sanación aumentada un 100%.</li>\n</ul>\n</li>\n<li><strong>Viajero del viento</strong>\n<ul>\n<li>Perpetual Paralysis (PvP Talent) now spreads to 3 targets (was 2).</li>\n<li>Perpetual Paralysis (PvP Talent) now prefers player targets.</li>\n<li>Perpetual Paralysis (PvP Talent) spread range increased to 15 yards (was 10 yards).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li>Spellbreaker daño aumentado un 50%.</li>\n<li><strong>Reprensión</strong>\n<ul>\n<li>Ultimate Reprensión’s duration increased to 20 seconds (was 12 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>SACERDOTE</strong>\n<ul>\n<li>Absolute Faith absorption increased by 113%.</li>\n<li>Improved Mass Dispel reduces the cooldown of Mass Dispel by 75 seconds (was 60 seconds).</li>\n</ul>\n</li>\n<li><strong>PÍCARO</strong>\n<ul>\n<li>Thick as Thieves duration increased to 10 seconds (was 6 seconds).</li>\n<li>Death from Above ahora aumenta damage by 30% (antes era 15%).</li>\n<li><strong>Forajido</strong>\n<ul>\n<li>All daño aumentado un 5% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li>Electrocute daño aumentado un 100% and ahora es a rolling periodic.</li>\n<li><strong>Restauración</strong>\n<ul>\n<li><em>Developers’ notes: We’re increasing the effectiveness of Earth Shield as its importance has felt lackluster and we would like its placement and management to influence gameplay to a higher degree for both Restauración Shamans and their opposition.</em></li>\n<li>Call of Al’Akir ahora aumenta the cooldown of Nature’s Swiftness by 20 seconds (was 30 seconds).</li>\n<li>Earth Shield sanación aumentada un 15% in PvP combat.</li>\n<li>Earthen Harmony ahora causa Earth Shield to reduce damage taken by 8% in PvP combat (antes era 5%).</li>\n<li>Earthen Harmony ahora aumenta Earth Shield healing received by 200% based on its target’s missing health (antes era 150%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>BRUJO</strong>\n<ul>\n<li>Bonds of Fel daño aumentado un 100%.</li>\n<li>Bloodstone duration increased to 18 seconds (was 12 seconds).</li>\n<li>Bloodstone now has a unique visual and updated sound effect.</li>\n<li><strong>Demonología</strong>\n<ul>\n<li>Call Fel Lord’s Fel Cleave daño aumentado un 150%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>GUERRERO</strong>\n<ul>\n<li>Dragon Charge daño aumentado un 300%.</li>\n</ul>\n</li>\n</ul></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\" alt=\"No te pierdas el episodio 3 del pódcast de WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Hammerdance en su charla con los diseñadores sénior del juego Josh «Aggrend» Greenfield, Jay Hartman y Rowan Ryder, en la que profundizan sobre la subida de nivel en las mazmorras, las misiones y muchas cosas más. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310653\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\" alt=\"No te pierdas el episodio 3 del pódcast de WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Hammerdance en su charla con los diseñadores sénior del juego Josh «Aggrend» Greenfield, Jay Hartman y Rowan Ryder, en la que profundizan sobre la subida de nivel en las mazmorras, las misiones y muchas cosas más. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310653\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-october-6/2336376/166"
-    },
-    {
-      "id": "blizz-30361029",
-      "postId": 30361029,
-      "topicId": 2374348,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-06T21:20:40.410Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Brief Beta Realm Maintenance - October 6",
-        "es": "Brief Beta Realm Mantenimiento - October 6"
-      },
-      "summary": {
-        "en": "We’re planning to do realm restarts at 3:00 p.m. PDT (about 40 minutes from now), to pick up some priority fixes for the Beta. \nOne of the fixes is intended to address quests where...",
-        "es": "We’re planning to do realm restarts at 3:00 p.m. PDT (about 40 minutes from now), to pick up some priority fixes for the Beta. \nOne of the fixes is intended to address quests where..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re planning to do realm restarts at 3:00 p.m. PDT (about 40 minutes from now), to pick up some priority fixes for the Beta.</p>\n<p>One of the fixes is intended to address quests where quest items are intended to be restocked in a chest, but have gone missing.</p>\n<p>If you’re in-game in the WoW: Forever Beta, you should see a warning just before the realm goes offline.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re planning to do realm restarts at 3:00 p.m. PDT (about 40 minutes from now), to pick up some priority fixes for the Beta.</p>\n<p>One of the fixes is intended to address quests where quest items are intended to be restocked in a chest, but have gone missing.</p>\n<p>If you’re in-game in the WoW: Forever Beta, you should see a warning just before the realm goes offline.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/brief-beta-realm-maintenance-october-6/2374348/1"
-    },
-    {
-      "id": "blizz-30351214",
-      "postId": 30351214,
-      "topicId": 2373623,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-06T02:44:12.741Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Incoming Ula'tek Raid Encounter Tuning - October 6",
-        "es": "Próximamente Ula'tek Banda Encounter Tuning - October 6"
-      },
-      "summary": {
-        "en": "Hello raiders! \nThe following Ula’tek raid encounter adjustments will arrive with scheduled weekly maintenance (October 6 in this region). \nDungeons and Raids\n\nThe Venomous Abyss\n\n...",
-        "es": "Hello Bandaers! \nThe following Ula’tek Banda encounter adjustments will arrive with scheduled weekly Mantenimiento (October 6 in this region). \nMazmorras and Bandas\n\nThe Venomous A..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Hello raiders!</p>\n<p>The following Ula’tek raid encounter adjustments will arrive with scheduled weekly maintenance (October 6 in this region).</p>\n<h2><a name=\"p-30351214-dungeons-and-raids-1\" class=\"anchor\" href=\"#p-30351214-dungeons-and-raids-1\" aria-label=\"Heading link\"></a><strong>Dungeons and Raids</strong></h2>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Ula’tek</strong>\n<ul>\n<li><strong>General</strong>\n<ul>\n<li>Spectral Coils damage reduced by 20% on Heroic and Mythic difficulties.</li>\n</ul>\n</li>\n<li><strong>Stage 02</strong>\n<ul>\n<li>Warden’s Protection damage reduced by 80%.</li>\n<li>Reduced the number of ground targets during Virulent Spit.</li>\n<li>Grasping Fangs periodic damage reduced by 30% on Heroic and Mythic difficulties.</li>\n<li>Blight Vein duration reduced to 4 seconds on Heroic and Mythic difficulties (was 6 seconds).</li>\n</ul>\n</li>\n<li><strong>Stage 03</strong>\n<ul>\n<li>Blightscale Shrieker health reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Blightscale Clutch health reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Slithering Clutch health reduced by 20% on Mythic difficulties.</li>\n<li>Circling Prey raid damage reduced by 30% on Heroic and Mythic difficulties.</li>\n<li>Adjusted the Drain Rate of Serpent’s Bite so you no longer need more than 3 people to soak regardless of raid size.</li>\n<li>Toxic Burn damage reduced by 30% on Mythic difficulty.</li>\n<li>The number of waves that emit from a tail during Caustic Waves reduced to 3 on Mythic difficulty (was 7).</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Hello raiders!</p>\n<p>The following Ula’tek raid encounter adjustments will arrive with scheduled weekly maintenance (October 6 in this region).</p>\n<h2><a name=\"p-30351214-dungeons-and-raids-1\" class=\"anchor\" href=\"#p-30351214-dungeons-and-raids-1\" aria-label=\"Heading link\"></a><strong>Dungeons and Raids</strong></h2>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Ula’tek</strong>\n<ul>\n<li><strong>General</strong>\n<ul>\n<li>Spectral Coils daño reducido un 20% on Heroic and Mythic difficulties.</li>\n</ul>\n</li>\n<li><strong>Stage 02</strong>\n<ul>\n<li>Warden’s Protección daño reducido un 80%.</li>\n<li>Reduced the number of ground targets during Virulent Spit.</li>\n<li>Grasping Fangs periodic daño reducido un 30% on Heroic and Mythic difficulties.</li>\n<li>Blight Vein duration reduced to 4 seconds on Heroic and Mythic difficulties (was 6 seconds).</li>\n</ul>\n</li>\n<li><strong>Stage 03</strong>\n<ul>\n<li>Blightscale Shrieker health reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Blightscale Clutch health reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Slithering Clutch health reduced by 20% on Mythic difficulties.</li>\n<li>Circling Prey raid daño reducido un 30% on Heroic and Mythic difficulties.</li>\n<li>Adjusted the Drain Rate of Serpent’s Bite so you no longer need more than 3 people to soak regardless of raid size.</li>\n<li>Toxic Burn daño reducido un 30% on Mythic difficulty.</li>\n<li>The number of waves that emit from a tail during Caustic Waves reduced to 3 on Mythic difficulty (was 7).</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/incoming-ulatek-raid-encounter-tuning-october-6/2373623/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/no-te-pierdas-el-episodio-3-del-p%C3%B3dcast-de-wow-forever/80351/1"
     },
     {
       "id": "blizz-1232309",
@@ -422,32 +450,88 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/repaso-a-fondo-de-las-clases-sacerdote-y-guerrero-en-world-of-warcraft-forever/80290/1"
     },
     {
-      "id": "blizz-1231910",
-      "postId": 1231910,
-      "topicId": 80285,
+      "id": "blizz-6420570",
+      "postId": 6420570,
+      "topicId": 634342,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-01T17:00:08.047Z",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-08T16:28:19.766Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Notas de la actualización de contenido 12.1.5",
-        "es": "Notas de la actualización de contenido 12.1.5"
+        "en": "The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming",
+        "es": "The WoW: Forever Podcast: Episode 3 - Dive Into Mazmorras With Devs ft. @Hammerdancegaming"
       },
       "summary": {
-        "en": "[Notas de la actualización de contenido 12.1.5] No te pierdas todos los cambios que llegarán con la actualización de contenido 12.1.5.  Ver artículo completo...",
-        "es": "[Notas de la actualización de contenido 12.1.5] No te pierdas todos los cambios que llegarán con la actualización de contenido 12.1.5.  Ver artículo completo..."
+        "en": "[Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast]...",
+        "es": "[Dive into Mazmorras with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast]..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\" alt=\"Notas de la actualización de contenido 12.1.5\" width=\"833\" height=\"468\"></a></p><p>No te pierdas todos los cambios que llegarán con la actualización de contenido 12.1.5. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304162\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\" alt=\"Notas de la actualización de contenido 12.1.5\" width=\"833\" height=\"468\"></a></p><p>No te pierdas todos los cambios que llegarán con la actualización de contenido 12.1.5. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304162\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"LwOWAf06YPg\" data-video-title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=LwOWAf06YPg\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/LwOWAf06YPg/maxresdefault.jpg\" title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"LwOWAf06YPg\" data-video-title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=LwOWAf06YPg\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/LwOWAf06YPg/maxresdefault.jpg\" title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/notas-de-la-actualizaci%C3%B3n-de-contenido-1215/80285/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/634342/1"
+    },
+    {
+      "id": "blizz-6420566",
+      "postId": 6420566,
+      "topicId": 634340,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-08T16:25:53.236Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Check Out Episode 3 of the WoW: Forever Podcast",
+        "es": "Check Out Episode 3 of the WoW: Forever Podcast"
+      },
+      "summary": {
+        "en": "[Check Out Episode 3 of the WoW: Forever Podcast] Join WoW: Forever Podcast host Countdown To Classic and special guest Hammerdance as they sit down with Senior Game Designers Josh...",
+        "es": "[Check Out Episode 3 of the WoW: Forever Podcast] Join WoW: Forever Podcast host Countdown To Classic and special guest Hammerdance as they sit down with Senior Game Designers Josh..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\" alt=\"Check Out Episode 3 of the WoW: Forever Podcast\" width=\"833\" height=\"468\"></a></p><p>Join WoW: Forever Podcast host Countdown To Classic and special guest Hammerdance as they sit down with Senior Game Designers Josh “Aggrend” Greenfield, Jay Hartman, and Rowan Ryder as they dive into dungeon leveling, questing, and more. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310653\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\" alt=\"Check Out Episode 3 of the WoW: Forever Podcast\" width=\"833\" height=\"468\"></a></p><p>Join WoW: Forever Podcast host Countdown To Classic and special guest Hammerdance as they sit down with Senior Game Designers Josh “Aggrend” Greenfield, Jay Hartman, and Rowan Ryder as they dive into dungeon leveling, questing, and more. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310653\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/check-out-episode-3-of-the-wow-forever-podcast/634340/1"
+    },
+    {
+      "id": "blizz-6420367",
+      "postId": 6420367,
+      "topicId": 634315,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-08T15:00:34.125Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Beta Realm Maintenance - 8 October",
+        "es": "Beta Realm Mantenimiento - 8 October"
+      },
+      "summary": {
+        "en": "Starting in one hour at 18:00 CEST, we will take the WoW Forever Beta down for maintenance and updates. We’re starting a bit earlier today than we have on previous Thursdays, becau...",
+        "es": "Starting in one hour at 18:00 CEST, we will take the WoW Forever Beta down for Mantenimiento and updates. We’re starting a bit earlier today than we have on previous Thursdays, bec..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Starting in one hour at 18:00 CEST, we will take the WoW Forever Beta down for maintenance and updates. We’re starting a bit earlier today than we have on previous Thursdays, because we’ve gathered up several fixes for behind-the-scenes, non-gameplay issues that we’re going to deploy and then test internally, in addition to a full suite of bug fixes and gameplay adjustments.</p>\n<p>If this was a live game, we’d post in the Breaking News banner that we expect to bring realms back online by Midnight, 00:00 CEST.</p>\n<p>We’ll have a full update of our <a href=\"https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-1-october/631316/\">Development Notes</a> and <a href=\"https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-known-issues-1-october/629369/\">Known Issues</a> posts later today.</p>\n<p>Thank you for joining us on this adventure!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Starting in one hour at 18:00 CEST, we will take the WoW Forever Beta down for maintenance and updates. We’re starting a bit earlier today than we have on previous Thursdays, because we’ve gathered up several fixes for behind-the-scenes, non-gameplay issues that we’re going to deploy and then test internally, in addition to a full suite of bug fixes and gameplay adjustments.</p>\n<p>If this was a live game, we’d post in the Breaking News banner that we expect to bring realms back online by Midnight, 00:00 CEST.</p>\n<p>We’ll have a full update of our <a href=\"https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-1-october/631316/\">Development Notes</a> and <a href=\"https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-known-issues-1-october/629369/\">Known Issues</a> posts later today.</p>\n<p>Thank you for joining us on this adventure!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/beta-realm-maintenance-8-october/634315/1"
     },
     {
       "id": "blizz-6419335",
@@ -588,6 +672,118 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/how-pvp-progression-in-world-of-warcraft-forever-works/634178/1"
+    },
+    {
+      "id": "blizz-30362058",
+      "postId": 30362058,
+      "topicId": 2336376,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-10-06T22:21:42.341Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Midnight Hotfixes - October 6",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - October 6"
+      },
+      "summary": {
+        "en": "October 6, 2026 \nClasses \n\nDeath Knight\n\nUnholy\n\nDevelopers’ notes: A recent bug fix resulted in Blightfall dealing significantly more damage than we expected. Alongside this tunin...",
+        "es": "October 6, 2026 \nClasses \n\nDeath Knight\n\nUnholy\n\nDevelopers’ notes: A recent bug fix resulted in Blightfall dealing significantly more damage than we expected. Alongside this tunin..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 6, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>Death Knight</strong>\n<ul>\n<li><strong>Unholy</strong>\n<ul>\n<li><em>Developers’ notes: A recent bug fix resulted in Blightfall dealing significantly more damage than we expected. Alongside this tuning change, we’re also making sure the damage is represented accurately when an Augmentation Evoker is present in the group.</em></li>\n<li>Blightfall now deals 100% of the remaining plague damage (was 200%).</li>\n<li>Resolved an issue causing Augmentation Evoker Reattribution damage from plague erupt effects to be attributed to the Death Knight.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Demon Hunter</strong>\n<ul>\n<li><strong>Devourer</strong>\n<ul>\n<li><em>Developers’ notes: Many of Devourer’s single target damage sources are receiving buffs that will match their output more closely with our expectations.</em></li>\n<li>Consume/Devour damage increased by 8%. Does not affect PvP combat.</li>\n<li>Reap/Cull damage increased by 8%. Does not affect PvP combat.</li>\n<li>Eradicate primary target damage increased by 8%. Does not affect PvP combat.</li>\n<li>Collapsing Star primary target damage increased by 8%. Does not affect PvP combat.</li>\n<li>The Hunt initial damage increased by 10%. Does not affect PvP combat.</li>\n<li>Voidblade damage increased by 10%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Monk</strong>\n<ul>\n<li><strong>Brewmaster</strong>\n<ul>\n<li><em>Developers’ notes: We’re finding Brewmasters’ death rates in dungeons is higher than we’d like, so we’re adjusting some rotational sources of damage reduction to help improve baseline durability.</em></li>\n<li>Quick Sip now purifies 8% of current Stagger amount each time you gain 3 seconds of Stagger duration (was 5%).</li>\n<li>Pretense of Instability grants 10% dodge for 8 seconds after drinking a Brew (was 5 seconds).</li>\n</ul>\n</li>\n<li><strong>Mistweaver</strong>\n<ul>\n<li><em>Developers’ notes: We’re making a few raid focused adjustments to Mistweaver with the aim of increasing their overall performance in that content.</em></li>\n<li>Invigorating Mists healing increased by 15%.</li>\n<li>Enveloping Mist healing increased by 15%. Does not apply in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Rogue</strong>\n<ul>\n<li><strong>Subtlety</strong>\n<ul>\n<li><strong>Trickster</strong>\n<ul>\n<li><em>Developers’ notes: We’re buffing Trickster for Subtlety to reduce the performance gap between it and Deathstalker. We want Trickster to be a more viable alternative for players who prefer its gameplay and thematic identity.</em></li>\n<li>Fazed now causes enemies to take 7% more damage (was 5%). Does not affect PvP combat.</li>\n<li>Unseen Blade damage increased by 15%. Does not affect PvP combat.</li>\n<li>Coup de Grace damage increased by 10%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Shaman</strong>\n<ul>\n<li><strong>Enhancement</strong>\n<ul>\n<li><em>Developers’ notes: We’re aiming to increase Enhancement Shaman’s throughput all around as they have been underperforming this season, while additionally increasing Lava Lash’s contribution to its overall breakdown.</em></li>\n<li>All ability and auto-attack damage increased by 4%. Does not affect PvP combat.</li>\n<li>Lava Lash damage increased by 35%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Ula’tek</strong>\n<ul>\n<li><strong>General</strong>\n<ul>\n<li>Spectral Coils damage reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Toxic Burn damage reduced by 30% on Mythic difficulty.</li>\n<li>The number of waves that emit from a tail during Caustic Waves reduced to 3 on Mythic difficulty (was 7).</li>\n</ul>\n</li>\n<li><strong>Stage 2</strong>\n<ul>\n<li>Warden’s Protection damage reduced by 80%.</li>\n<li>Reduced the number of ground targets during Virulent Spit.</li>\n<li>Grasping Fangs periodic damage reduced by 30% on Heroic and Mythic difficulties.</li>\n<li>Blight Vein duration reduced to 4 seconds on Heroic and Mythic difficulties (was 6 seconds).</li>\n</ul>\n</li>\n<li><strong>Stage 3</strong>\n<ul>\n<li>Blightscale Shrieker health reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Blightscale Clutch health reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Slithering Clutch health reduced by 20% on Mythic difficulties.</li>\n<li>Circling Prey raid damage reduced by 30% on Heroic and Mythic difficulties.</li>\n<li>Adjusted the Drain Rate of Serpent’s Bite so you no longer need more than 3 people to soak regardless of raid size.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Player versus Player</strong></p>\n<ul>\n<li><em>Developers’ notes: With this pass, we’re buffing several underperforming PvP Talents to increase your breadth of options as you play.</em></li>\n<li><strong>Tank Specializations</strong>\n<ul>\n<li>Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor.\n<ul>\n<li>Focused Assault now stacks to 6 times (was 5).</li>\n<li>Duration increased to 10 seconds (was 6 seconds).</li>\n<li>Cooldown reduced to 15 seconds (was 20 seconds).</li>\n<li>Range increased to 15 yards (was 10 yards).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Death Knight</strong>\n<ul>\n<li>Dark Simulacrum (PvP Talent) cooldown reduced to 15 seconds (was 20 seconds).</li>\n<li><strong>Blood</strong>\n<ul>\n<li>Death Chain (PvP Talent) now affects 4 targets (was 3).</li>\n<li>Death Chain (PvP Talent) initial damage increased by 500%.</li>\n<li>Price of Progress (PvP Talent) now causes the Death Knight to be unable to be slowed under 100% of normal speed (was 90%).</li>\n<li>Price of Progress (PvP Talent) now sacrifices 1% health every 1.5 seconds (was 1 second).</li>\n</ul>\n</li>\n<li><strong>Frost</strong>\n<ul>\n<li>Death’s Cold Embrace (PvP Talent) now increases the damage of Remorseless Winter by 450% (was 400%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Demon Hunter</strong>\n<ul>\n<li>Cover of Darkness now increases Darkness duration by 4 seconds (was 2 seconds).</li>\n<li><strong>Havoc</strong>\n<ul>\n<li>Illidan’s Grasp damage increased by 50%.</li>\n</ul>\n</li>\n<li><strong>Vengeance</strong>\n<ul>\n<li>Illidan’s Grasp damage increased by 50%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Druid</strong>\n<ul>\n<li><strong>Balance</strong>\n<ul>\n<li>Moon and Stars radius increased by 60%.</li>\n<li>Moon and Stars now displays as important on player nameplates.</li>\n<li>Tireless Pursuit duration increased to 6 seconds (was 3 seconds).</li>\n</ul>\n</li>\n<li><strong>Restoration</strong>\n<ul>\n<li>Ancient of Lore: Mass Blooming is now affected by Wild Growth talents like Improved Wild Growth and Early Spring.</li>\n<li>Ancient of Lore: Mass Blooming healing increased by 30%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Evoker</strong>\n<ul>\n<li>Dreamwalker’s Embrace damage i0ncreased by 140%.</li>\n<li><strong>Augmentation</strong>\n<ul>\n<li>All spell and ability damage increased by 8% in PvP combat.</li>\n<li>Seismic Slam stuns enemies for 5 seconds (was 4 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Hunter</strong>\n<ul>\n<li>Hunting Pack (PvP Talent) radius increased to 40 yards (was 30 yards).</li>\n<li><strong>Beast Mastery</strong>\n<ul>\n<li>Dire Beast: Hawk (PvP Talent) damage increased by 500% and now deals Nature damage (was Physical).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Mage</strong>\n<ul>\n<li><strong>Fire</strong>\n<ul>\n<li>World in Flames now empowers Flamestrike to deal up to 75% more damage (was 50%).</li>\n<li>Glass Cannon now increases the damage of Fireball, Scorch, and Ignite by 25% (was 20%).</li>\n</ul>\n</li>\n<li><strong>Frost</strong>\n<ul>\n<li>Frost Bomb damage increased by 150%.</li>\n<li>Icy Feet now grants snare immunity for 4 seconds (was 3 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Monk</strong>\n<ul>\n<li>Mighty Ox Kick (PvP Talent) cooldown reduced to 20 seconds (was 30 seconds).</li>\n<li><strong>Mistweaver</strong>\n<ul>\n<li>Healing Sphere (PvP Talent) now allows maximum of 5 Healing Spheres to be active at a time (was 3).</li>\n<li>Healing Sphere (PvP Talent) healing increased by 100%.</li>\n</ul>\n</li>\n<li><strong>Windwalker</strong>\n<ul>\n<li>Perpetual Paralysis (PvP Talent) now spreads to 3 targets (was 2).</li>\n<li>Perpetual Paralysis (PvP Talent) now prefers player targets.</li>\n<li>Perpetual Paralysis (PvP Talent) spread range increased to 15 yards (was 10 yards).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Paladin</strong>\n<ul>\n<li>Spellbreaker damage increased by 50%.</li>\n<li><strong>Retribution</strong>\n<ul>\n<li>Ultimate Retribution’s duration increased to 20 seconds (was 12 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Priest</strong>\n<ul>\n<li>Absolute Faith absorption increased by 113%.</li>\n<li>Improved Mass Dispel reduces the cooldown of Mass Dispel by 75 seconds (was 60 seconds).</li>\n</ul>\n</li>\n<li><strong>Rogue</strong>\n<ul>\n<li>Thick as Thieves duration increased to 10 seconds (was 6 seconds).</li>\n<li>Death from Above now increases damage by 30% (was 15%).</li>\n<li><strong>Outlaw</strong>\n<ul>\n<li>All damage increased by 5% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Shaman</strong>\n<ul>\n<li>Electrocute damage increased by 100% and is now a rolling periodic.</li>\n<li><strong>Restoration</strong>\n<ul>\n<li><em>Developers’ notes: We’re increasing the effectiveness of Earth Shield as its importance has felt lackluster and we would like its placement and management to influence gameplay to a higher degree for both Restoration Shamans and their opposition.</em></li>\n<li>Call of Al’Akir now increases the cooldown of Nature’s Swiftness by 20 seconds (was 30 seconds).</li>\n<li>Earth Shield healing increased by 15% in PvP combat.</li>\n<li>Earthen Harmony now causes Earth Shield to reduce damage taken by 8% in PvP combat (was 5%).</li>\n<li>Earthen Harmony now increases Earth Shield healing received by 200% based on its target’s missing health (was 150%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Warlock</strong>\n<ul>\n<li>Bonds of Fel damage increased by 100%.</li>\n<li>Bloodstone duration increased to 18 seconds (was 12 seconds).</li>\n<li>Bloodstone now has a unique visual and updated sound effect.</li>\n<li><strong>Demonology</strong>\n<ul>\n<li>Call Fel Lord’s Fel Cleave damage increased by 150%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Warrior</strong>\n<ul>\n<li>Dragon Charge damage increased by 300%.</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 6, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>CABALLERO DE LA MUERTE</strong>\n<ul>\n<li><strong>Profano</strong>\n<ul>\n<li><em>Developers’ notes: A recent bug fix resulted in Blightfall dealing significantly more damage than we expected. Alongside this tuning change, we’re also making sure the damage is represented accurately when an Aumento Evoker is present in the group.</em></li>\n<li>Blightfall now deals 100% of the remaining plague damage (antes era 200%).</li>\n<li>Resolved an issue causing Aumento Evoker Reattribution damage from plague erupt effects to be attributed to the Death Knight.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR DE DEMONIOS</strong>\n<ul>\n<li><strong>Devourer</strong>\n<ul>\n<li><em>Developers’ notes: Many of Devourer’s single target damage sources are receiving buffs that will match their output more closely with our expectations.</em></li>\n<li>Consume/Devour daño aumentado un 8%. Does not affect PvP combat.</li>\n<li>Reap/Cull daño aumentado un 8%. Does not affect PvP combat.</li>\n<li>Eradicate primary target daño aumentado un 8%. Does not affect PvP combat.</li>\n<li>Collapsing Star primary target daño aumentado un 8%. Does not affect PvP combat.</li>\n<li>The Hunt initial daño aumentado un 10%. Does not affect PvP combat.</li>\n<li>Voidblade daño aumentado un 10%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MONJE</strong>\n<ul>\n<li><strong>Maestro cervecero</strong>\n<ul>\n<li><em>Developers’ notes: We’re finding Brewmasters’ death rates in dungeons is higher than we’d like, so we’re adjusting some rotational sources of damage reduction to help improve baseline durability.</em></li>\n<li>Quick Sip now purifies 8% of current Stagger amount each time you gain 3 seconds of Stagger duration (antes era 5%).</li>\n<li>Pretense of Instability grants 10% dodge for 8 seconds after drinking a Brew (was 5 seconds).</li>\n</ul>\n</li>\n<li><strong>Tejedor de niebla</strong>\n<ul>\n<li><em>Developers’ notes: We’re making a few raid focused adjustments to Tejedor de niebla with the aim of increasing their overall performance in that content.</em></li>\n<li>Invigorating Mists sanación aumentada un 15%.</li>\n<li>Enveloping Mist sanación aumentada un 15%. Does not apply in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>PÍCARO</strong>\n<ul>\n<li><strong>Sutileza</strong>\n<ul>\n<li><strong>Trickster</strong>\n<ul>\n<li><em>Developers’ notes: We’re buffing Trickster for Sutileza to reduce the performance gap between it and Deathstalker. We want Trickster to be a more viable alternative for players who prefer its gameplay and thematic identity.</em></li>\n<li>Fazed ahora causa enemies to take 7% more damage (antes era 5%). Does not affect PvP combat.</li>\n<li>Unseen Blade daño aumentado un 15%. Does not affect PvP combat.</li>\n<li>Coup de Grace daño aumentado un 10%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li><strong>Mejora</strong>\n<ul>\n<li><em>Developers’ notes: We’re aiming to increase Mejora Shaman’s throughput all around as they have been underperforming this season, while additionally increasing Lava Lash’s contribution to its overall breakdown.</em></li>\n<li>All ability and auto-attack daño aumentado un 4%. Does not affect PvP combat.</li>\n<li>Lava Lash daño aumentado un 35%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Ula’tek</strong>\n<ul>\n<li><strong>General</strong>\n<ul>\n<li>Spectral Coils daño reducido un 20% on Heroic and Mythic difficulties.</li>\n<li>Toxic Burn daño reducido un 30% on Mythic difficulty.</li>\n<li>The number of waves that emit from a tail during Caustic Waves reduced to 3 on Mythic difficulty (was 7).</li>\n</ul>\n</li>\n<li><strong>Stage 2</strong>\n<ul>\n<li>Warden’s Protección daño reducido un 80%.</li>\n<li>Reduced the number of ground targets during Virulent Spit.</li>\n<li>Grasping Fangs periodic daño reducido un 30% on Heroic and Mythic difficulties.</li>\n<li>Blight Vein duration reduced to 4 seconds on Heroic and Mythic difficulties (was 6 seconds).</li>\n</ul>\n</li>\n<li><strong>Stage 3</strong>\n<ul>\n<li>Blightscale Shrieker health reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Blightscale Clutch health reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Slithering Clutch health reduced by 20% on Mythic difficulties.</li>\n<li>Circling Prey raid daño reducido un 30% on Heroic and Mythic difficulties.</li>\n<li>Adjusted the Drain Rate of Serpent’s Bite so you no longer need more than 3 people to soak regardless of raid size.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li><em>Developers’ notes: With this pass, we’re buffing several underperforming PvP Talents to increase your breadth of options as you play.</em></li>\n<li><strong>Tank Specializations</strong>\n<ul>\n<li>Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor.\n<ul>\n<li>Focused Assault now stacks to 6 times (was 5).</li>\n<li>Duration increased to 10 seconds (was 6 seconds).</li>\n<li>Cooldown reduced to 15 seconds (was 20 seconds).</li>\n<li>Range increased to 15 yards (was 10 yards).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CABALLERO DE LA MUERTE</strong>\n<ul>\n<li>Dark Simulacrum (PvP Talent) cooldown reduced to 15 seconds (was 20 seconds).</li>\n<li><strong>Sangre</strong>\n<ul>\n<li>Death Chain (PvP Talent) now affects 4 targets (was 3).</li>\n<li>Death Chain (PvP Talent) initial daño aumentado un 500%.</li>\n<li>Price of Progress (PvP Talent) ahora causa the Death Knight to be unable to be slowed under 100% of normal speed (antes era 90%).</li>\n<li>Price of Progress (PvP Talent) now sacrifices 1% health every 1.5 seconds (was 1 second).</li>\n</ul>\n</li>\n<li><strong>Escarcha</strong>\n<ul>\n<li>Death’s Cold Embrace (PvP Talent) ahora aumenta the damage of Remorseless Winter by 450% (antes era 400%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR DE DEMONIOS</strong>\n<ul>\n<li>Cover of Darkness ahora aumenta Darkness duration by 4 seconds (was 2 seconds).</li>\n<li><strong>Devastación</strong>\n<ul>\n<li>Illidan’s Grasp daño aumentado un 50%.</li>\n</ul>\n</li>\n<li><strong>Venganza</strong>\n<ul>\n<li>Illidan’s Grasp daño aumentado un 50%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>DRUIDA</strong>\n<ul>\n<li><strong>Equilibrio</strong>\n<ul>\n<li>Moon and Stars radius increased by 60%.</li>\n<li>Moon and Stars now displays as important on player nameplates.</li>\n<li>Tireless Pursuit duration increased to 6 seconds (was 3 seconds).</li>\n</ul>\n</li>\n<li><strong>Restauración</strong>\n<ul>\n<li>Ancient of Lore: Mass Blooming ahora es affected by Wild Growth talents like Improved Wild Growth and Early Spring.</li>\n<li>Ancient of Lore: Mass Blooming sanación aumentada un 30%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>EVOCADOR</strong>\n<ul>\n<li>Dreamwalker’s Embrace damage i0ncreased by 140%.</li>\n<li><strong>Aumento</strong>\n<ul>\n<li>All spell and ability daño aumentado un 8% in PvP combat.</li>\n<li>Seismic Slam stuns enemies for 5 seconds (was 4 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR</strong>\n<ul>\n<li>Hunting Pack (PvP Talent) radius increased to 40 yards (was 30 yards).</li>\n<li><strong>Dominio de bestias</strong>\n<ul>\n<li>Dire Beast: Hawk (PvP Talent) daño aumentado un 500% and now deals Nature damage (was Physical).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MAGO</strong>\n<ul>\n<li><strong>Fuego</strong>\n<ul>\n<li>World in Flames now empowers Flamestrike to deal up to 75% more damage (antes era 50%).</li>\n<li>Glass Cannon ahora aumenta the damage of Fireball, Scorch, and Ignite by 25% (antes era 20%).</li>\n</ul>\n</li>\n<li><strong>Escarcha</strong>\n<ul>\n<li>Escarcha Bomb daño aumentado un 150%.</li>\n<li>Icy Feet now grants snare immunity for 4 seconds (was 3 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MONJE</strong>\n<ul>\n<li>Mighty Ox Kick (PvP Talent) cooldown reduced to 20 seconds (was 30 seconds).</li>\n<li><strong>Tejedor de niebla</strong>\n<ul>\n<li>Healing Sphere (PvP Talent) now allows maximum of 5 Healing Spheres to be active at a time (was 3).</li>\n<li>Healing Sphere (PvP Talent) sanación aumentada un 100%.</li>\n</ul>\n</li>\n<li><strong>Viajero del viento</strong>\n<ul>\n<li>Perpetual Paralysis (PvP Talent) now spreads to 3 targets (was 2).</li>\n<li>Perpetual Paralysis (PvP Talent) now prefers player targets.</li>\n<li>Perpetual Paralysis (PvP Talent) spread range increased to 15 yards (was 10 yards).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li>Spellbreaker daño aumentado un 50%.</li>\n<li><strong>Reprensión</strong>\n<ul>\n<li>Ultimate Reprensión’s duration increased to 20 seconds (was 12 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>SACERDOTE</strong>\n<ul>\n<li>Absolute Faith absorption increased by 113%.</li>\n<li>Improved Mass Dispel reduces the cooldown of Mass Dispel by 75 seconds (was 60 seconds).</li>\n</ul>\n</li>\n<li><strong>PÍCARO</strong>\n<ul>\n<li>Thick as Thieves duration increased to 10 seconds (was 6 seconds).</li>\n<li>Death from Above ahora aumenta damage by 30% (antes era 15%).</li>\n<li><strong>Forajido</strong>\n<ul>\n<li>All daño aumentado un 5% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li>Electrocute daño aumentado un 100% and ahora es a rolling periodic.</li>\n<li><strong>Restauración</strong>\n<ul>\n<li><em>Developers’ notes: We’re increasing the effectiveness of Earth Shield as its importance has felt lackluster and we would like its placement and management to influence gameplay to a higher degree for both Restauración Shamans and their opposition.</em></li>\n<li>Call of Al’Akir ahora aumenta the cooldown of Nature’s Swiftness by 20 seconds (was 30 seconds).</li>\n<li>Earth Shield sanación aumentada un 15% in PvP combat.</li>\n<li>Earthen Harmony ahora causa Earth Shield to reduce damage taken by 8% in PvP combat (antes era 5%).</li>\n<li>Earthen Harmony ahora aumenta Earth Shield healing received by 200% based on its target’s missing health (antes era 150%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>BRUJO</strong>\n<ul>\n<li>Bonds of Fel daño aumentado un 100%.</li>\n<li>Bloodstone duration increased to 18 seconds (was 12 seconds).</li>\n<li>Bloodstone now has a unique visual and updated sound effect.</li>\n<li><strong>Demonología</strong>\n<ul>\n<li>Call Fel Lord’s Fel Cleave daño aumentado un 150%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>GUERRERO</strong>\n<ul>\n<li>Dragon Charge daño aumentado un 300%.</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-october-6/2336376/166"
+    },
+    {
+      "id": "blizz-30361029",
+      "postId": 30361029,
+      "topicId": 2374348,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-06T21:20:40.410Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Brief Beta Realm Maintenance - October 6",
+        "es": "Brief Beta Realm Mantenimiento - October 6"
+      },
+      "summary": {
+        "en": "We’re planning to do realm restarts at 3:00 p.m. PDT (about 40 minutes from now), to pick up some priority fixes for the Beta. \nOne of the fixes is intended to address quests where...",
+        "es": "We’re planning to do realm restarts at 3:00 p.m. PDT (about 40 minutes from now), to pick up some priority fixes for the Beta. \nOne of the fixes is intended to address quests where..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re planning to do realm restarts at 3:00 p.m. PDT (about 40 minutes from now), to pick up some priority fixes for the Beta.</p>\n<p>One of the fixes is intended to address quests where quest items are intended to be restocked in a chest, but have gone missing.</p>\n<p>If you’re in-game in the WoW: Forever Beta, you should see a warning just before the realm goes offline.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re planning to do realm restarts at 3:00 p.m. PDT (about 40 minutes from now), to pick up some priority fixes for the Beta.</p>\n<p>One of the fixes is intended to address quests where quest items are intended to be restocked in a chest, but have gone missing.</p>\n<p>If you’re in-game in the WoW: Forever Beta, you should see a warning just before the realm goes offline.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/brief-beta-realm-maintenance-october-6/2374348/1"
+    },
+    {
+      "id": "blizz-30351214",
+      "postId": 30351214,
+      "topicId": 2373623,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-10-06T02:44:12.741Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Incoming Ula'tek Raid Encounter Tuning - October 6",
+        "es": "Próximamente Ula'tek Banda Encounter Tuning - October 6"
+      },
+      "summary": {
+        "en": "Hello raiders! \nThe following Ula’tek raid encounter adjustments will arrive with scheduled weekly maintenance (October 6 in this region). \nDungeons and Raids\n\nThe Venomous Abyss\n\n...",
+        "es": "Hello Bandaers! \nThe following Ula’tek Banda encounter adjustments will arrive with scheduled weekly Mantenimiento (October 6 in this region). \nMazmorras and Bandas\n\nThe Venomous A..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Hello raiders!</p>\n<p>The following Ula’tek raid encounter adjustments will arrive with scheduled weekly maintenance (October 6 in this region).</p>\n<h2><a name=\"p-30351214-dungeons-and-raids-1\" class=\"anchor\" href=\"#p-30351214-dungeons-and-raids-1\" aria-label=\"Heading link\"></a><strong>Dungeons and Raids</strong></h2>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Ula’tek</strong>\n<ul>\n<li><strong>General</strong>\n<ul>\n<li>Spectral Coils damage reduced by 20% on Heroic and Mythic difficulties.</li>\n</ul>\n</li>\n<li><strong>Stage 02</strong>\n<ul>\n<li>Warden’s Protection damage reduced by 80%.</li>\n<li>Reduced the number of ground targets during Virulent Spit.</li>\n<li>Grasping Fangs periodic damage reduced by 30% on Heroic and Mythic difficulties.</li>\n<li>Blight Vein duration reduced to 4 seconds on Heroic and Mythic difficulties (was 6 seconds).</li>\n</ul>\n</li>\n<li><strong>Stage 03</strong>\n<ul>\n<li>Blightscale Shrieker health reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Blightscale Clutch health reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Slithering Clutch health reduced by 20% on Mythic difficulties.</li>\n<li>Circling Prey raid damage reduced by 30% on Heroic and Mythic difficulties.</li>\n<li>Adjusted the Drain Rate of Serpent’s Bite so you no longer need more than 3 people to soak regardless of raid size.</li>\n<li>Toxic Burn damage reduced by 30% on Mythic difficulty.</li>\n<li>The number of waves that emit from a tail during Caustic Waves reduced to 3 on Mythic difficulty (was 7).</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Hello raiders!</p>\n<p>The following Ula’tek raid encounter adjustments will arrive with scheduled weekly maintenance (October 6 in this region).</p>\n<h2><a name=\"p-30351214-dungeons-and-raids-1\" class=\"anchor\" href=\"#p-30351214-dungeons-and-raids-1\" aria-label=\"Heading link\"></a><strong>Dungeons and Raids</strong></h2>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Ula’tek</strong>\n<ul>\n<li><strong>General</strong>\n<ul>\n<li>Spectral Coils daño reducido un 20% on Heroic and Mythic difficulties.</li>\n</ul>\n</li>\n<li><strong>Stage 02</strong>\n<ul>\n<li>Warden’s Protección daño reducido un 80%.</li>\n<li>Reduced the number of ground targets during Virulent Spit.</li>\n<li>Grasping Fangs periodic daño reducido un 30% on Heroic and Mythic difficulties.</li>\n<li>Blight Vein duration reduced to 4 seconds on Heroic and Mythic difficulties (was 6 seconds).</li>\n</ul>\n</li>\n<li><strong>Stage 03</strong>\n<ul>\n<li>Blightscale Shrieker health reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Blightscale Clutch health reduced by 20% on Heroic and Mythic difficulties.</li>\n<li>Slithering Clutch health reduced by 20% on Mythic difficulties.</li>\n<li>Circling Prey raid daño reducido un 30% on Heroic and Mythic difficulties.</li>\n<li>Adjusted the Drain Rate of Serpent’s Bite so you no longer need more than 3 people to soak regardless of raid size.</li>\n<li>Toxic Burn daño reducido un 30% on Mythic difficulty.</li>\n<li>The number of waves that emit from a tail during Caustic Waves reduced to 3 on Mythic difficulty (was 7).</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/incoming-ulatek-raid-encounter-tuning-october-6/2373623/1"
+    },
+    {
+      "id": "blizz-1231910",
+      "postId": 1231910,
+      "topicId": 80285,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-01T17:00:08.047Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Notas de la actualización de contenido 12.1.5",
+        "es": "Notas de la actualización de contenido 12.1.5"
+      },
+      "summary": {
+        "en": "[Notas de la actualización de contenido 12.1.5] No te pierdas todos los cambios que llegarán con la actualización de contenido 12.1.5.  Ver artículo completo...",
+        "es": "[Notas de la actualización de contenido 12.1.5] No te pierdas todos los cambios que llegarán con la actualización de contenido 12.1.5.  Ver artículo completo..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\" alt=\"Notas de la actualización de contenido 12.1.5\" width=\"833\" height=\"468\"></a></p><p>No te pierdas todos los cambios que llegarán con la actualización de contenido 12.1.5. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304162\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\" alt=\"Notas de la actualización de contenido 12.1.5\" width=\"833\" height=\"468\"></a></p><p>No te pierdas todos los cambios que llegarán con la actualización de contenido 12.1.5. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304162\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/notas-de-la-actualizaci%C3%B3n-de-contenido-1215/80285/1"
     },
     {
       "id": "blizz-6417597",
@@ -1204,202 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-1/2360696/4"
-    },
-    {
-      "id": "blizz-6407755",
-      "postId": 6407755,
-      "topicId": 633003,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-01T21:54:22.666Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Legacy Points for Beta Testing",
-        "es": "Legacy Points for Beta Testing"
-      },
-      "summary": {
-        "en": "Over the first two weeks of the WoW Forever Beta, we’ve seen an increasing number of testers pushing to earn points in the Legacy system. \nIn a future week of the Beta, we’re plann...",
-        "es": "Over the first two weeks of the WoW Forever Beta, we’ve seen an increasing number of testers pushing to earn points in the Legacy system. \nIn a future week of the Beta, we’re plann..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Over the first two weeks of the WoW Forever Beta, we’ve seen an increasing number of testers pushing to earn points in the Legacy system.</p>\n<p>In a future week of the Beta, we’re planning to grant all testers 16 Legacy points so that the system can be tested without first requiring a great deal of leveling different classes, clearing dungeons, etc.</p>\n<p>Once applied, we expect to keep that grant in place until the end of the Beta.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Over the first two weeks of the WoW Forever Beta, we’ve seen an increasing number of testers pushing to earn points in the Legacy system.</p>\n<p>In a future week of the Beta, we’re planning to grant all testers 16 Legacy points so that the system can be tested without first requiring a great deal of leveling different classes, clearing dungeons, etc.</p>\n<p>Once applied, we expect to keep that grant in place until the end of the Beta.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/legacy-points-for-beta-testing/633003/1"
-    },
-    {
-      "id": "blizz-30288600",
-      "postId": 30288600,
-      "topicId": 2368776,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-01T21:54:09.650Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Legacy Points for Beta Testing",
-        "es": "Legacy Points for Beta Testing"
-      },
-      "summary": {
-        "en": "Over the first two weeks of the WoW Forever Beta, we’ve seen an increasing number of testers pushing to earn points in the Legacy system. \nIn a future week of the Beta, we’re plann...",
-        "es": "Over the first two weeks of the WoW Forever Beta, we’ve seen an increasing number of testers pushing to earn points in the Legacy system. \nIn a future week of the Beta, we’re plann..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Over the first two weeks of the WoW Forever Beta, we’ve seen an increasing number of testers pushing to earn points in the Legacy system.</p>\n<p>In a future week of the Beta, we’re planning to grant all testers 16 Legacy points so that the system can be tested without first requiring a great deal of leveling different classes, clearing dungeons, etc.</p>\n<p>Once applied, we expect to keep that grant in place until the end of the Beta.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Over the first two weeks of the WoW Forever Beta, we’ve seen an increasing number of testers pushing to earn points in the Legacy system.</p>\n<p>In a future week of the Beta, we’re planning to grant all testers 16 Legacy points so that the system can be tested without first requiring a great deal of leveling different classes, clearing dungeons, etc.</p>\n<p>Once applied, we expect to keep that grant in place until the end of the Beta.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/legacy-points-for-beta-testing/2368776/1"
-    },
-    {
-      "id": "blizz-6407536",
-      "postId": 6407536,
-      "topicId": 632993,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-01T21:07:38.030Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Actions Taken Against Botting and RMT",
-        "es": "Actions Taken Against Botting and RMT"
-      },
-      "summary": {
-        "en": "Since our previous note on the subject of addressing Real Money Transactions (RMT) in WoW: Forever, we have been continuously actioning accounts that were found to be botting to am...",
-        "es": "Since our previous note on the subject of addressing Real Money Transactions (RMT) in WoW: Forever, we have been continuously actioning accounts that were found to be botting to am..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Since <a href=\"https://eu.forums.blizzard.com/en/wow/t/perma-bans-for-gold-buyers-%F0%9F%A5%B0/629209/79\">our previous note</a> on the subject of addressing Real Money Transactions (RMT) in WoW: Forever, we have been continuously actioning accounts that were found to be botting to amass gold in the WoW: Forever Beta, as well as the accounts of those who were found to have purchased or knowingly received illicit gold. We will continue to take action against RMT in both the Beta and the live game after the launch of WoW: Forever.</p>\n<p>We will soon add a warning to the game that will appear whenever you trade with strangers. The warning reads:</p>\n<blockquote>\n<p>Be wary of accepting gold from unknown or suspicious sources. If the provider is engaged in Real Money Transactions, you could put your account at risk of closure. Please see the following support article for more information: <a href=\"https://support.blizzard.com/help/article/379634\">https://support.blizzard.com/help/article/379634</a></p>\n</blockquote>\n<p>Our stance on RMT in World of Warcraft is crystal clear: any account belonging to any player that is found to have participated in generating, selling, buying, or receiving illicit gold is subject to the gold being removed, account suspensions, or permanent account closures.</p>\n<p>Thank you to every player who has provided feedback on this subject. You’ve participated in making this Beta invaluable to us as we refine our processes around this and many other issues.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Since <a href=\"https://eu.forums.blizzard.com/en/wow/t/perma-bans-for-gold-buyers-%F0%9F%A5%B0/629209/79\">our previous note</a> on the subject of addressing Real Money Transactions (RMT) in WoW: Forever, we have been continuously actioning accounts that were found to be botting to amass gold in the WoW: Forever Beta, as well as the accounts of those who were found to have purchased or knowingly received illicit gold. We will continue to take action against RMT in both the Beta and the live game after the launch of WoW: Forever.</p>\n<p>We will soon add a warning to the game that will appear whenever you trade with strangers. The warning reads:</p>\n<blockquote>\n<p>Be wary of accepting gold from unknown or suspicious sources. If the provider is engaged in Real Money Transactions, you could put your account at risk of closure. Please see the following support article for more information: <a href=\"https://support.blizzard.com/help/article/379634\">https://support.blizzard.com/help/article/379634</a></p>\n</blockquote>\n<p>Our stance on RMT in World of Warcraft is crystal clear: any account belonging to any player that is found to have participated in generating, selling, buying, or receiving illicit gold is subject to the gold being removed, account suspensions, or permanent account closures.</p>\n<p>Thank you to every player who has provided feedback on this subject. You’ve participated in making this Beta invaluable to us as we refine our processes around this and many other issues.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/actions-taken-against-botting-and-rmt/632993/1"
-    },
-    {
-      "id": "blizz-30287121",
-      "postId": 30287121,
-      "topicId": 2368705,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-01T21:05:06.113Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Actions Taken Against Botting and RMT",
-        "es": "Actions Taken Against Botting and RMT"
-      },
-      "summary": {
-        "en": "Since our previous note on the subject of addressing Real Money Transactions (RMT) in WoW: Forever, we have been continuously actioning accounts that were found to be botting to am...",
-        "es": "Since our previous note on the subject of addressing Real Money Transactions (RMT) in WoW: Forever, we have been continuously actioning accounts that were found to be botting to am..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Since <a href=\"https://us.forums.blizzard.com/en/wow/t/2364933/43\">our previous note</a> on the subject of addressing Real Money Transactions (RMT) in WoW: Forever, we have been continuously actioning accounts that were found to be botting to amass gold in the WoW: Forever Beta, as well as the accounts of those who were found to have purchased or knowingly received illicit gold. We will continue to take action against RMT in both the Beta and the live game after the launch of WoW: Forever.</p>\n<p>We will soon add a warning to the game that will appear whenever you trade with strangers. The warning reads:</p>\n<blockquote>\n<p>Be wary of accepting gold from unknown or suspicious sources. If the provider is engaged in Real Money Transactions, you could put your account at risk of closure. Please see the following support article for more information: <a href=\"https://support.blizzard.com/help/article/379634\">https://support.blizzard.com/help/article/379634</a></p>\n</blockquote>\n<p>Our stance on RMT in World of Warcraft is crystal clear: any account belonging to any player that is found to have participated in generating, selling, buying, or receiving illicit gold is subject to the gold being removed, account suspensions, or permanent account closures.</p>\n<p>Thank you to every player who has provided feedback on this subject. You’ve participated in making this Beta invaluable to us as we refine our processes around this and many other issues.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Since <a href=\"https://us.forums.blizzard.com/en/wow/t/2364933/43\">our previous note</a> on the subject of addressing Real Money Transactions (RMT) in WoW: Forever, we have been continuously actioning accounts that were found to be botting to amass gold in the WoW: Forever Beta, as well as the accounts of those who were found to have purchased or knowingly received illicit gold. We will continue to take action against RMT in both the Beta and the live game after the launch of WoW: Forever.</p>\n<p>We will soon add a warning to the game that will appear whenever you trade with strangers. The warning reads:</p>\n<blockquote>\n<p>Be wary of accepting gold from unknown or suspicious sources. If the provider is engaged in Real Money Transactions, you could put your account at risk of closure. Please see the following support article for more information: <a href=\"https://support.blizzard.com/help/article/379634\">https://support.blizzard.com/help/article/379634</a></p>\n</blockquote>\n<p>Our stance on RMT in World of Warcraft is crystal clear: any account belonging to any player that is found to have participated in generating, selling, buying, or receiving illicit gold is subject to the gold being removed, account suspensions, or permanent account closures.</p>\n<p>Thank you to every player who has provided feedback on this subject. You’ve participated in making this Beta invaluable to us as we refine our processes around this and many other issues.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/actions-taken-against-botting-and-rmt/2368705/1"
-    },
-    {
-      "id": "blizz-6406753",
-      "postId": 6406753,
-      "topicId": 632751,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-01T17:13:18.749Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Beta Update Maintenance - Evening of 1 October",
-        "es": "Beta Update Mantenimiento - Evening of 1 October"
-      },
-      "summary": {
-        "en": "We think we’ll take the Beta offline in about 45 minutes. \nSee you on the other side!...",
-        "es": "We think we’ll take the Beta offline in about 45 minutes. \nSee you on the other side!..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We think we’ll take the Beta offline in about 45 minutes.</p>\n<p>See you on the other side!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We think we’ll take the Beta offline in about 45 minutes.</p>\n<p>See you on the other side!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/beta-update-maintenance-evening-of-1-october/632751/13"
-    },
-    {
-      "id": "blizz-30281239",
-      "postId": 30281239,
-      "topicId": 2367661,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-01T17:12:53.756Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Beta Update Maintenance - October 1",
-        "es": "Beta Update Mantenimiento - October 1"
-      },
-      "summary": {
-        "en": "We think we’ll take the Beta offline in about 45 minutes. \nSee you on the other side!...",
-        "es": "We think we’ll take the Beta offline in about 45 minutes. \nSee you on the other side!..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We think we’ll take the Beta offline in about 45 minutes.</p>\n<p>See you on the other side!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We think we’ll take the Beta offline in about 45 minutes.</p>\n<p>See you on the other side!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-update-maintenance-october-1/2367661/191"
-    },
-    {
-      "id": "blizz-1231439",
-      "postId": 1231439,
-      "topicId": 80189,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-09-24T04:33:57.229Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Sobre la categoría WoW: Forever - General",
-        "es": "Sobre la categoría WoW: Forever - General"
-      },
-      "summary": {
-        "en": "Os damos la bienvenida al foro de discusión general de World of Warcraft: Forever. En este foro, los jugadores podréis hablar de todo lo relacionado con World of Warcraft: Forever....",
-        "es": "Os damos la bienvenida al foro de discusión general de World of Warcraft: Forever. En este foro, los jugadores podréis hablar de todo lo relacionado con World of Warcraft: Forever...."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Os damos la bienvenida al foro de discusión general de World of Warcraft: Forever. En este foro, los jugadores podréis hablar de todo lo relacionado con World of Warcraft: Forever.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Os damos la bienvenida al foro de discusión general de World of Warcraft: Forever. En este foro, los jugadores podréis hablar de todo lo relacionado con World of Warcraft: Forever.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/sobre-la-categor%C3%ADa-wow-forever-general/80189/1"
     }
   ],
   "blizzardNews": [
