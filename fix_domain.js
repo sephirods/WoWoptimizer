@@ -8,7 +8,7 @@ function walkDir(dir, callback) {
     let isDirectory = fs.statSync(dirPath).isDirectory();
     if (isDirectory && !dirPath.includes('node_modules') && !dirPath.includes('.git')) {
       walkDir(dirPath, callback);
-    } else if (f.endsWith('.html')) {
+    } else if (f.endsWith('.html') || f.endsWith('.js')) {
       callback(dirPath);
     }
   });
@@ -17,10 +17,13 @@ function walkDir(dir, callback) {
 let count = 0;
 walkDir('.', (filePath) => {
   let content = fs.readFileSync(filePath, 'utf8');
-  let newContent = content.replace(/\?v=20261008_v35/g, '?v=20261008_v35');
+  let newContent = content.replace(/wowtopgear\.com/g, 'wowtopgear.app');
+  // Enforce ?v=20261008_v35 for cache bust
+  newContent = newContent.replace(/\?v=20261008_v3[0-9]/g, '?v=20261008_v35');
+  
   if (content !== newContent) {
     fs.writeFileSync(filePath, newContent, 'utf8');
     count++;
   }
 });
-console.log(`Bumped general version to v33 in ${count} files.`);
+console.log(`Replaced domain wowtopgear.app with wowtopgear.app in ${count} files.`);
