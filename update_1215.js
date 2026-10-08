@@ -13,8 +13,8 @@ const REPLACEMENTS = [
   { regex: /12\.1 S2/g, replace: '12.1.5 S2' },
   { regex: /12\.1(?=\s*\|\s*WoWTopGear)/g, replace: '12.1.5' },
   // Version bump
-  { regex: /v=20261008_v36/g, replace: 'v=20261008_v36' },
-  { regex: /v=20261008_v36/g, replace: 'v=20261008_v36' }
+  { regex: /v=20261008_v38/g, replace: 'v=20261008_v38' },
+  { regex: /v=20261008_v38/g, replace: 'v=20261008_v38' }
 ];
 
 let filesChanged = 0;
