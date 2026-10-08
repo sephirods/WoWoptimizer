@@ -399,6 +399,13 @@ function runOptimizer(isManualClick = false) {
     }
 
     let power = ilvl * slotWeight;
+    
+    // Kith'ix Cantrip items get a +2 virtual ilvl bonus
+    const CANTRIP_IDS = [281235, 281236, 281238, 281239, 281056, 280799, 280617, 281215, 280835, 281029];
+    if (it.id && CANTRIP_IDS.includes(parseInt(it.id))) {
+      power += (slotWeight * 2);
+    }
+
     if (it.socket) power += 50;
     if (it.slot === 'trinket' && typeof getTrinketDpsScore === 'function') {
       const useBm = document.getElementById('use-bloodmallet-scoring')?.checked ?? true;

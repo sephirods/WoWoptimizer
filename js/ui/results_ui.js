@@ -182,7 +182,7 @@ function renderResults(topResults, targets, benchmark = { count: 0, duration: 0 
               ${simVenomstone ? `
                 <span class="text-xs px-2.5 py-0.5 rounded-md bg-emerald-950/90 text-emerald-300 border border-emerald-500/60 font-bold flex items-center gap-1 shadow-sm" title="Ascendant Venomstones applied to eligible slots (Weapons, Trinkets, Neck: +7 ilvl Hero/Crafted up to 328/325, +6/+7 ilvl Myth/Crafted up to 340/338).">
                   <i class="fa-solid fa-flask-vial text-emerald-400 text-[10px]"></i>
-                  <span>Venomstones (PTR)</span>
+                  <span>Venomstones</span>
                 </span>
               ` : simMaxIlvl ? `
                 <span class="text-xs px-2.5 py-0.5 rounded-md bg-amber-950/90 text-amber-300 border border-amber-500/60 font-bold flex items-center gap-1 shadow-sm" title="Simulating all items at max rank for track (Mythic 6/6: 334, Heroic 6/6: 321, Champion 6/6: 309, Veteran 6/6: 296)">

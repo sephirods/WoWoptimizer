@@ -1,7 +1,7 @@
 /**
  * Spec Guide Dynamic UI Renderer
  * Renders complete dynamic spec guides (BiS Gear, Talents, Stat Priorities, Consumables & Enchants)
- * for World of Warcraft: Midnight Season 2 (Patch 12.1).
+ * for World of Warcraft: Midnight Season 2 (Patch 12.1.5).
  */
 
 const SLOT_NAMES = {
@@ -489,7 +489,7 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
         <!-- PÁRRAFO DINÁMICO SEO ARCHON 1:1 (GEAR OVERVIEW) -->
         <p class="text-xs sm:text-sm text-slate-300 leading-relaxed bg-black/30 border border-white/5 p-3.5 rounded-xl">
           ${isEs 
-            ? `El equipo más popular para <strong class="text-white">${fullSpecName}</strong> según todos los datos de las últimas 2 semanas. Esto representa un conjunto de equipo óptimo para este momento de la Temporada 2 (Parche 12.1) cercano a Best in Slot, con piezas de conjunto hasta la bonificación máxima.`
+            ? `El equipo más popular para <strong class="text-white">${fullSpecName}</strong> según todos los datos de las últimas 2 semanas. Esto representa un conjunto de equipo óptimo para este momento de la Temporada 2 (Parche 12.1.5) cercano a Best in Slot, con piezas de conjunto hasta la bonificación máxima.`
             : `The most popular <strong class="text-white">${fullSpecName}</strong> gear based on all data across the last 2 weeks. This represents a strong set of gear for this point in 12.1 that is close to Best in Slot with tier pieces up to the maximum set bonus.`}
         </p>
 
@@ -560,8 +560,8 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
           <!-- PÁRRAFO DINÁMICO SEO ARCHON 1:1 (ENCANTAMIENTOS) -->
           <p class="text-xs text-slate-300 leading-relaxed bg-black/30 border border-white/5 p-3 rounded-xl">
             ${isEs 
-              ? `Los encantamientos óptimos para <strong class="text-white">${fullSpecName}</strong> en Midnight 12.1 están seleccionados para potenciar prioritariamente <strong class="text-amber-400">${orderedSecNames[0]}</strong> y tu atributo principal (<strong class="text-white">${primaryName}</strong>), garantizando el mayor rendimiento por slot de equipo.`
-              : `The optimal enchants for <strong class="text-white">${fullSpecName}</strong> in Midnight 12.1 are chosen to prioritize <strong class="text-amber-400">${orderedSecNames[0]}</strong> and your primary stat (<strong class="text-white">${primaryName}</strong>), delivering maximum throughput per gear slot.`}
+              ? `Los encantamientos óptimos para <strong class="text-white">${fullSpecName}</strong> en Midnight 12.1.5 están seleccionados para potenciar prioritariamente <strong class="text-amber-400">${orderedSecNames[0]}</strong> y tu atributo principal (<strong class="text-white">${primaryName}</strong>), garantizando el mayor rendimiento por slot de equipo.`
+              : `The optimal enchants for <strong class="text-white">${fullSpecName}</strong> in Midnight 12.1.5 are chosen to prioritize <strong class="text-amber-400">${orderedSecNames[0]}</strong> and your primary stat (<strong class="text-white">${primaryName}</strong>), delivering maximum throughput per gear slot.`}
           </p>
           <div class="space-y-2.5">
             ${enchants.map(enc => {
@@ -597,8 +597,8 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
           <!-- PÁRRAFO DINÁMICO SEO ARCHON 1:1 (CONSUMIBLES) -->
           <p class="text-xs text-slate-300 leading-relaxed bg-black/30 border border-white/5 p-3 rounded-xl">
             ${isEs 
-              ? `Guía de consumibles recomendados para <strong class="text-white">${fullSpecName}</strong> en Banda Mítica y Míticas+ (High Keys). Incluye los mejores frascos, pociones de combate, aceites y comidas de la Temporada 2 de Midnight (Parche 12.1).`
-              : `Recommended consumable setup for <strong class="text-white">${fullSpecName}</strong> in Mythic Raid and Mythic+ (High Keys). Covers top tier flasks, combat potions, oils, and food for Midnight Season 2 (Patch 12.1).`}
+              ? `Guía de consumibles recomendados para <strong class="text-white">${fullSpecName}</strong> en Banda Mítica y Míticas+ (High Keys). Incluye los mejores frascos, pociones de combate, aceites y comidas de la Temporada 2 de Midnight (Parche 12.1.5).`
+              : `Recommended consumable setup for <strong class="text-white">${fullSpecName}</strong> in Mythic Raid and Mythic+ (High Keys). Covers top tier flasks, combat potions, oils, and food for Midnight Season 2 (Patch 12.1.5).`}
           </p>
           <div class="space-y-2.5">
             ${consumables.map(con => {

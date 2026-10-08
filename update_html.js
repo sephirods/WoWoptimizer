@@ -47,11 +47,11 @@ walkDir('classes', (filePath) => {
     
     let newTitle = '';
     if (prefix === 'classes') {
-      newTitle = "Best Classes & Builds (12.1) | WoWTopGear";
+      newTitle = "Best Classes & Builds (12.1.5) | WoWTopGear";
     } else {
       newTitle = isBaseClass 
-        ? `${name} BiS Guide (12.1) | WoWTopGear` 
-        : `${name} BiS Gear & Talents (12.1) | WoWTopGear`;
+        ? `${name} BiS Guide (12.1.5) | WoWTopGear` 
+        : `${name} BiS Gear & Talents (12.1.5) | WoWTopGear`;
     }
     
     return `<title data-i18n="${prefix}PageTitle">${newTitle}</title>`;
@@ -77,10 +77,10 @@ const rootIndex = 'index.html';
 if (fs.existsSync(rootIndex)) {
   let content = fs.readFileSync(rootIndex, 'utf8');
   const titleRegex = /<title>([^<]+)<\/title>/g;
-  content = content.replace(titleRegex, `<title>WoW Midnight BiS Gear Optimizer & Guides (12.1) | WoWTopGear</title>`);
+  content = content.replace(titleRegex, `<title>WoW Midnight BiS Gear Optimizer & Guides (12.1.5) | WoWTopGear</title>`);
   
   const ogTitleRegex = /<meta property="og:title" content="([^"]+)"\s*\/>/g;
-  content = content.replace(ogTitleRegex, `<meta property="og:title" content="WoW Midnight BiS Gear Optimizer & Guides (12.1) | WoWTopGear" />`);
+  content = content.replace(ogTitleRegex, `<meta property="og:title" content="WoW Midnight BiS Gear Optimizer & Guides (12.1.5) | WoWTopGear" />`);
   fs.writeFileSync(rootIndex, content, 'utf8');
 }
 

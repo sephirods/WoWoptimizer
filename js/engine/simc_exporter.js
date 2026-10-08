@@ -211,7 +211,7 @@ function generateSimcExportString(resultIndex = 0, includeBags = (typeof current
   } else {
     // Fallback default clean header
     lines.push(`# ${charName} - ${WOW_CLASSES[currentClass]?.specs?.find(s => s.id === currentSpec)?.name || currentSpec} - ${dateStr} - ${charRegion.toUpperCase()}${charServer ? '/' + charServer : ''}`);
-    lines.push(`# SimulationCraft / Raidbots Export (Midnight 12.1)`);
+    lines.push(`# SimulationCraft / Raidbots Export (Midnight 12.1.5)`);
     if (res.gemData?.projected) {
       lines.push(`# Projected Stats (w/ Gems): Mastery: ${res.gemData.projected.totMast}, Crit: ${res.gemData.projected.totCrit}, Haste: ${res.gemData.projected.totHaste}, Vers: ${res.gemData.projected.totVers}`);
     } else {

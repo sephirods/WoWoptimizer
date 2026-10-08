@@ -1,4 +1,4 @@
-// Midnight Season 2 (Patch 12.1) Authentic Items Catalog Builder
+// Midnight Season 2 (Patch 12.1.5) Authentic Items Catalog Builder
 const fs = require('fs');
 
 const SPECS_CONFIG = {

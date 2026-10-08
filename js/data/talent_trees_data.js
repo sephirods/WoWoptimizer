@@ -1,5 +1,5 @@
 /**
- * Visual Talent Trees Dataset for World of Warcraft: Midnight Season 2 (Patch 12.1)
+ * Visual Talent Trees Dataset for World of Warcraft: Midnight Season 2 (Patch 12.1.5)
  * Protection Paladin (Class Tree, Hero Tree: Lightsmith, Spec Tree: Protection)
  * Provides official spell IDs, icons, names, tree positions (row/col) and ranks for Raid & M+.
  */

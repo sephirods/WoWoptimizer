@@ -48,9 +48,9 @@ content = content.replace(regex, (match, prefix, oldTitle) => {
   
   if (prefix === 'classes') {
     if (isSpanish) {
-      return `${prefix}PageTitle: "Mejores Clases y Builds (12.1) | WoWTopGear"`;
+      return `${prefix}PageTitle: "Mejores Clases y Builds (12.1.5) | WoWTopGear"`;
     } else {
-      return `${prefix}PageTitle: "Best Classes & Builds (12.1) | WoWTopGear"`;
+      return `${prefix}PageTitle: "Best Classes & Builds (12.1.5) | WoWTopGear"`;
     }
   }
 
@@ -60,12 +60,12 @@ content = content.replace(regex, (match, prefix, oldTitle) => {
   let newTitle = '';
   if (isSpanish) {
     newTitle = isBaseClass 
-      ? `Guía BiS ${name} (12.1) | WoWTopGear` 
-      : `BiS & Talentos ${name} (12.1) | WoWTopGear`;
+      ? `Guía BiS ${name} (12.1.5) | WoWTopGear` 
+      : `BiS & Talentos ${name} (12.1.5) | WoWTopGear`;
   } else {
     newTitle = isBaseClass 
-      ? `${name} BiS Guide (12.1) | WoWTopGear` 
-      : `${name} BiS Gear & Talents (12.1) | WoWTopGear`;
+      ? `${name} BiS Guide (12.1.5) | WoWTopGear` 
+      : `${name} BiS Gear & Talents (12.1.5) | WoWTopGear`;
   }
 
   return `${prefix}PageTitle: "${newTitle}"`;

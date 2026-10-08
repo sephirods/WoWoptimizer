@@ -17,7 +17,7 @@ function walkDir(dir, callback) {
 let count = 0;
 walkDir('.', (filePath) => {
   let content = fs.readFileSync(filePath, 'utf8');
-  let newContent = content.replace(/\?v=20261008_v35/g, '?v=20261008_v35');
+  let newContent = content.replace(/\?v=20261008_v36/g, '?v=20261008_v36');
   if (content !== newContent) {
     fs.writeFileSync(filePath, newContent, 'utf8');
     count++;

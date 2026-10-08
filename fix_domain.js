@@ -18,8 +18,8 @@ let count = 0;
 walkDir('.', (filePath) => {
   let content = fs.readFileSync(filePath, 'utf8');
   let newContent = content.replace(/wowtopgear\.com/g, 'wowtopgear.app');
-  // Enforce ?v=20261008_v35 for cache bust
-  newContent = newContent.replace(/\?v=20261008_v3[0-9]/g, '?v=20261008_v35');
+  // Enforce ?v=20261008_v36 for cache bust
+  newContent = newContent.replace(/\?v=20261008_v3[0-9]/g, '?v=20261008_v36');
   
   if (content !== newContent) {
     fs.writeFileSync(filePath, newContent, 'utf8');
