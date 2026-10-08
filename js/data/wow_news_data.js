@@ -2,6 +2,90 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30378087",
+      "postId": 30378087,
+      "topicId": 2375390,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-07T22:00:12.612Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Forever Class Deep Dives — Rogue and Warlock",
+        "es": "World of Warcraft: Forever Class Deep Dives — Rogue and Warlock"
+      },
+      "summary": {
+        "en": "[World of Warcraft: Forever Class Deep Dives — Rogue and Warlock] Masters of subtlety and destructive power take center stage in this World of Warcraft: Forever class deep dive. Ex...",
+        "es": "[World of Warcraft: Forever Class Deep Dives — Rogue and Warlock] Masters of subtlety and destructive power take center stage in this World of Warcraft: Forever class deep dive. Ex..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Rogue and Warlock\" width=\"833\" height=\"468\"></a></p><p>Masters of subtlety and destructive power take center stage in this World of Warcraft: Forever class deep dive. Explore how updates to Rogues and Warlocks build on the defining tools, tactics, and playstyles of each class. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310968\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Rogue and Warlock\" width=\"833\" height=\"468\"></a></p><p>Masters of subtlety and destructive power take center stage in this World of Warcraft: Forever class deep dive. Explore how updates to Rogues and Warlocks build on the defining tools, tactics, and playstyles of each class. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310968\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-class-deep-dives-%E2%80%94-rogue-and-warlock/2375390/1"
+    },
+    {
+      "id": "blizz-30378083",
+      "postId": 30378083,
+      "topicId": 2375389,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-07T22:00:06.159Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Forever Class Deep Dives — Mage and Shaman",
+        "es": "World of Warcraft: Forever Class Deep Dives — Mage and Shaman"
+      },
+      "summary": {
+        "en": "[World of Warcraft: Forever Class Deep Dives — Mage and Shaman] Our World of Warcraft: Forever class deep dive series continues with developer insights into Mages and Shaman. Learn...",
+        "es": "[World of Warcraft: Forever Class Deep Dives — Mage and Shaman] Our World of Warcraft: Forever class deep dive series continues with developer insights into Mages and Shaman. Learn..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t4/T46ED5B4T7V11791309695380.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t4/T46ED5B4T7V11791309695380.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Mage and Shaman\" width=\"833\" height=\"468\"></a></p><p>Our World of Warcraft: Forever class deep dive series continues with developer insights into Mages and Shaman. Learn how Mage updates expand Arcane, Fire, and Frost magic with new hybrid possibilities like Frostfire Bolt, and how Shaman changes make totems easier to manage, weapon imbues longer lasting, and Elemental Combat, Enhancement, and Restoration builds more versatile. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302097\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t4/T46ED5B4T7V11791309695380.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t4/T46ED5B4T7V11791309695380.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Mage and Shaman\" width=\"833\" height=\"468\"></a></p><p>Our World of Warcraft: Forever class deep dive series continues with developer insights into Mages and Shaman. Learn how Mage updates expand Arcano, Fuego, and Escarcha magic with new hybrid possibilities like Frostfire Bolt, and how Shaman changes make totems easier to manage, weapon imbues longer lasting, and Elemental Combat, Mejora, and Restauración builds more versatile. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302097\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-class-deep-dives-%E2%80%94-mage-and-shaman/2375389/1"
+    },
+    {
+      "id": "blizz-30377211",
+      "postId": 30377211,
+      "topicId": 2375330,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-07T21:00:12.181Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Forever- The Future of Skyborne Visual Updates",
+        "es": "World of Warcraft: Forever- The Future of Skyborne Visual Updates"
+      },
+      "summary": {
+        "en": "[World of Warcraft: Forever- The Future of Skyborne Visual Updates] Get insights from the World of Warcraft development team on refining the Skyborne visual style, revisiting High-...",
+        "es": "[World of Warcraft: Forever- The Future of Skyborne Visual Updates] Get insights from the World of Warcraft development team on refining the Skyborne visual style, revisiting High-..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8x/8XTUMUPK88R31791312900713.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8x/8XTUMUPK88R31791312900713.png\" alt=\"World of Warcraft: Forever- The Future of Skyborne Visual Updates\" width=\"833\" height=\"468\"></a></p><p>Get insights from the World of Warcraft development team on refining the Skyborne visual style, revisiting High-Definition Druid forms, and expanding player choice with Standard-Definition character models. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302546\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8x/8XTUMUPK88R31791312900713.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8x/8XTUMUPK88R31791312900713.png\" alt=\"World of Warcraft: Forever- The Future of Skyborne Visual Updates\" width=\"833\" height=\"468\"></a></p><p>Get insights from the World of Warcraft development team on refining the Skyborne visual style, revisiting High-Definition Druid forms, and expanding player choice with Standard-Definition character models. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302546\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-the-future-of-skyborne-visual-updates/2375330/1"
+    },
+    {
       "id": "blizz-30375457",
       "postId": 30375457,
       "topicId": 2375228,
@@ -142,88 +226,60 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/incoming-ulatek-raid-encounter-tuning-october-6/2373623/1"
     },
     {
-      "id": "blizz-30348193",
-      "postId": 30348193,
-      "topicId": 2373436,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-05T23:17:57.247Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Brief Realm Maintenance - October 5",
-        "es": "Brief Realm Mantenimiento - October 5"
-      },
-      "summary": {
-        "en": "We’re going to do realm restarts in a few minutes, to apply some fixes that should improve the quality of the game service. \nBeta testers who are in-game will see server messages c...",
-        "es": "We’re going to do realm restarts in a few minutes, to apply some fixes that should improve the quality of the game service. \nBeta testers who are in-game will see server messages c..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re going to do realm restarts in a few minutes, to apply some fixes that should improve the quality of the game service.</p>\n<p>Beta testers who are in-game will see server messages counting down to the restart time.</p>\n<p>And the Beta will re-open a few minutes after it goes offline.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re going to do realm restarts in a few minutes, to apply some fixes that should improve the quality of the game service.</p>\n<p>Beta testers who are in-game will see server messages counting down to the restart time.</p>\n<p>And the Beta will re-open a few minutes after it goes offline.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/brief-realm-maintenance-october-5/2373436/1"
-    },
-    {
-      "id": "blizz-30308918",
-      "postId": 30308918,
-      "topicId": 2370266,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-02T22:37:59.944Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Incoming Class Tuning - October 6",
-        "es": "Próximamente Ajustes de Balance de Clases - October 6"
-      },
-      "summary": {
-        "en": "The following class adjustments will arrive with scheduled weekly maintenance (October 6 in this region). \nCLASS CHANGES\n\n\nDeath Knight \n\nUnholy\n\nDevelopers’ notes: A recent bug fi...",
-        "es": "The following class adjustments will arrive with scheduled weekly Mantenimiento (October 6 in this region). \nCLASS CHANGES\n\n\nDeath Knight \n\nUnholy\n\nDevelopers’ notes: A recent bug ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The following class adjustments will arrive with scheduled weekly maintenance (October 6 in this region).</p>\n<h2><a name=\"p-30308918-class-changes-1\" class=\"anchor\" href=\"#p-30308918-class-changes-1\" aria-label=\"Heading link\"></a><strong>CLASS CHANGES</strong></h2>\n<ul>\n<li>\n<p><strong>Death Knight</strong></p>\n<ul>\n<li><strong>Unholy</strong>\n<ul>\n<li><em>Developers’ notes: A recent bug fix resulted in Blightfall dealing significantly more damage than we expected. Alongside this tuning change, we’re also making sure the damage is represented accurately when an Augmentation Evoker is present in the group.</em></li>\n<li>Blightfall now deals 100% of the remaining plague damage (was 200%).</li>\n<li>Resolved an issue causing Augmentation Evoker Reattribution damage from plague erupt effects to be attributed to the Death Knight.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Demon Hunter</strong></p>\n<ul>\n<li><strong>Devourer</strong>\n<ul>\n<li><em>Developers’ notes: Many of Devourer’s single target damage sources are receiving buffs that will match their output more closely with our expectations.</em></li>\n<li>Consume/Devour damage increased by 8%. Does not affect PvP combat.</li>\n<li>Reap/Cull damage increased by 8%. Does not affect PvP combat.</li>\n<li>Eradicate primary target damage increased by 8%. Does not affect PvP combat.</li>\n<li>Collapsing Star primary target damage increased by 8%. Does not affect PvP combat.</li>\n<li>The Hunt initial damage increased by 10%. Does not affect PvP combat.</li>\n<li>Voidblade damage increased by 10%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Monk</strong></p>\n<ul>\n<li><strong>Brewmaster</strong>\n<ul>\n<li><em>Developers’ notes: We’re finding Brewmasters’ death rates in dungeons is higher than we’d like, so we’re adjusting some rotational sources of damage reduction to help improve baseline durability.</em></li>\n<li>Quick Sip now purifies 8% of current Stagger amount each time you gain 3 seconds of Stagger duration (was 5%).</li>\n<li>Pretense of Instability grants 10% dodge for 8 seconds after drinking a Brew (was 5 seconds).</li>\n</ul>\n</li>\n<li><strong>Mistweaver</strong>\n<ul>\n<li><em>Developers’ notes: We’re making a few raid focused adjustments to Mistweaver with the aim of increasing their overall performance in that content.</em></li>\n<li>Invigorating Mists healing increased by 15%.</li>\n<li>Enveloping Mist healing increased by 15%. Does not apply in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Rogue</strong></p>\n<ul>\n<li><strong>Subtlety</strong>\n<ul>\n<li><strong>Trickster</strong>\n<ul>\n<li><em>Developers’ notes: We’re buffing Trickster for Subtlety to reduce the performance gap between it and Deathstalker. We want Trickster to be a more viable alternative for players who prefer its gameplay and thematic identity.</em></li>\n<li>Fazed now causes enemies to take 7% more damage (was 5%). Does not affect PvP combat.</li>\n<li>Unseen Blade damage increased by 15%. Does not affect PvP combat.</li>\n<li>Coup de Grace damage increased by 10%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Shaman</strong></p>\n<ul>\n<li><strong>Enhancement</strong>\n<ul>\n<li><em>Developers’ notes: We’re aiming to increase Enhancement Shaman’s throughput all around as they have been underperforming this season, while additionally increasing Lava Lash’s contribution to its overall breakdown.</em></li>\n<li>All ability and auto-attack damage increased by 4%. Does not affect PvP combat.</li>\n<li>Lava Lash damage increased by 35%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<h2><a name=\"p-30308918-player-versus-player-2\" class=\"anchor\" href=\"#p-30308918-player-versus-player-2\" aria-label=\"Heading link\"></a><strong>PLAYER VERSUS PLAYER</strong></h2>\n<p><em>Developers’ notes: With this pass, we’re buffing several underperforming PvP Talents to increase your breadth of options as you play.</em></p>\n<ul>\n<li>\n<p><strong>Tank Specializations</strong></p>\n<ul>\n<li>Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor.\n<ul>\n<li>Focused Assault now stacks to 6 times (was 5).</li>\n<li>Duration increased to 10 seconds (was 6 seconds).</li>\n<li>Cooldown reduced to 15 seconds (was 20 seconds).</li>\n<li>Range increased to 15 yards (was 10 yards).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Death Knight</strong></p>\n<ul>\n<li>Dark Simulacrum (PvP Talent) cooldown reduced to 15 seconds (was 20 seconds).</li>\n<li><strong>Blood</strong>\n<ul>\n<li>Death Chain (PvP Talent) now affects 4 targets (was 3).</li>\n<li>Death Chain (PvP Talent) initial damage increased by 500%.</li>\n<li>Price of Progress (PvP Talent) now causes the Death Knight to be unable to be slowed under 100% of normal speed (was 90%).</li>\n<li>Price of Progress (PvP Talent) now sacrifices 1% health every 1.5 seconds (was 1 second).</li>\n</ul>\n</li>\n<li><strong>Frost</strong>\n<ul>\n<li>Death’s Cold Embrace (PvP Talent) now increases the damage of Remorseless Winter by 450% (was 400%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Demon Hunter</strong></p>\n<ul>\n<li>Cover of Darkness now increases Darkness duration by 4 seconds (was 2 seconds).</li>\n<li><strong>Havoc</strong>\n<ul>\n<li>Illidan’s Grasp damage increased by 50%.</li>\n</ul>\n</li>\n<li><strong>Vengeance</strong>\n<ul>\n<li>Illidan’s Grasp damage increased by 50%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Druid</strong></p>\n<ul>\n<li><strong>Balance</strong>\n<ul>\n<li>Moon and Stars radius increased by 60%.</li>\n<li>Moon and Stars now displays as important on player nameplates.</li>\n<li>Tireless Pursuit duration increased to 6 seconds (was 3 seconds).</li>\n</ul>\n</li>\n<li><strong>Restoration</strong>\n<ul>\n<li>Ancient of Lore: Mass Blooming is now affected by Wild Growth talents like Improved Wild Growth and Early Spring.</li>\n<li>Ancient of Lore: Mass Blooming healing increased by 30%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Evoker</strong></p>\n<ul>\n<li>Dreamwalker’s Embrace damage increased by 140%.</li>\n<li><strong>Augmentation</strong>\n<ul>\n<li>All spell and ability damage increased by 8% in PvP combat.</li>\n<li>Seismic Slam stuns enemies for 5 seconds (was 4 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Hunter</strong></p>\n<ul>\n<li>Hunting Pack (PvP Talent) radius increased to 40 yards (was 30 yards).</li>\n<li><strong>Beast Mastery</strong>\n<ul>\n<li>Dire Beast: Hawk (PvP Talent) damage increased by 200%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Mage</strong></p>\n<ul>\n<li><strong>Fire</strong>\n<ul>\n<li>World in Flames now empowers Flamestrike to deal up to 75% more damage (was 50%).</li>\n<li>Glass Cannon now increases the damage of Fireball, Scorch, and Ignite by 25% (was 20%).</li>\n</ul>\n</li>\n<li><strong>Frost</strong>\n<ul>\n<li>Frost Bomb damage increased by 25%.</li>\n<li>Icy Feet now grants snare immunity for 4 seconds (was 3 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Monk</strong></p>\n<ul>\n<li>Mighty Ox Kick (PvP Talent) cooldown reduced to 20 seconds (was 30 seconds).</li>\n<li><strong>Mistweaver</strong>\n<ul>\n<li>Healing Sphere (PvP Talent) now allows maximum of 5 Healing Spheres to be active at a time (was 3).</li>\n<li>Healing Sphere (PvP Talent) healing increased by 100%.</li>\n</ul>\n</li>\n<li><strong>Windwalker</strong>\n<ul>\n<li>Perpetual Paralysis (PvP Talent) now spreads to 3 targets (was 2).</li>\n<li>Perpetual Paralysis (PvP Talent) now prefers player targets.</li>\n<li>Perpetual Paralysis (PvP Talent) spread range increased to 15 yards (was 10 yards).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Paladin</strong></p>\n<ul>\n<li>Spellbreaker damage increased by 50%.</li>\n<li><strong>Retribution</strong>\n<ul>\n<li>Ultimate Retribution’s duration increased to 20 seconds (was 12 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Priest</strong></p>\n<ul>\n<li>Absolute Faith absorption increased by 113%.</li>\n<li>Improved Mass Dispel reduces the cooldown of Mass Dispel by 75 seconds (was 60 seconds).</li>\n</ul>\n</li>\n<li>\n<p><strong>Rogue</strong></p>\n<ul>\n<li>Thick as Thieves duration increased to 10 seconds (was 6 seconds).</li>\n<li>Death from Above now increases damage by 30% (was 15%).</li>\n<li><strong>Outlaw</strong>\n<ul>\n<li>All damage increased by 5% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Shaman</strong></p>\n<ul>\n<li>Electrocute damage increased by 50% and is now a rolling periodic.</li>\n<li><strong>Restoration</strong>\n<ul>\n<li><em>Developers’ notes: We’re increasing the effectiveness of Earth Shield as its importance has felt lackluster and we would like its placement and management to influence gameplay to a higher degree for both Restoration Shamans and their opposition.</em></li>\n<li>Call of Al’Akir now increases the cooldown of Nature’s Swiftness by 20 seconds (was 30 seconds).</li>\n<li>Earth Shield healing increased by 15% in PvP combat.</li>\n<li>Earthen Harmony now causes Earth Shield to reduce damage taken by 8% in PvP combat (was 5%).</li>\n<li>Earthen Harmony now increases Earth Shield healing received by 200% based on its target’s missing health (was 150%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Warlock</strong></p>\n<ul>\n<li>Bonds of Fel damage increased by 100%.</li>\n<li>Bloodstone duration increased to 18 seconds (was 12 seconds).</li>\n<li>Bloodstone now has a unique visual and updated sound effect.</li>\n<li><strong>Demonology</strong>\n<ul>\n<li>Call Fel Lord’s Fel Cleave damage increased by 150%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Warrior</strong></p>\n<ul>\n<li>Dragon Charge damage increased by 300%.</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The following class adjustments will arrive with scheduled weekly maintenance (October 6 in this region).</p>\n<h2><a name=\"p-30308918-class-changes-1\" class=\"anchor\" href=\"#p-30308918-class-changes-1\" aria-label=\"Heading link\"></a><strong>CAMBIOS DE CLASE</strong></h2>\n<ul>\n<li>\n<p><strong>CABALLERO DE LA MUERTE</strong></p>\n<ul>\n<li><strong>Profano</strong>\n<ul>\n<li><em>Developers’ notes: A recent bug fix resulted in Blightfall dealing significantly more damage than we expected. Alongside this tuning change, we’re also making sure the damage is represented accurately when an Aumento Evoker is present in the group.</em></li>\n<li>Blightfall now deals 100% of the remaining plague damage (antes era 200%).</li>\n<li>Resolved an issue causing Aumento Evoker Reattribution damage from plague erupt effects to be attributed to the Death Knight.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>CAZADOR DE DEMONIOS</strong></p>\n<ul>\n<li><strong>Devourer</strong>\n<ul>\n<li><em>Developers’ notes: Many of Devourer’s single target damage sources are receiving buffs that will match their output more closely with our expectations.</em></li>\n<li>Consume/Devour daño aumentado un 8%. Does not affect PvP combat.</li>\n<li>Reap/Cull daño aumentado un 8%. Does not affect PvP combat.</li>\n<li>Eradicate primary target daño aumentado un 8%. Does not affect PvP combat.</li>\n<li>Collapsing Star primary target daño aumentado un 8%. Does not affect PvP combat.</li>\n<li>The Hunt initial daño aumentado un 10%. Does not affect PvP combat.</li>\n<li>Voidblade daño aumentado un 10%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>MONJE</strong></p>\n<ul>\n<li><strong>Maestro cervecero</strong>\n<ul>\n<li><em>Developers’ notes: We’re finding Brewmasters’ death rates in dungeons is higher than we’d like, so we’re adjusting some rotational sources of damage reduction to help improve baseline durability.</em></li>\n<li>Quick Sip now purifies 8% of current Stagger amount each time you gain 3 seconds of Stagger duration (antes era 5%).</li>\n<li>Pretense of Instability grants 10% dodge for 8 seconds after drinking a Brew (was 5 seconds).</li>\n</ul>\n</li>\n<li><strong>Tejedor de niebla</strong>\n<ul>\n<li><em>Developers’ notes: We’re making a few raid focused adjustments to Tejedor de niebla with the aim of increasing their overall performance in that content.</em></li>\n<li>Invigorating Mists sanación aumentada un 15%.</li>\n<li>Enveloping Mist sanación aumentada un 15%. Does not apply in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>PÍCARO</strong></p>\n<ul>\n<li><strong>Sutileza</strong>\n<ul>\n<li><strong>Trickster</strong>\n<ul>\n<li><em>Developers’ notes: We’re buffing Trickster for Sutileza to reduce the performance gap between it and Deathstalker. We want Trickster to be a more viable alternative for players who prefer its gameplay and thematic identity.</em></li>\n<li>Fazed ahora causa enemies to take 7% more damage (antes era 5%). Does not affect PvP combat.</li>\n<li>Unseen Blade daño aumentado un 15%. Does not affect PvP combat.</li>\n<li>Coup de Grace daño aumentado un 10%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>CHAMÁN</strong></p>\n<ul>\n<li><strong>Mejora</strong>\n<ul>\n<li><em>Developers’ notes: We’re aiming to increase Mejora Shaman’s throughput all around as they have been underperforming this season, while additionally increasing Lava Lash’s contribution to its overall breakdown.</em></li>\n<li>All ability and auto-attack daño aumentado un 4%. Does not affect PvP combat.</li>\n<li>Lava Lash daño aumentado un 35%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<h2><a name=\"p-30308918-player-versus-player-2\" class=\"anchor\" href=\"#p-30308918-player-versus-player-2\" aria-label=\"Heading link\"></a><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></h2>\n<p><em>Developers’ notes: With this pass, we’re buffing several underperforming PvP Talents to increase your breadth of options as you play.</em></p>\n<ul>\n<li>\n<p><strong>Tank Specializations</strong></p>\n<ul>\n<li>Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor.\n<ul>\n<li>Focused Assault now stacks to 6 times (was 5).</li>\n<li>Duration increased to 10 seconds (was 6 seconds).</li>\n<li>Cooldown reduced to 15 seconds (was 20 seconds).</li>\n<li>Range increased to 15 yards (was 10 yards).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>CABALLERO DE LA MUERTE</strong></p>\n<ul>\n<li>Dark Simulacrum (PvP Talent) cooldown reduced to 15 seconds (was 20 seconds).</li>\n<li><strong>Sangre</strong>\n<ul>\n<li>Death Chain (PvP Talent) now affects 4 targets (was 3).</li>\n<li>Death Chain (PvP Talent) initial daño aumentado un 500%.</li>\n<li>Price of Progress (PvP Talent) ahora causa the Death Knight to be unable to be slowed under 100% of normal speed (antes era 90%).</li>\n<li>Price of Progress (PvP Talent) now sacrifices 1% health every 1.5 seconds (was 1 second).</li>\n</ul>\n</li>\n<li><strong>Escarcha</strong>\n<ul>\n<li>Death’s Cold Embrace (PvP Talent) ahora aumenta the damage of Remorseless Winter by 450% (antes era 400%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>CAZADOR DE DEMONIOS</strong></p>\n<ul>\n<li>Cover of Darkness ahora aumenta Darkness duration by 4 seconds (was 2 seconds).</li>\n<li><strong>Devastación</strong>\n<ul>\n<li>Illidan’s Grasp daño aumentado un 50%.</li>\n</ul>\n</li>\n<li><strong>Venganza</strong>\n<ul>\n<li>Illidan’s Grasp daño aumentado un 50%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>DRUIDA</strong></p>\n<ul>\n<li><strong>Equilibrio</strong>\n<ul>\n<li>Moon and Stars radius increased by 60%.</li>\n<li>Moon and Stars now displays as important on player nameplates.</li>\n<li>Tireless Pursuit duration increased to 6 seconds (was 3 seconds).</li>\n</ul>\n</li>\n<li><strong>Restauración</strong>\n<ul>\n<li>Ancient of Lore: Mass Blooming ahora es affected by Wild Growth talents like Improved Wild Growth and Early Spring.</li>\n<li>Ancient of Lore: Mass Blooming sanación aumentada un 30%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>EVOCADOR</strong></p>\n<ul>\n<li>Dreamwalker’s Embrace daño aumentado un 140%.</li>\n<li><strong>Aumento</strong>\n<ul>\n<li>All spell and ability daño aumentado un 8% in PvP combat.</li>\n<li>Seismic Slam stuns enemies for 5 seconds (was 4 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>CAZADOR</strong></p>\n<ul>\n<li>Hunting Pack (PvP Talent) radius increased to 40 yards (was 30 yards).</li>\n<li><strong>Dominio de bestias</strong>\n<ul>\n<li>Dire Beast: Hawk (PvP Talent) daño aumentado un 200%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>MAGO</strong></p>\n<ul>\n<li><strong>Fuego</strong>\n<ul>\n<li>World in Flames now empowers Flamestrike to deal up to 75% more damage (antes era 50%).</li>\n<li>Glass Cannon ahora aumenta the damage of Fireball, Scorch, and Ignite by 25% (antes era 20%).</li>\n</ul>\n</li>\n<li><strong>Escarcha</strong>\n<ul>\n<li>Escarcha Bomb daño aumentado un 25%.</li>\n<li>Icy Feet now grants snare immunity for 4 seconds (was 3 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>MONJE</strong></p>\n<ul>\n<li>Mighty Ox Kick (PvP Talent) cooldown reduced to 20 seconds (was 30 seconds).</li>\n<li><strong>Tejedor de niebla</strong>\n<ul>\n<li>Healing Sphere (PvP Talent) now allows maximum of 5 Healing Spheres to be active at a time (was 3).</li>\n<li>Healing Sphere (PvP Talent) sanación aumentada un 100%.</li>\n</ul>\n</li>\n<li><strong>Viajero del viento</strong>\n<ul>\n<li>Perpetual Paralysis (PvP Talent) now spreads to 3 targets (was 2).</li>\n<li>Perpetual Paralysis (PvP Talent) now prefers player targets.</li>\n<li>Perpetual Paralysis (PvP Talent) spread range increased to 15 yards (was 10 yards).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>PALADÍN</strong></p>\n<ul>\n<li>Spellbreaker daño aumentado un 50%.</li>\n<li><strong>Reprensión</strong>\n<ul>\n<li>Ultimate Reprensión’s duration increased to 20 seconds (was 12 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>SACERDOTE</strong></p>\n<ul>\n<li>Absolute Faith absorption increased by 113%.</li>\n<li>Improved Mass Dispel reduces the cooldown of Mass Dispel by 75 seconds (was 60 seconds).</li>\n</ul>\n</li>\n<li>\n<p><strong>PÍCARO</strong></p>\n<ul>\n<li>Thick as Thieves duration increased to 10 seconds (was 6 seconds).</li>\n<li>Death from Above ahora aumenta damage by 30% (antes era 15%).</li>\n<li><strong>Forajido</strong>\n<ul>\n<li>All daño aumentado un 5% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>CHAMÁN</strong></p>\n<ul>\n<li>Electrocute daño aumentado un 50% and ahora es a rolling periodic.</li>\n<li><strong>Restauración</strong>\n<ul>\n<li><em>Developers’ notes: We’re increasing the effectiveness of Earth Shield as its importance has felt lackluster and we would like its placement and management to influence gameplay to a higher degree for both Restauración Shamans and their opposition.</em></li>\n<li>Call of Al’Akir ahora aumenta the cooldown of Nature’s Swiftness by 20 seconds (was 30 seconds).</li>\n<li>Earth Shield sanación aumentada un 15% in PvP combat.</li>\n<li>Earthen Harmony ahora causa Earth Shield to reduce damage taken by 8% in PvP combat (antes era 5%).</li>\n<li>Earthen Harmony ahora aumenta Earth Shield healing received by 200% based on its target’s missing health (antes era 150%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>BRUJO</strong></p>\n<ul>\n<li>Bonds of Fel daño aumentado un 100%.</li>\n<li>Bloodstone duration increased to 18 seconds (was 12 seconds).</li>\n<li>Bloodstone now has a unique visual and updated sound effect.</li>\n<li><strong>Demonología</strong>\n<ul>\n<li>Call Fel Lord’s Fel Cleave daño aumentado un 150%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>GUERRERO</strong></p>\n<ul>\n<li>Dragon Charge daño aumentado un 300%.</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/incoming-class-tuning-october-6/2370266/1"
-    },
-    {
-      "id": "blizz-30304669",
-      "postId": 30304669,
-      "topicId": 2369930,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1232309",
+      "postId": 1232309,
+      "topicId": 80344,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-02T17:06:50.306Z",
+      "dateRaw": "2026-10-07T21:00:15.836Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly",
-        "es": "WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly"
+        "en": "World of Warcraft: Forever: El futuro de las actualizaciones visuales de los cielonatos",
+        "es": "World of Warcraft: Forever: El futuro de las actualizaciones visuales de los cielonatos"
       },
       "summary": {
-        "en": "[WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly] A new week brings even more to discover across World of Warcraft. Explore the latest WoW: Forever class spotlight...",
-        "es": "[WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly] A new week brings even more to discover across World of Warcraft. Explore the latest WoW: Forever class spotlight..."
+        "en": "[World of Warcraft: Forever: El futuro de las actualizaciones visuales de los cielonatos] Descubre de primera mano cómo el equipo de desarrollo de World of Warcraft aborda un refin...",
+        "es": "[World of Warcraft: Forever: El futuro de las actualizaciones visuales de los cielonatos] Descubre de primera mano cómo el equipo de desarrollo de World of Warcraft aborda un refin..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\" alt=\"WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly\" width=\"833\" height=\"468\"></a></p><p>A new week brings even more to discover across World of Warcraft. Explore the latest WoW: Forever class spotlights featuring the Hunter, Druid, Priest, and Warrior, and tune in for episode 2 of the WoW: Forever Podcast. Then, see what’s on the horizon for Midnight with the 12.1.5 content update. Discover it all in this week’s WoW Weekly. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310649\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\" alt=\"WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly\" width=\"833\" height=\"468\"></a></p><p>A new week brings even more to discover across World of Warcraft. Explore the latest WoW: Forever class spotlights featuring the Hunter, Druid, Priest, and Warrior, and tune in for episode 2 of the WoW: Forever Podcast. Then, see what’s on the horizon for Midnight with the 12.1.5 content update. Discover it all in this week’s WoW Weekly. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310649\">View Full Article</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8x/8XTUMUPK88R31791312900713.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8x/8XTUMUPK88R31791312900713.png\" alt=\"World of Warcraft: Forever: El futuro de las actualizaciones visuales de los cielonatos\" width=\"833\" height=\"468\"></a></p><p>Descubre de primera mano cómo el equipo de desarrollo de World of Warcraft aborda un refinamiento del estilo visual de los cielonatos, revisa las formas de druida en alta definición y amplía las opciones de cada jugador con los modelos de personaje en definición estándar. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302546\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8x/8XTUMUPK88R31791312900713.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8x/8XTUMUPK88R31791312900713.png\" alt=\"World of Warcraft: Forever: El futuro de las actualizaciones visuales de los cielonatos\" width=\"833\" height=\"468\"></a></p><p>Descubre de primera mano cómo el equipo de desarrollo de World of Warcraft aborda un refinamiento del estilo visual de los cielonatos, revisa las formas de druida en alta definición y amplía las opciones de cada jugador con los modelos de personaje en definición estándar. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302546\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-classes-take-center-stage-in-this-week%E2%80%99s-wow-weekly/2369930/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-el-futuro-de-las-actualizaciones-visuales-de-los-cielonatos/80344/1"
+    },
+    {
+      "id": "blizz-1232308",
+      "postId": 1232308,
+      "topicId": 80343,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-07T21:00:15.042Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Forever: El futuro de las actualizaciones visuales de los cielonatos",
+        "es": "World of Warcraft: Forever: El futuro de las actualizaciones visuales de los cielonatos"
+      },
+      "summary": {
+        "en": "[World of Warcraft: Forever: El futuro de las actualizaciones visuales de los cielonatos] Descubre de primera mano cómo el equipo de desarrollo de World of Warcraft aborda un refin...",
+        "es": "[World of Warcraft: Forever: El futuro de las actualizaciones visuales de los cielonatos] Descubre de primera mano cómo el equipo de desarrollo de World of Warcraft aborda un refin..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8x/8XTUMUPK88R31791312900713.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8x/8XTUMUPK88R31791312900713.png\" alt=\"World of Warcraft: Forever: El futuro de las actualizaciones visuales de los cielonatos\" width=\"833\" height=\"468\"></a></p><p>Descubre de primera mano cómo el equipo de desarrollo de World of Warcraft aborda un refinamiento del estilo visual de los cielonatos, revisa las formas de druida en alta definición y amplía las opciones de cada jugador con los modelos de personaje en definición estándar. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302546\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8x/8XTUMUPK88R31791312900713.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8x/8XTUMUPK88R31791312900713.png\" alt=\"World of Warcraft: Forever: El futuro de las actualizaciones visuales de los cielonatos\" width=\"833\" height=\"468\"></a></p><p>Descubre de primera mano cómo el equipo de desarrollo de World of Warcraft aborda un refinamiento del estilo visual de los cielonatos, revisa las formas de druida en alta definición y amplía las opciones de cada jugador con los modelos de personaje en definición estándar. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302546\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-el-futuro-de-las-actualizaciones-visuales-de-los-cielonatos/80343/1"
     },
     {
       "id": "blizz-1232303",
@@ -394,60 +450,88 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/notas-de-la-actualizaci%C3%B3n-de-contenido-1215/80285/1"
     },
     {
-      "id": "blizz-1231832",
-      "postId": 1231832,
-      "topicId": 80264,
+      "id": "blizz-6419335",
+      "postId": 6419335,
+      "topicId": 634216,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-29T17:00:09.584Z",
+      "dateRaw": "2026-10-07T22:00:09.896Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "La actualización de contenido 12.1.5 de Midnight llega el 14 de octubre",
-        "es": "La actualización de contenido 12.1.5 de Midnight llega el 14 de octubre"
+        "en": "World of Warcraft: Forever Class Deep Dives — Mage and Shaman",
+        "es": "World of Warcraft: Forever Class Deep Dives — Mage and Shaman"
       },
       "summary": {
-        "en": "[La actualización de contenido 12.1.5 de Midnight llega el 14 de octubre] La actualización de contenido 12.1.5 de Midnight nos trae el laberinto de Kindo&#39;jan (un desafío pareci...",
-        "es": "[La actualización de contenido 12.1.5 de Midnight llega el 14 de octubre] La actualización de contenido 12.1.5 de Midnight nos trae el laberinto de Kindo&#39;jan (un desafío pareci..."
+        "en": "[World of Warcraft: Forever Class Deep Dives — Mage and Shaman] Our World of Warcraft: Forever class deep dive series continues with developer insights into Mages and Shaman. Learn...",
+        "es": "[World of Warcraft: Forever Class Deep Dives — Mage and Shaman] Our World of Warcraft: Forever class deep dive series continues with developer insights into Mages and Shaman. Learn..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\" alt=\"La actualización de contenido 12.1.5 de Midnight llega el 14 de octubre\" width=\"833\" height=\"468\"></a></p><p>La actualización de contenido 12.1.5 de Midnight nos trae el laberinto de Kindo'jan (un desafío parecido a una profundidad, enorme y con nueve cámaras), una nueva banda con un solo jefe, una novedad de mitad de la temporada 2, la emocionante conclusión de la saga de Quel'Thalas y Zul'Aman, las invasiones aqir y más cosas. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307306\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\" alt=\"La actualización de contenido 12.1.5 de Midnight llega el 14 de octubre\" width=\"833\" height=\"468\"></a></p><p>La actualización de contenido 12.1.5 de Midnight nos trae el laberinto de Kindo'jan (un desafío parecido a una profundidad, enorme y con nueve cámaras), una nueva banda con un solo jefe, una novedad de mitad de la temporada 2, la emocionante conclusión de la saga de Quel'Thalas y Zul'Aman, las invasiones aqir y más cosas. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307306\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t4/T46ED5B4T7V11791309695380.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t4/T46ED5B4T7V11791309695380.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Mage and Shaman\" width=\"833\" height=\"468\"></a></p><p>Our World of Warcraft: Forever class deep dive series continues with developer insights into Mages and Shaman. Learn how Mage updates expand Arcane, Fire, and Frost magic with new hybrid possibilities like Frostfire Bolt, and how Shaman changes make totems easier to manage, weapon imbues longer lasting, and Elemental Combat, Enhancement, and Restoration builds more versatile. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24302097\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t4/T46ED5B4T7V11791309695380.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t4/T46ED5B4T7V11791309695380.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Mage and Shaman\" width=\"833\" height=\"468\"></a></p><p>Our World of Warcraft: Forever class deep dive series continues with developer insights into Mages and Shaman. Learn how Mage updates expand Arcano, Fuego, and Escarcha magic with new hybrid possibilities like Frostfire Bolt, and how Shaman changes make totems easier to manage, weapon imbues longer lasting, and Elemental Combat, Mejora, and Restauración builds more versatile. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24302097\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/la-actualizaci%C3%B3n-de-contenido-1215-de-midnight-llega-el-14-de-octubre/80264/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-class-deep-dives-%E2%80%94-mage-and-shaman/634216/1"
     },
     {
-      "id": "blizz-1231582",
-      "postId": 1231582,
-      "topicId": 80222,
+      "id": "blizz-6419334",
+      "postId": 6419334,
+      "topicId": 634215,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-25T17:00:12.668Z",
+      "dateRaw": "2026-10-07T22:00:05.994Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "World of Warcraft: Forever ha tenido una semana llena de novedades",
-        "es": "World of Warcraft: Forever ha tenido una semana llena de novedades"
+        "en": "World of Warcraft: Forever Class Deep Dives — Rogue and Warlock",
+        "es": "World of Warcraft: Forever Class Deep Dives — Rogue and Warlock"
       },
       "summary": {
-        "en": "[World of Warcraft: Forever ha tenido una semana llena de novedades.] Familiarízate con World of Warcraft: Forever con nuestros últimos artículos sobre los conjuntos de reglas, nom...",
-        "es": "[World of Warcraft: Forever ha tenido una semana llena de novedades.] Familiarízate con World of Warcraft: Forever con nuestros últimos artículos sobre los conjuntos de reglas, nom..."
+        "en": "[World of Warcraft: Forever Class Deep Dives — Rogue and Warlock] Masters of subtlety and destructive power take center stage in this World of Warcraft: Forever class deep dive. Ex...",
+        "es": "[World of Warcraft: Forever Class Deep Dives — Rogue and Warlock] Masters of subtlety and destructive power take center stage in this World of Warcraft: Forever class deep dive. Ex..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\" alt=\"World of Warcraft: Forever ha tenido una semana llena de novedades.\" width=\"833\" height=\"468\"></a></p><p>Familiarízate con World of Warcraft: Forever con nuestros últimos artículos sobre los conjuntos de reglas, nombres de personajes, combinaciones de razas y clases, la nueva raza de los cielonatos y el sistema de legado, y no te pierdas el episodio 1 del pódcast de World of Warcraft: Forever. También puedes echar un vistazo al puesto comercial de octubre y al evento de la Fiesta de la Cerveza, además de comprobar qué se cuece en WoW Portal Room y mucho más en Esta semana en WoW. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303315\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\" alt=\"World of Warcraft: Forever ha tenido una semana llena de novedades.\" width=\"833\" height=\"468\"></a></p><p>Familiarízate con World of Warcraft: Forever con nuestros últimos artículos sobre los conjuntos de reglas, nombres de personajes, combinaciones de razas y clases, la nueva raza de los cielonatos y el sistema de legado, y no te pierdas el episodio 1 del pódcast de World of Warcraft: Forever. También puedes echar un vistazo al puesto comercial de octubre y al evento de la Fiesta de la Cerveza, además de comprobar qué se cuece en WoW Portal Room y mucho más en Esta semana en WoW. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303315\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Rogue and Warlock\" width=\"833\" height=\"468\"></a></p><p>Masters of subtlety and destructive power take center stage in this World of Warcraft: Forever class deep dive. Explore how updates to Rogues and Warlocks build on the defining tools, tactics, and playstyles of each class. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310968\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Rogue and Warlock\" width=\"833\" height=\"468\"></a></p><p>Masters of subtlety and destructive power take center stage in this World of Warcraft: Forever class deep dive. Explore how updates to Rogues and Warlocks build on the defining tools, tactics, and playstyles of each class. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310968\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-ha-tenido-una-semana-llena-de-novedades/80222/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-class-deep-dives-%E2%80%94-rogue-and-warlock/634215/1"
+    },
+    {
+      "id": "blizz-6419273",
+      "postId": 6419273,
+      "topicId": 634211,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-07T21:00:12.390Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Forever- The Future of Skyborne Visual Updates",
+        "es": "World of Warcraft: Forever- The Future of Skyborne Visual Updates"
+      },
+      "summary": {
+        "en": "[World of Warcraft: Forever- The Future of Skyborne Visual Updates] Get insights from the World of Warcraft development team on refining the Skyborne visual style, revisiting High-...",
+        "es": "[World of Warcraft: Forever- The Future of Skyborne Visual Updates] Get insights from the World of Warcraft development team on refining the Skyborne visual style, revisiting High-..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8x/8XTUMUPK88R31791312900713.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8x/8XTUMUPK88R31791312900713.png\" alt=\"World of Warcraft: Forever- The Future of Skyborne Visual Updates\" width=\"833\" height=\"468\"></a></p><p>Get insights from the World of Warcraft development team on refining the Skyborne visual style, revisiting High-Definition Druid forms, and expanding player choice with Standard-Definition character models. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24302546\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8x/8XTUMUPK88R31791312900713.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8x/8XTUMUPK88R31791312900713.png\" alt=\"World of Warcraft: Forever- The Future of Skyborne Visual Updates\" width=\"833\" height=\"468\"></a></p><p>Get insights from the World of Warcraft development team on refining the Skyborne visual style, revisiting High-Definition Druid forms, and expanding player choice with Standard-Definition character models. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24302546\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-the-future-of-skyborne-visual-updates/634211/1"
     },
     {
       "id": "blizz-6419106",
@@ -588,6 +672,146 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/incoming-ula%E2%80%99tek-raid-encounter-tuning-6-october/633835/1"
+    },
+    {
+      "id": "blizz-30348193",
+      "postId": 30348193,
+      "topicId": 2373436,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-05T23:17:57.247Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Brief Realm Maintenance - October 5",
+        "es": "Brief Realm Mantenimiento - October 5"
+      },
+      "summary": {
+        "en": "We’re going to do realm restarts in a few minutes, to apply some fixes that should improve the quality of the game service. \nBeta testers who are in-game will see server messages c...",
+        "es": "We’re going to do realm restarts in a few minutes, to apply some fixes that should improve the quality of the game service. \nBeta testers who are in-game will see server messages c..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re going to do realm restarts in a few minutes, to apply some fixes that should improve the quality of the game service.</p>\n<p>Beta testers who are in-game will see server messages counting down to the restart time.</p>\n<p>And the Beta will re-open a few minutes after it goes offline.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re going to do realm restarts in a few minutes, to apply some fixes that should improve the quality of the game service.</p>\n<p>Beta testers who are in-game will see server messages counting down to the restart time.</p>\n<p>And the Beta will re-open a few minutes after it goes offline.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/brief-realm-maintenance-october-5/2373436/1"
+    },
+    {
+      "id": "blizz-30308918",
+      "postId": 30308918,
+      "topicId": 2370266,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-10-02T22:37:59.944Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Incoming Class Tuning - October 6",
+        "es": "Próximamente Ajustes de Balance de Clases - October 6"
+      },
+      "summary": {
+        "en": "The following class adjustments will arrive with scheduled weekly maintenance (October 6 in this region). \nCLASS CHANGES\n\n\nDeath Knight \n\nUnholy\n\nDevelopers’ notes: A recent bug fi...",
+        "es": "The following class adjustments will arrive with scheduled weekly Mantenimiento (October 6 in this region). \nCLASS CHANGES\n\n\nDeath Knight \n\nUnholy\n\nDevelopers’ notes: A recent bug ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The following class adjustments will arrive with scheduled weekly maintenance (October 6 in this region).</p>\n<h2><a name=\"p-30308918-class-changes-1\" class=\"anchor\" href=\"#p-30308918-class-changes-1\" aria-label=\"Heading link\"></a><strong>CLASS CHANGES</strong></h2>\n<ul>\n<li>\n<p><strong>Death Knight</strong></p>\n<ul>\n<li><strong>Unholy</strong>\n<ul>\n<li><em>Developers’ notes: A recent bug fix resulted in Blightfall dealing significantly more damage than we expected. Alongside this tuning change, we’re also making sure the damage is represented accurately when an Augmentation Evoker is present in the group.</em></li>\n<li>Blightfall now deals 100% of the remaining plague damage (was 200%).</li>\n<li>Resolved an issue causing Augmentation Evoker Reattribution damage from plague erupt effects to be attributed to the Death Knight.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Demon Hunter</strong></p>\n<ul>\n<li><strong>Devourer</strong>\n<ul>\n<li><em>Developers’ notes: Many of Devourer’s single target damage sources are receiving buffs that will match their output more closely with our expectations.</em></li>\n<li>Consume/Devour damage increased by 8%. Does not affect PvP combat.</li>\n<li>Reap/Cull damage increased by 8%. Does not affect PvP combat.</li>\n<li>Eradicate primary target damage increased by 8%. Does not affect PvP combat.</li>\n<li>Collapsing Star primary target damage increased by 8%. Does not affect PvP combat.</li>\n<li>The Hunt initial damage increased by 10%. Does not affect PvP combat.</li>\n<li>Voidblade damage increased by 10%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Monk</strong></p>\n<ul>\n<li><strong>Brewmaster</strong>\n<ul>\n<li><em>Developers’ notes: We’re finding Brewmasters’ death rates in dungeons is higher than we’d like, so we’re adjusting some rotational sources of damage reduction to help improve baseline durability.</em></li>\n<li>Quick Sip now purifies 8% of current Stagger amount each time you gain 3 seconds of Stagger duration (was 5%).</li>\n<li>Pretense of Instability grants 10% dodge for 8 seconds after drinking a Brew (was 5 seconds).</li>\n</ul>\n</li>\n<li><strong>Mistweaver</strong>\n<ul>\n<li><em>Developers’ notes: We’re making a few raid focused adjustments to Mistweaver with the aim of increasing their overall performance in that content.</em></li>\n<li>Invigorating Mists healing increased by 15%.</li>\n<li>Enveloping Mist healing increased by 15%. Does not apply in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Rogue</strong></p>\n<ul>\n<li><strong>Subtlety</strong>\n<ul>\n<li><strong>Trickster</strong>\n<ul>\n<li><em>Developers’ notes: We’re buffing Trickster for Subtlety to reduce the performance gap between it and Deathstalker. We want Trickster to be a more viable alternative for players who prefer its gameplay and thematic identity.</em></li>\n<li>Fazed now causes enemies to take 7% more damage (was 5%). Does not affect PvP combat.</li>\n<li>Unseen Blade damage increased by 15%. Does not affect PvP combat.</li>\n<li>Coup de Grace damage increased by 10%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Shaman</strong></p>\n<ul>\n<li><strong>Enhancement</strong>\n<ul>\n<li><em>Developers’ notes: We’re aiming to increase Enhancement Shaman’s throughput all around as they have been underperforming this season, while additionally increasing Lava Lash’s contribution to its overall breakdown.</em></li>\n<li>All ability and auto-attack damage increased by 4%. Does not affect PvP combat.</li>\n<li>Lava Lash damage increased by 35%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<h2><a name=\"p-30308918-player-versus-player-2\" class=\"anchor\" href=\"#p-30308918-player-versus-player-2\" aria-label=\"Heading link\"></a><strong>PLAYER VERSUS PLAYER</strong></h2>\n<p><em>Developers’ notes: With this pass, we’re buffing several underperforming PvP Talents to increase your breadth of options as you play.</em></p>\n<ul>\n<li>\n<p><strong>Tank Specializations</strong></p>\n<ul>\n<li>Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor.\n<ul>\n<li>Focused Assault now stacks to 6 times (was 5).</li>\n<li>Duration increased to 10 seconds (was 6 seconds).</li>\n<li>Cooldown reduced to 15 seconds (was 20 seconds).</li>\n<li>Range increased to 15 yards (was 10 yards).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Death Knight</strong></p>\n<ul>\n<li>Dark Simulacrum (PvP Talent) cooldown reduced to 15 seconds (was 20 seconds).</li>\n<li><strong>Blood</strong>\n<ul>\n<li>Death Chain (PvP Talent) now affects 4 targets (was 3).</li>\n<li>Death Chain (PvP Talent) initial damage increased by 500%.</li>\n<li>Price of Progress (PvP Talent) now causes the Death Knight to be unable to be slowed under 100% of normal speed (was 90%).</li>\n<li>Price of Progress (PvP Talent) now sacrifices 1% health every 1.5 seconds (was 1 second).</li>\n</ul>\n</li>\n<li><strong>Frost</strong>\n<ul>\n<li>Death’s Cold Embrace (PvP Talent) now increases the damage of Remorseless Winter by 450% (was 400%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Demon Hunter</strong></p>\n<ul>\n<li>Cover of Darkness now increases Darkness duration by 4 seconds (was 2 seconds).</li>\n<li><strong>Havoc</strong>\n<ul>\n<li>Illidan’s Grasp damage increased by 50%.</li>\n</ul>\n</li>\n<li><strong>Vengeance</strong>\n<ul>\n<li>Illidan’s Grasp damage increased by 50%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Druid</strong></p>\n<ul>\n<li><strong>Balance</strong>\n<ul>\n<li>Moon and Stars radius increased by 60%.</li>\n<li>Moon and Stars now displays as important on player nameplates.</li>\n<li>Tireless Pursuit duration increased to 6 seconds (was 3 seconds).</li>\n</ul>\n</li>\n<li><strong>Restoration</strong>\n<ul>\n<li>Ancient of Lore: Mass Blooming is now affected by Wild Growth talents like Improved Wild Growth and Early Spring.</li>\n<li>Ancient of Lore: Mass Blooming healing increased by 30%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Evoker</strong></p>\n<ul>\n<li>Dreamwalker’s Embrace damage increased by 140%.</li>\n<li><strong>Augmentation</strong>\n<ul>\n<li>All spell and ability damage increased by 8% in PvP combat.</li>\n<li>Seismic Slam stuns enemies for 5 seconds (was 4 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Hunter</strong></p>\n<ul>\n<li>Hunting Pack (PvP Talent) radius increased to 40 yards (was 30 yards).</li>\n<li><strong>Beast Mastery</strong>\n<ul>\n<li>Dire Beast: Hawk (PvP Talent) damage increased by 200%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Mage</strong></p>\n<ul>\n<li><strong>Fire</strong>\n<ul>\n<li>World in Flames now empowers Flamestrike to deal up to 75% more damage (was 50%).</li>\n<li>Glass Cannon now increases the damage of Fireball, Scorch, and Ignite by 25% (was 20%).</li>\n</ul>\n</li>\n<li><strong>Frost</strong>\n<ul>\n<li>Frost Bomb damage increased by 25%.</li>\n<li>Icy Feet now grants snare immunity for 4 seconds (was 3 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Monk</strong></p>\n<ul>\n<li>Mighty Ox Kick (PvP Talent) cooldown reduced to 20 seconds (was 30 seconds).</li>\n<li><strong>Mistweaver</strong>\n<ul>\n<li>Healing Sphere (PvP Talent) now allows maximum of 5 Healing Spheres to be active at a time (was 3).</li>\n<li>Healing Sphere (PvP Talent) healing increased by 100%.</li>\n</ul>\n</li>\n<li><strong>Windwalker</strong>\n<ul>\n<li>Perpetual Paralysis (PvP Talent) now spreads to 3 targets (was 2).</li>\n<li>Perpetual Paralysis (PvP Talent) now prefers player targets.</li>\n<li>Perpetual Paralysis (PvP Talent) spread range increased to 15 yards (was 10 yards).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Paladin</strong></p>\n<ul>\n<li>Spellbreaker damage increased by 50%.</li>\n<li><strong>Retribution</strong>\n<ul>\n<li>Ultimate Retribution’s duration increased to 20 seconds (was 12 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Priest</strong></p>\n<ul>\n<li>Absolute Faith absorption increased by 113%.</li>\n<li>Improved Mass Dispel reduces the cooldown of Mass Dispel by 75 seconds (was 60 seconds).</li>\n</ul>\n</li>\n<li>\n<p><strong>Rogue</strong></p>\n<ul>\n<li>Thick as Thieves duration increased to 10 seconds (was 6 seconds).</li>\n<li>Death from Above now increases damage by 30% (was 15%).</li>\n<li><strong>Outlaw</strong>\n<ul>\n<li>All damage increased by 5% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Shaman</strong></p>\n<ul>\n<li>Electrocute damage increased by 50% and is now a rolling periodic.</li>\n<li><strong>Restoration</strong>\n<ul>\n<li><em>Developers’ notes: We’re increasing the effectiveness of Earth Shield as its importance has felt lackluster and we would like its placement and management to influence gameplay to a higher degree for both Restoration Shamans and their opposition.</em></li>\n<li>Call of Al’Akir now increases the cooldown of Nature’s Swiftness by 20 seconds (was 30 seconds).</li>\n<li>Earth Shield healing increased by 15% in PvP combat.</li>\n<li>Earthen Harmony now causes Earth Shield to reduce damage taken by 8% in PvP combat (was 5%).</li>\n<li>Earthen Harmony now increases Earth Shield healing received by 200% based on its target’s missing health (was 150%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Warlock</strong></p>\n<ul>\n<li>Bonds of Fel damage increased by 100%.</li>\n<li>Bloodstone duration increased to 18 seconds (was 12 seconds).</li>\n<li>Bloodstone now has a unique visual and updated sound effect.</li>\n<li><strong>Demonology</strong>\n<ul>\n<li>Call Fel Lord’s Fel Cleave damage increased by 150%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Warrior</strong></p>\n<ul>\n<li>Dragon Charge damage increased by 300%.</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The following class adjustments will arrive with scheduled weekly maintenance (October 6 in this region).</p>\n<h2><a name=\"p-30308918-class-changes-1\" class=\"anchor\" href=\"#p-30308918-class-changes-1\" aria-label=\"Heading link\"></a><strong>CAMBIOS DE CLASE</strong></h2>\n<ul>\n<li>\n<p><strong>CABALLERO DE LA MUERTE</strong></p>\n<ul>\n<li><strong>Profano</strong>\n<ul>\n<li><em>Developers’ notes: A recent bug fix resulted in Blightfall dealing significantly more damage than we expected. Alongside this tuning change, we’re also making sure the damage is represented accurately when an Aumento Evoker is present in the group.</em></li>\n<li>Blightfall now deals 100% of the remaining plague damage (antes era 200%).</li>\n<li>Resolved an issue causing Aumento Evoker Reattribution damage from plague erupt effects to be attributed to the Death Knight.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>CAZADOR DE DEMONIOS</strong></p>\n<ul>\n<li><strong>Devourer</strong>\n<ul>\n<li><em>Developers’ notes: Many of Devourer’s single target damage sources are receiving buffs that will match their output more closely with our expectations.</em></li>\n<li>Consume/Devour daño aumentado un 8%. Does not affect PvP combat.</li>\n<li>Reap/Cull daño aumentado un 8%. Does not affect PvP combat.</li>\n<li>Eradicate primary target daño aumentado un 8%. Does not affect PvP combat.</li>\n<li>Collapsing Star primary target daño aumentado un 8%. Does not affect PvP combat.</li>\n<li>The Hunt initial daño aumentado un 10%. Does not affect PvP combat.</li>\n<li>Voidblade daño aumentado un 10%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>MONJE</strong></p>\n<ul>\n<li><strong>Maestro cervecero</strong>\n<ul>\n<li><em>Developers’ notes: We’re finding Brewmasters’ death rates in dungeons is higher than we’d like, so we’re adjusting some rotational sources of damage reduction to help improve baseline durability.</em></li>\n<li>Quick Sip now purifies 8% of current Stagger amount each time you gain 3 seconds of Stagger duration (antes era 5%).</li>\n<li>Pretense of Instability grants 10% dodge for 8 seconds after drinking a Brew (was 5 seconds).</li>\n</ul>\n</li>\n<li><strong>Tejedor de niebla</strong>\n<ul>\n<li><em>Developers’ notes: We’re making a few raid focused adjustments to Tejedor de niebla with the aim of increasing their overall performance in that content.</em></li>\n<li>Invigorating Mists sanación aumentada un 15%.</li>\n<li>Enveloping Mist sanación aumentada un 15%. Does not apply in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>PÍCARO</strong></p>\n<ul>\n<li><strong>Sutileza</strong>\n<ul>\n<li><strong>Trickster</strong>\n<ul>\n<li><em>Developers’ notes: We’re buffing Trickster for Sutileza to reduce the performance gap between it and Deathstalker. We want Trickster to be a more viable alternative for players who prefer its gameplay and thematic identity.</em></li>\n<li>Fazed ahora causa enemies to take 7% more damage (antes era 5%). Does not affect PvP combat.</li>\n<li>Unseen Blade daño aumentado un 15%. Does not affect PvP combat.</li>\n<li>Coup de Grace daño aumentado un 10%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>CHAMÁN</strong></p>\n<ul>\n<li><strong>Mejora</strong>\n<ul>\n<li><em>Developers’ notes: We’re aiming to increase Mejora Shaman’s throughput all around as they have been underperforming this season, while additionally increasing Lava Lash’s contribution to its overall breakdown.</em></li>\n<li>All ability and auto-attack daño aumentado un 4%. Does not affect PvP combat.</li>\n<li>Lava Lash daño aumentado un 35%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<h2><a name=\"p-30308918-player-versus-player-2\" class=\"anchor\" href=\"#p-30308918-player-versus-player-2\" aria-label=\"Heading link\"></a><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></h2>\n<p><em>Developers’ notes: With this pass, we’re buffing several underperforming PvP Talents to increase your breadth of options as you play.</em></p>\n<ul>\n<li>\n<p><strong>Tank Specializations</strong></p>\n<ul>\n<li>Increased the effectiveness of Tank specialization PvP talents that apply Focused Assault: Death Knight’s Murderous Intent, Demon Hunter’s Tormentor, Druid’s Alpha Challenge, Monk’s Admonishment, Paladin’s Inquisition, and Warrior’s Oppressor.\n<ul>\n<li>Focused Assault now stacks to 6 times (was 5).</li>\n<li>Duration increased to 10 seconds (was 6 seconds).</li>\n<li>Cooldown reduced to 15 seconds (was 20 seconds).</li>\n<li>Range increased to 15 yards (was 10 yards).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>CABALLERO DE LA MUERTE</strong></p>\n<ul>\n<li>Dark Simulacrum (PvP Talent) cooldown reduced to 15 seconds (was 20 seconds).</li>\n<li><strong>Sangre</strong>\n<ul>\n<li>Death Chain (PvP Talent) now affects 4 targets (was 3).</li>\n<li>Death Chain (PvP Talent) initial daño aumentado un 500%.</li>\n<li>Price of Progress (PvP Talent) ahora causa the Death Knight to be unable to be slowed under 100% of normal speed (antes era 90%).</li>\n<li>Price of Progress (PvP Talent) now sacrifices 1% health every 1.5 seconds (was 1 second).</li>\n</ul>\n</li>\n<li><strong>Escarcha</strong>\n<ul>\n<li>Death’s Cold Embrace (PvP Talent) ahora aumenta the damage of Remorseless Winter by 450% (antes era 400%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>CAZADOR DE DEMONIOS</strong></p>\n<ul>\n<li>Cover of Darkness ahora aumenta Darkness duration by 4 seconds (was 2 seconds).</li>\n<li><strong>Devastación</strong>\n<ul>\n<li>Illidan’s Grasp daño aumentado un 50%.</li>\n</ul>\n</li>\n<li><strong>Venganza</strong>\n<ul>\n<li>Illidan’s Grasp daño aumentado un 50%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>DRUIDA</strong></p>\n<ul>\n<li><strong>Equilibrio</strong>\n<ul>\n<li>Moon and Stars radius increased by 60%.</li>\n<li>Moon and Stars now displays as important on player nameplates.</li>\n<li>Tireless Pursuit duration increased to 6 seconds (was 3 seconds).</li>\n</ul>\n</li>\n<li><strong>Restauración</strong>\n<ul>\n<li>Ancient of Lore: Mass Blooming ahora es affected by Wild Growth talents like Improved Wild Growth and Early Spring.</li>\n<li>Ancient of Lore: Mass Blooming sanación aumentada un 30%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>EVOCADOR</strong></p>\n<ul>\n<li>Dreamwalker’s Embrace daño aumentado un 140%.</li>\n<li><strong>Aumento</strong>\n<ul>\n<li>All spell and ability daño aumentado un 8% in PvP combat.</li>\n<li>Seismic Slam stuns enemies for 5 seconds (was 4 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>CAZADOR</strong></p>\n<ul>\n<li>Hunting Pack (PvP Talent) radius increased to 40 yards (was 30 yards).</li>\n<li><strong>Dominio de bestias</strong>\n<ul>\n<li>Dire Beast: Hawk (PvP Talent) daño aumentado un 200%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>MAGO</strong></p>\n<ul>\n<li><strong>Fuego</strong>\n<ul>\n<li>World in Flames now empowers Flamestrike to deal up to 75% more damage (antes era 50%).</li>\n<li>Glass Cannon ahora aumenta the damage of Fireball, Scorch, and Ignite by 25% (antes era 20%).</li>\n</ul>\n</li>\n<li><strong>Escarcha</strong>\n<ul>\n<li>Escarcha Bomb daño aumentado un 25%.</li>\n<li>Icy Feet now grants snare immunity for 4 seconds (was 3 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>MONJE</strong></p>\n<ul>\n<li>Mighty Ox Kick (PvP Talent) cooldown reduced to 20 seconds (was 30 seconds).</li>\n<li><strong>Tejedor de niebla</strong>\n<ul>\n<li>Healing Sphere (PvP Talent) now allows maximum of 5 Healing Spheres to be active at a time (was 3).</li>\n<li>Healing Sphere (PvP Talent) sanación aumentada un 100%.</li>\n</ul>\n</li>\n<li><strong>Viajero del viento</strong>\n<ul>\n<li>Perpetual Paralysis (PvP Talent) now spreads to 3 targets (was 2).</li>\n<li>Perpetual Paralysis (PvP Talent) now prefers player targets.</li>\n<li>Perpetual Paralysis (PvP Talent) spread range increased to 15 yards (was 10 yards).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>PALADÍN</strong></p>\n<ul>\n<li>Spellbreaker daño aumentado un 50%.</li>\n<li><strong>Reprensión</strong>\n<ul>\n<li>Ultimate Reprensión’s duration increased to 20 seconds (was 12 seconds).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>SACERDOTE</strong></p>\n<ul>\n<li>Absolute Faith absorption increased by 113%.</li>\n<li>Improved Mass Dispel reduces the cooldown of Mass Dispel by 75 seconds (was 60 seconds).</li>\n</ul>\n</li>\n<li>\n<p><strong>PÍCARO</strong></p>\n<ul>\n<li>Thick as Thieves duration increased to 10 seconds (was 6 seconds).</li>\n<li>Death from Above ahora aumenta damage by 30% (antes era 15%).</li>\n<li><strong>Forajido</strong>\n<ul>\n<li>All daño aumentado un 5% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>CHAMÁN</strong></p>\n<ul>\n<li>Electrocute daño aumentado un 50% and ahora es a rolling periodic.</li>\n<li><strong>Restauración</strong>\n<ul>\n<li><em>Developers’ notes: We’re increasing the effectiveness of Earth Shield as its importance has felt lackluster and we would like its placement and management to influence gameplay to a higher degree for both Restauración Shamans and their opposition.</em></li>\n<li>Call of Al’Akir ahora aumenta the cooldown of Nature’s Swiftness by 20 seconds (was 30 seconds).</li>\n<li>Earth Shield sanación aumentada un 15% in PvP combat.</li>\n<li>Earthen Harmony ahora causa Earth Shield to reduce damage taken by 8% in PvP combat (antes era 5%).</li>\n<li>Earthen Harmony ahora aumenta Earth Shield healing received by 200% based on its target’s missing health (antes era 150%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>BRUJO</strong></p>\n<ul>\n<li>Bonds of Fel daño aumentado un 100%.</li>\n<li>Bloodstone duration increased to 18 seconds (was 12 seconds).</li>\n<li>Bloodstone now has a unique visual and updated sound effect.</li>\n<li><strong>Demonología</strong>\n<ul>\n<li>Call Fel Lord’s Fel Cleave daño aumentado un 150%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>GUERRERO</strong></p>\n<ul>\n<li>Dragon Charge daño aumentado un 300%.</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/incoming-class-tuning-october-6/2370266/1"
+    },
+    {
+      "id": "blizz-30304669",
+      "postId": 30304669,
+      "topicId": 2369930,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-02T17:06:50.306Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly",
+        "es": "WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly"
+      },
+      "summary": {
+        "en": "[WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly] A new week brings even more to discover across World of Warcraft. Explore the latest WoW: Forever class spotlight...",
+        "es": "[WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly] A new week brings even more to discover across World of Warcraft. Explore the latest WoW: Forever class spotlight..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\" alt=\"WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly\" width=\"833\" height=\"468\"></a></p><p>A new week brings even more to discover across World of Warcraft. Explore the latest WoW: Forever class spotlights featuring the Hunter, Druid, Priest, and Warrior, and tune in for episode 2 of the WoW: Forever Podcast. Then, see what’s on the horizon for Midnight with the 12.1.5 content update. Discover it all in this week’s WoW Weekly. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310649\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ls/LSH0JKZ56JQT1790899081716.png\" alt=\"WoW: Forever Classes Take Center Stage in This Week’s Wow Weekly\" width=\"833\" height=\"468\"></a></p><p>A new week brings even more to discover across World of Warcraft. Explore the latest WoW: Forever class spotlights featuring the Hunter, Druid, Priest, and Warrior, and tune in for episode 2 of the WoW: Forever Podcast. Then, see what’s on the horizon for Midnight with the 12.1.5 content update. Discover it all in this week’s WoW Weekly. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310649\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-classes-take-center-stage-in-this-week%E2%80%99s-wow-weekly/2369930/1"
+    },
+    {
+      "id": "blizz-1231832",
+      "postId": 1231832,
+      "topicId": 80264,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-29T17:00:09.584Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "La actualización de contenido 12.1.5 de Midnight llega el 14 de octubre",
+        "es": "La actualización de contenido 12.1.5 de Midnight llega el 14 de octubre"
+      },
+      "summary": {
+        "en": "[La actualización de contenido 12.1.5 de Midnight llega el 14 de octubre] La actualización de contenido 12.1.5 de Midnight nos trae el laberinto de Kindo&#39;jan (un desafío pareci...",
+        "es": "[La actualización de contenido 12.1.5 de Midnight llega el 14 de octubre] La actualización de contenido 12.1.5 de Midnight nos trae el laberinto de Kindo&#39;jan (un desafío pareci..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\" alt=\"La actualización de contenido 12.1.5 de Midnight llega el 14 de octubre\" width=\"833\" height=\"468\"></a></p><p>La actualización de contenido 12.1.5 de Midnight nos trae el laberinto de Kindo'jan (un desafío parecido a una profundidad, enorme y con nueve cámaras), una nueva banda con un solo jefe, una novedad de mitad de la temporada 2, la emocionante conclusión de la saga de Quel'Thalas y Zul'Aman, las invasiones aqir y más cosas. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307306\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/81/816R15SN49MW1789683343675.png\" alt=\"La actualización de contenido 12.1.5 de Midnight llega el 14 de octubre\" width=\"833\" height=\"468\"></a></p><p>La actualización de contenido 12.1.5 de Midnight nos trae el laberinto de Kindo'jan (un desafío parecido a una profundidad, enorme y con nueve cámaras), una nueva banda con un solo jefe, una novedad de mitad de la temporada 2, la emocionante conclusión de la saga de Quel'Thalas y Zul'Aman, las invasiones aqir y más cosas. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307306\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/la-actualizaci%C3%B3n-de-contenido-1215-de-midnight-llega-el-14-de-octubre/80264/1"
+    },
+    {
+      "id": "blizz-1231582",
+      "postId": 1231582,
+      "topicId": 80222,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-09-25T17:00:12.668Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Forever ha tenido una semana llena de novedades",
+        "es": "World of Warcraft: Forever ha tenido una semana llena de novedades"
+      },
+      "summary": {
+        "en": "[World of Warcraft: Forever ha tenido una semana llena de novedades.] Familiarízate con World of Warcraft: Forever con nuestros últimos artículos sobre los conjuntos de reglas, nom...",
+        "es": "[World of Warcraft: Forever ha tenido una semana llena de novedades.] Familiarízate con World of Warcraft: Forever con nuestros últimos artículos sobre los conjuntos de reglas, nom..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\" alt=\"World of Warcraft: Forever ha tenido una semana llena de novedades.\" width=\"833\" height=\"468\"></a></p><p>Familiarízate con World of Warcraft: Forever con nuestros últimos artículos sobre los conjuntos de reglas, nombres de personajes, combinaciones de razas y clases, la nueva raza de los cielonatos y el sistema de legado, y no te pierdas el episodio 1 del pódcast de World of Warcraft: Forever. También puedes echar un vistazo al puesto comercial de octubre y al evento de la Fiesta de la Cerveza, además de comprobar qué se cuece en WoW Portal Room y mucho más en Esta semana en WoW. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303315\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8g/8GVROM14G7X01790297116004.png\" alt=\"World of Warcraft: Forever ha tenido una semana llena de novedades.\" width=\"833\" height=\"468\"></a></p><p>Familiarízate con World of Warcraft: Forever con nuestros últimos artículos sobre los conjuntos de reglas, nombres de personajes, combinaciones de razas y clases, la nueva raza de los cielonatos y el sistema de legado, y no te pierdas el episodio 1 del pódcast de World of Warcraft: Forever. También puedes echar un vistazo al puesto comercial de octubre y al evento de la Fiesta de la Cerveza, además de comprobar qué se cuece en WoW Portal Room y mucho más en Esta semana en WoW. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303315\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-ha-tenido-una-semana-llena-de-novedades/80222/1"
     },
     {
       "id": "blizz-6415609",
@@ -1176,230 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/sobre-la-categor%C3%ADa-wow-forever-general/80189/1"
-    },
-    {
-      "id": "blizz-1231419",
-      "postId": 1231419,
-      "topicId": 80182,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-23T17:00:15.788Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Familiarízate con el sistema de legado de World of Warcraft: Forever",
-        "es": "Familiarízate con el sistema de legado de World of Warcraft: Forever"
-      },
-      "summary": {
-        "en": "[Familiarízate con el sistema de legado de World of Warcraft: Forever.] Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que t...",
-        "es": "[Familiarízate con el sistema de legado de World of Warcraft: Forever.] Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que t..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Familiarízate con el sistema de legado de World of Warcraft: Forever.\" width=\"833\" height=\"468\"></a></p><p>Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que te permite completar desafíos, ganar puntos de legado, desbloquear ventajas específicas del personaje y conseguir recompensas cosméticas a lo largo de tu aventura por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307383\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/q7/Q7DCITNH6C9A1790133996517.png\" alt=\"Familiarízate con el sistema de legado de World of Warcraft: Forever.\" width=\"833\" height=\"468\"></a></p><p>Explora el sistema de legado en World of Warcraft: Forever, un sistema de progresión en toda la cuenta que te permite completar desafíos, ganar puntos de legado, desbloquear ventajas específicas del personaje y conseguir recompensas cosméticas a lo largo de tu aventura por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24307383\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/familiar%C3%ADzate-con-el-sistema-de-legado-de-world-of-warcraft-forever/80182/1"
-    },
-    {
-      "id": "blizz-6406735",
-      "postId": 6406735,
-      "topicId": 632922,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-01T17:00:08.458Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "12.1.5 Content Update Notes",
-        "es": "12.1.5 Content Update Notes"
-      },
-      "summary": {
-        "en": "[12.1.5 Content Update Notes] Read all the changes that are coming in the 12.1.5 content update.  View Full Article...",
-        "es": "[12.1.5 Content Update Notes] Read all the changes that are coming in the 12.1.5 content update.  View Full Article..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\" alt=\"12.1.5 Content Update Notes\" width=\"833\" height=\"468\"></a></p><p>Read all the changes that are coming in the 12.1.5 content update. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304162\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\" alt=\"12.1.5 Content Update Notes\" width=\"833\" height=\"468\"></a></p><p>Read all the changes that are coming in the 12.1.5 content update. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304162\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/1215-content-update-notes/632922/1"
-    },
-    {
-      "id": "blizz-30280975",
-      "postId": 30280975,
-      "topicId": 2368213,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-01T17:00:13.032Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "12.1.5 Content Update Notes",
-        "es": "12.1.5 Content Update Notes"
-      },
-      "summary": {
-        "en": "[12.1.5 Content Update Notes] Read all the changes that are coming in the 12.1.5 content update.  View Full Article...",
-        "es": "[12.1.5 Content Update Notes] Read all the changes that are coming in the 12.1.5 content update.  View Full Article..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\" alt=\"12.1.5 Content Update Notes\" width=\"833\" height=\"468\"></a></p><p>Read all the changes that are coming in the 12.1.5 content update. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24304162\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/yn/YNR5OVERF9B31790809021642.png\" alt=\"12.1.5 Content Update Notes\" width=\"833\" height=\"468\"></a></p><p>Read all the changes that are coming in the 12.1.5 content update. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24304162\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/1215-content-update-notes/2368213/1"
-    },
-    {
-      "id": "blizz-6406697",
-      "postId": 6406697,
-      "topicId": 632918,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-01T16:46:13.925Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬",
-        "es": "The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬"
-      },
-      "summary": {
-        "en": "[Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast]...",
-        "es": "[Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast]..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"uDRcv_w85j8\" data-video-title=\"Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=uDRcv_w85j8\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/uDRcv_w85j8/maxresdefault.jpg\" title=\"Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"uDRcv_w85j8\" data-video-title=\"Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=uDRcv_w85j8\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/uDRcv_w85j8/maxresdefault.jpg\" title=\"Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/632918/1"
-    },
-    {
-      "id": "blizz-30280608",
-      "postId": 30280608,
-      "topicId": 2368192,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-01T16:38:45.070Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬",
-        "es": "The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬"
-      },
-      "summary": {
-        "en": "[Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast]...",
-        "es": "[Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast]..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"uDRcv_w85j8\" data-video-title=\"Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=uDRcv_w85j8\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/uDRcv_w85j8/maxresdefault.jpg\" title=\"Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"uDRcv_w85j8\" data-video-title=\"Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=uDRcv_w85j8\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/uDRcv_w85j8/maxresdefault.jpg\" title=\"Speed Running Classes ft. @sodapoppin | Episode 2 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/2368192/1"
-    },
-    {
-      "id": "blizz-30280320",
-      "postId": 30280320,
-      "topicId": 2368175,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-01T16:22:25.453Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Watch Now! WoW: Forever Podcast Ep.2, Speedrunning Classes",
-        "es": "Watch Now! WoW: Forever Podcast Ep.2, Speedrunning Classes"
-      },
-      "summary": {
-        "en": "[Watch Now! WoW: Forever Podcast Ep.2, Speedrunning Classes] Join Host Countdown To Classic, Senior Game Designer Josh “Aggrend” Greenfield, Principal Game Designer Kris Zierhut, a...",
-        "es": "[Watch Now! WoW: Forever Podcast Ep.2, Speedrunning Classes] Join Host Countdown To Classic, Senior Game Designer Josh “Aggrend” Greenfield, Principal Game Designer Kris Zierhut, a..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xp/XPQ805F9I1HL1790870053515.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xp/XPQ805F9I1HL1790870053515.png\" alt=\"Watch Now! WoW: Forever Podcast Ep.2, Speedrunning Classes\" width=\"833\" height=\"468\"></a></p><p>Join Host Countdown To Classic, Senior Game Designer Josh “Aggrend” Greenfield, Principal Game Designer Kris Zierhut, and Senior Game Designer Aidan Moon, with special guest and content creator Sodapoppin. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24298592\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xp/XPQ805F9I1HL1790870053515.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xp/XPQ805F9I1HL1790870053515.png\" alt=\"Watch Now! WoW: Forever Podcast Ep.2, Speedrunning Classes\" width=\"833\" height=\"468\"></a></p><p>Join Host Countdown To Classic, Senior Game Designer Josh “Aggrend” Greenfield, Principal Game Designer Kris Zierhut, and Senior Game Designer Aidan Moon, with special guest and content creator Sodapoppin. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24298592\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/watch-now-wow-forever-podcast-ep2-speedrunning-classes/2368175/1"
-    },
-    {
-      "id": "blizz-6405081",
-      "postId": 6405081,
-      "topicId": 632751,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-01T00:19:30.169Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Beta Update Maintenance - Evening of 1 October",
-        "es": "Beta Update Mantenimiento - Evening of 1 October"
-      },
-      "summary": {
-        "en": "This evening CEST, we will take the WoW Forever Beta offline for maintenance. A few hours later, (early in the morning of October 2), the Beta will resume with an updated build tha...",
-        "es": "This evening CEST, we will take the WoW Forever Beta offline for Mantenimiento. A few hours later, (early in the morning of October 2), the Beta will resume with an updated build t..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>This evening CEST, we will take the WoW Forever Beta offline for maintenance. A few hours later, (early in the morning of October 2), the Beta will resume with an updated build that includes changes and fixes, with the level cap raised to 30.</p>\n<p><a href=\"https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-24-september/631316/1\">We’ll have all the details here tomorrow</a>.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>This evening CEST, we will take the WoW Forever Beta offline for maintenance. A few hours later, (early in the morning of October 2), the Beta will resume with an updated build that includes changes and fixes, with the level cap raised to 30.</p>\n<p><a href=\"https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-24-september/631316/1\">We’ll have all the details here tomorrow</a>.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/beta-update-maintenance-evening-of-1-october/632751/1"
-    },
-    {
-      "id": "blizz-6404878",
-      "postId": 6404878,
-      "topicId": 632719,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-09-30T21:00:06.473Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Forever Class Deep Dives — Priest and Warrior",
-        "es": "World of Warcraft: Forever Class Deep Dives — Priest and Warrior"
-      },
-      "summary": {
-        "en": "[World of Warcraft: Forever Class Deep Dives — Priest and Warrior] Priests and Warriors are next in our World of Warcraft: Forever class deep dives, with updates that build on the ...",
-        "es": "[World of Warcraft: Forever Class Deep Dives — Priest and Warrior] Priests and Warriors are next in our World of Warcraft: Forever class deep dives, with updates that build on the ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/0r/0RWZZTA4YM5I1790725765674.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/0r/0RWZZTA4YM5I1790725765674.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Priest and Warrior\" width=\"833\" height=\"468\"></a></p><p>Priests and Warriors are next in our World of Warcraft: Forever class deep dives, with updates that build on the roles, rhythms, and class-defining tools players know. This look covers new and adjusted baseline abilities, refreshed racial Priest spells, Rage and stance updates for Warriors, and talent changes across Discipline, Holy, Shadow, Arms, Fury, and Protection. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24301514\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/0r/0RWZZTA4YM5I1790725765674.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/0r/0RWZZTA4YM5I1790725765674.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Priest and Warrior\" width=\"833\" height=\"468\"></a></p><p>Priests and Warriors are next in our World of Warcraft: Forever class deep dives, with updates that build on the roles, rhythms, and class-defining tools players know. This look covers new and adjusted baseline abilities, refreshed racial Priest spells, Rage and stance updates for Warriors, and talent changes across Disciplina, Sagrado, Sombras, Armas, Furia, and Protección. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24301514\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-class-deep-dives-%E2%80%94-priest-and-warrior/632719/1"
     }
   ],
   "blizzardNews": [
