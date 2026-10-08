@@ -1192,17 +1192,55 @@ function openArticleModal(articleId, source = 'auto') {
     }
   }
 
-  // Actualizar el hash en la URL del navegador sin saltos de scroll
+  // Actualizar la URL con Query Parameter (?news=) para SEO en lugar de hash, y cambiar el Título / Meta Description
   try {
-    const targetHash = `#news-${article.id}`;
-    if (window.location.hash !== targetHash) {
+    const targetParam = `?news=${article.id}`;
+    if (!window.location.search.includes(`news=${article.id}`)) {
       if (window.history && window.history.replaceState) {
-        const urlBase = window.location.href.split('#')[0];
-        window.history.replaceState(null, '', urlBase + targetHash);
-      } else {
-        window.location.hash = targetHash;
+        const urlBase = window.location.href.split('?')[0].split('#')[0];
+        window.history.replaceState(null, '', urlBase + targetParam + window.location.hash);
       }
     }
+
+    // Almacenar el título original para restaurarlo al cerrar
+    if (!window.originalPageTitle) {
+      window.originalPageTitle = document.title;
+      const metaDesc = document.querySelector('meta[name="description"]');
+      window.originalPageMeta = metaDesc ? metaDesc.getAttribute('content') : '';
+    }
+
+    // Inyectar Título SEO del Artículo
+    document.title = `${titleText} | WoWTopGear`;
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', summaryText || titleText);
+
+    // Inyectar Schema.org de NewsArticle dinámico
+    let schemaEl = document.getElementById('dynamic-news-schema');
+    if (!schemaEl) {
+      schemaEl = document.createElement('script');
+      schemaEl.type = 'application/ld+json';
+      schemaEl.id = 'dynamic-news-schema';
+      document.head.appendChild(schemaEl);
+    }
+    const schemaData = {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": titleText,
+      "description": summaryText || titleText,
+      "datePublished": article.dateRaw || new Date().toISOString(),
+      "author": [{
+          "@type": "Organization",
+          "name": article.author || 'Blizzard Entertainment'
+      }],
+      "publisher": {
+          "@type": "Organization",
+          "name": "WoWTopGear",
+          "url": "https://wowtopgear.app/"
+      },
+      "url": window.location.href
+    };
+    schemaEl.textContent = JSON.stringify(schemaData);
+    
   } catch (e) {}
 
   // Si es un post de Blizzard y no tiene cuerpo completo, intentar traerlo discretamente en segundo plano sin bloquear ni mostrar spinners congelados
@@ -1279,9 +1317,9 @@ function shareCurrentArticle() {
   // Construir URL limpia
   let shareUrl = '';
   if (window.location.protocol === 'file:') {
-    shareUrl = `${window.location.href.split('#')[0]}#news-${article.id}`;
+    shareUrl = `${window.location.href.split('?')[0].split('#')[0]}?news=${article.id}`;
   } else {
-    shareUrl = `${window.location.origin}${window.location.pathname}#news-${article.id}`;
+    shareUrl = `${window.location.origin}${window.location.pathname}?news=${article.id}`;
   }
 
   const btnLabel = document.getElementById('btn-share-article-label');
@@ -1334,18 +1372,35 @@ function closeArticleModal() {
   if (modal) modal.classList.add('hidden');
   document.body.style.overflow = '';
 
-  // Limpiar el hash de la URL si apuntaba a una noticia sin provocar scroll al top
+  // Limpiar el parámetro de la URL si apuntaba a una noticia, y restaurar Título/Schema
   try {
-    if (window.location.hash && window.location.hash.startsWith('#news-')) {
+    if (window.location.search && window.location.search.includes('news=')) {
       if (window.history && window.history.replaceState) {
-        // history.replaceState funciona tanto en http(s) como en file: en navegadores modernos
-        // Evita el salto brusco a # que provoca window.location.hash = ''
-        const cleanUrl = window.location.href.split('#')[0];
-        window.history.replaceState(null, '', cleanUrl);
-      } else {
-        window.location.hash = '';
+        const urlObj = new URL(window.location.href);
+        urlObj.searchParams.delete('news');
+        window.history.replaceState(null, '', urlObj.toString());
       }
     }
+    
+    // Si la URL antigua tenía hash '#news-', también limpiarlo
+    if (window.location.hash && window.location.hash.startsWith('#news-')) {
+      if (window.history && window.history.replaceState) {
+        const cleanUrl = window.location.href.split('#')[0];
+        window.history.replaceState(null, '', cleanUrl);
+      }
+    }
+
+    // Restaurar el Título y Meta Description original
+    if (window.originalPageTitle) {
+      document.title = window.originalPageTitle;
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) metaDesc.setAttribute('content', window.originalPageMeta);
+    }
+
+    // Limpiar Schema de Noticia
+    const schemaEl = document.getElementById('dynamic-news-schema');
+    if (schemaEl) schemaEl.remove();
+
   } catch (e) {}
 
   // Restaurar la posición de scroll exacta en la que estaba el usuario antes de abrir el modal
@@ -1366,8 +1421,21 @@ function closeArticleModal() {
   }
 }
 
-// Abrir artículo directo desde hash de URL (p. ej. index.html#news-blizz-30111968)
-function checkUrlHashForArticle() {
+// Abrir artículo directo desde parámetro de URL (?news=blizz-123) o hash por retrocompatibilidad
+function checkUrlParamForArticle() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const newsId = urlParams.get('news');
+  
+  if (newsId) {
+    setTimeout(() => {
+      if (typeof openArticleModal === 'function') {
+        openArticleModal(newsId);
+      }
+    }, 200);
+    return;
+  }
+
+  // Fallback para hashes antiguos (#news-123)
   const hash = window.location.hash;
   if (hash && hash.startsWith('#news-')) {
     const articleId = hash.replace('#news-', '');
@@ -1389,16 +1457,16 @@ function refreshArticleModalLanguage() {
   }
 }
 
-// Escuchar cambios de hash en la URL (por ejemplo si el usuario pega un enlace directo o usa atrás/adelante)
-window.addEventListener('hashchange', checkUrlHashForArticle);
+// Escuchar cambios (botones Atrás/Adelante del navegador)
+window.addEventListener('popstate', checkUrlParamForArticle);
 
-// Al cargar la página, comprobar si viene con hash de noticia
+// Al cargar la página, comprobar si viene con parámetro de noticia
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => {
-    setTimeout(checkUrlHashForArticle, 350);
+    setTimeout(checkUrlParamForArticle, 350);
   });
 } else {
-  setTimeout(checkUrlHashForArticle, 350);
+  setTimeout(checkUrlParamForArticle, 350);
 }
 
 // Cerrar con Escape

@@ -17,10 +17,10 @@ function walkDir(dir, callback) {
 let count = 0;
 walkDir('.', (filePath) => {
   let content = fs.readFileSync(filePath, 'utf8');
-  let newContent = content.replace(/\?v=2026[0-9]{4}_v[0-9]+/g, '?v=20261008_v32');
+  let newContent = content.replace(/\?v=20261008_v32/g, '?v=20261008_v33');
   if (content !== newContent) {
     fs.writeFileSync(filePath, newContent, 'utf8');
     count++;
   }
 });
-console.log(`Bumped general version in ${count} files.`);
+console.log(`Bumped general version to v33 in ${count} files.`);
