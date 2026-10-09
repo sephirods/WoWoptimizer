@@ -618,34 +618,6 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/brew-up-trouble-with-the-hexed-witchwick-collection/634385/1"
     },
     {
-      "id": "blizz-6420980",
-      "postId": 6420980,
-      "topicId": 634384,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-08T18:40:17.185Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Brew Up Trouble with the Hexed Witchwick Collection",
-        "es": "Brew Up Trouble with the Hexed Witchwick Collection"
-      },
-      "summary": {
-        "en": "[Brew Up Trouble with the Hexed Witchwick Collection] Something wickedly stylish is stirring in Azeroth. Four bewitching bundles have bubbled up to help you weave a little magic in...",
-        "es": "[Brew Up Trouble with the Hexed Witchwick Collection] Something wickedly stylish is stirring in Azeroth. Four bewitching bundles have bubbled up to help you weave a little magic in..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/rl/RLLPJMCNC2NE1791313493678.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/rl/RLLPJMCNC2NE1791313493678.png\" alt=\"Brew Up Trouble with the Hexed Witchwick Collection\" width=\"833\" height=\"468\"></a></p><p>Something wickedly stylish is stirring in Azeroth. Four bewitching bundles have bubbled up to help you weave a little magic into your wardrobe, each with an enchanted broom ready to carry you through the skies. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310651\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/rl/RLLPJMCNC2NE1791313493678.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/rl/RLLPJMCNC2NE1791313493678.png\" alt=\"Brew Up Trouble with the Hexed Witchwick Collection\" width=\"833\" height=\"468\"></a></p><p>Something wickedly stylish is stirring in Azeroth. Four bewitching bundles have bubbled up to help you weave a little magic into your wardrobe, each with an enchanted broom ready to carry you through the skies. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310651\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/brew-up-trouble-with-the-hexed-witchwick-collection/634384/1"
-    },
-    {
       "id": "blizz-6420889",
       "postId": 6420889,
       "topicId": 634376,
@@ -674,34 +646,6 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/bcca-face-the-gods-of-zul%E2%80%99aman-on-22-october/634376/1"
     },
     {
-      "id": "blizz-30387589",
-      "postId": 30387589,
-      "topicId": 2376010,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-08T16:27:48.056Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming",
-        "es": "The WoW: Forever Podcast: Episode 3 - Dive Into Mazmorras With Devs ft. @Hammerdancegaming"
-      },
-      "summary": {
-        "en": "[Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast]...",
-        "es": "[Dive into Mazmorras with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast]..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"LwOWAf06YPg\" data-video-title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=LwOWAf06YPg\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/LwOWAf06YPg/maxresdefault.jpg\" title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"LwOWAf06YPg\" data-video-title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=LwOWAf06YPg\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/LwOWAf06YPg/maxresdefault.jpg\" title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/2376010/1"
-    },
-    {
       "id": "blizz-6420570",
       "postId": 6420570,
       "topicId": 634342,
@@ -728,6 +672,62 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/634342/1"
+    },
+    {
+      "id": "blizz-6420980",
+      "postId": 6420980,
+      "topicId": 634384,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-08T18:40:17.185Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Brew Up Trouble with the Hexed Witchwick Collection",
+        "es": "Brew Up Trouble with the Hexed Witchwick Collection"
+      },
+      "summary": {
+        "en": "[Brew Up Trouble with the Hexed Witchwick Collection] Something wickedly stylish is stirring in Azeroth. Four bewitching bundles have bubbled up to help you weave a little magic in...",
+        "es": "[Brew Up Trouble with the Hexed Witchwick Collection] Something wickedly stylish is stirring in Azeroth. Four bewitching bundles have bubbled up to help you weave a little magic in..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/rl/RLLPJMCNC2NE1791313493678.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/rl/RLLPJMCNC2NE1791313493678.png\" alt=\"Brew Up Trouble with the Hexed Witchwick Collection\" width=\"833\" height=\"468\"></a></p><p>Something wickedly stylish is stirring in Azeroth. Four bewitching bundles have bubbled up to help you weave a little magic into your wardrobe, each with an enchanted broom ready to carry you through the skies. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310651\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/rl/RLLPJMCNC2NE1791313493678.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/rl/RLLPJMCNC2NE1791313493678.png\" alt=\"Brew Up Trouble with the Hexed Witchwick Collection\" width=\"833\" height=\"468\"></a></p><p>Something wickedly stylish is stirring in Azeroth. Four bewitching bundles have bubbled up to help you weave a little magic into your wardrobe, each with an enchanted broom ready to carry you through the skies. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310651\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/brew-up-trouble-with-the-hexed-witchwick-collection/634384/1"
+    },
+    {
+      "id": "blizz-30387589",
+      "postId": 30387589,
+      "topicId": 2376010,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-08T16:27:48.056Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming",
+        "es": "The WoW: Forever Podcast: Episode 3 - Dive Into Mazmorras With Devs ft. @Hammerdancegaming"
+      },
+      "summary": {
+        "en": "[Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast]...",
+        "es": "[Dive into Mazmorras with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast]..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"LwOWAf06YPg\" data-video-title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=LwOWAf06YPg\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/LwOWAf06YPg/maxresdefault.jpg\" title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"LwOWAf06YPg\" data-video-title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=LwOWAf06YPg\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/LwOWAf06YPg/maxresdefault.jpg\" title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/2376010/1"
     },
     {
       "id": "blizz-30387552",
