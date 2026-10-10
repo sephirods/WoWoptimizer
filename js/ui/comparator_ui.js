@@ -546,12 +546,12 @@ function openCompareModal() {
                 const curGemStats = getItemGemStats(curItem);
                 const curGemIds = curGemStats.gemIds;
                 const curGemObjs = curGemIds.map(id => Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === id)).filter(Boolean);
-                const curGemNeedsChange = false; // logic simplified for array
+                const curGemNeedsChange = optGemRecs.length > 0 && JSON.stringify([...curGemIds].sort()) !== JSON.stringify(optGemRecs.map(r => r.gemItemId).sort());
 
                 const optCurrentGemStats = getItemGemStats(optItem);
                 const optCurrentGemIds = optCurrentGemStats.gemIds;
                 const optCurrentGemObjs = optCurrentGemIds.map(id => Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === id)).filter(Boolean);
-                const optGemNeedsChange = false; // logic simplified for array
+                const optGemNeedsChange = optGemRecs.length > 0 && JSON.stringify([...optCurrentGemIds].sort()) !== JSON.stringify(optGemRecs.map(r => r.gemItemId).sort());
 
                 const bisEnch = getSlotBiSEnchant(optItem.slot);
                 const curEnchMatch = curItem.rawSimcOptions ? curItem.rawSimcOptions.match(/enchant_id=(\d+)/i) : null;
@@ -672,7 +672,7 @@ function openCompareModal() {
                           `<span class="w-28 py-1 rounded bg-amber-950/90 text-amber-300 border border-amber-500/60 text-[10px] font-bold shadow-sm inline-flex items-center justify-center gap-1.5 transition">⚡ ${t('equipAction', 'Equip Item')}</span>` : ''
                         }
                         ${(!isSame ? optGemNeedsChange : curGemNeedsChange) ? 
-                          `<span class="w-28 py-1 rounded bg-purple-950/90 text-purple-300 border border-purple-500/60 text-[10px] font-bold inline-flex items-center justify-center gap-1.5 shadow-sm transition">💎 ${(!isSame ? optCurrentGemId : curGemId) ? t('changeGem', 'Change Gem') : t('socketGem', 'Socket Gem')}</span>` : ''
+                          `<span class="w-28 py-1 rounded bg-purple-950/90 text-purple-300 border border-purple-500/60 text-[10px] font-bold inline-flex items-center justify-center gap-1.5 shadow-sm transition">💎 ${(!isSame ? optCurrentGemIds.length > 0 : curGemIds.length > 0) ? t('changeGem', 'Change Gem') : t('socketGem', 'Socket Gem')}</span>` : ''
                         }
                         ${(!isSame ? (optEnchantNeedsApply || optEnchantCanOptimize) : (enchantNeedsApply || enchantCanOptimize)) ? 
                           `<span class="w-28 py-1 rounded bg-blue-950/90 text-blue-300 border border-blue-500/60 text-[10px] font-bold inline-flex items-center justify-center gap-1.5 shadow-sm transition">✨ ${(!isSame ? optEnchId : curEnchId) ? t('reEnchant', 'Re-enchant') : t('applyEnchant', 'Enchant')}</span>` : ''
@@ -826,12 +826,12 @@ function openCompareModal() {
             const curGemStats = getItemGemStats(curItem);
             const curGemIds = curGemStats.gemIds;
             const curGemObjs = curGemIds.map(id => Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === id)).filter(Boolean);
-            const curGemNeedsChange = false; // logic simplified for array
+            const curGemNeedsChange = optGemRecs.length > 0 && JSON.stringify([...curGemIds].sort()) !== JSON.stringify(optGemRecs.map(r => r.gemItemId).sort());
 
             const optCurrentGemStats = getItemGemStats(optItem);
             const optCurrentGemIds = optCurrentGemStats.gemIds;
             const optCurrentGemObjs = optCurrentGemIds.map(id => Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === id)).filter(Boolean);
-            const optGemNeedsChange = false; // logic simplified for array
+            const optGemNeedsChange = optGemRecs.length > 0 && JSON.stringify([...optCurrentGemIds].sort()) !== JSON.stringify(optGemRecs.map(r => r.gemItemId).sort());
 
             const bisEnch = getSlotBiSEnchant(optItem.slot);
             const curEnchMatch = curItem.rawSimcOptions ? curItem.rawSimcOptions.match(/enchant_id=(\d+)/i) : null;
@@ -861,7 +861,7 @@ function openCompareModal() {
                   <span class="font-bold text-xs text-amber-300 uppercase tracking-wide flex items-center gap-1.5">${slotLabel}</span>
                   <div class="flex items-center gap-1 flex-wrap justify-end">
                     ${!isSame ? `<span class="px-2 py-0.5 rounded bg-amber-950/90 text-amber-300 border border-amber-500/60 text-[10px] font-bold">⚡ ${t('equipAction', 'Equip Item')}</span>` : ''}
-                    ${(!isSame ? optGemNeedsChange : curGemNeedsChange) ? `<span class="px-2 py-0.5 rounded bg-purple-950/90 text-purple-300 border border-purple-500/60 text-[10px] font-bold">💎 ${(!isSame ? optCurrentGemId : curGemId) ? t('changeGem', 'Change Gem') : t('socketGem', 'Socket Gem')}</span>` : ''}
+                    ${(!isSame ? optGemNeedsChange : curGemNeedsChange) ? `<span class="px-2 py-0.5 rounded bg-purple-950/90 text-purple-300 border border-purple-500/60 text-[10px] font-bold">💎 ${(!isSame ? optCurrentGemIds.length > 0 : curGemIds.length > 0) ? t('changeGem', 'Change Gem') : t('socketGem', 'Socket Gem')}</span>` : ''}
                     ${(!isSame ? (optEnchantNeedsApply || optEnchantCanOptimize) : (enchantNeedsApply || enchantCanOptimize)) ? `<span class="px-2 py-0.5 rounded bg-blue-950/90 text-blue-300 border border-blue-500/60 text-[10px] font-bold">✨ ${(!isSame ? optEnchId : curEnchId) ? t('reEnchant', 'Re-enchant') : t('applyEnchant', 'Enchant')}</span>` : ''}
                     ${!hasActions ? `<span class="px-2 py-0.5 rounded bg-slate-800/80 text-slate-400 border border-slate-700/60 text-[10px] font-semibold">✓ ${t('keepAction', 'Keep')}</span>` : ''}
                   </div>
