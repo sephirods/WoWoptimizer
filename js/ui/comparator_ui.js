@@ -597,17 +597,12 @@ function openCompareModal() {
                           <div class="text-[10px] text-slate-400 font-mono">ilvl ${curItem.ilvl || '-'} ${curItem.socket ? `• <i class="fa-solid fa-gem text-[8px] text-amber-400"></i> ${t('badgeSocket', 'Socket')}` : ''}</div>
                           ${formatItemStatsLine(curItem)}
                           ${curItem.socket ? `
-                            <div class="text-[10px] text-slate-400 mt-0.5">
-                              <div class="truncate">
-                                <i class="fa-solid fa-gem text-[8px] text-slate-500"></i> ${t('gemLabel', 'Gem')}: 
-                                ${curGemObj ? `
-                                  <a href="${getWowheadBaseUrl()}/item=${curGemObj.id}" target="_blank" ${getWowheadItemDataAttr(curGemObj.id)} class="text-slate-300 hover:text-purple-300 font-medium">${curGemObj.name}</a>
-                                ` : `
-                                  <span class="${curGemId ? 'text-slate-300' : 'text-slate-500 italic'}">${curGemId ? 'Gem ID ' + curGemId : t('ungemmed', 'No gem')}</span>
-                                `}
+                              <div class="text-[10px] text-slate-400 mt-0.5">
+                                <div class="truncate">
+                                  <i class="fa-solid fa-gem text-[8px] text-slate-500"></i> ${t('gemLabel', 'Gem')}: 
+                                  ${curGemObjs.length > 0 ? curGemObjs.map(g => `<a href="${getWowheadBaseUrl()}/item=${g.id}" target="_blank" ${getWowheadItemDataAttr(g.id)} class="text-slate-300 hover:text-purple-300 font-medium block">${g.name}</a>`).join('') : `<span class="text-slate-500 italic">${t('ungemmed', 'No gem')}</span>`}
+                                </div>
                               </div>
-                              ${curGemObj?.desc ? `<div class="text-[9px] text-amber-400/90 font-mono pl-3 truncate">${typeof getLocalizedGemDesc === 'function' ? getLocalizedGemDesc(curGemObj.desc) : curGemObj.desc}</div>` : ''}
-                            </div>
                           ` : ''}
                           ${(curEnchId || bisEnch) ? (() => {
                             let enchItemId = null;
