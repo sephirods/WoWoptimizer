@@ -541,7 +541,7 @@ function openCompareModal() {
 
               return rows.map(({ slotLabel, optItem, curItem, isSame }) => {
                 const optGemRecs = best.gemData?.recommendations?.filter(r => r.item.id === optItem.id || (r.item.name === optItem.name && r.item.slot === optItem.slot)) || [];
-                const recGemStats = optGemRec?.gemItemId ? MIDNIGHT_GEM_STATS_MAP[optGemRec.gemItemId] : null;
+                
 
                 const curGemStats = getItemGemStats(curItem);
                 const curGemIds = curGemStats.gemIds;
@@ -826,7 +826,7 @@ function openCompareModal() {
 
           return rows.map(({ slotLabel, optItem, curItem, isSame }) => {
             const optGemRecs = best.gemData?.recommendations?.filter(r => r.item.id === optItem.id || (r.item.name === optItem.name && r.item.slot === optItem.slot)) || [];
-            const recGemStats = optGemRec?.gemItemId ? MIDNIGHT_GEM_STATS_MAP[optGemRec.gemItemId] : null;
+            
 
             const curGemStats = getItemGemStats(curItem);
             const curGemIds = curGemStats.gemIds;
