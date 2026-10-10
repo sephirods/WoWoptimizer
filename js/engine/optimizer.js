@@ -427,7 +427,8 @@ function runOptimizer(isManualClick = false) {
       271874, 271875, 271876, 268202, 268215, 268207, 271093, 271092, 268213, 268209, 271878
     ];
     const checkId = it.itemId ? parseInt(it.itemId) : (it.id ? parseInt(it.id.toString().replace('simc_', '')) : 0);
-    if (CANTRIP_IDS.includes(checkId)) {
+    const isCantrip = CANTRIP_IDS.includes(checkId) || (it.redirectedStatId && CANTRIP_IDS.includes(parseInt(it.redirectedStatId)));
+    if (isCantrip) {
       power += (slotWeight * 15);
     }
     
