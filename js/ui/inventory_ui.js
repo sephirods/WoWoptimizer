@@ -443,9 +443,12 @@ function renderInventory() {
               `<button onclick="toggleItemTier('${it.id}')" title="Clic para alternar Tier" class="text-[10px] bg-purple-950 hover:bg-purple-900 text-purple-300 border border-purple-600 px-1.5 py-0.5 rounded font-semibold transition">Tier</button>` : 
               (TIER_ELIGIBLE_SLOTS.includes(it.slot) ? `<button onclick="toggleItemTier('${it.id}')" title="Clic para marcar como Tier" class="text-[10px] text-slate-500 hover:text-purple-300 border border-slate-700/40 px-1 rounded opacity-50 hover:opacity-100 transition">+Tier</button>` : '')
             }
-            ${it.socket ? 
-              `<button onclick="toggleItemSocket('${it.id}')" title="Clic para alternar Ranura" class="text-[10px] bg-amber-950/60 hover:bg-amber-900/80 text-amber-300 border border-amber-500/50 px-1.5 py-0.5 rounded font-semibold flex items-center gap-1 transition"><i class="fa-solid fa-gem text-[9px]"></i> Ranura</button>` : 
-              `<button onclick="toggleItemSocket('${it.id}')" title="Clic para añadir Ranura" class="text-[10px] text-slate-500 hover:text-amber-300 border border-slate-700/40 px-1 rounded opacity-50 hover:opacity-100 transition">+Ranura</button>`
+            ${(it.socket && (it.socketCount > 1)) ? 
+              `<button onclick="toggleItemSocket('${it.id}')" title="Clic para alternar Ranuras" class="text-[10px] bg-amber-950/60 hover:bg-amber-900/80 text-amber-300 border border-amber-500/50 px-1.5 py-0.5 rounded font-semibold flex items-center gap-1 transition">` + Array(it.socketCount).fill(`<i class="fa-solid fa-gem text-[9px]"></i>`).join('') + ` ${it.socketCount}</button>` : 
+              (it.socket ? 
+                `<button onclick="toggleItemSocket('${it.id}')" title="Clic para alternar Ranura" class="text-[10px] bg-amber-950/60 hover:bg-amber-900/80 text-amber-300 border border-amber-500/50 px-1.5 py-0.5 rounded font-semibold flex items-center gap-1 transition"><i class="fa-solid fa-gem text-[9px]"></i> Ranura</button>` : 
+                `<button onclick="toggleItemSocket('${it.id}')" title="Clic para añadir Ranura" class="text-[10px] text-slate-500 hover:text-amber-300 border border-slate-700/40 px-1 rounded opacity-50 hover:opacity-100 transition">+Ranura</button>`
+              )
             }
             ${it.locked ? '<span class="text-[10px] bg-amber-950 text-amber-300 border border-amber-500 px-1 rounded font-bold"><i class="fa-solid fa-lock text-[9px]"></i> Bloqueado</span>' : ''}
             ${!isItemUsableBySpec(it, currentClass, currentSpec) ? '<span class="text-[10px] bg-red-950/80 text-red-400 border border-red-500/40 px-1 rounded font-bold" title="Incompatible con tu especialización activa"><i class="fa-solid fa-ban text-[9px]"></i> Incompatible</span>' : ''}

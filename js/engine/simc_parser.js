@@ -330,10 +330,25 @@ async function parseAndImportSimC() {
         craftedStatCodes = [parseInt(craftedMatch[1]), parseInt(craftedMatch[2])];
       }
 
+      let socketCount = (line.includes('gem_id=') || line.includes('gems=')) ? 1 : 0;
+      const gemMatch = line.match(/gem_id=([\d\/]+)/);
+      if (gemMatch) {
+        socketCount = gemMatch[1].split('/').length;
+      } else {
+        const gemsMatch = line.match(/gems=([\d_]+)/);
+        if (gemsMatch) socketCount = gemsMatch[1].split('_').length;
+      }
+
+      if (itemId === 268265) {
+        socketCount = 2;
+        known.socket = true; // force socket true just in case
+      }
+
       parsedItems.push({
         id: 'simc_' + itemId + '_' + Math.random().toString(36).substr(2, 4),
         name: currentItemName || ('Objeto #' + itemId),
         itemId: itemId,
+        socketCount: socketCount,
         rawSimcOptions: rawSimcOptions,
         redirectedStatId: redirectedStatId,
         craftedStatCodes: craftedStatCodes,

@@ -3,8 +3,15 @@
 
 // SMART GEM RECOMMENDATION ENGINE WITH AUTHENTIC WOWHEAD GEMS & TOOLTIPS
 function calculateSmartGemRecommendations(itemsInSet, targets, baseStats) {
-  const socketedItems = itemsInSet.filter(it => it.socket);
-  const socketCount = socketedItems.length;
+  const socketInstances = [];
+  itemsInSet.forEach(it => {
+    let count = it.socket ? (it.socketCount || 1) : 0;
+    for (let i = 0; i < count; i++) {
+      socketInstances.push({ item: it, socketIndex: i });
+    }
+  });
+
+  const socketCount = socketInstances.length;
   if (socketCount === 0) return { recommendations: [], projected: baseStats };
 
   const defMast = Math.max(0, targets.targetMastery - baseStats.totMast);
@@ -19,35 +26,40 @@ function calculateSmartGemRecommendations(itemsInSet, targets, baseStats) {
 
   const recommendations = [];
 
-  function getItemExistingGemId(it) {
-    if (!it) return null;
-    if (it.gem_id) return Number(it.gem_id);
-    if (it.gemItemId) return Number(it.gemItemId);
+  function getItemExistingGemId(inst) {
+    if (!inst.item) return null;
+    const it = inst.item;
     if (it.rawSimcOptions) {
-      const m = it.rawSimcOptions.match(/gem_id=(\d+)/i) || 
-                it.rawSimcOptions.match(/gems=([\d/]+)/i) || 
-                it.rawSimcOptions.match(/gem1=(\d+)/i);
-      if (m) return Number(m[1].split('/')[0]);
+      const m = it.rawSimcOptions.match(/gem_id=([\d\/]+)/i) || 
+                it.rawSimcOptions.match(/gems=([\d_]+)/i);
+      if (m) {
+        const parts = m[1].split(/[\/_]/);
+        if (parts.length > inst.socketIndex) return Number(parts[inst.socketIndex]);
+      }
+      const g = it.rawSimcOptions.match(new RegExp(`gem${inst.socketIndex+1}=(\\d+)`, 'i'));
+      if (g) return Number(g[1]);
     }
     return null;
   }
 
   // Assign unique Thalassian Meta Diamond to Neck if socketed
-  const neckSocketItem = socketedItems.find(it => it.slot === 'neck' || it.metaSocket || it.slot === 'meta_gem');
-  if (neckSocketItem) {
+  const metaSocketIdx = socketInstances.findIndex(inst => inst.item.slot === 'neck' || inst.item.metaSocket || inst.item.slot === 'meta_gem');
+  if (metaSocketIdx !== -1) {
+    const metaInst = socketInstances[metaSocketIdx];
     const meta = MIDNIGHT_GEMS_CATALOG.meta_indecipherable;
     recommendations.push({
-      item: neckSocketItem,
+      item: metaInst.item,
       gemItemId: meta.id,
       gemName: meta.name,
       gemIcon: meta.icon,
       gemDesc: meta.desc,
       benefit: 'Gema de Estadística Principal de Medianoche (Thalassian Diamond).'
     });
+    socketInstances.splice(metaSocketIdx, 1);
   }
 
-  const regularSocketItems = socketedItems.filter(it => it !== neckSocketItem);
-  const regularSocketCount = regularSocketItems.length;
+  const regularSocketInstances = socketInstances;
+  const regularSocketCount = regularSocketInstances.length;
 
   const chosenGems = [];
   for (let i = 0; i < regularSocketCount; i++) {
@@ -99,14 +111,14 @@ function calculateSmartGemRecommendations(itemsInSet, targets, baseStats) {
   const unassignedItems = [];
   const availableGems = [...chosenGems];
 
-  regularSocketItems.forEach(it => {
-    const existingGemId = getItemExistingGemId(it);
+  regularSocketInstances.forEach(inst => {
+    const existingGemId = getItemExistingGemId(inst);
     if (existingGemId) {
       const gemIdx = availableGems.findIndex(g => g.gem.id === existingGemId);
       if (gemIdx !== -1) {
         const matched = availableGems.splice(gemIdx, 1)[0];
         recommendations.push({
-          item: it,
+          item: inst.item,
           gemItemId: matched.gem.id,
           gemName: matched.gem.name,
           gemIcon: matched.gem.icon,
@@ -118,14 +130,14 @@ function calculateSmartGemRecommendations(itemsInSet, targets, baseStats) {
         return;
       }
     }
-    unassignedItems.push(it);
+    unassignedItems.push(inst);
   });
 
-  unassignedItems.forEach((it, idx) => {
+  unassignedItems.forEach((inst, idx) => {
     const assigned = availableGems[idx];
     if (assigned) {
       recommendations.push({
-        item: it,
+        item: inst.item,
         gemItemId: assigned.gem.id,
         gemName: assigned.gem.name,
         gemIcon: assigned.gem.icon,
@@ -179,11 +191,19 @@ function runOptimizer(isManualClick = false) {
   const weaponMode = document.getElementById('weapon-mode')?.value || '2h';
   const tierMode = document.getElementById('tier-mode')?.value ?? '4';
 
-  // Weights
-  const wMast = parseFloat(document.getElementById('weight-mastery')?.value) || 1.0;
-  const wCrit = parseFloat(document.getElementById('weight-crit')?.value) || 1.0;
-  const wHaste = parseFloat(document.getElementById('weight-haste')?.value) || 1.0;
-  const wVers = parseFloat(document.getElementById('weight-vers')?.value) || 1.0;
+  // Weights (Normalize to prevent massive penalties if user types percentages instead of decimals)
+  let wMast = parseFloat(document.getElementById('weight-mastery')?.value) || 1.0;
+  let wCrit = parseFloat(document.getElementById('weight-crit')?.value) || 1.0;
+  let wHaste = parseFloat(document.getElementById('weight-haste')?.value) || 1.0;
+  let wVers = parseFloat(document.getElementById('weight-vers')?.value) || 1.0;
+
+  const maxW = Math.max(wMast, wCrit, wHaste, wVers);
+  if (maxW > 2) {
+    wMast /= maxW;
+    wCrit /= maxW;
+    wHaste /= maxW;
+    wVers /= maxW;
+  }
 
   // Track filters
   const allowMyth = document.getElementById('track-myth')?.checked ?? true;
@@ -349,7 +369,11 @@ function runOptimizer(isManualClick = false) {
     } else if (lockedTrinkets.length === 1) {
       const others = trinketPool.filter(t => !isSameUniqueItem(lockedTrinkets[0], t));
       if (others.length > 0) {
-        others.forEach(oth => trinketCombos.push([lockedTrinkets[0], oth]));
+        if (useBloodmallet) {
+          trinketCombos.push([lockedTrinkets[0], others[0]]);
+        } else {
+          others.forEach(oth => trinketCombos.push([lockedTrinkets[0], oth]));
+        }
       } else {
         trinketCombos.push([lockedTrinkets[0]]);
       }
@@ -358,9 +382,6 @@ function runOptimizer(isManualClick = false) {
       const validSeconds = trinketPool.slice(1).filter(t2 => !isSameUniqueItem(t1, t2));
       if (validSeconds.length > 0) {
         trinketCombos.push([t1, validSeconds[0]]);
-        if (validSeconds.length > 1) {
-          trinketCombos.push([t1, validSeconds[1]]);
-        }
       } else {
         trinketCombos.push([t1]);
       }
@@ -401,12 +422,29 @@ function runOptimizer(isManualClick = false) {
     let power = ilvl * slotWeight;
     
     // Kith'ix Cantrip items get a +2 virtual ilvl bonus
-    const CANTRIP_IDS = [281235, 281236, 281238, 281239, 281056, 280799, 280617, 281215, 280835, 281029];
-    if (it.id && CANTRIP_IDS.includes(parseInt(it.id))) {
-      power += (slotWeight * 2);
+    const CANTRIP_IDS = [
+      281235, 281236, 281238, 281239, 281056, 280799, 280617, 281215, 280835, 281029, 268265,
+      271874, 271875, 271876, 268202, 268215, 268207, 271093, 271092, 268213, 268209, 271878
+    ];
+    const checkId = it.itemId ? parseInt(it.itemId) : (it.id ? parseInt(it.id.toString().replace('simc_', '')) : 0);
+    if (CANTRIP_IDS.includes(checkId)) {
+      power += (slotWeight * 15);
+    }
+    
+    // Zul'jin's Guillotine Technique (270173) synergy gives Maze-roa and Aman'muso an extra +2 (for a total of +4)
+    if (checkId === 268213 || checkId === 268209) {
+      const allOwnedItems = (typeof items !== 'undefined') ? items : [];
+      const hasZuljinTrinket = allOwnedItems.some(item => {
+        const iId = item.itemId ? parseInt(item.itemId) : (item.id ? parseInt(item.id.toString().replace('simc_', '')) : 0);
+        return iId === 270173;
+      });
+      if (hasZuljinTrinket) {
+        power += (slotWeight * 15);
+      }
     }
 
-    if (it.socket) power += 50;
+    const numSockets = it.socket ? (it.socketCount || 1) : 0;
+    power += (numSockets * 50);
     if (it.slot === 'trinket' && typeof getTrinketDpsScore === 'function') {
       const useBm = document.getElementById('use-bloodmallet-scoring')?.checked ?? true;
       if (useBm && currentClass && currentSpec) {
@@ -460,7 +498,9 @@ function runOptimizer(isManualClick = false) {
     }
 
     list.sort((a, b) => {
-      if (a.socket !== b.socket) return a.socket ? -1 : 1;
+      const aSockets = a.socket ? (a.socketCount || 1) : 0;
+      const bSockets = b.socket ? (b.socketCount || 1) : 0;
+      if (aSockets !== bSockets) return bSockets - aSockets;
       return scoreCandidate(b) - scoreCandidate(a);
     });
     return list.map(it => [it]);

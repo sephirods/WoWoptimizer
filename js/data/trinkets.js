@@ -315,7 +315,19 @@ function getTrinketDpsScore(item, wowClass, wowSpec, mode) {
     return Math.round(archon.popularity * 1000 * ilvlFactor);
   }
   const bmInfo = getTrinketBloodmalletInfo(item, c, s, m);
-  return bmInfo ? bmInfo.dpsGain : 0;
+  let score = bmInfo ? bmInfo.dpsGain : 0;
+  
+  const checkId = item.itemId ? parseInt(item.itemId) : (item.id ? parseInt(item.id.toString().replace('simc_', '')) : 0);
+  if (checkId === 270173 && typeof items !== 'undefined') {
+    const hasSynergyWeapon = items.some(w => {
+      const wId = w.itemId ? parseInt(w.itemId) : (w.id ? parseInt(w.id.toString().replace('simc_', '')) : 0);
+      return wId === 268213 || wId === 268209;
+    });
+    if (hasSynergyWeapon) {
+      score += 5000;
+    }
+  }
+  return score;
 }
 
 async function syncBloodmalletData(showFeedback = false) {
