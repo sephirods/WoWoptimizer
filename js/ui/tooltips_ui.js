@@ -167,8 +167,13 @@ function getItemWowheadAttr(it) {
   if (it.rawSimcOptions) {
     const em = it.rawSimcOptions.match(/enchant_id=(\d+)/i);
     if (em) params += `&ench=${em[1]}`;
-    const gm = it.rawSimcOptions.match(/gem_id=(\d+)/i);
-    if (gm) params += `&gems=${gm[1]}`;
+    const gm = it.rawSimcOptions.match(/gem_id=([\d\/]+)/i);
+    if (gm) {
+      params += `&gems=${gm[1].replace(/\//g, ':')}`;
+    } else {
+      const gm2 = it.rawSimcOptions.match(/gems=([\d_]+)/i);
+      if (gm2) params += `&gems=${gm2[1].replace(/_/g, ':')}`;
+    }
   } else if (it.gemItemId) {
     params += `&gems=${it.gemItemId}`;
   }
