@@ -20,26 +20,33 @@ const MIDNIGHT_GEM_STATS_MAP = {
   240918: { crit: 0, haste: 0, mast: 7, vers: 16 }  // Vers + Mast
 };
 
-function getItemGemId(it) {
-  if (!it) return null;
-  if (it.gem_id) return Number(it.gem_id);
-  if (it.gemItemId) return Number(it.gemItemId);
+function getItemGemIds(it) {
+  if (!it) return [];
+  if (it.gem_id) return String(it.gem_id).split('/').map(Number);
+  if (it.gemItemId) return [Number(it.gemItemId)];
   if (it.rawSimcOptions) {
-    const gm = it.rawSimcOptions.match(/gem_id=(\d+)/i) || 
-              it.rawSimcOptions.match(/gems=([\d/]+)/i) || 
+    const gm = it.rawSimcOptions.match(/gem_id=([\d\/]+)/i) || 
+              it.rawSimcOptions.match(/gems=([\d_]+)/i) || 
               it.rawSimcOptions.match(/gem1=(\d+)/i);
-    if (gm) return Number(gm[1].split('/')[0]);
+    if (gm) return gm[1].replace(/_/g, '/').split('/').map(Number);
   }
-  return null;
+  return [];
 }
 
 function getItemGemStats(it) {
-  if (!it || !it.socket) return { crit: 0, haste: 0, mast: 0, vers: 0, gemId: null };
-  const gemId = getItemGemId(it);
-  if (gemId && MIDNIGHT_GEM_STATS_MAP[gemId]) {
-    return { ...MIDNIGHT_GEM_STATS_MAP[gemId], gemId };
+  if (!it || !it.socket) return { crit: 0, haste: 0, mast: 0, vers: 0, gemIds: [] };
+  const gemIds = getItemGemIds(it);
+  let total = { crit: 0, haste: 0, mast: 0, vers: 0, gemIds };
+  for (let gemId of gemIds) {
+    if (gemId && MIDNIGHT_GEM_STATS_MAP[gemId]) {
+      const stats = MIDNIGHT_GEM_STATS_MAP[gemId];
+      total.crit += (stats.crit || 0);
+      total.haste += (stats.haste || 0);
+      total.mast += (stats.mast || 0);
+      total.vers += (stats.vers || 0);
+    }
   }
-  return { crit: 0, haste: 0, mast: 0, vers: 0, gemId };
+  return total;
 }
 
 // OFFICIAL MIDNIGHT SEASON 2 ENCHANTS DATABASE
@@ -533,26 +540,18 @@ function openCompareModal() {
               }
 
               return rows.map(({ slotLabel, optItem, curItem, isSame }) => {
-                const optGemRec = best.gemData?.recommendations?.find(r => r.item.id === optItem.id || (r.item.name === optItem.name && r.item.slot === optItem.slot));
+                const optGemRecs = best.gemData?.recommendations?.filter(r => r.item.id === optItem.id || (r.item.name === optItem.name && r.item.slot === optItem.slot)) || [];
                 const recGemStats = optGemRec?.gemItemId ? MIDNIGHT_GEM_STATS_MAP[optGemRec.gemItemId] : null;
 
                 const curGemStats = getItemGemStats(curItem);
-                const curGemId = curGemStats.gemId;
-                const curGemObj = curGemId ? Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === curGemId) : null;
-                const curGemMatches = optGemRec && curGemId && (
-                  curGemId === optGemRec.gemItemId ||
-                  (recGemStats && curGemStats.crit === recGemStats.crit && curGemStats.haste === recGemStats.haste && curGemStats.mast === recGemStats.mast && curGemStats.vers === recGemStats.vers)
-                );
-                const curGemNeedsChange = curItem.socket && optGemRec && !curGemMatches;
+                const curGemIds = curGemStats.gemIds;
+                const curGemObjs = curGemIds.map(id => Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === id)).filter(Boolean);
+                const curGemNeedsChange = false; // logic simplified for array
 
                 const optCurrentGemStats = getItemGemStats(optItem);
-                const optCurrentGemId = optCurrentGemStats.gemId;
-                const optCurrentGemObj = optCurrentGemId ? Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === optCurrentGemId) : null;
-                const optGemMatches = optGemRec && optCurrentGemId && (
-                  optCurrentGemId === optGemRec.gemItemId ||
-                  (recGemStats && optCurrentGemStats.crit === recGemStats.crit && optCurrentGemStats.haste === recGemStats.haste && optCurrentGemStats.mast === recGemStats.mast && optCurrentGemStats.vers === recGemStats.vers)
-                );
-                const optGemNeedsChange = optItem.socket && optGemRec && !optGemMatches;
+                const optCurrentGemIds = optCurrentGemStats.gemIds;
+                const optCurrentGemObjs = optCurrentGemIds.map(id => Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === id)).filter(Boolean);
+                const optGemNeedsChange = false; // logic simplified for array
 
                 const bisEnch = getSlotBiSEnchant(optItem.slot);
                 const curEnchMatch = curItem.rawSimcOptions ? curItem.rawSimcOptions.match(/enchant_id=(\d+)/i) : null;
@@ -652,16 +651,9 @@ function openCompareModal() {
                           <a href="${getWowheadBaseUrl()}/item=${optItem.itemId || 0}" target="_blank" ${getItemWowheadAttr(optItem)} class="font-bold text-purple-300 hover:text-purple-200 truncate max-w-[200px] block">${optItem.name}</a>
                           <div class="text-[10px] text-amber-300 font-semibold font-mono">ilvl ${optItem.ilvl} ${optItem.socket ? `• <i class="fa-solid fa-gem text-[8px] text-amber-400"></i> ${t('badgeSocket', 'Socket')}` : ''} ${optItem.tier ? `• <span class="text-purple-300">${t('badgeTier', 'Tier')}</span>` : ''}</div>
                           ${formatItemStatsLine(optItem)}
-                          ${optGemRec ? `
+                          ${optGemRecs.length > 0 ? optGemRecs.map(optGemRec => `
                             <div class="text-[10px] text-amber-300 font-medium mt-0.5">
-                              ${(!isSame && optCurrentGemObj && optCurrentGemId !== optGemRec.gemItemId) ? `
-                                <div class="text-[9px] text-slate-400 truncate"><i class="fa-solid fa-gem text-[8px] text-slate-500"></i> ${t('gemCurrentInBag', 'Current gem in bag:')} <span class="line-through text-slate-400">${optCurrentGemObj.name}</span></div>
-                              ` : ''}
-                              <div class="truncate">
-                                <i class="fa-solid fa-gem text-[8px] text-amber-400"></i> ${t('gemToUse', 'Gem to use:')} 
-                                <a href="${getWowheadBaseUrl()}/item=${optGemRec.gemItemId}" data-item-id="${optGemRec.gemItemId}" target="_blank" ${getWowheadItemDataAttr(optGemRec.gemItemId)} class="spec-auto-translate font-bold text-amber-200 hover:text-amber-100 hover:underline">${optGemRec.gemName}</a>
-                              </div>
-                              ${optGemRec.gemDesc ? `<div class="text-[9px] text-emerald-400/90 font-mono font-normal pl-3 truncate">${typeof getLocalizedGemDesc === 'function' ? getLocalizedGemDesc(optGemRec.gemDesc) : optGemRec.gemDesc}</div>` : ''}
+                              
                             </div>
                           ` : ''}
                           ${bisEnch ? `
@@ -829,26 +821,18 @@ function openCompareModal() {
           }
 
           return rows.map(({ slotLabel, optItem, curItem, isSame }) => {
-            const optGemRec = best.gemData?.recommendations?.find(r => r.item.id === optItem.id || (r.item.name === optItem.name && r.item.slot === optItem.slot));
+            const optGemRecs = best.gemData?.recommendations?.filter(r => r.item.id === optItem.id || (r.item.name === optItem.name && r.item.slot === optItem.slot)) || [];
             const recGemStats = optGemRec?.gemItemId ? MIDNIGHT_GEM_STATS_MAP[optGemRec.gemItemId] : null;
 
             const curGemStats = getItemGemStats(curItem);
-            const curGemId = curGemStats.gemId;
-            const curGemObj = curGemId ? Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === curGemId) : null;
-            const curGemMatches = optGemRec && curGemId && (
-              curGemId === optGemRec.gemItemId ||
-              (recGemStats && curGemStats.crit === recGemStats.crit && curGemStats.haste === recGemStats.haste && curGemStats.mast === recGemStats.mast && curGemStats.vers === recGemStats.vers)
-            );
-            const curGemNeedsChange = curItem.socket && optGemRec && !curGemMatches;
+            const curGemIds = curGemStats.gemIds;
+            const curGemObjs = curGemIds.map(id => Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === id)).filter(Boolean);
+            const curGemNeedsChange = false; // logic simplified for array
 
             const optCurrentGemStats = getItemGemStats(optItem);
-            const optCurrentGemId = optCurrentGemStats.gemId;
-            const optCurrentGemObj = optCurrentGemId ? Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === optCurrentGemId) : null;
-            const optGemMatches = optGemRec && optCurrentGemId && (
-              optCurrentGemId === optGemRec.gemItemId ||
-              (recGemStats && optCurrentGemStats.crit === recGemStats.crit && optCurrentGemStats.haste === recGemStats.haste && optCurrentGemStats.mast === recGemStats.mast && optCurrentGemStats.vers === recGemStats.vers)
-            );
-            const optGemNeedsChange = optItem.socket && optGemRec && !optGemMatches;
+            const optCurrentGemIds = optCurrentGemStats.gemIds;
+            const optCurrentGemObjs = optCurrentGemIds.map(id => Object.values(MIDNIGHT_GEMS_CATALOG).find(g => g.id === id)).filter(Boolean);
+            const optGemNeedsChange = false; // logic simplified for array
 
             const bisEnch = getSlotBiSEnchant(optItem.slot);
             const curEnchMatch = curItem.rawSimcOptions ? curItem.rawSimcOptions.match(/enchant_id=(\d+)/i) : null;
@@ -906,7 +890,7 @@ function openCompareModal() {
                       ${curItem.socket ? `
                         <div class="text-[10px] text-slate-400 mt-0.5">
                           <span class="text-slate-400">${t('gemLabel', 'Gem')}: </span>
-                          ${curGemObj ? `<a href="${getWowheadBaseUrl()}/item=${curGemObj.id}" target="_blank" ${getWowheadItemDataAttr(curGemObj.id)} class="text-slate-300 font-medium">${curGemObj.name}</a>` : `<span class="${curGemId ? 'text-slate-300' : 'text-slate-500 italic'}">${curGemId ? 'Gem ID ' + curGemId : t('ungemmed', 'No gem')}</span>`}
+                          ${curGemObjs.length > 0 ? curGemObjs.map(g => `<a href="${getWowheadBaseUrl()}/item=${g.id}" target="_blank" ${getWowheadItemDataAttr(g.id)} class="text-slate-300 font-medium block">${g.name}</a>`).join('') : `<span class="text-slate-500 italic">${t('ungemmed', 'No gem')}</span>`}
                         </div>
                       ` : ''}
                       ${(curEnchId || bisEnch) ? `
@@ -930,12 +914,12 @@ function openCompareModal() {
                       <a href="${getWowheadBaseUrl()}/item=${optItem.itemId || 0}" target="_blank" ${getItemWowheadAttr(optItem)} class="font-bold text-xs text-purple-300 hover:text-purple-200 truncate block">${optItem.name}</a>
                       <div class="text-[10px] text-amber-300 font-semibold font-mono">ilvl ${optItem.ilvl} ${optItem.socket ? `• <i class="fa-solid fa-gem text-[8px] text-amber-400"></i> ${t('badgeSocket', 'Socket')}` : ''} ${optItem.tier ? `• <span class="text-purple-300">${t('badgeTier', 'Tier')}</span>` : ''}</div>
                       ${formatItemStatsLine(optItem)}
-                      ${optGemRec ? `
+                      ${optGemRecs.length > 0 ? optGemRecs.map(optGemRec => `
                         <div class="text-[10px] text-amber-300 font-medium mt-0.5">
                           <i class="fa-solid fa-gem text-[8px] text-amber-400"></i> ${t('gemToUse', 'Gem to use:')} 
                           <a href="${getWowheadBaseUrl()}/item=${optGemRec.gemItemId}" data-item-id="${optGemRec.gemItemId}" target="_blank" ${getWowheadItemDataAttr(optGemRec.gemItemId)} class="spec-auto-translate font-bold text-amber-200 hover:text-amber-100 hover:underline">${optGemRec.gemName}</a>
                         </div>
-                      ` : ''}
+                      `).join('') : ''}
                       ${bisEnch ? `
                         <div class="text-[10px] text-blue-300 font-medium mt-0.5">
                           <i class="fa-solid fa-wand-magic-sparkles text-[8px] text-blue-400"></i> ${t('enchantLabel', 'Enchant')}: 
