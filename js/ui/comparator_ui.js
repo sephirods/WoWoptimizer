@@ -653,9 +653,13 @@ function openCompareModal() {
                           ${formatItemStatsLine(optItem)}
                           ${optGemRecs.length > 0 ? optGemRecs.map(optGemRec => `
                             <div class="text-[10px] text-amber-300 font-medium mt-0.5">
-                              
+                              <div class="truncate">
+                                <i class="fa-solid fa-gem text-[8px] text-amber-400"></i> ${t('gemToUse', 'Gem to use:')} 
+                                <a href="${getWowheadBaseUrl()}/item=${optGemRec.gemItemId}" data-item-id="${optGemRec.gemItemId}" target="_blank" ${getWowheadItemDataAttr(optGemRec.gemItemId)} class="spec-auto-translate font-bold text-amber-200 hover:text-amber-100 hover:underline">${optGemRec.gemName}</a>
+                              </div>
+                              ${optGemRec.gemDesc ? `<div class="text-[9px] text-emerald-400/90 font-mono font-normal pl-3 truncate">${typeof getLocalizedGemDesc === 'function' ? getLocalizedGemDesc(optGemRec.gemDesc) : optGemRec.gemDesc}</div>` : ''}
                             </div>
-                          ` : ''}
+                          `).join('') : ''}
                           ${bisEnch ? `
                             <div class="text-[10px] text-blue-300 font-medium truncate mt-0.5">
                               <i class="fa-solid fa-wand-magic-sparkles text-[8px] text-blue-400"></i> ${t('enchantLabel', 'Enchant')}: 
