@@ -153,11 +153,13 @@ function applyCustomPreset(id) {
 function getSpecMetaHeroTree(className, specId, mode = (typeof currentContentMode !== 'undefined' ? currentContentMode : 'raid')) {
   if (window.ARCHON_PRESETS && window.ARCHON_PRESETS[className]) {
     const cp = window.ARCHON_PRESETS[className];
-    const specData = cp[specId] || cp[`${specId}_${className}`] || cp[`${className}_${specId}`] ||
-                     (specId === 'protection' && (cp['protection_paladin'] || cp['prot_warrior'])) ||
-                     (specId === 'holy' && (cp['holy_paladin'] || cp['holy_priest'])) ||
-                     (specId === 'frost' && (cp['frost_dk'] || cp['frost_mage'])) ||
-                     (specId === 'restoration' && (cp['restoration_druid'] || cp['restoration_shaman']));
+    const specData = cp[specId] || cp[`${specId}_${className}`] || cp[`${className}_${specId}`] || cp[specId.split('_')[0]] || cp[specId.replace(/_.*/, '')] ||
+                       (specId === 'protection' && (cp['protection_paladin'] || cp['prot_warrior'])) ||
+                       (specId === 'holy' && (cp['holy_paladin'] || cp['holy_priest'])) ||
+                       (specId === 'frost' && (cp['frost_dk'] || cp['frost_mage'])) ||
+                       (specId === 'restoration' && (cp['restoration_druid'] || cp['restoration_shaman'])) ||
+                       (specId === 'restoration_shaman' && cp['restoration']) ||
+                       (specId === 'restoration_druid' && cp['restoration']);
     if (specData) {
       if (mode && specData[mode] && specData[mode].metaHeroTree) {
         return specData[mode].metaHeroTree;
@@ -194,11 +196,13 @@ function applyHeroTree(treeId) {
   let activePreset = null;
   if (window.ARCHON_PRESETS && window.ARCHON_PRESETS[currentClass]) {
     const cp = window.ARCHON_PRESETS[currentClass];
-    const sp = cp[specData.id] || cp[`${specData.id}_${currentClass}`] || cp[`${currentClass}_${specData.id}`] ||
-               (specData.id === 'protection' && (cp['protection_paladin'] || cp['prot_warrior'])) ||
-               (specData.id === 'holy' && (cp['holy_paladin'] || cp['holy_priest'])) ||
-               (specData.id === 'frost' && (cp['frost_dk'] || cp['frost_mage'])) ||
-               (specData.id === 'restoration' && (cp['restoration_druid'] || cp['restoration_shaman']));
+    const sp = cp[specData.id] || cp[`${specData.id}_${currentClass}`] || cp[`${currentClass}_${specData.id}`] || cp[specData.id.split('_')[0]] ||
+                 (specData.id === 'protection' && (cp['protection_paladin'] || cp['prot_warrior'])) ||
+                 (specData.id === 'holy' && (cp['holy_paladin'] || cp['holy_priest'])) ||
+                 (specData.id === 'frost' && (cp['frost_dk'] || cp['frost_mage'])) ||
+                 (specData.id === 'restoration' && (cp['restoration_druid'] || cp['restoration_shaman'])) ||
+                 (specData.id === 'restoration_shaman' && cp['restoration']) ||
+                 (specData.id === 'restoration_druid' && cp['restoration']);
     if (sp) activePreset = sp[currentContentMode] || sp.raid || sp.mplus;
   }
   if (!activePreset) {
@@ -396,12 +400,15 @@ function applySpecConfig(specId, autoAdjustWeights = true) {
   if (window.ARCHON_PRESETS && window.ARCHON_PRESETS[currentClass]) {
     const cPresets = window.ARCHON_PRESETS[currentClass];
     const specPreset = cPresets[specData.id] || 
-                       cPresets[`${specData.id}_${currentClass}`] || 
-                       cPresets[`${currentClass}_${specData.id}`] ||
-                       (specData.id === 'protection' && (cPresets['protection_paladin'] || cPresets['prot_warrior'])) ||
-                       (specData.id === 'holy' && (cPresets['holy_paladin'] || cPresets['holy_priest'])) ||
-                       (specData.id === 'frost' && (cPresets['frost_dk'] || cPresets['frost_mage'])) ||
-                       (specData.id === 'restoration' && (cPresets['restoration_druid'] || cPresets['restoration_shaman']));
+                         cPresets[`${specData.id}_${currentClass}`] || 
+                         cPresets[`${currentClass}_${specData.id}`] ||
+                         cPresets[specData.id.split('_')[0]] ||
+                         (specData.id === 'protection' && (cPresets['protection_paladin'] || cPresets['prot_warrior'])) ||
+                         (specData.id === 'holy' && (cPresets['holy_paladin'] || cPresets['holy_priest'])) ||
+                         (specData.id === 'frost' && (cPresets['frost_dk'] || cPresets['frost_mage'])) ||
+                         (specData.id === 'restoration' && (cPresets['restoration_druid'] || cPresets['restoration_shaman'])) ||
+                         (specData.id === 'restoration_shaman' && cPresets['restoration']) ||
+                         (specData.id === 'restoration_druid' && cPresets['restoration']);
     if (specPreset) {
       activePreset = specPreset[currentContentMode] || specPreset.raid || specPreset.mplus;
     }
@@ -472,12 +479,15 @@ function resetWeightsToCurrentSpec() {
   if (window.ARCHON_PRESETS && window.ARCHON_PRESETS[currentClass]) {
     const cPresets = window.ARCHON_PRESETS[currentClass];
     const specPreset = cPresets[specData.id] || 
-                       cPresets[`${specData.id}_${currentClass}`] || 
-                       cPresets[`${currentClass}_${specData.id}`] ||
-                       (specData.id === 'protection' && (cPresets['protection_paladin'] || cPresets['prot_warrior'])) ||
-                       (specData.id === 'holy' && (cPresets['holy_paladin'] || cPresets['holy_priest'])) ||
-                       (specData.id === 'frost' && (cPresets['frost_dk'] || cPresets['frost_mage'])) ||
-                       (specData.id === 'restoration' && (cPresets['restoration_druid'] || cPresets['restoration_shaman']));
+                         cPresets[`${specData.id}_${currentClass}`] || 
+                         cPresets[`${currentClass}_${specData.id}`] ||
+                         cPresets[specData.id.split('_')[0]] ||
+                         (specData.id === 'protection' && (cPresets['protection_paladin'] || cPresets['prot_warrior'])) ||
+                         (specData.id === 'holy' && (cPresets['holy_paladin'] || cPresets['holy_priest'])) ||
+                         (specData.id === 'frost' && (cPresets['frost_dk'] || cPresets['frost_mage'])) ||
+                         (specData.id === 'restoration' && (cPresets['restoration_druid'] || cPresets['restoration_shaman'])) ||
+                         (specData.id === 'restoration_shaman' && cPresets['restoration']) ||
+                         (specData.id === 'restoration_druid' && cPresets['restoration']);
     if (specPreset) {
       activePreset = specPreset[currentContentMode] || specPreset.raid || specPreset.mplus;
     }
