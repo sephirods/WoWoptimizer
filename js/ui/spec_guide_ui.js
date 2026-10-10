@@ -197,7 +197,19 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
   // 1. Obtener Datos de Archon y Wowhead
   const archonSpecs = (typeof window.ARCHON_PRESETS !== 'undefined') ? window.ARCHON_PRESETS : {};
   const classArchon = archonSpecs[classKey] || {};
-  const specArchon = classArchon[specKey] || classArchon[`${specKey}_${classKey}`] || classArchon[`${classKey}_${specKey}`] || {};
+  const specArchon = classArchon[specKey] || classArchon[`${specKey}_${classKey}`] || classArchon[`${classKey}_${specKey}`] || classArchon[specKey.split('_')[0]] || classArchon[specKey.replace(/_.*/, '')] ||
+                       (specKey === 'protection' && (classArchon['protection_paladin'] || classArchon['prot_warrior'])) ||
+                       (specKey === 'holy' && (classArchon['holy_paladin'] || classArchon['holy_priest'])) ||
+                       (specKey === 'frost' && (classArchon['frost_dk'] || classArchon['frost_mage'])) ||
+                       (specKey === 'restoration' && (classArchon['restoration_druid'] || classArchon['restoration_shaman'])) ||
+                       (specKey === 'restoration_shaman' && classArchon['restoration']) ||
+                       (specKey === 'restoration_druid' && classArchon['restoration']) ||
+                       (specKey === 'prot_warrior' && classArchon['protection']) ||
+                       (specKey === 'protection_paladin' && classArchon['protection']) ||
+                       (specKey === 'holy_paladin' && classArchon['holy']) ||
+                       (specKey === 'holy_priest' && classArchon['holy']) ||
+                       (specKey === 'frost_dk' && classArchon['frost']) ||
+                       (specKey === 'frost_mage' && classArchon['frost']) || {};
   const modeData = specArchon[activeMode] || specArchon.raid || { m: 0, c: 0, h: 0, v: 0, talents: '', heroTree: '', bisGear: [] };
 
   const wowheadData = (typeof window.WOWHEAD_SPEC_ENCHANTS_AND_CONSUMABLES !== 'undefined') 

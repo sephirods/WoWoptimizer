@@ -197,7 +197,8 @@ function applyHeroTree(treeId) {
   currentHeroTree = tree.id;
   if (typeof window !== 'undefined') window.currentHeroTree = currentHeroTree;
   const metaTree = getSpecMetaHeroTree(currentClass, currentSpec, currentContentMode);
-  const isMeta = metaTree ? (tree.id === metaTree || metaTree.includes(tree.id) || tree.id.includes(metaTree)) : (tree === specData.heroTrees[0]);
+  const cleanTreeId = tree.id.replace(/[^a-z0-9]/g, '');
+    const isMeta = metaTree ? (cleanTreeId === metaTree || metaTree.includes(cleanTreeId) || cleanTreeId.includes(metaTree)) : (tree === specData.heroTrees[0]);
 
   let activePreset = null;
   if (window.ARCHON_PRESETS && window.ARCHON_PRESETS[currentClass]) {
@@ -278,7 +279,8 @@ function renderPresetsToolbar() {
     <div class="inline-flex rounded-lg p-0.5 bg-purple-950/70 border border-purple-500/50 shadow-inner mr-1">
       <span class="text-[10px] text-purple-300 font-bold px-1.5 self-center">${t('heroTreeLabel', 'Árbol Héroe:')}</span>
       ${specData.heroTrees.map(ht => {
-        const isMeta = metaTree ? (ht.id === metaTree || metaTree.includes(ht.id) || ht.id.includes(metaTree)) : (ht === specData.heroTrees[0]);
+        const cleanHtId = ht.id.replace(/[^a-z0-9]/g, '');
+          const isMeta = metaTree ? (cleanHtId === metaTree || metaTree.includes(cleanHtId) || cleanHtId.includes(metaTree)) : (ht === specData.heroTrees[0]);
         const isSelected = (currentHeroTree === ht.id) || (!currentHeroTree && isMeta);
         const locHeroName = typeof getLocalizedHeroTreeName === 'function' ? getLocalizedHeroTreeName(ht.id, ht.name) : ht.name;
         return `
