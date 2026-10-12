@@ -450,34 +450,6 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/aventuras-fabuholosas-con-el-alazarza-ululante/80358/1"
     },
     {
-      "id": "blizz-6423199",
-      "postId": 6423199,
-      "topicId": 634623,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-09T17:04:32.281Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Battlegrounds, Builds, and Beyond in This Week's WoW Weekly",
-        "es": "Battlegrounds, Builds, and Beyond in This Week's WoW Weekly"
-      },
-      "summary": {
-        "en": "[Battlegrounds, Builds, and Beyond in This Week&#39;s WoW Weekly] From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week&#...",
-        "es": "[Battlegrounds, Builds, and Beyond in This Week&#39;s WoW Weekly] From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week&#..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\" alt=\"Battlegrounds, Builds, and Beyond in This Week's WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to discover across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310655\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\" alt=\"Battlegrounds, Builds, and Beyond in This Week's WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to discover across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310655\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/battlegrounds-builds-and-beyond-in-this-weeks-wow-weekly/634623/1"
-    },
-    {
       "id": "blizz-6423198",
       "postId": 6423198,
       "topicId": 634622,
@@ -674,6 +646,62 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/brew-up-trouble-with-the-hexed-witchwick-collection/634385/1"
     },
     {
+      "id": "blizz-6420889",
+      "postId": 6420889,
+      "topicId": 634376,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-08T18:13:06.056Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "BCCA: Face the Gods of Zul’Aman on 22 October",
+        "es": "BCCA: Face the Gods of Zul’Aman on 22 October"
+      },
+      "summary": {
+        "en": "[BCCA: Face the Gods of Zul’Aman on 22 October] Journey into the eerie Ghostlands, just south of the once-beautiful elven kingdom of Quel&#39;Thalas, and brave the Amani stronghold...",
+        "es": "[BCCA: Face the Gods of Zul’Aman on 22 October] Journey into the eerie Ghostlands, just south of the once-beautiful elven kingdom of Quel&#39;Thalas, and brave the Amani stronghold..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/fc/FC1I75KX91TN1791323351595.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/fc/FC1I75KX91TN1791323351595.png\" alt=\"BCCA: Face the Gods of Zul’Aman on 22 October\" width=\"833\" height=\"468\"></a></p><p>Journey into the eerie Ghostlands, just south of the once-beautiful elven kingdom of Quel'Thalas, and brave the Amani stronghold of Zul'Aman. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310652\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/fc/FC1I75KX91TN1791323351595.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/fc/FC1I75KX91TN1791323351595.png\" alt=\"BCCA: Face the Gods of Zul’Aman on 22 October\" width=\"833\" height=\"468\"></a></p><p>Journey into the eerie Ghostlands, just south of the once-beautiful elven kingdom of Quel'Thalas, and brave the Amani stronghold of Zul'Aman. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310652\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/bcca-face-the-gods-of-zul%E2%80%99aman-on-22-october/634376/1"
+    },
+    {
+      "id": "blizz-6423199",
+      "postId": 6423199,
+      "topicId": 634623,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-09T17:04:32.281Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Battlegrounds, Builds, and Beyond in This Week's WoW Weekly",
+        "es": "Battlegrounds, Builds, and Beyond in This Week's WoW Weekly"
+      },
+      "summary": {
+        "en": "[Battlegrounds, Builds, and Beyond in This Week&#39;s WoW Weekly] From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week&#...",
+        "es": "[Battlegrounds, Builds, and Beyond in This Week&#39;s WoW Weekly] From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week&#..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\" alt=\"Battlegrounds, Builds, and Beyond in This Week's WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to discover across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310655\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\" alt=\"Battlegrounds, Builds, and Beyond in This Week's WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to discover across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310655\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/battlegrounds-builds-and-beyond-in-this-weeks-wow-weekly/634623/1"
+    },
+    {
       "id": "blizz-30390793",
       "postId": 30390793,
       "topicId": 2376248,
@@ -840,34 +868,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/bcca-enfr%C3%A9ntate-a-los-dioses-de-zulaman-el-23-de-octubre/80355/1"
-    },
-    {
-      "id": "blizz-6420889",
-      "postId": 6420889,
-      "topicId": 634376,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-08T18:13:06.056Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "BCCA: Face the Gods of Zul’Aman on 22 October",
-        "es": "BCCA: Face the Gods of Zul’Aman on 22 October"
-      },
-      "summary": {
-        "en": "[BCCA: Face the Gods of Zul’Aman on 22 October] Journey into the eerie Ghostlands, just south of the once-beautiful elven kingdom of Quel&#39;Thalas, and brave the Amani stronghold...",
-        "es": "[BCCA: Face the Gods of Zul’Aman on 22 October] Journey into the eerie Ghostlands, just south of the once-beautiful elven kingdom of Quel&#39;Thalas, and brave the Amani stronghold..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/fc/FC1I75KX91TN1791323351595.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/fc/FC1I75KX91TN1791323351595.png\" alt=\"BCCA: Face the Gods of Zul’Aman on 22 October\" width=\"833\" height=\"468\"></a></p><p>Journey into the eerie Ghostlands, just south of the once-beautiful elven kingdom of Quel'Thalas, and brave the Amani stronghold of Zul'Aman. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310652\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/fc/FC1I75KX91TN1791323351595.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/fc/FC1I75KX91TN1791323351595.png\" alt=\"BCCA: Face the Gods of Zul’Aman on 22 October\" width=\"833\" height=\"468\"></a></p><p>Journey into the eerie Ghostlands, just south of the once-beautiful elven kingdom of Quel'Thalas, and brave the Amani stronghold of Zul'Aman. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310652\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/bcca-face-the-gods-of-zul%E2%80%99aman-on-22-october/634376/1"
     },
     {
       "id": "blizz-6420570",
