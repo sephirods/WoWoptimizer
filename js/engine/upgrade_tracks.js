@@ -7,7 +7,7 @@ const MIDNIGHT_UPGRADE_TRACKS = {
     { rank: 'Myth 4/6', ilvl: 328 },
     { rank: 'Myth 5/6', ilvl: 331 },
     { rank: 'Myth 6/6', ilvl: 334 },
-    { rank: 'Myth + Venomstone (340)', ilvl: 340 }
+    { rank: 'Myth + Venomstone (344)', ilvl: 344 }
   ],
   hero: [
     { rank: 'Hero 1/6', ilvl: 305 },
@@ -16,7 +16,7 @@ const MIDNIGHT_UPGRADE_TRACKS = {
     { rank: 'Hero 4/6', ilvl: 315 },
     { rank: 'Hero 5/6', ilvl: 318 },
     { rank: 'Hero 6/6', ilvl: 321 },
-    { rank: 'Hero + Venomstone (328)', ilvl: 328 }
+    { rank: 'Hero + Venomstone (331)', ilvl: 331 }
   ],
   champ: [
     { rank: 'Champion 1/6', ilvl: 292 },
@@ -36,9 +36,9 @@ const MIDNIGHT_UPGRADE_TRACKS = {
   ],
   crafted: [
     { rank: 'Crafted (Hero Crests 318)', ilvl: 318 },
-    { rank: 'Crafted Hero + Venomstone (325)', ilvl: 325 },
+    { rank: 'Crafted Hero + Venomstone (328)', ilvl: 328 },
     { rank: 'Crafted (Myth Crests 331)', ilvl: 331 },
-    { rank: 'Crafted Myth + Venomstone (338)', ilvl: 338 }
+    { rank: 'Crafted Myth + Venomstone (341)', ilvl: 341 }
   ],
   adventurer: [
     { rank: 'Adventurer 1/6', ilvl: 266 },
@@ -60,19 +60,19 @@ function getMaxIlvlForTrack(track, currentIlvl = 321, includeVenomstone = false,
 
   if (isCrafted || t === 'crafted') {
     if (includeVenomstone) {
-      return (currentIlvl >= 325) ? 338 : 325;
+      return (currentIlvl >= 325) ? 341 : 328;
     } else {
       return (currentIlvl >= 325) ? 331 : 318;
     }
   }
 
   if (includeVenomstone) {
-    if (t === 'myth' || currentIlvl >= 325) return Math.max(currentIlvl, 340);
-    if (t === 'hero' || currentIlvl >= 305) return Math.max(currentIlvl, 328);
+    if (t === 'myth' || currentIlvl >= 325) return Math.max(currentIlvl, 344);
+    if (t === 'hero' || currentIlvl >= 305) return Math.max(currentIlvl, 331);
     if (t === 'champ' || currentIlvl >= 292) return Math.max(currentIlvl, 308);
     if (t === 'vet' || currentIlvl >= 279) return Math.max(currentIlvl, 296);
     if (t === 'adventurer' || currentIlvl >= 266) return Math.max(currentIlvl, 283);
-    return Math.max(currentIlvl || 0, 328);
+    return Math.max(currentIlvl || 0, 331);
   }
 
   const TRACK_MAX_ILVLS = {
