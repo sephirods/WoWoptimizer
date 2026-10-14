@@ -2,6 +2,62 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30461371",
+      "postId": 30461371,
+      "topicId": 2381433,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-13T23:58:34.625Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Temporary Economy Holds For RMT",
+        "es": "Temporary Economy Holds For RMT"
+      },
+      "summary": {
+        "en": "Hello! \nSome players have started to encounter our latest weapon in our efforts against the Real Money Trade (RMT) aka gold buying. If your account is suspected of being involved i...",
+        "es": "Hello! \nSome players have started to encounter our latest weapon in our efforts against the Real Money Trade (RMT) aka gold buying. If your account is suspected of being involved i..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Hello!</p>\n<p>Some players have started to encounter our latest weapon in our efforts against the Real Money Trade (RMT) <em>aka</em> gold buying. If your account is suspected of being involved in RMT, either the selling or receiving of illicit gains, you may find your account subject to a <strong>Temporary Economy Hold</strong>. You will have restricted use of trade, mail, guild banks and the Auction House while this economic hold is in place.</p>\n<p>Our aim with this new system is to aggressively shut down the flow of suspicious gold before it has been transferred or put into circulation into the economy, while providing us the time needed to investigate more thoroughly.</p>\n<p>If you are just playing the game normally, it is unlikely you will ever see this restriction applied to your account. If this restriction is applied to your account, it will be either automatically removed when the actions that triggered it have been investigated and found false, or you will receive account actions if found to have been involved in RMT.</p>\n<p>This system is new. There may be false positives while things are fine tuned, but merely having a Temporary Economy Hold will leave no permanent strikes against your account unless also later proven to be RMT motivated.</p>\n<p>Thank you for joining us! We remain committed to ensure that WoW Forever is not marred by the Real Money Trade, and all of these systems will also be deployed to all versions of World of Warcraft if proven successful.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Hello!</p>\n<p>Some players have started to encounter our latest weapon in our efforts against the Real Money Trade (RMT) <em>aka</em> gold buying. If your account is suspected of being involved in RMT, either the selling or receiving of illicit gains, you may find your account subject to a <strong>Temporary Economy Hold</strong>. You will have restricted use of trade, mail, guild banks and the Auction House while this economic hold is in place.</p>\n<p>Our aim with this new system is to aggressively shut down the flow of suspicious gold before it has been transferred or put into circulation into the economy, while providing us the time needed to investigate more thoroughly.</p>\n<p>If you are just playing the game normally, it is unlikely you will ever see this restriction applied to your account. If this restriction is applied to your account, it will be either automatically removed when the actions that triggered it have been investigated and found false, or you will receive account actions if found to have been involved in RMT.</p>\n<p>This system is new. There may be false positives while things are fine tuned, but merely having a Temporary Economy Hold will leave no permanent strikes against your account unless also later proven to be RMT motivated.</p>\n<p>Thank you for joining us! We remain committed to ensure that WoW Forever is not marred by the Real Money Trade, and all of these systems will also be deployed to all versions of World of Warcraft if proven successful.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/temporary-economy-holds-for-rmt/2381433/1"
+    },
+    {
+      "id": "blizz-30459946",
+      "postId": 30459946,
+      "topicId": 2381312,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-10-13T22:08:50.557Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Midnight: 12.1.5 Content Update -- Known Issues and Information",
+        "es": "Midnight: 12.1.5 Content Update -- Problemas Conocidos and Information"
+      },
+      "summary": {
+        "en": "The Midnight: 12.1.5 content update is now live. Please read on for a list of known issues that we’re working on and further information about this update. \n12.1.5 KNOWN ISSUES\nupd...",
+        "es": "The Midnight: 12.1.5 content update is Ya Disponible. Please read on for a list of Problemas Conocidos that we’re working on and further information about this update. \n12.1.5 Prob..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The Midnight: 12.1.5 content update is now live. Please read on for a list of known issues that we’re working on and further information about this update.</p>\n<h2><a name=\"p-30459946-h-1215-known-issues-1\" class=\"anchor\" href=\"#p-30459946-h-1215-known-issues-1\" aria-label=\"Heading link\"></a>12.1.5 KNOWN ISSUES</h2>\n<p><em>updated October 13 at 4:25 pm PDT</em></p>\n<h3><a name=\"p-30459946-housing-2\" class=\"anchor\" href=\"#p-30459946-housing-2\" aria-label=\"Heading link\"></a>Housing</h3>\n<ul>\n<li>The Large Karabor Fountain decor unintentionally has collision enabled within the fountain’s water.</li>\n<li>The Anima-Powered Kyrian Oven decor is missing collision.</li>\n<li><code>new</code> Several new decor icons are appearing incorrectly on their vendors.</li>\n</ul>\n<h3><a name=\"p-30459946-quests-3\" class=\"anchor\" href=\"#p-30459946-quests-3\" aria-label=\"Heading link\"></a>Quests</h3>\n<ul>\n<li>The Battle for Azeroth War Campaign breadcrumb quests may pop-up for characters after their Legion and Battle for Azeroth reputations have been converted and shared across the warband.</li>\n<li><code>new</code> Looking into an issue where “In the Belly of the Beast” cannot be completed.</li>\n</ul>\n<hr>\n<p>For those just returning or who otherwise need to be caught up we have guides for both new and returning players.</p>\n<blockquote>\n<p><strong><a href=\"https://worldofwarcraft.com/en-us/game/new-players-guide?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">New Player’s Guide</a></strong></p>\n</blockquote>\n<ul>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/c/guides/new-player-help-guides?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">New Player Help and Guides forum</a></li>\n</ul>\n<blockquote>\n<p><strong><a href=\"https://worldofwarcraft.com/en-us/game/returning-players-guide?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">Returning Player’s Guide</a></strong></p>\n</blockquote>\n<ul>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/c/guides/returning-help?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">Returning Player Help and Discussion forum</a></li>\n</ul>\n<p>As with any update, it is important to make sure that if you use addons that they have been updated.</p>\n<p>Helpful links for various tech issues:</p>\n<ul>\n<li>\n<p><a href=\"https://us.battle.net/support/en/article/34791?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">Installation and Patching Troubleshooting </a></p>\n</li>\n<li>\n<p><a href=\"https://us.battle.net/support/en/article/112213?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">World of Warcraft Disconnection Problems </a></p>\n</li>\n<li>\n<p><a href=\"https://us.battle.net/support/en/article/112214?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">World of Warcraft Latency Problems </a></p>\n</li>\n<li>\n<p><a href=\"https://us.battle.net/support/en/article/18542?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">World of Warcraft Performance Troubleshooting </a></p>\n</li>\n<li>\n<p><a href=\"https://us.battle.net/support/en/article/8280?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">World of Warcraft Lockups and Crash Errors </a></p>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The Midnight: 12.1.5 content update ahora es live. Please read on for a list of known issues that we’re working on and further information about this update.</p>\n<h2><a name=\"p-30459946-h-1215-known-issues-1\" class=\"anchor\" href=\"#p-30459946-h-1215-known-issues-1\" aria-label=\"Heading link\"></a>12.1.5 KNOWN ISSUES</h2>\n<p><em>updated October 13 at 4:25 pm PDT</em></p>\n<h3><a name=\"p-30459946-housing-2\" class=\"anchor\" href=\"#p-30459946-housing-2\" aria-label=\"Heading link\"></a>Housing</h3>\n<ul>\n<li>The Large Karabor Fountain decor unintentionally has collision enabled within the fountain’s water.</li>\n<li>The Anima-Powered Kyrian Oven decor is missing collision.</li>\n<li><code>new</code> Several new decor icons are appearing incorrectly on their vendors.</li>\n</ul>\n<h3><a name=\"p-30459946-quests-3\" class=\"anchor\" href=\"#p-30459946-quests-3\" aria-label=\"Heading link\"></a>Quests</h3>\n<ul>\n<li>The Battle for Azeroth War Campaign breadcrumb quests may pop-up for characters after their Legion and Battle for Azeroth reputations have been converted and shared across the warband.</li>\n<li><code>new</code> Looking into an issue where “In the Belly of the Beast” cannot be completed.</li>\n</ul>\n<hr>\n<p>For those just returning or who otherwise need to be caught up we have guides for both new and returning players.</p>\n<blockquote>\n<p><strong><a href=\"https://worldofwarcraft.com/en-us/game/new-players-guide?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">New Player’s Guide</a></strong></p>\n</blockquote>\n<ul>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/c/guides/new-player-help-guides?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">New Player Help and Guides forum</a></li>\n</ul>\n<blockquote>\n<p><strong><a href=\"https://worldofwarcraft.com/en-us/game/returning-players-guide?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">Returning Player’s Guide</a></strong></p>\n</blockquote>\n<ul>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/c/guides/returning-help?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">Returning Player Help and Discussion forum</a></li>\n</ul>\n<p>As with any update, it is important to make sure that if you use addons that they have been updated.</p>\n<p>Helpful links for various tech issues:</p>\n<ul>\n<li>\n<p><a href=\"https://us.battle.net/support/en/article/34791?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">Installation and Patching Troubleshooting </a></p>\n</li>\n<li>\n<p><a href=\"https://us.battle.net/support/en/article/112213?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">World of Warcraft Disconnection Problems </a></p>\n</li>\n<li>\n<p><a href=\"https://us.battle.net/support/en/article/112214?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">World of Warcraft Latency Problems </a></p>\n</li>\n<li>\n<p><a href=\"https://us.battle.net/support/en/article/18542?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">World of Warcraft Performance Troubleshooting </a></p>\n</li>\n<li>\n<p><a href=\"https://us.battle.net/support/en/article/8280?utm_source=Internal-CSForum&amp;utm_medium=PostingSticky&amp;utm_campaign=BlizzardCS&amp;utm_content=solution\">World of Warcraft Lockups and Crash Errors </a></p>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/midnight-1215-content-update-known-issues-and-information/2381312/1"
+    },
+    {
       "id": "blizz-30456886",
       "postId": 30456886,
       "topicId": 2380514,
@@ -168,62 +224,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/enter-the-world-of-warcraft-student-art-contest-2026/2377559/1"
-    },
-    {
-      "id": "blizz-30397010",
-      "postId": 30397010,
-      "topicId": 2376676,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Chimes (WoW Developer)",
-      "dateRaw": "2026-10-08T23:16:17.473Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Crafted Decor Cost Reduction in 12.1.5",
-        "es": "Crafted Decor Cost Reduction in 12.1.5"
-      },
-      "summary": {
-        "en": "We’ve been reviewing decor collection patterns, among other housing-related data, and based on that internal data (and player feedback as well!) we’re making a change in 12.1.5 tha...",
-        "es": "We’ve been reviewing decor collection patterns, among other housing-related data, and based on that internal data (and player feedback as well!) we’re making a change in 12.1.5 tha..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve been reviewing decor collection patterns, among other housing-related data, and based on that internal data (and player feedback as well!) we’re making a change in 12.1.5 that I’d like to highlight now that the patch release is right around the corner. All crafted decor from pre-Midnight professions will be getting their crafting cost reduced. 12.1 saw us do the same for Midnight profession recipes, and now we’re following it up with a significant reduction in decor crafting costs from all professions in all other expansions.</p>\n<p>Some of these reductions are dramatic, some are merely significant. But this isn’t just a reduction in general reagent costs; lumber costs are coming down as well. We want players to craft and enjoy this decor, and we want players who have older professions leveled to see the benefit of those professions, and that will all be easier after the release of 12.1.5.</p>\n<p>While some of the details may have changed, it looks like wowhead did a pretty good job collecting these changes a few weeks ago here: <a href=\"https://www.wowhead.com/news/over-200-decor-recipe-costs-nerfed-in-patch-12-1-5-382919\">https://www.wowhead.com/news/over-200-decor-recipe-costs-nerfed-in-patch-12-1-5-382919</a></p>\n<p>Happy crafting!</p>\n<p>Chimes</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve been reviewing decor collection patterns, among other housing-related data, and based on that internal data (and player feedback as well!) we’re making a change in 12.1.5 that I’d like to highlight now that the patch release is right around the corner. All crafted decor from pre-Midnight professions will be getting their crafting cost reduced. 12.1 saw us do the same for Midnight profession recipes, and now we’re following it up with a significant reduction in decor crafting costs from all professions in all other expansions.</p>\n<p>Some of these reductions are dramatic, some are merely significant. But this isn’t just a reduction in general reagent costs; lumber costs are coming down as well. We want players to craft and enjoy this decor, and we want players who have older professions leveled to see the benefit of those professions, and that will all be easier after the release of 12.1.5.</p>\n<p>While some of the details may have changed, it looks like wowhead did a pretty good job collecting these changes a few weeks ago here: <a href=\"https://www.wowhead.com/news/over-200-decor-recipe-costs-nerfed-in-patch-12-1-5-382919\">https://www.wowhead.com/news/over-200-decor-recipe-costs-nerfed-in-patch-12-1-5-382919</a></p>\n<p>Happy crafting!</p>\n<p>Chimes</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/crafted-decor-cost-reduction-in-1215/2376676/1"
-    },
-    {
-      "id": "blizz-30395857",
-      "postId": 30395857,
-      "topicId": 2376548,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-08T22:03:57.937Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Burning Crusade Classic Zul'Aman PTR Raid Testing",
-        "es": "Burning Crusade Classic Zul'Aman PTR Banda Testing"
-      },
-      "summary": {
-        "en": "We recently opened this public test realm (PTR) for the purpose of testing the next phase of the Burning Crusade Classic. \nWe will open Zul’Aman for raid testing on the PTR at 12:0...",
-        "es": "We recently opened this public test realm (PTR) for the purpose of testing the next phase of the Burning Crusade Classic. \nWe will open Zul’Aman for Banda testing on the PTR at 12:..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We recently opened this public test realm (PTR) for the purpose of testing the next phase of the Burning Crusade Classic.</p>\n<p>We will open Zul’Aman for raid testing on the PTR at 12:00 Noon PDT on Friday, October 9.</p>\n<p>This raid test will conclude at 12:00 Noon PDT on Monday, October 12.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We recently opened this public test realm (PTR) for the purpose of testing the next phase of the Burning Crusade Classic.</p>\n<p>We will open Zul’Aman for raid testing on the PTR at 12:00 Noon PDT on Friday, October 9.</p>\n<p>This raid test will conclude at 12:00 Noon PDT on Monday, October 12.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/burning-crusade-classic-zulaman-ptr-raid-testing/2376548/1"
     },
     {
       "id": "blizz-1232454",
@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/aventuras-fabuholosas-con-el-alazarza-ululante/80358/1"
     },
     {
+      "id": "blizz-6430418",
+      "postId": 6430418,
+      "topicId": 635356,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-13T23:58:45.096Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Temporary Economy Holds For RMT",
+        "es": "Temporary Economy Holds For RMT"
+      },
+      "summary": {
+        "en": "Hello! \nSome players have started to encounter our latest weapon in our efforts against the Real Money Trade (RMT) aka gold buying. If your account is suspected of being involved i...",
+        "es": "Hello! \nSome players have started to encounter our latest weapon in our efforts against the Real Money Trade (RMT) aka gold buying. If your account is suspected of being involved i..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Hello!</p>\n<p>Some players have started to encounter our latest weapon in our efforts against the Real Money Trade (RMT) <em>aka</em> gold buying. If your account is suspected of being involved in RMT, either the selling or receiving of illicit gains, you may find your account subject to a <strong>Temporary Economy Hold</strong>. You will have restricted use of trade, mail, guild banks and the Auction House while this economic hold is in place.</p>\n<p>Our aim with this new system is to aggressively shut down the flow of suspicious gold before it has been transferred or put into circulation into the economy, while providing us the time needed to investigate more thoroughly.</p>\n<p>If you are just playing the game normally, it is unlikely you will ever see this restriction applied to your account. If this restriction is applied to your account, it will be either automatically removed when the actions that triggered it have been investigated and found false, or you will receive account actions if found to have been involved in RMT.</p>\n<p>This system is new. There may be false positives while things are fine tuned, but merely having a Temporary Economy Hold will leave no permanent strikes against your account unless also later proven to be RMT motivated.</p>\n<p>Thank you for joining us! We remain committed to ensure that WoW Forever is not marred by the Real Money Trade, and all of these systems will also be deployed to all versions of World of Warcraft if proven successful.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Hello!</p>\n<p>Some players have started to encounter our latest weapon in our efforts against the Real Money Trade (RMT) <em>aka</em> gold buying. If your account is suspected of being involved in RMT, either the selling or receiving of illicit gains, you may find your account subject to a <strong>Temporary Economy Hold</strong>. You will have restricted use of trade, mail, guild banks and the Auction House while this economic hold is in place.</p>\n<p>Our aim with this new system is to aggressively shut down the flow of suspicious gold before it has been transferred or put into circulation into the economy, while providing us the time needed to investigate more thoroughly.</p>\n<p>If you are just playing the game normally, it is unlikely you will ever see this restriction applied to your account. If this restriction is applied to your account, it will be either automatically removed when the actions that triggered it have been investigated and found false, or you will receive account actions if found to have been involved in RMT.</p>\n<p>This system is new. There may be false positives while things are fine tuned, but merely having a Temporary Economy Hold will leave no permanent strikes against your account unless also later proven to be RMT motivated.</p>\n<p>Thank you for joining us! We remain committed to ensure that WoW Forever is not marred by the Real Money Trade, and all of these systems will also be deployed to all versions of World of Warcraft if proven successful.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/temporary-economy-holds-for-rmt/635356/1"
+    },
+    {
       "id": "blizz-6429987",
       "postId": 6429987,
       "topicId": 635185,
@@ -644,6 +672,62 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/twitch-drop-now-live-get-the-cuddly-gold-colored-grrgle-housing-decor-item/634432/1"
+    },
+    {
+      "id": "blizz-30397010",
+      "postId": 30397010,
+      "topicId": 2376676,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Chimes (WoW Developer)",
+      "dateRaw": "2026-10-08T23:16:17.473Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Crafted Decor Cost Reduction in 12.1.5",
+        "es": "Crafted Decor Cost Reduction in 12.1.5"
+      },
+      "summary": {
+        "en": "We’ve been reviewing decor collection patterns, among other housing-related data, and based on that internal data (and player feedback as well!) we’re making a change in 12.1.5 tha...",
+        "es": "We’ve been reviewing decor collection patterns, among other housing-related data, and based on that internal data (and player feedback as well!) we’re making a change in 12.1.5 tha..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve been reviewing decor collection patterns, among other housing-related data, and based on that internal data (and player feedback as well!) we’re making a change in 12.1.5 that I’d like to highlight now that the patch release is right around the corner. All crafted decor from pre-Midnight professions will be getting their crafting cost reduced. 12.1 saw us do the same for Midnight profession recipes, and now we’re following it up with a significant reduction in decor crafting costs from all professions in all other expansions.</p>\n<p>Some of these reductions are dramatic, some are merely significant. But this isn’t just a reduction in general reagent costs; lumber costs are coming down as well. We want players to craft and enjoy this decor, and we want players who have older professions leveled to see the benefit of those professions, and that will all be easier after the release of 12.1.5.</p>\n<p>While some of the details may have changed, it looks like wowhead did a pretty good job collecting these changes a few weeks ago here: <a href=\"https://www.wowhead.com/news/over-200-decor-recipe-costs-nerfed-in-patch-12-1-5-382919\">https://www.wowhead.com/news/over-200-decor-recipe-costs-nerfed-in-patch-12-1-5-382919</a></p>\n<p>Happy crafting!</p>\n<p>Chimes</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve been reviewing decor collection patterns, among other housing-related data, and based on that internal data (and player feedback as well!) we’re making a change in 12.1.5 that I’d like to highlight now that the patch release is right around the corner. All crafted decor from pre-Midnight professions will be getting their crafting cost reduced. 12.1 saw us do the same for Midnight profession recipes, and now we’re following it up with a significant reduction in decor crafting costs from all professions in all other expansions.</p>\n<p>Some of these reductions are dramatic, some are merely significant. But this isn’t just a reduction in general reagent costs; lumber costs are coming down as well. We want players to craft and enjoy this decor, and we want players who have older professions leveled to see the benefit of those professions, and that will all be easier after the release of 12.1.5.</p>\n<p>While some of the details may have changed, it looks like wowhead did a pretty good job collecting these changes a few weeks ago here: <a href=\"https://www.wowhead.com/news/over-200-decor-recipe-costs-nerfed-in-patch-12-1-5-382919\">https://www.wowhead.com/news/over-200-decor-recipe-costs-nerfed-in-patch-12-1-5-382919</a></p>\n<p>Happy crafting!</p>\n<p>Chimes</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/crafted-decor-cost-reduction-in-1215/2376676/1"
+    },
+    {
+      "id": "blizz-30395857",
+      "postId": 30395857,
+      "topicId": 2376548,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-08T22:03:57.937Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Burning Crusade Classic Zul'Aman PTR Raid Testing",
+        "es": "Burning Crusade Classic Zul'Aman PTR Banda Testing"
+      },
+      "summary": {
+        "en": "We recently opened this public test realm (PTR) for the purpose of testing the next phase of the Burning Crusade Classic. \nWe will open Zul’Aman for raid testing on the PTR at 12:0...",
+        "es": "We recently opened this public test realm (PTR) for the purpose of testing the next phase of the Burning Crusade Classic. \nWe will open Zul’Aman for Banda testing on the PTR at 12:..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We recently opened this public test realm (PTR) for the purpose of testing the next phase of the Burning Crusade Classic.</p>\n<p>We will open Zul’Aman for raid testing on the PTR at 12:00 Noon PDT on Friday, October 9.</p>\n<p>This raid test will conclude at 12:00 Noon PDT on Monday, October 12.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We recently opened this public test realm (PTR) for the purpose of testing the next phase of the Burning Crusade Classic.</p>\n<p>We will open Zul’Aman for raid testing on the PTR at 12:00 Noon PDT on Friday, October 9.</p>\n<p>This raid test will conclude at 12:00 Noon PDT on Monday, October 12.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/burning-crusade-classic-zulaman-ptr-raid-testing/2376548/1"
     },
     {
       "id": "blizz-6421463",
@@ -1316,90 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/lucha-por-las-islas-lanza-negra-en-world-of-warcraft-forever/80341/1"
-    },
-    {
-      "id": "blizz-6420566",
-      "postId": 6420566,
-      "topicId": 634340,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-08T16:25:53.236Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Check Out Episode 3 of the WoW: Forever Podcast",
-        "es": "Check Out Episode 3 of the WoW: Forever Podcast"
-      },
-      "summary": {
-        "en": "[Check Out Episode 3 of the WoW: Forever Podcast] Join WoW: Forever Podcast host Countdown To Classic and special guest Hammerdance as they sit down with Senior Game Designers Josh...",
-        "es": "[Check Out Episode 3 of the WoW: Forever Podcast] Join WoW: Forever Podcast host Countdown To Classic and special guest Hammerdance as they sit down with Senior Game Designers Josh..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\" alt=\"Check Out Episode 3 of the WoW: Forever Podcast\" width=\"833\" height=\"468\"></a></p><p>Join WoW: Forever Podcast host Countdown To Classic and special guest Hammerdance as they sit down with Senior Game Designers Josh “Aggrend” Greenfield, Jay Hartman, and Rowan Ryder as they dive into dungeon leveling, questing, and more. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310653\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\" alt=\"Check Out Episode 3 of the WoW: Forever Podcast\" width=\"833\" height=\"468\"></a></p><p>Join WoW: Forever Podcast host Countdown To Classic and special guest Hammerdance as they sit down with Senior Game Designers Josh “Aggrend” Greenfield, Jay Hartman, and Rowan Ryder as they dive into dungeon leveling, questing, and more. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310653\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/check-out-episode-3-of-the-wow-forever-podcast/634340/1"
-    },
-    {
-      "id": "blizz-6420367",
-      "postId": 6420367,
-      "topicId": 634315,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-08T15:00:34.125Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Beta Realm Maintenance - 8 October",
-        "es": "Beta Realm Mantenimiento - 8 October"
-      },
-      "summary": {
-        "en": "Starting in one hour at 18:00 CEST, we will take the WoW Forever Beta down for maintenance and updates. We’re starting a bit earlier today than we have on previous Thursdays, becau...",
-        "es": "Starting in one hour at 18:00 CEST, we will take the WoW Forever Beta down for Mantenimiento and updates. We’re starting a bit earlier today than we have on previous Thursdays, bec..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Starting in one hour at 18:00 CEST, we will take the WoW Forever Beta down for maintenance and updates. We’re starting a bit earlier today than we have on previous Thursdays, because we’ve gathered up several fixes for behind-the-scenes, non-gameplay issues that we’re going to deploy and then test internally, in addition to a full suite of bug fixes and gameplay adjustments.</p>\n<p>If this was a live game, we’d post in the Breaking News banner that we expect to bring realms back online by Midnight, 00:00 CEST.</p>\n<p>We’ll have a full update of our <a href=\"https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-1-october/631316/\">Development Notes</a> and <a href=\"https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-known-issues-1-october/629369/\">Known Issues</a> posts later today.</p>\n<p>Thank you for joining us on this adventure!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Starting in one hour at 18:00 CEST, we will take the WoW Forever Beta down for maintenance and updates. We’re starting a bit earlier today than we have on previous Thursdays, because we’ve gathered up several fixes for behind-the-scenes, non-gameplay issues that we’re going to deploy and then test internally, in addition to a full suite of bug fixes and gameplay adjustments.</p>\n<p>If this was a live game, we’d post in the Breaking News banner that we expect to bring realms back online by Midnight, 00:00 CEST.</p>\n<p>We’ll have a full update of our <a href=\"https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-1-october/631316/\">Development Notes</a> and <a href=\"https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-known-issues-1-october/629369/\">Known Issues</a> posts later today.</p>\n<p>Thank you for joining us on this adventure!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/beta-realm-maintenance-8-october/634315/1"
-    },
-    {
-      "id": "blizz-6419335",
-      "postId": 6419335,
-      "topicId": 634216,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-07T22:00:09.896Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Forever Class Deep Dives — Mage and Shaman",
-        "es": "World of Warcraft: Forever Class Deep Dives — Mage and Shaman"
-      },
-      "summary": {
-        "en": "[World of Warcraft: Forever Class Deep Dives — Mage and Shaman] Our World of Warcraft: Forever class deep dive series continues with developer insights into Mages and Shaman. Learn...",
-        "es": "[World of Warcraft: Forever Class Deep Dives — Mage and Shaman] Our World of Warcraft: Forever class deep dive series continues with developer insights into Mages and Shaman. Learn..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t4/T46ED5B4T7V11791309695380.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t4/T46ED5B4T7V11791309695380.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Mage and Shaman\" width=\"833\" height=\"468\"></a></p><p>Our World of Warcraft: Forever class deep dive series continues with developer insights into Mages and Shaman. Learn how Mage updates expand Arcane, Fire, and Frost magic with new hybrid possibilities like Frostfire Bolt, and how Shaman changes make totems easier to manage, weapon imbues longer lasting, and Elemental Combat, Enhancement, and Restoration builds more versatile. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24302097\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t4/T46ED5B4T7V11791309695380.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t4/T46ED5B4T7V11791309695380.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Mage and Shaman\" width=\"833\" height=\"468\"></a></p><p>Our World of Warcraft: Forever class deep dive series continues with developer insights into Mages and Shaman. Learn how Mage updates expand Arcano, Fuego, and Escarcha magic with new hybrid possibilities like Frostfire Bolt, and how Shaman changes make totems easier to manage, weapon imbues longer lasting, and Elemental Combat, Mejora, and Restauración builds more versatile. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24302097\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-class-deep-dives-%E2%80%94-mage-and-shaman/634216/1"
     }
   ],
   "blizzardNews": [
