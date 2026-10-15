@@ -189,45 +189,6 @@ window.WOWHEAD_STAT_PRIORITIES = {
           }
         }
       }
-    },
-    "devourer": {
-      "name": "Devourer Demon Hunter",
-      "guideUrl": "https://www.wowhead.com/guide/classes/demon-hunter/devourer/stat-priority-pve-dps",
-      "heroTrees": {
-        "Annihilator": {
-          "rawList": [
-            "Intellect",
-            "Haste",
-            "Mastery",
-            "Critical Strike",
-            "Versatility"
-          ],
-          "secondaryOrder": "Haste > Mastery > Crit > Vers",
-          "weights": {
-            "m": 1.3,
-            "c": 1,
-            "h": 1.6,
-            "v": 0.7
-          }
-        },
-        "Void-Scarred": {
-          "rawList": [
-            "Intellect",
-            "Haste (until 800/18%-20%)",
-            "Critical Strike",
-            "Mastery",
-            "Versatility",
-            "Haste (above 800/18%-20%)."
-          ],
-          "secondaryOrder": "Haste > Crit > Mastery > Vers > Haste",
-          "weights": {
-            "m": 1,
-            "c": 1.3,
-            "h": 0.6,
-            "v": 0.7
-          }
-        }
-      }
     }
   },
   "druid": {
@@ -1002,7 +963,7 @@ window.WOWHEAD_STAT_PRIORITIES = {
         "Oracle": {
           "rawList": [
             "Intellect",
-            "Haste to comfort (~20%)",
+            "Haste to comfort (~30%)",
             "Versatility",
             "Critical Strike",
             "Haste",
