@@ -2,6 +2,62 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30484126",
+      "postId": 30484126,
+      "topicId": 2383164,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-15T16:18:58.905Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ & ‪@Savixirl",
+        "es": "The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ & ‪@Savixirl"
+      },
+      "summary": {
+        "en": "[The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast]...",
+        "es": "[The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast]..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"bzaMA5fZ1tE\" data-video-title=\"The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=bzaMA5fZ1tE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/bzaMA5fZ1tE/maxresdefault.jpg\" title=\"The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"bzaMA5fZ1tE\" data-video-title=\"The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=bzaMA5fZ1tE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/bzaMA5fZ1tE/maxresdefault.jpg\" title=\"The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/2383164/1"
+    },
+    {
+      "id": "blizz-30483848",
+      "postId": 30483848,
+      "topicId": 2383146,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-15T16:00:05.262Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Midnight: Echoes of the Worldcore Overview",
+        "es": "Midnight: Echoes of the Worldcore Overview"
+      },
+      "summary": {
+        "en": "[Midnight: Echoes of the Worldcore Overview] The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal for a dramatic new story campaign, introduces a...",
+        "es": "[Midnight: Echoes of the Worldcore Overview] The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal for a dramatic new story campaign, introduces a..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\" alt=\"Midnight: Echoes of the Worldcore Overview\" width=\"833\" height=\"468\"></a></p><p>The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal for a dramatic new story campaign, introduces a terrifying new game mode—Talebound, offers a fresh set of Lorewalking quests, brings new rewards for Turbulent Timeways, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310659\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\" alt=\"Midnight: Echoes of the Worldcore Overview\" width=\"833\" height=\"468\"></a></p><p>The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal for a dramatic new story campaign, introduces a terrifying new game mode—Talebound, offers a fresh set of Lorewalking quests, brings new rewards for Turbulent Timeways, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310659\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/midnight-echoes-of-the-worldcore-overview/2383146/1"
+    },
+    {
       "id": "blizz-30477527",
       "postId": 30477527,
       "topicId": 2382684,
@@ -170,60 +226,60 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-venomous-abyss-hall-of-fame-is-closing-soon/2380548/1"
     },
     {
-      "id": "blizz-30448091",
-      "postId": 30448091,
-      "topicId": 2380514,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-12T22:43:51.732Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Dungeon and Raid Tuning -- October 13",
-        "es": "Mazmorra and Banda Tuning -- October 13"
-      },
-      "summary": {
-        "en": "The following dungeon and raid tuning adjustments will go live with the 12.1.5 content update this week (tomorrow, October 13 in this region). \nDungeons and Raid\n\nAltar of Fangs\n\nP...",
-        "es": "The following Mazmorra and Banda tuning adjustments will go live with the 12.1.5 content update this week (tomorrow, October 13 in this region). \nMazmorras and Banda\n\nAltar of Fang..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The following dungeon and raid tuning adjustments will go live with the 12.1.5 content update this week (tomorrow, October 13 in this region).</p>\n<h2><a name=\"p-30448091-dungeons-and-raid-1\" class=\"anchor\" href=\"#p-30448091-dungeons-and-raid-1\" aria-label=\"Heading link\"></a>Dungeons and Raid</h2>\n<ul>\n<li><strong>Altar of Fangs</strong>\n<ul>\n<li><strong>Primal Serpent</strong>\n<ul>\n<li>Piercing Hiss damage reduced by 25%.</li>\n<li>Piercing Hiss cooldown increased by 10%.</li>\n</ul>\n</li>\n<li><strong>Ravenous Descendant</strong>\n<ul>\n<li>Health reduced by 9%.</li>\n</ul>\n</li>\n<li><strong>Twinfang Harrower</strong>\n<ul>\n<li>Health reduced by 6%.</li>\n<li>Paralyzing Shot periodic damage reduced by 20%.</li>\n<li>Paralyzing Shot duration reduced to 14 seconds (was 20 seconds).</li>\n</ul>\n</li>\n<li><strong>Ritual Chieftain</strong>\n<ul>\n<li>Blood Sacrifice healing absorb reduced by 12%.</li>\n</ul>\n</li>\n<li><strong>Rattling Writhe</strong>\n<ul>\n<li>Health reduced by 6%.</li>\n<li>Rattle periodic damage reduced by 25%.</li>\n</ul>\n</li>\n<li><strong>High Evolutionist</strong>\n<ul>\n<li>Evolve now has a more prominent visual effect during channel.</li>\n</ul>\n</li>\n<li><strong>Bloodletter</strong>\n<ul>\n<li>Health reduced by 5%.</li>\n</ul>\n</li>\n<li><strong>Ascendant Serpent</strong>\n<ul>\n<li>Health reduced by 21%.</li>\n</ul>\n</li>\n<li><strong>Living Venom</strong>\n<ul>\n<li>Health reduced by 25%.</li>\n<li>Venom Burst damage reduced by 50%.</li>\n</ul>\n</li>\n<li><strong>Rav’i</strong>\n<ul>\n<li>Carrion Burst periodic damage reduced by 10%.</li>\n</ul>\n</li>\n<li><strong>Zul’jan</strong>\n<ul>\n<li>Axegrinder periodic damage reduced by 15%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Murder Row</strong>\n<ul>\n<li><strong>Zaen Bladesorrow</strong>\n<ul>\n<li>Fire Bomb damage reduced by 33%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Ruby Life Pools</strong>\n<ul>\n<li><strong>Earthbound Guardian</strong>\n<ul>\n<li>Earthbound’s Imprint impact damage reduced by 21%.</li>\n<li>Earthbound’s Imprint periodic damage reduced by 13%.</li>\n</ul>\n</li>\n<li><strong>Defier Draghar</strong>\n<ul>\n<li>Health reduced by 27%.</li>\n</ul>\n</li>\n<li><strong>Primalist Cinderweaver</strong>\n<ul>\n<li>Living Bomb debuff can now be dispelled and the explosion damage will not occur when dispelled.</li>\n</ul>\n</li>\n<li><strong>Storm Warrior</strong>\n<ul>\n<li>Thunderous Stomp damage reduced by 18%.</li>\n</ul>\n</li>\n<li><strong>High Channeler Ryvati</strong>\n<ul>\n<li>Tempest Stormshield absorb percentage of maximum health reduced to 15% (was 20%).</li>\n</ul>\n</li>\n<li><strong>Melidrussa Chillworn</strong>\n<ul>\n<li>Infused Whelp’s Cold Claws cooldown increased.</li>\n</ul>\n</li>\n<li><strong>Kokia Blazehoof</strong>\n<ul>\n<li>Blazebound Firestorm health reduced by 12.5%.</li>\n<li>Blazebound Firestorm’s Inferno impact damage reduced by 18%.</li>\n<li>Blazebound Firestorm’s periodic damage reduced by 14%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Temple of Sethraliss</strong>\n<ul>\n<li><strong>Static Anomaly</strong>\n<ul>\n<li>Spark Step damage reduced by 25%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>The Blinding Vale</strong>\n<ul>\n<li><strong>Sporeblight Belcher</strong>\n<ul>\n<li>Reduced health by 11%.</li>\n<li>Spouting Floret periodic damage reduced by 16%.</li>\n<li>Belch Sore damage reduced by 16%.</li>\n<li>Reduced the number of Belch Sore projectiles per tick to 3 (was 5).</li>\n</ul>\n</li>\n<li><strong>Radiant Spellsower</strong>\n<ul>\n<li>Light Bolt Volley damage reduced by 16%.</li>\n</ul>\n</li>\n<li><strong>Lightwarden Ruia</strong>\n<ul>\n<li>Lightfire periodic damage reduced by 15%.</li>\n<li>Pulverizing Strikes damage reduced by 12%.</li>\n</ul>\n</li>\n<li><strong>Ziekket</strong>\n<ul>\n<li>Lightspawn Lasher health reduced by 10%.</li>\n<li>Lightspore Shot damage reduced by 16%.</li>\n<li>Oozing Xylem damage reduced by 16%.</li>\n<li>Vicious Regrowth haste and damage buff reduced to 20% (was 30%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Sszorak</strong>\n<ul>\n<li>Increased the time for Sszorak to reach 100 rage by 5 seconds on Mythic difficulty.</li>\n</ul>\n</li>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>The initial total number of orbs that spawn during Toxic Deluge in Phase 1 reduced to 8 on Mythic difficulty (was 10).</li>\n<li>The number of Virulent Mutations that spawn in Phase 1 reduced to 4 on Mythic difficulty (was 5).</li>\n<li>Virulent Mutation and Mutagenic Venom radius reduced to 6 yards (was 8 yards).</li>\n<li>The number of players Dreadmarch targets reduced to 3 on Mythic difficulty (was 4).</li>\n<li>Manifestations of Dread now immediately display their red glow visuals to their fixated target the moment they began fixating on all difficulties.</li>\n<li>Manifestations of Dread now despawn if their fixated target dies instead of re-fixating on a new player on all difficulties.</li>\n<li>Increased the angle Manifestations of Dread are detected and stunned by 10 degrees on all difficulties.</li>\n<li>Eternal Nightfall cast time increased by 2 seconds on all difficulties.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Voidscar Arena</strong>\n<ul>\n<li><strong>Feral Saberon</strong>\n<ul>\n<li>Savage Leap cooldown increased by 25%.</li>\n</ul>\n</li>\n<li><strong>Chitigoth</strong>\n<ul>\n<li>Insidious Aura channel duration reduced to 8 seconds (was 10 seconds).</li>\n</ul>\n</li>\n<li><strong>Brutal Overseer</strong>\n<ul>\n<li>Brutal Slams damage increase per slam reduced to 8% (was 10%).</li>\n</ul>\n</li>\n<li><strong>Atroxus</strong>\n<ul>\n<li>Poison Splash periodic damage reduced by 11%.</li>\n<li>Toxic Aura periodic damage reduced by 20%.</li>\n</ul>\n</li>\n<li><strong>Charonus</strong>\n<ul>\n<li>Condensed Mass periodic damage reduced by 20%.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The following dungeon and raid tuning adjustments will go live with the 12.1.5 content update this week (tomorrow, October 13 in this region).</p>\n<h2><a name=\"p-30448091-dungeons-and-raid-1\" class=\"anchor\" href=\"#p-30448091-dungeons-and-raid-1\" aria-label=\"Heading link\"></a>Dungeons and Raid</h2>\n<ul>\n<li><strong>Altar of Fangs</strong>\n<ul>\n<li><strong>Primal Serpent</strong>\n<ul>\n<li>Piercing Hiss daño reducido un 25%.</li>\n<li>Piercing Hiss tiempo de reutilización aumentado en 10%.</li>\n</ul>\n</li>\n<li><strong>Ravenous Descendant</strong>\n<ul>\n<li>Health reduced by 9%.</li>\n</ul>\n</li>\n<li><strong>Twinfang Harrower</strong>\n<ul>\n<li>Health reduced by 6%.</li>\n<li>Paralyzing Shot periodic daño reducido un 20%.</li>\n<li>Paralyzing Shot duration reduced to 14 seconds (was 20 seconds).</li>\n</ul>\n</li>\n<li><strong>Ritual Chieftain</strong>\n<ul>\n<li>Sangre Sacrifice healing absorb reduced by 12%.</li>\n</ul>\n</li>\n<li><strong>Rattling Writhe</strong>\n<ul>\n<li>Health reduced by 6%.</li>\n<li>Rattle periodic daño reducido un 25%.</li>\n</ul>\n</li>\n<li><strong>High Evolutionist</strong>\n<ul>\n<li>Evolve now has a more prominent visual effect during channel.</li>\n</ul>\n</li>\n<li><strong>Bloodletter</strong>\n<ul>\n<li>Health reduced by 5%.</li>\n</ul>\n</li>\n<li><strong>Ascendant Serpent</strong>\n<ul>\n<li>Health reduced by 21%.</li>\n</ul>\n</li>\n<li><strong>Living Venom</strong>\n<ul>\n<li>Health reduced by 25%.</li>\n<li>Venom Burst daño reducido un 50%.</li>\n</ul>\n</li>\n<li><strong>Rav’i</strong>\n<ul>\n<li>Carrion Burst periodic daño reducido un 10%.</li>\n</ul>\n</li>\n<li><strong>Zul’jan</strong>\n<ul>\n<li>Axegrinder periodic daño reducido un 15%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Murder Row</strong>\n<ul>\n<li><strong>Zaen Bladesorrow</strong>\n<ul>\n<li>Fuego Bomb daño reducido un 33%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Ruby Life Pools</strong>\n<ul>\n<li><strong>Earthbound Guardián</strong>\n<ul>\n<li>Earthbound’s Imprint impact daño reducido un 21%.</li>\n<li>Earthbound’s Imprint periodic daño reducido un 13%.</li>\n</ul>\n</li>\n<li><strong>Defier Draghar</strong>\n<ul>\n<li>Health reduced by 27%.</li>\n</ul>\n</li>\n<li><strong>Primalist Cinderweaver</strong>\n<ul>\n<li>Living Bomb debuff can now be dispelled and the explosion damage will not occur when dispelled.</li>\n</ul>\n</li>\n<li><strong>Storm Warrior</strong>\n<ul>\n<li>Thunderous Stomp daño reducido un 18%.</li>\n</ul>\n</li>\n<li><strong>High Channeler Ryvati</strong>\n<ul>\n<li>Tempest Stormshield absorb percentage of maximum health reduced to 15% (antes era 20%).</li>\n</ul>\n</li>\n<li><strong>Melidrussa Chillworn</strong>\n<ul>\n<li>Infused Whelp’s Cold Claws cooldown increased.</li>\n</ul>\n</li>\n<li><strong>Kokia Blazehoof</strong>\n<ul>\n<li>Blazebound Firestorm health reduced by 12.5%.</li>\n<li>Blazebound Firestorm’s Inferno impact daño reducido un 18%.</li>\n<li>Blazebound Firestorm’s periodic daño reducido un 14%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Temple of Sethraliss</strong>\n<ul>\n<li><strong>Static Anomaly</strong>\n<ul>\n<li>Spark Step daño reducido un 25%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>The Blinding Vale</strong>\n<ul>\n<li><strong>Sporeblight Belcher</strong>\n<ul>\n<li>Reduced health by 11%.</li>\n<li>Spouting Floret periodic daño reducido un 16%.</li>\n<li>Belch Sore daño reducido un 16%.</li>\n<li>Reduced the number of Belch Sore projectiles per tick to 3 (was 5).</li>\n</ul>\n</li>\n<li><strong>Radiant Spellsower</strong>\n<ul>\n<li>Light Bolt Volley daño reducido un 16%.</li>\n</ul>\n</li>\n<li><strong>Lightwarden Ruia</strong>\n<ul>\n<li>Lightfire periodic daño reducido un 15%.</li>\n<li>Pulverizing Strikes daño reducido un 12%.</li>\n</ul>\n</li>\n<li><strong>Ziekket</strong>\n<ul>\n<li>Lightspawn Lasher health reduced by 10%.</li>\n<li>Lightspore Shot daño reducido un 16%.</li>\n<li>Oozing Xylem daño reducido un 16%.</li>\n<li>Vicious Regrowth haste and damage buff reduced to 20% (antes era 30%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Sszorak</strong>\n<ul>\n<li>Increased the time for Sszorak to reach 100 rage by 5 seconds on Mythic difficulty.</li>\n</ul>\n</li>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>The initial total number of orbs that spawn during Toxic Deluge in Phase 1 reduced to 8 on Mythic difficulty (was 10).</li>\n<li>The number of Virulent Mutations that spawn in Phase 1 reduced to 4 on Mythic difficulty (was 5).</li>\n<li>Virulent Mutation and Mutagenic Venom radius reduced to 6 yards (was 8 yards).</li>\n<li>The number of players Dreadmarch targets reduced to 3 on Mythic difficulty (was 4).</li>\n<li>Manifestations of Dread now immediately display their red glow visuals to their fixated target the moment they began fixating on all difficulties.</li>\n<li>Manifestations of Dread now despawn if their fixated target dies instead of re-fixating on a new player on all difficulties.</li>\n<li>Increased the angle Manifestations of Dread are detected and stunned by 10 degrees on all difficulties.</li>\n<li>Eternal Nightfall cast time increased by 2 seconds on all difficulties.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Voidscar Arena</strong>\n<ul>\n<li><strong>Feral Saberon</strong>\n<ul>\n<li>Savage Leap tiempo de reutilización aumentado en 25%.</li>\n</ul>\n</li>\n<li><strong>Chitigoth</strong>\n<ul>\n<li>Insidious Aura channel duration reduced to 8 seconds (was 10 seconds).</li>\n</ul>\n</li>\n<li><strong>Brutal Overseer</strong>\n<ul>\n<li>Brutal Slams damage increase per slam reduced to 8% (antes era 10%).</li>\n</ul>\n</li>\n<li><strong>Atroxus</strong>\n<ul>\n<li>Poison Splash periodic daño reducido un 11%.</li>\n<li>Toxic Aura periodic daño reducido un 20%.</li>\n</ul>\n</li>\n<li><strong>Charonus</strong>\n<ul>\n<li>Condensed Mass periodic daño reducido un 20%.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/dungeon-and-raid-tuning-october-13/2380514/1"
-    },
-    {
-      "id": "blizz-30407582",
-      "postId": 30407582,
-      "topicId": 2377568,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1233093",
+      "postId": 1233093,
+      "topicId": 80427,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-09T17:03:30.720Z",
+      "dateRaw": "2026-10-15T16:00:09.626Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Battlegrounds, Builds, and Beyond in This Week's WoW Weekly",
-        "es": "Battlegrounds, Builds, and Beyond in This Week's WoW Weekly"
+        "en": "Resumen de Midnight: Ecos del Núcleo del Mundo",
+        "es": "Resumen de Midnight: Ecos del Núcleo del Mundo"
       },
       "summary": {
-        "en": "[Battlegrounds, Builds, and Beyond in This Week&#39;s WoW Weekly] From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week&#...",
-        "es": "[Battlegrounds, Builds, and Beyond in This Week&#39;s WoW Weekly] From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week&#..."
+        "en": "[Resumen de Midnight: Ecos del Núcleo del Mundo] La próxima actualización de contenido de Midnight, Ecos del Núcleo del Mundo, te invita a regresar a Dornogal para vivir una nueva ...",
+        "es": "[Resumen de Midnight: Ecos del Núcleo del Mundo] La próxima actualización de contenido de Midnight, Ecos del Núcleo del Mundo, te invita a regresar a Dornogal para vivir una nueva ..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\" alt=\"Battlegrounds, Builds, and Beyond in This Week's WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to discover across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310655\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\" alt=\"Battlegrounds, Builds, and Beyond in This Week's WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to discover across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310655\">View Full Article</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\" alt=\"Resumen de Midnight: Ecos del Núcleo del Mundo\" width=\"833\" height=\"468\"></a></p><p>La próxima actualización de contenido de Midnight, Ecos del Núcleo del Mundo, te invita a regresar a Dornogal para vivir una nueva historia de la campaña repleta de emociones. Además, presentará un nuevo y aterrador modo de juego llamado Historias de leyenda, una nueva serie de misiones de Paseo por la historia, nuevas recompensas para las Líneas temporales turbulentas y más cosas. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310659\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\" alt=\"Resumen de Midnight: Ecos del Núcleo del Mundo\" width=\"833\" height=\"468\"></a></p><p>La próxima actualización de contenido de Midnight, Ecos del Núcleo del Mundo, te invita a regresar a Dornogal para vivir una nueva historia de la campaña repleta de emociones. Además, presentará un nuevo y aterrador modo de juego llamado Historias de leyenda, una nueva serie de misiones de Paseo por la historia, nuevas recompensas para las Líneas temporales turbulentas y más cosas. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310659\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/battlegrounds-builds-and-beyond-in-this-weeks-wow-weekly/2377568/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/resumen-de-midnight-ecos-del-n%C3%BAcleo-del-mundo/80427/1"
+    },
+    {
+      "id": "blizz-1233092",
+      "postId": 1233092,
+      "topicId": 80426,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-15T16:00:08.506Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Resumen de Midnight: Ecos del Núcleo del Mundo",
+        "es": "Resumen de Midnight: Ecos del Núcleo del Mundo"
+      },
+      "summary": {
+        "en": "[Resumen de Midnight: Ecos del Núcleo del Mundo] La próxima actualización de contenido de Midnight, Ecos del Núcleo del Mundo, te invita a regresar a Dornogal para vivir una nueva ...",
+        "es": "[Resumen de Midnight: Ecos del Núcleo del Mundo] La próxima actualización de contenido de Midnight, Ecos del Núcleo del Mundo, te invita a regresar a Dornogal para vivir una nueva ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\" alt=\"Resumen de Midnight: Ecos del Núcleo del Mundo\" width=\"833\" height=\"468\"></a></p><p>La próxima actualización de contenido de Midnight, Ecos del Núcleo del Mundo, te invita a regresar a Dornogal para vivir una nueva historia de la campaña repleta de emociones. Además, presentará un nuevo y aterrador modo de juego llamado Historias de leyenda, una nueva serie de misiones de Paseo por la historia, nuevas recompensas para las Líneas temporales turbulentas y más cosas. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310659\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\" alt=\"Resumen de Midnight: Ecos del Núcleo del Mundo\" width=\"833\" height=\"468\"></a></p><p>La próxima actualización de contenido de Midnight, Ecos del Núcleo del Mundo, te invita a regresar a Dornogal para vivir una nueva historia de la campaña repleta de emociones. Además, presentará un nuevo y aterrador modo de juego llamado Historias de leyenda, una nueva serie de misiones de Paseo por la historia, nuevas recompensas para las Líneas temporales turbulentas y más cosas. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310659\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/resumen-de-midnight-ecos-del-n%C3%BAcleo-del-mundo/80426/1"
     },
     {
       "id": "blizz-1232454",
@@ -387,67 +443,67 @@ window.WOW_NEWS_DATABASE = {
         "es": "[¡Está disponible un Drop de Twitch! ¡Consigue el adorno para los hogares mrgluche adorable dorado] Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cual..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/5g/5G6DTCJ7QH3R1791332481983.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/5g/5G6DTCJ7QH3R1791332481983.png\" alt=\"¡Está disponible un Drop de Twitch! ¡Consigue el adorno para los hogares mrgluche adorable dorado\" width=\"833\" height=\"468\"></a></p><p>Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cualquier retransmisión de World of Warcraft que cumpla los requisitos en Twitch.tv para hacerte con el adorno para los hogares mrgluche adorable dorado. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302098\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/5g/5G6DTCJ7QH3R1791332481983.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/5g/5G6DTCJ7QH3R1791332481983.png\" alt=\"¡Está disponible un Drop de Twitch! ¡Consigue el adorno para los hogares mrgluche adorable dorado\" width=\"833\" height=\"468\"></a></p><p>Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cualquier retransmisión de World of Warcraft que cumpla los requisitos en Twitch.tv para hacerte con el adorno para los hogares mrgluche adorable dorado. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302098\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">[¡Está disponible un Drop de Twitch! ¡Consigue el adorno para los hogares mrgluche adorable dorado] Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cualquier retransmisión de World of Warcraft que cumpla los requisitos en Twitch.tv para hacerte con el adorno para los hoga&hellip;</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">[¡Está disponible un Drop de Twitch! ¡Consigue el adorno para los hogares mrgluche adorable dorado] Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cualquier retransmisión de World of Warcraft que cumpla los requisitos en Twitch.tv para hacerte con el adorno para los hoga&hellip;</div>"
       },
-      "hasFullContent": true,
+      "hasFullContent": false,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1est%C3%A1-disponible-un-drop-de-twitch-%C2%A1consigue-el-adorno-para-los-hogares-mrgluche-adorable-dorado/80364/1"
     },
     {
-      "id": "blizz-1232406",
-      "postId": 1232406,
-      "topicId": 80363,
+      "id": "blizz-6434296",
+      "postId": 6434296,
+      "topicId": 635761,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-08T22:00:15.816Z",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-15T16:19:29.252Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Drop de Twitch: ¡Consigue el adorno para los hogares mrgluche adorable dorado el 13 de octubre!",
-        "es": "Drop de Twitch: ¡Consigue el adorno para los hogares mrgluche adorable dorado el 13 de octubre!"
+        "en": "The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ & ‪@Savixirl",
+        "es": "The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ & ‪@Savixirl"
       },
       "summary": {
-        "en": "[Drop de Twitch: ¡Consigue el adorno para los hogares mrgluche adorable dorado el 13 de octubre!] Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cualqu...",
-        "es": "[Drop de Twitch: ¡Consigue el adorno para los hogares mrgluche adorable dorado el 13 de octubre!] Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cualqu..."
+        "en": "[The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast]...",
+        "es": "[The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast]..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/5g/5G6DTCJ7QH3R1791332481983.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/5g/5G6DTCJ7QH3R1791332481983.png\" alt=\"Drop de Twitch: ¡Consigue el adorno para los hogares mrgluche adorable dorado el 13 de octubre!\" width=\"833\" height=\"468\"></a></p><p>Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cualquier retransmisión de World of Warcraft que cumpla los requisitos en Twitch.tv para hacerte con el adorno para los hogares mrgluche adorable dorado. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302098\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/5g/5G6DTCJ7QH3R1791332481983.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/5g/5G6DTCJ7QH3R1791332481983.png\" alt=\"Drop de Twitch: ¡Consigue el adorno para los hogares mrgluche adorable dorado el 13 de octubre!\" width=\"833\" height=\"468\"></a></p><p>Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cualquier retransmisión de World of Warcraft que cumpla los requisitos en Twitch.tv para hacerte con el adorno para los hogares mrgluche adorable dorado. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302098\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"bzaMA5fZ1tE\" data-video-title=\"The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=bzaMA5fZ1tE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/bzaMA5fZ1tE/maxresdefault.jpg\" title=\"The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"bzaMA5fZ1tE\" data-video-title=\"The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=bzaMA5fZ1tE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/bzaMA5fZ1tE/maxresdefault.jpg\" title=\"The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/drop-de-twitch-%C2%A1consigue-el-adorno-para-los-hogares-mrgluche-adorable-dorado-el-13-de-octubre/80363/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/635761/1"
     },
     {
-      "id": "blizz-1232381",
-      "postId": 1232381,
-      "topicId": 80358,
+      "id": "blizz-6434256",
+      "postId": 6434256,
+      "topicId": 635756,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-08T18:48:36.691Z",
+      "dateRaw": "2026-10-15T16:00:05.645Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Aventuras fabuholosas con el alazarza ululante",
-        "es": "Aventuras fabuholosas con el alazarza ululante"
+        "en": "Midnight: Echoes of the Worldcore Overview",
+        "es": "Midnight: Echoes of the Worldcore Overview"
       },
       "summary": {
-        "en": "[Aventuras fabuholosas con el alazarza ululante] Echa a volar con el alazarza ululante, una risueña montura búho que arde en deseos de explorar maravillas ocultas, caminos vírgenes...",
-        "es": "[Aventuras fabuholosas con el alazarza ululante] Echa a volar con el alazarza ululante, una risueña montura búho que arde en deseos de explorar maravillas ocultas, caminos vírgenes..."
+        "en": "[Midnight: Echoes of the Worldcore Overview] The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal for a dramatic new story campaign, introduces a...",
+        "es": "[Midnight: Echoes of the Worldcore Overview] The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal for a dramatic new story campaign, introduces a..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xf/XFICGSPRI7781791309872673.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xf/XFICGSPRI7781791309872673.png\" alt=\"Aventuras fabuholosas con el alazarza ululante\" width=\"833\" height=\"468\"></a></p><p>Echa a volar con el alazarza ululante, una risueña montura búho que arde en deseos de explorar maravillas ocultas, caminos vírgenes y horizontes distantes. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310650\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xf/XFICGSPRI7781791309872673.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xf/XFICGSPRI7781791309872673.png\" alt=\"Aventuras fabuholosas con el alazarza ululante\" width=\"833\" height=\"468\"></a></p><p>Echa a volar con el alazarza ululante, una risueña montura búho que arde en deseos de explorar maravillas ocultas, caminos vírgenes y horizontes distantes. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310650\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\" alt=\"Midnight: Echoes of the Worldcore Overview\" width=\"833\" height=\"468\"></a></p><p>The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal for a dramatic new story campaign, introduces a terrifying new game mode—Talebound, offers a fresh set of Lorewalking quests, brings new rewards for Turbulent Timeways, and more. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310659\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\" alt=\"Midnight: Echoes of the Worldcore Overview\" width=\"833\" height=\"468\"></a></p><p>The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal for a dramatic new story campaign, introduces a terrifying new game mode—Talebound, offers a fresh set of Lorewalking quests, brings new rewards for Turbulent Timeways, and more. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310659\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/aventuras-fabuholosas-con-el-alazarza-ululante/80358/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/midnight-echoes-of-the-worldcore-overview/635756/1"
     },
     {
       "id": "blizz-6433156",
@@ -616,6 +672,118 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/dungeon-and-raid-tuning-%E2%80%93-14-october/635185/1"
+    },
+    {
+      "id": "blizz-30448091",
+      "postId": 30448091,
+      "topicId": 2380514,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-10-12T22:43:51.732Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Dungeon and Raid Tuning -- October 13",
+        "es": "Mazmorra and Banda Tuning -- October 13"
+      },
+      "summary": {
+        "en": "The following dungeon and raid tuning adjustments will go live with the 12.1.5 content update this week (tomorrow, October 13 in this region). \nDungeons and Raid\n\nAltar of Fangs\n\nP...",
+        "es": "The following Mazmorra and Banda tuning adjustments will go live with the 12.1.5 content update this week (tomorrow, October 13 in this region). \nMazmorras and Banda\n\nAltar of Fang..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The following dungeon and raid tuning adjustments will go live with the 12.1.5 content update this week (tomorrow, October 13 in this region).</p>\n<h2><a name=\"p-30448091-dungeons-and-raid-1\" class=\"anchor\" href=\"#p-30448091-dungeons-and-raid-1\" aria-label=\"Heading link\"></a>Dungeons and Raid</h2>\n<ul>\n<li><strong>Altar of Fangs</strong>\n<ul>\n<li><strong>Primal Serpent</strong>\n<ul>\n<li>Piercing Hiss damage reduced by 25%.</li>\n<li>Piercing Hiss cooldown increased by 10%.</li>\n</ul>\n</li>\n<li><strong>Ravenous Descendant</strong>\n<ul>\n<li>Health reduced by 9%.</li>\n</ul>\n</li>\n<li><strong>Twinfang Harrower</strong>\n<ul>\n<li>Health reduced by 6%.</li>\n<li>Paralyzing Shot periodic damage reduced by 20%.</li>\n<li>Paralyzing Shot duration reduced to 14 seconds (was 20 seconds).</li>\n</ul>\n</li>\n<li><strong>Ritual Chieftain</strong>\n<ul>\n<li>Blood Sacrifice healing absorb reduced by 12%.</li>\n</ul>\n</li>\n<li><strong>Rattling Writhe</strong>\n<ul>\n<li>Health reduced by 6%.</li>\n<li>Rattle periodic damage reduced by 25%.</li>\n</ul>\n</li>\n<li><strong>High Evolutionist</strong>\n<ul>\n<li>Evolve now has a more prominent visual effect during channel.</li>\n</ul>\n</li>\n<li><strong>Bloodletter</strong>\n<ul>\n<li>Health reduced by 5%.</li>\n</ul>\n</li>\n<li><strong>Ascendant Serpent</strong>\n<ul>\n<li>Health reduced by 21%.</li>\n</ul>\n</li>\n<li><strong>Living Venom</strong>\n<ul>\n<li>Health reduced by 25%.</li>\n<li>Venom Burst damage reduced by 50%.</li>\n</ul>\n</li>\n<li><strong>Rav’i</strong>\n<ul>\n<li>Carrion Burst periodic damage reduced by 10%.</li>\n</ul>\n</li>\n<li><strong>Zul’jan</strong>\n<ul>\n<li>Axegrinder periodic damage reduced by 15%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Murder Row</strong>\n<ul>\n<li><strong>Zaen Bladesorrow</strong>\n<ul>\n<li>Fire Bomb damage reduced by 33%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Ruby Life Pools</strong>\n<ul>\n<li><strong>Earthbound Guardian</strong>\n<ul>\n<li>Earthbound’s Imprint impact damage reduced by 21%.</li>\n<li>Earthbound’s Imprint periodic damage reduced by 13%.</li>\n</ul>\n</li>\n<li><strong>Defier Draghar</strong>\n<ul>\n<li>Health reduced by 27%.</li>\n</ul>\n</li>\n<li><strong>Primalist Cinderweaver</strong>\n<ul>\n<li>Living Bomb debuff can now be dispelled and the explosion damage will not occur when dispelled.</li>\n</ul>\n</li>\n<li><strong>Storm Warrior</strong>\n<ul>\n<li>Thunderous Stomp damage reduced by 18%.</li>\n</ul>\n</li>\n<li><strong>High Channeler Ryvati</strong>\n<ul>\n<li>Tempest Stormshield absorb percentage of maximum health reduced to 15% (was 20%).</li>\n</ul>\n</li>\n<li><strong>Melidrussa Chillworn</strong>\n<ul>\n<li>Infused Whelp’s Cold Claws cooldown increased.</li>\n</ul>\n</li>\n<li><strong>Kokia Blazehoof</strong>\n<ul>\n<li>Blazebound Firestorm health reduced by 12.5%.</li>\n<li>Blazebound Firestorm’s Inferno impact damage reduced by 18%.</li>\n<li>Blazebound Firestorm’s periodic damage reduced by 14%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Temple of Sethraliss</strong>\n<ul>\n<li><strong>Static Anomaly</strong>\n<ul>\n<li>Spark Step damage reduced by 25%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>The Blinding Vale</strong>\n<ul>\n<li><strong>Sporeblight Belcher</strong>\n<ul>\n<li>Reduced health by 11%.</li>\n<li>Spouting Floret periodic damage reduced by 16%.</li>\n<li>Belch Sore damage reduced by 16%.</li>\n<li>Reduced the number of Belch Sore projectiles per tick to 3 (was 5).</li>\n</ul>\n</li>\n<li><strong>Radiant Spellsower</strong>\n<ul>\n<li>Light Bolt Volley damage reduced by 16%.</li>\n</ul>\n</li>\n<li><strong>Lightwarden Ruia</strong>\n<ul>\n<li>Lightfire periodic damage reduced by 15%.</li>\n<li>Pulverizing Strikes damage reduced by 12%.</li>\n</ul>\n</li>\n<li><strong>Ziekket</strong>\n<ul>\n<li>Lightspawn Lasher health reduced by 10%.</li>\n<li>Lightspore Shot damage reduced by 16%.</li>\n<li>Oozing Xylem damage reduced by 16%.</li>\n<li>Vicious Regrowth haste and damage buff reduced to 20% (was 30%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Sszorak</strong>\n<ul>\n<li>Increased the time for Sszorak to reach 100 rage by 5 seconds on Mythic difficulty.</li>\n</ul>\n</li>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>The initial total number of orbs that spawn during Toxic Deluge in Phase 1 reduced to 8 on Mythic difficulty (was 10).</li>\n<li>The number of Virulent Mutations that spawn in Phase 1 reduced to 4 on Mythic difficulty (was 5).</li>\n<li>Virulent Mutation and Mutagenic Venom radius reduced to 6 yards (was 8 yards).</li>\n<li>The number of players Dreadmarch targets reduced to 3 on Mythic difficulty (was 4).</li>\n<li>Manifestations of Dread now immediately display their red glow visuals to their fixated target the moment they began fixating on all difficulties.</li>\n<li>Manifestations of Dread now despawn if their fixated target dies instead of re-fixating on a new player on all difficulties.</li>\n<li>Increased the angle Manifestations of Dread are detected and stunned by 10 degrees on all difficulties.</li>\n<li>Eternal Nightfall cast time increased by 2 seconds on all difficulties.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Voidscar Arena</strong>\n<ul>\n<li><strong>Feral Saberon</strong>\n<ul>\n<li>Savage Leap cooldown increased by 25%.</li>\n</ul>\n</li>\n<li><strong>Chitigoth</strong>\n<ul>\n<li>Insidious Aura channel duration reduced to 8 seconds (was 10 seconds).</li>\n</ul>\n</li>\n<li><strong>Brutal Overseer</strong>\n<ul>\n<li>Brutal Slams damage increase per slam reduced to 8% (was 10%).</li>\n</ul>\n</li>\n<li><strong>Atroxus</strong>\n<ul>\n<li>Poison Splash periodic damage reduced by 11%.</li>\n<li>Toxic Aura periodic damage reduced by 20%.</li>\n</ul>\n</li>\n<li><strong>Charonus</strong>\n<ul>\n<li>Condensed Mass periodic damage reduced by 20%.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The following dungeon and raid tuning adjustments will go live with the 12.1.5 content update this week (tomorrow, October 13 in this region).</p>\n<h2><a name=\"p-30448091-dungeons-and-raid-1\" class=\"anchor\" href=\"#p-30448091-dungeons-and-raid-1\" aria-label=\"Heading link\"></a>Dungeons and Raid</h2>\n<ul>\n<li><strong>Altar of Fangs</strong>\n<ul>\n<li><strong>Primal Serpent</strong>\n<ul>\n<li>Piercing Hiss daño reducido un 25%.</li>\n<li>Piercing Hiss tiempo de reutilización aumentado en 10%.</li>\n</ul>\n</li>\n<li><strong>Ravenous Descendant</strong>\n<ul>\n<li>Health reduced by 9%.</li>\n</ul>\n</li>\n<li><strong>Twinfang Harrower</strong>\n<ul>\n<li>Health reduced by 6%.</li>\n<li>Paralyzing Shot periodic daño reducido un 20%.</li>\n<li>Paralyzing Shot duration reduced to 14 seconds (was 20 seconds).</li>\n</ul>\n</li>\n<li><strong>Ritual Chieftain</strong>\n<ul>\n<li>Sangre Sacrifice healing absorb reduced by 12%.</li>\n</ul>\n</li>\n<li><strong>Rattling Writhe</strong>\n<ul>\n<li>Health reduced by 6%.</li>\n<li>Rattle periodic daño reducido un 25%.</li>\n</ul>\n</li>\n<li><strong>High Evolutionist</strong>\n<ul>\n<li>Evolve now has a more prominent visual effect during channel.</li>\n</ul>\n</li>\n<li><strong>Bloodletter</strong>\n<ul>\n<li>Health reduced by 5%.</li>\n</ul>\n</li>\n<li><strong>Ascendant Serpent</strong>\n<ul>\n<li>Health reduced by 21%.</li>\n</ul>\n</li>\n<li><strong>Living Venom</strong>\n<ul>\n<li>Health reduced by 25%.</li>\n<li>Venom Burst daño reducido un 50%.</li>\n</ul>\n</li>\n<li><strong>Rav’i</strong>\n<ul>\n<li>Carrion Burst periodic daño reducido un 10%.</li>\n</ul>\n</li>\n<li><strong>Zul’jan</strong>\n<ul>\n<li>Axegrinder periodic daño reducido un 15%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Murder Row</strong>\n<ul>\n<li><strong>Zaen Bladesorrow</strong>\n<ul>\n<li>Fuego Bomb daño reducido un 33%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Ruby Life Pools</strong>\n<ul>\n<li><strong>Earthbound Guardián</strong>\n<ul>\n<li>Earthbound’s Imprint impact daño reducido un 21%.</li>\n<li>Earthbound’s Imprint periodic daño reducido un 13%.</li>\n</ul>\n</li>\n<li><strong>Defier Draghar</strong>\n<ul>\n<li>Health reduced by 27%.</li>\n</ul>\n</li>\n<li><strong>Primalist Cinderweaver</strong>\n<ul>\n<li>Living Bomb debuff can now be dispelled and the explosion damage will not occur when dispelled.</li>\n</ul>\n</li>\n<li><strong>Storm Warrior</strong>\n<ul>\n<li>Thunderous Stomp daño reducido un 18%.</li>\n</ul>\n</li>\n<li><strong>High Channeler Ryvati</strong>\n<ul>\n<li>Tempest Stormshield absorb percentage of maximum health reduced to 15% (antes era 20%).</li>\n</ul>\n</li>\n<li><strong>Melidrussa Chillworn</strong>\n<ul>\n<li>Infused Whelp’s Cold Claws cooldown increased.</li>\n</ul>\n</li>\n<li><strong>Kokia Blazehoof</strong>\n<ul>\n<li>Blazebound Firestorm health reduced by 12.5%.</li>\n<li>Blazebound Firestorm’s Inferno impact daño reducido un 18%.</li>\n<li>Blazebound Firestorm’s periodic daño reducido un 14%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Temple of Sethraliss</strong>\n<ul>\n<li><strong>Static Anomaly</strong>\n<ul>\n<li>Spark Step daño reducido un 25%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>The Blinding Vale</strong>\n<ul>\n<li><strong>Sporeblight Belcher</strong>\n<ul>\n<li>Reduced health by 11%.</li>\n<li>Spouting Floret periodic daño reducido un 16%.</li>\n<li>Belch Sore daño reducido un 16%.</li>\n<li>Reduced the number of Belch Sore projectiles per tick to 3 (was 5).</li>\n</ul>\n</li>\n<li><strong>Radiant Spellsower</strong>\n<ul>\n<li>Light Bolt Volley daño reducido un 16%.</li>\n</ul>\n</li>\n<li><strong>Lightwarden Ruia</strong>\n<ul>\n<li>Lightfire periodic daño reducido un 15%.</li>\n<li>Pulverizing Strikes daño reducido un 12%.</li>\n</ul>\n</li>\n<li><strong>Ziekket</strong>\n<ul>\n<li>Lightspawn Lasher health reduced by 10%.</li>\n<li>Lightspore Shot daño reducido un 16%.</li>\n<li>Oozing Xylem daño reducido un 16%.</li>\n<li>Vicious Regrowth haste and damage buff reduced to 20% (antes era 30%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Sszorak</strong>\n<ul>\n<li>Increased the time for Sszorak to reach 100 rage by 5 seconds on Mythic difficulty.</li>\n</ul>\n</li>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>The initial total number of orbs that spawn during Toxic Deluge in Phase 1 reduced to 8 on Mythic difficulty (was 10).</li>\n<li>The number of Virulent Mutations that spawn in Phase 1 reduced to 4 on Mythic difficulty (was 5).</li>\n<li>Virulent Mutation and Mutagenic Venom radius reduced to 6 yards (was 8 yards).</li>\n<li>The number of players Dreadmarch targets reduced to 3 on Mythic difficulty (was 4).</li>\n<li>Manifestations of Dread now immediately display their red glow visuals to their fixated target the moment they began fixating on all difficulties.</li>\n<li>Manifestations of Dread now despawn if their fixated target dies instead of re-fixating on a new player on all difficulties.</li>\n<li>Increased the angle Manifestations of Dread are detected and stunned by 10 degrees on all difficulties.</li>\n<li>Eternal Nightfall cast time increased by 2 seconds on all difficulties.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Voidscar Arena</strong>\n<ul>\n<li><strong>Feral Saberon</strong>\n<ul>\n<li>Savage Leap tiempo de reutilización aumentado en 25%.</li>\n</ul>\n</li>\n<li><strong>Chitigoth</strong>\n<ul>\n<li>Insidious Aura channel duration reduced to 8 seconds (was 10 seconds).</li>\n</ul>\n</li>\n<li><strong>Brutal Overseer</strong>\n<ul>\n<li>Brutal Slams damage increase per slam reduced to 8% (antes era 10%).</li>\n</ul>\n</li>\n<li><strong>Atroxus</strong>\n<ul>\n<li>Poison Splash periodic daño reducido un 11%.</li>\n<li>Toxic Aura periodic daño reducido un 20%.</li>\n</ul>\n</li>\n<li><strong>Charonus</strong>\n<ul>\n<li>Condensed Mass periodic daño reducido un 20%.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/dungeon-and-raid-tuning-october-13/2380514/1"
+    },
+    {
+      "id": "blizz-30407582",
+      "postId": 30407582,
+      "topicId": 2377568,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-09T17:03:30.720Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Battlegrounds, Builds, and Beyond in This Week's WoW Weekly",
+        "es": "Battlegrounds, Builds, and Beyond in This Week's WoW Weekly"
+      },
+      "summary": {
+        "en": "[Battlegrounds, Builds, and Beyond in This Week&#39;s WoW Weekly] From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week&#...",
+        "es": "[Battlegrounds, Builds, and Beyond in This Week&#39;s WoW Weekly] From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week&#..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\" alt=\"Battlegrounds, Builds, and Beyond in This Week's WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to discover across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310655\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\" alt=\"Battlegrounds, Builds, and Beyond in This Week's WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to discover across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310655\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/battlegrounds-builds-and-beyond-in-this-weeks-wow-weekly/2377568/1"
+    },
+    {
+      "id": "blizz-1232406",
+      "postId": 1232406,
+      "topicId": 80363,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-08T22:00:15.816Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Drop de Twitch: ¡Consigue el adorno para los hogares mrgluche adorable dorado el 13 de octubre!",
+        "es": "Drop de Twitch: ¡Consigue el adorno para los hogares mrgluche adorable dorado el 13 de octubre!"
+      },
+      "summary": {
+        "en": "[Drop de Twitch: ¡Consigue el adorno para los hogares mrgluche adorable dorado el 13 de octubre!] Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cualqu...",
+        "es": "[Drop de Twitch: ¡Consigue el adorno para los hogares mrgluche adorable dorado el 13 de octubre!] Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cualqu..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/5g/5G6DTCJ7QH3R1791332481983.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/5g/5G6DTCJ7QH3R1791332481983.png\" alt=\"Drop de Twitch: ¡Consigue el adorno para los hogares mrgluche adorable dorado el 13 de octubre!\" width=\"833\" height=\"468\"></a></p><p>Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cualquier retransmisión de World of Warcraft que cumpla los requisitos en Twitch.tv para hacerte con el adorno para los hogares mrgluche adorable dorado. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302098\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/5g/5G6DTCJ7QH3R1791332481983.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/5g/5G6DTCJ7QH3R1791332481983.png\" alt=\"Drop de Twitch: ¡Consigue el adorno para los hogares mrgluche adorable dorado el 13 de octubre!\" width=\"833\" height=\"468\"></a></p><p>Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cualquier retransmisión de World of Warcraft que cumpla los requisitos en Twitch.tv para hacerte con el adorno para los hogares mrgluche adorable dorado. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302098\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/drop-de-twitch-%C2%A1consigue-el-adorno-para-los-hogares-mrgluche-adorable-dorado-el-13-de-octubre/80363/1"
+    },
+    {
+      "id": "blizz-1232381",
+      "postId": 1232381,
+      "topicId": 80358,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-08T18:48:36.691Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Aventuras fabuholosas con el alazarza ululante",
+        "es": "Aventuras fabuholosas con el alazarza ululante"
+      },
+      "summary": {
+        "en": "[Aventuras fabuholosas con el alazarza ululante] Echa a volar con el alazarza ululante, una risueña montura búho que arde en deseos de explorar maravillas ocultas, caminos vírgenes...",
+        "es": "[Aventuras fabuholosas con el alazarza ululante] Echa a volar con el alazarza ululante, una risueña montura búho que arde en deseos de explorar maravillas ocultas, caminos vírgenes..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xf/XFICGSPRI7781791309872673.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xf/XFICGSPRI7781791309872673.png\" alt=\"Aventuras fabuholosas con el alazarza ululante\" width=\"833\" height=\"468\"></a></p><p>Echa a volar con el alazarza ululante, una risueña montura búho que arde en deseos de explorar maravillas ocultas, caminos vírgenes y horizontes distantes. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310650\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xf/XFICGSPRI7781791309872673.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xf/XFICGSPRI7781791309872673.png\" alt=\"Aventuras fabuholosas con el alazarza ululante\" width=\"833\" height=\"468\"></a></p><p>Echa a volar con el alazarza ululante, una risueña montura búho que arde en deseos de explorar maravillas ocultas, caminos vírgenes y horizontes distantes. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310650\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/aventuras-fabuholosas-con-el-alazarza-ululante/80358/1"
     },
     {
       "id": "blizz-6423198",
@@ -1232,174 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/bcca-enfr%C3%A9ntate-a-los-dioses-de-zulaman-el-23-de-octubre/80355/1"
-    },
-    {
-      "id": "blizz-6420570",
-      "postId": 6420570,
-      "topicId": 634342,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-08T16:28:19.766Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming",
-        "es": "The WoW: Forever Podcast: Episode 3 - Dive Into Mazmorras With Devs ft. @Hammerdancegaming"
-      },
-      "summary": {
-        "en": "[Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast]...",
-        "es": "[Dive into Mazmorras with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast]..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"LwOWAf06YPg\" data-video-title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=LwOWAf06YPg\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/LwOWAf06YPg/maxresdefault.jpg\" title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"LwOWAf06YPg\" data-video-title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=LwOWAf06YPg\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/LwOWAf06YPg/maxresdefault.jpg\" title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/634342/1"
-    },
-    {
-      "id": "blizz-6420980",
-      "postId": 6420980,
-      "topicId": 634384,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-08T18:40:17.185Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Brew Up Trouble with the Hexed Witchwick Collection",
-        "es": "Brew Up Trouble with the Hexed Witchwick Collection"
-      },
-      "summary": {
-        "en": "[Brew Up Trouble with the Hexed Witchwick Collection] Something wickedly stylish is stirring in Azeroth. Four bewitching bundles have bubbled up to help you weave a little magic in...",
-        "es": "[Brew Up Trouble with the Hexed Witchwick Collection] Something wickedly stylish is stirring in Azeroth. Four bewitching bundles have bubbled up to help you weave a little magic in..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/rl/RLLPJMCNC2NE1791313493678.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/rl/RLLPJMCNC2NE1791313493678.png\" alt=\"Brew Up Trouble with the Hexed Witchwick Collection\" width=\"833\" height=\"468\"></a></p><p>Something wickedly stylish is stirring in Azeroth. Four bewitching bundles have bubbled up to help you weave a little magic into your wardrobe, each with an enchanted broom ready to carry you through the skies. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310651\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/rl/RLLPJMCNC2NE1791313493678.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/rl/RLLPJMCNC2NE1791313493678.png\" alt=\"Brew Up Trouble with the Hexed Witchwick Collection\" width=\"833\" height=\"468\"></a></p><p>Something wickedly stylish is stirring in Azeroth. Four bewitching bundles have bubbled up to help you weave a little magic into your wardrobe, each with an enchanted broom ready to carry you through the skies. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310651\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/brew-up-trouble-with-the-hexed-witchwick-collection/634384/1"
-    },
-    {
-      "id": "blizz-30387589",
-      "postId": 30387589,
-      "topicId": 2376010,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-08T16:27:48.056Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming",
-        "es": "The WoW: Forever Podcast: Episode 3 - Dive Into Mazmorras With Devs ft. @Hammerdancegaming"
-      },
-      "summary": {
-        "en": "[Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast]...",
-        "es": "[Dive into Mazmorras with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast]..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"LwOWAf06YPg\" data-video-title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=LwOWAf06YPg\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/LwOWAf06YPg/maxresdefault.jpg\" title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"LwOWAf06YPg\" data-video-title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=LwOWAf06YPg\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/LwOWAf06YPg/maxresdefault.jpg\" title=\"Dive into Dungeons with Devs ft. @hammerdancegaming | Episode 3 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/2376010/1"
-    },
-    {
-      "id": "blizz-30387552",
-      "postId": 30387552,
-      "topicId": 2376008,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-08T16:26:12.058Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Check Out Episode 3 of the WoW: Forever Podcast",
-        "es": "Check Out Episode 3 of the WoW: Forever Podcast"
-      },
-      "summary": {
-        "en": "[Check Out Episode 3 of the WoW: Forever Podcast] Join WoW: Forever Podcast host Countdown To Classic and special guest Hammerdance as they sit down with Senior Game Designers Josh...",
-        "es": "[Check Out Episode 3 of the WoW: Forever Podcast] Join WoW: Forever Podcast host Countdown To Classic and special guest Hammerdance as they sit down with Senior Game Designers Josh..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\" alt=\"Check Out Episode 3 of the WoW: Forever Podcast\" width=\"833\" height=\"468\"></a></p><p>Join WoW: Forever Podcast host Countdown To Classic and special guest Hammerdance as they sit down with Senior Game Designers Josh “Aggrend” Greenfield, Jay Hartman, and Rowan Ryder as they dive into dungeon leveling, questing, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310653\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/u1/U13VFHESUAJB1791417296070.png\" alt=\"Check Out Episode 3 of the WoW: Forever Podcast\" width=\"833\" height=\"468\"></a></p><p>Join WoW: Forever Podcast host Countdown To Classic and special guest Hammerdance as they sit down with Senior Game Designers Josh “Aggrend” Greenfield, Jay Hartman, and Rowan Ryder as they dive into dungeon leveling, questing, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310653\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/check-out-episode-3-of-the-wow-forever-podcast/2376008/1"
-    },
-    {
-      "id": "blizz-30386130",
-      "postId": 30386130,
-      "topicId": 2375900,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-08T14:58:41.184Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Beta Realm Maintenance - October 8",
-        "es": "Beta Realm Mantenimiento - October 8"
-      },
-      "summary": {
-        "en": "Starting in one hour at 9:00 a.m. PDT, we will take the WoW Forever Beta down for maintenance and updates. We’re starting a bit earlier today than we have on previous Thursdays, be...",
-        "es": "Starting in one hour at 9:00 a.m. PDT, we will take the WoW Forever Beta down for Mantenimiento and updates. We’re starting a bit earlier today than we have on previous Thursdays, ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Starting in one hour at 9:00 a.m. PDT, we will take the WoW Forever Beta down for maintenance and updates. We’re starting a bit earlier today than we have on previous Thursdays, because we’ve gathered up several fixes for behind-the-scenes, non-gameplay issues that we’re going to deploy and then test internally, in addition to a full suite of bug fixes and gameplay adjustments.</p>\n<p>If this was a live game, we’d post in the Breaking News banner that we expect to bring realms back online by 3:00 p.m. PDT.</p>\n<p>We’ll have a full update of our <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-1/2360696/\">Development Notes</a> and <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-known-issues-october-1/2352687/\">Known Issues</a> posts later today.</p>\n<p>Thank you for joining us on this adventure!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Starting in one hour at 9:00 a.m. PDT, we will take the WoW Forever Beta down for maintenance and updates. We’re starting a bit earlier today than we have on previous Thursdays, because we’ve gathered up several fixes for behind-the-scenes, non-gameplay issues that we’re going to deploy and then test internally, in addition to a full suite of bug fixes and gameplay adjustments.</p>\n<p>If this was a live game, we’d post in the Breaking News banner that we expect to bring realms back online by 3:00 p.m. PDT.</p>\n<p>We’ll have a full update of our <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-1/2360696/\">Development Notes</a> and <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-known-issues-october-1/2352687/\">Known Issues</a> posts later today.</p>\n<p>Thank you for joining us on this adventure!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-realm-maintenance-october-8/2375900/1"
-    },
-    {
-      "id": "blizz-30378087",
-      "postId": 30378087,
-      "topicId": 2375390,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-07T22:00:12.612Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Forever Class Deep Dives — Rogue and Warlock",
-        "es": "World of Warcraft: Forever Class Deep Dives — Rogue and Warlock"
-      },
-      "summary": {
-        "en": "[World of Warcraft: Forever Class Deep Dives — Rogue and Warlock] Masters of subtlety and destructive power take center stage in this World of Warcraft: Forever class deep dive. Ex...",
-        "es": "[World of Warcraft: Forever Class Deep Dives — Rogue and Warlock] Masters of subtlety and destructive power take center stage in this World of Warcraft: Forever class deep dive. Ex..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Rogue and Warlock\" width=\"833\" height=\"468\"></a></p><p>Masters of subtlety and destructive power take center stage in this World of Warcraft: Forever class deep dive. Explore how updates to Rogues and Warlocks build on the defining tools, tactics, and playstyles of each class. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310968\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Rogue and Warlock\" width=\"833\" height=\"468\"></a></p><p>Masters of subtlety and destructive power take center stage in this World of Warcraft: Forever class deep dive. Explore how updates to Rogues and Warlocks build on the defining tools, tactics, and playstyles of each class. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310968\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-class-deep-dives-%E2%80%94-rogue-and-warlock/2375390/1"
     }
   ],
   "blizzardNews": [
