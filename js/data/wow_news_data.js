@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30496849",
+      "postId": 30496849,
+      "topicId": 2382684,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-10-16T02:14:35.232Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Midnight Hotfixes - October 15",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - October 15"
+      },
+      "summary": {
+        "en": "October 15, 2026 \nItems \n\nFixed an issue where faction-specific mounts were hidden from the Mount Journal on characters of the opposite faction.\n\nLabyrinth \n\nFixed an issue where S...",
+        "es": "October 15, 2026 \nItems \n\nFixed an issue where faction-specific mounts were hidden from the Mount Journal on characters of the opposite faction.\n\nLabyrinth \n\nFixed an issue where S..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 15, 2026</strong></p>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where faction-specific mounts were hidden from the Mount Journal on characters of the opposite faction.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue where Sullied Revenant and Sha’Kuro’s health would not reset properly when failing the encounter.</li>\n<li>Impressive Treasure Chest, Impressive Treasure Pile, and Impressive Treasure Trove now require level 80 to loot (was 90).</li>\n<li>Scenario bosses should now properly give credit if defeated a second time on the same run.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Battle for Azeroth quests should no longer be appearing on the quest logs of characters that didn’t complete them when outside of Battle for Azeroth content.</li>\n<li>Fixed an issue where quest NPCs weren’t available to turn in “De Legend of de Hash’ey” in Zul’Aman.</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 15, 2026</strong></p>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where faction-specific mounts were hidden from the Mount Journal on characters of the opposite faction.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue where Sullied Revenant and Sha’Kuro’s health would not reset properly when failing the encounter.</li>\n<li>Impressive Treasure Chest, Impressive Treasure Pile, and Impressive Treasure Trove now require level 80 to loot (was 90).</li>\n<li>Scenario bosses should now properly give credit if defeated a second time on the same run.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Battle for Azeroth quests should no longer be appearing on the quest logs of characters that didn’t complete them when outside of Battle for Azeroth content.</li>\n<li>Fixed an issue where quest NPCs weren’t available to turn in “De Legend of de Hash’ey” in Zul’Aman.</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-october-15/2382684/72"
+    },
+    {
       "id": "blizz-30494222",
       "postId": 30494222,
       "topicId": 2360696,
@@ -196,34 +224,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/2383164/1"
-    },
-    {
-      "id": "blizz-30483848",
-      "postId": 30483848,
-      "topicId": 2383146,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-15T16:00:05.262Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Midnight: Echoes of the Worldcore Overview",
-        "es": "Midnight: Echoes of the Worldcore Overview"
-      },
-      "summary": {
-        "en": "[Midnight: Echoes of the Worldcore Overview] The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal for a dramatic new story campaign, introduces a...",
-        "es": "[Midnight: Echoes of the Worldcore Overview] The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal for a dramatic new story campaign, introduces a..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\" alt=\"Midnight: Echoes of the Worldcore Overview\" width=\"833\" height=\"468\"></a></p><p>The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal for a dramatic new story campaign, introduces a terrifying new game mode—Talebound, offers a fresh set of Lorewalking quests, brings new rewards for Turbulent Timeways, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310659\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\" alt=\"Midnight: Echoes of the Worldcore Overview\" width=\"833\" height=\"468\"></a></p><p>The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal for a dramatic new story campaign, introduces a terrifying new game mode—Talebound, offers a fresh set of Lorewalking quests, brings new rewards for Turbulent Timeways, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310659\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/midnight-echoes-of-the-worldcore-overview/2383146/1"
     },
     {
       "id": "blizz-1233146",
@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-campos-de-batalla-configuraciones-y-m%C3%A1s-cosas/80374/1"
     },
     {
+      "id": "blizz-6435403",
+      "postId": 6435403,
+      "topicId": 635623,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-10-16T02:14:58.880Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Midnight Hotfixes - 15 October",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - 15 October"
+      },
+      "summary": {
+        "en": "October 15, 2026 \nItems \n\nFixed an issue where faction-specific mounts were hidden from the Mount Journal on characters of the opposite faction.\n\nLabyrinth \n\nFixed an issue where S...",
+        "es": "October 15, 2026 \nItems \n\nFixed an issue where faction-specific mounts were hidden from the Mount Journal on characters of the opposite faction.\n\nLabyrinth \n\nFixed an issue where S..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 15, 2026</strong></p>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where faction-specific mounts were hidden from the Mount Journal on characters of the opposite faction.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue where Sullied Revenant and Sha’Kuro’s health would not reset properly when failing the encounter.</li>\n<li>Impressive Treasure Chest, Impressive Treasure Pile, and Impressive Treasure Trove now require level 80 to loot (was 90).</li>\n<li>Scenario bosses should now properly give credit if defeated a second time on the same run.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Battle for Azeroth quests should no longer be appearing on the quest logs of characters that didn’t complete them when outside of Battle for Azeroth content.</li>\n<li>Fixed an issue where quest NPCs weren’t available to turn in “De Legend of de Hash’ey” in Zul’Aman.</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 15, 2026</strong></p>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where faction-specific mounts were hidden from the Mount Journal on characters of the opposite faction.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue where Sullied Revenant and Sha’Kuro’s health would not reset properly when failing the encounter.</li>\n<li>Impressive Treasure Chest, Impressive Treasure Pile, and Impressive Treasure Trove now require level 80 to loot (was 90).</li>\n<li>Scenario bosses should now properly give credit if defeated a second time on the same run.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Battle for Azeroth quests should no longer be appearing on the quest logs of characters that didn’t complete them when outside of Battle for Azeroth content.</li>\n<li>Fixed an issue where quest NPCs weren’t available to turn in “De Legend of de Hash’ey” in Zul’Aman.</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-15-october/635623/14"
+    },
+    {
       "id": "blizz-6435321",
       "postId": 6435321,
       "topicId": 631316,
@@ -644,6 +672,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/635761/1"
+    },
+    {
+      "id": "blizz-30483848",
+      "postId": 30483848,
+      "topicId": 2383146,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-15T16:00:05.262Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Midnight: Echoes of the Worldcore Overview",
+        "es": "Midnight: Echoes of the Worldcore Overview"
+      },
+      "summary": {
+        "en": "[Midnight: Echoes of the Worldcore Overview] The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal for a dramatic new story campaign, introduces a...",
+        "es": "[Midnight: Echoes of the Worldcore Overview] The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal for a dramatic new story campaign, introduces a..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\" alt=\"Midnight: Echoes of the Worldcore Overview\" width=\"833\" height=\"468\"></a></p><p>The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal for a dramatic new story campaign, introduces a terrifying new game mode—Talebound, offers a fresh set of Lorewalking quests, brings new rewards for Turbulent Timeways, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310659\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\" alt=\"Midnight: Echoes of the Worldcore Overview\" width=\"833\" height=\"468\"></a></p><p>The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal for a dramatic new story campaign, introduces a terrifying new game mode—Talebound, offers a fresh set of Lorewalking quests, brings new rewards for Turbulent Timeways, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310659\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/midnight-echoes-of-the-worldcore-overview/2383146/1"
     },
     {
       "id": "blizz-6434256",
@@ -1344,62 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/battlegrounds-builds-and-beyond-in-this-weeks-wow-weekly/2377567/1"
-    },
-    {
-      "id": "blizz-6421534",
-      "postId": 6421534,
-      "topicId": 634435,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-08T22:06:52.124Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Burning Crusade Classic Zul'Aman PTR Raid Testing",
-        "es": "Burning Crusade Classic Zul'Aman PTR Banda Testing"
-      },
-      "summary": {
-        "en": "We recently opened this public test realm (PTR) for the purpose of testing the next phase of the Burning Crusade Classic. \nWe will open Zul’Aman for raid testing on the PTR at 21:0...",
-        "es": "We recently opened this public test realm (PTR) for the purpose of testing the next phase of the Burning Crusade Classic. \nWe will open Zul’Aman for Banda testing on the PTR at 21:..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We recently opened this public test realm (PTR) for the purpose of testing the next phase of the Burning Crusade Classic.</p>\n<p>We will open Zul’Aman for raid testing on the PTR at 21:00 CEST on Friday, October 9.</p>\n<p>This raid test will conclude at 21:00 CEST on Monday, October 12.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We recently opened this public test realm (PTR) for the purpose of testing the next phase of the Burning Crusade Classic.</p>\n<p>We will open Zul’Aman for raid testing on the PTR at 21:00 CEST on Friday, October 9.</p>\n<p>This raid test will conclude at 21:00 CEST on Monday, October 12.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/burning-crusade-classic-zulaman-ptr-raid-testing/634435/1"
-    },
-    {
-      "id": "blizz-30407536",
-      "postId": 30407536,
-      "topicId": 2377559,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-09T17:00:02.349Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Enter the World of Warcraft Student Art Contest 2026",
-        "es": "Enter the World of Warcraft Student Art Contest 2026"
-      },
-      "summary": {
-        "en": "[Enter the World of Warcraft Student Art Contest 2026] Calling all college and university student adventurers and artists! Unleash your creativity and craft an original masterpiece...",
-        "es": "[Enter the World of Warcraft Student Art Contest 2026] Calling all college and university student adventurers and artists! Unleash your creativity and craft an original masterpiece..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/p5/P5YVXNIG1HAT1775184254466.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/p5/P5YVXNIG1HAT1775184254466.jpg\" alt=\"Enter the World of Warcraft Student Art Contest 2026\" width=\"833\" height=\"468\"></a></p><p>Calling all college and university student adventurers and artists! Unleash your creativity and craft an original masterpiece inspired by the world of Azeroth—something that we’ve never seen before and fits within the World of Warcraft universe. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310654\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/p5/P5YVXNIG1HAT1775184254466.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/p5/P5YVXNIG1HAT1775184254466.jpg\" alt=\"Enter the World of Warcraft Student Art Contest 2026\" width=\"833\" height=\"468\"></a></p><p>Calling all college and university student adventurers and artists! Unleash your creativity and craft an original masterpiece inspired by the world of Azeroth—something that we’ve never seen before and fits within the World of Warcraft universe. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310654\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/enter-the-world-of-warcraft-student-art-contest-2026/2377559/1"
     }
   ],
   "blizzardNews": [
