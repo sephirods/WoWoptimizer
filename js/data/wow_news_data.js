@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30504994",
+      "postId": 30504994,
+      "topicId": 2384784,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-16T17:00:09.122Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More",
+        "es": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More"
+      },
+      "summary": {
+        "en": "[WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More] From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive i...",
+        "es": "[WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More] From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive i..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More\" width=\"833\" height=\"468\"></a></p><p>From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313102\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More\" width=\"833\" height=\"468\"></a></p><p>From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313102\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-weekly-highlights-midnight-1215-worldcore-wow-forever-and-more/2384784/1"
+    },
+    {
       "id": "blizz-30496849",
       "postId": 30496849,
       "topicId": 2382684,
@@ -198,32 +226,32 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/midnight-echoes-of-the-worldcore-ptr-development-notes/2383391/1"
     },
     {
-      "id": "blizz-30484126",
-      "postId": 30484126,
-      "topicId": 2383164,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1233222",
+      "postId": 1233222,
+      "topicId": 80451,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-15T16:18:58.905Z",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-16T17:29:57.401Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ & ‪@Savixirl",
-        "es": "The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ & ‪@Savixirl"
+        "en": "Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más",
+        "es": "Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más"
       },
       "summary": {
-        "en": "[The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast]...",
-        "es": "[The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast]..."
+        "en": "[Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más] Desde los nuevos desafíos en Midnight, un adelanto de lo que nos espera en Ec...",
+        "es": "[Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más] Desde los nuevos desafíos en Midnight, un adelanto de lo que nos espera en Ec..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"bzaMA5fZ1tE\" data-video-title=\"The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=bzaMA5fZ1tE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/bzaMA5fZ1tE/maxresdefault.jpg\" title=\"The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"bzaMA5fZ1tE\" data-video-title=\"The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=bzaMA5fZ1tE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/bzaMA5fZ1tE/maxresdefault.jpg\" title=\"The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más\" width=\"833\" height=\"468\"></a></p><p>Desde los nuevos desafíos en Midnight, un adelanto de lo que nos espera en Ecos del Núcleo del Mundo, un repaso a fondo de los paladines y el último pódcast de WoW: Forever, las noticias de esta semana traen información, nuevas recompensas y aventuras por explorar en Azeroth.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313102\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más\" width=\"833\" height=\"468\"></a></p><p>Desde los nuevos desafíos en Midnight, un adelanto de lo que nos espera en Ecos del Núcleo del Mundo, un repaso a fondo de los paladines y el último pódcast de WoW: Forever, las noticias de esta semana traen información, nuevas recompensas y aventuras por explorar en Azeroth.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313102\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/2383164/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-lo-m%C3%A1s-destacado-del-1215-de-midnight-el-n%C3%BAcleo-del-mundo-wow-forever-y-m%C3%A1s/80451/1"
     },
     {
       "id": "blizz-1233146",
@@ -282,34 +310,6 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/desbloquea-un-a%C3%B1o-de-world-of-warcraft%C2%AE-y-ll%C3%A9vate-tesoros-adicionales/80432/1"
     },
     {
-      "id": "blizz-1233133",
-      "postId": 1233133,
-      "topicId": 80431,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-15T20:13:44.027Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Desbloquea un año de World of Warcraft® y llévate tesoros adicionales",
-        "es": "Desbloquea un año de World of Warcraft® y llévate tesoros adicionales"
-      },
-      "summary": {
-        "en": "[Desbloquea un año de World of Warcraft® y llévate tesoros adicionales] Hazte con una suscripción de 12 meses o 365 días de tiempo de juego y llévate objetos cosméticos adicionales...",
-        "es": "[Desbloquea un año de World of Warcraft® y llévate tesoros adicionales] Hazte con una suscripción de 12 meses o 365 días de tiempo de juego y llévate objetos cosméticos adicionales..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\" alt=\"Desbloquea un año de World of Warcraft® y llévate tesoros adicionales\" width=\"833\" height=\"468\"></a></p><p>Hazte con una suscripción de 12 meses o 365 días de tiempo de juego y llévate objetos cosméticos adicionales, ¡incluidos varios para World of Warcraft: Forever! </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310658\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\" alt=\"Desbloquea un año de World of Warcraft® y llévate tesoros adicionales\" width=\"833\" height=\"468\"></a></p><p>Hazte con una suscripción de 12 meses o 365 días de tiempo de juego y llévate objetos cosméticos adicionales, ¡incluidos varios para World of Warcraft: Forever! </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310658\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/desbloquea-un-a%C3%B1o-de-world-of-warcraft%C2%AE-y-ll%C3%A9vate-tesoros-adicionales/80431/1"
-    },
-    {
       "id": "blizz-1233124",
       "postId": 1233124,
       "topicId": 80429,
@@ -336,34 +336,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-repaso-a-fondo-de-la-clase-palad%C3%ADn/80429/1"
-    },
-    {
-      "id": "blizz-1233123",
-      "postId": 1233123,
-      "topicId": 80428,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-15T19:00:10.638Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Forever: Repaso a fondo de la clase paladín",
-        "es": "World of Warcraft: Forever: Repaso a fondo de la clase paladín"
-      },
-      "summary": {
-        "en": "[World of Warcraft: Forever: Repaso a fondo de la clase paladín] Te presentamos a todo un campeón de la Luz en este repaso a fondo de la clase de World of Warcraft: Forever. Descub...",
-        "es": "[World of Warcraft: Forever: Repaso a fondo de la clase paladín] Te presentamos a todo un campeón de la Luz en este repaso a fondo de la clase de World of Warcraft: Forever. Descub..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ik/IKBBIHNXL9CG1791582837694.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ik/IKBBIHNXL9CG1791582837694.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de la clase paladín\" width=\"833\" height=\"468\"></a></p><p>Te presentamos a todo un campeón de la Luz en este repaso a fondo de la clase de World of Warcraft: Forever. Descubre las actualizaciones al paladín que potencian los emblemáticos sellos y sentencias de la clase al tiempo que amplían las opciones de sanación y de daño con hechizos de Sagrado, el tanqueo de Protección y el daño de Reprensión. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302099\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ik/IKBBIHNXL9CG1791582837694.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ik/IKBBIHNXL9CG1791582837694.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de la clase paladín\" width=\"833\" height=\"468\"></a></p><p>Te presentamos a todo un campeón de la Luz en este repaso a fondo de la clase de World of Warcraft: Forever. Descubre las actualizaciones al paladín que potencian los emblemáticos sellos y sentencias de la clase al tiempo que amplían las opciones de sanación y de daño con hechizos de Sagrado, el tanqueo de Protección y el daño de Reprensión. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302099\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-repaso-a-fondo-de-la-clase-palad%C3%ADn/80428/1"
     },
     {
       "id": "blizz-1233093",
@@ -394,34 +366,6 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/resumen-de-midnight-ecos-del-n%C3%BAcleo-del-mundo/80427/1"
     },
     {
-      "id": "blizz-1233092",
-      "postId": 1233092,
-      "topicId": 80426,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-15T16:00:08.506Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Resumen de Midnight: Ecos del Núcleo del Mundo",
-        "es": "Resumen de Midnight: Ecos del Núcleo del Mundo"
-      },
-      "summary": {
-        "en": "[Resumen de Midnight: Ecos del Núcleo del Mundo] La próxima actualización de contenido de Midnight, Ecos del Núcleo del Mundo, te invita a regresar a Dornogal para vivir una nueva ...",
-        "es": "[Resumen de Midnight: Ecos del Núcleo del Mundo] La próxima actualización de contenido de Midnight, Ecos del Núcleo del Mundo, te invita a regresar a Dornogal para vivir una nueva ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\" alt=\"Resumen de Midnight: Ecos del Núcleo del Mundo\" width=\"833\" height=\"468\"></a></p><p>La próxima actualización de contenido de Midnight, Ecos del Núcleo del Mundo, te invita a regresar a Dornogal para vivir una nueva historia de la campaña repleta de emociones. Además, presentará un nuevo y aterrador modo de juego llamado Historias de leyenda, una nueva serie de misiones de Paseo por la historia, nuevas recompensas para las Líneas temporales turbulentas y más cosas. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310659\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\" alt=\"Resumen de Midnight: Ecos del Núcleo del Mundo\" width=\"833\" height=\"468\"></a></p><p>La próxima actualización de contenido de Midnight, Ecos del Núcleo del Mundo, te invita a regresar a Dornogal para vivir una nueva historia de la campaña repleta de emociones. Además, presentará un nuevo y aterrador modo de juego llamado Historias de leyenda, una nueva serie de misiones de Paseo por la historia, nuevas recompensas para las Líneas temporales turbulentas y más cosas. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310659\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/resumen-de-midnight-ecos-del-n%C3%BAcleo-del-mundo/80426/1"
-    },
-    {
       "id": "blizz-1232454",
       "postId": 1232454,
       "topicId": 80374,
@@ -448,6 +392,118 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-campos-de-batalla-configuraciones-y-m%C3%A1s-cosas/80374/1"
+    },
+    {
+      "id": "blizz-1232453",
+      "postId": 1232453,
+      "topicId": 80373,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-09T17:04:32.946Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Esta semana en WoW: Campos de batalla, configuraciones y más cosas",
+        "es": "Esta semana en WoW: Campos de batalla, configuraciones y más cosas"
+      },
+      "summary": {
+        "en": "[Esta semana en WoW: Campos de batalla, configuraciones y más cosas] Desde repasos a fondo a las clases, novedades de JcJ, un nuevo campo de batalla y el último episodio del pódcas...",
+        "es": "[Esta semana en WoW: Campos de batalla, configuraciones y más cosas] Desde repasos a fondo a las clases, novedades de JcJ, un nuevo campo de batalla y el último episodio del pódcas..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\" alt=\"Esta semana en WoW: Campos de batalla, configuraciones y más cosas\" width=\"833\" height=\"468\"></a></p><p>Desde repasos a fondo a las clases, novedades de JcJ, un nuevo campo de batalla y el último episodio del pódcast de WoW: Forever, las noticias de esta semana traen información, nuevas recompensas y aventuras por descubrir en Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310655\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\" alt=\"Esta semana en WoW: Campos de batalla, configuraciones y más cosas\" width=\"833\" height=\"468\"></a></p><p>Desde repasos a fondo a las clases, novedades de JcJ, un nuevo campo de batalla y el último episodio del pódcast de WoW: Forever, las noticias de esta semana traen información, nuevas recompensas y aventuras por descubrir en Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310655\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-campos-de-batalla-configuraciones-y-m%C3%A1s-cosas/80373/1"
+    },
+    {
+      "id": "blizz-1232452",
+      "postId": 1232452,
+      "topicId": 80372,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-09T17:00:44.617Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo",
+        "es": "World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo"
+      },
+      "summary": {
+        "en": "[World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo] Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clase...",
+        "es": "[World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo] Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clase..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo\" width=\"833\" height=\"468\"></a></p><p>Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clases de World of Warcraft: Forever. Explora las actualizaciones para los pícaros y brujos que amplían las herramientas, tácticas y estilos de juego que definen a estas clases. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310968\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo\" width=\"833\" height=\"468\"></a></p><p>Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clases de World of Warcraft: Forever. Explora las actualizaciones para los pícaros y brujos que amplían las herramientas, tácticas y estilos de juego que definen a estas clases. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310968\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-repaso-a-fondo-de-las-clases-p%C3%ADcaro-y-brujo/80372/1"
+    },
+    {
+      "id": "blizz-6437003",
+      "postId": 6437003,
+      "topicId": 636099,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-16T17:00:09.005Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More",
+        "es": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More"
+      },
+      "summary": {
+        "en": "[WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More] From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive i...",
+        "es": "[WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More] From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive i..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More\" width=\"833\" height=\"468\"></a></p><p>From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313102\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More\" width=\"833\" height=\"468\"></a></p><p>From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313102\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-weekly-highlights-midnight-1215-worldcore-wow-forever-and-more/636099/1"
+    },
+    {
+      "id": "blizz-6437002",
+      "postId": 6437002,
+      "topicId": 636098,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-16T17:00:08.467Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More",
+        "es": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More"
+      },
+      "summary": {
+        "en": "[WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More] From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive i...",
+        "es": "[WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More] From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive i..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More\" width=\"833\" height=\"468\"></a></p><p>From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313102\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More\" width=\"833\" height=\"468\"></a></p><p>From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313102\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-weekly-highlights-midnight-1215-worldcore-wow-forever-and-more/636098/1"
     },
     {
       "id": "blizz-6435403",
@@ -616,6 +672,118 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-class-deep-dives-%E2%80%94-paladin/635789/1"
+    },
+    {
+      "id": "blizz-30484126",
+      "postId": 30484126,
+      "topicId": 2383164,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-15T16:18:58.905Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ & ‪@Savixirl",
+        "es": "The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ & ‪@Savixirl"
+      },
+      "summary": {
+        "en": "[The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast]...",
+        "es": "[The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast]..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"bzaMA5fZ1tE\" data-video-title=\"The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=bzaMA5fZ1tE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/bzaMA5fZ1tE/maxresdefault.jpg\" title=\"The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"bzaMA5fZ1tE\" data-video-title=\"The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=bzaMA5fZ1tE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/bzaMA5fZ1tE/maxresdefault.jpg\" title=\"The PvP Episode ft. @TipsOutBaby  &amp; @Savixirl | Episode 4 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/2383164/1"
+    },
+    {
+      "id": "blizz-1233133",
+      "postId": 1233133,
+      "topicId": 80431,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-15T20:13:44.027Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Desbloquea un año de World of Warcraft® y llévate tesoros adicionales",
+        "es": "Desbloquea un año de World of Warcraft® y llévate tesoros adicionales"
+      },
+      "summary": {
+        "en": "[Desbloquea un año de World of Warcraft® y llévate tesoros adicionales] Hazte con una suscripción de 12 meses o 365 días de tiempo de juego y llévate objetos cosméticos adicionales...",
+        "es": "[Desbloquea un año de World of Warcraft® y llévate tesoros adicionales] Hazte con una suscripción de 12 meses o 365 días de tiempo de juego y llévate objetos cosméticos adicionales..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\" alt=\"Desbloquea un año de World of Warcraft® y llévate tesoros adicionales\" width=\"833\" height=\"468\"></a></p><p>Hazte con una suscripción de 12 meses o 365 días de tiempo de juego y llévate objetos cosméticos adicionales, ¡incluidos varios para World of Warcraft: Forever! </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310658\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\" alt=\"Desbloquea un año de World of Warcraft® y llévate tesoros adicionales\" width=\"833\" height=\"468\"></a></p><p>Hazte con una suscripción de 12 meses o 365 días de tiempo de juego y llévate objetos cosméticos adicionales, ¡incluidos varios para World of Warcraft: Forever! </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310658\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/desbloquea-un-a%C3%B1o-de-world-of-warcraft%C2%AE-y-ll%C3%A9vate-tesoros-adicionales/80431/1"
+    },
+    {
+      "id": "blizz-1233123",
+      "postId": 1233123,
+      "topicId": 80428,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-15T19:00:10.638Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Forever: Repaso a fondo de la clase paladín",
+        "es": "World of Warcraft: Forever: Repaso a fondo de la clase paladín"
+      },
+      "summary": {
+        "en": "[World of Warcraft: Forever: Repaso a fondo de la clase paladín] Te presentamos a todo un campeón de la Luz en este repaso a fondo de la clase de World of Warcraft: Forever. Descub...",
+        "es": "[World of Warcraft: Forever: Repaso a fondo de la clase paladín] Te presentamos a todo un campeón de la Luz en este repaso a fondo de la clase de World of Warcraft: Forever. Descub..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ik/IKBBIHNXL9CG1791582837694.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ik/IKBBIHNXL9CG1791582837694.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de la clase paladín\" width=\"833\" height=\"468\"></a></p><p>Te presentamos a todo un campeón de la Luz en este repaso a fondo de la clase de World of Warcraft: Forever. Descubre las actualizaciones al paladín que potencian los emblemáticos sellos y sentencias de la clase al tiempo que amplían las opciones de sanación y de daño con hechizos de Sagrado, el tanqueo de Protección y el daño de Reprensión. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302099\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ik/IKBBIHNXL9CG1791582837694.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ik/IKBBIHNXL9CG1791582837694.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de la clase paladín\" width=\"833\" height=\"468\"></a></p><p>Te presentamos a todo un campeón de la Luz en este repaso a fondo de la clase de World of Warcraft: Forever. Descubre las actualizaciones al paladín que potencian los emblemáticos sellos y sentencias de la clase al tiempo que amplían las opciones de sanación y de daño con hechizos de Sagrado, el tanqueo de Protección y el daño de Reprensión. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302099\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-repaso-a-fondo-de-la-clase-palad%C3%ADn/80428/1"
+    },
+    {
+      "id": "blizz-1233092",
+      "postId": 1233092,
+      "topicId": 80426,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-15T16:00:08.506Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Resumen de Midnight: Ecos del Núcleo del Mundo",
+        "es": "Resumen de Midnight: Ecos del Núcleo del Mundo"
+      },
+      "summary": {
+        "en": "[Resumen de Midnight: Ecos del Núcleo del Mundo] La próxima actualización de contenido de Midnight, Ecos del Núcleo del Mundo, te invita a regresar a Dornogal para vivir una nueva ...",
+        "es": "[Resumen de Midnight: Ecos del Núcleo del Mundo] La próxima actualización de contenido de Midnight, Ecos del Núcleo del Mundo, te invita a regresar a Dornogal para vivir una nueva ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\" alt=\"Resumen de Midnight: Ecos del Núcleo del Mundo\" width=\"833\" height=\"468\"></a></p><p>La próxima actualización de contenido de Midnight, Ecos del Núcleo del Mundo, te invita a regresar a Dornogal para vivir una nueva historia de la campaña repleta de emociones. Además, presentará un nuevo y aterrador modo de juego llamado Historias de leyenda, una nueva serie de misiones de Paseo por la historia, nuevas recompensas para las Líneas temporales turbulentas y más cosas. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310659\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png\" alt=\"Resumen de Midnight: Ecos del Núcleo del Mundo\" width=\"833\" height=\"468\"></a></p><p>La próxima actualización de contenido de Midnight, Ecos del Núcleo del Mundo, te invita a regresar a Dornogal para vivir una nueva historia de la campaña repleta de emociones. Además, presentará un nuevo y aterrador modo de juego llamado Historias de leyenda, una nueva serie de misiones de Paseo por la historia, nuevas recompensas para las Líneas temporales turbulentas y más cosas. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310659\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/resumen-de-midnight-ecos-del-n%C3%BAcleo-del-mundo/80426/1"
     },
     {
       "id": "blizz-6434546",
@@ -814,34 +982,6 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-maintenance-october-14/2382032/1"
     },
     {
-      "id": "blizz-1232453",
-      "postId": 1232453,
-      "topicId": 80373,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-09T17:04:32.946Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Esta semana en WoW: Campos de batalla, configuraciones y más cosas",
-        "es": "Esta semana en WoW: Campos de batalla, configuraciones y más cosas"
-      },
-      "summary": {
-        "en": "[Esta semana en WoW: Campos de batalla, configuraciones y más cosas] Desde repasos a fondo a las clases, novedades de JcJ, un nuevo campo de batalla y el último episodio del pódcas...",
-        "es": "[Esta semana en WoW: Campos de batalla, configuraciones y más cosas] Desde repasos a fondo a las clases, novedades de JcJ, un nuevo campo de batalla y el último episodio del pódcas..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\" alt=\"Esta semana en WoW: Campos de batalla, configuraciones y más cosas\" width=\"833\" height=\"468\"></a></p><p>Desde repasos a fondo a las clases, novedades de JcJ, un nuevo campo de batalla y el último episodio del pódcast de WoW: Forever, las noticias de esta semana traen información, nuevas recompensas y aventuras por descubrir en Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310655\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\" alt=\"Esta semana en WoW: Campos de batalla, configuraciones y más cosas\" width=\"833\" height=\"468\"></a></p><p>Desde repasos a fondo a las clases, novedades de JcJ, un nuevo campo de batalla y el último episodio del pódcast de WoW: Forever, las noticias de esta semana traen información, nuevas recompensas y aventuras por descubrir en Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310655\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-campos-de-batalla-configuraciones-y-m%C3%A1s-cosas/80373/1"
-    },
-    {
       "id": "blizz-6431841",
       "postId": 6431841,
       "topicId": 635488,
@@ -924,34 +1064,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/midnight-1215-content-update-known-issues-and-information/2381312/1"
-    },
-    {
-      "id": "blizz-1232452",
-      "postId": 1232452,
-      "topicId": 80372,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-09T17:00:44.617Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo",
-        "es": "World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo"
-      },
-      "summary": {
-        "en": "[World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo] Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clase...",
-        "es": "[World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo] Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clase..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo\" width=\"833\" height=\"468\"></a></p><p>Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clases de World of Warcraft: Forever. Explora las actualizaciones para los pícaros y brujos que amplían las herramientas, tácticas y estilos de juego que definen a estas clases. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310968\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo\" width=\"833\" height=\"468\"></a></p><p>Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clases de World of Warcraft: Forever. Explora las actualizaciones para los pícaros y brujos que amplían las herramientas, tácticas y estilos de juego que definen a estas clases. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310968\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-repaso-a-fondo-de-las-clases-p%C3%ADcaro-y-brujo/80372/1"
     },
     {
       "id": "blizz-1232409",
@@ -1288,118 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/drop-de-twitch-%C2%A1consigue-el-adorno-para-los-hogares-mrgluche-adorable-dorado-el-13-de-octubre/80363/1"
-    },
-    {
-      "id": "blizz-1232381",
-      "postId": 1232381,
-      "topicId": 80358,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-08T18:48:36.691Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Aventuras fabuholosas con el alazarza ululante",
-        "es": "Aventuras fabuholosas con el alazarza ululante"
-      },
-      "summary": {
-        "en": "[Aventuras fabuholosas con el alazarza ululante] Echa a volar con el alazarza ululante, una risueña montura búho que arde en deseos de explorar maravillas ocultas, caminos vírgenes...",
-        "es": "[Aventuras fabuholosas con el alazarza ululante] Echa a volar con el alazarza ululante, una risueña montura búho que arde en deseos de explorar maravillas ocultas, caminos vírgenes..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xf/XFICGSPRI7781791309872673.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xf/XFICGSPRI7781791309872673.png\" alt=\"Aventuras fabuholosas con el alazarza ululante\" width=\"833\" height=\"468\"></a></p><p>Echa a volar con el alazarza ululante, una risueña montura búho que arde en deseos de explorar maravillas ocultas, caminos vírgenes y horizontes distantes. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310650\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xf/XFICGSPRI7781791309872673.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xf/XFICGSPRI7781791309872673.png\" alt=\"Aventuras fabuholosas con el alazarza ululante\" width=\"833\" height=\"468\"></a></p><p>Echa a volar con el alazarza ululante, una risueña montura búho que arde en deseos de explorar maravillas ocultas, caminos vírgenes y horizontes distantes. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310650\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/aventuras-fabuholosas-con-el-alazarza-ululante/80358/1"
-    },
-    {
-      "id": "blizz-6423198",
-      "postId": 6423198,
-      "topicId": 634622,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-09T17:04:29.825Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Battlegrounds, Builds, and Beyond in This Week's WoW Weekly",
-        "es": "Battlegrounds, Builds, and Beyond in This Week's WoW Weekly"
-      },
-      "summary": {
-        "en": "[Battlegrounds, Builds, and Beyond in This Week&#39;s WoW Weekly] From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week&#...",
-        "es": "[Battlegrounds, Builds, and Beyond in This Week&#39;s WoW Weekly] From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week&#..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\" alt=\"Battlegrounds, Builds, and Beyond in This Week's WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to discover across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310655\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\" alt=\"Battlegrounds, Builds, and Beyond in This Week's WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to discover across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310655\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/battlegrounds-builds-and-beyond-in-this-weeks-wow-weekly/634622/1"
-    },
-    {
-      "id": "blizz-6421648",
-      "postId": 6421648,
-      "topicId": 634448,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Chimes (WoW Developer)",
-      "dateRaw": "2026-10-08T23:16:12.833Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Crafted Decor Cost Reduction in 12.1.5",
-        "es": "Crafted Decor Cost Reduction in 12.1.5"
-      },
-      "summary": {
-        "en": "We’ve been reviewing decor collection patterns, among other housing-related data, and based on that internal data (and player feedback as well!) we’re making a change in 12.1.5 tha...",
-        "es": "We’ve been reviewing decor collection patterns, among other housing-related data, and based on that internal data (and player feedback as well!) we’re making a change in 12.1.5 tha..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve been reviewing decor collection patterns, among other housing-related data, and based on that internal data (and player feedback as well!) we’re making a change in 12.1.5 that I’d like to highlight now that the patch release is right around the corner. All crafted decor from pre-Midnight professions will be getting their crafting cost reduced. 12.1 saw us do the same for Midnight profession recipes, and now we’re following it up with a significant reduction in decor crafting costs from all professions in all other expansions.</p>\n<p>Some of these reductions are dramatic, some are merely significant. But this isn’t just a reduction in general reagent costs; lumber costs are coming down as well. We want players to craft and enjoy this decor, and we want players who have older professions leveled to see the benefit of those professions, and that will all be easier after the release of 12.1.5.</p>\n<p>While some of the details may have changed, it looks like wowhead did a pretty good job collecting these changes a few weeks ago here: <a href=\"https://www.wowhead.com/news/over-200-decor-recipe-costs-nerfed-in-patch-12-1-5-382919\">https://www.wowhead.com/news/over-200-decor-recipe-costs-nerfed-in-patch-12-1-5-382919</a></p>\n<p>Happy crafting!</p>\n<p>Chimes</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve been reviewing decor collection patterns, among other housing-related data, and based on that internal data (and player feedback as well!) we’re making a change in 12.1.5 that I’d like to highlight now that the patch release is right around the corner. All crafted decor from pre-Midnight professions will be getting their crafting cost reduced. 12.1 saw us do the same for Midnight profession recipes, and now we’re following it up with a significant reduction in decor crafting costs from all professions in all other expansions.</p>\n<p>Some of these reductions are dramatic, some are merely significant. But this isn’t just a reduction in general reagent costs; lumber costs are coming down as well. We want players to craft and enjoy this decor, and we want players who have older professions leveled to see the benefit of those professions, and that will all be easier after the release of 12.1.5.</p>\n<p>While some of the details may have changed, it looks like wowhead did a pretty good job collecting these changes a few weeks ago here: <a href=\"https://www.wowhead.com/news/over-200-decor-recipe-costs-nerfed-in-patch-12-1-5-382919\">https://www.wowhead.com/news/over-200-decor-recipe-costs-nerfed-in-patch-12-1-5-382919</a></p>\n<p>Happy crafting!</p>\n<p>Chimes</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/crafted-decor-cost-reduction-in-1215/634448/1"
-    },
-    {
-      "id": "blizz-30407581",
-      "postId": 30407581,
-      "topicId": 2377567,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-09T17:03:29.905Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Battlegrounds, Builds, and Beyond in This Week's WoW Weekly",
-        "es": "Battlegrounds, Builds, and Beyond in This Week's WoW Weekly"
-      },
-      "summary": {
-        "en": "[Battlegrounds, Builds, and Beyond in This Week&#39;s WoW Weekly] From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week&#...",
-        "es": "[Battlegrounds, Builds, and Beyond in This Week&#39;s WoW Weekly] From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week&#..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\" alt=\"Battlegrounds, Builds, and Beyond in This Week's WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to discover across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310655\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/g9/G9O85J8CADDC1791501640825.png\" alt=\"Battlegrounds, Builds, and Beyond in This Week's WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From class deep dives and PvP updates to a brand-new battleground and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to discover across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310655\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/battlegrounds-builds-and-beyond-in-this-weeks-wow-weekly/2377567/1"
     }
   ],
   "blizzardNews": [
