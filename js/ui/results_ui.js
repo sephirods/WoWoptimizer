@@ -1,17 +1,53 @@
 // Results UI Rendering, BiS Enchants/Consumables & Discord Export
 
-// Secondary Stat Diminishing Returns (DR) Threshold Engine
-function getDRBadge(statRating, totalRating) {
-  if (!statRating || !totalRating) return '<button type="button" onclick="openHelpModal()" class="text-[9px] text-emerald-400 font-mono font-bold hover:underline cursor-pointer" title="Ver guía de rendimientos decrecientes">DR 0%</button>';
-  const pct = (statRating / totalRating) * 100;
-  if (pct < 35) {
-    return '<button type="button" onclick="openHelpModal()" class="text-[9px] text-emerald-400 font-mono font-bold hover:underline cursor-pointer" title="Sin penalización DR (Clic para ver guía)">DR 0% ✓</button>';
-  } else if (pct < 45) {
-    return '<button type="button" onclick="openHelpModal()" class="text-[9px] text-amber-300 font-mono font-bold hover:underline cursor-pointer bg-amber-950/40 px-1 rounded border border-amber-500/30" title="Penalización leve: ~10% de DR (Clic para ver guía)">DR -10% ⚠️</button>';
-  } else if (pct < 55) {
-    return '<button type="button" onclick="openHelpModal()" class="text-[9px] text-orange-400 font-mono font-bold hover:underline cursor-pointer bg-orange-950/40 px-1 rounded border border-orange-500/30" title="Penalización moderada: ~20% de DR (Clic para ver guía)">DR -20% ⚠️</button>';
+// Secondary Stat Diminishing Returns (DR) Threshold Engine — Midnight Level 90 Official Brackets
+// Base Rating per 1% at Lv90: Haste = 44, Crit = 46, Mastery = 46 (per Mastery pt), Versatility = 54
+const LV90_DR_THRESHOLDS = {
+  haste:   { base: 44, t10: 1320, t20: 1760, t30: 2200, t40: 2640, t50: 3080, cap: 8800 },
+  crit:    { base: 46, t10: 1380, t20: 1840, t30: 2300, t40: 2760, t50: 3220, cap: 9200 },
+  mastery: { base: 46, t10: 1380, t20: 1840, t30: 2300, t40: 2760, t50: 3220, cap: 9200 },
+  vers:    { base: 54, t10: 1620, t20: 2160, t30: 2700, t40: 3240, t50: 3780, cap: 10800 }
+};
+
+function getDRBadge(statRating, statKey) {
+  const cfg = LV90_DR_THRESHOLDS[statKey] || LV90_DR_THRESHOLDS.crit;
+  const val = Number(statRating) || 0;
+  const isEs = (typeof currentLang === 'undefined' || currentLang === 'es' || currentLang === 'mx');
+  if (val < cfg.t10) {
+    const tip = isEs
+      ? `Sin penalización DR (0 - ${cfg.t10} rating / 0-30%) — Clic para ver tabla de DR`
+      : `No DR penalty (0 - ${cfg.t10} rating / 0-30%) — Click to view DR table`;
+    return `<button type="button" onclick="openDRGuideModal('${statKey}', ${val})" class="text-[9px] text-emerald-400 font-mono font-bold hover:underline cursor-pointer" title="${tip}">DR 0% ✓</button>`;
+  } else if (val < cfg.t20) {
+    const tip = isEs
+      ? `Penalización 10% DR (${cfg.t10} - ${cfg.t20} rating / 30-39%) — Clic para ver tabla de DR`
+      : `10% DR Penalty (${cfg.t10} - ${cfg.t20} rating / 30-39%) — Click to view DR table`;
+    return `<button type="button" onclick="openDRGuideModal('${statKey}', ${val})" class="text-[9px] text-amber-300 font-mono font-bold hover:underline cursor-pointer bg-amber-950/40 px-1 rounded border border-amber-500/30" title="${tip}">DR -10% ⚠️</button>`;
+  } else if (val < cfg.t30) {
+    const tip = isEs
+      ? `Penalización 20% DR (${cfg.t20} - ${cfg.t30} rating / 39-47%) — Clic para ver tabla de DR`
+      : `20% DR Penalty (${cfg.t20} - ${cfg.t30} rating / 39-47%) — Click to view DR table`;
+    return `<button type="button" onclick="openDRGuideModal('${statKey}', ${val})" class="text-[9px] text-orange-400 font-mono font-bold hover:underline cursor-pointer bg-orange-950/40 px-1 rounded border border-orange-500/30" title="${tip}">DR -20% ⚠️</button>`;
+  } else if (val < cfg.t40) {
+    const tip = isEs
+      ? `Penalización 30% DR (${cfg.t30} - ${cfg.t40} rating / 47-54%) — Clic para ver tabla de DR`
+      : `30% DR Penalty (${cfg.t30} - ${cfg.t40} rating / 47-54%) — Click to view DR table`;
+    return `<button type="button" onclick="openDRGuideModal('${statKey}', ${val})" class="text-[9px] text-red-400 font-mono font-bold hover:underline cursor-pointer bg-red-950/40 px-1 rounded border border-red-500/30 animate-pulse" title="${tip}">DR -30% 🛑</button>`;
+  } else if (val < cfg.t50) {
+    const tip = isEs
+      ? `Penalización 40% DR (${cfg.t40} - ${cfg.t50} rating / 54-66%) — Clic para ver tabla de DR`
+      : `40% DR Penalty (${cfg.t40} - ${cfg.t50} rating / 54-66%) — Click to view DR table`;
+    return `<button type="button" onclick="openDRGuideModal('${statKey}', ${val})" class="text-[9px] text-red-400 font-mono font-bold hover:underline cursor-pointer bg-red-950/40 px-1 rounded border border-red-500/30 animate-pulse" title="${tip}">DR -40% 🛑</button>`;
+  } else if (val <= cfg.cap) {
+    const tip = isEs
+      ? `Penalización 50% DR (${cfg.t50} - ${cfg.cap} rating / 66-126%) — Clic para ver tabla de DR`
+      : `50% DR Penalty (${cfg.t50} - ${cfg.cap} rating / 66-126%) — Click to view DR table`;
+    return `<button type="button" onclick="openDRGuideModal('${statKey}', ${val})" class="text-[9px] text-red-400 font-mono font-bold hover:underline cursor-pointer bg-red-950/40 px-1 rounded border border-red-500/30 animate-pulse" title="${tip}">DR -50% 🛑</button>`;
   } else {
-    return '<button type="button" onclick="openHelpModal()" class="text-[9px] text-red-400 font-mono font-bold hover:underline cursor-pointer bg-red-950/40 px-1 rounded border border-red-500/30 animate-pulse" title="Penalización severa: ~30%+ de DR (Clic para ver guía)">DR -30%+ 🛑</button>';
+    const tip = isEs
+      ? `Límite máximo DR (>${cfg.cap} rating / >126%) — Clic para ver tabla de DR`
+      : `Hard Cap DR (>${cfg.cap} rating / >126%) — Click to view DR table`;
+    return `<button type="button" onclick="openDRGuideModal('${statKey}', ${val})" class="text-[9px] text-red-400 font-mono font-bold hover:underline cursor-pointer bg-red-950/40 px-1 rounded border border-red-500/30 animate-pulse" title="${tip}">DR -100% 🛑</button>`;
   }
 }
 
@@ -222,7 +258,7 @@ function renderResults(topResults, targets, benchmark = { count: 0, duration: 0 
                     <span class="text-[11px] font-bold text-purple-400 uppercase">${t('statMastery', 'Mastery')}</span>
                     <div class="flex items-center gap-1">
                       ${Math.abs(res.diffMast) <= 25 ? '<span class="text-[9px] bg-emerald-950 text-emerald-300 border border-emerald-500/60 px-1 rounded font-bold">Meta ✓</span>' : ''}
-                      ${getDRBadge(res.totMast, totalSecondaries)}
+                      ${getDRBadge(res.totMast, 'mastery')}
                     </div>
                   </div>
                   <div class="text-xl font-black text-white mt-1">${res.totMast}</div>
@@ -246,7 +282,7 @@ function renderResults(topResults, targets, benchmark = { count: 0, duration: 0 
                     <span class="text-[11px] font-bold text-blue-400 uppercase">${t('statCrit', 'Crit')}</span>
                     <div class="flex items-center gap-1">
                       ${Math.abs(res.diffCrit) <= 25 ? '<span class="text-[9px] bg-emerald-950 text-emerald-300 border border-emerald-500/60 px-1 rounded font-bold">Meta ✓</span>' : ''}
-                      ${getDRBadge(res.totCrit, totalSecondaries)}
+                      ${getDRBadge(res.totCrit, 'crit')}
                     </div>
                   </div>
                   <div class="text-xl font-black text-white mt-1">${res.totCrit}</div>
@@ -270,7 +306,7 @@ function renderResults(topResults, targets, benchmark = { count: 0, duration: 0 
                     <span class="text-[11px] font-bold text-slate-300 uppercase">${t('statHaste', 'Haste')}</span>
                     <div class="flex items-center gap-1">
                       ${Math.abs(res.diffHaste) <= 25 ? '<span class="text-[9px] bg-emerald-950 text-emerald-300 border border-emerald-500/60 px-1 rounded font-bold">Meta ✓</span>' : ''}
-                      ${getDRBadge(res.totHaste, totalSecondaries)}
+                      ${getDRBadge(res.totHaste, 'haste')}
                     </div>
                   </div>
                   <div class="text-xl font-black text-white mt-1">${res.totHaste}</div>
@@ -294,7 +330,7 @@ function renderResults(topResults, targets, benchmark = { count: 0, duration: 0 
                     <span class="text-[11px] font-bold text-emerald-400 uppercase">${t('statVers', 'Versatility')}</span>
                     <div class="flex items-center gap-1">
                       ${Math.abs(res.diffVers) <= 25 ? '<span class="text-[9px] bg-emerald-950 text-emerald-300 border border-emerald-500/60 px-1 rounded font-bold">Meta ✓</span>' : ''}
-                      ${getDRBadge(res.totVers, totalSecondaries)}
+                      ${getDRBadge(res.totVers, 'vers')}
                     </div>
                   </div>
                   <div class="text-xl font-black text-white mt-1">${res.totVers}</div>
@@ -545,3 +581,281 @@ function copyDiscordSummary(resultIndex) {
     showToast(typeof t === 'function' ? t('discordErrorToast', 'Error al copiar resumen') : 'Error', 'error');
   });
 }
+
+function closeDRGuideModal() {
+  const modal = document.getElementById('dr-guide-modal');
+  if (modal) modal.classList.add('hidden');
+}
+
+function openDRGuideModal(highlightStat = null, highlightVal = null) {
+  let modal = document.getElementById('dr-guide-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'dr-guide-modal';
+    modal.className = 'fixed inset-0 z-[90] flex items-center justify-center bg-black/80 backdrop-blur-sm p-3 sm:p-6 hidden';
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeDRGuideModal();
+    });
+    document.body.appendChild(modal);
+  }
+
+  const isEs = (typeof currentLang === 'undefined' || currentLang === 'es' || currentLang === 'mx');
+  const val = highlightVal !== null && highlightVal !== undefined ? Number(highlightVal) : null;
+
+  const statMeta = {
+    haste: {
+      label: isEs ? 'Celeridad (Haste)' : 'Haste',
+      short: isEs ? 'Celeridad' : 'Haste',
+      color: 'text-slate-200',
+      border: 'border-slate-500/40',
+      bg: 'bg-slate-900/60',
+      unit: isEs ? '44 rating = 1%' : '44 rating = 1%',
+      cfg: LV90_DR_THRESHOLDS.haste
+    },
+    crit: {
+      label: isEs ? 'Crítico (Crit)' : 'Critical Strike',
+      short: isEs ? 'Crítico' : 'Crit',
+      color: 'text-blue-400',
+      border: 'border-blue-500/40',
+      bg: 'bg-blue-950/30',
+      unit: isEs ? '46 rating = 1%' : '46 rating = 1%',
+      cfg: LV90_DR_THRESHOLDS.crit
+    },
+    mastery: {
+      label: isEs ? 'Maestría (Mastery)' : 'Mastery',
+      short: isEs ? 'Maestría' : 'Mastery',
+      color: 'text-purple-400',
+      border: 'border-purple-500/40',
+      bg: 'bg-purple-950/30',
+      unit: isEs ? '46 rating = 1 pto base' : '46 rating = 1 base pt',
+      cfg: LV90_DR_THRESHOLDS.mastery
+    },
+    vers: {
+      label: isEs ? 'Versatilidad (Vers)' : 'Versatility',
+      short: isEs ? 'Versatilidad' : 'Versatility',
+      color: 'text-emerald-400',
+      border: 'border-emerald-500/40',
+      bg: 'bg-emerald-950/30',
+      unit: isEs ? '54 rating = 1%' : '54 rating = 1%',
+      cfg: LV90_DR_THRESHOLDS.vers
+    }
+  };
+
+  function getBracketIndex(v, cfg) {
+    if (v === null || isNaN(v)) return -1;
+    if (v < cfg.t10) return 0;
+    if (v < cfg.t20) return 1;
+    if (v < cfg.t30) return 2;
+    if (v < cfg.t40) return 3;
+    if (v < cfg.t50) return 4;
+    if (v <= cfg.cap) return 5;
+    return 6;
+  }
+
+  let currentStatBannerHtml = '';
+  if (highlightStat && statMeta[highlightStat] && val !== null) {
+    const sm = statMeta[highlightStat];
+    const bIdx = getBracketIndex(val, sm.cfg);
+    const rawPct = (val / sm.cfg.base).toFixed(1);
+    const bracketNames = isEs
+      ? ['0% Penalización (Sin DR ✓)', '-10% Penalización DR ⚠️', '-20% Penalización DR ⚠️', '-30% Penalización DR 🛑', '-40% Penalización DR 🛑', '-50% Penalización DR 🛑', '-100% Límite (Cap) 🛑']
+      : ['0% Penalty (No DR ✓)', '-10% DR Penalty ⚠️', '-20% DR Penalty ⚠️', '-30% DR Penalty 🛑', '-40% DR Penalty 🛑', '-50% DR Penalty 🛑', '-100% Hard Cap 🛑'];
+    const badgeClasses = [
+      'bg-emerald-950/60 border-emerald-500/50 text-emerald-300',
+      'bg-amber-950/60 border-amber-500/50 text-amber-300',
+      'bg-orange-950/60 border-orange-500/50 text-orange-300',
+      'bg-red-950/60 border-red-500/50 text-red-300',
+      'bg-red-950/60 border-red-500/50 text-red-300',
+      'bg-red-950/60 border-red-500/50 text-red-300',
+      'bg-red-950/60 border-red-500/50 text-red-300'
+    ];
+    currentStatBannerHtml = `
+      <div class="rounded-xl border ${badgeClasses[bIdx]} p-3.5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+        <div class="flex items-center gap-2.5">
+          <i class="fa-solid fa-gauge-high text-base"></i>
+          <div>
+            <div class="text-xs font-black uppercase tracking-wide">
+              ${isEs ? 'Tu Estadística Seleccionada:' : 'Your Selected Stat:'} <span class="text-white">${sm.label}</span>
+            </div>
+            <div class="text-[11px] text-slate-300 mt-0.5">
+              ${isEs ? 'Puntos actuales:' : 'Current rating:'} <span class="font-mono font-bold text-white">${val.toLocaleString()}</span>
+              <span class="text-slate-400">(${rawPct}% ${isEs ? 'base antes de DR' : 'raw before DR'} • ${isEs ? '1er escalón a los' : '1st bracket at'} <strong class="text-white">${sm.cfg.t10.toLocaleString()}</strong>)</span>
+            </div>
+          </div>
+        </div>
+        <span class="self-start sm:self-auto px-2.5 py-1 rounded-lg border text-xs font-mono font-black ${badgeClasses[bIdx]}">
+          ${bracketNames[bIdx]}
+        </span>
+      </div>
+    `;
+  }
+
+  const rowsHtml = ['haste', 'crit', 'mastery', 'vers'].map(key => {
+    const sm = statMeta[key];
+    const c = sm.cfg;
+    const isRowActive = highlightStat === key;
+    const activeIdx = isRowActive ? getBracketIndex(val, c) : -1;
+    const cellClass = (idx, baseTextCls) => {
+      if (activeIdx === idx) {
+        return 'bg-amber-500/25 border-2 border-amber-400 text-white font-black shadow-inner';
+      }
+      return `${baseTextCls} border border-white/5`;
+    };
+
+    return `
+      <tr class="${isRowActive ? 'bg-white/[0.06]' : 'bg-black/30'} hover:bg-white/[0.04] transition-colors">
+        <td class="p-2.5 border border-white/5 font-bold ${sm.color} whitespace-nowrap">
+          <div class="flex items-center gap-1.5">
+            ${isRowActive ? '<i class="fa-solid fa-caret-right text-amber-400"></i>' : ''}
+            <span>${sm.short}</span>
+          </div>
+          <div class="text-[10px] text-slate-400 font-mono font-normal">${sm.unit}</div>
+        </td>
+        <td class="p-2.5 text-center font-mono text-xs whitespace-nowrap ${cellClass(0, 'text-emerald-300')}">0 – ${c.t10.toLocaleString()}</td>
+        <td class="p-2.5 text-center font-mono text-xs whitespace-nowrap ${cellClass(1, 'text-amber-300')}">${c.t10.toLocaleString()} – ${c.t20.toLocaleString()}</td>
+        <td class="p-2.5 text-center font-mono text-xs whitespace-nowrap ${cellClass(2, 'text-orange-300')}">${c.t20.toLocaleString()} – ${c.t30.toLocaleString()}</td>
+        <td class="p-2.5 text-center font-mono text-xs whitespace-nowrap ${cellClass(3, 'text-red-300')}">${c.t30.toLocaleString()} – ${c.t40.toLocaleString()}</td>
+        <td class="p-2.5 text-center font-mono text-xs whitespace-nowrap ${cellClass(4, 'text-red-400')}">${c.t40.toLocaleString()} – ${c.t50.toLocaleString()}</td>
+        <td class="p-2.5 text-center font-mono text-xs whitespace-nowrap ${cellClass(5, 'text-red-400')}">${c.t50.toLocaleString()} – ${c.cap.toLocaleString()}</td>
+        <td class="p-2.5 text-center font-mono text-xs whitespace-nowrap ${cellClass(6, 'text-red-500')}">&gt; ${c.cap.toLocaleString()}</td>
+      </tr>
+    `;
+  }).join('');
+
+  modal.innerHTML = `
+    <div class="bg-[#0d111a] border border-amber-500/30 rounded-2xl max-w-4xl w-full max-h-[88vh] flex flex-col shadow-2xl overflow-hidden">
+      <!-- Modal Header -->
+      <div class="flex items-center justify-between px-4 sm:px-6 py-4 border-b border-white/10 bg-black/40">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-amber-500/15 border border-amber-500/40 flex items-center justify-center text-amber-400">
+            <i class="fa-solid fa-scale-unbalanced-flip text-lg"></i>
+          </div>
+          <div>
+            <h3 class="text-base sm:text-lg font-black text-white">
+              ${isEs ? 'Tablas de Rendimientos Decrecientes (DR) — Midnight (Nivel 90)' : 'Diminishing Returns (DR) Tables — Midnight (Level 90)'}
+            </h3>
+            <p class="text-xs text-slate-400">
+              ${isEs ? 'Escalones oficiales de penalización por índice de estadística secundaria en el Parche 12.1' : 'Official secondary stat rating penalty brackets for Patch 12.1'}
+            </p>
+          </div>
+        </div>
+        <button type="button" onclick="closeDRGuideModal()" class="min-h-[38px] min-w-[38px] px-3 py-2 rounded-lg text-slate-400 hover:text-white hover:bg-white/10 transition-colors cursor-pointer">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="p-4 sm:p-6 overflow-y-auto space-y-5 text-slate-200">
+        ${currentStatBannerHtml}
+
+        <!-- 1. Base Conversion Cards -->
+        <div>
+          <h4 class="text-xs font-black uppercase tracking-wider text-amber-400 mb-2.5 flex items-center gap-2">
+            <i class="fa-solid fa-calculator"></i>
+            <span>${isEs ? '1. Puntos de Índice (Rating) por cada 1% en Nivel 90 (Antes de DR)' : '1. Stat Rating per 1% at Level 90 (Before DR)'}</span>
+          </h4>
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+            ${['haste', 'crit', 'mastery', 'vers'].map(k => {
+              const sm = statMeta[k];
+              const active = highlightStat === k;
+              return `
+                <div class="p-3 rounded-xl border ${active ? 'border-amber-400 bg-amber-500/10' : `${sm.border} ${sm.bg}`} flex flex-col justify-between">
+                  <span class="text-[11px] font-bold uppercase ${sm.color}">${sm.short}</span>
+                  <span class="text-base font-black text-white font-mono mt-1">${sm.unit}</span>
+                  <span class="text-[10px] text-slate-400 mt-0.5">${isEs ? '30% inicia en' : '30% starts at'} <strong class="text-slate-200 font-mono">${sm.cfg.t10.toLocaleString()}</strong></span>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+
+        <!-- 2. Full DR Brackets Table -->
+        <div>
+          <h4 class="text-xs font-black uppercase tracking-wider text-amber-400 mb-2.5 flex items-center gap-2">
+            <i class="fa-solid fa-table"></i>
+            <span>${isEs ? '2. Tabla Oficial de Tramos y Penalizaciones de DR (Puntos de Rating)' : '2. Official DR Brackets & Penalties Table (Stat Rating)'}</span>
+          </h4>
+          <div class="overflow-x-auto rounded-xl border border-white/10">
+            <table class="w-full border-collapse text-left">
+              <thead>
+                <tr class="bg-black/70 text-[11px]">
+                  <th class="p-2.5 border border-white/5 text-slate-300 font-black uppercase">${isEs ? 'Estadística' : 'Stat'}</th>
+                  <th class="p-2.5 border border-white/5 text-center text-emerald-400 font-black">
+                    <div>0% DR ✓</div>
+                    <div class="text-[10px] text-slate-400 font-mono font-normal">0% – 30%</div>
+                  </th>
+                  <th class="p-2.5 border border-white/5 text-center text-amber-300 font-black">
+                    <div>-10% DR ⚠️</div>
+                    <div class="text-[10px] text-slate-400 font-mono font-normal">30% – 39%</div>
+                  </th>
+                  <th class="p-2.5 border border-white/5 text-center text-orange-400 font-black">
+                    <div>-20% DR ⚠️</div>
+                    <div class="text-[10px] text-slate-400 font-mono font-normal">39% – 47%</div>
+                  </th>
+                  <th class="p-2.5 border border-white/5 text-center text-red-400 font-black">
+                    <div>-30% DR 🛑</div>
+                    <div class="text-[10px] text-slate-400 font-mono font-normal">47% – 54%</div>
+                  </th>
+                  <th class="p-2.5 border border-white/5 text-center text-red-400 font-black">
+                    <div>-40% DR 🛑</div>
+                    <div class="text-[10px] text-slate-400 font-mono font-normal">54% – 66%</div>
+                  </th>
+                  <th class="p-2.5 border border-white/5 text-center text-red-400 font-black">
+                    <div>-50% DR 🛑</div>
+                    <div class="text-[10px] text-slate-400 font-mono font-normal">66% – 126%</div>
+                  </th>
+                  <th class="p-2.5 border border-white/5 text-center text-red-500 font-black">
+                    <div>-100% Cap 🛑</div>
+                    <div class="text-[10px] text-slate-400 font-mono font-normal">&gt; 126%</div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                ${rowsHtml}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 3. How DR Works Notes -->
+        <div class="bg-black/40 border border-white/10 rounded-xl p-3.5 space-y-2 text-xs text-slate-300 leading-relaxed">
+          <div class="font-bold text-white flex items-center gap-2">
+            <i class="fa-solid fa-circle-info text-blue-400"></i>
+            <span>${isEs ? '¿Cómo se aplica exactamente la penalización en World of Warcraft?' : 'How does the DR penalty apply in World of Warcraft?'}</span>
+          </div>
+          <ul class="list-disc list-inside space-y-1 text-slate-300">
+            <li>
+              ${isEs
+                ? '<strong>Penalización marginal (progresiva):</strong> Solo los puntos que <em>superan</em> el umbral sufren el descuento. Por ejemplo, si tienes <strong>1,500 de Crítico</strong>, tus primeros <strong>1,380 puntos</strong> mantienen el 100% de su valor (30%), y únicamente los <strong>120 puntos restantes</strong> reciben el -10% de penalización.'
+                : '<strong>Marginal (progressive) penalty:</strong> Only the rating points <em>above</em> each threshold are penalized. For example, at <strong>1,500 Crit</strong>, your first <strong>1,380 rating</strong> grant full value (30%), and only the <strong>120 excess rating</strong> receives the -10% penalty.'}
+            </li>
+            <li>
+              ${isEs
+                ? '<strong>Maestría:</strong> El DR se calcula sobre los <strong>puntos base de Maestría</strong> (46 rating = 1 punto base, empezando el DR en 1,380) antes de multiplicarse por el factor de cada especialización.'
+                : '<strong>Mastery:</strong> DR is calculated on <strong>base Mastery points</strong> (46 rating = 1 base point, starting DR at 1,380) before multiplying by your specialization coefficient.'}
+            </li>
+            <li>
+              ${isEs
+                ? '<strong>Buffs porcentuales vs Procs de Rating:</strong> Los beneficios que otorgan un <code>%</code> directo (como talentos o buffs de banda) <strong>no</strong> cuentan para el DR, mientras que los abalorios, frascos o consumibles que suman puntos de <em>rating</em> sí cuentan mientras estén activos.'
+                : '<strong>Flat % Buffs vs Rating Procs:</strong> Buffs and talents granting flat <code>%</code> stats do <strong>not</strong> count toward rating DR, whereas trinket procs, flasks, and consumables granting raw stat <em>rating</em> do count while active.'}
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="px-4 sm:px-6 py-3.5 border-t border-white/10 bg-black/40 flex justify-end">
+        <button type="button" onclick="closeDRGuideModal()" class="min-h-[38px] px-5 py-2 rounded-lg bg-amber-500 hover:bg-amber-400 text-black font-black text-xs transition-colors cursor-pointer">
+          ${isEs ? 'Entendido' : 'Got it'}
+        </button>
+      </div>
+    </div>
+  `;
+
+  modal.classList.remove('hidden');
+}
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeDRGuideModal();
+});
+
