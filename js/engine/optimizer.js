@@ -453,10 +453,10 @@ function runOptimizer(isManualClick = false) {
     const checkId = it.itemId ? parseInt(it.itemId) : (it.id ? parseInt(it.id.toString().replace('simc_', '')) : 0);
     const isCantrip = CANTRIP_IDS.includes(checkId) || (it.redirectedStatId && CANTRIP_IDS.includes(parseInt(it.redirectedStatId)));
     if (isCantrip) {
-      power += (slotWeight * 15);
+      power += (slotWeight * 10);
     }
     
-    // Zul'jin's Guillotine Technique (270173) synergy gives Maze-roa and Aman'muso an extra +2 (for a total of +4)
+    // Zul'jin's Guillotine Technique (270173) synergy gives Maze-roa and Aman'muso an extra +10 (for a total of +20)
     if (checkId === 268213 || checkId === 268209) {
       const allOwnedItems = (typeof items !== 'undefined') ? items : [];
       const hasZuljinTrinket = allOwnedItems.some(item => {
@@ -464,7 +464,7 @@ function runOptimizer(isManualClick = false) {
         return iId === 270173;
       });
       if (hasZuljinTrinket) {
-        power += (slotWeight * 15);
+        power += (slotWeight * 10);
       }
     }
 
