@@ -5,9 +5,26 @@ try {
   if (savedItems) {
     items = JSON.parse(savedItems) || [];
     items.forEach(it => {
-      if (it && (it.slot === 'finger' || it.slot === 'neck')) {
+      if (!it) return;
+      if (it.slot === 'finger' || it.slot === 'neck') {
         it.socket = true;
         if (!it.socketCount || it.socketCount < 1) it.socketCount = 1;
+      }
+      if (it.rawSimcOptions) {
+        const opts = String(it.rawSimcOptions);
+        if (opts.includes('crafted_stats=') || opts.includes('crafting_quality=')) {
+          it.track = 'crafted';
+        } else {
+          const bm = opts.match(/bonus_id=([0-9/:]+)/i);
+          if (bm) {
+            const ids = bm[1].split(/[/:]/).map(Number);
+            if (ids.some(id => (id >= 12849 && id <= 12854) || id === 13334 || id === 13335)) it.track = 'myth';
+            else if (ids.some(id => id >= 12841 && id <= 12846)) it.track = 'hero';
+            else if (ids.some(id => (id >= 12833 && id <= 12838) || id === 13333)) it.track = 'champ';
+            else if (ids.some(id => id >= 12825 && id <= 12830)) it.track = 'vet';
+            else if (ids.some(id => id >= 12817 && id <= 12822)) it.track = 'adventurer';
+          }
+        }
       }
     });
   }

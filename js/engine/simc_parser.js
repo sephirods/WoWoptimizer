@@ -277,12 +277,9 @@ async function parseAndImportSimC() {
         appSlot = (detected === 'weapon_1h') ? 'weapon_1h' : 'shield';
       }
 
-      let track = 'hero';
-      if (currentIlvl >= 325) track = 'myth';
-      else if (currentIlvl >= 305) track = 'hero';
-      else if (currentIlvl >= 292) track = 'champ';
-      else if (currentIlvl >= 279) track = 'vet';
-      else track = 'adventurer';
+      let track = (typeof detectTrackFromSimcItem === 'function')
+        ? detectTrackFromSimcItem(rawSimcOptions, currentIlvl)
+        : 'hero';
 
       const cachedMeta = metadataCache[itemId];
       const known = findKnownItemInfo(currentItemName, itemId) || {
@@ -446,6 +443,7 @@ async function parseAndImportSimC() {
       if (baseMeta) {
         if (baseMeta.name && (it.name.startsWith('Objeto #') || !it.name)) it.name = baseMeta.name;
         if (baseMeta.icon) it.icon = baseMeta.icon;
+        if (baseMeta.track && !it.hasCraftedStats) it.track = baseMeta.track;
         if (baseMeta.slot && (it.slot === 'weapon_2h' || it.slot === 'weapon_1h' || it.slot === 'shield')) it.slot = baseMeta.slot;
         if (baseMeta.armorType) it.armorType = baseMeta.armorType;
         if (baseMeta.primaryStat) it.primaryStat = baseMeta.primaryStat;
@@ -465,6 +463,7 @@ async function parseAndImportSimC() {
       const existingIdx = items.findIndex(x => x.name.toLowerCase() === it.name.toLowerCase() && x.ilvl === it.ilvl && x.slot === it.slot);
       if (existingIdx >= 0) {
         items[existingIdx].rawSimcOptions = it.rawSimcOptions || items[existingIdx].rawSimcOptions;
+        items[existingIdx].track = it.track || items[existingIdx].track;
         items[existingIdx].socket = it.socket;
         items[existingIdx].socketCount = it.socketCount || items[existingIdx].socketCount || (it.socket ? 1 : 0);
         items[existingIdx].crit = it.crit;

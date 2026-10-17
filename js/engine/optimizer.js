@@ -223,7 +223,9 @@ function runOptimizer(isManualClick = false) {
     if (it.disabled) return false;
     if (!isItemUsableBySpec(it, currentClass, currentSpec)) return false;
     if (minIlvl > 0 && (it.ilvl || 0) < minIlvl) return false;
-    const track = it.track || 'hero';
+    const track = (typeof detectTrackFromSimcItem === 'function')
+      ? detectTrackFromSimcItem(it.rawSimcOptions, it.ilvl, it.track)
+      : (it.track || 'hero');
     if (track === 'myth' && !allowMyth) return false;
     if (track === 'hero' && !allowHero) return false;
     if (track === 'champ' && !allowChamp) return false;
@@ -231,17 +233,35 @@ function runOptimizer(isManualClick = false) {
     return true;
   }).map(it => {
     const isCrafted = isItemCrafted(it);
-    const canUseVenom = simVenomstone && isSlotEligibleForVenomstone(it.slot);
-    let targetIlvl = (simMaxIlvl || canUseVenom) ? getMaxIlvlForTrack(it.track, it.ilvl, canUseVenom, isCrafted) : (it.ilvl || 0);
+    const itemTrack = (typeof detectTrackFromSimcItem === 'function')
+      ? detectTrackFromSimcItem(it.rawSimcOptions, it.ilvl, it.track)
+      : (it.track || 'hero').toLowerCase();
 
-    if (!simMaxIlvl && !canUseVenom && simVaultAutoScale && it.isVault) {
+    let baseTargetIlvl = it.ilvl || 0;
+    let isVaultScaled = false;
+
+    if (simMaxIlvl) {
+      baseTargetIlvl = getMaxIlvlForTrack(itemTrack, it.ilvl, false, isCrafted);
+    } else if (simVaultAutoScale && it.isVault) {
       const allItemsList = typeof items !== 'undefined' ? items : [];
       const highestOwned = getHighestOwnedIlvlForSlot(it.slot, allItemsList);
-      const trackMax = getMaxIlvlForTrack(it.track, it.ilvl, false, isCrafted);
+      const trackMax = getMaxIlvlForTrack(itemTrack, it.ilvl, false, isCrafted);
       if (highestOwned > 0) {
-        targetIlvl = Math.max(it.ilvl || 0, Math.min(highestOwned, trackMax));
+        const vaultScaled = Math.max(it.ilvl || 0, Math.min(highestOwned, trackMax));
+        if (vaultScaled > baseTargetIlvl) {
+          baseTargetIlvl = vaultScaled;
+          isVaultScaled = true;
+        }
       }
     }
+
+    const isAtMaxRankForVenom =
+      (isCrafted && (baseTargetIlvl === 318 || baseTargetIlvl === 331)) ||
+      (!isCrafted && itemTrack === 'hero' && baseTargetIlvl === 321) ||
+      (!isCrafted && itemTrack === 'myth' && baseTargetIlvl === 334);
+
+    const canUseVenom = simVenomstone && isSlotEligibleForVenomstone(it.slot) && isAtMaxRankForVenom;
+    const targetIlvl = canUseVenom ? (baseTargetIlvl + 10) : baseTargetIlvl;
 
     if (targetIlvl > (it.ilvl || 0)) {
       const baseIlvl = it.baseIlvl || it.ilvl || 321;
@@ -252,6 +272,7 @@ function runOptimizer(isManualClick = false) {
 
       return {
         ...it,
+        track: itemTrack,
         ilvl: targetIlvl,
         mastery: scaleStatByIlvl(baseM, baseIlvl, targetIlvl),
         crit: scaleStatByIlvl(baseC, baseIlvl, targetIlvl),
@@ -259,9 +280,12 @@ function runOptimizer(isManualClick = false) {
         vers: scaleStatByIlvl(baseV, baseIlvl, targetIlvl),
         isMaxScaled: !canUseVenom && simMaxIlvl,
         isVenomstoneScaled: canUseVenom,
-        isVaultScaled: !simMaxIlvl && !canUseVenom && simVaultAutoScale && !!it.isVault,
+        isVaultScaled: !canUseVenom && isVaultScaled,
         originalIlvl: it.ilvl
       };
+    }
+    if (it.track !== itemTrack) {
+      return { ...it, track: itemTrack };
     }
     return it;
   });

@@ -55,6 +55,30 @@ function isSlotEligibleForVenomstone(slot) {
   return ['weapon_2h', 'weapon_1h', 'shield', 'offhand', 'trinket', 'neck'].includes(s);
 }
 
+function detectTrackFromSimcItem(rawSimcOptions = '', ilvl = 321, currentTrack = '') {
+  const opts = String(rawSimcOptions || '');
+  if (opts.includes('crafted_stats=') || opts.includes('crafting_quality=')) {
+    return 'crafted';
+  }
+  const bm = opts.match(/bonus_id=([0-9/:]+)/i);
+  if (bm) {
+    const ids = bm[1].split(/[/:]/).map(Number);
+    if (ids.some(id => (id >= 12849 && id <= 12854) || id === 13334 || id === 13335)) return 'myth';
+    if (ids.some(id => id >= 12841 && id <= 12846)) return 'hero';
+    if (ids.some(id => (id >= 12833 && id <= 12838) || id === 13333)) return 'champ';
+    if (ids.some(id => id >= 12825 && id <= 12830)) return 'vet';
+    if (ids.some(id => id >= 12817 && id <= 12822)) return 'adventurer';
+  }
+  if (currentTrack && ['myth', 'hero', 'champ', 'vet', 'adventurer', 'crafted'].includes(currentTrack.toLowerCase())) {
+    return currentTrack.toLowerCase();
+  }
+  if (ilvl >= 325) return 'myth';
+  if (ilvl >= 305) return 'hero';
+  if (ilvl >= 292) return 'champ';
+  if (ilvl >= 279) return 'vet';
+  return 'adventurer';
+}
+
 function getMaxIlvlForTrack(track, currentIlvl = 321, includeVenomstone = false, isCrafted = false) {
   const t = (track || '').toLowerCase();
 
@@ -67,12 +91,17 @@ function getMaxIlvlForTrack(track, currentIlvl = 321, includeVenomstone = false,
   }
 
   if (includeVenomstone) {
-    if (t === 'myth' || currentIlvl >= 325) return Math.max(currentIlvl, 344);
-    if (t === 'hero' || currentIlvl >= 305) return Math.max(currentIlvl, 331);
-    if (t === 'champ' || currentIlvl >= 292) return Math.max(currentIlvl, 308);
-    if (t === 'vet' || currentIlvl >= 279) return Math.max(currentIlvl, 296);
-    if (t === 'adventurer' || currentIlvl >= 266) return Math.max(currentIlvl, 283);
-    return Math.max(currentIlvl || 0, 331);
+    if (t === 'myth') return Math.max(currentIlvl || 0, 344);
+    if (t === 'hero') return Math.max(currentIlvl || 0, 331);
+    if (t === 'champ') return Math.max(currentIlvl || 0, 308);
+    if (t === 'vet') return Math.max(currentIlvl || 0, 296);
+    if (t === 'adventurer') return Math.max(currentIlvl || 0, 283);
+    if (currentIlvl >= 325) return Math.max(currentIlvl, 344);
+    if (currentIlvl >= 305) return Math.max(currentIlvl, 331);
+    if (currentIlvl >= 292) return Math.max(currentIlvl, 308);
+    if (currentIlvl >= 279) return Math.max(currentIlvl, 296);
+    if (currentIlvl >= 266) return Math.max(currentIlvl, 283);
+    return currentIlvl || 321;
   }
 
   const TRACK_MAX_ILVLS = {
@@ -89,7 +118,7 @@ function getMaxIlvlForTrack(track, currentIlvl = 321, includeVenomstone = false,
 
   if (currentIlvl >= 325) return Math.max(currentIlvl, 334);
   if (currentIlvl >= 305) return Math.max(currentIlvl, 321);
-  if (currentIlvl >= 292) return Math.max(currentIlvl, 309);
+  if (currentIlvl >= 292) return Math.max(currentIlvl, 308);
   if (currentIlvl >= 279) return Math.max(currentIlvl, 296);
   if (currentIlvl >= 266) return Math.max(currentIlvl, 283);
 
