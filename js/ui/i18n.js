@@ -1583,19 +1583,72 @@ function toggleLanguage() {
   setLanguage(nextLang);
 }
 
+function getLangFlagSvg(lang) {
+  if (lang === 'es') {
+    return `<svg width="18" height="13" viewBox="0 0 28 20" class="rounded-[2px] shadow-sm border border-white/20 shrink-0 block" aria-hidden="true">
+      <rect width="28" height="20" fill="#AA151B"/>
+      <rect y="5" width="28" height="10" fill="#F1BF00"/>
+      <rect x="6.5" y="7" width="3.2" height="5.5" rx="1" fill="#AA151B" stroke="#8B6508" stroke-width="0.6"/>
+      <circle cx="8.1" cy="9.7" r="0.8" fill="#F1BF00"/>
+    </svg>`;
+  }
+  if (lang === 'mx') {
+    return `<svg width="18" height="13" viewBox="0 0 28 20" class="rounded-[2px] shadow-sm border border-white/20 shrink-0 block" aria-hidden="true">
+      <rect width="9.33" height="20" fill="#006847"/>
+      <rect x="9.33" width="9.34" height="20" fill="#FFFFFF"/>
+      <rect x="18.67" width="9.33" height="20" fill="#CE1126"/>
+      <circle cx="14" cy="10" r="2.1" fill="#8B5A2B"/>
+      <path d="M12.3 11.2 Q14 13 15.7 11.2" fill="none" stroke="#006847" stroke-width="0.8"/>
+    </svg>`;
+  }
+  // Default: USA ('en') — crisp 13-stripe proportions and deep navy canton
+  return `<svg width="18" height="13" viewBox="0 0 28 20" class="rounded-[2px] shadow-sm border border-white/20 shrink-0 block" aria-hidden="true">
+    <rect width="28" height="20" fill="#B22234"/>
+    <rect y="1.54" width="28" height="1.54" fill="#FFFFFF"/>
+    <rect y="4.62" width="28" height="1.54" fill="#FFFFFF"/>
+    <rect y="7.69" width="28" height="1.54" fill="#FFFFFF"/>
+    <rect y="10.77" width="28" height="1.54" fill="#FFFFFF"/>
+    <rect y="13.85" width="28" height="1.54" fill="#FFFFFF"/>
+    <rect y="16.92" width="28" height="1.54" fill="#FFFFFF"/>
+    <rect width="12.5" height="10.77" fill="#002868"/>
+    <g fill="#FFFFFF">
+      <circle cx="2.3" cy="2.1" r="0.65"/><circle cx="4.9" cy="2.1" r="0.65"/><circle cx="7.5" cy="2.1" r="0.65"/><circle cx="10.1" cy="2.1" r="0.65"/>
+      <circle cx="3.6" cy="3.8" r="0.65"/><circle cx="6.2" cy="3.8" r="0.65"/><circle cx="8.8" cy="3.8" r="0.65"/>
+      <circle cx="2.3" cy="5.5" r="0.65"/><circle cx="4.9" cy="5.5" r="0.65"/><circle cx="7.5" cy="5.5" r="0.65"/><circle cx="10.1" cy="5.5" r="0.65"/>
+      <circle cx="3.6" cy="7.2" r="0.65"/><circle cx="6.2" cy="7.2" r="0.65"/><circle cx="8.8" cy="7.2" r="0.65"/>
+      <circle cx="2.3" cy="8.9" r="0.65"/><circle cx="4.9" cy="8.9" r="0.65"/><circle cx="7.5" cy="8.9" r="0.65"/><circle cx="10.1" cy="8.9" r="0.65"/>
+    </g>
+  </svg>`;
+}
+window.getLangFlagSvg = getLangFlagSvg;
+
 function updateLanguageUI() {
   const lang = currentLang || 'en';
   document.documentElement.lang = (lang === 'en') ? 'en' : (lang === 'mx' ? 'es-MX' : 'es-ES');
 
   const langSelect = document.getElementById('lang-select');
-  if (langSelect && langSelect.value !== lang) {
-    langSelect.value = lang;
+  if (langSelect) {
+    if (langSelect.value !== lang) {
+      langSelect.value = lang;
+    }
+    let flagSvgEl = document.getElementById('lang-flag-svg');
+    if (!flagSvgEl && langSelect.parentElement) {
+      flagSvgEl = document.createElement('div');
+      flagSvgEl.id = 'lang-flag-svg';
+      flagSvgEl.className = 'pointer-events-none absolute inset-y-0 left-0 flex items-center pl-2.5 z-10';
+      langSelect.parentElement.insertBefore(flagSvgEl, langSelect);
+      langSelect.classList.remove('pl-2');
+      langSelect.classList.add('pl-8');
+    }
+    if (flagSvgEl) {
+      flagSvgEl.innerHTML = getLangFlagSvg(lang);
+    }
   }
 
   const flagEl = document.getElementById('lang-flag');
   const codeEl = document.getElementById('lang-code');
   if (flagEl) {
-    flagEl.innerText = (lang === 'en') ? '🇺🇸' : (lang === 'mx' ? '🇲🇽' : '🇪🇸');
+    flagEl.innerHTML = getLangFlagSvg(lang);
   }
   if (codeEl) {
     codeEl.innerText = (lang === 'en') ? 'EN' : (lang === 'mx' ? 'MX' : 'ES');

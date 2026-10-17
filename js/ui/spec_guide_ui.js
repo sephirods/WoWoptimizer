@@ -473,7 +473,7 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
               <i class="fa-solid fa-play text-xs"></i>
               <span>${isEs ? 'Optimizar en Calculadora' : 'Open in Calculator'}</span>
             </a>
-            <button type="button" onclick="if(typeof openHelpModal==='function')openHelpModal();" class="absolute -top-2 -right-2 w-5 h-5 rounded-full shadow-md flex items-center justify-center transition transform hover:scale-110 active:scale-95 z-10 cursor-pointer" style="background-color: #000000 !important; border: none !important; padding: 0 !important; line-height: 1 !important;" data-i18n-title="guideTitle" title="User Guide & Help">
+            <button type="button" onclick="if(typeof openHelpModal==='function')openHelpModal();" class="absolute -top-2.5 -right-2.5 w-6 h-6 min-w-[24px] min-h-[24px] rounded-full shadow-md flex items-center justify-center transition transform hover:scale-110 active:scale-95 z-10 cursor-pointer" aria-label="User Guide & Help" style="background-color: #000000 !important; border: none !important; padding: 0 !important; line-height: 1 !important;" data-i18n-title="guideTitle" title="User Guide & Help">
               <span style="color: #fbbf24 !important; font-size: 11px; font-weight: 900; font-family: sans-serif; line-height: 1; user-select: none;">?</span>
             </button>
           </div>
@@ -554,7 +554,7 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
               <i class="fa-solid fa-calculator text-xs"></i>
               <span>${isEs ? 'Simular en Calculadora' : 'Simulate in Calculator'}</span>
             </a>
-            <button type="button" onclick="if(typeof openHelpModal==='function')openHelpModal();" class="absolute -top-2 -right-2 w-5 h-5 rounded-full shadow-md flex items-center justify-center transition transform hover:scale-110 active:scale-95 z-10 cursor-pointer" style="background-color: #000000 !important; border: none !important; padding: 0 !important; line-height: 1 !important;" data-i18n-title="guideTitle" title="User Guide & Help">
+            <button type="button" onclick="if(typeof openHelpModal==='function')openHelpModal();" class="absolute -top-2.5 -right-2.5 w-6 h-6 min-w-[24px] min-h-[24px] rounded-full shadow-md flex items-center justify-center transition transform hover:scale-110 active:scale-95 z-10 cursor-pointer" aria-label="User Guide & Help" style="background-color: #000000 !important; border: none !important; padding: 0 !important; line-height: 1 !important;" data-i18n-title="guideTitle" title="User Guide & Help">
               <span style="color: #fbbf24 !important; font-size: 11px; font-weight: 900; font-family: sans-serif; line-height: 1; user-select: none;">?</span>
             </button>
           </div>

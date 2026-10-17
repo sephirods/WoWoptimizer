@@ -331,13 +331,17 @@ window.WOW_PATCH_NOTICE = window.WOW_PATCH_NOTICE || {
           </nav>
 
           <!-- CTA & Language Selector & Mobile Trigger -->
-          <div class="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
+          <div class="flex items-center gap-2 sm:gap-3 shrink-0">
             <!-- Language Selector Dropdown -->
             <div class="relative inline-block">
-              <select id="lang-select" onchange="setLanguage(this.value)" class="bg-black/60 hover:bg-black text-amber-300 text-xs font-bold pl-2 pr-5 sm:pr-6 py-1.5 rounded-lg border border-wow-border focus:outline-none focus:border-amber-400 cursor-pointer appearance-none shadow-sm transition min-h-[36px]">
-                <option value="en" class="bg-slate-900 text-slate-200">🇺🇸 EN</option>
-                <option value="es" class="bg-slate-900 text-slate-200">🇪🇸 ES</option>
-                <option value="mx" class="bg-slate-900 text-slate-200">🇲🇽 MX</option>
+              <label for="lang-select" class="sr-only">Select Language / Seleccionar Idioma</label>
+              <div id="lang-flag-svg" class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-2.5 z-10">
+                ${typeof window.getLangFlagSvg === 'function' ? window.getLangFlagSvg(typeof currentLang !== 'undefined' ? currentLang : 'en') : ''}
+              </div>
+              <select id="lang-select" aria-label="Select Language / Seleccionar Idioma" title="Select Language / Seleccionar Idioma" onchange="setLanguage(this.value)" class="bg-black/60 hover:bg-black text-amber-300 text-xs font-bold pl-8 pr-5 sm:pr-6 py-1.5 rounded-lg border border-wow-border focus:outline-none focus:border-amber-400 cursor-pointer appearance-none shadow-sm transition min-h-[38px]">
+                <option value="en" class="bg-slate-900 text-slate-200">EN</option>
+                <option value="es" class="bg-slate-900 text-slate-200">ES</option>
+                <option value="mx" class="bg-slate-900 text-slate-200">MX</option>
               </select>
               <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-1.5 text-amber-400 text-[10px]">
                 <i class="fa-solid fa-chevron-down"></i>
@@ -345,17 +349,17 @@ window.WOW_PATCH_NOTICE = window.WOW_PATCH_NOTICE || {
             </div>
 
             <!-- Botón Optimizador -->
-            <div class="relative inline-flex items-center">
-              <a href="${basePath}gearsim" class="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black text-xs sm:text-sm font-bold px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl shadow-lg shadow-amber-950/40 border border-amber-300/60 flex items-center gap-1.5 sm:gap-2 transition min-h-[36px]">
+            <div class="relative inline-flex items-center mr-1">
+              <a href="${basePath}gearsim" class="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black text-xs sm:text-sm font-bold px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl shadow-lg shadow-amber-950/40 border border-amber-300/60 flex items-center gap-1.5 sm:gap-2 transition min-h-[38px]">
                 <i class="fa-solid fa-play text-xs"></i> <span class="hidden min-[480px]:inline" data-i18n="launchOptimizerBtn">Abrir Optimizador</span><span class="inline min-[480px]:hidden">Optimizador</span>
               </a>
-              <button type="button" onclick="if(typeof openHelpModal==='function')openHelpModal();" class="absolute -top-2 -right-2 w-5 h-5 rounded-full shadow-md flex items-center justify-center transition transform hover:scale-110 active:scale-95 z-10 cursor-pointer" style="background-color: #000000 !important; border: none !important; padding: 0 !important; line-height: 1 !important;" data-i18n-title="guideTitle" title="User Guide & Help">
-                <span style="color: #fbbf24 !important; font-size: 11px; font-weight: 900; font-family: sans-serif; line-height: 1; user-select: none;">?</span>
+              <button type="button" onclick="if(typeof openHelpModal==='function')openHelpModal();" aria-label="User Guide & Help" class="absolute -top-2.5 -right-2.5 w-6 h-6 min-w-[24px] min-h-[24px] rounded-full shadow-md flex items-center justify-center transition transform hover:scale-110 active:scale-95 z-10 cursor-pointer" style="background-color: #000000 !important; border: none !important; padding: 0 !important; line-height: 1 !important;" data-i18n-title="guideTitle" title="User Guide & Help">
+                <span style="color: #fbbf24 !important; font-size: 12px; font-weight: 900; font-family: sans-serif; line-height: 1; user-select: none;">?</span>
               </button>
             </div>
 
             <!-- BOTÓN MENÚ MÓVIL (HAMBURGUESA) -->
-            <button type="button" onclick="window.toggleMobileDrawer()" class="lg:hidden p-2 rounded-xl bg-wow-card border border-wow-border text-slate-300 hover:text-white hover:border-amber-400 min-h-[36px] min-w-[36px] flex items-center justify-center" aria-label="Abrir Menú">
+            <button type="button" onclick="window.toggleMobileDrawer()" class="lg:hidden p-2 rounded-xl bg-wow-card border border-wow-border text-slate-300 hover:text-white hover:border-amber-400 min-h-[38px] min-w-[38px] flex items-center justify-center" aria-label="Abrir Menú">
               <i id="mob-menu-icon" class="fa-solid fa-bars text-base"></i>
             </button>
           </div>

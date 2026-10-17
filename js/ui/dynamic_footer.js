@@ -179,8 +179,8 @@
 
         <!-- Categoría del problema -->
         <div>
-          <label class="block text-[10px] sm:text-[11px] font-bold text-slate-300 uppercase tracking-wider mb-1">Categoría</label>
-          <select id="bug-type" class="w-full bg-wow-input border border-wow-border rounded-xl px-3 py-2 text-slate-200 focus:outline-none focus:border-amber-400 min-h-[38px]">
+          <label for="bug-type" class="block text-[10px] sm:text-[11px] font-bold text-slate-300 uppercase tracking-wider mb-1">Categoría</label>
+          <select id="bug-type" aria-label="Categoría del reporte" class="w-full bg-wow-input border border-wow-border rounded-xl px-3 py-2 text-slate-200 focus:outline-none focus:border-amber-400 min-h-[38px]">
             <option value="bug">🐛 Error en cálculo o stats</option>
             <option value="item">🛡️ Objeto, abalorio o encantamiento faltante / incorrecto</option>
             <option value="tooltip">🔍 Tooltip no encontrado o enlace roto</option>

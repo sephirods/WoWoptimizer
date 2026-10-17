@@ -19,7 +19,7 @@
   <meta property="og:url" content="https://wowtopgear.app/gearsim" />
   <meta property="og:title" content="WoWTopGear | World of Warcraft: Midnight Season 2" />
   <meta property="og:description" content="Calculadora Top Gear y optimizador de estadísticas secundarias para World of Warcraft: Midnight." />
-  <meta property="og:image" content="https://wowtopgear.app/img/og-banner.jpg?v=23_v47" />
+  <meta property="og:image" content="https://wowtopgear.app/img/og-banner.jpg?v=23_v48" />
   <meta property="og:site_name" content="WoWTopGear" />
 
   <!-- Twitter -->
@@ -27,7 +27,7 @@
   <meta name="twitter:url" content="https://wowtopgear.app/gearsim" />
   <meta name="twitter:title" content="WoWTopGear | Midnight S2" />
   <meta name="twitter:description" content="Calculadora Top Gear y optimizador de estadísticas secundarias para World of Warcraft: Midnight." />
-  <meta name="twitter:image" content="https://wowtopgear.app/img/og-banner.jpg?v=23_v47" />
+  <meta name="twitter:image" content="https://wowtopgear.app/img/og-banner.jpg?v=23_v48" />
 
   <!-- Clean URL Handler -->
   <script>
@@ -130,9 +130,9 @@
   <!-- Official Bloodmallet Pre-bundled Data Store, Archon Presets & Wowhead Guides -->
   <script src="bloodmallet_data.js?v=1792253312132"></script>
   <script src="archon_data.js?v=1792253382808"></script>
-  <script src="archon_healers.js?v=23_v47"></script>
+  <script src="archon_healers.js?v=23_v48"></script>
   <script src="wowhead_data.js?v=1792039730107"></script>
-  <script src="wow_stat_priorities.js?v=23_v47"></script>
+  <script src="wow_stat_priorities.js?v=23_v48"></script>
 
   <script>
     tailwind.config = {
@@ -156,7 +156,7 @@
       }
     }
   </script>
-  <link rel="stylesheet" href="css/custom.css?v=23_v47">
+  <link rel="stylesheet" href="css/custom.css?v=23_v48">
 </head>
 <body class="min-h-screen flex flex-col">
 
@@ -177,7 +177,7 @@
               </h1>
               
               <!-- Class Selector with Colored Options (NOTA: Los colores inline en style="..." aseguran compatibilidad en select nativo de Chromium/móvil; también están respaldados en css/custom.css) -->
-              <select id="char-class" onchange="onClassChange()" class="bg-black/70 border border-wow-border text-xs font-bold rounded-lg px-2 py-1 sm:px-2.5 sm:py-1.5 focus:outline-none cursor-pointer transition">
+              <select id="char-class" aria-label="Select Character Class" title="Select Character Class" onchange="onClassChange()" class="bg-black/70 border border-wow-border text-xs font-bold rounded-lg px-2 py-1 sm:px-2.5 sm:py-1.5 focus:outline-none cursor-pointer transition">
                 <option value="paladin" style="color: #F48CBA;">Paladin</option>
                 <option value="warrior" style="color: #C69B6D;">Warrior</option>
                 <option value="deathknight" style="color: #C41E3A;">Death Knight</option>
@@ -194,7 +194,7 @@
               </select>
 
               <!-- Spec Selector -->
-              <select id="char-spec" onchange="onSpecChange()" class="bg-black/70 border border-wow-border text-xs font-bold rounded-lg px-2 py-1 sm:px-2.5 sm:py-1.5 text-amber-300 focus:outline-none cursor-pointer">
+              <select id="char-spec" aria-label="Select Specialization" title="Select Specialization" onchange="onSpecChange()" class="bg-black/70 border border-wow-border text-xs font-bold rounded-lg px-2 py-1 sm:px-2.5 sm:py-1.5 text-amber-300 focus:outline-none cursor-pointer">
                 <!-- Injected dynamically -->
               </select>
             </div>
@@ -222,10 +222,12 @@
 
         <!-- Language Selector Dropdown -->
         <div class="relative inline-block">
-          <select id="lang-select" onchange="setLanguage(this.value)" class="bg-black/60 hover:bg-black text-amber-300 text-xs font-bold pl-2 pr-6 py-1.5 rounded-lg border border-wow-border focus:outline-none focus:border-amber-400 cursor-pointer appearance-none shadow-sm transition">
-            <option value="en" class="bg-slate-900 text-slate-200">🇺🇸 EN</option>
-            <option value="es" class="bg-slate-900 text-slate-200">🇪🇸 ES</option>
-            <option value="mx" class="bg-slate-900 text-slate-200">🇲🇽 MX</option>
+          <label for="lang-select" class="sr-only">Select Language / Seleccionar Idioma</label>
+          <div id="lang-flag-svg" class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-2.5 z-10"></div>
+          <select id="lang-select" aria-label="Select Language / Seleccionar Idioma" title="Select Language / Seleccionar Idioma" onchange="setLanguage(this.value)" class="bg-black/60 hover:bg-black text-amber-300 text-xs font-bold pl-8 pr-6 py-1.5 rounded-lg border border-wow-border focus:outline-none focus:border-amber-400 cursor-pointer appearance-none shadow-sm transition min-h-[38px]">
+            <option value="en" class="bg-slate-900 text-slate-200">EN</option>
+            <option value="es" class="bg-slate-900 text-slate-200">ES</option>
+            <option value="mx" class="bg-slate-900 text-slate-200">MX</option>
           </select>
           <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-1.5 text-amber-400 text-[10px]">
             <i class="fa-solid fa-chevron-down"></i>
@@ -335,7 +337,7 @@
             <label class="text-xs font-bold text-amber-400 uppercase tracking-wider block mb-1">
               <i class="fa-solid fa-swords mr-1"></i> <span data-i18n="weaponMode">Weapon Mode</span>
             </label>
-            <select id="weapon-mode" onchange="runOptimizer()" class="w-full bg-black/40 border border-amber-500/50 rounded px-2.5 py-1.5 text-white font-medium text-sm focus:outline-none">
+            <select id="weapon-mode" aria-label="Select Weapon Mode" title="Select Weapon Mode" onchange="runOptimizer()" class="w-full bg-black/40 border border-amber-500/50 rounded px-2.5 py-1.5 text-white font-medium text-sm focus:outline-none">
               <!-- Dynamically populated per class/spec -->
             </select>
           </div>
@@ -445,7 +447,7 @@
                 <span class="text-purple-300 font-bold flex items-center gap-1"><i class="fa-solid fa-layer-group text-purple-400 text-[11px]"></i> <span data-i18n="tierSetMode">Tier Set</span>:</span>
                 <span id="tier-mode-display" class="text-purple-200 font-bold ml-0.5">0</span>
                 <i class="fa-solid fa-chevron-down text-[9px] text-purple-400 ml-1"></i>
-                <select id="tier-mode" onchange="document.getElementById('tier-mode-display').innerText = this.value; runOptimizer();" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer bg-[#0e111a] text-purple-200" style="color-scheme: dark;">
+                <select id="tier-mode" aria-label="Select Tier Set Bonus" title="Select Tier Set Bonus" onchange="document.getElementById('tier-mode-display').innerText = this.value; runOptimizer();" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer bg-[#0e111a] text-purple-200" style="color-scheme: dark;">
                   <option value="4" class="bg-[#0e111a] text-purple-300">4</option>
                   <option value="2" class="bg-[#0e111a] text-purple-300">2</option>
                   <option value="0" class="bg-[#0e111a] text-slate-300" selected>0</option>
@@ -510,7 +512,7 @@
               </button>
             </div>
             
-            <select id="filter-slot" onchange="renderInventory()" class="bg-wow-input border border-wow-border rounded-lg px-3 py-1.5 text-sm text-slate-300 focus:outline-none">
+            <select id="filter-slot" aria-label="Filter Inventory by Slot" title="Filter Inventory by Slot" onchange="renderInventory()" class="bg-wow-input border border-wow-border rounded-lg px-3 py-1.5 text-sm text-slate-300 focus:outline-none">
               <option value="all" data-i18n="invFilterAllSlots">All Slots</option>
               <option value="head" data-i18n="slotHead">Head</option>
               <option value="neck" data-i18n="slotNeck">Neck</option>
@@ -529,7 +531,7 @@
               <option value="shield" data-i18n="slotShield">Shields</option>
             </select>
 
-            <select id="sort-inventory" onchange="renderInventory()" class="bg-wow-input border border-wow-border rounded-lg px-3 py-1.5 text-sm text-slate-300 focus:outline-none">
+            <select id="sort-inventory" aria-label="Sort Inventory" title="Sort Inventory" onchange="renderInventory()" class="bg-wow-input border border-wow-border rounded-lg px-3 py-1.5 text-sm text-slate-300 focus:outline-none">
               <option value="ilvl-desc" data-i18n="sortIlvlDesc">ilvl (High to Low)</option>
               <option value="ilvl-asc" data-i18n="sortIlvlAsc">ilvl (Low to High)</option>
               <option value="name-asc" data-i18n="sortNameAsc">Name (A-Z)</option>
@@ -693,7 +695,7 @@
           </div>
           <div>
             <label class="text-xs font-semibold text-slate-300 block mb-1" data-i18n="itemIlvlLabel">Item Level (ilvl)</label>
-            <select id="item-ilvl" onchange="onItemIlvlChange()" class="w-full bg-wow-input border border-amber-400/60 rounded px-2.5 py-1.5 text-sm text-amber-300 font-bold focus:outline-none focus:border-amber-400 cursor-pointer">
+            <select id="item-ilvl" aria-label="Select Item Level" title="Select Item Level" onchange="onItemIlvlChange()" class="w-full bg-wow-input border border-amber-400/60 rounded px-2.5 py-1.5 text-sm text-amber-300 font-bold focus:outline-none focus:border-amber-400 cursor-pointer">
             </select>
           </div>
         </div>
@@ -701,7 +703,7 @@
         <div class="grid grid-cols-3 gap-3">
           <div>
             <label class="text-xs font-semibold text-slate-300 block mb-1" data-i18n="itemSlotLabel">Slot</label>
-            <select id="item-slot" disabled onchange="onItemSlotChange()" class="w-full bg-black/50 border border-wow-border/50 rounded px-2.5 py-1.5 text-sm text-slate-300 cursor-not-allowed select-none focus:outline-none">
+            <select id="item-slot" aria-label="Item Slot" title="Item Slot" disabled onchange="onItemSlotChange()" class="w-full bg-black/50 border border-wow-border/50 rounded px-2.5 py-1.5 text-sm text-slate-300 cursor-not-allowed select-none focus:outline-none">
               <option value="head" data-i18n="slotHead">Head</option>
               <option value="neck" data-i18n="slotNeck">Neck</option>
               <option value="shoulder" data-i18n="slotShoulder">Shoulder</option>
@@ -721,7 +723,7 @@
           </div>
           <div>
             <label class="text-xs font-semibold text-slate-300 block mb-1" data-i18n="itemTrackLabel">Upgrade Track</label>
-            <select id="item-track" onchange="onItemTrackChange()" class="w-full bg-wow-input border border-wow-border rounded px-2.5 py-1.5 text-sm text-white focus:outline-none cursor-pointer">
+            <select id="item-track" aria-label="Select Upgrade Track" title="Select Upgrade Track" onchange="onItemTrackChange()" class="w-full bg-wow-input border border-wow-border rounded px-2.5 py-1.5 text-sm text-white focus:outline-none cursor-pointer">
               <option value="myth" data-i18n="trackMythName">Mythic (Myth)</option>
               <option value="hero" selected data-i18n="trackHeroName">Heroic (Hero)</option>
               <option value="champ" data-i18n="trackChampName">Champion (Champ)</option>
@@ -1065,30 +1067,30 @@
 
 
   <!-- Core Modular Scripts -->
-  <script src="js/ui/i18n.js?v=23_v47"></script>
-  <script src="js/data/classes_plate.js?v=23_v47"></script>
-  <script src="js/data/classes_mail.js?v=23_v47"></script>
-  <script src="js/data/classes_leather.js?v=23_v47"></script>
-  <script src="js/data/classes_cloth.js?v=23_v47"></script>
-  <script src="js/data/classes.js?v=23_v47"></script>
-  <script src="js/data/state.js?v=23_v47"></script>
-  <script src="js/data/gems.js?v=23_v47"></script>
-  <script src="js/data/trinkets.js?v=23_v47"></script>
-  <script src="js/engine/upgrade_tracks.js?v=23_v47"></script>
-  <script src="js/engine/item_scaler.js?v=23_v47"></script>
-  <script src="js/engine/simc_parser.js?v=23_v47"></script>
-  <script src="js/engine/optimizer.js?v=23_v47"></script>
-  <script src="js/engine/simc_exporter.js?v=23_v47"></script>
-  <script src="js/data/telemetry_logger.js?v=23_v47"></script>
-  <script src="js/ui/tooltips_ui.js?v=23_v47"></script>
-  <script src="js/ui/target_ui.js?v=23_v47"></script>
-  <script src="js/ui/item_modal_ui.js?v=23_v47"></script>
-  <script src="js/ui/inventory_ui.js?v=23_v47"></script>
-  <script src="js/ui/results_ui.js?v=23_v47"></script>
-  <script src="js/ui/comparator_ui.js?v=23_v47"></script>
-  <script src="js/ui/modals_ui.js?v=23_v47"></script>
-  <script src="js/ui/tickets_ui.js?v=23_v47"></script>
-  <script src="js/ui/dynamic_footer.js?v=23_v47"></script>
-  <script src="js/app.js?v=23_v47"></script>
+  <script src="js/ui/i18n.js?v=23_v48"></script>
+  <script src="js/data/classes_plate.js?v=23_v48"></script>
+  <script src="js/data/classes_mail.js?v=23_v48"></script>
+  <script src="js/data/classes_leather.js?v=23_v48"></script>
+  <script src="js/data/classes_cloth.js?v=23_v48"></script>
+  <script src="js/data/classes.js?v=23_v48"></script>
+  <script src="js/data/state.js?v=23_v48"></script>
+  <script src="js/data/gems.js?v=23_v48"></script>
+  <script src="js/data/trinkets.js?v=23_v48"></script>
+  <script src="js/engine/upgrade_tracks.js?v=23_v48"></script>
+  <script src="js/engine/item_scaler.js?v=23_v48"></script>
+  <script src="js/engine/simc_parser.js?v=23_v48"></script>
+  <script src="js/engine/optimizer.js?v=23_v48"></script>
+  <script src="js/engine/simc_exporter.js?v=23_v48"></script>
+  <script src="js/data/telemetry_logger.js?v=23_v48"></script>
+  <script src="js/ui/tooltips_ui.js?v=23_v48"></script>
+  <script src="js/ui/target_ui.js?v=23_v48"></script>
+  <script src="js/ui/item_modal_ui.js?v=23_v48"></script>
+  <script src="js/ui/inventory_ui.js?v=23_v48"></script>
+  <script src="js/ui/results_ui.js?v=23_v48"></script>
+  <script src="js/ui/comparator_ui.js?v=23_v48"></script>
+  <script src="js/ui/modals_ui.js?v=23_v48"></script>
+  <script src="js/ui/tickets_ui.js?v=23_v48"></script>
+  <script src="js/ui/dynamic_footer.js?v=23_v48"></script>
+  <script src="js/app.js?v=23_v48"></script>
 </body>
 </html>
