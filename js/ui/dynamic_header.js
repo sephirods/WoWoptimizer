@@ -282,7 +282,7 @@ window.WOW_PATCH_NOTICE = window.WOW_PATCH_NOTICE || {
           <!-- Brand Logo -->
           <a href="${basePath}index.html" class="flex items-center gap-2 sm:gap-3 group shrink min-w-0">
             <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl overflow-hidden border border-amber-400/60 flex items-center justify-center shadow-lg shadow-purple-950/60 group-hover:border-amber-300 transition shrink-0 bg-[#0c101d]">
-              <img src="${basePath}img/logo.webp" alt="WoWTopGear Logo" class="w-full h-full object-cover group-hover:scale-110 transition duration-200" width="40" height="40" />
+              <img src="${basePath}img/logo-header.webp" alt="WoWTopGear Logo" class="w-full h-full object-cover group-hover:scale-110 transition duration-200" width="40" height="40" decoding="async" />
             </div>
             <div class="min-w-0">
               <div class="flex items-center gap-1.5 sm:gap-2">

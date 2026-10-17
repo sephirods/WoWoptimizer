@@ -178,15 +178,23 @@ const DEFAULT_PINNED_NEWS_IDS = ['blizz-30111968', 'blizz-24302093'];
         .catch(() => {});
     }
 
-    // Renderizar contenidos de los feeds
-    renderPinnedNews();
-    renderBlizzardNews();
-    renderBlueTracker();
-    renderRecentNews();
+    // Renderizar contenidos de los feeds tras el primer frame para dar prioridad total al FCP y LCP del Hero
+    const runInitialNewsRender = () => {
+      renderPinnedNews();
+      renderBlizzardNews();
+      renderBlueTracker();
+      renderRecentNews();
 
-    // Generar/actualizar Schema.org JSON-LD (NewsArticle / ItemList) para SEO
-    if (typeof injectNewsSeoSchema === 'function') {
-      try { injectNewsSeoSchema(); } catch (e) {}
+      // Generar/actualizar Schema.org JSON-LD (NewsArticle / ItemList) para SEO
+      if (typeof injectNewsSeoSchema === 'function') {
+        try { injectNewsSeoSchema(); } catch (e) {}
+      }
+    };
+
+    if (typeof requestAnimationFrame === 'function') {
+      requestAnimationFrame(() => setTimeout(runInitialNewsRender, 40));
+    } else {
+      runInitialNewsRender();
     }
   }
 
@@ -196,6 +204,14 @@ const DEFAULT_PINNED_NEWS_IDS = ['blizz-30111968', 'blizz-24302093'];
     mountNewsComponent();
   }
 })();
+
+// Optimiza miniaturas externas (Wowhead / Blizzard Akamai) a WebP en resolución Retina exacta con fallback seguro
+function getOptimizedThumbUrl(url, w = 192, h = 112) {
+  if (!url || typeof url !== 'string') return url;
+  if (!url.startsWith('http://') && !url.startsWith('https://')) return url;
+  if (url.includes('wsrv.nl')) return url;
+  return `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=${w}&h=${h}&fit=cover&output=webp&q=80`;
+}
 
 // Control de Filtros, Idioma y Datos del Lector
 let activeBlueRegionFilter = 'ALL';
@@ -621,6 +637,7 @@ function renderBlizzardNews() {
     const itemSummary = resolveLocalized(item.summary, lang);
     const timeDisplay = item.dateRaw || 'Reciente';
     const coverImg = item.imageUrl || 'https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png';
+    const optCoverImg = getOptimizedThumbUrl(coverImg, 640, 288);
     const cardClass = isMobile
       ? 'w-[82vw] max-w-[310px] snap-center shrink-0 flex flex-col justify-between group cursor-pointer bg-black/50 hover:bg-black/80 border border-sky-500/30 hover:border-sky-400/70 rounded-xl overflow-hidden shadow-lg transition duration-200'
       : 'group cursor-pointer bg-black/40 hover:bg-black/70 border border-sky-500/25 hover:border-sky-400/70 rounded-xl overflow-hidden transition duration-200 shadow-md flex flex-col justify-between';
@@ -629,7 +646,7 @@ function renderBlizzardNews() {
       <div onclick="openArticleModal('${item.id}', 'blizzard')" class="${cardClass}">
         <!-- Cover Image -->
         <div class="w-full ${isMobile ? 'h-36' : 'h-36 sm:h-40'} overflow-hidden relative bg-black/60 shrink-0">
-          <img src="${coverImg}" alt="${itemTitle}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" loading="lazy" />
+          <img src="${optCoverImg}" onerror="this.onerror=null;this.src='${coverImg}'" alt="${itemTitle}" width="400" height="180" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" loading="lazy" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-black/20"></div>
           <span class="absolute top-2.5 left-2.5 text-[9px] font-mono font-bold px-2 py-0.5 rounded-full border border-sky-400/60 bg-sky-950/90 text-sky-200 shadow">
             ${badgeText}
@@ -896,12 +913,13 @@ function renderRecentNews() {
           : (resolveLocalized(item.timeAgo, lang) || resolveLocalized(item.date, lang) || 'Reciente');
 
         const coverThumb = item.imageUrl || (item.enclosure && item.enclosure.link) || null;
+        const optThumb = coverThumb ? getOptimizedThumbUrl(coverThumb, 192, 112) : null;
 
         return `
           <div onclick="openArticleModal('${item.id}', 'news')" class="p-3.5 hover:bg-amber-950/20 transition cursor-pointer flex items-center justify-between gap-3 group">
             ${coverThumb ? `
               <div class="w-16 h-12 sm:w-20 sm:h-14 rounded-lg overflow-hidden border border-amber-500/30 bg-black/60 shrink-0">
-                <img src="${coverThumb}" alt="${itemTitle}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" loading="lazy" />
+                <img src="${optThumb}" onerror="this.onerror=null;this.src='${coverThumb}'" alt="${itemTitle}" width="96" height="56" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" loading="lazy" />
               </div>
             ` : ''}
             <div class="space-y-1 flex-1 min-w-0">
