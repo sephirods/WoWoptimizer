@@ -63,8 +63,8 @@ function detectTrackFromSimcItem(rawSimcOptions = '', ilvl = 321, currentTrack =
   const bm = opts.match(/bonus_id=([0-9/:]+)/i);
   if (bm) {
     const ids = bm[1].split(/[/:]/).map(Number);
-    if (ids.some(id => (id >= 12849 && id <= 12854) || id === 13334 || id === 13335)) return 'myth';
-    if (ids.some(id => id >= 12841 && id <= 12846)) return 'hero';
+    if (ids.some(id => (id >= 12849 && id <= 12854) || id === 13335)) return 'myth';
+    if (ids.some(id => (id >= 12841 && id <= 12846) || id === 13334)) return 'hero';
     if (ids.some(id => (id >= 12833 && id <= 12838) || id === 13333)) return 'champ';
     if (ids.some(id => id >= 12825 && id <= 12830)) return 'vet';
     if (ids.some(id => id >= 12817 && id <= 12822)) return 'adventurer';
