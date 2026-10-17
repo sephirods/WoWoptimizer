@@ -21,7 +21,7 @@
   <meta property="og:url" content="https://wowtopgear.app/" />
   <meta property="og:title" content="WoW Midnight BiS Gear Optimizer & Guides (12.1.5) | WoWTopGear" />
   <meta property="og:description" content="Suite analítica para optimizar estadísticas secundarias, abalorios y combinaciones Top Gear de Mítica+ y Banda en tiempo real." />
-  <meta property="og:image" content="https://wowtopgear.app/img/og-banner.jpg?v=23_v50" />
+  <meta property="og:image" content="https://wowtopgear.app/img/og-banner.jpg?v=23_v51" />
   <meta property="og:site_name" content="WoWTopGear" />
 
   <!-- Twitter -->
@@ -29,7 +29,7 @@
   <meta name="twitter:url" content="https://wowtopgear.app/" />
   <meta name="twitter:title" content="WoWTopGear | World of Warcraft: Midnight Season 2" />
   <meta name="twitter:description" content="Suite analítica para optimizar estadísticas secundarias, abalorios y combinaciones Top Gear en tiempo real." />
-  <meta name="twitter:image" content="https://wowtopgear.app/img/og-banner.jpg?v=23_v50" />
+  <meta name="twitter:image" content="https://wowtopgear.app/img/og-banner.jpg?v=23_v51" />
 
   <!-- Clean URL Handler -->
   <script>
@@ -197,10 +197,9 @@
       }
     }
   </script>
-  <!-- Wowhead Official CDN & Tooltips Setup (Non-blocking for fast mobile LCP, preserving news styles) -->
-  <link rel="stylesheet" href="https://wow.zamimg.com/css/basic.css" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="https://wow.zamimg.com/css/global.css" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="css/custom.css?v=23_v50">
+  <style>body{font-family:'Inter',sans-serif;background-color:#07090e;color:#e2e8f0;color-scheme:dark}</style>
+  <link id="custom-css-link" rel="stylesheet" href="css/custom.css?v=23_v51" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="css/custom.css?v=23_v51"></noscript>
   <script>
     window.WH = window.WH || {};
     window.WH.staticUrl = 'https://wow.zamimg.com';
@@ -240,14 +239,11 @@
       observer.observe(document.body, { childList: true, subtree: true });
     });
   </script>
-  <script src="https://wow.zamimg.com/js/tooltips.js" defer></script>
 </head>
 <body class="min-h-screen flex flex-col bg-[#07090e] text-slate-200 font-sans selection:bg-purple-600 selection:text-white">
 
   <!-- CONTENEDOR MODULAR PARA HEADER DINÁMICO (ALTURA RESERVADA CERO CLS) -->
-  <div id="app-header-container" data-base-path="" class="min-h-[59px] sm:min-h-[65px] bg-[#0b0e17] sticky top-0 z-40"></div>
-  <script src="js/ui/i18n.js?v=23_v50"></script>
-  <script src="js/ui/dynamic_header.js?v=23_v50"></script>
+  <div id="app-header-container" data-base-path="" class="min-h-[59px] sm:min-h-[65px] bg-[#0b0e17] border-b border-wow-border sticky top-0 z-40"></div>
 
   <!-- MAIN WRAPPER -->
   <main class="flex-1">
@@ -584,18 +580,16 @@
   <!-- CONTENEDOR MODULAR PARA FOOTER DINÁMICO & REPORTES DE PROBLEMAS -->
   <div id="app-footer-container" class="min-h-[220px] bg-[#06080d]"></div>
 
-  <!-- SCRIPTS MODULARES DE SOPORTE (UI PRIMERO, NOTICIAS AL FINAL) -->
-  <script src="js/ui/dynamic_footer.js?v=23_v50"></script>
-  <script src="js/ui/tickets_ui.js?v=23_v50" defer></script>
-  <script src="js/data/telemetry_logger.js?v=23_v50" defer></script>
+  <!-- SCRIPTS MODULARES DE SOPORTE (DEFER PARA CERO BLOQUEO DE RENDERIZADO) -->
+  <script src="js/ui/i18n.js?v=23_v51" defer></script>
+  <script src="js/ui/dynamic_header.js?v=23_v51" defer></script>
+  <script src="js/ui/dynamic_footer.js?v=23_v51" defer></script>
+  <script src="js/ui/tickets_ui.js?v=23_v51" defer></script>
+  <script src="js/data/telemetry_logger.js?v=23_v51" defer></script>
   <script>
-    if (typeof updateLanguageUI === 'function') updateLanguageUI();
-    document.addEventListener('DOMContentLoaded', () => {
-      if (typeof updateLanguageUI === 'function') updateLanguageUI();
-    });
-
-    // Cargar el paquete de noticias (748 KiB) estrictamente al final (tras window.load) para no bloquear FCP/LCP
-    (function loadNewsBundleLast() {
+    // Cargar el paquete de noticias (748 KiB) + estilos/tooltips de Wowhead bajo demanda al acercarse a #app-news-container (o si la URL pide #news / ?news=)
+    (function loadNewsBundleOnDemand() {
+      let newsBundleStarted = false;
       const loadSeq = (urls, idx) => {
         if (idx >= urls.length) return;
         const s = document.createElement('script');
@@ -604,18 +598,64 @@
         s.onerror = () => loadSeq(urls, idx + 1);
         document.body.appendChild(s);
       };
+
       const startNewsLoad = () => {
+        if (newsBundleStarted) return;
+        newsBundleStarted = true;
+
+        // Inyectar CSS oficial de Wowhead antes de custom.css para preservar estilos de noticias sin penalizar el arranque
+        const customCss = document.getElementById('custom-css-link');
+        ['https://wow.zamimg.com/css/basic.css', 'https://wow.zamimg.com/css/global.css'].forEach(href => {
+          const link = document.createElement('link');
+          link.rel = 'stylesheet';
+          link.href = href;
+          if (customCss && customCss.parentNode) {
+            customCss.parentNode.insertBefore(link, customCss);
+          } else {
+            document.head.appendChild(link);
+          }
+        });
+
+        const whScript = document.createElement('script');
+        whScript.src = 'https://wow.zamimg.com/js/tooltips.js';
+        whScript.defer = true;
+        document.body.appendChild(whScript);
+
         loadSeq([
-          'js/data/wow_news_data.js?v=23_v50',
-          'js/data/pinned_news.js?v=23_v50',
-          'js/data/news_fetcher.js?v=23_v50',
-          'js/ui/dynamic_news.js?v=23_v50'
+          'js/data/wow_news_data.js?v=23_v51',
+          'js/data/pinned_news.js?v=23_v51',
+          'js/data/news_fetcher.js?v=23_v51',
+          'js/ui/dynamic_news.js?v=23_v51'
         ], 0);
       };
-      if (document.readyState === 'complete') {
-        setTimeout(startNewsLoad, 50);
+
+      // Si el usuario entra directamente a una noticia (?news= o #news), cargar de inmediato tras load
+      if (window.location.search.includes('news=') || window.location.hash.includes('news')) {
+        window.addEventListener('load', startNewsLoad, { once: true });
+        return;
+      }
+
+      // Observar cercanía a #app-news-container o primer scroll del usuario
+      const setupTrigger = () => {
+        const target = document.getElementById('app-news-container');
+        if (target && 'IntersectionObserver' in window) {
+          const io = new IntersectionObserver((entries) => {
+            if (entries.some(e => e.isIntersecting)) {
+              io.disconnect();
+              startNewsLoad();
+            }
+          }, { rootMargin: '600px 0px' });
+          io.observe(target);
+        }
+        ['scroll', 'wheel', 'touchmove', 'keydown'].forEach(evt => {
+          window.addEventListener(evt, startNewsLoad, { once: true, passive: true });
+        });
+      };
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', setupTrigger, { once: true });
       } else {
-        window.addEventListener('load', () => setTimeout(startNewsLoad, 50));
+        setupTrigger();
       }
     })();
   </script>
