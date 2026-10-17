@@ -1214,6 +1214,21 @@ function openArticleModal(articleId, source = 'auto') {
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', summaryText || titleText);
 
+    // Registrar vista de la noticia en GoatCounter Analytics (/news/<id>)
+    const trackNewsView = () => {
+      if (window.goatcounter && typeof window.goatcounter.count === 'function') {
+        window.goatcounter.count({
+          path: `/news/${article.id}`,
+          title: `${titleText} | WoWTopGear`
+        });
+      }
+    };
+    if (window.goatcounter && typeof window.goatcounter.count === 'function') {
+      trackNewsView();
+    } else {
+      setTimeout(trackNewsView, 1200);
+    }
+
     // Inyectar Schema.org de NewsArticle dinámico
     let schemaEl = document.getElementById('dynamic-news-schema');
     if (!schemaEl) {

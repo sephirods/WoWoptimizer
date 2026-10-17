@@ -121,7 +121,7 @@ async function fetchAnalyticsCounts() {
     let isBlocked = false;
     const fetchCount = async (path) => {
       try {
-        const encodedPath = path.startsWith('/') ? '%' + '2F' + path.slice(1) : path;
+        const encodedPath = path.startsWith('/') ? '%' + '2F' + encodeURIComponent(path.slice(1)).replace(/%2F/g, '%2F') : path;
         const res = await fetch(`https://sephirods.goatcounter.com/counter/${encodedPath}.json?_ts=${Date.now()}`);
         if (!res.ok) return 0;
         const data = await res.json();
@@ -132,9 +132,43 @@ async function fetchAnalyticsCounts() {
       }
     };
 
-    const [total, indexCount, gearsim1, gearsim2] = await Promise.all([
+    const classRoutes = [
+      { id: 'hub', label: 'Directorio General (/classes/)', path: '/classes/', color: 'text-sky-300' },
+      { id: 'paladin', label: 'Paladín (/classes/paladin/)', path: '/classes/paladin/', color: 'text-pink-300' },
+      { id: 'warrior', label: 'Guerrero (/classes/warrior/)', path: '/classes/warrior/', color: 'text-amber-300' },
+      { id: 'deathknight', label: 'Caballero de la Muerte (/classes/deathknight/)', path: '/classes/deathknight/', color: 'text-red-400' },
+      { id: 'demonhunter', label: 'Cazador de Demonios (/classes/demonhunter/)', path: '/classes/demonhunter/', color: 'text-purple-400' },
+      { id: 'druid', label: 'Druida (/classes/druid/)', path: '/classes/druid/', color: 'text-orange-400' },
+      { id: 'evoker', label: 'Evocador (/classes/evoker/)', path: '/classes/evoker/', color: 'text-teal-300' },
+      { id: 'hunter', label: 'Cazador (/classes/hunter/)', path: '/classes/hunter/', color: 'text-lime-400' },
+      { id: 'mage', label: 'Mago (/classes/mage/)', path: '/classes/mage/', color: 'text-cyan-300' },
+      { id: 'monk', label: 'Monje (/classes/monk/)', path: '/classes/monk/', color: 'text-emerald-300' },
+      { id: 'priest', label: 'Sacerdote (/classes/priest/)', path: '/classes/priest/', color: 'text-slate-100' },
+      { id: 'rogue', label: 'Pícaro (/classes/rogue/)', path: '/classes/rogue/', color: 'text-yellow-300' },
+      { id: 'shaman', label: 'Chamán (/classes/shaman/)', path: '/classes/shaman/', color: 'text-blue-400' },
+      { id: 'warlock', label: 'Brujo (/classes/warlock/)', path: '/classes/warlock/', color: 'text-violet-400' }
+    ];
+
+    // Extraer las noticias principales para consultar sus lecturas en /news/<id>
+    const rawNewsDb = window.WOW_NEWS_DATA || {};
+    const allNewsItems = [
+      ...(rawNewsDb.blizzardNews || []),
+      ...(rawNewsDb.recentNews || []),
+      ...(rawNewsDb.blueTracker || [])
+    ];
+    const uniqueNewsMap = new Map();
+    allNewsItems.forEach(item => {
+      if (item && item.id && !uniqueNewsMap.has(item.id)) {
+        const titleStr = typeof item.title === 'object' ? (item.title.es || item.title.en || item.id) : (item.title || item.id);
+        uniqueNewsMap.set(item.id, { id: item.id, title: titleStr, path: `/news/${item.id}` });
+      }
+    });
+    const trackedNewsList = Array.from(uniqueNewsMap.values()).slice(0, 12);
+
+    const [total, indexCount, indexHtmlCount, gearsim1, gearsim2] = await Promise.all([
       fetchCount('TOTAL'),
       fetchCount('/'),
+      fetchCount('/index.html'),
       fetchCount('/gearsim'),
       fetchCount('/gearsim.html')
     ]);
@@ -143,18 +177,78 @@ async function fetchAnalyticsCounts() {
       setEl('analytics-count-total', 'Bloqueado (AdBlock)');
       setEl('analytics-count-index', 'Bloqueado (AdBlock)');
       setEl('analytics-count-gearsim', 'Bloqueado (AdBlock)');
+      setEl('analytics-count-classes', 'Bloqueado (AdBlock)');
+      setEl('analytics-count-news', 'Bloqueado (AdBlock)');
       setEl('overview-analytics-total', 'AdBlock Activo');
       const lastEl = document.getElementById('analytics-last-update');
       if (lastEl) lastEl.innerText = 'Actualizado: ' + new Date().toLocaleTimeString() + ' (Desactiva AdBlocker para ver datos)';
-    } else {
-      const gearsimTotal = (gearsim1 || 0) + (gearsim2 || 0);
-      setEl('analytics-count-total', total.toLocaleString());
-      setEl('analytics-count-index', (indexCount || 0).toLocaleString());
-      setEl('analytics-count-gearsim', gearsimTotal.toLocaleString());
-      setEl('overview-analytics-total', `${total.toLocaleString()} visitas`);
-      const lastEl = document.getElementById('analytics-last-update');
-      if (lastEl) lastEl.innerText = 'Actualizado: ' + new Date().toLocaleTimeString();
+      return;
     }
+
+    const classCounts = await Promise.all(classRoutes.map(async (r) => {
+      const c1 = await fetchCount(r.path);
+      const c2 = await fetchCount(r.path.replace(/\/$/, ''));
+      return { ...r, count: (c1 || 0) + (c2 || 0) };
+    }));
+
+    const newsCounts = await Promise.all(trackedNewsList.map(async (n) => {
+      const c = await fetchCount(n.path);
+      return { ...n, count: c || 0 };
+    }));
+
+    const indexTotal = (indexCount || 0) + (indexHtmlCount || 0);
+    const gearsimTotal = (gearsim1 || 0) + (gearsim2 || 0);
+    const sumDirectClasses = classCounts.reduce((acc, x) => acc + x.count, 0);
+    const sumNews = newsCounts.reduce((acc, x) => acc + x.count, 0);
+    // Si hay visitas a sub-rutas de especializaciones (/classes/paladin/protection/, etc.), se reflejan en la diferencia contra TOTAL
+    const inferredGuidesTotal = Math.max(sumDirectClasses, (total || 0) - indexTotal - gearsimTotal - sumNews);
+
+    setEl('analytics-count-total', (total || 0).toLocaleString());
+    setEl('analytics-count-index', indexTotal.toLocaleString());
+    setEl('analytics-count-gearsim', gearsimTotal.toLocaleString());
+    setEl('analytics-count-classes', inferredGuidesTotal.toLocaleString());
+    setEl('analytics-count-news', sumNews.toLocaleString());
+    setEl('overview-analytics-total', `${(total || 0).toLocaleString()} visitas`);
+
+    const classesContainer = document.getElementById('analytics-classes-breakdown');
+    if (classesContainer) {
+      const sortedClasses = [...classCounts].sort((a, b) => b.count - a.count);
+      classesContainer.innerHTML = sortedClasses.map(item => `
+        <div class="py-2 flex items-center justify-between gap-2">
+          <div class="min-w-0">
+            <div class="font-bold ${item.color} truncate">${item.label}</div>
+          </div>
+          <div class="flex items-center gap-2.5 shrink-0">
+            <span class="font-mono font-black text-white bg-black/50 px-2 py-0.5 rounded border border-white/10">${item.count.toLocaleString()}</span>
+            <a href="https://sephirods.goatcounter.com/?filter=${encodeURIComponent(item.path.replace(/\/$/, ''))}" target="_blank" rel="noopener noreferrer" class="text-[11px] text-sky-400 hover:text-white" title="Filtrar en GoatCounter">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    const newsContainer = document.getElementById('analytics-news-breakdown');
+    if (newsContainer) {
+      const sortedNews = [...newsCounts].sort((a, b) => b.count - a.count);
+      newsContainer.innerHTML = sortedNews.length > 0 ? sortedNews.map(item => `
+        <div class="py-2 flex items-center justify-between gap-2">
+          <div class="min-w-0">
+            <div class="font-semibold text-slate-200 truncate" title="${item.title.replace(/"/g, '&quot;')}">${item.title}</div>
+            <div class="text-[10px] font-mono text-pink-400/80">${item.path}</div>
+          </div>
+          <div class="flex items-center gap-2.5 shrink-0">
+            <span class="font-mono font-black text-white bg-black/50 px-2 py-0.5 rounded border border-white/10">${item.count.toLocaleString()}</span>
+            <a href="https://sephirods.goatcounter.com/?filter=${encodeURIComponent(item.path)}" target="_blank" rel="noopener noreferrer" class="text-[11px] text-pink-400 hover:text-white" title="Filtrar en GoatCounter">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+      `).join('') : '<div class="py-4 text-center text-slate-400">Sin noticias registradas aún.</div>';
+    }
+
+    const lastEl = document.getElementById('analytics-last-update');
+    if (lastEl) lastEl.innerText = 'Actualizado: ' + new Date().toLocaleTimeString();
 
   } catch (err) {
     console.warn('Error al obtener métricas de GoatCounter:', err);
