@@ -43,6 +43,8 @@ const I18N_TRANSLATIONS = {
     startCalculatorBtn: "Launch Calculator",
     heroLaunchBtn: "Launch Optimizer",
     heroBadge: "CALIBRATED FOR PATCH 12.1.5 • MIDNIGHT SEASON 2",
+    heroBgAlt: "Raid Bosses & Encounters - World of Warcraft: Midnight Season 2",
+    heroBgTitle: "World of Warcraft: Midnight Season 2 - Raid Bosses",
     heroTitlePrefix: "Forge your Meta Gear in",
     heroDesc: "The ultimate analytical suite to optimize stats, trinkets, and Top Gear combinations for Mythic+ and Raid with zero queues and real-time mathematical precision.",
     heroStatExportLabel: "Export",
@@ -701,6 +703,8 @@ const I18N_TRANSLATIONS = {
     startCalculatorBtn: "Iniciar Calculadora",
     heroLaunchBtn: "Iniciar Optimizador",
     heroBadge: "CALIBRADO PARA EL PARCHE 12.1.5 • MIDNIGHT SEASON 2",
+    heroBgAlt: "Jefes de Banda y Encuentros - World of Warcraft: Midnight Season 2",
+    heroBgTitle: "World of Warcraft: Midnight Season 2 - Jefes de Banda",
     heroTitlePrefix: "Forja tu Equipo Meta en",
     heroDesc: "La suite analítica definitiva para optimizar estadísticas, abalorios y combinaciones Top Gear de Mítica+ y Banda sin colas y con precisión matemática en tiempo real.",
     heroStatExportLabel: "Exportación",
@@ -1617,6 +1621,13 @@ function updateLanguageUI() {
     const key = el.getAttribute('data-i18n-title');
     if (key && dict && dict[key]) {
       el.title = dict[key];
+    }
+  });
+
+  document.querySelectorAll('[data-i18n-alt]').forEach(el => {
+    const key = el.getAttribute('data-i18n-alt');
+    if (key && dict && dict[key]) {
+      el.alt = dict[key];
     }
   });
 

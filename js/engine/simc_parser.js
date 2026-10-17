@@ -304,11 +304,15 @@ async function parseAndImportSimC() {
       const mastMatch = line.match(/(?:mastery|mast|mastery_rating)\s*=\s*(\d+)/i) || (currentItemName && currentItemName.match(/\+\s*(\d+)\s*(?:mastery|mast|m\b)/i));
       const versMatch = line.match(/(?:vers|versatility|vers_rating)\s*=\s*(\d+)/i) || (currentItemName && currentItemName.match(/\+\s*(\d+)\s*(?:vers|versatility|v\b)/i));
 
-      const hasSocket = line.includes('gem_id=') || 
+      const isRingOrNeck = (appSlot === 'finger' || appSlot === 'neck' || simcSlot === 'finger1' || simcSlot === 'finger2' || simcSlot === 'neck');
+
+      const hasSocket = isRingOrNeck ||
+                        line.includes('gem_id=') || 
                         line.includes('gems=') || 
                         line.includes('gem1=') || 
                         line.includes('sock=') ||
-                        line.includes('/5666');
+                        line.includes('/5666') ||
+                        line.includes('/13668');
 
       const redirectedMatch = line.match(/redirected_base_stats=(\d+)/i);
       const redirectedStatId = redirectedMatch ? parseInt(redirectedMatch[1]) : null;
@@ -330,13 +334,17 @@ async function parseAndImportSimC() {
         craftedStatCodes = [parseInt(craftedMatch[1]), parseInt(craftedMatch[2])];
       }
 
-      let socketCount = (line.includes('gem_id=') || line.includes('gems=')) ? 1 : 0;
+      let socketCount = (line.includes('gem_id=') || line.includes('gems=')) ? 1 : (isRingOrNeck ? 1 : 0);
       const gemMatch = line.match(/gem_id=([\d\/]+)/);
       if (gemMatch) {
         socketCount = gemMatch[1].split('/').length;
       } else {
         const gemsMatch = line.match(/gems=([\d_]+)/);
         if (gemsMatch) socketCount = gemsMatch[1].split('_').length;
+      }
+
+      if (isRingOrNeck && socketCount < 1) {
+        socketCount = 1;
       }
 
       if (itemId === 268265) {
@@ -458,6 +466,7 @@ async function parseAndImportSimC() {
       if (existingIdx >= 0) {
         items[existingIdx].rawSimcOptions = it.rawSimcOptions || items[existingIdx].rawSimcOptions;
         items[existingIdx].socket = it.socket;
+        items[existingIdx].socketCount = it.socketCount || items[existingIdx].socketCount || (it.socket ? 1 : 0);
         items[existingIdx].crit = it.crit;
         items[existingIdx].haste = it.haste;
         items[existingIdx].mastery = it.mastery;

@@ -4,6 +4,12 @@ try {
   const savedItems = localStorage.getItem('wow_items_db');
   if (savedItems) {
     items = JSON.parse(savedItems) || [];
+    items.forEach(it => {
+      if (it && (it.slot === 'finger' || it.slot === 'neck')) {
+        it.socket = true;
+        if (!it.socketCount || it.socketCount < 1) it.socketCount = 1;
+      }
+    });
   }
 } catch (e) {
   items = [];
