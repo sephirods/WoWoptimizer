@@ -274,7 +274,7 @@ async function parseAndImportSimC() {
         appSlot = detectWeaponSlotFromName(currentItemName);
       } else if (simcSlot === 'off_hand') {
         const detected = detectWeaponSlotFromName(currentItemName);
-        appSlot = (detected === 'weapon_1h') ? 'weapon_1h' : 'shield';
+        appSlot = (detected === 'weapon_2h') ? 'weapon_2h' : (detected === 'weapon_1h') ? 'weapon_1h' : 'shield';
       }
 
       let track = (typeof detectTrackFromSimcItem === 'function')

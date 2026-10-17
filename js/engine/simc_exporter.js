@@ -270,7 +270,12 @@ function generateSimcExportString(resultIndex = 0, includeBags = (typeof current
       trinketCount++;
       simcKey = `trinket${trinketCount}`;
     } else if (it.slot === 'weapon_2h') {
-      simcKey = 'main_hand';
+      if (!mainHandSet) {
+        simcKey = 'main_hand';
+        mainHandSet = true;
+      } else {
+        simcKey = 'off_hand';
+      }
     } else if (it.slot === 'shield') {
       simcKey = 'off_hand';
     } else if (it.slot === 'weapon_1h') {

@@ -326,14 +326,15 @@ function runOptimizer(isManualClick = false) {
       }
     }
   } else {
-    // Dual Wield
-    const w1h = activeItems.filter(x => x.slot === 'weapon_1h');
-    if (w1h.length === 1) {
-      weaponsCombos.push([w1h[0], w1h[0]]);
+    // Dual Wield (Titan's Grip 2x 2H for Fury Warrior, 2x 1H for others)
+    const isTitanGrip = (currentClass === 'warrior' && currentSpec === 'fury');
+    const dwPool = activeItems.filter(x => x.slot === (isTitanGrip ? 'weapon_2h' : 'weapon_1h'));
+    if (dwPool.length === 1) {
+      weaponsCombos.push([dwPool[0], dwPool[0]]);
     } else {
-      for (let i = 0; i < w1h.length; i++) {
-        for (let j = i + 1; j < w1h.length; j++) {
-          weaponsCombos.push([w1h[i], w1h[j]]);
+      for (let i = 0; i < dwPool.length; i++) {
+        for (let j = i + 1; j < dwPool.length; j++) {
+          weaponsCombos.push([dwPool[i], dwPool[j]]);
         }
       }
     }

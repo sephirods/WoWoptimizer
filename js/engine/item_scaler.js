@@ -176,7 +176,7 @@ function isItemUsableBySpec(it, cls, specId) {
       return true;
     }
     if (specId === 'fury') {
-      if (isShield) return false;
+      if (!is2H || isShield) return false;
       return true;
     }
     if (specId === 'prot_warrior' || specId === 'protection') {

@@ -86,7 +86,7 @@ window.WOW_CLASSES_PLATE = {
         "name": "Fury",
         "role": "dps",
         "allowedWeps": [
-          { "id": "dual_wield", "label": "⚔️ Dual Wield (2H/1H)" }
+          { "id": "dual_wield", "label": "⚔️ Dual Wield (2x 2H)" }
         ],
         "defaultWep": "dual_wield",
         "presets": {
