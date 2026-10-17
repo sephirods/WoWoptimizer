@@ -1,6 +1,6 @@
 // Sistema de Reporte de Problemas / Tickets de Bugs con Anti-Bot y Rate Limiting
 
-let bugCaptchaAnswer = 0;
+var bugCaptchaAnswer = window.bugCaptchaAnswer || 0;
 
 function openBugReportModal() {
   const modal = document.getElementById('bug-report-modal');

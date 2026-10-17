@@ -351,7 +351,7 @@
         <button type="button" onclick="closeHelpModal()" class="px-4 py-2 rounded-xl text-xs font-semibold text-slate-400 hover:text-white bg-transparent hover:bg-slate-800 transition min-h-[38px]" data-i18n="closeModal">
           Cerrar
         </button>
-        <a href="gearsim" class="px-5 py-2 rounded-xl text-xs font-bold text-black bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-400 hover:to-amber-300 transition shadow-lg shadow-amber-950/40 flex items-center gap-2 min-h-[38px]">
+        <a id="help-modal-optimizer-link" href="/gearsim" class="px-5 py-2 rounded-xl text-xs font-bold text-black bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-400 hover:to-amber-300 transition shadow-lg shadow-amber-950/40 flex items-center gap-2 min-h-[38px]">
           <span data-i18n="guideGoToOptimizer">Ir al Optimizador</span> <i class="fa-solid fa-arrow-right text-xs"></i>
         </a>
       </div>
@@ -368,6 +368,14 @@
       document.body.appendChild(target);
     }
     target.innerHTML = FOOTER_HTML;
+
+    // Ajustar el enlace de "Ir al Optimizador" según el data-base-path de la página actual
+    const headerEl = document.getElementById('app-header-container');
+    const basePath = headerEl ? (headerEl.getAttribute('data-base-path') || '') : '/';
+    const optLink = document.getElementById('help-modal-optimizer-link');
+    if (optLink) {
+      optLink.setAttribute('href', `${basePath}gearsim`);
+    }
     
     // Si la página tiene el sistema de traducción activo, aplicarlo
     if (typeof updateLanguageUI === 'function') {
@@ -444,7 +452,7 @@ document.addEventListener('keydown', (e) => {
 });
 
 // Sistema de Reporte de Problemas / Tickets de Bugs integrado en el Footer
-let bugCaptchaAnswer = 0;
+var bugCaptchaAnswer = window.bugCaptchaAnswer || 0;
 
 function openBugReportModal() {
   const modal = document.getElementById('bug-report-modal');
