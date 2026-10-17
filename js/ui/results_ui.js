@@ -173,7 +173,7 @@ function renderResults(topResults, targets, benchmark = { count: 0, duration: 0 
               </h3>
               <span class="text-xs px-2.5 py-0.5 rounded-md ${res.tierCount >= 4 ? 'bg-purple-950 text-purple-300 border border-purple-500/60 font-bold' : res.tierCount >= 2 ? 'bg-indigo-950 text-indigo-300 border border-indigo-500/60 font-bold' : 'bg-slate-900 text-slate-400 border border-slate-700/60 font-medium'} flex items-center gap-1 shadow-sm">
                 <i class="fa-solid fa-layer-group text-[10px] ${res.tierCount >= 4 ? 'text-purple-400' : res.tierCount >= 2 ? 'text-indigo-400' : 'text-slate-500'}"></i>
-                <span>${res.tierCount >= 4 ? t('tierBadge4p', 'Tier: 4/5 (4P Bonus)') : res.tierCount >= 2 ? t('tierBadge2p', 'Tier: 2/5 (2P Bonus)') : t('tierBadge0p', 'Tier: 0/5 (No Tier)')}</span>
+                <span>${(res.tierCount >= 4 ? t('tierBadge4p', 'Tier: 4/5 (4P Bonus)') : res.tierCount >= 2 ? t('tierBadge2p', 'Tier: 2/5 (2P Bonus)') : t('tierBadge0p', 'Tier: 0/5 (No Tier)')).replace(/\d+\/5/, `${res.tierCount}/5`)}</span>
               </span>
               <span class="text-xs px-2.5 py-0.5 rounded-md ${avgMetaSuccessPct >= 90 ? 'bg-emerald-950 text-emerald-300 border border-emerald-500/60 font-bold' : avgMetaSuccessPct >= 80 ? 'bg-blue-950 text-blue-300 border border-blue-500/60 font-bold' : avgMetaSuccessPct >= 70 ? 'bg-amber-950 text-amber-300 border border-amber-500/60 font-bold' : 'bg-slate-900 text-slate-400 border border-slate-700/60 font-medium'} flex items-center gap-1 shadow-sm" title="Average accuracy and stat compliance with gems">
                 <i class="fa-solid fa-bullseye text-[10px] ${avgMetaSuccessPct >= 90 ? 'text-emerald-400' : 'text-amber-400'}"></i>
