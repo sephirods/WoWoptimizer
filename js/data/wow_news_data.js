@@ -2,6 +2,90 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30538636",
+      "postId": 30538636,
+      "topicId": 2387015,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-10-19T18:37:05.601Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Fabled Let Me Solo Him: Kindo'jan Achievement Extended an Additional Week",
+        "es": "Fabled Let Me Solo Him: Kindo'jan Achievement Extended an Additional Week"
+      },
+      "summary": {
+        "en": "We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the Fabled Let Me ...",
+        "es": "We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the Fabled Let Me ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the <em>Fabled Let Me Solo Him: Kindo’jan</em> achievement. We have now addressed the vast majority of these bugs, and to accommodate players who may have had their experience impacted in the first week, we are extending the deadline to complete the achievement by an additional week. This gives players the chance to earn this achievement until scheduled weekly maintenance on October 27 in this region.</p>\n<p>Good luck conquering Kindo’jan and earning your place among the Fabled Vanquishers!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the <em>Fabled Let Me Solo Him: Kindo’jan</em> achievement. We have now addressed the vast majority of these bugs, and to accommodate players who may have had their experience impacted in the first week, we are extending the deadline to complete the achievement by an additional week. This gives players the chance to earn this achievement until scheduled weekly maintenance on October 27 in this region.</p>\n<p>Good luck conquering Kindo’jan and earning your place among the Fabled Vanquishers!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/fabled-let-me-solo-him-kindojan-achievement-extended-an-additional-week/2387015/1"
+    },
+    {
+      "id": "blizz-30537546",
+      "postId": 30537546,
+      "topicId": 2386891,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-19T17:00:08.256Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Hallow’s End Brings Frights, Delights, and Haunting Rewards",
+        "es": "Hallow’s End Brings Frights, Delights, and Haunting Rewards"
+      },
+      "summary": {
+        "en": "[Hallow’s End Brings Frights, Delights, and Haunting Rewards] Hallow’s End celebrates the Forsaken&#39;s break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth...",
+        "es": "[Hallow’s End Brings Frights, Delights, and Haunting Rewards] Hallow’s End celebrates the Forsaken&#39;s break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Hallow’s End Brings Frights, Delights, and Haunting Rewards\" width=\"833\" height=\"468\"></a></p><p>Hallow’s End celebrates the Forsaken's break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth dole out treats and tricks to those who partake in the festivities. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310656\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Hallow’s End Brings Frights, Delights, and Haunting Rewards\" width=\"833\" height=\"468\"></a></p><p>Hallow’s End celebrates the Forsaken's break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth dole out treats and tricks to those who partake in the festivities. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310656\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/hallow%E2%80%99s-end-brings-frights-delights-and-haunting-rewards/2386891/1"
+    },
+    {
+      "id": "blizz-30537545",
+      "postId": 30537545,
+      "topicId": 2386890,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-19T17:00:07.337Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Hallow’s End Brings Frights, Delights, and Haunting Rewards",
+        "es": "Hallow’s End Brings Frights, Delights, and Haunting Rewards"
+      },
+      "summary": {
+        "en": "[Hallow’s End Brings Frights, Delights, and Haunting Rewards] Hallow’s End celebrates the Forsaken&#39;s break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth...",
+        "es": "[Hallow’s End Brings Frights, Delights, and Haunting Rewards] Hallow’s End celebrates the Forsaken&#39;s break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Hallow’s End Brings Frights, Delights, and Haunting Rewards\" width=\"833\" height=\"468\"></a></p><p>Hallow’s End celebrates the Forsaken's break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth dole out treats and tricks to those who partake in the festivities. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310656\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Hallow’s End Brings Frights, Delights, and Haunting Rewards\" width=\"833\" height=\"468\"></a></p><p>Hallow’s End celebrates the Forsaken's break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth dole out treats and tricks to those who partake in the festivities. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310656\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/hallow%E2%80%99s-end-brings-frights-delights-and-haunting-rewards/2386890/1"
+    },
+    {
       "id": "blizz-30511207",
       "postId": 30511207,
       "topicId": 2382684,
@@ -142,90 +226,6 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696/6"
     },
     {
-      "id": "blizz-30489234",
-      "postId": 30489234,
-      "topicId": 2383617,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-15T21:24:41.150Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW Forever Stress Test October 21",
-        "es": "WoW Forever Stress Test October 21"
-      },
-      "summary": {
-        "en": "UPDATE – This test is now taking place on October 21\nPlease join us for the WoW Forever Stress Test on October 21. \nOn that day, we will first take the WoW Forever Beta offline, an...",
-        "es": "UPDATE – This test is now taking place on October 21\nPlease join us for the WoW Forever Stress Test on October 21. \nOn that day, we will first take the WoW Forever Beta offline, an..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><h2><a name=\"p-30489234-update-this-test-is-now-taking-place-on-october-21-1\" class=\"anchor\" href=\"#p-30489234-update-this-test-is-now-taking-place-on-october-21-1\" aria-label=\"Heading link\"></a><strong>UPDATE</strong> – This test is now taking place on October 21</h2>\n<p>Please join us for the WoW Forever Stress Test on October 21.</p>\n<p>On that day, we will first take the WoW Forever Beta offline, and we will then open WoW Forever on the regional hardware that it will operate on when the game goes live.</p>\n<p>On October 21, the Stress Test will begin at 19:00 CEST for players in the EU region, 2:00 p.m. PDT for players in the Americas+Oceania, and at 5:00 a.m. in Taipei and 6:00 a.m. in Korea on October 22.</p>\n<p>Any player with a WoW account is eligible to participate. No active subscription is needed.</p>\n<p>Once you’re in, make a character, do a few quests, trade some items, chat, and group up with others to really put the game through its paces. This is a highly valuable event, since you’ll participate in our discovering of issues that would have otherwise happened on launch day.</p>\n<p>WoW Forever will be available on production realms for a few hours, and then when we shut down the Stress Test, all characters will be deleted* and we will re-open the Beta.</p>\n<blockquote>\n<p>*This is a complete wipe; names and everything else will be completely removed.</p>\n</blockquote>\n<p>Thank you very much for joining us. We’ll see you there!</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://worldofwarcraft.blizzard.com/en-us/news/24302072/join-the-world-of-warcraft-forever-stress-test\">\n  <header class=\"source\">\n      <img src=\"https://assets-bwa.worldofwarcraft.blizzard.com/static/wow-icon-32x32.1a38d7c1c3d8df560d53f5c2ad5442c0401edf83.png\" class=\"site-icon\" alt=\"\" width=\"32\" height=\"32\">\n\n      <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24302072/join-the-world-of-warcraft-forever-stress-test\" target=\"_blank\" rel=\"noopener\">World of Warcraft</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:833/468;\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" class=\"thumbnail\" alt=\"\" width=\"833\" height=\"468\"></div>\n\n<h3><a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24302072/join-the-world-of-warcraft-forever-stress-test\" target=\"_blank\" rel=\"noopener\">Join the World of Warcraft: Forever Stress Test - WoW</a></h3>\n\n  <p>The gates are opening for the World of Warcraft: Forever Stress Test. For a limited time on October 19, all interested players can sign into World of Warcraft: Forever and help us put the servers through their paces. Anyone can take part and no...</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><h2><a name=\"p-30489234-update-this-test-is-now-taking-place-on-october-21-1\" class=\"anchor\" href=\"#p-30489234-update-this-test-is-now-taking-place-on-october-21-1\" aria-label=\"Heading link\"></a><strong>UPDATE</strong> – This test ahora es taking place on October 21</h2>\n<p>Please join us for the WoW Forever Stress Test on October 21.</p>\n<p>On that day, we will first take the WoW Forever Beta offline, and we will then open WoW Forever on the regional hardware that it will operate on when the game goes live.</p>\n<p>On October 21, the Stress Test will begin at 19:00 CEST for players in the EU region, 2:00 p.m. PDT for players in the Americas+Oceania, and at 5:00 a.m. in Taipei and 6:00 a.m. in Korea on October 22.</p>\n<p>Any player with a WoW account is eligible to participate. No active subscription is needed.</p>\n<p>Once you’re in, make a character, do a few quests, trade some items, chat, and group up with others to really put the game through its paces. This is a highly valuable event, since you’ll participate in our discovering of issues that would have otherwise happened on launch day.</p>\n<p>WoW Forever will be available on production realms for a few hours, and then when we shut down the Stress Test, all characters will be deleted* and we will re-open the Beta.</p>\n<blockquote>\n<p>*This is a complete wipe; names and everything else will be completely removed.</p>\n</blockquote>\n<p>Thank you very much for joining us. We’ll see you there!</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://worldofwarcraft.blizzard.com/en-us/news/24302072/join-the-world-of-warcraft-forever-stress-test\">\n  <header class=\"source\">\n      <img src=\"https://assets-bwa.worldofwarcraft.blizzard.com/static/wow-icon-32x32.1a38d7c1c3d8df560d53f5c2ad5442c0401edf83.png\" class=\"site-icon\" alt=\"\" width=\"32\" height=\"32\">\n\n      <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24302072/join-the-world-of-warcraft-forever-stress-test\" target=\"_blank\" rel=\"noopener\">World of Warcraft</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:833/468;\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" class=\"thumbnail\" alt=\"\" width=\"833\" height=\"468\"></div>\n\n<h3><a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24302072/join-the-world-of-warcraft-forever-stress-test\" target=\"_blank\" rel=\"noopener\">Join the World of Warcraft: Forever Stress Test - WoW</a></h3>\n\n  <p>The gates are opening for the World of Warcraft: Forever Stress Test. For a limited time on October 19, all interested players can sign into World of Warcraft: Forever and help us put the servers through their paces. Anyone can take part and no...</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n</div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-stress-test-october-21/2383617/1"
-    },
-    {
-      "id": "blizz-30487694",
-      "postId": 30487694,
-      "topicId": 2383492,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-15T20:12:59.826Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Unlock a Year of World of Warcraft® and Get Bonus Treasures",
-        "es": "Unlock a Year of World of Warcraft® and Get Bonus Treasures"
-      },
-      "summary": {
-        "en": "[Unlock a Year of World of Warcraft® and Get Bonus Treasures] Claim a 12-Month Subscription or 365-Days Game Time and get bonus in-game cosmetic items, including several for use in...",
-        "es": "[Unlock a Year of World of Warcraft® and Get Bonus Treasures] Claim a 12-Month Subscription or 365-Days Game Time and get bonus in-game cosmetic items, including several for use in..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\" alt=\"Unlock a Year of World of Warcraft® and Get Bonus Treasures\" width=\"833\" height=\"468\"></a></p><p>Claim a 12-Month Subscription or 365-Days Game Time and get bonus in-game cosmetic items, including several for use in World of Warcraft: Forever! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310658\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\" alt=\"Unlock a Year of World of Warcraft® and Get Bonus Treasures\" width=\"833\" height=\"468\"></a></p><p>Claim a 12-Month Subscription or 365-Days Game Time and get bonus in-game cosmetic items, including several for use in World of Warcraft: Forever! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310658\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/unlock-a-year-of-world-of-warcraft%C2%AE-and-get-bonus-treasures/2383492/1"
-    },
-    {
-      "id": "blizz-30487515",
-      "postId": 30487515,
-      "topicId": 2383475,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-15T20:00:23.876Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Beta Realm Maintenance - October 15",
-        "es": "Beta Realm Mantenimiento - October 15"
-      },
-      "summary": {
-        "en": "We’re planning to take the WoW Forever Beta down in about 15 minutes, at 1:15 p.m. PDT. \nThis will be a maintenance period that includes deploying and testing a new build of the ga...",
-        "es": "We’re planning to take the WoW Forever Beta down in about 15 minutes, at 1:15 p.m. PDT. \nThis will be a Mantenimiento period that includes deploying and testing a new build of the ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re planning to take the WoW Forever Beta down in about 15 minutes, at 1:15 p.m. PDT.</p>\n<p>This will be a maintenance period that includes deploying and testing a new build of the game, and that build has quite a few changes and fixes.</p>\n<p>We’ll have a full update to <a href=\"https://us.forums.blizzard.com/en/wow/t/2360696/\">the Development Notes</a> for you when we get through the updating and the testing. See you on the other side!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re planning to take the WoW Forever Beta down in about 15 minutes, at 1:15 p.m. PDT.</p>\n<p>This will be a maintenance period that includes deploying and testing a new build of the game, and that build has quite a few changes and fixes.</p>\n<p>We’ll have a full update to <a href=\"https://us.forums.blizzard.com/en/wow/t/2360696/\">the Development Notes</a> for you when we get through the updating and the testing. See you on the other side!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-realm-maintenance-october-15/2383475/1"
-    },
-    {
       "id": "blizz-1233512",
       "postId": 1233512,
       "topicId": 80474,
@@ -295,19 +295,19 @@ window.WOW_NEWS_DATABASE = {
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "WoW Forever: Prueba de estrés el 19 de octubre",
-        "es": "WoW Forever: Prueba de estrés el 19 de octubre"
+        "en": "WoW Forever: Prueba de estrés el 21 de octubre",
+        "es": "WoW Forever: Prueba de estrés el 21 de octubre"
       },
       "summary": {
-        "en": "Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 19 de octubre. \nEse día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, ...",
-        "es": "Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 19 de octubre. \nEse día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, ..."
+        "en": "Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 21 de octubre. \nEse día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, ...",
+        "es": "Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 21 de octubre. \nEse día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, ..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 19 de octubre.</p>\n<p>Ese día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, habilitaremos el juego en el hardware regional sobre el que funcionará cuando esté disponible.</p>\n<p>La prueba de estrés comenzará el 19 de octubre a las 19:00 CEST en Europa y a las 14:00 PDT en América y Oceanía. Por otra parte, el 20 de octubre tendrá lugar a las 05:00 en Taipéi y a las 06:00 en Corea.</p>\n<p>Puede participar cualquier jugador con una cuenta de WoW. No hace falta disponer de una suscripción activa.</p>\n<p>Cuando entres en el juego, crea un personaje, completa un par de misiones, intercambia algunos objetos, participa en el chat y forma grupo con otros jugadores para tensionar el juego. Se trata de un evento muy importante, ya que tu participación nos ayudará a descubrir errores que podrían haber ocurrido el día del lanzamiento.</p>\n<p>WoW Forever estará disponible en los reinos de producción unas cuantas horas. Después, cerraremos la prueba de estrés, borraremos todos los personajes* y volveremos a habilitar la beta.</p>\n<blockquote>\n<p>*Se trata de un borrado completo; los nombres y todo lo demás se eliminarán de forma definitiva.</p>\n</blockquote>\n<p>Muchas gracias por acompañarnos. ¡Nos vemos allí!</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\">\n  <header class=\"source\">\n      <img src=\"https://assets-bwa.worldofwarcraft.blizzard.com/static/wow-icon-32x32.1a38d7c1c3d8df560d53f5c2ad5442c0401edf83.png\" class=\"site-icon\" alt=\"\" width=\"32\" height=\"32\">\n\n      <a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">World of Warcraft</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:833/468;\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" class=\"thumbnail\" alt=\"\" width=\"833\" height=\"468\"></div>\n\n<h3><a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">Únete a la prueba de estrés de World of Warcraft: Forever - WoW</a></h3>\n\n  <p>Se van a abrir las puertas para la prueba de estrés de World of Warcraft: Forever. Durante un tiempo limitado el 19 de octubre, quien lo desee podrá iniciar sesión en World of Warcraft: Forever y ayudarnos a poner a prueba los servidores. Cualquiera...</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 19 de octubre.</p>\n<p>Ese día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, habilitaremos el juego en el hardware regional sobre el que funcionará cuando esté disponible.</p>\n<p>La prueba de estrés comenzará el 19 de octubre a las 19:00 CEST en Europa y a las 14:00 PDT en América y Oceanía. Por otra parte, el 20 de octubre tendrá lugar a las 05:00 en Taipéi y a las 06:00 en Corea.</p>\n<p>Puede participar cualquier jugador con una cuenta de WoW. No hace falta disponer de una suscripción activa.</p>\n<p>Cuando entres en el juego, crea un personaje, completa un par de misiones, intercambia algunos objetos, participa en el chat y forma grupo con otros jugadores para tensionar el juego. Se trata de un evento muy importante, ya que tu participación nos ayudará a descubrir errores que podrían haber ocurrido el día del lanzamiento.</p>\n<p>WoW Forever estará disponible en los reinos de producción unas cuantas horas. Después, cerraremos la prueba de estrés, borraremos todos los personajes* y volveremos a habilitar la beta.</p>\n<blockquote>\n<p>*Se trata de un borrado completo; los nombres y todo lo demás se eliminarán de forma definitiva.</p>\n</blockquote>\n<p>Muchas gracias por acompañarnos. ¡Nos vemos allí!</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\">\n  <header class=\"source\">\n      <img src=\"https://assets-bwa.worldofwarcraft.blizzard.com/static/wow-icon-32x32.1a38d7c1c3d8df560d53f5c2ad5442c0401edf83.png\" class=\"site-icon\" alt=\"\" width=\"32\" height=\"32\">\n\n      <a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">World of Warcraft</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:833/468;\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" class=\"thumbnail\" alt=\"\" width=\"833\" height=\"468\"></div>\n\n<h3><a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">Únete a la prueba de estrés de World of Warcraft: Forever - WoW</a></h3>\n\n  <p>Se van a abrir las puertas para la prueba de estrés de World of Warcraft: Forever. Durante un tiempo limitado el 19 de octubre, quien lo desee podrá iniciar sesión en World of Warcraft: Forever y ayudarnos a poner a prueba los servidores. Cualquiera...</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n</div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 21 de octubre.</p>\n<p>Ese día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, habilitaremos el juego en el hardware regional sobre el que funcionará cuando esté disponible.</p>\n<p>La prueba de estrés comenzará el 21 de octubre a las 19:00 CEST en Europa y a las 14:00 PDT en América y Oceanía. Por otra parte, el 22 de octubre tendrá lugar a las 05:00 en Taipéi y a las 06:00 en Corea.</p>\n<p>Puede participar cualquier jugador con una cuenta de WoW. No hace falta disponer de una suscripción activa.</p>\n<p>Cuando entres en el juego, crea un personaje, completa un par de misiones, intercambia algunos objetos, participa en el chat y forma grupo con otros jugadores para tensionar el juego. Se trata de un evento muy importante, ya que tu participación nos ayudará a descubrir errores que podrían haber ocurrido el día del lanzamiento.</p>\n<p>WoW Forever estará disponible en los reinos de producción unas cuantas horas. Después, cerraremos la prueba de estrés, borraremos todos los personajes* y volveremos a habilitar la beta.</p>\n<blockquote>\n<p>*Se trata de un borrado completo; los nombres y todo lo demás se eliminarán de forma definitiva.</p>\n</blockquote>\n<p>Muchas gracias por acompañarnos. ¡Nos vemos allí!</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\">\n  <header class=\"source\">\n      <img src=\"https://assets-bwa.worldofwarcraft.blizzard.com/static/wow-icon-32x32.1a38d7c1c3d8df560d53f5c2ad5442c0401edf83.png\" class=\"site-icon\" alt=\"\" width=\"32\" height=\"32\">\n\n      <a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">World of Warcraft</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:833/468;\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" class=\"thumbnail\" alt=\"\" width=\"833\" height=\"468\"></div>\n\n<h3><a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">[Actualización 19/10] Únete a la prueba de estrés de World of Warcraft:...</a></h3>\n\n  <p>Se van a abrir las puertas para la prueba de estrés de World of Warcraft: Forever. Durante un tiempo limitado el 21 de octubre, quien lo desee podrá iniciar sesión en World of Warcraft: Forever y ayudarnos a poner a prueba los servidores. Cualquiera...</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 21 de octubre.</p>\n<p>Ese día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, habilitaremos el juego en el hardware regional sobre el que funcionará cuando esté disponible.</p>\n<p>La prueba de estrés comenzará el 21 de octubre a las 19:00 CEST en Europa y a las 14:00 PDT en América y Oceanía. Por otra parte, el 22 de octubre tendrá lugar a las 05:00 en Taipéi y a las 06:00 en Corea.</p>\n<p>Puede participar cualquier jugador con una cuenta de WoW. No hace falta disponer de una suscripción activa.</p>\n<p>Cuando entres en el juego, crea un personaje, completa un par de misiones, intercambia algunos objetos, participa en el chat y forma grupo con otros jugadores para tensionar el juego. Se trata de un evento muy importante, ya que tu participación nos ayudará a descubrir errores que podrían haber ocurrido el día del lanzamiento.</p>\n<p>WoW Forever estará disponible en los reinos de producción unas cuantas horas. Después, cerraremos la prueba de estrés, borraremos todos los personajes* y volveremos a habilitar la beta.</p>\n<blockquote>\n<p>*Se trata de un borrado completo; los nombres y todo lo demás se eliminarán de forma definitiva.</p>\n</blockquote>\n<p>Muchas gracias por acompañarnos. ¡Nos vemos allí!</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\">\n  <header class=\"source\">\n      <img src=\"https://assets-bwa.worldofwarcraft.blizzard.com/static/wow-icon-32x32.1a38d7c1c3d8df560d53f5c2ad5442c0401edf83.png\" class=\"site-icon\" alt=\"\" width=\"32\" height=\"32\">\n\n      <a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">World of Warcraft</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:833/468;\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" class=\"thumbnail\" alt=\"\" width=\"833\" height=\"468\"></div>\n\n<h3><a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">[Actualización 19/10] Únete a la prueba de estrés de World of Warcraft:...</a></h3>\n\n  <p>Se van a abrir las puertas para la prueba de estrés de World of Warcraft: Forever. Durante un tiempo limitado el 21 de octubre, quien lo desee podrá iniciar sesión en World of Warcraft: Forever y ayudarnos a poner a prueba los servidores. Cualquiera...</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n</div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/wow-forever-prueba-de-estr%C3%A9s-el-19-de-octubre/80434/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/wow-forever-prueba-de-estr%C3%A9s-el-21-de-octubre/80434/1"
     },
     {
       "id": "blizz-1233134",
@@ -448,6 +448,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-campos-de-batalla-configuraciones-y-m%C3%A1s-cosas/80373/1"
+    },
+    {
+      "id": "blizz-6441752",
+      "postId": 6441752,
+      "topicId": 636594,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-10-19T18:38:22.052Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Fabled Let Me Solo Him: Kindo’jan Achievement Extended an Additional Week",
+        "es": "Fabled Let Me Solo Him: Kindo’jan Achievement Extended an Additional Week"
+      },
+      "summary": {
+        "en": "We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the Fabled Let Me ...",
+        "es": "We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the Fabled Let Me ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the <em>Fabled Let Me Solo Him: Kindo’jan</em> achievement. We have now addressed the vast majority of these bugs, and to accommodate players who may have had their experience impacted in the first week, we are extending the deadline to complete the achievement by an additional week. This gives players the chance to earn this achievement until scheduled weekly maintenance the week of 27 October.</p>\n<p>Good luck conquering Kindo’jan and earning your place among the Fabled Vanquishers!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the <em>Fabled Let Me Solo Him: Kindo’jan</em> achievement. We have now addressed the vast majority of these bugs, and to accommodate players who may have had their experience impacted in the first week, we are extending the deadline to complete the achievement by an additional week. This gives players the chance to earn this achievement until scheduled weekly maintenance the week of 27 October.</p>\n<p>Good luck conquering Kindo’jan and earning your place among the Fabled Vanquishers!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/fabled-let-me-solo-him-kindo%E2%80%99jan-achievement-extended-an-additional-week/636594/1"
     },
     {
       "id": "blizz-6440671",
@@ -644,6 +672,90 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-stress-test-21-october/635831/1"
+    },
+    {
+      "id": "blizz-30489234",
+      "postId": 30489234,
+      "topicId": 2383617,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-15T21:24:41.150Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW Forever Stress Test October 21",
+        "es": "WoW Forever Stress Test October 21"
+      },
+      "summary": {
+        "en": "UPDATE – This test is now taking place on October 21\nPlease join us for the WoW Forever Stress Test on October 21. \nOn that day, we will first take the WoW Forever Beta offline, an...",
+        "es": "UPDATE – This test is now taking place on October 21\nPlease join us for the WoW Forever Stress Test on October 21. \nOn that day, we will first take the WoW Forever Beta offline, an..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><h2><a name=\"p-30489234-update-this-test-is-now-taking-place-on-october-21-1\" class=\"anchor\" href=\"#p-30489234-update-this-test-is-now-taking-place-on-october-21-1\" aria-label=\"Heading link\"></a><strong>UPDATE</strong> – This test is now taking place on October 21</h2>\n<p>Please join us for the WoW Forever Stress Test on October 21.</p>\n<p>On that day, we will first take the WoW Forever Beta offline, and we will then open WoW Forever on the regional hardware that it will operate on when the game goes live.</p>\n<p>On October 21, the Stress Test will begin at 19:00 CEST for players in the EU region, 2:00 p.m. PDT for players in the Americas+Oceania, and at 5:00 a.m. in Taipei and 6:00 a.m. in Korea on October 22.</p>\n<p>Any player with a WoW account is eligible to participate. No active subscription is needed.</p>\n<p>Once you’re in, make a character, do a few quests, trade some items, chat, and group up with others to really put the game through its paces. This is a highly valuable event, since you’ll participate in our discovering of issues that would have otherwise happened on launch day.</p>\n<p>WoW Forever will be available on production realms for a few hours, and then when we shut down the Stress Test, all characters will be deleted* and we will re-open the Beta.</p>\n<blockquote>\n<p>*This is a complete wipe; names and everything else will be completely removed.</p>\n</blockquote>\n<p>Thank you very much for joining us. We’ll see you there!</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://worldofwarcraft.blizzard.com/en-us/news/24302072/join-the-world-of-warcraft-forever-stress-test\">\n  <header class=\"source\">\n      <img src=\"https://assets-bwa.worldofwarcraft.blizzard.com/static/wow-icon-32x32.1a38d7c1c3d8df560d53f5c2ad5442c0401edf83.png\" class=\"site-icon\" alt=\"\" width=\"32\" height=\"32\">\n\n      <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24302072/join-the-world-of-warcraft-forever-stress-test\" target=\"_blank\" rel=\"noopener\">World of Warcraft</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:833/468;\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" class=\"thumbnail\" alt=\"\" width=\"833\" height=\"468\"></div>\n\n<h3><a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24302072/join-the-world-of-warcraft-forever-stress-test\" target=\"_blank\" rel=\"noopener\">Join the World of Warcraft: Forever Stress Test - WoW</a></h3>\n\n  <p>The gates are opening for the World of Warcraft: Forever Stress Test. For a limited time on October 19, all interested players can sign into World of Warcraft: Forever and help us put the servers through their paces. Anyone can take part and no...</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><h2><a name=\"p-30489234-update-this-test-is-now-taking-place-on-october-21-1\" class=\"anchor\" href=\"#p-30489234-update-this-test-is-now-taking-place-on-october-21-1\" aria-label=\"Heading link\"></a><strong>UPDATE</strong> – This test ahora es taking place on October 21</h2>\n<p>Please join us for the WoW Forever Stress Test on October 21.</p>\n<p>On that day, we will first take the WoW Forever Beta offline, and we will then open WoW Forever on the regional hardware that it will operate on when the game goes live.</p>\n<p>On October 21, the Stress Test will begin at 19:00 CEST for players in the EU region, 2:00 p.m. PDT for players in the Americas+Oceania, and at 5:00 a.m. in Taipei and 6:00 a.m. in Korea on October 22.</p>\n<p>Any player with a WoW account is eligible to participate. No active subscription is needed.</p>\n<p>Once you’re in, make a character, do a few quests, trade some items, chat, and group up with others to really put the game through its paces. This is a highly valuable event, since you’ll participate in our discovering of issues that would have otherwise happened on launch day.</p>\n<p>WoW Forever will be available on production realms for a few hours, and then when we shut down the Stress Test, all characters will be deleted* and we will re-open the Beta.</p>\n<blockquote>\n<p>*This is a complete wipe; names and everything else will be completely removed.</p>\n</blockquote>\n<p>Thank you very much for joining us. We’ll see you there!</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://worldofwarcraft.blizzard.com/en-us/news/24302072/join-the-world-of-warcraft-forever-stress-test\">\n  <header class=\"source\">\n      <img src=\"https://assets-bwa.worldofwarcraft.blizzard.com/static/wow-icon-32x32.1a38d7c1c3d8df560d53f5c2ad5442c0401edf83.png\" class=\"site-icon\" alt=\"\" width=\"32\" height=\"32\">\n\n      <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24302072/join-the-world-of-warcraft-forever-stress-test\" target=\"_blank\" rel=\"noopener\">World of Warcraft</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:833/468;\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" class=\"thumbnail\" alt=\"\" width=\"833\" height=\"468\"></div>\n\n<h3><a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24302072/join-the-world-of-warcraft-forever-stress-test\" target=\"_blank\" rel=\"noopener\">Join the World of Warcraft: Forever Stress Test - WoW</a></h3>\n\n  <p>The gates are opening for the World of Warcraft: Forever Stress Test. For a limited time on October 19, all interested players can sign into World of Warcraft: Forever and help us put the servers through their paces. Anyone can take part and no...</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n</div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-stress-test-october-21/2383617/1"
+    },
+    {
+      "id": "blizz-30487694",
+      "postId": 30487694,
+      "topicId": 2383492,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-15T20:12:59.826Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Unlock a Year of World of Warcraft® and Get Bonus Treasures",
+        "es": "Unlock a Year of World of Warcraft® and Get Bonus Treasures"
+      },
+      "summary": {
+        "en": "[Unlock a Year of World of Warcraft® and Get Bonus Treasures] Claim a 12-Month Subscription or 365-Days Game Time and get bonus in-game cosmetic items, including several for use in...",
+        "es": "[Unlock a Year of World of Warcraft® and Get Bonus Treasures] Claim a 12-Month Subscription or 365-Days Game Time and get bonus in-game cosmetic items, including several for use in..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\" alt=\"Unlock a Year of World of Warcraft® and Get Bonus Treasures\" width=\"833\" height=\"468\"></a></p><p>Claim a 12-Month Subscription or 365-Days Game Time and get bonus in-game cosmetic items, including several for use in World of Warcraft: Forever! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310658\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\" alt=\"Unlock a Year of World of Warcraft® and Get Bonus Treasures\" width=\"833\" height=\"468\"></a></p><p>Claim a 12-Month Subscription or 365-Days Game Time and get bonus in-game cosmetic items, including several for use in World of Warcraft: Forever! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310658\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/unlock-a-year-of-world-of-warcraft%C2%AE-and-get-bonus-treasures/2383492/1"
+    },
+    {
+      "id": "blizz-30487515",
+      "postId": 30487515,
+      "topicId": 2383475,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-15T20:00:23.876Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Beta Realm Maintenance - October 15",
+        "es": "Beta Realm Mantenimiento - October 15"
+      },
+      "summary": {
+        "en": "We’re planning to take the WoW Forever Beta down in about 15 minutes, at 1:15 p.m. PDT. \nThis will be a maintenance period that includes deploying and testing a new build of the ga...",
+        "es": "We’re planning to take the WoW Forever Beta down in about 15 minutes, at 1:15 p.m. PDT. \nThis will be a Mantenimiento period that includes deploying and testing a new build of the ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re planning to take the WoW Forever Beta down in about 15 minutes, at 1:15 p.m. PDT.</p>\n<p>This will be a maintenance period that includes deploying and testing a new build of the game, and that build has quite a few changes and fixes.</p>\n<p>We’ll have a full update to <a href=\"https://us.forums.blizzard.com/en/wow/t/2360696/\">the Development Notes</a> for you when we get through the updating and the testing. See you on the other side!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re planning to take the WoW Forever Beta down in about 15 minutes, at 1:15 p.m. PDT.</p>\n<p>This will be a maintenance period that includes deploying and testing a new build of the game, and that build has quite a few changes and fixes.</p>\n<p>We’ll have a full update to <a href=\"https://us.forums.blizzard.com/en/wow/t/2360696/\">the Development Notes</a> for you when we get through the updating and the testing. See you on the other side!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-realm-maintenance-october-15/2383475/1"
     },
     {
       "id": "blizz-6434695",
@@ -1288,118 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/temporary-economy-holds-for-rmt/635356/1"
-    },
-    {
-      "id": "blizz-6429987",
-      "postId": 6429987,
-      "topicId": 635185,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-13T18:37:44.882Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Dungeon and Raid Tuning – 14 October",
-        "es": "Mazmorra and Banda Tuning – 14 October"
-      },
-      "summary": {
-        "en": "An additional Mythic raid tuning adjustment has been added for Sszorak in the Venomous Abyss. \n\nThe Venomous Abyss\n\nSszorak\n\nIncreased the time for Sszorak to reach 100 rage by 5 s...",
-        "es": "An additional Mítica+ Banda tuning adjustment has been added for Sszorak in the Venomous Abyss. \n\nThe Venomous Abyss\n\nSszorak\n\nIncreased the time for Sszorak to reach 100 rage by 5..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>An additional Mythic raid tuning adjustment has been added for Sszorak in the Venomous Abyss.</p>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Sszorak</strong>\n<ul>\n<li>Increased the time for Sszorak to reach 100 rage by 5 seconds on Mythic difficulty.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>An additional Mythic raid tuning adjustment has been added for Sszorak in the Venomous Abyss.</p>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Sszorak</strong>\n<ul>\n<li>Increased the time for Sszorak to reach 100 rage by 5 seconds on Mythic difficulty.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/dungeon-and-raid-tuning-%E2%80%93-14-october/635185/2"
-    },
-    {
-      "id": "blizz-30456886",
-      "postId": 30456886,
-      "topicId": 2380514,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-13T18:37:37.407Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Dungeon and Raid Tuning -- October 13",
-        "es": "Mazmorra and Banda Tuning -- October 13"
-      },
-      "summary": {
-        "en": "An additional Mythic raid tuning adjustment has been added for Sszorak in the Venomous Abyss. \n\nThe Venomous Abyss\n\nSszorak\n\nIncreased the time for Sszorak to reach 100 rage by 5 s...",
-        "es": "An additional Mítica+ Banda tuning adjustment has been added for Sszorak in the Venomous Abyss. \n\nThe Venomous Abyss\n\nSszorak\n\nIncreased the time for Sszorak to reach 100 rage by 5..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>An additional Mythic raid tuning adjustment has been added for Sszorak in the Venomous Abyss.</p>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Sszorak</strong>\n<ul>\n<li>Increased the time for Sszorak to reach 100 rage by 5 seconds on Mythic difficulty.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>An additional Mythic raid tuning adjustment has been added for Sszorak in the Venomous Abyss.</p>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Sszorak</strong>\n<ul>\n<li>Increased the time for Sszorak to reach 100 rage by 5 seconds on Mythic difficulty.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/dungeon-and-raid-tuning-october-13/2380514/31"
-    },
-    {
-      "id": "blizz-30448647",
-      "postId": 30448647,
-      "topicId": 2380548,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-12T23:36:17.393Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The Venomous Abyss Hall of Fame is Closing Soon",
-        "es": "The Venomous Abyss Hall of Fame is Closing Soon"
-      },
-      "summary": {
-        "en": "The Hall of Fame for The Venomous Abyss is now full, and we will close it for further entries with the next weekly reset (tomorrow in this region). \nCongratulations to all who made...",
-        "es": "The Hall of Fame for The Venomous Abyss is now full, and we will close it for further entries with the next Reinicio Semanal (tomorrow in this region). \nCongratulations to all who ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The <a href=\"https://worldofwarcraft.blizzard.com/en-us/worldsoul/us/leaderboards/hall-of-fame/mythic-raid/the-venomous-abyss\">Hall of Fame</a> for The Venomous Abyss is now full, and we will close it for further entries with the next weekly reset (tomorrow in this region).</p>\n<p>Congratulations to all who made it, and good luck to all of those who are pushing to complete The Venomous Abyss before weekly resets!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The <a href=\"https://worldofwarcraft.blizzard.com/en-us/worldsoul/us/leaderboards/hall-of-fame/mythic-raid/the-venomous-abyss\">Hall of Fame</a> for The Venomous Abyss ahora es full, and we will close it for further entries with the next weekly reset (tomorrow in this region).</p>\n<p>Congratulations to all who made it, and good luck to all of those who are pushing to complete The Venomous Abyss before weekly resets!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-venomous-abyss-hall-of-fame-is-closing-soon/2380548/1"
-    },
-    {
-      "id": "blizz-1232408",
-      "postId": 1232408,
-      "topicId": 80365,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-08T22:59:36.468Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Forever: Repaso a fondo de las clases mago y chamán",
-        "es": "World of Warcraft: Forever: Repaso a fondo de las clases mago y chamán"
-      },
-      "summary": {
-        "en": "[World of Warcraft: Forever: Repaso a fondo de las clases mago y chamán] La serie de repasos a fondo de las clases de World of Warcraft: Forever continúa con comentarios de los des...",
-        "es": "[World of Warcraft: Forever: Repaso a fondo de las clases mago y chamán] La serie de repasos a fondo de las clases de World of Warcraft: Forever continúa con comentarios de los des..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t4/T46ED5B4T7V11791309695380.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t4/T46ED5B4T7V11791309695380.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de las clases mago y chamán\" width=\"833\" height=\"468\"></a></p><p>La serie de repasos a fondo de las clases de World of Warcraft: Forever continúa con comentarios de los desarrolladores sobre el mago y el chamán. Descubre las actualizaciones del mago que ampliarán las magias Arcana, de Fuego y de Escarcha con nuevas posibilidades híbridas como Descarga de Pirofrío y los cambios del chamán que servirán para que los tótems sean más fáciles de gestionar, las imbuiciones de arma duren más y las configuraciones de Combate elemental, Mejora y Restauración sean más versátiles. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302097\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t4/T46ED5B4T7V11791309695380.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t4/T46ED5B4T7V11791309695380.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de las clases mago y chamán\" width=\"833\" height=\"468\"></a></p><p>La serie de repasos a fondo de las clases de World of Warcraft: Forever continúa con comentarios de los desarrolladores sobre el mago y el chamán. Descubre las actualizaciones del mago que ampliarán las magias Arcana, de Fuego y de Escarcha con nuevas posibilidades híbridas como Descarga de Pirofrío y los cambios del chamán que servirán para que los tótems sean más fáciles de gestionar, las imbuiciones de arma duren más y las configuraciones de Combate elemental, Mejora y Restauración sean más versátiles. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302097\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-repaso-a-fondo-de-las-clases-mago-y-cham%C3%A1n/80365/1"
     }
   ],
   "blizzardNews": [
