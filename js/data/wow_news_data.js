@@ -226,6 +226,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-realm-maintenance-october-15/2383475/1"
     },
     {
+      "id": "blizz-1233512",
+      "postId": 1233512,
+      "topicId": 80474,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-19T08:00:06.404Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Halloween trae sustos, maravillas y recompensas espeluznantes",
+        "es": "Halloween trae sustos, maravillas y recompensas espeluznantes"
+      },
+      "summary": {
+        "en": "[Halloween trae sustos, maravillas y recompensas espeluznantes] Halloween celebra la separación de los Renegados de la Plaga. La diversión y las travesuras campan a sus anchas mien...",
+        "es": "[Halloween trae sustos, maravillas y recompensas espeluznantes] Halloween celebra la separación de los Renegados de la Plaga. La diversión y las travesuras campan a sus anchas mien..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Halloween trae sustos, maravillas y recompensas espeluznantes\" width=\"833\" height=\"468\"></a></p><p>Halloween celebra la separación de los Renegados de la Plaga. La diversión y las travesuras campan a sus anchas mientras los taberneros de Azeroth ofrecen trucos y tratos a aquellos que quieran participar en la festividad. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310656\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Halloween trae sustos, maravillas y recompensas espeluznantes\" width=\"833\" height=\"468\"></a></p><p>Halloween celebra la separación de los Renegados de la Plaga. La diversión y las travesuras campan a sus anchas mientras los taberneros de Azeroth ofrecen trucos y tratos a aquellos que quieran participar en la festividad. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310656\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/halloween-trae-sustos-maravillas-y-recompensas-espeluznantes/80474/1"
+    },
+    {
       "id": "blizz-1233222",
       "postId": 1233222,
       "topicId": 80451,
@@ -422,32 +450,32 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-campos-de-batalla-configuraciones-y-m%C3%A1s-cosas/80373/1"
     },
     {
-      "id": "blizz-1232452",
-      "postId": 1232452,
-      "topicId": 80372,
+      "id": "blizz-6440671",
+      "postId": 6440671,
+      "topicId": 636509,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-09T17:00:44.617Z",
+      "dateRaw": "2026-10-19T09:00:07.325Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo",
-        "es": "World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo"
+        "en": "Hallow’s End Brings Frights, Delights, and Haunting Rewards",
+        "es": "Hallow’s End Brings Frights, Delights, and Haunting Rewards"
       },
       "summary": {
-        "en": "[World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo] Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clase...",
-        "es": "[World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo] Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clase..."
+        "en": "[Hallow’s End Brings Frights, Delights, and Haunting Rewards] Hallow’s End celebrates the Forsaken&#39;s break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth...",
+        "es": "[Hallow’s End Brings Frights, Delights, and Haunting Rewards] Hallow’s End celebrates the Forsaken&#39;s break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo\" width=\"833\" height=\"468\"></a></p><p>Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clases de World of Warcraft: Forever. Explora las actualizaciones para los pícaros y brujos que amplían las herramientas, tácticas y estilos de juego que definen a estas clases. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310968\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo\" width=\"833\" height=\"468\"></a></p><p>Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clases de World of Warcraft: Forever. Explora las actualizaciones para los pícaros y brujos que amplían las herramientas, tácticas y estilos de juego que definen a estas clases. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310968\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Hallow’s End Brings Frights, Delights, and Haunting Rewards\" width=\"833\" height=\"468\"></a></p><p>Hallow’s End celebrates the Forsaken's break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth dole out treats and tricks to those who partake in the festivities. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310656\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Hallow’s End Brings Frights, Delights, and Haunting Rewards\" width=\"833\" height=\"468\"></a></p><p>Hallow’s End celebrates the Forsaken's break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth dole out treats and tricks to those who partake in the festivities. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310656\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-repaso-a-fondo-de-las-clases-p%C3%ADcaro-y-brujo/80372/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/hallow%E2%80%99s-end-brings-frights-delights-and-haunting-rewards/636509/1"
     },
     {
       "id": "blizz-6437558",
@@ -532,34 +560,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-weekly-highlights-midnight-1215-worldcore-wow-forever-and-more/636099/1"
-    },
-    {
-      "id": "blizz-6437002",
-      "postId": 6437002,
-      "topicId": 636098,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-16T17:00:08.467Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More",
-        "es": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More"
-      },
-      "summary": {
-        "en": "[WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More] From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive i...",
-        "es": "[WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More] From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive i..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More\" width=\"833\" height=\"468\"></a></p><p>From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313102\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More\" width=\"833\" height=\"468\"></a></p><p>From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313102\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-weekly-highlights-midnight-1215-worldcore-wow-forever-and-more/636098/1"
     },
     {
       "id": "blizz-6435403",
@@ -672,6 +672,62 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/unlock-a-year-of-world-of-warcraft%C2%AE-and-get-bonus-treasures/635806/1"
+    },
+    {
+      "id": "blizz-1232452",
+      "postId": 1232452,
+      "topicId": 80372,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-09T17:00:44.617Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo",
+        "es": "World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo"
+      },
+      "summary": {
+        "en": "[World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo] Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clase...",
+        "es": "[World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo] Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clase..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo\" width=\"833\" height=\"468\"></a></p><p>Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clases de World of Warcraft: Forever. Explora las actualizaciones para los pícaros y brujos que amplían las herramientas, tácticas y estilos de juego que definen a estas clases. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310968\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo\" width=\"833\" height=\"468\"></a></p><p>Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clases de World of Warcraft: Forever. Explora las actualizaciones para los pícaros y brujos que amplían las herramientas, tácticas y estilos de juego que definen a estas clases. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310968\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-repaso-a-fondo-de-las-clases-p%C3%ADcaro-y-brujo/80372/1"
+    },
+    {
+      "id": "blizz-6437002",
+      "postId": 6437002,
+      "topicId": 636098,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-16T17:00:08.467Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More",
+        "es": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More"
+      },
+      "summary": {
+        "en": "[WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More] From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive i...",
+        "es": "[WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More] From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive i..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More\" width=\"833\" height=\"468\"></a></p><p>From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313102\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More\" width=\"833\" height=\"468\"></a></p><p>From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313102\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-weekly-highlights-midnight-1215-worldcore-wow-forever-and-more/636098/1"
     },
     {
       "id": "blizz-30486646",
@@ -1344,62 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-repaso-a-fondo-de-las-clases-mago-y-cham%C3%A1n/80365/1"
-    },
-    {
-      "id": "blizz-1232407",
-      "postId": 1232407,
-      "topicId": 80364,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-08T22:00:18.879Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "¡Está disponible un Drop de Twitch! ¡Consigue el adorno para los hogares mrgluche adorable dorado",
-        "es": "¡Está disponible un Drop de Twitch! ¡Consigue el adorno para los hogares mrgluche adorable dorado"
-      },
-      "summary": {
-        "en": "[¡Está disponible un Drop de Twitch! ¡Consigue el adorno para los hogares mrgluche adorable dorado] Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cual...",
-        "es": "[¡Está disponible un Drop de Twitch! ¡Consigue el adorno para los hogares mrgluche adorable dorado] Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cual..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">[¡Está disponible un Drop de Twitch! ¡Consigue el adorno para los hogares mrgluche adorable dorado] Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cualquier retransmisión de World of Warcraft que cumpla los requisitos en Twitch.tv para hacerte con el adorno para los hoga&hellip;</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">[¡Está disponible un Drop de Twitch! ¡Consigue el adorno para los hogares mrgluche adorable dorado] Del 13 de octubre a las 19:00 CEST al 3 de noviembre a las 19:00 CET, sigue cualquier retransmisión de World of Warcraft que cumpla los requisitos en Twitch.tv para hacerte con el adorno para los hoga&hellip;</div>"
-      },
-      "hasFullContent": false,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1est%C3%A1-disponible-un-drop-de-twitch-%C2%A1consigue-el-adorno-para-los-hogares-mrgluche-adorable-dorado/80364/1"
-    },
-    {
-      "id": "blizz-6428388",
-      "postId": 6428388,
-      "topicId": 635196,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-12T23:39:13.666Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The Venomous Abyss Hall of Fame is Closing Soon",
-        "es": "The Venomous Abyss Hall of Fame is Closing Soon"
-      },
-      "summary": {
-        "en": "The Hall of Fame for The Venomous Abyss is now full, and we will close it for further entries with the next weekly reset (tomorrow in this region). \nCongratulations to all who made...",
-        "es": "The Hall of Fame for The Venomous Abyss is now full, and we will close it for further entries with the next Reinicio Semanal (tomorrow in this region). \nCongratulations to all who ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The <a href=\"https://worldofwarcraft.blizzard.com/worldsoul/us/leaderboards/hall-of-fame/mythic-raid/the-venomous-abyss\">Hall of Fame</a> for The Venomous Abyss is now full, and we will close it for further entries with the next weekly reset (tomorrow in this region).</p>\n<p>Congratulations to all who made it, and good luck to all of those who are pushing to complete The Venomous Abyss before weekly resets!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The <a href=\"https://worldofwarcraft.blizzard.com/worldsoul/us/leaderboards/hall-of-fame/mythic-raid/the-venomous-abyss\">Hall of Fame</a> for The Venomous Abyss ahora es full, and we will close it for further entries with the next weekly reset (tomorrow in this region).</p>\n<p>Congratulations to all who made it, and good luck to all of those who are pushing to complete The Venomous Abyss before weekly resets!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-venomous-abyss-hall-of-fame-is-closing-soon/635196/1"
     }
   ],
   "blizzardNews": [
