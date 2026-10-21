@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30556084",
+      "postId": 30556084,
+      "topicId": 2382684,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-10-21T00:07:51.399Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Midnight Hotfixes - October 20",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - October 20"
+      },
+      "summary": {
+        "en": "October 20, 2026 \nAchievements \n\nThe availability of Fabled: Let Me Solo Him: Kindo’jan has been extended and can now be earned until weekly maintenance during the week of October ...",
+        "es": "October 20, 2026 \nAchievements \n\nThe availability of Fabled: Let Me Solo Him: Kindo’jan has been extended and can now be earned until weekly Mantenimiento during the week of Octobe..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 20, 2026</strong></p>\n<p><strong>Achievements</strong></p>\n<ul>\n<li>The availability of <em>Fabled: Let Me Solo Him: Kindo’jan</em> has been extended and can now be earned until weekly maintenance during the week of October 27.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue that could sometimes prevent the “Fools and Curses” scenario from completing.</li>\n<li>Fixed an issue where Spirit Conduit Loa powers could be used during Kindo’jan’s fight.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Mistcrests are now uncapped.</li>\n<li>Ascendant Venomstones are now available after completing the quest “Ascending with Venomstones”.</li>\n<li>The Ancient Hash’ey Battle Art glove enchantments can now be applied to Warbound Until Equipped items.</li>\n<li>The Void Eruption effect on Kith’ix’s armor pieces can no longer hit targets you aren’t in combat with.</li>\n</ul>\n<p><strong>Player versus Player</strong></p>\n<ul>\n<li>Conquest and Bloody Tokens are now uncapped.</li>\n<li>The Spoils of War buff is now available – Conquest gains increased by 50% and Honor gains increased by 40% in Battlegrounds and Arenas.</li>\n<li>The Venomous Equipment Chest is now available for purchase from the conquest quartermaster, Irissa Bloodstar.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>The furbolgs required for the quest “Not Quite Nalorakk” have returned from their hibernation.</li>\n<li>Fixed an issue where spending Nebulous Voidcores on non-raid sources would not grant credit towards completing the “A Nebulous Endeavour” tutorial quest. This objective will be completed the next time a character spends a Nebulous Voidcore on any Season 2 bonus roll source.</li>\n<li>Resolved an issue where the Skardyn Behemoth could become unattackable, preventing completion of “Draw Its Ire.”</li>\n<li>Fixed an issue that prevented the completion of the Voidstorm quest “To Be Changed”.</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 20, 2026</strong></p>\n<p><strong>Achievements</strong></p>\n<ul>\n<li>The availability of <em>Fabled: Let Me Solo Him: Kindo’jan</em> has been extended and can now be earned until weekly maintenance during the week of October 27.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue that could sometimes prevent the “Fools and Curses” scenario from completing.</li>\n<li>Fixed an issue where Spirit Conduit Loa powers could be used during Kindo’jan’s fight.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Mistcrests are now uncapped.</li>\n<li>Ascendant Venomstones are now available after completing the quest “Ascending with Venomstones”.</li>\n<li>The Ancient Hash’ey Battle Art glove enchantments can now be applied to Warbound Until Equipped items.</li>\n<li>The Void Eruption effect on Kith’ix’s armor pieces can no longer hit targets you aren’t in combat with.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li>Conquest and Bloody Tokens are now uncapped.</li>\n<li>The Spoils of War buff ahora es available – Conquest gains increased by 50% and Honor gains increased by 40% in Battlegrounds and Arenas.</li>\n<li>The Venomous Equipment Chest ahora es available for purchase from the conquest quartermaster, Irissa Bloodstar.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>The furbolgs required for the quest “Not Quite Nalorakk” have returned from their hibernation.</li>\n<li>Fixed an issue where spending Nebulous Voidcores on non-raid sources would not grant credit towards completing the “A Nebulous Endeavour” tutorial quest. This objective will be completed the next time a character spends a Nebulous Voidcore on any Season 2 bonus roll source.</li>\n<li>Resolved an issue where the Skardyn Behemoth could become unattackable, preventing completion of “Draw Its Ire.”</li>\n<li>Fixed an issue that prevented the completion of the Voidstorm quest “To Be Changed”.</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-october-20/2382684/110"
+    },
+    {
       "id": "blizz-30553826",
       "postId": 30553826,
       "topicId": 2387945,
@@ -196,34 +224,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/fabled-let-me-solo-him-kindojan-achievement-extended-an-additional-week/2387015/1"
-    },
-    {
-      "id": "blizz-30537546",
-      "postId": 30537546,
-      "topicId": 2386891,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-19T17:00:08.256Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Hallow’s End Brings Frights, Delights, and Haunting Rewards",
-        "es": "Hallow’s End Brings Frights, Delights, and Haunting Rewards"
-      },
-      "summary": {
-        "en": "[Hallow’s End Brings Frights, Delights, and Haunting Rewards] Hallow’s End celebrates the Forsaken&#39;s break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth...",
-        "es": "[Hallow’s End Brings Frights, Delights, and Haunting Rewards] Hallow’s End celebrates the Forsaken&#39;s break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Hallow’s End Brings Frights, Delights, and Haunting Rewards\" width=\"833\" height=\"468\"></a></p><p>Hallow’s End celebrates the Forsaken's break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth dole out treats and tricks to those who partake in the festivities. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310656\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Hallow’s End Brings Frights, Delights, and Haunting Rewards\" width=\"833\" height=\"468\"></a></p><p>Hallow’s End celebrates the Forsaken's break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth dole out treats and tricks to those who partake in the festivities. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310656\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/hallow%E2%80%99s-end-brings-frights-delights-and-haunting-rewards/2386891/1"
     },
     {
       "id": "blizz-1233660",
@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/wow-forever-prueba-de-estr%C3%A9s-el-21-de-octubre/80434/1"
     },
     {
+      "id": "blizz-6443841",
+      "postId": 6443841,
+      "topicId": 635623,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-10-21T00:08:11.874Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Midnight Hotfixes - 20 October",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - 20 October"
+      },
+      "summary": {
+        "en": "October 20, 2026 \nAchievements \n\nThe availability of Fabled: Let Me Solo Him: Kindo’jan has been extended and can now be earned until weekly maintenance during the week of October ...",
+        "es": "October 20, 2026 \nAchievements \n\nThe availability of Fabled: Let Me Solo Him: Kindo’jan has been extended and can now be earned until weekly Mantenimiento during the week of Octobe..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 20, 2026</strong></p>\n<p><strong>Achievements</strong></p>\n<ul>\n<li>The availability of <em>Fabled: Let Me Solo Him: Kindo’jan</em> has been extended and can now be earned until weekly maintenance during the week of October 27.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue that could sometimes prevent the “Fools and Curses” scenario from completing.</li>\n<li>Fixed an issue where Spirit Conduit Loa powers could be used during Kindo’jan’s fight.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Mistcrests are now uncapped.</li>\n<li>Ascendant Venomstones are now available after completing the quest “Ascending with Venomstones”.</li>\n<li>The Ancient Hash’ey Battle Art glove enchantments can now be applied to Warbound Until Equipped items.</li>\n<li>The Void Eruption effect on Kith’ix’s armor pieces can no longer hit targets you aren’t in combat with.</li>\n</ul>\n<p><strong>Player versus Player</strong></p>\n<ul>\n<li>Conquest and Bloody Tokens are now uncapped.</li>\n<li>The Spoils of War buff is now available – Conquest gains increased by 50% and Honor gains increased by 40% in Battlegrounds and Arenas.</li>\n<li>The Venomous Equipment Chest is now available for purchase from the conquest quartermaster, Irissa Bloodstar.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>The furbolgs required for the quest “Not Quite Nalorakk” have returned from their hibernation.</li>\n<li>Fixed an issue where spending Nebulous Voidcores on non-raid sources would not grant credit towards completing the “A Nebulous Endeavour” tutorial quest. This objective will be completed the next time a character spends a Nebulous Voidcore on any Season 2 bonus roll source.</li>\n<li>Resolved an issue where the Skardyn Behemoth could become unattackable, preventing completion of “Draw Its Ire.”</li>\n<li>Fixed an issue that prevented the completion of the Voidstorm quest “To Be Changed”.</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 20, 2026</strong></p>\n<p><strong>Achievements</strong></p>\n<ul>\n<li>The availability of <em>Fabled: Let Me Solo Him: Kindo’jan</em> has been extended and can now be earned until weekly maintenance during the week of October 27.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue that could sometimes prevent the “Fools and Curses” scenario from completing.</li>\n<li>Fixed an issue where Spirit Conduit Loa powers could be used during Kindo’jan’s fight.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Mistcrests are now uncapped.</li>\n<li>Ascendant Venomstones are now available after completing the quest “Ascending with Venomstones”.</li>\n<li>The Ancient Hash’ey Battle Art glove enchantments can now be applied to Warbound Until Equipped items.</li>\n<li>The Void Eruption effect on Kith’ix’s armor pieces can no longer hit targets you aren’t in combat with.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li>Conquest and Bloody Tokens are now uncapped.</li>\n<li>The Spoils of War buff ahora es available – Conquest gains increased by 50% and Honor gains increased by 40% in Battlegrounds and Arenas.</li>\n<li>The Venomous Equipment Chest ahora es available for purchase from the conquest quartermaster, Irissa Bloodstar.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>The furbolgs required for the quest “Not Quite Nalorakk” have returned from their hibernation.</li>\n<li>Fixed an issue where spending Nebulous Voidcores on non-raid sources would not grant credit towards completing the “A Nebulous Endeavour” tutorial quest. This objective will be completed the next time a character spends a Nebulous Voidcore on any Season 2 bonus roll source.</li>\n<li>Resolved an issue where the Skardyn Behemoth could become unattackable, preventing completion of “Draw Its Ire.”</li>\n<li>Fixed an issue that prevented the completion of the Voidstorm quest “To Be Changed”.</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-20-october/635623/20"
+    },
+    {
       "id": "blizz-6443686",
       "postId": 6443686,
       "topicId": 636753,
@@ -644,6 +672,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/hallow%E2%80%99s-end-brings-frights-delights-and-haunting-rewards/636509/1"
+    },
+    {
+      "id": "blizz-30537546",
+      "postId": 30537546,
+      "topicId": 2386891,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-19T17:00:08.256Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Hallow’s End Brings Frights, Delights, and Haunting Rewards",
+        "es": "Hallow’s End Brings Frights, Delights, and Haunting Rewards"
+      },
+      "summary": {
+        "en": "[Hallow’s End Brings Frights, Delights, and Haunting Rewards] Hallow’s End celebrates the Forsaken&#39;s break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth...",
+        "es": "[Hallow’s End Brings Frights, Delights, and Haunting Rewards] Hallow’s End celebrates the Forsaken&#39;s break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Hallow’s End Brings Frights, Delights, and Haunting Rewards\" width=\"833\" height=\"468\"></a></p><p>Hallow’s End celebrates the Forsaken's break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth dole out treats and tricks to those who partake in the festivities. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310656\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Hallow’s End Brings Frights, Delights, and Haunting Rewards\" width=\"833\" height=\"468\"></a></p><p>Hallow’s End celebrates the Forsaken's break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth dole out treats and tricks to those who partake in the festivities. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310656\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/hallow%E2%80%99s-end-brings-frights-delights-and-haunting-rewards/2386891/1"
     },
     {
       "id": "blizz-6437558",
@@ -1344,62 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/beta-realm-maintenance-15-october/635803/1"
-    },
-    {
-      "id": "blizz-30486451",
-      "postId": 30486451,
-      "topicId": 2383391,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-15T18:47:41.590Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Midnight: Echoes of the Worldcore PTR Development Notes",
-        "es": "Midnight: Echoes of the Worldcore PTR Development Notes"
-      },
-      "summary": {
-        "en": "Midnight: 12.1.7 Echoes of the Worldcore PTR Notes\n\nThe next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal to unravel how to access the Coreway—and...",
-        "es": "Midnight: 12.1.7 Echoes of the Worldcore PTR Notes\n\nThe next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal to unravel how to access the Coreway—and..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><h1><a name=\"p-30486451-midnight-1217-echoes-of-the-worldcore-ptr-notes-1\" class=\"anchor\" href=\"#p-30486451-midnight-1217-echoes-of-the-worldcore-ptr-notes-1\" aria-label=\"Heading link\"></a><strong>Midnight: 12.1.7 Echoes of the Worldcore PTR Notes</strong></h1>\n<hr>\n<p><em>The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal to unravel how to access the Coreway—and the Worldcore beyond it.</em></p>\n<h2><a name=\"p-30486451-story-campaign-the-return-to-dornagal-2\" class=\"anchor\" href=\"#p-30486451-story-campaign-the-return-to-dornagal-2\" aria-label=\"Heading link\"></a><strong>STORY CAMPAIGN: “THE RETURN TO DORNAGAL”</strong></h2>\n<p><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bn/BNMRLJ4OGCH91792024060844.png\" alt=\"\" role=\"presentation\" width=\"833\" height=\"468\"></p>\n<p>The Worldcore has been breached by Xal’atath, and the only way to it is through the damaged Coreway in Dornogal. Help Arator, Brinthe, Dagran, and Brann unravel how to access the Coreway—and the Worldcore beyond.</p>\n<h2><a name=\"p-30486451-a-fresh-set-of-lorewalking-quests-3\" class=\"anchor\" href=\"#p-30486451-a-fresh-set-of-lorewalking-quests-3\" aria-label=\"Heading link\"></a><strong>A FRESH SET OF LOREWALKING QUESTS</strong></h2>\n<p><img src=\"https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/KUVZI7VSEF4Y1792022368057.png\" alt=\"\" role=\"presentation\" width=\"833\" height=\"468\"></p>\n<p>Meet with Apprentice Lorewalker Li Li Stormstout in Stormwind, Orgrimmar, or Stormwind City to experience iconic lore moments in Azeroth as part of the Echoes of the Worldcore content update.</p>\n<p>Players level 10 and above can explore four storylines, carefully curated by Li Li, to learn more about these characters:</p>\n<ul>\n<li><strong>Jaina</strong>: Jaina Proudmoore is one of the most powerful human mages on Azeroth, and her story has been filled with loss, struggle, and triumph. How has the Daughter of the Sea impacted the course of history?</li>\n<li><strong>Thrall</strong>: Thrall has been many things: slave, warchief, shaman, father, and farmer. How has he navigated impossible choices? How have his actions shaped him and those around him?</li>\n<li><strong>Titans</strong>: The Titans are one of the most powerful beings known to us. How did we learn about them? Where do they come from? And most importantly, what are their true goals?</li>\n<li><strong>Tyr</strong>: Recently restored, the titan keeper Tyr has had more impact on the history of Azeroth than many realize. But what does his return mean for our world’s future?</li>\n</ul>\n<p>Apprentice Lorewalker Li Li Stormstout will guide you through the stories she has to share. You can ask questions about key elements of the story whenever you’d like by clicking the Ask a Question button in the Lorewalking UI just below the minimap. You can also exit the story at any time by clicking the X in the UI.</p>\n<p>You can repeat these experiences as many times as you like. Please note that while Lorewalking, you won’t be able to undertake or progress through any other quests. However, you can pause Lorewalking and return to it at any time to continue your journey through the story. If you start a different Lorewalking story before finishing the first, all progress will be reset.</p>\n<h2><a name=\"p-30486451-the-omnium-folio-expands-4\" class=\"anchor\" href=\"#p-30486451-the-omnium-folio-expands-4\" aria-label=\"Heading link\"></a><strong>THE OMNIUM FOLIO EXPANDS</strong></h2>\n<p>With the <em>Echoes of the Worldcore</em> content update, players can earn two additional <strong>Motes of Omnial Inquiry</strong>, and two additional runes have been added:</p>\n<ul>\n<li><strong>Rune of Empowerment</strong>\n<ul>\n<li>Your Rune of Critical Power/Burning Haste/Masterful Cunning/Versatile Warrior grants 20% more of the stat.</li>\n</ul>\n</li>\n<li><strong>Rune of Critical Mass</strong>\n<ul>\n<li>When your Core Rune (<strong>Rune of Void-Touched Orbs</strong>) deals damage or healing, it has a chance to call down 3 orbs that deal Void damage to enemies or restore health to allies within 5 yards.</li>\n<li>When your Core Rune (<strong>Rune of Unleashed Fire</strong>) deals damage or healing, it has a chance to blast the area, dealing Fire damage split among enemies or restoring health split among allies within 10 yards.</li>\n</ul>\n</li>\n</ul>\n<p>You can learn more about the Sunstrider Omnium and its history by speaking with Magister Umbric, Grand Magister Rommath, or Custodian Veldharin in the Lycaneum on the Isle of Quel’Danas</p>\n<p>Learn more about the Omnium Folio in our <a href=\"https://worldofwarcraft.blizzard.com/news/24277442/\">previously published overview</a>.</p>\n<h2><a name=\"p-30486451-housing-5\" class=\"anchor\" href=\"#p-30486451-housing-5\" aria-label=\"Heading link\"></a><strong>HOUSING</strong></h2>\n<ul>\n<li>Fixed an issue that was causing decor to rotate when converting between rotation formats. The next time a player edits their house, all of the decor will be saved in the new format. From that point forward, decor should no longer have the possibility of rotating on load.</li>\n</ul>\n<h2><a name=\"p-30486451-professions-6\" class=\"anchor\" href=\"#p-30486451-professions-6\" aria-label=\"Heading link\"></a><strong>PROFESSIONS</strong></h2>\n<ul>\n<li><strong>Midnight Herbalism</strong>\n<ul>\n<li>Increased the amount of Deftness granted from the Bountiful Harvests Specialization.</li>\n</ul>\n</li>\n<li><strong>Midnight Mining</strong>\n<ul>\n<li>Increased the amount of Deftness granted from the Plentiful Ores Specialization.</li>\n</ul>\n</li>\n</ul>\n<h2><a name=\"p-30486451-user-interface-and-accessibility-7\" class=\"anchor\" href=\"#p-30486451-user-interface-and-accessibility-7\" aria-label=\"Heading link\"></a><strong>USER INTERFACE AND ACCESSIBILITY</strong></h2>\n<ul>\n<li><strong>EDIT MODE</strong>\n<ul>\n<li>Added an option to allow players to have an option to mouse click through the Personal Resource Display.</li>\n</ul>\n</li>\n<li>Added tooltip clarification informing players that Outfit 1 in your Transmog will be displayed on the WoW Armory website.</li>\n</ul>\n<h2><a name=\"p-30486451-ptr-known-issues-8\" class=\"anchor\" href=\"#p-30486451-ptr-known-issues-8\" aria-label=\"Heading link\"></a><strong>PTR KNOWN ISSUES</strong></h2>\n<ul>\n<li>Identified an issue impacting the skyboxes in Kalimdor and the Eastern Kingdoms for players using Mac clients.</li>\n<li>Copying a character or account data shows a Lua error, but will succeed.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><h1><a name=\"p-30486451-midnight-1217-echoes-of-the-worldcore-ptr-notes-1\" class=\"anchor\" href=\"#p-30486451-midnight-1217-echoes-of-the-worldcore-ptr-notes-1\" aria-label=\"Heading link\"></a><strong>Midnight: 12.1.7 Echoes of the Worldcore PTR Notes</strong></h1>\n<hr>\n<p><em>The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal to unravel how to access the Coreway—and the Worldcore beyond it.</em></p>\n<h2><a name=\"p-30486451-story-campaign-the-return-to-dornagal-2\" class=\"anchor\" href=\"#p-30486451-story-campaign-the-return-to-dornagal-2\" aria-label=\"Heading link\"></a><strong>STORY CAMPAIGN: “THE RETURN TO DORNAGAL”</strong></h2>\n<p><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bn/BNMRLJ4OGCH91792024060844.png\" alt=\"\" role=\"presentation\" width=\"833\" height=\"468\"></p>\n<p>The Worldcore has been breached by Xal’atath, and the only way to it is through the damaged Coreway in Dornogal. Help Arator, Brinthe, Dagran, and Brann unravel how to access the Coreway—and the Worldcore beyond.</p>\n<h2><a name=\"p-30486451-a-fresh-set-of-lorewalking-quests-3\" class=\"anchor\" href=\"#p-30486451-a-fresh-set-of-lorewalking-quests-3\" aria-label=\"Heading link\"></a><strong>A FRESH SET OF LOREWALKING QUESTS</strong></h2>\n<p><img src=\"https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/KUVZI7VSEF4Y1792022368057.png\" alt=\"\" role=\"presentation\" width=\"833\" height=\"468\"></p>\n<p>Meet with Apprentice Lorewalker Li Li Stormstout in Stormwind, Orgrimmar, or Stormwind City to experience iconic lore moments in Azeroth as part of the Echoes of the Worldcore content update.</p>\n<p>Players level 10 and above can explore four storylines, carefully curated by Li Li, to learn more about these characters:</p>\n<ul>\n<li><strong>Jaina</strong>: Jaina Proudmoore is one of the most powerful human mages on Azeroth, and her story has been filled with loss, struggle, and triumph. How has the Daughter of the Sea impacted the course of history?</li>\n<li><strong>Thrall</strong>: Thrall has been many things: slave, warchief, shaman, father, and farmer. How has he navigated impossible choices? How have his actions shaped him and those around him?</li>\n<li><strong>Titans</strong>: The Titans are one of the most powerful beings known to us. How did we learn about them? Where do they come from? And most importantly, what are their true goals?</li>\n<li><strong>Tyr</strong>: Recently restored, the titan keeper Tyr has had more impact on the history of Azeroth than many realize. But what does his return mean for our world’s future?</li>\n</ul>\n<p>Apprentice Lorewalker Li Li Stormstout will guide you through the stories she has to share. You can ask questions about key elements of the story whenever you’d like by clicking the Ask a Question button in the Lorewalking UI just below the minimap. You can also exit the story at any time by clicking the X in the UI.</p>\n<p>You can repeat these experiences as many times as you like. Please note that while Lorewalking, you won’t be able to undertake or progress through any other quests. However, you can pause Lorewalking and return to it at any time to continue your journey through the story. If you start a different Lorewalking story before finishing the first, all progress will be reset.</p>\n<h2><a name=\"p-30486451-the-omnium-folio-expands-4\" class=\"anchor\" href=\"#p-30486451-the-omnium-folio-expands-4\" aria-label=\"Heading link\"></a><strong>THE OMNIUM FOLIO EXPANDS</strong></h2>\n<p>With the <em>Echoes of the Worldcore</em> content update, players can earn two additional <strong>Motes of Omnial Inquiry</strong>, and two additional runes have been added:</p>\n<ul>\n<li><strong>Rune of Empowerment</strong>\n<ul>\n<li>Your Rune of Critical Power/Burning Haste/Masterful Cunning/Versatile Warrior grants 20% more of the stat.</li>\n</ul>\n</li>\n<li><strong>Rune of Critical Mass</strong>\n<ul>\n<li>When your Core Rune (<strong>Rune of Void-Touched Orbs</strong>) deals damage or healing, it has a chance to call down 3 orbs that deal Void damage to enemies or restore health to allies within 5 yards.</li>\n<li>When your Core Rune (<strong>Rune of Unleashed Fuego</strong>) deals damage or healing, it has a chance to blast the area, dealing Fuego damage split among enemies or restoring health split among allies within 10 yards.</li>\n</ul>\n</li>\n</ul>\n<p>You can learn more about the Sunstrider Omnium and its history by speaking with Magister Umbric, Grand Magister Rommath, or Custodian Veldharin in the Lycaneum on the Isle of Quel’Danas</p>\n<p>Learn more about the Omnium Folio in our <a href=\"https://worldofwarcraft.blizzard.com/news/24277442/\">previously published overview</a>.</p>\n<h2><a name=\"p-30486451-housing-5\" class=\"anchor\" href=\"#p-30486451-housing-5\" aria-label=\"Heading link\"></a><strong>HOUSING</strong></h2>\n<ul>\n<li>Fixed an issue that was causing decor to rotate when converting between rotation formats. The next time a player edits their house, all of the decor will be saved in the new format. From that point forward, decor should no longer have the possibility of rotating on load.</li>\n</ul>\n<h2><a name=\"p-30486451-professions-6\" class=\"anchor\" href=\"#p-30486451-professions-6\" aria-label=\"Heading link\"></a><strong>PROFESSIONS</strong></h2>\n<ul>\n<li><strong>Midnight Herbalism</strong>\n<ul>\n<li>Increased the amount of Deftness granted from the Bountiful Harvests Specialization.</li>\n</ul>\n</li>\n<li><strong>Midnight Mining</strong>\n<ul>\n<li>Increased the amount of Deftness granted from the Plentiful Ores Specialization.</li>\n</ul>\n</li>\n</ul>\n<h2><a name=\"p-30486451-user-interface-and-accessibility-7\" class=\"anchor\" href=\"#p-30486451-user-interface-and-accessibility-7\" aria-label=\"Heading link\"></a><strong>USER INTERFACE AND ACCESSIBILITY</strong></h2>\n<ul>\n<li><strong>EDIT MODE</strong>\n<ul>\n<li>Added an option to allow players to have an option to mouse click through the Personal Resource Display.</li>\n</ul>\n</li>\n<li>Added tooltip clarification informing players that Outfit 1 in your Transmog will be displayed on the WoW Armory website.</li>\n</ul>\n<h2><a name=\"p-30486451-ptr-known-issues-8\" class=\"anchor\" href=\"#p-30486451-ptr-known-issues-8\" aria-label=\"Heading link\"></a><strong>PTR KNOWN ISSUES</strong></h2>\n<ul>\n<li>Identified an issue impacting the skyboxes in Kalimdor and the Eastern Kingdoms for players using Mac clients.</li>\n<li>Copying a character or account data shows a Lua error, but will succeed.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/midnight-echoes-of-the-worldcore-ptr-development-notes/2383391/1"
-    },
-    {
-      "id": "blizz-6434563",
-      "postId": 6434563,
-      "topicId": 635789,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-15T19:00:09.820Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Forever Class Deep Dives — Paladin",
-        "es": "World of Warcraft: Forever Class Deep Dives — Paladin"
-      },
-      "summary": {
-        "en": "[World of Warcraft: Forever Class Deep Dives — Paladin] Stand as a champion of the Light in this World of Warcraft: Forever class deep dive. Discover how Paladin updates strengthen...",
-        "es": "[World of Warcraft: Forever Class Deep Dives — Paladin] Stand as a champion of the Light in this World of Warcraft: Forever class deep dive. Discover how Paladin updates strengthen..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ik/IKBBIHNXL9CG1791582837694.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ik/IKBBIHNXL9CG1791582837694.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Paladin\" width=\"833\" height=\"468\"></a></p><p>Stand as a champion of the Light in this World of Warcraft: Forever class deep dive. Discover how Paladin updates strengthen the class’s distinctive Seals and Judgements while expanding options for Holy healing and spell damage, Protection tanking, and Retribution damage. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24302099\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ik/IKBBIHNXL9CG1791582837694.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ik/IKBBIHNXL9CG1791582837694.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Paladin\" width=\"833\" height=\"468\"></a></p><p>Stand as a champion of the Light in this World of Warcraft: Forever class deep dive. Discover how Paladin updates strengthen the class’s distinctive Seals and Judgements while expanding options for Sagrado healing and spell damage, Protección tanking, and Reprensión damage. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24302099\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-class-deep-dives-%E2%80%94-paladin/635789/1"
     }
   ],
   "blizzardNews": [
