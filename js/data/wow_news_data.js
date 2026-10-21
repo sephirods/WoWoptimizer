@@ -247,10 +247,10 @@ window.WOW_NEWS_DATABASE = {
         "es": "[Ahorra hasta un 50 % con las rebajas de otoño hasta el 2 de noviembre] Participa en las festividades otoñales con ofertas en Midnight, transfiguraciones a la última, determinados ..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\" alt=\"Ahorra hasta un 50 % con las rebajas de otoño hasta el 2 de noviembre\" width=\"833\" height=\"468\"></a></p><p>Participa en las festividades otoñales con ofertas en Midnight, transfiguraciones a la última, determinados servicios del juego ¡y mucho más! </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313103\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\" alt=\"Ahorra hasta un 50 % con las rebajas de otoño hasta el 2 de noviembre\" width=\"833\" height=\"468\"></a></p><p>Participa en las festividades otoñales con ofertas en Midnight, transfiguraciones a la última, determinados servicios del juego ¡y mucho más! </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313103\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">[Ahorra hasta un 50 % con las rebajas de otoño hasta el 2 de noviembre] Participa en las festividades otoñales con ofertas en Midnight, transfiguraciones a la última, determinados servicios del juego ¡y mucho más!  Ver artículo completo</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">[Ahorra hasta un 50 % con las rebajas de otoño hasta el 2 de noviembre] Participa en las festividades otoñales con ofertas en Midnight, transfiguraciones a la última, determinados servicios del juego ¡y mucho más!  Ver artículo completo</div>"
       },
-      "hasFullContent": true,
+      "hasFullContent": false,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/ahorra-hasta-un-50-con-las-rebajas-de-oto%C3%B1o-hasta-el-2-de-noviembre/80498/1"
     },
     {
