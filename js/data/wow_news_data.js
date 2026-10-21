@@ -2,6 +2,62 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30563956",
+      "postId": 30563956,
+      "topicId": 2388645,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-21T17:02:04.048Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Gather Around the Campfire in World of Warcraft: Forever",
+        "es": "Gather Around the Campfire in World of Warcraft: Forever"
+      },
+      "summary": {
+        "en": "[Gather Around the Campfire in World of Warcraft: Forever] The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gai...",
+        "es": "[Gather Around the Campfire in World of Warcraft: Forever] The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gai..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Gather Around the Campfire in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gain useful benefits from profession-made features. Beginning with the Cooking profession’s Basic Campfire, the system gives adventurers new reasons to prepare together and connect while traveling through Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24301516\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Gather Around the Campfire in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gain useful benefits from profession-made features. Beginning with the Cooking profession’s Basic Campfire, the system gives adventurers new reasons to prepare together and connect while traveling through Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24301516\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/gather-around-the-campfire-in-world-of-warcraft-forever/2388645/1"
+    },
+    {
+      "id": "blizz-30563471",
+      "postId": 30563471,
+      "topicId": 2388547,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-21T16:28:54.400Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Testing WoW Forever Today - October 21",
+        "es": "Testing WoW Forever Today - October 21"
+      },
+      "summary": {
+        "en": "The WoW Forever Beta is going offline in a few minutes. \nIn this region, the Stress Test will begin at 2:00 p.m. PDT. \nTo prepare for that, go to your Battle.net App and look for S...",
+        "es": "The WoW Forever Beta is going offline in a few minutes. \nIn this region, the Stress Test will begin at 2:00 p.m. PDT. \nTo prepare for that, go to your Battle.net App and look for S..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is going offline in a few minutes.</p>\n<p>In this region, <a href=\"https://us.forums.blizzard.com/en/wow/t/heads-up-wow-forever-stress-test-on-october-21/2387920/\">the Stress Test</a> will begin at 2:00 p.m. PDT.</p>\n<p>To prepare for that, go to your Battle.net App and look for Stress Test under the Game Version selector on the WoW Forever playscreen.</p>\n<p>It should look like this:</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg\" data-download-href=\"/en/wow/uploads/short-url/wzq6OTOy4iF3HrWiADvaB87UdsE.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg\" alt=\"image\" data-base62-sha1=\"wzq6OTOy4iF3HrWiADvaB87UdsE\" width=\"833\" height=\"337\" srcset=\"https://d2ertrwg9e34np.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg, https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 1.5x, https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 2x\" data-dominant-color=\"192027\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">959×389 52 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is going offline in a few minutes.</p>\n<p>In this region, <a href=\"https://us.forums.blizzard.com/en/wow/t/heads-up-wow-forever-stress-test-on-october-21/2387920/\">the Stress Test</a> will begin at 2:00 p.m. PDT.</p>\n<p>To prepare for that, go to your Battle.net App and look for Stress Test under the Game Version selector on the WoW Forever playscreen.</p>\n<p>It should look like this:</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg\" data-download-href=\"/en/wow/uploads/short-url/wzq6OTOy4iF3HrWiADvaB87UdsE.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg\" alt=\"image\" data-base62-sha1=\"wzq6OTOy4iF3HrWiADvaB87UdsE\" width=\"833\" height=\"337\" srcset=\"https://d2ertrwg9e34np.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg, https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 1.5x, https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 2x\" data-dominant-color=\"192027\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">959×389 52 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/testing-wow-forever-today-october-21/2388547/1"
+    },
+    {
       "id": "blizz-30556084",
       "postId": 30556084,
       "topicId": 2382684,
@@ -170,60 +226,60 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/explore-the-new-dungeons-of-world-of-warcraft-forever/2387658/1"
     },
     {
-      "id": "blizz-30541945",
-      "postId": 30541945,
-      "topicId": 2387205,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1233718",
+      "postId": 1233718,
+      "topicId": 80494,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-19T23:43:59.905Z",
+      "dateRaw": "2026-10-21T17:02:26.459Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Channel Your Inner Rexxar with this Beastly Bundle",
-        "es": "Channel Your Inner Rexxar with this Beastly Bundle"
+        "en": "Reuníos alrededor de la hoguera en World of Warcraft: Forever",
+        "es": "Reuníos alrededor de la hoguera en World of Warcraft: Forever"
       },
       "summary": {
-        "en": "[Channel Your Inner Rexxar with this Beastly Bundle] The wildest pack filled with in-game items that invoke the Spirit of Rexxar awaits your modern World of Warcraft (currently Mid...",
-        "es": "[Channel Your Inner Rexxar with this Beastly Bundle] The wildest pack filled with in-game items that invoke the Spirit of Rexxar awaits your modern World of Warcraft (currently Mid..."
+        "en": "[Reuníos alrededor de la hoguera en World of Warcraft: Forever] El sistema de acampada de World of Warcraft: Forever permite a los jugadores crear campamentos compartidos en los qu...",
+        "es": "[Reuníos alrededor de la hoguera en World of Warcraft: Forever] El sistema de acampada de World of Warcraft: Forever permite a los jugadores crear campamentos compartidos en los qu..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\" alt=\"Channel Your Inner Rexxar with this Beastly Bundle\" width=\"833\" height=\"468\"></a></p><p>The wildest pack filled with in-game items that invoke the Spirit of Rexxar awaits your modern World of Warcraft (currently Midnight™) characters. For a limited time, get a transmog set, a toy to make Hunter combat pets look like Rexxar’s loyal combat pets, and a housing decor item worthy of a Beastmaster! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310657\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\" alt=\"Channel Your Inner Rexxar with this Beastly Bundle\" width=\"833\" height=\"468\"></a></p><p>The wildest pack filled with in-game items that invoke the Spirit of Rexxar awaits your modern World of Warcraft (currently Midnight™) characters. For a limited time, get a transmog set, a toy to make Hunter combat pets look like Rexxar’s loyal combat pets, and a housing decor item worthy of a Beastmaster! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310657\">View Full Article</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Reuníos alrededor de la hoguera en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>El sistema de acampada de World of Warcraft: Forever permite a los jugadores crear campamentos compartidos en los que pueden descansar, crear objetos y obtener beneficios útiles de las funciones de cada profesión. Desde la hoguera básica que se puede crear con la profesión de cocina, el sistema ofrece a los aventureros más motivos para prepararse juntos y estrechar lazos mientras viajan por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24301516\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Reuníos alrededor de la hoguera en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>El sistema de acampada de World of Warcraft: Forever permite a los jugadores crear campamentos compartidos en los que pueden descansar, crear objetos y obtener beneficios útiles de las funciones de cada profesión. Desde la hoguera básica que se puede crear con la profesión de cocina, el sistema ofrece a los aventureros más motivos para prepararse juntos y estrechar lazos mientras viajan por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24301516\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/channel-your-inner-rexxar-with-this-beastly-bundle/2387205/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/reun%C3%ADos-alrededor-de-la-hoguera-en-world-of-warcraft-forever/80494/1"
     },
     {
-      "id": "blizz-30538636",
-      "postId": 30538636,
-      "topicId": 2387015,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1233717",
+      "postId": 1233717,
+      "topicId": 80493,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-19T18:37:05.601Z",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-21T17:02:25.482Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Fabled Let Me Solo Him: Kindo'jan Achievement Extended an Additional Week",
-        "es": "Fabled Let Me Solo Him: Kindo'jan Achievement Extended an Additional Week"
+        "en": "Reuníos alrededor de la hoguera en World of Warcraft: Forever",
+        "es": "Reuníos alrededor de la hoguera en World of Warcraft: Forever"
       },
       "summary": {
-        "en": "We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the Fabled Let Me ...",
-        "es": "We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the Fabled Let Me ..."
+        "en": "[Reuníos alrededor de la hoguera en World of Warcraft: Forever] El sistema de acampada de World of Warcraft: Forever permite a los jugadores crear campamentos compartidos en los qu...",
+        "es": "[Reuníos alrededor de la hoguera en World of Warcraft: Forever] El sistema de acampada de World of Warcraft: Forever permite a los jugadores crear campamentos compartidos en los qu..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the <em>Fabled Let Me Solo Him: Kindo’jan</em> achievement. We have now addressed the vast majority of these bugs, and to accommodate players who may have had their experience impacted in the first week, we are extending the deadline to complete the achievement by an additional week. This gives players the chance to earn this achievement until scheduled weekly maintenance on October 27 in this region.</p>\n<p>Good luck conquering Kindo’jan and earning your place among the Fabled Vanquishers!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the <em>Fabled Let Me Solo Him: Kindo’jan</em> achievement. We have now addressed the vast majority of these bugs, and to accommodate players who may have had their experience impacted in the first week, we are extending the deadline to complete the achievement by an additional week. This gives players the chance to earn this achievement until scheduled weekly maintenance on October 27 in this region.</p>\n<p>Good luck conquering Kindo’jan and earning your place among the Fabled Vanquishers!</p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Reuníos alrededor de la hoguera en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>El sistema de acampada de World of Warcraft: Forever permite a los jugadores crear campamentos compartidos en los que pueden descansar, crear objetos y obtener beneficios útiles de las funciones de cada profesión. Desde la hoguera básica que se puede crear con la profesión de cocina, el sistema ofrece a los aventureros más motivos para prepararse juntos y estrechar lazos mientras viajan por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24301516\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Reuníos alrededor de la hoguera en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>El sistema de acampada de World of Warcraft: Forever permite a los jugadores crear campamentos compartidos en los que pueden descansar, crear objetos y obtener beneficios útiles de las funciones de cada profesión. Desde la hoguera básica que se puede crear con la profesión de cocina, el sistema ofrece a los aventureros más motivos para prepararse juntos y estrechar lazos mientras viajan por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24301516\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/fabled-let-me-solo-him-kindojan-achievement-extended-an-additional-week/2387015/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/reun%C3%ADos-alrededor-de-la-hoguera-en-world-of-warcraft-forever/80493/1"
     },
     {
       "id": "blizz-1233660",
@@ -394,60 +450,60 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/halloween-trae-sustos-maravillas-y-recompensas-espeluznantes/80474/1"
     },
     {
-      "id": "blizz-1233222",
-      "postId": 1233222,
-      "topicId": 80451,
+      "id": "blizz-6444912",
+      "postId": 6444912,
+      "topicId": 636870,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-16T17:29:57.401Z",
+      "dateRaw": "2026-10-21T17:01:41.109Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más",
-        "es": "Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más"
+        "en": "Gather Around the Campfire in World of Warcraft: Forever",
+        "es": "Gather Around the Campfire in World of Warcraft: Forever"
       },
       "summary": {
-        "en": "[Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más] Desde los nuevos desafíos en Midnight, un adelanto de lo que nos espera en Ec...",
-        "es": "[Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más] Desde los nuevos desafíos en Midnight, un adelanto de lo que nos espera en Ec..."
+        "en": "[Gather Around the Campfire in World of Warcraft: Forever] The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gai...",
+        "es": "[Gather Around the Campfire in World of Warcraft: Forever] The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gai..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más\" width=\"833\" height=\"468\"></a></p><p>Desde los nuevos desafíos en Midnight, un adelanto de lo que nos espera en Ecos del Núcleo del Mundo, un repaso a fondo de los paladines y el último pódcast de WoW: Forever, las noticias de esta semana traen información, nuevas recompensas y aventuras por explorar en Azeroth.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313102\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más\" width=\"833\" height=\"468\"></a></p><p>Desde los nuevos desafíos en Midnight, un adelanto de lo que nos espera en Ecos del Núcleo del Mundo, un repaso a fondo de los paladines y el último pódcast de WoW: Forever, las noticias de esta semana traen información, nuevas recompensas y aventuras por explorar en Azeroth.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313102\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Gather Around the Campfire in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gain useful benefits from profession-made features. Beginning with the Cooking profession’s Basic Campfire, the system gives adventurers new reasons to prepare together and connect while traveling through Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24301516\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Gather Around the Campfire in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gain useful benefits from profession-made features. Beginning with the Cooking profession’s Basic Campfire, the system gives adventurers new reasons to prepare together and connect while traveling through Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24301516\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-lo-m%C3%A1s-destacado-del-1215-de-midnight-el-n%C3%BAcleo-del-mundo-wow-forever-y-m%C3%A1s/80451/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/gather-around-the-campfire-in-world-of-warcraft-forever/636870/1"
     },
     {
-      "id": "blizz-1233146",
-      "postId": 1233146,
-      "topicId": 80434,
+      "id": "blizz-6444821",
+      "postId": 6444821,
+      "topicId": 636859,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-15T21:38:32.519Z",
+      "dateRaw": "2026-10-21T16:29:56.076Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "WoW Forever: Prueba de estrés el 21 de octubre",
-        "es": "WoW Forever: Prueba de estrés el 21 de octubre"
+        "en": "Testing WoW Forever Today - 21 October",
+        "es": "Testing WoW Forever Today - 21 October"
       },
       "summary": {
-        "en": "Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 21 de octubre. \nEse día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, ...",
-        "es": "Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 21 de octubre. \nEse día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, ..."
+        "en": "The WoW Forever Beta is going offline in a few minutes. \nIn this region, the Stress Test will begin soon thereafter, at 19:00 CEST. \nTo prepare for that, go to your Battle.net App ...",
+        "es": "The WoW Forever Beta is going offline in a few minutes. \nIn this region, the Stress Test will begin soon thereafter, at 19:00 CEST. \nTo prepare for that, go to your Battle.net App ..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 21 de octubre.</p>\n<p>Ese día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, habilitaremos el juego en el hardware regional sobre el que funcionará cuando esté disponible.</p>\n<p>La prueba de estrés comenzará el 21 de octubre a las 19:00 CEST en Europa y a las 14:00 PDT en América y Oceanía. Por otra parte, el 22 de octubre tendrá lugar a las 05:00 en Taipéi y a las 06:00 en Corea.</p>\n<p>Puede participar cualquier jugador con una cuenta de WoW. No hace falta disponer de una suscripción activa.</p>\n<p>Cuando entres en el juego, crea un personaje, completa un par de misiones, intercambia algunos objetos, participa en el chat y forma grupo con otros jugadores para tensionar el juego. Se trata de un evento muy importante, ya que tu participación nos ayudará a descubrir errores que podrían haber ocurrido el día del lanzamiento.</p>\n<p>WoW Forever estará disponible en los reinos de producción unas cuantas horas. Después, cerraremos la prueba de estrés, borraremos todos los personajes* y volveremos a habilitar la beta.</p>\n<blockquote>\n<p>*Se trata de un borrado completo; los nombres y todo lo demás se eliminarán de forma definitiva.</p>\n</blockquote>\n<p>Muchas gracias por acompañarnos. ¡Nos vemos allí!</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\">\n  <header class=\"source\">\n      <img src=\"https://assets-bwa.worldofwarcraft.blizzard.com/static/wow-icon-32x32.1a38d7c1c3d8df560d53f5c2ad5442c0401edf83.png\" class=\"site-icon\" alt=\"\" width=\"32\" height=\"32\">\n\n      <a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">World of Warcraft</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:833/468;\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" class=\"thumbnail\" alt=\"\" width=\"833\" height=\"468\"></div>\n\n<h3><a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">[Actualización 19/10] Únete a la prueba de estrés de World of Warcraft:...</a></h3>\n\n  <p>Se van a abrir las puertas para la prueba de estrés de World of Warcraft: Forever. Durante un tiempo limitado el 21 de octubre, quien lo desee podrá iniciar sesión en World of Warcraft: Forever y ayudarnos a poner a prueba los servidores. Cualquiera...</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 21 de octubre.</p>\n<p>Ese día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, habilitaremos el juego en el hardware regional sobre el que funcionará cuando esté disponible.</p>\n<p>La prueba de estrés comenzará el 21 de octubre a las 19:00 CEST en Europa y a las 14:00 PDT en América y Oceanía. Por otra parte, el 22 de octubre tendrá lugar a las 05:00 en Taipéi y a las 06:00 en Corea.</p>\n<p>Puede participar cualquier jugador con una cuenta de WoW. No hace falta disponer de una suscripción activa.</p>\n<p>Cuando entres en el juego, crea un personaje, completa un par de misiones, intercambia algunos objetos, participa en el chat y forma grupo con otros jugadores para tensionar el juego. Se trata de un evento muy importante, ya que tu participación nos ayudará a descubrir errores que podrían haber ocurrido el día del lanzamiento.</p>\n<p>WoW Forever estará disponible en los reinos de producción unas cuantas horas. Después, cerraremos la prueba de estrés, borraremos todos los personajes* y volveremos a habilitar la beta.</p>\n<blockquote>\n<p>*Se trata de un borrado completo; los nombres y todo lo demás se eliminarán de forma definitiva.</p>\n</blockquote>\n<p>Muchas gracias por acompañarnos. ¡Nos vemos allí!</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\">\n  <header class=\"source\">\n      <img src=\"https://assets-bwa.worldofwarcraft.blizzard.com/static/wow-icon-32x32.1a38d7c1c3d8df560d53f5c2ad5442c0401edf83.png\" class=\"site-icon\" alt=\"\" width=\"32\" height=\"32\">\n\n      <a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">World of Warcraft</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:833/468;\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" class=\"thumbnail\" alt=\"\" width=\"833\" height=\"468\"></div>\n\n<h3><a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">[Actualización 19/10] Únete a la prueba de estrés de World of Warcraft:...</a></h3>\n\n  <p>Se van a abrir las puertas para la prueba de estrés de World of Warcraft: Forever. Durante un tiempo limitado el 21 de octubre, quien lo desee podrá iniciar sesión en World of Warcraft: Forever y ayudarnos a poner a prueba los servidores. Cualquiera...</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n</div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is going offline in a few minutes.</p>\n<p>In this region, <a href=\"https://eu.forums.blizzard.com/en/wow/t/heads-up-wow-forever-stress-test-on-21-october/636749\">the Stress Test</a> will begin soon thereafter, at 19:00 CEST.</p>\n<p>To prepare for that, go to your Battle.net App and look for Stress Test under the Game Version selector on the WoW Forever playscreen.</p>\n<p>It should look like this:</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg\" data-download-href=\"/en/wow/uploads/short-url/wzq6OTOy4iF3HrWiADvaB87UdsE.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg\" alt=\"image\" data-base62-sha1=\"wzq6OTOy4iF3HrWiADvaB87UdsE\" width=\"833\" height=\"337\" srcset=\"https://d176jfkp3gfyt8.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg, https://d176jfkp3gfyt8.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 1.5x, https://d176jfkp3gfyt8.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 2x\" data-dominant-color=\"192027\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">959×389 52 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is going offline in a few minutes.</p>\n<p>In this region, <a href=\"https://eu.forums.blizzard.com/en/wow/t/heads-up-wow-forever-stress-test-on-21-october/636749\">the Stress Test</a> will begin soon thereafter, at 19:00 CEST.</p>\n<p>To prepare for that, go to your Battle.net App and look for Stress Test under the Game Version selector on the WoW Forever playscreen.</p>\n<p>It should look like this:</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg\" data-download-href=\"/en/wow/uploads/short-url/wzq6OTOy4iF3HrWiADvaB87UdsE.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg\" alt=\"image\" data-base62-sha1=\"wzq6OTOy4iF3HrWiADvaB87UdsE\" width=\"833\" height=\"337\" srcset=\"https://d176jfkp3gfyt8.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg, https://d176jfkp3gfyt8.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 1.5x, https://d176jfkp3gfyt8.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 2x\" data-dominant-color=\"192027\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">959×389 52 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/wow-forever-prueba-de-estr%C3%A9s-el-21-de-octubre/80434/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/testing-wow-forever-today-21-october/636859/1"
     },
     {
       "id": "blizz-6443841",
@@ -616,6 +672,118 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/channel-your-inner-rexxar-with-this-beastly-bundle/636628/1"
+    },
+    {
+      "id": "blizz-30541945",
+      "postId": 30541945,
+      "topicId": 2387205,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-19T23:43:59.905Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Channel Your Inner Rexxar with this Beastly Bundle",
+        "es": "Channel Your Inner Rexxar with this Beastly Bundle"
+      },
+      "summary": {
+        "en": "[Channel Your Inner Rexxar with this Beastly Bundle] The wildest pack filled with in-game items that invoke the Spirit of Rexxar awaits your modern World of Warcraft (currently Mid...",
+        "es": "[Channel Your Inner Rexxar with this Beastly Bundle] The wildest pack filled with in-game items that invoke the Spirit of Rexxar awaits your modern World of Warcraft (currently Mid..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\" alt=\"Channel Your Inner Rexxar with this Beastly Bundle\" width=\"833\" height=\"468\"></a></p><p>The wildest pack filled with in-game items that invoke the Spirit of Rexxar awaits your modern World of Warcraft (currently Midnight™) characters. For a limited time, get a transmog set, a toy to make Hunter combat pets look like Rexxar’s loyal combat pets, and a housing decor item worthy of a Beastmaster! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310657\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\" alt=\"Channel Your Inner Rexxar with this Beastly Bundle\" width=\"833\" height=\"468\"></a></p><p>The wildest pack filled with in-game items that invoke the Spirit of Rexxar awaits your modern World of Warcraft (currently Midnight™) characters. For a limited time, get a transmog set, a toy to make Hunter combat pets look like Rexxar’s loyal combat pets, and a housing decor item worthy of a Beastmaster! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310657\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/channel-your-inner-rexxar-with-this-beastly-bundle/2387205/1"
+    },
+    {
+      "id": "blizz-30538636",
+      "postId": 30538636,
+      "topicId": 2387015,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-10-19T18:37:05.601Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Fabled Let Me Solo Him: Kindo'jan Achievement Extended an Additional Week",
+        "es": "Fabled Let Me Solo Him: Kindo'jan Achievement Extended an Additional Week"
+      },
+      "summary": {
+        "en": "We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the Fabled Let Me ...",
+        "es": "We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the Fabled Let Me ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the <em>Fabled Let Me Solo Him: Kindo’jan</em> achievement. We have now addressed the vast majority of these bugs, and to accommodate players who may have had their experience impacted in the first week, we are extending the deadline to complete the achievement by an additional week. This gives players the chance to earn this achievement until scheduled weekly maintenance on October 27 in this region.</p>\n<p>Good luck conquering Kindo’jan and earning your place among the Fabled Vanquishers!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the <em>Fabled Let Me Solo Him: Kindo’jan</em> achievement. We have now addressed the vast majority of these bugs, and to accommodate players who may have had their experience impacted in the first week, we are extending the deadline to complete the achievement by an additional week. This gives players the chance to earn this achievement until scheduled weekly maintenance on October 27 in this region.</p>\n<p>Good luck conquering Kindo’jan and earning your place among the Fabled Vanquishers!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/fabled-let-me-solo-him-kindojan-achievement-extended-an-additional-week/2387015/1"
+    },
+    {
+      "id": "blizz-1233222",
+      "postId": 1233222,
+      "topicId": 80451,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-16T17:29:57.401Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más",
+        "es": "Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más"
+      },
+      "summary": {
+        "en": "[Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más] Desde los nuevos desafíos en Midnight, un adelanto de lo que nos espera en Ec...",
+        "es": "[Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más] Desde los nuevos desafíos en Midnight, un adelanto de lo que nos espera en Ec..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más\" width=\"833\" height=\"468\"></a></p><p>Desde los nuevos desafíos en Midnight, un adelanto de lo que nos espera en Ecos del Núcleo del Mundo, un repaso a fondo de los paladines y el último pódcast de WoW: Forever, las noticias de esta semana traen información, nuevas recompensas y aventuras por explorar en Azeroth.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313102\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más\" width=\"833\" height=\"468\"></a></p><p>Desde los nuevos desafíos en Midnight, un adelanto de lo que nos espera en Ecos del Núcleo del Mundo, un repaso a fondo de los paladines y el último pódcast de WoW: Forever, las noticias de esta semana traen información, nuevas recompensas y aventuras por explorar en Azeroth.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313102\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-lo-m%C3%A1s-destacado-del-1215-de-midnight-el-n%C3%BAcleo-del-mundo-wow-forever-y-m%C3%A1s/80451/1"
+    },
+    {
+      "id": "blizz-1233146",
+      "postId": 1233146,
+      "topicId": 80434,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-15T21:38:32.519Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW Forever: Prueba de estrés el 21 de octubre",
+        "es": "WoW Forever: Prueba de estrés el 21 de octubre"
+      },
+      "summary": {
+        "en": "Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 21 de octubre. \nEse día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, ...",
+        "es": "Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 21 de octubre. \nEse día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 21 de octubre.</p>\n<p>Ese día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, habilitaremos el juego en el hardware regional sobre el que funcionará cuando esté disponible.</p>\n<p>La prueba de estrés comenzará el 21 de octubre a las 19:00 CEST en Europa y a las 14:00 PDT en América y Oceanía. Por otra parte, el 22 de octubre tendrá lugar a las 05:00 en Taipéi y a las 06:00 en Corea.</p>\n<p>Puede participar cualquier jugador con una cuenta de WoW. No hace falta disponer de una suscripción activa.</p>\n<p>Cuando entres en el juego, crea un personaje, completa un par de misiones, intercambia algunos objetos, participa en el chat y forma grupo con otros jugadores para tensionar el juego. Se trata de un evento muy importante, ya que tu participación nos ayudará a descubrir errores que podrían haber ocurrido el día del lanzamiento.</p>\n<p>WoW Forever estará disponible en los reinos de producción unas cuantas horas. Después, cerraremos la prueba de estrés, borraremos todos los personajes* y volveremos a habilitar la beta.</p>\n<blockquote>\n<p>*Se trata de un borrado completo; los nombres y todo lo demás se eliminarán de forma definitiva.</p>\n</blockquote>\n<p>Muchas gracias por acompañarnos. ¡Nos vemos allí!</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\">\n  <header class=\"source\">\n      <img src=\"https://assets-bwa.worldofwarcraft.blizzard.com/static/wow-icon-32x32.1a38d7c1c3d8df560d53f5c2ad5442c0401edf83.png\" class=\"site-icon\" alt=\"\" width=\"32\" height=\"32\">\n\n      <a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">World of Warcraft</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:833/468;\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" class=\"thumbnail\" alt=\"\" width=\"833\" height=\"468\"></div>\n\n<h3><a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">[Actualización 19/10] Únete a la prueba de estrés de World of Warcraft:...</a></h3>\n\n  <p>Se van a abrir las puertas para la prueba de estrés de World of Warcraft: Forever. Durante un tiempo limitado el 21 de octubre, quien lo desee podrá iniciar sesión en World of Warcraft: Forever y ayudarnos a poner a prueba los servidores. Cualquiera...</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 21 de octubre.</p>\n<p>Ese día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, habilitaremos el juego en el hardware regional sobre el que funcionará cuando esté disponible.</p>\n<p>La prueba de estrés comenzará el 21 de octubre a las 19:00 CEST en Europa y a las 14:00 PDT en América y Oceanía. Por otra parte, el 22 de octubre tendrá lugar a las 05:00 en Taipéi y a las 06:00 en Corea.</p>\n<p>Puede participar cualquier jugador con una cuenta de WoW. No hace falta disponer de una suscripción activa.</p>\n<p>Cuando entres en el juego, crea un personaje, completa un par de misiones, intercambia algunos objetos, participa en el chat y forma grupo con otros jugadores para tensionar el juego. Se trata de un evento muy importante, ya que tu participación nos ayudará a descubrir errores que podrían haber ocurrido el día del lanzamiento.</p>\n<p>WoW Forever estará disponible en los reinos de producción unas cuantas horas. Después, cerraremos la prueba de estrés, borraremos todos los personajes* y volveremos a habilitar la beta.</p>\n<blockquote>\n<p>*Se trata de un borrado completo; los nombres y todo lo demás se eliminarán de forma definitiva.</p>\n</blockquote>\n<p>Muchas gracias por acompañarnos. ¡Nos vemos allí!</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\">\n  <header class=\"source\">\n      <img src=\"https://assets-bwa.worldofwarcraft.blizzard.com/static/wow-icon-32x32.1a38d7c1c3d8df560d53f5c2ad5442c0401edf83.png\" class=\"site-icon\" alt=\"\" width=\"32\" height=\"32\">\n\n      <a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">World of Warcraft</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:833/468;\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" class=\"thumbnail\" alt=\"\" width=\"833\" height=\"468\"></div>\n\n<h3><a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">[Actualización 19/10] Únete a la prueba de estrés de World of Warcraft:...</a></h3>\n\n  <p>Se van a abrir las puertas para la prueba de estrés de World of Warcraft: Forever. Durante un tiempo limitado el 21 de octubre, quien lo desee podrá iniciar sesión en World of Warcraft: Forever y ayudarnos a poner a prueba los servidores. Cualquiera...</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n</div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/wow-forever-prueba-de-estr%C3%A9s-el-21-de-octubre/80434/1"
     },
     {
       "id": "blizz-6441752",
@@ -1232,174 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/unlock-a-year-of-world-of-warcraft%C2%AE-and-get-bonus-treasures/2383492/1"
-    },
-    {
-      "id": "blizz-30487515",
-      "postId": 30487515,
-      "topicId": 2383475,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-15T20:00:23.876Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Beta Realm Maintenance - October 15",
-        "es": "Beta Realm Mantenimiento - October 15"
-      },
-      "summary": {
-        "en": "We’re planning to take the WoW Forever Beta down in about 15 minutes, at 1:15 p.m. PDT. \nThis will be a maintenance period that includes deploying and testing a new build of the ga...",
-        "es": "We’re planning to take the WoW Forever Beta down in about 15 minutes, at 1:15 p.m. PDT. \nThis will be a Mantenimiento period that includes deploying and testing a new build of the ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re planning to take the WoW Forever Beta down in about 15 minutes, at 1:15 p.m. PDT.</p>\n<p>This will be a maintenance period that includes deploying and testing a new build of the game, and that build has quite a few changes and fixes.</p>\n<p>We’ll have a full update to <a href=\"https://us.forums.blizzard.com/en/wow/t/2360696/\">the Development Notes</a> for you when we get through the updating and the testing. See you on the other side!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re planning to take the WoW Forever Beta down in about 15 minutes, at 1:15 p.m. PDT.</p>\n<p>This will be a maintenance period that includes deploying and testing a new build of the game, and that build has quite a few changes and fixes.</p>\n<p>We’ll have a full update to <a href=\"https://us.forums.blizzard.com/en/wow/t/2360696/\">the Development Notes</a> for you when we get through the updating and the testing. See you on the other side!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-realm-maintenance-october-15/2383475/1"
-    },
-    {
-      "id": "blizz-6434695",
-      "postId": 6434695,
-      "topicId": 635806,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-15T20:13:40.929Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Unlock a Year of World of Warcraft® and Get Bonus Treasures",
-        "es": "Unlock a Year of World of Warcraft® and Get Bonus Treasures"
-      },
-      "summary": {
-        "en": "[Unlock a Year of World of Warcraft® and Get Bonus Treasures] Claim a 12-Month Subscription or 365-Days Game Time and get bonus in-game cosmetic items, including several for use in...",
-        "es": "[Unlock a Year of World of Warcraft® and Get Bonus Treasures] Claim a 12-Month Subscription or 365-Days Game Time and get bonus in-game cosmetic items, including several for use in..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\" alt=\"Unlock a Year of World of Warcraft® and Get Bonus Treasures\" width=\"833\" height=\"468\"></a></p><p>Claim a 12-Month Subscription or 365-Days Game Time and get bonus in-game cosmetic items, including several for use in World of Warcraft: Forever! </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310658\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\" alt=\"Unlock a Year of World of Warcraft® and Get Bonus Treasures\" width=\"833\" height=\"468\"></a></p><p>Claim a 12-Month Subscription or 365-Days Game Time and get bonus in-game cosmetic items, including several for use in World of Warcraft: Forever! </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310658\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/unlock-a-year-of-world-of-warcraft%C2%AE-and-get-bonus-treasures/635806/1"
-    },
-    {
-      "id": "blizz-1232452",
-      "postId": 1232452,
-      "topicId": 80372,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-09T17:00:44.617Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo",
-        "es": "World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo"
-      },
-      "summary": {
-        "en": "[World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo] Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clase...",
-        "es": "[World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo] Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clase..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo\" width=\"833\" height=\"468\"></a></p><p>Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clases de World of Warcraft: Forever. Explora las actualizaciones para los pícaros y brujos que amplían las herramientas, tácticas y estilos de juego que definen a estas clases. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310968\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pa/PANTVQO6ISM91791322610857.png\" alt=\"World of Warcraft: Forever: Repaso a fondo de las clases pícaro y brujo\" width=\"833\" height=\"468\"></a></p><p>Los maestros de la sutileza y el poder destructivo suben a la palestra en este repaso a fondo de las clases de World of Warcraft: Forever. Explora las actualizaciones para los pícaros y brujos que amplían las herramientas, tácticas y estilos de juego que definen a estas clases. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310968\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/world-of-warcraft-forever-repaso-a-fondo-de-las-clases-p%C3%ADcaro-y-brujo/80372/1"
-    },
-    {
-      "id": "blizz-6437002",
-      "postId": 6437002,
-      "topicId": 636098,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-16T17:00:08.467Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More",
-        "es": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More"
-      },
-      "summary": {
-        "en": "[WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More] From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive i...",
-        "es": "[WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More] From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive i..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More\" width=\"833\" height=\"468\"></a></p><p>From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313102\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More\" width=\"833\" height=\"468\"></a></p><p>From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313102\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-weekly-highlights-midnight-1215-worldcore-wow-forever-and-more/636098/1"
-    },
-    {
-      "id": "blizz-30486646",
-      "postId": 30486646,
-      "topicId": 2383403,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-15T19:00:06.497Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Forever Class Deep Dives — Paladin",
-        "es": "World of Warcraft: Forever Class Deep Dives — Paladin"
-      },
-      "summary": {
-        "en": "[World of Warcraft: Forever Class Deep Dives — Paladin] Stand as a champion of the Light in this World of Warcraft: Forever class deep dive. Discover how Paladin updates strengthen...",
-        "es": "[World of Warcraft: Forever Class Deep Dives — Paladin] Stand as a champion of the Light in this World of Warcraft: Forever class deep dive. Discover how Paladin updates strengthen..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ik/IKBBIHNXL9CG1791582837694.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ik/IKBBIHNXL9CG1791582837694.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Paladin\" width=\"833\" height=\"468\"></a></p><p>Stand as a champion of the Light in this World of Warcraft: Forever class deep dive. Discover how Paladin updates strengthen the class’s distinctive Seals and Judgements while expanding options for Holy healing and spell damage, Protection tanking, and Retribution damage. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302099\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ik/IKBBIHNXL9CG1791582837694.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ik/IKBBIHNXL9CG1791582837694.png\" alt=\"World of Warcraft: Forever Class Deep Dives — Paladin\" width=\"833\" height=\"468\"></a></p><p>Stand as a champion of the Light in this World of Warcraft: Forever class deep dive. Discover how Paladin updates strengthen the class’s distinctive Seals and Judgements while expanding options for Sagrado healing and spell damage, Protección tanking, and Reprensión damage. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24302099\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-class-deep-dives-%E2%80%94-paladin/2383403/1"
-    },
-    {
-      "id": "blizz-6434667",
-      "postId": 6434667,
-      "topicId": 635803,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-15T20:01:36.777Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Beta Realm Maintenance - 15 October",
-        "es": "Beta Realm Mantenimiento - 15 October"
-      },
-      "summary": {
-        "en": "We’re planning to take the WoW Forever Beta down in about 15 minutes, at 22:15 CEST. \nThis will be a maintenance period that includes deploying and testing a new build of the game,...",
-        "es": "We’re planning to take the WoW Forever Beta down in about 15 minutes, at 22:15 CEST. \nThis will be a Mantenimiento period that includes deploying and testing a new build of the gam..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re planning to take the WoW Forever Beta down in about 15 minutes, at 22:15 CEST.</p>\n<p>This will be a maintenance period that includes deploying and testing a new build of the game, and that build has quite a few changes and fixes.</p>\n<p>We’ll have a full update to <a href=\"https://eu.forums.blizzard.com/en/wow/t/631316/\">the Development Notes</a> for you when we get through the updating and the testing. See you on the other side!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’re planning to take the WoW Forever Beta down in about 15 minutes, at 22:15 CEST.</p>\n<p>This will be a maintenance period that includes deploying and testing a new build of the game, and that build has quite a few changes and fixes.</p>\n<p>We’ll have a full update to <a href=\"https://eu.forums.blizzard.com/en/wow/t/631316/\">the Development Notes</a> for you when we get through the updating and the testing. See you on the other side!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/beta-realm-maintenance-15-october/635803/1"
     }
   ],
   "blizzardNews": [
