@@ -261,7 +261,18 @@ function runOptimizer(isManualClick = false) {
       (!isCrafted && itemTrack === 'myth' && baseTargetIlvl === 334);
 
     const canUseVenom = simVenomstone && isSlotEligibleForVenomstone(it.slot) && isAtMaxRankForVenom;
-    const targetIlvl = canUseVenom ? (baseTargetIlvl + 10) : baseTargetIlvl;
+    let targetIlvl = baseTargetIlvl;
+    if (canUseVenom) {
+      if (isCrafted) {
+        targetIlvl = (baseTargetIlvl === 331) ? 338 : 325; // Myth Crafted (+7) or Hero Crafted (+7)
+      } else if (itemTrack === 'myth') {
+        targetIlvl = 340; // Myth 6/6 (334 -> 340, +6)
+      } else if (itemTrack === 'hero') {
+        targetIlvl = 328; // Hero 6/6 (321 -> 328, +7)
+      } else {
+        targetIlvl = baseTargetIlvl + 7;
+      }
+    }
 
     if (targetIlvl > (it.ilvl || 0)) {
       const baseIlvl = it.baseIlvl || it.ilvl || 321;
