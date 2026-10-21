@@ -325,6 +325,30 @@ function updateWeaponModeDropdown(specData, forceDefault = false) {
   wepSelect.value = targetVal;
 }
 
+function getSpecGuideUrl(classKey, specId) {
+  const cls = (classKey || currentClass || 'paladin').toLowerCase();
+  const rawSpec = (specId || currentSpec || 'retribution').toLowerCase();
+  const specSlugMap = {
+    'prot_warrior': 'protection',
+    'frost_dk': 'frost',
+    'beast_mastery': 'beast-mastery',
+    'restoration_shaman': 'restoration',
+    'restoration_druid': 'restoration',
+    'frost_mage': 'frost',
+    'holy_priest': 'holy',
+    'protection_paladin': 'protection',
+    'holy_paladin': 'holy'
+  };
+  const slug = specSlugMap[rawSpec] || rawSpec.replace(/_/g, '-');
+  return `/classes/${cls}/${slug}/`;
+}
+
+function updateHeaderSpecGuideLink(classKey, specId) {
+  const linkEl = document.getElementById('header-spec-guide-link');
+  if (!linkEl) return;
+  linkEl.href = getSpecGuideUrl(classKey, specId);
+}
+
 function onSpecChange() {
   const specSelect = document.getElementById('char-spec');
   if (specSelect) currentSpec = specSelect.value;
@@ -340,6 +364,7 @@ function onSpecChange() {
   }
 
   updateWeaponModeDropdown(specData);
+  updateHeaderSpecGuideLink(currentClass, specData.id);
   
   saveState();
   renderPresetsToolbar();
@@ -452,6 +477,7 @@ function applySpecConfig(specId, autoAdjustWeights = true) {
   }
 
   if (document.getElementById('char-spec')) document.getElementById('char-spec').value = specData.id;
+  updateHeaderSpecGuideLink(currentClass, specData.id);
   if (document.getElementById('current-spec-title')) {
     document.getElementById('current-spec-title').innerText = specData.name;
     document.getElementById('current-spec-title').style.color = classData.color;
