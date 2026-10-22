@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30580810",
+      "postId": 30580810,
+      "topicId": 2389801,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-22T20:19:58.313Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Beta Realm Restart Today At 2:00 p.m. PDT",
+        "es": "Beta Realm Restart Today At 2:00 p.m. PDT"
+      },
+      "summary": {
+        "en": "In about 40 minutes, at 2:00 p.m. PDT (4:00 p.m. CDT, 5:00 p.m. EDT), we will quickly restart the WoW Forever Beta. \nPlayers who are currently in game will receive messages from ou...",
+        "es": "In about 40 minutes, at 2:00 p.m. PDT (4:00 p.m. CDT, 5:00 p.m. EDT), we will quickly restart the WoW Forever Beta. \nPlayers who are currently in game will receive messages from ou..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>In about 40 minutes, at 2:00 p.m. PDT (4:00 p.m. CDT, 5:00 p.m. EDT), we will quickly restart the WoW Forever Beta.</p>\n<p>Players who are currently in game will receive messages from our server team warning them of the restart, beginning 15 minutes before the Beta goes offline.</p>\n<p>See you on the other side!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>In about 40 minutes, at 2:00 p.m. PDT (4:00 p.m. CDT, 5:00 p.m. EDT), we will quickly restart the WoW Forever Beta.</p>\n<p>Players who are currently in game will receive messages from our server team warning them of the restart, beginning 15 minutes before the Beta goes offline.</p>\n<p>See you on the other side!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/beta-realm-restart-today-at-200-pm-pdt/2389801/1"
+    },
+    {
       "id": "blizz-30578134",
       "postId": 30578134,
       "topicId": 2389633,
@@ -196,34 +224,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/gather-around-the-campfire-in-world-of-warcraft-forever/2388645/1"
-    },
-    {
-      "id": "blizz-30563471",
-      "postId": 30563471,
-      "topicId": 2388547,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-21T16:28:54.400Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Testing WoW Forever Today - October 21",
-        "es": "Testing WoW Forever Today - October 21"
-      },
-      "summary": {
-        "en": "The WoW Forever Beta is going offline in a few minutes. \nIn this region, the Stress Test will begin at 2:00 p.m. PDT. \nTo prepare for that, go to your Battle.net App and look for S...",
-        "es": "The WoW Forever Beta is going offline in a few minutes. \nIn this region, the Stress Test will begin at 2:00 p.m. PDT. \nTo prepare for that, go to your Battle.net App and look for S..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is going offline in a few minutes.</p>\n<p>In this region, <a href=\"https://us.forums.blizzard.com/en/wow/t/heads-up-wow-forever-stress-test-on-october-21/2387920/\">the Stress Test</a> will begin at 2:00 p.m. PDT.</p>\n<p>To prepare for that, go to your Battle.net App and look for Stress Test under the Game Version selector on the WoW Forever playscreen.</p>\n<p>It should look like this:</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg\" data-download-href=\"/en/wow/uploads/short-url/wzq6OTOy4iF3HrWiADvaB87UdsE.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg\" alt=\"image\" data-base62-sha1=\"wzq6OTOy4iF3HrWiADvaB87UdsE\" width=\"833\" height=\"337\" srcset=\"https://d2ertrwg9e34np.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg, https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 1.5x, https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 2x\" data-dominant-color=\"192027\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">959×389 52 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is going offline in a few minutes.</p>\n<p>In this region, <a href=\"https://us.forums.blizzard.com/en/wow/t/heads-up-wow-forever-stress-test-on-october-21/2387920/\">the Stress Test</a> will begin at 2:00 p.m. PDT.</p>\n<p>To prepare for that, go to your Battle.net App and look for Stress Test under the Game Version selector on the WoW Forever playscreen.</p>\n<p>It should look like this:</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg\" data-download-href=\"/en/wow/uploads/short-url/wzq6OTOy4iF3HrWiADvaB87UdsE.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg\" alt=\"image\" data-base62-sha1=\"wzq6OTOy4iF3HrWiADvaB87UdsE\" width=\"833\" height=\"337\" srcset=\"https://d2ertrwg9e34np.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg, https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 1.5x, https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 2x\" data-dominant-color=\"192027\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">959×389 52 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/testing-wow-forever-today-october-21/2388547/1"
     },
     {
       "id": "blizz-1233879",
@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/saca-el-rexxar-que-llevas-dentro-con-este-lote-bestial/80484/1"
     },
     {
+      "id": "blizz-6447340",
+      "postId": 6447340,
+      "topicId": 637088,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-22T20:20:36.702Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Beta Realm Restart Today At 23:00 CEST",
+        "es": "Beta Realm Restart Today At 23:00 CEST"
+      },
+      "summary": {
+        "en": "In about 40 minutes, at 23:00 CEST, we will quickly restart the WoW Forever Beta. \nPlayers who are currently in game will receive messages from our server team warning them of the ...",
+        "es": "In about 40 minutes, at 23:00 CEST, we will quickly restart the WoW Forever Beta. \nPlayers who are currently in game will receive messages from our server team warning them of the ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>In about 40 minutes, at 23:00 CEST, we will quickly restart the WoW Forever Beta.</p>\n<p>Players who are currently in game will receive messages from our server team warning them of the restart, beginning 15 minutes before the Beta goes offline.</p>\n<p>See you on the other side!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>In about 40 minutes, at 23:00 CEST, we will quickly restart the WoW Forever Beta.</p>\n<p>Players who are currently in game will receive messages from our server team warning them of the restart, beginning 15 minutes before the Beta goes offline.</p>\n<p>See you on the other side!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/beta-realm-restart-today-at-2300-cest/637088/1"
+    },
+    {
       "id": "blizz-6447060",
       "postId": 6447060,
       "topicId": 637055,
@@ -644,6 +672,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/testing-wow-forever-today-21-october/636859/1"
+    },
+    {
+      "id": "blizz-30563471",
+      "postId": 30563471,
+      "topicId": 2388547,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-21T16:28:54.400Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Testing WoW Forever Today - October 21",
+        "es": "Testing WoW Forever Today - October 21"
+      },
+      "summary": {
+        "en": "The WoW Forever Beta is going offline in a few minutes. \nIn this region, the Stress Test will begin at 2:00 p.m. PDT. \nTo prepare for that, go to your Battle.net App and look for S...",
+        "es": "The WoW Forever Beta is going offline in a few minutes. \nIn this region, the Stress Test will begin at 2:00 p.m. PDT. \nTo prepare for that, go to your Battle.net App and look for S..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is going offline in a few minutes.</p>\n<p>In this region, <a href=\"https://us.forums.blizzard.com/en/wow/t/heads-up-wow-forever-stress-test-on-october-21/2387920/\">the Stress Test</a> will begin at 2:00 p.m. PDT.</p>\n<p>To prepare for that, go to your Battle.net App and look for Stress Test under the Game Version selector on the WoW Forever playscreen.</p>\n<p>It should look like this:</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg\" data-download-href=\"/en/wow/uploads/short-url/wzq6OTOy4iF3HrWiADvaB87UdsE.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg\" alt=\"image\" data-base62-sha1=\"wzq6OTOy4iF3HrWiADvaB87UdsE\" width=\"833\" height=\"337\" srcset=\"https://d2ertrwg9e34np.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg, https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 1.5x, https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 2x\" data-dominant-color=\"192027\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">959×389 52 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is going offline in a few minutes.</p>\n<p>In this region, <a href=\"https://us.forums.blizzard.com/en/wow/t/heads-up-wow-forever-stress-test-on-october-21/2387920/\">the Stress Test</a> will begin at 2:00 p.m. PDT.</p>\n<p>To prepare for that, go to your Battle.net App and look for Stress Test under the Game Version selector on the WoW Forever playscreen.</p>\n<p>It should look like this:</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg\" data-download-href=\"/en/wow/uploads/short-url/wzq6OTOy4iF3HrWiADvaB87UdsE.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg\" alt=\"image\" data-base62-sha1=\"wzq6OTOy4iF3HrWiADvaB87UdsE\" width=\"833\" height=\"337\" srcset=\"https://d2ertrwg9e34np.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg, https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 1.5x, https://d2ertrwg9e34np.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 2x\" data-dominant-color=\"192027\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">959×389 52 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/testing-wow-forever-today-october-21/2388547/1"
     },
     {
       "id": "blizz-6443841",
@@ -1344,62 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/datamined-in-the-latest-beta-build/2385060/1"
-    },
-    {
-      "id": "blizz-30504994",
-      "postId": 30504994,
-      "topicId": 2384784,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-16T17:00:09.122Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More",
-        "es": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More"
-      },
-      "summary": {
-        "en": "[WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More] From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive i...",
-        "es": "[WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More] From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive i..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More\" width=\"833\" height=\"468\"></a></p><p>From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313102\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More\" width=\"833\" height=\"468\"></a></p><p>From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313102\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-weekly-highlights-midnight-1215-worldcore-wow-forever-and-more/2384784/1"
-    },
-    {
-      "id": "blizz-1233134",
-      "postId": 1233134,
-      "topicId": 80432,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-15T20:13:45.109Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Desbloquea un año de World of Warcraft® y llévate tesoros adicionales",
-        "es": "Desbloquea un año de World of Warcraft® y llévate tesoros adicionales"
-      },
-      "summary": {
-        "en": "[Desbloquea un año de World of Warcraft® y llévate tesoros adicionales] Hazte con una suscripción de 12 meses o 365 días de tiempo de juego y llévate objetos cosméticos adicionales...",
-        "es": "[Desbloquea un año de World of Warcraft® y llévate tesoros adicionales] Hazte con una suscripción de 12 meses o 365 días de tiempo de juego y llévate objetos cosméticos adicionales..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\" alt=\"Desbloquea un año de World of Warcraft® y llévate tesoros adicionales\" width=\"833\" height=\"468\"></a></p><p>Hazte con una suscripción de 12 meses o 365 días de tiempo de juego y llévate objetos cosméticos adicionales, ¡incluidos varios para World of Warcraft: Forever! </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310658\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ui/UI9K0GIEGJPS1791937415682.png\" alt=\"Desbloquea un año de World of Warcraft® y llévate tesoros adicionales\" width=\"833\" height=\"468\"></a></p><p>Hazte con una suscripción de 12 meses o 365 días de tiempo de juego y llévate objetos cosméticos adicionales, ¡incluidos varios para World of Warcraft: Forever! </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310658\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/desbloquea-un-a%C3%B1o-de-world-of-warcraft%C2%AE-y-ll%C3%A9vate-tesoros-adicionales/80432/1"
     }
   ],
   "blizzardNews": [
