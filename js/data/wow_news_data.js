@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30577452",
+      "postId": 30577452,
+      "topicId": 2389565,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-22T16:21:16.245Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "The WoW: Forever Podcast: Episode 5 - End of Beta Special",
+        "es": "The WoW: Forever Podcast: Episode 5 - End of Beta Special"
+      },
+      "summary": {
+        "en": "[End of Beta Special | Episode 5 - The WoW: Forever Podcast]...",
+        "es": "[End of Beta Special | Episode 5 - The WoW: Forever Podcast]..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"uOlxa3xvNq4\" data-video-title=\"End of Beta Special | Episode 5 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=uOlxa3xvNq4\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/uOlxa3xvNq4/maxresdefault.jpg\" title=\"End of Beta Special | Episode 5 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"uOlxa3xvNq4\" data-video-title=\"End of Beta Special | Episode 5 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=uOlxa3xvNq4\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/uOlxa3xvNq4/maxresdefault.jpg\" title=\"End of Beta Special | Episode 5 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/2389565/1"
+    },
+    {
       "id": "blizz-30576546",
       "postId": 30576546,
       "topicId": 2389502,
@@ -198,32 +226,32 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-october-21/2382684/110"
     },
     {
-      "id": "blizz-30553826",
-      "postId": 30553826,
-      "topicId": 2387945,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1233879",
+      "postId": 1233879,
+      "topicId": 80506,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-20T21:00:12.897Z",
+      "dateRaw": "2026-10-22T16:16:42.192Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Claim Your World of Warcraft: Forever Character Names",
-        "es": "Claim Your World of Warcraft: Forever Character Names"
+        "en": "¡Adéntrate en el especial del fin de la beta!",
+        "es": "¡Adéntrate en el especial del fin de la beta!"
       },
       "summary": {
-        "en": "[Claim Your World of Warcraft: Forever Character Names] Get ready to make your mark in Azeroth! World of Warcraft: Forever Early Name reservations will be available from October 27...",
-        "es": "[Claim Your World of Warcraft: Forever Character Names] Get ready to make your mark in Azeroth! World of Warcraft: Forever Early Name reservations will be available from October 27..."
+        "en": "[¡Adéntrate en el especial del fin de la beta!] Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Meeix en su charla con el diseñado...",
+        "es": "[¡Adéntrate en el especial del fin de la beta!] Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Meeix en su charla con el diseñado..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/n7/N7FDT91D4FU61792517477430.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/n7/N7FDT91D4FU61792517477430.png\" alt=\"Claim Your World of Warcraft: Forever Character Names\" width=\"833\" height=\"468\"></a></p><p>Get ready to make your mark in Azeroth! World of Warcraft: Forever Early Name reservations will be available from October 27 through November 3, offering an early opportunity to reserve names for up to three characters. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24303866\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/n7/N7FDT91D4FU61792517477430.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/n7/N7FDT91D4FU61792517477430.png\" alt=\"Claim Your World of Warcraft: Forever Character Names\" width=\"833\" height=\"468\"></a></p><p>Get ready to make your mark in Azeroth! World of Warcraft: Forever Early Name reservations will be available from October 27 through November 3, offering an early opportunity to reserve names for up to three characters. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24303866\">View Full Article</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/hd/HD8MEDATQVMY1792624954092.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/hd/HD8MEDATQVMY1792624954092.png\" alt=\"¡Adéntrate en el especial del fin de la beta!\" width=\"833\" height=\"468\"></a></p><p>Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Meeix en su charla con el diseñador sénior del juego Josh «Aggrend» Greenfield, el director adjunto de producción Clay Stone, la ingeniera jefa de software Ana Resendez y el diseñador jefe de encuentros Michael Nuthals en este episodio especial.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302577\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/hd/HD8MEDATQVMY1792624954092.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/hd/HD8MEDATQVMY1792624954092.png\" alt=\"¡Adéntrate en el especial del fin de la beta!\" width=\"833\" height=\"468\"></a></p><p>Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Meeix en su charla con el diseñador sénior del juego Josh «Aggrend» Greenfield, el director adjunto de producción Clay Stone, la ingeniera jefa de software Ana Resendez y el diseñador jefe de encuentros Michael Nuthals en este episodio especial.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302577\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/claim-your-world-of-warcraft-forever-character-names/2387945/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1ad%C3%A9ntrate-en-el-especial-del-fin-de-la-beta/80506/1"
     },
     {
       "id": "blizz-1233776",
@@ -422,32 +450,32 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/saca-el-rexxar-que-llevas-dentro-con-este-lote-bestial/80484/1"
     },
     {
-      "id": "blizz-1233512",
-      "postId": 1233512,
-      "topicId": 80474,
+      "id": "blizz-6446965",
+      "postId": 6446965,
+      "topicId": 637043,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-19T08:00:06.404Z",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-22T16:22:03.465Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Halloween trae sustos, maravillas y recompensas espeluznantes",
-        "es": "Halloween trae sustos, maravillas y recompensas espeluznantes"
+        "en": "The WoW: Forever Podcast: Episode 5 - End of Beta Special",
+        "es": "The WoW: Forever Podcast: Episode 5 - End of Beta Special"
       },
       "summary": {
-        "en": "[Halloween trae sustos, maravillas y recompensas espeluznantes] Halloween celebra la separación de los Renegados de la Plaga. La diversión y las travesuras campan a sus anchas mien...",
-        "es": "[Halloween trae sustos, maravillas y recompensas espeluznantes] Halloween celebra la separación de los Renegados de la Plaga. La diversión y las travesuras campan a sus anchas mien..."
+        "en": "[End of Beta Special | Episode 5 - The WoW: Forever Podcast]...",
+        "es": "[End of Beta Special | Episode 5 - The WoW: Forever Podcast]..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Halloween trae sustos, maravillas y recompensas espeluznantes\" width=\"833\" height=\"468\"></a></p><p>Halloween celebra la separación de los Renegados de la Plaga. La diversión y las travesuras campan a sus anchas mientras los taberneros de Azeroth ofrecen trucos y tratos a aquellos que quieran participar en la festividad. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310656\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Halloween trae sustos, maravillas y recompensas espeluznantes\" width=\"833\" height=\"468\"></a></p><p>Halloween celebra la separación de los Renegados de la Plaga. La diversión y las travesuras campan a sus anchas mientras los taberneros de Azeroth ofrecen trucos y tratos a aquellos que quieran participar en la festividad. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310656\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"uOlxa3xvNq4\" data-video-title=\"End of Beta Special | Episode 5 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=uOlxa3xvNq4\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/uOlxa3xvNq4/maxresdefault.jpg\" title=\"End of Beta Special | Episode 5 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"uOlxa3xvNq4\" data-video-title=\"End of Beta Special | Episode 5 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=uOlxa3xvNq4\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/uOlxa3xvNq4/maxresdefault.jpg\" title=\"End of Beta Special | Episode 5 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/halloween-trae-sustos-maravillas-y-recompensas-espeluznantes/80474/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/637043/1"
     },
     {
       "id": "blizz-6446850",
@@ -644,6 +672,62 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/claim-your-world-of-warcraft-forever-character-names/636753/1"
+    },
+    {
+      "id": "blizz-30553826",
+      "postId": 30553826,
+      "topicId": 2387945,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-20T21:00:12.897Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Claim Your World of Warcraft: Forever Character Names",
+        "es": "Claim Your World of Warcraft: Forever Character Names"
+      },
+      "summary": {
+        "en": "[Claim Your World of Warcraft: Forever Character Names] Get ready to make your mark in Azeroth! World of Warcraft: Forever Early Name reservations will be available from October 27...",
+        "es": "[Claim Your World of Warcraft: Forever Character Names] Get ready to make your mark in Azeroth! World of Warcraft: Forever Early Name reservations will be available from October 27..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/n7/N7FDT91D4FU61792517477430.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/n7/N7FDT91D4FU61792517477430.png\" alt=\"Claim Your World of Warcraft: Forever Character Names\" width=\"833\" height=\"468\"></a></p><p>Get ready to make your mark in Azeroth! World of Warcraft: Forever Early Name reservations will be available from October 27 through November 3, offering an early opportunity to reserve names for up to three characters. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24303866\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/n7/N7FDT91D4FU61792517477430.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/n7/N7FDT91D4FU61792517477430.png\" alt=\"Claim Your World of Warcraft: Forever Character Names\" width=\"833\" height=\"468\"></a></p><p>Get ready to make your mark in Azeroth! World of Warcraft: Forever Early Name reservations will be available from October 27 through November 3, offering an early opportunity to reserve names for up to three characters. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24303866\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/claim-your-world-of-warcraft-forever-character-names/2387945/1"
+    },
+    {
+      "id": "blizz-1233512",
+      "postId": 1233512,
+      "topicId": 80474,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-19T08:00:06.404Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Halloween trae sustos, maravillas y recompensas espeluznantes",
+        "es": "Halloween trae sustos, maravillas y recompensas espeluznantes"
+      },
+      "summary": {
+        "en": "[Halloween trae sustos, maravillas y recompensas espeluznantes] Halloween celebra la separación de los Renegados de la Plaga. La diversión y las travesuras campan a sus anchas mien...",
+        "es": "[Halloween trae sustos, maravillas y recompensas espeluznantes] Halloween celebra la separación de los Renegados de la Plaga. La diversión y las travesuras campan a sus anchas mien..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Halloween trae sustos, maravillas y recompensas espeluznantes\" width=\"833\" height=\"468\"></a></p><p>Halloween celebra la separación de los Renegados de la Plaga. La diversión y las travesuras campan a sus anchas mientras los taberneros de Azeroth ofrecen trucos y tratos a aquellos que quieran participar en la festividad. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310656\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Halloween trae sustos, maravillas y recompensas espeluznantes\" width=\"833\" height=\"468\"></a></p><p>Halloween celebra la separación de los Renegados de la Plaga. La diversión y las travesuras campan a sus anchas mientras los taberneros de Azeroth ofrecen trucos y tratos a aquellos que quieran participar en la festividad. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310656\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/halloween-trae-sustos-maravillas-y-recompensas-espeluznantes/80474/1"
     },
     {
       "id": "blizz-6443635",
@@ -1316,90 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/datamined-in-the-latest-beta-build/636148/1"
-    },
-    {
-      "id": "blizz-6437003",
-      "postId": 6437003,
-      "topicId": 636099,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-16T17:00:09.005Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More",
-        "es": "WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More"
-      },
-      "summary": {
-        "en": "[WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More] From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive i...",
-        "es": "[WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More] From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive i..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More\" width=\"833\" height=\"468\"></a></p><p>From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313102\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"WoW Weekly Highlights Midnight 12.1.5, Worldcore, WoW: Forever, and More\" width=\"833\" height=\"468\"></a></p><p>From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313102\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-weekly-highlights-midnight-1215-worldcore-wow-forever-and-more/636099/1"
-    },
-    {
-      "id": "blizz-6435403",
-      "postId": 6435403,
-      "topicId": 635623,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-16T02:14:58.880Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - 16 October",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - 16 October"
-      },
-      "summary": {
-        "en": "October 15, 2026 \nItems \n\nFixed an issue where faction-specific mounts were hidden from the Mount Journal on characters of the opposite faction.\n\nLabyrinth \n\nFixed an issue where S...",
-        "es": "October 15, 2026 \nItems \n\nFixed an issue where faction-specific mounts were hidden from the Mount Journal on characters of the opposite faction.\n\nLabyrinth \n\nFixed an issue where S..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 15, 2026</strong></p>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where faction-specific mounts were hidden from the Mount Journal on characters of the opposite faction.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue where Sullied Revenant and Sha’Kuro’s health would not reset properly when failing the encounter.</li>\n<li>Impressive Treasure Chest, Impressive Treasure Pile, and Impressive Treasure Trove now require level 80 to loot (was 90).</li>\n<li>Scenario bosses should now properly give credit if defeated a second time on the same run.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Battle for Azeroth quests should no longer be appearing on the quest logs of characters that didn’t complete them when outside of Battle for Azeroth content.</li>\n<li>Fixed an issue where quest NPCs weren’t available to turn in “De Legend of de Hash’ey” in Zul’Aman.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 15, 2026</strong></p>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where faction-specific mounts were hidden from the Mount Journal on characters of the opposite faction.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue where Sullied Revenant and Sha’Kuro’s health would not reset properly when failing the encounter.</li>\n<li>Impressive Treasure Chest, Impressive Treasure Pile, and Impressive Treasure Trove now require level 80 to loot (was 90).</li>\n<li>Scenario bosses should now properly give credit if defeated a second time on the same run.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Battle for Azeroth quests should no longer be appearing on the quest logs of characters that didn’t complete them when outside of Battle for Azeroth content.</li>\n<li>Fixed an issue where quest NPCs weren’t available to turn in “De Legend of de Hash’ey” in Zul’Aman.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-16-october/635623/14"
-    },
-    {
-      "id": "blizz-30496849",
-      "postId": 30496849,
-      "topicId": 2382684,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-16T02:14:35.232Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - October 16",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - October 16"
-      },
-      "summary": {
-        "en": "October 15, 2026 \nItems \n\nFixed an issue where faction-specific mounts were hidden from the Mount Journal on characters of the opposite faction.\n\nLabyrinth \n\nFixed an issue where S...",
-        "es": "October 15, 2026 \nItems \n\nFixed an issue where faction-specific mounts were hidden from the Mount Journal on characters of the opposite faction.\n\nLabyrinth \n\nFixed an issue where S..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 15, 2026</strong></p>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where faction-specific mounts were hidden from the Mount Journal on characters of the opposite faction.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue where Sullied Revenant and Sha’Kuro’s health would not reset properly when failing the encounter.</li>\n<li>Impressive Treasure Chest, Impressive Treasure Pile, and Impressive Treasure Trove now require level 80 to loot (was 90).</li>\n<li>Scenario bosses should now properly give credit if defeated a second time on the same run.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Battle for Azeroth quests should no longer be appearing on the quest logs of characters that didn’t complete them when outside of Battle for Azeroth content.</li>\n<li>Fixed an issue where quest NPCs weren’t available to turn in “De Legend of de Hash’ey” in Zul’Aman.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 15, 2026</strong></p>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where faction-specific mounts were hidden from the Mount Journal on characters of the opposite faction.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue where Sullied Revenant and Sha’Kuro’s health would not reset properly when failing the encounter.</li>\n<li>Impressive Treasure Chest, Impressive Treasure Pile, and Impressive Treasure Trove now require level 80 to loot (was 90).</li>\n<li>Scenario bosses should now properly give credit if defeated a second time on the same run.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Battle for Azeroth quests should no longer be appearing on the quest logs of characters that didn’t complete them when outside of Battle for Azeroth content.</li>\n<li>Fixed an issue where quest NPCs weren’t available to turn in “De Legend of de Hash’ey” in Zul’Aman.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-october-16/2382684/72"
     }
   ],
   "blizzardNews": [
