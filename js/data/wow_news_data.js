@@ -1542,6 +1542,29 @@ window.WOW_NEWS_DATABASE = {
       "originalUrlEs": "https://worldofwarcraft.blizzard.com/es-es/news/24310658"
     },
     {
+      "id": "blizz-24302577",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment",
+      "dateRaw": "22 de octubre de 2026",
+      "category": "Oficial",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Dive into the End of Beta Special!",
+        "es": "¡Adéntrate en el especial del fin de la beta!"
+      },
+      "summary": {
+        "en": "Join WoW: Forever Podcast host Countdown To Classic and special guest Meeix as they sit down with Senior Game Designer Josh “Aggrend” Greenfield, Associate Production Director Clay...",
+        "es": "Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Meeix en su charla con el diseñador sénior del juego Josh «Aggrend» Greenfield, el..."
+      },
+      "imageUrl": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/hd/HD8MEDATQVMY1792624954092.png",
+      "contentHtml": {
+        "en": "<p></p>\n\n<p>Join <em>WoW: Forever </em>Podcast host Countdown To Classic and special guest Meeix as they sit down with Senior Game Designer Josh “Aggrend” Greenfield, Associate Production Director Clay Stone, Lead Software Engineer Ana Resendez, and Lead Encounter Designer Michael Nuthals for a special episode.</p>\n\n<aside class=\"video-container center-block\">\n<div class=\"video\"></div>\n</aside>\n\n<aside class=\"center-block\">\n<div class=\"image\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/7h/7HMD7XA776C51792624986392.png\"></div>\n</aside>\n\n<p>Watch the episode to get insights from the development team about the beta and <em>World of Warcraft: Forever</em> arriving globally on November 4!</p>\n",
+        "es": "<p></p>\n\n<p>Acompaña al presentador del pódcast de <em>WoW: Forever</em>, Countdown To Classic, y al invitado especial Meeix en su charla con el diseñador sénior del juego Josh «Aggrend» Greenfield, el director adjunto de producción Clay Stone, la ingeniera jefa de software Ana Resendez y el diseñador jefe de encuentros Michael Nuthals en este episodio especial.</p>\n\n<aside class=\"video-container center-block\">\n<div class=\"video\"></div>\n</aside>\n\n<aside class=\"center-block\">\n<div class=\"image\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/7h/7HMD7XA776C51792624986392.png\"></div>\n</aside>\n\n<p>No te pierdas este episodio para enterarte de los comentarios del equipo de desarrollo sobre la beta y <em>World of Warcraft: Forever</em>, que llegará a todo el mundo el 4 de noviembre.</p>\n"
+      },
+      "originalUrl": "https://worldofwarcraft.blizzard.com/en-us/news/24302577",
+      "originalUrlEs": "https://worldofwarcraft.blizzard.com/es-es/news/24302577"
+    },
+    {
       "id": "blizz-24302070",
       "source": "blizzard",
       "author": "Blizzard Entertainment",
