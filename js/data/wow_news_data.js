@@ -2,6 +2,146 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30591005",
+      "postId": 30591005,
+      "topicId": 2390481,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-23T17:06:49.307Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly",
+        "es": "Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly"
+      },
+      "summary": {
+        "en": "[Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly] From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul&#39;Aman co...",
+        "es": "[Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly] From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul&#39;Aman co..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul'Aman content update in Burning Crusade Classic Anniversary, this week's news is packed with fresh insights, eerie in-game events, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313106\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul'Aman content update in Burning Crusade Classic Anniversary, this week's news is packed with fresh insights, eerie in-game events, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313106\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/dive-into-wow-forever-the-gods-of-zul%E2%80%99aman-hallow%E2%80%99s-end-and-more-in-wow-weekly/2390481/1"
+    },
+    {
+      "id": "blizz-30591004",
+      "postId": 30591004,
+      "topicId": 2390480,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-23T17:06:48.692Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly",
+        "es": "Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly"
+      },
+      "summary": {
+        "en": "[Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly] From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul&#39;Aman co...",
+        "es": "[Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly] From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul&#39;Aman co..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul'Aman content update in Burning Crusade Classic Anniversary, this week's news is packed with fresh insights, eerie in-game events, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313106\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul'Aman content update in Burning Crusade Classic Anniversary, this week's news is packed with fresh insights, eerie in-game events, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313106\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/dive-into-wow-forever-the-gods-of-zul%E2%80%99aman-hallow%E2%80%99s-end-and-more-in-wow-weekly/2390480/1"
+    },
+    {
+      "id": "blizz-30590970",
+      "postId": 30590970,
+      "topicId": 2390477,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-23T17:05:04.071Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Watch the World of Warcraft: Midnight Motion Comic, “Singularity”",
+        "es": "Watch the World of Warcraft: Midnight Motion Comic, “Singularity”"
+      },
+      "summary": {
+        "en": "[Watch the World of Warcraft: Midnight Motion Comic, “Singularity”] Join Arator Windrunner as he ventures into the depths of the Void with the aid of his mentor, Umbric, in search ...",
+        "es": "[Watch the World of Warcraft: Midnight Motion Comic, “Singularity”] Join Arator Windrunner as he ventures into the depths of the Void with the aid of his mentor, Umbric, in search ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1g/1GCMTDVAFL9L1792536096865.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1g/1GCMTDVAFL9L1792536096865.png\" alt=\"Watch the World of Warcraft: Midnight Motion Comic, “Singularity”\" width=\"833\" height=\"468\"></a></p><p>Join Arator Windrunner as he ventures into the depths of the Void with the aid of his mentor, Umbric, in search of clues about his missing parents' fate. Along the way, he must learn to confront the Void without losing himself to it. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313104\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1g/1GCMTDVAFL9L1792536096865.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1g/1GCMTDVAFL9L1792536096865.png\" alt=\"Watch the World of Warcraft: Midnight Motion Comic, “Singularity”\" width=\"833\" height=\"468\"></a></p><p>Join Arator Windrunner as he ventures into the depths of the Void with the aid of his mentor, Umbric, in search of clues about his missing parents' fate. Along the way, he must learn to confront the Void without losing himself to it. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313104\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/watch-the-world-of-warcraft-midnight-motion-comic-%E2%80%9Csingularity%E2%80%9D/2390477/1"
+    },
+    {
+      "id": "blizz-30590883",
+      "postId": 30590883,
+      "topicId": 2390466,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-23T17:01:12.659Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Thank You For Testing the WoW Forever Beta",
+        "es": "Thank You For Testing the WoW Forever Beta"
+      },
+      "summary": {
+        "en": "The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback. \nW...",
+        "es": "The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback. \nW..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback.</p>\n<p>We’re now quickly moving into a period of a few short days where we will do some focused work on priority issues and the game service itself, so that it will be in good shape for launch day on November 4.</p>\n<p>And of course, we’ll open access to the character creation system on Tuesday, October 27, allowing everyone plenty of time to <a href=\"https://worldofwarcraft.blizzard.com/news/24302070/\">select the ruleset</a> that will define your journey and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24303866/\">snag the name</a> that best fits your adventurer.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" data-download-href=\"/en/wow/uploads/short-url/poAMBn9JkmIfZye6fTn5WKI67V8.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" alt=\"image\" data-base62-sha1=\"poAMBn9JkmIfZye6fTn5WKI67V8\" width=\"800\" height=\"381\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×381 122 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>You won’t have to wait until the game launches to make these big decisions.</p>\n<p>Also next week, we’re going to continue with our WoW Forever Podcast. If you haven’t consumed it all, this is a great time to catch up with everything the WoW Forever designers have had to say.</p>\n<ul>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-1-unpacking-beta-launch-ft-%E2%80%AAxaryu%E2%80%AC/2368190/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 1 - Unpacking Beta Launch ft. ‪@Xaryu‬</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/2368192/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/2376010/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/2383164/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ &amp; ‪@Savixirl</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/2389565/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 5 - End of Beta Special</a></li>\n</ul>\n<p>If you can’t get enough WoW Forever info, we’ve got all kinds of details about the game right here on our website. You can learn more about <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24301455\">WoW Forever dungeons here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24301516/\">the Campfire system here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24303009/\">raid details here</a>.</p>\n<p>Again, we’re deeply grateful to have seen so many people find their Forever home, and create new communities, and find friends (old and new) to join on the journey ahead.</p>\n<p>We’re really looking forward to seeing you on November 4! Thank you very much!</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" data-download-href=\"/en/wow/uploads/short-url/gAEYa1KyMvGIJ5P5WRg7RVWThTy.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" alt=\"image\" data-base62-sha1=\"gAEYa1KyMvGIJ5P5WRg7RVWThTy\" width=\"800\" height=\"400\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×400 94.2 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta ahora es closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback.</p>\n<p>We’re now quickly moving into a period of a few short days where we will do some focused work on priority issues and the game service itself, so that it will be in good shape for launch day on November 4.</p>\n<p>And of course, we’ll open access to the character creation system on Tuesday, October 27, allowing everyone plenty of time to <a href=\"https://worldofwarcraft.blizzard.com/news/24302070/\">select the ruleset</a> that will define your journey and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24303866/\">snag the name</a> that best fits your adventurer.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" data-download-href=\"/en/wow/uploads/short-url/poAMBn9JkmIfZye6fTn5WKI67V8.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" alt=\"image\" data-base62-sha1=\"poAMBn9JkmIfZye6fTn5WKI67V8\" width=\"800\" height=\"381\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×381 122 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>You won’t have to wait until the game launches to make these big decisions.</p>\n<p>Also next week, we’re going to continue with our WoW Forever Podcast. If you haven’t consumed it all, this is a great time to catch up with everything the WoW Forever designers have had to say.</p>\n<ul>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-1-unpacking-beta-launch-ft-%E2%80%AAxaryu%E2%80%AC/2368190/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 1 - Unpacking Beta Launch ft. ‪@Xaryu‬</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/2368192/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/2376010/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/2383164/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ &amp; ‪@Savixirl</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/2389565/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 5 - End of Beta Special</a></li>\n</ul>\n<p>If you can’t get enough WoW Forever info, we’ve got all kinds of details about the game right here on our website. You can learn more about <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24301455\">WoW Forever dungeons here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24301516/\">the Campfire system here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24303009/\">raid details here</a>.</p>\n<p>Again, we’re deeply grateful to have seen so many people find their Forever home, and create new communities, and find friends (old and new) to join on the journey ahead.</p>\n<p>We’re really looking forward to seeing you on November 4! Thank you very much!</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" data-download-href=\"/en/wow/uploads/short-url/gAEYa1KyMvGIJ5P5WRg7RVWThTy.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" alt=\"image\" data-base62-sha1=\"gAEYa1KyMvGIJ5P5WRg7RVWThTy\" width=\"800\" height=\"400\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×400 94.2 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/thank-you-for-testing-the-wow-forever-beta/2390466/1"
+    },
+    {
+      "id": "blizz-30590866",
+      "postId": 30590866,
+      "topicId": 2390465,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-23T17:00:41.694Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Thank You For Testing the WoW Forever Beta",
+        "es": "Thank You For Testing the WoW Forever Beta"
+      },
+      "summary": {
+        "en": "The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback. \nW...",
+        "es": "The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback. \nW..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback.</p>\n<p>We’re now quickly moving into a period of a few short days where we will do some focused work on priority issues and the game service itself, so that it will be in good shape for launch day on November 4.</p>\n<p>And of course, we’ll open access to the character creation system on Tuesday, October 27, allowing everyone plenty of time to <a href=\"https://worldofwarcraft.blizzard.com/news/24302070/\">select the ruleset</a> that will define your journey and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24303866/\">snag the name</a> that best fits your adventurer.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" data-download-href=\"/en/wow/uploads/short-url/poAMBn9JkmIfZye6fTn5WKI67V8.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" alt=\"image\" data-base62-sha1=\"poAMBn9JkmIfZye6fTn5WKI67V8\" width=\"800\" height=\"381\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×381 122 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>You won’t have to wait until the game launches to make these big decisions.</p>\n<p>Also next week, we’re going to continue with our WoW Forever Podcast. If you haven’t consumed it all, this is a great time to catch up with everything the WoW Forever designers have had to say.</p>\n<ul>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-1-unpacking-beta-launch-ft-%E2%80%AAxaryu%E2%80%AC/2368190/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 1 - Unpacking Beta Launch ft. ‪@Xaryu‬</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/2368192/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/2376010/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/2383164/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ &amp; ‪@Savixirl</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/2389565/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 5 - End of Beta Special</a></li>\n</ul>\n<p>If you can’t get enough WoW Forever info, we’ve got all kinds of details about the game right here on our website. You can learn more about <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24301455\">WoW Forever dungeons here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24301516/\">the Campfire system here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24303009/\">raid details here</a>.</p>\n<p>Again, we’re deeply grateful to have seen so many people find their Forever home, and create new communities, and find friends (old and new) to join on the journey ahead.</p>\n<p>We’re really looking forward to seeing you on November 4! Thank you very much!</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" data-download-href=\"/en/wow/uploads/short-url/gAEYa1KyMvGIJ5P5WRg7RVWThTy.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" alt=\"image\" data-base62-sha1=\"gAEYa1KyMvGIJ5P5WRg7RVWThTy\" width=\"800\" height=\"400\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×400 94.2 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta ahora es closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback.</p>\n<p>We’re now quickly moving into a period of a few short days where we will do some focused work on priority issues and the game service itself, so that it will be in good shape for launch day on November 4.</p>\n<p>And of course, we’ll open access to the character creation system on Tuesday, October 27, allowing everyone plenty of time to <a href=\"https://worldofwarcraft.blizzard.com/news/24302070/\">select the ruleset</a> that will define your journey and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24303866/\">snag the name</a> that best fits your adventurer.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" data-download-href=\"/en/wow/uploads/short-url/poAMBn9JkmIfZye6fTn5WKI67V8.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" alt=\"image\" data-base62-sha1=\"poAMBn9JkmIfZye6fTn5WKI67V8\" width=\"800\" height=\"381\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×381 122 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>You won’t have to wait until the game launches to make these big decisions.</p>\n<p>Also next week, we’re going to continue with our WoW Forever Podcast. If you haven’t consumed it all, this is a great time to catch up with everything the WoW Forever designers have had to say.</p>\n<ul>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-1-unpacking-beta-launch-ft-%E2%80%AAxaryu%E2%80%AC/2368190/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 1 - Unpacking Beta Launch ft. ‪@Xaryu‬</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/2368192/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/2376010/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/2383164/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ &amp; ‪@Savixirl</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/2389565/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 5 - End of Beta Special</a></li>\n</ul>\n<p>If you can’t get enough WoW Forever info, we’ve got all kinds of details about the game right here on our website. You can learn more about <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24301455\">WoW Forever dungeons here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24301516/\">the Campfire system here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24303009/\">raid details here</a>.</p>\n<p>Again, we’re deeply grateful to have seen so many people find their Forever home, and create new communities, and find friends (old and new) to join on the journey ahead.</p>\n<p>We’re really looking forward to seeing you on November 4! Thank you very much!</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" data-download-href=\"/en/wow/uploads/short-url/gAEYa1KyMvGIJ5P5WRg7RVWThTy.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" alt=\"image\" data-base62-sha1=\"gAEYa1KyMvGIJ5P5WRg7RVWThTy\" width=\"800\" height=\"400\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×400 94.2 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/thank-you-for-testing-the-wow-forever-beta/2390465/1"
+    },
+    {
       "id": "blizz-30580810",
       "postId": 30580810,
       "topicId": 2389801,
@@ -86,144 +226,32 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/2389565/1"
     },
     {
-      "id": "blizz-30576546",
-      "postId": 30576546,
-      "topicId": 2389502,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Aggrend (WoW Game Developer)",
-      "dateRaw": "2026-10-22T15:33:08.260Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The Roleplay-PvP Ruleset is Coming to WoW Forever",
-        "es": "The Roleplay-PvP Ruleset is Coming to WoW Forever"
-      },
-      "summary": {
-        "en": "Greetings, \nIn a recent episode of the WoW Forever Podcast we discussed some of our concerns with adding a Roleplay-PVP ruleset in WoW Forever, but we also mentioned that we were s...",
-        "es": "Greetings, \nIn a recent episode of the WoW Forever Podcast we discussed some of our concerns with adding a Roleplay-PVP ruleset in WoW Forever, but we also mentioned that we were s..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Greetings,</p>\n<p>In a recent episode of the WoW Forever Podcast we discussed some of our concerns with adding a Roleplay-PVP ruleset in WoW Forever, but we also mentioned that we were still discussing the topic internally and watching player feedback. Over the last few days, we’ve carefully examined what it would take to add it to WoW Forever and decided to go for it. We will add a Roleplay-PVP Ruleset for launch on November 4.</p>\n<p>We’re also working hard to make it so that you can select the Roleplay-PvP ruleset and reserve names there next week when our Name Reservation period begins on Tuesday, October 27.</p>\n<p>We really appreciate the feedback and comments on this.</p>\n<p>Thank you!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Greetings,</p>\n<p>In a recent episode of the WoW Forever Podcast we discussed some of our concerns with adding a Roleplay-PVP ruleset in WoW Forever, but we also mentioned that we were still discussing the topic internally and watching player feedback. Over the last few days, we’ve carefully examined what it would take to add it to WoW Forever and decided to go for it. We will add a Roleplay-PVP Ruleset for launch on November 4.</p>\n<p>We’re also working hard to make it so that you can select the Roleplay-PvP ruleset and reserve names there next week when our Name Reservation period begins on Tuesday, October 27.</p>\n<p>We really appreciate the feedback and comments on this.</p>\n<p>Thank you!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-roleplay-pvp-ruleset-is-coming-to-wow-forever/2389502/1"
-    },
-    {
-      "id": "blizz-30571231",
-      "postId": 30571231,
-      "topicId": 2389150,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Zorbrix (Game Producer)",
-      "dateRaw": "2026-10-22T01:46:44.190Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Forever Beta Will Return Shortly",
-        "es": "Forever Beta Will Return Shortly"
-      },
-      "summary": {
-        "en": "Good evening folks, \nWe hit a small snag while turning the WoW Forever Beta back online. We’re working right now to get it back. \nIn the meantime, you can speed this up by fully ex...",
-        "es": "Good evening folks, \nWe hit a small snag while turning the WoW Forever Beta back online. We’re working right now to get it back. \nIn the meantime, you can speed this up by fully ex..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Good evening folks,</p>\n<p>We hit a small snag while turning the WoW Forever Beta back online. We’re working right now to get it back.</p>\n<p>In the meantime, you can speed this up by fully exiting the Battle.net Desktop App to force the update to happen manually.</p>\n<p>Thanks!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Good evening folks,</p>\n<p>We hit a small snag while turning the WoW Forever Beta back online. We’re working right now to get it back.</p>\n<p>In the meantime, you can speed this up by fully exiting the Battle.net Desktop App to force the update to happen manually.</p>\n<p>Thanks!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/forever-beta-will-return-shortly/2389150/1"
-    },
-    {
-      "id": "blizz-30571023",
-      "postId": 30571023,
-      "topicId": 2382684,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-22T01:35:00.629Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - October 21",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - October 21"
-      },
-      "summary": {
-        "en": "October 21, 2026 \nLabyrinth \n\nPlayers can now speak to Kinduru in De Empire’s Rest antechamber to leave the labyrinth while on the Kindo’jan scenario.\nFixed an issue where L00T RAI...",
-        "es": "October 21, 2026 \nLabyrinth \n\nPlayers can now speak to Kinduru in De Empire’s Rest antechamber to leave the labyrinth while on the Kindo’jan scenario.\nFixed an issue where L00T Ban..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 21, 2026</strong></p>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Players can now speak to Kinduru in De Empire’s Rest antechamber to leave the labyrinth while on the Kindo’jan scenario.</li>\n<li>Fixed an issue where L00T RAID-R Minis could not be used in a group inside the labyrinth.</li>\n<li>The lever to start the scenario “A Golden Opportunity” in the Labyrinth of Kindo’jan can now be used by players level 80 and above.</li>\n<li>Players can now hold up to 4 stacks of the Carrying a Jan’alai Tear buff at a time (was 1).</li>\n<li>Fixed an issue in the “Returning the Bounty” scenario that could cause the Pit Boss to despawn when it left combat, preventing the scenario from completing.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where the Seriously Sharp Seashell effect from Gebbo’s Bottomless Bag could break stealth and invisibility effects.</li>\n<li>Fixed an issue where Jan’thrazet, the Soul Fang could sometimes fail to trigger reliably from the start of combat for healers.</li>\n<li>Fixed an issue preventing Nebulous Voidcache bonus roll item list previews from updating as items were acquired and removed from consideration. This was only a display issue and did not affect which items a character was eligible for.</li>\n</ul>\n<p><strong>Player versus Player</strong></p>\n<ul>\n<li><strong>Priest</strong>\n<ul>\n<li><strong>Holy</strong>\n<ul>\n<li>Fixed an issue where Sanctified Ground applying to allies would interrupt channeled spells such as Divine Hymn.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 21, 2026</strong></p>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Players can now speak to Kinduru in De Empire’s Rest antechamber to leave the labyrinth while on the Kindo’jan scenario.</li>\n<li>Fixed an issue where L00T RAID-R Minis could not be used in a group inside the labyrinth.</li>\n<li>The lever to start the scenario “A Golden Opportunity” in the Labyrinth of Kindo’jan can now be used by players level 80 and above.</li>\n<li>Players can now hold up to 4 stacks of the Carrying a Jan’alai Tear buff at a time (was 1).</li>\n<li>Fixed an issue in the “Returning the Bounty” scenario that could cause the Pit Boss to despawn when it left combat, preventing the scenario from completing.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where the Seriously Sharp Seashell effect from Gebbo’s Bottomless Bag could break stealth and invisibility effects.</li>\n<li>Fixed an issue where Jan’thrazet, the Soul Fang could sometimes fail to trigger reliably from the start of combat for healers.</li>\n<li>Fixed an issue preventing Nebulous Voidcache bonus roll item list previews from updating as items were acquired and removed from consideration. This was only a display issue and did not affect which items a character was eligible for.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li><strong>SACERDOTE</strong>\n<ul>\n<li><strong>Sagrado</strong>\n<ul>\n<li>Fixed an issue where Sanctified Ground applying to allies would interrupt channeled spells such as Divine Hymn.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-october-21/2382684/120"
-    },
-    {
-      "id": "blizz-30566599",
-      "postId": 30566599,
-      "topicId": 2388798,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1234001",
+      "postId": 1234001,
+      "topicId": 80515,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-21T20:05:05.797Z",
+      "dateRaw": "2026-10-23T17:07:38.271Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Get Up to 50% In Fall Savings Through November 2",
-        "es": "Get Up to 50% In Fall Savings Through November 2"
+        "en": "Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas",
+        "es": "Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas"
       },
       "summary": {
-        "en": "[Get Up to 50% In Fall Savings Through November 2] Join the autumnal festivities with deals on Midnight, fashionable Transmogs, select Game Services, and more!  View Full Article...",
-        "es": "[Get Up to 50% In Fall Savings Through November 2] Join the autumnal festivities with deals on Midnight, fashionable Transmogs, select Game Services, and more!  View Full Article..."
+        "en": "[Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul&#39;Aman, Halloween y más cosas] Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de ...",
+        "es": "[Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul&#39;Aman, Halloween y más cosas] Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de ..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\" alt=\"Get Up to 50% In Fall Savings Through November 2\" width=\"833\" height=\"468\"></a></p><p>Join the autumnal festivities with deals on Midnight, fashionable Transmogs, select Game Services, and more! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313103\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\" alt=\"Get Up to 50% In Fall Savings Through November 2\" width=\"833\" height=\"468\"></a></p><p>Join the autumnal festivities with deals on Midnight, fashionable Transmogs, select Game Services, and more! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313103\">View Full Article</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas\" width=\"833\" height=\"468\"></a></p><p>Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de la actualización de contenido Los dioses de Zul'Aman en los reinos del aniversario de Burning Crusade Classic, las novedades de esta semana vienen cargadas de información, espeluznantes eventos en el juego, recompensas nuevas y aventuras por descubrir en Azeroth.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313106\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas\" width=\"833\" height=\"468\"></a></p><p>Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de la actualización de contenido Los dioses de Zul'Aman en los reinos del aniversario de Burning Crusade Classic, las novedades de esta semana vienen cargadas de información, espeluznantes eventos en el juego, recompensas nuevas y aventuras por descubrir en Azeroth.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313106\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/get-up-to-50-in-fall-savings-through-november-2/2388798/1"
-    },
-    {
-      "id": "blizz-30563956",
-      "postId": 30563956,
-      "topicId": 2388645,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-21T17:02:04.048Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Gather Around the Campfire in World of Warcraft: Forever",
-        "es": "Gather Around the Campfire in World of Warcraft: Forever"
-      },
-      "summary": {
-        "en": "[Gather Around the Campfire in World of Warcraft: Forever] The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gai...",
-        "es": "[Gather Around the Campfire in World of Warcraft: Forever] The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gai..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Gather Around the Campfire in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gain useful benefits from profession-made features. Beginning with the Cooking profession’s Basic Campfire, the system gives adventurers new reasons to prepare together and connect while traveling through Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24301516\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Gather Around the Campfire in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gain useful benefits from profession-made features. Beginning with the Cooking profession’s Basic Campfire, the system gives adventurers new reasons to prepare together and connect while traveling through Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24301516\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/gather-around-the-campfire-in-world-of-warcraft-forever/2388645/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-ad%C3%A9ntrate-en-wow-forever-los-dioses-de-zulaman-halloween-y-m%C3%A1s-cosas/80515/1"
     },
     {
       "id": "blizz-1233879",
@@ -422,32 +450,88 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/saca-el-rexxar-que-llevas-dentro-con-este-lote-bestial/80485/1"
     },
     {
-      "id": "blizz-1233588",
-      "postId": 1233588,
-      "topicId": 80484,
+      "id": "blizz-6448865",
+      "postId": 6448865,
+      "topicId": 637232,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-19T23:44:15.046Z",
+      "dateRaw": "2026-10-23T17:07:14.418Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Saca el Rexxar que llevas dentro con este lote bestial",
-        "es": "Saca el Rexxar que llevas dentro con este lote bestial"
+        "en": "Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly",
+        "es": "Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly"
       },
       "summary": {
-        "en": "[Saca el Rexxar que llevas dentro con este lote bestial] El paquete más salvaje lleno de objetos del juego que invocan el espíritu de Rexxar aguarda a tus personajes del World of W...",
-        "es": "[Saca el Rexxar que llevas dentro con este lote bestial] El paquete más salvaje lleno de objetos del juego que invocan el espíritu de Rexxar aguarda a tus personajes del World of W..."
+        "en": "[Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly] From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul&#39;Aman co...",
+        "es": "[Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly] From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul&#39;Aman co..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\" alt=\"Saca el Rexxar que llevas dentro con este lote bestial\" width=\"833\" height=\"468\"></a></p><p>El paquete más salvaje lleno de objetos del juego que invocan el espíritu de Rexxar aguarda a tus personajes del World of Warcraft moderno (actualmente Midnight™). Durante un tiempo limitado, consigue un conjunto de transfiguración, un juguete que da a las mascotas de combate del cazador el aspecto de las fieles mascotas de Rexxar, y un adorno para hogares digno de un maestro de bestias. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310657\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\" alt=\"Saca el Rexxar que llevas dentro con este lote bestial\" width=\"833\" height=\"468\"></a></p><p>El paquete más salvaje lleno de objetos del juego que invocan el espíritu de Rexxar aguarda a tus personajes del World of Warcraft moderno (actualmente Midnight™). Durante un tiempo limitado, consigue un conjunto de transfiguración, un juguete que da a las mascotas de combate del cazador el aspecto de las fieles mascotas de Rexxar, y un adorno para hogares digno de un maestro de bestias. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310657\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul'Aman content update in Burning Crusade Classic Anniversary, this week's news is packed with fresh insights, eerie in-game events, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313106\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul'Aman content update in Burning Crusade Classic Anniversary, this week's news is packed with fresh insights, eerie in-game events, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313106\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/saca-el-rexxar-que-llevas-dentro-con-este-lote-bestial/80484/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/dive-into-wow-forever-the-gods-of-zul%E2%80%99aman-hallow%E2%80%99s-end-and-more-in-wow-weekly/637232/1"
+    },
+    {
+      "id": "blizz-6448847",
+      "postId": 6448847,
+      "topicId": 637228,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-23T17:01:38.625Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Thank You For Testing the WoW Forever Beta",
+        "es": "Thank You For Testing the WoW Forever Beta"
+      },
+      "summary": {
+        "en": "The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback. \nW...",
+        "es": "The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback. \nW..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback.</p>\n<p>We’re now quickly moving into a period of a few short days where we will do some focused work on priority issues and the game service itself, so that it will be in good shape for launch day on November 4.</p>\n<p>And of course, we’ll open access to the character creation system on Tuesday, October 27, allowing everyone plenty of time to <a href=\"https://worldofwarcraft.blizzard.com/news/24302070/\">select the ruleset</a> that will define your journey and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24303866/\">snag the name</a> that best fits your adventurer.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" data-download-href=\"/en/wow/uploads/short-url/poAMBn9JkmIfZye6fTn5WKI67V8.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" alt=\"image\" data-base62-sha1=\"poAMBn9JkmIfZye6fTn5WKI67V8\" width=\"800\" height=\"381\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×381 122 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>You won’t have to wait until the game launches to make these big decisions.</p>\n<p>Also next week, we’re going to continue with our WoW Forever Podcast. If you haven’t consumed it all, this is a great time to catch up with everything the WoW Forever designers have had to say.</p>\n<ul>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-1-unpacking-beta-launch-ft-%E2%80%AAxaryu%E2%80%AC/632917/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 1 - Unpacking Beta Launch ft. ‪@Xaryu‬</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/632918/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/634342/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/635761/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ &amp; ‪@Savixirl</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/637043/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 5 - End of Beta Special</a></li>\n</ul>\n<p>If you can’t get enough WoW Forever info, we’ve got all kinds of details about the game right here on our website. You can learn more about <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24301455\">WoW Forever dungeons here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24301516/\">the Campfire system here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24303009/\">raid details here</a>.</p>\n<p>Again, we’re deeply grateful to have seen so many people find their Forever home, and create new communities, and find friends (old and new) to join on the journey ahead.</p>\n<p>We’re really looking forward to seeing you on November 4! Thank you very much!</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" data-download-href=\"/en/wow/uploads/short-url/gAEYa1KyMvGIJ5P5WRg7RVWThTy.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" alt=\"image\" data-base62-sha1=\"gAEYa1KyMvGIJ5P5WRg7RVWThTy\" width=\"800\" height=\"400\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×400 94.2 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta ahora es closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback.</p>\n<p>We’re now quickly moving into a period of a few short days where we will do some focused work on priority issues and the game service itself, so that it will be in good shape for launch day on November 4.</p>\n<p>And of course, we’ll open access to the character creation system on Tuesday, October 27, allowing everyone plenty of time to <a href=\"https://worldofwarcraft.blizzard.com/news/24302070/\">select the ruleset</a> that will define your journey and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24303866/\">snag the name</a> that best fits your adventurer.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" data-download-href=\"/en/wow/uploads/short-url/poAMBn9JkmIfZye6fTn5WKI67V8.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" alt=\"image\" data-base62-sha1=\"poAMBn9JkmIfZye6fTn5WKI67V8\" width=\"800\" height=\"381\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×381 122 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>You won’t have to wait until the game launches to make these big decisions.</p>\n<p>Also next week, we’re going to continue with our WoW Forever Podcast. If you haven’t consumed it all, this is a great time to catch up with everything the WoW Forever designers have had to say.</p>\n<ul>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-1-unpacking-beta-launch-ft-%E2%80%AAxaryu%E2%80%AC/632917/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 1 - Unpacking Beta Launch ft. ‪@Xaryu‬</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/632918/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/634342/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/635761/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ &amp; ‪@Savixirl</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/637043/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 5 - End of Beta Special</a></li>\n</ul>\n<p>If you can’t get enough WoW Forever info, we’ve got all kinds of details about the game right here on our website. You can learn more about <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24301455\">WoW Forever dungeons here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24301516/\">the Campfire system here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24303009/\">raid details here</a>.</p>\n<p>Again, we’re deeply grateful to have seen so many people find their Forever home, and create new communities, and find friends (old and new) to join on the journey ahead.</p>\n<p>We’re really looking forward to seeing you on November 4! Thank you very much!</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" data-download-href=\"/en/wow/uploads/short-url/gAEYa1KyMvGIJ5P5WRg7RVWThTy.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" alt=\"image\" data-base62-sha1=\"gAEYa1KyMvGIJ5P5WRg7RVWThTy\" width=\"800\" height=\"400\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×400 94.2 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/thank-you-for-testing-the-wow-forever-beta/637228/1"
+    },
+    {
+      "id": "blizz-6448845",
+      "postId": 6448845,
+      "topicId": 637227,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-23T17:00:44.596Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Thank You For Testing the WoW Forever Beta",
+        "es": "Thank You For Testing the WoW Forever Beta"
+      },
+      "summary": {
+        "en": "The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback. \nW...",
+        "es": "The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback. \nW..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback.</p>\n<p>We’re now quickly moving into a period of a few short days where we will do some focused work on priority issues and the game service itself, so that it will be in good shape for launch day on November 4.</p>\n<p>And of course, we’ll open access to the character creation system on Tuesday, October 27, allowing everyone plenty of time to <a href=\"https://worldofwarcraft.blizzard.com/news/24302070/\">select the ruleset</a> that will define your journey and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24303866/\">snag the name</a> that best fits your adventurer.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" data-download-href=\"/en/wow/uploads/short-url/poAMBn9JkmIfZye6fTn5WKI67V8.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" alt=\"image\" data-base62-sha1=\"poAMBn9JkmIfZye6fTn5WKI67V8\" width=\"800\" height=\"381\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×381 122 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>You won’t have to wait until the game launches to make these big decisions.</p>\n<p>Also next week, we’re going to continue with our WoW Forever Podcast. If you haven’t consumed it all, this is a great time to catch up with everything the WoW Forever designers have had to say.</p>\n<ul>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-1-unpacking-beta-launch-ft-%E2%80%AAxaryu%E2%80%AC/632917/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 1 - Unpacking Beta Launch ft. ‪@Xaryu‬</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/632918/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/634342/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/635761/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ &amp; ‪@Savixirl</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/637043/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 5 - End of Beta Special</a></li>\n</ul>\n<p>If you can’t get enough WoW Forever info, we’ve got all kinds of details about the game right here on our website. You can learn more about <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24301455\">WoW Forever dungeons here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24301516/\">the Campfire system here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24303009/\">raid details here</a>.</p>\n<p>Again, we’re deeply grateful to have seen so many people find their Forever home, and create new communities, and find friends (old and new) to join on the journey ahead.</p>\n<p>We’re really looking forward to seeing you on November 4! Thank you very much!</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" data-download-href=\"/en/wow/uploads/short-url/gAEYa1KyMvGIJ5P5WRg7RVWThTy.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" alt=\"image\" data-base62-sha1=\"gAEYa1KyMvGIJ5P5WRg7RVWThTy\" width=\"800\" height=\"400\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×400 94.2 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta ahora es closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback.</p>\n<p>We’re now quickly moving into a period of a few short days where we will do some focused work on priority issues and the game service itself, so that it will be in good shape for launch day on November 4.</p>\n<p>And of course, we’ll open access to the character creation system on Tuesday, October 27, allowing everyone plenty of time to <a href=\"https://worldofwarcraft.blizzard.com/news/24302070/\">select the ruleset</a> that will define your journey and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24303866/\">snag the name</a> that best fits your adventurer.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" data-download-href=\"/en/wow/uploads/short-url/poAMBn9JkmIfZye6fTn5WKI67V8.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" alt=\"image\" data-base62-sha1=\"poAMBn9JkmIfZye6fTn5WKI67V8\" width=\"800\" height=\"381\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×381 122 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>You won’t have to wait until the game launches to make these big decisions.</p>\n<p>Also next week, we’re going to continue with our WoW Forever Podcast. If you haven’t consumed it all, this is a great time to catch up with everything the WoW Forever designers have had to say.</p>\n<ul>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-1-unpacking-beta-launch-ft-%E2%80%AAxaryu%E2%80%AC/632917/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 1 - Unpacking Beta Launch ft. ‪@Xaryu‬</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/632918/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/634342/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/635761/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ &amp; ‪@Savixirl</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/637043/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 5 - End of Beta Special</a></li>\n</ul>\n<p>If you can’t get enough WoW Forever info, we’ve got all kinds of details about the game right here on our website. You can learn more about <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24301455\">WoW Forever dungeons here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24301516/\">the Campfire system here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24303009/\">raid details here</a>.</p>\n<p>Again, we’re deeply grateful to have seen so many people find their Forever home, and create new communities, and find friends (old and new) to join on the journey ahead.</p>\n<p>We’re really looking forward to seeing you on November 4! Thank you very much!</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" data-download-href=\"/en/wow/uploads/short-url/gAEYa1KyMvGIJ5P5WRg7RVWThTy.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" alt=\"image\" data-base62-sha1=\"gAEYa1KyMvGIJ5P5WRg7RVWThTy\" width=\"800\" height=\"400\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×400 94.2 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/thank-you-for-testing-the-wow-forever-beta/637227/1"
     },
     {
       "id": "blizz-6447340",
@@ -588,6 +672,174 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-21-october/635623/22"
+    },
+    {
+      "id": "blizz-30576546",
+      "postId": 30576546,
+      "topicId": 2389502,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Aggrend (WoW Game Developer)",
+      "dateRaw": "2026-10-22T15:33:08.260Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "The Roleplay-PvP Ruleset is Coming to WoW Forever",
+        "es": "The Roleplay-PvP Ruleset is Coming to WoW Forever"
+      },
+      "summary": {
+        "en": "Greetings, \nIn a recent episode of the WoW Forever Podcast we discussed some of our concerns with adding a Roleplay-PVP ruleset in WoW Forever, but we also mentioned that we were s...",
+        "es": "Greetings, \nIn a recent episode of the WoW Forever Podcast we discussed some of our concerns with adding a Roleplay-PVP ruleset in WoW Forever, but we also mentioned that we were s..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Greetings,</p>\n<p>In a recent episode of the WoW Forever Podcast we discussed some of our concerns with adding a Roleplay-PVP ruleset in WoW Forever, but we also mentioned that we were still discussing the topic internally and watching player feedback. Over the last few days, we’ve carefully examined what it would take to add it to WoW Forever and decided to go for it. We will add a Roleplay-PVP Ruleset for launch on November 4.</p>\n<p>We’re also working hard to make it so that you can select the Roleplay-PvP ruleset and reserve names there next week when our Name Reservation period begins on Tuesday, October 27.</p>\n<p>We really appreciate the feedback and comments on this.</p>\n<p>Thank you!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Greetings,</p>\n<p>In a recent episode of the WoW Forever Podcast we discussed some of our concerns with adding a Roleplay-PVP ruleset in WoW Forever, but we also mentioned that we were still discussing the topic internally and watching player feedback. Over the last few days, we’ve carefully examined what it would take to add it to WoW Forever and decided to go for it. We will add a Roleplay-PVP Ruleset for launch on November 4.</p>\n<p>We’re also working hard to make it so that you can select the Roleplay-PvP ruleset and reserve names there next week when our Name Reservation period begins on Tuesday, October 27.</p>\n<p>We really appreciate the feedback and comments on this.</p>\n<p>Thank you!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-roleplay-pvp-ruleset-is-coming-to-wow-forever/2389502/1"
+    },
+    {
+      "id": "blizz-30571231",
+      "postId": 30571231,
+      "topicId": 2389150,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Zorbrix (Game Producer)",
+      "dateRaw": "2026-10-22T01:46:44.190Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Forever Beta Will Return Shortly",
+        "es": "Forever Beta Will Return Shortly"
+      },
+      "summary": {
+        "en": "Good evening folks, \nWe hit a small snag while turning the WoW Forever Beta back online. We’re working right now to get it back. \nIn the meantime, you can speed this up by fully ex...",
+        "es": "Good evening folks, \nWe hit a small snag while turning the WoW Forever Beta back online. We’re working right now to get it back. \nIn the meantime, you can speed this up by fully ex..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Good evening folks,</p>\n<p>We hit a small snag while turning the WoW Forever Beta back online. We’re working right now to get it back.</p>\n<p>In the meantime, you can speed this up by fully exiting the Battle.net Desktop App to force the update to happen manually.</p>\n<p>Thanks!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Good evening folks,</p>\n<p>We hit a small snag while turning the WoW Forever Beta back online. We’re working right now to get it back.</p>\n<p>In the meantime, you can speed this up by fully exiting the Battle.net Desktop App to force the update to happen manually.</p>\n<p>Thanks!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/forever-beta-will-return-shortly/2389150/1"
+    },
+    {
+      "id": "blizz-30571023",
+      "postId": 30571023,
+      "topicId": 2382684,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-10-22T01:35:00.629Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Midnight Hotfixes - October 21",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - October 21"
+      },
+      "summary": {
+        "en": "October 21, 2026 \nLabyrinth \n\nPlayers can now speak to Kinduru in De Empire’s Rest antechamber to leave the labyrinth while on the Kindo’jan scenario.\nFixed an issue where L00T RAI...",
+        "es": "October 21, 2026 \nLabyrinth \n\nPlayers can now speak to Kinduru in De Empire’s Rest antechamber to leave the labyrinth while on the Kindo’jan scenario.\nFixed an issue where L00T Ban..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 21, 2026</strong></p>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Players can now speak to Kinduru in De Empire’s Rest antechamber to leave the labyrinth while on the Kindo’jan scenario.</li>\n<li>Fixed an issue where L00T RAID-R Minis could not be used in a group inside the labyrinth.</li>\n<li>The lever to start the scenario “A Golden Opportunity” in the Labyrinth of Kindo’jan can now be used by players level 80 and above.</li>\n<li>Players can now hold up to 4 stacks of the Carrying a Jan’alai Tear buff at a time (was 1).</li>\n<li>Fixed an issue in the “Returning the Bounty” scenario that could cause the Pit Boss to despawn when it left combat, preventing the scenario from completing.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where the Seriously Sharp Seashell effect from Gebbo’s Bottomless Bag could break stealth and invisibility effects.</li>\n<li>Fixed an issue where Jan’thrazet, the Soul Fang could sometimes fail to trigger reliably from the start of combat for healers.</li>\n<li>Fixed an issue preventing Nebulous Voidcache bonus roll item list previews from updating as items were acquired and removed from consideration. This was only a display issue and did not affect which items a character was eligible for.</li>\n</ul>\n<p><strong>Player versus Player</strong></p>\n<ul>\n<li><strong>Priest</strong>\n<ul>\n<li><strong>Holy</strong>\n<ul>\n<li>Fixed an issue where Sanctified Ground applying to allies would interrupt channeled spells such as Divine Hymn.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 21, 2026</strong></p>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Players can now speak to Kinduru in De Empire’s Rest antechamber to leave the labyrinth while on the Kindo’jan scenario.</li>\n<li>Fixed an issue where L00T RAID-R Minis could not be used in a group inside the labyrinth.</li>\n<li>The lever to start the scenario “A Golden Opportunity” in the Labyrinth of Kindo’jan can now be used by players level 80 and above.</li>\n<li>Players can now hold up to 4 stacks of the Carrying a Jan’alai Tear buff at a time (was 1).</li>\n<li>Fixed an issue in the “Returning the Bounty” scenario that could cause the Pit Boss to despawn when it left combat, preventing the scenario from completing.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where the Seriously Sharp Seashell effect from Gebbo’s Bottomless Bag could break stealth and invisibility effects.</li>\n<li>Fixed an issue where Jan’thrazet, the Soul Fang could sometimes fail to trigger reliably from the start of combat for healers.</li>\n<li>Fixed an issue preventing Nebulous Voidcache bonus roll item list previews from updating as items were acquired and removed from consideration. This was only a display issue and did not affect which items a character was eligible for.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li><strong>SACERDOTE</strong>\n<ul>\n<li><strong>Sagrado</strong>\n<ul>\n<li>Fixed an issue where Sanctified Ground applying to allies would interrupt channeled spells such as Divine Hymn.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-october-21/2382684/120"
+    },
+    {
+      "id": "blizz-30566599",
+      "postId": 30566599,
+      "topicId": 2388798,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-21T20:05:05.797Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Get Up to 50% In Fall Savings Through November 2",
+        "es": "Get Up to 50% In Fall Savings Through November 2"
+      },
+      "summary": {
+        "en": "[Get Up to 50% In Fall Savings Through November 2] Join the autumnal festivities with deals on Midnight, fashionable Transmogs, select Game Services, and more!  View Full Article...",
+        "es": "[Get Up to 50% In Fall Savings Through November 2] Join the autumnal festivities with deals on Midnight, fashionable Transmogs, select Game Services, and more!  View Full Article..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\" alt=\"Get Up to 50% In Fall Savings Through November 2\" width=\"833\" height=\"468\"></a></p><p>Join the autumnal festivities with deals on Midnight, fashionable Transmogs, select Game Services, and more! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313103\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\" alt=\"Get Up to 50% In Fall Savings Through November 2\" width=\"833\" height=\"468\"></a></p><p>Join the autumnal festivities with deals on Midnight, fashionable Transmogs, select Game Services, and more! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313103\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/get-up-to-50-in-fall-savings-through-november-2/2388798/1"
+    },
+    {
+      "id": "blizz-30563956",
+      "postId": 30563956,
+      "topicId": 2388645,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-21T17:02:04.048Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Gather Around the Campfire in World of Warcraft: Forever",
+        "es": "Gather Around the Campfire in World of Warcraft: Forever"
+      },
+      "summary": {
+        "en": "[Gather Around the Campfire in World of Warcraft: Forever] The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gai...",
+        "es": "[Gather Around the Campfire in World of Warcraft: Forever] The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gai..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Gather Around the Campfire in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gain useful benefits from profession-made features. Beginning with the Cooking profession’s Basic Campfire, the system gives adventurers new reasons to prepare together and connect while traveling through Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24301516\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Gather Around the Campfire in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gain useful benefits from profession-made features. Beginning with the Cooking profession’s Basic Campfire, the system gives adventurers new reasons to prepare together and connect while traveling through Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24301516\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/gather-around-the-campfire-in-world-of-warcraft-forever/2388645/1"
+    },
+    {
+      "id": "blizz-1233588",
+      "postId": 1233588,
+      "topicId": 80484,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-19T23:44:15.046Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Saca el Rexxar que llevas dentro con este lote bestial",
+        "es": "Saca el Rexxar que llevas dentro con este lote bestial"
+      },
+      "summary": {
+        "en": "[Saca el Rexxar que llevas dentro con este lote bestial] El paquete más salvaje lleno de objetos del juego que invocan el espíritu de Rexxar aguarda a tus personajes del World of W...",
+        "es": "[Saca el Rexxar que llevas dentro con este lote bestial] El paquete más salvaje lleno de objetos del juego que invocan el espíritu de Rexxar aguarda a tus personajes del World of W..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\" alt=\"Saca el Rexxar que llevas dentro con este lote bestial\" width=\"833\" height=\"468\"></a></p><p>El paquete más salvaje lleno de objetos del juego que invocan el espíritu de Rexxar aguarda a tus personajes del World of Warcraft moderno (actualmente Midnight™). Durante un tiempo limitado, consigue un conjunto de transfiguración, un juguete que da a las mascotas de combate del cazador el aspecto de las fieles mascotas de Rexxar, y un adorno para hogares digno de un maestro de bestias. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310657\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\" alt=\"Saca el Rexxar que llevas dentro con este lote bestial\" width=\"833\" height=\"468\"></a></p><p>El paquete más salvaje lleno de objetos del juego que invocan el espíritu de Rexxar aguarda a tus personajes del World of Warcraft moderno (actualmente Midnight™). Durante un tiempo limitado, consigue un conjunto de transfiguración, un juguete que da a las mascotas de combate del cazador el aspecto de las fieles mascotas de Rexxar, y un adorno para hogares digno de un maestro de bestias. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310657\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/saca-el-rexxar-que-llevas-dentro-con-este-lote-bestial/80484/1"
     },
     {
       "id": "blizz-6445607",
@@ -1148,258 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/fabled-let-me-solo-him-kindojan-achievement-extended-an-additional-week/2387015/1"
-    },
-    {
-      "id": "blizz-1233222",
-      "postId": 1233222,
-      "topicId": 80451,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-16T17:29:57.401Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más",
-        "es": "Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más"
-      },
-      "summary": {
-        "en": "[Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más] Desde los nuevos desafíos en Midnight, un adelanto de lo que nos espera en Ec...",
-        "es": "[Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más] Desde los nuevos desafíos en Midnight, un adelanto de lo que nos espera en Ec..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más\" width=\"833\" height=\"468\"></a></p><p>Desde los nuevos desafíos en Midnight, un adelanto de lo que nos espera en Ecos del Núcleo del Mundo, un repaso a fondo de los paladines y el último pódcast de WoW: Forever, las noticias de esta semana traen información, nuevas recompensas y aventuras por explorar en Azeroth.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313102\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/j2/J202QHM00AG61792108508227.png\" alt=\"Esta semana en WoW: Lo más destacado del 12.1.5 de Midnight, el Núcleo del Mundo, WoW: Forever y más\" width=\"833\" height=\"468\"></a></p><p>Desde los nuevos desafíos en Midnight, un adelanto de lo que nos espera en Ecos del Núcleo del Mundo, un repaso a fondo de los paladines y el último pódcast de WoW: Forever, las noticias de esta semana traen información, nuevas recompensas y aventuras por explorar en Azeroth.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313102\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-lo-m%C3%A1s-destacado-del-1215-de-midnight-el-n%C3%BAcleo-del-mundo-wow-forever-y-m%C3%A1s/80451/1"
-    },
-    {
-      "id": "blizz-1233146",
-      "postId": 1233146,
-      "topicId": 80434,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-15T21:38:32.519Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW Forever: Prueba de estrés el 21 de octubre",
-        "es": "WoW Forever: Prueba de estrés el 21 de octubre"
-      },
-      "summary": {
-        "en": "Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 21 de octubre. \nEse día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, ...",
-        "es": "Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 21 de octubre. \nEse día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 21 de octubre.</p>\n<p>Ese día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, habilitaremos el juego en el hardware regional sobre el que funcionará cuando esté disponible.</p>\n<p>La prueba de estrés comenzará el 21 de octubre a las 19:00 CEST en Europa y a las 14:00 PDT en América y Oceanía. Por otra parte, el 22 de octubre tendrá lugar a las 05:00 en Taipéi y a las 06:00 en Corea.</p>\n<p>Puede participar cualquier jugador con una cuenta de WoW. No hace falta disponer de una suscripción activa.</p>\n<p>Cuando entres en el juego, crea un personaje, completa un par de misiones, intercambia algunos objetos, participa en el chat y forma grupo con otros jugadores para tensionar el juego. Se trata de un evento muy importante, ya que tu participación nos ayudará a descubrir errores que podrían haber ocurrido el día del lanzamiento.</p>\n<p>WoW Forever estará disponible en los reinos de producción unas cuantas horas. Después, cerraremos la prueba de estrés, borraremos todos los personajes* y volveremos a habilitar la beta.</p>\n<blockquote>\n<p>*Se trata de un borrado completo; los nombres y todo lo demás se eliminarán de forma definitiva.</p>\n</blockquote>\n<p>Muchas gracias por acompañarnos. ¡Nos vemos allí!</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\">\n  <header class=\"source\">\n      <img src=\"https://assets-bwa.worldofwarcraft.blizzard.com/static/wow-icon-32x32.1a38d7c1c3d8df560d53f5c2ad5442c0401edf83.png\" class=\"site-icon\" alt=\"\" width=\"32\" height=\"32\">\n\n      <a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">World of Warcraft</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:833/468;\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" class=\"thumbnail\" alt=\"\" width=\"833\" height=\"468\"></div>\n\n<h3><a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">[Actualización 19/10] Únete a la prueba de estrés de World of Warcraft:...</a></h3>\n\n  <p>Se van a abrir las puertas para la prueba de estrés de World of Warcraft: Forever. Durante un tiempo limitado el 21 de octubre, quien lo desee podrá iniciar sesión en World of Warcraft: Forever y ayudarnos a poner a prueba los servidores. Cualquiera...</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Acompáñanos durante la prueba de estrés de WoW Forever que tendrá lugar el 21 de octubre.</p>\n<p>Ese día, lo primero que haremos es desconectar la beta de WoW Forever y, a continuación, habilitaremos el juego en el hardware regional sobre el que funcionará cuando esté disponible.</p>\n<p>La prueba de estrés comenzará el 21 de octubre a las 19:00 CEST en Europa y a las 14:00 PDT en América y Oceanía. Por otra parte, el 22 de octubre tendrá lugar a las 05:00 en Taipéi y a las 06:00 en Corea.</p>\n<p>Puede participar cualquier jugador con una cuenta de WoW. No hace falta disponer de una suscripción activa.</p>\n<p>Cuando entres en el juego, crea un personaje, completa un par de misiones, intercambia algunos objetos, participa en el chat y forma grupo con otros jugadores para tensionar el juego. Se trata de un evento muy importante, ya que tu participación nos ayudará a descubrir errores que podrían haber ocurrido el día del lanzamiento.</p>\n<p>WoW Forever estará disponible en los reinos de producción unas cuantas horas. Después, cerraremos la prueba de estrés, borraremos todos los personajes* y volveremos a habilitar la beta.</p>\n<blockquote>\n<p>*Se trata de un borrado completo; los nombres y todo lo demás se eliminarán de forma definitiva.</p>\n</blockquote>\n<p>Muchas gracias por acompañarnos. ¡Nos vemos allí!</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\">\n  <header class=\"source\">\n      <img src=\"https://assets-bwa.worldofwarcraft.blizzard.com/static/wow-icon-32x32.1a38d7c1c3d8df560d53f5c2ad5442c0401edf83.png\" class=\"site-icon\" alt=\"\" width=\"32\" height=\"32\">\n\n      <a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">World of Warcraft</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"aspect-image\" style=\"--aspect-ratio:833/468;\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/us/US61G7YWRORS1789667898380.png\" class=\"thumbnail\" alt=\"\" width=\"833\" height=\"468\"></div>\n\n<h3><a href=\"https://worldofwarcraft.blizzard.com/es-es/news/24302072\" target=\"_blank\" rel=\"noopener\">[Actualización 19/10] Únete a la prueba de estrés de World of Warcraft:...</a></h3>\n\n  <p>Se van a abrir las puertas para la prueba de estrés de World of Warcraft: Forever. Durante un tiempo limitado el 21 de octubre, quien lo desee podrá iniciar sesión en World of Warcraft: Forever y ayudarnos a poner a prueba los servidores. Cualquiera...</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n</div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/wow-forever-prueba-de-estr%C3%A9s-el-21-de-octubre/80434/1"
-    },
-    {
-      "id": "blizz-6441752",
-      "postId": 6441752,
-      "topicId": 636594,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-19T18:38:22.052Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Fabled Let Me Solo Him: Kindo’jan Achievement Extended an Additional Week",
-        "es": "Fabled Let Me Solo Him: Kindo’jan Achievement Extended an Additional Week"
-      },
-      "summary": {
-        "en": "We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the Fabled Let Me ...",
-        "es": "We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the Fabled Let Me ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the <em>Fabled Let Me Solo Him: Kindo’jan</em> achievement. We have now addressed the vast majority of these bugs, and to accommodate players who may have had their experience impacted in the first week, we are extending the deadline to complete the achievement by an additional week. This gives players the chance to earn this achievement until scheduled weekly maintenance the week of 27 October.</p>\n<p>Good luck conquering Kindo’jan and earning your place among the Fabled Vanquishers!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We acknowledge that there were bugs in the first week of the 12.1.5 content update that impacted the ability to complete Labyrinth runs, including those pursuing the <em>Fabled Let Me Solo Him: Kindo’jan</em> achievement. We have now addressed the vast majority of these bugs, and to accommodate players who may have had their experience impacted in the first week, we are extending the deadline to complete the achievement by an additional week. This gives players the chance to earn this achievement until scheduled weekly maintenance the week of 27 October.</p>\n<p>Good luck conquering Kindo’jan and earning your place among the Fabled Vanquishers!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/fabled-let-me-solo-him-kindo%E2%80%99jan-achievement-extended-an-additional-week/636594/1"
-    },
-    {
-      "id": "blizz-6440671",
-      "postId": 6440671,
-      "topicId": 636509,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-19T09:00:07.325Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Hallow’s End Brings Frights, Delights, and Haunting Rewards",
-        "es": "Hallow’s End Brings Frights, Delights, and Haunting Rewards"
-      },
-      "summary": {
-        "en": "[Hallow’s End Brings Frights, Delights, and Haunting Rewards] Hallow’s End celebrates the Forsaken&#39;s break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth...",
-        "es": "[Hallow’s End Brings Frights, Delights, and Haunting Rewards] Hallow’s End celebrates the Forsaken&#39;s break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Hallow’s End Brings Frights, Delights, and Haunting Rewards\" width=\"833\" height=\"468\"></a></p><p>Hallow’s End celebrates the Forsaken's break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth dole out treats and tricks to those who partake in the festivities. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310656\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Hallow’s End Brings Frights, Delights, and Haunting Rewards\" width=\"833\" height=\"468\"></a></p><p>Hallow’s End celebrates the Forsaken's break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth dole out treats and tricks to those who partake in the festivities. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24310656\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/hallow%E2%80%99s-end-brings-frights-delights-and-haunting-rewards/636509/1"
-    },
-    {
-      "id": "blizz-30537546",
-      "postId": 30537546,
-      "topicId": 2386891,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-19T17:00:08.256Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Hallow’s End Brings Frights, Delights, and Haunting Rewards",
-        "es": "Hallow’s End Brings Frights, Delights, and Haunting Rewards"
-      },
-      "summary": {
-        "en": "[Hallow’s End Brings Frights, Delights, and Haunting Rewards] Hallow’s End celebrates the Forsaken&#39;s break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth...",
-        "es": "[Hallow’s End Brings Frights, Delights, and Haunting Rewards] Hallow’s End celebrates the Forsaken&#39;s break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Hallow’s End Brings Frights, Delights, and Haunting Rewards\" width=\"833\" height=\"468\"></a></p><p>Hallow’s End celebrates the Forsaken's break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth dole out treats and tricks to those who partake in the festivities. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310656\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Hallow’s End Brings Frights, Delights, and Haunting Rewards\" width=\"833\" height=\"468\"></a></p><p>Hallow’s End celebrates the Forsaken's break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth dole out treats and tricks to those who partake in the festivities. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310656\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/hallow%E2%80%99s-end-brings-frights-delights-and-haunting-rewards/2386891/1"
-    },
-    {
-      "id": "blizz-6437558",
-      "postId": 6437558,
-      "topicId": 635623,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-17T01:38:26.533Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - 16 October",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - 16 October"
-      },
-      "summary": {
-        "en": "October 16, 2026 \nDungeons and Raids \n\nMurder Row\n\nAdded a visual indicating the safe zone of a barrel during Murder in a Row.\n\nDevelopers’ notes: Recently, we addressed an issue w...",
-        "es": "October 16, 2026 \nMazmorras and Bandas \n\nMurder Row\n\nAdded a visual indicating the safe zone of a barrel during Murder in a Row.\n\nDevelopers’ notes: Recently, we addressed an issue..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 16, 2026</strong></p>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>Murder Row</strong>\n<ul>\n<li>Added a visual indicating the safe zone of a barrel during Murder in a Row.\n<ul>\n<li><em>Developers’ notes: Recently, we addressed an issue where Zaen Bladesorrow’s Murder in a Row could incorrectly assign a player’s safe spot to a barrel they weren’t hiding behind. With the fix, players must stand closer to a barrel to be protected. To better communicate this change, each barrel will now have a visual indicator showing the radius of the safe area players need to hide behind a barrel during Murder in a Row.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>Fixed an issue where the achievement <em>Watch Out Behind You</em> was unable to be completed by raid groups larger than 20 players.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Labyrinth and Delves</strong></p>\n<ul>\n<li>Fixed an issue with the “Returning the Bounty” scenario in Jan’alai’s Refuge that would occasionally prevent the Pit Boss from spawning in the labyrinth.</li>\n<li>Fixed an issue that caused Valeera’s Stagger to not function when there was a healer present in the delve or labyrinth.</li>\n<li>Fixed an issue that caused the Scar of Kathra’natir damage over time effect to deal more damage to Valeera than intended.</li>\n<li>Fixed a rare issue that could cause players to fall through the map in The Speaker’s Chamber area of The Labyrinth of Kindo’jan.</li>\n<li>The Loa-Blessed Wayfarer mount and Loa-Blessed Victory toy are now granted after completing the labyrinth by speaking with Kinduru if they were forgotten to be looted from the Ancestral Bounty chest before leaving.</li>\n<li>Fixed an issue where some creatures and bosses scaled their health and damage values higher than intended when playing in a group.</li>\n<li>Fixed an issue where Sha’kuro’s Soul Storm could be interrupted before all Unfortunate Souls were defeated, negating the damage window gained from the stun.</li>\n<li>Fixed an issue where L00T RAID-R Mini could only be used once while inside The Labyrinth of Kindo’jan.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 16, 2026</strong></p>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>Murder Row</strong>\n<ul>\n<li>Added a visual indicating the safe zone of a barrel during Murder in a Row.\n<ul>\n<li><em>Developers’ notes: Recently, we addressed an issue where Zaen Bladesorrow’s Murder in a Row could incorrectly assign a player’s safe spot to a barrel they weren’t hiding behind. With the fix, players must stand closer to a barrel to be protected. To better communicate this change, each barrel will now have a visual indicator showing the radius of the safe area players need to hide behind a barrel during Murder in a Row.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>Fixed an issue where the achievement <em>Watch Out Behind You</em> was unable to be completed by raid groups larger than 20 players.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Labyrinth and Delves</strong></p>\n<ul>\n<li>Fixed an issue with the “Returning the Bounty” scenario in Jan’alai’s Refuge that would occasionally prevent the Pit Boss from spawning in the labyrinth.</li>\n<li>Fixed an issue that caused Valeera’s Stagger to not function when there was a healer present in the delve or labyrinth.</li>\n<li>Fixed an issue that caused the Scar of Kathra’natir damage over time effect to deal more damage to Valeera than intended.</li>\n<li>Fixed a rare issue that could cause players to fall through the map in The Speaker’s Chamber area of The Labyrinth of Kindo’jan.</li>\n<li>The Loa-Blessed Wayfarer mount and Loa-Blessed Victory toy are now granted after completing the labyrinth by speaking with Kinduru if they were forgotten to be looted from the Ancestral Bounty chest before leaving.</li>\n<li>Fixed an issue where some creatures and bosses scaled their health and damage values higher than intended when playing in a group.</li>\n<li>Fixed an issue where Sha’kuro’s Soul Storm could be interrupted before all Unfortunate Souls were defeated, negating the damage window gained from the stun.</li>\n<li>Fixed an issue where L00T RAID-R Mini could only be used once while inside The Labyrinth of Kindo’jan.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-16-october/635623/16"
-    },
-    {
-      "id": "blizz-30537545",
-      "postId": 30537545,
-      "topicId": 2386890,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-19T17:00:07.337Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Hallow’s End Brings Frights, Delights, and Haunting Rewards",
-        "es": "Hallow’s End Brings Frights, Delights, and Haunting Rewards"
-      },
-      "summary": {
-        "en": "[Hallow’s End Brings Frights, Delights, and Haunting Rewards] Hallow’s End celebrates the Forsaken&#39;s break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth...",
-        "es": "[Hallow’s End Brings Frights, Delights, and Haunting Rewards] Hallow’s End celebrates the Forsaken&#39;s break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Hallow’s End Brings Frights, Delights, and Haunting Rewards\" width=\"833\" height=\"468\"></a></p><p>Hallow’s End celebrates the Forsaken's break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth dole out treats and tricks to those who partake in the festivities. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310656\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ax/AXLEIXDSCTVG1760483163616.png\" alt=\"Hallow’s End Brings Frights, Delights, and Haunting Rewards\" width=\"833\" height=\"468\"></a></p><p>Hallow’s End celebrates the Forsaken's break from the Scourge. Fun and mischief reign as the Innkeepers of Azeroth dole out treats and tricks to those who partake in the festivities. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24310656\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/hallow%E2%80%99s-end-brings-frights-delights-and-haunting-rewards/2386890/1"
-    },
-    {
-      "id": "blizz-30511207",
-      "postId": 30511207,
-      "topicId": 2382684,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-17T01:38:03.683Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - October 16",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - October 16"
-      },
-      "summary": {
-        "en": "October 16, 2026 \nDungeons and Raids \n\nMurder Row\n\nAdded a visual indicating the safe zone of a barrel during Murder in a Row.\n\nDevelopers’ notes: Recently, we addressed an issue w...",
-        "es": "October 16, 2026 \nMazmorras and Bandas \n\nMurder Row\n\nAdded a visual indicating the safe zone of a barrel during Murder in a Row.\n\nDevelopers’ notes: Recently, we addressed an issue..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 16, 2026</strong></p>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>Murder Row</strong>\n<ul>\n<li>Added a visual indicating the safe zone of a barrel during Murder in a Row.\n<ul>\n<li><em>Developers’ notes: Recently, we addressed an issue where Zaen Bladesorrow’s Murder in a Row could incorrectly assign a player’s safe spot to a barrel they weren’t hiding behind. With the fix, players must stand closer to a barrel to be protected. To better communicate this change, each barrel will now have a visual indicator showing the radius of the safe area players need to hide behind a barrel during Murder in a Row.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>Fixed an issue where the achievement <em>Watch Out Behind You</em> was unable to be completed by raid groups larger than 20 players.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Labyrinth and Delves</strong></p>\n<ul>\n<li>Fixed an issue with the “Returning the Bounty” scenario in Jan’alai’s Refuge that would occasionally prevent the Pit Boss from spawning in the labyrinth.</li>\n<li>Fixed an issue that caused Valeera’s Stagger to not function when there was a healer present in the delve or labyrinth.</li>\n<li>Fixed an issue that caused the Scar of Kathra’natir damage over time effect to deal more damage to Valeera than intended.</li>\n<li>Fixed a rare issue that could cause players to fall through the map in The Speaker’s Chamber area of The Labyrinth of Kindo’jan.</li>\n<li>The Loa-Blessed Wayfarer mount and Loa-Blessed Victory toy are now granted after completing the labyrinth by speaking with Kinduru if they were forgotten to be looted from the Ancestral Bounty chest before leaving.</li>\n<li>Fixed an issue where some creatures and bosses scaled their health and damage values higher than intended when playing in a group.</li>\n<li>Fixed an issue where Sha’kuro’s Soul Storm could be interrupted before all Unfortunate Souls were defeated, negating the damage window gained from the stun.</li>\n<li>Fixed an issue where L00T RAID-R Mini could only be used once while inside The Labyrinth of Kindo’jan.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 16, 2026</strong></p>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>Murder Row</strong>\n<ul>\n<li>Added a visual indicating the safe zone of a barrel during Murder in a Row.\n<ul>\n<li><em>Developers’ notes: Recently, we addressed an issue where Zaen Bladesorrow’s Murder in a Row could incorrectly assign a player’s safe spot to a barrel they weren’t hiding behind. With the fix, players must stand closer to a barrel to be protected. To better communicate this change, each barrel will now have a visual indicator showing the radius of the safe area players need to hide behind a barrel during Murder in a Row.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>Fixed an issue where the achievement <em>Watch Out Behind You</em> was unable to be completed by raid groups larger than 20 players.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Labyrinth and Delves</strong></p>\n<ul>\n<li>Fixed an issue with the “Returning the Bounty” scenario in Jan’alai’s Refuge that would occasionally prevent the Pit Boss from spawning in the labyrinth.</li>\n<li>Fixed an issue that caused Valeera’s Stagger to not function when there was a healer present in the delve or labyrinth.</li>\n<li>Fixed an issue that caused the Scar of Kathra’natir damage over time effect to deal more damage to Valeera than intended.</li>\n<li>Fixed a rare issue that could cause players to fall through the map in The Speaker’s Chamber area of The Labyrinth of Kindo’jan.</li>\n<li>The Loa-Blessed Wayfarer mount and Loa-Blessed Victory toy are now granted after completing the labyrinth by speaking with Kinduru if they were forgotten to be looted from the Ancestral Bounty chest before leaving.</li>\n<li>Fixed an issue where some creatures and bosses scaled their health and damage values higher than intended when playing in a group.</li>\n<li>Fixed an issue where Sha’kuro’s Soul Storm could be interrupted before all Unfortunate Souls were defeated, negating the damage window gained from the stun.</li>\n<li>Fixed an issue where L00T RAID-R Mini could only be used once while inside The Labyrinth of Kindo’jan.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-october-16/2382684/91"
-    },
-    {
-      "id": "blizz-30508865",
-      "postId": 30508865,
-      "topicId": 2385060,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-16T22:05:24.426Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Datamined in the Latest Beta Build",
-        "es": "Datamined in the Latest Beta Build"
-      },
-      "summary": {
-        "en": "A number of art assets were recently datamined in the latest Beta build of WoW Forever. \nWhile we appreciate the feedback and discussion online, please be advised that these assets...",
-        "es": "A number of art assets were recently datamined in the latest Beta build of WoW Forever. \nWhile we appreciate the feedback and discussion online, please be advised that these assets..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>A number of art assets were recently datamined in the latest Beta build of WoW Forever.</p>\n<p>While we appreciate the feedback and discussion online, please be advised that these assets are not intended for this version of World of Warcraft.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>A number of art assets were recently datamined in the latest Beta build of WoW Forever.</p>\n<p>While we appreciate the feedback and discussion online, please be advised that these assets are not intended for this version of World of Warcraft.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/datamined-in-the-latest-beta-build/2385060/1"
     }
   ],
   "blizzardNews": [
