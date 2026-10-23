@@ -216,7 +216,7 @@ function renderResults(topResults, targets, benchmark = { count: 0, duration: 0 
                 <span>${t('metaBadge', 'Meta')}: ${avgMetaSuccessPct}%</span>
               </span>
               ${simVenomstone ? `
-                <span class="text-xs px-2.5 py-0.5 rounded-md bg-emerald-950/90 text-emerald-300 border border-emerald-500/60 font-bold flex items-center gap-1 shadow-sm" title="Ascendant Venomstones applied to eligible slots (Weapons, Trinkets, Neck: Hero 321→328 (+7), Myth 334→340 (+6), Crafted Hero 318→325 (+7), Crafted Myth 331→338 (+7)).">
+                <span class="text-xs px-2.5 py-0.5 rounded-md bg-emerald-950/90 text-emerald-300 border border-emerald-500/60 font-bold flex items-center gap-1 shadow-sm" title="Ascendant Venomstones applied to eligible slots (Weapons, Trinkets, Neck: Hero 321→328 (+7), Myth 334→341 (+7), Crafted Hero 318→325 (+7), Crafted Myth 331→337 (+6)).">
                   <i class="fa-solid fa-flask-vial text-emerald-400 text-[10px]"></i>
                   <span>Venomstones</span>
                 </span>

@@ -264,9 +264,9 @@ function runOptimizer(isManualClick = false) {
     let targetIlvl = baseTargetIlvl;
     if (canUseVenom) {
       if (isCrafted) {
-        targetIlvl = (baseTargetIlvl === 331) ? 338 : 325; // Myth Crafted (+7) or Hero Crafted (+7)
+        targetIlvl = (baseTargetIlvl === 331) ? 337 : 325; // Myth Crafted (+6) or Hero Crafted (+7)
       } else if (itemTrack === 'myth') {
-        targetIlvl = 340; // Myth 6/6 (334 -> 340, +6)
+        targetIlvl = 341; // Myth 6/6 (334 -> 341, +7)
       } else if (itemTrack === 'hero') {
         targetIlvl = 328; // Hero 6/6 (321 -> 328, +7)
       } else {
