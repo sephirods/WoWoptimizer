@@ -534,34 +534,6 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/join-in-the-talebound-demo-on-30-october/637603/1"
     },
     {
-      "id": "blizz-6453156",
-      "postId": 6453156,
-      "topicId": 637602,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-26T18:00:10.673Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Join in WoW: Midnight’s Talebound Demo on October 30",
-        "es": "Join in WoW: Midnight’s Talebound Demo on October 30"
-      },
-      "summary": {
-        "en": "[Join in WoW: Midnight’s Talebound Demo on October 30] Take the Talebound demo for a spooky spin on the Player Test Realm (PTR) and experience the Red Hollow introduction, three ee...",
-        "es": "[Join in WoW: Midnight’s Talebound Demo on October 30] Take the Talebound demo for a spooky spin on the Player Test Realm (PTR) and experience the Red Hollow introduction, three ee..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\" alt=\"Join in WoW: Midnight’s Talebound Demo on October 30\" width=\"833\" height=\"468\"></a></p><p>Take the Talebound demo for a spooky spin on the Player Test Realm (PTR) and experience the Red Hollow introduction, three eerie tales across Normal, Veteran, and Heroic difficulties, and all three classes: Slayer, Inquisitor, and Witch. No subscription is required to take part.</p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313107\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\" alt=\"Join in WoW: Midnight’s Talebound Demo on October 30\" width=\"833\" height=\"468\"></a></p><p>Take the Talebound demo for a spooky spin on the Player Test Realm (PTR) and experience the Red Hollow introduction, three eerie tales across Normal, Veteran, and Heroic difficulties, and all three classes: Slayer, Inquisitor, and Witch. No subscription is required to take part.</p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313107\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/join-in-wow-midnight%E2%80%99s-talebound-demo-on-october-30/637602/1"
-    },
-    {
       "id": "blizz-6453081",
       "postId": 6453081,
       "topicId": 637597,
@@ -674,34 +646,6 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/dive-into-wow-forever-the-gods-of-zul%E2%80%99aman-hallow%E2%80%99s-end-and-more-in-wow-weekly/637232/1"
     },
     {
-      "id": "blizz-30590970",
-      "postId": 30590970,
-      "topicId": 2390477,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-23T17:05:04.071Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Watch the World of Warcraft: Midnight Motion Comic, “Singularity”",
-        "es": "Watch the World of Warcraft: Midnight Motion Comic, “Singularity”"
-      },
-      "summary": {
-        "en": "[Watch the World of Warcraft: Midnight Motion Comic, “Singularity”] Join Arator Windrunner as he ventures into the depths of the Void with the aid of his mentor, Umbric, in search ...",
-        "es": "[Watch the World of Warcraft: Midnight Motion Comic, “Singularity”] Join Arator Windrunner as he ventures into the depths of the Void with the aid of his mentor, Umbric, in search ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1g/1GCMTDVAFL9L1792536096865.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1g/1GCMTDVAFL9L1792536096865.png\" alt=\"Watch the World of Warcraft: Midnight Motion Comic, “Singularity”\" width=\"833\" height=\"468\"></a></p><p>Join Arator Windrunner as he ventures into the depths of the Void with the aid of his mentor, Umbric, in search of clues about his missing parents' fate. Along the way, he must learn to confront the Void without losing himself to it. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313104\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1g/1GCMTDVAFL9L1792536096865.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1g/1GCMTDVAFL9L1792536096865.png\" alt=\"Watch the World of Warcraft: Midnight Motion Comic, “Singularity”\" width=\"833\" height=\"468\"></a></p><p>Join Arator Windrunner as he ventures into the depths of the Void with the aid of his mentor, Umbric, in search of clues about his missing parents' fate. Along the way, he must learn to confront the Void without losing himself to it. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313104\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/watch-the-world-of-warcraft-midnight-motion-comic-%E2%80%9Csingularity%E2%80%9D/2390477/1"
-    },
-    {
       "id": "blizz-6448847",
       "postId": 6448847,
       "topicId": 637228,
@@ -728,6 +672,62 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/thank-you-for-testing-the-wow-forever-beta/637228/1"
+    },
+    {
+      "id": "blizz-6453156",
+      "postId": 6453156,
+      "topicId": 637602,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-26T18:00:10.673Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Join in WoW: Midnight’s Talebound Demo on October 30",
+        "es": "Join in WoW: Midnight’s Talebound Demo on October 30"
+      },
+      "summary": {
+        "en": "[Join in WoW: Midnight’s Talebound Demo on October 30] Take the Talebound demo for a spooky spin on the Player Test Realm (PTR) and experience the Red Hollow introduction, three ee...",
+        "es": "[Join in WoW: Midnight’s Talebound Demo on October 30] Take the Talebound demo for a spooky spin on the Player Test Realm (PTR) and experience the Red Hollow introduction, three ee..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\" alt=\"Join in WoW: Midnight’s Talebound Demo on October 30\" width=\"833\" height=\"468\"></a></p><p>Take the Talebound demo for a spooky spin on the Player Test Realm (PTR) and experience the Red Hollow introduction, three eerie tales across Normal, Veteran, and Heroic difficulties, and all three classes: Slayer, Inquisitor, and Witch. No subscription is required to take part.</p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313107\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\" alt=\"Join in WoW: Midnight’s Talebound Demo on October 30\" width=\"833\" height=\"468\"></a></p><p>Take the Talebound demo for a spooky spin on the Player Test Realm (PTR) and experience the Red Hollow introduction, three eerie tales across Normal, Veteran, and Heroic difficulties, and all three classes: Slayer, Inquisitor, and Witch. No subscription is required to take part.</p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313107\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/join-in-wow-midnight%E2%80%99s-talebound-demo-on-october-30/637602/1"
+    },
+    {
+      "id": "blizz-30590970",
+      "postId": 30590970,
+      "topicId": 2390477,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-23T17:05:04.071Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Watch the World of Warcraft: Midnight Motion Comic, “Singularity”",
+        "es": "Watch the World of Warcraft: Midnight Motion Comic, “Singularity”"
+      },
+      "summary": {
+        "en": "[Watch the World of Warcraft: Midnight Motion Comic, “Singularity”] Join Arator Windrunner as he ventures into the depths of the Void with the aid of his mentor, Umbric, in search ...",
+        "es": "[Watch the World of Warcraft: Midnight Motion Comic, “Singularity”] Join Arator Windrunner as he ventures into the depths of the Void with the aid of his mentor, Umbric, in search ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1g/1GCMTDVAFL9L1792536096865.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1g/1GCMTDVAFL9L1792536096865.png\" alt=\"Watch the World of Warcraft: Midnight Motion Comic, “Singularity”\" width=\"833\" height=\"468\"></a></p><p>Join Arator Windrunner as he ventures into the depths of the Void with the aid of his mentor, Umbric, in search of clues about his missing parents' fate. Along the way, he must learn to confront the Void without losing himself to it. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313104\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1g/1GCMTDVAFL9L1792536096865.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1g/1GCMTDVAFL9L1792536096865.png\" alt=\"Watch the World of Warcraft: Midnight Motion Comic, “Singularity”\" width=\"833\" height=\"468\"></a></p><p>Join Arator Windrunner as he ventures into the depths of the Void with the aid of his mentor, Umbric, in search of clues about his missing parents' fate. Along the way, he must learn to confront the Void without losing himself to it. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313104\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/watch-the-world-of-warcraft-midnight-motion-comic-%E2%80%9Csingularity%E2%80%9D/2390477/1"
     },
     {
       "id": "blizz-30590883",
