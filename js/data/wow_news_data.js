@@ -1407,12 +1407,12 @@ window.WOW_NEWS_DATABASE = {
       "id": "blizz-24303866",
       "source": "blizzard",
       "author": "Blizzard Entertainment",
-      "dateRaw": "20 de octubre de 2026",
+      "dateRaw": "27 de octubre de 2026",
       "category": "Oficial",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
         "en": "Claim Your World of Warcraft: Forever Character Names",
-        "es": "Reserva el nombre de tus personajes en World of Warcraft: Forever"
+        "es": "¡La reserva de nombre anticipada de World of Warcraft: Forever ya está disponible!"
       },
       "summary": {
         "en": "Early Name Reservations for World of Warcraft: Forever are available from October 27 through November 3, giving players an opportunity to secure the names that will become part of ...",
