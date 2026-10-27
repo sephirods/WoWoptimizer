@@ -2,6 +2,146 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30644593",
+      "postId": 30644593,
+      "topicId": 2394005,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-27T21:52:26.003Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Gold Transactions Must Be Direct",
+        "es": "Gold Transactions Must Be Direct"
+      },
+      "summary": {
+        "en": "We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the ...",
+        "es": "We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the accounts actioned purchased the illicit gold and had the seller deliver it to a different player who provided a service to the purchaser, such as a raid carry.</p>\n<p>Please be reminded that gold received from an intermediate player has an extremely high likelihood of being illicit gold that was part of an RMT. To avoid actions such as account suspension and the removal of illicit gold, players should always directly transfer gold from the player buying the carry (or other activity) to the player providing the carry.</p>\n<p>Guilds that provide carries to players, who pay for them with gold that comes from an intermediate, are at risk of seeing that gold removed by Blizzard.</p>\n<p>Thank you very much!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the accounts actioned purchased the illicit gold and had the seller deliver it to a different player who provided a service to the purchaser, such as a raid carry.</p>\n<p>Please be reminded that gold received from an intermediate player has an extremely high likelihood of being illicit gold that was part of an RMT. To avoid actions such as account suspension and the removal of illicit gold, players should always directly transfer gold from the player buying the carry (or other activity) to the player providing the carry.</p>\n<p>Guilds that provide carries to players, who pay for them with gold that comes from an intermediate, are at risk of seeing that gold removed by Blizzard.</p>\n<p>Thank you very much!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/gold-transactions-must-be-direct/2394005/1"
+    },
+    {
+      "id": "blizz-30640021",
+      "postId": 30640021,
+      "topicId": 2393487,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-27T20:14:19.238Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!",
+        "es": "Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!"
+      },
+      "summary": {
+        "en": "[Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!] Bring the haunting spirit of the sea home with the Grimtide collection for World of Warcra...",
+        "es": "[Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!] Bring the haunting spirit of the sea home with the Grimtide collection for World of Warcra..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\" alt=\"Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!\" width=\"833\" height=\"468\"></a></p><p>Bring the haunting spirit of the sea home with the Grimtide collection for World of Warcraft Housing, featuring the Spirited Grimtide Manse exterior, Spirited Grimtide Foyer interior, and a coordinated pack of eerie nautical decor. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24303011\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\" alt=\"Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!\" width=\"833\" height=\"468\"></a></p><p>Bring the haunting spirit of the sea home with the Grimtide collection for World of Warcraft Housing, featuring the Spirited Grimtide Manse exterior, Spirited Grimtide Foyer interior, and a coordinated pack of eerie nautical decor. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24303011\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/bring-the-spirit-of-the-sea-home-with-the-new-grimtide-estate-and-grimtide-decor-packs/2393487/1"
+    },
+    {
+      "id": "blizz-30639364",
+      "postId": 30639364,
+      "topicId": 2393431,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-27T20:02:47.505Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Name Reservation Issue for Oceanic Players",
+        "es": "Name Reservation Issue for Oceanic Players"
+      },
+      "summary": {
+        "en": "Attention Oceanic players connecting to Australian-based servers! \nDue to a bug, you must create any characters on Roleplay or Roleplay-PvP rulesets before creating characters on N...",
+        "es": "Attention Oceanic players connecting to Australian-based servers! \nDue to a bug, you must create any characters on Roleplay or Roleplay-PvP rulesets before creating characters on N..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Attention Oceanic players connecting to Australian-based servers!</p>\n<p>Due to a bug, you must create any characters on Roleplay or Roleplay-PvP rulesets before creating characters on Normal or PvP rulesets.</p>\n<p>If you first create a character on the Normal or PvP ruleset, the Roleplay and Roleplay-PvP rulesets will no longer be available for subsequent characters.</p>\n<p>This issue should only be present for players in the Oceanic region who are connecting to Australian servers, and we’re working on a fix for it urgently.</p>\n<p>Thank you!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Attention Oceanic players connecting to Australian-based servers!</p>\n<p>Due to a bug, you must create any characters on Roleplay or Roleplay-PvP rulesets before creating characters on Normal or PvP rulesets.</p>\n<p>If you first create a character on the Normal or PvP ruleset, the Roleplay and Roleplay-PvP rulesets will no longer be available for subsequent characters.</p>\n<p>This issue should only be present for players in the Oceanic region who are connecting to Australian servers, and we’re working on a fix for it urgently.</p>\n<p>Thank you!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/name-reservation-issue-for-oceanic-players/2393431/1"
+    },
+    {
+      "id": "blizz-30638690",
+      "postId": 30638690,
+      "topicId": 2393388,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-27T19:30:27.238Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Add the Living Heartsbane Cauldron Mount to your Collection",
+        "es": "Add the Living Heartsbane Cauldron Mount to your Collection"
+      },
+      "summary": {
+        "en": "[Add the Living Heartsbane Cauldron Mount to your Collection] Take command of this cursed creation and ride across Azeroth in wicked style. The Living Heartsbane Cauldron is a deli...",
+        "es": "[Add the Living Heartsbane Cauldron Mount to your Collection] Take command of this cursed creation and ride across Azeroth in wicked style. The Living Heartsbane Cauldron is a deli..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PRFWH5SKOR1792810102145.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PRFWH5SKOR1792810102145.png\" alt=\"Add the Living Heartsbane Cauldron Mount to your Collection\" width=\"833\" height=\"468\"></a></p><p>Take command of this cursed creation and ride across Azeroth in wicked style. The Living Heartsbane Cauldron is a delightfully macabre mount, ready to whisk you into adventures by ground or sky. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24304164\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PRFWH5SKOR1792810102145.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PRFWH5SKOR1792810102145.png\" alt=\"Add the Living Heartsbane Cauldron Mount to your Collection\" width=\"833\" height=\"468\"></a></p><p>Take command of this cursed creation and ride across Azeroth in wicked style. The Living Heartsbane Cauldron is a delightfully macabre mount, ready to whisk you into adventures by ground or sky. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24304164\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/add-the-living-heartsbane-cauldron-mount-to-your-collection/2393388/1"
+    },
+    {
+      "id": "blizz-30638185",
+      "postId": 30638185,
+      "topicId": 2393349,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-27T19:00:06.426Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Your Next Adventure in WoW: Forever Starts in the WoW Portal Room",
+        "es": "Your Next Adventure in WoW: Forever Starts in the WoW Portal Room"
+      },
+      "summary": {
+        "en": "[Your Next Adventure in WoW: Forever Starts in the WoW Portal Room] Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for yea...",
+        "es": "[Your Next Adventure in WoW: Forever Starts in the WoW Portal Room] Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for yea..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\" alt=\"Your Next Adventure in WoW: Forever Starts in the WoW Portal Room\" width=\"833\" height=\"468\"></a></p><p>Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for years, the WoW Portal Room is a welcoming Discord server where you can meet fellow adventurers and find your next community. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315203\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\" alt=\"Your Next Adventure in WoW: Forever Starts in the WoW Portal Room\" width=\"833\" height=\"468\"></a></p><p>Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for years, the WoW Portal Room is a welcoming Discord server where you can meet fellow adventurers and find your next community. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315203\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/your-next-adventure-in-wow-forever-starts-in-the-wow-portal-room/2393349/1"
+    },
+    {
       "id": "blizz-30634848",
       "postId": 30634848,
       "topicId": 2360696,
@@ -84,6 +224,454 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-26/2360696/7"
+    },
+    {
+      "id": "blizz-1234534",
+      "postId": 1234534,
+      "topicId": 80585,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-27T20:15:13.822Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos…",
+        "es": "¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos…"
+      },
+      "summary": {
+        "en": "[¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos de Mareasombría!] Deja que el mortificador espíritu del mar inunde tu hogar con...",
+        "es": "[¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos de Mareasombría!] Deja que el mortificador espíritu del mar inunde tu hogar con..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\" alt=\"¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos de Mareasombría!\" width=\"833\" height=\"468\"></a></p><p>Deja que el mortificador espíritu del mar inunde tu hogar con la colección Mareasombría para los hogares de World of Warcraft, que incluye el exterior de mansión embrujada de Mareasombría, el interior de vestíbulo embrujado de Mareasombría y un pack a juego de adornos náuticos inquietantes. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303011\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\" alt=\"¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos de Mareasombría!\" width=\"833\" height=\"468\"></a></p><p>Deja que el mortificador espíritu del mar inunde tu hogar con la colección Mareasombría para los hogares de World of Warcraft, que incluye el exterior de mansión embrujada de Mareasombría, el interior de vestíbulo embrujado de Mareasombría y un pack a juego de adornos náuticos inquietantes. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303011\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1inunda-tu-hogar-con-el-esp%C3%ADritu-del-mar-gracias-a-la-hacienda-de-mareasombr%C3%ADa-y-el-pack-de-adornos%E2%80%A6/80585/1"
+    },
+    {
+      "id": "blizz-1234533",
+      "postId": 1234533,
+      "topicId": 80584,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-27T20:15:13.324Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos…",
+        "es": "¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos…"
+      },
+      "summary": {
+        "en": "[¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos…] Deja que el mortificador espíritu del mar inunde tu hogar con la colección Ma...",
+        "es": "[¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos…] Deja que el mortificador espíritu del mar inunde tu hogar con la colección Ma..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\" alt=\"¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos…\" width=\"833\" height=\"468\"></a></p><p>Deja que el mortificador espíritu del mar inunde tu hogar con la colección Mareasombría para los hogares de World of Warcraft, que incluye el exterior de mansión embrujada de Mareasombría, el interior de vestíbulo embrujado de Mareasombría y un pack a juego de adornos náuticos inquietantes. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303011\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\" alt=\"¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos…\" width=\"833\" height=\"468\"></a></p><p>Deja que el mortificador espíritu del mar inunde tu hogar con la colección Mareasombría para los hogares de World of Warcraft, que incluye el exterior de mansión embrujada de Mareasombría, el interior de vestíbulo embrujado de Mareasombría y un pack a juego de adornos náuticos inquietantes. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303011\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1inunda-tu-hogar-con-el-esp%C3%ADritu-del-mar-gracias-a-la-hacienda-de-mareasombr%C3%ADa-y-el-pack-de-adornos%E2%80%A6/80584/1"
+    },
+    {
+      "id": "blizz-1234493",
+      "postId": 1234493,
+      "topicId": 80581,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-27T19:32:29.144Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Añade la montura caldera viviente Aterracorazón a tu colección",
+        "es": "Añade la montura caldera viviente Aterracorazón a tu colección"
+      },
+      "summary": {
+        "en": "[Añade la montura caldera viviente Aterracorazón a tu colección] Domina esta creación maldita y recorre toda Azeroth con un estilo siniestro. La caldera viviente Aterracorazón es u...",
+        "es": "[Añade la montura caldera viviente Aterracorazón a tu colección] Domina esta creación maldita y recorre toda Azeroth con un estilo siniestro. La caldera viviente Aterracorazón es u..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PRFWH5SKOR1792810102145.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PRFWH5SKOR1792810102145.png\" alt=\"Añade la montura caldera viviente Aterracorazón a tu colección\" width=\"833\" height=\"468\"></a></p><p>Domina esta creación maldita y recorre toda Azeroth con un estilo siniestro. La caldera viviente Aterracorazón es una montura encantadoramente macabra y te llevará a tus aventuras por tierra o aire. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304164\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PRFWH5SKOR1792810102145.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PRFWH5SKOR1792810102145.png\" alt=\"Añade la montura caldera viviente Aterracorazón a tu colección\" width=\"833\" height=\"468\"></a></p><p>Domina esta creación maldita y recorre toda Azeroth con un estilo siniestro. La caldera viviente Aterracorazón es una montura encantadoramente macabra y te llevará a tus aventuras por tierra o aire. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304164\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/a%C3%B1ade-la-montura-caldera-viviente-aterracoraz%C3%B3n-a-tu-colecci%C3%B3n/80581/1"
+    },
+    {
+      "id": "blizz-1234458",
+      "postId": 1234458,
+      "topicId": 80577,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-27T19:00:11.289Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Tu próxima aventura en WoW: Forever comienza en WoW Portal Room",
+        "es": "Tu próxima aventura en WoW: Forever comienza en WoW Portal Room"
+      },
+      "summary": {
+        "en": "[Tu próxima aventura en WoW: Forever comienza en WoW Portal Room] Tanto si acabas de llegar a Azeroth, has vuelto tras un descanso o llevas años con World of Warcraft como parte de...",
+        "es": "[Tu próxima aventura en WoW: Forever comienza en WoW Portal Room] Tanto si acabas de llegar a Azeroth, has vuelto tras un descanso o llevas años con World of Warcraft como parte de..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\" alt=\"Tu próxima aventura en WoW: Forever comienza en WoW Portal Room\" width=\"833\" height=\"468\"></a></p><p>Tanto si acabas de llegar a Azeroth, has vuelto tras un descanso o llevas años con World of Warcraft como parte de tu vida, WoW Portal Room es un acogedor servidor de Discord donde podrás conocer a otros aventureros y encontrar tu próxima comunidad. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315203\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\" alt=\"Tu próxima aventura en WoW: Forever comienza en WoW Portal Room\" width=\"833\" height=\"468\"></a></p><p>Tanto si acabas de llegar a Azeroth, has vuelto tras un descanso o llevas años con World of Warcraft como parte de tu vida, WoW Portal Room es un acogedor servidor de Discord donde podrás conocer a otros aventureros y encontrar tu próxima comunidad. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315203\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/tu-pr%C3%B3xima-aventura-en-wow-forever-comienza-en-wow-portal-room/80577/1"
+    },
+    {
+      "id": "blizz-1234238",
+      "postId": 1234238,
+      "topicId": 80551,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-26T18:00:11.405Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Únete a la demo de Historias de leyenda el 30 de octubre",
+        "es": "Únete a la demo de Historias de leyenda el 30 de octubre"
+      },
+      "summary": {
+        "en": "[Únete a la demo de Historias de leyenda el 30 de octubre] Prueba la demo de Historias de leyenda en el Reino Público de Pruebas (RPP) y vive la presentación de la Hondonada Roja, ...",
+        "es": "[Únete a la demo de Historias de leyenda el 30 de octubre] Prueba la demo de Historias de leyenda en el Reino Público de Pruebas (RPP) y vive la presentación de la Hondonada Roja, ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\" alt=\"Únete a la demo de Historias de leyenda el 30 de octubre\" width=\"833\" height=\"468\"></a></p><p>Prueba la demo de Historias de leyenda en el Reino Público de Pruebas (RPP) y vive la presentación de la Hondonada Roja, tres inquietantes historias en los niveles de dificultad normal, veterano y heroico, y las tres clases disponibles: asesino, inquisidor y bruja. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313107\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\" alt=\"Únete a la demo de Historias de leyenda el 30 de octubre\" width=\"833\" height=\"468\"></a></p><p>Prueba la demo de Historias de leyenda en el Reino Público de Pruebas (RPP) y vive la presentación de la Hondonada Roja, tres inquietantes historias en los niveles de dificultad normal, veterano y heroico, y las tres clases disponibles: asesino, inquisidor y bruja. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313107\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C3%BAnete-a-la-demo-de-historias-de-leyenda-el-30-de-octubre/80551/1"
+    },
+    {
+      "id": "blizz-1234232",
+      "postId": 1234232,
+      "topicId": 80550,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-26T17:07:45.642Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "No te pierdas el relato corto «Inquebrantable» de WoW: Forever",
+        "es": "No te pierdas el relato corto «Inquebrantable» de WoW: Forever"
+      },
+      "summary": {
+        "en": "[No te pierdas el relato corto «Inquebrantable» de WoW: Forever] ¿Los Renegados pueden servir a la Luz? Acompaña a Cormack, un cruzado caído, en un nuevo relato corto que contaremo...",
+        "es": "[No te pierdas el relato corto «Inquebrantable» de WoW: Forever] ¿Los Renegados pueden servir a la Luz? Acompaña a Cormack, un cruzado caído, en un nuevo relato corto que contaremo..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/a6/A6472MJY97H41792605774727.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/a6/A6472MJY97H41792605774727.png\" alt=\"No te pierdas el relato corto «Inquebrantable» de WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>¿Los Renegados pueden servir a la Luz? Acompaña a Cormack, un cruzado caído, en un nuevo relato corto que contaremos junto a la hoguera: «Inquebrantable».\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313105\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/a6/A6472MJY97H41792605774727.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/a6/A6472MJY97H41792605774727.png\" alt=\"No te pierdas el relato corto «Inquebrantable» de WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>¿Los Renegados pueden servir a la Luz? Acompaña a Cormack, un cruzado caído, en un nuevo relato corto que contaremos junto a la hoguera: «Inquebrantable».\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313105\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/no-te-pierdas-el-relato-corto-%C2%ABinquebrantable%C2%BB-de-wow-forever/80550/1"
+    },
+    {
+      "id": "blizz-1234001",
+      "postId": 1234001,
+      "topicId": 80515,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-23T17:07:38.271Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas",
+        "es": "Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas"
+      },
+      "summary": {
+        "en": "[Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul&#39;Aman, Halloween y más cosas] Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de ...",
+        "es": "[Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul&#39;Aman, Halloween y más cosas] Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas\" width=\"833\" height=\"468\"></a></p><p>Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de la actualización de contenido Los dioses de Zul'Aman en los reinos del aniversario de Burning Crusade Classic, las novedades de esta semana vienen cargadas de información, espeluznantes eventos en el juego, recompensas nuevas y aventuras por descubrir en Azeroth.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313106\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas\" width=\"833\" height=\"468\"></a></p><p>Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de la actualización de contenido Los dioses de Zul'Aman en los reinos del aniversario de Burning Crusade Classic, las novedades de esta semana vienen cargadas de información, espeluznantes eventos en el juego, recompensas nuevas y aventuras por descubrir en Azeroth.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313106\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-ad%C3%A9ntrate-en-wow-forever-los-dioses-de-zulaman-halloween-y-m%C3%A1s-cosas/80515/1"
+    },
+    {
+      "id": "blizz-1233879",
+      "postId": 1233879,
+      "topicId": 80506,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-22T16:16:42.192Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "¡Adéntrate en el especial del fin de la beta!",
+        "es": "¡Adéntrate en el especial del fin de la beta!"
+      },
+      "summary": {
+        "en": "[¡Adéntrate en el especial del fin de la beta!] Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Meeix en su charla con el diseñado...",
+        "es": "[¡Adéntrate en el especial del fin de la beta!] Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Meeix en su charla con el diseñado..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/hd/HD8MEDATQVMY1792624954092.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/hd/HD8MEDATQVMY1792624954092.png\" alt=\"¡Adéntrate en el especial del fin de la beta!\" width=\"833\" height=\"468\"></a></p><p>Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Meeix en su charla con el diseñador sénior del juego Josh «Aggrend» Greenfield, el director adjunto de producción Clay Stone, la ingeniera jefa de software Ana Resendez y el diseñador jefe de encuentros Michael Nuthals en este episodio especial.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302577\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/hd/HD8MEDATQVMY1792624954092.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/hd/HD8MEDATQVMY1792624954092.png\" alt=\"¡Adéntrate en el especial del fin de la beta!\" width=\"833\" height=\"468\"></a></p><p>Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Meeix en su charla con el diseñador sénior del juego Josh «Aggrend» Greenfield, el director adjunto de producción Clay Stone, la ingeniera jefa de software Ana Resendez y el diseñador jefe de encuentros Michael Nuthals en este episodio especial.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302577\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1ad%C3%A9ntrate-en-el-especial-del-fin-de-la-beta/80506/1"
+    },
+    {
+      "id": "blizz-6458976",
+      "postId": 6458976,
+      "topicId": 638111,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-27T21:53:17.565Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Gold Transactions Must Be Direct",
+        "es": "Gold Transactions Must Be Direct"
+      },
+      "summary": {
+        "en": "We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the ...",
+        "es": "We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the accounts actioned purchased the illicit gold and had the seller deliver it to a different player who provided a service to the purchaser, such as a raid carry.</p>\n<p>Please be reminded that gold received from an intermediate player has an extremely high likelihood of being illicit gold that was part of an RMT. To avoid actions such as account suspension and the removal of illicit gold, players should always directly transfer gold from the player buying the carry (or other activity) to the player providing the carry.</p>\n<p>Guilds that provide carries to players, who pay for them with gold that comes from an intermediate, are at risk of seeing that gold removed by Blizzard.</p>\n<p>Thank you very much!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the accounts actioned purchased the illicit gold and had the seller deliver it to a different player who provided a service to the purchaser, such as a raid carry.</p>\n<p>Please be reminded that gold received from an intermediate player has an extremely high likelihood of being illicit gold that was part of an RMT. To avoid actions such as account suspension and the removal of illicit gold, players should always directly transfer gold from the player buying the carry (or other activity) to the player providing the carry.</p>\n<p>Guilds that provide carries to players, who pay for them with gold that comes from an intermediate, are at risk of seeing that gold removed by Blizzard.</p>\n<p>Thank you very much!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/gold-transactions-must-be-direct/638111/1"
+    },
+    {
+      "id": "blizz-6458043",
+      "postId": 6458043,
+      "topicId": 638041,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-27T20:15:09.813Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!",
+        "es": "Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!"
+      },
+      "summary": {
+        "en": "[Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!] Bring the haunting spirit of the sea home with the Grimtide collection for World of Warcra...",
+        "es": "[Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!] Bring the haunting spirit of the sea home with the Grimtide collection for World of Warcra..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\" alt=\"Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!\" width=\"833\" height=\"468\"></a></p><p>Bring the haunting spirit of the sea home with the Grimtide collection for World of Warcraft Housing, featuring the Spirited Grimtide Manse exterior, Spirited Grimtide Foyer interior, and a coordinated pack of eerie nautical decor. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24303011\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\" alt=\"Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!\" width=\"833\" height=\"468\"></a></p><p>Bring the haunting spirit of the sea home with the Grimtide collection for World of Warcraft Housing, featuring the Spirited Grimtide Manse exterior, Spirited Grimtide Foyer interior, and a coordinated pack of eerie nautical decor. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24303011\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/bring-the-spirit-of-the-sea-home-with-the-new-grimtide-estate-and-grimtide-decor-packs/638041/1"
+    },
+    {
+      "id": "blizz-6457345",
+      "postId": 6457345,
+      "topicId": 637974,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-27T19:29:57.672Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Add the Living Heartsbane Cauldron Mount to your Collection",
+        "es": "Add the Living Heartsbane Cauldron Mount to your Collection"
+      },
+      "summary": {
+        "en": "[Add the Living Heartsbane Cauldron Mount to your Collection] Take command of this cursed creation and ride across Azeroth in wicked style. The Living Heartsbane Cauldron is a deli...",
+        "es": "[Add the Living Heartsbane Cauldron Mount to your Collection] Take command of this cursed creation and ride across Azeroth in wicked style. The Living Heartsbane Cauldron is a deli..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PRFWH5SKOR1792810102145.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PRFWH5SKOR1792810102145.png\" alt=\"Add the Living Heartsbane Cauldron Mount to your Collection\" width=\"833\" height=\"468\"></a></p><p>Take command of this cursed creation and ride across Azeroth in wicked style. The Living Heartsbane Cauldron is a delightfully macabre mount, ready to whisk you into adventures by ground or sky. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304164\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PRFWH5SKOR1792810102145.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PRFWH5SKOR1792810102145.png\" alt=\"Add the Living Heartsbane Cauldron Mount to your Collection\" width=\"833\" height=\"468\"></a></p><p>Take command of this cursed creation and ride across Azeroth in wicked style. The Living Heartsbane Cauldron is a delightfully macabre mount, ready to whisk you into adventures by ground or sky. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24304164\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/add-the-living-heartsbane-cauldron-mount-to-your-collection/637974/1"
+    },
+    {
+      "id": "blizz-6456813",
+      "postId": 6456813,
+      "topicId": 637932,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-27T19:00:16.897Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Your Next Adventure in WoW: Forever Starts in the WoW Portal Room",
+        "es": "Your Next Adventure in WoW: Forever Starts in the WoW Portal Room"
+      },
+      "summary": {
+        "en": "[Your Next Adventure in WoW: Forever Starts in the WoW Portal Room] Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for yea...",
+        "es": "[Your Next Adventure in WoW: Forever Starts in the WoW Portal Room] Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for yea..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\" alt=\"Your Next Adventure in WoW: Forever Starts in the WoW Portal Room\" width=\"833\" height=\"468\"></a></p><p>Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for years, the WoW Portal Room is a welcoming Discord server where you can meet fellow adventurers and find your next community. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24315203\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\" alt=\"Your Next Adventure in WoW: Forever Starts in the WoW Portal Room\" width=\"833\" height=\"468\"></a></p><p>Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for years, the WoW Portal Room is a welcoming Discord server where you can meet fellow adventurers and find your next community. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24315203\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/your-next-adventure-in-wow-forever-starts-in-the-wow-portal-room/637932/1"
+    },
+    {
+      "id": "blizz-6454754",
+      "postId": 6454754,
+      "topicId": 631316,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-27T15:37:57.836Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW Forever Beta Development Notes – Updated 26 October",
+        "es": "WoW Forever Beta Development Notes – Updated 26 October"
+      },
+      "summary": {
+        "en": "We’ve updated the previous post in this thread with some additions that were intended to be listed. \nAdditional updates to Racial Abilities and Talents include: \nOrc \n\nBlood Fury’s...",
+        "es": "We’ve updated the previous post in this thread with some additions that were intended to be listed. \nAdditional updates to Racial Abilities and Talents include: \nOrc \n\nBlood Fury’s..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve updated the previous post in this thread with some additions that were intended to be listed.</p>\n<p>Additional updates to Racial Abilities and Talents include:</p>\n<p><strong>Orc</strong></p>\n<ul>\n<li>Blood Fury’s cooldown reduced to 2 minutes (was 3 minutes).</li>\n</ul>\n<p><strong>Troll</strong></p>\n<ul>\n<li>Berserking duration increased to 15 seconds (was 10 seconds).</li>\n</ul>\n<p><strong>Undead</strong></p>\n<ul>\n<li>Touch of the Grave internal cooldown reduced to 15 seconds (was 25 seconds).</li>\n</ul>\n<p>We’d also like to clarify that for Skyborne:</p>\n<ul>\n<li>Charged persists through death, <em>and is removed upon entering a raid.</em></li>\n<li>Attuned persists through death, <em>and is removed upon entering a raid.</em></li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve updated the previous post in this thread with some additions that were intended to be listed.</p>\n<p>Additional updates to Racial Abilities and Talents include:</p>\n<p><strong>Orc</strong></p>\n<ul>\n<li>Sangre Furia’s cooldown reduced to 2 minutes (was 3 minutes).</li>\n</ul>\n<p><strong>Troll</strong></p>\n<ul>\n<li>Berserking duration increased to 15 seconds (was 10 seconds).</li>\n</ul>\n<p><strong>Undead</strong></p>\n<ul>\n<li>Touch of the Grave internal cooldown reduced to 15 seconds (was 25 seconds).</li>\n</ul>\n<p>We’d also like to clarify that for Skyborne:</p>\n<ul>\n<li>Charged persists through death, <em>and is removed upon entering a raid.</em></li>\n<li>Attuned persists through death, <em>and is removed upon entering a raid.</em></li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-26-october/631316/8"
+    },
+    {
+      "id": "blizz-6453844",
+      "postId": 6453844,
+      "topicId": 635623,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-10-27T01:01:29.756Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Midnight Hotfixes - 26 October",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - 26 October"
+      },
+      "summary": {
+        "en": "October 26, 2026 \nClasses \n\nShaman\n\nEnhancement\n\nResolved an issue causing Voltaic Blaze to not hit secondary targets when Ula’tek is the main target.\n\n\n\n\nWarlock\n\nAffliction\n\nFixe...",
+        "es": "October 26, 2026 \nClasses \n\nShaman\n\nEnhancement\n\nResolved an issue causing Voltaic Blaze to not hit secondary targets when Ula’tek is the main target.\n\n\n\n\nWarlock\n\nAffliction\n\nFixe..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 26, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>Shaman</strong>\n<ul>\n<li><strong>Enhancement</strong>\n<ul>\n<li>Resolved an issue causing Voltaic Blaze to not hit secondary targets when Ula’tek is the main target.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Warlock</strong>\n<ul>\n<li><strong>Affliction</strong>\n<ul>\n<li>Fixed an issue where the Cooldown Manager would sometimes not display Summon Darkglare correctly.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Hallow’s End</strong></p>\n<ul>\n<li><strong>Neighborhoods</strong>\n<ul>\n<li>Now only one chest will spawn when capturing Shade of Seabreaker Skoloth.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue in “The Wandering” scenario that would cause the Remnant to stop moving for a moment when additional players walked in and out of the spirits tether proximity.</li>\n<li>Fixed an issue in the “Containment Breach” scenario where re-igniting a single Flame of Jan’alai brazier counted twice toward the “Flames Relit” objective.</li>\n<li>Fixed an issue that would sometimes cause the “Come to Your Senses” bonus objective to complete multiple times outside the “Encroaching Darkness” scenario.</li>\n</ul>\n<p><strong>Player versus Player</strong></p>\n<ul>\n<li><strong>Paladin</strong>\n<ul>\n<li><strong>Holy</strong>\n<ul>\n<li>Fixed an issue that caused Spreading the Word to place Cleanse on cooldown when casting Blessing of Protection.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 26, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li><strong>Mejora</strong>\n<ul>\n<li>Resolved an issue causing Voltaic Blaze to not hit secondary targets when Ula’tek is the main target.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>BRUJO</strong>\n<ul>\n<li><strong>Aflicción</strong>\n<ul>\n<li>Fixed an issue where the Cooldown Manager would sometimes not display Summon Darkglare correctly.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Hallow’s End</strong></p>\n<ul>\n<li><strong>Neighborhoods</strong>\n<ul>\n<li>Now only one chest will spawn when capturing Shade of Seabreaker Skoloth.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue in “The Wandering” scenario that would cause the Remnant to stop moving for a moment when additional players walked in and out of the spirits tether proximity.</li>\n<li>Fixed an issue in the “Containment Breach” scenario where re-igniting a single Flame of Jan’alai brazier counted twice toward the “Flames Relit” objective.</li>\n<li>Fixed an issue that would sometimes cause the “Come to Your Senses” bonus objective to complete multiple times outside the “Encroaching Darkness” scenario.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li><strong>PALADÍN</strong>\n<ul>\n<li><strong>Sagrado</strong>\n<ul>\n<li>Fixed an issue that caused Spreading the Word to place Cleanse on cooldown when casting Blessing of Protección.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-26-october/635623/26"
+    },
+    {
+      "id": "blizz-6453379",
+      "postId": 6453379,
+      "topicId": 631316,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-26T20:35:53.629Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW Forever Beta Development Notes – Updated 26 October",
+        "es": "WoW Forever Beta Development Notes – Updated 26 October"
+      },
+      "summary": {
+        "en": "As we approach the launch of WoW Forever, we’ve been reflecting on feedback we’ve heard on racial abilities and passive traits: Some players have expressed that some of the new rac...",
+        "es": "As we approach the launch of WoW Forever, we’ve been reflecting on feedback we’ve heard on racial abilities and passive traits: Some players have expressed that some of the new rac..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>As we approach the launch of WoW Forever, we’ve been reflecting on feedback we’ve heard on racial abilities and passive traits: Some players have expressed that some of the new racial traits feel too generic, while others have raised concerns that some are objectively stronger than others.</p>\n<p>In taking a final pass on these, we’ve prioritized racial identity, which means that some races will naturally be slightly more effective than others at certain combat roles. In some places where we had replaced role- or class-focused racials with generic ones, we’re rolling those changes back. One exception to this is the weapon specialization racials, like humans’ Sword Specialization or orcs’ Axe Specialization. While those have a strong fantasy component to them, it is not healthy in the long run for future raid and dungeon loot tables to be evaluated through the lens of “required” weapon types.</p>\n<p>At the same time, we’re doing a tuning pass on some of the remaining passive bonuses to help ensure that they aren’t skewing outcomes in a way that limits player preferences.</p>\n<h2><a name=\"p-6453379-racial-abilities-and-traits-1\" class=\"anchor\" href=\"#p-6453379-racial-abilities-and-traits-1\" aria-label=\"Heading link\"></a>Racial Abilities and Traits</h2>\n<ul>\n<li><strong>Human</strong>\n<ul>\n<li>Ruthless now increases critical chance by 1% (was 2%).</li>\n<li>Human Spirit now increases Spirit by 10% (was 5%).</li>\n</ul>\n</li>\n<li><strong>Dwarf</strong>\n<ul>\n<li>Earth Fury (2% increased critical strike damage and healing) removed.</li>\n<li>Added: Artisan’s Precision - Increases hit chance with spells and attacks by 1%.</li>\n</ul>\n</li>\n<li><strong>Tauren</strong>\n<ul>\n<li>Plainsrunning now grants 2% movement speed per stack (was 1%), for a total max increase of 60% (was 30%).</li>\n<li>Plainsrunning no longer increases mounted movement speed.</li>\n<li>Endurance no longer provides any modifiers beyond 5% increased Health (no hit chance or critical damage modifiers).</li>\n</ul>\n</li>\n<li><strong>Orc</strong>\n<ul>\n<li>Savage removed (1% increased critical strike chance).</li>\n<li>Command re-added, increasing Warlock and Hunter pet damage by 5%.</li>\n<li>Blood Fury’s cooldown reduced to 2 minutes (was 3 minutes).</li>\n</ul>\n</li>\n<li><strong>Troll</strong>\n<ul>\n<li>Berserking duration increased to 15 seconds (was 10 seconds).</li>\n</ul>\n</li>\n<li><strong>Undead</strong>\n<ul>\n<li>Touch of the Grave internal cooldown reduced to 15 seconds (was 25 seconds).</li>\n</ul>\n</li>\n<li><strong>Skyborne</strong>\n<ul>\n<li>Wind-Blessed Haste bonus reduced to 2% (was 3%).</li>\n<li>Read Leyline now increases Mana and Health regeneration by 50% (was 100%), with a 15-second duration. This ability cannot be used while Innervate is active, and will be replaced by Innervate as a more powerful effect.</li>\n<li>Using Read Leyline at a Ley Line now also grants “Attuned” for 1 hour. While Attuned, the benefit of Read Leyline is increased to 100% regeneration increase. Attuned persists through death, and is removed upon entering a raid.</li>\n<li>Skysight is now a 15% increased movement speed (was 10%), with a 15-second duration.</li>\n<li>Using Skysight at an elemental convergence now also grants “Charged” for 1 hour. While Charged, the benefit of Skysight is a 30% movement speed increase. Charged persists through death, and is removed upon entering a raid.</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>As we approach the launch of WoW Forever, we’ve been reflecting on feedback we’ve heard on racial abilities and passive traits: Some players have expressed that some of the new racial traits feel too generic, while others have raised concerns that some are objectively stronger than others.</p>\n<p>In taking a final pass on these, we’ve prioritized racial identity, which means that some races will naturally be slightly more effective than others at certain combat roles. In some places where we had replaced role- or class-focused racials with generic ones, we’re rolling those changes back. One exception to this is the weapon specialization racials, like humans’ Sword Specialization or orcs’ Axe Specialization. While those have a strong fantasy component to them, it is not healthy in the long run for future raid and dungeon loot tables to be evaluated through the lens of “required” weapon types.</p>\n<p>At the same time, we’re doing a tuning pass on some of the remaining passive bonuses to help ensure that they aren’t skewing outcomes in a way that limits player preferences.</p>\n<h2><a name=\"p-6453379-racial-abilities-and-traits-1\" class=\"anchor\" href=\"#p-6453379-racial-abilities-and-traits-1\" aria-label=\"Heading link\"></a>Racial Abilities and Traits</h2>\n<ul>\n<li><strong>Human</strong>\n<ul>\n<li>Ruthless ahora aumenta critical chance by 1% (antes era 2%).</li>\n<li>Human Spirit ahora aumenta Spirit by 10% (antes era 5%).</li>\n</ul>\n</li>\n<li><strong>Dwarf</strong>\n<ul>\n<li>Earth Furia (2% increased critical strike damage and healing) removed.</li>\n<li>Added: Artisan’s Precision - Increases hit chance with spells and attacks by 1%.</li>\n</ul>\n</li>\n<li><strong>Tauren</strong>\n<ul>\n<li>Plainsrunning now grants 2% movement speed per stack (antes era 1%), for a total max increase of 60% (antes era 30%).</li>\n<li>Plainsrunning no longer increases mounted movement speed.</li>\n<li>Endurance no longer provides any modifiers beyond 5% increased Health (no hit chance or critical damage modifiers).</li>\n</ul>\n</li>\n<li><strong>Orc</strong>\n<ul>\n<li>Savage removed (1% increased critical strike chance).</li>\n<li>Command re-added, increasing Warlock and Hunter pet damage by 5%.</li>\n<li>Sangre Furia’s cooldown reduced to 2 minutes (was 3 minutes).</li>\n</ul>\n</li>\n<li><strong>Troll</strong>\n<ul>\n<li>Berserking duration increased to 15 seconds (was 10 seconds).</li>\n</ul>\n</li>\n<li><strong>Undead</strong>\n<ul>\n<li>Touch of the Grave internal cooldown reduced to 15 seconds (was 25 seconds).</li>\n</ul>\n</li>\n<li><strong>Skyborne</strong>\n<ul>\n<li>Wind-Blessed Haste bonus reduced to 2% (antes era 3%).</li>\n<li>Read Leyline ahora aumenta Mana and Health regeneration by 50% (antes era 100%), with a 15-second duration. This ability cannot be used while Innervate is active, and will be replaced by Innervate as a more powerful effect.</li>\n<li>Using Read Leyline at a Ley Line now also grants “Attuned” for 1 hour. While Attuned, the benefit of Read Leyline is increased to 100% regeneration increase. Attuned persists through death, and is removed upon entering a raid.</li>\n<li>Skysight ahora es a 15% increased movement speed (antes era 10%), with a 15-second duration.</li>\n<li>Using Skysight at an elemental convergence now also grants “Charged” for 1 hour. While Charged, the benefit of Skysight is a 30% movement speed increase. Charged persists through death, and is removed upon entering a raid.</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-26-october/631316/7"
+    },
+    {
+      "id": "blizz-6453157",
+      "postId": 6453157,
+      "topicId": 637603,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-26T18:00:11.217Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Join in the Talebound Demo on 30 October",
+        "es": "Join in the Talebound Demo on 30 October"
+      },
+      "summary": {
+        "en": "[Join in the Talebound Demo on 30 October] Take the Talebound demo for a spooky spin on the Player Test Realm (PTR) and experience the Red Hollow introduction, three eerie tales ac...",
+        "es": "[Join in the Talebound Demo on 30 October] Take the Talebound demo for a spooky spin on the Player Test Realm (PTR) and experience the Red Hollow introduction, three eerie tales ac..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\" alt=\"Join in the Talebound Demo on 30 October\" width=\"833\" height=\"468\"></a></p><p>Take the Talebound demo for a spooky spin on the Player Test Realm (PTR) and experience the Red Hollow introduction, three eerie tales across Normal, Veteran, and Heroic difficulties, and all three classes: Slayer, Inquisitor, and Witch. No subscription is required to take part. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313107\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\" alt=\"Join in the Talebound Demo on 30 October\" width=\"833\" height=\"468\"></a></p><p>Take the Talebound demo for a spooky spin on the Player Test Realm (PTR) and experience the Red Hollow introduction, three eerie tales across Normal, Veteran, and Heroic difficulties, and all three classes: Slayer, Inquisitor, and Witch. No subscription is required to take part. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313107\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/join-in-the-talebound-demo-on-30-october/637603/1"
     },
     {
       "id": "blizz-30623027",
@@ -226,118 +814,6 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/dive-into-wow-forever-the-gods-of-zul%E2%80%99aman-hallow%E2%80%99s-end-and-more-in-wow-weekly/2390481/1"
     },
     {
-      "id": "blizz-1234238",
-      "postId": 1234238,
-      "topicId": 80551,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-26T18:00:11.405Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Únete a la demo de Historias de leyenda el 30 de octubre",
-        "es": "Únete a la demo de Historias de leyenda el 30 de octubre"
-      },
-      "summary": {
-        "en": "[Únete a la demo de Historias de leyenda el 30 de octubre] Prueba la demo de Historias de leyenda en el Reino Público de Pruebas (RPP) y vive la presentación de la Hondonada Roja, ...",
-        "es": "[Únete a la demo de Historias de leyenda el 30 de octubre] Prueba la demo de Historias de leyenda en el Reino Público de Pruebas (RPP) y vive la presentación de la Hondonada Roja, ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\" alt=\"Únete a la demo de Historias de leyenda el 30 de octubre\" width=\"833\" height=\"468\"></a></p><p>Prueba la demo de Historias de leyenda en el Reino Público de Pruebas (RPP) y vive la presentación de la Hondonada Roja, tres inquietantes historias en los niveles de dificultad normal, veterano y heroico, y las tres clases disponibles: asesino, inquisidor y bruja. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313107\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\" alt=\"Únete a la demo de Historias de leyenda el 30 de octubre\" width=\"833\" height=\"468\"></a></p><p>Prueba la demo de Historias de leyenda en el Reino Público de Pruebas (RPP) y vive la presentación de la Hondonada Roja, tres inquietantes historias en los niveles de dificultad normal, veterano y heroico, y las tres clases disponibles: asesino, inquisidor y bruja. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313107\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C3%BAnete-a-la-demo-de-historias-de-leyenda-el-30-de-octubre/80551/1"
-    },
-    {
-      "id": "blizz-1234232",
-      "postId": 1234232,
-      "topicId": 80550,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-26T17:07:45.642Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "No te pierdas el relato corto «Inquebrantable» de WoW: Forever",
-        "es": "No te pierdas el relato corto «Inquebrantable» de WoW: Forever"
-      },
-      "summary": {
-        "en": "[No te pierdas el relato corto «Inquebrantable» de WoW: Forever] ¿Los Renegados pueden servir a la Luz? Acompaña a Cormack, un cruzado caído, en un nuevo relato corto que contaremo...",
-        "es": "[No te pierdas el relato corto «Inquebrantable» de WoW: Forever] ¿Los Renegados pueden servir a la Luz? Acompaña a Cormack, un cruzado caído, en un nuevo relato corto que contaremo..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/a6/A6472MJY97H41792605774727.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/a6/A6472MJY97H41792605774727.png\" alt=\"No te pierdas el relato corto «Inquebrantable» de WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>¿Los Renegados pueden servir a la Luz? Acompaña a Cormack, un cruzado caído, en un nuevo relato corto que contaremos junto a la hoguera: «Inquebrantable».\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313105\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/a6/A6472MJY97H41792605774727.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/a6/A6472MJY97H41792605774727.png\" alt=\"No te pierdas el relato corto «Inquebrantable» de WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>¿Los Renegados pueden servir a la Luz? Acompaña a Cormack, un cruzado caído, en un nuevo relato corto que contaremos junto a la hoguera: «Inquebrantable».\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313105\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/no-te-pierdas-el-relato-corto-%C2%ABinquebrantable%C2%BB-de-wow-forever/80550/1"
-    },
-    {
-      "id": "blizz-1234001",
-      "postId": 1234001,
-      "topicId": 80515,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-23T17:07:38.271Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas",
-        "es": "Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas"
-      },
-      "summary": {
-        "en": "[Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul&#39;Aman, Halloween y más cosas] Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de ...",
-        "es": "[Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul&#39;Aman, Halloween y más cosas] Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas\" width=\"833\" height=\"468\"></a></p><p>Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de la actualización de contenido Los dioses de Zul'Aman en los reinos del aniversario de Burning Crusade Classic, las novedades de esta semana vienen cargadas de información, espeluznantes eventos en el juego, recompensas nuevas y aventuras por descubrir en Azeroth.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313106\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas\" width=\"833\" height=\"468\"></a></p><p>Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de la actualización de contenido Los dioses de Zul'Aman en los reinos del aniversario de Burning Crusade Classic, las novedades de esta semana vienen cargadas de información, espeluznantes eventos en el juego, recompensas nuevas y aventuras por descubrir en Azeroth.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313106\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-ad%C3%A9ntrate-en-wow-forever-los-dioses-de-zulaman-halloween-y-m%C3%A1s-cosas/80515/1"
-    },
-    {
-      "id": "blizz-1233879",
-      "postId": 1233879,
-      "topicId": 80506,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-22T16:16:42.192Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "¡Adéntrate en el especial del fin de la beta!",
-        "es": "¡Adéntrate en el especial del fin de la beta!"
-      },
-      "summary": {
-        "en": "[¡Adéntrate en el especial del fin de la beta!] Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Meeix en su charla con el diseñado...",
-        "es": "[¡Adéntrate en el especial del fin de la beta!] Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Meeix en su charla con el diseñado..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/hd/HD8MEDATQVMY1792624954092.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/hd/HD8MEDATQVMY1792624954092.png\" alt=\"¡Adéntrate en el especial del fin de la beta!\" width=\"833\" height=\"468\"></a></p><p>Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Meeix en su charla con el diseñador sénior del juego Josh «Aggrend» Greenfield, el director adjunto de producción Clay Stone, la ingeniera jefa de software Ana Resendez y el diseñador jefe de encuentros Michael Nuthals en este episodio especial.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302577\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/hd/HD8MEDATQVMY1792624954092.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/hd/HD8MEDATQVMY1792624954092.png\" alt=\"¡Adéntrate en el especial del fin de la beta!\" width=\"833\" height=\"468\"></a></p><p>Acompaña al presentador del pódcast de WoW: Forever, Countdown To Classic, y al invitado especial Meeix en su charla con el diseñador sénior del juego Josh «Aggrend» Greenfield, el director adjunto de producción Clay Stone, la ingeniera jefa de software Ana Resendez y el diseñador jefe de encuentros Michael Nuthals en este episodio especial.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24302577\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1ad%C3%A9ntrate-en-el-especial-del-fin-de-la-beta/80506/1"
-    },
-    {
       "id": "blizz-1233776",
       "postId": 1233776,
       "topicId": 80498,
@@ -448,118 +924,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/resumen-de-las-bandas-de-world-of-warcraft-forever-ubicaciones-tama%C3%B1o-de-las-bandas-y%E2%80%A6/80488/1"
-    },
-    {
-      "id": "blizz-6454754",
-      "postId": 6454754,
-      "topicId": 631316,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-27T15:37:57.836Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW Forever Beta Development Notes – Updated 26 October",
-        "es": "WoW Forever Beta Development Notes – Updated 26 October"
-      },
-      "summary": {
-        "en": "We’ve updated the previous post in this thread with some additions that were intended to be listed. \nAdditional updates to Racial Abilities and Talents include: \nOrc \n\nBlood Fury’s...",
-        "es": "We’ve updated the previous post in this thread with some additions that were intended to be listed. \nAdditional updates to Racial Abilities and Talents include: \nOrc \n\nBlood Fury’s..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">We’ve updated the previous post in this thread with some additions that were intended to be listed. \nAdditional updates to Racial Abilities and Talents include: \nOrc \n\nBlood Fury’s cooldown reduced to 2 minutes (was 3 minutes).\n\nTroll \n\nBerserking duration increased to 15 seconds (was 10 seconds).\n\nU&hellip;</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">We’ve updated the previous post in this thread with some additions that were intended to be listed. \nAdditional updates to Racial Abilities and Talents include: \nOrc \n\nSangre Furia’s cooldown reduced to 2 minutes (was 3 minutes).\n\nTroll \n\nBerserking duration increased to 15 seconds (was 10 seconds).\n\nU&hellip;</div>"
-      },
-      "hasFullContent": false,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-26-october/631316/8"
-    },
-    {
-      "id": "blizz-6453844",
-      "postId": 6453844,
-      "topicId": 635623,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-27T01:01:29.756Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - 26 October",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - 26 October"
-      },
-      "summary": {
-        "en": "October 26, 2026 \nClasses \n\nShaman\n\nEnhancement\n\nResolved an issue causing Voltaic Blaze to not hit secondary targets when Ula’tek is the main target.\n\n\n\n\nWarlock\n\nAffliction\n\nFixe...",
-        "es": "October 26, 2026 \nClasses \n\nShaman\n\nEnhancement\n\nResolved an issue causing Voltaic Blaze to not hit secondary targets when Ula’tek is the main target.\n\n\n\n\nWarlock\n\nAffliction\n\nFixe..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">October 26, 2026 \nClasses \n\nShaman\n\nEnhancement\n\nResolved an issue causing Voltaic Blaze to not hit secondary targets when Ula’tek is the main target.\n\n\n\n\nWarlock\n\nAffliction\n\nFixed an issue where the Cooldown Manager would sometimes not display Summon Darkglare correctly.\n\n\n\n\n\nHallow’s End \n\nNeighb&hellip;</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">October 26, 2026 \nClasses \n\nShaman\n\nMejora\n\nResolved an issue causing Voltaic Blaze to not hit secondary targets when Ula’tek is the main target.\n\n\n\n\nWarlock\n\nAflicción\n\nFixed an issue where the Cooldown Manager would sometimes not display Summon Darkglare correctly.\n\n\n\n\n\nHallow’s End \n\nNeighb&hellip;</div>"
-      },
-      "hasFullContent": false,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-26-october/635623/26"
-    },
-    {
-      "id": "blizz-6453379",
-      "postId": 6453379,
-      "topicId": 631316,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-26T20:35:53.629Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW Forever Beta Development Notes – Updated 26 October",
-        "es": "WoW Forever Beta Development Notes – Updated 26 October"
-      },
-      "summary": {
-        "en": "As we approach the launch of WoW Forever, we’ve been reflecting on feedback we’ve heard on racial abilities and passive traits: Some players have expressed that some of the new rac...",
-        "es": "As we approach the launch of WoW Forever, we’ve been reflecting on feedback we’ve heard on racial abilities and passive traits: Some players have expressed that some of the new rac..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>As we approach the launch of WoW Forever, we’ve been reflecting on feedback we’ve heard on racial abilities and passive traits: Some players have expressed that some of the new racial traits feel too generic, while others have raised concerns that some are objectively stronger than others.</p>\n<p>In taking a final pass on these, we’ve prioritized racial identity, which means that some races will naturally be slightly more effective than others at certain combat roles. In some places where we had replaced role- or class-focused racials with generic ones, we’re rolling those changes back. One exception to this is the weapon specialization racials, like humans’ Sword Specialization or orcs’ Axe Specialization. While those have a strong fantasy component to them, it is not healthy in the long run for future raid and dungeon loot tables to be evaluated through the lens of “required” weapon types.</p>\n<p>At the same time, we’re doing a tuning pass on some of the remaining passive bonuses to help ensure that they aren’t skewing outcomes in a way that limits player preferences.</p>\n<h2><a name=\"p-6453379-racial-abilities-and-traits-1\" class=\"anchor\" href=\"#p-6453379-racial-abilities-and-traits-1\" aria-label=\"Heading link\"></a>Racial Abilities and Traits</h2>\n<ul>\n<li><strong>Human</strong>\n<ul>\n<li>Ruthless now increases critical chance by 1% (was 2%).</li>\n<li>Human Spirit now increases Spirit by 10% (was 5%).</li>\n</ul>\n</li>\n<li><strong>Dwarf</strong>\n<ul>\n<li>Earth Fury (2% increased critical strike damage and healing) removed.</li>\n<li>Added: Artisan’s Precision - Increases hit chance with spells and attacks by 1%.</li>\n</ul>\n</li>\n<li><strong>Tauren</strong>\n<ul>\n<li>Plainsrunning now grants 2% movement speed per stack (was 1%), for a total max increase of 60% (was 30%).</li>\n<li>Plainsrunning no longer increases mounted movement speed.</li>\n<li>Endurance no longer provides any modifiers beyond 5% increased Health (no hit chance or critical damage modifiers).</li>\n</ul>\n</li>\n<li><strong>Orc</strong>\n<ul>\n<li>Savage removed (1% increased critical strike chance).</li>\n<li>Command re-added, increasing Warlock and Hunter pet damage by 5%.</li>\n<li>Blood Fury’s cooldown reduced to 2 minutes (was 3 minutes).</li>\n</ul>\n</li>\n<li><strong>Troll</strong>\n<ul>\n<li>Berserking duration increased to 15 seconds (was 10 seconds).</li>\n</ul>\n</li>\n<li><strong>Undead</strong>\n<ul>\n<li>Touch of the Grave internal cooldown reduced to 15 seconds (was 25 seconds).</li>\n</ul>\n</li>\n<li><strong>Skyborne</strong>\n<ul>\n<li>Wind-Blessed Haste bonus reduced to 2% (was 3%).</li>\n<li>Read Leyline now increases Mana and Health regeneration by 50% (was 100%), with a 15-second duration. This ability cannot be used while Innervate is active, and will be replaced by Innervate as a more powerful effect.</li>\n<li>Using Read Leyline at a Ley Line now also grants “Attuned” for 1 hour. While Attuned, the benefit of Read Leyline is increased to 100% regeneration increase. Attuned persists through death, and is removed upon entering a raid.</li>\n<li>Skysight is now a 15% increased movement speed (was 10%), with a 15-second duration.</li>\n<li>Using Skysight at an elemental convergence now also grants “Charged” for 1 hour. While Charged, the benefit of Skysight is a 30% movement speed increase. Charged persists through death, and is removed upon entering a raid.</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>As we approach the launch of WoW Forever, we’ve been reflecting on feedback we’ve heard on racial abilities and passive traits: Some players have expressed that some of the new racial traits feel too generic, while others have raised concerns that some are objectively stronger than others.</p>\n<p>In taking a final pass on these, we’ve prioritized racial identity, which means that some races will naturally be slightly more effective than others at certain combat roles. In some places where we had replaced role- or class-focused racials with generic ones, we’re rolling those changes back. One exception to this is the weapon specialization racials, like humans’ Sword Specialization or orcs’ Axe Specialization. While those have a strong fantasy component to them, it is not healthy in the long run for future raid and dungeon loot tables to be evaluated through the lens of “required” weapon types.</p>\n<p>At the same time, we’re doing a tuning pass on some of the remaining passive bonuses to help ensure that they aren’t skewing outcomes in a way that limits player preferences.</p>\n<h2><a name=\"p-6453379-racial-abilities-and-traits-1\" class=\"anchor\" href=\"#p-6453379-racial-abilities-and-traits-1\" aria-label=\"Heading link\"></a>Racial Abilities and Traits</h2>\n<ul>\n<li><strong>Human</strong>\n<ul>\n<li>Ruthless ahora aumenta critical chance by 1% (antes era 2%).</li>\n<li>Human Spirit ahora aumenta Spirit by 10% (antes era 5%).</li>\n</ul>\n</li>\n<li><strong>Dwarf</strong>\n<ul>\n<li>Earth Furia (2% increased critical strike damage and healing) removed.</li>\n<li>Added: Artisan’s Precision - Increases hit chance with spells and attacks by 1%.</li>\n</ul>\n</li>\n<li><strong>Tauren</strong>\n<ul>\n<li>Plainsrunning now grants 2% movement speed per stack (antes era 1%), for a total max increase of 60% (antes era 30%).</li>\n<li>Plainsrunning no longer increases mounted movement speed.</li>\n<li>Endurance no longer provides any modifiers beyond 5% increased Health (no hit chance or critical damage modifiers).</li>\n</ul>\n</li>\n<li><strong>Orc</strong>\n<ul>\n<li>Savage removed (1% increased critical strike chance).</li>\n<li>Command re-added, increasing Warlock and Hunter pet damage by 5%.</li>\n<li>Sangre Furia’s cooldown reduced to 2 minutes (was 3 minutes).</li>\n</ul>\n</li>\n<li><strong>Troll</strong>\n<ul>\n<li>Berserking duration increased to 15 seconds (was 10 seconds).</li>\n</ul>\n</li>\n<li><strong>Undead</strong>\n<ul>\n<li>Touch of the Grave internal cooldown reduced to 15 seconds (was 25 seconds).</li>\n</ul>\n</li>\n<li><strong>Skyborne</strong>\n<ul>\n<li>Wind-Blessed Haste bonus reduced to 2% (antes era 3%).</li>\n<li>Read Leyline ahora aumenta Mana and Health regeneration by 50% (antes era 100%), with a 15-second duration. This ability cannot be used while Innervate is active, and will be replaced by Innervate as a more powerful effect.</li>\n<li>Using Read Leyline at a Ley Line now also grants “Attuned” for 1 hour. While Attuned, the benefit of Read Leyline is increased to 100% regeneration increase. Attuned persists through death, and is removed upon entering a raid.</li>\n<li>Skysight ahora es a 15% increased movement speed (antes era 10%), with a 15-second duration.</li>\n<li>Using Skysight at an elemental convergence now also grants “Charged” for 1 hour. While Charged, the benefit of Skysight is a 30% movement speed increase. Charged persists through death, and is removed upon entering a raid.</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-26-october/631316/7"
-    },
-    {
-      "id": "blizz-6453157",
-      "postId": 6453157,
-      "topicId": 637603,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-26T18:00:11.217Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Join in the Talebound Demo on 30 October",
-        "es": "Join in the Talebound Demo on 30 October"
-      },
-      "summary": {
-        "en": "[Join in the Talebound Demo on 30 October] Take the Talebound demo for a spooky spin on the Player Test Realm (PTR) and experience the Red Hollow introduction, three eerie tales ac...",
-        "es": "[Join in the Talebound Demo on 30 October] Take the Talebound demo for a spooky spin on the Player Test Realm (PTR) and experience the Red Hollow introduction, three eerie tales ac..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\" alt=\"Join in the Talebound Demo on 30 October\" width=\"833\" height=\"468\"></a></p><p>Take the Talebound demo for a spooky spin on the Player Test Realm (PTR) and experience the Red Hollow introduction, three eerie tales across Normal, Veteran, and Heroic difficulties, and all three classes: Slayer, Inquisitor, and Witch. No subscription is required to take part. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313107\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\" alt=\"Join in the Talebound Demo on 30 October\" width=\"833\" height=\"468\"></a></p><p>Take the Talebound demo for a spooky spin on the Player Test Realm (PTR) and experience the Red Hollow introduction, three eerie tales across Normal, Veteran, and Heroic difficulties, and all three classes: Slayer, Inquisitor, and Witch. No subscription is required to take part. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313107\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/join-in-the-talebound-demo-on-30-october/637603/1"
     },
     {
       "id": "blizz-6453081",
@@ -1036,370 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/637043/1"
-    },
-    {
-      "id": "blizz-30578134",
-      "postId": 30578134,
-      "topicId": 2389633,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-22T17:00:00.000Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The WoW Forever Beta Celebration is Underway",
-        "es": "The WoW Forever Beta Celebración is Underway"
-      },
-      "summary": {
-        "en": "The WoW Forever Beta will end 24 hours from now, at 10:00 a.m. PDT on Friday, October 23, and until that fateful moment, we’re celebrating the joy and wonder of WoW Forever with 24...",
-        "es": "The WoW Forever Beta will end 24 hours from now, at 10:00 a.m. PDT on Friday, October 23, and until that fateful moment, we’re celebrating the joy and wonder of WoW Forever with 24..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta will end 24 hours from now, at 10:00 a.m. PDT on Friday, October 23, and until that fateful moment, we’re celebrating the joy and wonder of WoW Forever with 24 hours of shenanigans and upheaval in Zephras Isle, Dun Morogh, Elwynn Forest, Teldrassil, Durotar, Tirisfal Glades, and Mulgore.</p>\n<p>Log into the WoW Forever Beta for one last time and head to one of those zones to experience the madness, and join us in saying goodbye to the Beta.</p>\n<p><em>Please note: Shenanigans and upheaval in this one-time-only celebration almost certainly include items and experiences that <strong>will not</strong> be a part of WoW Forever after it launches on November 4.</em></p>\n<p>We hope everyone has fun on this last day of the WoW Forever Beta. Thank you so much for testing the game with us!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta will end 24 hours from now, at 10:00 a.m. PDT on Friday, October 23, and until that fateful moment, we’re celebrating the joy and wonder of WoW Forever with 24 hours of shenanigans and upheaval in Zephras Isle, Dun Morogh, Elwynn Forest, Teldrassil, Durotar, Tirisfal Glades, and Mulgore.</p>\n<p>Log into the WoW Forever Beta for one last time and head to one of those zones to experience the madness, and join us in saying goodbye to the Beta.</p>\n<p><em>Please note: Shenanigans and upheaval in this one-time-only celebration almost certainly include items and experiences that <strong>will not</strong> be a part of WoW Forever after it launches on November 4.</em></p>\n<p>We hope everyone has fun on this last day of the WoW Forever Beta. Thank you so much for testing the game with us!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-beta-celebration-is-underway/2389633/1"
-    },
-    {
-      "id": "blizz-6446850",
-      "postId": 6446850,
-      "topicId": 637031,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Aggrend (WoW Game Developer)",
-      "dateRaw": "2026-10-22T15:30:54.397Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The Roleplay-PvP Ruleset is Coming to WoW Forever",
-        "es": "The Roleplay-PvP Ruleset is Coming to WoW Forever"
-      },
-      "summary": {
-        "en": "Greetings, \nIn a recent episode of the WoW Forever Podcast we discussed some of our concerns with adding a Roleplay-PVP ruleset in WoW Forever, but we also mentioned that we were s...",
-        "es": "Greetings, \nIn a recent episode of the WoW Forever Podcast we discussed some of our concerns with adding a Roleplay-PVP ruleset in WoW Forever, but we also mentioned that we were s..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Greetings,</p>\n<p>In a recent episode of the WoW Forever Podcast we discussed some of our concerns with adding a Roleplay-PVP ruleset in WoW Forever, but we also mentioned that we were still discussing the topic internally and watching player feedback. Over the last few days, we’ve carefully examined what it would take to add it to WoW Forever and decided to go for it. We will add a Roleplay-PVP Ruleset for launch on November 4.</p>\n<p>We’re also working hard to make it so that you can select the Roleplay-PvP ruleset and reserve names there next week when our Name Reservation period begins on Tuesday, October 27.</p>\n<p>We really appreciate the feedback and comments on this.</p>\n<p>Thank you!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Greetings,</p>\n<p>In a recent episode of the WoW Forever Podcast we discussed some of our concerns with adding a Roleplay-PVP ruleset in WoW Forever, but we also mentioned that we were still discussing the topic internally and watching player feedback. Over the last few days, we’ve carefully examined what it would take to add it to WoW Forever and decided to go for it. We will add a Roleplay-PVP Ruleset for launch on November 4.</p>\n<p>We’re also working hard to make it so that you can select the Roleplay-PvP ruleset and reserve names there next week when our Name Reservation period begins on Tuesday, October 27.</p>\n<p>We really appreciate the feedback and comments on this.</p>\n<p>Thank you!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-roleplay-pvp-ruleset-is-coming-to-wow-forever/637031/1"
-    },
-    {
-      "id": "blizz-30577452",
-      "postId": 30577452,
-      "topicId": 2389565,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-22T16:21:16.245Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The WoW: Forever Podcast: Episode 5 - End of Beta Special",
-        "es": "The WoW: Forever Podcast: Episode 5 - End of Beta Special"
-      },
-      "summary": {
-        "en": "[End of Beta Special | Episode 5 - The WoW: Forever Podcast]...",
-        "es": "[End of Beta Special | Episode 5 - The WoW: Forever Podcast]..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"uOlxa3xvNq4\" data-video-title=\"End of Beta Special | Episode 5 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=uOlxa3xvNq4\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/uOlxa3xvNq4/maxresdefault.jpg\" title=\"End of Beta Special | Episode 5 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"uOlxa3xvNq4\" data-video-title=\"End of Beta Special | Episode 5 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=uOlxa3xvNq4\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/uOlxa3xvNq4/maxresdefault.jpg\" title=\"End of Beta Special | Episode 5 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/2389565/1"
-    },
-    {
-      "id": "blizz-6445880",
-      "postId": 6445880,
-      "topicId": 635623,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-22T01:35:23.597Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - 21 October",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - 21 October"
-      },
-      "summary": {
-        "en": "October 21, 2026 \nLabyrinth \n\nPlayers can now speak to Kinduru in De Empire’s Rest antechamber to leave the labyrinth while on the Kindo’jan scenario.\nFixed an issue where L00T RAI...",
-        "es": "October 21, 2026 \nLabyrinth \n\nPlayers can now speak to Kinduru in De Empire’s Rest antechamber to leave the labyrinth while on the Kindo’jan scenario.\nFixed an issue where L00T Ban..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 21, 2026</strong></p>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Players can now speak to Kinduru in De Empire’s Rest antechamber to leave the labyrinth while on the Kindo’jan scenario.</li>\n<li>Fixed an issue where L00T RAID-R Minis could not be used in a group inside the labyrinth.</li>\n<li>The lever to start the scenario “A Golden Opportunity” in the Labyrinth of Kindo’jan can now be used by players level 80 and above.</li>\n<li>Players can now hold up to 4 stacks of the Carrying a Jan’alai Tear buff at a time (was 1).</li>\n<li>Fixed an issue in the “Returning the Bounty” scenario that could cause the Pit Boss to despawn when it left combat, preventing the scenario from completing.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where the Seriously Sharp Seashell effect from Gebbo’s Bottomless Bag could break stealth and invisibility effects.</li>\n<li>Fixed an issue where Jan’thrazet, the Soul Fang could sometimes fail to trigger reliably from the start of combat for healers.</li>\n<li>Fixed an issue preventing Nebulous Voidcache bonus roll item list previews from updating as items were acquired and removed from consideration. This was only a display issue and did not affect which items a character was eligible for.</li>\n</ul>\n<p><strong>Player versus Player</strong></p>\n<ul>\n<li><strong>Priest</strong>\n<ul>\n<li><strong>Holy</strong>\n<ul>\n<li>Fixed an issue where Sanctified Ground applying to allies would interrupt channeled spells such as Divine Hymn.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 21, 2026</strong></p>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Players can now speak to Kinduru in De Empire’s Rest antechamber to leave the labyrinth while on the Kindo’jan scenario.</li>\n<li>Fixed an issue where L00T RAID-R Minis could not be used in a group inside the labyrinth.</li>\n<li>The lever to start the scenario “A Golden Opportunity” in the Labyrinth of Kindo’jan can now be used by players level 80 and above.</li>\n<li>Players can now hold up to 4 stacks of the Carrying a Jan’alai Tear buff at a time (was 1).</li>\n<li>Fixed an issue in the “Returning the Bounty” scenario that could cause the Pit Boss to despawn when it left combat, preventing the scenario from completing.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where the Seriously Sharp Seashell effect from Gebbo’s Bottomless Bag could break stealth and invisibility effects.</li>\n<li>Fixed an issue where Jan’thrazet, the Soul Fang could sometimes fail to trigger reliably from the start of combat for healers.</li>\n<li>Fixed an issue preventing Nebulous Voidcache bonus roll item list previews from updating as items were acquired and removed from consideration. This was only a display issue and did not affect which items a character was eligible for.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li><strong>SACERDOTE</strong>\n<ul>\n<li><strong>Sagrado</strong>\n<ul>\n<li>Fixed an issue where Sanctified Ground applying to allies would interrupt channeled spells such as Divine Hymn.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-21-october/635623/22"
-    },
-    {
-      "id": "blizz-30576546",
-      "postId": 30576546,
-      "topicId": 2389502,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Aggrend (WoW Game Developer)",
-      "dateRaw": "2026-10-22T15:33:08.260Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The Roleplay-PvP Ruleset is Coming to WoW Forever",
-        "es": "The Roleplay-PvP Ruleset is Coming to WoW Forever"
-      },
-      "summary": {
-        "en": "Greetings, \nIn a recent episode of the WoW Forever Podcast we discussed some of our concerns with adding a Roleplay-PVP ruleset in WoW Forever, but we also mentioned that we were s...",
-        "es": "Greetings, \nIn a recent episode of the WoW Forever Podcast we discussed some of our concerns with adding a Roleplay-PVP ruleset in WoW Forever, but we also mentioned that we were s..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Greetings,</p>\n<p>In a recent episode of the WoW Forever Podcast we discussed some of our concerns with adding a Roleplay-PVP ruleset in WoW Forever, but we also mentioned that we were still discussing the topic internally and watching player feedback. Over the last few days, we’ve carefully examined what it would take to add it to WoW Forever and decided to go for it. We will add a Roleplay-PVP Ruleset for launch on November 4.</p>\n<p>We’re also working hard to make it so that you can select the Roleplay-PvP ruleset and reserve names there next week when our Name Reservation period begins on Tuesday, October 27.</p>\n<p>We really appreciate the feedback and comments on this.</p>\n<p>Thank you!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Greetings,</p>\n<p>In a recent episode of the WoW Forever Podcast we discussed some of our concerns with adding a Roleplay-PVP ruleset in WoW Forever, but we also mentioned that we were still discussing the topic internally and watching player feedback. Over the last few days, we’ve carefully examined what it would take to add it to WoW Forever and decided to go for it. We will add a Roleplay-PVP Ruleset for launch on November 4.</p>\n<p>We’re also working hard to make it so that you can select the Roleplay-PvP ruleset and reserve names there next week when our Name Reservation period begins on Tuesday, October 27.</p>\n<p>We really appreciate the feedback and comments on this.</p>\n<p>Thank you!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-roleplay-pvp-ruleset-is-coming-to-wow-forever/2389502/1"
-    },
-    {
-      "id": "blizz-30571231",
-      "postId": 30571231,
-      "topicId": 2389150,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Zorbrix (Game Producer)",
-      "dateRaw": "2026-10-22T01:46:44.190Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Forever Beta Will Return Shortly",
-        "es": "Forever Beta Will Return Shortly"
-      },
-      "summary": {
-        "en": "Good evening folks, \nWe hit a small snag while turning the WoW Forever Beta back online. We’re working right now to get it back. \nIn the meantime, you can speed this up by fully ex...",
-        "es": "Good evening folks, \nWe hit a small snag while turning the WoW Forever Beta back online. We’re working right now to get it back. \nIn the meantime, you can speed this up by fully ex..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Good evening folks,</p>\n<p>We hit a small snag while turning the WoW Forever Beta back online. We’re working right now to get it back.</p>\n<p>In the meantime, you can speed this up by fully exiting the Battle.net Desktop App to force the update to happen manually.</p>\n<p>Thanks!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Good evening folks,</p>\n<p>We hit a small snag while turning the WoW Forever Beta back online. We’re working right now to get it back.</p>\n<p>In the meantime, you can speed this up by fully exiting the Battle.net Desktop App to force the update to happen manually.</p>\n<p>Thanks!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/forever-beta-will-return-shortly/2389150/1"
-    },
-    {
-      "id": "blizz-30571023",
-      "postId": 30571023,
-      "topicId": 2382684,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-22T01:35:00.629Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - October 21",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - October 21"
-      },
-      "summary": {
-        "en": "October 21, 2026 \nLabyrinth \n\nPlayers can now speak to Kinduru in De Empire’s Rest antechamber to leave the labyrinth while on the Kindo’jan scenario.\nFixed an issue where L00T RAI...",
-        "es": "October 21, 2026 \nLabyrinth \n\nPlayers can now speak to Kinduru in De Empire’s Rest antechamber to leave the labyrinth while on the Kindo’jan scenario.\nFixed an issue where L00T Ban..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 21, 2026</strong></p>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Players can now speak to Kinduru in De Empire’s Rest antechamber to leave the labyrinth while on the Kindo’jan scenario.</li>\n<li>Fixed an issue where L00T RAID-R Minis could not be used in a group inside the labyrinth.</li>\n<li>The lever to start the scenario “A Golden Opportunity” in the Labyrinth of Kindo’jan can now be used by players level 80 and above.</li>\n<li>Players can now hold up to 4 stacks of the Carrying a Jan’alai Tear buff at a time (was 1).</li>\n<li>Fixed an issue in the “Returning the Bounty” scenario that could cause the Pit Boss to despawn when it left combat, preventing the scenario from completing.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where the Seriously Sharp Seashell effect from Gebbo’s Bottomless Bag could break stealth and invisibility effects.</li>\n<li>Fixed an issue where Jan’thrazet, the Soul Fang could sometimes fail to trigger reliably from the start of combat for healers.</li>\n<li>Fixed an issue preventing Nebulous Voidcache bonus roll item list previews from updating as items were acquired and removed from consideration. This was only a display issue and did not affect which items a character was eligible for.</li>\n</ul>\n<p><strong>Player versus Player</strong></p>\n<ul>\n<li><strong>Priest</strong>\n<ul>\n<li><strong>Holy</strong>\n<ul>\n<li>Fixed an issue where Sanctified Ground applying to allies would interrupt channeled spells such as Divine Hymn.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 21, 2026</strong></p>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Players can now speak to Kinduru in De Empire’s Rest antechamber to leave the labyrinth while on the Kindo’jan scenario.</li>\n<li>Fixed an issue where L00T RAID-R Minis could not be used in a group inside the labyrinth.</li>\n<li>The lever to start the scenario “A Golden Opportunity” in the Labyrinth of Kindo’jan can now be used by players level 80 and above.</li>\n<li>Players can now hold up to 4 stacks of the Carrying a Jan’alai Tear buff at a time (was 1).</li>\n<li>Fixed an issue in the “Returning the Bounty” scenario that could cause the Pit Boss to despawn when it left combat, preventing the scenario from completing.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where the Seriously Sharp Seashell effect from Gebbo’s Bottomless Bag could break stealth and invisibility effects.</li>\n<li>Fixed an issue where Jan’thrazet, the Soul Fang could sometimes fail to trigger reliably from the start of combat for healers.</li>\n<li>Fixed an issue preventing Nebulous Voidcache bonus roll item list previews from updating as items were acquired and removed from consideration. This was only a display issue and did not affect which items a character was eligible for.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li><strong>SACERDOTE</strong>\n<ul>\n<li><strong>Sagrado</strong>\n<ul>\n<li>Fixed an issue where Sanctified Ground applying to allies would interrupt channeled spells such as Divine Hymn.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-october-21/2382684/120"
-    },
-    {
-      "id": "blizz-30566599",
-      "postId": 30566599,
-      "topicId": 2388798,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-21T20:05:05.797Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Get Up to 50% In Fall Savings Through November 2",
-        "es": "Get Up to 50% In Fall Savings Through November 2"
-      },
-      "summary": {
-        "en": "[Get Up to 50% In Fall Savings Through November 2] Join the autumnal festivities with deals on Midnight, fashionable Transmogs, select Game Services, and more!  View Full Article...",
-        "es": "[Get Up to 50% In Fall Savings Through November 2] Join the autumnal festivities with deals on Midnight, fashionable Transmogs, select Game Services, and more!  View Full Article..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\" alt=\"Get Up to 50% In Fall Savings Through November 2\" width=\"833\" height=\"468\"></a></p><p>Join the autumnal festivities with deals on Midnight, fashionable Transmogs, select Game Services, and more! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313103\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\" alt=\"Get Up to 50% In Fall Savings Through November 2\" width=\"833\" height=\"468\"></a></p><p>Join the autumnal festivities with deals on Midnight, fashionable Transmogs, select Game Services, and more! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313103\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/get-up-to-50-in-fall-savings-through-november-2/2388798/1"
-    },
-    {
-      "id": "blizz-30563956",
-      "postId": 30563956,
-      "topicId": 2388645,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-21T17:02:04.048Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Gather Around the Campfire in World of Warcraft: Forever",
-        "es": "Gather Around the Campfire in World of Warcraft: Forever"
-      },
-      "summary": {
-        "en": "[Gather Around the Campfire in World of Warcraft: Forever] The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gai...",
-        "es": "[Gather Around the Campfire in World of Warcraft: Forever] The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gai..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Gather Around the Campfire in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gain useful benefits from profession-made features. Beginning with the Cooking profession’s Basic Campfire, the system gives adventurers new reasons to prepare together and connect while traveling through Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24301516\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Gather Around the Campfire in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gain useful benefits from profession-made features. Beginning with the Cooking profession’s Basic Campfire, the system gives adventurers new reasons to prepare together and connect while traveling through Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24301516\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/gather-around-the-campfire-in-world-of-warcraft-forever/2388645/1"
-    },
-    {
-      "id": "blizz-1233588",
-      "postId": 1233588,
-      "topicId": 80484,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-19T23:44:15.046Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Saca el Rexxar que llevas dentro con este lote bestial",
-        "es": "Saca el Rexxar que llevas dentro con este lote bestial"
-      },
-      "summary": {
-        "en": "[Saca el Rexxar que llevas dentro con este lote bestial] El paquete más salvaje lleno de objetos del juego que invocan el espíritu de Rexxar aguarda a tus personajes del World of W...",
-        "es": "[Saca el Rexxar que llevas dentro con este lote bestial] El paquete más salvaje lleno de objetos del juego que invocan el espíritu de Rexxar aguarda a tus personajes del World of W..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\" alt=\"Saca el Rexxar que llevas dentro con este lote bestial\" width=\"833\" height=\"468\"></a></p><p>El paquete más salvaje lleno de objetos del juego que invocan el espíritu de Rexxar aguarda a tus personajes del World of Warcraft moderno (actualmente Midnight™). Durante un tiempo limitado, consigue un conjunto de transfiguración, un juguete que da a las mascotas de combate del cazador el aspecto de las fieles mascotas de Rexxar, y un adorno para hogares digno de un maestro de bestias. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310657\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/o4/O48SXTZ9G3YK1791932498403.png\" alt=\"Saca el Rexxar que llevas dentro con este lote bestial\" width=\"833\" height=\"468\"></a></p><p>El paquete más salvaje lleno de objetos del juego que invocan el espíritu de Rexxar aguarda a tus personajes del World of Warcraft moderno (actualmente Midnight™). Durante un tiempo limitado, consigue un conjunto de transfiguración, un juguete que da a las mascotas de combate del cazador el aspecto de las fieles mascotas de Rexxar, y un adorno para hogares digno de un maestro de bestias. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24310657\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/saca-el-rexxar-que-llevas-dentro-con-este-lote-bestial/80484/1"
-    },
-    {
-      "id": "blizz-6445607",
-      "postId": 6445607,
-      "topicId": 636912,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-21T20:06:08.494Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Get Up to 50% In Fall Savings Through 2 November",
-        "es": "Get Up to 50% In Fall Savings Through 2 November"
-      },
-      "summary": {
-        "en": "[Get Up to 50% In Fall Savings Through 2 November] Join the autumnal festivities with deals on Midnight, fashionable Transmogs, select Game Services, and more!  View Full Article...",
-        "es": "[Get Up to 50% In Fall Savings Through 2 November] Join the autumnal festivities with deals on Midnight, fashionable Transmogs, select Game Services, and more!  View Full Article..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\" alt=\"Get Up to 50% In Fall Savings Through 2 November\" width=\"833\" height=\"468\"></a></p><p>Join the autumnal festivities with deals on Midnight, fashionable Transmogs, select Game Services, and more! </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313103\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/z8/Z87BIBM9OQZY1699328420491.png\" alt=\"Get Up to 50% In Fall Savings Through 2 November\" width=\"833\" height=\"468\"></a></p><p>Join the autumnal festivities with deals on Midnight, fashionable Transmogs, select Game Services, and more! </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24313103\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/get-up-to-50-in-fall-savings-through-2-november/636912/1"
-    },
-    {
-      "id": "blizz-6444912",
-      "postId": 6444912,
-      "topicId": 636870,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-21T17:01:41.109Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Gather Around the Campfire in World of Warcraft: Forever",
-        "es": "Gather Around the Campfire in World of Warcraft: Forever"
-      },
-      "summary": {
-        "en": "[Gather Around the Campfire in World of Warcraft: Forever] The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gai...",
-        "es": "[Gather Around the Campfire in World of Warcraft: Forever] The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gai..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Gather Around the Campfire in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gain useful benefits from profession-made features. Beginning with the Cooking profession’s Basic Campfire, the system gives adventurers new reasons to prepare together and connect while traveling through Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24301516\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Gather Around the Campfire in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>The Camping system in World of Warcraft: Forever lets players create shared campsites where they can rest, craft, and gain useful benefits from profession-made features. Beginning with the Cooking profession’s Basic Campfire, the system gives adventurers new reasons to prepare together and connect while traveling through Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24301516\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/gather-around-the-campfire-in-world-of-warcraft-forever/636870/1"
-    },
-    {
-      "id": "blizz-6444821",
-      "postId": 6444821,
-      "topicId": 636859,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-21T16:29:56.076Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Testing WoW Forever Today - 21 October",
-        "es": "Testing WoW Forever Today - 21 October"
-      },
-      "summary": {
-        "en": "The WoW Forever Beta is going offline in a few minutes. \nIn this region, the Stress Test will begin soon thereafter, at 19:00 CEST. \nTo prepare for that, go to your Battle.net App ...",
-        "es": "The WoW Forever Beta is going offline in a few minutes. \nIn this region, the Stress Test will begin soon thereafter, at 19:00 CEST. \nTo prepare for that, go to your Battle.net App ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is going offline in a few minutes.</p>\n<p>In this region, <a href=\"https://eu.forums.blizzard.com/en/wow/t/heads-up-wow-forever-stress-test-on-21-october/636749\">the Stress Test</a> will begin soon thereafter, at 19:00 CEST.</p>\n<p>To prepare for that, go to your Battle.net App and look for Stress Test under the Game Version selector on the WoW Forever playscreen.</p>\n<p>It should look like this:</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg\" data-download-href=\"/en/wow/uploads/short-url/wzq6OTOy4iF3HrWiADvaB87UdsE.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg\" alt=\"image\" data-base62-sha1=\"wzq6OTOy4iF3HrWiADvaB87UdsE\" width=\"833\" height=\"337\" srcset=\"https://d176jfkp3gfyt8.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg, https://d176jfkp3gfyt8.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 1.5x, https://d176jfkp3gfyt8.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 2x\" data-dominant-color=\"192027\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">959×389 52 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is going offline in a few minutes.</p>\n<p>In this region, <a href=\"https://eu.forums.blizzard.com/en/wow/t/heads-up-wow-forever-stress-test-on-21-october/636749\">the Stress Test</a> will begin soon thereafter, at 19:00 CEST.</p>\n<p>To prepare for that, go to your Battle.net App and look for Stress Test under the Game Version selector on the WoW Forever playscreen.</p>\n<p>It should look like this:</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg\" data-download-href=\"/en/wow/uploads/short-url/wzq6OTOy4iF3HrWiADvaB87UdsE.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg\" alt=\"image\" data-base62-sha1=\"wzq6OTOy4iF3HrWiADvaB87UdsE\" width=\"833\" height=\"337\" srcset=\"https://d176jfkp3gfyt8.cloudfront.net/optimized/1X/e446980a71d57e0e11852f9a37f806ec8328dd14_2_833x337.jpeg, https://d176jfkp3gfyt8.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 1.5x, https://d176jfkp3gfyt8.cloudfront.net/original/1X/e446980a71d57e0e11852f9a37f806ec8328dd14.jpeg 2x\" data-dominant-color=\"192027\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">959×389 52 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/testing-wow-forever-today-21-october/636859/1"
     }
   ],
   "blizzardNews": [
