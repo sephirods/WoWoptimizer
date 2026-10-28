@@ -1519,6 +1519,29 @@ window.WOW_NEWS_DATABASE = {
       "originalUrlEs": "https://worldofwarcraft.blizzard.com/es-es/news/24310658"
     },
     {
+      "id": "blizz-24302547",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment",
+      "dateRaw": "October 28, 2026",
+      "category": "Oficial",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Now Live! Get Your Ticket to the WoW: Forever Poster Signing at the Irvine Improv",
+        "es": "Now Live! Get Your Ticket to the WoW: Forever Poster Signing at the Irvine Improv"
+      },
+      "summary": {
+        "en": "Join us for the WoW: Forever Poster Signing on November 2, 2026, at the Irvine Improv....",
+        "es": "Join us for the WoW: Forever Poster Signing on November 2, 2026, at the Irvine Improv...."
+      },
+      "imageUrl": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/7u/7UA1PXMMBZV61789247586051.png",
+      "contentHtml": {
+        "en": "<p></p>\n\n<p>Join us for the <em>WoW: Forever</em> Poster Signing on November 2, 2026, at the Irvine Improv.&nbsp;</p>\n\n<h3><span style=\"color:#DAA520;\"><strong>Get Free Tickets</strong></span></h3>\n\n<p>Attendance is limited, so make sure to obtain your free ticket from <a href=\"https://www.tixr.com/groups/bc/events/world-of-warcraft-forever-poster-signing-210889\" target=\"_blank\">TIXR</a> beginning Tuesday, October 27 at 12:00 pm PDT for your chance to attend this special event.</p>\n\n<h3><span style=\"color:#DAA520;\"><strong>Meet the Developers</strong></span></h3>\n\n<p>Meet developers behind the game, connect with fellow adventurers, and celebrate the upcoming release of <em>WoW: Forever</em> on November 4, 2026.&nbsp;</p>\n\n<h3><span style=\"color:#DAA520;\"><strong>Get There On Time</strong></span></h3>\n\n<p>Guests are strongly encouraged to arrive early at their designated arrival window. Entry will be granted to all guests that registered in advance with a valid QR code for their time slot. The QR code must be scanned at the check-in tent located outside the venue. Due to the limited time and space within the venue, we will be unable to accommodate anyone without a ticket. Irvine Improv is also ADA compliant. &nbsp;</p>\n\n<p>Visit our <a href=\"https://www.tixr.com/groups/bc/events/world-of-warcraft-forever-poster-signing-210889\" target=\"_blank\">event page</a> for more information.</p>\n\n<p>We anticipate a fun and busy celebration and can’t wait to see you there!</p>\n",
+        "es": "<p></p>\n\n<p>Join us for the <em>WoW: Forever</em> Poster Signing on November 2, 2026, at the Irvine Improv.&nbsp;</p>\n\n<h3><span style=\"color:#DAA520;\"><strong>Get Free Tickets</strong></span></h3>\n\n<p>Attendance is limited, so make sure to obtain your free ticket from <a href=\"https://www.tixr.com/groups/bc/events/world-of-warcraft-forever-poster-signing-210889\" target=\"_blank\">TIXR</a> beginning Tuesday, October 27 at 12:00 pm PDT for your chance to attend this special event.</p>\n\n<h3><span style=\"color:#DAA520;\"><strong>Meet the Developers</strong></span></h3>\n\n<p>Meet developers behind the game, connect with fellow adventurers, and celebrate the upcoming release of <em>WoW: Forever</em> on November 4, 2026.&nbsp;</p>\n\n<h3><span style=\"color:#DAA520;\"><strong>Get There On Time</strong></span></h3>\n\n<p>Guests are strongly encouraged to arrive early at their designated arrival window. Entry will be granted to all guests that registered in advance with a valid QR code for their time slot. The QR code must be scanned at the check-in tent located outside the venue. Due to the limited time and space within the venue, we will be unable to accommodate anyone without a ticket. Irvine Improv is also ADA compliant. &nbsp;</p>\n\n<p>Visit our <a href=\"https://www.tixr.com/groups/bc/events/world-of-warcraft-forever-poster-signing-210889\" target=\"_blank\">event page</a> for more information.</p>\n\n<p>We anticipate a fun and busy celebration and can’t wait to see you there!</p>\n"
+      },
+      "originalUrl": "https://worldofwarcraft.blizzard.com/en-us/news/24302547",
+      "originalUrlEs": "https://worldofwarcraft.blizzard.com/es-es/news/24302547"
+    },
+    {
       "id": "blizz-24315280",
       "source": "blizzard",
       "author": "Blizzard Entertainment",
@@ -1632,29 +1655,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "originalUrl": "https://worldofwarcraft.blizzard.com/en-us/news/24315203",
       "originalUrlEs": "https://worldofwarcraft.blizzard.com/es-es/news/24315203"
-    },
-    {
-      "id": "blizz-24302547",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment",
-      "dateRaw": "October 26, 2026",
-      "category": "Oficial",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Now Live! Get Your Ticket to the WoW: Forever Poster Signing at the Irvine Improv",
-        "es": "Now Live! Get Your Ticket to the WoW: Forever Poster Signing at the Irvine Improv"
-      },
-      "summary": {
-        "en": "Join us for the WoW: Forever Poster Signing on November 2, 2026, at the Irvine Improv....",
-        "es": "Join us for the WoW: Forever Poster Signing on November 2, 2026, at the Irvine Improv...."
-      },
-      "imageUrl": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/7u/7UA1PXMMBZV61789247586051.png",
-      "contentHtml": {
-        "en": "<p></p>\n\n<p>Join us for the <em>WoW: Forever</em> Poster Signing on November 2, 2026, at the Irvine Improv.&nbsp;</p>\n\n<h3><span style=\"color:#DAA520;\"><strong>Get Free Tickets</strong></span></h3>\n\n<p>Attendance is limited, so make sure to obtain your free ticket from <a href=\"https://www.tixr.com/groups/bc/events/world-of-warcraft-forever-poster-signing-210889\" target=\"_blank\">TIXR</a> beginning Tuesday, October 27 at 12:00 pm PDT for your chance to attend this special event.</p>\n\n<h3><span style=\"color:#DAA520;\"><strong>Meet the Developers</strong></span></h3>\n\n<p>Meet developers behind the game, connect with fellow adventurers, and celebrate the upcoming release of <em>WoW: Forever</em> on November 4, 2026.&nbsp;</p>\n\n<h3><span style=\"color:#DAA520;\"><strong>Get There On Time</strong></span></h3>\n\n<p>Guests are strongly encouraged to arrive early at their designated arrival window. Entry will be granted to all guests that registered in advance with a valid QR code for their time slot. The QR code must be scanned at the check-in tent located outside the venue. Due to the limited time and space within the venue, we will be unable to accommodate anyone without a ticket. Irvine Improv is also ADA compliant. &nbsp;</p>\n\n<p>Visit our <a href=\"https://www.tixr.com/groups/bc/events/world-of-warcraft-forever-poster-signing-210889\" target=\"_blank\">event page</a> for more information.</p>\n\n<p>We anticipate a fun and busy celebration and can’t wait to see you there!</p>\n",
-        "es": "<p></p>\n\n<p>Join us for the <em>WoW: Forever</em> Poster Signing on November 2, 2026, at the Irvine Improv.&nbsp;</p>\n\n<h3><span style=\"color:#DAA520;\"><strong>Get Free Tickets</strong></span></h3>\n\n<p>Attendance is limited, so make sure to obtain your free ticket from <a href=\"https://www.tixr.com/groups/bc/events/world-of-warcraft-forever-poster-signing-210889\" target=\"_blank\">TIXR</a> beginning Tuesday, October 27 at 12:00 pm PDT for your chance to attend this special event.</p>\n\n<h3><span style=\"color:#DAA520;\"><strong>Meet the Developers</strong></span></h3>\n\n<p>Meet developers behind the game, connect with fellow adventurers, and celebrate the upcoming release of <em>WoW: Forever</em> on November 4, 2026.&nbsp;</p>\n\n<h3><span style=\"color:#DAA520;\"><strong>Get There On Time</strong></span></h3>\n\n<p>Guests are strongly encouraged to arrive early at their designated arrival window. Entry will be granted to all guests that registered in advance with a valid QR code for their time slot. The QR code must be scanned at the check-in tent located outside the venue. Due to the limited time and space within the venue, we will be unable to accommodate anyone without a ticket. Irvine Improv is also ADA compliant. &nbsp;</p>\n\n<p>Visit our <a href=\"https://www.tixr.com/groups/bc/events/world-of-warcraft-forever-poster-signing-210889\" target=\"_blank\">event page</a> for more information.</p>\n\n<p>We anticipate a fun and busy celebration and can’t wait to see you there!</p>\n"
-      },
-      "originalUrl": "https://worldofwarcraft.blizzard.com/en-us/news/24302547",
-      "originalUrlEs": "https://worldofwarcraft.blizzard.com/es-es/news/24302547"
     },
     {
       "id": "blizz-24313107",
