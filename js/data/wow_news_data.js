@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30658235",
+      "postId": 30658235,
+      "topicId": 2394974,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-28T17:00:10.883Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "New Player’s Starter Guide: Welcome to World of Warcraft: Forever",
+        "es": "New Player’s Starter Guía: Welcome to World of Warcraft: Forever"
+      },
+      "summary": {
+        "en": "[New Player’s Starter Guide: Welcome to World of Warcraft: Forever] World of Warcraft: Forever invites players into a reimagined original Azeroth where exploration, community, and ...",
+        "es": "[New Player’s Starter Guía: Welcome to World of Warcraft: Forever] World of Warcraft: Forever invites players into a reimagined original Azeroth where exploration, community, and t..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zo/ZOY5AGE9BF3C1793064955466.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zo/ZOY5AGE9BF3C1793064955466.png\" alt=\"New Player’s Starter Guide: Welcome to World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever invites players into a reimagined original Azeroth where exploration, community, and the journey itself take center stage. Begin at level one, shape a character of your own, and learn the essentials for finding your place in a world designed to unfold for years to come. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315280\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zo/ZOY5AGE9BF3C1793064955466.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zo/ZOY5AGE9BF3C1793064955466.png\" alt=\"New Player’s Starter Guide: Welcome to World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever invites players into a reimagined original Azeroth where exploration, community, and the journey itself take center stage. Begin at level one, shape a character of your own, and learn the essentials for finding your place in a world designed to unfold for years to come. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315280\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/new-player%E2%80%99s-starter-guide-welcome-to-world-of-warcraft-forever/2394974/1"
+    },
+    {
       "id": "blizz-30650104",
       "postId": 30650104,
       "topicId": 2394467,
@@ -196,34 +224,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/add-the-living-heartsbane-cauldron-mount-to-your-collection/2393388/1"
-    },
-    {
-      "id": "blizz-30638185",
-      "postId": 30638185,
-      "topicId": 2393349,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-27T19:00:06.426Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Your Next Adventure in WoW: Forever Starts in the WoW Portal Room",
-        "es": "Your Next Adventure in WoW: Forever Starts in the WoW Portal Room"
-      },
-      "summary": {
-        "en": "[Your Next Adventure in WoW: Forever Starts in the WoW Portal Room] Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for yea...",
-        "es": "[Your Next Adventure in WoW: Forever Starts in the WoW Portal Room] Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for yea..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\" alt=\"Your Next Adventure in WoW: Forever Starts in the WoW Portal Room\" width=\"833\" height=\"468\"></a></p><p>Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for years, the WoW Portal Room is a welcoming Discord server where you can meet fellow adventurers and find your next community. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315203\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\" alt=\"Your Next Adventure in WoW: Forever Starts in the WoW Portal Room\" width=\"833\" height=\"468\"></a></p><p>Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for years, the WoW Portal Room is a welcoming Discord server where you can meet fellow adventurers and find your next community. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315203\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/your-next-adventure-in-wow-forever-starts-in-the-wow-portal-room/2393349/1"
     },
     {
       "id": "blizz-1234534",
@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1ad%C3%A9ntrate-en-el-especial-del-fin-de-la-beta/80506/1"
     },
     {
+      "id": "blizz-6460879",
+      "postId": 6460879,
+      "topicId": 638305,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-28T17:00:07.293Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "New Player’s Starter Guide: Welcome to World of Warcraft: Forever",
+        "es": "New Player’s Starter Guía: Welcome to World of Warcraft: Forever"
+      },
+      "summary": {
+        "en": "[New Player’s Starter Guide: Welcome to World of Warcraft: Forever] World of Warcraft: Forever invites players into a reimagined original Azeroth where exploration, community, and ...",
+        "es": "[New Player’s Starter Guía: Welcome to World of Warcraft: Forever] World of Warcraft: Forever invites players into a reimagined original Azeroth where exploration, community, and t..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zo/ZOY5AGE9BF3C1793064955466.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zo/ZOY5AGE9BF3C1793064955466.png\" alt=\"New Player’s Starter Guide: Welcome to World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever invites players into a reimagined original Azeroth where exploration, community, and the journey itself take center stage. Begin at level one, shape a character of your own, and learn the essentials for finding your place in a world designed to unfold for years to come. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24315280\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zo/ZOY5AGE9BF3C1793064955466.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zo/ZOY5AGE9BF3C1793064955466.png\" alt=\"New Player’s Starter Guide: Welcome to World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever invites players into a reimagined original Azeroth where exploration, community, and the journey itself take center stage. Begin at level one, shape a character of your own, and learn the essentials for finding your place in a world designed to unfold for years to come. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24315280\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/new-player%E2%80%99s-starter-guide-welcome-to-world-of-warcraft-forever/638305/1"
+    },
+    {
       "id": "blizz-6459348",
       "postId": 6459348,
       "topicId": 638147,
@@ -644,6 +672,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/your-next-adventure-in-wow-forever-starts-in-the-wow-portal-room/637932/1"
+    },
+    {
+      "id": "blizz-30638185",
+      "postId": 30638185,
+      "topicId": 2393349,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-27T19:00:06.426Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Your Next Adventure in WoW: Forever Starts in the WoW Portal Room",
+        "es": "Your Next Adventure in WoW: Forever Starts in the WoW Portal Room"
+      },
+      "summary": {
+        "en": "[Your Next Adventure in WoW: Forever Starts in the WoW Portal Room] Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for yea...",
+        "es": "[Your Next Adventure in WoW: Forever Starts in the WoW Portal Room] Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for yea..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\" alt=\"Your Next Adventure in WoW: Forever Starts in the WoW Portal Room\" width=\"833\" height=\"468\"></a></p><p>Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for years, the WoW Portal Room is a welcoming Discord server where you can meet fellow adventurers and find your next community. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315203\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\" alt=\"Your Next Adventure in WoW: Forever Starts in the WoW Portal Room\" width=\"833\" height=\"468\"></a></p><p>Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for years, the WoW Portal Room is a welcoming Discord server where you can meet fellow adventurers and find your next community. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315203\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/your-next-adventure-in-wow-forever-starts-in-the-wow-portal-room/2393349/1"
     },
     {
       "id": "blizz-6454754",
@@ -1344,62 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/thank-you-for-testing-the-wow-forever-beta/2390466/1"
-    },
-    {
-      "id": "blizz-6448845",
-      "postId": 6448845,
-      "topicId": 637227,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-23T17:00:44.596Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Thank You For Testing the WoW Forever Beta",
-        "es": "Thank You For Testing the WoW Forever Beta"
-      },
-      "summary": {
-        "en": "The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback. \nW...",
-        "es": "The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback. \nW..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback.</p>\n<p>We’re now quickly moving into a period of a few short days where we will do some focused work on priority issues and the game service itself, so that it will be in good shape for launch day on November 4.</p>\n<p>And of course, we’ll open access to the character creation system on Tuesday, October 27, allowing everyone plenty of time to <a href=\"https://worldofwarcraft.blizzard.com/news/24302070/\">select the ruleset</a> that will define your journey and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24303866/\">snag the name</a> that best fits your adventurer.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" data-download-href=\"/en/wow/uploads/short-url/poAMBn9JkmIfZye6fTn5WKI67V8.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" alt=\"image\" data-base62-sha1=\"poAMBn9JkmIfZye6fTn5WKI67V8\" width=\"800\" height=\"381\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×381 122 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>You won’t have to wait until the game launches to make these big decisions.</p>\n<p>Also next week, we’re going to continue with our WoW Forever Podcast. If you haven’t consumed it all, this is a great time to catch up with everything the WoW Forever designers have had to say.</p>\n<ul>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-1-unpacking-beta-launch-ft-%E2%80%AAxaryu%E2%80%AC/632917/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 1 - Unpacking Beta Launch ft. ‪@Xaryu‬</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/632918/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/634342/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/635761/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ &amp; ‪@Savixirl</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/637043/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 5 - End of Beta Special</a></li>\n</ul>\n<p>If you can’t get enough WoW Forever info, we’ve got all kinds of details about the game right here on our website. You can learn more about <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24301455\">WoW Forever dungeons here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24301516/\">the Campfire system here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24303009/\">raid details here</a>.</p>\n<p>Again, we’re deeply grateful to have seen so many people find their Forever home, and create new communities, and find friends (old and new) to join on the journey ahead.</p>\n<p>We’re really looking forward to seeing you on November 4! Thank you very much!</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" data-download-href=\"/en/wow/uploads/short-url/gAEYa1KyMvGIJ5P5WRg7RVWThTy.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" alt=\"image\" data-base62-sha1=\"gAEYa1KyMvGIJ5P5WRg7RVWThTy\" width=\"800\" height=\"400\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×400 94.2 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta ahora es closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback.</p>\n<p>We’re now quickly moving into a period of a few short days where we will do some focused work on priority issues and the game service itself, so that it will be in good shape for launch day on November 4.</p>\n<p>And of course, we’ll open access to the character creation system on Tuesday, October 27, allowing everyone plenty of time to <a href=\"https://worldofwarcraft.blizzard.com/news/24302070/\">select the ruleset</a> that will define your journey and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24303866/\">snag the name</a> that best fits your adventurer.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" data-download-href=\"/en/wow/uploads/short-url/poAMBn9JkmIfZye6fTn5WKI67V8.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" alt=\"image\" data-base62-sha1=\"poAMBn9JkmIfZye6fTn5WKI67V8\" width=\"800\" height=\"381\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×381 122 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>You won’t have to wait until the game launches to make these big decisions.</p>\n<p>Also next week, we’re going to continue with our WoW Forever Podcast. If you haven’t consumed it all, this is a great time to catch up with everything the WoW Forever designers have had to say.</p>\n<ul>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-1-unpacking-beta-launch-ft-%E2%80%AAxaryu%E2%80%AC/632917/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 1 - Unpacking Beta Launch ft. ‪@Xaryu‬</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/632918/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/634342/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/635761/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ &amp; ‪@Savixirl</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/637043/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 5 - End of Beta Special</a></li>\n</ul>\n<p>If you can’t get enough WoW Forever info, we’ve got all kinds of details about the game right here on our website. You can learn more about <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24301455\">WoW Forever dungeons here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24301516/\">the Campfire system here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24303009/\">raid details here</a>.</p>\n<p>Again, we’re deeply grateful to have seen so many people find their Forever home, and create new communities, and find friends (old and new) to join on the journey ahead.</p>\n<p>We’re really looking forward to seeing you on November 4! Thank you very much!</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" data-download-href=\"/en/wow/uploads/short-url/gAEYa1KyMvGIJ5P5WRg7RVWThTy.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" alt=\"image\" data-base62-sha1=\"gAEYa1KyMvGIJ5P5WRg7RVWThTy\" width=\"800\" height=\"400\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×400 94.2 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/thank-you-for-testing-the-wow-forever-beta/637227/1"
-    },
-    {
-      "id": "blizz-30590866",
-      "postId": 30590866,
-      "topicId": 2390465,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-23T17:00:41.694Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Thank You For Testing the WoW Forever Beta",
-        "es": "Thank You For Testing the WoW Forever Beta"
-      },
-      "summary": {
-        "en": "The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback. \nW...",
-        "es": "The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback. \nW..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback.</p>\n<p>We’re now quickly moving into a period of a few short days where we will do some focused work on priority issues and the game service itself, so that it will be in good shape for launch day on November 4.</p>\n<p>And of course, we’ll open access to the character creation system on Tuesday, October 27, allowing everyone plenty of time to <a href=\"https://worldofwarcraft.blizzard.com/news/24302070/\">select the ruleset</a> that will define your journey and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24303866/\">snag the name</a> that best fits your adventurer.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" data-download-href=\"/en/wow/uploads/short-url/poAMBn9JkmIfZye6fTn5WKI67V8.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" alt=\"image\" data-base62-sha1=\"poAMBn9JkmIfZye6fTn5WKI67V8\" width=\"800\" height=\"381\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×381 122 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>You won’t have to wait until the game launches to make these big decisions.</p>\n<p>Also next week, we’re going to continue with our WoW Forever Podcast. If you haven’t consumed it all, this is a great time to catch up with everything the WoW Forever designers have had to say.</p>\n<ul>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-1-unpacking-beta-launch-ft-%E2%80%AAxaryu%E2%80%AC/2368190/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 1 - Unpacking Beta Launch ft. ‪@Xaryu‬</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/2368192/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/2376010/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/2383164/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ &amp; ‪@Savixirl</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/2389565/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 5 - End of Beta Special</a></li>\n</ul>\n<p>If you can’t get enough WoW Forever info, we’ve got all kinds of details about the game right here on our website. You can learn more about <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24301455\">WoW Forever dungeons here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24301516/\">the Campfire system here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24303009/\">raid details here</a>.</p>\n<p>Again, we’re deeply grateful to have seen so many people find their Forever home, and create new communities, and find friends (old and new) to join on the journey ahead.</p>\n<p>We’re really looking forward to seeing you on November 4! Thank you very much!</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" data-download-href=\"/en/wow/uploads/short-url/gAEYa1KyMvGIJ5P5WRg7RVWThTy.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" alt=\"image\" data-base62-sha1=\"gAEYa1KyMvGIJ5P5WRg7RVWThTy\" width=\"800\" height=\"400\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×400 94.2 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta ahora es closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback.</p>\n<p>We’re now quickly moving into a period of a few short days where we will do some focused work on priority issues and the game service itself, so that it will be in good shape for launch day on November 4.</p>\n<p>And of course, we’ll open access to the character creation system on Tuesday, October 27, allowing everyone plenty of time to <a href=\"https://worldofwarcraft.blizzard.com/news/24302070/\">select the ruleset</a> that will define your journey and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24303866/\">snag the name</a> that best fits your adventurer.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" data-download-href=\"/en/wow/uploads/short-url/poAMBn9JkmIfZye6fTn5WKI67V8.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" alt=\"image\" data-base62-sha1=\"poAMBn9JkmIfZye6fTn5WKI67V8\" width=\"800\" height=\"381\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×381 122 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>You won’t have to wait until the game launches to make these big decisions.</p>\n<p>Also next week, we’re going to continue with our WoW Forever Podcast. If you haven’t consumed it all, this is a great time to catch up with everything the WoW Forever designers have had to say.</p>\n<ul>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-1-unpacking-beta-launch-ft-%E2%80%AAxaryu%E2%80%AC/2368190/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 1 - Unpacking Beta Launch ft. ‪@Xaryu‬</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/2368192/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/2376010/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/2383164/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ &amp; ‪@Savixirl</a></li>\n<li><a href=\"https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/2389565/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 5 - End of Beta Special</a></li>\n</ul>\n<p>If you can’t get enough WoW Forever info, we’ve got all kinds of details about the game right here on our website. You can learn more about <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24301455\">WoW Forever dungeons here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24301516/\">the Campfire system here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24303009/\">raid details here</a>.</p>\n<p>Again, we’re deeply grateful to have seen so many people find their Forever home, and create new communities, and find friends (old and new) to join on the journey ahead.</p>\n<p>We’re really looking forward to seeing you on November 4! Thank you very much!</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" data-download-href=\"/en/wow/uploads/short-url/gAEYa1KyMvGIJ5P5WRg7RVWThTy.jpeg?dl=1\" title=\"image\"><img src=\"https://d2ertrwg9e34np.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" alt=\"image\" data-base62-sha1=\"gAEYa1KyMvGIJ5P5WRg7RVWThTy\" width=\"800\" height=\"400\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×400 94.2 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/thank-you-for-testing-the-wow-forever-beta/2390465/1"
     }
   ],
   "blizzardNews": [
