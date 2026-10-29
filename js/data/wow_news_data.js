@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30673599",
+      "postId": 30673599,
+      "topicId": 2395922,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-29T19:02:50.481Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Return to Azeroth in World of Warcraft: Forever",
+        "es": "Return to Azeroth in World of Warcraft: Forever"
+      },
+      "summary": {
+        "en": "[Return to Azeroth in World of Warcraft: Forever] Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for...",
+        "es": "[Return to Azeroth in World of Warcraft: Forever] Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\" alt=\"Return to Azeroth in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for you in World of Warcraft: Forever. To help you get your feet on the ground and begin your adventures in Azeroth once more, we’ve put together some information you may need to return to your hero’s journey. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315643\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\" alt=\"Return to Azeroth in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for you in World of Warcraft: Forever. To help you get your feet on the ground and begin your adventures in Azeroth once more, we’ve put together some information you may need to return to your hero’s journey. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315643\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/return-to-azeroth-in-world-of-warcraft-forever/2395922/1"
+    },
+    {
       "id": "blizz-30671248",
       "postId": 30671248,
       "topicId": 2395799,
@@ -198,32 +226,32 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/bring-the-spirit-of-the-sea-home-with-the-new-grimtide-estate-and-grimtide-decor-packs/2393487/1"
     },
     {
-      "id": "blizz-30639364",
-      "postId": 30639364,
-      "topicId": 2393431,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1234815",
+      "postId": 1234815,
+      "topicId": 80637,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-27T20:02:47.505Z",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-29T19:00:08.806Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Name Reservation Issue for Oceanic Players",
-        "es": "Name Reservation Issue for Oceanic Players"
+        "en": "Vuelve a Azeroth con World of Warcraft: Forever",
+        "es": "Vuelve a Azeroth con World of Warcraft: Forever"
       },
       "summary": {
-        "en": "Attention Oceanic players connecting to Australian-based servers! \nDue to a bug, you must create any characters on Roleplay or Roleplay-PvP rulesets before creating characters on N...",
-        "es": "Attention Oceanic players connecting to Australian-based servers! \nDue to a bug, you must create any characters on Roleplay or Roleplay-PvP rulesets before creating characters on N..."
+        "en": "[Vuelve a Azeroth con World of Warcraft: Forever] Te damos la bienvenida de nuevo a Azeroth. Tanto si han pasado un par de años o un montón, en World of Warcraft: Forever te espera...",
+        "es": "[Vuelve a Azeroth con World of Warcraft: Forever] Te damos la bienvenida de nuevo a Azeroth. Tanto si han pasado un par de años o un montón, en World of Warcraft: Forever te espera..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Attention Oceanic players connecting to Australian-based servers!</p>\n<p>Due to a bug, you must create any characters on Roleplay or Roleplay-PvP rulesets before creating characters on Normal or PvP rulesets.</p>\n<p>If you first create a character on the Normal or PvP ruleset, the Roleplay and Roleplay-PvP rulesets will no longer be available for subsequent characters.</p>\n<p>This issue should only be present for players in the Oceanic region who are connecting to Australian servers, and we’re working on a fix for it urgently.</p>\n<p>Thank you!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Attention Oceanic players connecting to Australian-based servers!</p>\n<p>Due to a bug, you must create any characters on Roleplay or Roleplay-PvP rulesets before creating characters on Normal or PvP rulesets.</p>\n<p>If you first create a character on the Normal or PvP ruleset, the Roleplay and Roleplay-PvP rulesets will no longer be available for subsequent characters.</p>\n<p>This issue should only be present for players in the Oceanic region who are connecting to Australian servers, and we’re working on a fix for it urgently.</p>\n<p>Thank you!</p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\" alt=\"Vuelve a Azeroth con World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Te damos la bienvenida de nuevo a Azeroth. Tanto si han pasado un par de años o un montón, en World of Warcraft: Forever te esperan caminos conocidos, viejos amigos y nuevas aventuras. Para ayudarte a retomar el rumbo y comenzar de nuevo tu andadura por Azeroth, hemos reunido información que te ayudará a retomar el viaje de tu adalid. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315643\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\" alt=\"Vuelve a Azeroth con World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Te damos la bienvenida de nuevo a Azeroth. Tanto si han pasado un par de años o un montón, en World of Warcraft: Forever te esperan caminos conocidos, viejos amigos y nuevas aventuras. Para ayudarte a retomar el rumbo y comenzar de nuevo tu andadura por Azeroth, hemos reunido información que te ayudará a retomar el viaje de tu adalid. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315643\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/name-reservation-issue-for-oceanic-players/2393431/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/vuelve-a-azeroth-con-world-of-warcraft-forever/80637/1"
     },
     {
       "id": "blizz-1234797",
@@ -422,32 +450,32 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/no-te-pierdas-el-relato-corto-%C2%ABinquebrantable%C2%BB-de-wow-forever/80550/1"
     },
     {
-      "id": "blizz-1234001",
-      "postId": 1234001,
-      "topicId": 80515,
+      "id": "blizz-6463320",
+      "postId": 6463320,
+      "topicId": 638484,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-23T17:07:38.271Z",
+      "dateRaw": "2026-10-29T19:03:13.656Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas",
-        "es": "Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas"
+        "en": "Return to Azeroth in World of Warcraft: Forever",
+        "es": "Return to Azeroth in World of Warcraft: Forever"
       },
       "summary": {
-        "en": "[Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul&#39;Aman, Halloween y más cosas] Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de ...",
-        "es": "[Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul&#39;Aman, Halloween y más cosas] Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de ..."
+        "en": "[Return to Azeroth in World of Warcraft: Forever] Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for...",
+        "es": "[Return to Azeroth in World of Warcraft: Forever] Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas\" width=\"833\" height=\"468\"></a></p><p>Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de la actualización de contenido Los dioses de Zul'Aman en los reinos del aniversario de Burning Crusade Classic, las novedades de esta semana vienen cargadas de información, espeluznantes eventos en el juego, recompensas nuevas y aventuras por descubrir en Azeroth.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313106\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas\" width=\"833\" height=\"468\"></a></p><p>Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de la actualización de contenido Los dioses de Zul'Aman en los reinos del aniversario de Burning Crusade Classic, las novedades de esta semana vienen cargadas de información, espeluznantes eventos en el juego, recompensas nuevas y aventuras por descubrir en Azeroth.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313106\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\" alt=\"Return to Azeroth in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for you in World of Warcraft: Forever. To help you get your feet on the ground and begin your adventures in Azeroth once more, we’ve put together some information you may need to return to your hero’s journey. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24315643\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\" alt=\"Return to Azeroth in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for you in World of Warcraft: Forever. To help you get your feet on the ground and begin your adventures in Azeroth once more, we’ve put together some information you may need to return to your hero’s journey. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24315643\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-ad%C3%A9ntrate-en-wow-forever-los-dioses-de-zulaman-halloween-y-m%C3%A1s-cosas/80515/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/return-to-azeroth-in-world-of-warcraft-forever/638484/1"
     },
     {
       "id": "blizz-6462927",
@@ -644,6 +672,62 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/bring-the-spirit-of-the-sea-home-with-the-new-grimtide-estate-and-grimtide-decor-packs/638041/1"
+    },
+    {
+      "id": "blizz-30639364",
+      "postId": 30639364,
+      "topicId": 2393431,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-27T20:02:47.505Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Name Reservation Issue for Oceanic Players",
+        "es": "Name Reservation Issue for Oceanic Players"
+      },
+      "summary": {
+        "en": "Attention Oceanic players connecting to Australian-based servers! \nDue to a bug, you must create any characters on Roleplay or Roleplay-PvP rulesets before creating characters on N...",
+        "es": "Attention Oceanic players connecting to Australian-based servers! \nDue to a bug, you must create any characters on Roleplay or Roleplay-PvP rulesets before creating characters on N..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Attention Oceanic players connecting to Australian-based servers!</p>\n<p>Due to a bug, you must create any characters on Roleplay or Roleplay-PvP rulesets before creating characters on Normal or PvP rulesets.</p>\n<p>If you first create a character on the Normal or PvP ruleset, the Roleplay and Roleplay-PvP rulesets will no longer be available for subsequent characters.</p>\n<p>This issue should only be present for players in the Oceanic region who are connecting to Australian servers, and we’re working on a fix for it urgently.</p>\n<p>Thank you!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Attention Oceanic players connecting to Australian-based servers!</p>\n<p>Due to a bug, you must create any characters on Roleplay or Roleplay-PvP rulesets before creating characters on Normal or PvP rulesets.</p>\n<p>If you first create a character on the Normal or PvP ruleset, the Roleplay and Roleplay-PvP rulesets will no longer be available for subsequent characters.</p>\n<p>This issue should only be present for players in the Oceanic region who are connecting to Australian servers, and we’re working on a fix for it urgently.</p>\n<p>Thank you!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/name-reservation-issue-for-oceanic-players/2393431/1"
+    },
+    {
+      "id": "blizz-1234001",
+      "postId": 1234001,
+      "topicId": 80515,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-23T17:07:38.271Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas",
+        "es": "Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas"
+      },
+      "summary": {
+        "en": "[Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul&#39;Aman, Halloween y más cosas] Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de ...",
+        "es": "[Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul&#39;Aman, Halloween y más cosas] Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas\" width=\"833\" height=\"468\"></a></p><p>Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de la actualización de contenido Los dioses de Zul'Aman en los reinos del aniversario de Burning Crusade Classic, las novedades de esta semana vienen cargadas de información, espeluznantes eventos en el juego, recompensas nuevas y aventuras por descubrir en Azeroth.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313106\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Esta semana en WoW: Adéntrate en WoW: Forever, Los dioses de Zul'Aman, Halloween y más cosas\" width=\"833\" height=\"468\"></a></p><p>Desde las últimas noticias de World of Warcraft: Forever hasta el lanzamiento de la actualización de contenido Los dioses de Zul'Aman en los reinos del aniversario de Burning Crusade Classic, las novedades de esta semana vienen cargadas de información, espeluznantes eventos en el juego, recompensas nuevas y aventuras por descubrir en Azeroth.\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313106\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-ad%C3%A9ntrate-en-wow-forever-los-dioses-de-zulaman-halloween-y-m%C3%A1s-cosas/80515/1"
     },
     {
       "id": "blizz-6457345",
@@ -1316,90 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/class-tuning-incoming-27-october/637262/1"
-    },
-    {
-      "id": "blizz-6448865",
-      "postId": 6448865,
-      "topicId": 637232,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-23T17:07:14.418Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly",
-        "es": "Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly"
-      },
-      "summary": {
-        "en": "[Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly] From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul&#39;Aman co...",
-        "es": "[Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly] From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul&#39;Aman co..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">[Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly] From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul&#39;Aman content update in Burning Crusade Classic Anniversary, this week&#39;s news is packed with fresh insights, eerie in-game events, n&hellip;</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\">[Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly] From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul&#39;Aman content update in Burning Crusade Classic Anniversary, this week&#39;s news is packed with fresh insights, eerie in-game events, n&hellip;</div>"
-      },
-      "hasFullContent": false,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/dive-into-wow-forever-the-gods-of-zul%E2%80%99aman-hallow%E2%80%99s-end-and-more-in-wow-weekly/637232/1"
-    },
-    {
-      "id": "blizz-30591004",
-      "postId": 30591004,
-      "topicId": 2390480,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-23T17:06:48.692Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly",
-        "es": "Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly"
-      },
-      "summary": {
-        "en": "[Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly] From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul&#39;Aman co...",
-        "es": "[Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly] From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul&#39;Aman co..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul'Aman content update in Burning Crusade Classic Anniversary, this week's news is packed with fresh insights, eerie in-game events, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313106\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zy/ZY0H1CPSSTUB1792707149153.png\" alt=\"Dive Into WoW: Forever, the Gods of Zul’Aman, Hallow’s End, and More in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the latest news in World of Warcraft: Forever to the launch of the Gods of Zul'Aman content update in Burning Crusade Classic Anniversary, this week's news is packed with fresh insights, eerie in-game events, new rewards, and adventures to explore across Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24313106\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/dive-into-wow-forever-the-gods-of-zul%E2%80%99aman-hallow%E2%80%99s-end-and-more-in-wow-weekly/2390480/1"
-    },
-    {
-      "id": "blizz-6448847",
-      "postId": 6448847,
-      "topicId": 637228,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-23T17:01:38.625Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Thank You For Testing the WoW Forever Beta",
-        "es": "Thank You For Testing the WoW Forever Beta"
-      },
-      "summary": {
-        "en": "The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback. \nW...",
-        "es": "The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback. \nW..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta is now closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback.</p>\n<p>We’re now quickly moving into a period of a few short days where we will do some focused work on priority issues and the game service itself, so that it will be in good shape for launch day on November 4.</p>\n<p>And of course, we’ll open access to the character creation system on Tuesday, October 27, allowing everyone plenty of time to <a href=\"https://worldofwarcraft.blizzard.com/news/24302070/\">select the ruleset</a> that will define your journey and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24303866/\">snag the name</a> that best fits your adventurer.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" data-download-href=\"/en/wow/uploads/short-url/poAMBn9JkmIfZye6fTn5WKI67V8.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" alt=\"image\" data-base62-sha1=\"poAMBn9JkmIfZye6fTn5WKI67V8\" width=\"800\" height=\"381\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×381 122 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>You won’t have to wait until the game launches to make these big decisions.</p>\n<p>Also next week, we’re going to continue with our WoW Forever Podcast. If you haven’t consumed it all, this is a great time to catch up with everything the WoW Forever designers have had to say.</p>\n<ul>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-1-unpacking-beta-launch-ft-%E2%80%AAxaryu%E2%80%AC/632917/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 1 - Unpacking Beta Launch ft. ‪@Xaryu‬</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/632918/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/634342/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/635761/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ &amp; ‪@Savixirl</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/637043/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 5 - End of Beta Special</a></li>\n</ul>\n<p>If you can’t get enough WoW Forever info, we’ve got all kinds of details about the game right here on our website. You can learn more about <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24301455\">WoW Forever dungeons here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24301516/\">the Campfire system here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24303009/\">raid details here</a>.</p>\n<p>Again, we’re deeply grateful to have seen so many people find their Forever home, and create new communities, and find friends (old and new) to join on the journey ahead.</p>\n<p>We’re really looking forward to seeing you on November 4! Thank you very much!</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" data-download-href=\"/en/wow/uploads/short-url/gAEYa1KyMvGIJ5P5WRg7RVWThTy.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" alt=\"image\" data-base62-sha1=\"gAEYa1KyMvGIJ5P5WRg7RVWThTy\" width=\"800\" height=\"400\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×400 94.2 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The WoW Forever Beta ahora es closed, and we’re incredibly grateful to everyone who joined us over the last five weeks of playtesting, data gathering, bug reporting, and feedback.</p>\n<p>We’re now quickly moving into a period of a few short days where we will do some focused work on priority issues and the game service itself, so that it will be in good shape for launch day on November 4.</p>\n<p>And of course, we’ll open access to the character creation system on Tuesday, October 27, allowing everyone plenty of time to <a href=\"https://worldofwarcraft.blizzard.com/news/24302070/\">select the ruleset</a> that will define your journey and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24303866/\">snag the name</a> that best fits your adventurer.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" data-download-href=\"/en/wow/uploads/short-url/poAMBn9JkmIfZye6fTn5WKI67V8.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/b1fe09754ac84c51aac38a58e60bd32626cfaec2.jpeg\" alt=\"image\" data-base62-sha1=\"poAMBn9JkmIfZye6fTn5WKI67V8\" width=\"800\" height=\"381\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×381 122 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>You won’t have to wait until the game launches to make these big decisions.</p>\n<p>Also next week, we’re going to continue with our WoW Forever Podcast. If you haven’t consumed it all, this is a great time to catch up with everything the WoW Forever designers have had to say.</p>\n<ul>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-1-unpacking-beta-launch-ft-%E2%80%AAxaryu%E2%80%AC/632917/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 1 - Unpacking Beta Launch ft. ‪@Xaryu‬</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-2-speed-running-classes-ft-%E2%80%AAsodapoppin%E2%80%AC/632918/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 2 - Speed Running Classes ft. ‪@sodapoppin‬</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/634342/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 3 - Dive Into Dungeons With Devs ft. @Hammerdancegaming</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-4-the-pvp-episode-ft-%E2%80%AAtipsoutbaby%E2%80%AC-%E2%80%AAsavixirl/635761/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 4 - The PvP Episode ft. ‪@TipsOutBaby‬ &amp; ‪@Savixirl</a></li>\n<li><a href=\"https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-5-end-of-beta-special/637043/\" class=\"inline-onebox\">The WoW: Forever Podcast: Episode 5 - End of Beta Special</a></li>\n</ul>\n<p>If you can’t get enough WoW Forever info, we’ve got all kinds of details about the game right here on our website. You can learn more about <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24301455\">WoW Forever dungeons here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24301516/\">the Campfire system here</a>, and <a href=\"https://worldofwarcraft.blizzard.com/en-gb/news/24303009/\">raid details here</a>.</p>\n<p>Again, we’re deeply grateful to have seen so many people find their Forever home, and create new communities, and find friends (old and new) to join on the journey ahead.</p>\n<p>We’re really looking forward to seeing you on November 4! Thank you very much!</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" data-download-href=\"/en/wow/uploads/short-url/gAEYa1KyMvGIJ5P5WRg7RVWThTy.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/7447af4906a37d3110a9dd6974a43e5c1e905040.jpeg\" alt=\"image\" data-base62-sha1=\"gAEYa1KyMvGIJ5P5WRg7RVWThTy\" width=\"800\" height=\"400\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">800×400 94.2 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/thank-you-for-testing-the-wow-forever-beta/637228/1"
     }
   ],
   "blizzardNews": [
