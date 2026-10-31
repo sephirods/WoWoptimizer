@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30694131",
+      "postId": 30694131,
+      "topicId": 2382684,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-10-31T02:17:54.410Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Midnight Hotfixes - October 30",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - October 30"
+      },
+      "summary": {
+        "en": "October 30, 2026 \nHousing \n\nTracking the source for the Nagrand plant decor sold by Botanist Gril’ka in Nagrand now properly leads to her location.\n\nItems \n\nAzshara’s Darkscale Clo...",
+        "es": "October 30, 2026 \nHousing \n\nTracking the source for the Nagrand plant decor sold by Botanist Gril’ka in Nagrand now properly leads to her location.\n\nItems \n\nAzshara’s Darkscale Clo..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 30, 2026</strong></p>\n<p><strong>Housing</strong></p>\n<ul>\n<li>Tracking the source for the Nagrand plant decor sold by Botanist Gril’ka in Nagrand now properly leads to her location.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Azshara’s Darkscale Cloak and Azshara’s Deepscale Cloak were adjusted to resolve a dividing line that was visible under specific lighting.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue with the “Voices of Stone” bonus objective in the “Bear’s Burden” scenario that caused it to become stuck on the UI.</li>\n<li>Fixed an issue with “The Wandering” scenario that caused some Tether icons to flicker erratically.</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 30, 2026</strong></p>\n<p><strong>Housing</strong></p>\n<ul>\n<li>Tracking the source for the Nagrand plant decor sold by Botanist Gril’ka in Nagrand now properly leads to her location.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Azshara’s Darkscale Cloak and Azshara’s Deepscale Cloak were adjusted to resolve a dividing line that was visible under specific lighting.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue with the “Voices of Stone” bonus objective in the “Bear’s Burden” scenario that caused it to become stuck on the UI.</li>\n<li>Fixed an issue with “The Wandering” scenario that caused some Tether icons to flicker erratically.</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-october-30/2382684/150"
+    },
+    {
       "id": "blizz-30675695",
       "postId": 30675695,
       "topicId": 2396008,
@@ -183,8 +211,8 @@ window.WOW_NEWS_DATABASE = {
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - October 27",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - October 27"
+        "en": "World of Warcraft: Midnight Hotfixes - October 30",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - October 30"
       },
       "summary": {
         "en": "October 27, 2026 \nClasses \n\nDruid\n\nFeral\n\nAll damage done increased by 5%. Does not affect PvP combat.\n\n\nRestoration\n\nDeveloper’s note: These changes are intended to help Restorati...",
@@ -195,35 +223,7 @@ window.WOW_NEWS_DATABASE = {
         "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 27, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>DRUIDA</strong>\n<ul>\n<li><strong>Feral</strong>\n<ul>\n<li>All damage done increased by 5%. Does not affect PvP combat.</li>\n</ul>\n</li>\n<li><strong>Restauración</strong>\n<ul>\n<li><em>Developer’s note: These changes are intended to help Restauración Druid deal with burst damage in dungeons, as they are behind other healers. They are performing well in raid settings, so we are targeting talents and abilities that are favored when healing a 5-person group.</em></li>\n<li>Verdancy sanación aumentada un 60%. Does not affect PvP combat.</li>\n<li>Regrowth sanación aumentada un 10%. Does not affect PvP combat.</li>\n<li>Improved Swiftmend increases Swiftmend healing by 40% (antes era 30%). Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR</strong>\n<ul>\n<li><strong>Puntería</strong>\n<ul>\n<li><em>Developers’ notes: These changes are intended to boost the area damage effectiveness of Puntería Hunters.</em></li>\n<li>Trick Shots ahora aumenta the ricochet damage of Aimed Shot and Rapid Fuego by 85% (antes era 75%).</li>\n<li>Explosive Shot daño aumentado un 10%.</li>\n<li>Volley daño aumentado un 10%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MAGO</strong>\n<ul>\n<li><strong>Fuego</strong>\n<ul>\n<li>All damage done increased by 5%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MONJE</strong>\n<ul>\n<li><strong>Tejedor de niebla</strong>\n<ul>\n<li>Resolved an issue that caused the Mistline talent to sometimes not properly heal the lowest health target.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>PÍCARO</strong>\n<ul>\n<li><strong>Sutileza</strong>\n<ul>\n<li><em>Developers’ notes: The buff Sutileza received as compensation alongside changes in the 12.1.5 patch overshot expectations, so we’re rolling back a significant portion of that buff. In addition, the patch changes benefitted Trickster more than Deathstalker, so Trickster is receiving an additional smaller nerf.</em></li>\n<li>All ability daño reducido un 8%.</li>\n<li>Trickster: Fazed ahora aumenta damage by 5% (antes era 7%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>BRUJO</strong>\n<ul>\n<li><strong>Aflicción</strong>\n<ul>\n<li>Unstable Aflicción daño aumentado un 20%. Does not affect PvP combat.</li>\n</ul>\n</li>\n<li><strong>Destrucción</strong>\n<ul>\n<li>Rain of Fuego daño aumentado un 20%.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where tabards would hide the Rexxar armor set.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue where some scenarios were not granting Great Vault credit.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li><strong>CABALLERO DE LA MUERTE</strong>\n<ul>\n<li><strong>Profano</strong>\n<ul>\n<li><em>Developers’ notes: The last adjustments to San’layn did increase its viability, but the impact of Vampiric Strike has been higher than we would like.</em></li>\n<li>San’layn: Vampiric Strike daño reducido un 20% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR DE DEMONIOS</strong>\n<ul>\n<li><strong>Devourer</strong>\n<ul>\n<li>Collapsing Star daño aumentado un 20% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>EVOCADOR</strong>\n<ul>\n<li><strong>Preservación</strong>\n<ul>\n<li>Chronowarden: Chronal Dynamo increases the healing and damage of Living Flame by 80% when not an instant cast in PvP combat (antes era 50%).</li>\n<li>Chronowarden: Reverberations ahora causa Verdant Embrace to heal for an additional 80% over 8 seconds in PvP combat (antes era 40%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR</strong>\n<ul>\n<li><strong>Puntería</strong>\n<ul>\n<li>Kill Shot daño aumentado un 40% in PvP combat.</li>\n<li>Deathblow’s chance to be activated by Aimed Shot increased to 25% in PvP combat.</li>\n<li>Dark Ranger: Black Arrow daño aumentado un 40% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MAGO</strong>\n<ul>\n<li><strong>Fuego</strong>\n<ul>\n<li><em>Developers’ notes: Fuego Mage has continued to overperform, so we’re decreasing its overall damage to bring it in line with expectations.</em></li>\n<li>All daño reducido un 5% in PvP combat.</li>\n</ul>\n</li>\n<li><strong>Escarcha</strong>\n<ul>\n<li><em>Developers’ notes: Frostfire has not been a competitive option for Escarcha Mages this season, so we’re increasing a few of its burst damage aspects to differentiate its damage profile from Spellslinger.</em></li>\n<li>Frostfire: Isothermic Core’s Meteor daño aumentado un 20% in PvP combat.</li>\n<li>Frostfire: Duality’s Pyroblast daño aumentado un 20% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MONJE</strong>\n<ul>\n<li><strong>Tejedor de niebla</strong>\n<ul>\n<li><em>Developers’ notes: Conduit of the Celestials has not been a competitive option for Mistweavers this season, so we’re increasing its consistent and burst healing.</em></li>\n<li>Conduit of the Celestials: Celestial Conduit sanación aumentada un 35% in PvP combat.</li>\n<li>Conduit of the Celestials: Strength of the Black Ox absorb increased by 25% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li><strong>Sagrado</strong>\n<ul>\n<li><em>Developers’ notes: Sagrado Paladin’s throughput has been underperforming and we’re decreasing the mana cost of Sagrado Light to promote casted healing.</em></li>\n<li>All sanación aumentada un 5% in PvP combat.</li>\n<li>Divine Favor ahora reduce the mana cost of Sagrado Light by 50% in PvP combat (antes era 30%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>SACERDOTE</strong>\n<ul>\n<li><strong>Sagrado</strong>\n<ul>\n<li><em>Developers’ notes: These changes are aimed at further improving Archon’s viability in PvP with targeted increases to Prayer of Healing’s group healing and the power of proc effects from the tree.</em></li>\n<li>Prayerful Litany ahora causa the primary target of Prayer of Healing to be healed for 75% more in PvP combat (antes era 125%).</li>\n<li>Prayer of Healing sanación aumentada un 30% in PvP combat.</li>\n<li>Archon: Resonant Energy ahora aumenta healing done by 4% per stack in PvP combat (antes era 2%).</li>\n<li>Archon: Empowered Surges ahora aumenta the healing of spells affected by Surge of Light by 10% in PvP combat (antes era 5%).</li>\n<li>Archon: Realized Potential ahora aumenta Flash Heal healing by 25% in PvP combat (antes era 20%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>PÍCARO</strong>\n<ul>\n<li><strong>Asesinato</strong>\n<ul>\n<li>Deathstalker: Deathstalker’s Mark daño aumentado un 20% in PvP combat.</li>\n<li>Deathstalker: Hunt Them Down daño aumentado un 20% in PvP combat.</li>\n<li>Deathstalker: Darkest Night ahora aumenta the damage of the next Eviscerate by 15% in PvP combat (antes era 8%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li><strong>Restauración</strong>\n<ul>\n<li>Healing Stream Totem and Stormstream Totem sanación aumentada un 20% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-october-27/2382684/141"
-    },
-    {
-      "id": "blizz-30644593",
-      "postId": 30644593,
-      "topicId": 2394005,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-27T21:52:26.003Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Gold Transactions Must Be Direct",
-        "es": "Gold Transactions Must Be Direct"
-      },
-      "summary": {
-        "en": "We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the ...",
-        "es": "We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the accounts actioned purchased the illicit gold and had the seller deliver it to a different player who provided a service to the purchaser, such as a raid carry.</p>\n<p>Please be reminded that gold received from an intermediate player has an extremely high likelihood of being illicit gold that was part of an RMT. To avoid actions such as account suspension and the removal of illicit gold, players should always directly transfer gold from the player buying the carry (or other activity) to the player providing the carry.</p>\n<p>Guilds that provide carries to players, who pay for them with gold that comes from an intermediate, are at risk of seeing that gold removed by Blizzard.</p>\n<p>Thank you very much!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the accounts actioned purchased the illicit gold and had the seller deliver it to a different player who provided a service to the purchaser, such as a raid carry.</p>\n<p>Please be reminded that gold received from an intermediate player has an extremely high likelihood of being illicit gold that was part of an RMT. To avoid actions such as account suspension and the removal of illicit gold, players should always directly transfer gold from the player buying the carry (or other activity) to the player providing the carry.</p>\n<p>Guilds that provide carries to players, who pay for them with gold that comes from an intermediate, are at risk of seeing that gold removed by Blizzard.</p>\n<p>Thank you very much!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/gold-transactions-must-be-direct/2394005/1"
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-october-30/2382684/141"
     },
     {
       "id": "blizz-1234830",
@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/tu-pr%C3%B3xima-aventura-en-wow-forever-comienza-en-wow-portal-room/80577/1"
     },
     {
+      "id": "blizz-6465846",
+      "postId": 6465846,
+      "topicId": 635623,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-10-31T02:17:35.640Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Midnight Hotfixes - 30 October",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - 30 October"
+      },
+      "summary": {
+        "en": "October 30, 2026 \nHousing \n\nTracking the source for the Nagrand plant decor sold by Botanist Gril’ka in Nagrand now properly leads to her location.\n\nItems \n\nAzshara’s Darkscale Clo...",
+        "es": "October 30, 2026 \nHousing \n\nTracking the source for the Nagrand plant decor sold by Botanist Gril’ka in Nagrand now properly leads to her location.\n\nItems \n\nAzshara’s Darkscale Clo..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 30, 2026</strong></p>\n<p><strong>Housing</strong></p>\n<ul>\n<li>Tracking the source for the Nagrand plant decor sold by Botanist Gril’ka in Nagrand now properly leads to her location.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Azshara’s Darkscale Cloak and Azshara’s Deepscale Cloak were adjusted to resolve a dividing line that was visible under specific lighting.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue with the “Voices of Stone” bonus objective in the “Bear’s Burden” scenario that caused it to become stuck on the UI.</li>\n<li>Fixed an issue with “The Wandering” scenario that caused some Tether icons to flicker erratically.</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 30, 2026</strong></p>\n<p><strong>Housing</strong></p>\n<ul>\n<li>Tracking the source for the Nagrand plant decor sold by Botanist Gril’ka in Nagrand now properly leads to her location.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Azshara’s Darkscale Cloak and Azshara’s Deepscale Cloak were adjusted to resolve a dividing line that was visible under specific lighting.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue with the “Voices of Stone” bonus objective in the “Bear’s Burden” scenario that caused it to become stuck on the UI.</li>\n<li>Fixed an issue with “The Wandering” scenario that caused some Tether icons to flicker erratically.</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-30-october/635623/31"
+    },
+    {
       "id": "blizz-6463566",
       "postId": 6463566,
       "topicId": 638503,
@@ -631,8 +659,8 @@ window.WOW_NEWS_DATABASE = {
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - 27 October",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - 27 October"
+        "en": "World of Warcraft: Midnight Hotfixes - 30 October",
+        "es": "World of Warcraft: Midnight Correcciones en Vivo - 30 October"
       },
       "summary": {
         "en": "October 27, 2026 \nClasses \n\nDruid\n\nFeral\n\nAll damage done increased by 5%. Does not affect PvP combat.\n\n\nRestoration\n\nDeveloper’s note: These changes are intended to help Restorati...",
@@ -643,7 +671,35 @@ window.WOW_NEWS_DATABASE = {
         "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 27, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>DRUIDA</strong>\n<ul>\n<li><strong>Feral</strong>\n<ul>\n<li>All damage done increased by 5%. Does not affect PvP combat.</li>\n</ul>\n</li>\n<li><strong>Restauración</strong>\n<ul>\n<li><em>Developer’s note: These changes are intended to help Restauración Druid deal with burst damage in dungeons, as they are behind other healers. They are performing well in raid settings, so we are targeting talents and abilities that are favored when healing a 5-person group.</em></li>\n<li>Verdancy sanación aumentada un 60%. Does not affect PvP combat.</li>\n<li>Regrowth sanación aumentada un 10%. Does not affect PvP combat.</li>\n<li>Improved Swiftmend increases Swiftmend healing by 40% (antes era 30%). Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR</strong>\n<ul>\n<li><strong>Puntería</strong>\n<ul>\n<li><em>Developers’ notes: These changes are intended to boost the area damage effectiveness of Puntería Hunters.</em></li>\n<li>Trick Shots ahora aumenta the ricochet damage of Aimed Shot and Rapid Fuego by 85% (antes era 75%).</li>\n<li>Explosive Shot daño aumentado un 10%.</li>\n<li>Volley daño aumentado un 10%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MAGO</strong>\n<ul>\n<li><strong>Fuego</strong>\n<ul>\n<li>All damage done increased by 5%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MONJE</strong>\n<ul>\n<li><strong>Tejedor de niebla</strong>\n<ul>\n<li>Resolved an issue that caused the Mistline talent to sometimes not properly heal the lowest health target.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>PÍCARO</strong>\n<ul>\n<li><strong>Sutileza</strong>\n<ul>\n<li><em>Developers’ notes: The buff Sutileza received as compensation alongside changes in the 12.1.5 patch overshot expectations, so we’re rolling back a significant portion of that buff. In addition, the patch changes benefitted Trickster more than Deathstalker, so Trickster is receiving an additional smaller nerf.</em></li>\n<li>All ability daño reducido un 8%.</li>\n<li>Trickster: Fazed ahora aumenta damage by 5% (antes era 7%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>BRUJO</strong>\n<ul>\n<li><strong>Aflicción</strong>\n<ul>\n<li>Unstable Aflicción daño aumentado un 20%. Does not affect PvP combat.</li>\n</ul>\n</li>\n<li><strong>Destrucción</strong>\n<ul>\n<li>Rain of Fuego daño aumentado un 20%.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where tabards would hide the Rexxar armor set.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue where some scenarios were not granting Great Vault credit.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li><strong>CABALLERO DE LA MUERTE</strong>\n<ul>\n<li><strong>Profano</strong>\n<ul>\n<li><em>Developers’ notes: The last adjustments to San’layn did increase its viability, but the impact of Vampiric Strike has been higher than we would like.</em></li>\n<li>San’layn: Vampiric Strike daño reducido un 20% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR DE DEMONIOS</strong>\n<ul>\n<li><strong>Devourer</strong>\n<ul>\n<li>Collapsing Star daño aumentado un 20% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>EVOCADOR</strong>\n<ul>\n<li><strong>Preservación</strong>\n<ul>\n<li>Chronowarden: Chronal Dynamo increases the healing and damage of Living Flame by 80% when not an instant cast in PvP combat (antes era 50%).</li>\n<li>Chronowarden: Reverberations ahora causa Verdant Embrace to heal for an additional 80% over 8 seconds in PvP combat (antes era 40%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR</strong>\n<ul>\n<li><strong>Puntería</strong>\n<ul>\n<li>Kill Shot daño aumentado un 40% in PvP combat.</li>\n<li>Deathblow’s chance to be activated by Aimed Shot increased to 25% in PvP combat.</li>\n<li>Dark Ranger: Black Arrow daño aumentado un 40% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MAGO</strong>\n<ul>\n<li><strong>Fuego</strong>\n<ul>\n<li><em>Developers’ notes: Fuego Mage has continued to overperform, so we’re decreasing its overall damage to bring it in line with expectations.</em></li>\n<li>All daño reducido un 5% in PvP combat.</li>\n</ul>\n</li>\n<li><strong>Escarcha</strong>\n<ul>\n<li><em>Developers’ notes: Frostfire has not been a competitive option for Escarcha Mages this season, so we’re increasing a few of its burst damage aspects to differentiate its damage profile from Spellslinger.</em></li>\n<li>Frostfire: Isothermic Core’s Meteor daño aumentado un 20% in PvP combat.</li>\n<li>Frostfire: Duality’s Pyroblast daño aumentado un 20% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MONJE</strong>\n<ul>\n<li><strong>Tejedor de niebla</strong>\n<ul>\n<li><em>Developers’ notes: Conduit of the Celestials has not been a competitive option for Mistweavers this season, so we’re increasing its consistent and burst healing.</em></li>\n<li>Conduit of the Celestials: Celestial Conduit sanación aumentada un 35% in PvP combat.</li>\n<li>Conduit of the Celestials: Strength of the Black Ox absorb increased by 25% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li><strong>Sagrado</strong>\n<ul>\n<li><em>Developers’ notes: Sagrado Paladin’s throughput has been underperforming and we’re decreasing the mana cost of Sagrado Light to promote casted healing.</em></li>\n<li>All sanación aumentada un 5% in PvP combat.</li>\n<li>Divine Favor ahora reduce the mana cost of Sagrado Light by 50% in PvP combat (antes era 30%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>SACERDOTE</strong>\n<ul>\n<li><strong>Sagrado</strong>\n<ul>\n<li><em>Developers’ notes: These changes are aimed at further improving Archon’s viability in PvP with targeted increases to Prayer of Healing’s group healing and the power of proc effects from the tree.</em></li>\n<li>Prayerful Litany ahora causa the primary target of Prayer of Healing to be healed for 75% more in PvP combat (antes era 125%).</li>\n<li>Prayer of Healing sanación aumentada un 30% in PvP combat.</li>\n<li>Archon: Resonant Energy ahora aumenta healing done by 4% per stack in PvP combat (antes era 2%).</li>\n<li>Archon: Empowered Surges ahora aumenta the healing of spells affected by Surge of Light by 10% in PvP combat (antes era 5%).</li>\n<li>Archon: Realized Potential ahora aumenta Flash Heal healing by 25% in PvP combat (antes era 20%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>PÍCARO</strong>\n<ul>\n<li><strong>Asesinato</strong>\n<ul>\n<li>Deathstalker: Deathstalker’s Mark daño aumentado un 20% in PvP combat.</li>\n<li>Deathstalker: Hunt Them Down daño aumentado un 20% in PvP combat.</li>\n<li>Deathstalker: Darkest Night ahora aumenta the damage of the next Eviscerate by 15% in PvP combat (antes era 8%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li><strong>Restauración</strong>\n<ul>\n<li>Healing Stream Totem and Stormstream Totem sanación aumentada un 20% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-27-october/635623/27"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-30-october/635623/27"
+    },
+    {
+      "id": "blizz-30644593",
+      "postId": 30644593,
+      "topicId": 2394005,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-10-27T21:52:26.003Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Gold Transactions Must Be Direct",
+        "es": "Gold Transactions Must Be Direct"
+      },
+      "summary": {
+        "en": "We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the ...",
+        "es": "We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the accounts actioned purchased the illicit gold and had the seller deliver it to a different player who provided a service to the purchaser, such as a raid carry.</p>\n<p>Please be reminded that gold received from an intermediate player has an extremely high likelihood of being illicit gold that was part of an RMT. To avoid actions such as account suspension and the removal of illicit gold, players should always directly transfer gold from the player buying the carry (or other activity) to the player providing the carry.</p>\n<p>Guilds that provide carries to players, who pay for them with gold that comes from an intermediate, are at risk of seeing that gold removed by Blizzard.</p>\n<p>Thank you very much!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the accounts actioned purchased the illicit gold and had the seller deliver it to a different player who provided a service to the purchaser, such as a raid carry.</p>\n<p>Please be reminded that gold received from an intermediate player has an extremely high likelihood of being illicit gold that was part of an RMT. To avoid actions such as account suspension and the removal of illicit gold, players should always directly transfer gold from the player buying the carry (or other activity) to the player providing the carry.</p>\n<p>Guilds that provide carries to players, who pay for them with gold that comes from an intermediate, are at risk of seeing that gold removed by Blizzard.</p>\n<p>Thank you very much!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/gold-transactions-must-be-direct/2394005/1"
     },
     {
       "id": "blizz-6458976",
@@ -1344,62 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/ahorra-hasta-un-50-con-las-rebajas-de-oto%C3%B1o-hasta-el-2-de-noviembre/80498/1"
-    },
-    {
-      "id": "blizz-1233718",
-      "postId": 1233718,
-      "topicId": 80494,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-21T17:02:26.459Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Reuníos alrededor de la hoguera en World of Warcraft: Forever",
-        "es": "Reuníos alrededor de la hoguera en World of Warcraft: Forever"
-      },
-      "summary": {
-        "en": "[Reuníos alrededor de la hoguera en World of Warcraft: Forever] El sistema de acampada de World of Warcraft: Forever permite a los jugadores crear campamentos compartidos en los qu...",
-        "es": "[Reuníos alrededor de la hoguera en World of Warcraft: Forever] El sistema de acampada de World of Warcraft: Forever permite a los jugadores crear campamentos compartidos en los qu..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Reuníos alrededor de la hoguera en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>El sistema de acampada de World of Warcraft: Forever permite a los jugadores crear campamentos compartidos en los que pueden descansar, crear objetos y obtener beneficios útiles de las funciones de cada profesión. Desde la hoguera básica que se puede crear con la profesión de cocina, el sistema ofrece a los aventureros más motivos para prepararse juntos y estrechar lazos mientras viajan por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24301516\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/mi/MIORB2TEVZIK1792455672807.png\" alt=\"Reuníos alrededor de la hoguera en World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>El sistema de acampada de World of Warcraft: Forever permite a los jugadores crear campamentos compartidos en los que pueden descansar, crear objetos y obtener beneficios útiles de las funciones de cada profesión. Desde la hoguera básica que se puede crear con la profesión de cocina, el sistema ofrece a los aventureros más motivos para prepararse juntos y estrechar lazos mientras viajan por Azeroth. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24301516\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/reun%C3%ADos-alrededor-de-la-hoguera-en-world-of-warcraft-forever/80494/1"
-    },
-    {
-      "id": "blizz-1233660",
-      "postId": 1233660,
-      "topicId": 80490,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-20T21:00:15.719Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "¡La reserva de nombre anticipada de World of Warcraft: Forever ya está disponible!",
-        "es": "¡La reserva de nombre anticipada de World of Warcraft: Forever ya está disponible!"
-      },
-      "summary": {
-        "en": "[¡La reserva de nombre anticipada de World of Warcraft: Forever ya está disponible!] ¡Prepárate para dejar huella en Azeroth! La reserva de nombre anticipada de World of Warcraft: ...",
-        "es": "[¡La reserva de nombre anticipada de World of Warcraft: Forever ya está disponible!] ¡Prepárate para dejar huella en Azeroth! La reserva de nombre anticipada de World of Warcraft: ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/cb/CB0LBK1KPLRZ1792458590215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/cb/CB0LBK1KPLRZ1792458590215.png\" alt=\"¡La reserva de nombre anticipada de World of Warcraft: Forever ya está disponible!\" width=\"833\" height=\"468\"></a></p><p>¡Prepárate para dejar huella en Azeroth! La reserva de nombre anticipada de World of Warcraft: Forever estará disponible del 27 de octubre al 3 de noviembre y te brindará la oportunidad de reservar el nombre de hasta tres personajes. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303866\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/cb/CB0LBK1KPLRZ1792458590215.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/cb/CB0LBK1KPLRZ1792458590215.png\" alt=\"¡La reserva de nombre anticipada de World of Warcraft: Forever ya está disponible!\" width=\"833\" height=\"468\"></a></p><p>¡Prepárate para dejar huella en Azeroth! La reserva de nombre anticipada de World of Warcraft: Forever estará disponible del 27 de octubre al 3 de noviembre y te brindará la oportunidad de reservar el nombre de hasta tres personajes. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303866\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1la-reserva-de-nombre-anticipada-de-world-of-warcraft-forever-ya-est%C3%A1-disponible/80490/1"
     }
   ],
   "blizzardNews": [
