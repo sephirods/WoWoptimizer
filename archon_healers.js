@@ -1,5 +1,5 @@
 // Archon.gg Datos Oficiales Unificados (Stats + Árboles Talentos 1:1 + BiS Gear + Abalorios Healers)
-window.ARCHON_LAST_UPDATED = "2026-11-02T14:51:24.256Z";
+window.ARCHON_LAST_UPDATED = "2026-11-02T15:04:24.261Z";
 window.ARCHON_PRESETS = {
   "deathknight": {
     "blood": {
@@ -3406,7 +3406,7 @@ window.ARCHON_PRESETS = {
       "mplus": {
         "m": 1429,
         "c": 1165,
-        "h": 0,
+        "h": 299,
         "v": 300,
         "dps": "470.6k",
         "dpsLabel": "DPS",
@@ -3889,7 +3889,7 @@ window.ARCHON_PRESETS = {
       },
       "mplus": {
         "m": 1252,
-        "c": 0,
+        "c": 927,
         "h": 936,
         "v": 183,
         "dps": "494.8k",
@@ -4140,7 +4140,7 @@ window.ARCHON_PRESETS = {
       },
       "mplus": {
         "m": 539,
-        "c": 0,
+        "c": 772,
         "h": 1012,
         "v": 775,
         "dps": "477.9k",
@@ -5768,7 +5768,7 @@ window.ARCHON_PRESETS = {
       "raid": {
         "m": 636,
         "c": 1118,
-        "h": 0,
+        "h": 1113,
         "v": 220,
         "dps": "172.8k",
         "dpsLabel": "DPS",
