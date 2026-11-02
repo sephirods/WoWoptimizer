@@ -189,6 +189,76 @@ window.WOWHEAD_STAT_PRIORITIES = {
           }
         }
       }
+    },
+    "devourer": {
+      "name": "Devourer Demon Hunter",
+      "guideUrl": "https://www.wowhead.com/guide/classes/demon-hunter/devourer/stat-priority-pve-dps",
+      "heroTrees": {
+        "Annihilator": {
+          "rawList": [
+            "Intellect",
+            "Mastery",
+            "Haste",
+            "Critical Strike",
+            "Versatility"
+          ],
+          "secondaryOrder": "Mastery > Haste > Crit > Vers",
+          "weights": {
+            "m": 1.6,
+            "c": 1,
+            "h": 1.3,
+            "v": 0.7
+          }
+        },
+        "Void-Scarred": {
+          "rawList": [
+            "Intellect",
+            "Mastery",
+            "Haste",
+            "Critical Strike",
+            "Versatility"
+          ],
+          "secondaryOrder": "Mastery > Haste > Crit > Vers",
+          "weights": {
+            "m": 1.6,
+            "c": 1,
+            "h": 1.3,
+            "v": 0.7
+          }
+        },
+        "Fel-Scarred": {
+          "rawList": [
+            "Intellect",
+            "Mastery",
+            "Haste",
+            "Critical Strike",
+            "Versatility"
+          ],
+          "secondaryOrder": "Mastery > Haste > Crit > Vers",
+          "weights": {
+            "m": 1.6,
+            "c": 1,
+            "h": 1.3,
+            "v": 0.7
+          }
+        },
+        "Aldrachi Reaver": {
+          "rawList": [
+            "Intellect",
+            "Mastery",
+            "Haste",
+            "Critical Strike",
+            "Versatility"
+          ],
+          "secondaryOrder": "Mastery > Haste > Crit > Vers",
+          "weights": {
+            "m": 1.6,
+            "c": 1,
+            "h": 1.3,
+            "v": 0.7
+          }
+        }
+      }
     }
   },
   "druid": {

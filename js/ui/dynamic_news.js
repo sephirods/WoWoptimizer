@@ -506,9 +506,11 @@ function renderPinnedNews() {
       <div class="grid grid-cols-1 ${pinnedArticles.length > 1 ? 'md:grid-cols-2' : ''} gap-3 sm:gap-4 bg-transparent border-none">
         ${pinnedArticles.map(item => {
           const itemTitle = resolveLocalized(item.title, lang);
-          const itemSummary = getArticleExcerpt(item, lang, 150);
-          const isBlizz = item.category === 'Oficial' || (item.id && item.id.startsWith('blizz-24'));
-          const isBlue = !isBlizz && (item.source === 'blizzard' || !item.source);
+          const itemSummary = getArticleExcerpt(item, lang, 160);
+          const coverImg = item.imageUrl || item.image || (item.enclosure && item.enclosure.link) || null;
+          const optCoverImg = coverImg ? getOptimizedThumbUrl(coverImg, 640, 288) : null;
+          const isBlizz = item.category === 'Oficial' || item.source === 'blizzard_news' || (Boolean(coverImg) && item.id && item.id.startsWith('blizz-'));
+          const isBlue = !isBlizz && (item.source === 'blizzard' || (item.id && item.id.startsWith('blizz-')) || !item.source);
           
           let sourceTag = 'Wowhead News';
           let sourceModal = 'news';
@@ -529,30 +531,38 @@ function renderPinnedNews() {
             : (resolveLocalized(item.timeAgo, lang) || resolveLocalized(item.date, lang) || 'Reciente');
 
           return `
-            <div onclick="openArticleModal('${item.id}', '${sourceModal}')" class="group cursor-pointer bg-black/50 hover:bg-black/80 border border-amber-500/30 hover:border-amber-400/80 rounded-xl p-3.5 sm:p-4 transition duration-200 shadow-md flex flex-col justify-between gap-2.5 relative overflow-hidden">
-              <div class="absolute top-0 right-0 w-16 h-16 bg-amber-500/5 rounded-bl-full pointer-events-none group-hover:bg-amber-500/10 transition"></div>
-              <div class="space-y-2">
-                <div class="flex items-center gap-2 flex-wrap">
-                  <span class="text-[9px] font-mono font-bold px-2 py-0.5 rounded-full border border-amber-500/60 bg-amber-500/20 text-amber-300 flex items-center gap-1 shadow-sm">
-                    <i class="fa-solid fa-thumbtack text-[8px]"></i> ${badgeText}
-                  </span>
-                  <span class="text-[9px] font-mono font-bold px-1.5 py-0.2 rounded border ${tagClass}">
-                    ${sourceTag}
-                  </span>
-                  <span class="text-[10px] text-slate-400 font-mono">${timeDisplay}</span>
+            <div onclick="openArticleModal('${item.id}', '${sourceModal}')" class="group cursor-pointer bg-black/50 hover:bg-black/80 border border-amber-500/30 hover:border-amber-400/80 rounded-xl overflow-hidden transition duration-200 shadow-md flex flex-col ${optCoverImg && pinnedArticles.length === 1 ? 'sm:flex-row' : ''} justify-between relative">
+              ${optCoverImg ? `
+                <div class="${pinnedArticles.length === 1 ? 'sm:w-64 md:w-72 sm:shrink-0 h-44 sm:h-auto' : 'h-40 w-full'} relative overflow-hidden bg-slate-900 border-b ${pinnedArticles.length === 1 ? 'sm:border-b-0 sm:border-r' : ''} border-amber-500/20">
+                  <img src="${optCoverImg}" alt="${itemTitle.replace(/"/g, '&quot;')}" loading="lazy" decoding="async" onerror="if(this.src!=='${coverImg}')this.src='${coverImg}';" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
                 </div>
-                <h4 class="text-sm font-bold text-slate-100 group-hover:text-amber-300 transition line-clamp-2 leading-snug">
-                  ${itemTitle}
-                </h4>
-                <p class="text-xs text-slate-400 line-clamp-2 leading-relaxed">
-                  ${itemSummary}
-                </p>
-              </div>
-              <div class="flex items-center justify-between pt-1 border-t border-white/5 text-[11px] font-semibold text-amber-400/90 group-hover:text-amber-300">
-                <span class="flex items-center gap-1">
-                  ${readFullText} <i class="fa-solid fa-arrow-right text-[10px] group-hover:translate-x-1 transition"></i>
-                </span>
-                <span class="text-[10px] text-slate-500 font-mono">${item.author || 'Blizzard'}</span>
+              ` : ''}
+              <div class="p-3.5 sm:p-4 flex-1 flex flex-col justify-between gap-2.5 relative min-w-0">
+                <div class="absolute top-0 right-0 w-16 h-16 bg-amber-500/5 rounded-bl-full pointer-events-none group-hover:bg-amber-500/10 transition"></div>
+                <div class="space-y-2">
+                  <div class="flex items-center gap-2 flex-wrap">
+                    <span class="text-[9px] font-mono font-bold px-2 py-0.5 rounded-full border border-amber-500/60 bg-amber-500/20 text-amber-300 flex items-center gap-1 shadow-sm">
+                      <i class="fa-solid fa-thumbtack text-[8px]"></i> ${badgeText}
+                    </span>
+                    <span class="text-[9px] font-mono font-bold px-1.5 py-0.2 rounded border ${tagClass}">
+                      ${sourceTag}
+                    </span>
+                    <span class="text-[10px] text-slate-400 font-mono">${timeDisplay}</span>
+                  </div>
+                  <h4 class="text-sm sm:text-base font-bold text-slate-100 group-hover:text-amber-300 transition line-clamp-2 leading-snug">
+                    ${itemTitle}
+                  </h4>
+                  <p class="text-xs text-slate-400 line-clamp-2 leading-relaxed">
+                    ${itemSummary}
+                  </p>
+                </div>
+                <div class="flex items-center justify-between pt-2 border-t border-white/5 text-[11px] font-semibold text-amber-400/90 group-hover:text-amber-300">
+                  <span class="flex items-center gap-1">
+                    ${readFullText} <i class="fa-solid fa-arrow-right text-[10px] group-hover:translate-x-1 transition"></i>
+                  </span>
+                  <span class="text-[10px] text-slate-500 font-mono truncate max-w-[180px]">${item.author || 'Blizzard'}</span>
+                </div>
               </div>
             </div>
           `;

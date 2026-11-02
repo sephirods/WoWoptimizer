@@ -18,6 +18,7 @@
     'deathknight_unholy': ['Rider of the Apocalypse', "San'layn"],
     'demonhunter_havoc': ['Aldrachi Reaver', 'Fel-Scarred'],
     'demonhunter_vengeance': ['Aldrachi Reaver', 'Fel-Scarred'],
+    'demonhunter_devourer': ['Annihilator', 'Void-Scarred'],
     'druid_balance': ["Elune's Chosen", 'Keeper of the Grove'],
     'druid_feral': ['Druid of the Claw', 'Wildstalker'],
     'druid_guardian': ['Druid of the Claw', "Elune's Chosen"],
@@ -60,6 +61,7 @@
     { classKey: 'deathknight', classSlug: 'death-knight', specKey: 'unholy', name: 'Unholy Death Knight', guide: 'unholy/stat-priority-pve-dps' },
     { classKey: 'demonhunter', classSlug: 'demon-hunter', specKey: 'havoc', name: 'Havoc Demon Hunter', guide: 'havoc/stat-priority-pve-dps' },
     { classKey: 'demonhunter', classSlug: 'demon-hunter', specKey: 'vengeance', name: 'Vengeance Demon Hunter', guide: 'vengeance/stat-priority-pve-tank' },
+    { classKey: 'demonhunter', classSlug: 'demon-hunter', specKey: 'devourer', name: 'Devourer Demon Hunter', guide: 'devourer/stat-priority-pve-dps' },
     { classKey: 'druid', classSlug: 'druid', specKey: 'balance', name: 'Balance Druid', guide: 'balance/stat-priority-pve-dps' },
     { classKey: 'druid', classSlug: 'druid', specKey: 'feral', name: 'Feral Druid', guide: 'feral/stat-priority-pve-dps' },
     { classKey: 'druid', classSlug: 'druid', specKey: 'guardian', name: 'Guardian Druid', guide: 'guardian/stat-priority-pve-tank' },
@@ -251,6 +253,6 @@
   document.body.removeChild(a);
   URL.revokeObjectURL(downloadUrl);
 
-  console.log('🎉 ¡Extracción de las 39 Specs completada y archivo wow_stat_priorities.js descargado con éxito!');
+  console.log('🎉 ¡Extracción de las 40 Specs completada y archivo wow_stat_priorities.js descargado con éxito!');
   return results;
 })();

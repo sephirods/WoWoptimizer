@@ -113,7 +113,8 @@ async function fetchAnalyticsCounts() {
     let isBlocked = false;
     const fetchCount = async (path) => {
       try {
-        const encodedPath = path.startsWith('/') ? '%' + '2F' + encodeURIComponent(path.slice(1)).replace(/%2F/g, '%2F') : path;
+        const cleanPath = (path !== '/' && path !== 'TOTAL') ? path.replace(/\/$/, '') : path;
+        const encodedPath = cleanPath.startsWith('/') ? '%' + '2F' + encodeURIComponent(cleanPath.slice(1)).replace(/%2F/g, '%2F') : cleanPath;
         const res = await fetch(`https://sephirods.goatcounter.com/counter/${encodedPath}.json?_ts=${Date.now()}`);
         if (!res.ok) return 0;
         const data = await res.json();
@@ -125,24 +126,24 @@ async function fetchAnalyticsCounts() {
     };
 
     const classRoutes = [
-      { id: 'hub', label: 'Directorio General (/classes/)', path: '/classes/', color: 'text-sky-300' },
-      { id: 'paladin', label: 'Paladín (/classes/paladin/)', path: '/classes/paladin/', color: 'text-pink-300' },
-      { id: 'warrior', label: 'Guerrero (/classes/warrior/)', path: '/classes/warrior/', color: 'text-amber-300' },
-      { id: 'deathknight', label: 'Caballero de la Muerte (/classes/deathknight/)', path: '/classes/deathknight/', color: 'text-red-400' },
-      { id: 'demonhunter', label: 'Cazador de Demonios (/classes/demonhunter/)', path: '/classes/demonhunter/', color: 'text-purple-400' },
-      { id: 'druid', label: 'Druida (/classes/druid/)', path: '/classes/druid/', color: 'text-orange-400' },
-      { id: 'evoker', label: 'Evocador (/classes/evoker/)', path: '/classes/evoker/', color: 'text-teal-300' },
-      { id: 'hunter', label: 'Cazador (/classes/hunter/)', path: '/classes/hunter/', color: 'text-lime-400' },
-      { id: 'mage', label: 'Mago (/classes/mage/)', path: '/classes/mage/', color: 'text-cyan-300' },
-      { id: 'monk', label: 'Monje (/classes/monk/)', path: '/classes/monk/', color: 'text-emerald-300' },
-      { id: 'priest', label: 'Sacerdote (/classes/priest/)', path: '/classes/priest/', color: 'text-slate-100' },
-      { id: 'rogue', label: 'Pícaro (/classes/rogue/)', path: '/classes/rogue/', color: 'text-yellow-300' },
-      { id: 'shaman', label: 'Chamán (/classes/shaman/)', path: '/classes/shaman/', color: 'text-blue-400' },
-      { id: 'warlock', label: 'Brujo (/classes/warlock/)', path: '/classes/warlock/', color: 'text-violet-400' }
+      { id: 'hub', label: 'Directorio General (/classes/)', path: '/classes', specs: [], color: 'text-sky-300' },
+      { id: 'paladin', label: 'Paladín (/classes/paladin/)', path: '/classes/paladin', specs: ['holy', 'protection', 'retribution'], color: 'text-pink-300' },
+      { id: 'warrior', label: 'Guerrero (/classes/warrior/)', path: '/classes/warrior', specs: ['arms', 'fury', 'protection'], color: 'text-amber-300' },
+      { id: 'deathknight', label: 'Caballero de la Muerte (/classes/deathknight/)', path: '/classes/deathknight', specs: ['blood', 'frost', 'unholy'], color: 'text-red-400' },
+      { id: 'demonhunter', label: 'Cazador de Demonios (/classes/demonhunter/)', path: '/classes/demonhunter', specs: ['havoc', 'vengeance', 'devourer'], color: 'text-purple-400' },
+      { id: 'druid', label: 'Druida (/classes/druid/)', path: '/classes/druid', specs: ['balance', 'feral', 'guardian', 'restoration'], color: 'text-orange-400' },
+      { id: 'evoker', label: 'Evocador (/classes/evoker/)', path: '/classes/evoker', specs: ['devastation', 'preservation', 'augmentation'], color: 'text-teal-300' },
+      { id: 'hunter', label: 'Cazador (/classes/hunter/)', path: '/classes/hunter', specs: ['beast-mastery', 'marksmanship', 'survival'], color: 'text-lime-400' },
+      { id: 'mage', label: 'Mago (/classes/mage/)', path: '/classes/mage', specs: ['arcane', 'fire', 'frost'], color: 'text-cyan-300' },
+      { id: 'monk', label: 'Monje (/classes/monk/)', path: '/classes/monk', specs: ['brewmaster', 'mistweaver', 'windwalker'], color: 'text-emerald-300' },
+      { id: 'priest', label: 'Sacerdote (/classes/priest/)', path: '/classes/priest', specs: ['discipline', 'holy', 'shadow'], color: 'text-slate-100' },
+      { id: 'rogue', label: 'Pícaro (/classes/rogue/)', path: '/classes/rogue', specs: ['assassination', 'outlaw', 'subtlety'], color: 'text-yellow-300' },
+      { id: 'shaman', label: 'Chamán (/classes/shaman/)', path: '/classes/shaman', specs: ['elemental', 'enhancement', 'restoration'], color: 'text-blue-400' },
+      { id: 'warlock', label: 'Brujo (/classes/warlock/)', path: '/classes/warlock', specs: ['affliction', 'demonology', 'destruction'], color: 'text-violet-400' }
     ];
 
-    // Extraer las noticias principales para consultar sus lecturas en /news/<id>
-    const rawNewsDb = window.WOW_NEWS_DATA || {};
+    // Extraer todas las noticias de WOW_NEWS_DATABASE para consultar sus lecturas reales en /news/<id>
+    const rawNewsDb = window.WOW_NEWS_DATABASE || window.WOW_NEWS_DATA || {};
     const allNewsItems = [
       ...(rawNewsDb.blizzardNews || []),
       ...(rawNewsDb.recentNews || []),
@@ -155,7 +156,7 @@ async function fetchAnalyticsCounts() {
         uniqueNewsMap.set(item.id, { id: item.id, title: titleStr, path: `/news/${item.id}` });
       }
     });
-    const trackedNewsList = Array.from(uniqueNewsMap.values()).slice(0, 12);
+    const trackedNewsList = Array.from(uniqueNewsMap.values());
 
     const [total, indexCount, indexHtmlCount, gearsim1, gearsim2] = await Promise.all([
       fetchCount('TOTAL'),
@@ -178,27 +179,42 @@ async function fetchAnalyticsCounts() {
     }
 
     const classCounts = await Promise.all(classRoutes.map(async (r) => {
-      const c1 = await fetchCount(r.path);
-      const c2 = await fetchCount(r.path.replace(/\/$/, ''));
-      return { ...r, count: (c1 || 0) + (c2 || 0) };
+      const hubCount = (await fetchCount(r.path)) || 0;
+      const specResults = await Promise.all((r.specs || []).map(async (sp) => {
+        const sc = (await fetchCount(`${r.path}/${sp}`)) || 0;
+        return { spec: sp, count: sc };
+      }));
+      const specsSum = specResults.reduce((acc, s) => acc + s.count, 0);
+      const activeSpecs = specResults.filter(s => s.count > 0).map(s => `${s.spec}: ${s.count}`).join(' · ');
+      return {
+        ...r,
+        hubCount,
+        specsSum,
+        activeSpecs,
+        count: hubCount + specsSum
+      };
     }));
 
-    const newsCounts = await Promise.all(trackedNewsList.map(async (n) => {
-      const c = await fetchCount(n.path);
-      return { ...n, count: c || 0 };
-    }));
+    const newsCounts = [];
+    const batchSize = 25;
+    for (let i = 0; i < trackedNewsList.length; i += batchSize) {
+      const batch = trackedNewsList.slice(i, i + batchSize);
+      const resBatch = await Promise.all(batch.map(async (n) => {
+        const c = await fetchCount(n.path);
+        return { ...n, count: c || 0 };
+      }));
+      newsCounts.push(...resBatch);
+    }
 
     const indexTotal = (indexCount || 0) + (indexHtmlCount || 0);
     const gearsimTotal = (gearsim1 || 0) + (gearsim2 || 0);
     const sumDirectClasses = classCounts.reduce((acc, x) => acc + x.count, 0);
     const sumNews = newsCounts.reduce((acc, x) => acc + x.count, 0);
-    // Si hay visitas a sub-rutas de especializaciones (/classes/paladin/protection/, etc.), se reflejan en la diferencia contra TOTAL
-    const inferredGuidesTotal = Math.max(sumDirectClasses, (total || 0) - indexTotal - gearsimTotal - sumNews);
 
     setEl('analytics-count-total', (total || 0).toLocaleString());
     setEl('analytics-count-index', indexTotal.toLocaleString());
     setEl('analytics-count-gearsim', gearsimTotal.toLocaleString());
-    setEl('analytics-count-classes', inferredGuidesTotal.toLocaleString());
+    setEl('analytics-count-classes', sumDirectClasses.toLocaleString());
     setEl('analytics-count-news', sumNews.toLocaleString());
     setEl('overview-analytics-total', `${(total || 0).toLocaleString()} visitas`);
 
@@ -209,10 +225,11 @@ async function fetchAnalyticsCounts() {
         <div class="py-2 flex items-center justify-between gap-2">
           <div class="min-w-0">
             <div class="font-bold ${item.color} truncate">${item.label}</div>
+            ${item.activeSpecs ? `<div class="text-[10px] font-mono text-slate-400 truncate">${item.hubCount > 0 ? `hub: ${item.hubCount} · ` : ''}${item.activeSpecs}</div>` : ''}
           </div>
           <div class="flex items-center gap-2.5 shrink-0">
             <span class="font-mono font-black text-white bg-black/50 px-2 py-0.5 rounded border border-white/10">${item.count.toLocaleString()}</span>
-            <a href="https://sephirods.goatcounter.com/?filter=${encodeURIComponent(item.path.replace(/\/$/, ''))}" target="_blank" rel="noopener noreferrer" class="text-[11px] text-sky-400 hover:text-white" title="Filtrar en GoatCounter">
+            <a href="https://sephirods.goatcounter.com/?filter=${encodeURIComponent(item.path)}" target="_blank" rel="noopener noreferrer" class="text-[11px] text-sky-400 hover:text-white" title="Filtrar en GoatCounter">
               <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </div>
@@ -222,8 +239,9 @@ async function fetchAnalyticsCounts() {
 
     const newsContainer = document.getElementById('analytics-news-breakdown');
     if (newsContainer) {
-      const sortedNews = [...newsCounts].sort((a, b) => b.count - a.count);
-      newsContainer.innerHTML = sortedNews.length > 0 ? sortedNews.map(item => `
+      const readNews = newsCounts.filter(n => n.count > 0).sort((a, b) => b.count - a.count);
+      const displayNews = readNews.length > 0 ? readNews : newsCounts.slice(0, 10);
+      newsContainer.innerHTML = displayNews.length > 0 ? displayNews.map(item => `
         <div class="py-2 flex items-center justify-between gap-2">
           <div class="min-w-0">
             <div class="font-semibold text-slate-200 truncate" title="${item.title.replace(/"/g, '&quot;')}">${item.title}</div>
