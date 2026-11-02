@@ -65,7 +65,7 @@ function updateTopDatasetBadgesFromVps(statusData) {
   if (!statusData || !statusData.modules) return;
   const mods = statusData.modules;
 
-  const applyBadge = (overviewId, tabId, mod) => {
+  const applyBadge = (tabId, mod) => {
     if (!mod) return;
     const isOk = mod.status === 'ok';
     const isRunning = mod.status === 'running';
@@ -73,37 +73,32 @@ function updateTopDatasetBadgesFromVps(statusData) {
     const rel = mod.updatedAt ? formatRelativeTimeEs(mod.updatedAt) : '';
 
     const cls = isRunning
-      ? 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-amber-950 text-amber-300 border border-amber-500/60 font-bold animate-pulse'
+      ? 'text-[10px] px-2.5 py-0.5 rounded-full font-mono bg-amber-950 text-amber-300 border border-amber-500/60 font-bold animate-pulse'
       : isOk
-      ? 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-emerald-950 text-emerald-300 border border-emerald-500/60 font-bold'
+      ? 'text-[10px] px-2.5 py-0.5 rounded-full font-mono bg-emerald-950 text-emerald-300 border border-emerald-500/60 font-bold'
       : isErr
-      ? 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-red-950 text-red-300 border border-red-500/60 font-bold'
-      : 'text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold';
+      ? 'text-[10px] px-2.5 py-0.5 rounded-full font-mono bg-red-950 text-red-300 border border-red-500/60 font-bold'
+      : 'text-[10px] px-2.5 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold';
 
     const label = isRunning
-      ? 'Actualizando...'
+      ? 'Actualizando en VPS...'
       : isOk
       ? `VPS ✓ (${rel})`
       : isErr
       ? 'Fallo VPS ✗'
       : 'Pendiente';
 
-    const el1 = document.getElementById(overviewId);
-    if (el1) {
-      el1.className = cls;
-      el1.textContent = label;
-    }
-    const el2 = document.getElementById(tabId);
-    if (el2) {
-      el2.className = cls;
-      el2.textContent = label;
+    const el = document.getElementById(tabId);
+    if (el) {
+      el.className = cls;
+      el.textContent = label;
     }
   };
 
-  applyBadge('overview-archon-status', 'archon-data-status', mods.archon);
-  applyBadge('overview-stat-priorities-status', 'stat-priorities-data-status', mods.stats);
-  applyBadge('overview-wowhead-status', 'wowhead-data-status', mods.wowhead);
-  applyBadge('overview-bloodmallet-status', 'bloodmallet-data-status', mods.bloodmallet);
+  applyBadge('archon-data-status', mods.archon);
+  applyBadge('stat-priorities-data-status', mods.stats);
+  applyBadge('wowhead-data-status', mods.wowhead);
+  applyBadge('bloodmallet-data-status', mods.bloodmallet);
 }
 
 function renderVpsSyncPanel(statusData) {
@@ -112,8 +107,9 @@ function renderVpsSyncPanel(statusData) {
 
   if (!statusData) {
     container.innerHTML = `
-      <div class="bg-wow-card border border-wow-border rounded-2xl p-5 text-xs text-slate-400">
-        Cargando estado del Auto-Scraper en VPS...
+      <div class="bg-wow-card border border-wow-border rounded-2xl p-6 text-xs text-slate-400 flex items-center gap-3">
+        <i class="fa-solid fa-spinner fa-spin text-amber-400 text-base"></i>
+        <span>Cargando estado en vivo del Auto-Scraper en VPS...</span>
       </div>
     `;
     return;
@@ -131,75 +127,129 @@ function renderVpsSyncPanel(statusData) {
 
   let stateBadgeHtml = '';
   if (state === 'running') {
-    stateBadgeHtml = `<span class="text-[11px] px-3 py-1 rounded-full font-mono bg-amber-950 text-amber-300 border border-amber-500/60 font-bold flex items-center gap-1.5"><i class="fa-solid fa-spinner fa-spin"></i> Sincronizando en VPS...</span>`;
+    stateBadgeHtml = `<span class="text-[11px] px-3 py-1 rounded-full font-mono bg-amber-950/90 text-amber-300 border border-amber-500/60 font-bold flex items-center gap-1.5 shadow"><i class="fa-solid fa-spinner fa-spin"></i> Sincronizando en VPS...</span>`;
   } else if (state === 'queued') {
-    stateBadgeHtml = `<span class="text-[11px] px-3 py-1 rounded-full font-mono bg-sky-950 text-sky-300 border border-sky-500/60 font-bold flex items-center gap-1.5"><i class="fa-solid fa-satellite-dish animate-pulse"></i> Señal Enviada (En Cola)</span>`;
+    stateBadgeHtml = `<span class="text-[11px] px-3 py-1 rounded-full font-mono bg-sky-950/90 text-sky-300 border border-sky-500/60 font-bold flex items-center gap-1.5 shadow"><i class="fa-solid fa-satellite-dish animate-pulse"></i> Señal en Cola (≤15s)</span>`;
   } else if (failedCount > 0) {
-    stateBadgeHtml = `<span class="text-[11px] px-3 py-1 rounded-full font-mono bg-red-950 text-red-300 border border-red-500/60 font-bold flex items-center gap-1.5"><i class="fa-solid fa-triangle-exclamation"></i> ${failedCount} Fallo(s) Detectado(s)</span>`;
+    stateBadgeHtml = `<span class="text-[11px] px-3 py-1 rounded-full font-mono bg-red-950/90 text-red-300 border border-red-500/60 font-bold flex items-center gap-1.5 shadow"><i class="fa-solid fa-triangle-exclamation"></i> ${failedCount} Fallo(s)</span>`;
   } else {
-    stateBadgeHtml = `<span class="text-[11px] px-3 py-1 rounded-full font-mono bg-emerald-950 text-emerald-300 border border-emerald-500/60 font-bold flex items-center gap-1.5"><i class="fa-solid fa-circle-check"></i> ${okCount}/4 Módulos al Día (Auto 12h)</span>`;
+    stateBadgeHtml = `<span class="text-[11px] px-3 py-1 rounded-full font-mono bg-emerald-950/90 text-emerald-300 border border-emerald-500/60 font-bold flex items-center gap-1.5 shadow"><i class="fa-solid fa-circle-check"></i> ${okCount}/4 Módulos al Día</span>`;
   }
 
   const moduleMeta = [
-    { key: 'archon', icon: 'fa-shield-halved', color: 'text-purple-400', border: 'border-purple-500/30', bg: 'bg-purple-950/30', shortBtn: 'Solo Archon' },
-    { key: 'stats', icon: 'fa-chart-column', color: 'text-emerald-400', border: 'border-emerald-500/30', bg: 'bg-emerald-950/30', shortBtn: 'Solo Stats' },
-    { key: 'wowhead', icon: 'fa-wand-magic-sparkles', color: 'text-amber-400', border: 'border-amber-500/30', bg: 'bg-amber-950/30', shortBtn: 'Solo Enchants' },
-    { key: 'bloodmallet', icon: 'fa-fire', color: 'text-red-400', border: 'border-red-500/30', bg: 'bg-red-950/30', shortBtn: 'Solo Bloodmallet' }
+    {
+      key: 'archon',
+      tabId: 'archon',
+      title: 'Archon.gg (40 Specs)',
+      subtitle: 'Presets, BiS, Talentos 1:1 & Healers',
+      icon: 'fa-shield-halved',
+      color: 'text-purple-400',
+      border: 'border-purple-500/35 hover:border-purple-500/60',
+      iconBg: 'bg-purple-950/60 border-purple-500/50',
+      btnAccent: 'hover:border-purple-500/50 hover:text-purple-200',
+      shortBtn: 'Solo Archon'
+    },
+    {
+      key: 'stats',
+      tabId: 'stat_priorities',
+      title: 'Prioridades Stats',
+      subtitle: 'Pesos Oficiales & Árboles Héroe',
+      icon: 'fa-chart-column',
+      color: 'text-emerald-400',
+      border: 'border-emerald-500/35 hover:border-emerald-500/60',
+      iconBg: 'bg-emerald-950/60 border-emerald-500/50',
+      btnAccent: 'hover:border-emerald-500/50 hover:text-emerald-200',
+      shortBtn: 'Solo Stats'
+    },
+    {
+      key: 'wowhead',
+      tabId: 'wowhead',
+      title: 'Enchants & Comida',
+      subtitle: 'Gemas, Frascos, Pociones & Iconos',
+      icon: 'fa-wand-magic-sparkles',
+      color: 'text-amber-400',
+      border: 'border-amber-500/35 hover:border-amber-500/60',
+      iconBg: 'bg-amber-950/60 border-amber-500/50',
+      btnAccent: 'hover:border-amber-500/50 hover:text-amber-200',
+      shortBtn: 'Solo Enchants'
+    },
+    {
+      key: 'bloodmallet',
+      tabId: 'bloodmallet',
+      title: 'Bloodmallet DPS',
+      subtitle: 'Simulaciones Abalorios (1T y 5T)',
+      icon: 'fa-fire',
+      color: 'text-red-400',
+      border: 'border-red-500/35 hover:border-red-500/60',
+      iconBg: 'bg-red-950/60 border-red-500/50',
+      btnAccent: 'hover:border-red-500/50 hover:text-red-200',
+      shortBtn: 'Solo Bloodmallet'
+    }
   ];
 
   const cardsHtml = moduleMeta.map(m => {
-    const mod = mods[m.key] || { name: m.key, files: [], status: 'pending', updatedAt: null, summary: '-', error: null };
+    const mod = mods[m.key] || { name: m.title, files: [], status: 'pending', updatedAt: null, summary: '-', error: null };
     const st = mod.status || 'pending';
 
     const statusPill = st === 'ok'
-      ? `<span class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-emerald-950 text-emerald-300 border border-emerald-500/50 font-bold"><i class="fa-solid fa-check mr-1"></i>Actualizado</span>`
+      ? `<span class="text-[10px] px-2.5 py-0.5 rounded-full font-mono bg-emerald-950/90 text-emerald-300 border border-emerald-500/50 font-bold shrink-0"><i class="fa-solid fa-check mr-1"></i>Actualizado</span>`
       : st === 'running'
-      ? `<span class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-amber-950 text-amber-300 border border-amber-500/50 font-bold"><i class="fa-solid fa-spinner fa-spin mr-1"></i>Extrayendo...</span>`
+      ? `<span class="text-[10px] px-2.5 py-0.5 rounded-full font-mono bg-amber-950/90 text-amber-300 border border-amber-500/50 font-bold shrink-0 animate-pulse"><i class="fa-solid fa-spinner fa-spin mr-1"></i>Extrayendo</span>`
       : st === 'error'
-      ? `<span class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-red-950 text-red-300 border border-red-500/60 font-bold"><i class="fa-solid fa-xmark mr-1"></i>Falló</span>`
-      : `<span class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-400 border border-slate-700 font-bold">Pendiente</span>`;
+      ? `<span class="text-[10px] px-2.5 py-0.5 rounded-full font-mono bg-red-950/90 text-red-300 border border-red-500/60 font-bold shrink-0"><i class="fa-solid fa-xmark mr-1"></i>Falló</span>`
+      : `<span class="text-[10px] px-2.5 py-0.5 rounded-full font-mono bg-slate-800 text-slate-400 border border-slate-700 font-bold shrink-0">Pendiente</span>`;
 
-    const filesHtml = (mod.files || []).map(f => `<code class="text-[10px] font-mono text-amber-300 bg-black/50 px-1.5 py-0.5 rounded border border-white/10">${f}</code>`).join(' ');
+    const filesHtml = (mod.files || []).map(f => `<code class="text-[10px] font-mono text-amber-300/90 bg-black/60 px-2 py-0.5 rounded-md border border-white/10">${f}</code>`).join(' ');
 
     const errorHtml = mod.error
-      ? `<div class="mt-2 p-2 rounded-lg bg-red-950/60 border border-red-500/50 text-[11px] text-red-200 font-mono break-words"><i class="fa-solid fa-circle-exclamation text-red-400 mr-1"></i>${mod.error}</div>`
+      ? `<div class="p-2.5 rounded-xl bg-red-950/70 border border-red-500/50 text-[11px] text-red-200 font-mono break-words"><i class="fa-solid fa-circle-exclamation text-red-400 mr-1.5"></i>${mod.error}</div>`
       : '';
 
     return `
-      <div class="bg-wow-subcard border ${mod.error ? 'border-red-500/60' : m.border} rounded-xl p-4 flex flex-col justify-between space-y-3">
-        <div class="space-y-2">
+      <div class="bg-[#111522] border ${mod.error ? 'border-red-500/60' : m.border} rounded-2xl p-4 flex flex-col justify-between space-y-3.5 transition shadow-lg">
+        <div class="space-y-3">
+          <!-- Card Header -->
           <div class="flex items-start justify-between gap-2">
-            <div class="flex items-center gap-2 min-w-0">
-              <div class="w-8 h-8 rounded-lg ${m.bg} border ${m.border} flex items-center justify-center ${m.color} shrink-0">
+            <div class="flex items-center gap-2.5 min-w-0">
+              <div class="w-9 h-9 rounded-xl ${m.iconBg} border flex items-center justify-center ${m.color} text-sm shrink-0 shadow-inner">
                 <i class="fa-solid ${m.icon}"></i>
               </div>
               <div class="min-w-0">
-                <h4 class="text-xs font-bold text-white leading-snug break-words">${mod.name}</h4>
+                <h4 class="text-sm font-extrabold text-white truncate">${m.title}</h4>
+                <p class="text-[11px] text-slate-400 truncate">${m.subtitle}</p>
               </div>
             </div>
-            <div class="shrink-0">${statusPill}</div>
+            ${statusPill}
           </div>
 
-          <div class="flex items-center gap-1.5 flex-wrap pt-0.5">
+          <!-- Target JS Files -->
+          <div class="flex items-center gap-1.5 flex-wrap">
             ${filesHtml}
           </div>
 
-          <div class="text-[11px] text-slate-300 flex items-center justify-between gap-2 pt-1 border-t border-white/5">
-            <span class="text-slate-400">Resultado:</span>
-            <span class="font-semibold text-emerald-300 text-right">${mod.summary || '-'}</span>
-          </div>
-
-          <div class="text-[11px] text-slate-400 flex items-center justify-between gap-2">
-            <span>Último update:</span>
-            <span class="font-mono text-slate-200" title="${formatLocalDateTimeEs(mod.updatedAt)}">${formatRelativeTimeEs(mod.updatedAt)} (${formatLocalDateTimeEs(mod.updatedAt)})</span>
+          <!-- Telemetry Rows -->
+          <div class="bg-black/35 border border-white/5 rounded-xl p-2.5 space-y-1.5 text-[11px]">
+            <div class="flex items-center justify-between gap-2">
+              <span class="text-slate-400">Resultado:</span>
+              <span class="font-bold text-emerald-300 text-right truncate">${mod.summary || '-'}</span>
+            </div>
+            <div class="flex items-center justify-between gap-2">
+              <span class="text-slate-400">Último update:</span>
+              <span class="font-mono text-slate-200 font-semibold" title="${formatLocalDateTimeEs(mod.updatedAt)}">${formatRelativeTimeEs(mod.updatedAt)} <span class="text-slate-500 font-normal">(${formatLocalDateTimeEs(mod.updatedAt).split(',')[1]?.trim() || ''})</span></span>
+            </div>
           </div>
 
           ${errorHtml}
         </div>
 
-        <div class="pt-1">
-          <button onclick="triggerVpsRemoteSync('${m.key}')" ${isBusy ? 'disabled' : ''} class="min-h-[38px] w-full text-xs ${isBusy ? 'opacity-50 cursor-not-allowed bg-slate-900 text-slate-500 border-slate-800' : 'bg-slate-800/90 hover:bg-slate-700 text-slate-200 border-slate-600 cursor-pointer'} border px-3 py-2 rounded-xl font-bold flex items-center justify-center gap-1.5 transition">
-            <i class="fa-solid fa-satellite-dish ${m.color}"></i> Mandar Señal: ${m.shortBtn}
+        <!-- Action Row: Remote Signal + Gear Manual Admin -->
+        <div class="flex items-center gap-2 pt-1">
+          <button onclick="triggerVpsRemoteSync('${m.key}')" ${isBusy ? 'disabled' : ''} class="min-h-[38px] flex-1 text-xs ${isBusy ? 'opacity-50 cursor-not-allowed bg-slate-900 text-slate-500 border-slate-800' : `bg-slate-800/80 hover:bg-slate-800 text-slate-200 border-slate-700/80 ${m.btnAccent} cursor-pointer`} border px-3 py-2 rounded-xl font-bold flex items-center justify-center gap-1.5 transition shadow-sm">
+            <i class="fa-solid fa-satellite-dish ${m.color}"></i>
+            <span>${m.shortBtn}</span>
+          </button>
+          <button onclick="switchAdminTab('${m.tabId}')" title="Administrar manualmente (${m.title})" aria-label="Administrar manualmente ${m.title}" class="min-h-[38px] w-10 shrink-0 bg-slate-900/90 hover:bg-slate-800 text-slate-300 hover:text-amber-300 border border-slate-700/80 hover:border-amber-500/50 rounded-xl flex items-center justify-center transition shadow-sm cursor-pointer">
+            <i class="fa-solid fa-gear text-sm"></i>
           </button>
         </div>
       </div>
@@ -207,60 +257,60 @@ function renderVpsSyncPanel(statusData) {
   }).join('');
 
   container.innerHTML = `
-    <div class="bg-wow-card border border-indigo-500/40 rounded-2xl p-4 sm:p-6 shadow-2xl space-y-5">
-      <!-- Header -->
-      <div class="flex items-start sm:items-center justify-between flex-wrap gap-4 pb-4 border-b border-wow-border">
-        <div class="flex items-center gap-3 min-w-0">
-          <div class="w-11 h-11 rounded-xl bg-indigo-950/80 border border-indigo-500/60 flex items-center justify-center text-indigo-400 text-xl shadow shrink-0">
+    <div class="bg-gradient-to-b from-[#171c2b] to-[#121520] border border-indigo-500/35 rounded-2xl p-4 sm:p-6 shadow-2xl space-y-5">
+      <!-- Top Control Bar -->
+      <div class="flex items-start lg:items-center justify-between flex-col lg:flex-row gap-4 pb-4 border-b border-white/10">
+        <div class="flex items-center gap-3.5 min-w-0">
+          <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-indigo-500/25 to-purple-600/15 border border-indigo-400/50 flex items-center justify-center text-indigo-300 text-lg shadow-lg shrink-0">
             <i class="fa-solid fa-server"></i>
           </div>
           <div class="min-w-0">
             <div class="flex items-center gap-2.5 flex-wrap">
-              <h3 class="text-base font-bold text-white">Auto-Scraper Docker en VPS (<code class="text-indigo-300 font-mono text-xs">13.140.233.235</code>)</h3>
+              <h3 class="text-base sm:text-lg font-black text-white tracking-tight">Centro de Extracción Automática VPS</h3>
               ${stateBadgeHtml}
             </div>
-            <p class="text-xs text-slate-400 mt-1">
-              Ejecuta tus scripts exactos de consola en contenedor aislado (<code class="text-amber-300 font-mono">wowtopgear-scraper</code> con Camoufox) y publica directo a GitHub cada 12 horas o bajo demanda.
+            <p class="text-xs text-slate-400 mt-0.5">
+              Contenedor Docker aislado (<code class="text-indigo-300 font-mono">wowtopgear-scraper</code> en <code class="text-slate-300 font-mono">13.140.233.235</code>) sincronizado cada 12h con <code class="text-amber-300 font-mono">sephirods/WoWoptimizer</code>. Usa <i class="fa-solid fa-gear text-slate-300 mx-0.5"></i> en cada tarjeta si deseas subir o copiar scripts manualmente.
             </p>
           </div>
         </div>
 
-        <div class="flex items-center gap-2 flex-wrap w-full sm:w-auto">
-          <button onclick="refreshVpsSyncStatusUI(true)" class="min-h-[38px] text-xs bg-wow-subcard hover:bg-slate-800 text-slate-200 border border-wow-border px-3.5 py-2 rounded-xl font-bold flex items-center justify-center gap-1.5 transition cursor-pointer flex-1 sm:flex-initial">
+        <div class="flex items-center gap-2.5 flex-wrap w-full lg:w-auto shrink-0">
+          <button onclick="refreshVpsSyncStatusUI(true)" class="min-h-[38px] text-xs bg-black/40 hover:bg-slate-800 text-slate-200 border border-white/10 hover:border-indigo-400/40 px-3.5 py-2 rounded-xl font-bold flex items-center justify-center gap-1.5 transition cursor-pointer flex-1 sm:flex-initial">
             <i id="vps-refresh-icon" class="fa-solid fa-arrows-rotate text-indigo-400"></i> Refrescar
           </button>
-          <button onclick="triggerVpsRemoteSync('all')" ${isBusy ? 'disabled' : ''} class="min-h-[38px] text-xs ${isBusy ? 'opacity-60 cursor-not-allowed bg-slate-800 text-slate-400 border-slate-700' : 'bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white border-indigo-400/50 cursor-pointer'} border px-4 py-2 rounded-xl font-extrabold flex items-center justify-center gap-2 transition shadow-lg flex-1 sm:flex-initial">
-            <i class="fa-solid ${isBusy ? 'fa-spinner fa-spin' : 'fa-bolt'} text-amber-300"></i>
-            <span>${isBusy ? 'Sincronización en Curso...' : 'Mandar Señal: Actualizar Todo Ahora'}</span>
+          <button onclick="triggerVpsRemoteSync('all')" ${isBusy ? 'disabled' : ''} class="min-h-[38px] text-xs ${isBusy ? 'opacity-60 cursor-not-allowed bg-slate-800 text-slate-400 border-slate-700' : 'bg-gradient-to-r from-indigo-600 via-purple-600 to-amber-500 hover:from-indigo-500 hover:to-amber-400 text-white border-indigo-400/50 cursor-pointer'} border px-4 py-2 rounded-xl font-extrabold flex items-center justify-center gap-2 transition shadow-lg flex-1 sm:flex-initial">
+            <i class="fa-solid ${isBusy ? 'fa-spinner fa-spin' : 'fa-bolt'} text-amber-200"></i>
+            <span>${isBusy ? 'Sincronizando en VPS...' : 'Mandar Señal: Actualizar Todo Ahora'}</span>
           </button>
         </div>
       </div>
 
-      <!-- Summary Telemetry Bar -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 bg-wow-subcard border border-wow-border rounded-xl p-3.5 text-xs">
+      <!-- Compact Telemetry Strip -->
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 bg-black/35 border border-white/5 rounded-xl p-3.5 text-xs">
         <div class="space-y-0.5">
-          <span class="text-[10px] uppercase tracking-wider font-bold text-slate-400 block">Última Sincronización Completa</span>
+          <span class="text-[10px] uppercase tracking-wider font-bold text-slate-400 block">Último Ciclo Completo</span>
           <span class="font-mono font-bold text-emerald-300 text-sm">${formatRelativeTimeEs(statusData.lastRunAt)}</span>
-          <span class="text-[11px] text-slate-400 block font-mono">${formatLocalDateTimeEs(statusData.lastRunAt)}</span>
+          <span class="text-[11px] text-slate-500 block font-mono">${formatLocalDateTimeEs(statusData.lastRunAt)}</span>
         </div>
         <div class="space-y-0.5">
-          <span class="text-[10px] uppercase tracking-wider font-bold text-slate-400 block">Duración del Ciclo</span>
+          <span class="text-[10px] uppercase tracking-wider font-bold text-slate-400 block">Tiempo de Ejecución</span>
           <span class="font-mono font-bold text-amber-300 text-sm">${statusData.durationSec ? `${statusData.durationSec}s (~${(statusData.durationSec / 60).toFixed(1)} min)` : '-'}</span>
-          <span class="text-[11px] text-slate-400 block">Modo: <code class="text-slate-200 font-mono">${statusData.triggerTarget || 'all'}</code></span>
+          <span class="text-[11px] text-slate-500 block">Objetivo: <code class="text-slate-300 font-mono">${statusData.triggerTarget || 'all'}</code></span>
         </div>
         <div class="space-y-0.5">
-          <span class="text-[10px] uppercase tracking-wider font-bold text-slate-400 block">Próxima Ejecución Automática</span>
+          <span class="text-[10px] uppercase tracking-wider font-bold text-slate-400 block">Próximo Ciclo Automático</span>
           <span class="font-mono font-bold text-sky-300 text-sm">${formatRelativeTimeEs(statusData.nextScheduledAt)}</span>
-          <span class="text-[11px] text-slate-400 block font-mono">${formatLocalDateTimeEs(statusData.nextScheduledAt)}</span>
+          <span class="text-[11px] text-slate-500 block font-mono">${formatLocalDateTimeEs(statusData.nextScheduledAt)}</span>
         </div>
         <div class="space-y-0.5">
-          <span class="text-[10px] uppercase tracking-wider font-bold text-slate-400 block">Actividad Actual del Bot</span>
-          <span class="font-semibold ${isBusy ? 'text-amber-300 animate-pulse' : 'text-slate-200'} block break-words">${statusData.currentStep || 'En espera del próximo ciclo'}</span>
+          <span class="text-[10px] uppercase tracking-wider font-bold text-slate-400 block">Estado del Demonio VPS</span>
+          <span class="font-semibold ${isBusy ? 'text-amber-300 animate-pulse' : 'text-slate-200'} block break-words">${statusData.currentStep || 'Escuchando señales remotas (cada 15s)'}</span>
         </div>
       </div>
 
-      <!-- 4 Module Breakdown Cards -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
+      <!-- 4 Dataset Cards Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         ${cardsHtml}
       </div>
     </div>

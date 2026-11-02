@@ -96,250 +96,162 @@
     <div id="admin-dashboard" class="hidden space-y-6">
 
       <!-- MENÚ DE PESTAÑAS (DASHBOARD NAVIGATION) -->
-      <div class="bg-wow-panel border border-wow-border rounded-2xl p-2 shadow-xl flex items-center gap-1.5 overflow-x-auto scrollbar-thin">
-        <button onclick="switchAdminTab('overview')" id="nav-overview" class="admin-tab-btn flex-1 min-w-[130px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-amber-400 bg-amber-500/15 border border-amber-500/40 shadow">
-          <i class="fa-solid fa-gauge-high"></i> Resumen
+      <div class="bg-slate-900/90 border border-slate-800 rounded-2xl p-2 shadow-xl flex items-center gap-2 overflow-x-auto scrollbar-thin">
+        <button onclick="switchAdminTab('overview')" id="nav-overview" class="admin-tab-btn flex-1 min-w-[155px] min-h-[40px] flex items-center justify-center gap-2 py-2.5 px-3.5 rounded-xl text-xs font-bold transition text-amber-400 bg-amber-500/15 border border-amber-500/40 shadow">
+          <i class="fa-solid fa-gauge-high"></i> Centro de Control
         </button>
-        <button onclick="switchAdminTab('archon')" id="nav-archon" class="admin-tab-btn flex-1 min-w-[130px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-purple-300 hover:bg-purple-950/20 border border-transparent">
-          <i class="fa-solid fa-shield-halved text-purple-400"></i> Archon.gg (40 Specs)
-        </button>
-        <button onclick="switchAdminTab('stat_priorities')" id="nav-stat_priorities" class="admin-tab-btn flex-1 min-w-[145px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-emerald-300 hover:bg-emerald-950/20 border border-transparent">
-          <i class="fa-solid fa-chart-column text-emerald-400"></i> Prioridades Stats
-        </button>
-        <button onclick="switchAdminTab('wowhead')" id="nav-wowhead" class="admin-tab-btn flex-1 min-w-[145px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-amber-300 hover:bg-amber-950/20 border border-transparent">
-          <i class="fa-solid fa-wand-magic-sparkles text-amber-400"></i> Enchants & Comida
-        </button>
-        <button onclick="switchAdminTab('bloodmallet')" id="nav-bloodmallet" class="admin-tab-btn flex-1 min-w-[140px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-red-300 hover:bg-red-950/20 border border-transparent">
-          <i class="fa-solid fa-fire text-red-400"></i> Bloodmallet DPS
-        </button>
-        <button onclick="switchAdminTab('tooltips')" id="nav-tooltips" class="admin-tab-btn flex-1 min-w-[155px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-sky-300 hover:bg-sky-950/20 border border-transparent relative">
-          <i class="fa-solid fa-bug text-sky-400"></i> Monitor Tooltips
-          <span id="tab-missing-badge" class="ml-1 text-[10px] px-1.5 py-0.2 rounded-full font-mono bg-slate-800 text-slate-400 border border-slate-700">0</span>
-        </button>
-        <button onclick="switchAdminTab('tickets')" id="nav-tickets" class="admin-tab-btn flex-1 min-w-[160px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-amber-300 hover:bg-amber-950/20 border border-transparent relative">
-          <i class="fa-solid fa-ticket text-amber-400"></i> Tickets / Bugs
-          <span id="tab-tickets-badge" class="ml-1 text-[10px] px-1.5 py-0.2 rounded-full font-mono bg-slate-800 text-slate-400 border border-slate-700">0</span>
-        </button>
-        <button onclick="switchAdminTab('news')" id="nav-news" class="admin-tab-btn flex-1 min-w-[170px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-cyan-300 hover:bg-cyan-950/20 border border-transparent relative">
+        <button onclick="switchAdminTab('news')" id="nav-news" class="admin-tab-btn flex-1 min-w-[165px] min-h-[40px] flex items-center justify-center gap-2 py-2.5 px-3.5 rounded-xl text-xs font-bold transition text-slate-400 hover:text-cyan-300 hover:bg-cyan-950/20 border border-transparent relative">
           <i class="fa-solid fa-bullhorn text-cyan-400"></i> Noticias & Blues
           <span id="tab-news-badge" class="ml-1 text-[10px] px-1.5 py-0.2 rounded-full font-mono bg-slate-800 text-slate-400 border border-slate-700">Auto</span>
         </button>
-        <button onclick="switchAdminTab('analytics')" id="nav-analytics" class="admin-tab-btn flex-1 min-w-[175px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-violet-300 hover:bg-violet-950/20 border border-transparent relative">
+        <button onclick="switchAdminTab('analytics')" id="nav-analytics" class="admin-tab-btn flex-1 min-w-[170px] min-h-[40px] flex items-center justify-center gap-2 py-2.5 px-3.5 rounded-xl text-xs font-bold transition text-slate-400 hover:text-violet-300 hover:bg-violet-950/20 border border-transparent relative">
           <i class="fa-solid fa-chart-line text-violet-400"></i> Tráfico & Vistas
           <span class="ml-1 text-[10px] px-1.5 py-0.2 rounded-full font-mono bg-emerald-950 text-emerald-400 border border-emerald-500/50">Live</span>
         </button>
+        <button onclick="switchAdminTab('tickets')" id="nav-tickets" class="admin-tab-btn flex-1 min-w-[155px] min-h-[40px] flex items-center justify-center gap-2 py-2.5 px-3.5 rounded-xl text-xs font-bold transition text-slate-400 hover:text-amber-300 hover:bg-amber-950/20 border border-transparent relative">
+          <i class="fa-solid fa-ticket text-amber-400"></i> Tickets / Bugs
+          <span id="tab-tickets-badge" class="ml-1 text-[10px] px-1.5 py-0.2 rounded-full font-mono bg-slate-800 text-slate-400 border border-slate-700">0</span>
+        </button>
+        <button onclick="switchAdminTab('tooltips')" id="nav-tooltips" class="admin-tab-btn flex-1 min-w-[155px] min-h-[40px] flex items-center justify-center gap-2 py-2.5 px-3.5 rounded-xl text-xs font-bold transition text-slate-400 hover:text-sky-300 hover:bg-sky-950/20 border border-transparent relative">
+          <i class="fa-solid fa-bug text-sky-400"></i> Monitor Tooltips
+          <span id="tab-missing-badge" class="ml-1 text-[10px] px-1.5 py-0.2 rounded-full font-mono bg-slate-800 text-slate-400 border border-slate-700">0</span>
+        </button>
       </div>
 
-      <!-- TAB 1: RESUMEN / ESTADO GENERAL -->
+      <!-- TAB 1: CENTRO DE CONTROL (RESUMEN GENERAL) -->
       <section id="tab-overview" class="admin-tab-pane space-y-6">
         
-        <!-- Welcome Hero Banner -->
-        <div class="bg-gradient-to-r from-wow-card via-wow-panel to-wow-card border border-wow-border rounded-2xl p-6 shadow-xl flex items-center justify-between flex-wrap gap-4">
-          <div class="space-y-1">
-            <h2 class="text-xl font-bold text-white flex items-center gap-2.5">
-              <span class="w-3 h-3 rounded-full bg-emerald-400 animate-pulse shadow"></span>
-              Panel de Control y Estado de Datasets
-            </h2>
-            <p class="text-xs text-slate-400 max-w-2xl">
-              Aquí puedes supervisar los datos cargados por defecto vs personalizados en el optimizador, ejecutar scripts en vivo para mantener los datos de The War Within actualizados, y depurar errores.
-            </p>
+        <!-- Unified Top Status & GitHub Deployment Bar -->
+        <div class="bg-gradient-to-r from-slate-900 via-[#0d1424] to-slate-900 border border-slate-800 rounded-2xl p-4 sm:p-5 shadow-xl flex items-center justify-between flex-wrap gap-4">
+          <div class="flex items-center gap-3.5 min-w-0">
+            <div class="w-10 h-10 rounded-xl bg-emerald-950/60 border border-emerald-500/40 flex items-center justify-center text-emerald-400 text-lg shadow shrink-0">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="min-w-0">
+              <div class="flex items-center gap-2 flex-wrap">
+                <h2 class="text-sm sm:text-base font-bold text-white flex items-center gap-2">
+                  <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                  Sincronización Global — Midnight S2 (12.1)
+                </h2>
+                <span id="github-token-badge" class="text-[10px] px-2.5 py-0.5 rounded-full font-mono bg-emerald-950 text-emerald-300 border border-emerald-500/50 font-bold"><i class="fa-solid fa-check mr-1"></i> Conectado</span>
+              </div>
+              <p class="text-xs text-slate-400 mt-0.5 truncate">
+                Repositorio en producción: <code class="text-amber-300 font-mono">sephirods/WoWoptimizer</code> (<span class="text-slate-300">wowtopgear.app</span>)
+              </p>
+            </div>
           </div>
-          <div class="flex items-center gap-2">
-            <button onclick="refreshAllStatuses()" class="text-xs bg-wow-subcard hover:bg-slate-800 text-slate-200 border border-wow-border px-3.5 py-2 rounded-xl font-bold flex items-center gap-1.5 transition">
+          <div class="flex items-center gap-2 flex-wrap">
+            <a href="https://github.com/sephirods/WoWoptimizer" target="_blank" rel="noopener noreferrer" class="min-h-[38px] text-xs bg-slate-800/80 hover:bg-slate-700 text-emerald-300 border border-emerald-500/30 px-3.5 py-2 rounded-xl font-bold flex items-center gap-1.5 transition">
+              <i class="fa-brands fa-github"></i> Ver Repo <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+            </a>
+            <button onclick="refreshAllStatuses()" class="min-h-[38px] text-xs bg-slate-800/80 hover:bg-slate-700 text-slate-200 border border-slate-700 px-3.5 py-2 rounded-xl font-bold flex items-center gap-1.5 transition">
               <i class="fa-solid fa-arrows-rotate text-amber-400"></i> Actualizar Estados
             </button>
           </div>
         </div>
 
-        <!-- GITHUB INTEGRATION & GLOBAL DEPLOYMENT CARD -->
-        <div class="bg-wow-card border border-emerald-500/40 rounded-2xl p-5 shadow-xl">
-          <div class="flex items-center justify-between flex-wrap gap-3">
-            <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-xl bg-slate-900 border border-emerald-400/50 flex items-center justify-center text-emerald-400 text-xl shadow">
-                <i class="fa-brands fa-github"></i>
-              </div>
-              <div>
-                <div class="flex items-center gap-2 flex-wrap">
-                  <h3 class="text-sm font-bold text-white">Sincronización Global con GitHub</h3>
-                  <span id="github-token-badge" class="text-[10px] px-2.5 py-0.5 rounded-full font-mono bg-emerald-950 text-emerald-300 border border-emerald-500/50 font-bold"><i class="fa-solid fa-check mr-1"></i> Conectado (Despliegue Global Activo)</span>
-                </div>
-                <p class="text-xs text-slate-400 mt-0.5">Las actualizaciones de datos y noticias se publican automáticamente al repositorio <code class="text-amber-300 font-mono">sephirods/WoWoptimizer</code> para todos los usuarios en wowtopgear.app.</p>
-              </div>
-            </div>
-            <a href="https://github.com/sephirods/WoWoptimizer" target="_blank" rel="noopener noreferrer" class="text-xs bg-slate-800 hover:bg-slate-700 text-emerald-300 border border-emerald-500/40 px-3 py-1.5 rounded-xl font-bold flex items-center gap-1.5 transition">
-              <i class="fa-brands fa-github"></i> Ver Repositorio <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- VPS DOCKER AUTO-SCRAPER TELEMETRY & REMOTE TRIGGER MOUNT POINT -->
+        <!-- VPS DOCKER AUTO-SCRAPER TELEMETRY, 4 DATASETS & GEAR BUTTONS -->
         <div id="admin-vps-sync-container"></div>
 
-        <!-- 6 Dataset & Traffic Status Cards Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-          
-          <!-- Card Archon Unificado (Presets, BiS, Talentos y Healers) -->
-          <div class="bg-wow-card border border-purple-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-purple-500/60 transition">
-            <div class="flex items-center justify-between">
-              <div class="w-9 h-9 rounded-xl bg-purple-950/60 border border-purple-500/50 flex items-center justify-center text-purple-400">
-                <i class="fa-solid fa-shield-halved"></i>
-              </div>
-              <span id="overview-archon-status" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold">Por Defecto</span>
-            </div>
-            <div>
-              <h3 class="text-sm font-bold text-white">Datos Archon.gg</h3>
-              <p class="text-[11px] text-slate-400">Presets, BiS, Talentos y Abalorios (40 specs).</p>
-            </div>
-            <button onclick="switchAdminTab('archon')" class="w-full text-xs bg-purple-950/40 hover:bg-purple-900/60 text-purple-200 border border-purple-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
-              Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </button>
-          </div>
-
-          <!-- Card Stat Priorities -->
-          <div class="bg-wow-card border border-emerald-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-emerald-500/60 transition">
-            <div class="flex items-center justify-between">
-              <div class="w-9 h-9 rounded-xl bg-emerald-950/60 border border-emerald-500/50 flex items-center justify-center text-emerald-400">
-                <i class="fa-solid fa-chart-column"></i>
-              </div>
-              <span id="overview-stat-priorities-status" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold">Por Defecto</span>
-            </div>
-            <div>
-              <h3 class="text-sm font-bold text-white">Prioridades Stats</h3>
-              <p class="text-[11px] text-slate-400">Pesos y Árboles Héroe.</p>
-            </div>
-            <button onclick="switchAdminTab('stat_priorities')" class="w-full text-xs bg-emerald-950/40 hover:bg-emerald-900/60 text-emerald-200 border border-emerald-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
-              Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </button>
-          </div>
-
-          <!-- Card Wowhead Enchants -->
-          <div class="bg-wow-card border border-amber-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-amber-500/60 transition">
-            <div class="flex items-center justify-between">
-              <div class="w-9 h-9 rounded-xl bg-amber-950/60 border border-amber-500/50 flex items-center justify-center text-amber-400">
-                <i class="fa-solid fa-wand-magic-sparkles"></i>
-              </div>
-              <span id="overview-wowhead-status" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold">Por Defecto</span>
-            </div>
-            <div>
-              <h3 class="text-sm font-bold text-white">Enchants & Comida</h3>
-              <p class="text-[11px] text-slate-400">Gemas, frascos e iconos.</p>
-            </div>
-            <button onclick="switchAdminTab('wowhead')" class="w-full text-xs bg-amber-950/40 hover:bg-amber-900/60 text-amber-200 border border-amber-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
-              Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </button>
-          </div>
-
-          <!-- Card Bloodmallet -->
-          <div class="bg-wow-card border border-red-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-red-500/60 transition">
-            <div class="flex items-center justify-between">
-              <div class="w-9 h-9 rounded-xl bg-red-950/60 border border-red-500/50 flex items-center justify-center text-red-400">
-                <i class="fa-solid fa-fire"></i>
-              </div>
-              <span id="overview-bloodmallet-status" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-slate-800 text-slate-300 border border-slate-700 font-bold">Por Defecto</span>
-            </div>
-            <div>
-              <h3 class="text-sm font-bold text-white">Bloodmallet DPS</h3>
-              <p class="text-[11px] text-slate-400">Sims abalorios por spec.</p>
-            </div>
-            <button onclick="switchAdminTab('bloodmallet')" class="w-full text-xs bg-red-950/40 hover:bg-red-900/60 text-red-200 border border-red-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
-              Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </button>
-          </div>
-
-          <!-- Card Noticias & Blue Tracker -->
-          <div class="bg-wow-card border border-cyan-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-cyan-500/60 transition">
-            <div class="flex items-center justify-between">
-              <div class="w-9 h-9 rounded-xl bg-cyan-950/60 border border-cyan-500/50 flex items-center justify-center text-cyan-400">
-                <i class="fa-solid fa-bullhorn"></i>
-              </div>
-              <span id="overview-news-status" class="text-[10px] px-2 py-0.5 rounded-full font-mono bg-cyan-950 text-cyan-300 border border-cyan-500/60 font-bold">En Vivo ✓</span>
-            </div>
-            <div>
-              <h3 class="text-sm font-bold text-white">Noticias & Blues</h3>
-              <p class="text-[11px] text-slate-400" id="overview-news-subtext">Foros & Wowhead RSS.</p>
-            </div>
-            <button onclick="switchAdminTab('news')" class="w-full text-xs bg-cyan-950/40 hover:bg-cyan-900/60 text-cyan-200 border border-cyan-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
-              Administrar <i class="fa-solid fa-arrow-right text-[10px]"></i>
-            </button>
-          </div>
+        <!-- 4 Operational KPI Cards (Tráfico, Noticias, Tickets, Tooltips) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
 
           <!-- Card Tráfico & Vistas (GoatCounter) -->
-          <div class="bg-wow-card border border-violet-500/30 rounded-2xl p-5 shadow-lg space-y-3 hover:border-violet-500/60 transition">
-            <div class="flex items-center justify-between">
-              <div class="w-9 h-9 rounded-xl bg-violet-950/60 border border-violet-500/50 flex items-center justify-center text-violet-400">
-                <i class="fa-solid fa-chart-line"></i>
+          <div class="bg-slate-900/80 border border-violet-500/25 hover:border-violet-500/50 rounded-2xl p-5 shadow-lg flex flex-col justify-between gap-4 transition">
+            <div class="space-y-2.5">
+              <div class="flex items-center justify-between gap-2">
+                <div class="flex items-center gap-2.5">
+                  <div class="w-9 h-9 rounded-xl bg-violet-950/60 border border-violet-500/40 flex items-center justify-center text-violet-400">
+                    <i class="fa-solid fa-chart-line"></i>
+                  </div>
+                  <h3 class="text-sm font-bold text-white">Tráfico & Vistas</h3>
+                </div>
+                <span id="overview-analytics-total" class="text-[11px] px-2.5 py-0.5 rounded-full font-mono bg-emerald-950 text-emerald-400 border border-emerald-500/50 font-bold">Cargando...</span>
               </div>
-              <span id="overview-analytics-total" class="text-[11px] px-2 py-0.5 rounded-full font-mono bg-emerald-950 text-emerald-400 border border-emerald-500/50 font-bold">Cargando...</span>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                Analítica de visitas en tiempo real por página, guía de clase y noticia vía GoatCounter.
+              </p>
             </div>
-            <div>
-              <h3 class="text-sm font-bold text-white">Tráfico & Vistas</h3>
-              <p class="text-[11px] text-slate-400">Vistas en vivo vía GoatCounter.</p>
-            </div>
-            <button onclick="switchAdminTab('analytics')" class="w-full text-xs bg-violet-950/40 hover:bg-violet-900/60 text-violet-200 border border-violet-500/40 py-1.5 rounded-lg font-semibold transition flex items-center justify-center gap-1.5">
+            <button onclick="switchAdminTab('analytics')" class="w-full min-h-[38px] text-xs bg-violet-950/50 hover:bg-violet-900/70 text-violet-200 border border-violet-500/40 px-3 py-2 rounded-xl font-bold transition flex items-center justify-center gap-1.5">
               Ver Métricas <i class="fa-solid fa-arrow-right text-[10px]"></i>
             </button>
           </div>
 
-        </div>
-
-        <!-- Quick Summary & Missing Tooltips Health Card -->
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
-          <div class="lg:col-span-2 bg-wow-card border border-wow-border rounded-2xl p-6 shadow-xl space-y-4">
-            <h3 class="text-base font-bold text-white flex items-center gap-2">
-              <i class="fa-solid fa-circle-info text-amber-400"></i> ¿Cómo funciona el sistema de datos?
-            </h3>
-            <div class="text-xs text-slate-300 space-y-2.5 leading-relaxed">
-              <p>
-                El optimizador cuenta con datasets base estáticos (<code class="text-amber-300 font-mono">archon_data.js</code>, <code class="text-amber-300 font-mono">archon_healers.js</code>, <code class="text-amber-300 font-mono">wow_stat_priorities.js</code>, <code class="text-amber-300 font-mono">wowhead_data.js</code>, <code class="text-amber-300 font-mono">bloodmallet_data.js</code>) embebidos en el código.
-              </p>
-              <p>
-                Cuando ejecutas los scripts de extracción y subes los archivos actualizados en este panel, se almacenan en el <strong class="text-amber-400">almacenamiento local persistente</strong> y toman prioridad inmediata en toda la aplicación sin requerir desplegar el servidor.
-              </p>
-              <p>
-                Si alguna vez deseas volver a los valores estándar, cada módulo cuenta con un botón de <strong class="text-red-400">"Restaurar Original"</strong>.
-              </p>
-            </div>
-          </div>
-
-          <div class="bg-wow-card border border-sky-500/30 rounded-2xl p-6 shadow-xl space-y-4 flex flex-col justify-between">
-            <div class="space-y-2">
-              <div class="flex items-center justify-between">
-                <h3 class="text-sm font-bold text-sky-300 flex items-center gap-2">
-                  <i class="fa-solid fa-heart-pulse"></i> Salud de Tooltips
-                </h3>
-                <span id="overview-missing-badge" class="text-xs px-2.5 py-0.5 rounded-full font-mono bg-emerald-950/80 border border-emerald-500/60 text-emerald-300 font-bold">0 Fallos</span>
+          <!-- Card Noticias & Blue Tracker -->
+          <div class="bg-slate-900/80 border border-cyan-500/25 hover:border-cyan-500/50 rounded-2xl p-5 shadow-lg flex flex-col justify-between gap-4 transition">
+            <div class="space-y-2.5">
+              <div class="flex items-center justify-between gap-2">
+                <div class="flex items-center gap-2.5">
+                  <div class="w-9 h-9 rounded-xl bg-cyan-950/60 border border-cyan-500/40 flex items-center justify-center text-cyan-400">
+                    <i class="fa-solid fa-bullhorn"></i>
+                  </div>
+                  <h3 class="text-sm font-bold text-white">Noticias & Blues</h3>
+                </div>
+                <span id="overview-news-status" class="text-[10px] px-2.5 py-0.5 rounded-full font-mono bg-cyan-950 text-cyan-300 border border-cyan-500/60 font-bold">En Vivo ✓</span>
               </div>
-              <p class="text-xs text-slate-400">
-                Monitorea cada tooltip solicitado a Wowhead y registra objetos o hechizos "Not Found".
+              <p class="text-xs text-slate-400 leading-relaxed" id="overview-news-subtext">
+                Publicación y sincronización bilingüe de artículos de Blizzard, Wowhead y Blue Tracker.
               </p>
             </div>
-            <button onclick="switchAdminTab('tooltips')" class="w-full text-xs bg-sky-950/60 hover:bg-sky-900/80 text-sky-200 border border-sky-500/50 py-2 rounded-xl font-bold transition flex items-center justify-center gap-2">
-              <i class="fa-solid fa-list-check"></i> Ver Tooltips
+            <button onclick="switchAdminTab('news')" class="w-full min-h-[38px] text-xs bg-cyan-950/50 hover:bg-cyan-900/70 text-cyan-200 border border-cyan-500/40 px-3 py-2 rounded-xl font-bold transition flex items-center justify-center gap-1.5">
+              Gestionar Noticias <i class="fa-solid fa-arrow-right text-[10px]"></i>
             </button>
           </div>
 
-          <div class="bg-wow-card border border-amber-500/30 rounded-2xl p-6 shadow-xl space-y-4 flex flex-col justify-between">
-            <div class="space-y-2">
-              <div class="flex items-center justify-between">
-                <h3 class="text-sm font-bold text-amber-300 flex items-center gap-2">
-                  <i class="fa-solid fa-ticket"></i> Reportes / Tickets
-                </h3>
-                <span id="overview-tickets-badge" class="text-xs px-2.5 py-0.5 rounded-full font-mono bg-slate-800 border border-slate-700 text-slate-300 font-bold">0 Tickets</span>
+          <!-- Card Reportes / Tickets -->
+          <div class="bg-slate-900/80 border border-amber-500/25 hover:border-amber-500/50 rounded-2xl p-5 shadow-lg flex flex-col justify-between gap-4 transition">
+            <div class="space-y-2.5">
+              <div class="flex items-center justify-between gap-2">
+                <div class="flex items-center gap-2.5">
+                  <div class="w-9 h-9 rounded-xl bg-amber-950/60 border border-amber-500/40 flex items-center justify-center text-amber-400">
+                    <i class="fa-solid fa-ticket"></i>
+                  </div>
+                  <h3 class="text-sm font-bold text-white">Reportes / Tickets</h3>
+                </div>
+                <span id="overview-tickets-badge" class="text-[11px] px-2.5 py-0.5 rounded-full font-mono bg-slate-800 border border-slate-700 text-slate-300 font-bold">0 Tickets</span>
               </div>
-              <p class="text-xs text-slate-400">
-                Buzón de incidencias, errores reportados y sugerencias enviadas por la comunidad.
+              <p class="text-xs text-slate-400 leading-relaxed">
+                Buzón de incidencias, errores reportados y sugerencias enviadas por los usuarios.
               </p>
             </div>
-            <button onclick="switchAdminTab('tickets')" class="w-full text-xs bg-amber-950/60 hover:bg-amber-900/80 text-amber-200 border border-amber-500/50 py-2 rounded-xl font-bold transition flex items-center justify-center gap-2">
-              <i class="fa-solid fa-inbox"></i> Ver Tickets
+            <button onclick="switchAdminTab('tickets')" class="w-full min-h-[38px] text-xs bg-amber-950/50 hover:bg-amber-900/70 text-amber-200 border border-amber-500/40 px-3 py-2 rounded-xl font-bold transition flex items-center justify-center gap-1.5">
+              Abrir Buzón <i class="fa-solid fa-arrow-right text-[10px]"></i>
             </button>
           </div>
+
+          <!-- Card Salud de Tooltips -->
+          <div class="bg-slate-900/80 border border-sky-500/25 hover:border-sky-500/50 rounded-2xl p-5 shadow-lg flex flex-col justify-between gap-4 transition">
+            <div class="space-y-2.5">
+              <div class="flex items-center justify-between gap-2">
+                <div class="flex items-center gap-2.5">
+                  <div class="w-9 h-9 rounded-xl bg-sky-950/60 border border-sky-500/40 flex items-center justify-center text-sky-400">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                  </div>
+                  <h3 class="text-sm font-bold text-white">Salud de Tooltips</h3>
+                </div>
+                <span id="overview-missing-badge" class="text-[11px] px-2.5 py-0.5 rounded-full font-mono bg-emerald-950/80 border border-emerald-500/60 text-emerald-300 font-bold">0 Fallos</span>
+              </div>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                Monitorea cada tooltip solicitado a Wowhead y detecta IDs de ítems o hechizos caídos.
+              </p>
+            </div>
+            <button onclick="switchAdminTab('tooltips')" class="w-full min-h-[38px] text-xs bg-sky-950/50 hover:bg-sky-900/70 text-sky-200 border border-sky-500/40 px-3 py-2 rounded-xl font-bold transition flex items-center justify-center gap-1.5">
+              Auditar Tooltips <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </button>
+          </div>
+
         </div>
 
       </section>
 
       <!-- TAB 2: ARCHON UNIFICADO (40 SPECS: STATS, TALENTOS, BIS GEAR Y ABALORIOS HEALERS) -->
-      <section id="tab-archon" class="admin-tab-pane hidden space-y-6">
+      <section id="tab-archon" class="admin-tab-pane hidden space-y-4">
+        <div class="flex items-center justify-between">
+          <button onclick="switchAdminTab('overview')" class="min-h-[38px] text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 px-3.5 py-2 rounded-xl font-bold flex items-center gap-2 transition">
+            <i class="fa-solid fa-arrow-left text-amber-400"></i> Volver al Centro de Control
+          </button>
+          <span class="text-[11px] font-mono text-slate-400">Configuración Manual & Respaldo Local</span>
+        </div>
         <div class="bg-wow-card border border-purple-500/40 rounded-2xl p-6 shadow-xl space-y-5">
           <div class="flex items-center justify-between flex-wrap gap-3 pb-4 border-b border-wow-border">
             <div class="flex items-center gap-3">
@@ -396,7 +308,13 @@
       </section>
 
       <!-- TAB 3: STAT PRIORITIES & HERO TREES -->
-      <section id="tab-stat_priorities" class="admin-tab-pane hidden space-y-6">
+      <section id="tab-stat_priorities" class="admin-tab-pane hidden space-y-4">
+        <div class="flex items-center justify-between">
+          <button onclick="switchAdminTab('overview')" class="min-h-[38px] text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 px-3.5 py-2 rounded-xl font-bold flex items-center gap-2 transition">
+            <i class="fa-solid fa-arrow-left text-amber-400"></i> Volver al Centro de Control
+          </button>
+          <span class="text-[11px] font-mono text-slate-400">Configuración Manual & Respaldo Local</span>
+        </div>
         <div class="bg-wow-card border border-emerald-500/40 rounded-2xl p-6 shadow-xl space-y-5">
           <div class="flex items-center justify-between flex-wrap gap-3 pb-4 border-b border-wow-border">
             <div class="flex items-center gap-3">
@@ -453,7 +371,13 @@
       </section>
 
       <!-- TAB 4: WOWHEAD ENCHANTS & CONSUMABLES -->
-      <section id="tab-wowhead" class="admin-tab-pane hidden space-y-6">
+      <section id="tab-wowhead" class="admin-tab-pane hidden space-y-4">
+        <div class="flex items-center justify-between">
+          <button onclick="switchAdminTab('overview')" class="min-h-[38px] text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 px-3.5 py-2 rounded-xl font-bold flex items-center gap-2 transition">
+            <i class="fa-solid fa-arrow-left text-amber-400"></i> Volver al Centro de Control
+          </button>
+          <span class="text-[11px] font-mono text-slate-400">Configuración Manual & Respaldo Local</span>
+        </div>
         <div class="bg-wow-card border border-amber-500/40 rounded-2xl p-6 shadow-xl space-y-5">
           <div class="flex items-center justify-between flex-wrap gap-3 pb-4 border-b border-wow-border">
             <div class="flex items-center gap-3">
@@ -510,7 +434,13 @@
       </section>
 
       <!-- TAB 5: BLOODMALLET SIMULATIONS -->
-      <section id="tab-bloodmallet" class="admin-tab-pane hidden space-y-6">
+      <section id="tab-bloodmallet" class="admin-tab-pane hidden space-y-4">
+        <div class="flex items-center justify-between">
+          <button onclick="switchAdminTab('overview')" class="min-h-[38px] text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 px-3.5 py-2 rounded-xl font-bold flex items-center gap-2 transition">
+            <i class="fa-solid fa-arrow-left text-amber-400"></i> Volver al Centro de Control
+          </button>
+          <span class="text-[11px] font-mono text-slate-400">Configuración Manual & Respaldo Local</span>
+        </div>
         <div class="bg-wow-card border border-red-500/40 rounded-2xl p-6 shadow-xl space-y-5">
           <div class="flex items-center justify-between flex-wrap gap-3 pb-4 border-b border-wow-border">
             <div class="flex items-center gap-3">
@@ -979,19 +909,19 @@
   <div id="toast-container" class="fixed bottom-4 right-4 z-50 flex flex-col gap-2 pointer-events-none"></div>
 
   <!-- SCRIPT DE EXTRACCIÓN EMPAQUETADO EXTERNO -->
-  <script src="js/data/admin_scripts_bundle.js?v=23_v57"></script>
-  <script src="js/data/wow_news_data.js?v=23_v57"></script>
-  <script src="js/data/pinned_news.js?v=23_v57"></script>
-  <script src="js/data/news_fetcher.js?v=23_v57"></script>
-  <script src="js/data/telemetry_logger.js?v=23_v57"></script>
+  <script src="js/data/admin_scripts_bundle.js?v=23_v58"></script>
+  <script src="js/data/wow_news_data.js?v=23_v58"></script>
+  <script src="js/data/pinned_news.js?v=23_v58"></script>
+  <script src="js/data/news_fetcher.js?v=23_v58"></script>
+  <script src="js/data/telemetry_logger.js?v=23_v58"></script>
 
   <!-- MÓDULOS DE ADMINISTRACIÓN -->
-  <script src="js/admin/admin_core.js?v=23_v57"></script>
-  <script src="js/admin/admin_datasets.js?v=23_v57"></script>
-  <script src="js/admin/admin_bloodmallet.js?v=23_v57"></script>
-  <script src="js/admin/admin_vps_sync.js?v=23_v57"></script>
-  <script src="js/admin/admin_tickets.js?v=23_v57"></script>
-  <script src="js/admin/admin_news.js?v=23_v57"></script>
+  <script src="js/admin/admin_core.js?v=23_v58"></script>
+  <script src="js/admin/admin_datasets.js?v=23_v58"></script>
+  <script src="js/admin/admin_bloodmallet.js?v=23_v58"></script>
+  <script src="js/admin/admin_vps_sync.js?v=23_v58"></script>
+  <script src="js/admin/admin_tickets.js?v=23_v58"></script>
+  <script src="js/admin/admin_news.js?v=23_v58"></script>
   <script>
     document.addEventListener('DOMContentLoaded', checkAuth);
   </script>

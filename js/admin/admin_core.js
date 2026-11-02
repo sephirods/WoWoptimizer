@@ -69,31 +69,23 @@ function switchAdminTab(tabId) {
   if (activePane) activePane.classList.remove('hidden');
 
   document.querySelectorAll('.admin-tab-btn').forEach(btn => {
-    btn.className = 'admin-tab-btn flex-1 min-w-[130px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-slate-400 hover:text-slate-200 hover:bg-slate-800/40 border border-transparent';
+    btn.className = 'admin-tab-btn flex-1 min-w-[155px] min-h-[40px] flex items-center justify-center gap-2 py-2.5 px-3.5 rounded-xl text-xs font-bold transition text-slate-400 hover:text-slate-200 hover:bg-slate-800/40 border border-transparent relative';
   });
 
-  const activeBtn = document.getElementById(`nav-${tabId}`);
+  const datasetSubTabs = ['archon', 'archon_healers', 'stat_priorities', 'wowhead', 'bloodmallet'];
+  const navTargetId = datasetSubTabs.includes(tabId) ? 'overview' : tabId;
+  const activeBtn = document.getElementById(`nav-${navTargetId}`);
   if (activeBtn) {
-    if (tabId === 'overview') {
-      activeBtn.className = 'admin-tab-btn flex-1 min-w-[130px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-amber-400 bg-amber-500/15 border border-amber-500/40 shadow';
-    } else if (tabId === 'archon') {
-      activeBtn.className = 'admin-tab-btn flex-1 min-w-[130px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-purple-300 bg-purple-950/40 border border-purple-500/50 shadow';
-    } else if (tabId === 'archon_healers') {
-      activeBtn.className = 'admin-tab-btn flex-1 min-w-[145px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-sky-300 bg-sky-950/40 border border-sky-500/50 shadow';
-    } else if (tabId === 'stat_priorities') {
-      activeBtn.className = 'admin-tab-btn flex-1 min-w-[145px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-emerald-300 bg-emerald-950/40 border border-emerald-500/50 shadow';
-    } else if (tabId === 'wowhead') {
-      activeBtn.className = 'admin-tab-btn flex-1 min-w-[145px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-amber-300 bg-amber-950/40 border border-amber-500/50 shadow';
-    } else if (tabId === 'bloodmallet') {
-      activeBtn.className = 'admin-tab-btn flex-1 min-w-[140px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-red-300 bg-red-950/40 border border-red-500/50 shadow';
-    } else if (tabId === 'tooltips') {
-      activeBtn.className = 'admin-tab-btn flex-1 min-w-[155px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-sky-300 bg-sky-950/40 border border-sky-500/50 shadow';
-    } else if (tabId === 'tickets') {
-      activeBtn.className = 'admin-tab-btn flex-1 min-w-[160px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-amber-300 bg-amber-950/40 border border-amber-500/50 shadow';
-    } else if (tabId === 'news') {
-      activeBtn.className = 'admin-tab-btn flex-1 min-w-[170px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-cyan-300 bg-cyan-950/40 border border-cyan-500/50 shadow';
-    } else if (tabId === 'analytics') {
-      activeBtn.className = 'admin-tab-btn flex-1 min-w-[175px] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition text-violet-300 bg-violet-950/40 border border-violet-500/50 shadow';
+    if (navTargetId === 'overview') {
+      activeBtn.className = 'admin-tab-btn flex-1 min-w-[155px] min-h-[40px] flex items-center justify-center gap-2 py-2.5 px-3.5 rounded-xl text-xs font-bold transition text-amber-400 bg-amber-500/15 border border-amber-500/40 shadow relative';
+    } else if (navTargetId === 'tooltips') {
+      activeBtn.className = 'admin-tab-btn flex-1 min-w-[155px] min-h-[40px] flex items-center justify-center gap-2 py-2.5 px-3.5 rounded-xl text-xs font-bold transition text-sky-300 bg-sky-950/40 border border-sky-500/50 shadow relative';
+    } else if (navTargetId === 'tickets') {
+      activeBtn.className = 'admin-tab-btn flex-1 min-w-[155px] min-h-[40px] flex items-center justify-center gap-2 py-2.5 px-3.5 rounded-xl text-xs font-bold transition text-amber-300 bg-amber-950/40 border border-amber-500/50 shadow relative';
+    } else if (navTargetId === 'news') {
+      activeBtn.className = 'admin-tab-btn flex-1 min-w-[165px] min-h-[40px] flex items-center justify-center gap-2 py-2.5 px-3.5 rounded-xl text-xs font-bold transition text-cyan-300 bg-cyan-950/40 border border-cyan-500/50 shadow relative';
+    } else if (navTargetId === 'analytics') {
+      activeBtn.className = 'admin-tab-btn flex-1 min-w-[170px] min-h-[40px] flex items-center justify-center gap-2 py-2.5 px-3.5 rounded-xl text-xs font-bold transition text-violet-300 bg-violet-950/40 border border-violet-500/50 shadow relative';
     }
   }
 
