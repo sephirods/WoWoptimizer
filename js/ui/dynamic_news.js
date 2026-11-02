@@ -1175,11 +1175,12 @@ function openArticleModal(articleId, source = 'auto') {
     finalHtml = formatWowheadEditorialContent(finalHtml);
   }
 
-  // Construir bloque de Resumen Rápido (TL;DR en 3 puntos) si existe en WOW_NEWS_AI_SUMMARIES
+  // Construir bloque de Resumen Rápido si existe en WOW_NEWS_AI_SUMMARIES
   const aiSummaryObj = getArticleAiSummary(article, lang);
   let tldrBlockHtml = '';
   if (aiSummaryObj && Array.isArray(aiSummaryObj.tldr) && aiSummaryObj.tldr.length > 0) {
-    const tldrTitle = lang === 'en' ? 'Quick Summary (3 Key Points)' : 'Lo más importante en 3 puntos';
+    const tldrTitle = lang === 'en' ? 'Key Highlights' : 'Lo más importante';
+    const tldrBadge = lang === 'en' ? 'Summary' : 'Resumen';
     const bulletsHtml = aiSummaryObj.tldr.map(pt => `
       <li class="flex items-start gap-2 text-xs sm:text-[13px] text-slate-200 leading-relaxed">
         <i class="fa-solid fa-bolt text-[11px] text-amber-400 mt-1 shrink-0"></i>
@@ -1192,7 +1193,7 @@ function openArticleModal(articleId, source = 'auto') {
           <span class="text-xs font-bold text-amber-300 flex items-center gap-1.5 uppercase tracking-wide font-mono">
             <i class="fa-solid fa-wand-magic-sparkles text-amber-400"></i> ${tldrTitle}
           </span>
-          <span class="text-[10px] font-mono px-2 py-0.5 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-200 font-bold">TL;DR</span>
+          <span class="text-[10px] font-mono px-2 py-0.5 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-200 font-bold">${tldrBadge}</span>
         </div>
         <ul class="space-y-1.5 pt-0.5">
           ${bulletsHtml}
