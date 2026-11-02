@@ -521,13 +521,13 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
               <div class="bg-wow-subcard border border-wow-border hover:border-amber-400/50 rounded-xl p-3.5 flex items-center justify-between gap-3 transition">
                 <div class="flex items-center gap-3 min-w-0">
                   <div class="w-10 h-10 rounded-lg bg-black/80 border border-purple-500/50 flex items-center justify-center shrink-0 overflow-hidden relative shadow" id="bis-icon-box-${item.id}">
-                    <a href="${itemUrl}" rel="${itemParams}" data-wowhead="${wowheadDataAttr}" data-wh-rename-link="false" data-wh-icon-size="none" target="_blank" class="block w-full h-full">
+                    <a href="${itemUrl}" rel="${itemParams}" data-wowhead="${wowheadDataAttr}" target="_blank" class="block w-full h-full">
                       <img src="https://wow.zamimg.com/images/wow/icons/medium/${itemIcon}.jpg" alt="${displayItemName}" class="w-full h-full object-cover rounded-md" loading="lazy" onerror="this.src='https://wow.zamimg.com/images/wow/icons/medium/inv_misc_questionmark.jpg'"/>
                     </a>
                   </div>
                   <div class="min-w-0">
                     <span class="text-[10px] uppercase font-bold text-amber-400 block tracking-wide">${slotName}</span>
-                    <a href="${itemUrl}" id="bis-name-${item.id}" rel="${itemParams}" data-bis-id="${item.id}" data-bis-has-meta="${item.name && item.icon ? '1' : '0'}" data-bis-params="${itemParams}" data-wowhead="${wowheadDataAttr}" data-wh-rename-link="false" data-wh-icon-size="none" target="_blank" style="color: #a335ee;" class="text-xs font-bold hover:underline truncate block">
+                    <a href="${itemUrl}" id="bis-name-${item.id}" rel="${itemParams}" data-bis-id="${item.id}" data-bis-has-meta="${item.name && item.icon ? '1' : '0'}" data-bis-params="${itemParams}" data-wowhead="${wowheadDataAttr}" target="_blank" style="color: #a335ee;" class="text-xs font-bold hover:underline truncate block">
                       ${displayItemName}
                     </a>
                   </div>
