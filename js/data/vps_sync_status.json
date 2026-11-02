@@ -1,12 +1,12 @@
 {
-  "state": "running",
-  "lastRunAt": "2026-11-02T14:45:26Z",
-  "lastRunEpochMs": 1793630726260,
-  "nextScheduledAt": "2026-11-03T02:45:26Z",
-  "durationSec": 67.7,
+  "state": "completed",
+  "lastRunAt": "2026-11-02T14:46:30Z",
+  "lastRunEpochMs": 1793630790493,
+  "nextScheduledAt": "2026-11-03T02:46:30Z",
+  "durationSec": 47.7,
   "triggerRequestedAt": 0,
   "triggerTarget": "stats",
-  "currentStep": "Iniciando navegador Camoufox en VPS (modo: stats)...",
+  "currentStep": "Sincronización completada con éxito en 47.7s",
   "modules": {
     "archon": {
       "name": "Archon.gg (Presets, BiS, Talentos 1:1 & Healers)",
@@ -24,9 +24,9 @@
       "files": [
         "wow_stat_priorities.js"
       ],
-      "status": "running",
-      "updatedAt": "2026-11-02T14:26:53Z",
-      "summary": "39/39 guías extraídas",
+      "status": "ok",
+      "updatedAt": "2026-11-02T14:46:29Z",
+      "summary": "40/40 guías extraídas",
       "error": null
     },
     "wowhead": {
