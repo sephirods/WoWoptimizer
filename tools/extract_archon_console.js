@@ -114,22 +114,15 @@
         let m = 0, c = 0, h = 0, v = 0;
 
         // Extraer cada bloque de estadística individualmente dentro de su propio contenedor
-        const containerRegex = /<div class="builds-stat-priority-section__container">([\s\S]*?)<\/span><\/div><\/div><\/div>/gi;
-        let containerMatch;
-        while ((containerMatch = containerRegex.exec(htmlText)) !== null) {
-          const chunk = containerMatch[1];
-          const labelMatch = chunk.match(/class="[^"]*builds-stat-priority-section__container__stat-box__label"[^>]*>\s*([^<]+)\s*<\/div>/i);
-          const valMatch = chunk.match(/class="[^"]*builds-stat-priority-section__container__stat-box__value"[^>]*>\s*([\d,]+)\s*<\/div>/i);
-          
-          if (labelMatch && valMatch) {
-            const label = labelMatch[1].trim().toLowerCase();
-            const val = parseInt(valMatch[1].replace(/,/g, ''), 10);
-            
-            if (label.includes('mast') || label.includes('maestr')) m = val;
-            else if (label.includes('crit')) c = val;
-            else if (label.includes('hast') || label.includes('celer')) h = val;
-            else if (label.includes('vers')) v = val;
-          }
+        const boxRegex = /class="[^"]*builds-stat-priority-section__container__stat-box__label"[^>]*>\s*([^<]+)\s*<\/div>[\s\S]{0,400}?class="[^"]*builds-stat-priority-section__container__stat-box__value"[^>]*>\s*([\d,]+)\s*<\/div>/gi;
+        let boxMatch;
+        while ((boxMatch = boxRegex.exec(htmlText)) !== null) {
+          const label = boxMatch[1].trim().toLowerCase();
+          const val = parseInt(boxMatch[2].replace(/,/g, ''), 10);
+          if (label.includes('mast') || label.includes('maestr')) m = val;
+          else if (label.includes('crit')) c = val;
+          else if (label.includes('hast') || label.includes('celer')) h = val;
+          else if (label.includes('vers')) v = val;
         }
 
         // Respaldo secundario si los contenedores cambian
