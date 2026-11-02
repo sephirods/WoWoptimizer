@@ -975,15 +975,23 @@ function formatWowheadEditorialContent(html) {
         const whDomain = lang === 'es' ? 'https://www.wowhead.com/es' : 'https://www.wowhead.com';
         const gridLabel = lang === 'en' ? 'Featured Event Items & Rewards' : 'Objetos y Recompensas Destacadas';
         rescuedPillsHtml = `
-          <div class="my-4 p-3.5 sm:p-4 rounded-xl bg-slate-900/90 border border-purple-500/30 space-y-2.5 shadow-lg">
-            <div class="text-xs font-bold text-purple-300 flex items-center gap-1.5 font-mono uppercase tracking-wide">
-              <i class="fa-solid fa-box-open text-amber-400"></i> ${gridLabel}
+          <div class="my-5 p-3.5 sm:p-4 rounded-xl bg-slate-900/95 border border-purple-500/35 space-y-3 shadow-xl">
+            <div class="flex items-center justify-between gap-2 pb-1.5 border-b border-purple-500/20">
+              <div class="text-xs font-bold text-purple-300 flex items-center gap-1.5 font-mono uppercase tracking-wide">
+                <i class="fa-solid fa-box-open text-amber-400"></i> ${gridLabel}
+              </div>
+              <span class="text-[10px] font-mono text-slate-400">${rescuedItems.length} ${lang === 'en' ? 'items' : 'objetos'}</span>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5">
               ${rescuedItems.map(it => `
-                <a href="${whDomain}/${it.path}" target="_blank" rel="noopener noreferrer" data-wowhead="item=${it.id}&domain=${lang === 'es' ? 'es' : 'www'}" class="px-2.5 py-2 rounded-lg bg-black/60 hover:bg-purple-950/50 border border-white/10 hover:border-purple-500/50 text-xs text-amber-300 hover:text-amber-200 font-semibold flex items-center gap-2 transition truncate">
-                  <i class="fa-solid fa-gem text-[10px] text-purple-400 shrink-0"></i>
-                  <span class="truncate">${it.name}</span>
+                <a href="${whDomain}/${it.path}" target="_blank" rel="noopener noreferrer" data-wh-item-card="${it.id}" data-wowhead="item=${it.id}&domain=${lang === 'es' ? 'es' : 'www'}" data-wh-rename-link="false" data-wh-icon-size="none" class="p-2 rounded-xl bg-black/75 hover:bg-purple-950/45 border border-white/10 hover:border-amber-400/50 flex items-center gap-2.5 transition group shadow-md">
+                  <div data-wh-icon-wrap class="w-11 h-11 rounded-lg overflow-hidden border-2 border-emerald-500/60 bg-slate-950 shrink-0 flex items-center justify-center shadow-inner relative">
+                    <img data-wh-icon src="https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg" alt="${it.name}" class="w-full h-full object-cover group-hover:scale-110 transition duration-200" loading="lazy" />
+                  </div>
+                  <div class="min-w-0 flex-1">
+                    <div data-wh-name class="text-xs font-bold text-emerald-400 group-hover:text-amber-200 truncate transition leading-tight">${it.name}</div>
+                    <div data-wh-sub class="text-[10px] text-slate-400 truncate mt-0.5">${lang === 'en' ? 'Cosmetic Reward' : 'Recompensa Cosmética'}</div>
+                  </div>
                 </a>
               `).join('')}
             </div>
@@ -1091,6 +1099,69 @@ function formatWowheadEditorialContent(html) {
   });
 
   return formatted;
+}
+
+
+window._whItemMetaCache = window._whItemMetaCache || {};
+async function hydrateWowheadItemCards(containerEl, lang) {
+  if (!containerEl) return;
+  const domainPrefix = lang === "es" ? "es/" : "";
+  const cards = Array.from(containerEl.querySelectorAll("[data-wh-item-card]"));
+  const qTextColors = {
+    2: "text-emerald-400",
+    3: "text-sky-400",
+    4: "text-purple-400",
+    5: "text-amber-400",
+    7: "text-cyan-300"
+  };
+  const qBorderColors = {
+    2: "border-emerald-500/60",
+    3: "border-sky-500/60",
+    4: "border-purple-500/60",
+    5: "border-amber-500/70",
+    7: "border-cyan-400/60"
+  };
+
+  await Promise.all(cards.map(async (card) => {
+    const itemId = card.getAttribute("data-wh-item-card");
+    if (!itemId) return;
+    const cacheKey = `${lang}_${itemId}`;
+    let meta = window._whItemMetaCache[cacheKey];
+    if (!meta) {
+      try {
+        const res = await fetch(`https://nether.wowhead.com/${domainPrefix}tooltip/item/${itemId}`);
+        if (res.ok) {
+          meta = await res.json();
+          window._whItemMetaCache[cacheKey] = meta;
+        }
+      } catch (e) {}
+    }
+    if (!meta || !meta.name) return;
+
+    const iconEl = card.querySelector("[data-wh-icon]");
+    const wrapEl = card.querySelector("[data-wh-icon-wrap]");
+    const nameEl = card.querySelector("[data-wh-name]");
+    const subEl = card.querySelector("[data-wh-sub]");
+
+    if (iconEl && meta.icon) {
+      iconEl.src = `https://wow.zamimg.com/images/wow/icons/large/${meta.icon}.jpg`;
+      iconEl.alt = meta.name;
+    }
+    if (nameEl) {
+      nameEl.textContent = meta.name;
+      const qColor = qTextColors[meta.quality] || "text-amber-300";
+      nameEl.className = `text-xs font-bold ${qColor} group-hover:text-amber-200 truncate transition leading-tight`;
+    }
+    if (wrapEl && qBorderColors[meta.quality]) {
+      wrapEl.className = `w-11 h-11 rounded-lg overflow-hidden border-2 ${qBorderColors[meta.quality]} bg-slate-950 shrink-0 flex items-center justify-center shadow-inner relative`;
+    }
+    if (subEl && meta.tooltip) {
+      const slotMatch = meta.tooltip.match(/<table width="100%"><tr><td>([^<]+)<\/td><th>[\s\S]*?<span[^>]*>([^<]+)<\/span>/i);
+      if (slotMatch) {
+        subEl.textContent = `${slotMatch[2]} • ${slotMatch[1]}`;
+      }
+    }
+  }));
 }
 
 function openArticleModal(articleId, source = 'auto') {
@@ -1239,9 +1310,18 @@ function openArticleModal(articleId, source = 'auto') {
 
   if (bodyEl) {
     bodyEl.innerHTML = tldrBlockHtml + (finalHtml || `<p class="text-slate-300 text-sm leading-relaxed">${summaryText}</p>`);
-    if (window.$WH && window.$WH.Tooltips && typeof window.$WH.Tooltips.refreshLinks === 'function') {
-      setTimeout(() => { try { window.$WH.Tooltips.refreshLinks(); } catch (e) {} }, 60);
-    }
+    hydrateWowheadItemCards(bodyEl, lang);
+    setTimeout(() => {
+      try {
+        if (window.$WowheadPower && typeof window.$WowheadPower.refreshLinks === 'function') {
+          window.$WowheadPower.refreshLinks();
+        } else if (window.$WH && window.$WH.Tooltip && typeof window.$WH.Tooltip.refreshLinks === 'function') {
+          window.$WH.Tooltip.refreshLinks();
+        } else if (window.$WH && window.$WH.Tooltips && typeof window.$WH.Tooltips.refreshLinks === 'function') {
+          window.$WH.Tooltips.refreshLinks();
+        }
+      } catch (e) {}
+    }, 80);
   }
 
   // Configurar botón de enlace a la fuente oficial si existe originalUrl o targetExternalUrl
