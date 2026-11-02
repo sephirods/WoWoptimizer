@@ -621,12 +621,13 @@
         whScript.defer = true;
         document.body.appendChild(whScript);
 
+        const cb = window.location.search.includes('news=') ? `&_ts=${Date.now()}` : '';
         loadSeq([
-          'js/data/wow_news_data.js?v=23_v61',
-          'js/data/news_ai_summaries.js?v=23_v61',
-          'js/data/pinned_news.js?v=23_v61',
-          'js/data/news_fetcher.js?v=23_v61',
-          'js/ui/dynamic_news.js?v=23_v61'
+          `js/data/wow_news_data.js?v=23_v62${cb}`,
+          `js/data/news_ai_summaries.js?v=23_v62${cb}`,
+          `js/data/pinned_news.js?v=23_v62${cb}`,
+          `js/data/news_fetcher.js?v=23_v62${cb}`,
+          `js/ui/dynamic_news.js?v=23_v62${cb}`
         ], 0);
       };
 

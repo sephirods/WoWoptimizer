@@ -87,6 +87,12 @@ const DEFAULT_PINNED_NEWS_IDS = ['blizz-30111968', 'blizz-24302093'];
   </section>
 
   <!-- MODAL: LECTOR INTERNO DE ARTÍCULOS Y BLUE POSTS (MOBILE-FIRST & STICKY HEADER) -->
+  <style>
+    #article-modal-body .entity-model-card-embed-wrapper,
+    #article-modal-body noscript {
+      display: none !important;
+    }
+  </style>
   <div id="article-reader-modal" class="fixed inset-0 bg-black/85 backdrop-blur-md z-50 flex items-center justify-center p-2 sm:p-6 hidden">
     <div class="bg-wow-panel border border-purple-500/40 rounded-2xl max-w-3xl w-full shadow-2xl max-h-[92vh] overflow-hidden relative flex flex-col">
       
@@ -218,50 +224,6 @@ let activeBlueRegionFilter = 'ALL';
 let currentOpenArticleId = null;
 let currentOpenArticleSource = 'auto';
 let previousScrollY = 0;
-
-// Embellecedor visual para artículos de Wowhead (añade jerarquía, badges y subtítulos estilizados)
-function formatWowheadEditorialContent(html) {
-  if (!html) return '';
-  let res = html;
-
-  // 1. Quitar cajas repetitivas de aviso inicial
-  res = res.replace(/<div class="bg-amber-950\/30 border border-amber-500\/40[\s\S]*?<\/div>\s*<\/div>/gi, '');
-
-  // 2. Dar formato a los subtítulos comunes que vienen en etiquetas <p> simples
-  const headingPatterns = [
-    /^(What’s New|What's New|Bring Your Sea Shanty|Swashbuckling Skyriding Style|Join the Beach Party|WoW Classic|Why Does This Matter\?|Guaranteed Nymrissa Loot|Flexible Mythic Slot|Pirate's Day Guide)/i,
-    /^(When|Where)\s*:/i,
-    /^(Source|Cost)\s*:/i
-  ];
-
-  res = res.replace(/<p>([A-Za-z0-9\s'’\?,—:\!\.]{3,65})<\/p>/g, (match, text) => {
-    const trimmed = text.trim();
-    if (headingPatterns[0].test(trimmed)) {
-      return `<h3 class="font-cinzel text-base sm:text-lg font-bold text-amber-300 pt-3 pb-1 border-b border-amber-500/20 flex items-center gap-2"><i class="fa-solid fa-compass text-xs text-amber-400"></i> ${trimmed}</h3>`;
-    }
-    return match;
-  });
-
-  // 3. Estilizar líneas de metadatos de objetos (Source: ..., Cost: ...)
-  res = res.replace(/<p>(Pirate's Eyepatch|[\w\s'’]+)<br>Source:\s*([^<]+)<br>Cost:\s*([^<]*)<\/p>/gi, (match, item, src, cost) => {
-    return `
-      <div class="my-3 p-3 rounded-xl bg-black/40 border border-amber-500/30 flex flex-col sm:flex-row sm:items-center justify-between gap-2 shadow">
-        <div class="flex items-center gap-2.5">
-          <div class="w-8 h-8 rounded-lg bg-amber-950/80 border border-amber-500/40 flex items-center justify-center text-amber-300 text-xs">
-            <i class="fa-solid fa-shirt"></i>
-          </div>
-          <div>
-            <div class="font-bold text-xs sm:text-sm text-emerald-400">${item}</div>
-            <div class="text-[11px] text-slate-400">Fuente: <span class="text-slate-200">${src.trim()}</span></div>
-          </div>
-        </div>
-        ${cost.trim() ? `<div class="px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-mono font-bold self-start sm:self-auto">${cost.trim()}</div>` : ''}
-      </div>
-    `;
-  });
-
-  return res;
-}
 
 function getActiveLanguage() {
   if (typeof currentLang !== 'undefined' && (currentLang === 'en' || currentLang === 'es' || currentLang === 'mx')) {
@@ -396,14 +358,27 @@ function getArticleRelativeTime(dateStr, lang = 'es') {
 
 
 function getNewsDatabase() {
-  // 1. Si el usuario subió datos personalizados en el panel admin
+  // 1. Base de datos oficial local empaquetada (siempre fresca y con traducciones verificadas)
+  const baseDb = window.WOW_NEWS_DATABASE || { blueTracker: [], blizzardNews: [], recentNews: [] };
+
+  // 2. Si había una caché personalizada antigua en localStorage, fusionar pero priorizando siempre baseDb para que las correcciones del servidor se vean al instante
   try {
     const custom = localStorage.getItem('wow_custom_news_data');
-    if (custom) return JSON.parse(custom);
+    if (custom) {
+      const parsedCustom = JSON.parse(custom);
+      const mergeArr = (baseArr, custArr) => {
+        const map = new Map();
+        (custArr || []).forEach(x => { if (x && x.id) map.set(x.id, x); });
+        (baseArr || []).forEach(x => { if (x && x.id) map.set(x.id, x); });
+        return Array.from(map.values());
+      };
+      return {
+        blueTracker: mergeArr(baseDb.blueTracker, parsedCustom.blueTracker),
+        blizzardNews: mergeArr(baseDb.blizzardNews, parsedCustom.blizzardNews),
+        recentNews: mergeArr(baseDb.recentNews, parsedCustom.recentNews)
+      };
+    }
   } catch (e) {}
-
-  // 2. Base de datos oficial local empaquetada (siempre fresca y con traducciones verificadas)
-  const baseDb = window.WOW_NEWS_DATABASE || { blueTracker: [], blizzardNews: [], recentNews: [] };
 
   // 3. Si el sincronizador en vivo descargó nuevos hilos más recientes, fusionarlos
   // sin pisar nunca los contenidos completos ni las traducciones nativas verificadas
@@ -1230,8 +1205,8 @@ function openArticleModal(articleId, source = 'auto') {
   finalHtml = finalHtml.replace(/<p[^>]*>\s*<a\s+href="[^"]*worldofwarcraft\.com\/[^"]*news\/[^"]*"[^>]*>[\s\S]*?<\/a>\s*<\/p>/gi, '');
   finalHtml = finalHtml.replace(/<a\s+href="[^"]*worldofwarcraft\.com\/[^"]*news\/[^"]*"[^>]*>[\s\S]*?<\/a>/gi, '');
 
-  // Si el artículo proviene de Wowhead, embellecer la jerarquía editorial, encabezados y cajas de metadatos
-  if (article.source === 'wowhead' && finalHtml) {
+  // Si el artículo proviene de Wowhead o contiene estructura editorial de Wowhead, embellecer y limpiar contenedores vacíos
+  if (finalHtml && (article.source === 'wowhead' || finalHtml.includes('entity-model-card') || finalHtml.includes('wh-center'))) {
     finalHtml = formatWowheadEditorialContent(finalHtml);
   }
 
