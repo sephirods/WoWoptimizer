@@ -1,0 +1,45 @@
+name: Auto Bump Version on Dataset Updates
+
+on:
+  push:
+    paths:
+      - 'archon_data.js'
+      - 'archon_healers.js'
+      - 'wowhead_data.js'
+      - 'wow_stat_priorities.js'
+      - 'wow_stat_priorities.json'
+      - 'bloodmallet_data.js'
+      - 'js/data/**'
+
+permissions:
+  contents: write
+
+jobs:
+  bump-version:
+    if: "!contains(github.event.head_commit.message, 'auto bump script version')"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Version Bumper Across All HTML Files
+        run: node bump_version.js
+
+      - name: Commit & Push Bumped Version
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No se requirio cambio de version."
+          else
+            git commit -m "chore(release): auto bump script version [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          fi

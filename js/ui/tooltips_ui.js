@@ -31,7 +31,7 @@ function getSlotPlaceholderSvg(slot) {
 
 let metadataCache = {};
 try {
-  metadataCache = JSON.parse(localStorage.getItem('wow_metadata_cache_v10')) || {};
+  metadataCache = JSON.parse(localStorage.getItem('wow_metadata_cache_v11')) || {};
 } catch (e) {
   metadataCache = {};
 }
@@ -236,19 +236,20 @@ function detectSlotFromTooltipHtml(html, name = '') {
 
 async function fetchWowheadItemMetadata(itemId, targetIlvl = 321, bonusStr = '', enchantId = null) {
   if (!itemId) return null;
-  const cacheKey = `${itemId}_${targetIlvl}_${bonusStr || 'none'}_${enchantId || 'none'}`;
+    const effectiveIlvlParam = bonusStr ? null : targetIlvl;
+  const cacheKey = `${itemId}_${effectiveIlvlParam || 'auto'}_${bonusStr || 'none'}_${enchantId || 'none'}`;
   if (metadataCache[cacheKey] && metadataCache[cacheKey].crit !== undefined && metadataCache[cacheKey].primaryStat !== undefined) {
     return metadataCache[cacheKey];
   }
 
   try {
-    let url = `https://nether.wowhead.com/tooltip/item/${itemId}${targetIlvl ? `?ilvl=${targetIlvl}` : ''}`;
-    if (bonusStr) {
-      url += (url.includes('?') ? '&' : '?') + `bonus=${bonusStr}`;
-    }
-    if (enchantId) {
-      url += (url.includes('?') ? '&' : '?') + `ench=${enchantId}`;
-    }
+    let url = `https://nether.wowhead.com/tooltip/item/${itemId}`;
+    const queryParts = [];
+    if (effectiveIlvlParam) queryParts.push(`ilvl=${effectiveIlvlParam}`);
+    if (bonusStr) queryParts.push(`bonus=${bonusStr}`);
+    if (enchantId) queryParts.push(`ench=${enchantId}`);
+    if (queryParts.length > 0) url += '?' + queryParts.join('&');
+    
     const response = await fetch(url);
     if (response.ok) {
       const data = await response.json();
@@ -295,6 +296,13 @@ async function fetchWowheadItemMetadata(itemId, targetIlvl = 321, bonusStr = '',
           else if (tName.includes('explor')) detectedTrack = 'adventurer';
           if (trackMatch[2]) detectedRank = trackMatch[2];
         }
+        if (!detectedTrack) {
+          if (html.includes('Venomforged: Myth') || rawText.includes('Venomforged: Myth') || rawText.includes('Mythic')) {
+            detectedTrack = 'myth';
+          } else if (html.includes('Venomforged: Hero') || rawText.includes('Venomforged: Hero') || (rawText.includes('Heroic') && !rawText.includes('Myth'))) {
+            detectedTrack = 'hero';
+          }
+        }
 
         const detectedPrimaryStat = detectPrimaryStatFromTooltip(html, rawText);
 
@@ -319,7 +327,7 @@ async function fetchWowheadItemMetadata(itemId, targetIlvl = 321, bonusStr = '',
         metadataCache[cacheKey] = meta;
         metadataCache[itemId] = meta;
         try {
-          localStorage.setItem('wow_metadata_cache_v10', JSON.stringify(metadataCache));
+          localStorage.setItem('wow_metadata_cache_v11', JSON.stringify(metadataCache));
         } catch (e) {}
         return meta;
       }

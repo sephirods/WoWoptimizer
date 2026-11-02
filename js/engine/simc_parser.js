@@ -375,6 +375,7 @@ async function parseAndImportSimC() {
       });
 
       currentItemName = '';
+      currentIlvl = 321;
     }
   }
 
@@ -403,8 +404,17 @@ async function parseAndImportSimC() {
       }
       const statMeta = await fetchWowheadItemMetadata(statSourceId, it.ilvl, itBonus, itEnchId);
       if (statMeta) {
+        if (statMeta.ilvl) {
+          it.ilvl = statMeta.ilvl;
+        }
         if (statMeta.track) {
           it.track = statMeta.track;
+        }
+        if (statMeta.name && (it.name.startsWith('Objeto #') || !it.name)) {
+          it.name = statMeta.name;
+        }
+        if (statMeta.icon) {
+          it.icon = statMeta.icon;
         }
         const hasDirectStats = (statMeta.crit || 0) > 0 || (statMeta.haste || 0) > 0 || (statMeta.mastery || 0) > 0 || (statMeta.vers || 0) > 0;
         if (hasDirectStats) {
