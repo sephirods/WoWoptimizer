@@ -224,8 +224,8 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
   const talentsString = modeData.talents || '';
 
   // Determinar stat principal y orden de secundarias para el texto dinámico de SEO
-  const intelSpecs = ['holy_paladin', 'balance', 'restoration_druid', 'devastation', 'preservation', 'augmentation', 'arcane', 'fire', 'frost_mage', 'mistweaver', 'discipline', 'holy_priest', 'shadow', 'elemental', 'restoration_shaman', 'affliction', 'demonology', 'destruction'];
-  const agiSpecs = ['havoc', 'vengeance', 'devourer', 'feral', 'guardian', 'beastmastery', 'marksmanship', 'survival', 'brewmaster', 'windwalker', 'assassination', 'outlaw', 'subtlety', 'enhancement'];
+  const intelSpecs = ['holy_paladin', 'balance', 'restoration_druid', 'devastation', 'preservation', 'augmentation', 'arcane', 'fire', 'frost_mage', 'mistweaver', 'discipline', 'holy_priest', 'shadow', 'elemental', 'restoration_shaman', 'affliction', 'demonology', 'destruction', 'devourer'];
+  const agiSpecs = ['havoc', 'vengeance', 'feral', 'guardian', 'beastmastery', 'marksmanship', 'survival', 'brewmaster', 'windwalker', 'assassination', 'outlaw', 'subtlety', 'enhancement'];
   let primaryName = isEs ? 'Fuerza' : 'Strength';
   if (intelSpecs.includes(specKey)) primaryName = isEs ? 'Intelecto' : 'Intellect';
   else if (agiSpecs.includes(specKey)) primaryName = isEs ? 'Agilidad' : 'Agility';
@@ -417,8 +417,8 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
         <div class="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3.5 py-3">
           ${(() => {
             // Determinar stat principal por spec
-            const intelSpecs = ['holy_paladin', 'balance', 'restoration_druid', 'devastation', 'preservation', 'augmentation', 'arcane', 'fire', 'frost_mage', 'mistweaver', 'discipline', 'holy_priest', 'shadow', 'elemental', 'restoration_shaman', 'affliction', 'demonology', 'destruction'];
-            const agiSpecs = ['havoc', 'vengeance', 'devourer', 'feral', 'guardian', 'beastmastery', 'marksmanship', 'survival', 'brewmaster', 'windwalker', 'assassination', 'outlaw', 'subtlety', 'enhancement'];
+            const intelSpecs = ['holy_paladin', 'balance', 'restoration_druid', 'devastation', 'preservation', 'augmentation', 'arcane', 'fire', 'frost_mage', 'mistweaver', 'discipline', 'holy_priest', 'shadow', 'elemental', 'restoration_shaman', 'affliction', 'demonology', 'destruction', 'devourer'];
+            const agiSpecs = ['havoc', 'vengeance', 'feral', 'guardian', 'beastmastery', 'marksmanship', 'survival', 'brewmaster', 'windwalker', 'assassination', 'outlaw', 'subtlety', 'enhancement'];
             let primaryName = isEs ? 'Fuerza' : 'Strength';
             if (intelSpecs.includes(specKey)) primaryName = isEs ? 'Intelecto' : 'Intellect';
             else if (agiSpecs.includes(specKey)) primaryName = isEs ? 'Agilidad' : 'Agility';
