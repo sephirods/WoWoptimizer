@@ -1269,15 +1269,15 @@ window.WOWHEAD_STAT_PRIORITIES = {
             "Intellect",
             "Haste",
             "Critical Strike",
-            "Versatility",
-            "Mastery"
+            "Mastery",
+            "Versatility"
           ],
-          "secondaryOrder": "Haste > Crit > Vers > Mastery",
+          "secondaryOrder": "Haste > Crit > Mastery > Vers",
           "weights": {
-            "m": 0.7,
+            "m": 1,
             "c": 1.3,
             "h": 1.6,
-            "v": 1
+            "v": 0.7
           }
         },
         "Soul Harvester": {
@@ -1285,15 +1285,15 @@ window.WOWHEAD_STAT_PRIORITIES = {
             "Intellect",
             "Haste",
             "Critical Strike",
-            "Versatility",
-            "Mastery"
+            "Mastery",
+            "Versatility"
           ],
-          "secondaryOrder": "Haste > Crit > Vers > Mastery",
+          "secondaryOrder": "Haste > Crit > Mastery > Vers",
           "weights": {
-            "m": 0.7,
+            "m": 1,
             "c": 1.3,
             "h": 1.6,
-            "v": 1
+            "v": 0.7
           }
         }
       }
