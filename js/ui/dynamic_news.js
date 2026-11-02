@@ -291,9 +291,25 @@ function resolveLocalized(field, lang) {
   return isErrorTitleText(String(field)) ? '' : String(field);
 }
 
-// Extraer extracto limpio (~150 caracteres) eliminando HTML, saltos y avisos redundantes
+// Obtener resumen IA (TL;DR + SEO Meta Description) para un artículo e idioma si está disponible
+function getArticleAiSummary(item, lang = 'es') {
+  if (!item || !item.id || typeof window === 'undefined' || !window.WOW_NEWS_AI_SUMMARIES) return null;
+  const entry = window.WOW_NEWS_AI_SUMMARIES[item.id];
+  if (!entry) return null;
+  const targetLang = lang === 'en' ? 'en' : 'es';
+  return entry[targetLang] || entry['es'] || entry['en'] || null;
+}
+
+// Extraer extracto limpio (~150 caracteres) priorizando la meta-descripción editorial IA
 function getArticleExcerpt(item, lang = 'es', maxLength = 160) {
   if (!item) return '';
+
+  // 0. Priorizar seo_description de WOW_NEWS_AI_SUMMARIES si existe
+  const aiSummary = getArticleAiSummary(item, lang);
+  if (aiSummary && aiSummary.seo_description && aiSummary.seo_description.trim().length > 15) {
+    const cleanAi = aiSummary.seo_description.trim();
+    return cleanAi.length > maxLength ? cleanAi.slice(0, maxLength).trim() + '...' : cleanAi;
+  }
   
   // 1. Probar campo summary localizado
   const rawSummary = resolveLocalized(item.summary, lang);
@@ -854,7 +870,7 @@ function renderBlueTracker() {
     <div class="divide-y divide-white/5">
       ${filtered.map(item => {
         const itemTitle = resolveLocalized(item.title, lang);
-        const itemSummary = resolveLocalized(item.summary, lang);
+        const itemSummary = getArticleExcerpt(item, lang, 145) || resolveLocalized(item.summary, lang);
         const timeDisplay = item.dateRaw 
           ? (typeof getRelativeTimeString === 'function' ? getRelativeTimeString(item.dateRaw, lang) : formatReadableDate(item.dateRaw, lang))
           : (resolveLocalized(item.timeAgo, lang) || resolveLocalized(item.date, lang) || 'Reciente');
@@ -907,7 +923,7 @@ function renderRecentNews() {
     <div class="divide-y divide-white/5">
       ${list.map(item => {
         const itemTitle = resolveLocalized(item.title, lang);
-        const itemSummary = resolveLocalized(item.summary, lang);
+        const itemSummary = getArticleExcerpt(item, lang, 145) || resolveLocalized(item.summary, lang);
         const timeDisplay = item.dateRaw 
           ? (typeof getRelativeTimeString === 'function' ? getRelativeTimeString(item.dateRaw, lang) : formatReadableDate(item.dateRaw, lang))
           : (resolveLocalized(item.timeAgo, lang) || resolveLocalized(item.date, lang) || 'Reciente');
@@ -1159,7 +1175,33 @@ function openArticleModal(articleId, source = 'auto') {
     finalHtml = formatWowheadEditorialContent(finalHtml);
   }
 
-  if (bodyEl) bodyEl.innerHTML = finalHtml || `<p class="text-slate-300 text-sm leading-relaxed">${summaryText}</p>`;
+  // Construir bloque de Resumen Rápido (TL;DR en 3 puntos) si existe en WOW_NEWS_AI_SUMMARIES
+  const aiSummaryObj = getArticleAiSummary(article, lang);
+  let tldrBlockHtml = '';
+  if (aiSummaryObj && Array.isArray(aiSummaryObj.tldr) && aiSummaryObj.tldr.length > 0) {
+    const tldrTitle = lang === 'en' ? 'Quick Summary (3 Key Points)' : 'Lo más importante en 3 puntos';
+    const bulletsHtml = aiSummaryObj.tldr.map(pt => `
+      <li class="flex items-start gap-2 text-xs sm:text-[13px] text-slate-200 leading-relaxed">
+        <i class="fa-solid fa-bolt text-[11px] text-amber-400 mt-1 shrink-0"></i>
+        <span>${pt}</span>
+      </li>
+    `).join('');
+    tldrBlockHtml = `
+      <div class="mb-5 p-3.5 sm:p-4 rounded-xl bg-gradient-to-r from-amber-950/35 via-purple-950/30 to-slate-900/60 border border-amber-500/40 shadow-lg space-y-2">
+        <div class="flex items-center justify-between gap-2 pb-1.5 border-b border-amber-500/20">
+          <span class="text-xs font-bold text-amber-300 flex items-center gap-1.5 uppercase tracking-wide font-mono">
+            <i class="fa-solid fa-wand-magic-sparkles text-amber-400"></i> ${tldrTitle}
+          </span>
+          <span class="text-[10px] font-mono px-2 py-0.5 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-200 font-bold">TL;DR</span>
+        </div>
+        <ul class="space-y-1.5 pt-0.5">
+          ${bulletsHtml}
+        </ul>
+      </div>
+    `;
+  }
+
+  if (bodyEl) bodyEl.innerHTML = tldrBlockHtml + (finalHtml || `<p class="text-slate-300 text-sm leading-relaxed">${summaryText}</p>`);
 
   // Configurar botón de enlace a la fuente oficial si existe originalUrl o targetExternalUrl
   const extLink = document.getElementById('article-modal-external-link');
@@ -1227,10 +1269,11 @@ function openArticleModal(articleId, source = 'auto') {
       window.originalPageMeta = metaDesc ? metaDesc.getAttribute('content') : '';
     }
 
-    // Inyectar Título SEO del Artículo
+    // Inyectar Título y Meta Description SEO del Artículo (priorizando seo_description generada por IA)
+    const seoMetaText = (aiSummaryObj && aiSummaryObj.seo_description) ? aiSummaryObj.seo_description : (summaryText || titleText);
     document.title = `${titleText} | WoWTopGear`;
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', summaryText || titleText);
+    if (metaDesc) metaDesc.setAttribute('content', seoMetaText);
 
     // Registrar vista de la noticia en GoatCounter Analytics (/news/<id>)
     const trackNewsView = () => {
@@ -1259,7 +1302,7 @@ function openArticleModal(articleId, source = 'auto') {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
       "headline": titleText,
-      "description": summaryText || titleText,
+      "description": seoMetaText,
       "datePublished": article.dateRaw || new Date().toISOString(),
       "author": [{
           "@type": "Organization",
@@ -1327,7 +1370,7 @@ function openArticleModal(articleId, source = 'auto') {
               // Eliminar enlace redundante del cuerpo para dejar únicamente el botón de acción inferior
               updatedHtml = updatedHtml.replace(/<p[^>]*>\s*<a\s+href="[^"]*worldofwarcraft\.com\/[^"]*news\/[^"]*"[^>]*>[\s\S]*?<\/a>\s*<\/p>/gi, '');
               updatedHtml = updatedHtml.replace(/<a\s+href="[^"]*worldofwarcraft\.com\/[^"]*news\/[^"]*"[^>]*>[\s\S]*?<\/a>/gi, '');
-              bodyEl.innerHTML = updatedHtml;
+              bodyEl.innerHTML = tldrBlockHtml + updatedHtml;
             }
           }
         } catch (err) {
