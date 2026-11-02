@@ -1,12 +1,12 @@
 {
-  "state": "queued",
+  "state": "running",
   "lastRunAt": "2026-11-02T14:45:26Z",
   "lastRunEpochMs": 1793630726260,
   "nextScheduledAt": "2026-11-03T02:45:26Z",
   "durationSec": 67.7,
-  "triggerRequestedAt": 1793630735526,
+  "triggerRequestedAt": 0,
   "triggerTarget": "stats",
-  "currentStep": "Señal remota enviada (stats) — el VPS iniciará en ≤ 15 segundos...",
+  "currentStep": "Iniciando navegador Camoufox en VPS (modo: stats)...",
   "modules": {
     "archon": {
       "name": "Archon.gg (Presets, BiS, Talentos 1:1 & Healers)",
@@ -24,7 +24,7 @@
       "files": [
         "wow_stat_priorities.js"
       ],
-      "status": "ok",
+      "status": "running",
       "updatedAt": "2026-11-02T14:26:53Z",
       "summary": "39/39 guías extraídas",
       "error": null
