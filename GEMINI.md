@@ -55,9 +55,9 @@
   - The assistant is strictly prohibited from assuming, inventing, or hardcoding unrequested game mechanics, class restrictions, artificial item scoring, or priority rules.
   - The user is the sole authority on game mechanics, system requirements, and application behavior.
   - Apply ONLY the exact mathematical rules, constraints, and instructions explicitly provided by the user. Zero unauthorized domain assumptions.
-- **MANDATORY GAME CONTEXT (MIDNIGHT SEASON 2 - PATCH 12.1)**:
-  - The official expansion, season, and patch of this project is strictly **World of Warcraft: Midnight — Season 2 (Patch 12.1)**.
-  - NEVER mention, assume, or reference past expansions (e.g. The War Within, Dragonflight, Shadowlands). All copy, guides, and SEO MUST strictly align with Midnight Season 2 (Patch 12.1).
+- **MANDATORY GAME CONTEXT (MIDNIGHT SEASON 2 - PATCH 12.1.5)**:
+  - The official expansion, season, and patch of this project is strictly **World of Warcraft: Midnight — Season 2 (Patch 12.1.5)**.
+  - NEVER mention, assume, or reference past expansions (e.g. The War Within, Dragonflight, Shadowlands) or incomplete patch numbers like 12.1. All copy, guides, and SEO MUST strictly align with Midnight Season 2 (Patch 12.1.5).
   - **DEMON HUNTER IN MIDNIGHT**: Demon Hunter has THREE official specializations: **Havoc** (DPS), **Vengeance** (Tank), and **Devourer** (DPS). Never omit Devourer.
 
 ## 7. Strict Chat-Only Mode Without Explicit Orders (MANDATORY)
