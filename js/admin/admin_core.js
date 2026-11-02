@@ -280,6 +280,7 @@ function renderAdminDashboard() {
 
   updateDevModalStatusBadges();
   updateGitHubTokenUI();
+  if (typeof refreshVpsSyncStatusUI === 'function') refreshVpsSyncStatusUI(false);
   renderMissingTooltipsTable();
   renderTicketsTable();
   renderAdminNewsPreview();
@@ -289,6 +290,7 @@ function renderAdminDashboard() {
 function refreshAllStatuses() {
   updateDevModalStatusBadges();
   updateGitHubTokenUI();
+  if (typeof refreshVpsSyncStatusUI === 'function') refreshVpsSyncStatusUI(false);
   showToast('Estados actualizados', 'info');
 }
 

@@ -10,10 +10,7 @@
   "modules": {
     "archon": {
       "name": "Archon.gg (Presets, BiS, Talentos 1:1 & Healers)",
-      "files": [
-        "archon_data.js",
-        "archon_healers.js"
-      ],
+      "files": ["archon_data.js", "archon_healers.js"],
       "status": "ok",
       "updatedAt": "2026-11-02T11:33:46Z",
       "summary": "40/40 specs (Raid + M+) + 7 Healers",
@@ -21,9 +18,7 @@
     },
     "stats": {
       "name": "Prioridades de Estadísticas & Hero Trees (Wowhead)",
-      "files": [
-        "wow_stat_priorities.js"
-      ],
+      "files": ["wow_stat_priorities.js"],
       "status": "ok",
       "updatedAt": "2026-11-02T11:33:49Z",
       "summary": "39/39 guías extraídas",
@@ -31,9 +26,7 @@
     },
     "wowhead": {
       "name": "Encantamientos, Gemas & Consumibles (Wowhead)",
-      "files": [
-        "wowhead_data.js"
-      ],
+      "files": ["wowhead_data.js"],
       "status": "ok",
       "updatedAt": "2026-11-02T11:33:51Z",
       "summary": "40/40 specs con iconos oficiales",
@@ -41,9 +34,7 @@
     },
     "bloodmallet": {
       "name": "Simulaciones de Abalorios (Bloodmallet)",
-      "files": [
-        "bloodmallet_data.js"
-      ],
+      "files": ["bloodmallet_data.js"],
       "status": "ok",
       "updatedAt": "2026-11-02T11:35:57Z",
       "summary": "80/80 simulaciones (1T y 5T)",
