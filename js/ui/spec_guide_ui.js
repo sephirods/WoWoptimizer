@@ -275,8 +275,8 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
           </h1>
           <p class="text-xs sm:text-sm text-slate-300 leading-relaxed text-center md:text-left">
             ${isEs 
-              ? `La build más popular de <strong class="text-white">${fullSpecName}</strong> en WoW: Midnight. Configuraciones basadas en datos y actualizadas a diario para la Temporada 2 en Midnight 12.1.`
-              : `The most popular <strong class="text-white">${fullSpecName}</strong> Build in WoW - Midnight. Data-driven builds updated daily for Season 2 in Midnight 12.1.`}
+              ? `La build más popular de <strong class="text-white">${fullSpecName}</strong> en WoW: Midnight. Configuraciones basadas en datos y actualizadas a diario para la Temporada 2 en Midnight 12.1.5.`
+              : `The most popular <strong class="text-white">${fullSpecName}</strong> Build in WoW - Midnight. Data-driven builds updated daily for Season 2 in Midnight 12.1.5.`}
           </p>
           <div class="flex items-center justify-center md:justify-start gap-3 pt-1 text-[11px] text-slate-400 flex-wrap">
             <span class="flex items-center gap-1.5"><i class="fa-regular fa-clock text-amber-400"></i> ${isEs ? `Actualizado: <strong>${lastUpdatedString}</strong>` : `Last updated: <strong>${lastUpdatedString}</strong>`}</span>
@@ -502,7 +502,7 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
         <p class="text-xs sm:text-sm text-slate-300 leading-relaxed bg-black/30 border border-white/5 p-3.5 rounded-xl">
           ${isEs 
             ? `El equipo más popular para <strong class="text-white">${fullSpecName}</strong> según todos los datos de las últimas 2 semanas. Esto representa un conjunto de equipo óptimo para este momento de la Temporada 2 (Parche 12.1.5) cercano a Best in Slot, con piezas de conjunto hasta la bonificación máxima.`
-            : `The most popular <strong class="text-white">${fullSpecName}</strong> gear based on all data across the last 2 weeks. This represents a strong set of gear for this point in 12.1 that is close to Best in Slot with tier pieces up to the maximum set bonus.`}
+            : `The most popular <strong class="text-white">${fullSpecName}</strong> gear based on all data across the last 2 weeks. This represents a strong set of gear for this point in Patch 12.1.5 that is close to Best in Slot with tier pieces up to the maximum set bonus.`}
         </p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
@@ -515,16 +515,20 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
             const itemUrl = itemParams
               ? `https://${isEs ? 'es' : 'www'}.wowhead.com/item=${item.id}?${itemParams}`
               : `https://${isEs ? 'es' : 'www'}.wowhead.com/item=${item.id}`;
+            const displayItemName = (isEs && item.nameEs) ? item.nameEs : (item.name || `Item #${item.id}`);
+            const itemIcon = item.icon || 'inv_misc_questionmark';
             return `
               <div class="bg-wow-subcard border border-wow-border hover:border-amber-400/50 rounded-xl p-3.5 flex items-center justify-between gap-3 transition">
                 <div class="flex items-center gap-3 min-w-0">
-                  <div class="w-10 h-10 rounded-lg bg-black/80 border border-wow-border flex items-center justify-center shrink-0 overflow-hidden relative shadow" id="bis-icon-box-${item.id}">
-                    <a href="${itemUrl}" rel="${itemParams}" data-wowhead="${wowheadDataAttr}" target="_blank" class="block w-full h-full"></a>
+                  <div class="w-10 h-10 rounded-lg bg-black/80 border border-purple-500/50 flex items-center justify-center shrink-0 overflow-hidden relative shadow" id="bis-icon-box-${item.id}">
+                    <a href="${itemUrl}" rel="${itemParams}" data-wowhead="${wowheadDataAttr}" data-wh-rename-link="false" data-wh-icon-size="none" target="_blank" class="block w-full h-full">
+                      <img src="https://wow.zamimg.com/images/wow/icons/medium/${itemIcon}.jpg" alt="${displayItemName}" class="w-full h-full object-cover rounded-md" loading="lazy" onerror="this.src='https://wow.zamimg.com/images/wow/icons/medium/inv_misc_questionmark.jpg'"/>
+                    </a>
                   </div>
                   <div class="min-w-0">
                     <span class="text-[10px] uppercase font-bold text-amber-400 block tracking-wide">${slotName}</span>
-                    <a href="${itemUrl}" id="bis-name-${item.id}" rel="${itemParams}" data-bis-id="${item.id}" data-bis-params="${itemParams}" data-wowhead="${wowheadDataAttr}" target="_blank" class="text-xs font-bold text-white hover:underline truncate block">
-                      ${item.name || `Item #${item.id}`}
+                    <a href="${itemUrl}" id="bis-name-${item.id}" rel="${itemParams}" data-bis-id="${item.id}" data-bis-has-meta="${item.name && item.icon ? '1' : '0'}" data-bis-params="${itemParams}" data-wowhead="${wowheadDataAttr}" data-wh-rename-link="false" data-wh-icon-size="none" target="_blank" style="color: #a335ee;" class="text-xs font-bold hover:underline truncate block">
+                      ${displayItemName}
                     </a>
                   </div>
                 </div>
@@ -762,10 +766,10 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
   itemLinks.forEach(async (linkEl) => {
     const itemId = linkEl.getAttribute('data-bis-id');
     const itemParams = linkEl.getAttribute('data-bis-params') || '';
-    if (!itemId) return;
-    const localeCode = isEs ? 'es' : '0';
+    if (!itemId || linkEl.getAttribute('data-bis-has-meta') === '1') return;
+    const domainPrefix = isEs ? 'es/' : '';
     try {
-      const res = await fetch(`https://nether.wowhead.com/tooltip/item/${itemId}?locale=${localeCode}`);
+      const res = await fetch(`https://nether.wowhead.com/${domainPrefix}tooltip/item/${itemId}`);
       if (res.ok) {
         const itemData = await res.json();
         if (itemData.name) {
@@ -801,7 +805,7 @@ window.renderSpecGuide = function (containerId, classKey, specKey, activeMode = 
       const itemId = linkEl.getAttribute('data-item-id');
       if (!itemId) return;
       try {
-        const res = await fetch(`https://nether.wowhead.com/tooltip/item/${itemId}?locale=${localeCode}`);
+        const res = await fetch(`https://nether.wowhead.com/es/tooltip/item/${itemId}`);
         if (res.ok) {
           const itemData = await res.json();
           if (itemData.name) {

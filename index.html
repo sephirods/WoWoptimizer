@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WoW Midnight BiS Gear Optimizer & Guides (12.1.5) | WoWTopGear</title>
+  <title data-i18n="homePageTitle">WoW Top Gear Optimizer & BiS Gear Simulator (12.1.5) | WoWTopGear</title>
   
-  <meta name="description" content="Calculadora analítica y optimizador de equipo para World of Warcraft: Midnight Season 2 (Parche 12.1.5). Simula estadísticas secundarias, combinaciones Top Gear, abalorios y exporta perfiles SimC." />
-  <meta name="keywords" content="WoW, World of Warcraft, Midnight, Season 2, Parche 12.1.5, Top Gear, SimulationCraft, SimC, Optimizer, Bloodmallet, Archon, Raidbots, Míticas+, Raid" />
+  <meta name="description" data-i18n-content="homePageMetaDesc" content="WoW Top Gear optimizer, BiS gear simulator, and class guides for World of Warcraft: Midnight Season 2 (Patch 12.1.5). Simulate secondary stats, Mythic+ and Raid trinkets, and export SimC profiles with zero queues." />
+  <meta name="keywords" content="top gear wow, topgear wow, wow top gear, wow gear optimizer, wow optimizer, midnight 12.1.5 bis gear, simc top gear, raidbots alternative, archon wow builds, bloodmallet trinkets" />
   <meta name="author" content="WoWTopGear" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
@@ -19,24 +19,25 @@
   <!-- Open Graph / Facebook / Discord -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://wowtopgear.app/" />
-  <meta property="og:title" content="WoW Midnight BiS Gear Optimizer & Guides (12.1.5) | WoWTopGear" />
-  <meta property="og:description" content="Suite analítica para optimizar estadísticas secundarias, abalorios y combinaciones Top Gear de Mítica+ y Banda en tiempo real." />
-  <meta property="og:image" content="https://wowtopgear.app/img/og-banner.jpg?v=23_v56" />
+  <meta property="og:title" content="WoW Top Gear Optimizer & BiS Gear Simulator (12.1.5) | WoWTopGear" />
+  <meta property="og:description" content="Real-time Top Gear optimizer and analytical suite for World of Warcraft: Midnight Season 2 (Patch 12.1.5). Optimize secondary stats, trinkets, and Mythic+ / Raid gear." />
+  <meta property="og:image" content="https://wowtopgear.app/img/og-banner.jpg?v=23_v65" />
   <meta property="og:site_name" content="WoWTopGear" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://wowtopgear.app/" />
-  <meta name="twitter:title" content="WoWTopGear | World of Warcraft: Midnight Season 2" />
-  <meta name="twitter:description" content="Suite analítica para optimizar estadísticas secundarias, abalorios y combinaciones Top Gear en tiempo real." />
-  <meta name="twitter:image" content="https://wowtopgear.app/img/og-banner.jpg?v=23_v56" />
+  <meta name="twitter:title" content="WoW Top Gear Optimizer & BiS Gear Simulator | Midnight 12.1.5" />
+  <meta name="twitter:description" content="Real-time Top Gear optimizer and analytical suite for World of Warcraft: Midnight Season 2 (Patch 12.1.5)." />
+  <meta name="twitter:image" content="https://wowtopgear.app/img/og-banner.jpg?v=23_v65" />
 
   <!-- Clean URL Handler -->
   <script>
-    if (window.location.pathname.endsWith('.html')) {
+    if (window.location.pathname === '/index' || window.location.pathname === '/index.html') {
+      window.history.replaceState(null, '', '/' + window.location.search + window.location.hash);
+    } else if (window.location.pathname.endsWith('.html')) {
       const cleanPath = window.location.pathname.replace(/\.html$/, '');
-      const finalPath = cleanPath === '/index' ? '/' : cleanPath;
-      window.history.replaceState(null, '', finalPath + window.location.search + window.location.hash);
+      window.history.replaceState(null, '', cleanPath + window.location.search + window.location.hash);
     }
   </script>
 
@@ -198,8 +199,8 @@
     }
   </script>
   <style>body{font-family:'Inter',sans-serif;background-color:#07090e;color:#e2e8f0;color-scheme:dark}</style>
-  <link id="custom-css-link" rel="stylesheet" href="css/custom.css?v=23_v56" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="css/custom.css?v=23_v56"></noscript>
+  <link id="custom-css-link" rel="stylesheet" href="css/custom.css?v=23_v65" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="css/custom.css?v=23_v65"></noscript>
   <script>
     window.WH = window.WH || {};
     window.WH.staticUrl = 'https://wow.zamimg.com';
@@ -263,8 +264,8 @@
         <picture class="w-full h-full block">
           <source srcset="img/hero-bosses-bg-sm.webp 640w, img/hero-bosses-bg.webp 1024w" sizes="100vw" type="image/webp">
           <img src="img/hero-bosses-bg.webp" 
-               alt="Jefes de Banda y Encuentros - World of Warcraft: Midnight Season 2" 
-               title="World of Warcraft: Midnight Season 2 - Jefes de Banda"
+               alt="Raid Bosses & Encounters - World of Warcraft: Midnight Season 2" 
+               title="World of Warcraft: Midnight Season 2 - Raid Bosses"
                data-i18n-alt="heroBgAlt"
                data-i18n-title="heroBgTitle"
                width="1024" 
@@ -280,19 +281,19 @@
         <!-- Season 2 Announcement Tag -->
         <div class="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 rounded-full bg-purple-950/70 border border-purple-500/50 text-[10px] sm:text-xs font-mono text-purple-200 shadow-inner max-w-full">
           <span class="w-2 h-2 rounded-full bg-purple-400 animate-ping shrink-0"></span>
-          <span class="truncate" data-i18n="heroBadge">CALIBRADO PARA EL PARCHE 12.1.5 • MIDNIGHT SEASON 2</span>
+          <span class="truncate" data-i18n="heroBadge">CALIBRATED FOR PATCH 12.1.5 • MIDNIGHT SEASON 2</span>
         </div>
 
         <!-- Headline -->
         <div class="space-y-3 max-w-4xl mx-auto">
           <h1 class="font-cinzel text-3xl sm:text-5xl md:text-6xl font-black text-white tracking-tight leading-tight">
-            <span data-i18n="heroTitlePrefix">Forja tu Equipo Meta en</span> <br/>
+            <span data-i18n="heroTitlePrefix">Forge your Meta Gear in</span> <br/>
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-300 to-amber-300 break-words">
               World of Warcraft: Midnight
             </span>
           </h1>
           <p class="text-xs sm:text-base md:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed font-light px-2" data-i18n="heroDesc">
-            La suite analítica definitiva para optimizar estadísticas, abalorios y combinaciones Top Gear de Mítica+ y Banda sin colas y con precisión matemática en tiempo real.
+            The ultimate analytical suite to optimize stats, trinkets, and Top Gear combinations for Mythic+ and Raid with zero queues and real-time mathematical precision.
           </p>
         </div>
 
@@ -301,7 +302,7 @@
           <div class="relative w-full sm:w-auto inline-flex items-center justify-center">
             <a href="gearsim" class="w-full sm:w-auto px-6 sm:px-8 py-3.5 rounded-xl bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 hover:from-amber-400 hover:to-amber-300 text-black font-extrabold text-sm sm:text-base shadow-xl shadow-amber-950/50 border border-yellow-200/50 flex items-center justify-center gap-2.5 transition transform active:scale-95 hover:scale-[1.02] min-h-[44px]">
               <i class="fa-solid fa-play text-xs sm:text-sm"></i>
-              <span data-i18n="heroLaunchBtn">Iniciar Optimizador</span>
+              <span data-i18n="heroLaunchBtn">Launch Optimizer</span>
             </a>
             <button type="button" onclick="openHelpModal()" aria-label="User Guide & Help" class="absolute -top-2.5 -right-2.5 w-6 h-6 min-w-[24px] min-h-[24px] rounded-full shadow-lg flex items-center justify-center transition transform hover:scale-110 active:scale-95 z-10 cursor-pointer" style="background-color: #000000 !important; border: none !important; padding: 0 !important; line-height: 1 !important;" data-i18n-title="guideTitle" title="User Guide & Help">
               <span style="color: #fbbf24 !important; font-size: 13px; font-weight: 900; font-family: sans-serif; line-height: 1; user-select: none;">?</span>
@@ -315,27 +316,27 @@
         <!-- Metric Badges Highlights -->
         <div class="pt-6 sm:pt-8 grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3 max-w-3xl mx-auto text-left bg-transparent border-none">
           <div class="bg-black/40 border border-white/5 p-3 sm:p-3.5 rounded-xl backdrop-blur">
-            <div class="text-[10px] sm:text-[11px] text-slate-400 font-medium truncate" data-i18n="heroStatExportLabel">Exportación</div>
+            <div class="text-[10px] sm:text-[11px] text-slate-400 font-medium truncate" data-i18n="heroStatExportLabel">Export</div>
             <div class="text-xs sm:text-sm font-bold text-emerald-400 flex items-center gap-1.5 mt-0.5 truncate">
-              <i class="fa-solid fa-code text-xs shrink-0"></i> <span class="truncate" data-i18n="heroStatExportValue">100% SimC Fidelidad</span>
+              <i class="fa-solid fa-code text-xs shrink-0"></i> <span class="truncate" data-i18n="heroStatExportValue">100% SimC Fidelity</span>
             </div>
           </div>
           <div class="bg-black/40 border border-white/5 p-3 sm:p-3.5 rounded-xl backdrop-blur">
-            <div class="text-[10px] sm:text-[11px] text-slate-400 font-medium truncate" data-i18n="heroStatSimsLabel">Simulaciones</div>
+            <div class="text-[10px] sm:text-[11px] text-slate-400 font-medium truncate" data-i18n="heroStatSimsLabel">Simulations</div>
             <div class="text-xs sm:text-sm font-bold text-amber-400 flex items-center gap-1.5 mt-0.5 truncate">
-              <i class="fa-solid fa-fire text-xs shrink-0"></i> <span class="truncate" data-i18n="heroStatSimsValue">Bloodmallet Directo</span>
+              <i class="fa-solid fa-fire text-xs shrink-0"></i> <span class="truncate" data-i18n="heroStatSimsValue">Direct Bloodmallet</span>
             </div>
           </div>
           <div class="bg-black/40 border border-white/5 p-3 sm:p-3.5 rounded-xl backdrop-blur">
-            <div class="text-[10px] sm:text-[11px] text-slate-400 font-medium truncate" data-i18n="heroStatExecLabel">Ejecución</div>
+            <div class="text-[10px] sm:text-[11px] text-slate-400 font-medium truncate" data-i18n="heroStatExecLabel">Execution</div>
             <div class="text-xs sm:text-sm font-bold text-purple-400 flex items-center gap-1.5 mt-0.5 truncate">
-              <i class="fa-solid fa-bolt text-xs shrink-0"></i> <span class="truncate" data-i18n="heroStatExecValue">Cero Espera / Local</span>
+              <i class="fa-solid fa-bolt text-xs shrink-0"></i> <span class="truncate" data-i18n="heroStatExecValue">Zero Wait / Local</span>
             </div>
           </div>
           <div class="bg-black/40 border border-white/5 p-3 sm:p-3.5 rounded-xl backdrop-blur">
-            <div class="text-[10px] sm:text-[11px] text-slate-400 font-medium truncate" data-i18n="heroStatMetaLabel">Datos Meta</div>
+            <div class="text-[10px] sm:text-[11px] text-slate-400 font-medium truncate" data-i18n="heroStatMetaLabel">Meta Data</div>
             <div class="text-xs sm:text-sm font-bold text-sky-400 flex items-center gap-1.5 mt-0.5 truncate">
-              <i class="fa-solid fa-shield-halved text-xs shrink-0"></i> <span class="truncate" data-i18n="heroStatMetaValue">Presets Archon.gg</span>
+              <i class="fa-solid fa-shield-halved text-xs shrink-0"></i> <span class="truncate" data-i18n="heroStatMetaValue">Archon.gg Presets</span>
             </div>
           </div>
         </div>
@@ -349,10 +350,10 @@
       
       <div class="text-center space-y-2 max-w-2xl mx-auto">
         <h2 class="font-cinzel text-xl sm:text-2xl md:text-3xl font-bold text-white" data-i18n="featuresTitle">
-          Arquitectura Diseñada para Jugadores Exigentes
+          Architecture Built for Demanding Players
         </h2>
         <p class="text-xs sm:text-sm text-slate-400" data-i18n="featuresSubtitle">
-          Tecnología de optimización matemática sin intermediarios. Todo el cálculo ocurre en tu procesador.
+          Pure mathematical optimization technology. All calculations occur instantly on your processor.
         </p>
       </div>
 
@@ -366,11 +367,11 @@
           <div class="space-y-1.5 sm:space-y-2">
             <h3 class="text-sm sm:text-base font-bold text-white group-hover:text-purple-300 transition" data-i18n="feature1Title">SimC Top Gear Full-Fidelity</h3>
             <p class="text-xs text-slate-400 leading-relaxed" data-i18n="feature1Desc">
-              Genera scripts de SimulationCraft con bonus IDs exactos, sockets adicionales, enchants de Midnight, missives de artesanía y Great Vault flags listos para pegar en tu simulador.
+              Generate SimulationCraft scripts with exact bonus IDs, extra sockets, Midnight enchants, crafting missives, and Great Vault flags ready to paste into your simulator.
             </p>
           </div>
           <div class="pt-2 border-t border-white/5 flex items-center gap-2 text-[10px] sm:text-[11px] font-mono text-purple-400">
-            <i class="fa-solid fa-check"></i> <span data-i18n="feature1Badge">Formato oficial SimC Addon 12.1.0</span>
+            <i class="fa-solid fa-check"></i> <span data-i18n="feature1Badge">Official SimC Addon 12.1.5 format</span>
           </div>
         </div>
 
@@ -380,13 +381,13 @@
             <i class="fa-solid fa-chart-line"></i>
           </div>
           <div class="space-y-1.5 sm:space-y-2">
-            <h3 class="text-sm sm:text-base font-bold text-white group-hover:text-amber-300 transition" data-i18n="feature2Title">Rendimientos Decrecientes S2</h3>
+            <h3 class="text-sm sm:text-base font-bold text-white group-hover:text-amber-300 transition" data-i18n="feature2Title">S2 Diminishing Returns</h3>
             <p class="text-xs text-slate-400 leading-relaxed" data-i18n="feature2Desc">
-              El motor aplica los tramos oficiales de penalización de estadísticas secundarias (Mastery, Haste, Crit, Versatility) para evitar saturación de stats ineficientes.
+              The engine applies official penalty brackets on secondary stats (Mastery, Haste, Crit, Versatility) to prevent inefficient stat saturation.
             </p>
           </div>
           <div class="pt-2 border-t border-white/5 flex items-center gap-2 text-[10px] sm:text-[11px] font-mono text-amber-400">
-            <i class="fa-solid fa-check"></i> <span data-i18n="feature2Badge">Curvas escaladas a Midnight Season 2</span>
+            <i class="fa-solid fa-check"></i> <span data-i18n="feature2Badge">Curves calibrated for Midnight Season 2</span>
           </div>
         </div>
 
@@ -396,13 +397,13 @@
             <i class="fa-solid fa-lock"></i>
           </div>
           <div class="space-y-1.5 sm:space-y-2">
-            <h3 class="text-sm sm:text-base font-bold text-white group-hover:text-emerald-300 transition" data-i18n="feature3Title">100% Privado & Sin Servidores</h3>
+            <h3 class="text-sm sm:text-base font-bold text-white group-hover:text-emerald-300 transition" data-i18n="feature3Title">100% Private & Serverless</h3>
             <p class="text-xs text-slate-400 leading-relaxed" data-i18n="feature3Desc">
-              No requiere cuentas, registros ni descargas de ejecutables sospechosos. Tu inventario y configuraciones se guardan exclusivamente en el almacenamiento seguro de tu navegador.
+              No accounts, sign-ups, or suspicious downloads required. Your inventory and setups are stored exclusively in your browser's private local storage.
             </p>
           </div>
           <div class="pt-2 border-t border-white/5 flex items-center gap-2 text-[10px] sm:text-[11px] font-mono text-emerald-400">
-            <i class="fa-solid fa-check"></i> <span data-i18n="feature3Badge">Cero telemetría invasiva</span>
+            <i class="fa-solid fa-check"></i> <span data-i18n="feature3Badge">Zero invasive telemetry</span>
           </div>
         </div>
 
@@ -418,18 +419,18 @@
     <section id="community" class="py-12 sm:py-16 px-4 sm:px-6 max-w-7xl mx-auto space-y-8 sm:space-y-10">
       
       <div class="text-center space-y-2 max-w-2xl mx-auto">
-        <div class="text-[10px] sm:text-xs font-mono text-amber-400 font-bold uppercase tracking-wider" data-i18n="communityPreTitle">Ecosistema Conectado</div>
+        <div class="text-[10px] sm:text-xs font-mono text-amber-400 font-bold uppercase tracking-wider" data-i18n="communityPreTitle">Connected Ecosystem</div>
         <h2 class="font-cinzel text-xl sm:text-2xl md:text-3xl font-bold text-white" data-i18n="communityTitle">
-          Recursos de la Comunidad y Enlaces Directos
+          Community Resources & Direct Links
         </h2>
         <p class="text-xs sm:text-sm text-slate-400" data-i18n="communitySubtitle">
-          Trabajamos con las fuentes más respetadas del ecosistema de World of Warcraft para alimentar el motor de WoWTopGear.
+          We work with the most trusted sources across the World of Warcraft ecosystem to power WoWTopGear.
         </p>
       </div>
 
       <!-- TARJETA DESTACADA PRINCIPAL: GUÍAS DE CLASES WOWTOPGEAR -->
       <div class="mb-5 sm:mb-6">
-        <a href="classes/index.html" class="block bg-gradient-to-r from-purple-950/70 via-wow-card to-amber-950/50 border-2 border-amber-400/50 hover:border-amber-300 rounded-2xl p-5 sm:p-6 shadow-2xl transition duration-200 group active:scale-[0.99] relative overflow-hidden">
+        <a href="classes/" class="block bg-gradient-to-r from-purple-950/70 via-wow-card to-amber-950/50 border-2 border-amber-400/50 hover:border-amber-300 rounded-2xl p-5 sm:p-6 shadow-2xl transition duration-200 group active:scale-[0.99] relative overflow-hidden">
           <div class="absolute -right-8 -bottom-8 opacity-10 text-amber-400 text-9xl pointer-events-none group-hover:scale-110 transition duration-300">
             <i class="fa-solid fa-book-journal-whills"></i>
           </div>
@@ -441,22 +442,22 @@
               <div class="space-y-1">
                 <div class="flex items-center gap-2 flex-wrap">
                   <span class="text-[10px] font-mono uppercase font-black px-2.5 py-0.5 rounded-full bg-amber-400 text-black">
-                    OFICIAL WOWTOPGEAR
+                    OFFICIAL WOWTOPGEAR
                   </span>
                   <span class="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-purple-900/80 text-purple-200 border border-purple-500/40">
-                    Midnight 12.1.5 S2 • 13 Clases & 40 Specs
+                    Midnight 12.1.5 S2 • 13 Classes & 40 Specs
                   </span>
                 </div>
                 <h3 class="text-base sm:text-xl font-bold text-white group-hover:text-amber-300 transition" data-i18n="hubClassesTitle">
-                  Guías de Clases WoWTopGear
+                  WoWTopGear Class Guides
                 </h3>
                 <p class="text-xs sm:text-sm text-slate-300 max-w-3xl leading-relaxed" data-i18n="hubClassesDesc">
-                  Guías oficiales con árboles de talentos 1:1 de Blizzard, datos meta de Archon.gg, Árboles Héroe, Equipamiento BiS y Prioridad de Atributos para Midnight Temporada 2 (Parche 12.1.5).
+                  Official guides with 1:1 Blizzard talent builds, Archon.gg data, Hero Trees, BiS Gear & Stat priorities for Midnight Season 2 (Patch 12.1.5).
                 </p>
               </div>
             </div>
             <div class="flex items-center gap-2 text-xs sm:text-sm font-bold text-amber-400 group-hover:text-amber-300 bg-black/40 group-hover:bg-amber-400 group-hover:text-black border border-amber-400/40 px-4 py-2.5 rounded-xl transition duration-200 whitespace-nowrap shrink-0 self-stretch md:self-auto justify-center">
-              <span data-i18n="allClassesLink">Ver Todas las Clases y Specs</span>
+              <span data-i18n="allClassesLink">All Classes & Specs Overview</span>
               <i class="fa-solid fa-arrow-right text-xs"></i>
             </div>
           </div>
@@ -477,7 +478,7 @@
             <div>
               <h3 class="text-sm sm:text-base font-bold text-white group-hover:text-red-300 transition">Bloodmallet</h3>
               <p class="text-xs text-slate-400 mt-1 leading-relaxed" data-i18n="hubBloodmalletDesc">
-                Simulaciones matemáticas de abalorios, gemas y razas calculadas con SimulationCraft.
+                Mathematical simulations of trinkets, gems, and races computed using SimulationCraft.
               </p>
             </div>
           </div>
@@ -498,7 +499,7 @@
             <div>
               <h3 class="text-sm sm:text-base font-bold text-white group-hover:text-purple-300 transition">Archon.gg</h3>
               <p class="text-xs text-slate-400 mt-1 leading-relaxed" data-i18n="hubArchonDesc">
-                Análisis meta en vivo de las mejores runs de Mítica+ y registros de bandas del mundo.
+                Live meta analysis of the world's highest Mythic+ runs and raid kill logs.
               </p>
             </div>
           </div>
@@ -519,7 +520,7 @@
             <div>
               <h3 class="text-sm sm:text-base font-bold text-white group-hover:text-amber-300 transition">Wowhead</h3>
               <p class="text-xs text-slate-400 mt-1 leading-relaxed" data-i18n="hubWowheadDesc">
-                Guías oficiales de clase, calculadoras de talentos, tablas de botín y base de datos completa.
+                Official class guides, talent calculators, dungeon loot tables, and full database.
               </p>
             </div>
           </div>
@@ -540,7 +541,7 @@
             <div>
               <h3 class="text-sm sm:text-base font-bold text-white group-hover:text-emerald-300 transition">Raidbots</h3>
               <p class="text-xs text-slate-400 mt-1 leading-relaxed" data-i18n="hubRaidbotsDesc">
-                Servicio cloud para procesar simulaciones de SimC y comprobar tus exportaciones de WoWTopGear.
+                Cloud service to process SimC simulations and verify your WoWTopGear gear sets.
               </p>
             </div>
           </div>
@@ -557,15 +558,15 @@
     <section class="py-10 sm:py-14 px-4 sm:px-6">
       <div class="max-w-5xl mx-auto bg-gradient-to-r from-purple-950/80 via-wow-card to-amber-950/60 border border-purple-500/40 rounded-2xl sm:rounded-3xl p-6 sm:p-12 text-center space-y-5 sm:space-y-6 shadow-2xl relative overflow-hidden">
         <div class="space-y-2">
-          <h2 class="font-cinzel text-xl sm:text-2xl md:text-3xl font-black text-white" data-i18n="ctaTitle">¿Listo para Perfeccionar tu Personaje?</h2>
+          <h2 class="font-cinzel text-xl sm:text-2xl md:text-3xl font-black text-white" data-i18n="ctaTitle">Ready to Perfect Your Character?</h2>
           <p class="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto px-2" data-i18n="ctaDesc">
-            Carga tu personaje mediante el addon SimulationCraft o añade tus piezas manualmente para encontrar tu combinación óptima en segundos.
+            Load your character via the SimulationCraft addon or add your gear manually to discover your optimal setup in seconds.
           </p>
         </div>
         <div class="flex justify-center">
           <div class="relative w-full sm:w-auto inline-flex items-center justify-center">
             <a href="gearsim" class="inline-flex items-center justify-center gap-2.5 sm:gap-3 w-full sm:w-auto px-6 sm:px-8 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-black font-extrabold text-sm shadow-xl shadow-amber-950/60 transition transform active:scale-95 hover:scale-105 min-h-[44px]">
-              <i class="fa-solid fa-play"></i> <span data-i18n="ctaBtn">Abrir WoWTopGear Ahora</span>
+              <i class="fa-solid fa-play"></i> <span data-i18n="ctaBtn">Open WoWTopGear Now</span>
             </a>
             <button type="button" onclick="openHelpModal()" aria-label="User Guide & Help" class="absolute -top-2.5 -right-2.5 w-6 h-6 min-w-[24px] min-h-[24px] rounded-full shadow-lg flex items-center justify-center transition transform hover:scale-110 active:scale-95 z-10 cursor-pointer" style="background-color: #000000 !important; border: none !important; padding: 0 !important; line-height: 1 !important;" data-i18n-title="guideTitle" title="User Guide & Help">
               <span style="color: #fbbf24 !important; font-size: 13px; font-weight: 900; font-family: sans-serif; line-height: 1; user-select: none;">?</span>
@@ -581,11 +582,11 @@
   <div id="app-footer-container" class="min-h-[220px] bg-[#06080d]"></div>
 
   <!-- SCRIPTS MODULARES DE SOPORTE (DEFER PARA CERO BLOQUEO DE RENDERIZADO) -->
-  <script src="js/ui/i18n.js?v=23_v56" defer></script>
-  <script src="js/ui/dynamic_header.js?v=23_v56" defer></script>
-  <script src="js/ui/dynamic_footer.js?v=23_v56" defer></script>
-  <script src="js/ui/tickets_ui.js?v=23_v56" defer></script>
-  <script src="js/data/telemetry_logger.js?v=23_v56" defer></script>
+  <script src="js/ui/i18n.js?v=23_v65" defer></script>
+  <script src="js/ui/dynamic_header.js?v=23_v65" defer></script>
+  <script src="js/ui/dynamic_footer.js?v=23_v65" defer></script>
+  <script src="js/ui/tickets_ui.js?v=23_v65" defer></script>
+  <script src="js/data/telemetry_logger.js?v=23_v65" defer></script>
   <script>
     // Cargar el paquete de noticias (748 KiB) + estilos/tooltips de Wowhead bajo demanda al acercarse a #app-news-container (o si la URL pide #news / ?news=)
     (function loadNewsBundleOnDemand() {
@@ -623,11 +624,11 @@
 
         const cb = window.location.search.includes('news=') ? `&_ts=${Date.now()}` : '';
         loadSeq([
-          `js/data/wow_news_data.js?v=23_v64${cb}`,
-          `js/data/news_ai_summaries.js?v=23_v64${cb}`,
-          `js/data/pinned_news.js?v=23_v64${cb}`,
-          `js/data/news_fetcher.js?v=23_v64${cb}`,
-          `js/ui/dynamic_news.js?v=23_v64${cb}`
+          `js/data/wow_news_data.js?v=23_v65${cb}`,
+          `js/data/news_ai_summaries.js?v=23_v65${cb}`,
+          `js/data/pinned_news.js?v=23_v65${cb}`,
+          `js/data/news_fetcher.js?v=23_v65${cb}`,
+          `js/ui/dynamic_news.js?v=23_v65${cb}`
         ], 0);
       };
 

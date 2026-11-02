@@ -280,7 +280,7 @@ window.WOW_PATCH_NOTICE = window.WOW_PATCH_NOTICE || {
         <div class="max-w-7xl mx-auto px-3 sm:px-6 py-2.5 sm:py-3 flex items-center justify-between gap-2 sm:gap-4">
           
           <!-- Brand Logo -->
-          <a href="${basePath}index.html" class="flex items-center gap-2 sm:gap-3 group shrink min-w-0">
+          <a href="${basePath || './'}" class="flex items-center gap-2 sm:gap-3 group shrink min-w-0">
             <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl overflow-hidden border border-amber-400/60 flex items-center justify-center shadow-lg shadow-purple-950/60 group-hover:border-amber-300 transition shrink-0 bg-[#0c101d]">
               <img src="${basePath}img/logo-header.webp" alt="WoWTopGear Logo" class="w-full h-full object-cover group-hover:scale-110 transition duration-200" width="40" height="40" decoding="async" />
             </div>
@@ -305,7 +305,7 @@ window.WOW_PATCH_NOTICE = window.WOW_PATCH_NOTICE || {
 
             <!-- DROPDOWN MULTI-NIVEL DE GUÍAS DE CLASES -->
             <div class="relative group/maindropdown py-2">
-              <a href="${basePath}classes/index.html" class="text-slate-200 hover:text-amber-400 flex items-center gap-1.5 transition cursor-pointer">
+              <a href="${basePath}classes/" class="text-slate-200 hover:text-amber-400 flex items-center gap-1.5 transition cursor-pointer">
                 <i class="fa-solid fa-book-journal-whills text-amber-400"></i>
                 <span data-i18n="classGuidesNav">Guías de Clases</span>
                 <i class="fa-solid fa-chevron-down text-[10px] text-slate-400 group-hover/maindropdown:rotate-180 transition"></i>
@@ -314,7 +314,7 @@ window.WOW_PATCH_NOTICE = window.WOW_PATCH_NOTICE || {
               <!-- MENÚ DESPLEGABLE PRINCIPAL (13 CLASES) -->
               <div class="absolute left-0 top-full pt-1.5 w-60 hidden group-hover/maindropdown:block z-50">
                 <div class="bg-[#0f1422] border border-wow-border rounded-2xl shadow-2xl p-2.5 backdrop-blur-xl space-y-1">
-                  <a href="${basePath}classes/index.html" class="flex items-center justify-between px-3 py-2 rounded-xl bg-amber-400/10 hover:bg-amber-400/20 border border-amber-400/40 text-amber-300 font-bold text-xs transition mb-1.5">
+                  <a href="${basePath}classes/" class="flex items-center justify-between px-3 py-2 rounded-xl bg-amber-400/10 hover:bg-amber-400/20 border border-amber-400/40 text-amber-300 font-bold text-xs transition mb-1.5">
                     <span data-i18n="allClassesLink">Ver Todas las Clases</span>
                     <i class="fa-solid fa-arrow-right text-[10px]"></i>
                   </a>
@@ -325,9 +325,9 @@ window.WOW_PATCH_NOTICE = window.WOW_PATCH_NOTICE || {
               </div>
             </div>
 
-            <a href="${basePath}index.html#features" class="text-slate-300 hover:text-white transition" data-i18n="featuresNav">Características</a>
-            <a href="${basePath}index.html#news" class="text-slate-300 hover:text-white transition" data-i18n="newsNav">WoW News</a>
-            <a href="${basePath}index.html#community" class="text-slate-300 hover:text-white transition" data-i18n="communityNav">Comunidad & Guías</a>
+            <a href="${basePath || './'}#features" class="text-slate-300 hover:text-white transition" data-i18n="featuresNav">Características</a>
+            <a href="${basePath || './'}#news" class="text-slate-300 hover:text-white transition" data-i18n="newsNav">WoW News</a>
+            <a href="${basePath || './'}#community" class="text-slate-300 hover:text-white transition" data-i18n="communityNav">Comunidad & Guías</a>
           </nav>
 
           <!-- CTA & Language Selector & Mobile Trigger -->
@@ -377,7 +377,7 @@ window.WOW_PATCH_NOTICE = window.WOW_PATCH_NOTICE || {
             <!-- Acordeón Móvil de Guías de Clase -->
             <div class="border border-wow-border rounded-xl bg-wow-subcard overflow-hidden">
               <div class="p-2.5 bg-black/40 border-b border-white/5 flex items-center justify-between">
-                <a href="${basePath}classes/index.html" class="flex items-center gap-2 text-xs font-bold text-white hover:text-amber-400">
+                <a href="${basePath}classes/" class="flex items-center gap-2 text-xs font-bold text-white hover:text-amber-400">
                   <i class="fa-solid fa-book-journal-whills text-amber-400"></i>
                   <span data-i18n="classGuidesNav">Guías de Clases (Todas)</span>
                 </a>
@@ -388,13 +388,13 @@ window.WOW_PATCH_NOTICE = window.WOW_PATCH_NOTICE || {
               </div>
             </div>
 
-            <a href="${basePath}index.html#features" class="flex items-center gap-2 py-2.5 px-3 rounded-lg text-slate-300 hover:text-white text-xs font-semibold min-h-[38px]" data-i18n="featuresNav">
+            <a href="${basePath || './'}#features" class="flex items-center gap-2 py-2.5 px-3 rounded-lg text-slate-300 hover:text-white text-xs font-semibold min-h-[38px]" data-i18n="featuresNav">
               <i class="fa-solid fa-bolt text-slate-500"></i> Características
             </a>
-            <a href="${basePath}index.html#news" class="flex items-center gap-2 py-2.5 px-3 rounded-lg text-slate-300 hover:text-white text-xs font-semibold min-h-[38px]" data-i18n="newsNav">
+            <a href="${basePath || './'}#news" class="flex items-center gap-2 py-2.5 px-3 rounded-lg text-slate-300 hover:text-white text-xs font-semibold min-h-[38px]" data-i18n="newsNav">
               <i class="fa-solid fa-newspaper text-slate-500"></i> WoW News
             </a>
-            <a href="${basePath}index.html#community" class="flex items-center gap-2 py-2.5 px-3 rounded-lg text-slate-300 hover:text-white text-xs font-semibold min-h-[38px]" data-i18n="communityNav">
+            <a href="${basePath || './'}#community" class="flex items-center gap-2 py-2.5 px-3 rounded-lg text-slate-300 hover:text-white text-xs font-semibold min-h-[38px]" data-i18n="communityNav">
               <i class="fa-solid fa-users text-slate-500"></i> Comunidad & Guías
             </a>
           </div>
