@@ -1,5 +1,5 @@
 // Archon.gg Datos Oficiales Unificados (Stats + Árboles Talentos 1:1 + BiS Gear + Abalorios Healers)
-window.ARCHON_LAST_UPDATED = "2026-11-02T14:25:29.713Z";
+window.ARCHON_LAST_UPDATED = "2026-11-02T14:45:09.041Z";
 window.ARCHON_PRESETS = {
   "deathknight": {
     "blood": {
