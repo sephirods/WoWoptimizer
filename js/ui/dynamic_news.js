@@ -458,7 +458,7 @@ function renderPinnedNews() {
 
   const lang = getActiveLanguage();
   const db = getNewsDatabase();
-  const allArticles = [...(db.blueTracker || []), ...(db.blizzardNews || []), ...(db.recentNews || [])];
+  const allArticles = [...(db.blizzardNews || []), ...(db.recentNews || []), ...(db.blueTracker || [])];
   
   // Agrupar canónicamente para evitar que fijar US y EU duplique la misma tarjeta
   const groupedArticles = typeof groupCanonicalNews === 'function' ? groupCanonicalNews(allArticles) : allArticles;
@@ -507,9 +507,10 @@ function renderPinnedNews() {
         ${pinnedArticles.map(item => {
           const itemTitle = resolveLocalized(item.title, lang);
           const itemSummary = getArticleExcerpt(item, lang, 160);
-          const coverImg = item.imageUrl || item.image || (item.enclosure && item.enclosure.link) || null;
+          const blizzMatch = (db.blizzardNews || []).find(b => b.id === item.id || (item.aliasIds && item.aliasIds.includes(b.id)) || (b.title && item.title && (b.title.es === item.title.es || b.title.en === item.title.en)));
+          const coverImg = item.imageUrl || item.image || (item.enclosure && item.enclosure.link) || (blizzMatch && (blizzMatch.imageUrl || blizzMatch.image)) || null;
           const optCoverImg = coverImg ? getOptimizedThumbUrl(coverImg, 640, 288) : null;
-          const isBlizz = item.category === 'Oficial' || item.source === 'blizzard_news' || (Boolean(coverImg) && item.id && item.id.startsWith('blizz-'));
+          const isBlizz = item.category === 'Oficial' || item.source === 'blizzard_news' || Boolean(blizzMatch) || (Boolean(coverImg) && item.id && item.id.startsWith('blizz-'));
           const isBlue = !isBlizz && (item.source === 'blizzard' || (item.id && item.id.startsWith('blizz-')) || !item.source);
           
           let sourceTag = 'Wowhead News';
