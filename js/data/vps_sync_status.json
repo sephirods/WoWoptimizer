@@ -1,12 +1,12 @@
 {
-  "state": "completed",
+  "state": "queued",
   "lastRunAt": "2026-11-02T15:05:59Z",
   "lastRunEpochMs": 1793631959341,
   "nextScheduledAt": "2026-11-03T03:05:59Z",
   "durationSec": 146.8,
-  "triggerRequestedAt": 0,
+  "triggerRequestedAt": 1793632963902,
   "triggerTarget": "all",
-  "currentStep": "Sincronización completada con éxito en 146.8s",
+  "currentStep": "Señal remota enviada (all) — el VPS iniciará en ≤ 15 segundos...",
   "modules": {
     "archon": {
       "name": "Archon.gg (Presets, BiS, Talentos 1:1 & Healers)",
