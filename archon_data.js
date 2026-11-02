@@ -1,14 +1,14 @@
 // Archon.gg Datos Oficiales Unificados (Stats + Árboles Talentos 1:1 + BiS Gear + Abalorios Healers)
-window.ARCHON_LAST_UPDATED = "2026-11-02T13:23:17.854Z";
+window.ARCHON_LAST_UPDATED = "2026-11-02T14:25:29.713Z";
 window.ARCHON_PRESETS = {
   "deathknight": {
     "blood": {
       "raid": {
-        "m": 576,
+        "m": 580,
         "c": 1088,
-        "h": 1096,
-        "v": 343,
-        "dps": "178.7k",
+        "h": 1095,
+        "v": 341,
+        "dps": "179.6k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/ZfMxNKhbAFQJ684P#fight=38",
@@ -18,153 +18,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271474,
-            "name": "Baleful Grave-Knight's Casque",
+            "name": "",
             "params": "pcs=271477:271472:271474:271473&gems=240890&ench=7991",
             "popularity": 85.2,
-            "parses": 19,
-            "nameEs": "Borgoñota de caballero sepulcral torvo",
-            "icon": "inv_helm_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 18
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271477:271472:271474:271473:268265&gems=240983",
-            "popularity": 91.5,
-            "parses": 20,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "popularity": 91.7,
+            "parses": 20
           },
           {
             "id": 271472,
-            "name": "Baleful Grave-Knight's Gibbets",
+            "name": "",
             "params": "pcs=271477:271472:271474:271473&ench=7973",
             "popularity": 91.3,
-            "parses": 20,
-            "nameEs": "Horcas de caballero sepulcral torvo",
-            "icon": "inv_shoulder_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 20
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271477:271472:271474:271473:268253",
-            "popularity": 38.4,
-            "parses": 8,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "popularity": 38.5,
+            "parses": 8
           },
           {
             "id": 271477,
-            "name": "Baleful Grave-Knight's Breastplate",
+            "name": "",
             "params": "pcs=271477:271472:271474:271473&ench=7987",
-            "popularity": 91.4,
-            "parses": 20,
-            "nameEs": "Coraza de caballero sepulcral torvo",
-            "icon": "inv_chest_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "popularity": 91.5,
+            "parses": 20
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8790&pcs=271477:271472:271474:271473:237834&gems=240890",
             "popularity": 81.6,
-            "parses": 18,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "parses": 18
           },
           {
             "id": 271475,
-            "name": "Baleful Grave-Knight's Deathgrips",
+            "name": "",
             "params": "pcs=271477:271472:271474:271473:271475",
-            "popularity": 76.6,
-            "parses": 17,
-            "nameEs": "Mandiletes mortales de caballero sepulcral torvo",
-            "icon": "inv_glove_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "popularity": 76.5,
+            "parses": 16
           },
           {
             "id": 268259,
-            "name": "Girdle of Toxic Regret",
+            "name": "",
             "params": "pcs=271477:271472:271474:271473:268259&gems=240890",
-            "popularity": 38.5,
-            "parses": 8,
-            "nameEs": "Faja de pesar tóxico",
-            "icon": "inv_belt_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "popularity": 38.6,
+            "parses": 8
           },
           {
             "id": 271473,
-            "name": "Baleful Grave-Knight's Greaves",
+            "name": "",
             "params": "pcs=271477:271472:271474:271473&ench=8159",
-            "popularity": 83.9,
-            "parses": 18,
-            "nameEs": "Grebas de caballero sepulcral torvo",
-            "icon": "inv_pant_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "popularity": 84,
+            "parses": 18
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8790&pcs=271477:271472:271474:271473:237828&ench=8019",
-            "popularity": 38,
-            "parses": 8,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "popularity": 38.2,
+            "parses": 8
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271477:271472:271474:271473:240949&gems=240890&ench=7967",
-            "popularity": 48.5,
-            "parses": 10,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "popularity": 48.4,
+            "parses": 10
           },
           {
             "id": 268266,
-            "name": "Alluring Bubbleband",
+            "name": "",
             "params": "bonus=13534&pcs=271477:271472:271474:271473:268266&gems=240890&ench=7967",
-            "popularity": 37.2,
-            "parses": 8,
-            "nameEs": "Sortija de burbujas atrayente",
-            "icon": "inv_70_raid_ring8c",
-            "quality": 4
+            "popularity": 37.5,
+            "parses": 8
           },
           {
             "id": 268213,
-            "name": "Maze-roa, Warlord's Fury",
+            "name": "",
             "params": "pcs=271477:271472:271474:271473:268213&ench=6241",
-            "popularity": 81.2,
-            "parses": 18,
-            "nameEs": "Maze-roa, Furia del Señor de la Guerra",
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "quality": 4
+            "popularity": 81.7,
+            "parses": 18
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
-            "popularity": 79,
-            "parses": 17,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "popularity": 79.4,
+            "parses": 17
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
-            "popularity": 79,
-            "parses": 17,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "popularity": 79.4,
+            "parses": 17
           }
         ]
       },
@@ -183,153 +138,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271474,
-            "name": "Baleful Grave-Knight's Casque",
+            "name": "",
             "params": "pcs=271472:271477:271473:271474&gems=240894&ench=7991",
             "popularity": 87.3,
-            "parses": 9,
-            "nameEs": "Borgoñota de caballero sepulcral torvo",
-            "icon": "inv_helm_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271472:271477:271473:271474:268265&gems=240983",
             "popularity": 95.5,
-            "parses": 10,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 271472,
-            "name": "Baleful Grave-Knight's Gibbets",
+            "name": "",
             "params": "pcs=271472:271477:271473:271474&ench=7973",
             "popularity": 91.5,
-            "parses": 10,
-            "nameEs": "Horcas de caballero sepulcral torvo",
-            "icon": "inv_shoulder_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271472:271477:271473:271474:268253",
             "popularity": 36.2,
-            "parses": 4,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271477,
-            "name": "Baleful Grave-Knight's Breastplate",
+            "name": "",
             "params": "pcs=271472:271477:271473:271474&ench=7987",
             "popularity": 90.3,
-            "parses": 10,
-            "nameEs": "Coraza de caballero sepulcral torvo",
-            "icon": "inv_chest_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8792&pcs=271472:271477:271473:271474:237834&gems=240894",
             "popularity": 88.2,
-            "parses": 9,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 271475,
-            "name": "Baleful Grave-Knight's Deathgrips",
+            "name": "",
             "params": "pcs=271472:271477:271473:271474:271475",
             "popularity": 47.4,
-            "parses": 5,
-            "nameEs": "Mandiletes mortales de caballero sepulcral torvo",
-            "icon": "inv_glove_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268259,
-            "name": "Girdle of Toxic Regret",
+            "name": "",
             "params": "pcs=271472:271477:271473:271474:268259&gems=240894",
             "popularity": 34.1,
-            "parses": 3,
-            "nameEs": "Faja de pesar tóxico",
-            "icon": "inv_belt_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271473,
-            "name": "Baleful Grave-Knight's Greaves",
+            "name": "",
             "params": "pcs=271472:271477:271473:271474&ench=8159",
             "popularity": 89.6,
-            "parses": 10,
-            "nameEs": "Grebas de caballero sepulcral torvo",
-            "icon": "inv_pant_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8792&pcs=271472:271477:271473:271474:237828&ench=8019",
             "popularity": 51.3,
-            "parses": 5,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8792&pcs=271472:271477:271473:271474:240949&gems=240894&ench=7967",
             "popularity": 60.8,
-            "parses": 6,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 268266,
-            "name": "Alluring Bubbleband",
+            "name": "",
             "params": "bonus=13534&pcs=271472:271477:271473:271474:268266&gems=240894&ench=7967",
             "popularity": 45.5,
-            "parses": 5,
-            "nameEs": "Sortija de burbujas atrayente",
-            "icon": "inv_70_raid_ring8c",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268213,
-            "name": "Maze-roa, Warlord's Fury",
+            "name": "",
             "params": "pcs=271472:271477:271473:271474:268213&ench=6241",
             "popularity": 78.5,
-            "parses": 8,
-            "nameEs": "Maze-roa, Furia del Señor de la Guerra",
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 64.3,
-            "parses": 7,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 64.3,
-            "parses": 7,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 7
           }
         ]
       }
@@ -350,163 +260,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271474,
-            "name": "Baleful Grave-Knight's Casque",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475&gems=240908&ench=7991",
             "popularity": 88.2,
-            "parses": 13,
-            "nameEs": "Borgoñota de caballero sepulcral torvo",
-            "icon": "inv_helm_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 13
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271477:271474:271472:271475:268265&gems=240983",
             "popularity": 94.4,
-            "parses": 14,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 14
           },
           {
             "id": 271472,
-            "name": "Baleful Grave-Knight's Gibbets",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475&ench=7973",
             "popularity": 86.9,
-            "parses": 12,
-            "nameEs": "Horcas de caballero sepulcral torvo",
-            "icon": "inv_shoulder_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475:268253",
             "popularity": 38.9,
-            "parses": 5,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271477,
-            "name": "Baleful Grave-Knight's Breastplate",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475&ench=7987",
             "popularity": 92.5,
-            "parses": 13,
-            "nameEs": "Coraza de caballero sepulcral torvo",
-            "icon": "inv_chest_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 13
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8791&pcs=271477:271474:271472:271475:237834&gems=240908",
             "popularity": 76.6,
-            "parses": 11,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 271475,
-            "name": "Baleful Grave-Knight's Deathgrips",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475",
             "popularity": 84.4,
-            "parses": 12,
-            "nameEs": "Mandiletes mortales de caballero sepulcral torvo",
-            "icon": "inv_glove_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 268259,
-            "name": "Girdle of Toxic Regret",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475:268259&gems=240908",
             "popularity": 51.7,
-            "parses": 7,
-            "nameEs": "Faja de pesar tóxico",
-            "icon": "inv_belt_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 271473,
-            "name": "Baleful Grave-Knight's Greaves",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475:271473&ench=8159",
             "popularity": 83.5,
-            "parses": 12,
-            "nameEs": "Grebas de caballero sepulcral torvo",
-            "icon": "inv_pant_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8791&pcs=271477:271474:271472:271475:237828&ench=8019",
             "popularity": 54.3,
-            "parses": 8,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 251513,
-            "name": "Loa Worshiper's Band",
+            "name": "",
             "params": ":8791&pcs=271477:271474:271472:271475:251513&gems=240908&ench=7967",
             "popularity": 40.5,
-            "parses": 6,
-            "nameEs": "Sortija de adorador de loa",
-            "icon": "inv_12_profession_jewelcrafting_ring3_silver",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271477:271474:271472:271475:281029&gems=240908&ench=7967",
             "popularity": 34.1,
-            "parses": 5,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268209,
-            "name": "Aman'muso, Warlord's Vengeance",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475:268209&ench=3368",
             "popularity": 72.6,
-            "parses": 10,
-            "nameEs": "Aman'muso, Venganza del Señor de la Guerra",
-            "icon": "inv_axe_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 268202,
-            "name": "Jaw of the Shackled Goddess",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475:268202&ench=3847",
             "popularity": 67.1,
-            "parses": 10,
-            "nameEs": "Mandíbula de la diosa encadenada",
-            "icon": "inv_sword_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 69.7,
-            "parses": 10,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 69.7,
-            "parses": 10,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 10
           }
         ]
       },
@@ -525,163 +387,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271474,
-            "name": "Baleful Grave-Knight's Casque",
+            "name": "",
             "params": "pcs=271477:271474:271473:271472&gems=240908&ench=8017",
             "popularity": 85.9,
-            "parses": 2,
-            "nameEs": "Borgoñota de caballero sepulcral torvo",
-            "icon": "inv_helm_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271477:271474:271473:271472:268265&gems=240983",
             "popularity": 93.8,
-            "parses": 3,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271472,
-            "name": "Baleful Grave-Knight's Gibbets",
+            "name": "",
             "params": "pcs=271477:271474:271473:271472&ench=8001",
             "popularity": 83.8,
-            "parses": 2,
-            "nameEs": "Horcas de caballero sepulcral torvo",
-            "icon": "inv_shoulder_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271477:271474:271473:271472:268253",
             "popularity": 35.7,
-            "parses": 1,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271477,
-            "name": "Baleful Grave-Knight's Breastplate",
+            "name": "",
             "params": "pcs=271477:271474:271473:271472&ench=7987",
             "popularity": 89.4,
-            "parses": 2,
-            "nameEs": "Coraza de caballero sepulcral torvo",
-            "icon": "inv_chest_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8791&pcs=271477:271474:271473:271472:237834&gems=240908",
             "popularity": 80.8,
-            "parses": 2,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271475,
-            "name": "Baleful Grave-Knight's Deathgrips",
+            "name": "",
             "params": "pcs=271477:271474:271473:271472:271475",
             "popularity": 69.3,
-            "parses": 2,
-            "nameEs": "Mandiletes mortales de caballero sepulcral torvo",
-            "icon": "inv_glove_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268259,
-            "name": "Girdle of Toxic Regret",
+            "name": "",
             "params": "pcs=271477:271474:271473:271472:268259&gems=240908",
             "popularity": 42.1,
-            "parses": 1,
-            "nameEs": "Faja de pesar tóxico",
-            "icon": "inv_belt_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271473,
-            "name": "Baleful Grave-Knight's Greaves",
+            "name": "",
             "params": "pcs=271477:271474:271473:271472&ench=8159",
             "popularity": 84.6,
-            "parses": 2,
-            "nameEs": "Grebas de caballero sepulcral torvo",
-            "icon": "inv_pant_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8791&pcs=271477:271474:271473:271472:237828&ench=7963",
             "popularity": 65.4,
-            "parses": 2,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271477:271474:271473:271472:281029&gems=240908&ench=7967",
             "popularity": 44,
-            "parses": 1,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8791&pcs=271477:271474:271473:271472:240949&gems=240908&ench=7967",
             "popularity": 38.3,
-            "parses": 1,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268209,
-            "name": "Aman'muso, Warlord's Vengeance",
+            "name": "",
             "params": "pcs=271477:271474:271473:271472:268209&ench=3368",
             "popularity": 74.8,
-            "parses": 2,
-            "nameEs": "Aman'muso, Venganza del Señor de la Guerra",
-            "icon": "inv_axe_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268202,
-            "name": "Jaw of the Shackled Goddess",
+            "name": "",
             "params": "pcs=271477:271474:271473:271472:268202&ench=3847",
             "popularity": 71.8,
-            "parses": 2,
-            "nameEs": "Mandíbula de la diosa encadenada",
-            "icon": "inv_sword_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 48.8,
-            "parses": 1,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 48.8,
-            "parses": 1,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 1
           }
         ]
       }
@@ -702,153 +516,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271474,
-            "name": "Baleful Grave-Knight's Casque",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475&gems=240908&ench=8017",
             "popularity": 89.4,
-            "parses": 7,
-            "nameEs": "Borgoñota de caballero sepulcral torvo",
-            "icon": "inv_helm_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271477:271474:271472:271475:268265&gems=240983",
             "popularity": 94.7,
-            "parses": 8,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 271472,
-            "name": "Baleful Grave-Knight's Gibbets",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475&ench=8001",
             "popularity": 87.4,
-            "parses": 7,
-            "nameEs": "Horcas de caballero sepulcral torvo",
-            "icon": "inv_shoulder_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475:268253",
             "popularity": 43.8,
-            "parses": 3,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271477,
-            "name": "Baleful Grave-Knight's Breastplate",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475&ench=7987",
             "popularity": 94,
-            "parses": 8,
-            "nameEs": "Coraza de caballero sepulcral torvo",
-            "icon": "inv_chest_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8791&pcs=271477:271474:271472:271475:237834&gems=240908",
             "popularity": 83,
-            "parses": 7,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 271475,
-            "name": "Baleful Grave-Knight's Deathgrips",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475",
             "popularity": 84,
-            "parses": 7,
-            "nameEs": "Mandiletes mortales de caballero sepulcral torvo",
-            "icon": "inv_glove_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 268259,
-            "name": "Girdle of Toxic Regret",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475:268259&gems=240908",
             "popularity": 52.4,
-            "parses": 4,
-            "nameEs": "Faja de pesar tóxico",
-            "icon": "inv_belt_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271473,
-            "name": "Baleful Grave-Knight's Greaves",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475:271473&ench=8159",
             "popularity": 80.9,
-            "parses": 7,
-            "nameEs": "Grebas de caballero sepulcral torvo",
-            "icon": "inv_pant_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8791&pcs=271477:271474:271472:271475:237828&ench=8019",
             "popularity": 71.3,
-            "parses": 6,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271477:271474:271472:271475:281029&gems=240908&ench=7967",
             "popularity": 39.2,
-            "parses": 3,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 268249,
-            "name": "Vile Alchemist's Band",
+            "name": "",
             "params": "bonus=13534&pcs=271477:271474:271472:271475:268249&gems=240908&ench=7967",
             "popularity": 31.2,
-            "parses": 2,
-            "nameEs": "Sortija de alquimista vil",
-            "icon": "inv_121_jewelry_ring01_purple",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268213,
-            "name": "Maze-roa, Warlord's Fury",
+            "name": "",
             "params": "pcs=271477:271474:271472:271475:268213&ench=6245",
             "popularity": 86.7,
-            "parses": 7,
-            "nameEs": "Maze-roa, Furia del Señor de la Guerra",
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 84,
-            "parses": 7,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 84,
-            "parses": 7,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 7
           }
         ]
       },
@@ -867,153 +636,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271474,
-            "name": "Baleful Grave-Knight's Casque",
+            "name": "",
             "params": "pcs=271477:271474:271472:271473&gems=240908&ench=8017",
             "popularity": 87,
-            "parses": 1,
-            "nameEs": "Borgoñota de caballero sepulcral torvo",
-            "icon": "inv_helm_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271477:271474:271472:271473:268265&gems=240983",
             "popularity": 94.3,
-            "parses": 2,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271472,
-            "name": "Baleful Grave-Knight's Gibbets",
+            "name": "",
             "params": "pcs=271477:271474:271472:271473&ench=8001",
             "popularity": 82.2,
-            "parses": 1,
-            "nameEs": "Horcas de caballero sepulcral torvo",
-            "icon": "inv_shoulder_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271477:271474:271472:271473:268253",
             "popularity": 44.1,
-            "parses": 923,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 923
           },
           {
             "id": 271477,
-            "name": "Baleful Grave-Knight's Breastplate",
+            "name": "",
             "params": "pcs=271477:271474:271472:271473&ench=7987",
             "popularity": 91.4,
-            "parses": 1,
-            "nameEs": "Coraza de caballero sepulcral torvo",
-            "icon": "inv_chest_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8791&pcs=271477:271474:271472:271473:237834&gems=240908",
             "popularity": 85.7,
-            "parses": 1,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271475,
-            "name": "Baleful Grave-Knight's Deathgrips",
+            "name": "",
             "params": "pcs=271477:271474:271472:271473:271475",
             "popularity": 73.1,
-            "parses": 1,
-            "nameEs": "Mandiletes mortales de caballero sepulcral torvo",
-            "icon": "inv_glove_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268259,
-            "name": "Girdle of Toxic Regret",
+            "name": "",
             "params": "pcs=271477:271474:271472:271473:268259&gems=240908",
             "popularity": 45.3,
-            "parses": 948,
-            "nameEs": "Faja de pesar tóxico",
-            "icon": "inv_belt_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 948
           },
           {
             "id": 271473,
-            "name": "Baleful Grave-Knight's Greaves",
+            "name": "",
             "params": "pcs=271477:271474:271472:271473&ench=8159",
             "popularity": 81.5,
-            "parses": 1,
-            "nameEs": "Grebas de caballero sepulcral torvo",
-            "icon": "inv_pant_plate_raiddeathknightulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8791&pcs=271477:271474:271472:271473:237828&ench=7963",
             "popularity": 78.7,
-            "parses": 1,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271477:271474:271472:271473:281029&gems=240908&ench=7967",
             "popularity": 52.5,
-            "parses": 1,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8791&pcs=271477:271474:271472:271473:240949&gems=240908&ench=7967",
             "popularity": 38.7,
-            "parses": 809,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 809
           },
           {
             "id": 268213,
-            "name": "Maze-roa, Warlord's Fury",
+            "name": "",
             "params": "pcs=271477:271474:271472:271473:268213&ench=6245",
             "popularity": 85.5,
-            "parses": 1,
-            "nameEs": "Maze-roa, Furia del Señor de la Guerra",
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 57.6,
-            "parses": 1,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 57.6,
-            "parses": 1,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 1
           }
         ]
       }
@@ -1036,163 +760,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271537,
-            "name": "Abyssal Doomhound's Relentless Stare",
+            "name": "",
             "params": "pcs=271538:271537:271535:271536&gems=240908&ench=8017",
             "popularity": 88.7,
-            "parses": 12,
-            "nameEs": "Mirada incansable de can maldito abisal",
-            "icon": "inv_helm_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271538:271537:271535:271536:268265&gems=240983",
             "popularity": 85.7,
-            "parses": 12,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 271535,
-            "name": "Abyssal Doomhound's Jaws",
+            "name": "",
             "params": "pcs=271538:271537:271535:271536&ench=8001",
             "popularity": 88.6,
-            "parses": 12,
-            "nameEs": "Mandíbulas de can maldito abisal",
-            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271538:271537:271535:271536:268253",
             "popularity": 36.5,
-            "parses": 5,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271540,
-            "name": "Abyssal Doomhound's Coreguard",
+            "name": "",
             "params": "pcs=271538:271537:271535:271536:271540&ench=7987",
             "popularity": 75,
-            "parses": 10,
-            "nameEs": "Protegenúcleo de can maldito abisal",
-            "icon": "inv_chest_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8791&pcs=271538:271537:271535:271536:244576&gems=240908",
             "popularity": 68.5,
-            "parses": 9,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 271538,
-            "name": "Abyssal Doomhound's Studded Gauntlets",
+            "name": "",
             "params": "pcs=271538:271537:271535:271536",
             "popularity": 91.1,
-            "parses": 13,
-            "nameEs": "Guanteletes tachonados de can maldito abisal",
-            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 13
           },
           {
             "id": 268227,
-            "name": "Unpossessed Skullsash",
+            "name": "",
             "params": "pcs=271538:271537:271535:271536:268227&gems=240908",
             "popularity": 39.3,
-            "parses": 5,
-            "nameEs": "Fajín craneal desposeído",
-            "icon": "inv_belt_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271536,
-            "name": "Abyssal Doomhound's Legwraps",
+            "name": "",
             "params": "pcs=271538:271537:271535:271536&ench=8159",
             "popularity": 88.4,
-            "parses": 12,
-            "nameEs": "Perneras de can maldito abisal",
-            "icon": "inv_pant_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8791&pcs=271538:271537:271535:271536:244569&ench=7963",
             "popularity": 57.7,
-            "parses": 8,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8791&pcs=271538:271537:271535:271536:240949&gems=240908&ench=7967",
             "popularity": 51.5,
-            "parses": 7,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 251136,
-            "name": "Signet of Snarling Servitude",
+            "name": "",
             "params": "bonus=13534&pcs=271538:271537:271535:271536:251136&gems=240908&ench=7967",
             "popularity": 35.1,
-            "parses": 5,
-            "nameEs": "Sello de servidumbre gruñidora",
-            "icon": "inv_12_jewelry_voidelf_ring_teal",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268209,
-            "name": "Aman'muso, Warlord's Vengeance",
+            "name": "",
             "params": "pcs=271538:271537:271535:271536:268209&ench=8689",
             "popularity": 89.2,
-            "parses": 12,
-            "nameEs": "Aman'muso, Venganza del Señor de la Guerra",
-            "icon": "inv_axe_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 237840,
-            "name": "Spellbreaker's Warglaive",
+            "name": "",
             "params": "bonus=8791&pcs=271538:271537:271535:271536:237840&ench=8689",
             "popularity": 78,
-            "parses": 11,
-            "nameEs": "Guja de guerra de rompechizos",
-            "icon": "inv_glaive_1h_questbloodelf_b_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 51.9,
-            "parses": 7,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 51.9,
-            "parses": 7,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 7
           }
         ]
       },
@@ -1211,163 +887,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271537,
-            "name": "Abyssal Doomhound's Relentless Stare",
+            "name": "",
             "params": "pcs=271537:271538:271535:271536&gems=240908&ench=8017",
             "popularity": 91.4,
-            "parses": 3,
-            "nameEs": "Mirada incansable de can maldito abisal",
-            "icon": "inv_helm_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271537:271538:271535:271536:268265&gems=240983",
             "popularity": 92.6,
-            "parses": 3,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271535,
-            "name": "Abyssal Doomhound's Jaws",
+            "name": "",
             "params": "pcs=271537:271538:271535:271536&ench=8001",
             "popularity": 80.8,
-            "parses": 2,
-            "nameEs": "Mandíbulas de can maldito abisal",
-            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271537:271538:271535:271536:239656",
             "popularity": 36.3,
-            "parses": 1,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271540,
-            "name": "Abyssal Doomhound's Coreguard",
+            "name": "",
             "params": "pcs=271537:271538:271535:271536:271540&ench=7987",
             "popularity": 74.7,
-            "parses": 2,
-            "nameEs": "Protegenúcleo de can maldito abisal",
-            "icon": "inv_chest_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8791&pcs=271537:271538:271535:271536:244576&gems=240908",
             "popularity": 79.3,
-            "parses": 2,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271538,
-            "name": "Abyssal Doomhound's Studded Gauntlets",
+            "name": "",
             "params": "pcs=271537:271538:271535:271536",
             "popularity": 86.6,
-            "parses": 2,
-            "nameEs": "Guanteletes tachonados de can maldito abisal",
-            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268227,
-            "name": "Unpossessed Skullsash",
+            "name": "",
             "params": "pcs=271537:271538:271535:271536:268227&gems=240908",
             "popularity": 27.8,
-            "parses": 904,
-            "nameEs": "Fajín craneal desposeído",
-            "icon": "inv_belt_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 904
           },
           {
             "id": 271536,
-            "name": "Abyssal Doomhound's Legwraps",
+            "name": "",
             "params": "pcs=271537:271538:271535:271536&ench=8159",
             "popularity": 79.9,
-            "parses": 2,
-            "nameEs": "Perneras de can maldito abisal",
-            "icon": "inv_pant_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8791&pcs=271537:271538:271535:271536:244569&ench=7963",
             "popularity": 62,
-            "parses": 2,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8791&pcs=271537:271538:271535:271536:240949&gems=240908&ench=7967",
             "popularity": 56.5,
-            "parses": 1,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 251136,
-            "name": "Signet of Snarling Servitude",
+            "name": "",
             "params": "bonus=13534&pcs=271537:271538:271535:271536:251136&gems=240908&ench=7967",
             "popularity": 35.6,
-            "parses": 1,
-            "nameEs": "Sello de servidumbre gruñidora",
-            "icon": "inv_12_jewelry_voidelf_ring_teal",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268209,
-            "name": "Aman'muso, Warlord's Vengeance",
+            "name": "",
             "params": "pcs=271537:271538:271535:271536:268209&ench=8689",
             "popularity": 92.6,
-            "parses": 3,
-            "nameEs": "Aman'muso, Venganza del Señor de la Guerra",
-            "icon": "inv_axe_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 237840,
-            "name": "Spellbreaker's Warglaive",
+            "name": "",
             "params": "bonus=8791&pcs=271537:271538:271535:271536:237840&ench=8689",
             "popularity": 82.4,
-            "parses": 2,
-            "nameEs": "Guja de guerra de rompechizos",
-            "icon": "inv_glaive_1h_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 45.7,
-            "parses": 1,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 45.7,
-            "parses": 1,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 1
           }
         ]
       }
@@ -1388,163 +1016,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271537,
-            "name": "Abyssal Doomhound's Relentless Stare",
+            "name": "",
             "params": "pcs=271535:271540:271537:271536&gems=240890&ench=7961",
             "popularity": 86.2,
-            "parses": 4,
-            "nameEs": "Mirada incansable de can maldito abisal",
-            "icon": "inv_helm_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271535:271540:271537:271536:268265&gems=240983",
             "popularity": 86.2,
-            "parses": 4,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271535,
-            "name": "Abyssal Doomhound's Jaws",
+            "name": "",
             "params": "pcs=271535:271540:271537:271536&ench=8031",
             "popularity": 91,
-            "parses": 4,
-            "nameEs": "Mandíbulas de can maldito abisal",
-            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271535:271540:271537:271536:268253",
             "popularity": 30.8,
-            "parses": 1,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271540,
-            "name": "Abyssal Doomhound's Coreguard",
+            "name": "",
             "params": "pcs=271535:271540:271537:271536&ench=7987",
             "popularity": 87.4,
-            "parses": 4,
-            "nameEs": "Protegenúcleo de can maldito abisal",
-            "icon": "inv_chest_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8790&pcs=271535:271540:271537:271536:244576&gems=240890",
             "popularity": 63.9,
-            "parses": 3,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271538,
-            "name": "Abyssal Doomhound's Studded Gauntlets",
+            "name": "",
             "params": "pcs=271535:271540:271537:271536:271538",
             "popularity": 83.1,
-            "parses": 4,
-            "nameEs": "Guanteletes tachonados de can maldito abisal",
-            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 268256,
-            "name": "Sash of the Forlorn Vessel",
+            "name": "",
             "params": "pcs=271535:271540:271537:271536:268256&gems=240890",
             "popularity": 31.5,
-            "parses": 1,
-            "nameEs": "Fajín del recipiente desolado",
-            "icon": "inv_belt_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271536,
-            "name": "Abyssal Doomhound's Legwraps",
+            "name": "",
             "params": "pcs=271535:271540:271537:271536&ench=8159",
             "popularity": 85.1,
-            "parses": 4,
-            "nameEs": "Perneras de can maldito abisal",
-            "icon": "inv_pant_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 268247,
-            "name": "Breakwater Boots",
+            "name": "",
             "params": "pcs=271535:271540:271537:271536:268247&ench=7993",
             "popularity": 28.5,
-            "parses": 1,
-            "nameEs": "Botas de Aguarrota",
-            "icon": "inv_boot_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271535:271540:271537:271536:281029&gems=240890&ench=7967",
             "popularity": 32.9,
-            "parses": 1,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271535:271540:271537:271536:240949&gems=240890&ench=7967",
             "popularity": 28.2,
-            "parses": 1,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268209,
-            "name": "Aman'muso, Warlord's Vengeance",
+            "name": "",
             "params": "pcs=271535:271540:271537:271536:268209&ench=8689",
             "popularity": 72.8,
-            "parses": 3,
-            "nameEs": "Aman'muso, Venganza del Señor de la Guerra",
-            "icon": "inv_axe_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 237840,
-            "name": "Spellbreaker's Warglaive",
+            "name": "",
             "params": "bonus=8790&pcs=271535:271540:271537:271536:237840&ench=8689",
             "popularity": 59,
-            "parses": 2,
-            "nameEs": "Guja de guerra de rompechizos",
-            "icon": "inv_glaive_1h_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 39.4,
-            "parses": 1,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 39.4,
-            "parses": 1,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 1
           }
         ]
       },
@@ -1563,174 +1143,126 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271537,
-            "name": "Abyssal Doomhound's Relentless Stare",
+            "name": "",
             "params": "pcs=271537:271540:271536:271535&gems=240890&ench=7961",
             "popularity": 89.2,
-            "parses": 2,
-            "nameEs": "Mirada incansable de can maldito abisal",
-            "icon": "inv_helm_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271537:271540:271536:271535:268265&gems=240983",
             "popularity": 85.5,
-            "parses": 2,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271535,
-            "name": "Abyssal Doomhound's Jaws",
+            "name": "",
             "params": "pcs=271537:271540:271536:271535&ench=8031",
             "popularity": 79.1,
-            "parses": 2,
-            "nameEs": "Mandíbulas de can maldito abisal",
-            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8790&pcs=271537:271540:271536:271535:239656",
             "popularity": 32.5,
-            "parses": 915,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 915
           },
           {
             "id": 271540,
-            "name": "Abyssal Doomhound's Coreguard",
+            "name": "",
             "params": "pcs=271537:271540:271536:271535&ench=7987",
             "popularity": 87.6,
-            "parses": 2,
-            "nameEs": "Protegenúcleo de can maldito abisal",
-            "icon": "inv_chest_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8790&pcs=271537:271540:271536:271535:244576&gems=240890",
             "popularity": 77.6,
-            "parses": 2,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271538,
-            "name": "Abyssal Doomhound's Studded Gauntlets",
+            "name": "",
             "params": "pcs=271537:271540:271536:271535:271538",
             "popularity": 68.6,
-            "parses": 1,
-            "nameEs": "Guanteletes tachonados de can maldito abisal",
-            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268256,
-            "name": "Sash of the Forlorn Vessel",
+            "name": "",
             "params": "pcs=271537:271540:271536:271535:268256&gems=240890",
             "popularity": 25.7,
-            "parses": 723,
-            "nameEs": "Fajín del recipiente desolado",
-            "icon": "inv_belt_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 723
           },
           {
             "id": 271536,
-            "name": "Abyssal Doomhound's Legwraps",
+            "name": "",
             "params": "pcs=271537:271540:271536:271535&ench=8159",
             "popularity": 79.3,
-            "parses": 2,
-            "nameEs": "Perneras de can maldito abisal",
-            "icon": "inv_pant_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8790&pcs=271537:271540:271536:271535:244569&ench=7993",
             "popularity": 41.5,
-            "parses": 1,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271537:271540:271536:271535:240949&gems=240890&ench=7967",
             "popularity": 43.7,
-            "parses": 1,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271537:271540:271536:271535:281029&gems=240890&ench=7967",
             "popularity": 42,
-            "parses": 1,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268209,
-            "name": "Aman'muso, Warlord's Vengeance",
+            "name": "",
             "params": "pcs=271537:271540:271536:271535:268209&ench=8689",
             "popularity": 74.1,
-            "parses": 2,
-            "nameEs": "Aman'muso, Venganza del Señor de la Guerra",
-            "icon": "inv_axe_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 237840,
-            "name": "Spellbreaker's Warglaive",
+            "name": "",
             "params": "bonus=8790&pcs=271537:271540:271536:271535:237840&ench=8689",
             "popularity": 67.7,
-            "parses": 1,
-            "nameEs": "Guja de guerra de rompechizos",
-            "icon": "inv_glaive_1h_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 25.5,
-            "parses": 716,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 716
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 25.5,
-            "parses": 716,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 716
           }
         ]
       }
     },
     "devourer": {
       "raid": {
-        "m": 1230,
-        "c": 774,
-        "h": 999,
+        "m": 1233,
+        "c": 772,
+        "h": 1000,
         "v": 124,
-        "dps": "329.4k",
+        "dps": "331.1k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/bH7Mh4AQpxfP3Gkq#fight=43",
@@ -1740,163 +1272,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271537,
-            "name": "Abyssal Doomhound's Relentless Stare",
+            "name": "",
             "params": "pcs=271537:271540:271538:271535&gems=240898&ench=8017",
-            "popularity": 89.8,
-            "parses": 8,
-            "nameEs": "Mirada incansable de can maldito abisal",
-            "icon": "inv_helm_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "popularity": 88.8,
+            "parses": 8
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271537:271540:271538:271535:268265&gems=240983",
-            "popularity": 92.8,
-            "parses": 8,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "popularity": 91.9,
+            "parses": 8
           },
           {
             "id": 271535,
-            "name": "Abyssal Doomhound's Jaws",
+            "name": "",
             "params": "pcs=271537:271540:271538:271535&ench=8001",
-            "popularity": 86.2,
-            "parses": 8,
-            "nameEs": "Mandíbulas de can maldito abisal",
-            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "popularity": 85,
+            "parses": 8
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271537:271540:271538:271535:239656",
-            "popularity": 30.2,
-            "parses": 2,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "popularity": 30.9,
+            "parses": 2
           },
           {
             "id": 271540,
-            "name": "Abyssal Doomhound's Coreguard",
+            "name": "",
             "params": "pcs=271537:271540:271538:271535&ench=7987",
-            "popularity": 88,
-            "parses": 8,
-            "nameEs": "Protegenúcleo de can maldito abisal",
-            "icon": "inv_chest_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "popularity": 86.8,
+            "parses": 8
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8791&pcs=271537:271540:271538:271535:244576&gems=240898",
-            "popularity": 75,
-            "parses": 7,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "popularity": 74.5,
+            "parses": 7
           },
           {
             "id": 271538,
-            "name": "Abyssal Doomhound's Studded Gauntlets",
+            "name": "",
             "params": "pcs=271537:271540:271538:271535",
-            "popularity": 87.8,
-            "parses": 8,
-            "nameEs": "Guanteletes tachonados de can maldito abisal",
-            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "popularity": 86.4,
+            "parses": 8
           },
           {
-            "id": 268227,
-            "name": "Unpossessed Skullsash",
-            "params": "pcs=271537:271540:271538:271535:268227&gems=240898",
-            "popularity": 29.8,
-            "parses": 2,
-            "nameEs": "Fajín craneal desposeído",
-            "icon": "inv_belt_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "id": 268256,
+            "name": "",
+            "params": "pcs=271537:271540:271538:271535:268256&gems=240898",
+            "popularity": 29.7,
+            "parses": 2
           },
           {
             "id": 271536,
-            "name": "Abyssal Doomhound's Legwraps",
+            "name": "",
             "params": "pcs=271537:271540:271538:271535:271536&ench=7935",
-            "popularity": 85.2,
-            "parses": 8,
-            "nameEs": "Perneras de can maldito abisal",
-            "icon": "inv_pant_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "popularity": 84.2,
+            "parses": 8
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8791&pcs=271537:271540:271538:271535:244569&ench=7963",
-            "popularity": 78.6,
-            "parses": 7,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "popularity": 78.2,
+            "parses": 7
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271537:271540:271538:271535:281029&gems=240898&ench=7967",
-            "popularity": 54.3,
-            "parses": 5,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "popularity": 56.4,
+            "parses": 5
           },
           {
             "id": 268249,
-            "name": "Vile Alchemist's Band",
+            "name": "",
             "params": "bonus=13534&pcs=271537:271540:271538:271535:268249&gems=240898&ench=7967",
-            "popularity": 40.9,
-            "parses": 3,
-            "nameEs": "Sortija de alquimista vil",
-            "icon": "inv_121_jewelry_ring01_purple",
-            "quality": 4
+            "popularity": 40.3,
+            "parses": 3
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271537:271540:271538:271535:271092&ench=8689",
-            "popularity": 75.6,
-            "parses": 7,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "popularity": 74.8,
+            "parses": 7
           },
           {
             "id": 237840,
-            "name": "Spellbreaker's Warglaive",
+            "name": "",
             "params": "bonus=8791&pcs=271537:271540:271538:271535:237840&ench=8689",
-            "popularity": 43.1,
-            "parses": 4,
-            "nameEs": "Guja de guerra de rompechizos",
-            "icon": "inv_glaive_1h_questbloodelf_b_01",
-            "quality": 4
+            "popularity": 41.9,
+            "parses": 4
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
-            "popularity": 31.6,
-            "parses": 3,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "popularity": 33,
+            "parses": 3
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
-            "popularity": 31.6,
-            "parses": 3,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "popularity": 33,
+            "parses": 3
           }
         ]
       },
@@ -1915,163 +1399,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271537,
-            "name": "Abyssal Doomhound's Relentless Stare",
+            "name": "",
             "params": "pcs=271537:271540:271535:271538&gems=240898&ench=8017",
             "popularity": 92.1,
-            "parses": 3,
-            "nameEs": "Mirada incansable de can maldito abisal",
-            "icon": "inv_helm_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271537:271540:271535:271538:268265&gems=240983",
             "popularity": 94.4,
-            "parses": 3,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271535,
-            "name": "Abyssal Doomhound's Jaws",
+            "name": "",
             "params": "pcs=271537:271540:271535:271538&ench=8001",
             "popularity": 79.9,
-            "parses": 2,
-            "nameEs": "Mandíbulas de can maldito abisal",
-            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271537:271540:271535:271538:239656",
             "popularity": 37.6,
-            "parses": 1,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271540,
-            "name": "Abyssal Doomhound's Coreguard",
+            "name": "",
             "params": "pcs=271537:271540:271535:271538&ench=7987",
             "popularity": 84.3,
-            "parses": 3,
-            "nameEs": "Protegenúcleo de can maldito abisal",
-            "icon": "inv_chest_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8791&pcs=271537:271540:271535:271538:244576&gems=240898",
             "popularity": 77.2,
-            "parses": 2,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271538,
-            "name": "Abyssal Doomhound's Studded Gauntlets",
+            "name": "",
             "params": "pcs=271537:271540:271535:271538",
             "popularity": 76.3,
-            "parses": 2,
-            "nameEs": "Guanteletes tachonados de can maldito abisal",
-            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271534,
-            "name": "Abyssal Doomhound's Jeweled Cinch",
+            "name": "",
             "params": "pcs=271537:271540:271535:271538:271534&gems=240898",
             "popularity": 24.5,
-            "parses": 876,
-            "nameEs": "Cincho con joyas de can maldito abisal",
-            "icon": "inv_belt_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 876
           },
           {
             "id": 271536,
-            "name": "Abyssal Doomhound's Legwraps",
+            "name": "",
             "params": "pcs=271537:271540:271535:271538:271536&ench=7935",
             "popularity": 75.9,
-            "parses": 2,
-            "nameEs": "Perneras de can maldito abisal",
-            "icon": "inv_pant_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8791&pcs=271537:271540:271535:271538:244569&ench=7963",
             "popularity": 83.5,
-            "parses": 3,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271537:271540:271535:271538:281029&gems=240898&ench=7967",
             "popularity": 59.4,
-            "parses": 2,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8791&pcs=271537:271540:271535:271538:240949&gems=240898&ench=7967",
             "popularity": 50.1,
-            "parses": 1,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271537:271540:271535:271538:271092&ench=8689",
             "popularity": 77.7,
-            "parses": 2,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 237840,
-            "name": "Spellbreaker's Warglaive",
+            "name": "",
             "params": "bonus=8791&pcs=271537:271540:271535:271538:237840&ench=8689",
             "popularity": 35.4,
-            "parses": 1,
-            "nameEs": "Guja de guerra de rompechizos",
-            "icon": "inv_glaive_1h_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 34,
-            "parses": 1,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 34,
-            "parses": 1,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 1
           }
         ]
       }
@@ -2094,163 +1530,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271528,
-            "name": "Enigmatic Dreamwatcher's Somnolent Stare",
+            "name": "",
             "params": "pcs=271526:271531:271527:271528&gems=240898&ench=8017",
             "popularity": 85.5,
-            "parses": 15,
-            "nameEs": "Mirada fija somnolienta de vigía de los sueños enigmático",
-            "icon": "inv_helm_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 15
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271526:271531:271527:271528:268265&gems=240983",
             "popularity": 95.6,
-            "parses": 17,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 17
           },
           {
             "id": 271526,
-            "name": "Enigmatic Dreamwatcher's Plumage",
+            "name": "",
             "params": "pcs=271526:271531:271527:271528&ench=8001",
             "popularity": 93.9,
-            "parses": 16,
-            "nameEs": "Plumaje de vigía de los sueños enigmático",
-            "icon": "inv_shoulder_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 16
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271526:271531:271527:271528:268253",
             "popularity": 34.7,
-            "parses": 6,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 271531,
-            "name": "Enigmatic Dreamwatcher's Lunar Raiment",
+            "name": "",
             "params": "pcs=271526:271531:271527:271528&ench=7987",
             "popularity": 90.4,
-            "parses": 16,
-            "nameEs": "Vestiduras lunares de vigía de los sueños enigmático",
-            "icon": "inv_robe_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 16
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8791&pcs=271526:271531:271527:271528:244576&gems=240898",
             "popularity": 70.6,
-            "parses": 12,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 271529,
-            "name": "Enigmatic Dreamwatcher's Gauntlets",
+            "name": "",
             "params": "pcs=271526:271531:271527:271528:271529",
             "popularity": 76.2,
-            "parses": 13,
-            "nameEs": "Guanteletes de vigía de los sueños enigmático",
-            "icon": "inv_glove_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 13
           },
           {
             "id": 268256,
-            "name": "Sash of the Forlorn Vessel",
+            "name": "",
             "params": "pcs=271526:271531:271527:271528:268256&gems=240898",
             "popularity": 35.3,
-            "parses": 6,
-            "nameEs": "Fajín del recipiente desolado",
-            "icon": "inv_belt_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 271527,
-            "name": "Enigmatic Dreamwatcher's Leggings",
+            "name": "",
             "params": "pcs=271526:271531:271527:271528&ench=7935",
             "popularity": 86.5,
-            "parses": 15,
-            "nameEs": "Leotardos de vigía de los sueños enigmático",
-            "icon": "inv_pant_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 15
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8791&pcs=271526:271531:271527:271528:244569&ench=7963",
             "popularity": 51.2,
-            "parses": 9,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 268249,
-            "name": "Vile Alchemist's Band",
+            "name": "",
             "params": "bonus=13534&pcs=271526:271531:271527:271528:268249&gems=240898&ench=7967",
             "popularity": 56.8,
-            "parses": 10,
-            "nameEs": "Sortija de alquimista vil",
-            "icon": "inv_121_jewelry_ring01_purple",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271526:271531:271527:271528:281029&gems=240898&ench=7967",
             "popularity": 51.7,
-            "parses": 9,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271526:271531:271527:271528:271092&ench=8689",
             "popularity": 80.8,
-            "parses": 14,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 14
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8791&pcs=271526:271531:271527:271528:245769",
             "popularity": 66.3,
-            "parses": 12,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 273796,
-            "name": "Vile Vial of Volatile Venom",
+            "name": "",
             "params": "nofollow",
             "popularity": 18,
-            "parses": 3,
-            "nameEs": "Vial abyecto de veneno volátil",
-            "icon": "inv_121_trinket_dungeon_ulatek_vile",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 18,
-            "parses": 3,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 3
           }
         ]
       },
@@ -2269,163 +1657,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271528,
-            "name": "Enigmatic Dreamwatcher's Somnolent Stare",
+            "name": "",
             "params": "pcs=271526:271531:271528:271527&gems=240900&ench=8017",
             "popularity": 87.5,
-            "parses": 2,
-            "nameEs": "Mirada fija somnolienta de vigía de los sueños enigmático",
-            "icon": "inv_helm_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271526:271531:271528:271527:268265&gems=240983",
             "popularity": 93.4,
-            "parses": 2,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271526,
-            "name": "Enigmatic Dreamwatcher's Plumage",
+            "name": "",
             "params": "pcs=271526:271531:271528:271527&ench=8001",
             "popularity": 91,
-            "parses": 2,
-            "nameEs": "Plumaje de vigía de los sueños enigmático",
-            "icon": "inv_shoulder_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271526:271531:271528:271527:239656",
             "popularity": 31.4,
-            "parses": 820,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 820
           },
           {
             "id": 271531,
-            "name": "Enigmatic Dreamwatcher's Lunar Raiment",
+            "name": "",
             "params": "pcs=271526:271531:271528:271527&ench=7987",
             "popularity": 87.6,
-            "parses": 2,
-            "nameEs": "Vestiduras lunares de vigía de los sueños enigmático",
-            "icon": "inv_robe_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8791&pcs=271526:271531:271528:271527:244576&gems=240900",
             "popularity": 72.6,
-            "parses": 1,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271529,
-            "name": "Enigmatic Dreamwatcher's Gauntlets",
+            "name": "",
             "params": "pcs=271526:271531:271528:271527:271529",
             "popularity": 65.1,
-            "parses": 1,
-            "nameEs": "Guanteletes de vigía de los sueños enigmático",
-            "icon": "inv_glove_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268227,
-            "name": "Unpossessed Skullsash",
+            "name": "",
             "params": "pcs=271526:271531:271528:271527:268227&gems=240900",
             "popularity": 30,
-            "parses": 784,
-            "nameEs": "Fajín craneal desposeído",
-            "icon": "inv_belt_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 784
           },
           {
             "id": 271527,
-            "name": "Enigmatic Dreamwatcher's Leggings",
+            "name": "",
             "params": "pcs=271526:271531:271528:271527&ench=7935",
             "popularity": 85.8,
-            "parses": 2,
-            "nameEs": "Leotardos de vigía de los sueños enigmático",
-            "icon": "inv_pant_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8791&pcs=271526:271531:271528:271527:244569&ench=7963",
             "popularity": 59.6,
-            "parses": 1,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271526:271531:271528:271527:281029&gems=240900&ench=7967",
             "popularity": 64.5,
-            "parses": 1,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268249,
-            "name": "Vile Alchemist's Band",
+            "name": "",
             "params": "bonus=13534&pcs=271526:271531:271528:271527:268249&gems=240900&ench=7967",
             "popularity": 46.5,
-            "parses": 1,
-            "nameEs": "Sortija de alquimista vil",
-            "icon": "inv_121_jewelry_ring01_purple",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271526:271531:271528:271527:271092&ench=8689",
             "popularity": 88.4,
-            "parses": 2,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8791&pcs=271526:271531:271528:271527:245769",
             "popularity": 74.3,
-            "parses": 1,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 273796,
-            "name": "Vile Vial of Volatile Venom",
+            "name": "",
             "params": "nofollow",
             "popularity": 24,
-            "parses": 627,
-            "nameEs": "Vial abyecto de veneno volátil",
-            "icon": "inv_121_trinket_dungeon_ulatek_vile",
-            "quality": 4
+            "parses": 627
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 24,
-            "parses": 627,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 627
           }
         ]
       }
@@ -2446,153 +1786,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271528,
-            "name": "Enigmatic Dreamwatcher's Somnolent Stare",
+            "name": "",
             "params": "pcs=271531:271526:271528:271527&gems=240900&ench=8017",
             "popularity": 89.4,
-            "parses": 3,
-            "nameEs": "Mirada fija somnolienta de vigía de los sueños enigmático",
-            "icon": "inv_helm_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271531:271526:271528:271527:268265&gems=240983",
             "popularity": 87.8,
-            "parses": 3,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271526,
-            "name": "Enigmatic Dreamwatcher's Plumage",
+            "name": "",
             "params": "pcs=271531:271526:271528:271527&ench=8001",
             "popularity": 89.9,
-            "parses": 3,
-            "nameEs": "Plumaje de vigía de los sueños enigmático",
-            "icon": "inv_shoulder_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271531:271526:271528:271527:268253",
             "popularity": 32.6,
-            "parses": 1,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271531,
-            "name": "Enigmatic Dreamwatcher's Lunar Raiment",
+            "name": "",
             "params": "pcs=271531:271526:271528:271527&ench=7987",
             "popularity": 90.3,
-            "parses": 3,
-            "nameEs": "Vestiduras lunares de vigía de los sueños enigmático",
-            "icon": "inv_robe_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8793&pcs=271531:271526:271528:271527:244576&gems=240900",
             "popularity": 81.5,
-            "parses": 2,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271529,
-            "name": "Enigmatic Dreamwatcher's Gauntlets",
+            "name": "",
             "params": "pcs=271531:271526:271528:271527:271529",
             "popularity": 65.1,
-            "parses": 2,
-            "nameEs": "Guanteletes de vigía de los sueños enigmático",
-            "icon": "inv_glove_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268256,
-            "name": "Sash of the Forlorn Vessel",
+            "name": "",
             "params": "pcs=271531:271526:271528:271527:268256&gems=240900",
             "popularity": 38.5,
-            "parses": 1,
-            "nameEs": "Fajín del recipiente desolado",
-            "icon": "inv_belt_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271527,
-            "name": "Enigmatic Dreamwatcher's Leggings",
+            "name": "",
             "params": "pcs=271531:271526:271528:271527&ench=8159",
             "popularity": 87.3,
-            "parses": 3,
-            "nameEs": "Leotardos de vigía de los sueños enigmático",
-            "icon": "inv_pant_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8793&pcs=271531:271526:271528:271527:244569&ench=7963",
             "popularity": 59.9,
-            "parses": 2,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271531:271526:271528:271527:281029&gems=240900&ench=7967",
             "popularity": 53.5,
-            "parses": 1,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268249,
-            "name": "Vile Alchemist's Band",
+            "name": "",
             "params": "bonus=13534&pcs=271531:271526:271528:271527:268249&gems=240900&ench=7967",
             "popularity": 32.2,
-            "parses": 1,
-            "nameEs": "Sortija de alquimista vil",
-            "icon": "inv_121_jewelry_ring01_purple",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268215,
-            "name": "Abyssal Broodfiend's Bardiche",
+            "name": "",
             "params": "pcs=271531:271526:271528:271527:268215&ench=8689",
             "popularity": 88.4,
-            "parses": 3,
-            "nameEs": "Bardiche de maligno de la prole abisal",
-            "icon": "inv_polearm_2h_ulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 44.9,
-            "parses": 1,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 44.9,
-            "parses": 1,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 1
           }
         ]
       },
@@ -2611,320 +1906,230 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271528,
-            "name": "Enigmatic Dreamwatcher's Somnolent Stare",
+            "name": "",
             "params": "pcs=271528:271531:271526:271527&gems=240900&ench=8017",
             "popularity": 94.8,
-            "parses": 1,
-            "nameEs": "Mirada fija somnolienta de vigía de los sueños enigmático",
-            "icon": "inv_helm_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271528:271531:271526:271527:268265&gems=240983",
             "popularity": 96.5,
-            "parses": 1,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271526,
-            "name": "Enigmatic Dreamwatcher's Plumage",
+            "name": "",
             "params": "pcs=271528:271531:271526:271527&ench=8001",
             "popularity": 84.3,
-            "parses": 1,
-            "nameEs": "Plumaje de vigía de los sueños enigmático",
-            "icon": "inv_shoulder_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271528:271531:271526:271527:268253",
             "popularity": 36.8,
-            "parses": 521,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 521
           },
           {
             "id": 271531,
-            "name": "Enigmatic Dreamwatcher's Lunar Raiment",
+            "name": "",
             "params": "pcs=271528:271531:271526:271527&ench=7987",
             "popularity": 88.3,
-            "parses": 1,
-            "nameEs": "Vestiduras lunares de vigía de los sueños enigmático",
-            "icon": "inv_robe_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8793&pcs=271528:271531:271526:271527:244576&gems=240900",
             "popularity": 83.9,
-            "parses": 1,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271529,
-            "name": "Enigmatic Dreamwatcher's Gauntlets",
+            "name": "",
             "params": "pcs=271528:271531:271526:271527:271529",
             "popularity": 58.9,
-            "parses": 834,
-            "nameEs": "Guanteletes de vigía de los sueños enigmático",
-            "icon": "inv_glove_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 834
           },
           {
             "id": 268256,
-            "name": "Sash of the Forlorn Vessel",
+            "name": "",
             "params": "pcs=271528:271531:271526:271527:268256&gems=240900",
             "popularity": 35.4,
-            "parses": 501,
-            "nameEs": "Fajín del recipiente desolado",
-            "icon": "inv_belt_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 501
           },
           {
             "id": 271527,
-            "name": "Enigmatic Dreamwatcher's Leggings",
+            "name": "",
             "params": "pcs=271528:271531:271526:271527&ench=8159",
             "popularity": 82.6,
-            "parses": 1,
-            "nameEs": "Leotardos de vigía de los sueños enigmático",
-            "icon": "inv_pant_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8793&pcs=271528:271531:271526:271527:244569&ench=7963",
             "popularity": 68.7,
-            "parses": 972,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 972
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271528:271531:271526:271527:281029&gems=240900&ench=7967",
             "popularity": 71.7,
-            "parses": 1,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268249,
-            "name": "Vile Alchemist's Band",
+            "name": "",
             "params": "bonus=13534&pcs=271528:271531:271526:271527:268249&gems=240900&ench=7967",
             "popularity": 41,
-            "parses": 580,
-            "nameEs": "Sortija de alquimista vil",
-            "icon": "inv_121_jewelry_ring01_purple",
-            "quality": 4
+            "parses": 580
           },
           {
             "id": 268215,
-            "name": "Abyssal Broodfiend's Bardiche",
+            "name": "",
             "params": "pcs=271528:271531:271526:271527:268215&ench=8689",
             "popularity": 95.2,
-            "parses": 1,
-            "nameEs": "Bardiche de maligno de la prole abisal",
-            "icon": "inv_polearm_2h_ulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 65.7,
-            "parses": 929,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 929
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 65.7,
-            "parses": 929,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 929
           }
         ]
       }
     },
     "guardian": {
       "raid": {
-        "m": 621,
+        "m": 624,
         "c": 773,
         "h": 1273,
-        "v": 401,
-        "dps": "159.7k",
+        "v": 400,
+        "dps": "161.3k",
         "dpsLabel": "DPS",
         "popularity": "",
-        "topLogUrl": "https://www.warcraftlogs.com/reports/HKVtFJGdCMnN7gxw#fight=1",
+        "topLogUrl": "https://www.warcraftlogs.com/reports/6DMHJgWk8j94mhcq#fight=2",
         "talents": "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsYGjZ2MLGMLLDMbwoJamZWmZmZGjZMDAAAAAYGbzAW2mZwY2GATAAAAbYmBYxMYAbW2GgZGAD",
         "heroTree": "Elune's Chosen",
         "talentTreeHtml": "<div class=\"builds-talent-tree-build-section__talent-trees\"><div class=\"talent-tree  talent-tree--compact\"><div class=\"talent-tree--container  talent-tree--container--default-layout\"><div data-kind=\"class\" class=\"talent-tree__container talent-tree__container--class\" style=\"--rows:10;--min-cols:12\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"class\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--class\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/druid-1.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--class\"><div class=\"talent-tree__description__icon\"><img src=\"https://wow.zamimg.com/images/wow/icons/large/classicon_druid.jpg\" alt=\"druid\" style=\"width:2.5rem;height:2.5rem;border-radius:9999px;border:2px solid #f59e0b;object-fit:cover;display:block;\" onerror=\"this.src='https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg'\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Druid\">Class</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"12.5%\" y1=\"10%\" x2=\"25%\" y2=\"20%\"></line><line x1=\"12.5%\" y1=\"10%\" x2=\"12.5%\" y2=\"30%\"></line><line x1=\"12.5%\" y1=\"10%\" x2=\"0%\" y2=\"20%\"></line><line x1=\"62.5%\" y1=\"10%\" x2=\"75%\" y2=\"20%\"></line><line x1=\"62.5%\" y1=\"10%\" x2=\"62.5%\" y2=\"30%\"></line><line x1=\"62.5%\" y1=\"10%\" x2=\"50%\" y2=\"20%\"></line><line x1=\"37.5%\" y1=\"10%\" x2=\"25%\" y2=\"20%\"></line><line x1=\"37.5%\" y1=\"10%\" x2=\"37.5%\" y2=\"30%\"></line><line x1=\"37.5%\" y1=\"10%\" x2=\"50%\" y2=\"20%\"></line><line x1=\"87.5%\" y1=\"10%\" x2=\"87.5%\" y2=\"30%\"></line><line x1=\"87.5%\" y1=\"10%\" x2=\"100%\" y2=\"20%\"></line><line x1=\"75%\" y1=\"20%\" x2=\"75%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"20%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"20%\" x2=\"62.5%\" y2=\"30%\"></line><line x1=\"50%\" y1=\"20%\" x2=\"37.5%\" y2=\"30%\"></line><line x1=\"25%\" y1=\"20%\" x2=\"25%\" y2=\"40%\"></line><line x1=\"25%\" y1=\"20%\" x2=\"37.5%\" y2=\"30%\"></line><line x1=\"87.5%\" y1=\"30%\" x2=\"75%\" y2=\"40%\"></line><line x1=\"87.5%\" y1=\"30%\" x2=\"100%\" y2=\"40%\"></line><line x1=\"37.5%\" y1=\"30%\" x2=\"25%\" y2=\"40%\"></line><line x1=\"37.5%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"37.5%\" y1=\"30%\" x2=\"37.5%\" y2=\"40%\"></line><line x1=\"12.5%\" y1=\"30%\" x2=\"25%\" y2=\"40%\"></line><line x1=\"12.5%\" y1=\"30%\" x2=\"0%\" y2=\"40%\"></line><line x1=\"62.5%\" y1=\"30%\" x2=\"75%\" y2=\"40%\"></line><line x1=\"62.5%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"62.5%\" y1=\"30%\" x2=\"62.5%\" y2=\"40%\"></line><line x1=\"62.5%\" y1=\"40%\" x2=\"62.5%\" y2=\"50%\"></line><line x1=\"75%\" y1=\"40%\" x2=\"75%\" y2=\"60%\"></line><line x1=\"75%\" y1=\"40%\" x2=\"62.5%\" y2=\"50%\"></line><line x1=\"75%\" y1=\"40%\" x2=\"87.5%\" y2=\"50%\"></line><line x1=\"25%\" y1=\"40%\" x2=\"25%\" y2=\"60%\"></line><line x1=\"25%\" y1=\"40%\" x2=\"12.5%\" y2=\"50%\"></line><line x1=\"25%\" y1=\"40%\" x2=\"37.5%\" y2=\"50%\"></line><line x1=\"100%\" y1=\"40%\" x2=\"100%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"62.5%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"37.5%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"62.5%\" y1=\"50%\" x2=\"75%\" y2=\"60%\"></line><line x1=\"62.5%\" y1=\"50%\" x2=\"62.5%\" y2=\"70%\"></line><line x1=\"62.5%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"87.5%\" y1=\"50%\" x2=\"100%\" y2=\"60%\"></line><line x1=\"37.5%\" y1=\"50%\" x2=\"25%\" y2=\"60%\"></line><line x1=\"37.5%\" y1=\"50%\" x2=\"37.5%\" y2=\"70%\"></line><line x1=\"37.5%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"25%\" y1=\"60%\" x2=\"25%\" y2=\"70%\"></line><line x1=\"25%\" y1=\"60%\" x2=\"12.5%\" y2=\"70%\"></line><line x1=\"25%\" y1=\"60%\" x2=\"37.5%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"50%\" y2=\"70%\"></line><line x1=\"75%\" y1=\"60%\" x2=\"75%\" y2=\"70%\"></line><line x1=\"75%\" y1=\"60%\" x2=\"87.5%\" y2=\"70%\"></line><line x1=\"75%\" y1=\"60%\" x2=\"62.5%\" y2=\"70%\"></line><line x1=\"87.5%\" y1=\"70%\" x2=\"87.5%\" y2=\"80%\"></line><line x1=\"75%\" y1=\"70%\" x2=\"87.5%\" y2=\"80%\"></line><line x1=\"75%\" y1=\"70%\" x2=\"75%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"62.5%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"37.5%\" y2=\"80%\"></line><line x1=\"25%\" y1=\"70%\" x2=\"12.5%\" y2=\"80%\"></line><line x1=\"25%\" y1=\"70%\" x2=\"25%\" y2=\"80%\"></line><line x1=\"12.5%\" y1=\"70%\" x2=\"12.5%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"37.5%\" y2=\"90%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"62.5%\" y2=\"90%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"87.5%\" y1=\"80%\" x2=\"75%\" y2=\"90%\"></line><line x1=\"87.5%\" y1=\"80%\" x2=\"100%\" y2=\"90%\"></line><line x1=\"87.5%\" y1=\"80%\" x2=\"87.5%\" y2=\"100%\"></line><line x1=\"12.5%\" y1=\"80%\" x2=\"25%\" y2=\"90%\"></line><line x1=\"12.5%\" y1=\"80%\" x2=\"0%\" y2=\"90%\"></line><line x1=\"12.5%\" y1=\"80%\" x2=\"12.5%\" y2=\"100%\"></line><line x1=\"37.5%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"62.5%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"50%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1822?def=108282&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_disembowel.jpg\" alt=\"Rake\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=774?def=108300&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_rejuvenation.jpg\" alt=\"Rejuvenation\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=22842?def=108303&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_bullrush.jpg\" alt=\"Frenzied Regeneration\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=197628?def=117972&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_starfire.jpg\" alt=\"Starfire\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=197626?def=108283&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcane03.jpg\" alt=\"Starsurge\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=48438?def=108288&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_flourish.jpg\" alt=\"Wild Growth\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449182?def=108302&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_spiritarmor.jpg\" alt=\"Ursoc's Spirit\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=213764?def=108306&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_monsterclaw_03.jpg\" alt=\"Swipe\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=474526?def=108323&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_xavius_tormentingswipe.jpg\" alt=\"Grievous Wounds\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=24858?def=108291&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_forceofnature.jpg\" alt=\"Moonkin Form\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=301768?def=108301&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_bullrush.jpg\" alt=\"Verdant Heart\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1079?def=108305&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_ghoulfrenzy.jpg\" alt=\"Rip\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=2782?def=108325&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_removecurse.jpg\" alt=\"Remove Corruption\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=2637?def=108294&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_sleep.jpg\" alt=\"Hibernate\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=33873?def=108297&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_healinginstincts.jpg\" alt=\"Nurturing Instinct\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=22570?def=108304&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_mangle-tga.jpg\" alt=\"Maim\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=108299?def=108308&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_predatoryinstincts.jpg\" alt=\"Killer Instinct\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=192081?def=108310&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_ironfur.jpg\" alt=\"Ironfur\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=93402?def=121114&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_firestarter.jpg\" alt=\"Sunfire\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=327993?def=133394&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_stoneclawtotem.jpg\" alt=\"Improved Barkskin\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377796?def=108289&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_naturalperfection.jpg\" alt=\"Natural Recovery\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=197524?def=108293&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_skyreach_lens_flare.jpg\" alt=\"Astral Influence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=159286?def=108307&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_racial_cannibalize.jpg\" alt=\"Primal Fury\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=16931?def=108311&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_pelt_bear_03.jpg\" alt=\"Thick Hide\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=106839?def=108327&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_bone_skull_04.jpg\" alt=\"Skull Bash\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=102401?def=108281&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_wildcharge.jpg\" alt=\"Wild Charge\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=2908?def=108312&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_hunter_beastsoothe.jpg\" alt=\"Soothe\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=474678?def=133384&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_healingtouch.jpg\" alt=\"Aessina's Renewal\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=451211?def=128706&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcane01.jpg\" alt=\"Starlight Conduit\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=102793?def=133392&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_ursolsvortex.jpg\" alt=\"Ursol's Vortex\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=132469?def=108292&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_typhoon.jpg\" alt=\"Typhoon\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=106898?def=108317&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_stampedingroar_cat.jpg\" alt=\"Stampeding Roar\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377847?def=108318&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_tigersroar.jpg\" alt=\"Well-Honed Instincts\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=131768?def=108319&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_dash.jpg\" alt=\"Feline Swiftness\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=231040?def=108324&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_rejuvenation.jpg\" alt=\"Lingering Healing\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=385786?def=128634&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_pelt_15.jpg\" alt=\"Matted Fur\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=378988?def=108316&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_trinket_ardenweald_02_green.jpg\" alt=\"Lycara's Teachings\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1262034?def=128632&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_giftofthewild.jpg\" alt=\"Gift of the Wild\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449191?def=128633&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_stoneclawtotem.jpg\" alt=\"Oakskin\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:75%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_galewinds.jpg\" alt=\"Gale Winds\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_skyreach_wind.jpg\" alt=\"Incessant Tempest\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449185?def=133387&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_starfall.jpg\" alt=\"Lore of the Grove\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449184?def=133388&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_vampiricaura.jpg\" alt=\"Instincts of the Claw\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1213597?def=133389&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_tigersroar.jpg\" alt=\"Perfectly-Honed Instincts\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=288826?def=108313&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_stamedingroar.jpg\" alt=\"Improved Stampeding Roar\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:0%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_demoralizingroar.jpg\" alt=\"Incapacitating Roar\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_bash.jpg\" alt=\"Mighty Bash\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=400129?def=108328&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_lifegivingspeed.jpg\" alt=\"Forestwalk\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1232897?def=119305&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_trinket_ardenweald_02_yellow.jpg\" alt=\"Lycara's Inspiration\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=474750?def=128630&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_focusedgrowth.jpg\" alt=\"Symbiotic Relationship\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377842?def=128631&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_markofursol.jpg\" alt=\"Ursine Vigor\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=474530?def=133383&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_disembowel.jpg\" alt=\"Circle of the Wild\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1261867?def=108314&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_blessingofagility.jpg\" alt=\"Heart of the Wild\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=29166?def=108329&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_lightning.jpg\" alt=\"Innervate\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449193?def=108331&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_mastershapeshifter.jpg\" alt=\"Fluid Form\" loading=\"lazy\"></a></div></div></div></div></div><div class=\"talent-tree__container talent-tree__container--hero\" style=\"--rows:1;--talent-count:3\"><div class=\"talent-tree__hero-spacer\"></div><div class=\"talent-tree__container--height-limiter\" data-kind=\"hero\"><div class=\"talent-tree__hero-title do-not-change-color-on-hover Druid talent-tree__hero-title--horizontal \">Elune's Chosen</div><div class=\"talent-tree__hero-icon\"><span class=\"\"><div class=\"talent-tree__hero-icon--wrapper \"><img src=\"https://assets.rpglogs.com/img/warcraft/talents/hero/24_full.png\" alt=\"Elune's Chosen\"></div></span></div><div class=\"talent-tree__hero-container talent-tree__hero-container--compact\n          talent-tree__hero-container--horizontal\n          \"><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=443046?def=128177&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_wildcharge.jpg\" alt=\"Elune's Grace\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=428655?def=122188&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_dreamstate.jpg\" alt=\"The Light of Elune\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=429539?def=122189&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_moonglow.jpg\" alt=\"Lunation\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div data-kind=\"spec\" class=\"talent-tree__container talent-tree__container--spec\" style=\"--rows:11;--min-cols:9\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"spec\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--spec\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/druid-3.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--spec\"><div class=\"talent-tree__description__icon\"><img class=\"sprite actor-sprite-Druid-Guardian\" src=\"https://assets.rpglogs.com/img/warcraft/icons/actors.jpg?v=43\" loading=\"lazy\" alt=\"\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Druid\">Spec</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"33.33333333333333%\" y2=\"18.181818181818183%\"></line><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"66.66666666666666%\" y2=\"18.181818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"16.666666666666664%\" y2=\"27.27272727272727%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"33.33333333333333%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"66.66666666666666%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"83.33333333333334%\" y2=\"27.27272727272727%\"></line><line x1=\"33.33333333333333%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"33.33333333333333%\" y1=\"27.27272727272727%\" x2=\"16.666666666666664%\" y2=\"36.36363636363637%\"></line><line x1=\"66.66666666666666%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"66.66666666666666%\" y1=\"27.27272727272727%\" x2=\"83.33333333333334%\" y2=\"36.36363636363637%\"></line><line x1=\"16.666666666666664%\" y1=\"27.27272727272727%\" x2=\"16.666666666666664%\" y2=\"36.36363636363637%\"></line><line x1=\"83.33333333333334%\" y1=\"27.27272727272727%\" x2=\"83.33333333333334%\" y2=\"36.36363636363637%\"></line><line x1=\"83.33333333333334%\" y1=\"36.36363636363637%\" x2=\"66.66666666666666%\" y2=\"45.45454545454545%\"></line><line x1=\"83.33333333333334%\" y1=\"36.36363636363637%\" x2=\"100%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"66.66666666666666%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"33.33333333333333%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"50%\" y2=\"45.45454545454545%\"></line><line x1=\"16.666666666666664%\" y1=\"36.36363636363637%\" x2=\"33.33333333333333%\" y2=\"45.45454545454545%\"></line><line x1=\"16.666666666666664%\" y1=\"36.36363636363637%\" x2=\"0%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"33.33333333333333%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"66.66666666666666%\" y2=\"54.54545454545454%\"></line><line x1=\"0%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"54.54545454545454%\"></line><line x1=\"0%\" y1=\"45.45454545454545%\" x2=\"0%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"66.66666666666666%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"83.33333333333334%\" y2=\"54.54545454545454%\"></line><line x1=\"100%\" y1=\"45.45454545454545%\" x2=\"100%\" y2=\"54.54545454545454%\"></line><line x1=\"100%\" y1=\"45.45454545454545%\" x2=\"83.33333333333334%\" y2=\"54.54545454545454%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"54.54545454545454%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"33.33333333333333%\" y2=\"54.54545454545454%\"></line><line x1=\"100%\" y1=\"54.54545454545454%\" x2=\"100%\" y2=\"72.72727272727273%\"></line><line x1=\"100%\" y1=\"54.54545454545454%\" x2=\"83.33333333333334%\" y2=\"63.63636363636363%\"></line><line x1=\"33.33333333333333%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"33.33333333333333%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"16.666666666666664%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"83.33333333333334%\" y1=\"54.54545454545454%\" x2=\"83.33333333333334%\" y2=\"63.63636363636363%\"></line><line x1=\"66.66666666666666%\" y1=\"54.54545454545454%\" x2=\"83.33333333333334%\" y2=\"63.63636363636363%\"></line><line x1=\"66.66666666666666%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"0%\" y1=\"54.54545454545454%\" x2=\"0%\" y2=\"72.72727272727273%\"></line><line x1=\"0%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"0%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"16.666666666666664%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"100%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"83.33333333333334%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"100%\" y1=\"72.72727272727273%\" x2=\"100%\" y2=\"90.9090909090909%\"></line><line x1=\"100%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"16.666666666666664%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"0%\" y1=\"72.72727272727273%\" x2=\"0%\" y2=\"90.9090909090909%\"></line><line x1=\"0%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"83.33333333333334%\" y1=\"81.81818181818183%\" x2=\"100%\" y2=\"90.9090909090909%\"></line><line x1=\"83.33333333333334%\" y1=\"81.81818181818183%\" x2=\"66.66666666666666%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"50%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"33.33333333333333%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"66.66666666666666%\" y2=\"90.9090909090909%\"></line><line x1=\"16.666666666666664%\" y1=\"81.81818181818183%\" x2=\"33.33333333333333%\" y2=\"90.9090909090909%\"></line><line x1=\"16.666666666666664%\" y1=\"81.81818181818183%\" x2=\"0%\" y2=\"90.9090909090909%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=6807?def=108196&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_maul.jpg\" alt=\"Maul\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=210706?def=108195&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_bearhug.jpg\" alt=\"Gore\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=61336?def=108198&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_tigersroar.jpg\" alt=\"Survival Instincts\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1251406?def=108223&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_1115_druid_bearstanding.jpg\" alt=\"Persistence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1278886?def=141569&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/achievement_reputation_guardiansofcenarius.jpg\" alt=\"Dream Guide\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377835?def=108210&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_stampedingroar_cat.jpg\" alt=\"Front of the Pack\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=345208?def=140323&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_infectedwound.jpg\" alt=\"Infected Wounds\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=372618?def=108200&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_primalagression.jpg\" alt=\"Vulnerable Flesh\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=50334?def=108221&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_berserk.jpg\" alt=\"Berserk\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377811?def=108234&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_healingway.jpg\" alt=\"Innate Resolve\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=371905?def=108211&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_ability_druid_afterthewildfire.jpg\" alt=\"After the Wildfire\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=203965?def=108215&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_enrage.jpg\" alt=\"Survival of the Fittest\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250906?def=108216&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_regeneration_02.jpg\" alt=\"Memory of Ysera\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=238049?def=108218&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_fire_twilightfireward.jpg\" alt=\"Scintillating Moonlight\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=372945?def=108231&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_overgrowth.jpg\" alt=\"Reinvigoration\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=471492?def=108220&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_natureresistancetotem.jpg\" alt=\"Ursol's Warding\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1278789?def=108230&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_lfieblood.jpg\" alt=\"Natural Resilience\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=393618?def=108236&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_spiritarmor.jpg\" alt=\"Reinforced Fur\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=158477?def=108213&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_manatree.jpg\" alt=\"Soul of the Forest\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=200854?def=140322&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/artifactability_guardiandruid_goryfur.jpg\" alt=\"Gory Fur\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1251876?def=140248&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_relics_idolofhealth.jpg\" alt=\"Gift of an Ancient Guardian\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=203953?def=140326&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_thornnecklace.jpg\" alt=\"Brambles\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=400254?def=108207&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_lacerate.jpg\" alt=\"Raze\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=204053?def=108226&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_swipe.jpg\" alt=\"Rend and Tear\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=204066?def=119706&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_moonglow.jpg\" alt=\"Lunar Beam\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=370695?def=108208&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_cresentburn.jpg\" alt=\"Fury of Nature\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=203962?def=108214&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_primaltenacity.jpg\" alt=\"Blood Frenzy\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1252871?def=140103&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/sha_ability_mage_firestarter_nightmare.jpg\" alt=\"Red Moon\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=393427?def=108228&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_thrash.jpg\" alt=\"Flashing Claws\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377210?def=108233&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/achievement_emeraldnightmare_ursoc.jpg\" alt=\"Ursoc's Fury\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=400278?def=119705&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/artifactability_balancedruid_newmoon.jpg\" alt=\"Moonless Night\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=370586?def=108203&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_elunesgrace.jpg\" alt=\"Elune's Favored\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=102558?def=108206&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_incarnation.jpg\" alt=\"Incarnation: Guardian of Ursoc\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1253035?def=140247&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_bearclaw_nightmare.jpg\" alt=\"Harnessed Rage\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=393414?def=108204&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_ability_druid_convokethespirits.jpg\" alt=\"Ursoc's Guidance\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=203964?def=108217&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_iceclaw.jpg\" alt=\"Galactic Guardian\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1252994?def=108227&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/artifactability_feraldruid_ashamanesbite.jpg\" alt=\"Killing Blow\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1253799?def=119707&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/artifactability_feraldruid_openwounds.jpg\" alt=\"Sundering Roar\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1253461?def=140245&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/sha_spell_shadow_shadesofdarkness_nightmare.jpg\" alt=\"Waking Nightmare\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:11;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1269614?def=141824&amp;rank=4&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_apextalent_druid_wildguardian.jpg\" alt=\"Wild Guardian\" loading=\"lazy\"></span><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">4</span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div class=\"talent-tree__interactions-export \"><button class=\"talent-tree__interactions-export__copy-button \"><span>Export</span><i class=\"fa-solid fa-copy ml-1.5 text-amber-400\"></i></button><a href=\"https://www.wowhead.com/talent-calc/blizzard/CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsYGjZ2MLGMLLDMbwoJamZWmZmZGjZMDAAAAAYGbzAW2mZwY2GATAAAAbYmBYxMYAbW2GgZGAD\" target=\"_blank\" rel=\"noreferrer\" class=\"talent-tree__interactions-export__external-link\"><span>Edit</span><i class=\"fa-solid fa-arrow-up-right-from-square ml-1.5 text-amber-400\"></i></a></div></div></div>",
         "bisGear": [
           {
             "id": 271528,
-            "name": "Enigmatic Dreamwatcher's Somnolent Stare",
+            "name": "",
             "params": "pcs=271526:271531:271528:271527&gems=240894&ench=7961",
             "popularity": 86.5,
-            "parses": 5,
-            "nameEs": "Mirada fija somnolienta de vigía de los sueños enigmático",
-            "icon": "inv_helm_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271526:271531:271528:271527:268265&gems=240983",
-            "popularity": 88.2,
-            "parses": 5,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "popularity": 88.4,
+            "parses": 5
           },
           {
             "id": 271526,
-            "name": "Enigmatic Dreamwatcher's Plumage",
+            "name": "",
             "params": "pcs=271526:271531:271528:271527&ench=8031",
-            "popularity": 90.2,
-            "parses": 5,
-            "nameEs": "Plumaje de vigía de los sueños enigmático",
-            "icon": "inv_shoulder_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "popularity": 89.8,
+            "parses": 5
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8792&pcs=271526:271531:271528:271527:239656",
             "popularity": 46.5,
-            "parses": 2,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271531,
-            "name": "Enigmatic Dreamwatcher's Lunar Raiment",
+            "name": "",
             "params": "pcs=271526:271531:271528:271527&ench=7987",
-            "popularity": 89.6,
-            "parses": 5,
-            "nameEs": "Vestiduras lunares de vigía de los sueños enigmático",
-            "icon": "inv_robe_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "popularity": 89.4,
+            "parses": 5
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8792&pcs=271526:271531:271528:271527:244576&gems=240894",
-            "popularity": 76.2,
-            "parses": 4,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "popularity": 75.6,
+            "parses": 4
           },
           {
             "id": 271529,
-            "name": "Enigmatic Dreamwatcher's Gauntlets",
+            "name": "",
             "params": "pcs=271526:271531:271528:271527:271529",
-            "popularity": 80,
-            "parses": 4,
-            "nameEs": "Guanteletes de vigía de los sueños enigmático",
-            "icon": "inv_glove_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "popularity": 79.6,
+            "parses": 4
           },
           {
             "id": 244573,
-            "name": "Silvermoon Agent's Utility Belt",
+            "name": "",
             "params": "bonus=8792&pcs=271526:271531:271528:271527:244573&gems=240894",
-            "popularity": 24,
-            "parses": 1,
-            "nameEs": "Cinturón de herramientas de agente de Lunargenta",
-            "icon": "inv_belt_leather_questbloodelf_b_01",
-            "quality": 4
+            "popularity": 24.6,
+            "parses": 1
           },
           {
             "id": 271527,
-            "name": "Enigmatic Dreamwatcher's Leggings",
+            "name": "",
             "params": "pcs=271526:271531:271528:271527&ench=8159",
-            "popularity": 81,
-            "parses": 5,
-            "nameEs": "Leotardos de vigía de los sueños enigmático",
-            "icon": "inv_pant_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "popularity": 81.5,
+            "parses": 5
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8792&pcs=271526:271531:271528:271527:244569&ench=7993",
-            "popularity": 45.4,
-            "parses": 2,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "popularity": 44.8,
+            "parses": 2
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271526:271531:271528:271527:281029&gems=240894&ench=7967",
-            "popularity": 47.2,
-            "parses": 2,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "popularity": 49.3,
+            "parses": 3
           },
           {
             "id": 268266,
-            "name": "Alluring Bubbleband",
+            "name": "",
             "params": "bonus=13534&pcs=271526:271531:271528:271527:268266&gems=240894&ench=7967",
-            "popularity": 33.9,
-            "parses": 2,
-            "nameEs": "Sortija de burbujas atrayente",
-            "icon": "inv_70_raid_ring8c",
-            "quality": 4
+            "popularity": 33.4,
+            "parses": 2
           },
           {
             "id": 268215,
-            "name": "Abyssal Broodfiend's Bardiche",
+            "name": "",
             "params": "pcs=271526:271531:271528:271527:268215&ench=8689",
-            "popularity": 82.7,
-            "parses": 5,
-            "nameEs": "Bardiche de maligno de la prole abisal",
-            "icon": "inv_polearm_2h_ulatek_d_01",
-            "quality": 4
+            "popularity": 83,
+            "parses": 5
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
-            "popularity": 21.7,
-            "parses": 1,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "popularity": 23.3,
+            "parses": 1
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
-            "popularity": 21.7,
-            "parses": 1,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "popularity": 23.3,
+            "parses": 1
           }
         ]
       },
@@ -2943,153 +2148,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271528,
-            "name": "Enigmatic Dreamwatcher's Somnolent Stare",
+            "name": "",
             "params": "pcs=271528:271531:271526:271529&gems=240890&ench=7961",
             "popularity": 91.4,
-            "parses": 9,
-            "nameEs": "Mirada fija somnolienta de vigía de los sueños enigmático",
-            "icon": "inv_helm_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271528:271531:271526:271529:268265&gems=240983",
             "popularity": 91.4,
-            "parses": 9,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 271526,
-            "name": "Enigmatic Dreamwatcher's Plumage",
+            "name": "",
             "params": "pcs=271528:271531:271526:271529&ench=8031",
             "popularity": 83.7,
-            "parses": 9,
-            "nameEs": "Plumaje de vigía de los sueños enigmático",
-            "icon": "inv_shoulder_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8790&pcs=271528:271531:271526:271529:239656",
             "popularity": 66.9,
-            "parses": 7,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 271531,
-            "name": "Enigmatic Dreamwatcher's Lunar Raiment",
+            "name": "",
             "params": "pcs=271528:271531:271526:271529&ench=7987",
             "popularity": 85.7,
-            "parses": 9,
-            "nameEs": "Vestiduras lunares de vigía de los sueños enigmático",
-            "icon": "inv_robe_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8790&pcs=271528:271531:271526:271529:244576&gems=240890",
             "popularity": 79.8,
-            "parses": 8,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 271529,
-            "name": "Enigmatic Dreamwatcher's Gauntlets",
+            "name": "",
             "params": "pcs=271528:271531:271526:271529",
             "popularity": 73.5,
-            "parses": 8,
-            "nameEs": "Guanteletes de vigía de los sueños enigmático",
-            "icon": "inv_glove_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 244573,
-            "name": "Silvermoon Agent's Utility Belt",
+            "name": "",
             "params": "bonus=8790&pcs=271528:271531:271526:271529:244573&gems=240890",
             "popularity": 27.9,
-            "parses": 3,
-            "nameEs": "Cinturón de herramientas de agente de Lunargenta",
-            "icon": "inv_belt_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271527,
-            "name": "Enigmatic Dreamwatcher's Leggings",
+            "name": "",
             "params": "pcs=271528:271531:271526:271529:271527&ench=8159",
             "popularity": 69.5,
-            "parses": 7,
-            "nameEs": "Leotardos de vigía de los sueños enigmático",
-            "icon": "inv_pant_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8790&pcs=271528:271531:271526:271529:244569&ench=7993",
             "popularity": 56.6,
-            "parses": 6,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271528:271531:271526:271529:281029&gems=240890&ench=7967",
             "popularity": 56.8,
-            "parses": 6,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271528:271531:271526:271529:240949&gems=240890&ench=7967",
             "popularity": 49.9,
-            "parses": 5,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268215,
-            "name": "Abyssal Broodfiend's Bardiche",
+            "name": "",
             "params": "pcs=271528:271531:271526:271529:268215&ench=8689",
             "popularity": 87.6,
-            "parses": 9,
-            "nameEs": "Bardiche de maligno de la prole abisal",
-            "icon": "inv_polearm_2h_ulatek_d_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 37,
-            "parses": 4,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 37,
-            "parses": 4,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 4
           }
         ]
       }
@@ -3110,163 +2270,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271528,
-            "name": "Enigmatic Dreamwatcher's Somnolent Stare",
+            "name": "",
             "params": "pcs=271531:271527:271528:271529&gems=240892&ench=7961",
             "popularity": 91.3,
-            "parses": 10,
-            "nameEs": "Mirada fija somnolienta de vigía de los sueños enigmático",
-            "icon": "inv_helm_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271531:271527:271528:271529:268265&gems=240983",
             "popularity": 85.8,
-            "parses": 9,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 271526,
-            "name": "Enigmatic Dreamwatcher's Plumage",
+            "name": "",
             "params": "pcs=271531:271527:271528:271529:271526&ench=8031",
             "popularity": 49,
-            "parses": 5,
-            "nameEs": "Plumaje de vigía de los sueños enigmático",
-            "icon": "inv_shoulder_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271531:271527:271528:271529:268253",
             "popularity": 42.7,
-            "parses": 4,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271531,
-            "name": "Enigmatic Dreamwatcher's Lunar Raiment",
+            "name": "",
             "params": "pcs=271531:271527:271528:271529&ench=7987",
             "popularity": 94.5,
-            "parses": 10,
-            "nameEs": "Vestiduras lunares de vigía de los sueños enigmático",
-            "icon": "inv_robe_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8793&pcs=271531:271527:271528:271529:244576&gems=240892",
             "popularity": 76,
-            "parses": 8,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 271529,
-            "name": "Enigmatic Dreamwatcher's Gauntlets",
+            "name": "",
             "params": "pcs=271531:271527:271528:271529",
             "popularity": 89.4,
-            "parses": 10,
-            "nameEs": "Guanteletes de vigía de los sueños enigmático",
-            "icon": "inv_glove_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 268256,
-            "name": "Sash of the Forlorn Vessel",
+            "name": "",
             "params": "pcs=271531:271527:271528:271529:268256&gems=240892",
             "popularity": 52.4,
-            "parses": 6,
-            "nameEs": "Fajín del recipiente desolado",
-            "icon": "inv_belt_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 271527,
-            "name": "Enigmatic Dreamwatcher's Leggings",
+            "name": "",
             "params": "pcs=271531:271527:271528:271529&ench=7937",
             "popularity": 94,
-            "parses": 10,
-            "nameEs": "Leotardos de vigía de los sueños enigmático",
-            "icon": "inv_pant_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8793&pcs=271531:271527:271528:271529:244569&ench=7993",
             "popularity": 45.9,
-            "parses": 5,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8793&pcs=271531:271527:271528:271529:240949&gems=240892&ench=8025",
             "popularity": 44,
-            "parses": 5,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271531:271527:271528:271529:281029&gems=240892&ench=8025",
             "popularity": 38.7,
-            "parses": 4,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271531:271527:271528:271529:271092&ench=8039",
             "popularity": 69.1,
-            "parses": 7,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 268197,
-            "name": "Spine of the Hissing Abyss",
+            "name": "",
             "params": "pcs=271531:271527:271528:271529:268197",
             "popularity": 33.1,
-            "parses": 3,
-            "nameEs": "Espinazo del abismo siseante",
-            "icon": "inv_offhand_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 270162,
-            "name": "Soulcoiler Ritual Vessel",
+            "name": "",
             "params": "nofollow",
             "popularity": 43.9,
-            "parses": 5,
-            "nameEs": "Recipiente ritual de volutador de almas",
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 270167,
-            "name": "Wavecaller's Seastone",
+            "name": "",
             "params": "nofollow",
             "popularity": 43.9,
-            "parses": 5,
-            "nameEs": "Piedra marina de clamaolas",
-            "icon": "inv_tradeskillitem_sorcererswater",
-            "quality": 4
+            "parses": 5
           }
         ]
       },
@@ -3285,163 +2397,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271528,
-            "name": "Enigmatic Dreamwatcher's Somnolent Stare",
+            "name": "",
             "params": "pcs=271528:271531:271527:271529&gems=240892&ench=8017",
             "popularity": 91.1,
-            "parses": 2,
-            "nameEs": "Mirada fija somnolienta de vigía de los sueños enigmático",
-            "icon": "inv_helm_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271528:271531:271527:271529:268265&gems=240983",
             "popularity": 85.2,
-            "parses": 2,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 244572,
-            "name": "Silvermoon Agent's Mantle",
+            "name": "",
             "params": "bonus=8793&pcs=271528:271531:271527:271529:244572&ench=8001",
             "popularity": 52,
-            "parses": 1,
-            "nameEs": "Manto de agente de Lunargenta",
-            "icon": "inv_shoulder_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271528:271531:271527:271529:268253",
             "popularity": 33.3,
-            "parses": 1,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271531,
-            "name": "Enigmatic Dreamwatcher's Lunar Raiment",
+            "name": "",
             "params": "pcs=271528:271531:271527:271529&ench=7987",
             "popularity": 90.3,
-            "parses": 2,
-            "nameEs": "Vestiduras lunares de vigía de los sueños enigmático",
-            "icon": "inv_robe_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8793&pcs=271528:271531:271527:271529:244576&gems=240892",
             "popularity": 81.2,
-            "parses": 2,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271529,
-            "name": "Enigmatic Dreamwatcher's Gauntlets",
+            "name": "",
             "params": "pcs=271528:271531:271527:271529",
             "popularity": 86.4,
-            "parses": 2,
-            "nameEs": "Guanteletes de vigía de los sueños enigmático",
-            "icon": "inv_glove_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268256,
-            "name": "Sash of the Forlorn Vessel",
+            "name": "",
             "params": "pcs=271528:271531:271527:271529:268256&gems=240892",
             "popularity": 41.9,
-            "parses": 1,
-            "nameEs": "Fajín del recipiente desolado",
-            "icon": "inv_belt_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271527,
-            "name": "Enigmatic Dreamwatcher's Leggings",
+            "name": "",
             "params": "pcs=271528:271531:271527:271529&ench=7935",
             "popularity": 88.4,
-            "parses": 2,
-            "nameEs": "Leotardos de vigía de los sueños enigmático",
-            "icon": "inv_pant_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8793&pcs=271528:271531:271527:271529:244569&ench=7963",
             "popularity": 50.9,
-            "parses": 1,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271528:271531:271527:271529:281029&gems=240892&ench=8025",
             "popularity": 48.2,
-            "parses": 1,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 252258,
-            "name": "Sickening Signet of Atroxus",
+            "name": "",
             "params": "bonus=13534&pcs=271528:271531:271527:271529:252258&gems=240892&ench=8025",
             "popularity": 36.9,
-            "parses": 1,
-            "nameEs": "Sello enfermizo de Atroxus",
-            "icon": "inv_12_jewelry_devouringhost_ring_bronze2",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271528:271531:271527:271529:271092&ench=8039",
             "popularity": 74.5,
-            "parses": 2,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8793&pcs=271528:271531:271527:271529:245769",
             "popularity": 43.2,
-            "parses": 1,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 270162,
-            "name": "Soulcoiler Ritual Vessel",
+            "name": "",
             "params": "nofollow",
             "popularity": 46.7,
-            "parses": 1,
-            "nameEs": "Recipiente ritual de volutador de almas",
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 270167,
-            "name": "Wavecaller's Seastone",
+            "name": "",
             "params": "nofollow",
             "popularity": 46.7,
-            "parses": 1,
-            "nameEs": "Piedra marina de clamaolas",
-            "icon": "inv_tradeskillitem_sorcererswater",
-            "quality": 4
+            "parses": 1
           }
         ]
       }
@@ -3464,163 +2528,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271501,
-            "name": "Calamitous Echo's Magmashapers",
+            "name": "",
             "params": "pcs=271499:271501:271500:271504&gems=240906&ench=8017",
             "popularity": 89,
-            "parses": 5,
-            "nameEs": "Formalavas de eco calamitoso",
-            "icon": "inv_helm_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271499:271501:271500:271504:268265&gems=240983",
             "popularity": 91.5,
-            "parses": 5,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271499,
-            "name": "Calamitous Echo's Sundered Peaks",
+            "name": "",
             "params": "pcs=271499:271501:271500:271504&ench=8001",
             "popularity": 90.3,
-            "parses": 5,
-            "nameEs": "Picos hendidos de eco calamitoso",
-            "icon": "inv_shoulder_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271499:271501:271500:271504:239656",
             "popularity": 35.2,
-            "parses": 2,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271504,
-            "name": "Searing Caldera of Calamity",
+            "name": "",
             "params": "pcs=271499:271501:271500:271504&ench=7987",
             "popularity": 86.3,
-            "parses": 5,
-            "nameEs": "Caldera abrasadora de calamidad",
-            "icon": "inv_chest_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8791&pcs=271499:271501:271500:271504:244584&gems=240906",
             "popularity": 73.9,
-            "parses": 4,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271502,
-            "name": "Calamitous Echo's Ebon Greathorns",
+            "name": "",
             "params": "pcs=271499:271501:271500:271504:271502",
             "popularity": 84.5,
-            "parses": 4,
-            "nameEs": "Grandes cuernos de ébano de eco calamitoso",
-            "icon": "inv_glove_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 268254,
-            "name": "Serpentine Mixing Belt",
+            "name": "",
             "params": "pcs=271499:271501:271500:271504:268254&gems=240906",
             "popularity": 28,
-            "parses": 1,
-            "nameEs": "Cinturón de mezclas serpentino",
-            "icon": "inv_belt_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271500,
-            "name": "Earthen Pillars of Calamity",
+            "name": "",
             "params": "pcs=271499:271501:271500:271504&ench=7935",
             "popularity": 86.6,
-            "parses": 5,
-            "nameEs": "Pilares terráneos de calamidad",
-            "icon": "inv_pant_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268258,
-            "name": "Boots of the Reckless Wayfarer",
+            "name": "",
             "params": "pcs=271499:271501:271500:271504:268258&ench=7963",
             "popularity": 47.4,
-            "parses": 2,
-            "nameEs": "Botas del caminante temerario",
-            "icon": "inv_boot_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268252,
-            "name": "Apex Brute's Claw Ring",
+            "name": "",
             "params": "bonus=13534&pcs=271499:271501:271500:271504:268252&gems=240906&ench=7967",
             "popularity": 38.4,
-            "parses": 2,
-            "nameEs": "Anillo de zarpas de bruto alfa",
-            "icon": "inv_121_jewelry_ring03_red",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8791&pcs=271499:271501:271500:271504:240949&gems=240906&ench=7967",
             "popularity": 31.7,
-            "parses": 1,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271499:271501:271500:271504:271092&ench=8039",
             "popularity": 75.5,
-            "parses": 4,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8791&pcs=271499:271501:271500:271504:245769",
             "popularity": 64.8,
-            "parses": 3,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 28.8,
-            "parses": 1,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 270167,
-            "name": "Wavecaller's Seastone",
+            "name": "",
             "params": "nofollow",
             "popularity": 28.8,
-            "parses": 1,
-            "nameEs": "Piedra marina de clamaolas",
-            "icon": "inv_tradeskillitem_sorcererswater",
-            "quality": 4
+            "parses": 1
           }
         ]
       },
@@ -3639,163 +2655,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271501,
-            "name": "Calamitous Echo's Magmashapers",
+            "name": "",
             "params": "pcs=271501:271504:271500:271499&gems=240906&ench=8017",
             "popularity": 88.9,
-            "parses": 824,
-            "nameEs": "Formalavas de eco calamitoso",
-            "icon": "inv_helm_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 824
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271501:271504:271500:271499:268265&gems=240983",
             "popularity": 91.9,
-            "parses": 852,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 852
           },
           {
             "id": 271499,
-            "name": "Calamitous Echo's Sundered Peaks",
+            "name": "",
             "params": "pcs=271501:271504:271500:271499&ench=8001",
             "popularity": 81.6,
-            "parses": 756,
-            "nameEs": "Picos hendidos de eco calamitoso",
-            "icon": "inv_shoulder_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 756
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271501:271504:271500:271499:239656",
             "popularity": 44.6,
-            "parses": 413,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 413
           },
           {
             "id": 271504,
-            "name": "Searing Caldera of Calamity",
+            "name": "",
             "params": "pcs=271501:271504:271500:271499&ench=7987",
             "popularity": 87.8,
-            "parses": 814,
-            "nameEs": "Caldera abrasadora de calamidad",
-            "icon": "inv_chest_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 814
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8791&pcs=271501:271504:271500:271499:244584&gems=240906",
             "popularity": 75.8,
-            "parses": 703,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 703
           },
           {
             "id": 271502,
-            "name": "Calamitous Echo's Ebon Greathorns",
+            "name": "",
             "params": "pcs=271501:271504:271500:271499:271502",
             "popularity": 81,
-            "parses": 751,
-            "nameEs": "Grandes cuernos de ébano de eco calamitoso",
-            "icon": "inv_glove_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 751
           },
           {
             "id": 244581,
-            "name": "Farstrider's Trophy Belt",
+            "name": "",
             "params": "bonus=8791&pcs=271501:271504:271500:271499:244581&gems=240906",
             "popularity": 37.1,
-            "parses": 344,
-            "nameEs": "Cinturón de trofeos de errante",
-            "icon": "inv_belt_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 344
           },
           {
             "id": 271500,
-            "name": "Earthen Pillars of Calamity",
+            "name": "",
             "params": "pcs=271501:271504:271500:271499&ench=7935",
             "popularity": 82.4,
-            "parses": 764,
-            "nameEs": "Pilares terráneos de calamidad",
-            "icon": "inv_pant_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 764
           },
           {
             "id": 268258,
-            "name": "Boots of the Reckless Wayfarer",
+            "name": "",
             "params": "pcs=271501:271504:271500:271499:268258&ench=7963",
             "popularity": 35.6,
-            "parses": 330,
-            "nameEs": "Botas del caminante temerario",
-            "icon": "inv_boot_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 330
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271501:271504:271500:271499:281029&gems=240906&ench=7967",
             "popularity": 47.1,
-            "parses": 437,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 437
           },
           {
             "id": 268252,
-            "name": "Apex Brute's Claw Ring",
+            "name": "",
             "params": "bonus=13534&pcs=271501:271504:271500:271499:268252&gems=240906&ench=7967",
             "popularity": 41.4,
-            "parses": 384,
-            "nameEs": "Anillo de zarpas de bruto alfa",
-            "icon": "inv_121_jewelry_ring03_red",
-            "quality": 4
+            "parses": 384
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271501:271504:271500:271499:271092&ench=8039",
             "popularity": 84.1,
-            "parses": 780,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 780
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8791&pcs=271501:271504:271500:271499:245769",
             "popularity": 75.6,
-            "parses": 701,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 701
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 37.1,
-            "parses": 344,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 344
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 37.1,
-            "parses": 344,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 344
           }
         ]
       }
@@ -3816,163 +2784,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271501,
-            "name": "Calamitous Echo's Magmashapers",
+            "name": "",
             "params": "pcs=271504:271499:271501:271502&gems=240908&ench=7961",
             "popularity": 88.6,
-            "parses": 11,
-            "nameEs": "Formalavas de eco calamitoso",
-            "icon": "inv_helm_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271504:271499:271501:271502:268265&gems=240983",
             "popularity": 86.9,
-            "parses": 10,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 271499,
-            "name": "Calamitous Echo's Sundered Peaks",
+            "name": "",
             "params": "pcs=271504:271499:271501:271502&ench=8031",
             "popularity": 89.2,
-            "parses": 11,
-            "nameEs": "Picos hendidos de eco calamitoso",
-            "icon": "inv_shoulder_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271504:271499:271501:271502:239656",
             "popularity": 29.8,
-            "parses": 3,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271504,
-            "name": "Searing Caldera of Calamity",
+            "name": "",
             "params": "pcs=271504:271499:271501:271502&ench=7987",
             "popularity": 91,
-            "parses": 11,
-            "nameEs": "Caldera abrasadora de calamidad",
-            "icon": "inv_chest_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8791&pcs=271504:271499:271501:271502:244584&gems=240908",
             "popularity": 62.4,
-            "parses": 7,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 271502,
-            "name": "Calamitous Echo's Ebon Greathorns",
+            "name": "",
             "params": "pcs=271504:271499:271501:271502",
             "popularity": 84.7,
-            "parses": 10,
-            "nameEs": "Grandes cuernos de ébano de eco calamitoso",
-            "icon": "inv_glove_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 268254,
-            "name": "Serpentine Mixing Belt",
+            "name": "",
             "params": "pcs=271504:271499:271501:271502:268254&gems=240908",
             "popularity": 32.7,
-            "parses": 4,
-            "nameEs": "Cinturón de mezclas serpentino",
-            "icon": "inv_belt_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271500,
-            "name": "Earthen Pillars of Calamity",
+            "name": "",
             "params": "pcs=271504:271499:271501:271502:271500&ench=7937",
             "popularity": 79.8,
-            "parses": 10,
-            "nameEs": "Pilares terráneos de calamidad",
-            "icon": "inv_pant_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 268258,
-            "name": "Boots of the Reckless Wayfarer",
+            "name": "",
             "params": "pcs=271504:271499:271501:271502:268258&ench=7993",
             "popularity": 45.7,
-            "parses": 5,
-            "nameEs": "Botas del caminante temerario",
-            "icon": "inv_boot_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268249,
-            "name": "Vile Alchemist's Band",
+            "name": "",
             "params": "bonus=13534&pcs=271504:271499:271501:271502:268249&gems=240908&ench=7969",
             "popularity": 49.1,
-            "parses": 6,
-            "nameEs": "Sortija de alquimista vil",
-            "icon": "inv_121_jewelry_ring01_purple",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8791&pcs=271504:271499:271501:271502:240949&gems=240908&ench=7969",
             "popularity": 43.2,
-            "parses": 5,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271504:271499:271501:271502:271092&ench=8689",
             "popularity": 55.8,
-            "parses": 7,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8791&pcs=271504:271499:271501:271502:245769",
             "popularity": 32.9,
-            "parses": 4,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 270162,
-            "name": "Soulcoiler Ritual Vessel",
+            "name": "",
             "params": "nofollow",
             "popularity": 59.7,
-            "parses": 7,
-            "nameEs": "Recipiente ritual de volutador de almas",
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 59.7,
-            "parses": 7,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 7
           }
         ]
       },
@@ -3991,340 +2911,244 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271501,
-            "name": "Calamitous Echo's Magmashapers",
+            "name": "",
             "params": "pcs=271501:271502:271504:271499&gems=240916&ench=8017",
             "popularity": 87.6,
-            "parses": 1,
-            "nameEs": "Formalavas de eco calamitoso",
-            "icon": "inv_helm_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271501:271502:271504:271499:268265&gems=240983",
             "popularity": 93.1,
-            "parses": 1,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271499,
-            "name": "Calamitous Echo's Sundered Peaks",
+            "name": "",
             "params": "pcs=271501:271502:271504:271499&ench=8001",
             "popularity": 81.5,
-            "parses": 1,
-            "nameEs": "Picos hendidos de eco calamitoso",
-            "icon": "inv_shoulder_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8792&pcs=271501:271502:271504:271499:239656",
             "popularity": 47.3,
-            "parses": 688,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 688
           },
           {
             "id": 271504,
-            "name": "Searing Caldera of Calamity",
+            "name": "",
             "params": "pcs=271501:271502:271504:271499&ench=7987",
             "popularity": 81.9,
-            "parses": 1,
-            "nameEs": "Caldera abrasadora de calamidad",
-            "icon": "inv_chest_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8792&pcs=271501:271502:271504:271499:244584&gems=240916",
             "popularity": 78.5,
-            "parses": 1,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271502,
-            "name": "Calamitous Echo's Ebon Greathorns",
+            "name": "",
             "params": "pcs=271501:271502:271504:271499",
             "popularity": 86.4,
-            "parses": 1,
-            "nameEs": "Grandes cuernos de ébano de eco calamitoso",
-            "icon": "inv_glove_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 244581,
-            "name": "Farstrider's Trophy Belt",
+            "name": "",
             "params": "bonus=8792&pcs=271501:271502:271504:271499:244581&gems=240916",
             "popularity": 37.4,
-            "parses": 545,
-            "nameEs": "Cinturón de trofeos de errante",
-            "icon": "inv_belt_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 545
           },
           {
             "id": 271500,
-            "name": "Earthen Pillars of Calamity",
+            "name": "",
             "params": "pcs=271501:271502:271504:271499:271500&ench=7935",
             "popularity": 74.3,
-            "parses": 1,
-            "nameEs": "Pilares terráneos de calamidad",
-            "icon": "inv_pant_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271440,
-            "name": "Greaves of the Noxious Depths",
+            "name": "",
             "params": "pcs=271501:271502:271504:271499:271440&ench=7963",
             "popularity": 32.3,
-            "parses": 470,
-            "nameEs": "Grebas de las profundidades nocivas",
-            "icon": "inv_boot_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 470
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8792&pcs=271501:271502:271504:271499:240949&gems=240916&ench=8027",
             "popularity": 52.3,
-            "parses": 761,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 761
           },
           {
             "id": 268266,
-            "name": "Alluring Bubbleband",
+            "name": "",
             "params": "bonus=13534&pcs=271501:271502:271504:271499:268266&gems=240916&ench=8027",
             "popularity": 36.3,
-            "parses": 529,
-            "nameEs": "Sortija de burbujas atrayente",
-            "icon": "inv_70_raid_ring8c",
-            "quality": 4
+            "parses": 529
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271501:271502:271504:271499:271092&ench=8689",
             "popularity": 82.6,
-            "parses": 1,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8792&pcs=271501:271502:271504:271499:245769",
             "popularity": 45.6,
-            "parses": 664,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 664
           },
           {
             "id": 270162,
-            "name": "Soulcoiler Ritual Vessel",
+            "name": "",
             "params": "nofollow",
             "popularity": 28.2,
-            "parses": 411,
-            "nameEs": "Recipiente ritual de volutador de almas",
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "quality": 4
+            "parses": 411
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 28.2,
-            "parses": 411,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 411
           }
         ]
       }
     },
     "augmentation": {
       "raid": {
-        "m": 1639,
-        "c": 920,
-        "h": 502,
+        "m": 1674,
+        "c": 917,
+        "h": 503,
         "v": 140,
-        "dps": "321.1k",
+        "dps": "322.8k",
         "dpsLabel": "DPS",
         "popularity": "",
-        "topLogUrl": "https://www.warcraftlogs.com/reports/8Wpbzj1PgGCQnLMf#fight=22",
-        "talents": "CEcBAAAAAAAAAAAAAAAAAAAAAMmZmZbmZGMYmZZmZMjZAAAAAAAAgZGjZwYqxMzMAAAAYGzYMzsMmZgZYgxMWYBGYGGagFMzYmBAG",
+        "topLogUrl": "https://www.warcraftlogs.com/reports/H3R4N6Yd2xrt8jZX#fight=21",
+        "talents": "CEcBAAAAAAAAAAAAAAAAAAAAAMmZmZbmZGMYmZZmZMjZAAAAAAAAgZGjZwYqZMzMAAAAYGzYMzsMmZgZYgxMWYBGYGGagFMzYmBAG",
         "heroTree": "Chronowarden",
-        "talentTreeHtml": "<div class=\"builds-talent-tree-build-section__talent-trees\"><div class=\"talent-tree  talent-tree--compact\"><div class=\"talent-tree--container  talent-tree--container--default-layout\"><div data-kind=\"class\" class=\"talent-tree__container talent-tree__container--class\" style=\"--rows:10;--min-cols:9\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"class\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--class\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/evoker-1.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--class\"><div class=\"talent-tree__description__icon\"><img src=\"https://wow.zamimg.com/images/wow/icons/large/classicon_evoker.jpg\" alt=\"evoker\" style=\"width:2.5rem;height:2.5rem;border-radius:9999px;border:2px solid #f59e0b;object-fit:cover;display:block;\" onerror=\"this.src='https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg'\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Evoker\">Class</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"10%\" x2=\"50%\" y2=\"20%\"></line><line x1=\"16.666666666666664%\" y1=\"10%\" x2=\"16.666666666666664%\" y2=\"20%\"></line><line x1=\"83.33333333333334%\" y1=\"10%\" x2=\"83.33333333333334%\" y2=\"20%\"></line><line x1=\"16.666666666666664%\" y1=\"20%\" x2=\"0%\" y2=\"30%\"></line><line x1=\"16.666666666666664%\" y1=\"20%\" x2=\"33.33333333333333%\" y2=\"30%\"></line><line x1=\"16.666666666666664%\" y1=\"20%\" x2=\"16.666666666666664%\" y2=\"40%\"></line><line x1=\"83.33333333333334%\" y1=\"20%\" x2=\"83.33333333333334%\" y2=\"40%\"></line><line x1=\"83.33333333333334%\" y1=\"20%\" x2=\"66.66666666666666%\" y2=\"30%\"></line><line x1=\"83.33333333333334%\" y1=\"20%\" x2=\"100%\" y2=\"30%\"></line><line x1=\"50%\" y1=\"20%\" x2=\"33.33333333333333%\" y2=\"30%\"></line><line x1=\"50%\" y1=\"20%\" x2=\"66.66666666666666%\" y2=\"30%\"></line><line x1=\"50%\" y1=\"20%\" x2=\"50%\" y2=\"30%\"></line><line x1=\"66.66666666666666%\" y1=\"30%\" x2=\"66.66666666666666%\" y2=\"40%\"></line><line x1=\"66.66666666666666%\" y1=\"30%\" x2=\"83.33333333333334%\" y2=\"40%\"></line><line x1=\"66.66666666666666%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"33.33333333333333%\" y1=\"30%\" x2=\"16.666666666666664%\" y2=\"40%\"></line><line x1=\"33.33333333333333%\" y1=\"30%\" x2=\"33.33333333333333%\" y2=\"40%\"></line><line x1=\"33.33333333333333%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"66.66666666666666%\" y1=\"40%\" x2=\"66.66666666666666%\" y2=\"60%\"></line><line x1=\"83.33333333333334%\" y1=\"40%\" x2=\"83.33333333333334%\" y2=\"50%\"></line><line x1=\"83.33333333333334%\" y1=\"40%\" x2=\"100%\" y2=\"50%\"></line><line x1=\"33.33333333333333%\" y1=\"40%\" x2=\"33.33333333333333%\" y2=\"60%\"></line><line x1=\"16.666666666666664%\" y1=\"40%\" x2=\"0%\" y2=\"50%\"></line><line x1=\"16.666666666666664%\" y1=\"40%\" x2=\"16.666666666666664%\" y2=\"50%\"></line><line x1=\"83.33333333333334%\" y1=\"50%\" x2=\"83.33333333333334%\" y2=\"60%\"></line><line x1=\"16.666666666666664%\" y1=\"50%\" x2=\"16.666666666666664%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"66.66666666666666%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"33.33333333333333%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"83.33333333333334%\" y1=\"60%\" x2=\"83.33333333333334%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"50%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"60%\" x2=\"83.33333333333334%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"60%\" x2=\"66.66666666666666%\" y2=\"70%\"></line><line x1=\"33.33333333333333%\" y1=\"60%\" x2=\"33.33333333333333%\" y2=\"70%\"></line><line x1=\"33.33333333333333%\" y1=\"60%\" x2=\"16.666666666666664%\" y2=\"70%\"></line><line x1=\"16.666666666666664%\" y1=\"60%\" x2=\"16.666666666666664%\" y2=\"70%\"></line><line x1=\"16.666666666666664%\" y1=\"60%\" x2=\"0%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"70%\" x2=\"66.66666666666666%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"33.33333333333333%\" y2=\"80%\"></line><line x1=\"16.666666666666664%\" y1=\"70%\" x2=\"33.33333333333333%\" y2=\"80%\"></line><line x1=\"16.666666666666664%\" y1=\"70%\" x2=\"16.666666666666664%\" y2=\"80%\"></line><line x1=\"16.666666666666664%\" y1=\"70%\" x2=\"0%\" y2=\"80%\"></line><line x1=\"83.33333333333334%\" y1=\"70%\" x2=\"66.66666666666666%\" y2=\"80%\"></line><line x1=\"83.33333333333334%\" y1=\"70%\" x2=\"100%\" y2=\"80%\"></line><line x1=\"83.33333333333334%\" y1=\"70%\" x2=\"83.33333333333334%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"33.33333333333333%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"66.66666666666666%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"66.66666666666666%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"66.66666666666666%\" y1=\"80%\" x2=\"66.66666666666666%\" y2=\"90%\"></line><line x1=\"33.33333333333333%\" y1=\"80%\" x2=\"16.666666666666664%\" y2=\"90%\"></line><line x1=\"33.33333333333333%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"33.33333333333333%\" y1=\"80%\" x2=\"33.33333333333333%\" y2=\"90%\"></line><line x1=\"16.666666666666664%\" y1=\"80%\" x2=\"16.666666666666664%\" y2=\"90%\"></line><line x1=\"0%\" y1=\"80%\" x2=\"16.666666666666664%\" y2=\"90%\"></line><line x1=\"0%\" y1=\"80%\" x2=\"0%\" y2=\"90%\"></line><line x1=\"100%\" y1=\"80%\" x2=\"100%\" y2=\"90%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"83.33333333333334%\" y1=\"80%\" x2=\"83.33333333333334%\" y2=\"100%\"></line><line x1=\"66.66666666666666%\" y1=\"90%\" x2=\"83.33333333333334%\" y2=\"100%\"></line><line x1=\"16.666666666666664%\" y1=\"90%\" x2=\"16.666666666666664%\" y2=\"100%\"></line><line x1=\"50%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"100%\" y1=\"90%\" x2=\"83.33333333333334%\" y2=\"100%\"></line><line x1=\"0%\" y1=\"90%\" x2=\"16.666666666666664%\" y2=\"100%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=363916?def=120625&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_artifact_dragonscales.jpg\" alt=\"Obsidian Scales\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=358385?def=120626&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_earthen_pillar.jpg\" alt=\"Landslide\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=365585?def=120627&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_fontofmagic_green.jpg\" alt=\"Expunge\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=369913?def=120633&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_frostblast.jpg\" alt=\"Natural Convergence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=360995?def=120667&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_rescue.jpg\" alt=\"Verdant Embrace\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=368838?def=133023&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_racial_wingbuffet.jpg\" alt=\"Heavy Wingbeats\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375528?def=120588&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_earthen_pillar.jpg\" alt=\"Forger of Mountains\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375406?def=120609&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_shield_1h_revenantfire_d_01.jpg\" alt=\"Obsidian Bulwark\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375554?def=120615&amp;rank=2&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_livingflame.jpg\" alt=\"Enkindled\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375520?def=120623&amp;rank=2&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_innatemagic4.jpg\" alt=\"Innate Magic\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=372469?def=120666&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_bijou_red.jpg\" alt=\"Scarlet Adaptation\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375556?def=120610&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_skyreach_wind.jpg\" alt=\"Tailwind\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=374251?def=120614&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_fontofmagic_red.jpg\" alt=\"Cauterizing Flame\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=371806?def=120622&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_recall.jpg\" alt=\"Recall\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=386405?def=120632&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_spellwarding.jpg\" alt=\"Inner Radiance\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375443?def=133024&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_racial_tailswipe.jpg\" alt=\"Clobbering Sweep\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=369990?def=120589&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_elemental_mote_fire01.jpg\" alt=\"Ancient Flame\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=376930?def=120612&amp;rank=2&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_rogue_imrovedrecuperate.jpg\" alt=\"Attuned to the Dream\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=360806?def=120613&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_xavius_dreamsimulacrum.jpg\" alt=\"Sleep Walk\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=376164?def=120631&amp;rank=2&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_studentofmagic.jpg\" alt=\"Instinctive Arcana\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=370553?def=120677&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_tipthescales.jpg\" alt=\"Tip the Scales\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=370886?def=120611&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_emeraldblossom.jpg\" alt=\"Bountiful Bloom\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=376166?def=120621&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_helm_mail_dracthyrquest_b_02.jpg\" alt=\"Draconic Legacy\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375517?def=120676&amp;rank=2&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_hover.jpg\" alt=\"Extended Flight\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375544?def=120682&amp;rank=2&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_rubysanctum1.jpg\" alt=\"Inherent Resistance\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=369909?def=141332&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_azurestrike.jpg\" alt=\"Protracted Talons\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387341?def=120606&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_monsterscales_06.jpg\" alt=\"Walloping Blow\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375542?def=120620&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_hover2.jpg\" alt=\"Exuberance\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375510?def=120630&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_firebreath.jpg\" alt=\"Blast Furnace\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387761?def=120675&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_protectionofthegrove.jpg\" alt=\"Panacea\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387787?def=120680&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_manarecharge.jpg\" alt=\"Regenerative Magic\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=374348?def=120681&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_masterylifebinder_red.jpg\" alt=\"Renewing Blaze\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=370665?def=120608&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_flywithme.jpg\" alt=\"Rescue\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=372048?def=120619&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_oppressingroar.jpg\" alt=\"Oppressing Roar\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1264378?def=120628&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_unravel.jpg\" alt=\"Unravel\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=410352?def=120629&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_timedilation.jpg\" alt=\"Stretch Time\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=369459?def=120670&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_blue_01.jpg\" alt=\"Source of Magic\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375574?def=120672&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_fire_incinerate.jpg\" alt=\"Foci of Life\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375561?def=120674&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_staff_2h_bloodelf_c_01.jpg\" alt=\"Lush Growth\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=370888?def=120607&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_volatileair.jpg\" alt=\"Twin Guardian\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=374346?def=120618&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_oppressingroar2.jpg\" alt=\"Overawe\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=369939?def=120669&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_pupilofalexstraza.jpg\" alt=\"Leaping Flames\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=365933?def=120679&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_aerialmastery.jpg\" alt=\"Aerial Mastery\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=418101?def=121115&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_magic_managain.jpg\" alt=\"Potent Mana\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1267206?def=141333&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_racial_glide.jpg\" alt=\"Strike from Above\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=371032?def=120668&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_terroroftheskies.jpg\" alt=\"Terror of the Skies\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=374227?def=120673&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_hoverblack.jpg\" alt=\"Zephyr\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=374968?def=120678&amp;rank=1&amp;spellModifier=396186\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_timespiral.jpg\" alt=\"Time Spiral\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div><div class=\"talent-tree__container talent-tree__container--hero\" style=\"--rows:1;--talent-count:2\"><div class=\"talent-tree__hero-spacer\"></div><div class=\"talent-tree__container--height-limiter\" data-kind=\"hero\"><div class=\"talent-tree__hero-title do-not-change-color-on-hover Evoker talent-tree__hero-title--horizontal \">Chronowarden</div><div class=\"talent-tree__hero-icon\"><span class=\"\"><div class=\"talent-tree__hero-icon--wrapper \"><img src=\"https://assets.rpglogs.com/img/warcraft/talents/hero/38_full.png\" alt=\"Chronowarden\"></div></span></div><div class=\"talent-tree__hero-container talent-tree__hero-container--compact\n          talent-tree__hero-container--horizontal\n          \"><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=431873?def=122544&amp;rank=1&amp;spellModifier=396186\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_return.jpg\" alt=\"Temporality\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=431874?def=122541&amp;rank=1&amp;spellModifier=396186\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_borrowedtime.jpg\" alt=\"Double-time\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div data-kind=\"spec\" class=\"talent-tree__container talent-tree__container--spec\" style=\"--rows:11;--min-cols:9\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"spec\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--spec\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/evoker-3.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--spec\"><div class=\"talent-tree__description__icon\"><img class=\"sprite actor-sprite-Evoker-Augmentation\" src=\"https://assets.rpglogs.com/img/warcraft/icons/actors.jpg?v=43\" loading=\"lazy\" alt=\"\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Evoker\">Spec</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"66.66666666666666%\" y2=\"18.181818181818183%\"></line><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"33.33333333333333%\" y2=\"18.181818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"33.33333333333333%\" y2=\"27.27272727272727%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"16.666666666666664%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"66.66666666666666%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"83.33333333333334%\" y2=\"27.27272727272727%\"></line><line x1=\"16.666666666666664%\" y1=\"27.27272727272727%\" x2=\"16.666666666666664%\" y2=\"36.36363636363637%\"></line><line x1=\"33.33333333333333%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"33.33333333333333%\" y1=\"27.27272727272727%\" x2=\"16.666666666666664%\" y2=\"36.36363636363637%\"></line><line x1=\"66.66666666666666%\" y1=\"27.27272727272727%\" x2=\"83.33333333333334%\" y2=\"36.36363636363637%\"></line><line x1=\"66.66666666666666%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"83.33333333333334%\" y1=\"27.27272727272727%\" x2=\"83.33333333333334%\" y2=\"36.36363636363637%\"></line><line x1=\"16.666666666666664%\" y1=\"36.36363636363637%\" x2=\"33.33333333333333%\" y2=\"45.45454545454545%\"></line><line x1=\"16.666666666666664%\" y1=\"36.36363636363637%\" x2=\"0%\" y2=\"45.45454545454545%\"></line><line x1=\"16.666666666666664%\" y1=\"36.36363636363637%\" x2=\"16.666666666666664%\" y2=\"45.45454545454545%\"></line><line x1=\"83.33333333333334%\" y1=\"36.36363636363637%\" x2=\"83.33333333333334%\" y2=\"45.45454545454545%\"></line><line x1=\"83.33333333333334%\" y1=\"36.36363636363637%\" x2=\"100%\" y2=\"45.45454545454545%\"></line><line x1=\"83.33333333333334%\" y1=\"36.36363636363637%\" x2=\"66.66666666666666%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"50%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"66.66666666666666%\" y2=\"45.45454545454545%\"></line><line x1=\"100%\" y1=\"45.45454545454545%\" x2=\"83.33333333333334%\" y2=\"54.54545454545454%\"></line><line x1=\"16.666666666666664%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"54.54545454545454%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"54.54545454545454%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"54.54545454545454%\"></line><line x1=\"83.33333333333334%\" y1=\"45.45454545454545%\" x2=\"83.33333333333334%\" y2=\"54.54545454545454%\"></line><line x1=\"0%\" y1=\"45.45454545454545%\" x2=\"0%\" y2=\"63.63636363636363%\"></line><line x1=\"0%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"83.33333333333334%\" y2=\"54.54545454545454%\"></line><line x1=\"16.666666666666664%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"16.666666666666664%\" y1=\"54.54545454545454%\" x2=\"0%\" y2=\"63.63636363636363%\"></line><line x1=\"16.666666666666664%\" y1=\"54.54545454545454%\" x2=\"33.33333333333333%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"33.33333333333333%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"66.66666666666666%\" y2=\"63.63636363636363%\"></line><line x1=\"83.33333333333334%\" y1=\"54.54545454545454%\" x2=\"100%\" y2=\"63.63636363636363%\"></line><line x1=\"83.33333333333334%\" y1=\"54.54545454545454%\" x2=\"66.66666666666666%\" y2=\"63.63636363636363%\"></line><line x1=\"83.33333333333334%\" y1=\"54.54545454545454%\" x2=\"83.33333333333334%\" y2=\"63.63636363636363%\"></line><line x1=\"33.33333333333333%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"0%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"16.666666666666664%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"100%\" y1=\"63.63636363636363%\" x2=\"100%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"66.66666666666666%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"83.33333333333334%\" y2=\"72.72727272727273%\"></line><line x1=\"0%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"33.33333333333333%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"83.33333333333334%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"66.66666666666666%\" y2=\"81.81818181818183%\"></line><line x1=\"16.666666666666664%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"100%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"83.33333333333334%\" y1=\"81.81818181818183%\" x2=\"100%\" y2=\"90.9090909090909%\"></line><line x1=\"66.66666666666666%\" y1=\"81.81818181818183%\" x2=\"66.66666666666666%\" y2=\"90.9090909090909%\"></line><line x1=\"16.666666666666664%\" y1=\"81.81818181818183%\" x2=\"0%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"50%\" y2=\"90.9090909090909%\"></line><line x1=\"33.33333333333333%\" y1=\"81.81818181818183%\" x2=\"33.33333333333333%\" y2=\"90.9090909090909%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=395152?def=120508&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_sarkareth.jpg\" alt=\"Ebon Might\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=395160?def=120510&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_eruption.jpg\" alt=\"Eruption\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=396187?def=120532&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_essenceburst.jpg\" alt=\"Essence Burst\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=351338?def=120702&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_quell.jpg\" alt=\"Quell\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=406659?def=120519&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_rhyolith_volcano.jpg\" alt=\"Ricocheting Pyroclast\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375722?def=120531&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_essenceburststacks.jpg\" alt=\"Essence Attunement\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=407814?def=120533&amp;rank=1&amp;spellModifier=396186\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_pupilofalexstraza.jpg\" alt=\"Pupil of Alexstrasza\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=396286?def=120514&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_upheaval.jpg\" alt=\"Upheaval\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=404195?def=120534&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_defyfate.jpg\" alt=\"Defy Fate\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=403631?def=120548&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_breathofeons.jpg\" alt=\"Breath of Eons\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1268881?def=120505&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_masterytimewalker.jpg\" alt=\"Improved Defy Fate\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=369908?def=120511&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_powernexus.jpg\" alt=\"Power Nexus\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=406904?def=120517&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_fire_volcano.jpg\" alt=\"Volcanism\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_lastingafflictions.jpg\" alt=\"Perilous Fate\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_bronze_01.jpg\" alt=\"Chrono Ward\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=412710?def=120691&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_timelessness.jpg\" alt=\"Timelessness\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=408775?def=120700&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_fire_immolation.jpg\" alt=\"Ignition Rush\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=408233?def=120546&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_bestowweyrnstone.jpg\" alt=\"Bestow Weyrnstone\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=360827?def=120520&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_blisteringscales.jpg\" alt=\"Blistering Scales\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=403208?def=120530&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_draconicattunements.jpg\" alt=\"Draconic Attunements\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=409311?def=120687&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_prescience.jpg\" alt=\"Prescience\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=408002?def=120512&amp;rank=1&amp;spellModifier=396186\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/6bf_explosive_shard.jpg\" alt=\"Tectonic Locus\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=408004?def=120518&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_voidshift.jpg\" alt=\"Momentum Shift\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:16.666666666666664%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_ability_evoker_blisteringscalesinfinite.jpg\" alt=\"Regenerative Chitin\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shaman_spewlava.jpg\" alt=\"Molten Blood\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=410685?def=120527&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_10_herb_seed_magiccolor5.jpg\" alt=\"Symbiotic Bloom\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=407243?def=120529&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_aspectsfavor.jpg\" alt=\"Aspects' Favor\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=454983?def=120538&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/classicon_evoker.jpg\" alt=\"Arcane Reach\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=412774?def=120697&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/trade_archaeology_highbornesoulmirror.jpg\" alt=\"Fate Mirror\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=409329?def=120521&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_reactivehide.jpg\" alt=\"Reactive Hide\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375796?def=120524&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_innatemagic2.jpg\" alt=\"Hoarded Power\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=407869?def=120535&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_essenceburst6.jpg\" alt=\"Anachronism\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=409267?def=120543&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_motesofpossibility.jpg\" alt=\"Motes of Possibility\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=408083?def=120544&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_fontofmagic.jpg\" alt=\"Font of Magic\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:100%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_reversion_green.jpg\" alt=\"Prolong Life\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_masterylifebinder.jpg\" alt=\"Dream of Spring\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=410261?def=120507&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_infernosblessing.jpg\" alt=\"Inferno's Blessing\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250914?def=120540&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_masterylifebinder_bronze.jpg\" alt=\"Clairvoyant\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=407876?def=120542&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_accretion.jpg\" alt=\"Accretion\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=404977?def=120545&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_timeskip.jpg\" alt=\"Time Skip\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=459537?def=131130&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_burningbladeshaman_blazing_radiance.jpg\" alt=\"Imminent Destruction\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=459120?def=120516&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_geomancy.jpg\" alt=\"Rumbling Earth\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=410260?def=120525&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_overlord.jpg\" alt=\"Overlord\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=407866?def=120539&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_plotthefuture.jpg\" alt=\"Plot the Future\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_rewind2.jpg\" alt=\"Tomorrow, Today\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_enchant_optionalreagent_01.jpg\" alt=\"Interwoven Threads\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1291457?def=131131&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_warlock_burningembers.jpg\" alt=\"Mighty Inferno\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:11;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1259173?def=141776&amp;rank=4&amp;spellModifier=396186\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_apextalent_evoker_duplicate.jpg\" alt=\"Duplicate\" loading=\"lazy\"></span><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">4</span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div class=\"talent-tree__interactions-export \"><button class=\"talent-tree__interactions-export__copy-button \"><span>Export</span><i class=\"fa-solid fa-copy ml-1.5 text-amber-400\"></i></button><a href=\"https://www.wowhead.com/talent-calc/blizzard/CEcBAAAAAAAAAAAAAAAAAAAAAMmZmZbmZGMYmZZmZMjZAAAAAAAAgZGjZwYqxMzMAAAAYGzYMzsMmZgZYgxMWYBGYGGagFMzYmBAG\" target=\"_blank\" rel=\"noreferrer\" class=\"talent-tree__interactions-export__external-link\"><span>Edit</span><i class=\"fa-solid fa-arrow-up-right-from-square ml-1.5 text-amber-400\"></i></a></div></div></div>",
+        "talentTreeHtml": "<div class=\"builds-talent-tree-build-section__talent-trees\"><div class=\"talent-tree  talent-tree--compact\"><div class=\"talent-tree--container  talent-tree--container--default-layout\"><div data-kind=\"class\" class=\"talent-tree__container talent-tree__container--class\" style=\"--rows:10;--min-cols:9\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"class\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--class\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/evoker-1.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--class\"><div class=\"talent-tree__description__icon\"><img src=\"https://wow.zamimg.com/images/wow/icons/large/classicon_evoker.jpg\" alt=\"evoker\" style=\"width:2.5rem;height:2.5rem;border-radius:9999px;border:2px solid #f59e0b;object-fit:cover;display:block;\" onerror=\"this.src='https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg'\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Evoker\">Class</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"10%\" x2=\"50%\" y2=\"20%\"></line><line x1=\"16.666666666666664%\" y1=\"10%\" x2=\"16.666666666666664%\" y2=\"20%\"></line><line x1=\"83.33333333333334%\" y1=\"10%\" x2=\"83.33333333333334%\" y2=\"20%\"></line><line x1=\"16.666666666666664%\" y1=\"20%\" x2=\"0%\" y2=\"30%\"></line><line x1=\"16.666666666666664%\" y1=\"20%\" x2=\"33.33333333333333%\" y2=\"30%\"></line><line x1=\"16.666666666666664%\" y1=\"20%\" x2=\"16.666666666666664%\" y2=\"40%\"></line><line x1=\"83.33333333333334%\" y1=\"20%\" x2=\"83.33333333333334%\" y2=\"40%\"></line><line x1=\"83.33333333333334%\" y1=\"20%\" x2=\"66.66666666666666%\" y2=\"30%\"></line><line x1=\"83.33333333333334%\" y1=\"20%\" x2=\"100%\" y2=\"30%\"></line><line x1=\"50%\" y1=\"20%\" x2=\"33.33333333333333%\" y2=\"30%\"></line><line x1=\"50%\" y1=\"20%\" x2=\"66.66666666666666%\" y2=\"30%\"></line><line x1=\"50%\" y1=\"20%\" x2=\"50%\" y2=\"30%\"></line><line x1=\"66.66666666666666%\" y1=\"30%\" x2=\"66.66666666666666%\" y2=\"40%\"></line><line x1=\"66.66666666666666%\" y1=\"30%\" x2=\"83.33333333333334%\" y2=\"40%\"></line><line x1=\"66.66666666666666%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"33.33333333333333%\" y1=\"30%\" x2=\"16.666666666666664%\" y2=\"40%\"></line><line x1=\"33.33333333333333%\" y1=\"30%\" x2=\"33.33333333333333%\" y2=\"40%\"></line><line x1=\"33.33333333333333%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"66.66666666666666%\" y1=\"40%\" x2=\"66.66666666666666%\" y2=\"60%\"></line><line x1=\"83.33333333333334%\" y1=\"40%\" x2=\"83.33333333333334%\" y2=\"50%\"></line><line x1=\"83.33333333333334%\" y1=\"40%\" x2=\"100%\" y2=\"50%\"></line><line x1=\"33.33333333333333%\" y1=\"40%\" x2=\"33.33333333333333%\" y2=\"60%\"></line><line x1=\"16.666666666666664%\" y1=\"40%\" x2=\"0%\" y2=\"50%\"></line><line x1=\"16.666666666666664%\" y1=\"40%\" x2=\"16.666666666666664%\" y2=\"50%\"></line><line x1=\"83.33333333333334%\" y1=\"50%\" x2=\"83.33333333333334%\" y2=\"60%\"></line><line x1=\"16.666666666666664%\" y1=\"50%\" x2=\"16.666666666666664%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"66.66666666666666%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"33.33333333333333%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"83.33333333333334%\" y1=\"60%\" x2=\"83.33333333333334%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"50%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"60%\" x2=\"83.33333333333334%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"60%\" x2=\"66.66666666666666%\" y2=\"70%\"></line><line x1=\"33.33333333333333%\" y1=\"60%\" x2=\"33.33333333333333%\" y2=\"70%\"></line><line x1=\"33.33333333333333%\" y1=\"60%\" x2=\"16.666666666666664%\" y2=\"70%\"></line><line x1=\"16.666666666666664%\" y1=\"60%\" x2=\"16.666666666666664%\" y2=\"70%\"></line><line x1=\"16.666666666666664%\" y1=\"60%\" x2=\"0%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"70%\" x2=\"66.66666666666666%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"33.33333333333333%\" y2=\"80%\"></line><line x1=\"16.666666666666664%\" y1=\"70%\" x2=\"33.33333333333333%\" y2=\"80%\"></line><line x1=\"16.666666666666664%\" y1=\"70%\" x2=\"16.666666666666664%\" y2=\"80%\"></line><line x1=\"16.666666666666664%\" y1=\"70%\" x2=\"0%\" y2=\"80%\"></line><line x1=\"83.33333333333334%\" y1=\"70%\" x2=\"66.66666666666666%\" y2=\"80%\"></line><line x1=\"83.33333333333334%\" y1=\"70%\" x2=\"100%\" y2=\"80%\"></line><line x1=\"83.33333333333334%\" y1=\"70%\" x2=\"83.33333333333334%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"33.33333333333333%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"66.66666666666666%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"66.66666666666666%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"66.66666666666666%\" y1=\"80%\" x2=\"66.66666666666666%\" y2=\"90%\"></line><line x1=\"33.33333333333333%\" y1=\"80%\" x2=\"16.666666666666664%\" y2=\"90%\"></line><line x1=\"33.33333333333333%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"33.33333333333333%\" y1=\"80%\" x2=\"33.33333333333333%\" y2=\"90%\"></line><line x1=\"16.666666666666664%\" y1=\"80%\" x2=\"16.666666666666664%\" y2=\"90%\"></line><line x1=\"0%\" y1=\"80%\" x2=\"16.666666666666664%\" y2=\"90%\"></line><line x1=\"0%\" y1=\"80%\" x2=\"0%\" y2=\"90%\"></line><line x1=\"100%\" y1=\"80%\" x2=\"100%\" y2=\"90%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"83.33333333333334%\" y1=\"80%\" x2=\"83.33333333333334%\" y2=\"100%\"></line><line x1=\"66.66666666666666%\" y1=\"90%\" x2=\"83.33333333333334%\" y2=\"100%\"></line><line x1=\"16.666666666666664%\" y1=\"90%\" x2=\"16.666666666666664%\" y2=\"100%\"></line><line x1=\"50%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"100%\" y1=\"90%\" x2=\"83.33333333333334%\" y2=\"100%\"></line><line x1=\"0%\" y1=\"90%\" x2=\"16.666666666666664%\" y2=\"100%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=363916?def=120625&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_artifact_dragonscales.jpg\" alt=\"Obsidian Scales\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=358385?def=120626&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_earthen_pillar.jpg\" alt=\"Landslide\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=365585?def=120627&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_fontofmagic_green.jpg\" alt=\"Expunge\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=369913?def=120633&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_frostblast.jpg\" alt=\"Natural Convergence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=360995?def=120667&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_rescue.jpg\" alt=\"Verdant Embrace\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=368838?def=133023&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_racial_wingbuffet.jpg\" alt=\"Heavy Wingbeats\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375528?def=120588&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_earthen_pillar.jpg\" alt=\"Forger of Mountains\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375406?def=120609&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_shield_1h_revenantfire_d_01.jpg\" alt=\"Obsidian Bulwark\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375554?def=120615&amp;rank=2&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_livingflame.jpg\" alt=\"Enkindled\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375520?def=120623&amp;rank=2&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_innatemagic4.jpg\" alt=\"Innate Magic\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=372469?def=120666&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_bijou_red.jpg\" alt=\"Scarlet Adaptation\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375556?def=120610&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_skyreach_wind.jpg\" alt=\"Tailwind\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=374251?def=120614&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_fontofmagic_red.jpg\" alt=\"Cauterizing Flame\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=371806?def=120622&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_recall.jpg\" alt=\"Recall\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=386405?def=120632&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_spellwarding.jpg\" alt=\"Inner Radiance\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375443?def=133024&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_racial_tailswipe.jpg\" alt=\"Clobbering Sweep\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=369990?def=120589&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_elemental_mote_fire01.jpg\" alt=\"Ancient Flame\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=376930?def=120612&amp;rank=2&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_rogue_imrovedrecuperate.jpg\" alt=\"Attuned to the Dream\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=360806?def=120613&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_xavius_dreamsimulacrum.jpg\" alt=\"Sleep Walk\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=376164?def=120631&amp;rank=2&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_studentofmagic.jpg\" alt=\"Instinctive Arcana\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=370553?def=120677&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_tipthescales.jpg\" alt=\"Tip the Scales\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=370886?def=120611&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_emeraldblossom.jpg\" alt=\"Bountiful Bloom\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=376166?def=120621&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_helm_mail_dracthyrquest_b_02.jpg\" alt=\"Draconic Legacy\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375517?def=120676&amp;rank=2&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_hover.jpg\" alt=\"Extended Flight\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375544?def=120682&amp;rank=2&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_rubysanctum1.jpg\" alt=\"Inherent Resistance\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=369909?def=141332&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_azurestrike.jpg\" alt=\"Protracted Talons\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387341?def=120606&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_monsterscales_06.jpg\" alt=\"Walloping Blow\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375542?def=120620&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_hover2.jpg\" alt=\"Exuberance\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375510?def=120630&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_firebreath.jpg\" alt=\"Blast Furnace\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387761?def=120675&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_protectionofthegrove.jpg\" alt=\"Panacea\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387787?def=120680&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_manarecharge.jpg\" alt=\"Regenerative Magic\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=374348?def=120681&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_masterylifebinder_red.jpg\" alt=\"Renewing Blaze\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=370665?def=120608&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_flywithme.jpg\" alt=\"Rescue\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=372048?def=120619&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_oppressingroar.jpg\" alt=\"Oppressing Roar\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1264378?def=120628&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_unravel.jpg\" alt=\"Unravel\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=410352?def=120629&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_timedilation.jpg\" alt=\"Stretch Time\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=369459?def=120670&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_blue_01.jpg\" alt=\"Source of Magic\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375574?def=120672&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_fire_incinerate.jpg\" alt=\"Foci of Life\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375561?def=120674&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_staff_2h_bloodelf_c_01.jpg\" alt=\"Lush Growth\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=370888?def=120607&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_volatileair.jpg\" alt=\"Twin Guardian\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=374346?def=120618&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_oppressingroar2.jpg\" alt=\"Overawe\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=369939?def=120669&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_pupilofalexstraza.jpg\" alt=\"Leaping Flames\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=365933?def=120679&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_aerialmastery.jpg\" alt=\"Aerial Mastery\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=418101?def=121115&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_magic_managain.jpg\" alt=\"Potent Mana\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1267206?def=141333&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_racial_glide.jpg\" alt=\"Strike from Above\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=371032?def=120668&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_terroroftheskies.jpg\" alt=\"Terror of the Skies\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=374227?def=120673&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_hoverblack.jpg\" alt=\"Zephyr\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=374968?def=120678&amp;rank=1&amp;spellModifier=396186\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_timespiral.jpg\" alt=\"Time Spiral\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div><div class=\"talent-tree__container talent-tree__container--hero\" style=\"--rows:1;--talent-count:2\"><div class=\"talent-tree__hero-spacer\"></div><div class=\"talent-tree__container--height-limiter\" data-kind=\"hero\"><div class=\"talent-tree__hero-title do-not-change-color-on-hover Evoker talent-tree__hero-title--horizontal \">Chronowarden</div><div class=\"talent-tree__hero-icon\"><span class=\"\"><div class=\"talent-tree__hero-icon--wrapper \"><img src=\"https://assets.rpglogs.com/img/warcraft/talents/hero/38_full.png\" alt=\"Chronowarden\"></div></span></div><div class=\"talent-tree__hero-container talent-tree__hero-container--compact\n          talent-tree__hero-container--horizontal\n          \"><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=431873?def=122544&amp;rank=1&amp;spellModifier=396186\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_return.jpg\" alt=\"Temporality\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=431874?def=122541&amp;rank=1&amp;spellModifier=396186\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_borrowedtime.jpg\" alt=\"Double-time\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div data-kind=\"spec\" class=\"talent-tree__container talent-tree__container--spec\" style=\"--rows:11;--min-cols:9\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"spec\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--spec\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/evoker-3.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--spec\"><div class=\"talent-tree__description__icon\"><img class=\"sprite actor-sprite-Evoker-Augmentation\" src=\"https://assets.rpglogs.com/img/warcraft/icons/actors.jpg?v=43\" loading=\"lazy\" alt=\"\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Evoker\">Spec</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"66.66666666666666%\" y2=\"18.181818181818183%\"></line><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"33.33333333333333%\" y2=\"18.181818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"33.33333333333333%\" y2=\"27.27272727272727%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"16.666666666666664%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"66.66666666666666%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"83.33333333333334%\" y2=\"27.27272727272727%\"></line><line x1=\"16.666666666666664%\" y1=\"27.27272727272727%\" x2=\"16.666666666666664%\" y2=\"36.36363636363637%\"></line><line x1=\"33.33333333333333%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"33.33333333333333%\" y1=\"27.27272727272727%\" x2=\"16.666666666666664%\" y2=\"36.36363636363637%\"></line><line x1=\"66.66666666666666%\" y1=\"27.27272727272727%\" x2=\"83.33333333333334%\" y2=\"36.36363636363637%\"></line><line x1=\"66.66666666666666%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"83.33333333333334%\" y1=\"27.27272727272727%\" x2=\"83.33333333333334%\" y2=\"36.36363636363637%\"></line><line x1=\"16.666666666666664%\" y1=\"36.36363636363637%\" x2=\"33.33333333333333%\" y2=\"45.45454545454545%\"></line><line x1=\"16.666666666666664%\" y1=\"36.36363636363637%\" x2=\"0%\" y2=\"45.45454545454545%\"></line><line x1=\"16.666666666666664%\" y1=\"36.36363636363637%\" x2=\"16.666666666666664%\" y2=\"45.45454545454545%\"></line><line x1=\"83.33333333333334%\" y1=\"36.36363636363637%\" x2=\"83.33333333333334%\" y2=\"45.45454545454545%\"></line><line x1=\"83.33333333333334%\" y1=\"36.36363636363637%\" x2=\"100%\" y2=\"45.45454545454545%\"></line><line x1=\"83.33333333333334%\" y1=\"36.36363636363637%\" x2=\"66.66666666666666%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"50%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"66.66666666666666%\" y2=\"45.45454545454545%\"></line><line x1=\"100%\" y1=\"45.45454545454545%\" x2=\"83.33333333333334%\" y2=\"54.54545454545454%\"></line><line x1=\"16.666666666666664%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"54.54545454545454%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"54.54545454545454%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"54.54545454545454%\"></line><line x1=\"83.33333333333334%\" y1=\"45.45454545454545%\" x2=\"83.33333333333334%\" y2=\"54.54545454545454%\"></line><line x1=\"0%\" y1=\"45.45454545454545%\" x2=\"0%\" y2=\"63.63636363636363%\"></line><line x1=\"0%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"83.33333333333334%\" y2=\"54.54545454545454%\"></line><line x1=\"16.666666666666664%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"16.666666666666664%\" y1=\"54.54545454545454%\" x2=\"0%\" y2=\"63.63636363636363%\"></line><line x1=\"16.666666666666664%\" y1=\"54.54545454545454%\" x2=\"33.33333333333333%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"33.33333333333333%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"66.66666666666666%\" y2=\"63.63636363636363%\"></line><line x1=\"83.33333333333334%\" y1=\"54.54545454545454%\" x2=\"100%\" y2=\"63.63636363636363%\"></line><line x1=\"83.33333333333334%\" y1=\"54.54545454545454%\" x2=\"66.66666666666666%\" y2=\"63.63636363636363%\"></line><line x1=\"83.33333333333334%\" y1=\"54.54545454545454%\" x2=\"83.33333333333334%\" y2=\"63.63636363636363%\"></line><line x1=\"33.33333333333333%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"0%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"16.666666666666664%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"100%\" y1=\"63.63636363636363%\" x2=\"100%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"66.66666666666666%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"83.33333333333334%\" y2=\"72.72727272727273%\"></line><line x1=\"0%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"33.33333333333333%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"83.33333333333334%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"66.66666666666666%\" y2=\"81.81818181818183%\"></line><line x1=\"16.666666666666664%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"100%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"83.33333333333334%\" y1=\"81.81818181818183%\" x2=\"100%\" y2=\"90.9090909090909%\"></line><line x1=\"66.66666666666666%\" y1=\"81.81818181818183%\" x2=\"66.66666666666666%\" y2=\"90.9090909090909%\"></line><line x1=\"16.666666666666664%\" y1=\"81.81818181818183%\" x2=\"0%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"50%\" y2=\"90.9090909090909%\"></line><line x1=\"33.33333333333333%\" y1=\"81.81818181818183%\" x2=\"33.33333333333333%\" y2=\"90.9090909090909%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=395152?def=120508&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_sarkareth.jpg\" alt=\"Ebon Might\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=395160?def=120510&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_eruption.jpg\" alt=\"Eruption\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=396187?def=120532&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_essenceburst.jpg\" alt=\"Essence Burst\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=351338?def=120702&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_quell.jpg\" alt=\"Quell\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=406659?def=120519&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_rhyolith_volcano.jpg\" alt=\"Ricocheting Pyroclast\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375722?def=120531&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_essenceburststacks.jpg\" alt=\"Essence Attunement\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=407814?def=120533&amp;rank=1&amp;spellModifier=396186\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_pupilofalexstraza.jpg\" alt=\"Pupil of Alexstrasza\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=396286?def=120514&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_upheaval.jpg\" alt=\"Upheaval\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=404195?def=120534&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_defyfate.jpg\" alt=\"Defy Fate\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=403631?def=120548&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_breathofeons.jpg\" alt=\"Breath of Eons\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1268881?def=120505&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_masterytimewalker.jpg\" alt=\"Improved Defy Fate\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=369908?def=120511&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_powernexus.jpg\" alt=\"Power Nexus\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=406904?def=120517&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_fire_volcano.jpg\" alt=\"Volcanism\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_lastingafflictions.jpg\" alt=\"Perilous Fate\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_bronze_01.jpg\" alt=\"Chrono Ward\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=412710?def=120691&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_timelessness.jpg\" alt=\"Timelessness\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=408775?def=120700&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_fire_immolation.jpg\" alt=\"Ignition Rush\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=408233?def=120546&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_bestowweyrnstone.jpg\" alt=\"Bestow Weyrnstone\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=360827?def=120520&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_blisteringscales.jpg\" alt=\"Blistering Scales\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=403208?def=120530&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_draconicattunements.jpg\" alt=\"Draconic Attunements\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=409311?def=120687&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_prescience.jpg\" alt=\"Prescience\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=408002?def=120512&amp;rank=1&amp;spellModifier=396186\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/6bf_explosive_shard.jpg\" alt=\"Tectonic Locus\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=408004?def=120518&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_voidshift.jpg\" alt=\"Momentum Shift\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:16.666666666666664%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_ability_evoker_blisteringscalesinfinite.jpg\" alt=\"Regenerative Chitin\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shaman_spewlava.jpg\" alt=\"Molten Blood\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=410685?def=120527&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_10_herb_seed_magiccolor5.jpg\" alt=\"Symbiotic Bloom\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=407243?def=120529&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_aspectsfavor.jpg\" alt=\"Aspects' Favor\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=454983?def=120538&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/classicon_evoker.jpg\" alt=\"Arcane Reach\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=412774?def=120697&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/trade_archaeology_highbornesoulmirror.jpg\" alt=\"Fate Mirror\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=409329?def=120521&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_reactivehide.jpg\" alt=\"Reactive Hide\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375796?def=120524&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_innatemagic2.jpg\" alt=\"Hoarded Power\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=407869?def=120535&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_essenceburst6.jpg\" alt=\"Anachronism\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=409267?def=120543&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_motesofpossibility.jpg\" alt=\"Motes of Possibility\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=408083?def=120544&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_fontofmagic.jpg\" alt=\"Font of Magic\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:100%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_reversion_green.jpg\" alt=\"Prolong Life\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_masterylifebinder.jpg\" alt=\"Dream of Spring\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=410261?def=120507&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_infernosblessing.jpg\" alt=\"Inferno's Blessing\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250914?def=120540&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_masterylifebinder_bronze.jpg\" alt=\"Clairvoyant\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=407876?def=120542&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_accretion.jpg\" alt=\"Accretion\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=404977?def=120545&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_timeskip.jpg\" alt=\"Time Skip\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=459537?def=131130&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_burningbladeshaman_blazing_radiance.jpg\" alt=\"Imminent Destruction\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=459120?def=120516&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_geomancy.jpg\" alt=\"Rumbling Earth\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=410260?def=120525&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_overlord.jpg\" alt=\"Overlord\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=407866?def=120539&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_plotthefuture.jpg\" alt=\"Plot the Future\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_rewind2.jpg\" alt=\"Tomorrow, Today\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_enchant_optionalreagent_01.jpg\" alt=\"Interwoven Threads\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1291457?def=131131&amp;rank=1&amp;spellModifier=396186\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_warlock_burningembers.jpg\" alt=\"Mighty Inferno\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:11;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1259173?def=141776&amp;rank=4&amp;spellModifier=396186\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_apextalent_evoker_duplicate.jpg\" alt=\"Duplicate\" loading=\"lazy\"></span><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">4</span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div class=\"talent-tree__interactions-export \"><button class=\"talent-tree__interactions-export__copy-button \"><span>Export</span><i class=\"fa-solid fa-copy ml-1.5 text-amber-400\"></i></button><a href=\"https://www.wowhead.com/talent-calc/blizzard/CEcBAAAAAAAAAAAAAAAAAAAAAMmZmZbmZGMYmZZmZMjZAAAAAAAAgZGjZwYqZMzMAAAAYGzYMzsMmZgZYgxMWYBGYGGagFMzYmBAG\" target=\"_blank\" rel=\"noreferrer\" class=\"talent-tree__interactions-export__external-link\"><span>Edit</span><i class=\"fa-solid fa-arrow-up-right-from-square ml-1.5 text-amber-400\"></i></a></div></div></div>",
         "bisGear": [
           {
             "id": 271501,
-            "name": "Calamitous Echo's Magmashapers",
+            "name": "",
             "params": "pcs=271504:271501:271499:271502&gems=240898&ench=8017",
-            "popularity": 88.6,
-            "parses": 8,
-            "nameEs": "Formalavas de eco calamitoso",
-            "icon": "inv_helm_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "popularity": 88.8,
+            "parses": 8
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271504:271501:271499:271502:268265&gems=240983",
-            "popularity": 72.9,
-            "parses": 7,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "popularity": 73.7,
+            "parses": 7
           },
           {
             "id": 271499,
-            "name": "Calamitous Echo's Sundered Peaks",
+            "name": "",
             "params": "pcs=271504:271501:271499:271502&ench=8001",
             "popularity": 88.3,
-            "parses": 8,
-            "nameEs": "Picos hendidos de eco calamitoso",
-            "icon": "inv_shoulder_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271504:271501:271499:271502:239656",
-            "popularity": 31.6,
-            "parses": 3,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "popularity": 31.5,
+            "parses": 3
           },
           {
             "id": 271504,
-            "name": "Searing Caldera of Calamity",
+            "name": "",
             "params": "pcs=271504:271501:271499:271502&ench=7987",
-            "popularity": 91,
-            "parses": 8,
-            "nameEs": "Caldera abrasadora de calamidad",
-            "icon": "inv_chest_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "popularity": 91.2,
+            "parses": 8
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8791&pcs=271504:271501:271499:271502:244584&gems=240898",
-            "popularity": 72.4,
-            "parses": 6,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "popularity": 72.1,
+            "parses": 6
           },
           {
             "id": 271502,
-            "name": "Calamitous Echo's Ebon Greathorns",
+            "name": "",
             "params": "pcs=271504:271501:271499:271502",
-            "popularity": 85.9,
-            "parses": 8,
-            "nameEs": "Grandes cuernos de ébano de eco calamitoso",
-            "icon": "inv_glove_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "popularity": 85.7,
+            "parses": 8
           },
           {
             "id": 268254,
-            "name": "Serpentine Mixing Belt",
+            "name": "",
             "params": "pcs=271504:271501:271499:271502:268254&gems=240898",
-            "popularity": 39.1,
-            "parses": 3,
-            "nameEs": "Cinturón de mezclas serpentino",
-            "icon": "inv_belt_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "popularity": 39.2,
+            "parses": 3
           },
           {
             "id": 271500,
-            "name": "Earthen Pillars of Calamity",
+            "name": "",
             "params": "pcs=271504:271501:271499:271502:271500&ench=7935",
-            "popularity": 81.5,
-            "parses": 7,
-            "nameEs": "Pilares terráneos de calamidad",
-            "icon": "inv_pant_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "popularity": 81.8,
+            "parses": 7
           },
           {
             "id": 268258,
-            "name": "Boots of the Reckless Wayfarer",
+            "name": "",
             "params": "pcs=271504:271501:271499:271502:268258&ench=7963",
-            "popularity": 34.3,
-            "parses": 3,
-            "nameEs": "Botas del caminante temerario",
-            "icon": "inv_boot_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "popularity": 33.7,
+            "parses": 3
           },
           {
             "id": 268249,
-            "name": "Vile Alchemist's Band",
+            "name": "",
             "params": "bonus=13534&pcs=271504:271501:271499:271502:268249&gems=240898&ench=7969",
-            "popularity": 59.5,
-            "parses": 5,
-            "nameEs": "Sortija de alquimista vil",
-            "icon": "inv_121_jewelry_ring01_purple",
-            "quality": 4
+            "popularity": 59.4,
+            "parses": 5
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8791&pcs=271504:271501:271499:271502:240949&gems=240898&ench=7969",
-            "popularity": 43.6,
-            "parses": 4,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "popularity": 43,
+            "parses": 4
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271504:271501:271499:271502:271092&ench=8689",
-            "popularity": 51.7,
-            "parses": 5,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "popularity": 51.2,
+            "parses": 4
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8791&pcs=271504:271501:271499:271502:245769",
             "popularity": 43.1,
-            "parses": 4,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 270161,
-            "name": "Fang of Umbral Malignance",
+            "name": "",
             "params": "nofollow",
-            "popularity": 28,
-            "parses": 2,
-            "nameEs": "Colmillo de malicia umbría",
-            "icon": "inv_121_trinket_raid_ulatek_fang_purple",
-            "quality": 4
+            "popularity": 27.3,
+            "parses": 2
           },
           {
             "id": 270168,
-            "name": "Font of Venomous Rage",
+            "name": "",
             "params": "nofollow",
-            "popularity": 28,
-            "parses": 2,
-            "nameEs": "Fuente de ira venenosa",
-            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green",
-            "quality": 4
+            "popularity": 27.3,
+            "parses": 2
           }
         ]
       },
@@ -4343,163 +3167,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271501,
-            "name": "Calamitous Echo's Magmashapers",
+            "name": "",
             "params": "pcs=271504:271502:271499:271501&gems=240898&ench=8017",
             "popularity": 78.7,
-            "parses": 454,
-            "nameEs": "Formalavas de eco calamitoso",
-            "icon": "inv_helm_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 454
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271504:271502:271499:271501:268265&gems=240983",
             "popularity": 86.5,
-            "parses": 499,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 499
           },
           {
             "id": 271499,
-            "name": "Calamitous Echo's Sundered Peaks",
+            "name": "",
             "params": "pcs=271504:271502:271499:271501&ench=8001",
             "popularity": 80.9,
-            "parses": 467,
-            "nameEs": "Picos hendidos de eco calamitoso",
-            "icon": "inv_shoulder_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 467
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271504:271502:271499:271501:239656",
             "popularity": 40,
-            "parses": 231,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 231
           },
           {
             "id": 271504,
-            "name": "Searing Caldera of Calamity",
+            "name": "",
             "params": "pcs=271504:271502:271499:271501&ench=7987",
             "popularity": 94.5,
-            "parses": 545,
-            "nameEs": "Caldera abrasadora de calamidad",
-            "icon": "inv_chest_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 545
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8791&pcs=271504:271502:271499:271501:244584&gems=240898",
             "popularity": 80.2,
-            "parses": 463,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 463
           },
           {
             "id": 271502,
-            "name": "Calamitous Echo's Ebon Greathorns",
+            "name": "",
             "params": "pcs=271504:271502:271499:271501",
             "popularity": 89.9,
-            "parses": 519,
-            "nameEs": "Grandes cuernos de ébano de eco calamitoso",
-            "icon": "inv_glove_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 519
           },
           {
             "id": 244581,
-            "name": "Farstrider's Trophy Belt",
+            "name": "",
             "params": "bonus=8791&pcs=271504:271502:271499:271501:244581&gems=240898",
             "popularity": 47.7,
-            "parses": 275,
-            "nameEs": "Cinturón de trofeos de errante",
-            "icon": "inv_belt_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 275
           },
           {
             "id": 271500,
-            "name": "Earthen Pillars of Calamity",
+            "name": "",
             "params": "pcs=271504:271502:271499:271501:271500&ench=7935",
             "popularity": 69.7,
-            "parses": 402,
-            "nameEs": "Pilares terráneos de calamidad",
-            "icon": "inv_pant_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 402
           },
           {
             "id": 268258,
-            "name": "Boots of the Reckless Wayfarer",
+            "name": "",
             "params": "pcs=271504:271502:271499:271501:268258&ench=7963",
             "popularity": 33.4,
-            "parses": 193,
-            "nameEs": "Botas del caminante temerario",
-            "icon": "inv_boot_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 193
           },
           {
             "id": 268249,
-            "name": "Vile Alchemist's Band",
+            "name": "",
             "params": "bonus=13534&pcs=271504:271502:271499:271501:268249&gems=240898&ench=7969",
             "popularity": 58.4,
-            "parses": 337,
-            "nameEs": "Sortija de alquimista vil",
-            "icon": "inv_121_jewelry_ring01_purple",
-            "quality": 4
+            "parses": 337
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271504:271502:271499:271501:281029&gems=240898&ench=7969",
             "popularity": 49.4,
-            "parses": 285,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 285
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271504:271502:271499:271501:271092&ench=8689",
             "popularity": 79,
-            "parses": 456,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 456
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8791&pcs=271504:271502:271499:271501:245769",
             "popularity": 57,
-            "parses": 329,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 329
           },
           {
             "id": 270161,
-            "name": "Fang of Umbral Malignance",
+            "name": "",
             "params": "nofollow",
             "popularity": 25.8,
-            "parses": 149,
-            "nameEs": "Colmillo de malicia umbría",
-            "icon": "inv_121_trinket_raid_ulatek_fang_purple",
-            "quality": 4
+            "parses": 149
           },
           {
             "id": 270168,
-            "name": "Font of Venomous Rage",
+            "name": "",
             "params": "nofollow",
             "popularity": 25.8,
-            "parses": 149,
-            "nameEs": "Fuente de ira venenosa",
-            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green",
-            "quality": 4
+            "parses": 149
           }
         ]
       }
@@ -4522,153 +3298,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271492,
-            "name": "Skulking Viper's Weeping Fangs",
+            "name": "",
             "params": "pcs=271492:271490:271495:271493&gems=240898&ench=8017",
             "popularity": 94.3,
-            "parses": 20,
-            "nameEs": "Colmillos supurantes de víbora merodeadora",
-            "icon": "inv_helm_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 20
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271492:271490:271495:271493:268265&gems=240983",
             "popularity": 91.3,
-            "parses": 19,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 19
           },
           {
             "id": 271490,
-            "name": "Jaws of the Skulking Viper",
+            "name": "",
             "params": "pcs=271492:271490:271495:271493&ench=8001",
             "popularity": 92.8,
-            "parses": 19,
-            "nameEs": "Mandíbulas de la víbora merodeadora",
-            "icon": "inv_shoulder_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 19
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271492:271490:271495:271493:239656",
             "popularity": 32.4,
-            "parses": 6,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 271495,
-            "name": "Skulking Viper's Scuteplate",
+            "name": "",
             "params": "pcs=271492:271490:271495:271493&ench=7987",
             "popularity": 92.8,
-            "parses": 19,
-            "nameEs": "Placa dérmica de víbora merodeadora",
-            "icon": "inv_chest_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 19
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8791&pcs=271492:271490:271495:271493:244584&gems=240898",
             "popularity": 78.9,
-            "parses": 16,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 16
           },
           {
             "id": 271493,
-            "name": "Skulking Viper's Hidepiercers",
+            "name": "",
             "params": "pcs=271492:271490:271495:271493",
             "popularity": 86.9,
-            "parses": 18,
-            "nameEs": "Perforapellejos de víbora merodeadora",
-            "icon": "inv_glove_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 18
           },
           {
             "id": 244581,
-            "name": "Farstrider's Trophy Belt",
+            "name": "",
             "params": "bonus=8791&pcs=271492:271490:271495:271493:244581&gems=240898",
             "popularity": 65,
-            "parses": 13,
-            "nameEs": "Cinturón de trofeos de errante",
-            "icon": "inv_belt_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 13
           },
           {
             "id": 271491,
-            "name": "Skulking Viper's Coiled Legwraps",
+            "name": "",
             "params": "pcs=271492:271490:271495:271493:271491&ench=8159",
             "popularity": 66.8,
-            "parses": 14,
-            "nameEs": "Perneras en espiral de víbora merodeadora",
-            "icon": "inv_pant_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 14
           },
           {
             "id": 268258,
-            "name": "Boots of the Reckless Wayfarer",
+            "name": "",
             "params": "pcs=271492:271490:271495:271493:268258&ench=7963",
             "popularity": 40.8,
-            "parses": 8,
-            "nameEs": "Botas del caminante temerario",
-            "icon": "inv_boot_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271492:271490:271495:271493:281029&gems=240898&ench=7967",
             "popularity": 55.6,
-            "parses": 11,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 268249,
-            "name": "Vile Alchemist's Band",
+            "name": "",
             "params": "bonus=13534&pcs=271492:271490:271495:271493:268249&gems=240898&ench=7967",
             "popularity": 37.2,
-            "parses": 7,
-            "nameEs": "Sortija de alquimista vil",
-            "icon": "inv_121_jewelry_ring01_purple",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 268207,
-            "name": "Caustic Repose Greatbow",
+            "name": "",
             "params": "pcs=271492:271490:271495:271493:268207&ench=8689",
             "popularity": 90.4,
-            "parses": 19,
-            "nameEs": "Gran arco de reposo cáustico",
-            "icon": "inv_bow_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 19
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 28.9,
-            "parses": 6,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 28.9,
-            "parses": 6,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 6
           }
         ]
       },
@@ -4687,153 +3418,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271492,
-            "name": "Skulking Viper's Weeping Fangs",
+            "name": "",
             "params": "pcs=271495:271492:271490:271493&gems=240898&ench=8017",
             "popularity": 91.3,
-            "parses": 9,
-            "nameEs": "Colmillos supurantes de víbora merodeadora",
-            "icon": "inv_helm_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271495:271492:271490:271493:268265&gems=240983",
             "popularity": 92,
-            "parses": 9,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 271490,
-            "name": "Jaws of the Skulking Viper",
+            "name": "",
             "params": "pcs=271495:271492:271490:271493&ench=8001",
             "popularity": 88.9,
-            "parses": 9,
-            "nameEs": "Mandíbulas de la víbora merodeadora",
-            "icon": "inv_shoulder_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271495:271492:271490:271493:239656",
             "popularity": 39.1,
-            "parses": 4,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271495,
-            "name": "Skulking Viper's Scuteplate",
+            "name": "",
             "params": "pcs=271495:271492:271490:271493&ench=7987",
             "popularity": 92.8,
-            "parses": 9,
-            "nameEs": "Placa dérmica de víbora merodeadora",
-            "icon": "inv_chest_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8791&pcs=271495:271492:271490:271493:244584&gems=240898",
             "popularity": 82.9,
-            "parses": 8,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 271493,
-            "name": "Skulking Viper's Hidepiercers",
+            "name": "",
             "params": "pcs=271495:271492:271490:271493",
             "popularity": 88.9,
-            "parses": 9,
-            "nameEs": "Perforapellejos de víbora merodeadora",
-            "icon": "inv_glove_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 244581,
-            "name": "Farstrider's Trophy Belt",
+            "name": "",
             "params": "bonus=8791&pcs=271495:271492:271490:271493:244581&gems=240898",
             "popularity": 67.1,
-            "parses": 7,
-            "nameEs": "Cinturón de trofeos de errante",
-            "icon": "inv_belt_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 244582,
-            "name": "Farstrider's Reinforced Faulds",
+            "name": "",
             "params": "bonus=8791&pcs=271495:271492:271490:271493:244582&ench=8159",
             "popularity": 47.7,
-            "parses": 5,
-            "nameEs": "Escarcela reforzada de errante",
-            "icon": "inv_pant_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268258,
-            "name": "Boots of the Reckless Wayfarer",
+            "name": "",
             "params": "pcs=271495:271492:271490:271493:268258&ench=7963",
             "popularity": 30.7,
-            "parses": 3,
-            "nameEs": "Botas del caminante temerario",
-            "icon": "inv_boot_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271495:271492:271490:271493:281029&gems=240898&ench=7967",
             "popularity": 58.3,
-            "parses": 6,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 268249,
-            "name": "Vile Alchemist's Band",
+            "name": "",
             "params": "bonus=13534&pcs=271495:271492:271490:271493:268249&gems=240898&ench=7967",
             "popularity": 37,
-            "parses": 3,
-            "nameEs": "Sortija de alquimista vil",
-            "icon": "inv_121_jewelry_ring01_purple",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 268207,
-            "name": "Caustic Repose Greatbow",
+            "name": "",
             "params": "pcs=271495:271492:271490:271493:268207&ench=8689",
             "popularity": 91.8,
-            "parses": 9,
-            "nameEs": "Gran arco de reposo cáustico",
-            "icon": "inv_bow_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 41.3,
-            "parses": 4,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 41.3,
-            "parses": 4,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 4
           }
         ]
       }
@@ -4854,153 +3540,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271492,
-            "name": "Skulking Viper's Weeping Fangs",
+            "name": "",
             "params": "pcs=271492:271495:271490:271493&gems=240908&ench=8017",
             "popularity": 94.9,
-            "parses": 13,
-            "nameEs": "Colmillos supurantes de víbora merodeadora",
-            "icon": "inv_helm_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 13
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271492:271495:271490:271493:268265&gems=240967",
             "popularity": 93,
-            "parses": 13,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 13
           },
           {
             "id": 271490,
-            "name": "Jaws of the Skulking Viper",
+            "name": "",
             "params": "pcs=271492:271495:271490:271493&ench=8001",
             "popularity": 92.3,
-            "parses": 13,
-            "nameEs": "Mandíbulas de la víbora merodeadora",
-            "icon": "inv_shoulder_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 13
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271492:271495:271490:271493:239656",
             "popularity": 25,
-            "parses": 3,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271495,
-            "name": "Skulking Viper's Scuteplate",
+            "name": "",
             "params": "pcs=271492:271495:271490:271493&ench=7987",
             "popularity": 94.6,
-            "parses": 13,
-            "nameEs": "Placa dérmica de víbora merodeadora",
-            "icon": "inv_chest_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 13
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8791&pcs=271492:271495:271490:271493:244584&gems=240908",
             "popularity": 79.3,
-            "parses": 11,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 271493,
-            "name": "Skulking Viper's Hidepiercers",
+            "name": "",
             "params": "pcs=271492:271495:271490:271493",
             "popularity": 88.9,
-            "parses": 12,
-            "nameEs": "Perforapellejos de víbora merodeadora",
-            "icon": "inv_glove_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 244581,
-            "name": "Farstrider's Trophy Belt",
+            "name": "",
             "params": "bonus=8791&pcs=271492:271495:271490:271493:244581&gems=240908",
             "popularity": 67.2,
-            "parses": 9,
-            "nameEs": "Cinturón de trofeos de errante",
-            "icon": "inv_belt_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 271491,
-            "name": "Skulking Viper's Coiled Legwraps",
+            "name": "",
             "params": "pcs=271492:271495:271490:271493:271491&ench=8159",
             "popularity": 60.7,
-            "parses": 8,
-            "nameEs": "Perneras en espiral de víbora merodeadora",
-            "icon": "inv_pant_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 268258,
-            "name": "Boots of the Reckless Wayfarer",
+            "name": "",
             "params": "pcs=271492:271495:271490:271493:268258&ench=7963",
             "popularity": 48.7,
-            "parses": 7,
-            "nameEs": "Botas del caminante temerario",
-            "icon": "inv_boot_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8791&pcs=271492:271495:271490:271493:240949&gems=240908&ench=7967",
             "popularity": 41.3,
-            "parses": 5,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271492:271495:271490:271493:281029&gems=240908&ench=7967",
             "popularity": 40.6,
-            "parses": 5,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268207,
-            "name": "Caustic Repose Greatbow",
+            "name": "",
             "params": "pcs=271492:271495:271490:271493:268207&ench=8689",
             "popularity": 93.6,
-            "parses": 13,
-            "nameEs": "Gran arco de reposo cáustico",
-            "icon": "inv_bow_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 13
           },
           {
             "id": 270168,
-            "name": "Font of Venomous Rage",
+            "name": "",
             "params": "nofollow",
             "popularity": 84.8,
-            "parses": 12,
-            "nameEs": "Fuente de ira venenosa",
-            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 84.8,
-            "parses": 12,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 12
           }
         ]
       },
@@ -5019,153 +3660,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271492,
-            "name": "Skulking Viper's Weeping Fangs",
+            "name": "",
             "params": "pcs=271495:271492:271490:271493&gems=240908&ench=8017",
             "popularity": 91.9,
-            "parses": 868,
-            "nameEs": "Colmillos supurantes de víbora merodeadora",
-            "icon": "inv_helm_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 868
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271495:271492:271490:271493:268265&gems=240967",
             "popularity": 92.6,
-            "parses": 875,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 875
           },
           {
             "id": 271490,
-            "name": "Jaws of the Skulking Viper",
+            "name": "",
             "params": "pcs=271495:271492:271490:271493&ench=8001",
             "popularity": 91.2,
-            "parses": 862,
-            "nameEs": "Mandíbulas de la víbora merodeadora",
-            "icon": "inv_shoulder_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 862
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271495:271492:271490:271493:239656",
             "popularity": 31.7,
-            "parses": 300,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 300
           },
           {
             "id": 271495,
-            "name": "Skulking Viper's Scuteplate",
+            "name": "",
             "params": "pcs=271495:271492:271490:271493&ench=7987",
             "popularity": 92.6,
-            "parses": 875,
-            "nameEs": "Placa dérmica de víbora merodeadora",
-            "icon": "inv_chest_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 875
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8791&pcs=271495:271492:271490:271493:244584&gems=240908",
             "popularity": 88.6,
-            "parses": 837,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 837
           },
           {
             "id": 271493,
-            "name": "Skulking Viper's Hidepiercers",
+            "name": "",
             "params": "pcs=271495:271492:271490:271493",
             "popularity": 85.9,
-            "parses": 812,
-            "nameEs": "Perforapellejos de víbora merodeadora",
-            "icon": "inv_glove_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 812
           },
           {
             "id": 244581,
-            "name": "Farstrider's Trophy Belt",
+            "name": "",
             "params": "bonus=8791&pcs=271495:271492:271490:271493:244581&gems=240908",
             "popularity": 64.8,
-            "parses": 612,
-            "nameEs": "Cinturón de trofeos de errante",
-            "icon": "inv_belt_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 612
           },
           {
             "id": 271491,
-            "name": "Skulking Viper's Coiled Legwraps",
+            "name": "",
             "params": "pcs=271495:271492:271490:271493:271491&ench=8159",
             "popularity": 47.9,
-            "parses": 453,
-            "nameEs": "Perneras en espiral de víbora merodeadora",
-            "icon": "inv_pant_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 453
           },
           {
             "id": 268258,
-            "name": "Boots of the Reckless Wayfarer",
+            "name": "",
             "params": "pcs=271495:271492:271490:271493:268258&ench=7963",
             "popularity": 32.7,
-            "parses": 309,
-            "nameEs": "Botas del caminante temerario",
-            "icon": "inv_boot_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 309
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271495:271492:271490:271493:281029&gems=240908&ench=7967",
             "popularity": 69.5,
-            "parses": 657,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 657
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8791&pcs=271495:271492:271490:271493:240949&gems=240908&ench=7967",
             "popularity": 34.6,
-            "parses": 327,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 327
           },
           {
             "id": 268207,
-            "name": "Caustic Repose Greatbow",
+            "name": "",
             "params": "pcs=271495:271492:271490:271493:268207&ench=8689",
             "popularity": 93,
-            "parses": 879,
-            "nameEs": "Gran arco de reposo cáustico",
-            "icon": "inv_bow_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 879
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 56.9,
-            "parses": 538,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 538
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 56.9,
-            "parses": 538,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 538
           }
         ]
       }
@@ -5186,153 +3782,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271492,
-            "name": "Skulking Viper's Weeping Fangs",
+            "name": "",
             "params": "pcs=271490:271492:271495:271491&gems=240898&ench=8017",
             "popularity": 92,
-            "parses": 1,
-            "nameEs": "Colmillos supurantes de víbora merodeadora",
-            "icon": "inv_helm_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271490:271492:271495:271491:268265&gems=240983",
             "popularity": 80.3,
-            "parses": 1,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271490,
-            "name": "Jaws of the Skulking Viper",
+            "name": "",
             "params": "pcs=271490:271492:271495:271491&ench=8001",
             "popularity": 92.2,
-            "parses": 1,
-            "nameEs": "Mandíbulas de la víbora merodeadora",
-            "icon": "inv_shoulder_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271490:271492:271495:271491:268253",
             "popularity": 38.2,
-            "parses": 707,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 707
           },
           {
             "id": 271495,
-            "name": "Skulking Viper's Scuteplate",
+            "name": "",
             "params": "pcs=271490:271492:271495:271491&ench=7987",
             "popularity": 85.8,
-            "parses": 1,
-            "nameEs": "Placa dérmica de víbora merodeadora",
-            "icon": "inv_chest_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8791&pcs=271490:271492:271495:271491:244584&gems=240898",
             "popularity": 84.6,
-            "parses": 1,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271493,
-            "name": "Skulking Viper's Hidepiercers",
+            "name": "",
             "params": "pcs=271490:271492:271495:271491:271493",
             "popularity": 83.3,
-            "parses": 1,
-            "nameEs": "Perforapellejos de víbora merodeadora",
-            "icon": "inv_glove_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 244581,
-            "name": "Farstrider's Trophy Belt",
+            "name": "",
             "params": "bonus=8791&pcs=271490:271492:271495:271491:244581&gems=240898",
             "popularity": 76.9,
-            "parses": 1,
-            "nameEs": "Cinturón de trofeos de errante",
-            "icon": "inv_belt_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271491,
-            "name": "Skulking Viper's Coiled Legwraps",
+            "name": "",
             "params": "pcs=271490:271492:271495:271491&ench=8159",
             "popularity": 84,
-            "parses": 1,
-            "nameEs": "Perneras en espiral de víbora merodeadora",
-            "icon": "inv_pant_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268258,
-            "name": "Boots of the Reckless Wayfarer",
+            "name": "",
             "params": "pcs=271490:271492:271495:271491:268258&ench=7963",
             "popularity": 28.5,
-            "parses": 528,
-            "nameEs": "Botas del caminante temerario",
-            "icon": "inv_boot_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 528
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271490:271492:271495:271491:281029&gems=240898&ench=7967",
             "popularity": 52.4,
-            "parses": 971,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 971
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8791&pcs=271490:271492:271495:271491:240949&gems=240898&ench=7967",
             "popularity": 32.9,
-            "parses": 609,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 609
           },
           {
             "id": 268213,
-            "name": "Maze-roa, Warlord's Fury",
+            "name": "",
             "params": "pcs=271490:271492:271495:271491:268213&ench=8689",
             "popularity": 52,
-            "parses": 963,
-            "nameEs": "Maze-roa, Furia del Señor de la Guerra",
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "quality": 4
+            "parses": 963
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 41,
-            "parses": 759,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 759
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 41,
-            "parses": 759,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 759
           }
         ]
       },
@@ -5351,153 +3902,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271492,
-            "name": "Skulking Viper's Weeping Fangs",
+            "name": "",
             "params": "pcs=271495:271490:271493:271492&gems=240890&ench=8017",
             "popularity": 78.5,
-            "parses": 503,
-            "nameEs": "Colmillos supurantes de víbora merodeadora",
-            "icon": "inv_helm_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 503
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271495:271490:271493:271492:268265&gems=240983",
             "popularity": 87.7,
-            "parses": 562,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 562
           },
           {
             "id": 271490,
-            "name": "Jaws of the Skulking Viper",
+            "name": "",
             "params": "pcs=271495:271490:271493:271492&ench=8001",
             "popularity": 93.1,
-            "parses": 597,
-            "nameEs": "Mandíbulas de la víbora merodeadora",
-            "icon": "inv_shoulder_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 597
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8790&pcs=271495:271490:271493:271492:239656",
             "popularity": 37,
-            "parses": 237,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 237
           },
           {
             "id": 271495,
-            "name": "Skulking Viper's Scuteplate",
+            "name": "",
             "params": "pcs=271495:271490:271493:271492&ench=7987",
             "popularity": 93.4,
-            "parses": 599,
-            "nameEs": "Placa dérmica de víbora merodeadora",
-            "icon": "inv_chest_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 599
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8790&pcs=271495:271490:271493:271492:244584&gems=240890",
             "popularity": 87.1,
-            "parses": 558,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 558
           },
           {
             "id": 271493,
-            "name": "Skulking Viper's Hidepiercers",
+            "name": "",
             "params": "pcs=271495:271490:271493:271492",
             "popularity": 89.2,
-            "parses": 572,
-            "nameEs": "Perforapellejos de víbora merodeadora",
-            "icon": "inv_glove_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 572
           },
           {
             "id": 244581,
-            "name": "Farstrider's Trophy Belt",
+            "name": "",
             "params": "bonus=8790&pcs=271495:271490:271493:271492:244581&gems=240890",
             "popularity": 82.8,
-            "parses": 531,
-            "nameEs": "Cinturón de trofeos de errante",
-            "icon": "inv_belt_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 531
           },
           {
             "id": 271491,
-            "name": "Skulking Viper's Coiled Legwraps",
+            "name": "",
             "params": "pcs=271495:271490:271493:271492:271491&ench=8159",
             "popularity": 71.9,
-            "parses": 461,
-            "nameEs": "Perneras en espiral de víbora merodeadora",
-            "icon": "inv_pant_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 461
           },
           {
             "id": 271494,
-            "name": "Skulking Viper's Tracks",
+            "name": "",
             "params": "pcs=271495:271490:271493:271492:271494&ench=7963",
             "popularity": 26.7,
-            "parses": 171,
-            "nameEs": "Huellas de víbora merodeadora",
-            "icon": "inv_boot_mail_raidhunterulatek_d_01",
-            "quality": 4
+            "parses": 171
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271495:271490:271493:271492:281029&gems=240890&ench=7967",
             "popularity": 65.2,
-            "parses": 418,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 418
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271495:271490:271493:271492:240949&gems=240890&ench=7967",
             "popularity": 44.9,
-            "parses": 288,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 288
           },
           {
             "id": 268215,
-            "name": "Abyssal Broodfiend's Bardiche",
+            "name": "",
             "params": "pcs=271495:271490:271493:271492:268215&ench=8689",
             "popularity": 42.7,
-            "parses": 274,
-            "nameEs": "Bardiche de maligno de la prole abisal",
-            "icon": "inv_polearm_2h_ulatek_d_01",
-            "quality": 4
+            "parses": 274
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 57.3,
-            "parses": 367,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 367
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 57.3,
-            "parses": 367,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 367
           }
         ]
       }
@@ -5520,163 +4026,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271564,
-            "name": "Crown of the Primal Leywarden",
+            "name": "",
             "params": "pcs=271562:271567:271563:271564&gems=240916&ench=8017",
             "popularity": 81.7,
-            "parses": 30,
-            "nameEs": "Corona del celador Ley primigenio",
-            "icon": "inv_helm_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 30
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271562:271567:271563:271564:268265&gems=240983",
             "popularity": 94.4,
-            "parses": 35,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 35
           },
           {
             "id": 271562,
-            "name": "Primal Leywarden's Manaflux",
+            "name": "",
             "params": "pcs=271562:271567:271563:271564&ench=8001",
             "popularity": 93.6,
-            "parses": 35,
-            "nameEs": "Manafluzo de celador Ley primigenio",
-            "icon": "inv_shoulder_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 35
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8792&pcs=271562:271567:271563:271564:239656",
             "popularity": 29.3,
-            "parses": 11,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 271567,
-            "name": "Crest of the Primal Leywarden",
+            "name": "",
             "params": "pcs=271562:271567:271563:271564&ench=7987",
             "popularity": 90.6,
-            "parses": 34,
-            "nameEs": "Blasón del celador Ley primigenio",
-            "icon": "inv_robe_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 34
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8792&pcs=271562:271567:271563:271564:239648&gems=240916",
             "popularity": 84.7,
-            "parses": 32,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 32
           },
           {
             "id": 271565,
-            "name": "Primal Leywarden's Manashapers",
+            "name": "",
             "params": "pcs=271562:271567:271563:271564:271565",
             "popularity": 79,
-            "parses": 29,
-            "nameEs": "Moldeadores de maná de celador Ley primigenio",
-            "icon": "inv_glove_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 29
           },
           {
             "id": 268232,
-            "name": "Cincture of the Abyssal Grotto",
+            "name": "",
             "params": "pcs=271562:271567:271563:271564:268232&gems=240916",
             "popularity": 37.4,
-            "parses": 14,
-            "nameEs": "Ceñidor de la gruta abisal",
-            "icon": "inv_belt_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 14
           },
           {
             "id": 271563,
-            "name": "Primal Leywarden's Tailored Legwraps",
+            "name": "",
             "params": "pcs=271562:271567:271563:271564&ench=7935",
             "popularity": 88.3,
-            "parses": 33,
-            "nameEs": "Perneras a medida de celador Ley primigenio",
-            "icon": "inv_pant_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 33
           },
           {
             "id": 268255,
-            "name": "Cackling Soultreads",
+            "name": "",
             "params": "pcs=271562:271567:271563:271564:268255&ench=7963",
             "popularity": 19.1,
-            "parses": 7,
-            "nameEs": "Botines de alma carcajeantes",
-            "icon": "inv_boot_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 268266,
-            "name": "Alluring Bubbleband",
+            "name": "",
             "params": "bonus=13534&pcs=271562:271567:271563:271564:268266&gems=240916&ench=7967",
             "popularity": 45.8,
-            "parses": 17,
-            "nameEs": "Sortija de burbujas atrayente",
-            "icon": "inv_70_raid_ring8c",
-            "quality": 4
+            "parses": 17
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8792&pcs=271562:271567:271563:271564:240949&gems=240916&ench=7967",
             "popularity": 39.3,
-            "parses": 14,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 14
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271562:271567:271563:271564:271092&ench=8689",
             "popularity": 77.6,
-            "parses": 29,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 29
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8792&pcs=271562:271567:271563:271564:245769",
             "popularity": 71.7,
-            "parses": 27,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 27
           },
           {
             "id": 250215,
-            "name": "Freightrunner's Flask",
+            "name": "",
             "params": "nofollow",
             "popularity": 38.5,
-            "parses": 14,
-            "nameEs": "Frasco de corredor de fletes",
-            "icon": "inv_alchemy_90_flask_red",
-            "quality": 4
+            "parses": 14
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 38.5,
-            "parses": 14,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 14
           }
         ]
       },
@@ -5695,163 +4153,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271564,
-            "name": "Crown of the Primal Leywarden",
+            "name": "",
             "params": "pcs=271562:271563:271567:271564&gems=240916&ench=8017",
             "popularity": 83.7,
-            "parses": 11,
-            "nameEs": "Corona del celador Ley primigenio",
-            "icon": "inv_helm_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271562:271563:271567:271564:268265&gems=240983",
             "popularity": 95.6,
-            "parses": 12,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 271562,
-            "name": "Primal Leywarden's Manaflux",
+            "name": "",
             "params": "pcs=271562:271563:271567:271564&ench=8001",
             "popularity": 91.7,
-            "parses": 12,
-            "nameEs": "Manafluzo de celador Ley primigenio",
-            "icon": "inv_shoulder_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8792&pcs=271562:271563:271567:271564:239656",
             "popularity": 37.7,
-            "parses": 5,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271567,
-            "name": "Crest of the Primal Leywarden",
+            "name": "",
             "params": "pcs=271562:271563:271567:271564&ench=7987",
             "popularity": 83.8,
-            "parses": 11,
-            "nameEs": "Blasón del celador Ley primigenio",
-            "icon": "inv_robe_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8792&pcs=271562:271563:271567:271564:239648&gems=240916",
             "popularity": 86,
-            "parses": 11,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 271565,
-            "name": "Primal Leywarden's Manashapers",
+            "name": "",
             "params": "pcs=271562:271563:271567:271564:271565",
             "popularity": 66,
-            "parses": 8,
-            "nameEs": "Moldeadores de maná de celador Ley primigenio",
-            "icon": "inv_glove_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 268232,
-            "name": "Cincture of the Abyssal Grotto",
+            "name": "",
             "params": "pcs=271562:271563:271567:271564:268232&gems=240916",
             "popularity": 37.8,
-            "parses": 5,
-            "nameEs": "Ceñidor de la gruta abisal",
-            "icon": "inv_belt_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271563,
-            "name": "Primal Leywarden's Tailored Legwraps",
+            "name": "",
             "params": "pcs=271562:271563:271567:271564&ench=7935",
             "popularity": 85.9,
-            "parses": 11,
-            "nameEs": "Perneras a medida de celador Ley primigenio",
-            "icon": "inv_pant_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 271435,
-            "name": "Slippers of the Hissing Cult",
+            "name": "",
             "params": "pcs=271562:271563:271567:271564:271435&ench=7963",
             "popularity": 22.8,
-            "parses": 3,
-            "nameEs": "Zapatillas del culto siseante",
-            "icon": "inv_boot_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 268266,
-            "name": "Alluring Bubbleband",
+            "name": "",
             "params": "bonus=13534&pcs=271562:271563:271567:271564:268266&gems=240916&ench=7967",
             "popularity": 44.1,
-            "parses": 5,
-            "nameEs": "Sortija de burbujas atrayente",
-            "icon": "inv_70_raid_ring8c",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8792&pcs=271562:271563:271567:271564:240949&gems=240916&ench=7967",
             "popularity": 44,
-            "parses": 5,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271562:271563:271567:271564:271092&ench=8689",
             "popularity": 87.3,
-            "parses": 11,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8792&pcs=271562:271563:271567:271564:245769",
             "popularity": 74.4,
-            "parses": 10,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 250215,
-            "name": "Freightrunner's Flask",
+            "name": "",
             "params": "nofollow",
             "popularity": 36.3,
-            "parses": 4,
-            "nameEs": "Frasco de corredor de fletes",
-            "icon": "inv_alchemy_90_flask_red",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 36.3,
-            "parses": 4,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 4
           }
         ]
       }
@@ -5872,163 +4282,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271564,
-            "name": "Crown of the Primal Leywarden",
+            "name": "",
             "params": "pcs=271562:271565:271563:271564&gems=240916&ench=8017",
             "popularity": 81.9,
-            "parses": 714,
-            "nameEs": "Corona del celador Ley primigenio",
-            "icon": "inv_helm_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 714
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271562:271565:271563:271564:268265&gems=240967",
             "popularity": 89.9,
-            "parses": 784,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 784
           },
           {
             "id": 271562,
-            "name": "Primal Leywarden's Manaflux",
+            "name": "",
             "params": "pcs=271562:271565:271563:271564&ench=8001",
             "popularity": 94,
-            "parses": 820,
-            "nameEs": "Manafluzo de celador Ley primigenio",
-            "icon": "inv_shoulder_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 820
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8792&pcs=271562:271565:271563:271564:239656",
             "popularity": 30.6,
-            "parses": 267,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 267
           },
           {
             "id": 271567,
-            "name": "Crest of the Primal Leywarden",
+            "name": "",
             "params": "pcs=271562:271565:271563:271564:271567&ench=7987",
             "popularity": 74.1,
-            "parses": 646,
-            "nameEs": "Blasón del celador Ley primigenio",
-            "icon": "inv_robe_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 646
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8792&pcs=271562:271565:271563:271564:239648&gems=240916",
             "popularity": 89.2,
-            "parses": 778,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 778
           },
           {
             "id": 271565,
-            "name": "Primal Leywarden's Manashapers",
+            "name": "",
             "params": "pcs=271562:271565:271563:271564",
             "popularity": 89.7,
-            "parses": 782,
-            "nameEs": "Moldeadores de maná de celador Ley primigenio",
-            "icon": "inv_glove_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 782
           },
           {
             "id": 268257,
-            "name": "Caustic Chain-Wrapped Sash",
+            "name": "",
             "params": "pcs=271562:271565:271563:271564:268257&gems=240916",
             "popularity": 36.6,
-            "parses": 319,
-            "nameEs": "Fajín envuelto en anillas cáustico",
-            "icon": "inv_belt_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 319
           },
           {
             "id": 271563,
-            "name": "Primal Leywarden's Tailored Legwraps",
+            "name": "",
             "params": "pcs=271562:271565:271563:271564&ench=7935",
             "popularity": 84.3,
-            "parses": 735,
-            "nameEs": "Perneras a medida de celador Ley primigenio",
-            "icon": "inv_pant_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 735
           },
           {
             "id": 268255,
-            "name": "Cackling Soultreads",
+            "name": "",
             "params": "pcs=271562:271565:271563:271564:268255&ench=7963",
             "popularity": 40.7,
-            "parses": 355,
-            "nameEs": "Botines de alma carcajeantes",
-            "icon": "inv_boot_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 355
           },
           {
             "id": 268266,
-            "name": "Alluring Bubbleband",
+            "name": "",
             "params": "bonus=13534&pcs=271562:271565:271563:271564:268266&gems=240916&ench=7967",
             "popularity": 58.3,
-            "parses": 508,
-            "nameEs": "Sortija de burbujas atrayente",
-            "icon": "inv_70_raid_ring8c",
-            "quality": 4
+            "parses": 508
           },
           {
             "id": 159459,
-            "name": "Ritual Binder's Ring",
+            "name": "",
             "params": "bonus=13534&pcs=271562:271565:271563:271564:159459&gems=240916&ench=7967",
             "popularity": 43.7,
-            "parses": 381,
-            "nameEs": "Anillo del vinculador de ritual",
-            "icon": "inv_ring_80_03e",
-            "quality": 4
+            "parses": 381
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271562:271565:271563:271564:271092&ench=8689",
             "popularity": 75.8,
-            "parses": 661,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 661
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8792&pcs=271562:271565:271563:271564:245769",
             "popularity": 68.9,
-            "parses": 601,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 601
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 23.6,
-            "parses": 206,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 206
           },
           {
             "id": 273796,
-            "name": "Vile Vial of Volatile Venom",
+            "name": "",
             "params": "nofollow",
             "popularity": 23.6,
-            "parses": 206,
-            "nameEs": "Vial abyecto de veneno volátil",
-            "icon": "inv_121_trinket_dungeon_ulatek_vile",
-            "quality": 4
+            "parses": 206
           }
         ]
       },
@@ -6047,163 +4409,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271564,
-            "name": "Crown of the Primal Leywarden",
+            "name": "",
             "params": "pcs=271567:271564:271562:271563&gems=240916&ench=8017",
             "popularity": 86.2,
-            "parses": 420,
-            "nameEs": "Corona del celador Ley primigenio",
-            "icon": "inv_helm_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 420
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271567:271564:271562:271563:268265&gems=240983",
             "popularity": 82.3,
-            "parses": 401,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 401
           },
           {
             "id": 271562,
-            "name": "Primal Leywarden's Manaflux",
+            "name": "",
             "params": "pcs=271567:271564:271562:271563&ench=8001",
             "popularity": 86.2,
-            "parses": 420,
-            "nameEs": "Manafluzo de celador Ley primigenio",
-            "icon": "inv_shoulder_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 420
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8792&pcs=271567:271564:271562:271563:239656",
             "popularity": 42.5,
-            "parses": 207,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 207
           },
           {
             "id": 271567,
-            "name": "Crest of the Primal Leywarden",
+            "name": "",
             "params": "pcs=271567:271564:271562:271563&ench=7987",
             "popularity": 86.7,
-            "parses": 422,
-            "nameEs": "Blasón del celador Ley primigenio",
-            "icon": "inv_robe_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 422
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8792&pcs=271567:271564:271562:271563:239648&gems=240916",
             "popularity": 93,
-            "parses": 453,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 453
           },
           {
             "id": 271565,
-            "name": "Primal Leywarden's Manashapers",
+            "name": "",
             "params": "pcs=271567:271564:271562:271563:271565",
             "popularity": 74.9,
-            "parses": 365,
-            "nameEs": "Moldeadores de maná de celador Ley primigenio",
-            "icon": "inv_glove_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 365
           },
           {
             "id": 239649,
-            "name": "Martyr's Waistwrap",
+            "name": "",
             "params": "bonus=8792&pcs=271567:271564:271562:271563:239649&gems=240916",
             "popularity": 48.5,
-            "parses": 236,
-            "nameEs": "Ajustador de mártir",
-            "icon": "inv_belt_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 236
           },
           {
             "id": 271563,
-            "name": "Primal Leywarden's Tailored Legwraps",
+            "name": "",
             "params": "pcs=271567:271564:271562:271563&ench=7935",
             "popularity": 81.1,
-            "parses": 395,
-            "nameEs": "Perneras a medida de celador Ley primigenio",
-            "icon": "inv_pant_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 395
           },
           {
             "id": 268255,
-            "name": "Cackling Soultreads",
+            "name": "",
             "params": "pcs=271567:271564:271562:271563:268255&ench=7963",
             "popularity": 22.8,
-            "parses": 111,
-            "nameEs": "Botines de alma carcajeantes",
-            "icon": "inv_boot_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 111
           },
           {
             "id": 159459,
-            "name": "Ritual Binder's Ring",
+            "name": "",
             "params": "bonus=13534&pcs=271567:271564:271562:271563:159459&gems=240916&ench=7967",
             "popularity": 52.6,
-            "parses": 256,
-            "nameEs": "Anillo del vinculador de ritual",
-            "icon": "inv_ring_80_03e",
-            "quality": 4
+            "parses": 256
           },
           {
             "id": 268266,
-            "name": "Alluring Bubbleband",
+            "name": "",
             "params": "bonus=13534&pcs=271567:271564:271562:271563:268266&gems=240916&ench=7967",
             "popularity": 51.3,
-            "parses": 250,
-            "nameEs": "Sortija de burbujas atrayente",
-            "icon": "inv_70_raid_ring8c",
-            "quality": 4
+            "parses": 250
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271567:271564:271562:271563:271092&ench=8689",
             "popularity": 80.1,
-            "parses": 390,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 390
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8792&pcs=271567:271564:271562:271563:245769",
             "popularity": 65.1,
-            "parses": 317,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 317
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 32.4,
-            "parses": 158,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 158
           },
           {
             "id": 273796,
-            "name": "Vile Vial of Volatile Venom",
+            "name": "",
             "params": "nofollow",
             "popularity": 32.4,
-            "parses": 158,
-            "nameEs": "Vial abyecto de veneno volátil",
-            "icon": "inv_121_trinket_dungeon_ulatek_vile",
-            "quality": 4
+            "parses": 158
           }
         ]
       }
@@ -6224,163 +4538,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271564,
-            "name": "Crown of the Primal Leywarden",
+            "name": "",
             "params": "pcs=271562:271567:271563:271564&gems=240908&ench=8017",
             "popularity": 84.5,
-            "parses": 5,
-            "nameEs": "Corona del celador Ley primigenio",
-            "icon": "inv_helm_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271562:271567:271563:271564:268265&gems=240983",
             "popularity": 94.1,
-            "parses": 5,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271562,
-            "name": "Primal Leywarden's Manaflux",
+            "name": "",
             "params": "pcs=271562:271567:271563:271564&ench=8001",
             "popularity": 92.4,
-            "parses": 5,
-            "nameEs": "Manafluzo de celador Ley primigenio",
-            "icon": "inv_shoulder_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271562:271567:271563:271564:239656",
             "popularity": 31.8,
-            "parses": 2,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271567,
-            "name": "Crest of the Primal Leywarden",
+            "name": "",
             "params": "pcs=271562:271567:271563:271564&ench=7987",
             "popularity": 91.7,
-            "parses": 5,
-            "nameEs": "Blasón del celador Ley primigenio",
-            "icon": "inv_robe_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8791&pcs=271562:271567:271563:271564:239648&gems=240908",
             "popularity": 79.5,
-            "parses": 4,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271565,
-            "name": "Primal Leywarden's Manashapers",
+            "name": "",
             "params": "pcs=271562:271567:271563:271564:271565",
             "popularity": 80.1,
-            "parses": 5,
-            "nameEs": "Moldeadores de maná de celador Ley primigenio",
-            "icon": "inv_glove_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 239649,
-            "name": "Martyr's Waistwrap",
+            "name": "",
             "params": "bonus=8791&pcs=271562:271567:271563:271564:239649&gems=240908",
             "popularity": 35.8,
-            "parses": 2,
-            "nameEs": "Ajustador de mártir",
-            "icon": "inv_belt_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271563,
-            "name": "Primal Leywarden's Tailored Legwraps",
+            "name": "",
             "params": "pcs=271562:271567:271563:271564&ench=7935",
             "popularity": 87,
-            "parses": 5,
-            "nameEs": "Perneras a medida de celador Ley primigenio",
-            "icon": "inv_pant_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268218,
-            "name": "Nek'zali's Spiritwalkers",
+            "name": "",
             "params": "pcs=271562:271567:271563:271564:268218&ench=7963",
             "popularity": 32.1,
-            "parses": 2,
-            "nameEs": "Caminaespíritus de Nek'zali",
-            "icon": "inv_boot_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271562:271567:271563:271564:281029&gems=240908&ench=7967",
             "popularity": 39.3,
-            "parses": 2,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 251136,
-            "name": "Signet of Snarling Servitude",
+            "name": "",
             "params": "bonus=13534&pcs=271562:271567:271563:271564:251136&gems=240908&ench=7967",
             "popularity": 28.2,
-            "parses": 1,
-            "nameEs": "Sello de servidumbre gruñidora",
-            "icon": "inv_12_jewelry_voidelf_ring_teal",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271562:271567:271563:271564:271092&ench=8689",
             "popularity": 79.3,
-            "parses": 4,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8791&pcs=271562:271567:271563:271564:245769",
             "popularity": 62.2,
-            "parses": 3,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 37.4,
-            "parses": 2,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 37.4,
-            "parses": 2,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 2
           }
         ]
       },
@@ -6399,163 +4665,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271564,
-            "name": "Crown of the Primal Leywarden",
+            "name": "",
             "params": "pcs=271567:271562:271564:271563&gems=240908&ench=8017",
             "popularity": 84.2,
-            "parses": 1,
-            "nameEs": "Corona del celador Ley primigenio",
-            "icon": "inv_helm_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271567:271562:271564:271563:268265&gems=240983",
             "popularity": 83.6,
-            "parses": 1,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271562,
-            "name": "Primal Leywarden's Manaflux",
+            "name": "",
             "params": "pcs=271567:271562:271564:271563&ench=8001",
             "popularity": 86,
-            "parses": 1,
-            "nameEs": "Manafluzo de celador Ley primigenio",
-            "icon": "inv_shoulder_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271567:271562:271564:271563:239656",
             "popularity": 34.7,
-            "parses": 452,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 452
           },
           {
             "id": 271567,
-            "name": "Crest of the Primal Leywarden",
+            "name": "",
             "params": "pcs=271567:271562:271564:271563&ench=7987",
             "popularity": 87.6,
-            "parses": 1,
-            "nameEs": "Blasón del celador Ley primigenio",
-            "icon": "inv_robe_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8791&pcs=271567:271562:271564:271563:239648&gems=240908",
             "popularity": 73.7,
-            "parses": 959,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 959
           },
           {
             "id": 271565,
-            "name": "Primal Leywarden's Manashapers",
+            "name": "",
             "params": "pcs=271567:271562:271564:271563:271565",
             "popularity": 77.3,
-            "parses": 1,
-            "nameEs": "Moldeadores de maná de celador Ley primigenio",
-            "icon": "inv_glove_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 239649,
-            "name": "Martyr's Waistwrap",
+            "name": "",
             "params": "bonus=8791&pcs=271567:271562:271564:271563:239649&gems=240908",
             "popularity": 53.4,
-            "parses": 695,
-            "nameEs": "Ajustador de mártir",
-            "icon": "inv_belt_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 695
           },
           {
             "id": 271563,
-            "name": "Primal Leywarden's Tailored Legwraps",
+            "name": "",
             "params": "pcs=271567:271562:271564:271563&ench=7935",
             "popularity": 80.8,
-            "parses": 1,
-            "nameEs": "Perneras a medida de celador Ley primigenio",
-            "icon": "inv_pant_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268218,
-            "name": "Nek'zali's Spiritwalkers",
+            "name": "",
             "params": "pcs=271567:271562:271564:271563:268218&ench=7963",
             "popularity": 24.4,
-            "parses": 318,
-            "nameEs": "Caminaespíritus de Nek'zali",
-            "icon": "inv_boot_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 318
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271567:271562:271564:271563:281029&gems=240908&ench=7967",
             "popularity": 44.5,
-            "parses": 580,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 580
           },
           {
             "id": 251136,
-            "name": "Signet of Snarling Servitude",
+            "name": "",
             "params": "bonus=13534&pcs=271567:271562:271564:271563:251136&gems=240908&ench=7967",
             "popularity": 31.9,
-            "parses": 415,
-            "nameEs": "Sello de servidumbre gruñidora",
-            "icon": "inv_12_jewelry_voidelf_ring_teal",
-            "quality": 4
+            "parses": 415
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271567:271562:271564:271563:271092&ench=8689",
             "popularity": 67.9,
-            "parses": 884,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 884
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8791&pcs=271567:271562:271564:271563:245769",
             "popularity": 48.1,
-            "parses": 626,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 626
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 43.2,
-            "parses": 563,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 563
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 43.2,
-            "parses": 563,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 563
           }
         ]
       }
@@ -6578,153 +4796,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271519,
-            "name": "Monkey King's Unyielding Visage",
+            "name": "",
             "params": "pcs=271519:271517:271518:271522&gems=240914&ench=7961",
             "popularity": 90.2,
-            "parses": 6,
-            "nameEs": "Rostro inquebrantable del Rey Mono",
-            "icon": "inv_helm_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271519:271517:271518:271522:268265&gems=240983",
             "popularity": 77.9,
-            "parses": 5,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271517,
-            "name": "Tassels of the Monkey King",
+            "name": "",
             "params": "pcs=271519:271517:271518:271522&ench=8031",
             "popularity": 89.2,
-            "parses": 6,
-            "nameEs": "Borlas del Rey Mono",
-            "icon": "inv_shoulder_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 268248,
-            "name": "Amani Summoning Shawl",
+            "name": "",
             "params": "pcs=271519:271517:271518:271522:268248",
             "popularity": 44.1,
-            "parses": 3,
-            "nameEs": "Chal de invocación Amani",
-            "icon": "inv_cape_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271522,
-            "name": "Battle Gi of the Monkey King",
+            "name": "",
             "params": "pcs=271519:271517:271518:271522&ench=7987",
             "popularity": 86.1,
-            "parses": 6,
-            "nameEs": "Gi de batalla del Rey Mono",
-            "icon": "inv_chest_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8795&pcs=271519:271517:271518:271522:244576&gems=240914",
             "popularity": 60.2,
-            "parses": 4,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271520,
-            "name": "Monkey King's Fighting Fists",
+            "name": "",
             "params": "pcs=271519:271517:271518:271522:271520",
             "popularity": 82.7,
-            "parses": 6,
-            "nameEs": "Puños de lucha del Rey Mono",
-            "icon": "inv_glove_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 268227,
-            "name": "Unpossessed Skullsash",
+            "name": "",
             "params": "pcs=271519:271517:271518:271522:268227&gems=240914",
             "popularity": 33.8,
-            "parses": 2,
-            "nameEs": "Fajín craneal desposeído",
-            "icon": "inv_belt_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271518,
-            "name": "Pantaloons of the Monkey King",
+            "name": "",
             "params": "pcs=271519:271517:271518:271522&ench=8159",
             "popularity": 86.6,
-            "parses": 6,
-            "nameEs": "Bombachos del Rey Mono",
-            "icon": "inv_pant_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8795&pcs=271519:271517:271518:271522:244569&ench=7993",
             "popularity": 46.9,
-            "parses": 3,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 251513,
-            "name": "Loa Worshiper's Band",
+            "name": "",
             "params": ":8795&pcs=271519:271517:271518:271522:251513&gems=240914&ench=7967",
             "popularity": 61.2,
-            "parses": 4,
-            "nameEs": "Sortija de adorador de loa",
-            "icon": "inv_12_profession_jewelcrafting_ring3_silver",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8795&pcs=271519:271517:271518:271522:240949&gems=240914&ench=7967",
             "popularity": 36.2,
-            "parses": 2,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268215,
-            "name": "Abyssal Broodfiend's Bardiche",
+            "name": "",
             "params": "pcs=271519:271517:271518:271522:268215&ench=8039",
             "popularity": 59.6,
-            "parses": 4,
-            "nameEs": "Bardiche de maligno de la prole abisal",
-            "icon": "inv_polearm_2h_ulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 23.7,
-            "parses": 1,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 23.7,
-            "parses": 1,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 1
           }
         ]
       },
@@ -6743,153 +4916,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271519,
-            "name": "Monkey King's Unyielding Visage",
+            "name": "",
             "params": "pcs=271519:271517:271522:271520&gems=240910&ench=7961",
             "popularity": 89,
-            "parses": 1,
-            "nameEs": "Rostro inquebrantable del Rey Mono",
-            "icon": "inv_helm_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271519:271517:271522:271520:268265&gems=240983",
             "popularity": 85.8,
-            "parses": 1,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271517,
-            "name": "Tassels of the Monkey King",
+            "name": "",
             "params": "pcs=271519:271517:271522:271520&ench=8031",
             "popularity": 83.6,
-            "parses": 1,
-            "nameEs": "Borlas del Rey Mono",
-            "icon": "inv_shoulder_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268248,
-            "name": "Amani Summoning Shawl",
+            "name": "",
             "params": "pcs=271519:271517:271522:271520:268248",
             "popularity": 32.1,
-            "parses": 534,
-            "nameEs": "Chal de invocación Amani",
-            "icon": "inv_cape_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 534
           },
           {
             "id": 271522,
-            "name": "Battle Gi of the Monkey King",
+            "name": "",
             "params": "pcs=271519:271517:271522:271520&ench=7987",
             "popularity": 81.7,
-            "parses": 1,
-            "nameEs": "Gi de batalla del Rey Mono",
-            "icon": "inv_chest_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8795&pcs=271519:271517:271522:271520:244576&gems=240910",
             "popularity": 77.4,
-            "parses": 1,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271520,
-            "name": "Monkey King's Fighting Fists",
+            "name": "",
             "params": "pcs=271519:271517:271522:271520",
             "popularity": 77.9,
-            "parses": 1,
-            "nameEs": "Puños de lucha del Rey Mono",
-            "icon": "inv_glove_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271516,
-            "name": "Agile Cord of the Monkey King",
+            "name": "",
             "params": "pcs=271519:271517:271522:271520:271516&gems=240910",
             "popularity": 22.2,
-            "parses": 369,
-            "nameEs": "Cordón ágil del Rey Mono",
-            "icon": "inv_belt_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 369
           },
           {
             "id": 271518,
-            "name": "Pantaloons of the Monkey King",
+            "name": "",
             "params": "pcs=271519:271517:271522:271520:271518&ench=8159",
             "popularity": 77.8,
-            "parses": 1,
-            "nameEs": "Bombachos del Rey Mono",
-            "icon": "inv_pant_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8795&pcs=271519:271517:271522:271520:244569&ench=7993",
             "popularity": 70.7,
-            "parses": 1,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 251513,
-            "name": "Loa Worshiper's Band",
+            "name": "",
             "params": ":8795&pcs=271519:271517:271522:271520:251513&gems=240910&ench=7967",
             "popularity": 80.9,
-            "parses": 1,
-            "nameEs": "Sortija de adorador de loa",
-            "icon": "inv_12_profession_jewelcrafting_ring3_silver",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 251148,
-            "name": "Pilfered Precious Band",
+            "name": "",
             "params": "bonus=13534&pcs=271519:271517:271522:271520:251148&gems=240910&ench=7967",
             "popularity": 54.1,
-            "parses": 899,
-            "nameEs": "Sortija preciosa birlada",
-            "icon": "inv_12_jewelry_zulaman_troll_ring_green2",
-            "quality": 4
+            "parses": 899
           },
           {
             "id": 268215,
-            "name": "Abyssal Broodfiend's Bardiche",
+            "name": "",
             "params": "pcs=271519:271517:271522:271520:268215&ench=8689",
             "popularity": 78,
-            "parses": 1,
-            "nameEs": "Bardiche de maligno de la prole abisal",
-            "icon": "inv_polearm_2h_ulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 19.1,
-            "parses": 317,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 317
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 19.1,
-            "parses": 317,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 317
           }
         ]
       }
@@ -6910,153 +5038,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271519,
-            "name": "Monkey King's Unyielding Visage",
+            "name": "",
             "params": "pcs=271517:271519:271522:271520&gems=240890&ench=7961",
             "popularity": 89,
-            "parses": 6,
-            "nameEs": "Rostro inquebrantable del Rey Mono",
-            "icon": "inv_helm_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271517:271519:271522:271520:268265&gems=240983",
             "popularity": 91.4,
-            "parses": 6,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 271517,
-            "name": "Tassels of the Monkey King",
+            "name": "",
             "params": "pcs=271517:271519:271522:271520&ench=8031",
             "popularity": 89.4,
-            "parses": 6,
-            "nameEs": "Borlas del Rey Mono",
-            "icon": "inv_shoulder_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8790&pcs=271517:271519:271522:271520:239656",
             "popularity": 42,
-            "parses": 3,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271522,
-            "name": "Battle Gi of the Monkey King",
+            "name": "",
             "params": "pcs=271517:271519:271522:271520&ench=7987",
             "popularity": 86,
-            "parses": 6,
-            "nameEs": "Gi de batalla del Rey Mono",
-            "icon": "inv_chest_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8790&pcs=271517:271519:271522:271520:244576&gems=240890",
             "popularity": 42.3,
-            "parses": 3,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271520,
-            "name": "Monkey King's Fighting Fists",
+            "name": "",
             "params": "pcs=271517:271519:271522:271520",
             "popularity": 85.9,
-            "parses": 6,
-            "nameEs": "Puños de lucha del Rey Mono",
-            "icon": "inv_glove_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 244573,
-            "name": "Silvermoon Agent's Utility Belt",
+            "name": "",
             "params": "bonus=8790&pcs=271517:271519:271522:271520:244573&gems=240890",
             "popularity": 37.8,
-            "parses": 2,
-            "nameEs": "Cinturón de herramientas de agente de Lunargenta",
-            "icon": "inv_belt_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271518,
-            "name": "Pantaloons of the Monkey King",
+            "name": "",
             "params": "pcs=271517:271519:271522:271520:271518&ench=7937",
             "popularity": 79.5,
-            "parses": 6,
-            "nameEs": "Bombachos del Rey Mono",
-            "icon": "inv_pant_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 268247,
-            "name": "Breakwater Boots",
+            "name": "",
             "params": "pcs=271517:271519:271522:271520:268247&ench=7993",
             "popularity": 39,
-            "parses": 2,
-            "nameEs": "Botas de Aguarrota",
-            "icon": "inv_boot_leather_raiddemonhunterulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268266,
-            "name": "Alluring Bubbleband",
+            "name": "",
             "params": "bonus=13534&pcs=271517:271519:271522:271520:268266&gems=240890&ench=8025",
             "popularity": 52.5,
-            "parses": 3,
-            "nameEs": "Sortija de burbujas atrayente",
-            "icon": "inv_70_raid_ring8c",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271517:271519:271522:271520:240949&gems=240890&ench=8025",
             "popularity": 42.4,
-            "parses": 3,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 245770,
-            "name": "Aln'hara Cane",
+            "name": "",
             "params": "bonus=8790&pcs=271517:271519:271522:271520:245770&ench=8039",
             "popularity": 67.6,
-            "parses": 5,
-            "nameEs": "Caña de Aln'hara",
-            "icon": "inv_staff_2h_dungeonharronir_c_02",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 270162,
-            "name": "Soulcoiler Ritual Vessel",
+            "name": "",
             "params": "nofollow",
             "popularity": 51,
-            "parses": 3,
-            "nameEs": "Recipiente ritual de volutador de almas",
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 270167,
-            "name": "Wavecaller's Seastone",
+            "name": "",
             "params": "nofollow",
             "popularity": 51,
-            "parses": 3,
-            "nameEs": "Piedra marina de clamaolas",
-            "icon": "inv_tradeskillitem_sorcererswater",
-            "quality": 4
+            "parses": 3
           }
         ]
       },
@@ -7075,164 +5158,119 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271519,
-            "name": "Monkey King's Unyielding Visage",
+            "name": "",
             "params": "pcs=271522:271517:271519:271520&gems=240890&ench=8017",
             "popularity": 85.2,
-            "parses": 2,
-            "nameEs": "Rostro inquebrantable del Rey Mono",
-            "icon": "inv_helm_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271522:271517:271519:271520:268265&gems=240983",
             "popularity": 87.1,
-            "parses": 2,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271517,
-            "name": "Tassels of the Monkey King",
+            "name": "",
             "params": "pcs=271522:271517:271519:271520&ench=8031",
             "popularity": 85.3,
-            "parses": 2,
-            "nameEs": "Borlas del Rey Mono",
-            "icon": "inv_shoulder_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8793&pcs=271522:271517:271519:271520:239656",
             "popularity": 39.2,
-            "parses": 923,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 923
           },
           {
             "id": 271522,
-            "name": "Battle Gi of the Monkey King",
+            "name": "",
             "params": "pcs=271522:271517:271519:271520&ench=7987",
             "popularity": 85.4,
-            "parses": 2,
-            "nameEs": "Gi de batalla del Rey Mono",
-            "icon": "inv_chest_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8793&pcs=271522:271517:271519:271520:244576&gems=240890",
             "popularity": 59.4,
-            "parses": 1,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271520,
-            "name": "Monkey King's Fighting Fists",
+            "name": "",
             "params": "pcs=271522:271517:271519:271520",
             "popularity": 76.5,
-            "parses": 1,
-            "nameEs": "Puños de lucha del Rey Mono",
-            "icon": "inv_glove_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 244573,
-            "name": "Silvermoon Agent's Utility Belt",
+            "name": "",
             "params": "bonus=8793&pcs=271522:271517:271519:271520:244573&gems=240890",
             "popularity": 40.9,
-            "parses": 963,
-            "nameEs": "Cinturón de herramientas de agente de Lunargenta",
-            "icon": "inv_belt_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 963
           },
           {
             "id": 271518,
-            "name": "Pantaloons of the Monkey King",
+            "name": "",
             "params": "pcs=271522:271517:271519:271520:271518&ench=7935",
             "popularity": 69.7,
-            "parses": 1,
-            "nameEs": "Bombachos del Rey Mono",
-            "icon": "inv_pant_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8793&pcs=271522:271517:271519:271520:244569&ench=7993",
             "popularity": 44.1,
-            "parses": 1,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271522:271517:271519:271520:281029&gems=240890&ench=8025",
             "popularity": 47,
-            "parses": 1,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8793&pcs=271522:271517:271519:271520:240949&gems=240890&ench=8025",
             "popularity": 32.9,
-            "parses": 774,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 774
           },
           {
             "id": 245770,
-            "name": "Aln'hara Cane",
+            "name": "",
             "params": "bonus=8793&pcs=271522:271517:271519:271520:245770&ench=8039",
             "popularity": 38.1,
-            "parses": 897,
-            "nameEs": "Caña de Aln'hara",
-            "icon": "inv_staff_2h_dungeonharronir_c_02",
-            "quality": 4
+            "parses": 897
           },
           {
             "id": 270162,
-            "name": "Soulcoiler Ritual Vessel",
+            "name": "",
             "params": "nofollow",
             "popularity": 35.3,
-            "parses": 830,
-            "nameEs": "Recipiente ritual de volutador de almas",
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "quality": 4
+            "parses": 830
           },
           {
             "id": 270167,
-            "name": "Wavecaller's Seastone",
+            "name": "",
             "params": "nofollow",
             "popularity": 35.3,
-            "parses": 830,
-            "nameEs": "Piedra marina de clamaolas",
-            "icon": "inv_tradeskillitem_sorcererswater",
-            "quality": 4
+            "parses": 830
           }
         ]
       }
     },
     "windwalker": {
       "raid": {
-        "m": 1278,
-        "c": 804,
-        "h": 957,
+        "m": 1279,
+        "c": 803,
+        "h": 958,
         "v": 127,
-        "dps": "281.0k",
+        "dps": "281.1k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/CrtjJ1GFK8LYXxg2#fight=1",
@@ -7242,153 +5280,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271519,
-            "name": "Monkey King's Unyielding Visage",
+            "name": "",
             "params": "pcs=271517:271522:271519:271518&gems=240900&ench=8017",
-            "popularity": 89.6,
-            "parses": 9,
-            "nameEs": "Rostro inquebrantable del Rey Mono",
-            "icon": "inv_helm_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "popularity": 88.9,
+            "parses": 9
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271517:271522:271519:271518:268265&gems=240983",
-            "popularity": 93.4,
-            "parses": 10,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "popularity": 92.2,
+            "parses": 10
           },
           {
             "id": 271517,
-            "name": "Tassels of the Monkey King",
+            "name": "",
             "params": "pcs=271517:271522:271519:271518&ench=8001",
-            "popularity": 93.7,
-            "parses": 10,
-            "nameEs": "Borlas del Rey Mono",
-            "icon": "inv_shoulder_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "popularity": 92.5,
+            "parses": 10
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271517:271522:271519:271518:268253",
-            "popularity": 39,
-            "parses": 4,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "popularity": 38.8,
+            "parses": 4
           },
           {
             "id": 271522,
-            "name": "Battle Gi of the Monkey King",
+            "name": "",
             "params": "pcs=271517:271522:271519:271518&ench=7987",
-            "popularity": 91.4,
-            "parses": 10,
-            "nameEs": "Gi de batalla del Rey Mono",
-            "icon": "inv_chest_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "popularity": 90.5,
+            "parses": 10
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8793&pcs=271517:271522:271519:271518:244576&gems=240900",
-            "popularity": 79.5,
-            "parses": 8,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "popularity": 78.5,
+            "parses": 8
           },
           {
             "id": 271520,
-            "name": "Monkey King's Fighting Fists",
+            "name": "",
             "params": "pcs=271517:271522:271519:271518:271520",
-            "popularity": 74.4,
-            "parses": 8,
-            "nameEs": "Puños de lucha del Rey Mono",
-            "icon": "inv_glove_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "popularity": 73.1,
+            "parses": 8
           },
           {
             "id": 268256,
-            "name": "Sash of the Forlorn Vessel",
+            "name": "",
             "params": "pcs=271517:271522:271519:271518:268256&gems=240900",
-            "popularity": 38.6,
-            "parses": 4,
-            "nameEs": "Fajín del recipiente desolado",
-            "icon": "inv_belt_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "popularity": 38,
+            "parses": 4
           },
           {
             "id": 271518,
-            "name": "Pantaloons of the Monkey King",
+            "name": "",
             "params": "pcs=271517:271522:271519:271518&ench=8159",
-            "popularity": 81.9,
-            "parses": 9,
-            "nameEs": "Bombachos del Rey Mono",
-            "icon": "inv_pant_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "popularity": 80.9,
+            "parses": 8
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8793&pcs=271517:271522:271519:271518:244569&ench=7963",
-            "popularity": 82.3,
-            "parses": 9,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "popularity": 80.9,
+            "parses": 8
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271517:271522:271519:271518:281029&gems=240900&ench=7967",
-            "popularity": 50.4,
-            "parses": 5,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "popularity": 52.5,
+            "parses": 5
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8793&pcs=271517:271522:271519:271518:240949&gems=240900&ench=7967",
-            "popularity": 40.3,
-            "parses": 4,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "popularity": 39.7,
+            "parses": 4
           },
           {
             "id": 268215,
-            "name": "Abyssal Broodfiend's Bardiche",
+            "name": "",
             "params": "pcs=271517:271522:271519:271518:268215&ench=8689",
-            "popularity": 93.3,
-            "parses": 10,
-            "nameEs": "Bardiche de maligno de la prole abisal",
-            "icon": "inv_polearm_2h_ulatek_d_01",
-            "quality": 4
+            "popularity": 92.3,
+            "parses": 10
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
-            "popularity": 56.8,
-            "parses": 6,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "popularity": 55.9,
+            "parses": 6
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
-            "popularity": 56.8,
-            "parses": 6,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "popularity": 55.9,
+            "parses": 6
           }
         ]
       },
@@ -7407,153 +5400,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271519,
-            "name": "Monkey King's Unyielding Visage",
+            "name": "",
             "params": "pcs=271519:271522:271517:271518&gems=240900&ench=8017",
             "popularity": 91.5,
-            "parses": 2,
-            "nameEs": "Rostro inquebrantable del Rey Mono",
-            "icon": "inv_helm_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271519:271522:271517:271518:268265&gems=240983",
             "popularity": 95.1,
-            "parses": 2,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271517,
-            "name": "Tassels of the Monkey King",
+            "name": "",
             "params": "pcs=271519:271522:271517:271518&ench=8001",
             "popularity": 88.2,
-            "parses": 2,
-            "nameEs": "Borlas del Rey Mono",
-            "icon": "inv_shoulder_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271519:271522:271517:271518:239656",
             "popularity": 38.7,
-            "parses": 904,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 904
           },
           {
             "id": 271522,
-            "name": "Battle Gi of the Monkey King",
+            "name": "",
             "params": "pcs=271519:271522:271517:271518&ench=7987",
             "popularity": 90.4,
-            "parses": 2,
-            "nameEs": "Gi de batalla del Rey Mono",
-            "icon": "inv_chest_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8791&pcs=271519:271522:271517:271518:244576&gems=240900",
             "popularity": 85.3,
-            "parses": 2,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271520,
-            "name": "Monkey King's Fighting Fists",
+            "name": "",
             "params": "pcs=271519:271522:271517:271518:271520",
             "popularity": 63,
-            "parses": 1,
-            "nameEs": "Puños de lucha del Rey Mono",
-            "icon": "inv_glove_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268256,
-            "name": "Sash of the Forlorn Vessel",
+            "name": "",
             "params": "pcs=271519:271522:271517:271518:268256&gems=240900",
             "popularity": 33.7,
-            "parses": 787,
-            "nameEs": "Fajín del recipiente desolado",
-            "icon": "inv_belt_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 787
           },
           {
             "id": 271518,
-            "name": "Pantaloons of the Monkey King",
+            "name": "",
             "params": "pcs=271519:271522:271517:271518&ench=8159",
             "popularity": 79.4,
-            "parses": 1,
-            "nameEs": "Bombachos del Rey Mono",
-            "icon": "inv_pant_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8791&pcs=271519:271522:271517:271518:244569&ench=7963",
             "popularity": 83,
-            "parses": 1,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271519:271522:271517:271518:281029&gems=240900&ench=7967",
             "popularity": 64,
-            "parses": 1,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8791&pcs=271519:271522:271517:271518:240949&gems=240900&ench=7967",
             "popularity": 43.5,
-            "parses": 1,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268215,
-            "name": "Abyssal Broodfiend's Bardiche",
+            "name": "",
             "params": "pcs=271519:271522:271517:271518:268215&ench=8689",
             "popularity": 94.4,
-            "parses": 2,
-            "nameEs": "Bardiche de maligno de la prole abisal",
-            "icon": "inv_polearm_2h_ulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 56.4,
-            "parses": 1,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 56.4,
-            "parses": 1,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 1
           }
         ]
       }
@@ -7576,163 +5524,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271465,
-            "name": "Warhelm of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271463:271468:271465:271464&gems=240900&ench=7961",
             "popularity": 87.8,
-            "parses": 15,
-            "nameEs": "Yelmo de guerra de la llama consagrada",
-            "icon": "inv_helm_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 15
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271463:271468:271465:271464:268265&gems=240983",
             "popularity": 90.6,
-            "parses": 16,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 16
           },
           {
             "id": 271463,
-            "name": "Pauldrons of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271463:271468:271465:271464&ench=8031",
             "popularity": 92,
-            "parses": 16,
-            "nameEs": "Espaldares de la llama consagrada",
-            "icon": "inv_shoulder_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 16
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8793&pcs=271463:271468:271465:271464:239656",
             "popularity": 28.9,
-            "parses": 5,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271468,
-            "name": "Bulwark of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271463:271468:271465:271464&ench=7987",
             "popularity": 91.2,
-            "parses": 16,
-            "nameEs": "Baluarte de la llama consagrada",
-            "icon": "inv_chest_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 16
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8793&pcs=271463:271468:271465:271464:237834&gems=240900",
             "popularity": 57.8,
-            "parses": 10,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 271466,
-            "name": "Gauntlets of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271463:271468:271465:271464:271466",
             "popularity": 74.3,
-            "parses": 13,
-            "nameEs": "Guanteletes de la llama consagrada",
-            "icon": "inv_glove_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 13
           },
           {
             "id": 237830,
-            "name": "Spellbreaker's Girdle",
+            "name": "",
             "params": "bonus=8793&pcs=271463:271468:271465:271464:237830&gems=240900",
             "popularity": 29.9,
-            "parses": 5,
-            "nameEs": "Faja de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_belt",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271464,
-            "name": "Greaves of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271463:271468:271465:271464&ench=7937",
             "popularity": 85.7,
-            "parses": 15,
-            "nameEs": "Grebas de la llama consagrada",
-            "icon": "inv_pant_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 15
           },
           {
             "id": 268260,
-            "name": "Scaled Fiend's Warboots",
+            "name": "",
             "params": "pcs=271463:271468:271465:271464:268260&ench=7993",
             "popularity": 36.2,
-            "parses": 6,
-            "nameEs": "Botas de guerra de maligno de escamas",
-            "icon": "inv_boot_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 268249,
-            "name": "Vile Alchemist's Band",
+            "name": "",
             "params": "bonus=13534&pcs=271463:271468:271465:271464:268249&gems=240900&ench=7969",
             "popularity": 39.1,
-            "parses": 7,
-            "nameEs": "Sortija de alquimista vil",
-            "icon": "inv_121_jewelry_ring01_purple",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8793&pcs=271463:271468:271465:271464:240949&gems=240900&ench=7969",
             "popularity": 36.1,
-            "parses": 6,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 237843,
-            "name": "Magister's Mana Sword",
+            "name": "",
             "params": "bonus=8793&pcs=271463:271468:271465:271464:237843&ench=8039",
             "popularity": 29.3,
-            "parses": 5,
-            "nameEs": "Espada de maná de magister",
-            "icon": "inv_sword_1h_questbloodelf_b_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268262,
-            "name": "Bubblefin Splash Guard",
+            "name": "",
             "params": "pcs=271463:271468:271465:271464:268262&ench=4216",
             "popularity": 31.9,
-            "parses": 5,
-            "nameEs": "Parasalpicaduras de burbujaleta",
-            "icon": "inv_shield_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 270162,
-            "name": "Soulcoiler Ritual Vessel",
+            "name": "",
             "params": "nofollow",
             "popularity": 60.1,
-            "parses": 10,
-            "nameEs": "Recipiente ritual de volutador de almas",
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 60.1,
-            "parses": 10,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 10
           }
         ]
       },
@@ -7751,174 +5651,126 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271465,
-            "name": "Warhelm of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271465:271463:271464:271468&gems=240894&ench=8017",
             "popularity": 89.1,
-            "parses": 11,
-            "nameEs": "Yelmo de guerra de la llama consagrada",
-            "icon": "inv_helm_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271465:271463:271464:271468:268265&gems=240983",
             "popularity": 95.4,
-            "parses": 12,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 271463,
-            "name": "Pauldrons of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271465:271463:271464:271468&ench=8001",
             "popularity": 88.3,
-            "parses": 11,
-            "nameEs": "Espaldares de la llama consagrada",
-            "icon": "inv_shoulder_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8792&pcs=271465:271463:271464:271468:239656",
             "popularity": 33.3,
-            "parses": 4,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271468,
-            "name": "Bulwark of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271465:271463:271464:271468&ench=7987",
             "popularity": 76.7,
-            "parses": 9,
-            "nameEs": "Baluarte de la llama consagrada",
-            "icon": "inv_chest_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8792&pcs=271465:271463:271464:271468:237834&gems=240894",
             "popularity": 80.4,
-            "parses": 10,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 271466,
-            "name": "Gauntlets of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271465:271463:271464:271468:271466",
             "popularity": 67.1,
-            "parses": 8,
-            "nameEs": "Guanteletes de la llama consagrada",
-            "icon": "inv_glove_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 268259,
-            "name": "Girdle of Toxic Regret",
+            "name": "",
             "params": "pcs=271465:271463:271464:271468:268259&gems=240894",
             "popularity": 20.2,
-            "parses": 2,
-            "nameEs": "Faja de pesar tóxico",
-            "icon": "inv_belt_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271464,
-            "name": "Greaves of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271465:271463:271464:271468&ench=7935",
             "popularity": 84.5,
-            "parses": 10,
-            "nameEs": "Grebas de la llama consagrada",
-            "icon": "inv_pant_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8792&pcs=271465:271463:271464:271468:237828&ench=7963",
             "popularity": 44.1,
-            "parses": 5,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8792&pcs=271465:271463:271464:271468:240949&gems=240894&ench=8025",
             "popularity": 72.7,
-            "parses": 9,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 268266,
-            "name": "Alluring Bubbleband",
+            "name": "",
             "params": "bonus=13534&pcs=271465:271463:271464:271468:268266&gems=240894&ench=8025",
             "popularity": 43.5,
-            "parses": 5,
-            "nameEs": "Sortija de burbujas atrayente",
-            "icon": "inv_70_raid_ring8c",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268211,
-            "name": "Baleful Hexblade",
+            "name": "",
             "params": "pcs=271465:271463:271464:271468:268211&ench=8689",
             "popularity": 31.9,
-            "parses": 4,
-            "nameEs": "Hoja maleficio torva",
-            "icon": "inv_sword_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 268196,
-            "name": "Venom-Slashed Scuteward",
+            "name": "",
             "params": "pcs=271465:271463:271464:271468:268196&ench=4216",
             "popularity": 46.1,
-            "parses": 5,
-            "nameEs": "Resguardo dérmico sajado por el veneno",
-            "icon": "inv_shield_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 270162,
-            "name": "Soulcoiler Ritual Vessel",
+            "name": "",
             "params": "nofollow",
             "popularity": 56.3,
-            "parses": 7,
-            "nameEs": "Recipiente ritual de volutador de almas",
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 270171,
-            "name": "Preternatural Antivenom",
+            "name": "",
             "params": "nofollow",
             "popularity": 56.3,
-            "parses": 7,
-            "nameEs": "Antídoto sobrenatural",
-            "icon": "inv_11_0_dungeon_tentaclevial_green",
-            "quality": 4
+            "parses": 7
           }
         ]
       }
     },
     "protection": {
       "raid": {
-        "m": 634,
-        "c": 1120,
+        "m": 636,
+        "c": 1118,
         "h": 0,
         "v": 220,
-        "dps": "172.2k",
+        "dps": "172.8k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/Nfd72GwHzA39Drjg#fight=41",
@@ -7928,163 +5780,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271465,
-            "name": "Warhelm of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464&gems=240890&ench=7961",
             "popularity": 87,
-            "parses": 7,
-            "nameEs": "Yelmo de guerra de la llama consagrada",
-            "icon": "inv_helm_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271468:271463:271465:271464:268265&gems=240983",
-            "popularity": 86.1,
-            "parses": 7,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "popularity": 86.7,
+            "parses": 7
           },
           {
             "id": 271463,
-            "name": "Pauldrons of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464&ench=8031",
-            "popularity": 87.7,
-            "parses": 7,
-            "nameEs": "Espaldares de la llama consagrada",
-            "icon": "inv_shoulder_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "popularity": 87.8,
+            "parses": 7
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464:268253",
-            "popularity": 39.8,
-            "parses": 3,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "popularity": 39.9,
+            "parses": 3
           },
           {
             "id": 271468,
-            "name": "Bulwark of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464&ench=7987",
-            "popularity": 90.4,
-            "parses": 7,
-            "nameEs": "Baluarte de la llama consagrada",
-            "icon": "inv_chest_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "popularity": 90.3,
+            "parses": 7
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8790&pcs=271468:271463:271465:271464:237834&gems=240890",
-            "popularity": 75.4,
-            "parses": 6,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "popularity": 76,
+            "parses": 6
           },
           {
             "id": 271466,
-            "name": "Gauntlets of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464:271466",
-            "popularity": 80.6,
-            "parses": 7,
-            "nameEs": "Guanteletes de la llama consagrada",
-            "icon": "inv_glove_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "popularity": 80.1,
+            "parses": 7
           },
           {
             "id": 268259,
-            "name": "Girdle of Toxic Regret",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464:268259&gems=240890",
-            "popularity": 48.8,
-            "parses": 4,
-            "nameEs": "Faja de pesar tóxico",
-            "icon": "inv_belt_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "popularity": 48.7,
+            "parses": 4
           },
           {
             "id": 271464,
-            "name": "Greaves of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464&ench=8159",
-            "popularity": 86.6,
-            "parses": 7,
-            "nameEs": "Grebas de la llama consagrada",
-            "icon": "inv_pant_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "popularity": 86.9,
+            "parses": 7
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8790&pcs=271468:271463:271465:271464:237828&ench=7993",
-            "popularity": 47,
-            "parses": 4,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "popularity": 47.2,
+            "parses": 4
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271468:271463:271465:271464:240949&gems=240890&ench=7967",
-            "popularity": 36.1,
-            "parses": 3,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "popularity": 36.7,
+            "parses": 3
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271468:271463:271465:271464:281029&gems=240890&ench=7967",
-            "popularity": 34.5,
-            "parses": 3,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "popularity": 36.4,
+            "parses": 3
           },
           {
             "id": 268209,
-            "name": "Aman'muso, Warlord's Vengeance",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464:268209&ench=8039",
-            "popularity": 68.5,
-            "parses": 6,
-            "nameEs": "Aman'muso, Venganza del Señor de la Guerra",
-            "icon": "inv_axe_1h_ulatek_d_01",
-            "quality": 4
+            "popularity": 68.6,
+            "parses": 6
           },
           {
             "id": 268196,
-            "name": "Venom-Slashed Scuteward",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464:268196&ench=4216",
-            "popularity": 42.7,
-            "parses": 3,
-            "nameEs": "Resguardo dérmico sajado por el veneno",
-            "icon": "inv_shield_1h_ulatek_d_01",
-            "quality": 4
+            "popularity": 43.3,
+            "parses": 3
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
-            "popularity": 58.1,
-            "parses": 5,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "popularity": 58.4,
+            "parses": 5
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
-            "popularity": 58.1,
-            "parses": 5,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "popularity": 58.4,
+            "parses": 5
           }
         ]
       },
@@ -8103,163 +5907,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271465,
-            "name": "Warhelm of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271464:271465:271463&gems=240890&ench=7961",
             "popularity": 85.9,
-            "parses": 6,
-            "nameEs": "Yelmo de guerra de la llama consagrada",
-            "icon": "inv_helm_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271468:271464:271465:271463:268265&gems=240983",
             "popularity": 84.5,
-            "parses": 6,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 271463,
-            "name": "Pauldrons of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271464:271465:271463&ench=8031",
             "popularity": 81.2,
-            "parses": 6,
-            "nameEs": "Espaldares de la llama consagrada",
-            "icon": "inv_shoulder_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8790&pcs=271468:271464:271465:271463:239656",
             "popularity": 31.9,
-            "parses": 2,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271468,
-            "name": "Bulwark of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271464:271465:271463&ench=7987",
             "popularity": 86.9,
-            "parses": 7,
-            "nameEs": "Baluarte de la llama consagrada",
-            "icon": "inv_chest_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8790&pcs=271468:271464:271465:271463:237834&gems=240890",
             "popularity": 67.6,
-            "parses": 5,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271466,
-            "name": "Gauntlets of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271464:271465:271463:271466",
             "popularity": 71.7,
-            "parses": 5,
-            "nameEs": "Guanteletes de la llama consagrada",
-            "icon": "inv_glove_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 237830,
-            "name": "Spellbreaker's Girdle",
+            "name": "",
             "params": "bonus=8790&pcs=271468:271464:271465:271463:237830&gems=240890",
             "popularity": 33.3,
-            "parses": 2,
-            "nameEs": "Faja de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_belt",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271464,
-            "name": "Greaves of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271464:271465:271463&ench=8159",
             "popularity": 86.2,
-            "parses": 6,
-            "nameEs": "Grebas de la llama consagrada",
-            "icon": "inv_pant_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8790&pcs=271468:271464:271465:271463:237828&ench=7993",
             "popularity": 50.6,
-            "parses": 4,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271468:271464:271465:271463:240949&gems=240890&ench=7967",
             "popularity": 45,
-            "parses": 3,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 273792,
-            "name": "Band of the Amani Warlord",
+            "name": "",
             "params": "bonus=13534&pcs=271468:271464:271465:271463:273792&gems=240890&ench=7967",
             "popularity": 36.7,
-            "parses": 2,
-            "nameEs": "Sortija del señor de la guerra Amani",
-            "icon": "inv_121_jewelry_ring02_green",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268209,
-            "name": "Aman'muso, Warlord's Vengeance",
+            "name": "",
             "params": "pcs=271468:271464:271465:271463:268209&ench=8039",
             "popularity": 54.3,
-            "parses": 4,
-            "nameEs": "Aman'muso, Venganza del Señor de la Guerra",
-            "icon": "inv_axe_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 237831,
-            "name": "Spellbreaker's Rebuke",
+            "name": "",
             "params": "bonus=8790&pcs=271468:271464:271465:271463:237831&ench=4216",
             "popularity": 48.6,
-            "parses": 3,
-            "nameEs": "Reprimenda de rompechizos",
-            "icon": "inv_shield_1h_questbloodelf_b_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 31.6,
-            "parses": 2,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 31.6,
-            "parses": 2,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 2
           }
         ]
       }
@@ -8280,153 +6036,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271465,
-            "name": "Warhelm of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464&gems=240892&ench=8017",
             "popularity": 88.3,
-            "parses": 19,
-            "nameEs": "Yelmo de guerra de la llama consagrada",
-            "icon": "inv_helm_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 19
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271468:271463:271465:271464:268265&gems=240983",
             "popularity": 92.6,
-            "parses": 20,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 20
           },
           {
             "id": 271463,
-            "name": "Pauldrons of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464&ench=8001",
             "popularity": 90,
-            "parses": 20,
-            "nameEs": "Espaldares de la llama consagrada",
-            "icon": "inv_shoulder_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 20
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464:268253",
             "popularity": 47.9,
-            "parses": 10,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 271468,
-            "name": "Bulwark of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464&ench=7987",
             "popularity": 95.2,
-            "parses": 21,
-            "nameEs": "Baluarte de la llama consagrada",
-            "icon": "inv_chest_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 21
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8793&pcs=271468:271463:271465:271464:237834&gems=240892",
             "popularity": 83.5,
-            "parses": 18,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "parses": 18
           },
           {
             "id": 271466,
-            "name": "Gauntlets of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464:271466",
             "popularity": 78.8,
-            "parses": 17,
-            "nameEs": "Guanteletes de la llama consagrada",
-            "icon": "inv_glove_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 17
           },
           {
             "id": 268259,
-            "name": "Girdle of Toxic Regret",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464:268259&gems=240892",
             "popularity": 56.9,
-            "parses": 12,
-            "nameEs": "Faja de pesar tóxico",
-            "icon": "inv_belt_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 271464,
-            "name": "Greaves of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464&ench=8159",
             "popularity": 86.6,
-            "parses": 19,
-            "nameEs": "Grebas de la llama consagrada",
-            "icon": "inv_pant_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 19
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8793&pcs=271468:271463:271465:271464:237828&ench=7963",
             "popularity": 38.1,
-            "parses": 8,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 251513,
-            "name": "Loa Worshiper's Band",
+            "name": "",
             "params": ":8793&pcs=271468:271463:271465:271464:251513&gems=240892&ench=7967",
             "popularity": 55.4,
-            "parses": 12,
-            "nameEs": "Sortija de adorador de loa",
-            "icon": "inv_12_profession_jewelcrafting_ring3_silver",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271468:271463:271465:271464:281029&gems=240892&ench=7967",
             "popularity": 46.3,
-            "parses": 10,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 268213,
-            "name": "Maze-roa, Warlord's Fury",
+            "name": "",
             "params": "pcs=271468:271463:271465:271464:268213&ench=8689",
             "popularity": 89.3,
-            "parses": 20,
-            "nameEs": "Maze-roa, Furia del Señor de la Guerra",
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "quality": 4
+            "parses": 20
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 85.4,
-            "parses": 19,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 19
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 85.4,
-            "parses": 19,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 19
           }
         ]
       },
@@ -8445,153 +6156,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271465,
-            "name": "Warhelm of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271464:271465:271463&gems=240892&ench=8017",
             "popularity": 85.6,
-            "parses": 8,
-            "nameEs": "Yelmo de guerra de la llama consagrada",
-            "icon": "inv_helm_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271468:271464:271465:271463:268265&gems=240983",
             "popularity": 93.1,
-            "parses": 9,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 271463,
-            "name": "Pauldrons of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271464:271465:271463&ench=8001",
             "popularity": 84.9,
-            "parses": 8,
-            "nameEs": "Espaldares de la llama consagrada",
-            "icon": "inv_shoulder_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271468:271464:271465:271463:268253",
             "popularity": 44.4,
-            "parses": 4,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271468,
-            "name": "Bulwark of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271464:271465:271463&ench=7987",
             "popularity": 92.7,
-            "parses": 9,
-            "nameEs": "Baluarte de la llama consagrada",
-            "icon": "inv_chest_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8793&pcs=271468:271464:271465:271463:237834&gems=240892",
             "popularity": 83.1,
-            "parses": 8,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 271466,
-            "name": "Gauntlets of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271464:271465:271463:271466",
             "popularity": 65,
-            "parses": 6,
-            "nameEs": "Guanteletes de la llama consagrada",
-            "icon": "inv_glove_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 268259,
-            "name": "Girdle of Toxic Regret",
+            "name": "",
             "params": "pcs=271468:271464:271465:271463:268259&gems=240892",
             "popularity": 51.6,
-            "parses": 5,
-            "nameEs": "Faja de pesar tóxico",
-            "icon": "inv_belt_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271464,
-            "name": "Greaves of the Consecrated Flame",
+            "name": "",
             "params": "pcs=271468:271464:271465:271463&ench=8159",
             "popularity": 86.1,
-            "parses": 8,
-            "nameEs": "Grebas de la llama consagrada",
-            "icon": "inv_pant_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8793&pcs=271468:271464:271465:271463:237828&ench=7963",
             "popularity": 49.4,
-            "parses": 4,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 251513,
-            "name": "Loa Worshiper's Band",
+            "name": "",
             "params": ":8793&pcs=271468:271464:271465:271463:251513&gems=240892&ench=7967",
             "popularity": 56.8,
-            "parses": 5,
-            "nameEs": "Sortija de adorador de loa",
-            "icon": "inv_12_profession_jewelcrafting_ring3_silver",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271468:271464:271465:271463:281029&gems=240892&ench=7967",
             "popularity": 50.7,
-            "parses": 5,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268213,
-            "name": "Maze-roa, Warlord's Fury",
+            "name": "",
             "params": "pcs=271468:271464:271465:271463:268213&ench=8689",
             "popularity": 89.4,
-            "parses": 8,
-            "nameEs": "Maze-roa, Furia del Señor de la Guerra",
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 81.3,
-            "parses": 8,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 81.3,
-            "parses": 8,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 8
           }
         ]
       }
@@ -8614,163 +6280,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271555,
-            "name": "Cosmic Penitent's Truesight",
+            "name": "",
             "params": "pcs=271553:271554:271558:271556:271555&gems=240892&ench=7961",
             "popularity": 79.6,
-            "parses": 1,
-            "nameEs": "Veramira de penitente cósmico",
-            "icon": "inv_helm_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271553:271554:271558:271556:268265&gems=240983",
             "popularity": 89.1,
-            "parses": 1,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271553,
-            "name": "Cosmic Penitent's Echoing Screams",
+            "name": "",
             "params": "pcs=271553:271554:271558:271556&ench=8031",
             "popularity": 88.4,
-            "parses": 1,
-            "nameEs": "Gritos resonantes de penitente cósmico",
-            "icon": "inv_shoulder_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271553:271554:271558:271556:268253",
             "popularity": 29.1,
-            "parses": 450,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 450
           },
           {
             "id": 271558,
-            "name": "Cosmic Penitent's Eclipsing Robes",
+            "name": "",
             "params": "pcs=271553:271554:271558:271556&ench=7987",
             "popularity": 84.8,
-            "parses": 1,
-            "nameEs": "Toga eclipsante de penitente cósmico",
-            "icon": "inv_robe_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8793&pcs=271553:271554:271558:271556:239648&gems=240892",
             "popularity": 79,
-            "parses": 1,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271556,
-            "name": "Cosmic Penitent's Celestial Grips",
+            "name": "",
             "params": "pcs=271553:271554:271558:271556",
             "popularity": 84.5,
-            "parses": 1,
-            "nameEs": "Mandiletes celestiales de penitente cósmico",
-            "icon": "inv_glove_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 239649,
-            "name": "Martyr's Waistwrap",
+            "name": "",
             "params": "bonus=8793&pcs=271553:271554:271558:271556:239649&gems=240892",
             "popularity": 42.6,
-            "parses": 659,
-            "nameEs": "Ajustador de mártir",
-            "icon": "inv_belt_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 659
           },
           {
             "id": 271554,
-            "name": "Enveloping Legwraps of the Cosmic Penitent",
+            "name": "",
             "params": "pcs=271553:271554:271558:271556&ench=7937",
             "popularity": 86.3,
-            "parses": 1,
-            "nameEs": "Perneras envolventes del penitente cósmico",
-            "icon": "inv_pant_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268255,
-            "name": "Cackling Soultreads",
+            "name": "",
             "params": "pcs=271553:271554:271558:271556:268255&ench=7993",
             "popularity": 37,
-            "parses": 572,
-            "nameEs": "Botines de alma carcajeantes",
-            "icon": "inv_boot_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 572
           },
           {
             "id": 268266,
-            "name": "Alluring Bubbleband",
+            "name": "",
             "params": "bonus=13534&pcs=271553:271554:271558:271556:268266&gems=240892&ench=8025",
             "popularity": 52.1,
-            "parses": 805,
-            "nameEs": "Sortija de burbujas atrayente",
-            "icon": "inv_70_raid_ring8c",
-            "quality": 4
+            "parses": 805
           },
           {
             "id": 252258,
-            "name": "Sickening Signet of Atroxus",
+            "name": "",
             "params": "bonus=13534&pcs=271553:271554:271558:271556:252258&gems=240892&ench=8025",
             "popularity": 38.6,
-            "parses": 597,
-            "nameEs": "Sello enfermizo de Atroxus",
-            "icon": "inv_12_jewelry_devouringhost_ring_bronze2",
-            "quality": 4
+            "parses": 597
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271553:271554:271558:271556:271092&ench=7983",
             "popularity": 84.9,
-            "parses": 1,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8793&pcs=271553:271554:271558:271556:245769",
             "popularity": 46.9,
-            "parses": 725,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 725
           },
           {
             "id": 270167,
-            "name": "Wavecaller's Seastone",
+            "name": "",
             "params": "nofollow",
             "popularity": 23.7,
-            "parses": 366,
-            "nameEs": "Piedra marina de clamaolas",
-            "icon": "inv_tradeskillitem_sorcererswater",
-            "quality": 4
+            "parses": 366
           },
           {
             "id": 270169,
-            "name": "Hex Lord's Dooming Idol",
+            "name": "",
             "params": "nofollow",
             "popularity": 23.7,
-            "parses": 366,
-            "nameEs": "Ídolo de fatalidad de señor aojador",
-            "icon": "inv_archaeology_orcclans_crackedidol",
-            "quality": 4
+            "parses": 366
           }
         ]
       },
@@ -8789,163 +6407,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271555,
-            "name": "Cosmic Penitent's Truesight",
+            "name": "",
             "params": "pcs=271553:271554:271555:271558&gems=240890&ench=8017",
             "popularity": 84.3,
-            "parses": 1,
-            "nameEs": "Veramira de penitente cósmico",
-            "icon": "inv_helm_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271553:271554:271555:271558:268265&gems=240983",
             "popularity": 89.8,
-            "parses": 1,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271553,
-            "name": "Cosmic Penitent's Echoing Screams",
+            "name": "",
             "params": "pcs=271553:271554:271555:271558&ench=8001",
             "popularity": 86.6,
-            "parses": 1,
-            "nameEs": "Gritos resonantes de penitente cósmico",
-            "icon": "inv_shoulder_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8790&pcs=271553:271554:271555:271558:239656",
             "popularity": 45.2,
-            "parses": 755,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 755
           },
           {
             "id": 271558,
-            "name": "Cosmic Penitent's Eclipsing Robes",
+            "name": "",
             "params": "pcs=271553:271554:271555:271558&ench=7987",
             "popularity": 80.1,
-            "parses": 1,
-            "nameEs": "Toga eclipsante de penitente cósmico",
-            "icon": "inv_robe_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8790&pcs=271553:271554:271555:271558:239648&gems=240890",
             "popularity": 84.1,
-            "parses": 1,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271556,
-            "name": "Cosmic Penitent's Celestial Grips",
+            "name": "",
             "params": "pcs=271553:271554:271555:271558:271556",
             "popularity": 75.6,
-            "parses": 1,
-            "nameEs": "Mandiletes celestiales de penitente cósmico",
-            "icon": "inv_glove_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 239649,
-            "name": "Martyr's Waistwrap",
+            "name": "",
             "params": "bonus=8790&pcs=271553:271554:271555:271558:239649&gems=240890",
             "popularity": 47.8,
-            "parses": 798,
-            "nameEs": "Ajustador de mártir",
-            "icon": "inv_belt_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 798
           },
           {
             "id": 271554,
-            "name": "Enveloping Legwraps of the Cosmic Penitent",
+            "name": "",
             "params": "pcs=271553:271554:271555:271558&ench=7937",
             "popularity": 85.9,
-            "parses": 1,
-            "nameEs": "Perneras envolventes del penitente cósmico",
-            "icon": "inv_pant_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268218,
-            "name": "Nek'zali's Spiritwalkers",
+            "name": "",
             "params": "pcs=271553:271554:271555:271558:268218&ench=7963",
             "popularity": 19.5,
-            "parses": 325,
-            "nameEs": "Caminaespíritus de Nek'zali",
-            "icon": "inv_boot_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 325
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271553:271554:271555:271558:281029&gems=240890&ench=8025",
             "popularity": 37.6,
-            "parses": 628,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 628
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271553:271554:271555:271558:240949&gems=240890&ench=8025",
             "popularity": 36.2,
-            "parses": 604,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 604
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271553:271554:271555:271558:271092&ench=8689",
             "popularity": 84,
-            "parses": 1,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8790&pcs=271553:271554:271555:271558:245769",
             "popularity": 36.1,
-            "parses": 603,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 603
           },
           {
             "id": 270162,
-            "name": "Soulcoiler Ritual Vessel",
+            "name": "",
             "params": "nofollow",
             "popularity": 48.3,
-            "parses": 807,
-            "nameEs": "Recipiente ritual de volutador de almas",
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "quality": 4
+            "parses": 807
           },
           {
             "id": 270167,
-            "name": "Wavecaller's Seastone",
+            "name": "",
             "params": "nofollow",
             "popularity": 48.3,
-            "parses": 807,
-            "nameEs": "Piedra marina de clamaolas",
-            "icon": "inv_tradeskillitem_sorcererswater",
-            "quality": 4
+            "parses": 807
           }
         ]
       }
@@ -8966,163 +6536,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271555,
-            "name": "Cosmic Penitent's Truesight",
+            "name": "",
             "params": "pcs=271553:271558:271556:271554:271555&gems=240908&ench=7961",
             "popularity": 80.3,
-            "parses": 20,
-            "nameEs": "Veramira de penitente cósmico",
-            "icon": "inv_helm_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 20
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271553:271558:271556:271554:268265&gems=240983",
             "popularity": 92.5,
-            "parses": 23,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 23
           },
           {
             "id": 271553,
-            "name": "Cosmic Penitent's Echoing Screams",
+            "name": "",
             "params": "pcs=271553:271558:271556:271554&ench=8031",
             "popularity": 92.3,
-            "parses": 23,
-            "nameEs": "Gritos resonantes de penitente cósmico",
-            "icon": "inv_shoulder_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 23
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271553:271558:271556:271554:239656",
             "popularity": 29.5,
-            "parses": 7,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 271558,
-            "name": "Cosmic Penitent's Eclipsing Robes",
+            "name": "",
             "params": "pcs=271553:271558:271556:271554&ench=7987",
             "popularity": 92.1,
-            "parses": 23,
-            "nameEs": "Toga eclipsante de penitente cósmico",
-            "icon": "inv_robe_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 23
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8791&pcs=271553:271558:271556:271554:239648&gems=240908",
             "popularity": 67.9,
-            "parses": 17,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 17
           },
           {
             "id": 271556,
-            "name": "Cosmic Penitent's Celestial Grips",
+            "name": "",
             "params": "pcs=271553:271558:271556:271554",
             "popularity": 86,
-            "parses": 21,
-            "nameEs": "Mandiletes celestiales de penitente cósmico",
-            "icon": "inv_glove_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 21
           },
           {
             "id": 239649,
-            "name": "Martyr's Waistwrap",
+            "name": "",
             "params": "bonus=8791&pcs=271553:271558:271556:271554:239649&gems=240908",
             "popularity": 52.2,
-            "parses": 13,
-            "nameEs": "Ajustador de mártir",
-            "icon": "inv_belt_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 13
           },
           {
             "id": 271554,
-            "name": "Enveloping Legwraps of the Cosmic Penitent",
+            "name": "",
             "params": "pcs=271553:271558:271556:271554&ench=7937",
             "popularity": 83,
-            "parses": 20,
-            "nameEs": "Perneras envolventes del penitente cósmico",
-            "icon": "inv_pant_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 20
           },
           {
             "id": 268218,
-            "name": "Nek'zali's Spiritwalkers",
+            "name": "",
             "params": "pcs=271553:271558:271556:271554:268218&ench=7993",
             "popularity": 45.2,
-            "parses": 11,
-            "nameEs": "Caminaespíritus de Nek'zali",
-            "icon": "inv_boot_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 268252,
-            "name": "Apex Brute's Claw Ring",
+            "name": "",
             "params": "bonus=13534&pcs=271553:271558:271556:271554:268252&gems=240908&ench=7967",
             "popularity": 34.5,
-            "parses": 8,
-            "nameEs": "Anillo de zarpas de bruto alfa",
-            "icon": "inv_121_jewelry_ring03_red",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 268249,
-            "name": "Vile Alchemist's Band",
+            "name": "",
             "params": "bonus=13534&pcs=271553:271558:271556:271554:268249&gems=240908&ench=7967",
             "popularity": 31.5,
-            "parses": 7,
-            "nameEs": "Sortija de alquimista vil",
-            "icon": "inv_121_jewelry_ring01_purple",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271553:271558:271556:271554:271092&ench=8039",
             "popularity": 74.2,
-            "parses": 18,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 18
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8791&pcs=271553:271558:271556:271554:245769",
             "popularity": 33.6,
-            "parses": 8,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 270162,
-            "name": "Soulcoiler Ritual Vessel",
+            "name": "",
             "params": "nofollow",
             "popularity": 62.5,
-            "parses": 15,
-            "nameEs": "Recipiente ritual de volutador de almas",
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "quality": 4
+            "parses": 15
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 62.5,
-            "parses": 15,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 15
           }
         ]
       },
@@ -9141,163 +6663,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271555,
-            "name": "Cosmic Penitent's Truesight",
+            "name": "",
             "params": "pcs=271553:271558:271554:271555&gems=240890&ench=8017",
             "popularity": 80.7,
-            "parses": 6,
-            "nameEs": "Veramira de penitente cósmico",
-            "icon": "inv_helm_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271553:271558:271554:271555:268265&gems=240983",
             "popularity": 89.2,
-            "parses": 6,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 271553,
-            "name": "Cosmic Penitent's Echoing Screams",
+            "name": "",
             "params": "pcs=271553:271558:271554:271555&ench=8001",
             "popularity": 87.8,
-            "parses": 6,
-            "nameEs": "Gritos resonantes de penitente cósmico",
-            "icon": "inv_shoulder_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8790&pcs=271553:271558:271554:271555:239656",
             "popularity": 37.3,
-            "parses": 2,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271558,
-            "name": "Cosmic Penitent's Eclipsing Robes",
+            "name": "",
             "params": "pcs=271553:271558:271554:271555&ench=7987",
             "popularity": 85.3,
-            "parses": 6,
-            "nameEs": "Toga eclipsante de penitente cósmico",
-            "icon": "inv_robe_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8790&pcs=271553:271558:271554:271555:239648&gems=240890",
             "popularity": 76.9,
-            "parses": 5,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271556,
-            "name": "Cosmic Penitent's Celestial Grips",
+            "name": "",
             "params": "pcs=271553:271558:271554:271555:271556",
             "popularity": 75.3,
-            "parses": 5,
-            "nameEs": "Mandiletes celestiales de penitente cósmico",
-            "icon": "inv_glove_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 239649,
-            "name": "Martyr's Waistwrap",
+            "name": "",
             "params": "bonus=8790&pcs=271553:271558:271554:271555:239649&gems=240890",
             "popularity": 57.6,
-            "parses": 4,
-            "nameEs": "Ajustador de mártir",
-            "icon": "inv_belt_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271554,
-            "name": "Enveloping Legwraps of the Cosmic Penitent",
+            "name": "",
             "params": "pcs=271553:271558:271554:271555&ench=7935",
             "popularity": 82,
-            "parses": 6,
-            "nameEs": "Perneras envolventes del penitente cósmico",
-            "icon": "inv_pant_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 268218,
-            "name": "Nek'zali's Spiritwalkers",
+            "name": "",
             "params": "pcs=271553:271558:271554:271555:268218&ench=7993",
             "popularity": 27.5,
-            "parses": 2,
-            "nameEs": "Caminaespíritus de Nek'zali",
-            "icon": "inv_boot_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271553:271558:271554:271555:240949&gems=240890&ench=8025",
             "popularity": 38,
-            "parses": 2,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 273792,
-            "name": "Band of the Amani Warlord",
+            "name": "",
             "params": "bonus=13534&pcs=271553:271558:271554:271555:273792&gems=240890&ench=8025",
             "popularity": 25.6,
-            "parses": 1,
-            "nameEs": "Sortija del señor de la guerra Amani",
-            "icon": "inv_121_jewelry_ring02_green",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271553:271558:271554:271555:271092&ench=8039",
             "popularity": 79.8,
-            "parses": 6,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8790&pcs=271553:271558:271554:271555:245769",
             "popularity": 43,
-            "parses": 3,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 270162,
-            "name": "Soulcoiler Ritual Vessel",
+            "name": "",
             "params": "nofollow",
             "popularity": 49.2,
-            "parses": 3,
-            "nameEs": "Recipiente ritual de volutador de almas",
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 49.2,
-            "parses": 3,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 3
           }
         ]
       }
@@ -9318,163 +6792,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271555,
-            "name": "Cosmic Penitent's Truesight",
+            "name": "",
             "params": "pcs=271558:271555:271553:271556&gems=240892&ench=8017",
             "popularity": 91.1,
-            "parses": 10,
-            "nameEs": "Veramira de penitente cósmico",
-            "icon": "inv_helm_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271558:271555:271553:271556:268265&gems=240983",
             "popularity": 96.1,
-            "parses": 11,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 271553,
-            "name": "Cosmic Penitent's Echoing Screams",
+            "name": "",
             "params": "pcs=271558:271555:271553:271556&ench=8001",
             "popularity": 89.4,
-            "parses": 10,
-            "nameEs": "Gritos resonantes de penitente cósmico",
-            "icon": "inv_shoulder_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271558:271555:271553:271556:268253",
             "popularity": 31.4,
-            "parses": 3,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271558,
-            "name": "Cosmic Penitent's Eclipsing Robes",
+            "name": "",
             "params": "pcs=271558:271555:271553:271556&ench=7987",
             "popularity": 92.9,
-            "parses": 11,
-            "nameEs": "Toga eclipsante de penitente cósmico",
-            "icon": "inv_robe_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8793&pcs=271558:271555:271553:271556:239648&gems=240892",
             "popularity": 76.5,
-            "parses": 9,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 271556,
-            "name": "Cosmic Penitent's Celestial Grips",
+            "name": "",
             "params": "pcs=271558:271555:271553:271556",
             "popularity": 85.6,
-            "parses": 10,
-            "nameEs": "Mandiletes celestiales de penitente cósmico",
-            "icon": "inv_glove_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 239649,
-            "name": "Martyr's Waistwrap",
+            "name": "",
             "params": "bonus=8793&pcs=271558:271555:271553:271556:239649&gems=240892",
             "popularity": 59.4,
-            "parses": 7,
-            "nameEs": "Ajustador de mártir",
-            "icon": "inv_belt_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 271554,
-            "name": "Enveloping Legwraps of the Cosmic Penitent",
+            "name": "",
             "params": "pcs=271558:271555:271553:271556:271554&ench=7935",
             "popularity": 78.2,
-            "parses": 9,
-            "nameEs": "Perneras envolventes del penitente cósmico",
-            "icon": "inv_pant_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 268255,
-            "name": "Cackling Soultreads",
+            "name": "",
             "params": "pcs=271558:271555:271553:271556:268255&ench=7963",
             "popularity": 34,
-            "parses": 4,
-            "nameEs": "Botines de alma carcajeantes",
-            "icon": "inv_boot_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271558:271555:271553:271556:281029&gems=240892&ench=7967",
             "popularity": 53.1,
-            "parses": 6,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 268249,
-            "name": "Vile Alchemist's Band",
+            "name": "",
             "params": "bonus=13534&pcs=271558:271555:271553:271556:268249&gems=240892&ench=7967",
             "popularity": 36.5,
-            "parses": 4,
-            "nameEs": "Sortija de alquimista vil",
-            "icon": "inv_121_jewelry_ring01_purple",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271558:271555:271553:271556:271092&ench=8689",
             "popularity": 84.4,
-            "parses": 10,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8793&pcs=271558:271555:271553:271556:245769",
             "popularity": 33.2,
-            "parses": 4,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 250215,
-            "name": "Freightrunner's Flask",
+            "name": "",
             "params": "nofollow",
             "popularity": 15.1,
-            "parses": 1,
-            "nameEs": "Frasco de corredor de fletes",
-            "icon": "inv_alchemy_90_flask_red",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 15.1,
-            "parses": 1,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 1
           }
         ]
       },
@@ -9493,163 +6919,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271555,
-            "name": "Cosmic Penitent's Truesight",
+            "name": "",
             "params": "pcs=271558:271555:271553:271554&gems=240892&ench=8017",
             "popularity": 87.3,
-            "parses": 2,
-            "nameEs": "Veramira de penitente cósmico",
-            "icon": "inv_helm_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271558:271555:271553:271554:268265&gems=240983",
             "popularity": 93.8,
-            "parses": 2,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271553,
-            "name": "Cosmic Penitent's Echoing Screams",
+            "name": "",
             "params": "pcs=271558:271555:271553:271554&ench=8001",
             "popularity": 80.9,
-            "parses": 1,
-            "nameEs": "Gritos resonantes de penitente cósmico",
-            "icon": "inv_shoulder_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8793&pcs=271558:271555:271553:271554:239656",
             "popularity": 35.5,
-            "parses": 815,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 815
           },
           {
             "id": 271558,
-            "name": "Cosmic Penitent's Eclipsing Robes",
+            "name": "",
             "params": "pcs=271558:271555:271553:271554&ench=7987",
             "popularity": 89.5,
-            "parses": 2,
-            "nameEs": "Toga eclipsante de penitente cósmico",
-            "icon": "inv_robe_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8793&pcs=271558:271555:271553:271554:239648&gems=240892",
             "popularity": 81.8,
-            "parses": 1,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271556,
-            "name": "Cosmic Penitent's Celestial Grips",
+            "name": "",
             "params": "pcs=271558:271555:271553:271554:271556",
             "popularity": 78.8,
-            "parses": 1,
-            "nameEs": "Mandiletes celestiales de penitente cósmico",
-            "icon": "inv_glove_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 239649,
-            "name": "Martyr's Waistwrap",
+            "name": "",
             "params": "bonus=8793&pcs=271558:271555:271553:271554:239649&gems=240892",
             "popularity": 58,
-            "parses": 1,
-            "nameEs": "Ajustador de mártir",
-            "icon": "inv_belt_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271554,
-            "name": "Enveloping Legwraps of the Cosmic Penitent",
+            "name": "",
             "params": "pcs=271558:271555:271553:271554&ench=7935",
             "popularity": 79.5,
-            "parses": 1,
-            "nameEs": "Perneras envolventes del penitente cósmico",
-            "icon": "inv_pant_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268255,
-            "name": "Cackling Soultreads",
+            "name": "",
             "params": "pcs=271558:271555:271553:271554:268255&ench=7963",
             "popularity": 25.1,
-            "parses": 576,
-            "nameEs": "Botines de alma carcajeantes",
-            "icon": "inv_boot_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "parses": 576
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271558:271555:271553:271554:281029&gems=240892&ench=7967",
             "popularity": 65.9,
-            "parses": 1,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8793&pcs=271558:271555:271553:271554:240949&gems=240892&ench=7967",
             "popularity": 28.4,
-            "parses": 652,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 652
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271558:271555:271553:271554:271092&ench=8689",
             "popularity": 89.8,
-            "parses": 2,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8793&pcs=271558:271555:271553:271554:245769",
             "popularity": 37.7,
-            "parses": 865,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 865
           },
           {
             "id": 270169,
-            "name": "Hex Lord's Dooming Idol",
+            "name": "",
             "params": "nofollow",
             "popularity": 20.8,
-            "parses": 476,
-            "nameEs": "Ídolo de fatalidad de señor aojador",
-            "icon": "inv_archaeology_orcclans_crackedidol",
-            "quality": 4
+            "parses": 476
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 20.8,
-            "parses": 476,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 476
           }
         ]
       }
@@ -9672,163 +7050,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271510,
-            "name": "Chosen Bloodslayer's Spirit Shroud",
+            "name": "",
             "params": "pcs=271508:271511:271513:271509:271510&gems=240906&ench=8017",
             "popularity": 84.4,
-            "parses": 6,
-            "nameEs": "Sudario espiritual de cercenacastas elegido",
-            "icon": "inv_helm_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271508:271511:271513:271509:268265&gems=240983",
             "popularity": 88.2,
-            "parses": 6,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 271508,
-            "name": "Chosen Bloodslayer's Voodoo Guards",
+            "name": "",
             "params": "pcs=271508:271511:271513:271509&ench=8001",
             "popularity": 87.5,
-            "parses": 6,
-            "nameEs": "Guardahombros vudú de cercenacastas elegido",
-            "icon": "inv_shoulder_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271508:271511:271513:271509:268253",
             "popularity": 28.8,
-            "parses": 2,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271513,
-            "name": "Chosen Bloodslayer's Banded Poncho",
+            "name": "",
             "params": "pcs=271508:271511:271513:271509&ench=7987",
             "popularity": 86.6,
-            "parses": 6,
-            "nameEs": "Poncho con franjas de cercenacastas elegido",
-            "icon": "inv_chest_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8790&pcs=271508:271511:271513:271509:244576&gems=240906",
             "popularity": 74.5,
-            "parses": 5,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271511,
-            "name": "Chosen Bloodslayer's Fanged Grips",
+            "name": "",
             "params": "pcs=271508:271511:271513:271509",
             "popularity": 87.2,
-            "parses": 6,
-            "nameEs": "Mandiletes con colmillos de cercenacastas elegido",
-            "icon": "inv_glove_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 268227,
-            "name": "Unpossessed Skullsash",
+            "name": "",
             "params": "pcs=271508:271511:271513:271509:268227&gems=240906",
             "popularity": 29,
-            "parses": 2,
-            "nameEs": "Fajín craneal desposeído",
-            "icon": "inv_belt_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271509,
-            "name": "Chosen Bloodslayer's Reinforced Pants",
+            "name": "",
             "params": "pcs=271508:271511:271513:271509&ench=8159",
             "popularity": 86.5,
-            "parses": 6,
-            "nameEs": "Pantalones reforzados de cercenacastas elegido",
-            "icon": "inv_pant_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8790&pcs=271508:271511:271513:271509:244569&ench=7963",
             "popularity": 51.3,
-            "parses": 3,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271508:271511:271513:271509:281029&gems=240906&ench=7967",
             "popularity": 42.7,
-            "parses": 3,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 268252,
-            "name": "Apex Brute's Claw Ring",
+            "name": "",
             "params": "bonus=13534&pcs=271508:271511:271513:271509:268252&gems=240906&ench=7967",
             "popularity": 38.6,
-            "parses": 2,
-            "nameEs": "Anillo de zarpas de bruto alfa",
-            "icon": "inv_121_jewelry_ring03_red",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271093,
-            "name": "Zatha'tek, Breath of Corruption",
+            "name": "",
             "params": "pcs=271508:271511:271513:271509:271093&ench=8689",
             "popularity": 68.8,
-            "parses": 4,
-            "nameEs": "Zatha'tek, Aliento de Corrupción",
-            "icon": "inv_knife_1h_ulatekfang_d_01_poison",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 237837,
-            "name": "Farstrider's Mercy",
+            "name": "",
             "params": "bonus=8790&pcs=271508:271511:271513:271509:237837&ench=8689",
             "popularity": 70.9,
-            "parses": 5,
-            "nameEs": "Piedad de errante",
-            "icon": "inv_knife_1h_questbloodelf_b_02",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 38.4,
-            "parses": 2,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 38.4,
-            "parses": 2,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 2
           }
         ]
       },
@@ -9847,163 +7177,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271510,
-            "name": "Chosen Bloodslayer's Spirit Shroud",
+            "name": "",
             "params": "pcs=271510:271513:271508:271509&gems=240898&ench=8017",
             "popularity": 89.5,
-            "parses": 1,
-            "nameEs": "Sudario espiritual de cercenacastas elegido",
-            "icon": "inv_helm_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271510:271513:271508:271509:268265&gems=240983",
             "popularity": 91.6,
-            "parses": 1,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271508,
-            "name": "Chosen Bloodslayer's Voodoo Guards",
+            "name": "",
             "params": "pcs=271510:271513:271508:271509&ench=8001",
             "popularity": 80.2,
-            "parses": 1,
-            "nameEs": "Guardahombros vudú de cercenacastas elegido",
-            "icon": "inv_shoulder_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271510:271513:271508:271509:239656",
             "popularity": 39.1,
-            "parses": 553,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 553
           },
           {
             "id": 271513,
-            "name": "Chosen Bloodslayer's Banded Poncho",
+            "name": "",
             "params": "pcs=271510:271513:271508:271509&ench=7987",
             "popularity": 81.2,
-            "parses": 1,
-            "nameEs": "Poncho con franjas de cercenacastas elegido",
-            "icon": "inv_chest_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8791&pcs=271510:271513:271508:271509:244576&gems=240898",
             "popularity": 80,
-            "parses": 1,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271511,
-            "name": "Chosen Bloodslayer's Fanged Grips",
+            "name": "",
             "params": "pcs=271510:271513:271508:271509:271511",
             "popularity": 74,
-            "parses": 1,
-            "nameEs": "Mandiletes con colmillos de cercenacastas elegido",
-            "icon": "inv_glove_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268256,
-            "name": "Sash of the Forlorn Vessel",
+            "name": "",
             "params": "pcs=271510:271513:271508:271509:268256&gems=240898",
             "popularity": 22.3,
-            "parses": 315,
-            "nameEs": "Fajín del recipiente desolado",
-            "icon": "inv_belt_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 315
           },
           {
             "id": 271509,
-            "name": "Chosen Bloodslayer's Reinforced Pants",
+            "name": "",
             "params": "pcs=271510:271513:271508:271509&ench=8159",
             "popularity": 79.9,
-            "parses": 1,
-            "nameEs": "Pantalones reforzados de cercenacastas elegido",
-            "icon": "inv_pant_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8791&pcs=271510:271513:271508:271509:244569&ench=7963",
             "popularity": 68.4,
-            "parses": 967,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 967
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271510:271513:271508:271509:281029&gems=240898&ench=7967",
             "popularity": 65.5,
-            "parses": 926,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 926
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8791&pcs=271510:271513:271508:271509:240949&gems=240898&ench=7967",
             "popularity": 36.4,
-            "parses": 515,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 515
           },
           {
             "id": 271093,
-            "name": "Zatha'tek, Breath of Corruption",
+            "name": "",
             "params": "pcs=271510:271513:271508:271509:271093&ench=8689",
             "popularity": 80.2,
-            "parses": 1,
-            "nameEs": "Zatha'tek, Aliento de Corrupción",
-            "icon": "inv_knife_1h_ulatekfang_d_01_poison",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 237837,
-            "name": "Farstrider's Mercy",
+            "name": "",
             "params": "bonus=8791&pcs=271510:271513:271508:271509:237837&ench=8689",
             "popularity": 75.3,
-            "parses": 1,
-            "nameEs": "Piedad de errante",
-            "icon": "inv_knife_1h_questbloodelf_b_02",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 66.5,
-            "parses": 939,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 939
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 66.5,
-            "parses": 939,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 939
           }
         ]
       }
@@ -10024,163 +7306,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271510,
-            "name": "Chosen Bloodslayer's Spirit Shroud",
+            "name": "",
             "params": "pcs=271508:271513:271509:271511:271510&gems=240906&ench=7961",
             "popularity": 75.7,
-            "parses": 734,
-            "nameEs": "Sudario espiritual de cercenacastas elegido",
-            "icon": "inv_helm_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 734
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271508:271513:271509:271511:268265&gems=240983",
             "popularity": 87.1,
-            "parses": 844,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 844
           },
           {
             "id": 271508,
-            "name": "Chosen Bloodslayer's Voodoo Guards",
+            "name": "",
             "params": "pcs=271508:271513:271509:271511&ench=8031",
             "popularity": 92,
-            "parses": 891,
-            "nameEs": "Guardahombros vudú de cercenacastas elegido",
-            "icon": "inv_shoulder_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 891
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8790&pcs=271508:271513:271509:271511:239656",
             "popularity": 28.8,
-            "parses": 279,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 279
           },
           {
             "id": 271513,
-            "name": "Chosen Bloodslayer's Banded Poncho",
+            "name": "",
             "params": "pcs=271508:271513:271509:271511&ench=7987",
             "popularity": 90,
-            "parses": 872,
-            "nameEs": "Poncho con franjas de cercenacastas elegido",
-            "icon": "inv_chest_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 872
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8790&pcs=271508:271513:271509:271511:244576&gems=240906",
             "popularity": 36,
-            "parses": 349,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 349
           },
           {
             "id": 271511,
-            "name": "Chosen Bloodslayer's Fanged Grips",
+            "name": "",
             "params": "pcs=271508:271513:271509:271511",
             "popularity": 77.4,
-            "parses": 750,
-            "nameEs": "Mandiletes con colmillos de cercenacastas elegido",
-            "icon": "inv_glove_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 750
           },
           {
             "id": 244573,
-            "name": "Silvermoon Agent's Utility Belt",
+            "name": "",
             "params": "bonus=8790&pcs=271508:271513:271509:271511:244573&gems=240906",
             "popularity": 52.9,
-            "parses": 513,
-            "nameEs": "Cinturón de herramientas de agente de Lunargenta",
-            "icon": "inv_belt_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 513
           },
           {
             "id": 271509,
-            "name": "Chosen Bloodslayer's Reinforced Pants",
+            "name": "",
             "params": "pcs=271508:271513:271509:271511&ench=8159",
             "popularity": 87.6,
-            "parses": 849,
-            "nameEs": "Pantalones reforzados de cercenacastas elegido",
-            "icon": "inv_pant_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 849
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8790&pcs=271508:271513:271509:271511:244569&ench=7993",
             "popularity": 65.1,
-            "parses": 631,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 631
           },
           {
             "id": 268252,
-            "name": "Apex Brute's Claw Ring",
+            "name": "",
             "params": "bonus=13534&pcs=271508:271513:271509:271511:268252&gems=240906&ench=7967",
             "popularity": 46.9,
-            "parses": 454,
-            "nameEs": "Anillo de zarpas de bruto alfa",
-            "icon": "inv_121_jewelry_ring03_red",
-            "quality": 4
+            "parses": 454
           },
           {
             "id": 251148,
-            "name": "Pilfered Precious Band",
+            "name": "",
             "params": "bonus=13534&pcs=271508:271513:271509:271511:251148&gems=240906&ench=7967",
             "popularity": 40.7,
-            "parses": 394,
-            "nameEs": "Sortija preciosa birlada",
-            "icon": "inv_12_jewelry_zulaman_troll_ring_green2",
-            "quality": 4
+            "parses": 394
           },
           {
             "id": 268209,
-            "name": "Aman'muso, Warlord's Vengeance",
+            "name": "",
             "params": "pcs=271508:271513:271509:271511:268209&ench=8689",
             "popularity": 89.1,
-            "parses": 863,
-            "nameEs": "Aman'muso, Venganza del Señor de la Guerra",
-            "icon": "inv_axe_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 863
           },
           {
             "id": 271093,
-            "name": "Zatha'tek, Breath of Corruption",
+            "name": "",
             "params": "pcs=271508:271513:271509:271511:271093&ench=8689",
             "popularity": 63.9,
-            "parses": 619,
-            "nameEs": "Zatha'tek, Aliento de Corrupción",
-            "icon": "inv_knife_1h_ulatekfang_d_01_poison",
-            "quality": 4
+            "parses": 619
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 71.9,
-            "parses": 697,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 697
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 71.9,
-            "parses": 697,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 697
           }
         ]
       },
@@ -10199,163 +7433,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271510,
-            "name": "Chosen Bloodslayer's Spirit Shroud",
+            "name": "",
             "params": "pcs=271510:271513:271508:271509&gems=240890&ench=7961",
             "popularity": 95.4,
-            "parses": 293,
-            "nameEs": "Sudario espiritual de cercenacastas elegido",
-            "icon": "inv_helm_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 293
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271510:271513:271508:271509:268265&gems=240983",
             "popularity": 92.5,
-            "parses": 284,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 284
           },
           {
             "id": 271508,
-            "name": "Chosen Bloodslayer's Voodoo Guards",
+            "name": "",
             "params": "pcs=271510:271513:271508:271509&ench=8031",
             "popularity": 92.8,
-            "parses": 285,
-            "nameEs": "Guardahombros vudú de cercenacastas elegido",
-            "icon": "inv_shoulder_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 285
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8795&pcs=271510:271513:271508:271509:239656",
             "popularity": 28,
-            "parses": 86,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 86
           },
           {
             "id": 271513,
-            "name": "Chosen Bloodslayer's Banded Poncho",
+            "name": "",
             "params": "pcs=271510:271513:271508:271509&ench=7987",
             "popularity": 95.1,
-            "parses": 292,
-            "nameEs": "Poncho con franjas de cercenacastas elegido",
-            "icon": "inv_chest_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 292
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8795&pcs=271510:271513:271508:271509:244576&gems=240890",
             "popularity": 44,
-            "parses": 135,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 135
           },
           {
             "id": 271511,
-            "name": "Chosen Bloodslayer's Fanged Grips",
+            "name": "",
             "params": "pcs=271510:271513:271508:271509:271511",
             "popularity": 53.1,
-            "parses": 163,
-            "nameEs": "Mandiletes con colmillos de cercenacastas elegido",
-            "icon": "inv_glove_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 163
           },
           {
             "id": 244573,
-            "name": "Silvermoon Agent's Utility Belt",
+            "name": "",
             "params": "bonus=8795&pcs=271510:271513:271508:271509:244573&gems=240890",
             "popularity": 49.2,
-            "parses": 151,
-            "nameEs": "Cinturón de herramientas de agente de Lunargenta",
-            "icon": "inv_belt_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 151
           },
           {
             "id": 271509,
-            "name": "Chosen Bloodslayer's Reinforced Pants",
+            "name": "",
             "params": "pcs=271510:271513:271508:271509&ench=8159",
             "popularity": 78.5,
-            "parses": 241,
-            "nameEs": "Pantalones reforzados de cercenacastas elegido",
-            "icon": "inv_pant_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 241
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8795&pcs=271510:271513:271508:271509:244569&ench=7993",
             "popularity": 74.6,
-            "parses": 229,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 229
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8795&pcs=271510:271513:271508:271509:240949&gems=240890&ench=7967",
             "popularity": 55.4,
-            "parses": 170,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 170
           },
           {
             "id": 268252,
-            "name": "Apex Brute's Claw Ring",
+            "name": "",
             "params": "bonus=13534&pcs=271510:271513:271508:271509:268252&gems=240890&ench=7967",
             "popularity": 49.8,
-            "parses": 153,
-            "nameEs": "Anillo de zarpas de bruto alfa",
-            "icon": "inv_121_jewelry_ring03_red",
-            "quality": 4
+            "parses": 153
           },
           {
             "id": 268209,
-            "name": "Aman'muso, Warlord's Vengeance",
+            "name": "",
             "params": "pcs=271510:271513:271508:271509:268209&ench=8689",
             "popularity": 90.9,
-            "parses": 279,
-            "nameEs": "Aman'muso, Venganza del Señor de la Guerra",
-            "icon": "inv_axe_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 279
           },
           {
             "id": 271093,
-            "name": "Zatha'tek, Breath of Corruption",
+            "name": "",
             "params": "pcs=271510:271513:271508:271509:271093&ench=8689",
             "popularity": 75.2,
-            "parses": 231,
-            "nameEs": "Zatha'tek, Aliento de Corrupción",
-            "icon": "inv_knife_1h_ulatekfang_d_01_poison",
-            "quality": 4
+            "parses": 231
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 43.6,
-            "parses": 134,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 134
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 43.6,
-            "parses": 134,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 134
           }
         ]
       }
@@ -10376,163 +7562,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271510,
-            "name": "Chosen Bloodslayer's Spirit Shroud",
+            "name": "",
             "params": "pcs=271510:271513:271508:271511&gems=240898&ench=8017",
             "popularity": 90.6,
-            "parses": 18,
-            "nameEs": "Sudario espiritual de cercenacastas elegido",
-            "icon": "inv_helm_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 18
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271510:271513:271508:271511:268265&gems=240983",
             "popularity": 94.2,
-            "parses": 19,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 19
           },
           {
             "id": 271508,
-            "name": "Chosen Bloodslayer's Voodoo Guards",
+            "name": "",
             "params": "pcs=271510:271513:271508:271511&ench=8001",
             "popularity": 85.9,
-            "parses": 17,
-            "nameEs": "Guardahombros vudú de cercenacastas elegido",
-            "icon": "inv_shoulder_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 17
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271510:271513:271508:271511:268253",
             "popularity": 33.3,
-            "parses": 6,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 271513,
-            "name": "Chosen Bloodslayer's Banded Poncho",
+            "name": "",
             "params": "pcs=271510:271513:271508:271511&ench=7987",
             "popularity": 87.6,
-            "parses": 17,
-            "nameEs": "Poncho con franjas de cercenacastas elegido",
-            "icon": "inv_chest_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 17
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8791&pcs=271510:271513:271508:271511:244576&gems=240898",
             "popularity": 79.4,
-            "parses": 16,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 16
           },
           {
             "id": 271511,
-            "name": "Chosen Bloodslayer's Fanged Grips",
+            "name": "",
             "params": "pcs=271510:271513:271508:271511",
             "popularity": 85.5,
-            "parses": 17,
-            "nameEs": "Mandiletes con colmillos de cercenacastas elegido",
-            "icon": "inv_glove_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 17
           },
           {
             "id": 268256,
-            "name": "Sash of the Forlorn Vessel",
+            "name": "",
             "params": "pcs=271510:271513:271508:271511:268256&gems=240898",
             "popularity": 32.1,
-            "parses": 6,
-            "nameEs": "Fajín del recipiente desolado",
-            "icon": "inv_belt_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 271509,
-            "name": "Chosen Bloodslayer's Reinforced Pants",
+            "name": "",
             "params": "pcs=271510:271513:271508:271511:271509&ench=8159",
             "popularity": 83.5,
-            "parses": 17,
-            "nameEs": "Pantalones reforzados de cercenacastas elegido",
-            "icon": "inv_pant_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 17
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8791&pcs=271510:271513:271508:271511:244569&ench=7963",
             "popularity": 54.6,
-            "parses": 11,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271510:271513:271508:271511:281029&gems=240898&ench=7967",
             "popularity": 57.6,
-            "parses": 11,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8791&pcs=271510:271513:271508:271511:240949&gems=240898&ench=7967",
             "popularity": 39.9,
-            "parses": 8,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 271093,
-            "name": "Zatha'tek, Breath of Corruption",
+            "name": "",
             "params": "pcs=271510:271513:271508:271511:271093&ench=8689",
             "popularity": 76.5,
-            "parses": 15,
-            "nameEs": "Zatha'tek, Aliento de Corrupción",
-            "icon": "inv_knife_1h_ulatekfang_d_01_poison",
-            "quality": 4
+            "parses": 15
           },
           {
             "id": 237837,
-            "name": "Farstrider's Mercy",
+            "name": "",
             "params": "bonus=8791&pcs=271510:271513:271508:271511:237837&ench=8689",
             "popularity": 77.2,
-            "parses": 15,
-            "nameEs": "Piedad de errante",
-            "icon": "inv_knife_1h_questbloodelf_b_02",
-            "quality": 4
+            "parses": 15
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 41.8,
-            "parses": 8,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 41.8,
-            "parses": 8,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 8
           }
         ]
       },
@@ -10551,163 +7689,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271510,
-            "name": "Chosen Bloodslayer's Spirit Shroud",
+            "name": "",
             "params": "pcs=271510:271513:271511:271509&gems=240898&ench=8017",
             "popularity": 88.6,
-            "parses": 13,
-            "nameEs": "Sudario espiritual de cercenacastas elegido",
-            "icon": "inv_helm_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 13
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271510:271513:271511:271509:268265&gems=240983",
             "popularity": 92.9,
-            "parses": 14,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 14
           },
           {
             "id": 271508,
-            "name": "Chosen Bloodslayer's Voodoo Guards",
+            "name": "",
             "params": "pcs=271510:271513:271511:271509:271508&ench=8001",
             "popularity": 77.7,
-            "parses": 11,
-            "nameEs": "Guardahombros vudú de cercenacastas elegido",
-            "icon": "inv_shoulder_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271510:271513:271511:271509:239656",
             "popularity": 44.6,
-            "parses": 6,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 271513,
-            "name": "Chosen Bloodslayer's Banded Poncho",
+            "name": "",
             "params": "pcs=271510:271513:271511:271509&ench=7987",
             "popularity": 86.2,
-            "parses": 13,
-            "nameEs": "Poncho con franjas de cercenacastas elegido",
-            "icon": "inv_chest_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 13
           },
           {
             "id": 244576,
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "",
             "params": "bonus=8791&pcs=271510:271513:271511:271509:244576&gems=240898",
             "popularity": 82.4,
-            "parses": 12,
-            "nameEs": "Deflectores de agente de Lunargenta",
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 271511,
-            "name": "Chosen Bloodslayer's Fanged Grips",
+            "name": "",
             "params": "pcs=271510:271513:271511:271509",
             "popularity": 81.9,
-            "parses": 12,
-            "nameEs": "Mandiletes con colmillos de cercenacastas elegido",
-            "icon": "inv_glove_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 268256,
-            "name": "Sash of the Forlorn Vessel",
+            "name": "",
             "params": "pcs=271510:271513:271511:271509:268256&gems=240898",
             "popularity": 31.3,
-            "parses": 4,
-            "nameEs": "Fajín del recipiente desolado",
-            "icon": "inv_belt_leather_raiddruidulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271509,
-            "name": "Chosen Bloodslayer's Reinforced Pants",
+            "name": "",
             "params": "pcs=271510:271513:271511:271509&ench=8159",
             "popularity": 78,
-            "parses": 12,
-            "nameEs": "Pantalones reforzados de cercenacastas elegido",
-            "icon": "inv_pant_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 244569,
-            "name": "Silvermoon Agent's Sneakers",
+            "name": "",
             "params": "bonus=8791&pcs=271510:271513:271511:271509:244569&ench=7963",
             "popularity": 71.3,
-            "parses": 11,
-            "nameEs": "Zapatas de agente de Lunargenta",
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271510:271513:271511:271509:281029&gems=240898&ench=7967",
             "popularity": 63.3,
-            "parses": 9,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8791&pcs=271510:271513:271511:271509:240949&gems=240898&ench=7967",
             "popularity": 52.1,
-            "parses": 8,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 271093,
-            "name": "Zatha'tek, Breath of Corruption",
+            "name": "",
             "params": "pcs=271510:271513:271511:271509:271093&ench=8689",
             "popularity": 76.3,
-            "parses": 11,
-            "nameEs": "Zatha'tek, Aliento de Corrupción",
-            "icon": "inv_knife_1h_ulatekfang_d_01_poison",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 237837,
-            "name": "Farstrider's Mercy",
+            "name": "",
             "params": "bonus=8791&pcs=271510:271513:271511:271509:237837&ench=8689",
             "popularity": 75.6,
-            "parses": 11,
-            "nameEs": "Piedad de errante",
-            "icon": "inv_knife_1h_questbloodelf_b_02",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 63.7,
-            "parses": 9,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 63.7,
-            "parses": 9,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 9
           }
         ]
       }
@@ -10730,163 +7820,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271483,
-            "name": "Serpent Crown of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484&gems=240908&ench=8017",
             "popularity": 91.8,
-            "parses": 17,
-            "nameEs": "Corona de sierpe del oráculo ofidio",
-            "icon": "inv_helm_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 17
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271481:271486:271483:271484:268265&gems=240983",
             "popularity": 96.4,
-            "parses": 18,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 18
           },
           {
             "id": 271481,
-            "name": "Hissing Mantle of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484&ench=8001",
             "popularity": 94.4,
-            "parses": 17,
-            "nameEs": "Manto siseante del oráculo ofidio",
-            "icon": "inv_shoulder_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 17
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8791&pcs=271481:271486:271483:271484:239656",
             "popularity": 40.8,
-            "parses": 7,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 271486,
-            "name": "Fanged Raiment of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484&ench=7987",
             "popularity": 92,
-            "parses": 17,
-            "nameEs": "Vestiduras con colmillos del oráculo ofidio",
-            "icon": "inv_robe_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 17
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8791&pcs=271481:271486:271483:271484:244584&gems=240908",
             "popularity": 82.5,
-            "parses": 15,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 15
           },
           {
             "id": 271484,
-            "name": "Hexing Grips of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484",
             "popularity": 88.3,
-            "parses": 16,
-            "nameEs": "Mandiletes aojadores del oráculo ofidio",
-            "icon": "inv_glove_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 16
           },
           {
             "id": 244581,
-            "name": "Farstrider's Trophy Belt",
+            "name": "",
             "params": "bonus=8791&pcs=271481:271486:271483:271484:244581&gems=240908",
             "popularity": 39.7,
-            "parses": 7,
-            "nameEs": "Cinturón de trofeos de errante",
-            "icon": "inv_belt_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 271482,
-            "name": "Leggings of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484:271482&ench=7935",
             "popularity": 67.2,
-            "parses": 12,
-            "nameEs": "Leotardos del oráculo ofidio",
-            "icon": "inv_pant_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 12
           },
           {
             "id": 268258,
-            "name": "Boots of the Reckless Wayfarer",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484:268258&ench=7963",
             "popularity": 38.8,
-            "parses": 7,
-            "nameEs": "Botas del caminante temerario",
-            "icon": "inv_boot_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271481:271486:271483:271484:281029&gems=240908&ench=7967",
             "popularity": 51.8,
-            "parses": 9,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 268252,
-            "name": "Apex Brute's Claw Ring",
+            "name": "",
             "params": "bonus=13534&pcs=271481:271486:271483:271484:268252&gems=240908&ench=7967",
             "popularity": 35.9,
-            "parses": 6,
-            "nameEs": "Anillo de zarpas de bruto alfa",
-            "icon": "inv_121_jewelry_ring03_red",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484:271092&ench=8689",
             "popularity": 86.7,
-            "parses": 16,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 16
           },
           {
             "id": 268196,
-            "name": "Venom-Slashed Scuteward",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484:268196",
             "popularity": 37.9,
-            "parses": 7,
-            "nameEs": "Resguardo dérmico sajado por el veneno",
-            "icon": "inv_shield_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 30.8,
-            "parses": 5,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 30.8,
-            "parses": 5,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 5
           }
         ]
       },
@@ -10905,163 +7947,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271483,
-            "name": "Serpent Crown of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271483:271486:271484&gems=240908&ench=8017",
             "popularity": 90.6,
-            "parses": 10,
-            "nameEs": "Corona de sierpe del oráculo ofidio",
-            "icon": "inv_helm_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271481:271483:271486:271484:268265&gems=240983",
             "popularity": 95.2,
-            "parses": 11,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 271481,
-            "name": "Hissing Mantle of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271483:271486:271484&ench=8001",
             "popularity": 90.7,
-            "parses": 10,
-            "nameEs": "Manto siseante del oráculo ofidio",
-            "icon": "inv_shoulder_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8790&pcs=271481:271483:271486:271484:239656",
             "popularity": 39.2,
-            "parses": 4,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271486,
-            "name": "Fanged Raiment of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271483:271486:271484&ench=7987",
             "popularity": 88.2,
-            "parses": 10,
-            "nameEs": "Vestiduras con colmillos del oráculo ofidio",
-            "icon": "inv_robe_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8790&pcs=271481:271483:271486:271484:244584&gems=240908",
             "popularity": 82.9,
-            "parses": 9,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 271484,
-            "name": "Hexing Grips of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271483:271486:271484",
             "popularity": 84.1,
-            "parses": 10,
-            "nameEs": "Mandiletes aojadores del oráculo ofidio",
-            "icon": "inv_glove_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 244581,
-            "name": "Farstrider's Trophy Belt",
+            "name": "",
             "params": "bonus=8790&pcs=271481:271483:271486:271484:244581&gems=240908",
             "popularity": 49.6,
-            "parses": 5,
-            "nameEs": "Cinturón de trofeos de errante",
-            "icon": "inv_belt_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271482,
-            "name": "Leggings of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271483:271486:271484:271482&ench=7935",
             "popularity": 62.4,
-            "parses": 7,
-            "nameEs": "Leotardos del oráculo ofidio",
-            "icon": "inv_pant_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 268258,
-            "name": "Boots of the Reckless Wayfarer",
+            "name": "",
             "params": "pcs=271481:271483:271486:271484:268258&ench=7963",
             "popularity": 36.3,
-            "parses": 4,
-            "nameEs": "Botas del caminante temerario",
-            "icon": "inv_boot_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271481:271483:271486:271484:281029&gems=240908&ench=7967",
             "popularity": 51.4,
-            "parses": 6,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271481:271483:271486:271484:240949&gems=240908&ench=7967",
             "popularity": 42.1,
-            "parses": 5,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271481:271483:271486:271484:271092&ench=8689",
             "popularity": 92.8,
-            "parses": 11,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 268196,
-            "name": "Venom-Slashed Scuteward",
+            "name": "",
             "params": "pcs=271481:271483:271486:271484:268196",
             "popularity": 46.4,
-            "parses": 5,
-            "nameEs": "Resguardo dérmico sajado por el veneno",
-            "icon": "inv_shield_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 32.2,
-            "parses": 3,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 32.2,
-            "parses": 3,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 3
           }
         ]
       }
@@ -11082,163 +8076,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271483,
-            "name": "Serpent Crown of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484&gems=240892&ench=8017",
             "popularity": 86.4,
-            "parses": 4,
-            "nameEs": "Corona de sierpe del oráculo ofidio",
-            "icon": "inv_helm_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271481:271486:271483:271484:268265&gems=240983",
             "popularity": 91.3,
-            "parses": 5,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271481,
-            "name": "Hissing Mantle of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484&ench=8001",
             "popularity": 93.4,
-            "parses": 5,
-            "nameEs": "Manto siseante del oráculo ofidio",
-            "icon": "inv_shoulder_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484:268253",
             "popularity": 48.1,
-            "parses": 2,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271486,
-            "name": "Fanged Raiment of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484&ench=7987",
             "popularity": 89.2,
-            "parses": 5,
-            "nameEs": "Vestiduras con colmillos del oráculo ofidio",
-            "icon": "inv_robe_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8793&pcs=271481:271486:271483:271484:244584&gems=240892",
             "popularity": 87.9,
-            "parses": 5,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271484,
-            "name": "Hexing Grips of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484",
             "popularity": 86,
-            "parses": 4,
-            "nameEs": "Mandiletes aojadores del oráculo ofidio",
-            "icon": "inv_glove_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 268254,
-            "name": "Serpentine Mixing Belt",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484:268254&gems=240892",
             "popularity": 39.8,
-            "parses": 2,
-            "nameEs": "Cinturón de mezclas serpentino",
-            "icon": "inv_belt_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271482,
-            "name": "Leggings of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484:271482&ench=8159",
             "popularity": 82.3,
-            "parses": 4,
-            "nameEs": "Leotardos del oráculo ofidio",
-            "icon": "inv_pant_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 268258,
-            "name": "Boots of the Reckless Wayfarer",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484:268258&ench=7963",
             "popularity": 32.3,
-            "parses": 1,
-            "nameEs": "Botas del caminante temerario",
-            "icon": "inv_boot_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271481:271486:271483:271484:281029&gems=240892&ench=7967",
             "popularity": 52.3,
-            "parses": 3,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8793&pcs=271481:271486:271483:271484:240949&gems=240892&ench=7967",
             "popularity": 31.9,
-            "parses": 1,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268209,
-            "name": "Aman'muso, Warlord's Vengeance",
+            "name": "",
             "params": "pcs=271481:271486:271483:271484:268209&ench=8689",
             "popularity": 88.4,
-            "parses": 5,
-            "nameEs": "Aman'muso, Venganza del Señor de la Guerra",
-            "icon": "inv_axe_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 237850,
-            "name": "Farstrider's Chopper",
+            "name": "",
             "params": "bonus=8793&pcs=271481:271486:271483:271484:237850&ench=8689",
             "popularity": 70.4,
-            "parses": 4,
-            "nameEs": "Cortador de errante",
-            "icon": "inv_axe_1h_questbloodelf_b_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 67.4,
-            "parses": 3,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 67.4,
-            "parses": 3,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 3
           }
         ]
       },
@@ -11257,163 +8203,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271483,
-            "name": "Serpent Crown of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271486:271484:271483&gems=240890&ench=8017",
             "popularity": 81.7,
-            "parses": 1,
-            "nameEs": "Corona de sierpe del oráculo ofidio",
-            "icon": "inv_helm_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271481:271486:271484:271483:268265&gems=240983",
             "popularity": 92.8,
-            "parses": 2,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271481,
-            "name": "Hissing Mantle of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271486:271484:271483&ench=8001",
             "popularity": 89.2,
-            "parses": 2,
-            "nameEs": "Manto siseante del oráculo ofidio",
-            "icon": "inv_shoulder_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271481:271486:271484:271483:268253",
             "popularity": 43.6,
-            "parses": 1,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271486,
-            "name": "Fanged Raiment of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271486:271484:271483&ench=7987",
             "popularity": 87.8,
-            "parses": 2,
-            "nameEs": "Vestiduras con colmillos del oráculo ofidio",
-            "icon": "inv_robe_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8793&pcs=271481:271486:271484:271483:244584&gems=240890",
             "popularity": 85.1,
-            "parses": 2,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271484,
-            "name": "Hexing Grips of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271486:271484:271483",
             "popularity": 81.8,
-            "parses": 1,
-            "nameEs": "Mandiletes aojadores del oráculo ofidio",
-            "icon": "inv_glove_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 244581,
-            "name": "Farstrider's Trophy Belt",
+            "name": "",
             "params": "bonus=8793&pcs=271481:271486:271484:271483:244581&gems=240890",
             "popularity": 41.9,
-            "parses": 990,
-            "nameEs": "Cinturón de trofeos de errante",
-            "icon": "inv_belt_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 990
           },
           {
             "id": 271482,
-            "name": "Leggings of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271481:271486:271484:271483:271482&ench=8159",
             "popularity": 75,
-            "parses": 1,
-            "nameEs": "Leotardos del oráculo ofidio",
-            "icon": "inv_pant_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 244577,
-            "name": "Farstrider's Razor Talons",
+            "name": "",
             "params": "bonus=8793&pcs=271481:271486:271484:271483:244577&ench=7963",
             "popularity": 28.8,
-            "parses": 681,
-            "nameEs": "Garfas cortantes de errante",
-            "icon": "inv_boot_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 681
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271481:271486:271484:271483:281029&gems=240890&ench=7967",
             "popularity": 60.9,
-            "parses": 1,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8793&pcs=271481:271486:271484:271483:240949&gems=240890&ench=7967",
             "popularity": 40.1,
-            "parses": 948,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 948
           },
           {
             "id": 268209,
-            "name": "Aman'muso, Warlord's Vengeance",
+            "name": "",
             "params": "pcs=271481:271486:271484:271483:268209&ench=8689",
             "popularity": 87.1,
-            "parses": 2,
-            "nameEs": "Aman'muso, Venganza del Señor de la Guerra",
-            "icon": "inv_axe_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 237850,
-            "name": "Farstrider's Chopper",
+            "name": "",
             "params": "bonus=8793&pcs=271481:271486:271484:271483:237850&ench=8689",
             "popularity": 69.1,
-            "parses": 1,
-            "nameEs": "Cortador de errante",
-            "icon": "inv_axe_1h_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 46.6,
-            "parses": 1,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 46.6,
-            "parses": 1,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 1
           }
         ]
       }
@@ -11434,163 +8332,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271483,
-            "name": "Serpent Crown of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271486:271481:271483:271484&gems=240910&ench=7961",
             "popularity": 88.1,
-            "parses": 17,
-            "nameEs": "Corona de sierpe del oráculo ofidio",
-            "icon": "inv_helm_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 17
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271486:271481:271483:271484:268265&gems=240983",
             "popularity": 90,
-            "parses": 18,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 18
           },
           {
             "id": 271481,
-            "name": "Hissing Mantle of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271486:271481:271483:271484&ench=8031",
             "popularity": 88.2,
-            "parses": 17,
-            "nameEs": "Manto siseante del oráculo ofidio",
-            "icon": "inv_shoulder_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 17
           },
           {
             "id": 268248,
-            "name": "Amani Summoning Shawl",
+            "name": "",
             "params": "pcs=271486:271481:271483:271484:268248",
             "popularity": 42.4,
-            "parses": 8,
-            "nameEs": "Chal de invocación Amani",
-            "icon": "inv_cape_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 271486,
-            "name": "Fanged Raiment of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271486:271481:271483:271484&ench=8013",
             "popularity": 91.3,
-            "parses": 18,
-            "nameEs": "Vestiduras con colmillos del oráculo ofidio",
-            "icon": "inv_robe_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 18
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8790&pcs=271486:271481:271483:271484:244584&gems=240910",
             "popularity": 83.2,
-            "parses": 16,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 16
           },
           {
             "id": 271484,
-            "name": "Hexing Grips of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271486:271481:271483:271484",
             "popularity": 86.2,
-            "parses": 17,
-            "nameEs": "Mandiletes aojadores del oráculo ofidio",
-            "icon": "inv_glove_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 17
           },
           {
             "id": 268216,
-            "name": "Cursed Reliquary Cincture",
+            "name": "",
             "params": "pcs=271486:271481:271483:271484:268216&gems=240910",
             "popularity": 58.1,
-            "parses": 11,
-            "nameEs": "Ceñidor de relicario maldito",
-            "icon": "inv_belt_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 11
           },
           {
             "id": 271482,
-            "name": "Leggings of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271486:271481:271483:271484:271482&ench=7937",
             "popularity": 80.4,
-            "parses": 16,
-            "nameEs": "Leotardos del oráculo ofidio",
-            "icon": "inv_pant_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 16
           },
           {
             "id": 244577,
-            "name": "Farstrider's Razor Talons",
+            "name": "",
             "params": "bonus=8790&pcs=271486:271481:271483:271484:244577&ench=7993",
             "popularity": 28.9,
-            "parses": 5,
-            "nameEs": "Garfas cortantes de errante",
-            "icon": "inv_boot_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268252,
-            "name": "Apex Brute's Claw Ring",
+            "name": "",
             "params": "bonus=13534&pcs=271486:271481:271483:271484:268252&gems=240910&ench=7967",
             "popularity": 52.6,
-            "parses": 10,
-            "nameEs": "Anillo de zarpas de bruto alfa",
-            "icon": "inv_121_jewelry_ring03_red",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271486:271481:271483:271484:240949&gems=240910&ench=7967",
             "popularity": 46.7,
-            "parses": 9,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271486:271481:271483:271484:271092&ench=8039",
             "popularity": 78.5,
-            "parses": 15,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 15
           },
           {
             "id": 268196,
-            "name": "Venom-Slashed Scuteward",
+            "name": "",
             "params": "pcs=271486:271481:271483:271484:268196",
             "popularity": 41.4,
-            "parses": 8,
-            "nameEs": "Resguardo dérmico sajado por el veneno",
-            "icon": "inv_shield_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 270162,
-            "name": "Soulcoiler Ritual Vessel",
+            "name": "",
             "params": "nofollow",
             "popularity": 51.7,
-            "parses": 10,
-            "nameEs": "Recipiente ritual de volutador de almas",
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 51.7,
-            "parses": 10,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 10
           }
         ]
       },
@@ -11609,163 +8459,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271483,
-            "name": "Serpent Crown of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271486:271483:271484:271481&gems=240910&ench=8017",
             "popularity": 86,
-            "parses": 7,
-            "nameEs": "Corona de sierpe del oráculo ofidio",
-            "icon": "inv_helm_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271486:271483:271484:271481:268265&gems=240983",
             "popularity": 92.7,
-            "parses": 8,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 271481,
-            "name": "Hissing Mantle of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271486:271483:271484:271481&ench=8001",
             "popularity": 77.6,
-            "parses": 7,
-            "nameEs": "Manto siseante del oráculo ofidio",
-            "icon": "inv_shoulder_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 268248,
-            "name": "Amani Summoning Shawl",
+            "name": "",
             "params": "pcs=271486:271483:271484:271481:268248",
             "popularity": 38.6,
-            "parses": 3,
-            "nameEs": "Chal de invocación Amani",
-            "icon": "inv_cape_leather_raidmonkulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271486,
-            "name": "Fanged Raiment of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271486:271483:271484:271481&ench=8013",
             "popularity": 86.7,
-            "parses": 7,
-            "nameEs": "Vestiduras con colmillos del oráculo ofidio",
-            "icon": "inv_robe_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 244584,
-            "name": "Farstrider's Plated Bracers",
+            "name": "",
             "params": "bonus=8795&pcs=271486:271483:271484:271481:244584&gems=240910",
             "popularity": 88.2,
-            "parses": 8,
-            "nameEs": "Brazales de placas de errante",
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 271484,
-            "name": "Hexing Grips of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271486:271483:271484:271481",
             "popularity": 80.1,
-            "parses": 7,
-            "nameEs": "Mandiletes aojadores del oráculo ofidio",
-            "icon": "inv_glove_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 268216,
-            "name": "Cursed Reliquary Cincture",
+            "name": "",
             "params": "pcs=271486:271483:271484:271481:268216&gems=240910",
             "popularity": 49.3,
-            "parses": 4,
-            "nameEs": "Ceñidor de relicario maldito",
-            "icon": "inv_belt_mail_raidevokerulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271482,
-            "name": "Leggings of the Ophidian Oracle",
+            "name": "",
             "params": "pcs=271486:271483:271484:271481:271482&ench=7937",
             "popularity": 74.8,
-            "parses": 6,
-            "nameEs": "Leotardos del oráculo ofidio",
-            "icon": "inv_pant_mail_raidshamanulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 244577,
-            "name": "Farstrider's Razor Talons",
+            "name": "",
             "params": "bonus=8795&pcs=271486:271483:271484:271481:244577&ench=7963",
             "popularity": 36.6,
-            "parses": 3,
-            "nameEs": "Garfas cortantes de errante",
-            "icon": "inv_boot_mail_questbloodelf_b_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8795&pcs=271486:271483:271484:271481:240949&gems=240910&ench=7967",
             "popularity": 59.8,
-            "parses": 5,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268252,
-            "name": "Apex Brute's Claw Ring",
+            "name": "",
             "params": "bonus=13534&pcs=271486:271483:271484:271481:268252&gems=240910&ench=7967",
             "popularity": 43.7,
-            "parses": 4,
-            "nameEs": "Anillo de zarpas de bruto alfa",
-            "icon": "inv_121_jewelry_ring03_red",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271486:271483:271484:271481:271092&ench=8039",
             "popularity": 88.2,
-            "parses": 8,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 8
           },
           {
             "id": 237831,
-            "name": "Spellbreaker's Rebuke",
+            "name": "",
             "params": "bonus=8795&pcs=271486:271483:271484:271481:237831",
             "popularity": 43.9,
-            "parses": 4,
-            "nameEs": "Reprimenda de rompechizos",
-            "icon": "inv_shield_1h_questbloodelf_b_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 250255,
-            "name": "Unstable Felheart Crystal",
+            "name": "",
             "params": "nofollow",
             "popularity": 55.4,
-            "parses": 5,
-            "nameEs": "Cristal de corazón vil inestable",
-            "icon": "tooltip_crystallizedfel",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 270162,
-            "name": "Soulcoiler Ritual Vessel",
+            "name": "",
             "params": "nofollow",
             "popularity": 55.4,
-            "parses": 5,
-            "nameEs": "Recipiente ritual de volutador de almas",
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "quality": 4
+            "parses": 5
           }
         ]
       }
@@ -11774,11 +8576,11 @@ window.ARCHON_PRESETS = {
   "warlock": {
     "affliction": {
       "raid": {
-        "m": 719,
-        "c": 1081,
-        "h": 1101,
-        "v": 190,
-        "dps": "321.0k",
+        "m": 723,
+        "c": 1080,
+        "h": 1100,
+        "v": 189,
+        "dps": "322.4k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/C8DMqL6NXFB24mwQ#fight=13",
@@ -11788,163 +8590,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271546,
-            "name": "Skull of the Damned Necrolyte",
-            "params": "pcs=271549:271545:271544:271547:271546&gems=240906&ench=8017",
-            "popularity": 83.3,
-            "parses": 5,
-            "nameEs": "Calavera del necrólito condenado",
-            "icon": "inv_helm_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "name": "",
+            "params": "pcs=271545:271549:271547:271544:271546&gems=240906&ench=8017",
+            "popularity": 83.6,
+            "parses": 5
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
-            "params": "bonus=13534&pcs=271549:271545:271544:271547:268265&gems=240983",
-            "popularity": 91.9,
-            "parses": 5,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "name": "",
+            "params": "bonus=13534&pcs=271545:271549:271547:271544:268265&gems=240983",
+            "popularity": 92.4,
+            "parses": 5
           },
           {
             "id": 271544,
-            "name": "Spires of the Damned Necrolyte",
-            "params": "pcs=271549:271545:271544:271547&ench=8001",
-            "popularity": 87.6,
-            "parses": 5,
-            "nameEs": "Agujas del necrólito condenado",
-            "icon": "inv_shoulder_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "name": "",
+            "params": "pcs=271545:271549:271547:271544&ench=8001",
+            "popularity": 87.1,
+            "parses": 5
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
-            "params": "bonus=8790&pcs=271549:271545:271544:271547:239656",
-            "popularity": 35.6,
-            "parses": 2,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "name": "",
+            "params": "bonus=8790&pcs=271545:271549:271547:271544:239656",
+            "popularity": 35.9,
+            "parses": 2
           },
           {
             "id": 271549,
-            "name": "Damned Necrolyte's Rattling Robes",
-            "params": "pcs=271549:271545:271544:271547&ench=7987",
-            "popularity": 90.5,
-            "parses": 5,
-            "nameEs": "Toga tintineante de necrólito condenado",
-            "icon": "inv_robe_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "name": "",
+            "params": "pcs=271545:271549:271547:271544&ench=7987",
+            "popularity": 90.2,
+            "parses": 5
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
-            "params": "bonus=8790&pcs=271549:271545:271544:271547:239648&gems=240906",
-            "popularity": 76.3,
-            "parses": 4,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "name": "",
+            "params": "bonus=8790&pcs=271545:271549:271547:271544:239648&gems=240906",
+            "popularity": 76.5,
+            "parses": 4
           },
           {
             "id": 271547,
-            "name": "Damned Necrolyte's Charred Grasps",
-            "params": "pcs=271549:271545:271544:271547",
-            "popularity": 87.4,
-            "parses": 5,
-            "nameEs": "Garras chamuscadas de necrólito condenado",
-            "icon": "inv_glove_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "name": "",
+            "params": "pcs=271545:271549:271547:271544",
+            "popularity": 87.2,
+            "parses": 5
           },
           {
             "id": 239649,
-            "name": "Martyr's Waistwrap",
-            "params": "bonus=8790&pcs=271549:271545:271544:271547:239649&gems=240906",
-            "popularity": 42.9,
-            "parses": 2,
-            "nameEs": "Ajustador de mártir",
-            "icon": "inv_belt_cloth_questbloodelf_b_01",
-            "quality": 4
+            "name": "",
+            "params": "bonus=8790&pcs=271545:271549:271547:271544:239649&gems=240906",
+            "popularity": 43.2,
+            "parses": 2
           },
           {
             "id": 271545,
-            "name": "Damned Necrolyte's Leg Bindings",
-            "params": "pcs=271549:271545:271544:271547&ench=7935",
-            "popularity": 90.2,
-            "parses": 5,
-            "nameEs": "Ataduras de necrólito condenado",
-            "icon": "inv_pant_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "name": "",
+            "params": "pcs=271545:271549:271547:271544&ench=7935",
+            "popularity": 90.6,
+            "parses": 5
           },
           {
             "id": 268255,
-            "name": "Cackling Soultreads",
-            "params": "pcs=271549:271545:271544:271547:268255&ench=7963",
-            "popularity": 23,
-            "parses": 1,
-            "nameEs": "Botines de alma carcajeantes",
-            "icon": "inv_boot_cloth_raidmageulatek_d_01",
-            "quality": 4
+            "name": "",
+            "params": "pcs=271545:271549:271547:271544:268255&ench=7963",
+            "popularity": 23.4,
+            "parses": 1
           },
           {
             "id": 268252,
-            "name": "Apex Brute's Claw Ring",
-            "params": "bonus=13534&pcs=271549:271545:271544:271547:268252&gems=240906&ench=7967",
-            "popularity": 60,
-            "parses": 3,
-            "nameEs": "Anillo de zarpas de bruto alfa",
-            "icon": "inv_121_jewelry_ring03_red",
-            "quality": 4
+            "name": "",
+            "params": "bonus=13534&pcs=271545:271549:271547:271544:268252&gems=240906&ench=7967",
+            "popularity": 60.5,
+            "parses": 3
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
-            "params": ":8790&pcs=271549:271545:271544:271547:240949&gems=240906&ench=7967",
-            "popularity": 42.3,
-            "parses": 2,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "name": "",
+            "params": ":8790&pcs=271545:271549:271547:271544:240949&gems=240906&ench=7967",
+            "popularity": 42.8,
+            "parses": 2
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
-            "params": "pcs=271549:271545:271544:271547:271092&ench=8689",
-            "popularity": 70.3,
-            "parses": 4,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "name": "",
+            "params": "pcs=271545:271549:271547:271544:271092&ench=8689",
+            "popularity": 71,
+            "parses": 4
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
-            "params": "bonus=8790&pcs=271549:271545:271544:271547:245769",
-            "popularity": 57.3,
-            "parses": 3,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "name": "",
+            "params": "bonus=8790&pcs=271545:271549:271547:271544:245769",
+            "popularity": 57.5,
+            "parses": 3
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
-            "popularity": 19.3,
-            "parses": 1,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "popularity": 19.1,
+            "parses": 1
           },
           {
             "id": 270169,
-            "name": "Hex Lord's Dooming Idol",
+            "name": "",
             "params": "nofollow",
-            "popularity": 19.3,
-            "parses": 1,
-            "nameEs": "Ídolo de fatalidad de señor aojador",
-            "icon": "inv_archaeology_orcclans_crackedidol",
-            "quality": 4
+            "popularity": 19.1,
+            "parses": 1
           }
         ]
       },
@@ -11963,174 +8717,126 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271546,
-            "name": "Skull of the Damned Necrolyte",
+            "name": "",
             "params": "pcs=271545:271549:271544:271546&gems=240906&ench=8017",
             "popularity": 79.4,
-            "parses": 722,
-            "nameEs": "Calavera del necrólito condenado",
-            "icon": "inv_helm_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 722
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271545:271549:271544:271546:268265&gems=240983",
             "popularity": 88.1,
-            "parses": 801,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 801
           },
           {
             "id": 271544,
-            "name": "Spires of the Damned Necrolyte",
+            "name": "",
             "params": "pcs=271545:271549:271544:271546&ench=8001",
             "popularity": 84.9,
-            "parses": 772,
-            "nameEs": "Agujas del necrólito condenado",
-            "icon": "inv_shoulder_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 772
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8790&pcs=271545:271549:271544:271546:239656",
             "popularity": 46.8,
-            "parses": 425,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 425
           },
           {
             "id": 271549,
-            "name": "Damned Necrolyte's Rattling Robes",
+            "name": "",
             "params": "pcs=271545:271549:271544:271546&ench=7987",
             "popularity": 87.5,
-            "parses": 795,
-            "nameEs": "Toga tintineante de necrólito condenado",
-            "icon": "inv_robe_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 795
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8790&pcs=271545:271549:271544:271546:239648&gems=240906",
             "popularity": 78.7,
-            "parses": 715,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 715
           },
           {
             "id": 271547,
-            "name": "Damned Necrolyte's Charred Grasps",
+            "name": "",
             "params": "pcs=271545:271549:271544:271546:271547",
             "popularity": 78.4,
-            "parses": 713,
-            "nameEs": "Garras chamuscadas de necrólito condenado",
-            "icon": "inv_glove_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 713
           },
           {
             "id": 239649,
-            "name": "Martyr's Waistwrap",
+            "name": "",
             "params": "bonus=8790&pcs=271545:271549:271544:271546:239649&gems=240906",
             "popularity": 52.1,
-            "parses": 474,
-            "nameEs": "Ajustador de mártir",
-            "icon": "inv_belt_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 474
           },
           {
             "id": 271545,
-            "name": "Damned Necrolyte's Leg Bindings",
+            "name": "",
             "params": "pcs=271545:271549:271544:271546&ench=7935",
             "popularity": 92.1,
-            "parses": 837,
-            "nameEs": "Ataduras de necrólito condenado",
-            "icon": "inv_pant_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 837
           },
           {
             "id": 239654,
-            "name": "Martyr's Slippers",
+            "name": "",
             "params": "bonus=8790&pcs=271545:271549:271544:271546:239654&ench=7963",
             "popularity": 27.6,
-            "parses": 251,
-            "nameEs": "Zapatillas de mártir",
-            "icon": "inv_boot_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 251
           },
           {
             "id": 273792,
-            "name": "Band of the Amani Warlord",
+            "name": "",
             "params": "bonus=13534&pcs=271545:271549:271544:271546:273792&gems=240906&ench=7967",
             "popularity": 46.1,
-            "parses": 419,
-            "nameEs": "Sortija del señor de la guerra Amani",
-            "icon": "inv_121_jewelry_ring02_green",
-            "quality": 4
+            "parses": 419
           },
           {
             "id": 268252,
-            "name": "Apex Brute's Claw Ring",
+            "name": "",
             "params": "bonus=13534&pcs=271545:271549:271544:271546:268252&gems=240906&ench=7967",
             "popularity": 36.4,
-            "parses": 331,
-            "nameEs": "Anillo de zarpas de bruto alfa",
-            "icon": "inv_121_jewelry_ring03_red",
-            "quality": 4
+            "parses": 331
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271545:271549:271544:271546:271092&ench=8689",
             "popularity": 76.6,
-            "parses": 696,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 696
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8790&pcs=271545:271549:271544:271546:245769",
             "popularity": 61.4,
-            "parses": 558,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 558
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 21.9,
-            "parses": 199,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 199
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 21.9,
-            "parses": 199,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 199
           }
         ]
       }
     },
     "demonology": {
       "raid": {
-        "m": 776,
-        "c": 1171,
+        "m": 778,
+        "c": 1170,
         "h": 923,
-        "v": 186,
-        "dps": "344.5k",
+        "v": 187,
+        "dps": "346.0k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/MkKXYf3G1AdFVHWj#fight=59",
@@ -12140,163 +8846,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271546,
-            "name": "Skull of the Damned Necrolyte",
+            "name": "",
             "params": "pcs=271549:271547:271545:271544:271546&gems=240906&ench=8017",
-            "popularity": 83,
-            "parses": 20,
-            "nameEs": "Calavera del necrólito condenado",
-            "icon": "inv_helm_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "popularity": 83.2,
+            "parses": 20
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271549:271547:271545:271544:268265&gems=240983",
-            "popularity": 91.9,
-            "parses": 23,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "popularity": 92,
+            "parses": 22
           },
           {
             "id": 271544,
-            "name": "Spires of the Damned Necrolyte",
+            "name": "",
             "params": "pcs=271549:271547:271545:271544&ench=8001",
             "popularity": 87.2,
-            "parses": 21,
-            "nameEs": "Agujas del necrólito condenado",
-            "icon": "inv_shoulder_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 21
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8790&pcs=271549:271547:271545:271544:239656",
-            "popularity": 37.4,
-            "parses": 9,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "popularity": 37.8,
+            "parses": 9
           },
           {
             "id": 271549,
-            "name": "Damned Necrolyte's Rattling Robes",
+            "name": "",
             "params": "pcs=271549:271547:271545:271544&ench=7987",
-            "popularity": 91.3,
-            "parses": 22,
-            "nameEs": "Toga tintineante de necrólito condenado",
-            "icon": "inv_robe_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "popularity": 91.1,
+            "parses": 22
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8790&pcs=271549:271547:271545:271544:239648&gems=240906",
-            "popularity": 76.8,
-            "parses": 19,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "popularity": 76.3,
+            "parses": 18
           },
           {
             "id": 271547,
-            "name": "Damned Necrolyte's Charred Grasps",
+            "name": "",
             "params": "pcs=271549:271547:271545:271544",
-            "popularity": 87.7,
-            "parses": 21,
-            "nameEs": "Garras chamuscadas de necrólito condenado",
-            "icon": "inv_glove_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "popularity": 87.6,
+            "parses": 21
           },
           {
             "id": 239649,
-            "name": "Martyr's Waistwrap",
+            "name": "",
             "params": "bonus=8790&pcs=271549:271547:271545:271544:239649&gems=240906",
-            "popularity": 40.9,
-            "parses": 10,
-            "nameEs": "Ajustador de mártir",
-            "icon": "inv_belt_cloth_questbloodelf_b_01",
-            "quality": 4
+            "popularity": 41,
+            "parses": 10
           },
           {
             "id": 271545,
-            "name": "Damned Necrolyte's Leg Bindings",
+            "name": "",
             "params": "pcs=271549:271547:271545:271544&ench=7935",
-            "popularity": 87.4,
-            "parses": 21,
-            "nameEs": "Ataduras de necrólito condenado",
-            "icon": "inv_pant_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "popularity": 87.5,
+            "parses": 21
           },
           {
             "id": 268218,
-            "name": "Nek'zali's Spiritwalkers",
+            "name": "",
             "params": "pcs=271549:271547:271545:271544:268218&ench=7963",
-            "popularity": 29.4,
-            "parses": 7,
-            "nameEs": "Caminaespíritus de Nek'zali",
-            "icon": "inv_boot_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "popularity": 29.1,
+            "parses": 7
           },
           {
             "id": 268252,
-            "name": "Apex Brute's Claw Ring",
+            "name": "",
             "params": "bonus=13534&pcs=271549:271547:271545:271544:268252&gems=240906&ench=7967",
-            "popularity": 57,
-            "parses": 14,
-            "nameEs": "Anillo de zarpas de bruto alfa",
-            "icon": "inv_121_jewelry_ring03_red",
-            "quality": 4
+            "popularity": 57.9,
+            "parses": 14
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271549:271547:271545:271544:240949&gems=240906&ench=7967",
-            "popularity": 40.2,
-            "parses": 10,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "popularity": 40.5,
+            "parses": 9
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271549:271547:271545:271544:271092&ench=8689",
-            "popularity": 71,
-            "parses": 17,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "popularity": 71.1,
+            "parses": 17
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8790&pcs=271549:271547:271545:271544:245769",
-            "popularity": 53.1,
-            "parses": 13,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "popularity": 53.2,
+            "parses": 13
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
-            "popularity": 25.2,
-            "parses": 6,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "popularity": 24,
+            "parses": 5
           },
           {
             "id": 273796,
-            "name": "Vile Vial of Volatile Venom",
+            "name": "",
             "params": "nofollow",
-            "popularity": 25.2,
-            "parses": 6,
-            "nameEs": "Vial abyecto de veneno volátil",
-            "icon": "inv_121_trinket_dungeon_ulatek_vile",
-            "quality": 4
+            "popularity": 24,
+            "parses": 5
           }
         ]
       },
@@ -12315,163 +8973,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271546,
-            "name": "Skull of the Damned Necrolyte",
+            "name": "",
             "params": "pcs=271545:271549:271546:271544&gems=240906&ench=8017",
             "popularity": 83.8,
-            "parses": 7,
-            "nameEs": "Calavera del necrólito condenado",
-            "icon": "inv_helm_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271545:271549:271546:271544:268265&gems=240983",
             "popularity": 94,
-            "parses": 7,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 271544,
-            "name": "Spires of the Damned Necrolyte",
+            "name": "",
             "params": "pcs=271545:271549:271546:271544&ench=8001",
             "popularity": 83.4,
-            "parses": 7,
-            "nameEs": "Agujas del necrólito condenado",
-            "icon": "inv_shoulder_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8790&pcs=271545:271549:271546:271544:239656",
             "popularity": 49.6,
-            "parses": 4,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271549,
-            "name": "Damned Necrolyte's Rattling Robes",
+            "name": "",
             "params": "pcs=271545:271549:271546:271544&ench=7987",
             "popularity": 84,
-            "parses": 7,
-            "nameEs": "Toga tintineante de necrólito condenado",
-            "icon": "inv_robe_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8790&pcs=271545:271549:271546:271544:239648&gems=240906",
             "popularity": 81.8,
-            "parses": 6,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 271547,
-            "name": "Damned Necrolyte's Charred Grasps",
+            "name": "",
             "params": "pcs=271545:271549:271546:271544:271547",
             "popularity": 81.4,
-            "parses": 6,
-            "nameEs": "Garras chamuscadas de necrólito condenado",
-            "icon": "inv_glove_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 239649,
-            "name": "Martyr's Waistwrap",
+            "name": "",
             "params": "bonus=8790&pcs=271545:271549:271546:271544:239649&gems=240906",
             "popularity": 45.6,
-            "parses": 3,
-            "nameEs": "Ajustador de mártir",
-            "icon": "inv_belt_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271545,
-            "name": "Damned Necrolyte's Leg Bindings",
+            "name": "",
             "params": "pcs=271545:271549:271546:271544&ench=7935",
             "popularity": 86.2,
-            "parses": 7,
-            "nameEs": "Ataduras de necrólito condenado",
-            "icon": "inv_pant_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 271548,
-            "name": "Soles of the Damned Necrolyte",
+            "name": "",
             "params": "pcs=271545:271549:271546:271544:271548&ench=7963",
             "popularity": 18.9,
-            "parses": 1,
-            "nameEs": "Suelas del necrólito condenado",
-            "icon": "inv_boot_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268252,
-            "name": "Apex Brute's Claw Ring",
+            "name": "",
             "params": "bonus=13534&pcs=271545:271549:271546:271544:268252&gems=240906&ench=7967",
             "popularity": 51.4,
-            "parses": 4,
-            "nameEs": "Anillo de zarpas de bruto alfa",
-            "icon": "inv_121_jewelry_ring03_red",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271545:271549:271546:271544:281029&gems=240906&ench=7967",
             "popularity": 39.7,
-            "parses": 3,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271545:271549:271546:271544:271092&ench=8689",
             "popularity": 84.7,
-            "parses": 7,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8790&pcs=271545:271549:271546:271544:245769",
             "popularity": 65.9,
-            "parses": 5,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 24.3,
-            "parses": 2,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 273796,
-            "name": "Vile Vial of Volatile Venom",
+            "name": "",
             "params": "nofollow",
             "popularity": 24.3,
-            "parses": 2,
-            "nameEs": "Vial abyecto de veneno volátil",
-            "icon": "inv_121_trinket_dungeon_ulatek_vile",
-            "quality": 4
+            "parses": 2
           }
         ]
       }
@@ -12492,163 +9102,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271546,
-            "name": "Skull of the Damned Necrolyte",
+            "name": "",
             "params": "pcs=271549:271544:271545:271547:271546&gems=240906&ench=8017",
             "popularity": 82.1,
-            "parses": 3,
-            "nameEs": "Calavera del necrólito condenado",
-            "icon": "inv_helm_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271549:271544:271545:271547:268265&gems=240983",
             "popularity": 93.6,
-            "parses": 4,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271544,
-            "name": "Spires of the Damned Necrolyte",
+            "name": "",
             "params": "pcs=271549:271544:271545:271547&ench=8001",
             "popularity": 87.3,
-            "parses": 3,
-            "nameEs": "Agujas del necrólito condenado",
-            "icon": "inv_shoulder_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8790&pcs=271549:271544:271545:271547:239656",
             "popularity": 37.6,
-            "parses": 1,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271549,
-            "name": "Damned Necrolyte's Rattling Robes",
+            "name": "",
             "params": "pcs=271549:271544:271545:271547&ench=7987",
             "popularity": 92.1,
-            "parses": 4,
-            "nameEs": "Toga tintineante de necrólito condenado",
-            "icon": "inv_robe_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8790&pcs=271549:271544:271545:271547:239648&gems=240906",
             "popularity": 75.3,
-            "parses": 3,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 271547,
-            "name": "Damned Necrolyte's Charred Grasps",
+            "name": "",
             "params": "pcs=271549:271544:271545:271547",
             "popularity": 86.7,
-            "parses": 3,
-            "nameEs": "Garras chamuscadas de necrólito condenado",
-            "icon": "inv_glove_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 239649,
-            "name": "Martyr's Waistwrap",
+            "name": "",
             "params": "bonus=8790&pcs=271549:271544:271545:271547:239649&gems=240906",
             "popularity": 39.8,
-            "parses": 1,
-            "nameEs": "Ajustador de mártir",
-            "icon": "inv_belt_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271545,
-            "name": "Damned Necrolyte's Leg Bindings",
+            "name": "",
             "params": "pcs=271549:271544:271545:271547&ench=7935",
             "popularity": 87.2,
-            "parses": 3,
-            "nameEs": "Ataduras de necrólito condenado",
-            "icon": "inv_pant_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 268218,
-            "name": "Nek'zali's Spiritwalkers",
+            "name": "",
             "params": "pcs=271549:271544:271545:271547:268218&ench=7963",
             "popularity": 29.5,
-            "parses": 1,
-            "nameEs": "Caminaespíritus de Nek'zali",
-            "icon": "inv_boot_cloth_raidpriestulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268252,
-            "name": "Apex Brute's Claw Ring",
+            "name": "",
             "params": "bonus=13534&pcs=271549:271544:271545:271547:268252&gems=240906&ench=7967",
             "popularity": 54.2,
-            "parses": 2,
-            "nameEs": "Anillo de zarpas de bruto alfa",
-            "icon": "inv_121_jewelry_ring03_red",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271549:271544:271545:271547:281029&gems=240906&ench=7967",
             "popularity": 36.8,
-            "parses": 1,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271549:271544:271545:271547:271092&ench=8689",
             "popularity": 74.3,
-            "parses": 3,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8790&pcs=271549:271544:271545:271547:245769",
             "popularity": 54.4,
-            "parses": 2,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 28.2,
-            "parses": 1,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 28.2,
-            "parses": 1,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 1
           }
         ]
       },
@@ -12667,163 +9229,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271546,
-            "name": "Skull of the Damned Necrolyte",
+            "name": "",
             "params": "pcs=271549:271545:271544:271546&gems=240906&ench=8017",
             "popularity": 79.3,
-            "parses": 535,
-            "nameEs": "Calavera del necrólito condenado",
-            "icon": "inv_helm_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 535
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271549:271545:271544:271546:268265&gems=240983",
             "popularity": 88.4,
-            "parses": 597,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 597
           },
           {
             "id": 271544,
-            "name": "Spires of the Damned Necrolyte",
+            "name": "",
             "params": "pcs=271549:271545:271544:271546&ench=8001",
             "popularity": 82.5,
-            "parses": 557,
-            "nameEs": "Agujas del necrólito condenado",
-            "icon": "inv_shoulder_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 557
           },
           {
             "id": 239656,
-            "name": "Adherent's Silken Shroud",
+            "name": "",
             "params": "bonus=8790&pcs=271549:271545:271544:271546:239656",
             "popularity": 37.3,
-            "parses": 252,
-            "nameEs": "Sudario sedoso de partidario",
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 252
           },
           {
             "id": 271549,
-            "name": "Damned Necrolyte's Rattling Robes",
+            "name": "",
             "params": "pcs=271549:271545:271544:271546&ench=7987",
             "popularity": 92.1,
-            "parses": 622,
-            "nameEs": "Toga tintineante de necrólito condenado",
-            "icon": "inv_robe_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 622
           },
           {
             "id": 239648,
-            "name": "Martyr's Bindings",
+            "name": "",
             "params": "bonus=8790&pcs=271549:271545:271544:271546:239648&gems=240906",
             "popularity": 71,
-            "parses": 479,
-            "nameEs": "Ataduras de mártir",
-            "icon": "inv_bracer_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 479
           },
           {
             "id": 271547,
-            "name": "Damned Necrolyte's Charred Grasps",
+            "name": "",
             "params": "pcs=271549:271545:271544:271546:271547",
             "popularity": 77.9,
-            "parses": 526,
-            "nameEs": "Garras chamuscadas de necrólito condenado",
-            "icon": "inv_glove_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 526
           },
           {
             "id": 239649,
-            "name": "Martyr's Waistwrap",
+            "name": "",
             "params": "bonus=8790&pcs=271549:271545:271544:271546:239649&gems=240906",
             "popularity": 60,
-            "parses": 405,
-            "nameEs": "Ajustador de mártir",
-            "icon": "inv_belt_cloth_questbloodelf_b_01",
-            "quality": 4
+            "parses": 405
           },
           {
             "id": 271545,
-            "name": "Damned Necrolyte's Leg Bindings",
+            "name": "",
             "params": "pcs=271549:271545:271544:271546&ench=7935",
             "popularity": 86.4,
-            "parses": 583,
-            "nameEs": "Ataduras de necrólito condenado",
-            "icon": "inv_pant_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 583
           },
           {
             "id": 271548,
-            "name": "Soles of the Damned Necrolyte",
+            "name": "",
             "params": "pcs=271549:271545:271544:271546:271548&ench=7963",
             "popularity": 31.4,
-            "parses": 212,
-            "nameEs": "Suelas del necrólito condenado",
-            "icon": "inv_boot_cloth_raidwarlockulatek_d_01",
-            "quality": 4
+            "parses": 212
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271549:271545:271544:271546:281029&gems=240906&ench=7967",
             "popularity": 50.8,
-            "parses": 343,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 343
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271549:271545:271544:271546:240949&gems=240906&ench=7967",
             "popularity": 26.7,
-            "parses": 180,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 180
           },
           {
             "id": 271092,
-            "name": "Jan'thrazet, the Soul Fang",
+            "name": "",
             "params": "pcs=271549:271545:271544:271546:271092&ench=8689",
             "popularity": 68.7,
-            "parses": 464,
-            "nameEs": "Jan'thrazet, el Colmillo del Alma",
-            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
-            "quality": 4
+            "parses": 464
           },
           {
             "id": 245769,
-            "name": "Aln'hara Lantern",
+            "name": "",
             "params": "bonus=8790&pcs=271549:271545:271544:271546:245769",
             "popularity": 53.2,
-            "parses": 359,
-            "nameEs": "Farol de Aln'hara",
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "quality": 4
+            "parses": 359
           },
           {
             "id": 270164,
-            "name": "Gebbo's Bottomless Bag",
+            "name": "",
             "params": "nofollow",
             "popularity": 32.3,
-            "parses": 218,
-            "nameEs": "Bolsa sin fondo de Gebbo",
-            "icon": "inv_10_tailoring_bag1_color2",
-            "quality": 4
+            "parses": 218
           },
           {
             "id": 281215,
-            "name": "Twisted Horror's Tendril",
+            "name": "",
             "params": "nofollow",
             "popularity": 32.3,
-            "parses": 218,
-            "nameEs": "Tentáculo de horror retorcido",
-            "icon": "8268563",
-            "quality": 4
+            "parses": 218
           }
         ]
       }
@@ -12832,11 +9346,11 @@ window.ARCHON_PRESETS = {
   "warrior": {
     "arms": {
       "raid": {
-        "m": 723,
-        "c": 1263,
-        "h": 1017,
+        "m": 728,
+        "c": 1261,
+        "h": 1012,
         "v": 118,
-        "dps": "351.9k",
+        "dps": "353.5k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/bvZhN9jJGcfQ43yk#fight=35",
@@ -12846,153 +9360,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271456,
-            "name": "Tempered Horns of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457&gems=240890&ench=8017",
-            "popularity": 88.2,
-            "parses": 22,
-            "nameEs": "Cuernos del señor de la guerra de jade templados",
-            "icon": "inv_helm_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "popularity": 86.7,
+            "parses": 22
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271457:268265&gems=240983",
-            "popularity": 90.8,
-            "parses": 23,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "popularity": 89.6,
+            "parses": 23
           },
           {
             "id": 271454,
-            "name": "Raging Pauldrons of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457&ench=8001",
-            "popularity": 88.2,
-            "parses": 22,
-            "nameEs": "Espaldares furibundos del señor de la guerra de jade",
-            "icon": "inv_shoulder_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "popularity": 86.7,
+            "parses": 22
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457:268253",
-            "popularity": 46.5,
-            "parses": 12,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "popularity": 45.9,
+            "parses": 11
           },
           {
             "id": 271459,
-            "name": "Cuirass of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457&ench=7987",
-            "popularity": 91,
-            "parses": 23,
-            "nameEs": "Loriga del señor de la guerra de jade",
-            "icon": "inv_chest_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "popularity": 89.4,
+            "parses": 23
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8790&pcs=271459:271456:271454:271457:237834&gems=240890",
-            "popularity": 86.7,
-            "parses": 22,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "popularity": 85.1,
+            "parses": 22
           },
           {
             "id": 271457,
-            "name": "Jeweled Gauntlets of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457",
-            "popularity": 83.3,
-            "parses": 21,
-            "nameEs": "Guanteletes con joyas del señor de la guerra de jade",
-            "icon": "inv_glove_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "popularity": 81.6,
+            "parses": 21
           },
           {
             "id": 268259,
-            "name": "Girdle of Toxic Regret",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457:268259&gems=240890",
-            "popularity": 49.4,
-            "parses": 12,
-            "nameEs": "Faja de pesar tóxico",
-            "icon": "inv_belt_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "popularity": 48.6,
+            "parses": 12
           },
           {
             "id": 271455,
-            "name": "Greaves of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457:271455&ench=8163",
-            "popularity": 82.3,
-            "parses": 21,
-            "nameEs": "Grebas del señor de la guerra de jade",
-            "icon": "inv_pant_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "popularity": 81.4,
+            "parses": 21
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8790&pcs=271459:271456:271454:271457:237828&ench=7963",
-            "popularity": 65.4,
-            "parses": 17,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "popularity": 64,
+            "parses": 16
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271459:271456:271454:271457:240949&gems=240890&ench=7967",
-            "popularity": 47.2,
-            "parses": 12,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "popularity": 46.9,
+            "parses": 12
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271457:281029&gems=240890&ench=7967",
-            "popularity": 39.4,
-            "parses": 10,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "popularity": 40.8,
+            "parses": 10
           },
           {
             "id": 268213,
-            "name": "Maze-roa, Warlord's Fury",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457:268213&ench=8689",
-            "popularity": 93.2,
-            "parses": 24,
-            "nameEs": "Maze-roa, Furia del Señor de la Guerra",
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "quality": 4
+            "popularity": 91.6,
+            "parses": 23
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
-            "popularity": 55.3,
-            "parses": 14,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "popularity": 54.1,
+            "parses": 14
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
-            "popularity": 55.3,
-            "parses": 14,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "popularity": 54.1,
+            "parses": 14
           }
         ]
       },
@@ -13011,153 +9480,108 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271456,
-            "name": "Tempered Horns of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271454:271456:271455&gems=240890&ench=8017",
             "popularity": 85.3,
-            "parses": 9,
-            "nameEs": "Cuernos del señor de la guerra de jade templados",
-            "icon": "inv_helm_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271459:271454:271456:271455:268265&gems=240983",
             "popularity": 93.8,
-            "parses": 10,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 271454,
-            "name": "Raging Pauldrons of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271454:271456:271455&ench=8001",
             "popularity": 87,
-            "parses": 9,
-            "nameEs": "Espaldares furibundos del señor de la guerra de jade",
-            "icon": "inv_shoulder_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271459:271454:271456:271455:268253",
             "popularity": 46.5,
-            "parses": 5,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271459,
-            "name": "Cuirass of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271454:271456:271455&ench=7987",
             "popularity": 90.4,
-            "parses": 10,
-            "nameEs": "Loriga del señor de la guerra de jade",
-            "icon": "inv_chest_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8790&pcs=271459:271454:271456:271455:237834&gems=240890",
             "popularity": 83.9,
-            "parses": 9,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 271457,
-            "name": "Jeweled Gauntlets of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271454:271456:271455:271457",
             "popularity": 70,
-            "parses": 7,
-            "nameEs": "Guanteletes con joyas del señor de la guerra de jade",
-            "icon": "inv_glove_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 268259,
-            "name": "Girdle of Toxic Regret",
+            "name": "",
             "params": "pcs=271459:271454:271456:271455:268259&gems=240890",
             "popularity": 48.2,
-            "parses": 5,
-            "nameEs": "Faja de pesar tóxico",
-            "icon": "inv_belt_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 271455,
-            "name": "Greaves of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271454:271456:271455&ench=8163",
             "popularity": 83.3,
-            "parses": 9,
-            "nameEs": "Grebas del señor de la guerra de jade",
-            "icon": "inv_pant_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 9
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8790&pcs=271459:271454:271456:271455:237828&ench=7963",
             "popularity": 62,
-            "parses": 7,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "parses": 7
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271459:271454:271456:271455:240949&gems=240890&ench=7967",
             "popularity": 54.2,
-            "parses": 6,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 6
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271459:271454:271456:271455:281029&gems=240890&ench=7967",
             "popularity": 44.6,
-            "parses": 5,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268213,
-            "name": "Maze-roa, Warlord's Fury",
+            "name": "",
             "params": "pcs=271459:271454:271456:271455:268213&ench=8689",
             "popularity": 93.2,
-            "parses": 10,
-            "nameEs": "Maze-roa, Furia del Señor de la Guerra",
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "quality": 4
+            "parses": 10
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 35.2,
-            "parses": 4,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 35.2,
-            "parses": 4,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 4
           }
         ]
       }
@@ -13178,163 +9602,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271456,
-            "name": "Tempered Horns of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271454:271456:271457&gems=240900&ench=8017",
             "popularity": 86.8,
-            "parses": 2,
-            "nameEs": "Cuernos del señor de la guerra de jade templados",
-            "icon": "inv_helm_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271459:271454:271456:271457:268265&gems=240983",
             "popularity": 84.6,
-            "parses": 2,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271454,
-            "name": "Raging Pauldrons of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271454:271456:271457&ench=8001",
             "popularity": 87.1,
-            "parses": 2,
-            "nameEs": "Espaldares furibundos del señor de la guerra de jade",
-            "icon": "inv_shoulder_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271459:271454:271456:271457:268253",
             "popularity": 48.4,
-            "parses": 1,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271459,
-            "name": "Cuirass of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271454:271456:271457&ench=7987",
             "popularity": 92.9,
-            "parses": 3,
-            "nameEs": "Loriga del señor de la guerra de jade",
-            "icon": "inv_chest_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8793&pcs=271459:271454:271456:271457:237834&gems=240900",
             "popularity": 86.4,
-            "parses": 2,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271457,
-            "name": "Jeweled Gauntlets of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271454:271456:271457",
             "popularity": 84.4,
-            "parses": 2,
-            "nameEs": "Guanteletes con joyas del señor de la guerra de jade",
-            "icon": "inv_glove_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268259,
-            "name": "Girdle of Toxic Regret",
+            "name": "",
             "params": "pcs=271459:271454:271456:271457:268259&gems=240900",
             "popularity": 42.8,
-            "parses": 1,
-            "nameEs": "Faja de pesar tóxico",
-            "icon": "inv_belt_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271455,
-            "name": "Greaves of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271454:271456:271457:271455&ench=8163",
             "popularity": 77.4,
-            "parses": 2,
-            "nameEs": "Grebas del señor de la guerra de jade",
-            "icon": "inv_pant_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8793&pcs=271459:271454:271456:271457:237828&ench=7963",
             "popularity": 55.7,
-            "parses": 1,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271459:271454:271456:271457:281029&gems=240900&ench=7967",
             "popularity": 47,
-            "parses": 1,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 252258,
-            "name": "Sickening Signet of Atroxus",
+            "name": "",
             "params": "bonus=13534&pcs=271459:271454:271456:271457:252258&gems=240900&ench=7967",
             "popularity": 45,
-            "parses": 1,
-            "nameEs": "Sello enfermizo de Atroxus",
-            "icon": "inv_12_jewelry_devouringhost_ring_bronze2",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268213,
-            "name": "Maze-roa, Warlord's Fury",
+            "name": "",
             "params": "pcs=271459:271454:271456:271457:268213&ench=8689",
             "popularity": 88.9,
-            "parses": 2,
-            "nameEs": "Maze-roa, Furia del Señor de la Guerra",
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 280799,
-            "name": "Lu'selama, Light's Justice",
+            "name": "",
             "params": "pcs=271459:271454:271456:271457:280799&ench=8689",
             "popularity": 44.3,
-            "parses": 1,
-            "nameEs": "Lu'selama, justicia de la Luz",
-            "icon": "inv_sword_2h_raidmidnight_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 61.6,
-            "parses": 2,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 61.6,
-            "parses": 2,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 2
           }
         ]
       },
@@ -13353,163 +9729,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271456,
-            "name": "Tempered Horns of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455&gems=240900&ench=8017",
             "popularity": 87.7,
-            "parses": 1,
-            "nameEs": "Cuernos del señor de la guerra de jade templados",
-            "icon": "inv_helm_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271455:268265&gems=240983",
             "popularity": 87.1,
-            "parses": 1,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271454,
-            "name": "Raging Pauldrons of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455&ench=8001",
             "popularity": 81.9,
-            "parses": 1,
-            "nameEs": "Espaldares furibundos del señor de la guerra de jade",
-            "icon": "inv_shoulder_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455:268253",
             "popularity": 41.6,
-            "parses": 612,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 612
           },
           {
             "id": 271459,
-            "name": "Cuirass of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455&ench=7987",
             "popularity": 93.9,
-            "parses": 1,
-            "nameEs": "Loriga del señor de la guerra de jade",
-            "icon": "inv_chest_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8793&pcs=271459:271456:271454:271455:237834&gems=240900",
             "popularity": 91.6,
-            "parses": 1,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 271457,
-            "name": "Jeweled Gauntlets of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455:271457",
             "popularity": 74.5,
-            "parses": 1,
-            "nameEs": "Guanteletes con joyas del señor de la guerra de jade",
-            "icon": "inv_glove_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268259,
-            "name": "Girdle of Toxic Regret",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455:268259&gems=240900",
             "popularity": 37.9,
-            "parses": 558,
-            "nameEs": "Faja de pesar tóxico",
-            "icon": "inv_belt_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 558
           },
           {
             "id": 271455,
-            "name": "Greaves of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455&ench=8163",
             "popularity": 80.4,
-            "parses": 1,
-            "nameEs": "Grebas del señor de la guerra de jade",
-            "icon": "inv_pant_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8793&pcs=271459:271456:271454:271455:237828&ench=7963",
             "popularity": 67.1,
-            "parses": 988,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "parses": 988
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271455:281029&gems=240900&ench=7967",
             "popularity": 52.1,
-            "parses": 767,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 767
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8793&pcs=271459:271456:271454:271455:240949&gems=240900&ench=7967",
             "popularity": 44.2,
-            "parses": 650,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 650
           },
           {
             "id": 268213,
-            "name": "Maze-roa, Warlord's Fury",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455:268213&ench=8689",
             "popularity": 85.8,
-            "parses": 1,
-            "nameEs": "Maze-roa, Furia del Señor de la Guerra",
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 280799,
-            "name": "Lu'selama, Light's Justice",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455:280799&ench=8689",
             "popularity": 48.7,
-            "parses": 717,
-            "nameEs": "Lu'selama, justicia de la Luz",
-            "icon": "inv_sword_2h_raidmidnight_d_01",
-            "quality": 4
+            "parses": 717
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 53.1,
-            "parses": 782,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 782
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 53.1,
-            "parses": 782,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 782
           }
         ]
       }
@@ -13530,163 +9858,115 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271456,
-            "name": "Tempered Horns of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457&gems=240890&ench=7961",
             "popularity": 88.4,
-            "parses": 5,
-            "nameEs": "Cuernos del señor de la guerra de jade templados",
-            "icon": "inv_helm_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271457:268265&gems=240983",
             "popularity": 79.9,
-            "parses": 4,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271454,
-            "name": "Raging Pauldrons of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457&ench=8031",
             "popularity": 85.8,
-            "parses": 5,
-            "nameEs": "Espaldares furibundos del señor de la guerra de jade",
-            "icon": "inv_shoulder_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457:268253",
             "popularity": 37.8,
-            "parses": 2,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271459,
-            "name": "Cuirass of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457&ench=7987",
             "popularity": 90.4,
-            "parses": 5,
-            "nameEs": "Loriga del señor de la guerra de jade",
-            "icon": "inv_chest_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8790&pcs=271459:271456:271454:271457:237834&gems=240890",
             "popularity": 74.3,
-            "parses": 4,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 271457,
-            "name": "Jeweled Gauntlets of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457",
             "popularity": 85.8,
-            "parses": 5,
-            "nameEs": "Guanteletes con joyas del señor de la guerra de jade",
-            "icon": "inv_glove_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 5
           },
           {
             "id": 268259,
-            "name": "Girdle of Toxic Regret",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457:268259&gems=240890",
             "popularity": 39.4,
-            "parses": 2,
-            "nameEs": "Faja de pesar tóxico",
-            "icon": "inv_belt_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271455,
-            "name": "Greaves of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457:271455&ench=8159",
             "popularity": 81.7,
-            "parses": 4,
-            "nameEs": "Grebas del señor de la guerra de jade",
-            "icon": "inv_pant_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 4
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8790&pcs=271459:271456:271454:271457:237828&ench=7993",
             "popularity": 47.7,
-            "parses": 2,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271457:281029&gems=240890&ench=7967",
             "popularity": 34.7,
-            "parses": 2,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 273792,
-            "name": "Band of the Amani Warlord",
+            "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271457:273792&gems=240890&ench=7967",
             "popularity": 27.6,
-            "parses": 1,
-            "nameEs": "Sortija del señor de la guerra Amani",
-            "icon": "inv_121_jewelry_ring02_green",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268209,
-            "name": "Aman'muso, Warlord's Vengeance",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457:268209&ench=8039",
             "popularity": 57.7,
-            "parses": 3,
-            "nameEs": "Aman'muso, Venganza del Señor de la Guerra",
-            "icon": "inv_axe_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 3
           },
           {
             "id": 268196,
-            "name": "Venom-Slashed Scuteward",
+            "name": "",
             "params": "pcs=271459:271456:271454:271457:268196&ench=4216",
             "popularity": 49.2,
-            "parses": 2,
-            "nameEs": "Resguardo dérmico sajado por el veneno",
-            "icon": "inv_shield_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 49.8,
-            "parses": 2,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 49.8,
-            "parses": 2,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 2
           }
         ]
       },
@@ -13705,166 +9985,1351 @@ window.ARCHON_PRESETS = {
         "bisGear": [
           {
             "id": 271456,
-            "name": "Tempered Horns of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455&gems=240890&ench=7961",
             "popularity": 85.4,
-            "parses": 2,
-            "nameEs": "Cuernos del señor de la guerra de jade templados",
-            "icon": "inv_helm_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268265,
-            "name": "Aqirbane Reliquary",
+            "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271455:268265&gems=240983",
             "popularity": 78.5,
-            "parses": 2,
-            "nameEs": "Relicario de azote aqir",
-            "icon": "inv_121_jewelry_neck03_green",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271454,
-            "name": "Raging Pauldrons of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455&ench=8031",
             "popularity": 84.7,
-            "parses": 2,
-            "nameEs": "Espaldares furibundos del señor de la guerra de jade",
-            "icon": "inv_shoulder_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268253,
-            "name": "Silken Voodoo Drape",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455:268253",
             "popularity": 28.5,
-            "parses": 955,
-            "nameEs": "Mantón vudú sedoso",
-            "icon": "inv_cape_leather_raidrogueulatek_d_01",
-            "quality": 4
+            "parses": 955
           },
           {
             "id": 271459,
-            "name": "Cuirass of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455&ench=7987",
             "popularity": 86.2,
-            "parses": 2,
-            "nameEs": "Loriga del señor de la guerra de jade",
-            "icon": "inv_chest_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 237834,
-            "name": "Spellbreaker's Bracers",
+            "name": "",
             "params": "bonus=8790&pcs=271459:271456:271454:271455:237834&gems=240890",
             "popularity": 76.2,
-            "parses": 2,
-            "nameEs": "Brazales de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_bracer",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 271457,
-            "name": "Jeweled Gauntlets of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455:271457",
             "popularity": 71.1,
-            "parses": 2,
-            "nameEs": "Guanteletes con joyas del señor de la guerra de jade",
-            "icon": "inv_glove_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 268259,
-            "name": "Girdle of Toxic Regret",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455:268259&gems=240890",
             "popularity": 25.6,
-            "parses": 859,
-            "nameEs": "Faja de pesar tóxico",
-            "icon": "inv_belt_plate_raidpaladinulatek_d_01",
-            "quality": 4
+            "parses": 859
           },
           {
             "id": 271455,
-            "name": "Greaves of the Jade Warlord",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455&ench=8159",
             "popularity": 82.2,
-            "parses": 2,
-            "nameEs": "Grebas del señor de la guerra de jade",
-            "icon": "inv_pant_plate_raidwarriorulatek_d_01",
-            "quality": 4
+            "parses": 2
           },
           {
             "id": 237828,
-            "name": "Spellbreaker's March",
+            "name": "",
             "params": "bonus=8790&pcs=271459:271456:271454:271455:237828&ench=7993",
             "popularity": 57.7,
-            "parses": 1,
-            "nameEs": "Marcha de rompechizos",
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 240949,
-            "name": "Masterwork Sin'dorei Band",
+            "name": "",
             "params": ":8790&pcs=271459:271456:271454:271455:240949&gems=240890&ench=8025",
             "popularity": 40.8,
-            "parses": 1,
-            "nameEs": "Sortija sin'dorei magistral",
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 281029,
-            "name": "Band of the Swarmcaller",
+            "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271455:281029&gems=240890&ench=8025",
             "popularity": 37.7,
-            "parses": 1,
-            "nameEs": "Sortija del evocaenjambres",
-            "icon": "8268560",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 268209,
-            "name": "Aman'muso, Warlord's Vengeance",
+            "name": "",
             "params": "pcs=271459:271456:271454:271455:268209&ench=8689",
             "popularity": 39.2,
-            "parses": 1,
-            "nameEs": "Aman'muso, Venganza del Señor de la Guerra",
-            "icon": "inv_axe_1h_ulatek_d_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 237831,
-            "name": "Spellbreaker's Rebuke",
+            "name": "",
             "params": "bonus=8790&pcs=271459:271456:271454:271455:237831&ench=4216",
             "popularity": 42.2,
-            "parses": 1,
-            "nameEs": "Reprimenda de rompechizos",
-            "icon": "inv_shield_1h_questbloodelf_b_01",
-            "quality": 4
+            "parses": 1
           },
           {
             "id": 270173,
-            "name": "Zul'jin's Guillotine Technique",
+            "name": "",
             "params": "nofollow",
             "popularity": 27,
-            "parses": 907,
-            "nameEs": "Técnica de guillotina de Zul'jin",
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "quality": 4
+            "parses": 907
           },
           {
             "id": 270175,
-            "name": "Voracious Heart of Ula'tek",
+            "name": "",
             "params": "nofollow",
             "popularity": 27,
-            "parses": 907,
-            "nameEs": "Corazón voraz de Ula'tek",
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "quality": 4
+            "parses": 907
           }
         ]
       }
+    }
+  }
+};
+
+window.ARCHON_HEALER_TRINKETS = {
+  "paladin": {
+    "holy": {
+      "mplus": [
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 56.3,
+          "maxKey": "+24",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 20.9,
+          "maxKey": "+24",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 5.6,
+          "maxKey": "+24",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 4,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 250255,
+          "name": "",
+          "popularity": 2.8,
+          "maxKey": "+24",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 250255,
+          "name": "",
+          "popularity": 2.3,
+          "maxKey": "+24",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 91.3,
+          "maxKey": "+24",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 59.8,
+          "maxKey": "+24",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 22.6,
+          "maxKey": "+24",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270167,
+          "name": "Wavecaller's Seastone",
+          "popularity": 6.2,
+          "maxKey": "+24",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 250255,
+          "name": "Unstable Felheart Crystal",
+          "popularity": 5.9,
+          "maxKey": "+24",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 281215,
+          "name": "",
+          "popularity": 4.6,
+          "maxKey": "+23",
+          "icon": "8268563"
+        }
+      ],
+      "raid": [
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 60.1,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 17.8,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 4,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 3.4,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 2.2,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 2.1,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 89.1,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 68,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 22.4,
+          "maxKey": "",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
+          "itemId": 270167,
+          "name": "Wavecaller's Seastone",
+          "popularity": 7.2,
+          "maxKey": "",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 280835,
+          "name": "Sigil of the Impending Eclipse",
+          "popularity": 3.4,
+          "maxKey": "",
+          "icon": "8268562"
+        },
+        {
+          "itemId": 274493,
+          "name": "Effigy of Ula'tek's Faithful",
+          "popularity": 1.9,
+          "maxKey": "",
+          "icon": "ability_fomor_boss_rune_green"
+        }
+      ]
+    }
+  },
+  "priest": {
+    "discipline": {
+      "mplus": [
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 48.3,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 14,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 6.5,
+          "maxKey": "+22",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270167,
+          "name": "",
+          "popularity": 4.5,
+          "maxKey": "+22",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 4.1,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 4,
+          "maxKey": "+22",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 80.2,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270167,
+          "name": "",
+          "popularity": 60.1,
+          "maxKey": "+23",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 270164,
+          "name": "Gebbo's Bottomless Bag",
+          "popularity": 19.9,
+          "maxKey": "+23",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 281215,
+          "name": "Twisted Horror's Tendril",
+          "popularity": 12.7,
+          "maxKey": "+22",
+          "icon": "8268563"
+        },
+        {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 5.4,
+          "maxKey": "+23",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
+          "itemId": 280835,
+          "name": "Sigil of the Impending Eclipse",
+          "popularity": 4.3,
+          "maxKey": "+21",
+          "icon": "8268562"
+        }
+      ],
+      "raid": [
+        {
+          "itemId": 270167,
+          "name": "",
+          "popularity": 23.7,
+          "maxKey": "",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 21.2,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 20.3,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 6.4,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270167,
+          "name": "",
+          "popularity": 3.6,
+          "maxKey": "",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 3.5,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270167,
+          "name": "",
+          "popularity": 75,
+          "maxKey": "",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 34.2,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "Gebbo's Bottomless Bag",
+          "popularity": 33.1,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270169,
+          "name": "Hex Lord's Dooming Idol",
+          "popularity": 32,
+          "maxKey": "",
+          "icon": "inv_archaeology_orcclans_crackedidol"
+        },
+        {
+          "itemId": 280835,
+          "name": "Sigil of the Impending Eclipse",
+          "popularity": 6.7,
+          "maxKey": "",
+          "icon": "8268562"
+        },
+        {
+          "itemId": 281215,
+          "name": "Twisted Horror's Tendril",
+          "popularity": 6,
+          "maxKey": "",
+          "icon": "8268563"
+        }
+      ]
+    },
+    "holy": {
+      "mplus": [
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 49.2,
+          "maxKey": "+22",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 13.8,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 13.8,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 250255,
+          "name": "",
+          "popularity": 4.9,
+          "maxKey": "+22",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 3,
+          "maxKey": "+22",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 250214,
+          "name": "",
+          "popularity": 1.1,
+          "maxKey": "+21",
+          "icon": "inv_enchant_essenceastrallarge"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 88.9,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 53.4,
+          "maxKey": "+22",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 15.7,
+          "maxKey": "+23",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
+          "itemId": 270167,
+          "name": "Wavecaller's Seastone",
+          "popularity": 15.3,
+          "maxKey": "+23",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 250255,
+          "name": "Unstable Felheart Crystal",
+          "popularity": 7.3,
+          "maxKey": "+23",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 280835,
+          "name": "Sigil of the Impending Eclipse",
+          "popularity": 3.7,
+          "maxKey": "+22",
+          "icon": "8268562"
+        }
+      ],
+      "raid": [
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 62.5,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 11,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 5.9,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 4.8,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 2.2,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 2.1,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 85.1,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 73.5,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270167,
+          "name": "Wavecaller's Seastone",
+          "popularity": 17.7,
+          "maxKey": "",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 9.1,
+          "maxKey": "",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
+          "itemId": 280835,
+          "name": "Sigil of the Impending Eclipse",
+          "popularity": 3.6,
+          "maxKey": "",
+          "icon": "8268562"
+        },
+        {
+          "itemId": 274493,
+          "name": "Effigy of Ula'tek's Faithful",
+          "popularity": 2,
+          "maxKey": "",
+          "icon": "ability_fomor_boss_rune_green"
+        }
+      ]
+    }
+  },
+  "shaman": {
+    "restoration": {
+      "mplus": [
+        {
+          "itemId": 250255,
+          "name": "",
+          "popularity": 55.4,
+          "maxKey": "+24",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 12.8,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 12,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 8.8,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 2.4,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 0.8,
+          "maxKey": "+22",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270162,
+          "name": "Soulcoiler Ritual Vessel",
+          "popularity": 93.4,
+          "maxKey": "+24",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 250255,
+          "name": "Unstable Felheart Crystal",
+          "popularity": 56.2,
+          "maxKey": "+24",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 270164,
+          "name": "Gebbo's Bottomless Bag",
+          "popularity": 14.3,
+          "maxKey": "+23",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 281215,
+          "name": "Twisted Horror's Tendril",
+          "popularity": 13.6,
+          "maxKey": "+23",
+          "icon": "8268563"
+        },
+        {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 9.8,
+          "maxKey": "+24",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
+          "itemId": 270167,
+          "name": "Wavecaller's Seastone",
+          "popularity": 2.6,
+          "maxKey": "+23",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        }
+      ],
+      "raid": [
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 51.7,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 11.5,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 10.5,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 7.5,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 2.5,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 2.2,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270162,
+          "name": "Soulcoiler Ritual Vessel",
+          "popularity": 86.7,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "Gebbo's Bottomless Bag",
+          "popularity": 61.7,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 281215,
+          "name": "Twisted Horror's Tendril",
+          "popularity": 15,
+          "maxKey": "",
+          "icon": "8268563"
+        },
+        {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 13.6,
+          "maxKey": "",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
+          "itemId": 270167,
+          "name": "Wavecaller's Seastone",
+          "popularity": 11,
+          "maxKey": "",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 280835,
+          "name": "Sigil of the Impending Eclipse",
+          "popularity": 2,
+          "maxKey": "",
+          "icon": "8268562"
+        }
+      ]
+    }
+  },
+  "druid": {
+    "restoration": {
+      "mplus": [
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 46.7,
+          "maxKey": "+22",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 11.5,
+          "maxKey": "+21",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 250255,
+          "name": "",
+          "popularity": 8.5,
+          "maxKey": "+23",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 4.4,
+          "maxKey": "+22",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 4.2,
+          "maxKey": "+21",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 250214,
+          "name": "",
+          "popularity": 2.6,
+          "maxKey": "+21",
+          "icon": "inv_enchant_essenceastrallarge"
+        },
+        {
+          "itemId": 270162,
+          "name": "Soulcoiler Ritual Vessel",
+          "popularity": 80.4,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270167,
+          "name": "Wavecaller's Seastone",
+          "popularity": 54.8,
+          "maxKey": "+22",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 270164,
+          "name": "Gebbo's Bottomless Bag",
+          "popularity": 16.5,
+          "maxKey": "+21",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 250255,
+          "name": "Unstable Felheart Crystal",
+          "popularity": 12.5,
+          "maxKey": "+23",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 7.5,
+          "maxKey": "+22",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
+          "itemId": 280835,
+          "name": "Sigil of the Impending Eclipse",
+          "popularity": 6.9,
+          "maxKey": "+21",
+          "icon": "8268562"
+        }
+      ],
+      "raid": [
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 43.9,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 11.2,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 10.7,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270167,
+          "name": "",
+          "popularity": 7.8,
+          "maxKey": "",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 270167,
+          "name": "",
+          "popularity": 3.6,
+          "maxKey": "",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 3.3,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270167,
+          "name": "Wavecaller's Seastone",
+          "popularity": 68.8,
+          "maxKey": "",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 270162,
+          "name": "Soulcoiler Ritual Vessel",
+          "popularity": 64,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "Gebbo's Bottomless Bag",
+          "popularity": 29.3,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270169,
+          "name": "Hex Lord's Dooming Idol",
+          "popularity": 12.8,
+          "maxKey": "",
+          "icon": "inv_archaeology_orcclans_crackedidol"
+        },
+        {
+          "itemId": 280835,
+          "name": "Sigil of the Impending Eclipse",
+          "popularity": 10,
+          "maxKey": "",
+          "icon": "8268562"
+        },
+        {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 3.1,
+          "maxKey": "",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        }
+      ]
+    }
+  },
+  "monk": {
+    "mistweaver": {
+      "mplus": [
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 35.3,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 250255,
+          "name": "",
+          "popularity": 16.7,
+          "maxKey": "+23",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 14.2,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 10.5,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 6.7,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 250255,
+          "name": "",
+          "popularity": 1.4,
+          "maxKey": "+20",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 270162,
+          "name": "Soulcoiler Ritual Vessel",
+          "popularity": 88.5,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270167,
+          "name": "Wavecaller's Seastone",
+          "popularity": 38,
+          "maxKey": "+23",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 250255,
+          "name": "Unstable Felheart Crystal",
+          "popularity": 19.4,
+          "maxKey": "+23",
+          "icon": "tooltip_crystallizedfel"
+        },
+        {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 17.5,
+          "maxKey": "+23",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
+          "itemId": 281215,
+          "name": "Twisted Horror's Tendril",
+          "popularity": 11.5,
+          "maxKey": "+23",
+          "icon": "8268563"
+        },
+        {
+          "itemId": 270164,
+          "name": "Gebbo's Bottomless Bag",
+          "popularity": 8.4,
+          "maxKey": "+23",
+          "icon": "inv_10_tailoring_bag1_color2"
+        }
+      ],
+      "raid": [
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 50.9,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 16.1,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 7.9,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 3.3,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270167,
+          "name": "",
+          "popularity": 3.2,
+          "maxKey": "",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 2.8,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "Soulcoiler Ritual Vessel",
+          "popularity": 84.3,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270167,
+          "name": "Wavecaller's Seastone",
+          "popularity": 61.3,
+          "maxKey": "",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 21.5,
+          "maxKey": "",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
+          "itemId": 270164,
+          "name": "Gebbo's Bottomless Bag",
+          "popularity": 13.3,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 280835,
+          "name": "Sigil of the Impending Eclipse",
+          "popularity": 4.7,
+          "maxKey": "",
+          "icon": "8268562"
+        },
+        {
+          "itemId": 281215,
+          "name": "Twisted Horror's Tendril",
+          "popularity": 3.7,
+          "maxKey": "",
+          "icon": "8268563"
+        }
+      ]
+    }
+  },
+  "evoker": {
+    "preservation": {
+      "mplus": [
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 28.2,
+          "maxKey": "+22",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 21.8,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 20.7,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 7.3,
+          "maxKey": "+22",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 2.1,
+          "maxKey": "+21",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 2,
+          "maxKey": "+21",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "Soulcoiler Ritual Vessel",
+          "popularity": 85.4,
+          "maxKey": "+23",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "Gebbo's Bottomless Bag",
+          "popularity": 33,
+          "maxKey": "+22",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270167,
+          "name": "Wavecaller's Seastone",
+          "popularity": 27.4,
+          "maxKey": "+23",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 23.8,
+          "maxKey": "+23",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
+          "itemId": 281215,
+          "name": "Twisted Horror's Tendril",
+          "popularity": 8.6,
+          "maxKey": "+22",
+          "icon": "8268563"
+        },
+        {
+          "itemId": 280835,
+          "name": "Sigil of the Impending Eclipse",
+          "popularity": 2.7,
+          "maxKey": "+21",
+          "icon": "8268562"
+        }
+      ],
+      "raid": [
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 59.7,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 8.8,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 7.9,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 3.9,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "",
+          "popularity": 3.2,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 248583,
+          "name": "",
+          "popularity": 1.1,
+          "maxKey": "",
+          "icon": "inv_archaeology_70_tauren_drum"
+        },
+        {
+          "itemId": 270162,
+          "name": "Soulcoiler Ritual Vessel",
+          "popularity": 77.2,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270164,
+          "name": "Gebbo's Bottomless Bag",
+          "popularity": 77,
+          "maxKey": "",
+          "icon": "inv_10_tailoring_bag1_color2"
+        },
+        {
+          "itemId": 270167,
+          "name": "Wavecaller's Seastone",
+          "popularity": 19.4,
+          "maxKey": "",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
+          "itemId": 270171,
+          "name": "Preternatural Antivenom",
+          "popularity": 8.9,
+          "maxKey": "",
+          "icon": "inv_11_0_dungeon_tentaclevial_green"
+        },
+        {
+          "itemId": 248583,
+          "name": "Drum of Renewed Bonds",
+          "popularity": 2.8,
+          "maxKey": "",
+          "icon": "inv_archaeology_70_tauren_drum"
+        },
+        {
+          "itemId": 274493,
+          "name": "Effigy of Ula'tek's Faithful",
+          "popularity": 2.8,
+          "maxKey": "",
+          "icon": "ability_fomor_boss_rune_green"
+        }
+      ]
     }
   }
 };
