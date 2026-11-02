@@ -1164,6 +1164,74 @@ async function hydrateWowheadItemCards(containerEl, lang) {
   }));
 }
 
+
+function initWowheadInteractiveWidgets(containerEl, lang) {
+  if (!containerEl) return;
+
+  // 1. Pestañas interactivas (.tabs-wrapper / [role="tablist"])
+  const tabWrappers = Array.from(containerEl.querySelectorAll(".tabs-wrapper"));
+  tabWrappers.forEach((wrapper) => {
+    const tabButtons = Array.from(wrapper.querySelectorAll('[role="tab"]'));
+    const contentsBox = wrapper.querySelector(".tabbed-contents");
+    const tabPanels = contentsBox
+      ? Array.from(contentsBox.querySelectorAll(':scope > [role="tabpanel"], :scope > div'))
+      : Array.from(wrapper.querySelectorAll('[role="tabpanel"]'));
+
+    if (tabButtons.length === 0 || tabPanels.length === 0) return;
+
+    tabButtons.forEach((btn, idx) => {
+      btn.setAttribute("type", "button");
+      btn.style.cursor = "pointer";
+      btn.addEventListener("click", (ev) => {
+        ev.preventDefault();
+        ev.stopPropagation();
+
+        // Actualizar estado activo de los botones de pestaña
+        tabButtons.forEach((b) => {
+          b.removeAttribute("data-selected");
+          b.setAttribute("aria-selected", "false");
+          b.setAttribute("tabindex", "-1");
+        });
+        btn.setAttribute("data-selected", "true");
+        btn.setAttribute("aria-selected", "true");
+        btn.setAttribute("tabindex", "0");
+
+        // Determinar el panel objetivo por data-href (#slug -> #tab-slug o #slug) o por índice
+        const rawHref = (btn.getAttribute("data-href") || btn.getAttribute("href") || "").replace(/^#/, "");
+        let targetPanel = null;
+        if (rawHref) {
+          targetPanel =
+            wrapper.querySelector(`#tab-${CSS.escape(rawHref)}`) ||
+            wrapper.querySelector(`#${CSS.escape(rawHref)}`);
+        }
+        if (!targetPanel && tabPanels[idx]) {
+          targetPanel = tabPanels[idx];
+        }
+
+        tabPanels.forEach((panel) => {
+          if (panel === targetPanel) {
+            panel.style.display = "";
+          } else {
+            panel.style.display = "none";
+          }
+        });
+
+        // Refrescar tooltips de Wowhead dentro del nuevo panel visible
+        if (targetPanel) {
+          hydrateWowheadItemCards(targetPanel, lang);
+          try {
+            if (window.$WowheadPower && typeof window.$WowheadPower.refreshLinks === "function") {
+              window.$WowheadPower.refreshLinks();
+            } else if (window.$WH && window.$WH.Tooltip && typeof window.$WH.Tooltip.refreshLinks === "function") {
+              window.$WH.Tooltip.refreshLinks();
+            }
+          } catch (e) {}
+        }
+      });
+    });
+  });
+}
+
 function openArticleModal(articleId, source = 'auto') {
   const modal = document.getElementById('article-reader-modal');
   if (!modal) return;
@@ -1311,6 +1379,7 @@ function openArticleModal(articleId, source = 'auto') {
   if (bodyEl) {
     bodyEl.innerHTML = tldrBlockHtml + (finalHtml || `<p class="text-slate-300 text-sm leading-relaxed">${summaryText}</p>`);
     hydrateWowheadItemCards(bodyEl, lang);
+    initWowheadInteractiveWidgets(bodyEl, lang);
     setTimeout(() => {
       try {
         if (window.$WowheadPower && typeof window.$WowheadPower.refreshLinks === 'function') {
