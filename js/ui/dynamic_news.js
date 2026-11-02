@@ -977,6 +977,64 @@ function formatWowheadEditorialContent(html) {
   formatted = formatted.replace(/<span[^>]*style="[^"]*background-image:[^"]*class_[^"]*"[^>]*><\/span>/gi, '');
   formatted = formatted.replace(/<span class="c\d+">/gi, '<span class="font-bold text-amber-300">');
 
+  // 2.05 Rescatar ítems de <noscript> cuando Wowhead inserta cajas vacías .entity-model-card-embed-wrapper
+  if (formatted.includes('entity-model-card-embed-wrapper')) {
+    const noscriptMatch = formatted.match(/<noscript>([\s\S]*?)<\/noscript>/i);
+    let rescuedPillsHtml = '';
+    if (noscriptMatch && noscriptMatch[1]) {
+      const bodyWithoutNoscript = formatted.replace(/<noscript>[\s\S]*?<\/noscript>/gi, '');
+      const itemRegex = /<a\s+href="\/(item=\d+[^"]*)"[^>]*>([^<]+)<\/a>/gi;
+      const rescuedItems = [];
+      let m;
+      while ((m = itemRegex.exec(noscriptMatch[1])) !== null) {
+        const itemPath = m[1];
+        const itemName = m[2].trim();
+        const itemIdMatch = itemPath.match(/item=(\d+)/);
+        const itemId = itemIdMatch ? itemIdMatch[1] : '';
+        if (itemId && !bodyWithoutNoscript.includes(`item=${itemId}`)) {
+          rescuedItems.push({ path: itemPath, name: itemName, id: itemId });
+        }
+      }
+      if (rescuedItems.length > 0) {
+        const lang = typeof getActiveLanguage === 'function' ? getActiveLanguage() : 'es';
+        const whDomain = lang === 'es' ? 'https://www.wowhead.com/es' : 'https://www.wowhead.com';
+        const gridLabel = lang === 'en' ? 'Featured Event Items & Rewards' : 'Objetos y Recompensas Destacadas';
+        rescuedPillsHtml = `
+          <div class="my-4 p-3.5 sm:p-4 rounded-xl bg-slate-900/90 border border-purple-500/30 space-y-2.5 shadow-lg">
+            <div class="text-xs font-bold text-purple-300 flex items-center gap-1.5 font-mono uppercase tracking-wide">
+              <i class="fa-solid fa-box-open text-amber-400"></i> ${gridLabel}
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
+              ${rescuedItems.map(it => `
+                <a href="${whDomain}/${it.path}" target="_blank" rel="noopener noreferrer" data-wowhead="item=${it.id}&domain=${lang === 'es' ? 'es' : 'www'}" class="px-2.5 py-2 rounded-lg bg-black/60 hover:bg-purple-950/50 border border-white/10 hover:border-purple-500/50 text-xs text-amber-300 hover:text-amber-200 font-semibold flex items-center gap-2 transition truncate">
+                  <i class="fa-solid fa-gem text-[10px] text-purple-400 shrink-0"></i>
+                  <span class="truncate">${it.name}</span>
+                </a>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+    }
+    // Reemplazar el primer contenedor de wrappers vacíos por la cuadrícula de ítems rescatados y limpiar el resto
+    let replacedFirst = false;
+    formatted = formatted.replace(/<div class="wh-center"[^>]*>(?:\s*<br\s*\/?>)*\s*(?:<div class="entity-model-card-embed-wrapper"><\/div>\s*(?:&nbsp;)?\s*)+(?:\s*<br\s*\/?>)*\s*<\/div>/gi, () => {
+      if (!replacedFirst && rescuedPillsHtml) {
+        replacedFirst = true;
+        return rescuedPillsHtml;
+      }
+      return '';
+    });
+    formatted = formatted.replace(/<div class="entity-model-card-embed-wrapper"><\/div>\s*(?:&nbsp;)?/gi, '');
+  }
+
+  // Limpiar bloques <noscript> residuales de Wowhead y reparar imágenes con data-src
+  formatted = formatted.replace(/<noscript>[\s\S]*?<\/noscript>/gi, '');
+  formatted = formatted.replace(/<img([^>]*?)\sdata-src="([^"]+)"([^>]*?)>/gi, (full, pre, dsrc, post) => {
+    if (/src=/i.test(pre) || /src=/i.test(post)) return full;
+    return `<img${pre} src="${dsrc}"${post}>`;
+  });
+
   // 2.1 Convertir contenedores wh-youtube en reproductores de YouTube embebidos interactivos
   formatted = formatted.replace(/<div class="[^"]*wh-youtube[^"]*"[^>]*style="[^"]*background:[^"]*url\((?:&quot;|"|')?https?:\/\/i\.ytimg\.com\/vi\/([a-zA-Z0-9_-]+)\/[^"'\)]*(?:&quot;|"|')?\)[^"]*"[^>]*>[\s\S]*?<\/div>\s*<\/div>/gi, (match, ytId) => {
     return `
@@ -1099,7 +1157,9 @@ function openArticleModal(articleId, source = 'auto') {
   const bodyEl = document.getElementById('article-modal-body');
 
   const titleText = resolveLocalized(article.title, lang);
-  const contentText = resolveLocalized(article.contentHtml || article.content, lang) || resolveLocalized(article.content, lang) || (typeof article.contentHtml === 'string' ? article.contentHtml : '');
+  const contentText = (article.content && typeof article.content === 'object')
+    ? (resolveLocalized(article.content, lang) || resolveLocalized(article.contentHtml, lang))
+    : (resolveLocalized(article.contentHtml || article.content, lang) || (typeof article.contentHtml === 'string' ? article.contentHtml : ''));
   const summaryText = resolveLocalized(article.summary, lang);
   
   let dateText = resolveLocalized(article.date, lang) || 'Reciente';
@@ -1202,7 +1262,12 @@ function openArticleModal(articleId, source = 'auto') {
     `;
   }
 
-  if (bodyEl) bodyEl.innerHTML = tldrBlockHtml + (finalHtml || `<p class="text-slate-300 text-sm leading-relaxed">${summaryText}</p>`);
+  if (bodyEl) {
+    bodyEl.innerHTML = tldrBlockHtml + (finalHtml || `<p class="text-slate-300 text-sm leading-relaxed">${summaryText}</p>`);
+    if (window.$WH && window.$WH.Tooltips && typeof window.$WH.Tooltips.refreshLinks === 'function') {
+      setTimeout(() => { try { window.$WH.Tooltips.refreshLinks(); } catch (e) {} }, 60);
+    }
+  }
 
   // Configurar botón de enlace a la fuente oficial si existe originalUrl o targetExternalUrl
   const extLink = document.getElementById('article-modal-external-link');

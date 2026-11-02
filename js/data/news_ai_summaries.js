@@ -135,19 +135,19 @@ window.WOW_NEWS_AI_SUMMARIES = {
   "wh-383689": {
     "es": {
       "tldr": [
-        "Celebración del Día de los Muertos en WoW",
-        "Gana transmog exclusivo y logros",
-        "Visita a Chapman y Catrina en las ciudades capitales"
+        "La festividad del Día de los Muertos ya está activa con logros, juguetes y cosméticos exclusivos.",
+        "Puedes visitar a Chapman y Catrina en los cementerios de las ciudades capitales para comprar máscaras y completar su misión.",
+        "Momento ideal para completar el logro Calavera enfrentándote a otros jugadores con los disfraces de contendiente."
       ],
-      "seo_description": "Celebra el Día de los Muertos en WoW y gana recompensas exclusivas."
+      "seo_description": "Celebra el Día de los Muertos en World of Warcraft: consigue máscaras, juguetes exclusivos y el logro Calavera en las ciudades capitales."
     },
     "en": {
       "tldr": [
-        "Day of the Dead celebration is live",
-        "Earn exclusive transmog and achievements",
-        "Visit Chapman and Catrina in capital cities"
+        "The Day of the Dead holiday is now live with exclusive achievements, toys, and cosmetics.",
+        "Visit Chapman and Catrina in capital city graveyards to browse masks and complete their holiday quest.",
+        "Best time of the year to earn the Calavera achievement by dueling players with contender costumes."
       ],
-      "seo_description": "Celebrate Day of the Dead in WoW and earn exclusive rewards."
+      "seo_description": "Join the Day of the Dead celebration in World of Warcraft to earn masks, exclusive toys, and the Calavera achievement."
     }
   },
   "wh-383685": {
