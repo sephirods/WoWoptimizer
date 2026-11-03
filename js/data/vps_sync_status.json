@@ -1,9 +1,9 @@
 {
   "state": "running",
-  "lastRunAt": "2026-11-02T15:05:59Z",
-  "lastRunEpochMs": 1793631959341,
-  "nextScheduledAt": "2026-11-03T03:05:59Z",
-  "durationSec": 146.8,
+  "lastRunAt": "2026-11-02T11:35:57Z",
+  "lastRunEpochMs": 1793619357000,
+  "nextScheduledAt": "2026-11-02T23:35:57Z",
+  "durationSec": 141.1,
   "triggerRequestedAt": 0,
   "triggerTarget": "all",
   "currentStep": "Iniciando navegador Camoufox en VPS (modo: all)...",
@@ -15,7 +15,7 @@
         "archon_healers.js"
       ],
       "status": "running",
-      "updatedAt": "2026-11-02T15:05:58Z",
+      "updatedAt": "2026-11-02T11:33:46Z",
       "summary": "40/40 specs (Raid + M+) + 7 Healers",
       "error": null
     },
@@ -25,7 +25,7 @@
         "wow_stat_priorities.js"
       ],
       "status": "running",
-      "updatedAt": "2026-11-02T15:05:58Z",
+      "updatedAt": "2026-11-02T11:33:49Z",
       "summary": "40/40 guías extraídas",
       "error": null
     },
@@ -35,7 +35,7 @@
         "wowhead_data.js"
       ],
       "status": "running",
-      "updatedAt": "2026-11-02T15:05:58Z",
+      "updatedAt": "2026-11-02T11:33:51Z",
       "summary": "40/40 specs con iconos oficiales",
       "error": null
     },
@@ -45,7 +45,7 @@
         "bloodmallet_data.js"
       ],
       "status": "running",
-      "updatedAt": "2026-11-02T15:05:58Z",
+      "updatedAt": "2026-11-02T11:35:57Z",
       "summary": "80/80 simulaciones (1T y 5T)",
       "error": null
     }
