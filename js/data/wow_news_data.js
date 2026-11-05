@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30761638",
+      "postId": 30761638,
+      "topicId": 2401461,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-05T00:30:07.691Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Set Your Campfire Ablaze with the Pouch of Violet Dust!",
+        "es": "Set Your Campfire Ablaze with the Pouch of Violet Dust!"
+      },
+      "summary": {
+        "en": "[Set Your Campfire Ablaze with the Pouch of Violet Dust!] Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to c...",
+        "es": "[Set Your Campfire Ablaze with the Pouch of Violet Dust!] Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to c..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\" alt=\"Set Your Campfire Ablaze with the Pouch of Violet Dust!\" width=\"833\" height=\"468\"></a></p><p>Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to collect the Pouch of Violet Dust toy. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24317678\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\" alt=\"Set Your Campfire Ablaze with the Pouch of Violet Dust!\" width=\"833\" height=\"468\"></a></p><p>Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to collect the Pouch of Violet Dust toy. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24317678\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/set-your-campfire-ablaze-with-the-pouch-of-violet-dust/2401461/1"
+    },
+    {
       "id": "blizz-30756539",
       "postId": 30756539,
       "topicId": 2360696,
@@ -183,47 +211,19 @@ window.WOW_NEWS_DATABASE = {
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "World of Warcraft: Forever Goes Live Globally November 4!",
-        "es": "World of Warcraft: Forever Goes Live Globally November 4!"
+        "en": "World of Warcraft: Forever Now Live!",
+        "es": "World of Warcraft: Forever Ya Disponible!"
       },
       "summary": {
-        "en": "[World of Warcraft: Forever Goes Live Globally November 4!] Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, launching worldwide ...",
-        "es": "[World of Warcraft: Forever Goes Live Globally November 4!] Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, launching worldwide ..."
+        "en": "[World of Warcraft: Forever Now Live!] Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, now live worldwide. Adventure to level 60...",
+        "es": "[World of Warcraft: Forever Ya Disponible!] Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, Ya Disponible worldwide. Adventure t..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png\" alt=\"World of Warcraft: Forever Goes Live Globally November 4!\" width=\"833\" height=\"468\"></a></p><p>Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, launching worldwide November 4 at 3:00 pm PST. Adventure to level 60 across the original continents, discover new stories, and meet fellow adventurers in a permanent home alongside modern and Classic WoW where community comes first and the journey matters as much as the destination. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315820\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png\" alt=\"World of Warcraft: Forever Goes Live Globally November 4!\" width=\"833\" height=\"468\"></a></p><p>Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, launching worldwide November 4 at 3:00 pm PST. Adventure to level 60 across the original continents, discover new stories, and meet fellow adventurers in a permanent home alongside modern and Classic WoW where community comes first and the journey matters as much as the destination. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315820\">View Full Article</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\" alt=\"World of Warcraft: Forever Now Live!\" width=\"833\" height=\"468\"></a></p><p>Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, now live worldwide. Adventure to level 60 across the original continents, discover new stories, and meet fellow adventurers in a permanent home alongside modern and Classic WoW where community comes first and the journey matters as much as the destination. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315820\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\" alt=\"World of Warcraft: Forever Now Live!\" width=\"833\" height=\"468\"></a></p><p>Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, now live worldwide. Adventure to level 60 across the original continents, discover new stories, and meet fellow adventurers in a permanent home alongside modern and Classic WoW where community comes first and the journey matters as much as the destination. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315820\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-goes-live-globally-november-4/2396008/1"
-    },
-    {
-      "id": "blizz-30673599",
-      "postId": 30673599,
-      "topicId": 2395922,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-29T19:02:50.481Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Return to Azeroth in World of Warcraft: Forever",
-        "es": "Return to Azeroth in World of Warcraft: Forever"
-      },
-      "summary": {
-        "en": "[Return to Azeroth in World of Warcraft: Forever] Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for...",
-        "es": "[Return to Azeroth in World of Warcraft: Forever] Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\" alt=\"Return to Azeroth in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for you in World of Warcraft: Forever. To help you get your feet on the ground and begin your adventures in Azeroth once more, we’ve put together some information you may need to return to your hero’s journey. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315643\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\" alt=\"Return to Azeroth in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for you in World of Warcraft: Forever. To help you get your feet on the ground and begin your adventures in Azeroth once more, we’ve put together some information you may need to return to your hero’s journey. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315643\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/return-to-azeroth-in-world-of-warcraft-forever/2395922/1"
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-now-live/2396008/1"
     },
     {
       "id": "blizz-1235440",
@@ -295,19 +295,19 @@ window.WOW_NEWS_DATABASE = {
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "¡World of Warcraft: Forever saldrá en todo el mundo el 5 de noviembre!",
-        "es": "¡World of Warcraft: Forever saldrá en todo el mundo el 5 de noviembre!"
+        "en": "¡World of Warcraft: Forever ya está disponible!",
+        "es": "¡World of Warcraft: Forever ya está disponible!"
       },
       "summary": {
-        "en": "[¡World of Warcraft: Forever saldrá en todo el mundo el 5 de noviembre!] Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que saldrá en to...",
-        "es": "[¡World of Warcraft: Forever saldrá en todo el mundo el 5 de noviembre!] Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que saldrá en to..."
+        "en": "[¡World of Warcraft: Forever ya está disponible!] Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que ya está disponible en todo el mundo...",
+        "es": "[¡World of Warcraft: Forever ya está disponible!] Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que ya está disponible en todo el mundo..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png\" alt=\"¡World of Warcraft: Forever saldrá en todo el mundo el 5 de noviembre!\" width=\"833\" height=\"468\"></a></p><p>Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que saldrá en todo el mundo el mundo el 5 de noviembre a las 00:00 CET. Emprende tu aventura hasta el nivel 60 a través de los continentes originales, descubre nuevas historias y conoce a otros aventureros en un nuevo hogar permanente junto al WoW moderno y WoW Classic, donde la comunidad es prioritaria y el viaje es tan importante como el destino. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315820\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png\" alt=\"¡World of Warcraft: Forever saldrá en todo el mundo el 5 de noviembre!\" width=\"833\" height=\"468\"></a></p><p>Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que saldrá en todo el mundo el mundo el 5 de noviembre a las 00:00 CET. Emprende tu aventura hasta el nivel 60 a través de los continentes originales, descubre nuevas historias y conoce a otros aventureros en un nuevo hogar permanente junto al WoW moderno y WoW Classic, donde la comunidad es prioritaria y el viaje es tan importante como el destino. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315820\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\" alt=\"¡World of Warcraft: Forever ya está disponible!\" width=\"833\" height=\"468\"></a></p><p>Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que ya está disponible en todo el mundo. Emprende tu aventura hasta el nivel 60 a través de los continentes originales, descubre nuevas historias y conoce a otros aventureros en un nuevo hogar permanente junto al WoW moderno y WoW Classic, donde la comunidad es prioritaria y el viaje es tan importante como el destino.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315820\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\" alt=\"¡World of Warcraft: Forever ya está disponible!\" width=\"833\" height=\"468\"></a></p><p>Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que ya está disponible en todo el mundo. Emprende tu aventura hasta el nivel 60 a través de los continentes originales, descubre nuevas historias y conoce a otros aventureros en un nuevo hogar permanente junto al WoW moderno y WoW Classic, donde la comunidad es prioritaria y el viaje es tan importante como el destino.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315820\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1world-of-warcraft-forever-saldr%C3%A1-en-todo-el-mundo-el-5-de-noviembre/80641/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1world-of-warcraft-forever-ya-est%C3%A1-disponible/80641/1"
     },
     {
       "id": "blizz-1234829",
@@ -448,6 +448,62 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1inunda-tu-hogar-con-el-esp%C3%ADritu-del-mar-gracias-a-la-hacienda-de-mareasombr%C3%ADa-y-el-pack-de-adornos%E2%80%A6/80584/1"
+    },
+    {
+      "id": "blizz-6475978",
+      "postId": 6475978,
+      "topicId": 639571,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-05T00:30:06.630Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Set Your Campfire Ablaze with the Pouch of Violet Dust!",
+        "es": "Set Your Campfire Ablaze with the Pouch of Violet Dust!"
+      },
+      "summary": {
+        "en": "[Set Your Campfire Ablaze with the Pouch of Violet Dust!] Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to c...",
+        "es": "[Set Your Campfire Ablaze with the Pouch of Violet Dust!] Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to c..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\" alt=\"Set Your Campfire Ablaze with the Pouch of Violet Dust!\" width=\"833\" height=\"468\"></a></p><p>Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to collect the Pouch of Violet Dust toy. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24317678\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\" alt=\"Set Your Campfire Ablaze with the Pouch of Violet Dust!\" width=\"833\" height=\"468\"></a></p><p>Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to collect the Pouch of Violet Dust toy. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24317678\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/set-your-campfire-ablaze-with-the-pouch-of-violet-dust/639571/1"
+    },
+    {
+      "id": "blizz-6475874",
+      "postId": 6475874,
+      "topicId": 639555,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-04T23:44:07.214Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Language and Social Settings",
+        "es": "Language and Social Settings"
+      },
+      "summary": {
+        "en": "It’s always a good idea to go over your settings in-game when you first get started. Today, we’d like to suggest that players take a close look at these settings in particular. \n [...",
+        "es": "It’s always a good idea to go over your settings in-game when you first get started. Today, we’d like to suggest that players take a close look at these settings in particular. \n [..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>It’s always a good idea to go over your settings in-game when you first get started. Today, we’d like to suggest that players take a close look at these settings in particular.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8.jpeg\" data-download-href=\"/en/wow/uploads/short-url/8D4qBjNBOW9kNO2AIGRfC3VVSTS.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/optimized/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8_2_629x500.jpeg\" alt=\"image\" data-base62-sha1=\"8D4qBjNBOW9kNO2AIGRfC3VVSTS\" width=\"629\" height=\"500\" srcset=\"https://d176jfkp3gfyt8.cloudfront.net/optimized/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8_2_629x500.jpeg, https://d176jfkp3gfyt8.cloudfront.net/original/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8.jpeg 1.5x, https://d176jfkp3gfyt8.cloudfront.net/original/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8.jpeg 2x\" data-dominant-color=\"26221C\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">898×713 128 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>If any of them are not defaulted to your preferred language, you can change them and log out and back in to improve your in-game experience.</p>\n<p>Thank you!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>It’s always a good idea to go over your settings in-game when you first get started. Today, we’d like to suggest that players take a close look at these settings in particular.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8.jpeg\" data-download-href=\"/en/wow/uploads/short-url/8D4qBjNBOW9kNO2AIGRfC3VVSTS.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/optimized/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8_2_629x500.jpeg\" alt=\"image\" data-base62-sha1=\"8D4qBjNBOW9kNO2AIGRfC3VVSTS\" width=\"629\" height=\"500\" srcset=\"https://d176jfkp3gfyt8.cloudfront.net/optimized/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8_2_629x500.jpeg, https://d176jfkp3gfyt8.cloudfront.net/original/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8.jpeg 1.5x, https://d176jfkp3gfyt8.cloudfront.net/original/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8.jpeg 2x\" data-dominant-color=\"26221C\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">898×713 128 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>If any of them are not defaulted to your preferred language, you can change them and log out and back in to improve your in-game experience.</p>\n<p>Thank you!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/language-and-social-settings/639555/1"
     },
     {
       "id": "blizz-6475066",
@@ -603,19 +659,47 @@ window.WOW_NEWS_DATABASE = {
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "World of Warcraft: Forever Goes Live Globally 4 November!",
-        "es": "World of Warcraft: Forever Goes Live Globally 4 November!"
+        "en": "World of Warcraft: Forever Now Live!",
+        "es": "World of Warcraft: Forever Ya Disponible!"
       },
       "summary": {
-        "en": "[World of Warcraft: Forever Goes Live Globally 4 November!] Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, launching worldwide ...",
-        "es": "[World of Warcraft: Forever Goes Live Globally 4 November!] Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, launching worldwide ..."
+        "en": "[World of Warcraft: Forever Now Live!] Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, now live worldwide. Adventure to level 60...",
+        "es": "[World of Warcraft: Forever Ya Disponible!] Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, Ya Disponible worldwide. Adventure t..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png\" alt=\"World of Warcraft: Forever Goes Live Globally 4 November!\" width=\"833\" height=\"468\"></a></p><p>Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, launching worldwide 4 November at 23:00 GMT. Adventure to level 60 across the original continents, discover new stories, and meet fellow adventurers in a permanent home alongside modern and Classic WoW where community comes first and the journey matters as much as the destination. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24315820\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png\" alt=\"World of Warcraft: Forever Goes Live Globally 4 November!\" width=\"833\" height=\"468\"></a></p><p>Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, launching worldwide 4 November at 23:00 GMT. Adventure to level 60 across the original continents, discover new stories, and meet fellow adventurers in a permanent home alongside modern and Classic WoW where community comes first and the journey matters as much as the destination. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24315820\">View Full Article</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ay/AYUYD3JLZW251793830258361.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ay/AYUYD3JLZW251793830258361.png\" alt=\"World of Warcraft: Forever Now Live!\" width=\"833\" height=\"468\"></a></p><p>Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, now live worldwide. Adventure to level 60 across the original continents, discover new stories, and meet fellow adventurers in a permanent home alongside modern and Classic WoW where community comes first and the journey matters as much as the destination. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24315820\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ay/AYUYD3JLZW251793830258361.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ay/AYUYD3JLZW251793830258361.png\" alt=\"World of Warcraft: Forever Now Live!\" width=\"833\" height=\"468\"></a></p><p>Begin your first adventure or return to a new and reimagined Azeroth in World of Warcraft: Forever, now live worldwide. Adventure to level 60 across the original continents, discover new stories, and meet fellow adventurers in a permanent home alongside modern and Classic WoW where community comes first and the journey matters as much as the destination. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24315820\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-goes-live-globally-4-november/638503/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-now-live/638503/1"
+    },
+    {
+      "id": "blizz-30673599",
+      "postId": 30673599,
+      "topicId": 2395922,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-29T19:02:50.481Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Return to Azeroth in World of Warcraft: Forever",
+        "es": "Return to Azeroth in World of Warcraft: Forever"
+      },
+      "summary": {
+        "en": "[Return to Azeroth in World of Warcraft: Forever] Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for...",
+        "es": "[Return to Azeroth in World of Warcraft: Forever] Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\" alt=\"Return to Azeroth in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for you in World of Warcraft: Forever. To help you get your feet on the ground and begin your adventures in Azeroth once more, we’ve put together some information you may need to return to your hero’s journey. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315643\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\" alt=\"Return to Azeroth in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for you in World of Warcraft: Forever. To help you get your feet on the ground and begin your adventures in Azeroth once more, we’ve put together some information you may need to return to your hero’s journey. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315643\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/return-to-azeroth-in-world-of-warcraft-forever/2395922/1"
     },
     {
       "id": "blizz-6463320",
@@ -1316,90 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1ad%C3%A9ntrate-en-el-especial-del-fin-de-la-beta/80506/1"
-    },
-    {
-      "id": "blizz-6456813",
-      "postId": 6456813,
-      "topicId": 637932,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-27T19:00:16.897Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Your Next Adventure in WoW: Forever Starts in the WoW Portal Room",
-        "es": "Your Next Adventure in WoW: Forever Starts in the WoW Portal Room"
-      },
-      "summary": {
-        "en": "[Your Next Adventure in WoW: Forever Starts in the WoW Portal Room] Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for yea...",
-        "es": "[Your Next Adventure in WoW: Forever Starts in the WoW Portal Room] Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for yea..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\" alt=\"Your Next Adventure in WoW: Forever Starts in the WoW Portal Room\" width=\"833\" height=\"468\"></a></p><p>Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for years, the WoW Portal Room is a welcoming Discord server where you can meet fellow adventurers and find your next community. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24315203\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\" alt=\"Your Next Adventure in WoW: Forever Starts in the WoW Portal Room\" width=\"833\" height=\"468\"></a></p><p>Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for years, the WoW Portal Room is a welcoming Discord server where you can meet fellow adventurers and find your next community. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24315203\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/your-next-adventure-in-wow-forever-starts-in-the-wow-portal-room/637932/1"
-    },
-    {
-      "id": "blizz-30638185",
-      "postId": 30638185,
-      "topicId": 2393349,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-27T19:00:06.426Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Your Next Adventure in WoW: Forever Starts in the WoW Portal Room",
-        "es": "Your Next Adventure in WoW: Forever Starts in the WoW Portal Room"
-      },
-      "summary": {
-        "en": "[Your Next Adventure in WoW: Forever Starts in the WoW Portal Room] Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for yea...",
-        "es": "[Your Next Adventure in WoW: Forever Starts in the WoW Portal Room] Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for yea..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\" alt=\"Your Next Adventure in WoW: Forever Starts in the WoW Portal Room\" width=\"833\" height=\"468\"></a></p><p>Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for years, the WoW Portal Room is a welcoming Discord server where you can meet fellow adventurers and find your next community. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315203\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\" alt=\"Your Next Adventure in WoW: Forever Starts in the WoW Portal Room\" width=\"833\" height=\"468\"></a></p><p>Whether you’re new to Azeroth, returning after a break, or have made World of Warcraft part of your life for years, the WoW Portal Room is a welcoming Discord server where you can meet fellow adventurers and find your next community. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315203\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/your-next-adventure-in-wow-forever-starts-in-the-wow-portal-room/2393349/1"
-    },
-    {
-      "id": "blizz-6454754",
-      "postId": 6454754,
-      "topicId": 631316,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-27T15:37:57.836Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW Forever Beta Development Notes – Updated 26 October",
-        "es": "WoW Forever Beta Development Notes – Updated 26 October"
-      },
-      "summary": {
-        "en": "We’ve updated the previous post in this thread with some additions that were intended to be listed. \nAdditional updates to Racial Abilities and Talents include: \nOrc \n\nBlood Fury’s...",
-        "es": "We’ve updated the previous post in this thread with some additions that were intended to be listed. \nAdditional updates to Racial Abilities and Talents include: \nOrc \n\nBlood Fury’s..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve updated the previous post in this thread with some additions that were intended to be listed.</p>\n<p>Additional updates to Racial Abilities and Talents include:</p>\n<p><strong>Orc</strong></p>\n<ul>\n<li>Blood Fury’s cooldown reduced to 2 minutes (was 3 minutes).</li>\n</ul>\n<p><strong>Troll</strong></p>\n<ul>\n<li>Berserking duration increased to 15 seconds (was 10 seconds).</li>\n</ul>\n<p><strong>Undead</strong></p>\n<ul>\n<li>Touch of the Grave internal cooldown reduced to 15 seconds (was 25 seconds).</li>\n</ul>\n<p>We’d also like to clarify that for Skyborne:</p>\n<ul>\n<li>Charged persists through death, <em>and is removed upon entering a raid.</em></li>\n<li>Attuned persists through death, <em>and is removed upon entering a raid.</em></li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve updated the previous post in this thread with some additions that were intended to be listed.</p>\n<p>Additional updates to Racial Abilities and Talents include:</p>\n<p><strong>Orc</strong></p>\n<ul>\n<li>Sangre Furia’s cooldown reduced to 2 minutes (was 3 minutes).</li>\n</ul>\n<p><strong>Troll</strong></p>\n<ul>\n<li>Berserking duration increased to 15 seconds (was 10 seconds).</li>\n</ul>\n<p><strong>Undead</strong></p>\n<ul>\n<li>Touch of the Grave internal cooldown reduced to 15 seconds (was 25 seconds).</li>\n</ul>\n<p>We’d also like to clarify that for Skyborne:</p>\n<ul>\n<li>Charged persists through death, <em>and is removed upon entering a raid.</em></li>\n<li>Attuned persists through death, <em>and is removed upon entering a raid.</em></li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-26-october/631316/8"
     }
   ],
   "blizzardNews": [
