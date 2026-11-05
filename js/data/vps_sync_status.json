@@ -1,12 +1,12 @@
 {
-  "state": "running",
-  "lastRunAt": "2026-11-05T07:03:59Z",
-  "lastRunEpochMs": 1793862239312,
-  "nextScheduledAt": "2026-11-05T19:03:59Z",
-  "durationSec": 178,
+  "state": "completed",
+  "lastRunAt": "2026-11-05T14:08:32Z",
+  "lastRunEpochMs": 1793887712982,
+  "nextScheduledAt": "2026-11-06T02:08:32Z",
+  "durationSec": 128.8,
   "triggerRequestedAt": 0,
   "triggerTarget": "archon",
-  "currentStep": "Iniciando navegador Camoufox en VPS (modo: archon)...",
+  "currentStep": "Sincronización completada con éxito en 128.8s",
   "modules": {
     "archon": {
       "name": "Archon.gg (Presets, BiS, Talentos 1:1 & Healers)",
@@ -14,8 +14,8 @@
         "archon_data.js",
         "archon_healers.js"
       ],
-      "status": "running",
-      "updatedAt": "2026-11-05T07:03:58Z",
+      "status": "ok",
+      "updatedAt": "2026-11-05T14:08:31Z",
       "summary": "40/40 specs (Raid + M+) + 7 Healers",
       "error": null
     },
