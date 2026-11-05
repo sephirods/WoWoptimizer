@@ -1,12 +1,12 @@
 {
-  "state": "queued",
+  "state": "running",
   "lastRunAt": "2026-11-05T14:08:32Z",
   "lastRunEpochMs": 1793887712982,
   "nextScheduledAt": "2026-11-06T02:08:32Z",
   "durationSec": 128.8,
-  "triggerRequestedAt": 1793887837865,
+  "triggerRequestedAt": 0,
   "triggerTarget": "bloodmallet",
-  "currentStep": "Señal remota enviada (bloodmallet) — el VPS iniciará en ≤ 15 segundos...",
+  "currentStep": "Iniciando navegador Camoufox en VPS (modo: bloodmallet)...",
   "modules": {
     "archon": {
       "name": "Archon.gg (Presets, BiS, Talentos 1:1 & Healers)",
@@ -44,7 +44,7 @@
       "files": [
         "bloodmallet_data.js"
       ],
-      "status": "ok",
+      "status": "running",
       "updatedAt": "2026-11-05T07:03:58Z",
       "summary": "80/80 simulaciones (1T y 5T)",
       "error": null
