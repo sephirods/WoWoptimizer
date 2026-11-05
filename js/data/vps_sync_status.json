@@ -1,12 +1,12 @@
 {
-  "state": "running",
-  "lastRunAt": "2026-11-05T14:08:32Z",
-  "lastRunEpochMs": 1793887712982,
-  "nextScheduledAt": "2026-11-06T02:08:32Z",
-  "durationSec": 128.8,
+  "state": "completed",
+  "lastRunAt": "2026-11-05T14:11:56Z",
+  "lastRunEpochMs": 1793887916041,
+  "nextScheduledAt": "2026-11-06T02:11:56Z",
+  "durationSec": 65.2,
   "triggerRequestedAt": 0,
   "triggerTarget": "bloodmallet",
-  "currentStep": "Iniciando navegador Camoufox en VPS (modo: bloodmallet)...",
+  "currentStep": "Sincronización completada con éxito en 65.2s",
   "modules": {
     "archon": {
       "name": "Archon.gg (Presets, BiS, Talentos 1:1 & Healers)",
@@ -44,8 +44,8 @@
       "files": [
         "bloodmallet_data.js"
       ],
-      "status": "running",
-      "updatedAt": "2026-11-05T07:03:58Z",
+      "status": "ok",
+      "updatedAt": "2026-11-05T14:11:54Z",
       "summary": "80/80 simulaciones (1T y 5T)",
       "error": null
     }
