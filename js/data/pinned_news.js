@@ -7,5 +7,5 @@ window.WOW_PINNED_NEWS_CONFIG = {
   "blizz-30158533",
   "blizz-30111968"
 ],
-  "lastUpdated": "2026-11-02T14:12:51.303Z"
+  "lastUpdated": "2026-11-05T14:14:10.076Z"
 };
