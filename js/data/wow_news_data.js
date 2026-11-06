@@ -2,6 +2,62 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30782728",
+      "postId": 30782728,
+      "topicId": 2402937,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-11-06T18:58:44.850Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "The Venomous Abyss Raid Tuning Incoming",
+        "es": "The Venomous Abyss Banda Tuning Próximamente"
+      },
+      "summary": {
+        "en": "The Ula’tek adjustments have recently been pushed live. I’ll be sure to add them to the hotfixes post later today....",
+        "es": "The Ula’tek adjustments have recently been pushed live. I’ll be sure to add them to the Correcciones en Vivo post later today...."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><aside class=\"quote no-group quote-modified\" data-username=\"Aceheart-moon-guard\" data-display-name=\"Aceheart\" data-post=\"55\" data-topic=\"2402937\" data-full=\"true\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/moon-guard/215/182490839-avatar.jpg?alt=/wow/static/images/2d/avatar/86-0.jpg\" class=\"avatar\"> Aceheart:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>Hi - Ula’tek’s nerfs aren’t listed in the linked <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24307310/\">hotfixes page</a>. Are they live? If not, when will they be?</p>\n</blockquote>\n</aside>\n<p>The Ula’tek adjustments have recently been pushed live. I’ll be sure to add them to the hotfixes post later today. <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/smiley.png?v=15\" title=\":smiley:\" class=\"emoji\" alt=\":smiley:\" loading=\"lazy\" width=\"20\" height=\"20\"></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><aside class=\"quote no-group quote-modified\" data-username=\"Aceheart-moon-guard\" data-display-name=\"Aceheart\" data-post=\"55\" data-topic=\"2402937\" data-full=\"true\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/moon-guard/215/182490839-avatar.jpg?alt=/wow/static/images/2d/avatar/86-0.jpg\" class=\"avatar\"> Aceheart:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>Hi - Ula’tek’s nerfs aren’t listed in the linked <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24307310/\">hotfixes page</a>. Are they live? If not, when will they be?</p>\n</blockquote>\n</aside>\n<p>The Ula’tek adjustments have recently been pushed live. I’ll be sure to add them to the hotfixes post later today. <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/smiley.png?v=15\" title=\":smiley:\" class=\"emoji\" alt=\":smiley:\" loading=\"lazy\" width=\"20\" height=\"20\"></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-venomous-abyss-raid-tuning-incoming/2402937/56"
+    },
+    {
+      "id": "blizz-30782298",
+      "postId": 30782298,
+      "topicId": 2403854,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-06T18:10:08.162Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "The Adventure Begins in WoW: Forever, Stay Connected with Discord, and Taldramir Takes Shape in WoW…",
+        "es": "The Adventure Begins in WoW: Forever, Stay Connected with Discord, and Taldramir Takes Shape in WoW…"
+      },
+      "summary": {
+        "en": "[The Adventure Begins in WoW: Forever, Stay Connected with Discord, and Taldramir Takes Shape in WoW Weekly] Azeroth has a new home, and the adventure is just getting started! This...",
+        "es": "[The Adventure Begins in WoW: Forever, Stay Connected with Discord, and Taldramir Takes Shape in WoW Weekly] Azeroth has a new home, and the adventure is just getting started! Esta..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qh/QH2TTG9EVNTI1793925835070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qh/QH2TTG9EVNTI1793925835070.png\" alt=\"The Adventure Begins in WoW: Forever, Stay Connected with Discord, and Taldramir Takes Shape in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>Azeroth has a new home, and the adventure is just getting started! This week in WoW Weekly, discover that World of Warcraft: Forever is now live, join ongoing conversations on Discord in and out of the game, explore another way to play with gamepad support, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316097\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qh/QH2TTG9EVNTI1793925835070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qh/QH2TTG9EVNTI1793925835070.png\" alt=\"The Adventure Begins in WoW: Forever, Stay Connected with Discord, and Taldramir Takes Shape in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>Azeroth has a new home, and the adventure is just getting started! This week in WoW Weekly, discover that World of Warcraft: Forever ahora es live, join ongoing conversations on Discord in and out of the game, explore another way to play with gamepad support, and more. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316097\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-adventure-begins-in-wow-forever-stay-connected-with-discord-and-taldramir-takes-shape-in-wow%E2%80%A6/2403854/1"
+    },
+    {
       "id": "blizz-30774771",
       "postId": 30774771,
       "topicId": 2403040,
@@ -170,60 +226,60 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-bug-report-forum-guidelines/2402319/1"
     },
     {
-      "id": "blizz-30762649",
-      "postId": 30762649,
-      "topicId": 2401646,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-05T02:43:58.499Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Issues Resolved for Invite-a-Friend Players",
-        "es": "Issues Resolved for Invite-a-Friend Players"
-      },
-      "summary": {
-        "en": "With a hotfix that is now live, we’ve fixed an issue where players who joined WoW Forever by using an Invite-a-Friend Code were unexpectedly restricted from using certain chat chan...",
-        "es": "With a hotfix that is Ya Disponible, we’ve fixed an issue where players who joined WoW Forever by using an Invite-a-Friend Code were unexpectedly restricted from using certain chat..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>With a hotfix that is now live, we’ve fixed an issue where players who joined WoW Forever by using an Invite-a-Friend Code were unexpectedly restricted from using certain chat channels, leveling past 10, participating in guilds, forming parties, or trading items with other players.</p>\n<p>If you experienced this, you may wish to log out and back into WoW Forever.</p>\n<p>Thank you!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>With a hotfix that ahora es live, we’ve fixed an issue where players who joined WoW Forever by using an Invite-a-Friend Code were unexpectedly restricted from using certain chat channels, leveling past 10, participating in guilds, forming parties, or trading items with other players.</p>\n<p>If you experienced this, you may wish to log out and back into WoW Forever.</p>\n<p>Thank you!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/issues-resolved-for-invite-a-friend-players/2401646/1"
-    },
-    {
-      "id": "blizz-30761638",
-      "postId": 30761638,
-      "topicId": 2401461,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1235695",
+      "postId": 1235695,
+      "topicId": 80754,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-05T00:30:07.691Z",
+      "dateRaw": "2026-11-06T18:10:07.775Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Set Your Campfire Ablaze with the Pouch of Violet Dust!",
-        "es": "Set Your Campfire Ablaze with the Pouch of Violet Dust!"
+        "en": "Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y…",
+        "es": "Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y…"
       },
       "summary": {
-        "en": "[Set Your Campfire Ablaze with the Pouch of Violet Dust!] Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to c...",
-        "es": "[Set Your Campfire Ablaze with the Pouch of Violet Dust!] Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to c..."
+        "en": "[Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y Taldramir toma forma] ¡Azeroth tiene un nuevo hogar y la aventura acaba de empezar! Esta...",
+        "es": "[Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y Taldramir toma forma] ¡Azeroth tiene un nuevo hogar y la aventura acaba de empezar! Esta..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\" alt=\"Set Your Campfire Ablaze with the Pouch of Violet Dust!\" width=\"833\" height=\"468\"></a></p><p>Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to collect the Pouch of Violet Dust toy. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24317678\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\" alt=\"Set Your Campfire Ablaze with the Pouch of Violet Dust!\" width=\"833\" height=\"468\"></a></p><p>Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to collect the Pouch of Violet Dust toy. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24317678\">View Full Article</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qh/QH2TTG9EVNTI1793925835070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qh/QH2TTG9EVNTI1793925835070.png\" alt=\"Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y Taldramir toma forma\" width=\"833\" height=\"468\"></a></p><p>¡Azeroth tiene un nuevo hogar y la aventura acaba de empezar! Esta semana en WoW descubrirás que World of Warcraft: Forever ya está disponible, podrás unirte a la conversación en Discord tanto dentro como fuera del juego, explorarás otra forma de jugar gracias a la compatibilidad con mandos y mucho más.   \n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316097\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qh/QH2TTG9EVNTI1793925835070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qh/QH2TTG9EVNTI1793925835070.png\" alt=\"Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y Taldramir toma forma\" width=\"833\" height=\"468\"></a></p><p>¡Azeroth tiene un nuevo hogar y la aventura acaba de empezar! Esta semana en WoW descubrirás que World of Warcraft: Forever ya está disponible, podrás unirte a la conversación en Discord tanto dentro como fuera del juego, explorarás otra forma de jugar gracias a la compatibilidad con mandos y mucho más.   \n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316097\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/set-your-campfire-ablaze-with-the-pouch-of-violet-dust/2401461/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-la-aventura-comienza-en-wow-forever-mant%C3%A9n-el-contacto-con-discord-y%E2%80%A6/80754/1"
+    },
+    {
+      "id": "blizz-1235688",
+      "postId": 1235688,
+      "topicId": 80753,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-06T15:56:38.859Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever – No te pierdas «La forja de Forever»",
+        "es": "WoW: Forever – No te pierdas «La forja de Forever»"
+      },
+      "summary": {
+        "en": "[WoW: Forever – No te pierdas «La forja de Forever»] Contempla la creación del primer objeto legendario de World of Warcraft: Forever: Taldramir, el Bosque Susurrante. \n Ver artícu...",
+        "es": "[WoW: Forever – No te pierdas «La forja de Forever»] Contempla la creación del primer objeto legendario de World of Warcraft: Forever: Taldramir, el Bosque Susurrante. \n Ver artícu..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\" alt=\"WoW: Forever – No te pierdas «La forja de Forever»\" width=\"833\" height=\"468\"></a></p><p>Contempla la creación del primer objeto legendario de World of Warcraft: Forever: Taldramir, el Bosque Susurrante. \n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24317865\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\" alt=\"WoW: Forever – No te pierdas «La forja de Forever»\" width=\"833\" height=\"468\"></a></p><p>Contempla la creación del primer objeto legendario de World of Warcraft: Forever: Taldramir, el Bosque Susurrante. \n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24317865\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/wow-forever-%E2%80%93-no-te-pierdas-%C2%ABla-forja-de-forever%C2%BB/80753/1"
     },
     {
       "id": "blizz-1235624",
@@ -394,60 +450,32 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/vuelve-a-azeroth-con-world-of-warcraft-forever/80637/1"
     },
     {
-      "id": "blizz-1234797",
-      "postId": 1234797,
-      "topicId": 80636,
+      "id": "blizz-6479077",
+      "postId": 6479077,
+      "topicId": 639867,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-29T16:24:49.051Z",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-11-06T19:03:24.418Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Guía de iniciación para nuevos jugadores: te damos la bienvenida a World of Warcraft: Forever",
-        "es": "Guía de iniciación para nuevos jugadores: te damos la bienvenida a World of Warcraft: Forever"
+        "en": "The Venomous Abyss Raid Tuning Incoming",
+        "es": "The Venomous Abyss Banda Tuning Próximamente"
       },
       "summary": {
-        "en": "[Guía de iniciación para nuevos jugadores: te damos la bienvenida a World of Warcraft: Forever] World of Warcraft: Forever invita a los jugadores a una Azeroth original reimaginada...",
-        "es": "[Guía de iniciación para nuevos jugadores: te damos la bienvenida a World of Warcraft: Forever] World of Warcraft: Forever invita a los jugadores a una Azeroth original reimaginada..."
+        "en": "The Ula’tek adjustments are now live. I’ll be sure to add them to the hotfixes post later today....",
+        "es": "The Ula’tek adjustments are Ya Disponible. I’ll be sure to add them to the Correcciones en Vivo post later today...."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zo/ZOY5AGE9BF3C1793064955466.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zo/ZOY5AGE9BF3C1793064955466.png\" alt=\"Guía de iniciación para nuevos jugadores: te damos la bienvenida a World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever invita a los jugadores a una Azeroth original reimaginada, donde la exploración, la comunidad y la propia aventura son las protagonistas. Empieza en el nivel uno, crea un personaje a tu medida y aprende lo esencial para hacerte un hueco en un mundo diseñado para seguir creciendo durante años. \n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315280\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zo/ZOY5AGE9BF3C1793064955466.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zo/ZOY5AGE9BF3C1793064955466.png\" alt=\"Guía de iniciación para nuevos jugadores: te damos la bienvenida a World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever invita a los jugadores a una Azeroth original reimaginada, donde la exploración, la comunidad y la propia aventura son las protagonistas. Empieza en el nivel uno, crea un personaje a tu medida y aprende lo esencial para hacerte un hueco en un mundo diseñado para seguir creciendo durante años. \n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315280\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The Ula’tek adjustments are now live. I’ll be sure to add them to the hotfixes post later today.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The Ula’tek adjustments are now live. I’ll be sure to add them to the hotfixes post later today.</p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/gu%C3%ADa-de-iniciaci%C3%B3n-para-nuevos-jugadores-te-damos-la-bienvenida-a-world-of-warcraft-forever/80636/1"
-    },
-    {
-      "id": "blizz-1234534",
-      "postId": 1234534,
-      "topicId": 80585,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-27T20:15:13.822Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos…",
-        "es": "¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos…"
-      },
-      "summary": {
-        "en": "[¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos de Mareasombría!] Deja que el mortificador espíritu del mar inunde tu hogar con...",
-        "es": "[¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos de Mareasombría!] Deja que el mortificador espíritu del mar inunde tu hogar con..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\" alt=\"¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos de Mareasombría!\" width=\"833\" height=\"468\"></a></p><p>Deja que el mortificador espíritu del mar inunde tu hogar con la colección Mareasombría para los hogares de World of Warcraft, que incluye el exterior de mansión embrujada de Mareasombría, el interior de vestíbulo embrujado de Mareasombría y un pack a juego de adornos náuticos inquietantes. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303011\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\" alt=\"¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos de Mareasombría!\" width=\"833\" height=\"468\"></a></p><p>Deja que el mortificador espíritu del mar inunde tu hogar con la colección Mareasombría para los hogares de World of Warcraft, que incluye el exterior de mansión embrujada de Mareasombría, el interior de vestíbulo embrujado de Mareasombría y un pack a juego de adornos náuticos inquietantes. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303011\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1inunda-tu-hogar-con-el-esp%C3%ADritu-del-mar-gracias-a-la-hacienda-de-mareasombr%C3%ADa-y-el-pack-de-adornos%E2%80%A6/80585/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-venomous-abyss-raid-tuning-incoming/639867/14"
     },
     {
       "id": "blizz-6477693",
@@ -644,6 +672,118 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-3-november/631316/10"
+    },
+    {
+      "id": "blizz-30762649",
+      "postId": 30762649,
+      "topicId": 2401646,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-05T02:43:58.499Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Issues Resolved for Invite-a-Friend Players",
+        "es": "Issues Resolved for Invite-a-Friend Players"
+      },
+      "summary": {
+        "en": "With a hotfix that is now live, we’ve fixed an issue where players who joined WoW Forever by using an Invite-a-Friend Code were unexpectedly restricted from using certain chat chan...",
+        "es": "With a hotfix that is Ya Disponible, we’ve fixed an issue where players who joined WoW Forever by using an Invite-a-Friend Code were unexpectedly restricted from using certain chat..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>With a hotfix that is now live, we’ve fixed an issue where players who joined WoW Forever by using an Invite-a-Friend Code were unexpectedly restricted from using certain chat channels, leveling past 10, participating in guilds, forming parties, or trading items with other players.</p>\n<p>If you experienced this, you may wish to log out and back into WoW Forever.</p>\n<p>Thank you!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>With a hotfix that ahora es live, we’ve fixed an issue where players who joined WoW Forever by using an Invite-a-Friend Code were unexpectedly restricted from using certain chat channels, leveling past 10, participating in guilds, forming parties, or trading items with other players.</p>\n<p>If you experienced this, you may wish to log out and back into WoW Forever.</p>\n<p>Thank you!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/issues-resolved-for-invite-a-friend-players/2401646/1"
+    },
+    {
+      "id": "blizz-30761638",
+      "postId": 30761638,
+      "topicId": 2401461,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-05T00:30:07.691Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Set Your Campfire Ablaze with the Pouch of Violet Dust!",
+        "es": "Set Your Campfire Ablaze with the Pouch of Violet Dust!"
+      },
+      "summary": {
+        "en": "[Set Your Campfire Ablaze with the Pouch of Violet Dust!] Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to c...",
+        "es": "[Set Your Campfire Ablaze with the Pouch of Violet Dust!] Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to c..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\" alt=\"Set Your Campfire Ablaze with the Pouch of Violet Dust!\" width=\"833\" height=\"468\"></a></p><p>Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to collect the Pouch of Violet Dust toy. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24317678\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\" alt=\"Set Your Campfire Ablaze with the Pouch of Violet Dust!\" width=\"833\" height=\"468\"></a></p><p>Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to collect the Pouch of Violet Dust toy. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24317678\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/set-your-campfire-ablaze-with-the-pouch-of-violet-dust/2401461/1"
+    },
+    {
+      "id": "blizz-1234797",
+      "postId": 1234797,
+      "topicId": 80636,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-29T16:24:49.051Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Guía de iniciación para nuevos jugadores: te damos la bienvenida a World of Warcraft: Forever",
+        "es": "Guía de iniciación para nuevos jugadores: te damos la bienvenida a World of Warcraft: Forever"
+      },
+      "summary": {
+        "en": "[Guía de iniciación para nuevos jugadores: te damos la bienvenida a World of Warcraft: Forever] World of Warcraft: Forever invita a los jugadores a una Azeroth original reimaginada...",
+        "es": "[Guía de iniciación para nuevos jugadores: te damos la bienvenida a World of Warcraft: Forever] World of Warcraft: Forever invita a los jugadores a una Azeroth original reimaginada..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zo/ZOY5AGE9BF3C1793064955466.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zo/ZOY5AGE9BF3C1793064955466.png\" alt=\"Guía de iniciación para nuevos jugadores: te damos la bienvenida a World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever invita a los jugadores a una Azeroth original reimaginada, donde la exploración, la comunidad y la propia aventura son las protagonistas. Empieza en el nivel uno, crea un personaje a tu medida y aprende lo esencial para hacerte un hueco en un mundo diseñado para seguir creciendo durante años. \n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315280\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zo/ZOY5AGE9BF3C1793064955466.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/zo/ZOY5AGE9BF3C1793064955466.png\" alt=\"Guía de iniciación para nuevos jugadores: te damos la bienvenida a World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever invita a los jugadores a una Azeroth original reimaginada, donde la exploración, la comunidad y la propia aventura son las protagonistas. Empieza en el nivel uno, crea un personaje a tu medida y aprende lo esencial para hacerte un hueco en un mundo diseñado para seguir creciendo durante años. \n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315280\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/gu%C3%ADa-de-iniciaci%C3%B3n-para-nuevos-jugadores-te-damos-la-bienvenida-a-world-of-warcraft-forever/80636/1"
+    },
+    {
+      "id": "blizz-1234534",
+      "postId": 1234534,
+      "topicId": 80585,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-27T20:15:13.822Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos…",
+        "es": "¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos…"
+      },
+      "summary": {
+        "en": "[¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos de Mareasombría!] Deja que el mortificador espíritu del mar inunde tu hogar con...",
+        "es": "[¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos de Mareasombría!] Deja que el mortificador espíritu del mar inunde tu hogar con..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\" alt=\"¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos de Mareasombría!\" width=\"833\" height=\"468\"></a></p><p>Deja que el mortificador espíritu del mar inunde tu hogar con la colección Mareasombría para los hogares de World of Warcraft, que incluye el exterior de mansión embrujada de Mareasombría, el interior de vestíbulo embrujado de Mareasombría y un pack a juego de adornos náuticos inquietantes. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303011\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\" alt=\"¡Inunda tu hogar con el espíritu del mar gracias a la Hacienda de Mareasombría y el pack de adornos de Mareasombría!\" width=\"833\" height=\"468\"></a></p><p>Deja que el mortificador espíritu del mar inunde tu hogar con la colección Mareasombría para los hogares de World of Warcraft, que incluye el exterior de mansión embrujada de Mareasombría, el interior de vestíbulo embrujado de Mareasombría y un pack a juego de adornos náuticos inquietantes. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24303011\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1inunda-tu-hogar-con-el-esp%C3%ADritu-del-mar-gracias-a-la-hacienda-de-mareasombr%C3%ADa-y-el-pack-de-adornos%E2%80%A6/80585/1"
     },
     {
       "id": "blizz-6472787",
@@ -1260,146 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-burning-crusade-hotfixes-updated-october-27/2227871/191"
-    },
-    {
-      "id": "blizz-1234493",
-      "postId": 1234493,
-      "topicId": 80581,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-27T19:32:29.144Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Añade la montura caldera viviente Aterracorazón a tu colección",
-        "es": "Añade la montura caldera viviente Aterracorazón a tu colección"
-      },
-      "summary": {
-        "en": "[Añade la montura caldera viviente Aterracorazón a tu colección] Domina esta creación maldita y recorre toda Azeroth con un estilo siniestro. La caldera viviente Aterracorazón es u...",
-        "es": "[Añade la montura caldera viviente Aterracorazón a tu colección] Domina esta creación maldita y recorre toda Azeroth con un estilo siniestro. La caldera viviente Aterracorazón es u..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PRFWH5SKOR1792810102145.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PRFWH5SKOR1792810102145.png\" alt=\"Añade la montura caldera viviente Aterracorazón a tu colección\" width=\"833\" height=\"468\"></a></p><p>Domina esta creación maldita y recorre toda Azeroth con un estilo siniestro. La caldera viviente Aterracorazón es una montura encantadoramente macabra y te llevará a tus aventuras por tierra o aire. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304164\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PRFWH5SKOR1792810102145.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/48/48PRFWH5SKOR1792810102145.png\" alt=\"Añade la montura caldera viviente Aterracorazón a tu colección\" width=\"833\" height=\"468\"></a></p><p>Domina esta creación maldita y recorre toda Azeroth con un estilo siniestro. La caldera viviente Aterracorazón es una montura encantadoramente macabra y te llevará a tus aventuras por tierra o aire. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24304164\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/a%C3%B1ade-la-montura-caldera-viviente-aterracoraz%C3%B3n-a-tu-colecci%C3%B3n/80581/1"
-    },
-    {
-      "id": "blizz-1234458",
-      "postId": 1234458,
-      "topicId": 80577,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-27T19:00:11.289Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Tu próxima aventura en WoW: Forever comienza en WoW Portal Room",
-        "es": "Tu próxima aventura en WoW: Forever comienza en WoW Portal Room"
-      },
-      "summary": {
-        "en": "[Tu próxima aventura en WoW: Forever comienza en WoW Portal Room] Tanto si acabas de llegar a Azeroth, has vuelto tras un descanso o llevas años con World of Warcraft como parte de...",
-        "es": "[Tu próxima aventura en WoW: Forever comienza en WoW Portal Room] Tanto si acabas de llegar a Azeroth, has vuelto tras un descanso o llevas años con World of Warcraft como parte de..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\" alt=\"Tu próxima aventura en WoW: Forever comienza en WoW Portal Room\" width=\"833\" height=\"468\"></a></p><p>Tanto si acabas de llegar a Azeroth, has vuelto tras un descanso o llevas años con World of Warcraft como parte de tu vida, WoW Portal Room es un acogedor servidor de Discord donde podrás conocer a otros aventureros y encontrar tu próxima comunidad. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315203\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qk/QKRZSZKT5SQ71786404268489.jpg\" alt=\"Tu próxima aventura en WoW: Forever comienza en WoW Portal Room\" width=\"833\" height=\"468\"></a></p><p>Tanto si acabas de llegar a Azeroth, has vuelto tras un descanso o llevas años con World of Warcraft como parte de tu vida, WoW Portal Room es un acogedor servidor de Discord donde podrás conocer a otros aventureros y encontrar tu próxima comunidad. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315203\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/tu-pr%C3%B3xima-aventura-en-wow-forever-comienza-en-wow-portal-room/80577/1"
-    },
-    {
-      "id": "blizz-6459348",
-      "postId": 6459348,
-      "topicId": 638147,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-28T01:28:55.787Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Overly Restrictive Name Check and Fix Incoming - 28 October",
-        "es": "Overly Restrictive Name Check and Fix Próximamente - 28 October"
-      },
-      "summary": {
-        "en": "In WoW Forever, we’ve been working on the restricted name list, which is a list the game uses to check for non-profane names that we wish to restrict, such as major Warcraft lore c...",
-        "es": "In WoW Forever, we’ve been working on the restricted name list, which is a list the game uses to check for non-profane names that we wish to restrict, such as major Warcraft lore c..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>In WoW Forever, we’ve been working on the restricted name list, which is a list the game uses to check for non-profane names that we wish to restrict, such as major Warcraft lore characters or names that are blocked for technical reasons.</p>\n<p>Today we’ve determined that we have a bug in the process that caused the game to be overly restrictive with some names. For example, it has been incorrectly restricting names containing “c-o-n”.</p>\n<p>With the next realm restarts in each region, we’re going to implement the fix. Afterward, if you previously received a message that said “That name is restricted” for a name that you think should have been allowed, please feel free to try again.</p>\n<p>Thank you!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>In WoW Forever, we’ve been working on the restricted name list, which is a list the game uses to check for non-profane names that we wish to restrict, such as major Warcraft lore characters or names that are blocked for technical reasons.</p>\n<p>Today we’ve determined that we have a bug in the process that caused the game to be overly restrictive with some names. For example, it has been incorrectly restricting names containing “c-o-n”.</p>\n<p>With the next realm restarts in each region, we’re going to implement the fix. Afterward, if you previously received a message that said “That name is restricted” for a name that you think should have been allowed, please feel free to try again.</p>\n<p>Thank you!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/overly-restrictive-name-check-and-fix-incoming-28-october/638147/1"
-    },
-    {
-      "id": "blizz-6459323",
-      "postId": 6459323,
-      "topicId": 601545,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-28T00:44:54.494Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The Burning Crusade Hotfixes - Updated 27 October",
-        "es": "The Burning Crusade Correcciones en Vivo - Updated 27 October"
-      },
-      "summary": {
-        "en": "October 27, 2026 \nThe Burning Crusade Classic \n\nHeroic Dungeon keys now require Honored reputation instead of Revered....",
-        "es": "October 27, 2026 \nThe Burning Crusade Classic \n\nHeroic Mazmorra keys now require Honored reputation instead of Revered...."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 27, 2026</strong></p>\n<p><strong>The Burning Crusade Classic</strong></p>\n<ul>\n<li>Heroic Dungeon keys now require Honored reputation instead of Revered.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 27, 2026</strong></p>\n<p><strong>The Burning Crusade Classic</strong></p>\n<ul>\n<li>Heroic Dungeon keys now require Honored reputation instead of Revered.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-burning-crusade-hotfixes-updated-27-october/601545/114"
-    },
-    {
-      "id": "blizz-30649354",
-      "postId": 30649354,
-      "topicId": 2382684,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-10-28T00:43:08.817Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - October 30",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - October 30"
-      },
-      "summary": {
-        "en": "October 27, 2026 \nClasses \n\nDruid\n\nFeral\n\nAll damage done increased by 5%. Does not affect PvP combat.\n\n\nRestoration\n\nDeveloper’s note: These changes are intended to help Restorati...",
-        "es": "October 27, 2026 \nClasses \n\nDruid\n\nFeral\n\nAll damage done increased by 5%. Does not affect PvP combat.\n\n\nRestoration\n\nDeveloper’s note: These changes are intended to help Restorati..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 27, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>Druid</strong>\n<ul>\n<li><strong>Feral</strong>\n<ul>\n<li>All damage done increased by 5%. Does not affect PvP combat.</li>\n</ul>\n</li>\n<li><strong>Restoration</strong>\n<ul>\n<li><em>Developer’s note: These changes are intended to help Restoration Druid deal with burst damage in dungeons, as they are behind other healers. They are performing well in raid settings, so we are targeting talents and abilities that are favored when healing a 5-person group.</em></li>\n<li>Verdancy healing increased by 60%. Does not affect PvP combat.</li>\n<li>Regrowth healing increased by 10%. Does not affect PvP combat.</li>\n<li>Improved Swiftmend increases Swiftmend healing by 40% (was 30%). Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Hunter</strong>\n<ul>\n<li><strong>Marksmanship</strong>\n<ul>\n<li><em>Developers’ notes: These changes are intended to boost the area damage effectiveness of Marksmanship Hunters.</em></li>\n<li>Trick Shots now increases the ricochet damage of Aimed Shot and Rapid Fire by 85% (was 75%).</li>\n<li>Explosive Shot damage increased by 10%.</li>\n<li>Volley damage increased by 10%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Mage</strong>\n<ul>\n<li><strong>Fire</strong>\n<ul>\n<li>All damage done increased by 5%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Monk</strong>\n<ul>\n<li><strong>Mistweaver</strong>\n<ul>\n<li>Resolved an issue that caused the Mistline talent to sometimes not properly heal the lowest health target.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Rogue</strong>\n<ul>\n<li><strong>Subtlety</strong>\n<ul>\n<li><em>Developers’ notes: The buff Subtlety received as compensation alongside changes in the 12.1.5 patch overshot expectations, so we’re rolling back a significant portion of that buff. In addition, the patch changes benefitted Trickster more than Deathstalker, so Trickster is receiving an additional smaller nerf.</em></li>\n<li>All ability damage reduced by 8%.</li>\n<li>Trickster: Fazed now increases damage by 5% (was 7%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Warlock</strong>\n<ul>\n<li><strong>Affliction</strong>\n<ul>\n<li>Unstable Affliction damage increased by 20%. Does not affect PvP combat.</li>\n</ul>\n</li>\n<li><strong>Destruction</strong>\n<ul>\n<li>Rain of Fire damage increased by 20%.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where tabards would hide the Rexxar armor set.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue where some scenarios were not granting Great Vault credit.</li>\n</ul>\n<p><strong>Player versus Player</strong></p>\n<ul>\n<li><strong>Death Knight</strong>\n<ul>\n<li><strong>Unholy</strong>\n<ul>\n<li><em>Developers’ notes: The last adjustments to San’layn did increase its viability, but the impact of Vampiric Strike has been higher than we would like.</em></li>\n<li>San’layn: Vampiric Strike damage reduced by 20% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Demon Hunter</strong>\n<ul>\n<li><strong>Devourer</strong>\n<ul>\n<li>Collapsing Star damage increased by 20% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Evoker</strong>\n<ul>\n<li><strong>Preservation</strong>\n<ul>\n<li>Chronowarden: Chronal Dynamo increases the healing and damage of Living Flame by 80% when not an instant cast in PvP combat (was 50%).</li>\n<li>Chronowarden: Reverberations now causes Verdant Embrace to heal for an additional 80% over 8 seconds in PvP combat (was 40%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Hunter</strong>\n<ul>\n<li><strong>Marksmanship</strong>\n<ul>\n<li>Kill Shot damage increased by 40% in PvP combat.</li>\n<li>Deathblow’s chance to be activated by Aimed Shot increased to 25% in PvP combat.</li>\n<li>Dark Ranger: Black Arrow damage increased by 40% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Mage</strong>\n<ul>\n<li><strong>Fire</strong>\n<ul>\n<li><em>Developers’ notes: Fire Mage has continued to overperform, so we’re decreasing its overall damage to bring it in line with expectations.</em></li>\n<li>All damage reduced by 5% in PvP combat.</li>\n</ul>\n</li>\n<li><strong>Frost</strong>\n<ul>\n<li><em>Developers’ notes: Frostfire has not been a competitive option for Frost Mages this season, so we’re increasing a few of its burst damage aspects to differentiate its damage profile from Spellslinger.</em></li>\n<li>Frostfire: Isothermic Core’s Meteor damage increased by 20% in PvP combat.</li>\n<li>Frostfire: Duality’s Pyroblast damage increased by 20% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Monk</strong>\n<ul>\n<li><strong>Mistweaver</strong>\n<ul>\n<li><em>Developers’ notes: Conduit of the Celestials has not been a competitive option for Mistweavers this season, so we’re increasing its consistent and burst healing.</em></li>\n<li>Conduit of the Celestials: Celestial Conduit healing increased by 35% in PvP combat.</li>\n<li>Conduit of the Celestials: Strength of the Black Ox absorb increased by 25% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Paladin</strong>\n<ul>\n<li><strong>Holy</strong>\n<ul>\n<li><em>Developers’ notes: Holy Paladin’s throughput has been underperforming and we’re decreasing the mana cost of Holy Light to promote casted healing.</em></li>\n<li>All healing increased by 5% in PvP combat.</li>\n<li>Divine Favor now reduces the mana cost of Holy Light by 50% in PvP combat (was 30%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Priest</strong>\n<ul>\n<li><strong>Holy</strong>\n<ul>\n<li><em>Developers’ notes: These changes are aimed at further improving Archon’s viability in PvP with targeted increases to Prayer of Healing’s group healing and the power of proc effects from the tree.</em></li>\n<li>Prayerful Litany now causes the primary target of Prayer of Healing to be healed for 75% more in PvP combat (was 125%).</li>\n<li>Prayer of Healing healing increased by 30% in PvP combat.</li>\n<li>Archon: Resonant Energy now increases healing done by 4% per stack in PvP combat (was 2%).</li>\n<li>Archon: Empowered Surges now increases the healing of spells affected by Surge of Light by 10% in PvP combat (was 5%).</li>\n<li>Archon: Realized Potential now increases Flash Heal healing by 25% in PvP combat (was 20%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Rogue</strong>\n<ul>\n<li><strong>Assassination</strong>\n<ul>\n<li>Deathstalker: Deathstalker’s Mark damage increased by 20% in PvP combat.</li>\n<li>Deathstalker: Hunt Them Down damage increased by 20% in PvP combat.</li>\n<li>Deathstalker: Darkest Night now increases the damage of the next Eviscerate by 15% in PvP combat (was 8%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Shaman</strong>\n<ul>\n<li><strong>Restoration</strong>\n<ul>\n<li>Healing Stream Totem and Stormstream Totem healing increased by 20% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>October 27, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>DRUIDA</strong>\n<ul>\n<li><strong>Feral</strong>\n<ul>\n<li>All damage done increased by 5%. Does not affect PvP combat.</li>\n</ul>\n</li>\n<li><strong>Restauración</strong>\n<ul>\n<li><em>Developer’s note: These changes are intended to help Restauración Druid deal with burst damage in dungeons, as they are behind other healers. They are performing well in raid settings, so we are targeting talents and abilities that are favored when healing a 5-person group.</em></li>\n<li>Verdancy sanación aumentada un 60%. Does not affect PvP combat.</li>\n<li>Regrowth sanación aumentada un 10%. Does not affect PvP combat.</li>\n<li>Improved Swiftmend increases Swiftmend healing by 40% (antes era 30%). Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR</strong>\n<ul>\n<li><strong>Puntería</strong>\n<ul>\n<li><em>Developers’ notes: These changes are intended to boost the area damage effectiveness of Puntería Hunters.</em></li>\n<li>Trick Shots ahora aumenta the ricochet damage of Aimed Shot and Rapid Fuego by 85% (antes era 75%).</li>\n<li>Explosive Shot daño aumentado un 10%.</li>\n<li>Volley daño aumentado un 10%.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MAGO</strong>\n<ul>\n<li><strong>Fuego</strong>\n<ul>\n<li>All damage done increased by 5%. Does not affect PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MONJE</strong>\n<ul>\n<li><strong>Tejedor de niebla</strong>\n<ul>\n<li>Resolved an issue that caused the Mistline talent to sometimes not properly heal the lowest health target.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>PÍCARO</strong>\n<ul>\n<li><strong>Sutileza</strong>\n<ul>\n<li><em>Developers’ notes: The buff Sutileza received as compensation alongside changes in the 12.1.5 patch overshot expectations, so we’re rolling back a significant portion of that buff. In addition, the patch changes benefitted Trickster more than Deathstalker, so Trickster is receiving an additional smaller nerf.</em></li>\n<li>All ability daño reducido un 8%.</li>\n<li>Trickster: Fazed ahora aumenta damage by 5% (antes era 7%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>BRUJO</strong>\n<ul>\n<li><strong>Aflicción</strong>\n<ul>\n<li>Unstable Aflicción daño aumentado un 20%. Does not affect PvP combat.</li>\n</ul>\n</li>\n<li><strong>Destrucción</strong>\n<ul>\n<li>Rain of Fuego daño aumentado un 20%.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Fixed an issue where tabards would hide the Rexxar armor set.</li>\n</ul>\n<p><strong>Labyrinth</strong></p>\n<ul>\n<li>Fixed an issue where some scenarios were not granting Great Vault credit.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li><strong>CABALLERO DE LA MUERTE</strong>\n<ul>\n<li><strong>Profano</strong>\n<ul>\n<li><em>Developers’ notes: The last adjustments to San’layn did increase its viability, but the impact of Vampiric Strike has been higher than we would like.</em></li>\n<li>San’layn: Vampiric Strike daño reducido un 20% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR DE DEMONIOS</strong>\n<ul>\n<li><strong>Devourer</strong>\n<ul>\n<li>Collapsing Star daño aumentado un 20% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>EVOCADOR</strong>\n<ul>\n<li><strong>Preservación</strong>\n<ul>\n<li>Chronowarden: Chronal Dynamo increases the healing and damage of Living Flame by 80% when not an instant cast in PvP combat (antes era 50%).</li>\n<li>Chronowarden: Reverberations ahora causa Verdant Embrace to heal for an additional 80% over 8 seconds in PvP combat (antes era 40%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR</strong>\n<ul>\n<li><strong>Puntería</strong>\n<ul>\n<li>Kill Shot daño aumentado un 40% in PvP combat.</li>\n<li>Deathblow’s chance to be activated by Aimed Shot increased to 25% in PvP combat.</li>\n<li>Dark Ranger: Black Arrow daño aumentado un 40% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MAGO</strong>\n<ul>\n<li><strong>Fuego</strong>\n<ul>\n<li><em>Developers’ notes: Fuego Mage has continued to overperform, so we’re decreasing its overall damage to bring it in line with expectations.</em></li>\n<li>All daño reducido un 5% in PvP combat.</li>\n</ul>\n</li>\n<li><strong>Escarcha</strong>\n<ul>\n<li><em>Developers’ notes: Frostfire has not been a competitive option for Escarcha Mages this season, so we’re increasing a few of its burst damage aspects to differentiate its damage profile from Spellslinger.</em></li>\n<li>Frostfire: Isothermic Core’s Meteor daño aumentado un 20% in PvP combat.</li>\n<li>Frostfire: Duality’s Pyroblast daño aumentado un 20% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MONJE</strong>\n<ul>\n<li><strong>Tejedor de niebla</strong>\n<ul>\n<li><em>Developers’ notes: Conduit of the Celestials has not been a competitive option for Mistweavers this season, so we’re increasing its consistent and burst healing.</em></li>\n<li>Conduit of the Celestials: Celestial Conduit sanación aumentada un 35% in PvP combat.</li>\n<li>Conduit of the Celestials: Strength of the Black Ox absorb increased by 25% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li><strong>Sagrado</strong>\n<ul>\n<li><em>Developers’ notes: Sagrado Paladin’s throughput has been underperforming and we’re decreasing the mana cost of Sagrado Light to promote casted healing.</em></li>\n<li>All sanación aumentada un 5% in PvP combat.</li>\n<li>Divine Favor ahora reduce the mana cost of Sagrado Light by 50% in PvP combat (antes era 30%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>SACERDOTE</strong>\n<ul>\n<li><strong>Sagrado</strong>\n<ul>\n<li><em>Developers’ notes: These changes are aimed at further improving Archon’s viability in PvP with targeted increases to Prayer of Healing’s group healing and the power of proc effects from the tree.</em></li>\n<li>Prayerful Litany ahora causa the primary target of Prayer of Healing to be healed for 75% more in PvP combat (antes era 125%).</li>\n<li>Prayer of Healing sanación aumentada un 30% in PvP combat.</li>\n<li>Archon: Resonant Energy ahora aumenta healing done by 4% per stack in PvP combat (antes era 2%).</li>\n<li>Archon: Empowered Surges ahora aumenta the healing of spells affected by Surge of Light by 10% in PvP combat (antes era 5%).</li>\n<li>Archon: Realized Potential ahora aumenta Flash Heal healing by 25% in PvP combat (antes era 20%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>PÍCARO</strong>\n<ul>\n<li><strong>Asesinato</strong>\n<ul>\n<li>Deathstalker: Deathstalker’s Mark daño aumentado un 20% in PvP combat.</li>\n<li>Deathstalker: Hunt Them Down daño aumentado un 20% in PvP combat.</li>\n<li>Deathstalker: Darkest Night ahora aumenta the damage of the next Eviscerate by 15% in PvP combat (antes era 8%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li><strong>Restauración</strong>\n<ul>\n<li>Healing Stream Totem and Stormstream Totem sanación aumentada un 20% in PvP combat.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-october-30/2382684/141"
     }
   ],
   "blizzardNews": [
