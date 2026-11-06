@@ -2,6 +2,90 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30773808",
+      "postId": 30773808,
+      "topicId": 2402937,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-11-06T00:24:26.049Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "The Venomous Abyss Raid Tuning Incoming",
+        "es": "The Venomous Abyss Banda Tuning Próximamente"
+      },
+      "summary": {
+        "en": "Greetings, raiders! \nWe’ll be making a number of adjustments to encounters in the Venomous Abyss over the next few days. You can find the details below and we’ll update hotfixes wh...",
+        "es": "Greetings, Bandaers! \nWe’ll be making a number of adjustments to encounters in the Venomous Abyss over the next few days. You can find the details below and we’ll update Correccion..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Greetings, raiders!</p>\n<p>We’ll be making a number of adjustments to encounters in the Venomous Abyss over the next few days. You can find the details below and we’ll update <a href=\"https://worldofwarcraft.blizzard.com/news/24307310/\">hotfixes</a> when they are live.</p>\n<p><strong>The Venomous Abyss</strong></p>\n<ul>\n<li><strong>Entombed Sentinels</strong>\n<ul>\n<li>Reduced the maximum scale of Blood Venom pools on Heroic and Mythic difficulty.</li>\n<li>Blood Venom pool duration reduced to 2 minutes on Mythic difficulty (was 5 minutes).</li>\n</ul>\n</li>\n<li><strong>Vashnik, the Malignant</strong>\n<ul>\n<li>Malignance damage reduced by 37% on Mythic difficulty.</li>\n<li>Malignance damage over time duration reduced to 16 seconds on Mythic difficulty.</li>\n</ul>\n</li>\n<li><strong>Twin Fangs</strong>\n<ul>\n<li>Visceral Burst damage reduced by 40% on Mythic difficulty.</li>\n</ul>\n</li>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>Axegrinder movement speed reduced by 20% on all difficulties.</li>\n<li>Axegrinder damage reduced by 20% on Mythic difficulty.</li>\n<li>Gloombomb damage reduced by 20% on Mythic difficulty.</li>\n<li>Venom Rupture damage reduced by 15% on Mythic difficulty.</li>\n<li>Malevolent Resonance damage reduced by 60%.</li>\n<li>Gravebound Soul Fragments last an additional 2 seconds before fading away on Mythic difficulty.</li>\n<li>The number of Spiteful Soulcoilers that spawn from Spiritcackle reduced to 1 on Mythic difficulty (was 2).\n<ul>\n<li><em>Developers’ notes: With this change Soulcoilers will now spawn similarly to how they spawn on Heroic difficulty.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Ula’tek</strong>\n<ul>\n<li>Adjusted the health scaling on the following enemies on Raid Finder, Normal, and Heroic difficulties to better account for smaller raid sizes. Their base health has also been reduced on these difficulties to ensure the health scaling does not increase their health with larger raid sizes.\n<ul>\n<li>Ula’tek</li>\n<li>Blightsclae Rawling</li>\n<li>Blightscale Viper</li>\n<li>Blightscale Shrieker</li>\n<li>Weakened Doomscale</li>\n</ul>\n</li>\n<li>Ula’tek health reduced by 15% on Heroic difficulty.</li>\n<li>Unchecked Rage damage reduced by 61% on all difficulties.</li>\n<li>Caustic Waves impact damage reduced by 17% on Heroic and Mythic difficulties.</li>\n<li>Caustic Waves damage over time reduced by 75% on Normal, 61% on Heroic, and 89% on Mythic difficulties.</li>\n<li>Malice damage reduced by 63% on Normal and Heroic difficulty, and 45% on Mythic difficulty.</li>\n<li>Virulent Spit damage reduced by 46% on Raid Finder, 33% on Normal and Heroic, and 36% on Mythic difficulties.</li>\n<li>Falling Debris damage reduced by 46% on Raid Finder, 33% on Normal and Heroic, and 36% on Mythic difficulties.</li>\n<li>Viscous Echoes impact damage reduced by 53% and damage over time reduced by 25% on all difficulties.</li>\n<li>Reduced the number of eggs summoned by Call of the Serpent on Normal and Heroic difficulty.</li>\n<li>Reduced the number of targets selected by Serpent’s Bite on all difficulties.</li>\n<li>Reduced the number of targets selected by Grasping Fangs on Normal and Heroic difficulty.</li>\n<li>Removed 2 eggs from each side during Phase 2, reducing the total to 8 eggs per side on Heroic difficulty.</li>\n<li>Ula’tek no longer generates additional Caustic Waves from Spectral Tails when sending walls of waves across the platforms during Phase 3 on Heroic difficulty.</li>\n<li>Noxious Splash initial damage reduced by 33% and damage over time reduced by 84% on Mythic difficulty.</li>\n<li>Putrid Membrane duration reduced to 20 seconds (was 30 seconds) on Mythic difficulty.</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Greetings, raiders!</p>\n<p>We’ll be making a number of adjustments to encounters in the Venomous Abyss over the next few days. You can find the details below and we’ll update <a href=\"https://worldofwarcraft.blizzard.com/news/24307310/\">hotfixes</a> when they are live.</p>\n<p><strong>The Venomous Abyss</strong></p>\n<ul>\n<li><strong>Entombed Sentinels</strong>\n<ul>\n<li>Reduced the maximum scale of Sangre Venom pools on Heroic and Mythic difficulty.</li>\n<li>Sangre Venom pool duration reduced to 2 minutes on Mythic difficulty (was 5 minutes).</li>\n</ul>\n</li>\n<li><strong>Vashnik, the Malignant</strong>\n<ul>\n<li>Malignance daño reducido un 37% on Mythic difficulty.</li>\n<li>Malignance damage over time duration reduced to 16 seconds on Mythic difficulty.</li>\n</ul>\n</li>\n<li><strong>Twin Fangs</strong>\n<ul>\n<li>Visceral Burst daño reducido un 40% on Mythic difficulty.</li>\n</ul>\n</li>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>Axegrinder movement speed reduced by 20% on all difficulties.</li>\n<li>Axegrinder daño reducido un 20% on Mythic difficulty.</li>\n<li>Gloombomb daño reducido un 20% on Mythic difficulty.</li>\n<li>Venom Rupture daño reducido un 15% on Mythic difficulty.</li>\n<li>Malevolent Resonance daño reducido un 60%.</li>\n<li>Gravebound Soul Fragments last an additional 2 seconds before fading away on Mythic difficulty.</li>\n<li>The number of Spiteful Soulcoilers that spawn from Spiritcackle reduced to 1 on Mythic difficulty (was 2).\n<ul>\n<li><em>Developers’ notes: With this change Soulcoilers will now spawn similarly to how they spawn on Heroic difficulty.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Ula’tek</strong>\n<ul>\n<li>Adjusted the health scaling on the following enemies on Raid Finder, Normal, and Heroic difficulties to better account for smaller raid sizes. Their base health has also been reduced on these difficulties to ensure the health scaling does not increase their health with larger raid sizes.\n<ul>\n<li>Ula’tek</li>\n<li>Blightsclae Rawling</li>\n<li>Blightscale Viper</li>\n<li>Blightscale Shrieker</li>\n<li>Weakened Doomscale</li>\n</ul>\n</li>\n<li>Ula’tek health reduced by 15% on Heroic difficulty.</li>\n<li>Unchecked Rage daño reducido un 61% on all difficulties.</li>\n<li>Caustic Waves impact daño reducido un 17% on Heroic and Mythic difficulties.</li>\n<li>Caustic Waves damage over time reduced by 75% on Normal, 61% on Heroic, and 89% on Mythic difficulties.</li>\n<li>Malice daño reducido un 63% on Normal and Heroic difficulty, and 45% on Mythic difficulty.</li>\n<li>Virulent Spit daño reducido un 46% on Raid Finder, 33% on Normal and Heroic, and 36% on Mythic difficulties.</li>\n<li>Falling Debris daño reducido un 46% on Raid Finder, 33% on Normal and Heroic, and 36% on Mythic difficulties.</li>\n<li>Viscous Echoes impact daño reducido un 53% and damage over time reduced by 25% on all difficulties.</li>\n<li>Reduced the number of eggs summoned by Call of the Serpent on Normal and Heroic difficulty.</li>\n<li>Reduced the number of targets selected by Serpent’s Bite on all difficulties.</li>\n<li>Reduced the number of targets selected by Grasping Fangs on Normal and Heroic difficulty.</li>\n<li>Removed 2 eggs from each side during Phase 2, reducing the total to 8 eggs per side on Heroic difficulty.</li>\n<li>Ula’tek no longer generates additional Caustic Waves from Spectral Tails when sending walls of waves across the platforms during Phase 3 on Heroic difficulty.</li>\n<li>Noxious Splash initial daño reducido un 33% and damage over time reduced by 84% on Mythic difficulty.</li>\n<li>Putrid Membrane duration reduced to 20 seconds (was 30 seconds) on Mythic difficulty.</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-venomous-abyss-raid-tuning-incoming/2402937/1"
+    },
+    {
+      "id": "blizz-30772587",
+      "postId": 30772587,
+      "topicId": 2402802,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-05T22:00:07.091Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever– Watch Forging Forever",
+        "es": "WoW: Forever– Watch Forging Forever"
+      },
+      "summary": {
+        "en": "[WoW: Forever– Watch Forging Forever] Witness the creation of World of Warcraft: Forever&#39;s first legendary: Taldramir, the Whispering Wood.  View Full Article...",
+        "es": "[WoW: Forever– Watch Forging Forever] Witness the creation of World of Warcraft: Forever&#39;s first legendary: Taldramir, the Whispering Wood.  View Full Article..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\" alt=\"WoW: Forever– Watch Forging Forever\" width=\"833\" height=\"468\"></a></p><p>Witness the creation of World of Warcraft: Forever's first legendary: Taldramir, the Whispering Wood. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24317865\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\" alt=\"WoW: Forever– Watch Forging Forever\" width=\"833\" height=\"468\"></a></p><p>Witness the creation of World of Warcraft: Forever's first legendary: Taldramir, the Whispering Wood. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24317865\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever%E2%80%93-watch-forging-forever/2402802/1"
+    },
+    {
+      "id": "blizz-30772586",
+      "postId": 30772586,
+      "topicId": 2402801,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-05T22:00:06.897Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever– Watch Forging Forever",
+        "es": "WoW: Forever– Watch Forging Forever"
+      },
+      "summary": {
+        "en": "[WoW: Forever– Watch Forging Forever] Witness the creation of World of Warcraft: Forever&#39;s first legendary: Taldramir, the Whispering Wood.  View Full Article...",
+        "es": "[WoW: Forever– Watch Forging Forever] Witness the creation of World of Warcraft: Forever&#39;s first legendary: Taldramir, the Whispering Wood.  View Full Article..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\" alt=\"WoW: Forever– Watch Forging Forever\" width=\"833\" height=\"468\"></a></p><p>Witness the creation of World of Warcraft: Forever's first legendary: Taldramir, the Whispering Wood. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24317865\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\" alt=\"WoW: Forever– Watch Forging Forever\" width=\"833\" height=\"468\"></a></p><p>Witness the creation of World of Warcraft: Forever's first legendary: Taldramir, the Whispering Wood. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24317865\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever%E2%80%93-watch-forging-forever/2402801/1"
+    },
+    {
       "id": "blizz-30768701",
       "postId": 30768701,
       "topicId": 2402363,
@@ -23,8 +107,8 @@ window.WOW_NEWS_DATABASE = {
         "es": "In this thread, we will discuss issues that the WoW Forever team have determined to be notable, impactful, and already tracked with plans to fix in the future. This is not a compre..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>In this thread, we will discuss issues that the WoW Forever team have determined to be notable, impactful, and already tracked with plans to fix in the future. This is not a comprehensive list of issues, and it will be updated regularly.</p>\n<h2><a name=\"p-30768701-known-issues-1\" class=\"anchor\" href=\"#p-30768701-known-issues-1\" aria-label=\"Heading link\"></a>Known Issues</h2>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li>In Razorfen Kraul, there’s a cauldron near Roogug that players can fall into and get stuck.</li>\n</ul>\n<p><strong>Gamepad</strong></p>\n<ul>\n<li>An error may be generated when attempting to delete more than 1 rare or epic item.</li>\n<li>Instructions for the push-to-talk keyboard button may be unintentionally displayed when joining a voice channel.</li>\n</ul>\n<p><strong>NPCs</strong></p>\n<ul>\n<li>PvP Vendors are temporarily unavailable in all locations (Orgrimmar, Stormwind, and Dalaran).</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>“Vorsha the Lasher” in Ashenvale has been disabled until a bug causing a crash can be fixed.</li>\n</ul>\n<p><strong>User Interface</strong></p>\n<ul>\n<li>Bank pages are displaying in pages, causing the tabs to be listed outside the frame.</li>\n</ul>\n<p><strong>World</strong></p>\n<ul>\n<li>The entrance of Stormwind Keep may not look as intended, including unintended flashing textures.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>In this thread, we will discuss issues that the WoW Forever team have determined to be notable, impactful, and already tracked with plans to fix in the future. This is not a comprehensive list of issues, and it will be updated regularly.</p>\n<h2><a name=\"p-30768701-known-issues-1\" class=\"anchor\" href=\"#p-30768701-known-issues-1\" aria-label=\"Heading link\"></a>Known Issues</h2>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li>In Razorfen Kraul, there’s a cauldron near Roogug that players can fall into and get stuck.</li>\n</ul>\n<p><strong>Gamepad</strong></p>\n<ul>\n<li>An error may be generated when attempting to delete more than 1 rare or epic item.</li>\n<li>Instructions for the push-to-talk keyboard button may be unintentionally displayed when joining a voice channel.</li>\n</ul>\n<p><strong>NPCs</strong></p>\n<ul>\n<li>PvP Vendors are temporarily unavailable in all locations (Orgrimmar, Stormwind, and Dalaran).</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>“Vorsha the Lasher” in Ashenvale has been disabled until a bug causing a crash can be fixed.</li>\n</ul>\n<p><strong>User Interface</strong></p>\n<ul>\n<li>Bank pages are displaying in pages, causing the tabs to be listed outside the frame.</li>\n</ul>\n<p><strong>World</strong></p>\n<ul>\n<li>The entrance of Stormwind Keep may not look as intended, including unintended flashing textures.</li>\n</ul></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>In this thread, we will discuss issues that the WoW Forever team have determined to be notable, impactful, and already tracked with plans to fix in the future. This is not a comprehensive list of issues, and it will be updated regularly.</p>\n<h2><a name=\"p-30768701-known-issues-1\" class=\"anchor\" href=\"#p-30768701-known-issues-1\" aria-label=\"Heading link\"></a>Known Issues</h2>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li>In Razorfen Kraul, there’s a cauldron near Roogug that players can fall into and get stuck.</li>\n</ul>\n<p><strong>Gamepad</strong></p>\n<ul>\n<li>An error may be generated when attempting to delete more than 1 rare or epic item.</li>\n<li>Instructions for the push-to-talk keyboard button may be unintentionally displayed when joining a voice channel.</li>\n</ul>\n<p><strong>NPCs</strong></p>\n<ul>\n<li>PvP Vendors are temporarily unavailable in all locations (Orgrimmar, Stormwind, and Dalaran).</li>\n<li>Stormwind guards incorrectly direct players to Fyrenz Stagazer for Transmogrification. The correct name of the NPC is Fyrenz Vishonar.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li><s>“Vorsha the Lasher” in Ashenvale has been disabled until a bug causing a crash can be fixed.</s></li>\n</ul>\n<p><strong>User Interface</strong></p>\n<ul>\n<li>Bank pages are displaying in pages, causing the tabs to be listed outside the frame.</li>\n</ul>\n<p><strong>World</strong></p>\n<ul>\n<li>The entrance of Stormwind Keep may not look as intended, including unintended flashing textures.</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>In this thread, we will discuss issues that the WoW Forever team have determined to be notable, impactful, and already tracked with plans to fix in the future. This is not a comprehensive list of issues, and it will be updated regularly.</p>\n<h2><a name=\"p-30768701-known-issues-1\" class=\"anchor\" href=\"#p-30768701-known-issues-1\" aria-label=\"Heading link\"></a>Known Issues</h2>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li>In Razorfen Kraul, there’s a cauldron near Roogug that players can fall into and get stuck.</li>\n</ul>\n<p><strong>Gamepad</strong></p>\n<ul>\n<li>An error may be generated when attempting to delete more than 1 rare or epic item.</li>\n<li>Instructions for the push-to-talk keyboard button may be unintentionally displayed when joining a voice channel.</li>\n</ul>\n<p><strong>NPCs</strong></p>\n<ul>\n<li>PvP Vendors are temporarily unavailable in all locations (Orgrimmar, Stormwind, and Dalaran).</li>\n<li>Stormwind guards incorrectly direct players to Fyrenz Stagazer for Transmogrification. The correct name of the NPC is Fyrenz Vishonar.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li><s>“Vorsha the Lasher” in Ashenvale has been disabled until a bug causing a crash can be fixed.</s></li>\n</ul>\n<p><strong>User Interface</strong></p>\n<ul>\n<li>Bank pages are displaying in pages, causing the tabs to be listed outside the frame.</li>\n</ul>\n<p><strong>World</strong></p>\n<ul>\n<li>The entrance of Stormwind Keep may not look as intended, including unintended flashing textures.</li>\n</ul></div>"
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/known-issues-wow-forever-updated-nov-5/2402363/1"
@@ -140,90 +224,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/10"
-    },
-    {
-      "id": "blizz-30755588",
-      "postId": 30755588,
-      "topicId": 2400905,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-04T18:13:53.056Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Forever Launch Time",
-        "es": "World of Warcraft: Forever Launch Time"
-      },
-      "summary": {
-        "en": "WoW Forever launches simultaneously in all regions today at 3:00 p.m. PST. That’s: \n\n\n\n\nTime Zone\nLocation\nTime\nDate\n\n\n\n\nHST\nHonolulu\n1:00 p.m.\nNov. 4\n\n\nAKST\nJuneau\n2:00 p.m.\nNov. ...",
-        "es": "WoW Forever launches simultaneously in all regions today at 3:00 p.m. PST. That’s: \n\n\n\n\nTime Zone\nLocation\nTime\nDate\n\n\n\n\nHST\nHonolulu\n1:00 p.m.\nNov. 4\n\n\nAKST\nJuneau\n2:00 p.m.\nNov. ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>WoW Forever launches simultaneously in all regions today at 3:00 p.m. PST. That’s:</p>\n<div class=\"md-table\">\n<table>\n<thead>\n<tr>\n<th>Time Zone</th>\n<th>Location</th>\n<th>Time</th>\n<th>Date</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>HST</td>\n<td>Honolulu</td>\n<td>1:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>AKST</td>\n<td>Juneau</td>\n<td>2:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>PST</td>\n<td>Los Angeles</td>\n<td>3:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>PCT</td>\n<td>Vancouver</td>\n<td>4:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>MST</td>\n<td>Denver</td>\n<td>4:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>CST</td>\n<td>Dallas</td>\n<td>5:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>EST</td>\n<td>Montreal</td>\n<td>6:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>AST</td>\n<td>Halifax</td>\n<td>7:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>NST</td>\n<td>St. John’s</td>\n<td>7:30 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>GMT-3</td>\n<td>Sao Paulo</td>\n<td>8:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>AWST</td>\n<td>Perth</td>\n<td>7:00 a.m.</td>\n<td>Nov. 5</td>\n</tr>\n<tr>\n<td>AEDT</td>\n<td>Sydney</td>\n<td>10:00 a.m.</td>\n<td>Nov. 5</td>\n</tr>\n<tr>\n<td>NZDT</td>\n<td>Wellington</td>\n<td>12:00 Noon</td>\n<td>Nov. 5</td>\n</tr>\n</tbody>\n</table>\n</div><p><a href=\"https://www.twitch.tv/warcraft\">Until then,</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>WoW Forever launches simultaneously in all regions today at 3:00 p.m. PST. That’s:</p>\n<div class=\"md-table\">\n<table>\n<thead>\n<tr>\n<th>Time Zone</th>\n<th>Location</th>\n<th>Time</th>\n<th>Date</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>HST</td>\n<td>Honolulu</td>\n<td>1:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>AKST</td>\n<td>Juneau</td>\n<td>2:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>PST</td>\n<td>Los Angeles</td>\n<td>3:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>PCT</td>\n<td>Vancouver</td>\n<td>4:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>MST</td>\n<td>Denver</td>\n<td>4:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>CST</td>\n<td>Dallas</td>\n<td>5:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>EST</td>\n<td>Montreal</td>\n<td>6:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>AST</td>\n<td>Halifax</td>\n<td>7:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>NST</td>\n<td>St. John’s</td>\n<td>7:30 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>GMT-3</td>\n<td>Sao Paulo</td>\n<td>8:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>AWST</td>\n<td>Perth</td>\n<td>7:00 a.m.</td>\n<td>Nov. 5</td>\n</tr>\n<tr>\n<td>AEDT</td>\n<td>Sydney</td>\n<td>10:00 a.m.</td>\n<td>Nov. 5</td>\n</tr>\n<tr>\n<td>NZDT</td>\n<td>Wellington</td>\n<td>12:00 Noon</td>\n<td>Nov. 5</td>\n</tr>\n</tbody>\n</table>\n</div><p><a href=\"https://www.twitch.tv/warcraft\">Until then,</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-launch-time/2400905/1"
-    },
-    {
-      "id": "blizz-30743268",
-      "postId": 30743268,
-      "topicId": 2400119,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-03T20:00:09.240Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Explore WoW: Forever with a Gamepad",
-        "es": "Explore WoW: Forever with a Gamepad"
-      },
-      "summary": {
-        "en": "[Explore WoW: Forever with a Gamepad] Prefer a gamepad? Get to know another way to play World of Warcraft: Forever, from moving and casting spells to adjusting your settings. Gamep...",
-        "es": "[Explore WoW: Forever with a Gamepad] Prefer a gamepad? Get to know another way to play World of Warcraft: Forever, from moving and casting spells to adjusting your settings. Gamep..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\" alt=\"Explore WoW: Forever with a Gamepad\" width=\"833\" height=\"468\"></a></p><p>Prefer a gamepad? Get to know another way to play World of Warcraft: Forever, from moving and casting spells to adjusting your settings. Gamepad support is available in a beta state, with more improvements to come. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316974\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\" alt=\"Explore WoW: Forever with a Gamepad\" width=\"833\" height=\"468\"></a></p><p>Prefer a gamepad? Get to know another way to play World of Warcraft: Forever, from moving and casting spells to adjusting your settings. Gamepad support is available in a beta state, with more improvements to come. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316974\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/explore-wow-forever-with-a-gamepad/2400119/1"
-    },
-    {
-      "id": "blizz-30741364",
-      "postId": 30741364,
-      "topicId": 2400000,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-03T18:00:10.220Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW: Forever—What’s New and What Feels Familiar",
-        "es": "WoW: Forever—What’s New and What Feels Familiar"
-      },
-      "summary": {
-        "en": "[WoW: Forever—What’s New and What Feels Familiar] World of Warcraft: Forever has something for explorers, dungeon groups, collectors, roleplayers, and PvP fans alike. See how its i...",
-        "es": "[WoW: Forever—What’s New and What Feels Familiar] World of Warcraft: Forever has something for explorers, Mazmorra groups, collectors, roleplayers, and PvP fans alike. See how its ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/44/444A5FRH1FFH1793658573125.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/44/444A5FRH1FFH1793658573125.png\" alt=\"WoW: Forever—What’s New and What Feels Familiar\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever has something for explorers, dungeon groups, collectors, roleplayers, and PvP fans alike. See how its interface conveniences, class updates, and progression systems complement a distinct take on original WoW—and what to expect if you also play the modern game. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315821\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/44/444A5FRH1FFH1793658573125.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/44/444A5FRH1FFH1793658573125.png\" alt=\"WoW: Forever—What’s New and What Feels Familiar\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever has something for explorers, dungeon groups, collectors, roleplayers, and PvP fans alike. See how its interface conveniences, class updates, and progression systems complement a distinct take on original WoW—and what to expect if you also play the modern game. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315821\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever%E2%80%94what%E2%80%99s-new-and-what-feels-familiar/2400000/1"
     },
     {
       "id": "blizz-1235624",
@@ -450,6 +450,62 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1inunda-tu-hogar-con-el-esp%C3%ADritu-del-mar-gracias-a-la-hacienda-de-mareasombr%C3%ADa-y-el-pack-de-adornos%E2%80%A6/80585/1"
     },
     {
+      "id": "blizz-6477587",
+      "postId": 6477587,
+      "topicId": 639867,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Linxy (Community Manager)",
+      "dateRaw": "2026-11-06T00:24:50.369Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "The Venomous Abyss Raid Tuning Incoming",
+        "es": "The Venomous Abyss Banda Tuning Próximamente"
+      },
+      "summary": {
+        "en": "Greetings, raiders! \nWe’ll be making a number of adjustments to encounters in the Venomous Abyss over the next few days. You can find the details below and we’ll update hotfixes wh...",
+        "es": "Greetings, Bandaers! \nWe’ll be making a number of adjustments to encounters in the Venomous Abyss over the next few days. You can find the details below and we’ll update Correccion..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Greetings, raiders!</p>\n<p>We’ll be making a number of adjustments to encounters in the Venomous Abyss over the next few days. You can find the details below and we’ll update <a href=\"https://worldofwarcraft.blizzard.com/news/24307310/\">hotfixes</a> when they are live.</p>\n<p><strong>The Venomous Abyss</strong></p>\n<ul>\n<li><strong>Entombed Sentinels</strong>\n<ul>\n<li>Reduced the maximum scale of Blood Venom pools on Heroic and Mythic difficulty.</li>\n<li>Blood Venom pool duration reduced to 2 minutes on Mythic difficulty (was 5 minutes).</li>\n</ul>\n</li>\n<li><strong>Vashnik, the Malignant</strong>\n<ul>\n<li>Malignance damage reduced by 37% on Mythic difficulty.</li>\n<li>Malignance damage over time duration reduced to 16 seconds on Mythic difficulty.</li>\n</ul>\n</li>\n<li><strong>Twin Fangs</strong>\n<ul>\n<li>Visceral Burst damage reduced by 40% on Mythic difficulty.</li>\n</ul>\n</li>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>Axegrinder movement speed reduced by 20% on all difficulties.</li>\n<li>Axegrinder damage reduced by 20% on Mythic difficulty.</li>\n<li>Gloombomb damage reduced by 20% on Mythic difficulty.</li>\n<li>Venom Rupture damage reduced by 15% on Mythic difficulty.</li>\n<li>Malevolent Resonance damage reduced by 60%.</li>\n<li>Gravebound Soul Fragments last an additional 2 seconds before fading away on Mythic difficulty.</li>\n<li>The number of Spiteful Soulcoilers that spawn from Spiritcackle reduced to 1 on Mythic difficulty (was 2).\n<ul>\n<li><em>Developers’ notes: With this change Soulcoilers will now spawn similarly to how they spawn on Heroic difficulty.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Ula’tek</strong>\n<ul>\n<li>Adjusted the health scaling on the following enemies on Raid Finder, Normal, and Heroic difficulties to better account for smaller raid sizes. Their base health has also been reduced on these difficulties to ensure the health scaling does not increase their health with larger raid sizes.\n<ul>\n<li>Ula’tek</li>\n<li>Blightsclae Rawling</li>\n<li>Blightscale Viper</li>\n<li>Blightscale Shrieker</li>\n<li>Weakened Doomscale</li>\n</ul>\n</li>\n<li>Ula’tek health reduced by 15% on Heroic difficulty.</li>\n<li>Unchecked Rage damage reduced by 61% on all difficulties.</li>\n<li>Caustic Waves impact damage reduced by 17% on Heroic and Mythic difficulties.</li>\n<li>Caustic Waves damage over time reduced by 75% on Normal, 61% on Heroic, and 89% on Mythic difficulties.</li>\n<li>Malice damage reduced by 63% on Normal and Heroic difficulty, and 45% on Mythic difficulty.</li>\n<li>Virulent Spit damage reduced by 46% on Raid Finder, 33% on Normal and Heroic, and 36% on Mythic difficulties.</li>\n<li>Falling Debris damage reduced by 46% on Raid Finder, 33% on Normal and Heroic, and 36% on Mythic difficulties.</li>\n<li>Viscous Echoes impact damage reduced by 53% and damage over time reduced by 25% on all difficulties.</li>\n<li>Reduced the number of eggs summoned by Call of the Serpent on Normal and Heroic difficulty.</li>\n<li>Reduced the number of targets selected by Serpent’s Bite on all difficulties.</li>\n<li>Reduced the number of targets selected by Grasping Fangs on Normal and Heroic difficulty.</li>\n<li>Removed 2 eggs from each side during Phase 2, reducing the total to 8 eggs per side on Heroic difficulty.</li>\n<li>Ula’tek no longer generates additional Caustic Waves from Spectral Tails when sending walls of waves across the platforms during Phase 3 on Heroic difficulty.</li>\n<li>Noxious Splash initial damage reduced by 33% and damage over time reduced by 84% on Mythic difficulty.</li>\n<li>Putrid Membrane duration reduced to 20 seconds (was 30 seconds) on Mythic difficulty.</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Greetings, raiders!</p>\n<p>We’ll be making a number of adjustments to encounters in the Venomous Abyss over the next few days. You can find the details below and we’ll update <a href=\"https://worldofwarcraft.blizzard.com/news/24307310/\">hotfixes</a> when they are live.</p>\n<p><strong>The Venomous Abyss</strong></p>\n<ul>\n<li><strong>Entombed Sentinels</strong>\n<ul>\n<li>Reduced the maximum scale of Sangre Venom pools on Heroic and Mythic difficulty.</li>\n<li>Sangre Venom pool duration reduced to 2 minutes on Mythic difficulty (was 5 minutes).</li>\n</ul>\n</li>\n<li><strong>Vashnik, the Malignant</strong>\n<ul>\n<li>Malignance daño reducido un 37% on Mythic difficulty.</li>\n<li>Malignance damage over time duration reduced to 16 seconds on Mythic difficulty.</li>\n</ul>\n</li>\n<li><strong>Twin Fangs</strong>\n<ul>\n<li>Visceral Burst daño reducido un 40% on Mythic difficulty.</li>\n</ul>\n</li>\n<li><strong>The Coiled Altar</strong>\n<ul>\n<li>Axegrinder movement speed reduced by 20% on all difficulties.</li>\n<li>Axegrinder daño reducido un 20% on Mythic difficulty.</li>\n<li>Gloombomb daño reducido un 20% on Mythic difficulty.</li>\n<li>Venom Rupture daño reducido un 15% on Mythic difficulty.</li>\n<li>Malevolent Resonance daño reducido un 60%.</li>\n<li>Gravebound Soul Fragments last an additional 2 seconds before fading away on Mythic difficulty.</li>\n<li>The number of Spiteful Soulcoilers that spawn from Spiritcackle reduced to 1 on Mythic difficulty (was 2).\n<ul>\n<li><em>Developers’ notes: With this change Soulcoilers will now spawn similarly to how they spawn on Heroic difficulty.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Ula’tek</strong>\n<ul>\n<li>Adjusted the health scaling on the following enemies on Raid Finder, Normal, and Heroic difficulties to better account for smaller raid sizes. Their base health has also been reduced on these difficulties to ensure the health scaling does not increase their health with larger raid sizes.\n<ul>\n<li>Ula’tek</li>\n<li>Blightsclae Rawling</li>\n<li>Blightscale Viper</li>\n<li>Blightscale Shrieker</li>\n<li>Weakened Doomscale</li>\n</ul>\n</li>\n<li>Ula’tek health reduced by 15% on Heroic difficulty.</li>\n<li>Unchecked Rage daño reducido un 61% on all difficulties.</li>\n<li>Caustic Waves impact daño reducido un 17% on Heroic and Mythic difficulties.</li>\n<li>Caustic Waves damage over time reduced by 75% on Normal, 61% on Heroic, and 89% on Mythic difficulties.</li>\n<li>Malice daño reducido un 63% on Normal and Heroic difficulty, and 45% on Mythic difficulty.</li>\n<li>Virulent Spit daño reducido un 46% on Raid Finder, 33% on Normal and Heroic, and 36% on Mythic difficulties.</li>\n<li>Falling Debris daño reducido un 46% on Raid Finder, 33% on Normal and Heroic, and 36% on Mythic difficulties.</li>\n<li>Viscous Echoes impact daño reducido un 53% and damage over time reduced by 25% on all difficulties.</li>\n<li>Reduced the number of eggs summoned by Call of the Serpent on Normal and Heroic difficulty.</li>\n<li>Reduced the number of targets selected by Serpent’s Bite on all difficulties.</li>\n<li>Reduced the number of targets selected by Grasping Fangs on Normal and Heroic difficulty.</li>\n<li>Removed 2 eggs from each side during Phase 2, reducing the total to 8 eggs per side on Heroic difficulty.</li>\n<li>Ula’tek no longer generates additional Caustic Waves from Spectral Tails when sending walls of waves across the platforms during Phase 3 on Heroic difficulty.</li>\n<li>Noxious Splash initial daño reducido un 33% and damage over time reduced by 84% on Mythic difficulty.</li>\n<li>Putrid Membrane duration reduced to 20 seconds (was 30 seconds) on Mythic difficulty.</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-venomous-abyss-raid-tuning-incoming/639867/1"
+    },
+    {
+      "id": "blizz-6477437",
+      "postId": 6477437,
+      "topicId": 639841,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-05T22:00:06.362Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever– Watch Forging Forever",
+        "es": "WoW: Forever– Watch Forging Forever"
+      },
+      "summary": {
+        "en": "[WoW: Forever– Watch Forging Forever] Witness the creation of World of Warcraft: Forever&#39;s first legendary: Taldramir, the Whispering Wood.  View Full Article...",
+        "es": "[WoW: Forever– Watch Forging Forever] Witness the creation of World of Warcraft: Forever&#39;s first legendary: Taldramir, the Whispering Wood.  View Full Article..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\" alt=\"WoW: Forever– Watch Forging Forever\" width=\"833\" height=\"468\"></a></p><p>Witness the creation of World of Warcraft: Forever's first legendary: Taldramir, the Whispering Wood. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24317865\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\" alt=\"WoW: Forever– Watch Forging Forever\" width=\"833\" height=\"468\"></a></p><p>Witness the creation of World of Warcraft: Forever's first legendary: Taldramir, the Whispering Wood. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24317865\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever%E2%80%93-watch-forging-forever/639841/1"
+    },
+    {
       "id": "blizz-6476080",
       "postId": 6476080,
       "topicId": 639604,
@@ -616,6 +672,90 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever%E2%80%94what%E2%80%99s-new-and-what-feels-familiar/639257/1"
+    },
+    {
+      "id": "blizz-30755588",
+      "postId": 30755588,
+      "topicId": 2400905,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-04T18:13:53.056Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "World of Warcraft: Forever Launch Time",
+        "es": "World of Warcraft: Forever Launch Time"
+      },
+      "summary": {
+        "en": "WoW Forever launches simultaneously in all regions today at 3:00 p.m. PST. That’s: \n\n\n\n\nTime Zone\nLocation\nTime\nDate\n\n\n\n\nHST\nHonolulu\n1:00 p.m.\nNov. 4\n\n\nAKST\nJuneau\n2:00 p.m.\nNov. ...",
+        "es": "WoW Forever launches simultaneously in all regions today at 3:00 p.m. PST. That’s: \n\n\n\n\nTime Zone\nLocation\nTime\nDate\n\n\n\n\nHST\nHonolulu\n1:00 p.m.\nNov. 4\n\n\nAKST\nJuneau\n2:00 p.m.\nNov. ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>WoW Forever launches simultaneously in all regions today at 3:00 p.m. PST. That’s:</p>\n<div class=\"md-table\">\n<table>\n<thead>\n<tr>\n<th>Time Zone</th>\n<th>Location</th>\n<th>Time</th>\n<th>Date</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>HST</td>\n<td>Honolulu</td>\n<td>1:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>AKST</td>\n<td>Juneau</td>\n<td>2:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>PST</td>\n<td>Los Angeles</td>\n<td>3:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>PCT</td>\n<td>Vancouver</td>\n<td>4:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>MST</td>\n<td>Denver</td>\n<td>4:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>CST</td>\n<td>Dallas</td>\n<td>5:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>EST</td>\n<td>Montreal</td>\n<td>6:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>AST</td>\n<td>Halifax</td>\n<td>7:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>NST</td>\n<td>St. John’s</td>\n<td>7:30 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>GMT-3</td>\n<td>Sao Paulo</td>\n<td>8:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>AWST</td>\n<td>Perth</td>\n<td>7:00 a.m.</td>\n<td>Nov. 5</td>\n</tr>\n<tr>\n<td>AEDT</td>\n<td>Sydney</td>\n<td>10:00 a.m.</td>\n<td>Nov. 5</td>\n</tr>\n<tr>\n<td>NZDT</td>\n<td>Wellington</td>\n<td>12:00 Noon</td>\n<td>Nov. 5</td>\n</tr>\n</tbody>\n</table>\n</div><p><a href=\"https://www.twitch.tv/warcraft\">Until then,</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>WoW Forever launches simultaneously in all regions today at 3:00 p.m. PST. That’s:</p>\n<div class=\"md-table\">\n<table>\n<thead>\n<tr>\n<th>Time Zone</th>\n<th>Location</th>\n<th>Time</th>\n<th>Date</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>HST</td>\n<td>Honolulu</td>\n<td>1:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>AKST</td>\n<td>Juneau</td>\n<td>2:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>PST</td>\n<td>Los Angeles</td>\n<td>3:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>PCT</td>\n<td>Vancouver</td>\n<td>4:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>MST</td>\n<td>Denver</td>\n<td>4:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>CST</td>\n<td>Dallas</td>\n<td>5:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>EST</td>\n<td>Montreal</td>\n<td>6:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>AST</td>\n<td>Halifax</td>\n<td>7:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>NST</td>\n<td>St. John’s</td>\n<td>7:30 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>GMT-3</td>\n<td>Sao Paulo</td>\n<td>8:00 p.m.</td>\n<td>Nov. 4</td>\n</tr>\n<tr>\n<td>AWST</td>\n<td>Perth</td>\n<td>7:00 a.m.</td>\n<td>Nov. 5</td>\n</tr>\n<tr>\n<td>AEDT</td>\n<td>Sydney</td>\n<td>10:00 a.m.</td>\n<td>Nov. 5</td>\n</tr>\n<tr>\n<td>NZDT</td>\n<td>Wellington</td>\n<td>12:00 Noon</td>\n<td>Nov. 5</td>\n</tr>\n</tbody>\n</table>\n</div><p><a href=\"https://www.twitch.tv/warcraft\">Until then,</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-forever-launch-time/2400905/1"
+    },
+    {
+      "id": "blizz-30743268",
+      "postId": 30743268,
+      "topicId": 2400119,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-03T20:00:09.240Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Explore WoW: Forever with a Gamepad",
+        "es": "Explore WoW: Forever with a Gamepad"
+      },
+      "summary": {
+        "en": "[Explore WoW: Forever with a Gamepad] Prefer a gamepad? Get to know another way to play World of Warcraft: Forever, from moving and casting spells to adjusting your settings. Gamep...",
+        "es": "[Explore WoW: Forever with a Gamepad] Prefer a gamepad? Get to know another way to play World of Warcraft: Forever, from moving and casting spells to adjusting your settings. Gamep..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\" alt=\"Explore WoW: Forever with a Gamepad\" width=\"833\" height=\"468\"></a></p><p>Prefer a gamepad? Get to know another way to play World of Warcraft: Forever, from moving and casting spells to adjusting your settings. Gamepad support is available in a beta state, with more improvements to come. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316974\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\" alt=\"Explore WoW: Forever with a Gamepad\" width=\"833\" height=\"468\"></a></p><p>Prefer a gamepad? Get to know another way to play World of Warcraft: Forever, from moving and casting spells to adjusting your settings. Gamepad support is available in a beta state, with more improvements to come. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316974\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/explore-wow-forever-with-a-gamepad/2400119/1"
+    },
+    {
+      "id": "blizz-30741364",
+      "postId": 30741364,
+      "topicId": 2400000,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-03T18:00:10.220Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever—What’s New and What Feels Familiar",
+        "es": "WoW: Forever—What’s New and What Feels Familiar"
+      },
+      "summary": {
+        "en": "[WoW: Forever—What’s New and What Feels Familiar] World of Warcraft: Forever has something for explorers, dungeon groups, collectors, roleplayers, and PvP fans alike. See how its i...",
+        "es": "[WoW: Forever—What’s New and What Feels Familiar] World of Warcraft: Forever has something for explorers, Mazmorra groups, collectors, roleplayers, and PvP fans alike. See how its ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/44/444A5FRH1FFH1793658573125.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/44/444A5FRH1FFH1793658573125.png\" alt=\"WoW: Forever—What’s New and What Feels Familiar\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever has something for explorers, dungeon groups, collectors, roleplayers, and PvP fans alike. See how its interface conveniences, class updates, and progression systems complement a distinct take on original WoW—and what to expect if you also play the modern game. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315821\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/44/444A5FRH1FFH1793658573125.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/44/444A5FRH1FFH1793658573125.png\" alt=\"WoW: Forever—What’s New and What Feels Familiar\" width=\"833\" height=\"468\"></a></p><p>World of Warcraft: Forever has something for explorers, dungeon groups, collectors, roleplayers, and PvP fans alike. See how its interface conveniences, class updates, and progression systems complement a distinct take on original WoW—and what to expect if you also play the modern game. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315821\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever%E2%80%94what%E2%80%99s-new-and-what-feels-familiar/2400000/1"
     },
     {
       "id": "blizz-6471288",
@@ -1260,146 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/gold-transactions-must-be-direct/2394005/1"
-    },
-    {
-      "id": "blizz-6458976",
-      "postId": 6458976,
-      "topicId": 638111,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-27T21:53:17.565Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Gold Transactions Must Be Direct",
-        "es": "Gold Transactions Must Be Direct"
-      },
-      "summary": {
-        "en": "We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the ...",
-        "es": "We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the accounts actioned purchased the illicit gold and had the seller deliver it to a different player who provided a service to the purchaser, such as a raid carry.</p>\n<p>Please be reminded that gold received from an intermediate player has an extremely high likelihood of being illicit gold that was part of an RMT. To avoid actions such as account suspension and the removal of illicit gold, players should always directly transfer gold from the player buying the carry (or other activity) to the player providing the carry.</p>\n<p>Guilds that provide carries to players, who pay for them with gold that comes from an intermediate, are at risk of seeing that gold removed by Blizzard.</p>\n<p>Thank you very much!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve recently completed a round of actions taken against accounts that were found to have participated in spending real money on gold provided by a third party (RMT). Some of the accounts actioned purchased the illicit gold and had the seller deliver it to a different player who provided a service to the purchaser, such as a raid carry.</p>\n<p>Please be reminded that gold received from an intermediate player has an extremely high likelihood of being illicit gold that was part of an RMT. To avoid actions such as account suspension and the removal of illicit gold, players should always directly transfer gold from the player buying the carry (or other activity) to the player providing the carry.</p>\n<p>Guilds that provide carries to players, who pay for them with gold that comes from an intermediate, are at risk of seeing that gold removed by Blizzard.</p>\n<p>Thank you very much!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/gold-transactions-must-be-direct/638111/1"
-    },
-    {
-      "id": "blizz-30640021",
-      "postId": 30640021,
-      "topicId": 2393487,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-27T20:14:19.238Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!",
-        "es": "Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!"
-      },
-      "summary": {
-        "en": "[Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!] Bring the haunting spirit of the sea home with the Grimtide collection for World of Warcra...",
-        "es": "[Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!] Bring the haunting spirit of the sea home with the Grimtide collection for World of Warcra..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\" alt=\"Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!\" width=\"833\" height=\"468\"></a></p><p>Bring the haunting spirit of the sea home with the Grimtide collection for World of Warcraft Housing, featuring the Spirited Grimtide Manse exterior, Spirited Grimtide Foyer interior, and a coordinated pack of eerie nautical decor. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24303011\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\" alt=\"Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!\" width=\"833\" height=\"468\"></a></p><p>Bring the haunting spirit of the sea home with the Grimtide collection for World of Warcraft Housing, featuring the Spirited Grimtide Manse exterior, Spirited Grimtide Foyer interior, and a coordinated pack of eerie nautical decor. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24303011\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/bring-the-spirit-of-the-sea-home-with-the-new-grimtide-estate-and-grimtide-decor-packs/2393487/1"
-    },
-    {
-      "id": "blizz-1234238",
-      "postId": 1234238,
-      "topicId": 80551,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-26T18:00:11.405Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Únete a la demo de Historias de leyenda el 30 de octubre",
-        "es": "Únete a la demo de Historias de leyenda el 30 de octubre"
-      },
-      "summary": {
-        "en": "[Únete a la demo de Historias de leyenda el 30 de octubre] Prueba la demo de Historias de leyenda en el Reino Público de Pruebas (RPP) y vive la presentación de la Hondonada Roja, ...",
-        "es": "[Únete a la demo de Historias de leyenda el 30 de octubre] Prueba la demo de Historias de leyenda en el Reino Público de Pruebas (RPP) y vive la presentación de la Hondonada Roja, ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\" alt=\"Únete a la demo de Historias de leyenda el 30 de octubre\" width=\"833\" height=\"468\"></a></p><p>Prueba la demo de Historias de leyenda en el Reino Público de Pruebas (RPP) y vive la presentación de la Hondonada Roja, tres inquietantes historias en los niveles de dificultad normal, veterano y heroico, y las tres clases disponibles: asesino, inquisidor y bruja. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313107\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/wf/WFAZUC044JL81792714153153.jpg\" alt=\"Únete a la demo de Historias de leyenda el 30 de octubre\" width=\"833\" height=\"468\"></a></p><p>Prueba la demo de Historias de leyenda en el Reino Público de Pruebas (RPP) y vive la presentación de la Hondonada Roja, tres inquietantes historias en los niveles de dificultad normal, veterano y heroico, y las tres clases disponibles: asesino, inquisidor y bruja. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313107\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C3%BAnete-a-la-demo-de-historias-de-leyenda-el-30-de-octubre/80551/1"
-    },
-    {
-      "id": "blizz-1234232",
-      "postId": 1234232,
-      "topicId": 80550,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-26T17:07:45.642Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "No te pierdas el relato corto «Inquebrantable» de WoW: Forever",
-        "es": "No te pierdas el relato corto «Inquebrantable» de WoW: Forever"
-      },
-      "summary": {
-        "en": "[No te pierdas el relato corto «Inquebrantable» de WoW: Forever] ¿Los Renegados pueden servir a la Luz? Acompaña a Cormack, un cruzado caído, en un nuevo relato corto que contaremo...",
-        "es": "[No te pierdas el relato corto «Inquebrantable» de WoW: Forever] ¿Los Renegados pueden servir a la Luz? Acompaña a Cormack, un cruzado caído, en un nuevo relato corto que contaremo..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/a6/A6472MJY97H41792605774727.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/a6/A6472MJY97H41792605774727.png\" alt=\"No te pierdas el relato corto «Inquebrantable» de WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>¿Los Renegados pueden servir a la Luz? Acompaña a Cormack, un cruzado caído, en un nuevo relato corto que contaremos junto a la hoguera: «Inquebrantable».\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313105\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/a6/A6472MJY97H41792605774727.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/a6/A6472MJY97H41792605774727.png\" alt=\"No te pierdas el relato corto «Inquebrantable» de WoW: Forever\" width=\"833\" height=\"468\"></a></p><p>¿Los Renegados pueden servir a la Luz? Acompaña a Cormack, un cruzado caído, en un nuevo relato corto que contaremos junto a la hoguera: «Inquebrantable».\n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24313105\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/no-te-pierdas-el-relato-corto-%C2%ABinquebrantable%C2%BB-de-wow-forever/80550/1"
-    },
-    {
-      "id": "blizz-6458043",
-      "postId": 6458043,
-      "topicId": 638041,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-27T20:15:09.813Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!",
-        "es": "Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!"
-      },
-      "summary": {
-        "en": "[Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!] Bring the haunting spirit of the sea home with the Grimtide collection for World of Warcra...",
-        "es": "[Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!] Bring the haunting spirit of the sea home with the Grimtide collection for World of Warcra..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\" alt=\"Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!\" width=\"833\" height=\"468\"></a></p><p>Bring the haunting spirit of the sea home with the Grimtide collection for World of Warcraft Housing, featuring the Spirited Grimtide Manse exterior, Spirited Grimtide Foyer interior, and a coordinated pack of eerie nautical decor. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24303011\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/pm/PM5WD93PGFQ41792712512670.png\" alt=\"Bring the Spirit of the Sea Home with the New Grimtide Estate and Grimtide Decor Packs!\" width=\"833\" height=\"468\"></a></p><p>Bring the haunting spirit of the sea home with the Grimtide collection for World of Warcraft Housing, featuring the Spirited Grimtide Manse exterior, Spirited Grimtide Foyer interior, and a coordinated pack of eerie nautical decor. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24303011\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/bring-the-spirit-of-the-sea-home-with-the-new-grimtide-estate-and-grimtide-decor-packs/638041/1"
     }
   ],
   "blizzardNews": [
