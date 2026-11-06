@@ -1,12 +1,12 @@
 {
-  "state": "running",
-  "lastRunAt": "2026-11-05T14:11:56Z",
-  "lastRunEpochMs": 1793887916041,
-  "nextScheduledAt": "2026-11-06T02:11:56Z",
-  "durationSec": 65.2,
+  "state": "error",
+  "lastRunAt": "2026-11-06T02:15:09Z",
+  "lastRunEpochMs": 1793931309144,
+  "nextScheduledAt": "2026-11-06T14:15:09Z",
+  "durationSec": 181.2,
   "triggerRequestedAt": 0,
   "triggerTarget": "all",
-  "currentStep": "Iniciando navegador Camoufox en VPS (modo: all)...",
+  "currentStep": "Con errores parciales — revisa las tarjetas",
   "modules": {
     "archon": {
       "name": "Archon.gg (Presets, BiS, Talentos 1:1 & Healers)",
@@ -14,18 +14,18 @@
         "archon_data.js",
         "archon_healers.js"
       ],
-      "status": "running",
+      "status": "error",
       "updatedAt": "2026-11-05T14:08:31Z",
       "summary": "40/40 specs (Raid + M+) + 7 Healers",
-      "error": null
+      "error": "Error: NetworkError when attempting to fetch resource."
     },
     "stats": {
       "name": "Prioridades de Estadísticas & Hero Trees (Wowhead)",
       "files": [
         "wow_stat_priorities.js"
       ],
-      "status": "running",
-      "updatedAt": "2026-11-05T07:03:58Z",
+      "status": "ok",
+      "updatedAt": "2026-11-06T02:15:07Z",
       "summary": "40/40 guías extraídas",
       "error": null
     },
@@ -34,8 +34,8 @@
       "files": [
         "wowhead_data.js"
       ],
-      "status": "running",
-      "updatedAt": "2026-11-05T07:03:58Z",
+      "status": "ok",
+      "updatedAt": "2026-11-06T02:15:07Z",
       "summary": "40/40 specs con iconos oficiales",
       "error": null
     },
@@ -44,8 +44,8 @@
       "files": [
         "bloodmallet_data.js"
       ],
-      "status": "running",
-      "updatedAt": "2026-11-05T14:11:54Z",
+      "status": "ok",
+      "updatedAt": "2026-11-06T02:15:07Z",
       "summary": "80/80 simulaciones (1T y 5T)",
       "error": null
     }
