@@ -1,5 +1,5 @@
 // Archon.gg Datos Oficiales Unificados (Stats + Árboles Talentos 1:1 + BiS Gear + Abalorios Healers)
-window.ARCHON_LAST_UPDATED = "2026-11-07T02:20:35.627Z";
+window.ARCHON_LAST_UPDATED = "2026-11-07T14:23:56.240Z";
 window.ARCHON_PRESETS = {
   "deathknight": {
     "blood": {
@@ -246,11 +246,11 @@ window.ARCHON_PRESETS = {
     },
     "frost": {
       "raid": {
-        "m": 1178,
-        "c": 1315,
-        "h": 589,
+        "m": 1180,
+        "c": 1313,
+        "h": 591,
         "v": 120,
-        "dps": "361.5k",
+        "dps": "363.8k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/gAL8njhHGt1fvdTD#fight=15",
@@ -261,113 +261,113 @@ window.ARCHON_PRESETS = {
           {
             "id": 271474,
             "name": "",
-            "params": "pcs=271477:271474:271472:271473&gems=240908&ench=7991",
-            "popularity": 88.7,
+            "params": "pcs=271477:271472:271474:271473&gems=240908&ench=7991",
+            "popularity": 86.9,
             "parses": 12
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271477:271474:271472:271473:268265&gems=240983",
-            "popularity": 95.7,
+            "params": "bonus=13534&pcs=271477:271472:271474:271473:268265&gems=240983",
+            "popularity": 94.3,
             "parses": 13
           },
           {
             "id": 271472,
             "name": "",
-            "params": "pcs=271477:271474:271472:271473&ench=7973",
-            "popularity": 88.3,
+            "params": "pcs=271477:271472:271474:271473&ench=7973",
+            "popularity": 87.4,
             "parses": 12
           },
           {
             "id": 268253,
             "name": "",
-            "params": "pcs=271477:271474:271472:271473:268253",
-            "popularity": 40.4,
+            "params": "pcs=271477:271472:271474:271473:268253",
+            "popularity": 40.1,
             "parses": 5
           },
           {
             "id": 271477,
             "name": "",
-            "params": "pcs=271477:271474:271472:271473&ench=7987",
-            "popularity": 92.3,
+            "params": "pcs=271477:271472:271474:271473&ench=7987",
+            "popularity": 91,
             "parses": 12
           },
           {
             "id": 237834,
             "name": "",
-            "params": "bonus=8791&pcs=271477:271474:271472:271473:237834&gems=240908",
-            "popularity": 76.2,
+            "params": "bonus=8791&pcs=271477:271472:271474:271473:237834&gems=240908",
+            "popularity": 75.1,
             "parses": 10
           },
           {
             "id": 271475,
             "name": "",
-            "params": "pcs=271477:271474:271472:271473:271475",
-            "popularity": 81.5,
+            "params": "pcs=271477:271472:271474:271473:271475",
+            "popularity": 80.1,
             "parses": 11
           },
           {
             "id": 268259,
             "name": "",
-            "params": "pcs=271477:271474:271472:271473:268259&gems=240908",
-            "popularity": 51.8,
+            "params": "pcs=271477:271472:271474:271473:268259&gems=240908",
+            "popularity": 51.6,
             "parses": 7
           },
           {
             "id": 271473,
             "name": "",
-            "params": "pcs=271477:271474:271472:271473&ench=8159",
-            "popularity": 85.4,
+            "params": "pcs=271477:271472:271474:271473&ench=8159",
+            "popularity": 84.2,
             "parses": 11
           },
           {
             "id": 237828,
             "name": "",
-            "params": "bonus=8791&pcs=271477:271474:271472:271473:237828&ench=8019",
-            "popularity": 53.6,
+            "params": "bonus=8791&pcs=271477:271472:271474:271473:237828&ench=8019",
+            "popularity": 52.6,
             "parses": 7
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271477:271474:271472:271473:281029&gems=240908&ench=7967",
-            "popularity": 43.3,
+            "params": "bonus=13534&pcs=271477:271472:271474:271473:281029&gems=240908&ench=7967",
+            "popularity": 44.4,
             "parses": 6
           },
           {
             "id": 251513,
             "name": "",
-            "params": ":8791&pcs=271477:271474:271472:271473:251513&gems=240908&ench=7967",
-            "popularity": 41.7,
+            "params": ":8791&pcs=271477:271472:271474:271473:251513&gems=240908&ench=7967",
+            "popularity": 41.3,
             "parses": 5
           },
           {
             "id": 268209,
             "name": "",
-            "params": "pcs=271477:271474:271472:271473:268209&ench=3368",
-            "popularity": 74.3,
+            "params": "pcs=271477:271472:271474:271473:268209&ench=3368",
+            "popularity": 73.4,
             "parses": 10
           },
           {
             "id": 268202,
             "name": "",
-            "params": "pcs=271477:271474:271472:271473:268202&ench=3847",
-            "popularity": 68,
+            "params": "pcs=271477:271472:271474:271473:268202&ench=3847",
+            "popularity": 67.4,
             "parses": 9
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 70.1,
+            "popularity": 69.2,
             "parses": 9
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 70.1,
+            "popularity": 69.2,
             "parses": 9
           }
         ]
@@ -502,11 +502,11 @@ window.ARCHON_PRESETS = {
     },
     "unholy": {
       "raid": {
-        "m": 1187,
-        "c": 1282,
+        "m": 1191,
+        "c": 1280,
         "h": 575,
         "v": 123,
-        "dps": "319.1k",
+        "dps": "319.5k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/hBAgv4qD1Lf3RT8x#fight=2",
@@ -518,7 +518,7 @@ window.ARCHON_PRESETS = {
             "id": 271474,
             "name": "",
             "params": "pcs=271477:271474:271472:271473&gems=240908&ench=7991",
-            "popularity": 89.9,
+            "popularity": 89.7,
             "parses": 7
           },
           {
@@ -532,7 +532,7 @@ window.ARCHON_PRESETS = {
             "id": 271472,
             "name": "",
             "params": "pcs=271477:271474:271472:271473&ench=8001",
-            "popularity": 87.8,
+            "popularity": 87.7,
             "parses": 7
           },
           {
@@ -546,7 +546,7 @@ window.ARCHON_PRESETS = {
             "id": 271477,
             "name": "",
             "params": "pcs=271477:271474:271472:271473&ench=7987",
-            "popularity": 93.5,
+            "popularity": 93.6,
             "parses": 7
           },
           {
@@ -560,49 +560,49 @@ window.ARCHON_PRESETS = {
             "id": 271475,
             "name": "",
             "params": "pcs=271477:271474:271472:271473:271475",
-            "popularity": 82.3,
+            "popularity": 81.5,
             "parses": 6
           },
           {
             "id": 268259,
             "name": "",
             "params": "pcs=271477:271474:271472:271473:268259&gems=240908",
-            "popularity": 52.2,
+            "popularity": 52.3,
             "parses": 4
           },
           {
             "id": 271473,
             "name": "",
             "params": "pcs=271477:271474:271472:271473&ench=8159",
-            "popularity": 82.5,
+            "popularity": 82.8,
             "parses": 6
           },
           {
             "id": 237828,
             "name": "",
             "params": "bonus=8791&pcs=271477:271474:271472:271473:237828&ench=8019",
-            "popularity": 70.5,
+            "popularity": 70.4,
             "parses": 5
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271477:271474:271472:271473:281029&gems=240908&ench=7967",
-            "popularity": 51.1,
+            "popularity": 53.1,
             "parses": 4
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8791&pcs=271477:271474:271472:271473:240949&gems=240908&ench=7967",
-            "popularity": 31.5,
+            "popularity": 31.1,
             "parses": 2
           },
           {
             "id": 268213,
             "name": "",
             "params": "pcs=271477:271474:271472:271473:268213&ench=6245",
-            "popularity": 87.1,
+            "popularity": 87.2,
             "parses": 7
           },
           {
@@ -1258,11 +1258,11 @@ window.ARCHON_PRESETS = {
     },
     "devourer": {
       "raid": {
-        "m": 1246,
-        "c": 762,
+        "m": 1250,
+        "c": 760,
         "h": 1004,
-        "v": 123,
-        "dps": "336.0k",
+        "v": 122,
+        "dps": "336.3k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/7KVxwhBtJ3RjpPH9#fight=39",
@@ -1273,113 +1273,113 @@ window.ARCHON_PRESETS = {
           {
             "id": 271537,
             "name": "",
-            "params": "pcs=271537:271540:271538:271535&gems=240898&ench=8017",
-            "popularity": 90.2,
+            "params": "pcs=271537:271540:271535:271538&gems=240898&ench=8017",
+            "popularity": 90.5,
             "parses": 7
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271537:271540:271538:271535:268265&gems=240983",
-            "popularity": 93.9,
+            "params": "bonus=13534&pcs=271537:271540:271535:271538:268265&gems=240983",
+            "popularity": 94.5,
             "parses": 8
           },
           {
             "id": 271535,
             "name": "",
-            "params": "pcs=271537:271540:271538:271535&ench=8001",
-            "popularity": 86.2,
+            "params": "pcs=271537:271540:271535:271538&ench=8001",
+            "popularity": 86.3,
             "parses": 7
           },
           {
             "id": 268253,
             "name": "",
-            "params": "pcs=271537:271540:271538:271535:268253",
-            "popularity": 33.2,
+            "params": "pcs=271537:271540:271535:271538:268253",
+            "popularity": 33.9,
             "parses": 2
           },
           {
             "id": 271540,
             "name": "",
-            "params": "pcs=271537:271540:271538:271535&ench=7987",
+            "params": "pcs=271537:271540:271535:271538&ench=7987",
             "popularity": 88.3,
             "parses": 7
           },
           {
             "id": 244576,
             "name": "",
-            "params": "bonus=8791&pcs=271537:271540:271538:271535:244576&gems=240898",
-            "popularity": 75.8,
+            "params": "bonus=8791&pcs=271537:271540:271535:271538:244576&gems=240898",
+            "popularity": 76.4,
             "parses": 6
           },
           {
             "id": 271538,
             "name": "",
-            "params": "pcs=271537:271540:271538:271535",
-            "popularity": 86.4,
+            "params": "pcs=271537:271540:271535:271538",
+            "popularity": 85.9,
             "parses": 7
           },
           {
             "id": 268256,
             "name": "",
-            "params": "pcs=271537:271540:271538:271535:268256&gems=240898",
-            "popularity": 31.6,
+            "params": "pcs=271537:271540:271535:271538:268256&gems=240898",
+            "popularity": 32.4,
             "parses": 2
           },
           {
             "id": 271536,
             "name": "",
-            "params": "pcs=271537:271540:271538:271535:271536&ench=7935",
-            "popularity": 85.2,
+            "params": "pcs=271537:271540:271535:271538:271536&ench=7935",
+            "popularity": 85.1,
             "parses": 7
           },
           {
             "id": 244569,
             "name": "",
-            "params": "bonus=8791&pcs=271537:271540:271538:271535:244569&ench=7963",
-            "popularity": 80.1,
+            "params": "bonus=8791&pcs=271537:271540:271535:271538:244569&ench=7963",
+            "popularity": 80.5,
             "parses": 6
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271537:271540:271538:271535:281029&gems=240898&ench=7967",
-            "popularity": 68.2,
-            "parses": 5
+            "params": "bonus=13534&pcs=271537:271540:271535:271538:281029&gems=240898&ench=7967",
+            "popularity": 70.6,
+            "parses": 6
           },
           {
             "id": 268249,
             "name": "",
-            "params": "bonus=13534&pcs=271537:271540:271538:271535:268249&gems=240898&ench=7967",
-            "popularity": 38.9,
+            "params": "bonus=13534&pcs=271537:271540:271535:271538:268249&gems=240898&ench=7967",
+            "popularity": 38.5,
             "parses": 3
           },
           {
             "id": 271092,
             "name": "",
-            "params": "pcs=271537:271540:271538:271535:271092&ench=8689",
-            "popularity": 75.7,
+            "params": "pcs=271537:271540:271535:271538:271092&ench=8689",
+            "popularity": 76.2,
             "parses": 6
           },
           {
             "id": 237840,
             "name": "",
-            "params": "bonus=8791&pcs=271537:271540:271538:271535:237840&ench=8689",
-            "popularity": 37.9,
+            "params": "bonus=8791&pcs=271537:271540:271535:271538:237840&ench=8689",
+            "popularity": 36.7,
             "parses": 3
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 40.9,
+            "popularity": 42.3,
             "parses": 3
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 40.9,
+            "popularity": 42.3,
             "parses": 3
           }
         ]
@@ -3026,11 +3026,11 @@ window.ARCHON_PRESETS = {
     },
     "augmentation": {
       "raid": {
-        "m": 1682,
-        "c": 910,
-        "h": 510,
+        "m": 1685,
+        "c": 887,
+        "h": 511,
         "v": 139,
-        "dps": "324.1k",
+        "dps": "322.1k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/2hcr9LVpPd7H3tMW#fight=4",
@@ -3042,112 +3042,112 @@ window.ARCHON_PRESETS = {
             "id": 271501,
             "name": "",
             "params": "pcs=271504:271499:271501:271502&gems=240898&ench=8017",
-            "popularity": 88.6,
+            "popularity": 88.4,
             "parses": 8
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271504:271499:271501:271502:268265&gems=240983",
-            "popularity": 75.1,
+            "popularity": 76,
             "parses": 7
           },
           {
             "id": 271499,
             "name": "",
             "params": "pcs=271504:271499:271501:271502&ench=8001",
-            "popularity": 89.2,
+            "popularity": 89.3,
             "parses": 8
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271504:271499:271501:271502:268253",
-            "popularity": 31.1,
+            "popularity": 32.1,
             "parses": 3
           },
           {
             "id": 271504,
             "name": "",
             "params": "pcs=271504:271499:271501:271502&ench=7987",
-            "popularity": 91.8,
+            "popularity": 92.1,
             "parses": 8
           },
           {
             "id": 244584,
             "name": "",
             "params": "bonus=8791&pcs=271504:271499:271501:271502:244584&gems=240898",
-            "popularity": 72.7,
+            "popularity": 73,
             "parses": 7
           },
           {
             "id": 271502,
             "name": "",
             "params": "pcs=271504:271499:271501:271502",
-            "popularity": 85.2,
+            "popularity": 85.7,
             "parses": 8
           },
           {
             "id": 268254,
             "name": "",
             "params": "pcs=271504:271499:271501:271502:268254&gems=240898",
-            "popularity": 36.8,
+            "popularity": 37.3,
             "parses": 3
           },
           {
             "id": 271500,
             "name": "",
             "params": "pcs=271504:271499:271501:271502:271500&ench=7935",
-            "popularity": 83.1,
-            "parses": 8
+            "popularity": 82.7,
+            "parses": 7
           },
           {
             "id": 268258,
             "name": "",
             "params": "pcs=271504:271499:271501:271502:268258&ench=7963",
-            "popularity": 33.8,
+            "popularity": 34.3,
             "parses": 3
           },
           {
             "id": 268249,
             "name": "",
             "params": "bonus=13534&pcs=271504:271499:271501:271502:268249&gems=240898&ench=7969",
-            "popularity": 59.7,
+            "popularity": 60.2,
             "parses": 5
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8791&pcs=271504:271499:271501:271502:240949&gems=240898&ench=7969",
-            "popularity": 41.3,
-            "parses": 4
+            "popularity": 40.2,
+            "parses": 3
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271504:271499:271501:271502:271092&ench=8689",
-            "popularity": 52.8,
+            "popularity": 53.1,
             "parses": 5
           },
           {
             "id": 245769,
             "name": "",
             "params": "bonus=8791&pcs=271504:271499:271501:271502:245769",
-            "popularity": 42.1,
+            "popularity": 42.2,
             "parses": 4
           },
           {
             "id": 270161,
             "name": "",
             "params": "nofollow",
-            "popularity": 25.3,
+            "popularity": 24.7,
             "parses": 2
           },
           {
             "id": 270168,
             "name": "",
             "params": "nofollow",
-            "popularity": 25.3,
+            "popularity": 24.7,
             "parses": 2
           }
         ]
@@ -4268,11 +4268,11 @@ window.ARCHON_PRESETS = {
     },
     "fire": {
       "raid": {
-        "m": 871,
-        "c": 279,
+        "m": 870,
+        "c": 280,
         "h": 1368,
-        "v": 559,
-        "dps": "343.0k",
+        "v": 558,
+        "dps": "344.0k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/89HvPt6LdrF4AhC2#fight=6",
@@ -4283,114 +4283,114 @@ window.ARCHON_PRESETS = {
           {
             "id": 271564,
             "name": "",
-            "params": "pcs=271562:271563:271565:271564&gems=240916&ench=8017",
-            "popularity": 85,
-            "parses": 841
+            "params": "pcs=271562:271563:271564:271565&gems=240916&ench=8017",
+            "popularity": 85.6,
+            "parses": 850
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271562:271563:271565:271564:268265&gems=240967",
-            "popularity": 93.1,
-            "parses": 921
+            "params": "bonus=13534&pcs=271562:271563:271564:271565:268265&gems=240967",
+            "popularity": 93.8,
+            "parses": 931
           },
           {
             "id": 271562,
             "name": "",
-            "params": "pcs=271562:271563:271565:271564&ench=8001",
-            "popularity": 94.1,
-            "parses": 931
+            "params": "pcs=271562:271563:271564:271565&ench=8001",
+            "popularity": 93.7,
+            "parses": 930
           },
           {
             "id": 239656,
             "name": "",
-            "params": "bonus=8792&pcs=271562:271563:271565:271564:239656",
-            "popularity": 30.3,
-            "parses": 300
+            "params": "bonus=8792&pcs=271562:271563:271564:271565:239656",
+            "popularity": 30.5,
+            "parses": 303
           },
           {
             "id": 271567,
             "name": "",
-            "params": "pcs=271562:271563:271565:271564:271567&ench=7987",
-            "popularity": 68,
-            "parses": 673
+            "params": "pcs=271562:271563:271564:271565:271567&ench=7987",
+            "popularity": 67.5,
+            "parses": 670
           },
           {
             "id": 239648,
             "name": "",
-            "params": "bonus=8792&pcs=271562:271563:271565:271564:239648&gems=240916",
-            "popularity": 90,
-            "parses": 890
+            "params": "bonus=8792&pcs=271562:271563:271564:271565:239648&gems=240916",
+            "popularity": 90.7,
+            "parses": 901
           },
           {
             "id": 271565,
             "name": "",
-            "params": "pcs=271562:271563:271565:271564",
-            "popularity": 85.3,
-            "parses": 844
+            "params": "pcs=271562:271563:271564:271565",
+            "popularity": 85.4,
+            "parses": 848
           },
           {
             "id": 268257,
             "name": "",
-            "params": "pcs=271562:271563:271565:271564:268257&gems=240916",
-            "popularity": 35.2,
-            "parses": 348
+            "params": "pcs=271562:271563:271564:271565:268257&gems=240916",
+            "popularity": 34.4,
+            "parses": 342
           },
           {
             "id": 271563,
             "name": "",
-            "params": "pcs=271562:271563:271565:271564&ench=7935",
+            "params": "pcs=271562:271563:271564:271565&ench=7935",
             "popularity": 88,
-            "parses": 870
+            "parses": 874
           },
           {
             "id": 268255,
             "name": "",
-            "params": "pcs=271562:271563:271565:271564:268255&ench=7963",
-            "popularity": 46.8,
-            "parses": 463
+            "params": "pcs=271562:271563:271564:271565:268255&ench=7963",
+            "popularity": 46.3,
+            "parses": 460
           },
           {
             "id": 268266,
             "name": "",
-            "params": "bonus=13534&pcs=271562:271563:271565:271564:268266&gems=240916&ench=7967",
-            "popularity": 57.6,
-            "parses": 570
+            "params": "bonus=13534&pcs=271562:271563:271564:271565:268266&gems=240916&ench=7967",
+            "popularity": 58.3,
+            "parses": 579
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271562:271563:271565:271564:281029&gems=240916&ench=7967",
-            "popularity": 42.9,
-            "parses": 424
+            "params": "bonus=13534&pcs=271562:271563:271564:271565:281029&gems=240916&ench=7967",
+            "popularity": 43.5,
+            "parses": 432
           },
           {
             "id": 271092,
             "name": "",
-            "params": "pcs=271562:271563:271565:271564:271092&ench=8689",
-            "popularity": 80.5,
-            "parses": 796
+            "params": "pcs=271562:271563:271564:271565:271092&ench=8689",
+            "popularity": 81.9,
+            "parses": 813
           },
           {
             "id": 245769,
             "name": "",
-            "params": "bonus=8792&pcs=271562:271563:271565:271564:245769",
-            "popularity": 71,
-            "parses": 702
+            "params": "bonus=8792&pcs=271562:271563:271564:271565:245769",
+            "popularity": 70.8,
+            "parses": 703
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 21.1,
-            "parses": 209
+            "popularity": 20.5,
+            "parses": 204
           },
           {
             "id": 273796,
             "name": "",
             "params": "nofollow",
-            "popularity": 21.1,
-            "parses": 209
+            "popularity": 20.5,
+            "parses": 204
           }
         ]
       },
@@ -5510,11 +5510,11 @@ window.ARCHON_PRESETS = {
   "paladin": {
     "holy": {
       "raid": {
-        "m": 1271,
-        "c": 761,
-        "h": 917,
-        "v": 225,
-        "dps": "420.4k",
+        "m": 1272,
+        "c": 762,
+        "h": 915,
+        "v": 223,
+        "dps": "421.4k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/aZ2vfknwqhAxF19T#fight=23",
@@ -5526,77 +5526,77 @@ window.ARCHON_PRESETS = {
             "id": 271465,
             "name": "",
             "params": "pcs=271463:271468:271465:271464&gems=240900&ench=7961",
-            "popularity": 88.5,
+            "popularity": 86.1,
             "parses": 13
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271463:271468:271465:271464:268265&gems=240983",
-            "popularity": 91.1,
+            "popularity": 88.9,
             "parses": 14
           },
           {
             "id": 271463,
             "name": "",
             "params": "pcs=271463:271468:271465:271464&ench=8031",
-            "popularity": 92,
+            "popularity": 89.3,
             "parses": 14
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8793&pcs=271463:271468:271465:271464:239656",
-            "popularity": 29.6,
+            "popularity": 28.9,
             "parses": 4
           },
           {
             "id": 271468,
             "name": "",
             "params": "pcs=271463:271468:271465:271464&ench=7987",
-            "popularity": 91.6,
+            "popularity": 89.1,
             "parses": 14
           },
           {
             "id": 237834,
             "name": "",
             "params": "bonus=8793&pcs=271463:271468:271465:271464:237834&gems=240900",
-            "popularity": 59.2,
+            "popularity": 57.6,
             "parses": 9
           },
           {
             "id": 271466,
             "name": "",
             "params": "pcs=271463:271468:271465:271464:271466",
-            "popularity": 73.2,
+            "popularity": 71.1,
             "parses": 11
           },
           {
             "id": 237830,
             "name": "",
             "params": "bonus=8793&pcs=271463:271468:271465:271464:237830&gems=240900",
-            "popularity": 29,
+            "popularity": 28.1,
             "parses": 4
           },
           {
             "id": 271464,
             "name": "",
             "params": "pcs=271463:271468:271465:271464&ench=7937",
-            "popularity": 86.8,
+            "popularity": 84.6,
             "parses": 13
           },
           {
             "id": 268260,
             "name": "",
             "params": "pcs=271463:271468:271465:271464:268260&ench=7993",
-            "popularity": 35.6,
+            "popularity": 34.5,
             "parses": 5
           },
           {
             "id": 268249,
             "name": "",
             "params": "bonus=13534&pcs=271463:271468:271465:271464:268249&gems=240900&ench=7969",
-            "popularity": 40.7,
+            "popularity": 39.6,
             "parses": 6
           },
           {
@@ -5609,30 +5609,30 @@ window.ARCHON_PRESETS = {
           {
             "id": 281056,
             "name": "",
-            "params": "pcs=271463:271468:271465:271464:281056&ench=8689",
-            "popularity": 26,
+            "params": "pcs=271463:271468:271465:271464:281056&ench=8039",
+            "popularity": 26.2,
             "parses": 4
           },
           {
             "id": 268262,
             "name": "",
             "params": "pcs=271463:271468:271465:271464:268262&ench=4216",
-            "popularity": 32.1,
-            "parses": 5
+            "popularity": 31.3,
+            "parses": 4
           },
           {
             "id": 270162,
             "name": "",
             "params": "nofollow",
-            "popularity": 57.1,
-            "parses": 9
+            "popularity": 55.1,
+            "parses": 8
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 57.1,
-            "parses": 9
+            "popularity": 55.1,
+            "parses": 8
           }
         ]
       },
@@ -6022,11 +6022,11 @@ window.ARCHON_PRESETS = {
     },
     "retribution": {
       "raid": {
-        "m": 1222,
-        "c": 1003,
-        "h": 846,
-        "v": 113,
-        "dps": "354.5k",
+        "m": 1225,
+        "c": 1002,
+        "h": 847,
+        "v": 112,
+        "dps": "356.3k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/NMkb4JPgZvxhDfr2#fight=9",
@@ -6038,105 +6038,105 @@ window.ARCHON_PRESETS = {
             "id": 271465,
             "name": "",
             "params": "pcs=271468:271463:271465:271464&gems=240892&ench=8017",
-            "popularity": 88.7,
-            "parses": 18
+            "popularity": 88.9,
+            "parses": 17
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271468:271463:271465:271464:268265&gems=240983",
-            "popularity": 94.1,
-            "parses": 19
+            "popularity": 94.4,
+            "parses": 18
           },
           {
             "id": 271463,
             "name": "",
             "params": "pcs=271468:271463:271465:271464&ench=8001",
-            "popularity": 89.1,
-            "parses": 18
+            "popularity": 88.9,
+            "parses": 17
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271468:271463:271465:271464:268253",
-            "popularity": 48.4,
+            "popularity": 48.6,
             "parses": 9
           },
           {
             "id": 271468,
             "name": "",
             "params": "pcs=271468:271463:271465:271464&ench=7987",
-            "popularity": 95.2,
-            "parses": 19
+            "popularity": 95.1,
+            "parses": 18
           },
           {
             "id": 237834,
             "name": "",
             "params": "bonus=8793&pcs=271468:271463:271465:271464:237834&gems=240892",
-            "popularity": 83.3,
+            "popularity": 83.5,
             "parses": 16
           },
           {
             "id": 271466,
             "name": "",
             "params": "pcs=271468:271463:271465:271464:271466",
-            "popularity": 78,
+            "popularity": 78.3,
             "parses": 15
           },
           {
             "id": 268259,
             "name": "",
             "params": "pcs=271468:271463:271465:271464:268259&gems=240892",
-            "popularity": 56.8,
+            "popularity": 57,
             "parses": 11
           },
           {
             "id": 271464,
             "name": "",
             "params": "pcs=271468:271463:271465:271464&ench=8159",
-            "popularity": 88.4,
+            "popularity": 88.5,
             "parses": 17
           },
           {
             "id": 237828,
             "name": "",
             "params": "bonus=8793&pcs=271468:271463:271465:271464:237828&ench=7963",
-            "popularity": 39.4,
-            "parses": 8
+            "popularity": 39.2,
+            "parses": 7
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271468:271463:271465:271464:281029&gems=240892&ench=7967",
-            "popularity": 59.1,
+            "popularity": 61.8,
             "parses": 12
           },
           {
             "id": 251513,
             "name": "",
             "params": ":8793&pcs=271468:271463:271465:271464:251513&gems=240892&ench=7967",
-            "popularity": 52.9,
+            "popularity": 53,
             "parses": 10
           },
           {
             "id": 268213,
             "name": "",
             "params": "pcs=271468:271463:271465:271464:268213&ench=8689",
-            "popularity": 90.7,
+            "popularity": 91.2,
             "parses": 18
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 87,
+            "popularity": 87.4,
             "parses": 17
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 87,
+            "popularity": 87.4,
             "parses": 17
           }
         ]
@@ -6267,10 +6267,10 @@ window.ARCHON_PRESETS = {
     "discipline": {
       "raid": {
         "m": 832,
-        "c": 552,
-        "h": 1651,
+        "c": 547,
+        "h": 1655,
         "v": 188,
-        "dps": "390.2k",
+        "dps": "391.0k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/fYgzrhp7PbDvMdqV#fight=1",
@@ -6281,114 +6281,114 @@ window.ARCHON_PRESETS = {
           {
             "id": 271555,
             "name": "",
-            "params": "pcs=271553:271558:271554:271556:271555&gems=240892&ench=7961",
-            "popularity": 82.2,
+            "params": "pcs=271553:271558:271554:271555&gems=240892&ench=7961",
+            "popularity": 83.2,
             "parses": 1
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271553:271558:271554:271556:268265&gems=240983",
-            "popularity": 88.6,
+            "params": "bonus=13534&pcs=271553:271558:271554:271555:268265&gems=240983",
+            "popularity": 88.5,
             "parses": 1
           },
           {
             "id": 271553,
             "name": "",
-            "params": "pcs=271553:271558:271554:271556&ench=8031",
+            "params": "pcs=271553:271558:271554:271555&ench=8031",
             "popularity": 88.2,
             "parses": 1
           },
           {
             "id": 268253,
             "name": "",
-            "params": "pcs=271553:271558:271554:271556:268253",
-            "popularity": 31.6,
-            "parses": 412
+            "params": "pcs=271553:271558:271554:271555:268253",
+            "popularity": 31.5,
+            "parses": 396
           },
           {
             "id": 271558,
             "name": "",
-            "params": "pcs=271553:271558:271554:271556&ench=7987",
-            "popularity": 84.6,
+            "params": "pcs=271553:271558:271554:271555&ench=7987",
+            "popularity": 84.2,
             "parses": 1
           },
           {
             "id": 239648,
             "name": "",
-            "params": "bonus=8793&pcs=271553:271558:271554:271556:239648&gems=240892",
-            "popularity": 76.8,
-            "parses": 1000
+            "params": "bonus=8793&pcs=271553:271558:271554:271555:239648&gems=240892",
+            "popularity": 76.7,
+            "parses": 963
           },
           {
             "id": 271556,
             "name": "",
-            "params": "pcs=271553:271558:271554:271556",
-            "popularity": 83,
+            "params": "pcs=271553:271558:271554:271555:271556",
+            "popularity": 82.7,
             "parses": 1
           },
           {
             "id": 239649,
             "name": "",
-            "params": "bonus=8793&pcs=271553:271558:271554:271556:239649&gems=240892",
-            "popularity": 43,
-            "parses": 560
+            "params": "bonus=8793&pcs=271553:271558:271554:271555:239649&gems=240892",
+            "popularity": 43.6,
+            "parses": 548
           },
           {
             "id": 271554,
             "name": "",
-            "params": "pcs=271553:271558:271554:271556&ench=7937",
-            "popularity": 84.1,
+            "params": "pcs=271553:271558:271554:271555&ench=7937",
+            "popularity": 83.9,
             "parses": 1
           },
           {
             "id": 268255,
             "name": "",
-            "params": "pcs=271553:271558:271554:271556:268255&ench=7993",
-            "popularity": 40.1,
-            "parses": 522
+            "params": "pcs=271553:271558:271554:271555:268255&ench=7993",
+            "popularity": 40,
+            "parses": 502
           },
           {
             "id": 268266,
             "name": "",
-            "params": "bonus=13534&pcs=271553:271558:271554:271556:268266&gems=240892&ench=8025",
-            "popularity": 54.4,
-            "parses": 708
+            "params": "bonus=13534&pcs=271553:271558:271554:271555:268266&gems=240892&ench=8025",
+            "popularity": 55.4,
+            "parses": 696
           },
           {
             "id": 252258,
             "name": "",
-            "params": "bonus=13534&pcs=271553:271558:271554:271556:252258&gems=240892&ench=8025",
-            "popularity": 32.9,
-            "parses": 429
+            "params": "bonus=13534&pcs=271553:271558:271554:271555:252258&gems=240892&ench=8025",
+            "popularity": 32.5,
+            "parses": 408
           },
           {
             "id": 271092,
             "name": "",
-            "params": "pcs=271553:271558:271554:271556:271092&ench=7983",
-            "popularity": 84.9,
+            "params": "pcs=271553:271558:271554:271555:271092&ench=7983",
+            "popularity": 85.1,
             "parses": 1
           },
           {
             "id": 245769,
             "name": "",
-            "params": "bonus=8793&pcs=271553:271558:271554:271556:245769",
-            "popularity": 43.5,
-            "parses": 566
+            "params": "bonus=8793&pcs=271553:271558:271554:271555:245769",
+            "popularity": 43.4,
+            "parses": 545
           },
           {
             "id": 270167,
             "name": "",
             "params": "nofollow",
-            "popularity": 23.9,
-            "parses": 311
+            "popularity": 24.2,
+            "parses": 304
           },
           {
             "id": 270169,
             "name": "",
             "params": "nofollow",
-            "popularity": 23.9,
-            "parses": 311
+            "popularity": 24.2,
+            "parses": 304
           }
         ]
       },
@@ -6523,10 +6523,10 @@ window.ARCHON_PRESETS = {
     "holy": {
       "raid": {
         "m": 1087,
-        "c": 1144,
-        "h": 664,
+        "c": 1145,
+        "h": 662,
         "v": 187,
-        "dps": "461.4k",
+        "dps": "463.2k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/nw9fBYr2PQt1j6Dx#fight=28",
@@ -6539,27 +6539,27 @@ window.ARCHON_PRESETS = {
             "name": "",
             "params": "pcs=271558:271553:271556:271554:271555&gems=240908&ench=7961",
             "popularity": 80.5,
-            "parses": 18
+            "parses": 17
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271558:271553:271556:271554:268265&gems=240983",
-            "popularity": 93.3,
+            "popularity": 93.6,
             "parses": 20
           },
           {
             "id": 271553,
             "name": "",
             "params": "pcs=271558:271553:271556:271554&ench=8031",
-            "popularity": 91.9,
+            "popularity": 92,
             "parses": 20
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8791&pcs=271558:271553:271556:271554:239656",
-            "popularity": 30.1,
+            "popularity": 29.9,
             "parses": 6
           },
           {
@@ -6580,14 +6580,14 @@ window.ARCHON_PRESETS = {
             "id": 271556,
             "name": "",
             "params": "pcs=271558:271553:271556:271554",
-            "popularity": 85.1,
-            "parses": 19
+            "popularity": 85.2,
+            "parses": 18
           },
           {
             "id": 239649,
             "name": "",
             "params": "bonus=8791&pcs=271558:271553:271556:271554:239649&gems=240908",
-            "popularity": 52.4,
+            "popularity": 52.6,
             "parses": 11
           },
           {
@@ -6601,50 +6601,50 @@ window.ARCHON_PRESETS = {
             "id": 268218,
             "name": "",
             "params": "pcs=271558:271553:271556:271554:268218&ench=7993",
-            "popularity": 43,
+            "popularity": 42.8,
             "parses": 9
           },
           {
             "id": 268252,
             "name": "",
             "params": "bonus=13534&pcs=271558:271553:271556:271554:268252&gems=240908&ench=7967",
-            "popularity": 38.1,
+            "popularity": 39.2,
             "parses": 8
           },
           {
             "id": 268249,
             "name": "",
             "params": "bonus=13534&pcs=271558:271553:271556:271554:268249&gems=240908&ench=7967",
-            "popularity": 33,
+            "popularity": 33.1,
             "parses": 7
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271558:271553:271556:271554:271092&ench=8039",
-            "popularity": 75.5,
+            "popularity": 75.4,
             "parses": 16
           },
           {
             "id": 245769,
             "name": "",
             "params": "bonus=8791&pcs=271558:271553:271556:271554:245769",
-            "popularity": 31.6,
-            "parses": 7
+            "popularity": 31.1,
+            "parses": 6
           },
           {
             "id": 270162,
             "name": "",
             "params": "nofollow",
             "popularity": 63.2,
-            "parses": 14
+            "parses": 13
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
             "popularity": 63.2,
-            "parses": 14
+            "parses": 13
           }
         ]
       },
@@ -8062,11 +8062,11 @@ window.ARCHON_PRESETS = {
     },
     "enhancement": {
       "raid": {
-        "m": 1192,
-        "c": 878,
-        "h": 911,
-        "v": 140,
-        "dps": "328.7k",
+        "m": 1194,
+        "c": 879,
+        "h": 910,
+        "v": 142,
+        "dps": "329.8k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/Zc1yhBT768t4aXnv#fight=30",
@@ -8078,112 +8078,112 @@ window.ARCHON_PRESETS = {
             "id": 271483,
             "name": "",
             "params": "pcs=271481:271486:271484:271483&gems=240890&ench=8017",
-            "popularity": 84.9,
+            "popularity": 84.4,
             "parses": 4
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271481:271486:271484:271483:268265&gems=240983",
-            "popularity": 92.2,
-            "parses": 5
+            "popularity": 92.1,
+            "parses": 4
           },
           {
             "id": 271481,
             "name": "",
             "params": "pcs=271481:271486:271484:271483&ench=8001",
-            "popularity": 93,
-            "parses": 5
+            "popularity": 92.6,
+            "parses": 4
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271481:271486:271484:271483:268253",
-            "popularity": 46.4,
+            "popularity": 47.1,
             "parses": 2
           },
           {
             "id": 271486,
             "name": "",
             "params": "pcs=271481:271486:271484:271483&ench=7987",
-            "popularity": 90.5,
+            "popularity": 90.8,
             "parses": 4
           },
           {
             "id": 244584,
             "name": "",
             "params": "bonus=8793&pcs=271481:271486:271484:271483:244584&gems=240890",
-            "popularity": 86.7,
+            "popularity": 87,
             "parses": 4
           },
           {
             "id": 271484,
             "name": "",
             "params": "pcs=271481:271486:271484:271483",
-            "popularity": 87,
+            "popularity": 87.3,
             "parses": 4
           },
           {
             "id": 268254,
             "name": "",
             "params": "pcs=271481:271486:271484:271483:268254&gems=240890",
-            "popularity": 40.2,
+            "popularity": 40.3,
             "parses": 2
           },
           {
             "id": 271482,
             "name": "",
             "params": "pcs=271481:271486:271484:271483:271482&ench=8159",
-            "popularity": 81.8,
+            "popularity": 81.9,
             "parses": 4
           },
           {
             "id": 268258,
             "name": "",
             "params": "pcs=271481:271486:271484:271483:268258&ench=7963",
-            "popularity": 31.5,
+            "popularity": 31,
             "parses": 1
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271481:271486:271484:271483:281029&gems=240890&ench=7967",
-            "popularity": 65.2,
+            "popularity": 66.4,
             "parses": 3
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8793&pcs=271481:271486:271484:271483:240949&gems=240890&ench=7967",
-            "popularity": 32.3,
+            "popularity": 31.6,
             "parses": 1
           },
           {
             "id": 268209,
             "name": "",
             "params": "pcs=271481:271486:271484:271483:268209&ench=8689",
-            "popularity": 87.9,
+            "popularity": 87.7,
             "parses": 4
           },
           {
             "id": 237850,
             "name": "",
             "params": "bonus=8793&pcs=271481:271486:271484:271483:237850&ench=8689",
-            "popularity": 67.3,
+            "popularity": 67.4,
             "parses": 3
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 64.1,
+            "popularity": 63.8,
             "parses": 3
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 64.1,
+            "popularity": 63.8,
             "parses": 3
           }
         ]
@@ -9346,11 +9346,11 @@ window.ARCHON_PRESETS = {
   "warrior": {
     "arms": {
       "raid": {
-        "m": 750,
-        "c": 1254,
-        "h": 1009,
-        "v": 120,
-        "dps": "360.2k",
+        "m": 753,
+        "c": 1253,
+        "h": 1010,
+        "v": 119,
+        "dps": "361.0k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/bvZhN9jJGcfQ43yk#fight=35",
@@ -9362,105 +9362,105 @@ window.ARCHON_PRESETS = {
             "id": 271456,
             "name": "",
             "params": "pcs=271459:271456:271454:271455&gems=240890&ench=8017",
-            "popularity": 88.7,
+            "popularity": 87.4,
             "parses": 20
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271455:268265&gems=240983",
-            "popularity": 92.1,
+            "popularity": 90.5,
             "parses": 21
           },
           {
             "id": 271454,
             "name": "",
             "params": "pcs=271459:271456:271454:271455&ench=8001",
-            "popularity": 87.9,
+            "popularity": 86.4,
             "parses": 20
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271459:271456:271454:271455:268253",
-            "popularity": 46.4,
+            "popularity": 45.6,
             "parses": 10
           },
           {
             "id": 271459,
             "name": "",
             "params": "pcs=271459:271456:271454:271455&ench=7987",
-            "popularity": 90.9,
-            "parses": 21
+            "popularity": 89.1,
+            "parses": 20
           },
           {
             "id": 237834,
             "name": "",
             "params": "bonus=8790&pcs=271459:271456:271454:271455:237834&gems=240890",
-            "popularity": 87,
-            "parses": 20
+            "popularity": 85.3,
+            "parses": 19
           },
           {
             "id": 271457,
             "name": "",
             "params": "pcs=271459:271456:271454:271455:271457",
-            "popularity": 82,
-            "parses": 19
+            "popularity": 80.9,
+            "parses": 18
           },
           {
             "id": 268259,
             "name": "",
             "params": "pcs=271459:271456:271454:271455:268259&gems=240890",
-            "popularity": 49.6,
+            "popularity": 48.5,
             "parses": 11
           },
           {
             "id": 271455,
             "name": "",
             "params": "pcs=271459:271456:271454:271455&ench=8163",
-            "popularity": 84.5,
+            "popularity": 83.2,
             "parses": 19
           },
           {
             "id": 237828,
             "name": "",
             "params": "bonus=8790&pcs=271459:271456:271454:271455:237828&ench=7963",
-            "popularity": 64.1,
+            "popularity": 63,
             "parses": 14
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271455:281029&gems=240890&ench=7967",
-            "popularity": 51.5,
+            "popularity": 52,
             "parses": 12
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8790&pcs=271459:271456:271454:271455:240949&gems=240890&ench=7967",
-            "popularity": 50,
+            "popularity": 49.3,
             "parses": 11
           },
           {
             "id": 268213,
             "name": "",
             "params": "pcs=271459:271456:271454:271455:268213&ench=8689",
-            "popularity": 93.8,
+            "popularity": 92.1,
             "parses": 21
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 54.8,
+            "popularity": 54.1,
             "parses": 12
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 54.8,
+            "popularity": 54.1,
             "parses": 12
           }
         ]
@@ -10194,14 +10194,14 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 57.1,
+          "popularity": 56.8,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 21,
+          "popularity": 21.2,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
@@ -10215,28 +10215,28 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 3.2,
+          "popularity": 3.3,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 2.4,
+          "popularity": 2.3,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 2.2,
+          "popularity": 2.3,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 88.6,
+          "popularity": 88.1,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
@@ -10250,7 +10250,7 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270171,
           "name": "Preternatural Antivenom",
-          "popularity": 25.6,
+          "popularity": 25.9,
           "maxKey": "",
           "icon": "inv_11_0_dungeon_tentaclevial_green"
         },
@@ -10264,14 +10264,14 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 280835,
           "name": "Sigil of the Impending Eclipse",
-          "popularity": 3.9,
+          "popularity": 4,
           "maxKey": "",
           "icon": "8268562"
         },
         {
           "itemId": 274493,
           "name": "Effigy of Ula'tek's Faithful",
-          "popularity": 2.1,
+          "popularity": 2,
           "maxKey": "",
           "icon": "ability_fomor_boss_rune_green"
         }
@@ -10551,21 +10551,21 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 9.9,
+          "popularity": 9.8,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 6.3,
+          "popularity": 6.4,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 5,
+          "popularity": 5.1,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
@@ -10579,7 +10579,7 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 2.2,
+          "popularity": 2.3,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
@@ -10607,21 +10607,21 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270171,
           "name": "Preternatural Antivenom",
-          "popularity": 9.7,
+          "popularity": 9.8,
           "maxKey": "",
           "icon": "inv_11_0_dungeon_tentaclevial_green"
         },
         {
           "itemId": 280835,
           "name": "Sigil of the Impending Eclipse",
-          "popularity": 4,
+          "popularity": 4.2,
           "maxKey": "",
           "icon": "8268562"
         },
         {
           "itemId": 274493,
           "name": "Effigy of Ula'tek's Faithful",
-          "popularity": 1.9,
+          "popularity": 1.8,
           "maxKey": "",
           "icon": "ability_fomor_boss_rune_green"
         }
@@ -11072,21 +11072,21 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 49.6,
+          "popularity": 49,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 16.6,
+          "popularity": 17,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 7.2,
+          "popularity": 7.4,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
@@ -11100,14 +11100,14 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 3.4,
+          "popularity": 3.5,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 3.2,
+          "popularity": 3.1,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
@@ -11121,35 +11121,35 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 60.6,
+          "popularity": 59.9,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 270171,
           "name": "Preternatural Antivenom",
-          "popularity": 22.3,
+          "popularity": 22.6,
           "maxKey": "",
           "icon": "inv_11_0_dungeon_tentaclevial_green"
         },
         {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 12.6,
+          "popularity": 12.7,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 280835,
           "name": "Sigil of the Impending Eclipse",
-          "popularity": 5.9,
+          "popularity": 6.1,
           "maxKey": "",
           "icon": "8268562"
         },
         {
           "itemId": 281215,
           "name": "Twisted Horror's Tendril",
-          "popularity": 4.1,
+          "popularity": 4.3,
           "maxKey": "",
           "icon": "8268563"
         }
