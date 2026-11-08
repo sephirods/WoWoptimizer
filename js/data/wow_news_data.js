@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30808041",
+      "postId": 30808041,
+      "topicId": 2406595,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-08T19:47:33.475Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Dungeon Enemy XP Increased - November 8",
+        "es": "Mazmorra Enemy XP Increased - November 8"
+      },
+      "summary": {
+        "en": "At about 11:05 PST today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs. \nHappy dungeon crawling, and good ...",
+        "es": "At about 11:05 PST today, we deployed a hotfix that increased kill experience in Mazmorras by 50%, so it feels better to go back in for more runs. \nHappy Mazmorra crawling, and goo..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>At about 11:05 PST today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs.</p>\n<p>Happy dungeon crawling, and good luck with those Deviate Hides!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>At about 11:05 PST today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs.</p>\n<p>Happy dungeon crawling, and good luck with those Deviate Hides!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/dungeon-enemy-xp-increased-november-8/2406595/1"
+    },
+    {
       "id": "blizz-30786304",
       "postId": 30786304,
       "topicId": 2403040,
@@ -196,34 +224,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-venomous-abyss-raid-tuning-incoming/2402937/1"
-    },
-    {
-      "id": "blizz-30772587",
-      "postId": 30772587,
-      "topicId": 2402802,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-05T22:00:07.091Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW: Forever– Watch Forging Forever",
-        "es": "WoW: Forever– Watch Forging Forever"
-      },
-      "summary": {
-        "en": "[WoW: Forever– Watch Forging Forever] Witness the creation of World of Warcraft: Forever&#39;s first legendary: Taldramir, the Whispering Wood.  View Full Article...",
-        "es": "[WoW: Forever– Watch Forging Forever] Witness the creation of World of Warcraft: Forever&#39;s first legendary: Taldramir, the Whispering Wood.  View Full Article..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\" alt=\"WoW: Forever– Watch Forging Forever\" width=\"833\" height=\"468\"></a></p><p>Witness the creation of World of Warcraft: Forever's first legendary: Taldramir, the Whispering Wood. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24317865\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\" alt=\"WoW: Forever– Watch Forging Forever\" width=\"833\" height=\"468\"></a></p><p>Witness the creation of World of Warcraft: Forever's first legendary: Taldramir, the Whispering Wood. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24317865\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever%E2%80%93-watch-forging-forever/2402802/1"
     },
     {
       "id": "blizz-1235695",
@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/vuelve-a-azeroth-con-world-of-warcraft-forever/80637/1"
     },
     {
+      "id": "blizz-6482935",
+      "postId": 6482935,
+      "topicId": 640598,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-08T19:48:33.052Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Dungeon Enemy XP Increased - 8 November",
+        "es": "Mazmorra Enemy XP Increased - 8 November"
+      },
+      "summary": {
+        "en": "At about 20:05 CET today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs. \nHappy dungeon crawling, and good ...",
+        "es": "At about 20:05 CET today, we deployed a hotfix that increased kill experience in Mazmorras by 50%, so it feels better to go back in for more runs. \nHappy Mazmorra crawling, and goo..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>At about 20:05 CET today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs.</p>\n<p>Happy dungeon crawling, and good luck with those Deviate Hides!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>At about 20:05 CET today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs.</p>\n<p>Happy dungeon crawling, and good luck with those Deviate Hides!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/dungeon-enemy-xp-increased-8-november/640598/1"
+    },
+    {
       "id": "blizz-6479547",
       "postId": 6479547,
       "topicId": 635623,
@@ -644,6 +672,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever%E2%80%93-watch-forging-forever/639841/1"
+    },
+    {
+      "id": "blizz-30772587",
+      "postId": 30772587,
+      "topicId": 2402802,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-05T22:00:07.091Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever– Watch Forging Forever",
+        "es": "WoW: Forever– Watch Forging Forever"
+      },
+      "summary": {
+        "en": "[WoW: Forever– Watch Forging Forever] Witness the creation of World of Warcraft: Forever&#39;s first legendary: Taldramir, the Whispering Wood.  View Full Article...",
+        "es": "[WoW: Forever– Watch Forging Forever] Witness the creation of World of Warcraft: Forever&#39;s first legendary: Taldramir, the Whispering Wood.  View Full Article..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\" alt=\"WoW: Forever– Watch Forging Forever\" width=\"833\" height=\"468\"></a></p><p>Witness the creation of World of Warcraft: Forever's first legendary: Taldramir, the Whispering Wood. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24317865\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\" alt=\"WoW: Forever– Watch Forging Forever\" width=\"833\" height=\"468\"></a></p><p>Witness the creation of World of Warcraft: Forever's first legendary: Taldramir, the Whispering Wood. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24317865\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever%E2%80%93-watch-forging-forever/2402802/1"
     },
     {
       "id": "blizz-6476080",
@@ -1344,62 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/return-to-azeroth-in-world-of-warcraft-forever/2395922/1"
-    },
-    {
-      "id": "blizz-6463320",
-      "postId": 6463320,
-      "topicId": 638484,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-29T19:03:13.656Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Return to Azeroth in World of Warcraft: Forever",
-        "es": "Return to Azeroth in World of Warcraft: Forever"
-      },
-      "summary": {
-        "en": "[Return to Azeroth in World of Warcraft: Forever] Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for...",
-        "es": "[Return to Azeroth in World of Warcraft: Forever] Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\" alt=\"Return to Azeroth in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for you in World of Warcraft: Forever. To help you get your feet on the ground and begin your adventures in Azeroth once more, we’ve put together some information you may need to return to your hero’s journey. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24315643\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/1e/1E1ETHVZLE1M1793163975139.png\" alt=\"Return to Azeroth in World of Warcraft: Forever\" width=\"833\" height=\"468\"></a></p><p>Welcome back to Azeroth. Whether it has been a few years, or many— familiar roads, old friends, and new adventures are waiting for you in World of Warcraft: Forever. To help you get your feet on the ground and begin your adventures in Azeroth once more, we’ve put together some information you may need to return to your hero’s journey. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24315643\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/return-to-azeroth-in-world-of-warcraft-forever/638484/1"
-    },
-    {
-      "id": "blizz-6462927",
-      "postId": 6462927,
-      "topicId": 638462,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-10-29T16:18:25.305Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The WoW: Forever Podcast: Episode 6 - All About Tech ft. ‪@Shobek",
-        "es": "The WoW: Forever Podcast: Episode 6 - All About Tech ft. ‪@Shobek"
-      },
-      "summary": {
-        "en": "[All About Tech ft. @Shobek | Episode 6 - The WoW: Forever Podcast]...",
-        "es": "[All About Tech ft. @Shobek | Episode 6 - The WoW: Forever Podcast]..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"BVyhnixdPQg\" data-video-title=\"All About Tech ft. @Shobek | Episode 6 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=BVyhnixdPQg\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/BVyhnixdPQg/maxresdefault.jpg\" title=\"All About Tech ft. @Shobek | Episode 6 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"BVyhnixdPQg\" data-video-title=\"All About Tech ft. @Shobek | Episode 6 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=BVyhnixdPQg\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/BVyhnixdPQg/maxresdefault.jpg\" title=\"All About Tech ft. @Shobek | Episode 6 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-6-all-about-tech-ft-%E2%80%AAshobek/638462/1"
     }
   ],
   "blizzardNews": [
