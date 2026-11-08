@@ -1,12 +1,12 @@
 {
-  "state": "running",
-  "lastRunAt": "2026-11-07T14:25:26Z",
-  "lastRunEpochMs": 1794061526372,
-  "nextScheduledAt": "2026-11-08T02:25:26Z",
-  "durationSec": 173.3,
+  "state": "completed",
+  "lastRunAt": "2026-11-08T02:28:37Z",
+  "lastRunEpochMs": 1794104917979,
+  "nextScheduledAt": "2026-11-08T14:28:37Z",
+  "durationSec": 176.6,
   "triggerRequestedAt": 0,
   "triggerTarget": "all",
-  "currentStep": "Iniciando navegador Camoufox en VPS (modo: all)...",
+  "currentStep": "Sincronización completada con éxito en 176.6s",
   "modules": {
     "archon": {
       "name": "Archon.gg (Presets, BiS, Talentos 1:1 & Healers)",
@@ -14,8 +14,8 @@
         "archon_data.js",
         "archon_healers.js"
       ],
-      "status": "running",
-      "updatedAt": "2026-11-07T14:25:25Z",
+      "status": "ok",
+      "updatedAt": "2026-11-08T02:28:36Z",
       "summary": "40/40 specs (Raid + M+) + 7 Healers",
       "error": null
     },
@@ -24,8 +24,8 @@
       "files": [
         "wow_stat_priorities.js"
       ],
-      "status": "running",
-      "updatedAt": "2026-11-07T14:25:25Z",
+      "status": "ok",
+      "updatedAt": "2026-11-08T02:28:36Z",
       "summary": "40/40 guías extraídas",
       "error": null
     },
@@ -34,8 +34,8 @@
       "files": [
         "wowhead_data.js"
       ],
-      "status": "running",
-      "updatedAt": "2026-11-07T14:25:25Z",
+      "status": "ok",
+      "updatedAt": "2026-11-08T02:28:36Z",
       "summary": "40/40 specs con iconos oficiales",
       "error": null
     },
@@ -44,8 +44,8 @@
       "files": [
         "bloodmallet_data.js"
       ],
-      "status": "running",
-      "updatedAt": "2026-11-07T14:25:25Z",
+      "status": "ok",
+      "updatedAt": "2026-11-08T02:28:36Z",
       "summary": "80/80 simulaciones (1T y 5T)",
       "error": null
     }
