@@ -1,14 +1,14 @@
 // Archon.gg Datos Oficiales Unificados (Stats + Árboles Talentos 1:1 + BiS Gear + Abalorios Healers)
-window.ARCHON_LAST_UPDATED = "2026-11-07T14:23:56.240Z";
+window.ARCHON_LAST_UPDATED = "2026-11-08T02:26:58.832Z";
 window.ARCHON_PRESETS = {
   "deathknight": {
     "blood": {
       "raid": {
-        "m": 623,
+        "m": 627,
         "c": 1087,
-        "h": 1091,
-        "v": 338,
-        "dps": "183.1k",
+        "h": 1092,
+        "v": 337,
+        "dps": "184.0k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/ZfMxNKhbAFQJ684P#fight=38",
@@ -20,7 +20,7 @@ window.ARCHON_PRESETS = {
             "id": 271474,
             "name": "",
             "params": "pcs=271477:271472:271474:271473&gems=240890&ench=7991",
-            "popularity": 85.9,
+            "popularity": 86.2,
             "parses": 17
           },
           {
@@ -41,7 +41,7 @@ window.ARCHON_PRESETS = {
             "id": 268253,
             "name": "",
             "params": "pcs=271477:271472:271474:271473:268253",
-            "popularity": 39.6,
+            "popularity": 40.2,
             "parses": 8
           },
           {
@@ -55,7 +55,7 @@ window.ARCHON_PRESETS = {
             "id": 237834,
             "name": "",
             "params": "bonus=8790&pcs=271477:271472:271474:271473:237834&gems=240890",
-            "popularity": 81.5,
+            "popularity": 80.9,
             "parses": 16
           },
           {
@@ -63,72 +63,72 @@ window.ARCHON_PRESETS = {
             "name": "",
             "params": "pcs=271477:271472:271474:271473:271475",
             "popularity": 74.8,
-            "parses": 15
+            "parses": 14
           },
           {
             "id": 268259,
             "name": "",
             "params": "pcs=271477:271472:271474:271473:268259&gems=240890",
-            "popularity": 40.2,
+            "popularity": 40.6,
             "parses": 8
           },
           {
             "id": 271473,
             "name": "",
             "params": "pcs=271477:271472:271474:271473&ench=8159",
-            "popularity": 85.1,
+            "popularity": 85.3,
             "parses": 17
           },
           {
             "id": 237828,
             "name": "",
             "params": "bonus=8790&pcs=271477:271472:271474:271473:237828&ench=8019",
-            "popularity": 37.7,
+            "popularity": 37.4,
             "parses": 7
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8790&pcs=271477:271472:271474:271473:240949&gems=240890&ench=7967",
-            "popularity": 48.2,
+            "popularity": 47.8,
             "parses": 9
           },
           {
-            "id": 268266,
+            "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271477:271472:271474:271473:268266&gems=240890&ench=7967",
-            "popularity": 38.9,
+            "params": "bonus=13534&pcs=271477:271472:271474:271473:281029&gems=240890&ench=7967",
+            "popularity": 39.7,
             "parses": 7
           },
           {
             "id": 268213,
             "name": "",
             "params": "pcs=271477:271472:271474:271473:268213&ench=6241",
-            "popularity": 82.5,
+            "popularity": 83,
             "parses": 16
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 80.2,
+            "popularity": 80.5,
             "parses": 16
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 80.2,
+            "popularity": 80.5,
             "parses": 16
           }
         ]
       },
       "mplus": {
-        "m": 575,
-        "c": 1044,
+        "m": 582,
+        "c": 1042,
         "h": 1143,
-        "v": 650,
-        "dps": "359.3k",
+        "v": 648,
+        "dps": "360.6k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/1AWhVvdLbpy2gPak#fight=59",
@@ -140,106 +140,106 @@ window.ARCHON_PRESETS = {
             "id": 271474,
             "name": "",
             "params": "pcs=271472:271477:271473:271474&gems=240894&ench=7991",
-            "popularity": 88.1,
+            "popularity": 88.2,
             "parses": 8
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271472:271477:271473:271474:268265&gems=240983",
-            "popularity": 95.8,
-            "parses": 9
+            "popularity": 95.9,
+            "parses": 8
           },
           {
             "id": 271472,
             "name": "",
             "params": "pcs=271472:271477:271473:271474&ench=7973",
-            "popularity": 92.3,
-            "parses": 9
+            "popularity": 92.4,
+            "parses": 8
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271472:271477:271473:271474:268253",
-            "popularity": 37,
+            "popularity": 36.9,
             "parses": 3
           },
           {
             "id": 271477,
             "name": "",
             "params": "pcs=271472:271477:271473:271474&ench=7987",
-            "popularity": 91.1,
-            "parses": 9
+            "popularity": 91.5,
+            "parses": 8
           },
           {
             "id": 237834,
             "name": "",
             "params": "bonus=8792&pcs=271472:271477:271473:271474:237834&gems=240894",
-            "popularity": 89.5,
+            "popularity": 89.9,
             "parses": 8
           },
           {
             "id": 237836,
             "name": "",
             "params": "bonus=8792&pcs=271472:271477:271473:271474:237836",
-            "popularity": 48.2,
+            "popularity": 48.4,
             "parses": 4
           },
           {
             "id": 271471,
             "name": "",
             "params": "pcs=271472:271477:271473:271474:271471&gems=240894",
-            "popularity": 35.8,
+            "popularity": 36.5,
             "parses": 3
           },
           {
             "id": 271473,
             "name": "",
             "params": "pcs=271472:271477:271473:271474&ench=8159",
-            "popularity": 90.3,
+            "popularity": 90.7,
             "parses": 8
           },
           {
             "id": 237828,
             "name": "",
             "params": "bonus=8792&pcs=271472:271477:271473:271474:237828&ench=8019",
-            "popularity": 48.3,
+            "popularity": 47.2,
             "parses": 4
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8792&pcs=271472:271477:271473:271474:240949&gems=240894&ench=7967",
-            "popularity": 58.2,
+            "popularity": 56.3,
             "parses": 5
           },
           {
             "id": 268266,
             "name": "",
             "params": "bonus=13534&pcs=271472:271477:271473:271474:268266&gems=240894&ench=7967",
-            "popularity": 48.3,
+            "popularity": 49.3,
             "parses": 4
           },
           {
             "id": 268213,
             "name": "",
             "params": "pcs=271472:271477:271473:271474:268213&ench=6241",
-            "popularity": 82.3,
-            "parses": 8
+            "popularity": 83.4,
+            "parses": 7
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
             "popularity": 64.6,
-            "parses": 6
+            "parses": 5
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
             "popularity": 64.6,
-            "parses": 6
+            "parses": 5
           }
         ]
       }
@@ -262,122 +262,122 @@ window.ARCHON_PRESETS = {
             "id": 271474,
             "name": "",
             "params": "pcs=271477:271472:271474:271473&gems=240908&ench=7991",
-            "popularity": 86.9,
+            "popularity": 88.2,
             "parses": 12
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271477:271472:271474:271473:268265&gems=240983",
-            "popularity": 94.3,
+            "popularity": 95.7,
             "parses": 13
           },
           {
             "id": 271472,
             "name": "",
             "params": "pcs=271477:271472:271474:271473&ench=7973",
-            "popularity": 87.4,
+            "popularity": 88.7,
             "parses": 12
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271477:271472:271474:271473:268253",
-            "popularity": 40.1,
+            "popularity": 40.7,
             "parses": 5
           },
           {
             "id": 271477,
             "name": "",
             "params": "pcs=271477:271472:271474:271473&ench=7987",
-            "popularity": 91,
+            "popularity": 92.3,
             "parses": 12
           },
           {
             "id": 237834,
             "name": "",
             "params": "bonus=8791&pcs=271477:271472:271474:271473:237834&gems=240908",
-            "popularity": 75.1,
+            "popularity": 76.3,
             "parses": 10
           },
           {
             "id": 271475,
             "name": "",
             "params": "pcs=271477:271472:271474:271473:271475",
-            "popularity": 80.1,
+            "popularity": 81.3,
             "parses": 11
           },
           {
             "id": 268259,
             "name": "",
             "params": "pcs=271477:271472:271474:271473:268259&gems=240908",
-            "popularity": 51.6,
+            "popularity": 52.3,
             "parses": 7
           },
           {
             "id": 271473,
             "name": "",
             "params": "pcs=271477:271472:271474:271473&ench=8159",
-            "popularity": 84.2,
+            "popularity": 85.4,
             "parses": 11
           },
           {
             "id": 237828,
             "name": "",
             "params": "bonus=8791&pcs=271477:271472:271474:271473:237828&ench=8019",
-            "popularity": 52.6,
+            "popularity": 53.3,
             "parses": 7
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271477:271472:271474:271473:281029&gems=240908&ench=7967",
-            "popularity": 44.4,
+            "popularity": 45,
             "parses": 6
           },
           {
             "id": 251513,
             "name": "",
             "params": ":8791&pcs=271477:271472:271474:271473:251513&gems=240908&ench=7967",
-            "popularity": 41.3,
+            "popularity": 41.9,
             "parses": 5
           },
           {
             "id": 268209,
             "name": "",
             "params": "pcs=271477:271472:271474:271473:268209&ench=3368",
-            "popularity": 73.4,
+            "popularity": 74.5,
             "parses": 10
           },
           {
             "id": 268202,
             "name": "",
             "params": "pcs=271477:271472:271474:271473:268202&ench=3847",
-            "popularity": 67.4,
+            "popularity": 68.4,
             "parses": 9
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 69.2,
+            "popularity": 70.2,
             "parses": 9
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 69.2,
+            "popularity": 70.2,
             "parses": 9
           }
         ]
       },
       "mplus": {
-        "m": 1198,
-        "c": 1328,
-        "h": 592,
-        "v": 180,
-        "dps": "520.2k",
+        "m": 1199,
+        "c": 1326,
+        "h": 595,
+        "v": 181,
+        "dps": "522.7k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/F3TC7xHZ2AMrJXaL#fight=16",
@@ -389,29 +389,29 @@ window.ARCHON_PRESETS = {
             "id": 271474,
             "name": "",
             "params": "pcs=271477:271474:271473:271472&gems=240908&ench=8017",
-            "popularity": 86.2,
+            "popularity": 86.4,
             "parses": 2
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271477:271474:271473:271472:268265&gems=240983",
-            "popularity": 94.8,
+            "popularity": 95,
             "parses": 2
           },
           {
             "id": 271472,
             "name": "",
             "params": "pcs=271477:271474:271473:271472&ench=8001",
-            "popularity": 84.5,
+            "popularity": 84.1,
             "parses": 2
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271477:271474:271473:271472:268253",
-            "popularity": 36.9,
-            "parses": 1
+            "popularity": 37.1,
+            "parses": 1000
           },
           {
             "id": 271477,
@@ -424,77 +424,77 @@ window.ARCHON_PRESETS = {
             "id": 237834,
             "name": "",
             "params": "bonus=8791&pcs=271477:271474:271473:271472:237834&gems=240908",
-            "popularity": 81.6,
+            "popularity": 81.2,
             "parses": 2
           },
           {
             "id": 271475,
             "name": "",
             "params": "pcs=271477:271474:271473:271472:271475",
-            "popularity": 65.4,
+            "popularity": 65.6,
             "parses": 1
           },
           {
             "id": 268259,
             "name": "",
             "params": "pcs=271477:271474:271473:271472:268259&gems=240908",
-            "popularity": 43.4,
+            "popularity": 43.6,
             "parses": 1
           },
           {
             "id": 271473,
             "name": "",
             "params": "pcs=271477:271474:271473:271472&ench=8159",
-            "popularity": 85.9,
+            "popularity": 86,
             "parses": 2
           },
           {
             "id": 237828,
             "name": "",
             "params": "bonus=8791&pcs=271477:271474:271473:271472:237828&ench=7963",
-            "popularity": 64.7,
+            "popularity": 64.4,
             "parses": 1
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271477:271474:271473:271472:281029&gems=240908&ench=7967",
-            "popularity": 55.9,
+            "popularity": 58,
             "parses": 1
           },
           {
             "id": 251513,
             "name": "",
             "params": ":8791&pcs=271477:271474:271473:271472:251513&gems=240908&ench=7967",
-            "popularity": 39.8,
+            "popularity": 39.4,
             "parses": 1
           },
           {
             "id": 268209,
             "name": "",
             "params": "pcs=271477:271474:271473:271472:268209&ench=3368",
-            "popularity": 79.5,
+            "popularity": 81,
             "parses": 2
           },
           {
             "id": 268202,
             "name": "",
             "params": "pcs=271477:271474:271473:271472:268202&ench=3847",
-            "popularity": 75.8,
+            "popularity": 76.8,
             "parses": 2
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 60.5,
+            "popularity": 63,
             "parses": 1
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 60.5,
+            "popularity": 63,
             "parses": 1
           }
         ]
@@ -622,11 +622,11 @@ window.ARCHON_PRESETS = {
         ]
       },
       "mplus": {
-        "m": 1208,
-        "c": 1259,
-        "h": 594,
-        "v": 175,
-        "dps": "514.0k",
+        "m": 1210,
+        "c": 1264,
+        "h": 593,
+        "v": 176,
+        "dps": "513.2k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/rhHanj72MA8yYq4f#fight=2",
@@ -638,7 +638,7 @@ window.ARCHON_PRESETS = {
             "id": 271474,
             "name": "",
             "params": "pcs=271477:271474:271473:271472&gems=240908&ench=8017",
-            "popularity": 86,
+            "popularity": 86.2,
             "parses": 1
           },
           {
@@ -652,92 +652,92 @@ window.ARCHON_PRESETS = {
             "id": 271472,
             "name": "",
             "params": "pcs=271477:271474:271473:271472&ench=8001",
-            "popularity": 81.7,
+            "popularity": 81.8,
             "parses": 1
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271477:271474:271473:271472:268253",
-            "popularity": 44.7,
-            "parses": 814
+            "popularity": 43.4,
+            "parses": 727
           },
           {
             "id": 271477,
             "name": "",
             "params": "pcs=271477:271474:271473:271472&ench=7987",
-            "popularity": 91.9,
+            "popularity": 91.7,
             "parses": 1
           },
           {
             "id": 237834,
             "name": "",
             "params": "bonus=8791&pcs=271477:271474:271473:271472:237834&gems=240908",
-            "popularity": 85.5,
+            "popularity": 85.6,
             "parses": 1
           },
           {
             "id": 271475,
             "name": "",
             "params": "pcs=271477:271474:271473:271472:271475",
-            "popularity": 71.7,
+            "popularity": 71.6,
             "parses": 1
           },
           {
             "id": 268259,
             "name": "",
             "params": "pcs=271477:271474:271473:271472:268259&gems=240908",
-            "popularity": 45,
-            "parses": 819
+            "popularity": 45.3,
+            "parses": 760
           },
           {
             "id": 271473,
             "name": "",
             "params": "pcs=271477:271474:271473:271472&ench=8159",
-            "popularity": 83.2,
+            "popularity": 83.4,
             "parses": 1
           },
           {
             "id": 237828,
             "name": "",
             "params": "bonus=8791&pcs=271477:271474:271473:271472:237828&ench=7963",
-            "popularity": 75.9,
+            "popularity": 74.9,
             "parses": 1
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271477:271474:271473:271472:281029&gems=240908&ench=7967",
-            "popularity": 60.7,
+            "popularity": 62,
             "parses": 1
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8791&pcs=271477:271474:271473:271472:240949&gems=240908&ench=7967",
-            "popularity": 39.6,
-            "parses": 720
+            "popularity": 38.5,
+            "parses": 645
           },
           {
             "id": 268213,
             "name": "",
             "params": "pcs=271477:271474:271473:271472:268213&ench=6245",
-            "popularity": 85.4,
+            "popularity": 85.9,
             "parses": 1
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 53.1,
-            "parses": 966
+            "popularity": 51.8,
+            "parses": 868
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 53.1,
-            "parses": 966
+            "popularity": 51.8,
+            "parses": 868
           }
         ]
       }
@@ -747,10 +747,10 @@ window.ARCHON_PRESETS = {
     "havoc": {
       "raid": {
         "m": 1155,
-        "c": 1371,
-        "h": 512,
-        "v": 137,
-        "dps": "359.4k",
+        "c": 1372,
+        "h": 514,
+        "v": 136,
+        "dps": "363.1k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/qvaJCrgbHL7M3m6A#fight=22",
@@ -762,14 +762,14 @@ window.ARCHON_PRESETS = {
             "id": 271537,
             "name": "",
             "params": "pcs=271538:271537:271535:271536&gems=240908&ench=8017",
-            "popularity": 89.3,
+            "popularity": 89.7,
             "parses": 11
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271538:271537:271535:271536:268265&gems=240983",
-            "popularity": 87.6,
+            "popularity": 87.8,
             "parses": 11
           },
           {
@@ -783,21 +783,21 @@ window.ARCHON_PRESETS = {
             "id": 268253,
             "name": "",
             "params": "pcs=271538:271537:271535:271536:268253",
-            "popularity": 39.9,
+            "popularity": 40.1,
             "parses": 5
           },
           {
             "id": 271540,
             "name": "",
             "params": "pcs=271538:271537:271535:271536:271540&ench=7987",
-            "popularity": 77.6,
+            "popularity": 77.8,
             "parses": 10
           },
           {
             "id": 244576,
             "name": "",
             "params": "bonus=8791&pcs=271538:271537:271535:271536:244576&gems=240908",
-            "popularity": 67.7,
+            "popularity": 67,
             "parses": 8
           },
           {
@@ -811,8 +811,8 @@ window.ARCHON_PRESETS = {
             "id": 268227,
             "name": "",
             "params": "pcs=271538:271537:271535:271536:268227&gems=240908",
-            "popularity": 37.9,
-            "parses": 5
+            "popularity": 37.5,
+            "parses": 4
           },
           {
             "id": 271536,
@@ -825,59 +825,59 @@ window.ARCHON_PRESETS = {
             "id": 244569,
             "name": "",
             "params": "bonus=8791&pcs=271538:271537:271535:271536:244569&ench=7963",
-            "popularity": 60.5,
+            "popularity": 60.4,
             "parses": 7
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8791&pcs=271538:271537:271535:271536:240949&gems=240908&ench=7967",
-            "popularity": 52.4,
+            "popularity": 52.6,
             "parses": 6
           },
           {
-            "id": 268249,
+            "id": 268252,
             "name": "",
-            "params": "bonus=13534&pcs=271538:271537:271535:271536:268249&gems=240908&ench=7967",
-            "popularity": 26.8,
+            "params": "bonus=13534&pcs=271538:271537:271535:271536:268252&gems=240908&ench=7967",
+            "popularity": 27.3,
             "parses": 3
           },
           {
             "id": 268209,
             "name": "",
             "params": "pcs=271538:271537:271535:271536:268209&ench=8689",
-            "popularity": 90.4,
+            "popularity": 90.1,
             "parses": 11
           },
           {
             "id": 237840,
             "name": "",
             "params": "bonus=8791&pcs=271538:271537:271535:271536:237840&ench=8689",
-            "popularity": 75.3,
+            "popularity": 74.8,
             "parses": 9
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 55.1,
+            "popularity": 55.7,
             "parses": 7
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 55.1,
+            "popularity": 55.7,
             "parses": 7
           }
         ]
       },
       "mplus": {
-        "m": 1150,
-        "c": 1331,
-        "h": 549,
-        "v": 174,
-        "dps": "452.3k",
+        "m": 1151,
+        "c": 1326,
+        "h": 552,
+        "v": 176,
+        "dps": "451.6k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/VDBjgqz8xnMCkH6p#fight=8",
@@ -888,98 +888,98 @@ window.ARCHON_PRESETS = {
           {
             "id": 271537,
             "name": "",
-            "params": "pcs=271537:271538:271535:271536&gems=240908&ench=8017",
-            "popularity": 91.7,
+            "params": "pcs=271537:271538:271535:271540&gems=240908&ench=8017",
+            "popularity": 92.3,
             "parses": 2
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271537:271538:271535:271536:268265&gems=240983",
-            "popularity": 93.9,
+            "params": "bonus=13534&pcs=271537:271538:271535:271540:268265&gems=240983",
+            "popularity": 94.6,
             "parses": 2
           },
           {
             "id": 271535,
             "name": "",
-            "params": "pcs=271537:271538:271535:271536&ench=8001",
-            "popularity": 81.2,
+            "params": "pcs=271537:271538:271535:271540&ench=8001",
+            "popularity": 81.5,
             "parses": 2
           },
           {
             "id": 239656,
             "name": "",
-            "params": "bonus=8791&pcs=271537:271538:271535:271536:239656",
-            "popularity": 39.7,
+            "params": "bonus=8791&pcs=271537:271538:271535:271540:239656",
+            "popularity": 39.8,
             "parses": 1
           },
           {
             "id": 271540,
             "name": "",
-            "params": "pcs=271537:271538:271535:271536:271540&ench=7987",
-            "popularity": 78.1,
+            "params": "pcs=271537:271538:271535:271540&ench=7987",
+            "popularity": 79.6,
             "parses": 2
           },
           {
             "id": 244576,
             "name": "",
-            "params": "bonus=8791&pcs=271537:271538:271535:271536:244576&gems=240908",
-            "popularity": 76.7,
+            "params": "bonus=8791&pcs=271537:271538:271535:271540:244576&gems=240908",
+            "popularity": 76.8,
             "parses": 2
           },
           {
             "id": 271538,
             "name": "",
-            "params": "pcs=271537:271538:271535:271536",
-            "popularity": 85.7,
+            "params": "pcs=271537:271538:271535:271540",
+            "popularity": 86,
             "parses": 2
           },
           {
             "id": 268227,
             "name": "",
-            "params": "pcs=271537:271538:271535:271536:268227&gems=240908",
-            "popularity": 25.3,
-            "parses": 733
+            "params": "pcs=271537:271538:271535:271540:268227&gems=240908",
+            "popularity": 24.9,
+            "parses": 667
           },
           {
             "id": 271536,
             "name": "",
-            "params": "pcs=271537:271538:271535:271536&ench=8159",
-            "popularity": 79.1,
+            "params": "pcs=271537:271538:271535:271540:271536&ench=8159",
+            "popularity": 78.6,
             "parses": 2
           },
           {
             "id": 244569,
             "name": "",
-            "params": "bonus=8791&pcs=271537:271538:271535:271536:244569&ench=7963",
-            "popularity": 61.1,
+            "params": "bonus=8791&pcs=271537:271538:271535:271540:244569&ench=7963",
+            "popularity": 60.6,
             "parses": 1
           },
           {
             "id": 240949,
             "name": "",
-            "params": ":8791&pcs=271537:271538:271535:271536:240949&gems=240908&ench=7967",
-            "popularity": 54.6,
+            "params": ":8791&pcs=271537:271538:271535:271540:240949&gems=240908&ench=7967",
+            "popularity": 52.8,
             "parses": 1
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271537:271538:271535:271536:281029&gems=240908&ench=7967",
-            "popularity": 41.4,
+            "params": "bonus=13534&pcs=271537:271538:271535:271540:281029&gems=240908&ench=7967",
+            "popularity": 43.7,
             "parses": 1
           },
           {
             "id": 268209,
             "name": "",
-            "params": "pcs=271537:271538:271535:271536:268209&ench=8689",
-            "popularity": 92.6,
+            "params": "pcs=271537:271538:271535:271540:268209&ench=8689",
+            "popularity": 93.2,
             "parses": 2
           },
           {
             "id": 237840,
             "name": "",
-            "params": "bonus=8791&pcs=271537:271538:271535:271536:237840&ench=8689",
+            "params": "bonus=8791&pcs=271537:271538:271535:271540:237840&ench=8689",
             "popularity": 81,
             "parses": 2
           },
@@ -987,14 +987,14 @@ window.ARCHON_PRESETS = {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 57.6,
+            "popularity": 60.5,
             "parses": 1
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 57.6,
+            "popularity": 60.5,
             "parses": 1
           }
         ]
@@ -1002,11 +1002,11 @@ window.ARCHON_PRESETS = {
     },
     "vengeance": {
       "raid": {
-        "m": 619,
-        "c": 885,
-        "h": 1270,
-        "v": 297,
-        "dps": "163.7k",
+        "m": 624,
+        "c": 880,
+        "h": 1267,
+        "v": 296,
+        "dps": "163.1k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/NDfXmtb3kc1dygGH#fight=18",
@@ -1018,49 +1018,49 @@ window.ARCHON_PRESETS = {
             "id": 271537,
             "name": "",
             "params": "pcs=271535:271537:271540:271536&gems=240890&ench=7961",
-            "popularity": 88.9,
+            "popularity": 89,
             "parses": 4
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271535:271537:271540:271536:268265&gems=240983",
-            "popularity": 87.3,
-            "parses": 4
+            "popularity": 87.1,
+            "parses": 3
           },
           {
             "id": 271535,
             "name": "",
             "params": "pcs=271535:271537:271540:271536&ench=8031",
-            "popularity": 90.2,
+            "popularity": 90.3,
             "parses": 4
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271535:271537:271540:271536:268253",
-            "popularity": 31.6,
+            "popularity": 31.7,
             "parses": 1
           },
           {
             "id": 271540,
             "name": "",
             "params": "pcs=271535:271537:271540:271536&ench=7987",
-            "popularity": 88,
+            "popularity": 87.7,
             "parses": 4
           },
           {
             "id": 244576,
             "name": "",
             "params": "bonus=8790&pcs=271535:271537:271540:271536:244576&gems=240890",
-            "popularity": 62.2,
+            "popularity": 61.1,
             "parses": 2
           },
           {
             "id": 271538,
             "name": "",
             "params": "pcs=271535:271537:271540:271536:271538",
-            "popularity": 82.4,
+            "popularity": 82.7,
             "parses": 3
           },
           {
@@ -1074,42 +1074,42 @@ window.ARCHON_PRESETS = {
             "id": 271536,
             "name": "",
             "params": "pcs=271535:271537:271540:271536&ench=8159",
-            "popularity": 84.8,
+            "popularity": 84.6,
             "parses": 3
           },
           {
             "id": 268247,
             "name": "",
             "params": "pcs=271535:271537:271540:271536:268247&ench=7993",
-            "popularity": 28,
+            "popularity": 27.7,
             "parses": 1
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271535:271537:271540:271536:281029&gems=240890&ench=7967",
-            "popularity": 42.5,
+            "popularity": 43.2,
             "parses": 1
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8790&pcs=271535:271537:271540:271536:240949&gems=240890&ench=7967",
-            "popularity": 27.4,
+            "popularity": 27.6,
             "parses": 1
           },
           {
             "id": 268209,
             "name": "",
             "params": "pcs=271535:271537:271540:271536:268209&ench=8689",
-            "popularity": 73.5,
+            "popularity": 74.5,
             "parses": 3
           },
           {
             "id": 237840,
             "name": "",
             "params": "bonus=8790&pcs=271535:271537:271540:271536:237840&ench=8689",
-            "popularity": 55.8,
+            "popularity": 55.1,
             "parses": 2
           },
           {
@@ -1129,11 +1129,11 @@ window.ARCHON_PRESETS = {
         ]
       },
       "mplus": {
-        "m": 539,
-        "c": 844,
-        "h": 1329,
-        "v": 472,
-        "dps": "272.3k",
+        "m": 541,
+        "c": 841,
+        "h": 1332,
+        "v": 478,
+        "dps": "271.1k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/ZYaJ9dTbhC48VMQx#fight=2",
@@ -1144,114 +1144,114 @@ window.ARCHON_PRESETS = {
           {
             "id": 271537,
             "name": "",
-            "params": "pcs=271537:271540:271535:271536&gems=240890&ench=7961",
-            "popularity": 89.8,
+            "params": "pcs=271537:271540:271536:271535&gems=240890&ench=7961",
+            "popularity": 89.7,
             "parses": 2
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271537:271540:271535:271536:268265&gems=240983",
-            "popularity": 87.7,
-            "parses": 2
+            "params": "bonus=13534&pcs=271537:271540:271536:271535:268265&gems=240983",
+            "popularity": 87.4,
+            "parses": 1
           },
           {
             "id": 271535,
             "name": "",
-            "params": "pcs=271537:271540:271535:271536&ench=8031",
-            "popularity": 78.8,
+            "params": "pcs=271537:271540:271536:271535&ench=8031",
+            "popularity": 78.4,
             "parses": 1
           },
           {
             "id": 239656,
             "name": "",
-            "params": "bonus=8790&pcs=271537:271540:271535:271536:239656",
+            "params": "bonus=8790&pcs=271537:271540:271536:271535:239656",
             "popularity": 35,
-            "parses": 839
+            "parses": 772
           },
           {
             "id": 271540,
             "name": "",
-            "params": "pcs=271537:271540:271535:271536&ench=7987",
-            "popularity": 88.9,
+            "params": "pcs=271537:271540:271536:271535&ench=7987",
+            "popularity": 88.8,
             "parses": 2
           },
           {
             "id": 244576,
             "name": "",
-            "params": "bonus=8790&pcs=271537:271540:271535:271536:244576&gems=240890",
-            "popularity": 77.4,
+            "params": "bonus=8790&pcs=271537:271540:271536:271535:244576&gems=240890",
+            "popularity": 77.3,
             "parses": 1
           },
           {
             "id": 271538,
             "name": "",
-            "params": "pcs=271537:271540:271535:271536:271538",
-            "popularity": 66.1,
+            "params": "pcs=271537:271540:271536:271535:271538",
+            "popularity": 65.9,
             "parses": 1
           },
           {
             "id": 268256,
             "name": "",
-            "params": "pcs=271537:271540:271535:271536:268256&gems=240890",
+            "params": "pcs=271537:271540:271536:271535:268256&gems=240890",
             "popularity": 26.4,
-            "parses": 632
+            "parses": 581
           },
           {
             "id": 271536,
             "name": "",
-            "params": "pcs=271537:271540:271535:271536&ench=8159",
-            "popularity": 78.8,
+            "params": "pcs=271537:271540:271536:271535&ench=8159",
+            "popularity": 78.6,
             "parses": 1
           },
           {
             "id": 244569,
             "name": "",
-            "params": "bonus=8790&pcs=271537:271540:271535:271536:244569&ench=7993",
-            "popularity": 43.8,
-            "parses": 1
+            "params": "bonus=8790&pcs=271537:271540:271536:271535:244569&ench=7993",
+            "popularity": 43.4,
+            "parses": 957
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271537:271540:271535:271536:281029&gems=240890&ench=7967",
-            "popularity": 50.1,
+            "params": "bonus=13534&pcs=271537:271540:271536:271535:281029&gems=240890&ench=7967",
+            "popularity": 51.4,
             "parses": 1
           },
           {
             "id": 240949,
             "name": "",
-            "params": ":8790&pcs=271537:271540:271535:271536:240949&gems=240890&ench=7967",
-            "popularity": 46.1,
+            "params": ":8790&pcs=271537:271540:271536:271535:240949&gems=240890&ench=7967",
+            "popularity": 46,
             "parses": 1
           },
           {
             "id": 268209,
             "name": "",
-            "params": "pcs=271537:271540:271535:271536:268209&ench=8689",
-            "popularity": 77.8,
+            "params": "pcs=271537:271540:271536:271535:268209&ench=8689",
+            "popularity": 78.8,
             "parses": 1
           },
           {
             "id": 237840,
             "name": "",
-            "params": "bonus=8790&pcs=271537:271540:271535:271536:237840&ench=8689",
-            "popularity": 67.4,
+            "params": "bonus=8790&pcs=271537:271540:271536:271535:237840&ench=8689",
+            "popularity": 66.7,
             "parses": 1
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 34.5,
-            "parses": 827
+            "popularity": 36.3,
+            "parses": 800
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 34.5,
-            "parses": 827
+            "popularity": 36.3,
+            "parses": 800
           }
         ]
       }
@@ -1385,11 +1385,11 @@ window.ARCHON_PRESETS = {
         ]
       },
       "mplus": {
-        "m": 1284,
-        "c": 762,
-        "h": 1022,
-        "v": 186,
-        "dps": "513.0k",
+        "m": 1286,
+        "c": 761,
+        "h": 1021,
+        "v": 181,
+        "dps": "515.5k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/nxFgmrkTt4hZBVD8#fight=17",
@@ -1400,113 +1400,113 @@ window.ARCHON_PRESETS = {
           {
             "id": 271537,
             "name": "",
-            "params": "pcs=271537:271540:271535:271536&gems=240898&ench=8017",
-            "popularity": 92.7,
-            "parses": 3
+            "params": "pcs=271537:271540:271535:271536&gems=240908&ench=8017",
+            "popularity": 92.9,
+            "parses": 2
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271537:271540:271535:271536:268265&gems=240983",
-            "popularity": 95.4,
-            "parses": 3
+            "popularity": 95.6,
+            "parses": 2
           },
           {
             "id": 271535,
             "name": "",
             "params": "pcs=271537:271540:271535:271536&ench=8001",
-            "popularity": 79.7,
+            "popularity": 79.9,
             "parses": 2
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8791&pcs=271537:271540:271535:271536:239656",
-            "popularity": 37.8,
+            "popularity": 36.9,
             "parses": 1
           },
           {
             "id": 271540,
             "name": "",
             "params": "pcs=271537:271540:271535:271536&ench=7987",
-            "popularity": 85.4,
+            "popularity": 85.5,
             "parses": 2
           },
           {
             "id": 244576,
             "name": "",
-            "params": "bonus=8791&pcs=271537:271540:271535:271536:244576&gems=240898",
-            "popularity": 76.5,
+            "params": "bonus=8791&pcs=271537:271540:271535:271536:244576&gems=240908",
+            "popularity": 75.8,
             "parses": 2
           },
           {
             "id": 271538,
             "name": "",
             "params": "pcs=271537:271540:271535:271536:271538",
-            "popularity": 73.1,
+            "popularity": 73.4,
             "parses": 2
           },
           {
             "id": 271534,
             "name": "",
-            "params": "pcs=271537:271540:271535:271536:271534&gems=240898",
-            "popularity": 27.4,
-            "parses": 881
+            "params": "pcs=271537:271540:271535:271536:271534&gems=240908",
+            "popularity": 27.6,
+            "parses": 824
           },
           {
             "id": 271536,
             "name": "",
             "params": "pcs=271537:271540:271535:271536&ench=7935",
-            "popularity": 78.7,
+            "popularity": 78.9,
             "parses": 2
           },
           {
             "id": 244569,
             "name": "",
             "params": "bonus=8791&pcs=271537:271540:271535:271536:244569&ench=7963",
-            "popularity": 85,
+            "popularity": 85.1,
             "parses": 2
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271537:271540:271535:271536:281029&gems=240898&ench=7967",
-            "popularity": 68.8,
+            "params": "bonus=13534&pcs=271537:271540:271535:271536:281029&gems=240908&ench=7967",
+            "popularity": 71.1,
             "parses": 2
           },
           {
             "id": 240949,
             "name": "",
-            "params": ":8791&pcs=271537:271540:271535:271536:240949&gems=240898&ench=7967",
-            "popularity": 45,
+            "params": ":8791&pcs=271537:271540:271535:271536:240949&gems=240908&ench=7967",
+            "popularity": 43.6,
             "parses": 1
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271537:271540:271535:271536:271092&ench=8689",
-            "popularity": 79.4,
+            "popularity": 79.3,
             "parses": 2
           },
           {
             "id": 237840,
             "name": "",
             "params": "bonus=8791&pcs=271537:271540:271535:271536:237840&ench=8689",
-            "popularity": 29.4,
-            "parses": 945
+            "popularity": 27.7,
+            "parses": 828
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 40.2,
+            "popularity": 40.7,
             "parses": 1
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 40.2,
+            "popularity": 40.7,
             "parses": 1
           }
         ]
@@ -1516,11 +1516,11 @@ window.ARCHON_PRESETS = {
   "druid": {
     "balance": {
       "raid": {
-        "m": 1269,
-        "c": 770,
-        "h": 946,
+        "m": 1270,
+        "c": 758,
+        "h": 949,
         "v": 153,
-        "dps": "358.2k",
+        "dps": "359.1k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/AHvx74br3mWnZhDJ#fight=20",
@@ -1532,28 +1532,28 @@ window.ARCHON_PRESETS = {
             "id": 271528,
             "name": "",
             "params": "pcs=271526:271531:271527:271528&gems=240898&ench=8017",
-            "popularity": 85.5,
+            "popularity": 85.4,
             "parses": 13
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271526:271531:271527:271528:268265&gems=240983",
-            "popularity": 95.9,
+            "popularity": 96,
             "parses": 15
           },
           {
             "id": 271526,
             "name": "",
             "params": "pcs=271526:271531:271527:271528&ench=8001",
-            "popularity": 94.2,
+            "popularity": 94.4,
             "parses": 15
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271526:271531:271527:271528:268253",
-            "popularity": 37.7,
+            "popularity": 38.4,
             "parses": 6
           },
           {
@@ -1574,80 +1574,80 @@ window.ARCHON_PRESETS = {
             "id": 271529,
             "name": "",
             "params": "pcs=271526:271531:271527:271528:271529",
-            "popularity": 75.7,
+            "popularity": 75.4,
             "parses": 12
           },
           {
             "id": 268256,
             "name": "",
             "params": "pcs=271526:271531:271527:271528:268256&gems=240898",
-            "popularity": 39.4,
+            "popularity": 40.5,
             "parses": 6
           },
           {
             "id": 271527,
             "name": "",
             "params": "pcs=271526:271531:271527:271528&ench=7935",
-            "popularity": 87,
-            "parses": 14
+            "popularity": 87.6,
+            "parses": 13
           },
           {
             "id": 244569,
             "name": "",
             "params": "bonus=8791&pcs=271526:271531:271527:271528:244569&ench=7963",
-            "popularity": 54.2,
+            "popularity": 54.7,
             "parses": 8
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271526:271531:271527:271528:281029&gems=240898&ench=7967",
-            "popularity": 64.2,
+            "popularity": 65.8,
             "parses": 10
           },
           {
             "id": 268249,
             "name": "",
             "params": "bonus=13534&pcs=271526:271531:271527:271528:268249&gems=240898&ench=7967",
-            "popularity": 56.9,
+            "popularity": 57,
             "parses": 9
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271526:271531:271527:271528:271092&ench=8689",
-            "popularity": 80.7,
-            "parses": 13
+            "popularity": 80.6,
+            "parses": 12
           },
           {
             "id": 245769,
             "name": "",
             "params": "bonus=8791&pcs=271526:271531:271527:271528:245769",
-            "popularity": 63.8,
+            "popularity": 63.2,
             "parses": 10
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 21.3,
+            "popularity": 21.7,
             "parses": 3
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 21.3,
+            "popularity": 21.7,
             "parses": 3
           }
         ]
       },
       "mplus": {
-        "m": 1248,
+        "m": 1249,
         "c": 737,
-        "h": 953,
-        "v": 177,
-        "dps": "448.2k",
+        "h": 958,
+        "v": 183,
+        "dps": "450.4k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/PnwHp3yaDvCYxgBt#fight=2",
@@ -1658,125 +1658,125 @@ window.ARCHON_PRESETS = {
           {
             "id": 271528,
             "name": "",
-            "params": "pcs=271526:271528:271531:271527&gems=240900&ench=8017",
+            "params": "pcs=271526:271531:271528:271527&gems=240900&ench=8017",
             "popularity": 88.4,
-            "parses": 2
+            "parses": 1
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271526:271528:271531:271527:268265&gems=240983",
-            "popularity": 94.8,
+            "params": "bonus=13534&pcs=271526:271531:271528:271527:268265&gems=240983",
+            "popularity": 94.9,
             "parses": 2
           },
           {
             "id": 271526,
             "name": "",
-            "params": "pcs=271526:271528:271531:271527&ench=8001",
-            "popularity": 91.6,
-            "parses": 2
+            "params": "pcs=271526:271531:271528:271527&ench=8001",
+            "popularity": 91.7,
+            "parses": 1
           },
           {
             "id": 239656,
             "name": "",
-            "params": "bonus=8791&pcs=271526:271528:271531:271527:239656",
+            "params": "bonus=8791&pcs=271526:271531:271528:271527:239656",
             "popularity": 36.5,
-            "parses": 828
+            "parses": 758
           },
           {
             "id": 271531,
             "name": "",
-            "params": "pcs=271526:271528:271531:271527&ench=7987",
-            "popularity": 88.4,
-            "parses": 2
+            "params": "pcs=271526:271531:271528:271527&ench=7987",
+            "popularity": 89,
+            "parses": 1
           },
           {
             "id": 244576,
             "name": "",
-            "params": "bonus=8791&pcs=271526:271528:271531:271527:244576&gems=240900",
-            "popularity": 72.3,
+            "params": "bonus=8791&pcs=271526:271531:271528:271527:244576&gems=240900",
+            "popularity": 71.3,
             "parses": 1
           },
           {
             "id": 271529,
             "name": "",
-            "params": "pcs=271526:271528:271531:271527:271529",
-            "popularity": 63,
+            "params": "pcs=271526:271531:271528:271527:271529",
+            "popularity": 62,
             "parses": 1
           },
           {
             "id": 268227,
             "name": "",
-            "params": "pcs=271526:271528:271531:271527:268227&gems=240900",
-            "popularity": 29.6,
-            "parses": 671
+            "params": "pcs=271526:271531:271528:271527:268227&gems=240900",
+            "popularity": 30,
+            "parses": 623
           },
           {
             "id": 271527,
             "name": "",
-            "params": "pcs=271526:271528:271531:271527&ench=7935",
-            "popularity": 85.4,
+            "params": "pcs=271526:271531:271528:271527&ench=7935",
+            "popularity": 85.3,
             "parses": 1
           },
           {
             "id": 244569,
             "name": "",
-            "params": "bonus=8791&pcs=271526:271528:271531:271527:244569&ench=7963",
-            "popularity": 65.5,
+            "params": "bonus=8791&pcs=271526:271531:271528:271527:244569&ench=7963",
+            "popularity": 65.2,
             "parses": 1
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271526:271528:271531:271527:281029&gems=240900&ench=7967",
-            "popularity": 77.2,
+            "params": "bonus=13534&pcs=271526:271531:271528:271527:281029&gems=240900&ench=7967",
+            "popularity": 78.7,
             "parses": 1
           },
           {
             "id": 268249,
             "name": "",
-            "params": "bonus=13534&pcs=271526:271528:271531:271527:268249&gems=240900&ench=7967",
-            "popularity": 48.8,
+            "params": "bonus=13534&pcs=271526:271531:271528:271527:268249&gems=240900&ench=7967",
+            "popularity": 48.5,
             "parses": 1
           },
           {
             "id": 271092,
             "name": "",
-            "params": "pcs=271526:271528:271531:271527:271092&ench=8689",
-            "popularity": 91.1,
-            "parses": 2
+            "params": "pcs=271526:271531:271528:271527:271092&ench=8689",
+            "popularity": 91.6,
+            "parses": 1
           },
           {
             "id": 245769,
             "name": "",
-            "params": "bonus=8791&pcs=271526:271528:271531:271527:245769",
-            "popularity": 74.5,
+            "params": "bonus=8791&pcs=271526:271531:271528:271527:245769",
+            "popularity": 74.3,
             "parses": 1
           },
           {
-            "id": 273796,
+            "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 26.8,
-            "parses": 608
+            "popularity": 27.5,
+            "parses": 571
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 26.8,
-            "parses": 608
+            "popularity": 27.5,
+            "parses": 571
           }
         ]
       }
     },
     "feral": {
       "raid": {
-        "m": 1243,
-        "c": 795,
-        "h": 948,
-        "v": 156,
-        "dps": "271.6k",
+        "m": 1246,
+        "c": 796,
+        "h": 947,
+        "v": 154,
+        "dps": "272.1k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/BFCfcKDmnLTGZtjk#fight=9",
@@ -1787,91 +1787,91 @@ window.ARCHON_PRESETS = {
           {
             "id": 271528,
             "name": "",
-            "params": "pcs=271528:271526:271531:271527&gems=240900&ench=8017",
-            "popularity": 89.7,
+            "params": "pcs=271528:271531:271526:271527&gems=240900&ench=8017",
+            "popularity": 89.9,
             "parses": 2
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271528:271526:271531:271527:268265&gems=240983",
-            "popularity": 87.7,
+            "params": "bonus=13534&pcs=271528:271531:271526:271527:268265&gems=240983",
+            "popularity": 88,
             "parses": 2
           },
           {
             "id": 271526,
             "name": "",
-            "params": "pcs=271528:271526:271531:271527&ench=8001",
-            "popularity": 89.5,
+            "params": "pcs=271528:271531:271526:271527&ench=8001",
+            "popularity": 89.2,
             "parses": 2
           },
           {
             "id": 268253,
             "name": "",
-            "params": "pcs=271528:271526:271531:271527:268253",
-            "popularity": 34,
+            "params": "pcs=271528:271531:271526:271527:268253",
+            "popularity": 34.4,
             "parses": 1
           },
           {
             "id": 271531,
             "name": "",
-            "params": "pcs=271528:271526:271531:271527&ench=7987",
-            "popularity": 89.3,
+            "params": "pcs=271528:271531:271526:271527&ench=7987",
+            "popularity": 89.5,
             "parses": 2
           },
           {
             "id": 244576,
             "name": "",
-            "params": "bonus=8793&pcs=271528:271526:271531:271527:244576&gems=240900",
-            "popularity": 81.8,
+            "params": "bonus=8793&pcs=271528:271531:271526:271527:244576&gems=240900",
+            "popularity": 80.9,
             "parses": 2
           },
           {
             "id": 271529,
             "name": "",
-            "params": "pcs=271528:271526:271531:271527:271529",
-            "popularity": 63.1,
-            "parses": 2
+            "params": "pcs=271528:271531:271526:271527:271529",
+            "popularity": 62.3,
+            "parses": 1
           },
           {
             "id": 268256,
             "name": "",
-            "params": "pcs=271528:271526:271531:271527:268256&gems=240900",
-            "popularity": 39.9,
+            "params": "pcs=271528:271531:271526:271527:268256&gems=240900",
+            "popularity": 40.1,
             "parses": 1
           },
           {
             "id": 271527,
             "name": "",
-            "params": "pcs=271528:271526:271531:271527&ench=8159",
-            "popularity": 85.5,
+            "params": "pcs=271528:271531:271526:271527&ench=8159",
+            "popularity": 86,
             "parses": 2
           },
           {
             "id": 244569,
             "name": "",
-            "params": "bonus=8793&pcs=271528:271526:271531:271527:244569&ench=7963",
-            "popularity": 61,
+            "params": "bonus=8793&pcs=271528:271531:271526:271527:244569&ench=7963",
+            "popularity": 60.6,
             "parses": 1
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271528:271526:271531:271527:281029&gems=240900&ench=7967",
-            "popularity": 67.5,
+            "params": "bonus=13534&pcs=271528:271531:271526:271527:281029&gems=240900&ench=7967",
+            "popularity": 68.5,
             "parses": 2
           },
           {
             "id": 268249,
             "name": "",
-            "params": "bonus=13534&pcs=271528:271526:271531:271527:268249&gems=240900&ench=7967",
-            "popularity": 31.9,
+            "params": "bonus=13534&pcs=271528:271531:271526:271527:268249&gems=240900&ench=7967",
+            "popularity": 32.6,
             "parses": 1
           },
           {
             "id": 268215,
             "name": "",
-            "params": "pcs=271528:271526:271531:271527:268215&ench=8689",
+            "params": "pcs=271528:271531:271526:271527:268215&ench=8689",
             "popularity": 87.4,
             "parses": 2
           },
@@ -1892,11 +1892,11 @@ window.ARCHON_PRESETS = {
         ]
       },
       "mplus": {
-        "m": 1338,
-        "c": 815,
+        "m": 1351,
+        "c": 811,
         "h": 874,
-        "v": 233,
-        "dps": "545.5k",
+        "v": 238,
+        "dps": "551.9k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/Dy68CfzcjxkGHMKT#fight=1",
@@ -1908,85 +1908,85 @@ window.ARCHON_PRESETS = {
             "id": 271528,
             "name": "",
             "params": "pcs=271528:271531:271526:271527&gems=240900&ench=8017",
-            "popularity": 94.9,
+            "popularity": 94.8,
             "parses": 1
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271528:271531:271526:271527:268265&gems=240983",
-            "popularity": 96.1,
+            "popularity": 96,
             "parses": 1
           },
           {
             "id": 271526,
             "name": "",
             "params": "pcs=271528:271531:271526:271527&ench=8001",
-            "popularity": 83.6,
+            "popularity": 83.8,
             "parses": 1
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271528:271531:271526:271527:268253",
-            "popularity": 38.7,
-            "parses": 542
+            "popularity": 38.9,
+            "parses": 514
           },
           {
             "id": 271531,
             "name": "",
             "params": "pcs=271528:271531:271526:271527&ench=7987",
-            "popularity": 88.3,
+            "popularity": 87.5,
             "parses": 1
           },
           {
             "id": 244576,
             "name": "",
             "params": "bonus=8793&pcs=271528:271531:271526:271527:244576&gems=240900",
-            "popularity": 84.6,
+            "popularity": 85,
             "parses": 1
           },
           {
             "id": 271529,
             "name": "",
             "params": "pcs=271528:271531:271526:271527:271529",
-            "popularity": 56.1,
-            "parses": 786
+            "popularity": 57.5,
+            "parses": 761
           },
           {
             "id": 268256,
             "name": "",
             "params": "pcs=271528:271531:271526:271527:268256&gems=240900",
-            "popularity": 37.3,
-            "parses": 522
+            "popularity": 37.4,
+            "parses": 495
           },
           {
             "id": 271527,
             "name": "",
             "params": "pcs=271528:271531:271526:271527&ench=8159",
-            "popularity": 80.9,
+            "popularity": 80.4,
             "parses": 1
           },
           {
             "id": 244569,
             "name": "",
             "params": "bonus=8793&pcs=271528:271531:271526:271527:244569&ench=7963",
-            "popularity": 67.9,
-            "parses": 951
+            "popularity": 69.1,
+            "parses": 914
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271528:271531:271526:271527:281029&gems=240900&ench=7967",
-            "popularity": 80.7,
+            "popularity": 83.3,
             "parses": 1
           },
           {
             "id": 268249,
             "name": "",
             "params": "bonus=13534&pcs=271528:271531:271526:271527:268249&gems=240900&ench=7967",
-            "popularity": 42.4,
-            "parses": 594
+            "popularity": 43,
+            "parses": 569
           },
           {
             "id": 268215,
@@ -1999,14 +1999,14 @@ window.ARCHON_PRESETS = {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 76.7,
+            "popularity": 78.9,
             "parses": 1
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 76.7,
+            "popularity": 78.9,
             "parses": 1
           }
         ]
@@ -2014,11 +2014,11 @@ window.ARCHON_PRESETS = {
     },
     "guardian": {
       "raid": {
-        "m": 641,
-        "c": 766,
-        "h": 1273,
+        "m": 645,
+        "c": 765,
+        "h": 1275,
         "v": 396,
-        "dps": "164.7k",
+        "dps": "165.2k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/6DMHJgWk8j94mhcq#fight=2",
@@ -2029,149 +2029,149 @@ window.ARCHON_PRESETS = {
           {
             "id": 271528,
             "name": "",
-            "params": "pcs=271531:271526:271528:271527&gems=240894&ench=7961",
+            "params": "pcs=271526:271531:271528:271527&gems=240894&ench=7961",
             "popularity": 86.4,
             "parses": 5
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271531:271526:271528:271527:268265&gems=240983",
-            "popularity": 89.1,
+            "params": "bonus=13534&pcs=271526:271531:271528:271527:268265&gems=240983",
+            "popularity": 88.9,
             "parses": 5
           },
           {
             "id": 271526,
             "name": "",
-            "params": "pcs=271531:271526:271528:271527&ench=8031",
-            "popularity": 89.3,
+            "params": "pcs=271526:271531:271528:271527&ench=8031",
+            "popularity": 89,
             "parses": 5
           },
           {
             "id": 239656,
             "name": "",
-            "params": "bonus=8792&pcs=271531:271526:271528:271527:239656",
-            "popularity": 46,
+            "params": "bonus=8792&pcs=271526:271531:271528:271527:239656",
+            "popularity": 44.8,
             "parses": 2
           },
           {
             "id": 271531,
             "name": "",
-            "params": "pcs=271531:271526:271528:271527&ench=7987",
-            "popularity": 89.5,
+            "params": "pcs=271526:271531:271528:271527&ench=7987",
+            "popularity": 89,
             "parses": 5
           },
           {
             "id": 244576,
             "name": "",
-            "params": "bonus=8792&pcs=271531:271526:271528:271527:244576&gems=240894",
-            "popularity": 75.3,
+            "params": "bonus=8792&pcs=271526:271531:271528:271527:244576&gems=240894",
+            "popularity": 74.9,
             "parses": 4
           },
           {
             "id": 271529,
             "name": "",
-            "params": "pcs=271531:271526:271528:271527:271529",
-            "popularity": 79.1,
+            "params": "pcs=271526:271531:271528:271527:271529",
+            "popularity": 79.2,
             "parses": 4
           },
           {
             "id": 244573,
             "name": "",
-            "params": "bonus=8792&pcs=271531:271526:271528:271527:244573&gems=240894",
-            "popularity": 25,
+            "params": "bonus=8792&pcs=271526:271531:271528:271527:244573&gems=240894",
+            "popularity": 24.9,
             "parses": 1
           },
           {
             "id": 271527,
             "name": "",
-            "params": "pcs=271531:271526:271528:271527&ench=8159",
-            "popularity": 82.5,
+            "params": "pcs=271526:271531:271528:271527&ench=8159",
+            "popularity": 83.1,
             "parses": 4
           },
           {
             "id": 244569,
             "name": "",
-            "params": "bonus=8792&pcs=271531:271526:271528:271527:244569&ench=7993",
-            "popularity": 42.1,
+            "params": "bonus=8792&pcs=271526:271531:271528:271527:244569&ench=7993",
+            "popularity": 41.6,
             "parses": 2
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271531:271526:271528:271527:281029&gems=240894&ench=7967",
-            "popularity": 58.6,
+            "params": "bonus=13534&pcs=271526:271531:271528:271527:281029&gems=240894&ench=7967",
+            "popularity": 59.6,
             "parses": 3
           },
           {
             "id": 268266,
             "name": "",
-            "params": "bonus=13534&pcs=271531:271526:271528:271527:268266&gems=240894&ench=7967",
-            "popularity": 33.9,
+            "params": "bonus=13534&pcs=271526:271531:271528:271527:268266&gems=240894&ench=7967",
+            "popularity": 34,
             "parses": 2
           },
           {
             "id": 268215,
             "name": "",
-            "params": "pcs=271531:271526:271528:271527:268215&ench=8689",
-            "popularity": 84.4,
-            "parses": 5
+            "params": "pcs=271526:271531:271528:271527:268215&ench=8689",
+            "popularity": 83.9,
+            "parses": 4
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 28.3,
+            "popularity": 28.9,
             "parses": 1
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 28.3,
+            "popularity": 28.9,
             "parses": 1
           }
         ]
       },
       "mplus": {
-        "m": 607,
-        "c": 914,
+        "m": 613,
+        "c": 885,
         "h": 1291,
-        "v": 549,
-        "dps": "290.3k",
+        "v": 560,
+        "dps": "290.7k",
         "dpsLabel": "DPS",
         "popularity": "",
-        "topLogUrl": "https://www.warcraftlogs.com/reports/BQDyNCTdjhx1vV64#fight=6",
-        "talents": "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsYmZMziZxMmZZZgZzwoJyMzyMzMzsMmxAAAAAAMjNDYZbmBjZZAMBAAAshZGgFjhBsYBgZGAD",
+        "topLogUrl": "https://www.warcraftlogs.com/reports/WdXzMwrnQcRLTKPJ#fight=6",
+        "talents": "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsYmZMziZxMmZZZgZzwoJamZWmZmZmlxMAAAAAAMjNDYZbmBjZZAMBAAAshZGgFjhBsYBgZGAD",
         "heroTree": "Elune's Chosen",
-        "talentTreeHtml": "<div class=\"builds-talent-tree-build-section__talent-trees\"><div class=\"talent-tree  talent-tree--compact\"><div class=\"talent-tree--container  talent-tree--container--default-layout\"><div data-kind=\"class\" class=\"talent-tree__container talent-tree__container--class\" style=\"--rows:10;--min-cols:12\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"class\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--class\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/druid-1.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--class\"><div class=\"talent-tree__description__icon\"><img src=\"https://wow.zamimg.com/images/wow/icons/large/classicon_druid.jpg\" alt=\"druid\" style=\"width:2.5rem;height:2.5rem;border-radius:9999px;border:2px solid #f59e0b;object-fit:cover;display:block;\" onerror=\"this.src='https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg'\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Druid\">Class</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"12.5%\" y1=\"10%\" x2=\"25%\" y2=\"20%\"></line><line x1=\"12.5%\" y1=\"10%\" x2=\"12.5%\" y2=\"30%\"></line><line x1=\"12.5%\" y1=\"10%\" x2=\"0%\" y2=\"20%\"></line><line x1=\"62.5%\" y1=\"10%\" x2=\"75%\" y2=\"20%\"></line><line x1=\"62.5%\" y1=\"10%\" x2=\"62.5%\" y2=\"30%\"></line><line x1=\"62.5%\" y1=\"10%\" x2=\"50%\" y2=\"20%\"></line><line x1=\"37.5%\" y1=\"10%\" x2=\"25%\" y2=\"20%\"></line><line x1=\"37.5%\" y1=\"10%\" x2=\"37.5%\" y2=\"30%\"></line><line x1=\"37.5%\" y1=\"10%\" x2=\"50%\" y2=\"20%\"></line><line x1=\"87.5%\" y1=\"10%\" x2=\"87.5%\" y2=\"30%\"></line><line x1=\"87.5%\" y1=\"10%\" x2=\"100%\" y2=\"20%\"></line><line x1=\"75%\" y1=\"20%\" x2=\"75%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"20%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"20%\" x2=\"62.5%\" y2=\"30%\"></line><line x1=\"50%\" y1=\"20%\" x2=\"37.5%\" y2=\"30%\"></line><line x1=\"25%\" y1=\"20%\" x2=\"25%\" y2=\"40%\"></line><line x1=\"25%\" y1=\"20%\" x2=\"37.5%\" y2=\"30%\"></line><line x1=\"87.5%\" y1=\"30%\" x2=\"75%\" y2=\"40%\"></line><line x1=\"87.5%\" y1=\"30%\" x2=\"100%\" y2=\"40%\"></line><line x1=\"37.5%\" y1=\"30%\" x2=\"25%\" y2=\"40%\"></line><line x1=\"37.5%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"37.5%\" y1=\"30%\" x2=\"37.5%\" y2=\"40%\"></line><line x1=\"12.5%\" y1=\"30%\" x2=\"25%\" y2=\"40%\"></line><line x1=\"12.5%\" y1=\"30%\" x2=\"0%\" y2=\"40%\"></line><line x1=\"62.5%\" y1=\"30%\" x2=\"75%\" y2=\"40%\"></line><line x1=\"62.5%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"62.5%\" y1=\"30%\" x2=\"62.5%\" y2=\"40%\"></line><line x1=\"62.5%\" y1=\"40%\" x2=\"62.5%\" y2=\"50%\"></line><line x1=\"75%\" y1=\"40%\" x2=\"75%\" y2=\"60%\"></line><line x1=\"75%\" y1=\"40%\" x2=\"62.5%\" y2=\"50%\"></line><line x1=\"75%\" y1=\"40%\" x2=\"87.5%\" y2=\"50%\"></line><line x1=\"25%\" y1=\"40%\" x2=\"25%\" y2=\"60%\"></line><line x1=\"25%\" y1=\"40%\" x2=\"12.5%\" y2=\"50%\"></line><line x1=\"25%\" y1=\"40%\" x2=\"37.5%\" y2=\"50%\"></line><line x1=\"100%\" y1=\"40%\" x2=\"100%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"62.5%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"37.5%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"62.5%\" y1=\"50%\" x2=\"75%\" y2=\"60%\"></line><line x1=\"62.5%\" y1=\"50%\" x2=\"62.5%\" y2=\"70%\"></line><line x1=\"62.5%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"87.5%\" y1=\"50%\" x2=\"100%\" y2=\"60%\"></line><line x1=\"37.5%\" y1=\"50%\" x2=\"25%\" y2=\"60%\"></line><line x1=\"37.5%\" y1=\"50%\" x2=\"37.5%\" y2=\"70%\"></line><line x1=\"37.5%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"25%\" y1=\"60%\" x2=\"25%\" y2=\"70%\"></line><line x1=\"25%\" y1=\"60%\" x2=\"12.5%\" y2=\"70%\"></line><line x1=\"25%\" y1=\"60%\" x2=\"37.5%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"50%\" y2=\"70%\"></line><line x1=\"75%\" y1=\"60%\" x2=\"75%\" y2=\"70%\"></line><line x1=\"75%\" y1=\"60%\" x2=\"87.5%\" y2=\"70%\"></line><line x1=\"75%\" y1=\"60%\" x2=\"62.5%\" y2=\"70%\"></line><line x1=\"87.5%\" y1=\"70%\" x2=\"87.5%\" y2=\"80%\"></line><line x1=\"75%\" y1=\"70%\" x2=\"87.5%\" y2=\"80%\"></line><line x1=\"75%\" y1=\"70%\" x2=\"75%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"62.5%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"37.5%\" y2=\"80%\"></line><line x1=\"25%\" y1=\"70%\" x2=\"12.5%\" y2=\"80%\"></line><line x1=\"25%\" y1=\"70%\" x2=\"25%\" y2=\"80%\"></line><line x1=\"12.5%\" y1=\"70%\" x2=\"12.5%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"37.5%\" y2=\"90%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"62.5%\" y2=\"90%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"87.5%\" y1=\"80%\" x2=\"75%\" y2=\"90%\"></line><line x1=\"87.5%\" y1=\"80%\" x2=\"100%\" y2=\"90%\"></line><line x1=\"87.5%\" y1=\"80%\" x2=\"87.5%\" y2=\"100%\"></line><line x1=\"12.5%\" y1=\"80%\" x2=\"25%\" y2=\"90%\"></line><line x1=\"12.5%\" y1=\"80%\" x2=\"0%\" y2=\"90%\"></line><line x1=\"12.5%\" y1=\"80%\" x2=\"12.5%\" y2=\"100%\"></line><line x1=\"37.5%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"62.5%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"50%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1822?def=108282&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_disembowel.jpg\" alt=\"Rake\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=774?def=108300&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_rejuvenation.jpg\" alt=\"Rejuvenation\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=22842?def=108303&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_bullrush.jpg\" alt=\"Frenzied Regeneration\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=197628?def=117972&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_starfire.jpg\" alt=\"Starfire\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=197626?def=108283&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcane03.jpg\" alt=\"Starsurge\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=48438?def=108288&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_flourish.jpg\" alt=\"Wild Growth\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449182?def=108302&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_spiritarmor.jpg\" alt=\"Ursoc's Spirit\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=213764?def=108306&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_monsterclaw_03.jpg\" alt=\"Swipe\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=474526?def=108323&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_xavius_tormentingswipe.jpg\" alt=\"Grievous Wounds\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=24858?def=108291&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_forceofnature.jpg\" alt=\"Moonkin Form\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=301768?def=108301&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_bullrush.jpg\" alt=\"Verdant Heart\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1079?def=108305&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_ghoulfrenzy.jpg\" alt=\"Rip\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=2782?def=108325&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_removecurse.jpg\" alt=\"Remove Corruption\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=2637?def=108294&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_sleep.jpg\" alt=\"Hibernate\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=33873?def=108297&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_healinginstincts.jpg\" alt=\"Nurturing Instinct\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=22570?def=108304&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_mangle-tga.jpg\" alt=\"Maim\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=108299?def=108308&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_predatoryinstincts.jpg\" alt=\"Killer Instinct\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=192081?def=108310&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_ironfur.jpg\" alt=\"Ironfur\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=93402?def=121114&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_firestarter.jpg\" alt=\"Sunfire\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=327993?def=133394&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_stoneclawtotem.jpg\" alt=\"Improved Barkskin\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377796?def=108289&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_naturalperfection.jpg\" alt=\"Natural Recovery\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=197524?def=108293&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_skyreach_lens_flare.jpg\" alt=\"Astral Influence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=159286?def=108307&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_racial_cannibalize.jpg\" alt=\"Primal Fury\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=16931?def=108311&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_pelt_bear_03.jpg\" alt=\"Thick Hide\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=106839?def=108327&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_bone_skull_04.jpg\" alt=\"Skull Bash\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=102401?def=108281&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_wildcharge.jpg\" alt=\"Wild Charge\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=2908?def=108312&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_hunter_beastsoothe.jpg\" alt=\"Soothe\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=474678?def=133384&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_healingtouch.jpg\" alt=\"Aessina's Renewal\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=451211?def=128706&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcane01.jpg\" alt=\"Starlight Conduit\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=102793?def=133392&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_ursolsvortex.jpg\" alt=\"Ursol's Vortex\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=132469?def=108292&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_typhoon.jpg\" alt=\"Typhoon\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=106898?def=108317&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_stampedingroar_cat.jpg\" alt=\"Stampeding Roar\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377847?def=108318&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_tigersroar.jpg\" alt=\"Well-Honed Instincts\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=131768?def=108319&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_dash.jpg\" alt=\"Feline Swiftness\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=231040?def=108324&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_rejuvenation.jpg\" alt=\"Lingering Healing\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=385786?def=128634&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_pelt_15.jpg\" alt=\"Matted Fur\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=378988?def=108316&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_trinket_ardenweald_02_green.jpg\" alt=\"Lycara's Teachings\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1262034?def=128632&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_giftofthewild.jpg\" alt=\"Gift of the Wild\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449191?def=128633&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_stoneclawtotem.jpg\" alt=\"Oakskin\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:75%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_galewinds.jpg\" alt=\"Gale Winds\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_skyreach_wind.jpg\" alt=\"Incessant Tempest\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449185?def=133387&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_starfall.jpg\" alt=\"Lore of the Grove\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449184?def=133388&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_vampiricaura.jpg\" alt=\"Instincts of the Claw\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1213597?def=133389&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_tigersroar.jpg\" alt=\"Perfectly-Honed Instincts\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=288826?def=108313&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_stamedingroar.jpg\" alt=\"Improved Stampeding Roar\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=99?def=108321&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_demoralizingroar.jpg\" alt=\"Incapacitating Roar\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=400129?def=108328&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_lifegivingspeed.jpg\" alt=\"Forestwalk\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1232897?def=119305&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_trinket_ardenweald_02_yellow.jpg\" alt=\"Lycara's Inspiration\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=474750?def=128630&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_focusedgrowth.jpg\" alt=\"Symbiotic Relationship\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377842?def=128631&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_markofursol.jpg\" alt=\"Ursine Vigor\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=474530?def=133383&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_disembowel.jpg\" alt=\"Circle of the Wild\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1261867?def=108314&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_blessingofagility.jpg\" alt=\"Heart of the Wild\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=29166?def=108329&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_lightning.jpg\" alt=\"Innervate\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449193?def=108331&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_mastershapeshifter.jpg\" alt=\"Fluid Form\" loading=\"lazy\"></a></div></div></div></div></div><div class=\"talent-tree__container talent-tree__container--hero\" style=\"--rows:1;--talent-count:3\"><div class=\"talent-tree__hero-spacer\"></div><div class=\"talent-tree__container--height-limiter\" data-kind=\"hero\"><div class=\"talent-tree__hero-title do-not-change-color-on-hover Druid talent-tree__hero-title--horizontal \">Elune's Chosen</div><div class=\"talent-tree__hero-icon\"><span class=\"\"><div class=\"talent-tree__hero-icon--wrapper \"><img src=\"https://assets.rpglogs.com/img/warcraft/talents/hero/24_full.png\" alt=\"Elune's Chosen\"></div></span></div><div class=\"talent-tree__hero-container talent-tree__hero-container--compact\n          talent-tree__hero-container--horizontal\n          \"><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=429538?def=122204&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_enchant_dust.jpg\" alt=\"Moondust\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=428655?def=122188&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_dreamstate.jpg\" alt=\"The Light of Elune\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=429539?def=122189&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_moonglow.jpg\" alt=\"Lunation\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div data-kind=\"spec\" class=\"talent-tree__container talent-tree__container--spec\" style=\"--rows:11;--min-cols:9\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"spec\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--spec\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/druid-3.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--spec\"><div class=\"talent-tree__description__icon\"><img class=\"sprite actor-sprite-Druid-Guardian\" src=\"https://assets.rpglogs.com/img/warcraft/icons/actors.jpg?v=43\" loading=\"lazy\" alt=\"\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Druid\">Spec</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"33.33333333333333%\" y2=\"18.181818181818183%\"></line><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"66.66666666666666%\" y2=\"18.181818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"16.666666666666664%\" y2=\"27.27272727272727%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"33.33333333333333%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"66.66666666666666%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"83.33333333333334%\" y2=\"27.27272727272727%\"></line><line x1=\"33.33333333333333%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"33.33333333333333%\" y1=\"27.27272727272727%\" x2=\"16.666666666666664%\" y2=\"36.36363636363637%\"></line><line x1=\"66.66666666666666%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"66.66666666666666%\" y1=\"27.27272727272727%\" x2=\"83.33333333333334%\" y2=\"36.36363636363637%\"></line><line x1=\"16.666666666666664%\" y1=\"27.27272727272727%\" x2=\"16.666666666666664%\" y2=\"36.36363636363637%\"></line><line x1=\"83.33333333333334%\" y1=\"27.27272727272727%\" x2=\"83.33333333333334%\" y2=\"36.36363636363637%\"></line><line x1=\"83.33333333333334%\" y1=\"36.36363636363637%\" x2=\"66.66666666666666%\" y2=\"45.45454545454545%\"></line><line x1=\"83.33333333333334%\" y1=\"36.36363636363637%\" x2=\"100%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"66.66666666666666%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"33.33333333333333%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"50%\" y2=\"45.45454545454545%\"></line><line x1=\"16.666666666666664%\" y1=\"36.36363636363637%\" x2=\"33.33333333333333%\" y2=\"45.45454545454545%\"></line><line x1=\"16.666666666666664%\" y1=\"36.36363636363637%\" x2=\"0%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"33.33333333333333%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"66.66666666666666%\" y2=\"54.54545454545454%\"></line><line x1=\"0%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"54.54545454545454%\"></line><line x1=\"0%\" y1=\"45.45454545454545%\" x2=\"0%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"66.66666666666666%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"83.33333333333334%\" y2=\"54.54545454545454%\"></line><line x1=\"100%\" y1=\"45.45454545454545%\" x2=\"100%\" y2=\"54.54545454545454%\"></line><line x1=\"100%\" y1=\"45.45454545454545%\" x2=\"83.33333333333334%\" y2=\"54.54545454545454%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"54.54545454545454%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"33.33333333333333%\" y2=\"54.54545454545454%\"></line><line x1=\"100%\" y1=\"54.54545454545454%\" x2=\"100%\" y2=\"72.72727272727273%\"></line><line x1=\"100%\" y1=\"54.54545454545454%\" x2=\"83.33333333333334%\" y2=\"63.63636363636363%\"></line><line x1=\"33.33333333333333%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"33.33333333333333%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"16.666666666666664%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"83.33333333333334%\" y1=\"54.54545454545454%\" x2=\"83.33333333333334%\" y2=\"63.63636363636363%\"></line><line x1=\"66.66666666666666%\" y1=\"54.54545454545454%\" x2=\"83.33333333333334%\" y2=\"63.63636363636363%\"></line><line x1=\"66.66666666666666%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"0%\" y1=\"54.54545454545454%\" x2=\"0%\" y2=\"72.72727272727273%\"></line><line x1=\"0%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"0%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"16.666666666666664%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"100%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"83.33333333333334%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"100%\" y1=\"72.72727272727273%\" x2=\"100%\" y2=\"90.9090909090909%\"></line><line x1=\"100%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"16.666666666666664%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"0%\" y1=\"72.72727272727273%\" x2=\"0%\" y2=\"90.9090909090909%\"></line><line x1=\"0%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"83.33333333333334%\" y1=\"81.81818181818183%\" x2=\"100%\" y2=\"90.9090909090909%\"></line><line x1=\"83.33333333333334%\" y1=\"81.81818181818183%\" x2=\"66.66666666666666%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"50%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"33.33333333333333%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"66.66666666666666%\" y2=\"90.9090909090909%\"></line><line x1=\"16.666666666666664%\" y1=\"81.81818181818183%\" x2=\"33.33333333333333%\" y2=\"90.9090909090909%\"></line><line x1=\"16.666666666666664%\" y1=\"81.81818181818183%\" x2=\"0%\" y2=\"90.9090909090909%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=6807?def=108196&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_maul.jpg\" alt=\"Maul\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=210706?def=108195&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_bearhug.jpg\" alt=\"Gore\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=61336?def=108198&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_tigersroar.jpg\" alt=\"Survival Instincts\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1251406?def=108223&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_1115_druid_bearstanding.jpg\" alt=\"Persistence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1278886?def=141569&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/achievement_reputation_guardiansofcenarius.jpg\" alt=\"Dream Guide\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377835?def=108210&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_stampedingroar_cat.jpg\" alt=\"Front of the Pack\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=345208?def=140323&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_infectedwound.jpg\" alt=\"Infected Wounds\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=372618?def=108200&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_primalagression.jpg\" alt=\"Vulnerable Flesh\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=50334?def=108221&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_berserk.jpg\" alt=\"Berserk\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377811?def=108234&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_healingway.jpg\" alt=\"Innate Resolve\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=371905?def=108211&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_ability_druid_afterthewildfire.jpg\" alt=\"After the Wildfire\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=203965?def=108215&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_enrage.jpg\" alt=\"Survival of the Fittest\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250906?def=108216&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_regeneration_02.jpg\" alt=\"Memory of Ysera\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=238049?def=108218&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_fire_twilightfireward.jpg\" alt=\"Scintillating Moonlight\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=372945?def=108231&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_overgrowth.jpg\" alt=\"Reinvigoration\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=471492?def=108220&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_natureresistancetotem.jpg\" alt=\"Ursol's Warding\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1278789?def=108230&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_lfieblood.jpg\" alt=\"Natural Resilience\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=393618?def=108236&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_spiritarmor.jpg\" alt=\"Reinforced Fur\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=158477?def=108213&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_manatree.jpg\" alt=\"Soul of the Forest\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=393611?def=140324&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_hunter_pet_bear.jpg\" alt=\"Ursoc's Endurance\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1251876?def=140248&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_relics_idolofhealth.jpg\" alt=\"Gift of an Ancient Guardian\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:0%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/achievement_zone_grizzlyhills_01.jpg\" alt=\"Ward of the Forest\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_thornnecklace.jpg\" alt=\"Brambles\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=400254?def=108207&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_lacerate.jpg\" alt=\"Raze\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=204053?def=108226&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_swipe.jpg\" alt=\"Rend and Tear\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=204066?def=119706&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_moonglow.jpg\" alt=\"Lunar Beam\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=370695?def=108208&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_cresentburn.jpg\" alt=\"Fury of Nature\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=203962?def=108214&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_primaltenacity.jpg\" alt=\"Blood Frenzy\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=372567?def=108219&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_starfall.jpg\" alt=\"Twin Moonfire\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=393427?def=108228&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_thrash.jpg\" alt=\"Flashing Claws\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377210?def=108233&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/achievement_emeraldnightmare_ursoc.jpg\" alt=\"Ursoc's Fury\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=400278?def=119705&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/artifactability_balancedruid_newmoon.jpg\" alt=\"Moonless Night\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=370586?def=108203&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_elunesgrace.jpg\" alt=\"Elune's Favored\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=102558?def=108206&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_incarnation.jpg\" alt=\"Incarnation: Guardian of Ursoc\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1253035?def=140247&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_bearclaw_nightmare.jpg\" alt=\"Harnessed Rage\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=393414?def=108204&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_ability_druid_convokethespirits.jpg\" alt=\"Ursoc's Guidance\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=203964?def=108217&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_iceclaw.jpg\" alt=\"Galactic Guardian\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1252994?def=108227&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/artifactability_feraldruid_ashamanesbite.jpg\" alt=\"Killing Blow\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1253799?def=119707&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/artifactability_feraldruid_openwounds.jpg\" alt=\"Sundering Roar\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1253461?def=140245&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/sha_spell_shadow_shadesofdarkness_nightmare.jpg\" alt=\"Waking Nightmare\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:11;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1269614?def=141824&amp;rank=4&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_apextalent_druid_wildguardian.jpg\" alt=\"Wild Guardian\" loading=\"lazy\"></span><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">4</span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div class=\"talent-tree__interactions-export \"><button class=\"talent-tree__interactions-export__copy-button \"><span>Export</span><i class=\"fa-solid fa-copy ml-1.5 text-amber-400\"></i></button><a href=\"https://www.wowhead.com/talent-calc/blizzard/CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsYmZMziZxMmZZZgZzwoJyMzyMzMzsMmxAAAAAAMjNDYZbmBjZZAMBAAAshZGgFjhBsYBgZGAD\" target=\"_blank\" rel=\"noreferrer\" class=\"talent-tree__interactions-export__external-link\"><span>Edit</span><i class=\"fa-solid fa-arrow-up-right-from-square ml-1.5 text-amber-400\"></i></a></div></div></div>",
+        "talentTreeHtml": "<div class=\"builds-talent-tree-build-section__talent-trees\"><div class=\"talent-tree  talent-tree--compact\"><div class=\"talent-tree--container  talent-tree--container--default-layout\"><div data-kind=\"class\" class=\"talent-tree__container talent-tree__container--class\" style=\"--rows:10;--min-cols:12\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"class\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--class\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/druid-1.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--class\"><div class=\"talent-tree__description__icon\"><img src=\"https://wow.zamimg.com/images/wow/icons/large/classicon_druid.jpg\" alt=\"druid\" style=\"width:2.5rem;height:2.5rem;border-radius:9999px;border:2px solid #f59e0b;object-fit:cover;display:block;\" onerror=\"this.src='https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg'\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Druid\">Class</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"12.5%\" y1=\"10%\" x2=\"25%\" y2=\"20%\"></line><line x1=\"12.5%\" y1=\"10%\" x2=\"12.5%\" y2=\"30%\"></line><line x1=\"12.5%\" y1=\"10%\" x2=\"0%\" y2=\"20%\"></line><line x1=\"62.5%\" y1=\"10%\" x2=\"75%\" y2=\"20%\"></line><line x1=\"62.5%\" y1=\"10%\" x2=\"62.5%\" y2=\"30%\"></line><line x1=\"62.5%\" y1=\"10%\" x2=\"50%\" y2=\"20%\"></line><line x1=\"37.5%\" y1=\"10%\" x2=\"25%\" y2=\"20%\"></line><line x1=\"37.5%\" y1=\"10%\" x2=\"37.5%\" y2=\"30%\"></line><line x1=\"37.5%\" y1=\"10%\" x2=\"50%\" y2=\"20%\"></line><line x1=\"87.5%\" y1=\"10%\" x2=\"87.5%\" y2=\"30%\"></line><line x1=\"87.5%\" y1=\"10%\" x2=\"100%\" y2=\"20%\"></line><line x1=\"75%\" y1=\"20%\" x2=\"75%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"20%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"20%\" x2=\"62.5%\" y2=\"30%\"></line><line x1=\"50%\" y1=\"20%\" x2=\"37.5%\" y2=\"30%\"></line><line x1=\"25%\" y1=\"20%\" x2=\"25%\" y2=\"40%\"></line><line x1=\"25%\" y1=\"20%\" x2=\"37.5%\" y2=\"30%\"></line><line x1=\"87.5%\" y1=\"30%\" x2=\"75%\" y2=\"40%\"></line><line x1=\"87.5%\" y1=\"30%\" x2=\"100%\" y2=\"40%\"></line><line x1=\"37.5%\" y1=\"30%\" x2=\"25%\" y2=\"40%\"></line><line x1=\"37.5%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"37.5%\" y1=\"30%\" x2=\"37.5%\" y2=\"40%\"></line><line x1=\"12.5%\" y1=\"30%\" x2=\"25%\" y2=\"40%\"></line><line x1=\"12.5%\" y1=\"30%\" x2=\"0%\" y2=\"40%\"></line><line x1=\"62.5%\" y1=\"30%\" x2=\"75%\" y2=\"40%\"></line><line x1=\"62.5%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"62.5%\" y1=\"30%\" x2=\"62.5%\" y2=\"40%\"></line><line x1=\"62.5%\" y1=\"40%\" x2=\"62.5%\" y2=\"50%\"></line><line x1=\"75%\" y1=\"40%\" x2=\"75%\" y2=\"60%\"></line><line x1=\"75%\" y1=\"40%\" x2=\"62.5%\" y2=\"50%\"></line><line x1=\"75%\" y1=\"40%\" x2=\"87.5%\" y2=\"50%\"></line><line x1=\"25%\" y1=\"40%\" x2=\"25%\" y2=\"60%\"></line><line x1=\"25%\" y1=\"40%\" x2=\"12.5%\" y2=\"50%\"></line><line x1=\"25%\" y1=\"40%\" x2=\"37.5%\" y2=\"50%\"></line><line x1=\"100%\" y1=\"40%\" x2=\"100%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"62.5%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"37.5%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"62.5%\" y1=\"50%\" x2=\"75%\" y2=\"60%\"></line><line x1=\"62.5%\" y1=\"50%\" x2=\"62.5%\" y2=\"70%\"></line><line x1=\"62.5%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"87.5%\" y1=\"50%\" x2=\"100%\" y2=\"60%\"></line><line x1=\"37.5%\" y1=\"50%\" x2=\"25%\" y2=\"60%\"></line><line x1=\"37.5%\" y1=\"50%\" x2=\"37.5%\" y2=\"70%\"></line><line x1=\"37.5%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"25%\" y1=\"60%\" x2=\"25%\" y2=\"70%\"></line><line x1=\"25%\" y1=\"60%\" x2=\"12.5%\" y2=\"70%\"></line><line x1=\"25%\" y1=\"60%\" x2=\"37.5%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"50%\" y2=\"70%\"></line><line x1=\"75%\" y1=\"60%\" x2=\"75%\" y2=\"70%\"></line><line x1=\"75%\" y1=\"60%\" x2=\"87.5%\" y2=\"70%\"></line><line x1=\"75%\" y1=\"60%\" x2=\"62.5%\" y2=\"70%\"></line><line x1=\"87.5%\" y1=\"70%\" x2=\"87.5%\" y2=\"80%\"></line><line x1=\"75%\" y1=\"70%\" x2=\"87.5%\" y2=\"80%\"></line><line x1=\"75%\" y1=\"70%\" x2=\"75%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"62.5%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"37.5%\" y2=\"80%\"></line><line x1=\"25%\" y1=\"70%\" x2=\"12.5%\" y2=\"80%\"></line><line x1=\"25%\" y1=\"70%\" x2=\"25%\" y2=\"80%\"></line><line x1=\"12.5%\" y1=\"70%\" x2=\"12.5%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"37.5%\" y2=\"90%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"62.5%\" y2=\"90%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"87.5%\" y1=\"80%\" x2=\"75%\" y2=\"90%\"></line><line x1=\"87.5%\" y1=\"80%\" x2=\"100%\" y2=\"90%\"></line><line x1=\"87.5%\" y1=\"80%\" x2=\"87.5%\" y2=\"100%\"></line><line x1=\"12.5%\" y1=\"80%\" x2=\"25%\" y2=\"90%\"></line><line x1=\"12.5%\" y1=\"80%\" x2=\"0%\" y2=\"90%\"></line><line x1=\"12.5%\" y1=\"80%\" x2=\"12.5%\" y2=\"100%\"></line><line x1=\"37.5%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"62.5%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"50%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1822?def=108282&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_disembowel.jpg\" alt=\"Rake\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=774?def=108300&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_rejuvenation.jpg\" alt=\"Rejuvenation\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=22842?def=108303&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_bullrush.jpg\" alt=\"Frenzied Regeneration\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=197628?def=117972&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_starfire.jpg\" alt=\"Starfire\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=197626?def=108283&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcane03.jpg\" alt=\"Starsurge\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=48438?def=108288&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_flourish.jpg\" alt=\"Wild Growth\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449182?def=108302&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_spiritarmor.jpg\" alt=\"Ursoc's Spirit\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=213764?def=108306&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_monsterclaw_03.jpg\" alt=\"Swipe\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=474526?def=108323&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_xavius_tormentingswipe.jpg\" alt=\"Grievous Wounds\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=24858?def=108291&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_forceofnature.jpg\" alt=\"Moonkin Form\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=301768?def=108301&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_bullrush.jpg\" alt=\"Verdant Heart\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1079?def=108305&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_ghoulfrenzy.jpg\" alt=\"Rip\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=2782?def=108325&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_removecurse.jpg\" alt=\"Remove Corruption\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=2637?def=108294&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_sleep.jpg\" alt=\"Hibernate\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=33873?def=108297&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_healinginstincts.jpg\" alt=\"Nurturing Instinct\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=22570?def=108304&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_mangle-tga.jpg\" alt=\"Maim\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=108299?def=108308&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_predatoryinstincts.jpg\" alt=\"Killer Instinct\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=192081?def=108310&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_ironfur.jpg\" alt=\"Ironfur\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=93402?def=121114&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_firestarter.jpg\" alt=\"Sunfire\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=327993?def=133394&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_stoneclawtotem.jpg\" alt=\"Improved Barkskin\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377796?def=108289&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_naturalperfection.jpg\" alt=\"Natural Recovery\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=197524?def=108293&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_skyreach_lens_flare.jpg\" alt=\"Astral Influence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=159286?def=108307&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_racial_cannibalize.jpg\" alt=\"Primal Fury\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=16931?def=108311&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_pelt_bear_03.jpg\" alt=\"Thick Hide\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=106839?def=108327&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_bone_skull_04.jpg\" alt=\"Skull Bash\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=102401?def=108281&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_wildcharge.jpg\" alt=\"Wild Charge\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=2908?def=108312&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_hunter_beastsoothe.jpg\" alt=\"Soothe\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=474678?def=133384&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_healingtouch.jpg\" alt=\"Aessina's Renewal\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=451211?def=128706&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcane01.jpg\" alt=\"Starlight Conduit\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=102793?def=133392&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_ursolsvortex.jpg\" alt=\"Ursol's Vortex\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=132469?def=108292&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_typhoon.jpg\" alt=\"Typhoon\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=106898?def=108317&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_stampedingroar_cat.jpg\" alt=\"Stampeding Roar\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377847?def=108318&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_tigersroar.jpg\" alt=\"Well-Honed Instincts\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=131768?def=108319&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_dash.jpg\" alt=\"Feline Swiftness\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=231040?def=108324&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_rejuvenation.jpg\" alt=\"Lingering Healing\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=385786?def=128634&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_pelt_15.jpg\" alt=\"Matted Fur\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=378988?def=108316&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_trinket_ardenweald_02_green.jpg\" alt=\"Lycara's Teachings\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1262034?def=128632&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_giftofthewild.jpg\" alt=\"Gift of the Wild\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449191?def=128633&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_stoneclawtotem.jpg\" alt=\"Oakskin\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:75%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_galewinds.jpg\" alt=\"Gale Winds\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_skyreach_wind.jpg\" alt=\"Incessant Tempest\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449185?def=133387&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_starfall.jpg\" alt=\"Lore of the Grove\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449184?def=133388&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_vampiricaura.jpg\" alt=\"Instincts of the Claw\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1213597?def=133389&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_tigersroar.jpg\" alt=\"Perfectly-Honed Instincts\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=288826?def=108313&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_stamedingroar.jpg\" alt=\"Improved Stampeding Roar\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=99?def=108321&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_demoralizingroar.jpg\" alt=\"Incapacitating Roar\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=400129?def=108328&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_lifegivingspeed.jpg\" alt=\"Forestwalk\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1232897?def=119305&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_trinket_ardenweald_02_yellow.jpg\" alt=\"Lycara's Inspiration\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=474750?def=128630&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_focusedgrowth.jpg\" alt=\"Symbiotic Relationship\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377842?def=128631&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_markofursol.jpg\" alt=\"Ursine Vigor\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=474530?def=133383&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_disembowel.jpg\" alt=\"Circle of the Wild\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1261867?def=108314&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_blessingofagility.jpg\" alt=\"Heart of the Wild\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=29166?def=108329&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_lightning.jpg\" alt=\"Innervate\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449193?def=108331&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_mastershapeshifter.jpg\" alt=\"Fluid Form\" loading=\"lazy\"></a></div></div></div></div></div><div class=\"talent-tree__container talent-tree__container--hero\" style=\"--rows:1;--talent-count:3\"><div class=\"talent-tree__hero-spacer\"></div><div class=\"talent-tree__container--height-limiter\" data-kind=\"hero\"><div class=\"talent-tree__hero-title do-not-change-color-on-hover Druid talent-tree__hero-title--horizontal \">Elune's Chosen</div><div class=\"talent-tree__hero-icon\"><span class=\"\"><div class=\"talent-tree__hero-icon--wrapper \"><img src=\"https://assets.rpglogs.com/img/warcraft/talents/hero/24_full.png\" alt=\"Elune's Chosen\"></div></span></div><div class=\"talent-tree__hero-container talent-tree__hero-container--compact\n          talent-tree__hero-container--horizontal\n          \"><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=429538?def=122204&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_enchant_dust.jpg\" alt=\"Moondust\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=428655?def=122188&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_dreamstate.jpg\" alt=\"The Light of Elune\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=429539?def=122189&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_moonglow.jpg\" alt=\"Lunation\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div data-kind=\"spec\" class=\"talent-tree__container talent-tree__container--spec\" style=\"--rows:11;--min-cols:9\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"spec\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--spec\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/druid-3.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--spec\"><div class=\"talent-tree__description__icon\"><img class=\"sprite actor-sprite-Druid-Guardian\" src=\"https://assets.rpglogs.com/img/warcraft/icons/actors.jpg?v=43\" loading=\"lazy\" alt=\"\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Druid\">Spec</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"33.33333333333333%\" y2=\"18.181818181818183%\"></line><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"66.66666666666666%\" y2=\"18.181818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"16.666666666666664%\" y2=\"27.27272727272727%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"33.33333333333333%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"66.66666666666666%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"83.33333333333334%\" y2=\"27.27272727272727%\"></line><line x1=\"33.33333333333333%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"33.33333333333333%\" y1=\"27.27272727272727%\" x2=\"16.666666666666664%\" y2=\"36.36363636363637%\"></line><line x1=\"66.66666666666666%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"66.66666666666666%\" y1=\"27.27272727272727%\" x2=\"83.33333333333334%\" y2=\"36.36363636363637%\"></line><line x1=\"16.666666666666664%\" y1=\"27.27272727272727%\" x2=\"16.666666666666664%\" y2=\"36.36363636363637%\"></line><line x1=\"83.33333333333334%\" y1=\"27.27272727272727%\" x2=\"83.33333333333334%\" y2=\"36.36363636363637%\"></line><line x1=\"83.33333333333334%\" y1=\"36.36363636363637%\" x2=\"66.66666666666666%\" y2=\"45.45454545454545%\"></line><line x1=\"83.33333333333334%\" y1=\"36.36363636363637%\" x2=\"100%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"66.66666666666666%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"33.33333333333333%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"50%\" y2=\"45.45454545454545%\"></line><line x1=\"16.666666666666664%\" y1=\"36.36363636363637%\" x2=\"33.33333333333333%\" y2=\"45.45454545454545%\"></line><line x1=\"16.666666666666664%\" y1=\"36.36363636363637%\" x2=\"0%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"33.33333333333333%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"66.66666666666666%\" y2=\"54.54545454545454%\"></line><line x1=\"0%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"54.54545454545454%\"></line><line x1=\"0%\" y1=\"45.45454545454545%\" x2=\"0%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"66.66666666666666%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"83.33333333333334%\" y2=\"54.54545454545454%\"></line><line x1=\"100%\" y1=\"45.45454545454545%\" x2=\"100%\" y2=\"54.54545454545454%\"></line><line x1=\"100%\" y1=\"45.45454545454545%\" x2=\"83.33333333333334%\" y2=\"54.54545454545454%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"54.54545454545454%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"33.33333333333333%\" y2=\"54.54545454545454%\"></line><line x1=\"100%\" y1=\"54.54545454545454%\" x2=\"100%\" y2=\"72.72727272727273%\"></line><line x1=\"100%\" y1=\"54.54545454545454%\" x2=\"83.33333333333334%\" y2=\"63.63636363636363%\"></line><line x1=\"33.33333333333333%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"33.33333333333333%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"16.666666666666664%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"83.33333333333334%\" y1=\"54.54545454545454%\" x2=\"83.33333333333334%\" y2=\"63.63636363636363%\"></line><line x1=\"66.66666666666666%\" y1=\"54.54545454545454%\" x2=\"83.33333333333334%\" y2=\"63.63636363636363%\"></line><line x1=\"66.66666666666666%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"0%\" y1=\"54.54545454545454%\" x2=\"0%\" y2=\"72.72727272727273%\"></line><line x1=\"0%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"0%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"16.666666666666664%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"100%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"83.33333333333334%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"100%\" y1=\"72.72727272727273%\" x2=\"100%\" y2=\"90.9090909090909%\"></line><line x1=\"100%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"16.666666666666664%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"0%\" y1=\"72.72727272727273%\" x2=\"0%\" y2=\"90.9090909090909%\"></line><line x1=\"0%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"83.33333333333334%\" y1=\"81.81818181818183%\" x2=\"100%\" y2=\"90.9090909090909%\"></line><line x1=\"83.33333333333334%\" y1=\"81.81818181818183%\" x2=\"66.66666666666666%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"50%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"33.33333333333333%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"66.66666666666666%\" y2=\"90.9090909090909%\"></line><line x1=\"16.666666666666664%\" y1=\"81.81818181818183%\" x2=\"33.33333333333333%\" y2=\"90.9090909090909%\"></line><line x1=\"16.666666666666664%\" y1=\"81.81818181818183%\" x2=\"0%\" y2=\"90.9090909090909%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=6807?def=108196&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_maul.jpg\" alt=\"Maul\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=210706?def=108195&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_bearhug.jpg\" alt=\"Gore\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=61336?def=108198&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_tigersroar.jpg\" alt=\"Survival Instincts\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1251406?def=108223&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_1115_druid_bearstanding.jpg\" alt=\"Persistence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1278886?def=141569&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/achievement_reputation_guardiansofcenarius.jpg\" alt=\"Dream Guide\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377835?def=108210&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_stampedingroar_cat.jpg\" alt=\"Front of the Pack\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=345208?def=140323&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_infectedwound.jpg\" alt=\"Infected Wounds\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=372618?def=108200&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_primalagression.jpg\" alt=\"Vulnerable Flesh\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=50334?def=108221&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_berserk.jpg\" alt=\"Berserk\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377811?def=108234&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_healingway.jpg\" alt=\"Innate Resolve\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=371905?def=108211&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_ability_druid_afterthewildfire.jpg\" alt=\"After the Wildfire\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=203965?def=108215&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_enrage.jpg\" alt=\"Survival of the Fittest\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250906?def=108216&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_regeneration_02.jpg\" alt=\"Memory of Ysera\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=238049?def=108218&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_fire_twilightfireward.jpg\" alt=\"Scintillating Moonlight\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=372945?def=108231&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_overgrowth.jpg\" alt=\"Reinvigoration\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=471492?def=108220&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_natureresistancetotem.jpg\" alt=\"Ursol's Warding\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1278789?def=108230&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_lfieblood.jpg\" alt=\"Natural Resilience\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=393618?def=108236&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_spiritarmor.jpg\" alt=\"Reinforced Fur\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=158477?def=108213&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_manatree.jpg\" alt=\"Soul of the Forest\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=393611?def=140324&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_hunter_pet_bear.jpg\" alt=\"Ursoc's Endurance\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1251876?def=140248&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_relics_idolofhealth.jpg\" alt=\"Gift of an Ancient Guardian\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:0%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/achievement_zone_grizzlyhills_01.jpg\" alt=\"Ward of the Forest\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_thornnecklace.jpg\" alt=\"Brambles\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=400254?def=108207&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_lacerate.jpg\" alt=\"Raze\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=204053?def=108226&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_swipe.jpg\" alt=\"Rend and Tear\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=204066?def=119706&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_moonglow.jpg\" alt=\"Lunar Beam\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=370695?def=108208&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_cresentburn.jpg\" alt=\"Fury of Nature\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=203962?def=108214&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_primaltenacity.jpg\" alt=\"Blood Frenzy\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=372567?def=108219&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_starfall.jpg\" alt=\"Twin Moonfire\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=393427?def=108228&amp;rank=2&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_thrash.jpg\" alt=\"Flashing Claws\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=377210?def=108233&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/achievement_emeraldnightmare_ursoc.jpg\" alt=\"Ursoc's Fury\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=400278?def=119705&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/artifactability_balancedruid_newmoon.jpg\" alt=\"Moonless Night\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=370586?def=108203&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_elunesgrace.jpg\" alt=\"Elune's Favored\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=102558?def=108206&amp;rank=1&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_druid_incarnation.jpg\" alt=\"Incarnation: Guardian of Ursoc\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1253035?def=140247&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_bearclaw_nightmare.jpg\" alt=\"Harnessed Rage\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=393414?def=108204&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_ability_druid_convokethespirits.jpg\" alt=\"Ursoc's Guidance\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=203964?def=108217&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_iceclaw.jpg\" alt=\"Galactic Guardian\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1252994?def=108227&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/artifactability_feraldruid_ashamanesbite.jpg\" alt=\"Killing Blow\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1253799?def=119707&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/artifactability_feraldruid_openwounds.jpg\" alt=\"Sundering Roar\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1253461?def=140245&amp;rank=1&amp;spellModifier=137010\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/sha_spell_shadow_shadesofdarkness_nightmare.jpg\" alt=\"Waking Nightmare\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:11;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1269614?def=141824&amp;rank=4&amp;spellModifier=137010\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_apextalent_druid_wildguardian.jpg\" alt=\"Wild Guardian\" loading=\"lazy\"></span><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">4</span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div class=\"talent-tree__interactions-export \"><button class=\"talent-tree__interactions-export__copy-button \"><span>Export</span><i class=\"fa-solid fa-copy ml-1.5 text-amber-400\"></i></button><a href=\"https://www.wowhead.com/talent-calc/blizzard/CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsYmZMziZxMmZZZgZzwoJamZWmZmZmlxMAAAAAAMjNDYZbmBjZZAMBAAAshZGgFjhBsYBgZGAD\" target=\"_blank\" rel=\"noreferrer\" class=\"talent-tree__interactions-export__external-link\"><span>Edit</span><i class=\"fa-solid fa-arrow-up-right-from-square ml-1.5 text-amber-400\"></i></a></div></div></div>",
         "bisGear": [
           {
             "id": 271528,
             "name": "",
             "params": "pcs=271528:271531:271526:271529&gems=240890&ench=7961",
             "popularity": 92.2,
-            "parses": 9
+            "parses": 8
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271528:271531:271526:271529:268265&gems=240983",
-            "popularity": 92.9,
-            "parses": 9
+            "popularity": 93.1,
+            "parses": 8
           },
           {
             "id": 271526,
             "name": "",
             "params": "pcs=271528:271531:271526:271529&ench=8031",
-            "popularity": 83.6,
-            "parses": 8
+            "popularity": 83.7,
+            "parses": 7
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8790&pcs=271528:271531:271526:271529:239656",
-            "popularity": 66.4,
+            "popularity": 66,
             "parses": 6
           },
           {
@@ -2179,7 +2179,7 @@ window.ARCHON_PRESETS = {
             "name": "",
             "params": "pcs=271528:271531:271526:271529&ench=7987",
             "popularity": 86.9,
-            "parses": 8
+            "parses": 7
           },
           {
             "id": 244576,
@@ -2192,63 +2192,63 @@ window.ARCHON_PRESETS = {
             "id": 271529,
             "name": "",
             "params": "pcs=271528:271531:271526:271529",
-            "popularity": 71.9,
-            "parses": 7
+            "popularity": 71.7,
+            "parses": 6
           },
           {
             "id": 244573,
             "name": "",
             "params": "bonus=8790&pcs=271528:271531:271526:271529:244573&gems=240890",
-            "popularity": 26.8,
+            "popularity": 26.6,
             "parses": 2
           },
           {
             "id": 271527,
             "name": "",
             "params": "pcs=271528:271531:271526:271529:271527&ench=8159",
-            "popularity": 70.3,
+            "popularity": 70.5,
             "parses": 6
           },
           {
             "id": 244569,
             "name": "",
             "params": "bonus=8790&pcs=271528:271531:271526:271529:244569&ench=7993",
-            "popularity": 55.8,
+            "popularity": 55.6,
             "parses": 5
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271528:271531:271526:271529:281029&gems=240890&ench=7967",
-            "popularity": 66.3,
+            "popularity": 68.4,
             "parses": 6
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8790&pcs=271528:271531:271526:271529:240949&gems=240890&ench=7967",
-            "popularity": 48.4,
+            "popularity": 47.7,
             "parses": 4
           },
           {
             "id": 268215,
             "name": "",
             "params": "pcs=271528:271531:271526:271529:268215&ench=8689",
-            "popularity": 88.6,
+            "popularity": 88.9,
             "parses": 8
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 43.9,
+            "popularity": 45.2,
             "parses": 4
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 43.9,
+            "popularity": 45.2,
             "parses": 4
           }
         ]
@@ -2256,11 +2256,11 @@ window.ARCHON_PRESETS = {
     },
     "restoration": {
       "raid": {
-        "m": 1139,
-        "c": 267,
-        "h": 1586,
-        "v": 212,
-        "dps": "501.0k",
+        "m": 1141,
+        "c": 266,
+        "h": 1588,
+        "v": 210,
+        "dps": "502.7k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/2x9GNVk43XjMyYbm#fight=81",
@@ -2272,35 +2272,35 @@ window.ARCHON_PRESETS = {
             "id": 271528,
             "name": "",
             "params": "pcs=271531:271527:271528:271529&gems=240892&ench=7961",
-            "popularity": 91,
+            "popularity": 90.9,
             "parses": 9
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271531:271527:271528:271529:268265&gems=240983",
-            "popularity": 87.5,
+            "popularity": 87.6,
             "parses": 9
           },
           {
             "id": 271526,
             "name": "",
             "params": "pcs=271531:271527:271528:271529:271526&ench=8031",
-            "popularity": 49.7,
+            "popularity": 49.6,
             "parses": 5
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271531:271527:271528:271529:268253",
-            "popularity": 46.8,
+            "popularity": 47.8,
             "parses": 5
           },
           {
             "id": 271531,
             "name": "",
             "params": "pcs=271531:271527:271528:271529&ench=7987",
-            "popularity": 95,
+            "popularity": 95.1,
             "parses": 10
           },
           {
@@ -2321,7 +2321,7 @@ window.ARCHON_PRESETS = {
             "id": 268256,
             "name": "",
             "params": "pcs=271531:271527:271528:271529:268256&gems=240892",
-            "popularity": 55.3,
+            "popularity": 56.2,
             "parses": 5
           },
           {
@@ -2329,65 +2329,65 @@ window.ARCHON_PRESETS = {
             "name": "",
             "params": "pcs=271531:271527:271528:271529&ench=7937",
             "popularity": 94.1,
-            "parses": 10
+            "parses": 9
           },
           {
             "id": 244569,
             "name": "",
             "params": "bonus=8793&pcs=271531:271527:271528:271529:244569&ench=7993",
-            "popularity": 47.1,
+            "popularity": 47.3,
             "parses": 5
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271531:271527:271528:271529:281029&gems=240892&ench=8025",
-            "popularity": 49,
+            "popularity": 50.1,
             "parses": 5
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8793&pcs=271531:271527:271528:271529:240949&gems=240892&ench=8025",
-            "popularity": 43.9,
+            "popularity": 43.6,
             "parses": 4
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271531:271527:271528:271529:271092&ench=8039",
-            "popularity": 71.1,
+            "popularity": 71,
             "parses": 7
           },
           {
             "id": 268197,
             "name": "",
             "params": "pcs=271531:271527:271528:271529:268197",
-            "popularity": 35.5,
+            "popularity": 35.9,
             "parses": 3
           },
           {
             "id": 270162,
             "name": "",
             "params": "nofollow",
-            "popularity": 43.3,
+            "popularity": 43.7,
             "parses": 4
           },
           {
             "id": 270167,
             "name": "",
             "params": "nofollow",
-            "popularity": 43.3,
+            "popularity": 43.7,
             "parses": 4
           }
         ]
       },
       "mplus": {
-        "m": 1129,
-        "c": 222,
-        "h": 1464,
-        "v": 326,
-        "dps": "255.5k",
+        "m": 1127,
+        "c": 223,
+        "h": 1463,
+        "v": 329,
+        "dps": "255.6k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/mg3QMJdhY9Lypc4D#fight=3",
@@ -2399,49 +2399,49 @@ window.ARCHON_PRESETS = {
             "id": 271528,
             "name": "",
             "params": "pcs=271528:271531:271527:271529&gems=240892&ench=8017",
-            "popularity": 91.7,
+            "popularity": 91.9,
             "parses": 2
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271528:271531:271527:271529:268265&gems=240983",
-            "popularity": 88,
+            "popularity": 88.1,
             "parses": 2
           },
           {
             "id": 244572,
             "name": "",
             "params": "bonus=8793&pcs=271528:271531:271527:271529:244572&ench=8001",
-            "popularity": 56.1,
+            "popularity": 55.8,
             "parses": 1
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271528:271531:271527:271529:268253",
-            "popularity": 37.2,
-            "parses": 1
+            "popularity": 36.9,
+            "parses": 944
           },
           {
             "id": 271531,
             "name": "",
             "params": "pcs=271528:271531:271527:271529&ench=7987",
-            "popularity": 90.2,
+            "popularity": 90,
             "parses": 2
           },
           {
             "id": 244576,
             "name": "",
             "params": "bonus=8793&pcs=271528:271531:271527:271529:244576&gems=240892",
-            "popularity": 83,
+            "popularity": 82.8,
             "parses": 2
           },
           {
             "id": 271529,
             "name": "",
             "params": "pcs=271528:271531:271527:271529",
-            "popularity": 86.8,
+            "popularity": 86.5,
             "parses": 2
           },
           {
@@ -2454,57 +2454,57 @@ window.ARCHON_PRESETS = {
           {
             "id": 271527,
             "name": "",
-            "params": "pcs=271528:271531:271527:271529&ench=7937",
-            "popularity": 89.7,
+            "params": "pcs=271528:271531:271527:271529&ench=7935",
+            "popularity": 89.8,
             "parses": 2
           },
           {
             "id": 244569,
             "name": "",
             "params": "bonus=8793&pcs=271528:271531:271527:271529:244569&ench=7963",
-            "popularity": 54.6,
+            "popularity": 54.3,
             "parses": 1
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271528:271531:271527:271529:281029&gems=240892&ench=8025",
-            "popularity": 58,
+            "popularity": 59.4,
             "parses": 1
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8793&pcs=271528:271531:271527:271529:240949&gems=240892&ench=8025",
-            "popularity": 37.5,
-            "parses": 1
+            "popularity": 38,
+            "parses": 973
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271528:271531:271527:271529:271092&ench=8039",
-            "popularity": 79.9,
+            "popularity": 80.2,
             "parses": 2
           },
           {
             "id": 245769,
             "name": "",
             "params": "bonus=8793&pcs=271528:271531:271527:271529:245769",
-            "popularity": 42.2,
+            "popularity": 41.8,
             "parses": 1
           },
           {
             "id": 270162,
             "name": "",
             "params": "nofollow",
-            "popularity": 47.7,
+            "popularity": 46.7,
             "parses": 1
           },
           {
             "id": 270167,
             "name": "",
             "params": "nofollow",
-            "popularity": 47.7,
+            "popularity": 46.7,
             "parses": 1
           }
         ]
@@ -2515,10 +2515,10 @@ window.ARCHON_PRESETS = {
     "devastation": {
       "raid": {
         "m": 1000,
-        "c": 1205,
-        "h": 692,
+        "c": 1221,
+        "h": 691,
         "v": 163,
-        "dps": "348.0k",
+        "dps": "348.6k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/LCfjVAc3Kw2bPxtd#fight=8",
@@ -2529,123 +2529,123 @@ window.ARCHON_PRESETS = {
           {
             "id": 271501,
             "name": "",
-            "params": "pcs=271499:271501:271500:271502&gems=240906&ench=8017",
+            "params": "pcs=271499:271501:271502:271500&gems=240906&ench=8017",
             "popularity": 88.3,
             "parses": 4
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271499:271501:271500:271502:268265&gems=240983",
-            "popularity": 91.9,
+            "params": "bonus=13534&pcs=271499:271501:271502:271500:268265&gems=240983",
+            "popularity": 91.7,
             "parses": 4
           },
           {
             "id": 271499,
             "name": "",
-            "params": "pcs=271499:271501:271500:271502&ench=8001",
-            "popularity": 90.4,
+            "params": "pcs=271499:271501:271502:271500&ench=8001",
+            "popularity": 90.6,
             "parses": 4
           },
           {
             "id": 239656,
             "name": "",
-            "params": "bonus=8791&pcs=271499:271501:271500:271502:239656",
-            "popularity": 35,
+            "params": "bonus=8791&pcs=271499:271501:271502:271500:239656",
+            "popularity": 35.4,
             "parses": 1
           },
           {
             "id": 271504,
             "name": "",
-            "params": "pcs=271499:271501:271500:271502:271504&ench=7987",
-            "popularity": 85.4,
+            "params": "pcs=271499:271501:271502:271500:271504&ench=7987",
+            "popularity": 84.9,
             "parses": 4
           },
           {
             "id": 244584,
             "name": "",
-            "params": "bonus=8791&pcs=271499:271501:271500:271502:244584&gems=240906",
-            "popularity": 72.7,
+            "params": "bonus=8791&pcs=271499:271501:271502:271500:244584&gems=240906",
+            "popularity": 73.7,
             "parses": 3
           },
           {
             "id": 271502,
             "name": "",
-            "params": "pcs=271499:271501:271500:271502",
-            "popularity": 85.5,
+            "params": "pcs=271499:271501:271502:271500",
+            "popularity": 85.9,
             "parses": 4
           },
           {
             "id": 244581,
             "name": "",
-            "params": "bonus=8791&pcs=271499:271501:271500:271502:244581&gems=240906",
-            "popularity": 28.1,
+            "params": "bonus=8791&pcs=271499:271501:271502:271500:244581&gems=240906",
+            "popularity": 28.3,
             "parses": 1
           },
           {
             "id": 271500,
             "name": "",
-            "params": "pcs=271499:271501:271500:271502&ench=7935",
-            "popularity": 85.6,
+            "params": "pcs=271499:271501:271502:271500&ench=7935",
+            "popularity": 85.2,
             "parses": 4
           },
           {
             "id": 268258,
             "name": "",
-            "params": "pcs=271499:271501:271500:271502:268258&ench=7963",
-            "popularity": 47.7,
+            "params": "pcs=271499:271501:271502:271500:268258&ench=7963",
+            "popularity": 48,
             "parses": 2
           },
           {
             "id": 268252,
             "name": "",
-            "params": "bonus=13534&pcs=271499:271501:271500:271502:268252&gems=240906&ench=7967",
-            "popularity": 41.4,
+            "params": "bonus=13534&pcs=271499:271501:271502:271500:268252&gems=240906&ench=7967",
+            "popularity": 41.8,
             "parses": 2
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271499:271501:271500:271502:281029&gems=240906&ench=7967",
-            "popularity": 40.5,
+            "params": "bonus=13534&pcs=271499:271501:271502:271500:281029&gems=240906&ench=7967",
+            "popularity": 41.6,
             "parses": 2
           },
           {
             "id": 271092,
             "name": "",
-            "params": "pcs=271499:271501:271500:271502:271092&ench=8689",
+            "params": "pcs=271499:271501:271502:271500:271092&ench=8689",
             "popularity": 74.9,
-            "parses": 4
+            "parses": 3
           },
           {
             "id": 245769,
             "name": "",
-            "params": "bonus=8791&pcs=271499:271501:271500:271502:245769",
-            "popularity": 62,
+            "params": "bonus=8791&pcs=271499:271501:271502:271500:245769",
+            "popularity": 61.7,
             "parses": 3
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 33.4,
+            "popularity": 34.4,
             "parses": 1
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 33.4,
+            "popularity": 34.4,
             "parses": 1
           }
         ]
       },
       "mplus": {
-        "m": 969,
-        "c": 1229,
-        "h": 708,
-        "v": 185,
-        "dps": "427.8k",
+        "m": 974,
+        "c": 1226,
+        "h": 706,
+        "v": 186,
+        "dps": "431.0k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/nFzANywX4hTJV1ca#fight=16",
@@ -2657,124 +2657,124 @@ window.ARCHON_PRESETS = {
             "id": 271501,
             "name": "",
             "params": "pcs=271504:271501:271499:271502&gems=240906&ench=8017",
-            "popularity": 88.7,
-            "parses": 699
+            "popularity": 88.3,
+            "parses": 633
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271504:271501:271499:271502:268265&gems=240983",
-            "popularity": 92.4,
-            "parses": 728
+            "popularity": 93.3,
+            "parses": 669
           },
           {
             "id": 271499,
             "name": "",
             "params": "pcs=271504:271501:271499:271502&ench=8001",
-            "popularity": 81.2,
-            "parses": 640
+            "popularity": 80.8,
+            "parses": 579
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8791&pcs=271504:271501:271499:271502:239656",
-            "popularity": 49,
-            "parses": 386
+            "popularity": 48.7,
+            "parses": 349
           },
           {
             "id": 271504,
             "name": "",
             "params": "pcs=271504:271501:271499:271502&ench=7987",
-            "popularity": 91.4,
-            "parses": 720
+            "popularity": 92.5,
+            "parses": 663
           },
           {
             "id": 244584,
             "name": "",
             "params": "bonus=8791&pcs=271504:271501:271499:271502:244584&gems=240906",
-            "popularity": 76.5,
-            "parses": 603
+            "popularity": 76.8,
+            "parses": 551
           },
           {
             "id": 271502,
             "name": "",
             "params": "pcs=271504:271501:271499:271502",
-            "popularity": 79.3,
-            "parses": 625
+            "popularity": 79.6,
+            "parses": 571
           },
           {
             "id": 244581,
             "name": "",
             "params": "bonus=8791&pcs=271504:271501:271499:271502:244581&gems=240906",
-            "popularity": 39.2,
-            "parses": 309
+            "popularity": 38.1,
+            "parses": 273
           },
           {
             "id": 271500,
             "name": "",
             "params": "pcs=271504:271501:271499:271502:271500&ench=7935",
-            "popularity": 79.2,
-            "parses": 624
+            "popularity": 79.5,
+            "parses": 570
           },
           {
             "id": 268258,
             "name": "",
             "params": "pcs=271504:271501:271499:271502:268258&ench=7963",
-            "popularity": 36.5,
-            "parses": 288
+            "popularity": 35.8,
+            "parses": 257
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271504:271501:271499:271502:281029&gems=240906&ench=7967",
-            "popularity": 57.7,
-            "parses": 455
+            "popularity": 60.1,
+            "parses": 431
           },
           {
             "id": 268252,
             "name": "",
             "params": "bonus=13534&pcs=271504:271501:271499:271502:268252&gems=240906&ench=7967",
-            "popularity": 41.4,
-            "parses": 326
+            "popularity": 41.8,
+            "parses": 300
           },
           {
             "id": 271092,
             "name": "",
-            "params": "pcs=271504:271501:271499:271502:271092&ench=8039",
-            "popularity": 86.2,
-            "parses": 679
+            "params": "pcs=271504:271501:271499:271502:271092&ench=8689",
+            "popularity": 86.8,
+            "parses": 622
           },
           {
             "id": 245769,
             "name": "",
             "params": "bonus=8791&pcs=271504:271501:271499:271502:245769",
-            "popularity": 76.3,
-            "parses": 601
+            "popularity": 75.6,
+            "parses": 542
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 44.2,
-            "parses": 348
+            "popularity": 45,
+            "parses": 323
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 44.2,
-            "parses": 348
+            "popularity": 45,
+            "parses": 323
           }
         ]
       }
     },
     "preservation": {
       "raid": {
-        "m": 1232,
+        "m": 1249,
         "c": 1152,
-        "h": 540,
+        "h": 541,
         "v": 160,
-        "dps": "473.8k",
+        "dps": "475.1k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/GDXYcKW9FzkMLCtn#fight=20",
@@ -2785,123 +2785,123 @@ window.ARCHON_PRESETS = {
           {
             "id": 271501,
             "name": "",
-            "params": "pcs=271504:271499:271501:271502&gems=240908&ench=7961",
-            "popularity": 89.6,
+            "params": "pcs=271504:271501:271499:271502&gems=240908&ench=7961",
+            "popularity": 89.7,
             "parses": 10
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271504:271499:271501:271502:268265&gems=240983",
-            "popularity": 88.7,
+            "params": "bonus=13534&pcs=271504:271501:271499:271502:268265&gems=240983",
+            "popularity": 89.2,
             "parses": 10
           },
           {
             "id": 271499,
             "name": "",
-            "params": "pcs=271504:271499:271501:271502&ench=8031",
-            "popularity": 89.8,
+            "params": "pcs=271504:271501:271499:271502&ench=8031",
+            "popularity": 89.7,
             "parses": 10
           },
           {
-            "id": 239656,
+            "id": 268253,
             "name": "",
-            "params": "bonus=8791&pcs=271504:271499:271501:271502:239656",
+            "params": "pcs=271504:271501:271499:271502:268253",
             "popularity": 28.7,
             "parses": 3
           },
           {
             "id": 271504,
             "name": "",
-            "params": "pcs=271504:271499:271501:271502&ench=7987",
-            "popularity": 91.6,
+            "params": "pcs=271504:271501:271499:271502&ench=7987",
+            "popularity": 91.5,
             "parses": 10
           },
           {
             "id": 244584,
             "name": "",
-            "params": "bonus=8791&pcs=271504:271499:271501:271502:244584&gems=240908",
-            "popularity": 62.7,
+            "params": "bonus=8791&pcs=271504:271501:271499:271502:244584&gems=240908",
+            "popularity": 63,
             "parses": 7
           },
           {
             "id": 271502,
             "name": "",
-            "params": "pcs=271504:271499:271501:271502",
-            "popularity": 84.8,
+            "params": "pcs=271504:271501:271499:271502",
+            "popularity": 85,
             "parses": 9
           },
           {
             "id": 268254,
             "name": "",
-            "params": "pcs=271504:271499:271501:271502:268254&gems=240908",
-            "popularity": 32.5,
+            "params": "pcs=271504:271501:271499:271502:268254&gems=240908",
+            "popularity": 31.8,
             "parses": 3
           },
           {
             "id": 271500,
             "name": "",
-            "params": "pcs=271504:271499:271501:271502:271500&ench=7937",
-            "popularity": 80.3,
+            "params": "pcs=271504:271501:271499:271502:271500&ench=7937",
+            "popularity": 80.8,
             "parses": 9
           },
           {
             "id": 268258,
             "name": "",
-            "params": "pcs=271504:271499:271501:271502:268258&ench=7993",
-            "popularity": 45.9,
+            "params": "pcs=271504:271501:271499:271502:268258&ench=7993",
+            "popularity": 46.1,
             "parses": 5
           },
           {
             "id": 268249,
             "name": "",
-            "params": "bonus=13534&pcs=271504:271499:271501:271502:268249&gems=240908&ench=7969",
-            "popularity": 49.5,
+            "params": "bonus=13534&pcs=271504:271501:271499:271502:268249&gems=240908&ench=7969",
+            "popularity": 49.9,
             "parses": 5
           },
           {
             "id": 240949,
             "name": "",
-            "params": ":8791&pcs=271504:271499:271501:271502:240949&gems=240908&ench=7969",
-            "popularity": 43.3,
-            "parses": 5
+            "params": ":8791&pcs=271504:271501:271499:271502:240949&gems=240908&ench=7969",
+            "popularity": 42.6,
+            "parses": 4
           },
           {
             "id": 271092,
             "name": "",
-            "params": "pcs=271504:271499:271501:271502:271092&ench=8689",
-            "popularity": 57.1,
+            "params": "pcs=271504:271501:271499:271502:271092&ench=8689",
+            "popularity": 57.2,
             "parses": 6
           },
           {
             "id": 245769,
             "name": "",
-            "params": "bonus=8791&pcs=271504:271499:271501:271502:245769",
-            "popularity": 31.9,
+            "params": "bonus=8791&pcs=271504:271501:271499:271502:245769",
+            "popularity": 31.4,
             "parses": 3
           },
           {
             "id": 270162,
             "name": "",
             "params": "nofollow",
-            "popularity": 58.9,
+            "popularity": 58.8,
             "parses": 6
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 58.9,
+            "popularity": 58.8,
             "parses": 6
           }
         ]
       },
       "mplus": {
         "m": 386,
-        "c": 716,
-        "h": 1155,
-        "v": 974,
-        "dps": "251.7k",
+        "c": 736,
+        "h": 1139,
+        "v": 973,
+        "dps": "253.4k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/VGHQxhqaLCryfN6c#fight=1",
@@ -2912,114 +2912,114 @@ window.ARCHON_PRESETS = {
           {
             "id": 271501,
             "name": "",
-            "params": "pcs=271501:271502:271504:271499&gems=240916&ench=8017",
-            "popularity": 87.7,
-            "parses": 1
+            "params": "pcs=271502:271501:271504:271499&gems=240916&ench=8017",
+            "popularity": 87.3,
+            "parses": 980
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271501:271502:271504:271499:268265&gems=240983",
-            "popularity": 93.4,
+            "params": "bonus=13534&pcs=271502:271501:271504:271499:268265&gems=240983",
+            "popularity": 93.3,
             "parses": 1
           },
           {
             "id": 271499,
             "name": "",
-            "params": "pcs=271501:271502:271504:271499&ench=8001",
-            "popularity": 80,
-            "parses": 982
+            "params": "pcs=271502:271501:271504:271499&ench=8001",
+            "popularity": 79.3,
+            "parses": 890
           },
           {
             "id": 239656,
             "name": "",
-            "params": "bonus=8792&pcs=271501:271502:271504:271499:239656",
-            "popularity": 48.7,
-            "parses": 598
+            "params": "bonus=8792&pcs=271502:271501:271504:271499:239656",
+            "popularity": 48,
+            "parses": 538
           },
           {
             "id": 271504,
             "name": "",
-            "params": "pcs=271501:271502:271504:271499&ench=7987",
-            "popularity": 81,
-            "parses": 995
+            "params": "pcs=271502:271501:271504:271499&ench=7987",
+            "popularity": 81.3,
+            "parses": 912
           },
           {
             "id": 244584,
             "name": "",
-            "params": "bonus=8792&pcs=271501:271502:271504:271499:244584&gems=240916",
-            "popularity": 80.7,
-            "parses": 991
+            "params": "bonus=8792&pcs=271502:271501:271504:271499:244584&gems=240916",
+            "popularity": 81.2,
+            "parses": 911
           },
           {
             "id": 271502,
             "name": "",
-            "params": "pcs=271501:271502:271504:271499",
-            "popularity": 87.5,
-            "parses": 1
+            "params": "pcs=271502:271501:271504:271499",
+            "popularity": 88.1,
+            "parses": 988
           },
           {
             "id": 244581,
             "name": "",
-            "params": "bonus=8792&pcs=271501:271502:271504:271499:244581&gems=240916",
-            "popularity": 39.4,
-            "parses": 484
+            "params": "bonus=8792&pcs=271502:271501:271504:271499:244581&gems=240916",
+            "popularity": 40.5,
+            "parses": 454
           },
           {
             "id": 271500,
             "name": "",
-            "params": "pcs=271501:271502:271504:271499:271500&ench=7935",
-            "popularity": 74.9,
-            "parses": 920
+            "params": "pcs=271502:271501:271504:271499:271500&ench=7935",
+            "popularity": 74.3,
+            "parses": 834
           },
           {
             "id": 271440,
             "name": "",
-            "params": "pcs=271501:271502:271504:271499:271440&ench=7963",
-            "popularity": 35.1,
-            "parses": 431
+            "params": "pcs=271502:271501:271504:271499:271440&ench=7963",
+            "popularity": 34.7,
+            "parses": 389
           },
           {
             "id": 240949,
             "name": "",
-            "params": ":8792&pcs=271501:271502:271504:271499:240949&gems=240916&ench=8027",
-            "popularity": 59.9,
-            "parses": 736
+            "params": ":8792&pcs=271502:271501:271504:271499:240949&gems=240916&ench=8027",
+            "popularity": 61,
+            "parses": 684
           },
           {
             "id": 268266,
             "name": "",
-            "params": "bonus=13534&pcs=271501:271502:271504:271499:268266&gems=240916&ench=8027",
-            "popularity": 39.6,
-            "parses": 486
+            "params": "bonus=13534&pcs=271502:271501:271504:271499:268266&gems=240916&ench=8027",
+            "popularity": 37.7,
+            "parses": 423
           },
           {
             "id": 271092,
             "name": "",
-            "params": "pcs=271501:271502:271504:271499:271092&ench=8689",
-            "popularity": 83.2,
-            "parses": 1
+            "params": "pcs=271502:271501:271504:271499:271092&ench=8689",
+            "popularity": 83.1,
+            "parses": 932
           },
           {
             "id": 245769,
             "name": "",
-            "params": "bonus=8792&pcs=271501:271502:271504:271499:245769",
-            "popularity": 44.1,
-            "parses": 542
+            "params": "bonus=8792&pcs=271502:271501:271504:271499:245769",
+            "popularity": 43.6,
+            "parses": 489
           },
           {
             "id": 270162,
             "name": "",
             "params": "nofollow",
-            "popularity": 26.5,
-            "parses": 326
+            "popularity": 26.1,
+            "parses": 293
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 26.5,
-            "parses": 326
+            "popularity": 26.1,
+            "parses": 293
           }
         ]
       }
@@ -3153,11 +3153,11 @@ window.ARCHON_PRESETS = {
         ]
       },
       "mplus": {
-        "m": 1637,
-        "c": 918,
-        "h": 464,
-        "v": 140,
-        "dps": "450.7k",
+        "m": 1659,
+        "c": 895,
+        "h": 476,
+        "v": 137,
+        "dps": "464.2k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/Bdfb3rpn7D2AtMqZ#fight=7",
@@ -3169,113 +3169,113 @@ window.ARCHON_PRESETS = {
             "id": 271501,
             "name": "",
             "params": "pcs=271504:271502:271499:271501&gems=240898&ench=8017",
-            "popularity": 79.9,
-            "parses": 429
+            "popularity": 80.4,
+            "parses": 395
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271504:271502:271499:271501:268265&gems=240983",
-            "popularity": 87,
-            "parses": 467
+            "popularity": 87.2,
+            "parses": 428
           },
           {
             "id": 271499,
             "name": "",
             "params": "pcs=271504:271502:271499:271501&ench=8001",
-            "popularity": 81,
-            "parses": 435
+            "popularity": 82.3,
+            "parses": 404
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8791&pcs=271504:271502:271499:271501:239656",
-            "popularity": 40,
-            "parses": 215
+            "popularity": 36.5,
+            "parses": 179
           },
           {
             "id": 271504,
             "name": "",
             "params": "pcs=271504:271502:271499:271501&ench=7987",
-            "popularity": 93.7,
-            "parses": 503
+            "popularity": 94.7,
+            "parses": 465
           },
           {
             "id": 244584,
             "name": "",
             "params": "bonus=8791&pcs=271504:271502:271499:271501:244584&gems=240898",
-            "popularity": 80.8,
-            "parses": 434
+            "popularity": 81.3,
+            "parses": 399
           },
           {
             "id": 271502,
             "name": "",
             "params": "pcs=271504:271502:271499:271501",
-            "popularity": 91.1,
-            "parses": 489
+            "popularity": 90.4,
+            "parses": 444
           },
           {
             "id": 244581,
             "name": "",
             "params": "bonus=8791&pcs=271504:271502:271499:271501:244581&gems=240898",
-            "popularity": 50.8,
-            "parses": 273
+            "popularity": 50.5,
+            "parses": 248
           },
           {
             "id": 271500,
             "name": "",
             "params": "pcs=271504:271502:271499:271501:271500&ench=7935",
-            "popularity": 72.6,
-            "parses": 390
+            "popularity": 73.9,
+            "parses": 363
           },
           {
             "id": 268258,
             "name": "",
             "params": "pcs=271504:271502:271499:271501:268258&ench=7963",
-            "popularity": 31.5,
-            "parses": 169
+            "popularity": 28.9,
+            "parses": 142
           },
           {
             "id": 268249,
             "name": "",
             "params": "bonus=13534&pcs=271504:271502:271499:271501:268249&gems=240898&ench=7969",
-            "popularity": 58.3,
-            "parses": 313
+            "popularity": 60.3,
+            "parses": 296
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271504:271502:271499:271501:281029&gems=240898&ench=7969",
-            "popularity": 52.5,
-            "parses": 282
+            "popularity": 54.6,
+            "parses": 268
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271504:271502:271499:271501:271092&ench=8041",
-            "popularity": 78,
-            "parses": 419
+            "popularity": 80,
+            "parses": 393
           },
           {
             "id": 245769,
             "name": "",
             "params": "bonus=8791&pcs=271504:271502:271499:271501:245769",
-            "popularity": 49.5,
-            "parses": 266
-          },
-          {
-            "id": 270161,
-            "name": "",
-            "params": "nofollow",
-            "popularity": 23.1,
-            "parses": 124
+            "popularity": 50.1,
+            "parses": 246
           },
           {
             "id": 270168,
             "name": "",
             "params": "nofollow",
-            "popularity": 23.1,
-            "parses": 124
+            "popularity": 24,
+            "parses": 118
+          },
+          {
+            "id": 281215,
+            "name": "",
+            "params": "nofollow",
+            "popularity": 24,
+            "parses": 118
           }
         ]
       }
@@ -3284,11 +3284,11 @@ window.ARCHON_PRESETS = {
   "hunter": {
     "beastmastery": {
       "raid": {
-        "m": 1365,
-        "c": 1133,
-        "h": 505,
+        "m": 1366,
+        "c": 1132,
+        "h": 506,
         "v": 163,
-        "dps": "250.8k",
+        "dps": "251.4k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/ry7VNM1Z4fJDAvqm#fight=52",
@@ -3300,28 +3300,28 @@ window.ARCHON_PRESETS = {
             "id": 271492,
             "name": "",
             "params": "pcs=271492:271495:271490:271493&gems=240898&ench=8017",
-            "popularity": 94.4,
+            "popularity": 94.3,
             "parses": 17
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271492:271495:271490:271493:268265&gems=240983",
-            "popularity": 92.1,
-            "parses": 17
+            "popularity": 92.3,
+            "parses": 16
           },
           {
             "id": 271490,
             "name": "",
             "params": "pcs=271492:271495:271490:271493&ench=8001",
-            "popularity": 92.5,
-            "parses": 17
+            "popularity": 92.6,
+            "parses": 16
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8791&pcs=271492:271495:271490:271493:239656",
-            "popularity": 34.4,
+            "popularity": 34.3,
             "parses": 6
           },
           {
@@ -3335,80 +3335,80 @@ window.ARCHON_PRESETS = {
             "id": 244584,
             "name": "",
             "params": "bonus=8791&pcs=271492:271495:271490:271493:244584&gems=240898",
-            "popularity": 78.5,
+            "popularity": 78.7,
             "parses": 14
           },
           {
             "id": 271493,
             "name": "",
             "params": "pcs=271492:271495:271490:271493",
-            "popularity": 87.9,
+            "popularity": 87.8,
             "parses": 16
           },
           {
             "id": 244581,
             "name": "",
             "params": "bonus=8791&pcs=271492:271495:271490:271493:244581&gems=240898",
-            "popularity": 64.6,
-            "parses": 12
+            "popularity": 64.4,
+            "parses": 11
           },
           {
             "id": 271491,
             "name": "",
             "params": "pcs=271492:271495:271490:271493:271491&ench=8159",
-            "popularity": 66.9,
+            "popularity": 67.3,
             "parses": 12
           },
           {
             "id": 268258,
             "name": "",
             "params": "pcs=271492:271495:271490:271493:268258&ench=7963",
-            "popularity": 40.1,
+            "popularity": 39.9,
             "parses": 7
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271492:271495:271490:271493:281029&gems=240898&ench=7967",
-            "popularity": 67.7,
+            "popularity": 69.5,
             "parses": 12
           },
           {
             "id": 268249,
             "name": "",
             "params": "bonus=13534&pcs=271492:271495:271490:271493:268249&gems=240898&ench=7967",
-            "popularity": 35.9,
+            "popularity": 35.4,
             "parses": 6
           },
           {
             "id": 268207,
             "name": "",
             "params": "pcs=271492:271495:271490:271493:268207&ench=8689",
-            "popularity": 91.6,
-            "parses": 17
+            "popularity": 91.8,
+            "parses": 16
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 35.3,
+            "popularity": 36.5,
             "parses": 6
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 35.3,
+            "popularity": 36.5,
             "parses": 6
           }
         ]
       },
       "mplus": {
-        "m": 1439,
-        "c": 1153,
+        "m": 1445,
+        "c": 1150,
         "h": 304,
-        "v": 304,
-        "dps": "479.3k",
+        "v": 305,
+        "dps": "480.2k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/7akwWq6TyDhtJfg8#fight=1",
@@ -3420,42 +3420,42 @@ window.ARCHON_PRESETS = {
             "id": 271492,
             "name": "",
             "params": "pcs=271495:271492:271493:271490&gems=240898&ench=8017",
-            "popularity": 91.3,
-            "parses": 8
+            "popularity": 91.1,
+            "parses": 7
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271495:271492:271493:271490:268265&gems=240983",
-            "popularity": 93.3,
+            "popularity": 93.4,
             "parses": 8
           },
           {
             "id": 271490,
             "name": "",
             "params": "pcs=271495:271492:271493:271490&ench=8001",
-            "popularity": 88.8,
-            "parses": 8
+            "popularity": 89,
+            "parses": 7
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8791&pcs=271495:271492:271493:271490:239656",
-            "popularity": 42.3,
-            "parses": 4
+            "popularity": 42.4,
+            "parses": 3
           },
           {
             "id": 271495,
             "name": "",
             "params": "pcs=271495:271492:271493:271490&ench=7987",
-            "popularity": 93.3,
+            "popularity": 93.2,
             "parses": 8
           },
           {
             "id": 244584,
             "name": "",
             "params": "bonus=8791&pcs=271495:271492:271493:271490:244584&gems=240898",
-            "popularity": 83,
+            "popularity": 82.9,
             "parses": 7
           },
           {
@@ -3463,62 +3463,62 @@ window.ARCHON_PRESETS = {
             "name": "",
             "params": "pcs=271495:271492:271493:271490",
             "popularity": 89.6,
-            "parses": 8
+            "parses": 7
           },
           {
             "id": 244581,
             "name": "",
             "params": "bonus=8791&pcs=271495:271492:271493:271490:244581&gems=240898",
-            "popularity": 67.6,
-            "parses": 6
+            "popularity": 67.2,
+            "parses": 5
           },
           {
             "id": 244582,
             "name": "",
             "params": "bonus=8791&pcs=271495:271492:271493:271490:244582&ench=8159",
-            "popularity": 48.9,
+            "popularity": 48.6,
             "parses": 4
           },
           {
             "id": 268258,
             "name": "",
             "params": "pcs=271495:271492:271493:271490:268258&ench=7963",
-            "popularity": 30.3,
+            "popularity": 30.2,
             "parses": 2
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271495:271492:271493:271490:281029&gems=240898&ench=7967",
-            "popularity": 69.4,
+            "popularity": 71.2,
             "parses": 6
           },
           {
             "id": 268249,
             "name": "",
             "params": "bonus=13534&pcs=271495:271492:271493:271490:268249&gems=240898&ench=7967",
-            "popularity": 38.9,
+            "popularity": 39,
             "parses": 3
           },
           {
             "id": 268207,
             "name": "",
             "params": "pcs=271495:271492:271493:271490:268207&ench=8689",
-            "popularity": 93.3,
+            "popularity": 93.4,
             "parses": 8
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 47.8,
+            "popularity": 48.5,
             "parses": 4
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 47.8,
+            "popularity": 48.5,
             "parses": 4
           }
         ]
@@ -3528,9 +3528,9 @@ window.ARCHON_PRESETS = {
       "raid": {
         "m": 1224,
         "c": 1557,
-        "h": 371,
+        "h": 373,
         "v": 222,
-        "dps": "361.5k",
+        "dps": "363.6k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/c3VpCgkH8WyRxMJL#fight=7",
@@ -3542,84 +3542,84 @@ window.ARCHON_PRESETS = {
             "id": 271492,
             "name": "",
             "params": "pcs=271492:271495:271490:271493&gems=240908&ench=8017",
-            "popularity": 94.9,
+            "popularity": 95,
             "parses": 13
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271492:271495:271490:271493:268265&gems=240967",
-            "popularity": 93.3,
-            "parses": 12
+            "popularity": 93.2,
+            "parses": 13
           },
           {
             "id": 271490,
             "name": "",
             "params": "pcs=271492:271495:271490:271493&ench=8001",
-            "popularity": 92.1,
+            "popularity": 92.3,
             "parses": 12
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271492:271495:271490:271493:268253",
-            "popularity": 28.3,
-            "parses": 3
+            "popularity": 28.9,
+            "parses": 4
           },
           {
             "id": 271495,
             "name": "",
             "params": "pcs=271492:271495:271490:271493&ench=7987",
-            "popularity": 94.4,
+            "popularity": 94.3,
             "parses": 13
           },
           {
             "id": 244584,
             "name": "",
             "params": "bonus=8791&pcs=271492:271495:271490:271493:244584&gems=240908",
-            "popularity": 81.3,
+            "popularity": 81.1,
             "parses": 11
           },
           {
             "id": 271493,
             "name": "",
             "params": "pcs=271492:271495:271490:271493",
-            "popularity": 89.4,
+            "popularity": 89.3,
             "parses": 12
           },
           {
             "id": 244581,
             "name": "",
             "params": "bonus=8791&pcs=271492:271495:271490:271493:244581&gems=240908",
-            "popularity": 67.5,
+            "popularity": 67.4,
             "parses": 9
           },
           {
             "id": 271491,
             "name": "",
             "params": "pcs=271492:271495:271490:271493:271491&ench=8159",
-            "popularity": 64.7,
-            "parses": 8
+            "popularity": 65.3,
+            "parses": 9
           },
           {
             "id": 268258,
             "name": "",
             "params": "pcs=271492:271495:271490:271493:268258&ench=7963",
-            "popularity": 48.6,
+            "popularity": 48.7,
             "parses": 6
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271492:271495:271490:271493:281029&gems=240908&ench=7967",
-            "popularity": 50.7,
+            "popularity": 51.7,
             "parses": 7
           },
           {
             "id": 268252,
             "name": "",
             "params": "bonus=13534&pcs=271492:271495:271490:271493:268252&gems=240908&ench=7967",
-            "popularity": 40.1,
+            "popularity": 41.2,
             "parses": 5
           },
           {
@@ -3646,11 +3646,11 @@ window.ARCHON_PRESETS = {
         ]
       },
       "mplus": {
-        "m": 1163,
-        "c": 1486,
-        "h": 373,
-        "v": 263,
-        "dps": "468.7k",
+        "m": 1164,
+        "c": 1485,
+        "h": 376,
+        "v": 262,
+        "dps": "470.6k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/1a9vzCwXjMFR7xQT#fight=4",
@@ -3663,116 +3663,116 @@ window.ARCHON_PRESETS = {
             "name": "",
             "params": "pcs=271495:271492:271490:271493&gems=240908&ench=8017",
             "popularity": 92.6,
-            "parses": 886
+            "parses": 845
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271495:271492:271490:271493:268265&gems=240967",
-            "popularity": 93.5,
-            "parses": 895
+            "popularity": 92.7,
+            "parses": 846
           },
           {
             "id": 271490,
             "name": "",
             "params": "pcs=271495:271492:271490:271493&ench=8001",
-            "popularity": 90,
-            "parses": 861
+            "popularity": 90.3,
+            "parses": 824
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8791&pcs=271495:271492:271490:271493:239656",
-            "popularity": 34,
-            "parses": 325
+            "popularity": 33.6,
+            "parses": 307
           },
           {
             "id": 271495,
             "name": "",
             "params": "pcs=271495:271492:271490:271493&ench=7987",
-            "popularity": 93.2,
-            "parses": 892
+            "popularity": 92.9,
+            "parses": 848
           },
           {
             "id": 244584,
             "name": "",
             "params": "bonus=8791&pcs=271495:271492:271490:271493:244584&gems=240908",
-            "popularity": 87.1,
-            "parses": 834
+            "popularity": 87,
+            "parses": 794
           },
           {
             "id": 271493,
             "name": "",
             "params": "pcs=271495:271492:271490:271493",
-            "popularity": 86.4,
-            "parses": 827
+            "popularity": 86.2,
+            "parses": 787
           },
           {
             "id": 244581,
             "name": "",
             "params": "bonus=8791&pcs=271495:271492:271490:271493:244581&gems=240908",
-            "popularity": 65.9,
-            "parses": 631
+            "popularity": 66.2,
+            "parses": 604
           },
           {
             "id": 271491,
             "name": "",
             "params": "pcs=271495:271492:271490:271493:271491&ench=8159",
             "popularity": 47,
-            "parses": 450
+            "parses": 429
           },
           {
             "id": 268258,
             "name": "",
             "params": "pcs=271495:271492:271490:271493:268258&ench=7963",
             "popularity": 31.2,
-            "parses": 299
+            "parses": 285
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271495:271492:271490:271493:281029&gems=240908&ench=7967",
-            "popularity": 78.3,
-            "parses": 749
+            "popularity": 78.5,
+            "parses": 717
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8791&pcs=271495:271492:271490:271493:240949&gems=240908&ench=7967",
-            "popularity": 37.3,
-            "parses": 357
+            "popularity": 37.2,
+            "parses": 340
           },
           {
             "id": 268207,
             "name": "",
             "params": "pcs=271495:271492:271490:271493:268207&ench=8689",
-            "popularity": 93.9,
-            "parses": 899
+            "popularity": 93.8,
+            "parses": 856
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 67.9,
-            "parses": 650
+            "popularity": 69,
+            "parses": 630
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 67.9,
-            "parses": 650
+            "popularity": 69,
+            "parses": 630
           }
         ]
       }
     },
     "survival": {
       "raid": {
-        "m": 1390,
+        "m": 1394,
         "c": 963,
-        "h": 788,
+        "h": 790,
         "v": 115,
-        "dps": "304.4k",
+        "dps": "305.5k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/KT1pt2q46QPN7Mnk#fight=18",
@@ -3783,116 +3783,116 @@ window.ARCHON_PRESETS = {
           {
             "id": 271492,
             "name": "",
-            "params": "pcs=271492:271490:271495:271493&gems=240898&ench=8017",
-            "popularity": 91.3,
+            "params": "pcs=271490:271492:271495:271493&gems=240898&ench=8017",
+            "popularity": 91,
             "parses": 1
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271492:271490:271495:271493:268265&gems=240983",
-            "popularity": 82.7,
+            "params": "bonus=13534&pcs=271490:271492:271495:271493:268265&gems=240983",
+            "popularity": 83,
             "parses": 1
           },
           {
             "id": 271490,
             "name": "",
-            "params": "pcs=271492:271490:271495:271493&ench=8001",
-            "popularity": 91.1,
+            "params": "pcs=271490:271492:271495:271493&ench=8001",
+            "popularity": 91.2,
             "parses": 1
           },
           {
             "id": 268253,
             "name": "",
-            "params": "pcs=271492:271490:271495:271493:268253",
-            "popularity": 37.9,
-            "parses": 614
+            "params": "pcs=271490:271492:271495:271493:268253",
+            "popularity": 38.7,
+            "parses": 596
           },
           {
             "id": 271495,
             "name": "",
-            "params": "pcs=271492:271490:271495:271493&ench=7987",
-            "popularity": 86.6,
+            "params": "pcs=271490:271492:271495:271493&ench=7987",
+            "popularity": 86,
             "parses": 1
           },
           {
             "id": 244584,
             "name": "",
-            "params": "bonus=8791&pcs=271492:271490:271495:271493:244584&gems=240898",
-            "popularity": 82.6,
+            "params": "bonus=8791&pcs=271490:271492:271495:271493:244584&gems=240898",
+            "popularity": 82.7,
             "parses": 1
           },
           {
             "id": 271493,
             "name": "",
-            "params": "pcs=271492:271490:271495:271493",
-            "popularity": 84.1,
+            "params": "pcs=271490:271492:271495:271493",
+            "popularity": 83.4,
             "parses": 1
           },
           {
             "id": 244581,
             "name": "",
-            "params": "bonus=8791&pcs=271492:271490:271495:271493:244581&gems=240898",
-            "popularity": 75.8,
+            "params": "bonus=8791&pcs=271490:271492:271495:271493:244581&gems=240898",
+            "popularity": 76.7,
             "parses": 1
           },
           {
             "id": 271491,
             "name": "",
-            "params": "pcs=271492:271490:271495:271493:271491&ench=8159",
-            "popularity": 82.4,
+            "params": "pcs=271490:271492:271495:271493:271491&ench=8159",
+            "popularity": 81.7,
             "parses": 1
           },
           {
             "id": 268258,
             "name": "",
-            "params": "pcs=271492:271490:271495:271493:268258&ench=7963",
-            "popularity": 26.7,
-            "parses": 433
+            "params": "pcs=271490:271492:271495:271493:268258&ench=7963",
+            "popularity": 27,
+            "parses": 416
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271492:271490:271495:271493:281029&gems=240898&ench=7967",
-            "popularity": 67.4,
+            "params": "bonus=13534&pcs=271490:271492:271495:271493:281029&gems=240898&ench=7967",
+            "popularity": 69.8,
             "parses": 1
           },
           {
             "id": 240949,
             "name": "",
-            "params": ":8791&pcs=271492:271490:271495:271493:240949&gems=240898&ench=7967",
-            "popularity": 32.1,
-            "parses": 520
+            "params": ":8791&pcs=271490:271492:271495:271493:240949&gems=240898&ench=7967",
+            "popularity": 30.7,
+            "parses": 473
           },
           {
             "id": 268213,
             "name": "",
-            "params": "pcs=271492:271490:271495:271493:268213&ench=8689",
+            "params": "pcs=271490:271492:271495:271493:268213&ench=8689",
             "popularity": 52.9,
-            "parses": 857
+            "parses": 814
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 40.5,
-            "parses": 657
+            "popularity": 41.1,
+            "parses": 632
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 40.5,
-            "parses": 657
+            "popularity": 41.1,
+            "parses": 632
           }
         ]
       },
       "mplus": {
-        "m": 1249,
-        "c": 911,
-        "h": 955,
-        "v": 193,
-        "dps": "498.2k",
+        "m": 1248,
+        "c": 913,
+        "h": 956,
+        "v": 194,
+        "dps": "501.8k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/dKpPMyZXQtmW2YV1#fight=3",
@@ -3904,106 +3904,106 @@ window.ARCHON_PRESETS = {
             "id": 271492,
             "name": "",
             "params": "pcs=271495:271490:271493:271492&gems=240890&ench=8017",
-            "popularity": 78.4,
-            "parses": 476
+            "popularity": 77.6,
+            "parses": 441
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271495:271490:271493:271492:268265&gems=240983",
-            "popularity": 89.8,
-            "parses": 545
+            "popularity": 90.1,
+            "parses": 512
           },
           {
             "id": 271490,
             "name": "",
             "params": "pcs=271495:271490:271493:271492&ench=8001",
-            "popularity": 90.8,
-            "parses": 551
+            "popularity": 90.5,
+            "parses": 514
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8790&pcs=271495:271490:271493:271492:239656",
-            "popularity": 39.2,
-            "parses": 238
+            "popularity": 40,
+            "parses": 227
           },
           {
             "id": 271495,
             "name": "",
             "params": "pcs=271495:271490:271493:271492&ench=7987",
-            "popularity": 95.2,
-            "parses": 578
+            "popularity": 95.8,
+            "parses": 544
           },
           {
             "id": 244584,
             "name": "",
             "params": "bonus=8790&pcs=271495:271490:271493:271492:244584&gems=240890",
-            "popularity": 86.3,
-            "parses": 524
+            "popularity": 87.1,
+            "parses": 495
           },
           {
             "id": 271493,
             "name": "",
             "params": "pcs=271495:271490:271493:271492",
-            "popularity": 88.5,
-            "parses": 537
+            "popularity": 89.6,
+            "parses": 509
           },
           {
             "id": 244581,
             "name": "",
             "params": "bonus=8790&pcs=271495:271490:271493:271492:244581&gems=240890",
-            "popularity": 82.9,
-            "parses": 503
+            "popularity": 82.6,
+            "parses": 469
           },
           {
             "id": 271491,
             "name": "",
             "params": "pcs=271495:271490:271493:271492:271491&ench=8159",
             "popularity": 69,
-            "parses": 419
+            "parses": 392
           },
           {
             "id": 271494,
             "name": "",
             "params": "pcs=271495:271490:271493:271492:271494&ench=7963",
-            "popularity": 27,
-            "parses": 164
+            "popularity": 25.9,
+            "parses": 147
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271495:271490:271493:271492:281029&gems=240890&ench=7967",
-            "popularity": 76.6,
-            "parses": 465
+            "popularity": 78.9,
+            "parses": 448
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8790&pcs=271495:271490:271493:271492:240949&gems=240890&ench=7967",
-            "popularity": 44.3,
-            "parses": 269
+            "popularity": 41.5,
+            "parses": 236
           },
           {
             "id": 268215,
             "name": "",
             "params": "pcs=271495:271490:271493:271492:268215&ench=8689",
-            "popularity": 46.8,
-            "parses": 284
+            "popularity": 47.9,
+            "parses": 272
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 66.4,
-            "parses": 403
+            "popularity": 68.8,
+            "parses": 391
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 66.4,
-            "parses": 403
+            "popularity": 68.8,
+            "parses": 391
           }
         ]
       }
@@ -4012,11 +4012,11 @@ window.ARCHON_PRESETS = {
   "mage": {
     "arcane": {
       "raid": {
-        "m": 656,
-        "c": 786,
-        "h": 1016,
-        "v": 592,
-        "dps": "370.4k",
+        "m": 661,
+        "c": 785,
+        "h": 1017,
+        "v": 590,
+        "dps": "373.2k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/7AkK2r41VbvhwxyH#fight=6",
@@ -4028,162 +4028,162 @@ window.ARCHON_PRESETS = {
             "id": 271564,
             "name": "",
             "params": "pcs=271562:271567:271563:271564&gems=240916&ench=8017",
-            "popularity": 83.4,
+            "popularity": 83.6,
             "parses": 27
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271562:271567:271563:271564:268265&gems=240983",
-            "popularity": 94.6,
-            "parses": 31
+            "popularity": 94.7,
+            "parses": 30
           },
           {
             "id": 271562,
             "name": "",
             "params": "pcs=271562:271567:271563:271564&ench=8001",
             "popularity": 93.7,
-            "parses": 31
+            "parses": 30
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8792&pcs=271562:271567:271563:271564:239656",
-            "popularity": 31.3,
+            "popularity": 31.7,
             "parses": 10
           },
           {
             "id": 271567,
             "name": "",
             "params": "pcs=271562:271567:271563:271564&ench=7987",
-            "popularity": 89.8,
-            "parses": 30
+            "popularity": 89.7,
+            "parses": 29
           },
           {
             "id": 239648,
             "name": "",
             "params": "bonus=8792&pcs=271562:271567:271563:271564:239648&gems=240916",
-            "popularity": 85,
-            "parses": 28
+            "popularity": 85.1,
+            "parses": 27
           },
           {
             "id": 271565,
             "name": "",
             "params": "pcs=271562:271567:271563:271564:271565",
-            "popularity": 77.1,
+            "popularity": 76.8,
             "parses": 25
           },
           {
             "id": 268232,
             "name": "",
             "params": "pcs=271562:271567:271563:271564:268232&gems=240916",
-            "popularity": 37.3,
+            "popularity": 37.1,
             "parses": 12
           },
           {
             "id": 271563,
             "name": "",
             "params": "pcs=271562:271567:271563:271564&ench=7935",
-            "popularity": 88.8,
+            "popularity": 89.1,
             "parses": 29
           },
           {
             "id": 268255,
             "name": "",
             "params": "pcs=271562:271567:271563:271564:268255&ench=7963",
-            "popularity": 23.4,
-            "parses": 7
+            "popularity": 24.7,
+            "parses": 8
           },
           {
             "id": 268266,
             "name": "",
             "params": "bonus=13534&pcs=271562:271567:271563:271564:268266&gems=240916&ench=7967",
-            "popularity": 46.5,
+            "popularity": 46.7,
             "parses": 15
           },
           {
-            "id": 240949,
+            "id": 281029,
             "name": "",
-            "params": ":8792&pcs=271562:271567:271563:271564:240949&gems=240916&ench=7967",
-            "popularity": 39.8,
+            "params": "bonus=13534&pcs=271562:271567:271563:271564:281029&gems=240916&ench=7967",
+            "popularity": 40,
             "parses": 13
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271562:271567:271563:271564:271092&ench=8689",
-            "popularity": 78.1,
-            "parses": 26
+            "popularity": 77.7,
+            "parses": 25
           },
           {
             "id": 245769,
             "name": "",
             "params": "bonus=8792&pcs=271562:271567:271563:271564:245769",
-            "popularity": 66.8,
-            "parses": 22
+            "popularity": 65.5,
+            "parses": 21
           },
           {
             "id": 250215,
             "name": "",
             "params": "nofollow",
-            "popularity": 29.2,
+            "popularity": 30.3,
             "parses": 9
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 29.2,
+            "popularity": 30.3,
             "parses": 9
           }
         ]
       },
       "mplus": {
-        "m": 560,
-        "c": 767,
-        "h": 1021,
-        "v": 768,
-        "dps": "488.5k",
+        "m": 564,
+        "c": 765,
+        "h": 1022,
+        "v": 767,
+        "dps": "491.3k",
         "dpsLabel": "DPS",
         "popularity": "",
-        "topLogUrl": "https://www.warcraftlogs.com/reports/7m4kFCRwBnbYDQv6#fight=31",
-        "talents": "C4DAAAAAAAAAAAAAAAAAAAAAAYGmZZmxsgZQzMzAAAwAAmZmmlllZAAsBAwGMzMsZZGzsMjxMzMzwCzMzMzAAMAAADwMDMzAghZmB",
+        "topLogUrl": "https://www.warcraftlogs.com/reports/bJnLyxNWqw6zCVGp#fight=22",
+        "talents": "C4DAAAAAAAAAAAAAAAAAAAAAAMzwYZmxsgZGamZGAAAGAwMz0sssMDAgNAA2gZmhNLzYmlZMmZmZGWYmZmZGAgBAAYAmZAzAghZmB",
         "heroTree": "Sunfury",
-        "talentTreeHtml": "<div class=\"builds-talent-tree-build-section__talent-trees\"><div class=\"talent-tree  talent-tree--compact\"><div class=\"talent-tree--container  talent-tree--container--default-layout\"><div data-kind=\"class\" class=\"talent-tree__container talent-tree__container--class\" style=\"--rows:10;--min-cols:9\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"class\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--class\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/mage-2.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--class\"><div class=\"talent-tree__description__icon\"><img src=\"https://wow.zamimg.com/images/wow/icons/large/classicon_mage.jpg\" alt=\"mage\" style=\"width:2.5rem;height:2.5rem;border-radius:9999px;border:2px solid #f59e0b;object-fit:cover;display:block;\" onerror=\"this.src='https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg'\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Mage\">Class</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"10%\" x2=\"66.66666666666666%\" y2=\"20%\"></line><line x1=\"50%\" y1=\"10%\" x2=\"33.33333333333333%\" y2=\"20%\"></line><line x1=\"33.33333333333333%\" y1=\"20%\" x2=\"16.666666666666664%\" y2=\"30%\"></line><line x1=\"33.33333333333333%\" y1=\"20%\" x2=\"33.33333333333333%\" y2=\"30%\"></line><line x1=\"66.66666666666666%\" y1=\"20%\" x2=\"83.33333333333334%\" y2=\"30%\"></line><line x1=\"66.66666666666666%\" y1=\"20%\" x2=\"66.66666666666666%\" y2=\"30%\"></line><line x1=\"33.33333333333333%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"33.33333333333333%\" y1=\"30%\" x2=\"16.666666666666664%\" y2=\"40%\"></line><line x1=\"83.33333333333334%\" y1=\"30%\" x2=\"83.33333333333334%\" y2=\"40%\"></line><line x1=\"66.66666666666666%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"66.66666666666666%\" y1=\"30%\" x2=\"83.33333333333334%\" y2=\"40%\"></line><line x1=\"16.666666666666664%\" y1=\"30%\" x2=\"16.666666666666664%\" y2=\"40%\"></line><line x1=\"16.666666666666664%\" y1=\"40%\" x2=\"33.33333333333333%\" y2=\"50%\"></line><line x1=\"16.666666666666664%\" y1=\"40%\" x2=\"0%\" y2=\"50%\"></line><line x1=\"83.33333333333334%\" y1=\"40%\" x2=\"66.66666666666666%\" y2=\"50%\"></line><line x1=\"83.33333333333334%\" y1=\"40%\" x2=\"100%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"66.66666666666666%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"33.33333333333333%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"0%\" y1=\"50%\" x2=\"16.666666666666664%\" y2=\"60%\"></line><line x1=\"0%\" y1=\"50%\" x2=\"0%\" y2=\"60%\"></line><line x1=\"33.33333333333333%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"33.33333333333333%\" y1=\"50%\" x2=\"16.666666666666664%\" y2=\"60%\"></line><line x1=\"33.33333333333333%\" y1=\"50%\" x2=\"33.33333333333333%\" y2=\"60%\"></line><line x1=\"66.66666666666666%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"66.66666666666666%\" y1=\"50%\" x2=\"83.33333333333334%\" y2=\"60%\"></line><line x1=\"66.66666666666666%\" y1=\"50%\" x2=\"66.66666666666666%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"100%\" y1=\"50%\" x2=\"83.33333333333334%\" y2=\"60%\"></line><line x1=\"16.666666666666664%\" y1=\"60%\" x2=\"0%\" y2=\"70%\"></line><line x1=\"16.666666666666664%\" y1=\"60%\" x2=\"33.33333333333333%\" y2=\"70%\"></line><line x1=\"16.666666666666664%\" y1=\"60%\" x2=\"16.666666666666664%\" y2=\"70%\"></line><line x1=\"83.33333333333334%\" y1=\"60%\" x2=\"66.66666666666666%\" y2=\"70%\"></line><line x1=\"83.33333333333334%\" y1=\"60%\" x2=\"83.33333333333334%\" y2=\"70%\"></line><line x1=\"83.33333333333334%\" y1=\"60%\" x2=\"100%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"33.33333333333333%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"66.66666666666666%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"50%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"60%\" x2=\"66.66666666666666%\" y2=\"70%\"></line><line x1=\"33.33333333333333%\" y1=\"60%\" x2=\"33.33333333333333%\" y2=\"70%\"></line><line x1=\"0%\" y1=\"60%\" x2=\"0%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"70%\" x2=\"83.33333333333334%\" y2=\"80%\"></line><line x1=\"66.66666666666666%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"66.66666666666666%\" y1=\"70%\" x2=\"66.66666666666666%\" y2=\"80%\"></line><line x1=\"0%\" y1=\"70%\" x2=\"16.666666666666664%\" y2=\"80%\"></line><line x1=\"83.33333333333334%\" y1=\"70%\" x2=\"83.33333333333334%\" y2=\"80%\"></line><line x1=\"16.666666666666664%\" y1=\"70%\" x2=\"16.666666666666664%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"16.666666666666664%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"33.33333333333333%\" y2=\"80%\"></line><line x1=\"100%\" y1=\"70%\" x2=\"83.33333333333334%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"33.33333333333333%\" y2=\"90%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"66.66666666666666%\" y2=\"90%\"></line><line x1=\"83.33333333333334%\" y1=\"80%\" x2=\"83.33333333333334%\" y2=\"90%\"></line><line x1=\"83.33333333333334%\" y1=\"80%\" x2=\"66.66666666666666%\" y2=\"90%\"></line><line x1=\"83.33333333333334%\" y1=\"80%\" x2=\"100%\" y2=\"90%\"></line><line x1=\"16.666666666666664%\" y1=\"80%\" x2=\"33.33333333333333%\" y2=\"90%\"></line><line x1=\"16.666666666666664%\" y1=\"80%\" x2=\"16.666666666666664%\" y2=\"90%\"></line><line x1=\"16.666666666666664%\" y1=\"80%\" x2=\"0%\" y2=\"90%\"></line><line x1=\"66.66666666666666%\" y1=\"80%\" x2=\"66.66666666666666%\" y2=\"90%\"></line><line x1=\"33.33333333333333%\" y1=\"80%\" x2=\"33.33333333333333%\" y2=\"90%\"></line><line x1=\"0%\" y1=\"90%\" x2=\"16.666666666666664%\" y2=\"100%\"></line><line x1=\"16.666666666666664%\" y1=\"90%\" x2=\"16.666666666666664%\" y2=\"100%\"></line><line x1=\"50%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"100%\" y1=\"90%\" x2=\"83.33333333333334%\" y2=\"100%\"></line><line x1=\"83.33333333333334%\" y1=\"90%\" x2=\"83.33333333333334%\" y2=\"100%\"></line><line x1=\"66.66666666666666%\" y1=\"90%\" x2=\"83.33333333333334%\" y2=\"100%\"></line><line x1=\"66.66666666666666%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"33.33333333333333%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"33.33333333333333%\" y1=\"90%\" x2=\"16.666666666666664%\" y2=\"100%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=235450?def=85183&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_magearmor.jpg\" alt=\"Prismatic Barrier\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=342245?def=85177&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_altertime.jpg\" alt=\"Alter Time\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=45438?def=85184&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_frost.jpg\" alt=\"Ice Block\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=342249?def=85162&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_belt_armor_waistoftime_d_01.jpg\" alt=\"Master of Time\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250315?def=85168&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_icefloes.jpg\" alt=\"Frost Conditioning\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=382424?def=85185&amp;rank=2&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_ice_rune.jpg\" alt=\"Winter's Protection\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1244087?def=138963&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/warrior_doubletime.jpg\" alt=\"Time Walk\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=383092?def=85176&amp;rank=2&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcaneresilience.jpg\" alt=\"Arcane Warding\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=55342?def=85186&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_magic_lesserinvisibilty.jpg\" alt=\"Mirror Image\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=458437?def=138970&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_arcaneintellect.jpg\" alt=\"Inspired Intellect\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=30449?def=85143&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcane02.jpg\" alt=\"Spellsteal\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=382297?def=85164&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_surgeofdarkness.jpg\" alt=\"Quick Witted\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=475?def=85178&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_removecurse.jpg\" alt=\"Remove Curse\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=157980?def=130650&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_supernova.jpg\" alt=\"Supernova\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1244025?def=138972&amp;rank=2&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_focusedpower.jpg\" alt=\"Improved Conjuration\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=212653?def=85166&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_massdispel.jpg\" alt=\"Shimmer\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=110959?def=120889&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_greaterinvisibility.jpg\" alt=\"Greater Invisibility\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390218?def=138971&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_manatap.jpg\" alt=\"Overflowing Energy\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1270847?def=141349&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_removecurse.jpg\" alt=\"Improved Remove Curse\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1270865?def=141350&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_1115_mage_counterspell.jpg\" alt=\"Improved Counterspell\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1270827?def=141354&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcane02.jpg\" alt=\"Improved Spellsteal\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=382490?def=85158&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_book_18.jpg\" alt=\"Tome of Antonidas\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:0%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_frostnova.jpg\" alt=\"Improved Frost Nova\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_frostward.jpg\" alt=\"Ice Ward\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=382293?def=85173&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/rogue_burstofspeed.jpg\" alt=\"Incantation of Swiftness\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1270872?def=138964&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_elementalabsorption.jpg\" alt=\"Captured Thoughts\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=382493?def=85190&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_book_04.jpg\" alt=\"Tome of Rhonin\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=210476?def=138969&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_invisibility.jpg\" alt=\"Master of Escape\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1297073?def=142170&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_cloth_raidmage_p_01helm.jpg\" alt=\"Improved Warding\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=382268?def=85156&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_blink.jpg\" alt=\"Flow of Time\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1244107?def=138967&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_nerubian_necklace_02_color1.jpg\" alt=\"Charm of Medivh\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1244105?def=138968&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_nerubian_necklace_02_color5.jpg\" alt=\"Charm of Aegwynn\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1270845?def=141351&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shaman_blessingoftheeternals.jpg\" alt=\"Mana Confluence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=461261?def=141352&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_kaztik_dominatemind.jpg\" alt=\"Brainstorm\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1265517?def=85145&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_10_dungeonjewelry_primalist_necklace_2_frost.jpg\" alt=\"Permafrost Bauble\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:16.666666666666664%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_glacier.jpg\" alt=\"Freezing Cold\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_icenova.jpg\" alt=\"Ice Nova\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_ring-of-frost.jpg\" alt=\"Ring of Frost\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_doublepolymorph1.jpg\" alt=\"Mass Polymorph\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=455428?def=85150&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_evanesce.jpg\" alt=\"Barrier Diffusion\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=414664?def=120890&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_massinvisibility.jpg\" alt=\"Mass Invisibility\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=386828?def=85160&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_temporalshield.jpg\" alt=\"Energized Barriers\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387807?def=85192&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_timestop.jpg\" alt=\"Time Manipulation\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=414658?def=85144&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_fire_bluefire.jpg\" alt=\"Ice Cold\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1244031?def=130892&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_overpowered.jpg\" alt=\"Spatial Manipulation\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=321745?def=138974&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_magearmor.jpg\" alt=\"Improved Prismatic Barrier\" loading=\"lazy\"></a></div></div></div></div></div><div class=\"talent-tree__container talent-tree__container--hero\" style=\"--rows:1;--talent-count:3\"><div class=\"talent-tree__hero-spacer\"></div><div class=\"talent-tree__container--height-limiter\" data-kind=\"hero\"><div class=\"talent-tree__hero-title do-not-change-color-on-hover Mage talent-tree__hero-title--horizontal \">Sunfury</div><div class=\"talent-tree__hero-icon\"><span class=\"\"><div class=\"talent-tree__hero-icon--wrapper \"><img src=\"https://assets.rpglogs.com/img/warcraft/talents/hero/39_full.png\" alt=\"Sunfury\"></div></span></div><div class=\"talent-tree__hero-container talent-tree__hero-container--compact\n          talent-tree__hero-container--horizontal\n          \"><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449330?def=122264&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_helm_robe_raidmage_i_01.jpg\" alt=\"Merely a Setback\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449627?def=122266&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_handoflight.jpg\" alt=\"Lessons in Debilitation\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449412?def=122265&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_fire_masterofelements.jpg\" alt=\"Savor the Moment\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div data-kind=\"spec\" class=\"talent-tree__container talent-tree__container--spec\" style=\"--rows:11;--min-cols:9\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"spec\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--spec\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/mage-1.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--spec\"><div class=\"talent-tree__description__icon\"><img class=\"sprite actor-sprite-Mage-Arcane\" src=\"https://assets.rpglogs.com/img/warcraft/icons/actors.jpg?v=43\" loading=\"lazy\" alt=\"\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Mage\">Spec</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"33.33333333333333%\" y2=\"18.181818181818183%\"></line><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"66.66666666666666%\" y2=\"18.181818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"50%\" y2=\"27.27272727272727%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"16.666666666666664%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"83.33333333333334%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"50%\" y2=\"27.27272727272727%\"></line><line x1=\"16.666666666666664%\" y1=\"27.27272727272727%\" x2=\"16.666666666666664%\" y2=\"36.36363636363637%\"></line><line x1=\"83.33333333333334%\" y1=\"27.27272727272727%\" x2=\"83.33333333333334%\" y2=\"36.36363636363637%\"></line><line x1=\"50%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"16.666666666666664%\" y1=\"36.36363636363637%\" x2=\"33.33333333333333%\" y2=\"45.45454545454545%\"></line><line x1=\"16.666666666666664%\" y1=\"36.36363636363637%\" x2=\"0%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"66.66666666666666%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"33.33333333333333%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"50%\" y2=\"45.45454545454545%\"></line><line x1=\"83.33333333333334%\" y1=\"36.36363636363637%\" x2=\"66.66666666666666%\" y2=\"45.45454545454545%\"></line><line x1=\"83.33333333333334%\" y1=\"36.36363636363637%\" x2=\"100%\" y2=\"45.45454545454545%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"54.54545454545454%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"54.54545454545454%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"33.33333333333333%\" y2=\"54.54545454545454%\"></line><line x1=\"0%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"66.66666666666666%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"83.33333333333334%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"54.54545454545454%\"></line><line x1=\"100%\" y1=\"45.45454545454545%\" x2=\"83.33333333333334%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"54.54545454545454%\" x2=\"66.66666666666666%\" y2=\"63.63636363636363%\"></line><line x1=\"16.666666666666664%\" y1=\"54.54545454545454%\" x2=\"33.33333333333333%\" y2=\"63.63636363636363%\"></line><line x1=\"16.666666666666664%\" y1=\"54.54545454545454%\" x2=\"0%\" y2=\"63.63636363636363%\"></line><line x1=\"16.666666666666664%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"66.66666666666666%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"33.33333333333333%\" y2=\"63.63636363636363%\"></line><line x1=\"83.33333333333334%\" y1=\"54.54545454545454%\" x2=\"66.66666666666666%\" y2=\"63.63636363636363%\"></line><line x1=\"83.33333333333334%\" y1=\"54.54545454545454%\" x2=\"100%\" y2=\"63.63636363636363%\"></line><line x1=\"100%\" y1=\"63.63636363636363%\" x2=\"83.33333333333334%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"33.33333333333333%\" y1=\"63.63636363636363%\" x2=\"16.666666666666664%\" y2=\"72.72727272727273%\"></line><line x1=\"33.33333333333333%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"0%\" y1=\"63.63636363636363%\" x2=\"16.666666666666664%\" y2=\"72.72727272727273%\"></line><line x1=\"66.66666666666666%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"66.66666666666666%\" y1=\"63.63636363636363%\" x2=\"83.33333333333334%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"16.666666666666664%\" y2=\"72.72727272727273%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"16.666666666666664%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"83.33333333333334%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"16.666666666666664%\" y1=\"81.81818181818183%\" x2=\"0%\" y2=\"90.9090909090909%\"></line><line x1=\"16.666666666666664%\" y1=\"81.81818181818183%\" x2=\"33.33333333333333%\" y2=\"90.9090909090909%\"></line><line x1=\"83.33333333333334%\" y1=\"81.81818181818183%\" x2=\"100%\" y2=\"90.9090909090909%\"></line><line x1=\"83.33333333333334%\" y1=\"81.81818181818183%\" x2=\"66.66666666666666%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"50%\" y2=\"90.9090909090909%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=5143?def=131363&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_starfall.jpg\" alt=\"Arcane Missiles\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=414379?def=138810&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_overpowered.jpg\" alt=\"Concentrated Power\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=384452?def=138811&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_ability_mage_arcanesalvo.jpg\" alt=\"Arcane Salvo\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=321420?def=131341&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_manaburn.jpg\" alt=\"Improved Clearcasting\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=231564?def=131367&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_arcanebarrage.jpg\" alt=\"Arcing Cleave\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1309497?def=142596&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_112_arcane_buff.jpg\" alt=\"Refractive Images\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1241462?def=131335&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcanetorrent.jpg\" alt=\"Arcane Pulse\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=365350?def=131345&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_arcanesurge.jpg\" alt=\"Arcane Surge\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=153626?def=133492&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_arcaneorb.jpg\" alt=\"Arcane Orb\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=457521?def=131336&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_surgeoflight_shadow.jpg\" alt=\"Mana Bomb\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=236457?def=138808&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_mindsooth.jpg\" alt=\"Slipstream\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=281482?def=131358&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcane04.jpg\" alt=\"Reverberate\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=205022?def=131365&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_socererking_arcanemines.jpg\" alt=\"Arcane Familiar\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=384651?def=131371&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_arcaneorb.jpg\" alt=\"Charged Orb\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=452997?def=131337&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_lightning_lightningbolt01.jpg\" alt=\"Energized Familiar\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1223798?def=131342&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_brainwash.jpg\" alt=\"Intuition\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=321507?def=131364&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_ability_mage_radiantspark.jpg\" alt=\"Touch of the Magi\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1243557?def=139602&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_helmet_101.jpg\" alt=\"Expanded Mind\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=236628?def=142595&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_invocation.jpg\" alt=\"Amplification\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=383676?def=131349&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcanetorrent.jpg\" alt=\"Impetus\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1243507?def=138803&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_scrollrolled03d.jpg\" alt=\"Aegwynn's Technique\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1243307?def=138806&amp;rank=2&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_enchant_essencearcanelarge.jpg\" alt=\"Aether Attunement\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=461260?def=138807&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_6_2raid_trinket_1b.jpg\" alt=\"Consortium's Bauble\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=205028?def=138813&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcane01.jpg\" alt=\"Resonance\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=383980?def=141848&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_socererking_arcaneacceleration.jpg\" alt=\"Arcane Tempo\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=461257?def=131347&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_racial_arcaneaffinity.jpg\" alt=\"Focusing Crystal\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:16.666666666666664%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_purge.jpg\" alt=\"Evocation\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcanepotency.jpg\" alt=\"Mana Adept\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=321387?def=131366&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_socererking_arcanefortification.jpg\" alt=\"Enlightened\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=384060?def=138830&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_focusedpower.jpg\" alt=\"Illuminated Thoughts\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=384612?def=131376&amp;rank=2&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_studentofthemind.jpg\" alt=\"Prodigious Savant\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1244001?def=138809&amp;rank=2&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_wispheal.jpg\" alt=\"Arcane Singularity\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=452198?def=138976&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_presenceofmind.jpg\" alt=\"Eureka\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1243435?def=131334&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_powerswell.jpg\" alt=\"Orb Mastery\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=461248?def=131368&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shaman_maelstromweapon.jpg\" alt=\"High Voltage\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=384858?def=131370&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_arcaneorb_nightborne.jpg\" alt=\"Orb Barrage\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1243542?def=131372&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_offhand_pvealliance_d_01.jpg\" alt=\"Overflowing Insight\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1244329?def=140453&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_socererking_arcanereplication.jpg\" alt=\"Overpowered Missiles\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:11;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1295923?def=141791&amp;rank=4&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_apextalent_mage_touchofthearchmage.jpg\" alt=\"Prismatic Bolt\" loading=\"lazy\"></span><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">4</span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div class=\"talent-tree__interactions-export \"><button class=\"talent-tree__interactions-export__copy-button \"><span>Export</span><i class=\"fa-solid fa-copy ml-1.5 text-amber-400\"></i></button><a href=\"https://www.wowhead.com/talent-calc/blizzard/C4DAAAAAAAAAAAAAAAAAAAAAAYGmZZmxsgZQzMzAAAwAAmZmmlllZAAsBAwGMzMsZZGzsMjxMzMzwCzMzMzAAMAAADwMDMzAghZmB\" target=\"_blank\" rel=\"noreferrer\" class=\"talent-tree__interactions-export__external-link\"><span>Edit</span><i class=\"fa-solid fa-arrow-up-right-from-square ml-1.5 text-amber-400\"></i></a></div></div></div>",
+        "talentTreeHtml": "<div class=\"builds-talent-tree-build-section__talent-trees\"><div class=\"talent-tree  talent-tree--compact\"><div class=\"talent-tree--container  talent-tree--container--default-layout\"><div data-kind=\"class\" class=\"talent-tree__container talent-tree__container--class\" style=\"--rows:10;--min-cols:9\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"class\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--class\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/mage-2.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--class\"><div class=\"talent-tree__description__icon\"><img src=\"https://wow.zamimg.com/images/wow/icons/large/classicon_mage.jpg\" alt=\"mage\" style=\"width:2.5rem;height:2.5rem;border-radius:9999px;border:2px solid #f59e0b;object-fit:cover;display:block;\" onerror=\"this.src='https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg'\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Mage\">Class</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"10%\" x2=\"66.66666666666666%\" y2=\"20%\"></line><line x1=\"50%\" y1=\"10%\" x2=\"33.33333333333333%\" y2=\"20%\"></line><line x1=\"33.33333333333333%\" y1=\"20%\" x2=\"16.666666666666664%\" y2=\"30%\"></line><line x1=\"33.33333333333333%\" y1=\"20%\" x2=\"33.33333333333333%\" y2=\"30%\"></line><line x1=\"66.66666666666666%\" y1=\"20%\" x2=\"83.33333333333334%\" y2=\"30%\"></line><line x1=\"66.66666666666666%\" y1=\"20%\" x2=\"66.66666666666666%\" y2=\"30%\"></line><line x1=\"33.33333333333333%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"33.33333333333333%\" y1=\"30%\" x2=\"16.666666666666664%\" y2=\"40%\"></line><line x1=\"83.33333333333334%\" y1=\"30%\" x2=\"83.33333333333334%\" y2=\"40%\"></line><line x1=\"66.66666666666666%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"66.66666666666666%\" y1=\"30%\" x2=\"83.33333333333334%\" y2=\"40%\"></line><line x1=\"16.666666666666664%\" y1=\"30%\" x2=\"16.666666666666664%\" y2=\"40%\"></line><line x1=\"16.666666666666664%\" y1=\"40%\" x2=\"33.33333333333333%\" y2=\"50%\"></line><line x1=\"16.666666666666664%\" y1=\"40%\" x2=\"0%\" y2=\"50%\"></line><line x1=\"83.33333333333334%\" y1=\"40%\" x2=\"66.66666666666666%\" y2=\"50%\"></line><line x1=\"83.33333333333334%\" y1=\"40%\" x2=\"100%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"66.66666666666666%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"33.33333333333333%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"0%\" y1=\"50%\" x2=\"16.666666666666664%\" y2=\"60%\"></line><line x1=\"0%\" y1=\"50%\" x2=\"0%\" y2=\"60%\"></line><line x1=\"33.33333333333333%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"33.33333333333333%\" y1=\"50%\" x2=\"16.666666666666664%\" y2=\"60%\"></line><line x1=\"33.33333333333333%\" y1=\"50%\" x2=\"33.33333333333333%\" y2=\"60%\"></line><line x1=\"66.66666666666666%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"66.66666666666666%\" y1=\"50%\" x2=\"83.33333333333334%\" y2=\"60%\"></line><line x1=\"66.66666666666666%\" y1=\"50%\" x2=\"66.66666666666666%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"100%\" y1=\"50%\" x2=\"83.33333333333334%\" y2=\"60%\"></line><line x1=\"16.666666666666664%\" y1=\"60%\" x2=\"0%\" y2=\"70%\"></line><line x1=\"16.666666666666664%\" y1=\"60%\" x2=\"33.33333333333333%\" y2=\"70%\"></line><line x1=\"16.666666666666664%\" y1=\"60%\" x2=\"16.666666666666664%\" y2=\"70%\"></line><line x1=\"83.33333333333334%\" y1=\"60%\" x2=\"66.66666666666666%\" y2=\"70%\"></line><line x1=\"83.33333333333334%\" y1=\"60%\" x2=\"83.33333333333334%\" y2=\"70%\"></line><line x1=\"83.33333333333334%\" y1=\"60%\" x2=\"100%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"33.33333333333333%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"66.66666666666666%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"50%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"60%\" x2=\"66.66666666666666%\" y2=\"70%\"></line><line x1=\"33.33333333333333%\" y1=\"60%\" x2=\"33.33333333333333%\" y2=\"70%\"></line><line x1=\"0%\" y1=\"60%\" x2=\"0%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"70%\" x2=\"83.33333333333334%\" y2=\"80%\"></line><line x1=\"66.66666666666666%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"66.66666666666666%\" y1=\"70%\" x2=\"66.66666666666666%\" y2=\"80%\"></line><line x1=\"0%\" y1=\"70%\" x2=\"16.666666666666664%\" y2=\"80%\"></line><line x1=\"83.33333333333334%\" y1=\"70%\" x2=\"83.33333333333334%\" y2=\"80%\"></line><line x1=\"16.666666666666664%\" y1=\"70%\" x2=\"16.666666666666664%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"16.666666666666664%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"33.33333333333333%\" y2=\"80%\"></line><line x1=\"100%\" y1=\"70%\" x2=\"83.33333333333334%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"33.33333333333333%\" y2=\"90%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"66.66666666666666%\" y2=\"90%\"></line><line x1=\"83.33333333333334%\" y1=\"80%\" x2=\"83.33333333333334%\" y2=\"90%\"></line><line x1=\"83.33333333333334%\" y1=\"80%\" x2=\"66.66666666666666%\" y2=\"90%\"></line><line x1=\"83.33333333333334%\" y1=\"80%\" x2=\"100%\" y2=\"90%\"></line><line x1=\"16.666666666666664%\" y1=\"80%\" x2=\"33.33333333333333%\" y2=\"90%\"></line><line x1=\"16.666666666666664%\" y1=\"80%\" x2=\"16.666666666666664%\" y2=\"90%\"></line><line x1=\"16.666666666666664%\" y1=\"80%\" x2=\"0%\" y2=\"90%\"></line><line x1=\"66.66666666666666%\" y1=\"80%\" x2=\"66.66666666666666%\" y2=\"90%\"></line><line x1=\"33.33333333333333%\" y1=\"80%\" x2=\"33.33333333333333%\" y2=\"90%\"></line><line x1=\"0%\" y1=\"90%\" x2=\"16.666666666666664%\" y2=\"100%\"></line><line x1=\"16.666666666666664%\" y1=\"90%\" x2=\"16.666666666666664%\" y2=\"100%\"></line><line x1=\"50%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"100%\" y1=\"90%\" x2=\"83.33333333333334%\" y2=\"100%\"></line><line x1=\"83.33333333333334%\" y1=\"90%\" x2=\"83.33333333333334%\" y2=\"100%\"></line><line x1=\"66.66666666666666%\" y1=\"90%\" x2=\"83.33333333333334%\" y2=\"100%\"></line><line x1=\"66.66666666666666%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"33.33333333333333%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"33.33333333333333%\" y1=\"90%\" x2=\"16.666666666666664%\" y2=\"100%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=235450?def=85183&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_magearmor.jpg\" alt=\"Prismatic Barrier\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=342245?def=85177&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_altertime.jpg\" alt=\"Alter Time\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=45438?def=85184&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_frost.jpg\" alt=\"Ice Block\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=342249?def=85162&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_belt_armor_waistoftime_d_01.jpg\" alt=\"Master of Time\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250315?def=85168&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_icefloes.jpg\" alt=\"Frost Conditioning\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=382424?def=85185&amp;rank=2&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_ice_rune.jpg\" alt=\"Winter's Protection\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1244087?def=138963&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/warrior_doubletime.jpg\" alt=\"Time Walk\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=383092?def=85176&amp;rank=2&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcaneresilience.jpg\" alt=\"Arcane Warding\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=55342?def=85186&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_magic_lesserinvisibilty.jpg\" alt=\"Mirror Image\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=458437?def=138970&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_arcaneintellect.jpg\" alt=\"Inspired Intellect\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=30449?def=85143&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcane02.jpg\" alt=\"Spellsteal\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=382297?def=85164&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_surgeofdarkness.jpg\" alt=\"Quick Witted\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=475?def=85178&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_removecurse.jpg\" alt=\"Remove Curse\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=157980?def=130650&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_supernova.jpg\" alt=\"Supernova\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1244025?def=138972&amp;rank=2&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_focusedpower.jpg\" alt=\"Improved Conjuration\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=212653?def=85166&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_massdispel.jpg\" alt=\"Shimmer\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=110959?def=120889&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_greaterinvisibility.jpg\" alt=\"Greater Invisibility\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390218?def=138971&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_manatap.jpg\" alt=\"Overflowing Energy\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1270847?def=141349&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_removecurse.jpg\" alt=\"Improved Remove Curse\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1270865?def=141350&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_1115_mage_counterspell.jpg\" alt=\"Improved Counterspell\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1270827?def=141354&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcane02.jpg\" alt=\"Improved Spellsteal\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=382490?def=85158&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_book_18.jpg\" alt=\"Tome of Antonidas\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:0%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_frostnova.jpg\" alt=\"Improved Frost Nova\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_frostward.jpg\" alt=\"Ice Ward\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=382293?def=85173&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/rogue_burstofspeed.jpg\" alt=\"Incantation of Swiftness\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1270872?def=138964&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_elementalabsorption.jpg\" alt=\"Captured Thoughts\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=382493?def=85190&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_book_04.jpg\" alt=\"Tome of Rhonin\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=210476?def=138969&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_invisibility.jpg\" alt=\"Master of Escape\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1297073?def=142170&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_cloth_raidmage_p_01helm.jpg\" alt=\"Improved Warding\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=382268?def=85156&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_blink.jpg\" alt=\"Flow of Time\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1244107?def=138967&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_nerubian_necklace_02_color1.jpg\" alt=\"Charm of Medivh\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1244105?def=138968&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_nerubian_necklace_02_color5.jpg\" alt=\"Charm of Aegwynn\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1270845?def=141351&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shaman_blessingoftheeternals.jpg\" alt=\"Mana Confluence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=461261?def=141352&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_kaztik_dominatemind.jpg\" alt=\"Brainstorm\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1265517?def=85145&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_10_dungeonjewelry_primalist_necklace_2_frost.jpg\" alt=\"Permafrost Bauble\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:16.666666666666664%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_glacier.jpg\" alt=\"Freezing Cold\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_icenova.jpg\" alt=\"Ice Nova\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_frost_ring-of-frost.jpg\" alt=\"Ring of Frost\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_doublepolymorph1.jpg\" alt=\"Mass Polymorph\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=455428?def=85150&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_evanesce.jpg\" alt=\"Barrier Diffusion\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=414664?def=120890&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_massinvisibility.jpg\" alt=\"Mass Invisibility\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=386828?def=85160&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_temporalshield.jpg\" alt=\"Energized Barriers\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387807?def=85192&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_timestop.jpg\" alt=\"Time Manipulation\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=414658?def=85144&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_fire_bluefire.jpg\" alt=\"Ice Cold\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1244031?def=130892&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_overpowered.jpg\" alt=\"Spatial Manipulation\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=321745?def=138974&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_magearmor.jpg\" alt=\"Improved Prismatic Barrier\" loading=\"lazy\"></a></div></div></div></div></div><div class=\"talent-tree__container talent-tree__container--hero\" style=\"--rows:1;--talent-count:3\"><div class=\"talent-tree__hero-spacer\"></div><div class=\"talent-tree__container--height-limiter\" data-kind=\"hero\"><div class=\"talent-tree__hero-title do-not-change-color-on-hover Mage talent-tree__hero-title--horizontal \">Sunfury</div><div class=\"talent-tree__hero-icon\"><span class=\"\"><div class=\"talent-tree__hero-icon--wrapper \"><img src=\"https://assets.rpglogs.com/img/warcraft/talents/hero/39_full.png\" alt=\"Sunfury\"></div></span></div><div class=\"talent-tree__hero-container talent-tree__hero-container--compact\n          talent-tree__hero-container--horizontal\n          \"><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449330?def=122264&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_helm_robe_raidmage_i_01.jpg\" alt=\"Merely a Setback\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449627?def=122266&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_handoflight.jpg\" alt=\"Lessons in Debilitation\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449412?def=122265&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_fire_masterofelements.jpg\" alt=\"Savor the Moment\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div data-kind=\"spec\" class=\"talent-tree__container talent-tree__container--spec\" style=\"--rows:11;--min-cols:9\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"spec\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--spec\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/mage-1.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--spec\"><div class=\"talent-tree__description__icon\"><img class=\"sprite actor-sprite-Mage-Arcane\" src=\"https://assets.rpglogs.com/img/warcraft/icons/actors.jpg?v=43\" loading=\"lazy\" alt=\"\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Mage\">Spec</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"33.33333333333333%\" y2=\"18.181818181818183%\"></line><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"66.66666666666666%\" y2=\"18.181818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"50%\" y2=\"27.27272727272727%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"16.666666666666664%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"83.33333333333334%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"50%\" y2=\"27.27272727272727%\"></line><line x1=\"16.666666666666664%\" y1=\"27.27272727272727%\" x2=\"16.666666666666664%\" y2=\"36.36363636363637%\"></line><line x1=\"83.33333333333334%\" y1=\"27.27272727272727%\" x2=\"83.33333333333334%\" y2=\"36.36363636363637%\"></line><line x1=\"50%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"16.666666666666664%\" y1=\"36.36363636363637%\" x2=\"33.33333333333333%\" y2=\"45.45454545454545%\"></line><line x1=\"16.666666666666664%\" y1=\"36.36363636363637%\" x2=\"0%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"66.66666666666666%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"33.33333333333333%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"50%\" y2=\"45.45454545454545%\"></line><line x1=\"83.33333333333334%\" y1=\"36.36363636363637%\" x2=\"66.66666666666666%\" y2=\"45.45454545454545%\"></line><line x1=\"83.33333333333334%\" y1=\"36.36363636363637%\" x2=\"100%\" y2=\"45.45454545454545%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"54.54545454545454%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"54.54545454545454%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"33.33333333333333%\" y2=\"54.54545454545454%\"></line><line x1=\"0%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"66.66666666666666%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"83.33333333333334%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"54.54545454545454%\"></line><line x1=\"100%\" y1=\"45.45454545454545%\" x2=\"83.33333333333334%\" y2=\"54.54545454545454%\"></line><line x1=\"66.66666666666666%\" y1=\"54.54545454545454%\" x2=\"66.66666666666666%\" y2=\"63.63636363636363%\"></line><line x1=\"16.666666666666664%\" y1=\"54.54545454545454%\" x2=\"33.33333333333333%\" y2=\"63.63636363636363%\"></line><line x1=\"16.666666666666664%\" y1=\"54.54545454545454%\" x2=\"0%\" y2=\"63.63636363636363%\"></line><line x1=\"16.666666666666664%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"66.66666666666666%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"33.33333333333333%\" y2=\"63.63636363636363%\"></line><line x1=\"83.33333333333334%\" y1=\"54.54545454545454%\" x2=\"66.66666666666666%\" y2=\"63.63636363636363%\"></line><line x1=\"83.33333333333334%\" y1=\"54.54545454545454%\" x2=\"100%\" y2=\"63.63636363636363%\"></line><line x1=\"100%\" y1=\"63.63636363636363%\" x2=\"83.33333333333334%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"33.33333333333333%\" y1=\"63.63636363636363%\" x2=\"16.666666666666664%\" y2=\"72.72727272727273%\"></line><line x1=\"33.33333333333333%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"0%\" y1=\"63.63636363636363%\" x2=\"16.666666666666664%\" y2=\"72.72727272727273%\"></line><line x1=\"66.66666666666666%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"66.66666666666666%\" y1=\"63.63636363636363%\" x2=\"83.33333333333334%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"16.666666666666664%\" y2=\"72.72727272727273%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"16.666666666666664%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"83.33333333333334%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"16.666666666666664%\" y1=\"81.81818181818183%\" x2=\"0%\" y2=\"90.9090909090909%\"></line><line x1=\"16.666666666666664%\" y1=\"81.81818181818183%\" x2=\"33.33333333333333%\" y2=\"90.9090909090909%\"></line><line x1=\"83.33333333333334%\" y1=\"81.81818181818183%\" x2=\"100%\" y2=\"90.9090909090909%\"></line><line x1=\"83.33333333333334%\" y1=\"81.81818181818183%\" x2=\"66.66666666666666%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"50%\" y2=\"90.9090909090909%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=5143?def=131363&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_starfall.jpg\" alt=\"Arcane Missiles\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=414379?def=138810&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_overpowered.jpg\" alt=\"Concentrated Power\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=384452?def=138811&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_ability_mage_arcanesalvo.jpg\" alt=\"Arcane Salvo\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=321420?def=131341&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_manaburn.jpg\" alt=\"Improved Clearcasting\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=231564?def=131367&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_arcanebarrage.jpg\" alt=\"Arcing Cleave\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1309497?def=142596&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_112_arcane_buff.jpg\" alt=\"Refractive Images\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1241462?def=131335&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcanetorrent.jpg\" alt=\"Arcane Pulse\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=365350?def=131345&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_arcanesurge.jpg\" alt=\"Arcane Surge\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=153626?def=133492&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_arcaneorb.jpg\" alt=\"Arcane Orb\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=457521?def=131336&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_surgeoflight_shadow.jpg\" alt=\"Mana Bomb\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=236457?def=138808&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_mindsooth.jpg\" alt=\"Slipstream\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=281482?def=131358&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcane04.jpg\" alt=\"Reverberate\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=205022?def=131365&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_socererking_arcanemines.jpg\" alt=\"Arcane Familiar\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=384651?def=131371&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_arcaneorb.jpg\" alt=\"Charged Orb\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=452997?def=131337&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_lightning_lightningbolt01.jpg\" alt=\"Energized Familiar\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1223798?def=131342&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_brainwash.jpg\" alt=\"Intuition\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=321507?def=131364&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_ability_mage_radiantspark.jpg\" alt=\"Touch of the Magi\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1243557?def=139602&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_helmet_101.jpg\" alt=\"Expanded Mind\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=236628?def=142595&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_invocation.jpg\" alt=\"Amplification\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=383676?def=131349&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcanetorrent.jpg\" alt=\"Impetus\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1243507?def=138803&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_scrollrolled03d.jpg\" alt=\"Aegwynn's Technique\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1243307?def=138806&amp;rank=2&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_enchant_essencearcanelarge.jpg\" alt=\"Aether Attunement\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=461260?def=138807&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_6_2raid_trinket_1b.jpg\" alt=\"Consortium's Bauble\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=205028?def=138813&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcane01.jpg\" alt=\"Resonance\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=383980?def=141848&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_socererking_arcaneacceleration.jpg\" alt=\"Arcane Tempo\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=461257?def=131347&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_racial_arcaneaffinity.jpg\" alt=\"Focusing Crystal\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:16.666666666666664%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_purge.jpg\" alt=\"Evocation\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcanepotency.jpg\" alt=\"Mana Adept\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=321387?def=131366&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_socererking_arcanefortification.jpg\" alt=\"Enlightened\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=384060?def=138830&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_focusedpower.jpg\" alt=\"Illuminated Thoughts\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=384612?def=131376&amp;rank=2&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_studentofthemind.jpg\" alt=\"Prodigious Savant\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1244001?def=138809&amp;rank=2&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_wispheal.jpg\" alt=\"Arcane Singularity\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=452198?def=138976&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_presenceofmind.jpg\" alt=\"Eureka\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1243435?def=131334&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_evoker_powerswell.jpg\" alt=\"Orb Mastery\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=461248?def=131368&amp;rank=1&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shaman_maelstromweapon.jpg\" alt=\"High Voltage\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=384858?def=131370&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_mage_arcaneorb_nightborne.jpg\" alt=\"Orb Barrage\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1243542?def=131372&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_offhand_pvealliance_d_01.jpg\" alt=\"Overflowing Insight\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1244329?def=140453&amp;rank=1&amp;spellModifier=137021\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_socererking_arcanereplication.jpg\" alt=\"Overpowered Missiles\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:11;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1295923?def=141791&amp;rank=4&amp;spellModifier=137021\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_apextalent_mage_touchofthearchmage.jpg\" alt=\"Prismatic Bolt\" loading=\"lazy\"></span><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">4</span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div class=\"talent-tree__interactions-export \"><button class=\"talent-tree__interactions-export__copy-button \"><span>Export</span><i class=\"fa-solid fa-copy ml-1.5 text-amber-400\"></i></button><a href=\"https://www.wowhead.com/talent-calc/blizzard/C4DAAAAAAAAAAAAAAAAAAAAAAMzwYZmxsgZGamZGAAAGAwMz0sssMDAgNAA2gZmhNLzYmlZMmZmZGWYmZmZGAgBAAYAmZAzAghZmB\" target=\"_blank\" rel=\"noreferrer\" class=\"talent-tree__interactions-export__external-link\"><span>Edit</span><i class=\"fa-solid fa-arrow-up-right-from-square ml-1.5 text-amber-400\"></i></a></div></div></div>",
         "bisGear": [
           {
             "id": 271564,
             "name": "",
             "params": "pcs=271562:271563:271564:271567&gems=240916&ench=8017",
-            "popularity": 85.4,
-            "parses": 10
+            "popularity": 85.7,
+            "parses": 9
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271562:271563:271564:271567:268265&gems=240983",
             "popularity": 95.8,
-            "parses": 11
+            "parses": 10
           },
           {
             "id": 271562,
             "name": "",
             "params": "pcs=271562:271563:271564:271567&ench=8001",
-            "popularity": 91.9,
-            "parses": 10
+            "popularity": 91.8,
+            "parses": 9
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8792&pcs=271562:271563:271564:271567:239656",
-            "popularity": 39.4,
+            "popularity": 39.6,
             "parses": 4
           },
           {
             "id": 271567,
             "name": "",
             "params": "pcs=271562:271563:271564:271567&ench=7987",
-            "popularity": 82.9,
+            "popularity": 83,
             "parses": 9
           },
           {
@@ -4191,14 +4191,14 @@ window.ARCHON_PRESETS = {
             "name": "",
             "params": "bonus=8792&pcs=271562:271563:271564:271567:239648&gems=240916",
             "popularity": 87.5,
-            "parses": 10
+            "parses": 9
           },
           {
             "id": 271565,
             "name": "",
             "params": "pcs=271562:271563:271564:271567:271565",
-            "popularity": 63.8,
-            "parses": 7
+            "popularity": 63.1,
+            "parses": 6
           },
           {
             "id": 268232,
@@ -4211,56 +4211,56 @@ window.ARCHON_PRESETS = {
             "id": 271563,
             "name": "",
             "params": "pcs=271562:271563:271564:271567&ench=7935",
-            "popularity": 86.3,
-            "parses": 10
+            "popularity": 86.1,
+            "parses": 9
           },
           {
-            "id": 271435,
+            "id": 268255,
             "name": "",
-            "params": "pcs=271562:271563:271564:271567:271435&ench=7963",
-            "popularity": 20.9,
+            "params": "pcs=271562:271563:271564:271567:268255&ench=7963",
+            "popularity": 21.5,
             "parses": 2
           },
           {
             "id": 268266,
             "name": "",
             "params": "bonus=13534&pcs=271562:271563:271564:271567:268266&gems=240916&ench=7967",
-            "popularity": 45,
-            "parses": 5
+            "popularity": 45.7,
+            "parses": 4
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8792&pcs=271562:271563:271564:271567:240949&gems=240916&ench=7967",
-            "popularity": 44.9,
-            "parses": 5
+            "popularity": 44.2,
+            "parses": 4
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271562:271563:271564:271567:271092&ench=8689",
-            "popularity": 89.1,
-            "parses": 10
+            "popularity": 89.4,
+            "parses": 9
           },
           {
             "id": 245769,
             "name": "",
             "params": "bonus=8792&pcs=271562:271563:271564:271567:245769",
-            "popularity": 67.5,
+            "popularity": 65.2,
             "parses": 7
           },
           {
             "id": 250215,
             "name": "",
             "params": "nofollow",
-            "popularity": 40.9,
+            "popularity": 42.9,
             "parses": 4
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 40.9,
+            "popularity": 42.9,
             "parses": 4
           }
         ]
@@ -4395,11 +4395,11 @@ window.ARCHON_PRESETS = {
         ]
       },
       "mplus": {
-        "m": 789,
-        "c": 234,
-        "h": 1340,
-        "v": 668,
-        "dps": "479.0k",
+        "m": 791,
+        "c": 233,
+        "h": 1333,
+        "v": 701,
+        "dps": "476.9k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/4CfKFxGwAaNLTkMH#fight=42",
@@ -4410,125 +4410,125 @@ window.ARCHON_PRESETS = {
           {
             "id": 271564,
             "name": "",
-            "params": "pcs=271564:271562:271567:271563&gems=240916&ench=8017",
-            "popularity": 85.3,
-            "parses": 418
+            "params": "pcs=271564:271562:271563:271567&gems=240916&ench=8017",
+            "popularity": 85.7,
+            "parses": 401
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271564:271562:271567:271563:268265&gems=240983",
-            "popularity": 86.1,
-            "parses": 422
+            "params": "bonus=13534&pcs=271564:271562:271563:271567:268265&gems=240983",
+            "popularity": 87.4,
+            "parses": 409
           },
           {
             "id": 271562,
             "name": "",
-            "params": "pcs=271564:271562:271567:271563&ench=8001",
-            "popularity": 84.5,
-            "parses": 414
+            "params": "pcs=271564:271562:271563:271567&ench=8001",
+            "popularity": 84.6,
+            "parses": 396
           },
           {
             "id": 239656,
             "name": "",
-            "params": "bonus=8792&pcs=271564:271562:271567:271563:239656",
-            "popularity": 40.6,
-            "parses": 199
+            "params": "bonus=8792&pcs=271564:271562:271563:271567:239656",
+            "popularity": 38.5,
+            "parses": 180
           },
           {
             "id": 271567,
             "name": "",
-            "params": "pcs=271564:271562:271567:271563&ench=7987",
-            "popularity": 82.9,
-            "parses": 406
+            "params": "pcs=271564:271562:271563:271567&ench=7987",
+            "popularity": 82.5,
+            "parses": 386
           },
           {
             "id": 239648,
             "name": "",
-            "params": "bonus=8792&pcs=271564:271562:271567:271563:239648&gems=240916",
-            "popularity": 92,
-            "parses": 451
+            "params": "bonus=8792&pcs=271564:271562:271563:271567:239648&gems=240916",
+            "popularity": 92.9,
+            "parses": 435
           },
           {
             "id": 271565,
             "name": "",
-            "params": "pcs=271564:271562:271567:271563:271565",
-            "popularity": 76.1,
-            "parses": 373
+            "params": "pcs=271564:271562:271563:271567:271565",
+            "popularity": 75.4,
+            "parses": 353
           },
           {
             "id": 239649,
             "name": "",
-            "params": "bonus=8792&pcs=271564:271562:271567:271563:239649&gems=240916",
-            "popularity": 51.6,
-            "parses": 253
+            "params": "bonus=8792&pcs=271564:271562:271563:271567:239649&gems=240916",
+            "popularity": 53.6,
+            "parses": 251
           },
           {
             "id": 271563,
             "name": "",
-            "params": "pcs=271564:271562:271567:271563&ench=7935",
-            "popularity": 81.8,
-            "parses": 401
+            "params": "pcs=271564:271562:271563:271567&ench=7935",
+            "popularity": 82.9,
+            "parses": 388
           },
           {
             "id": 239654,
             "name": "",
-            "params": "bonus=8792&pcs=271564:271562:271567:271563:239654&ench=7963",
-            "popularity": 22.7,
-            "parses": 111
+            "params": "bonus=8792&pcs=271564:271562:271563:271567:239654&ench=7963",
+            "popularity": 23.3,
+            "parses": 109
           },
           {
             "id": 268266,
             "name": "",
-            "params": "bonus=13534&pcs=271564:271562:271567:271563:268266&gems=240916&ench=7967",
-            "popularity": 54.3,
-            "parses": 266
+            "params": "bonus=13534&pcs=271564:271562:271563:271567:268266&gems=240916&ench=7967",
+            "popularity": 54.9,
+            "parses": 257
           },
           {
             "id": 159459,
             "name": "",
-            "params": "bonus=13534&pcs=271564:271562:271567:271563:159459&gems=240916&ench=7967",
-            "popularity": 51.2,
-            "parses": 251
+            "params": "bonus=13534&pcs=271564:271562:271563:271567:159459&gems=240916&ench=7967",
+            "popularity": 49.8,
+            "parses": 233
           },
           {
             "id": 271092,
             "name": "",
-            "params": "pcs=271564:271562:271567:271563:271092&ench=8689",
-            "popularity": 84.5,
-            "parses": 414
+            "params": "pcs=271564:271562:271563:271567:271092&ench=8689",
+            "popularity": 85.5,
+            "parses": 400
           },
           {
             "id": 245769,
             "name": "",
-            "params": "bonus=8792&pcs=271564:271562:271567:271563:245769",
-            "popularity": 68.6,
-            "parses": 336
+            "params": "bonus=8792&pcs=271564:271562:271563:271567:245769",
+            "popularity": 68.2,
+            "parses": 319
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 31.2,
-            "parses": 153
+            "popularity": 31.6,
+            "parses": 148
           },
           {
             "id": 273796,
             "name": "",
             "params": "nofollow",
-            "popularity": 31.2,
-            "parses": 153
+            "popularity": 31.6,
+            "parses": 148
           }
         ]
       }
     },
     "frost": {
       "raid": {
-        "m": 1064,
+        "m": 1063,
         "c": 1037,
-        "h": 737,
+        "h": 739,
         "v": 260,
-        "dps": "318.2k",
+        "dps": "317.3k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/kqc4NzFRGD63wTWQ#fight=10",
@@ -4540,7 +4540,7 @@ window.ARCHON_PRESETS = {
             "id": 271564,
             "name": "",
             "params": "pcs=271562:271567:271563:271564&gems=240908&ench=8017",
-            "popularity": 86,
+            "popularity": 86.7,
             "parses": 4
           },
           {
@@ -4554,7 +4554,7 @@ window.ARCHON_PRESETS = {
             "id": 271562,
             "name": "",
             "params": "pcs=271562:271567:271563:271564&ench=8001",
-            "popularity": 92.2,
+            "popularity": 92.1,
             "parses": 5
           },
           {
@@ -4568,94 +4568,94 @@ window.ARCHON_PRESETS = {
             "id": 271567,
             "name": "",
             "params": "pcs=271562:271567:271563:271564&ench=7987",
-            "popularity": 91.7,
+            "popularity": 92,
             "parses": 5
           },
           {
             "id": 239648,
             "name": "",
             "params": "bonus=8791&pcs=271562:271567:271563:271564:239648&gems=240908",
-            "popularity": 80.5,
+            "popularity": 80.3,
             "parses": 4
           },
           {
             "id": 271565,
             "name": "",
             "params": "pcs=271562:271567:271563:271564:271565",
-            "popularity": 79,
+            "popularity": 78.7,
             "parses": 4
           },
           {
             "id": 239649,
             "name": "",
             "params": "bonus=8791&pcs=271562:271567:271563:271564:239649&gems=240908",
-            "popularity": 38,
+            "popularity": 38.1,
             "parses": 2
           },
           {
             "id": 271563,
             "name": "",
             "params": "pcs=271562:271567:271563:271564&ench=7935",
-            "popularity": 87.3,
+            "popularity": 87.2,
             "parses": 4
           },
           {
             "id": 268218,
             "name": "",
             "params": "pcs=271562:271567:271563:271564:268218&ench=7963",
-            "popularity": 31,
+            "popularity": 31.1,
             "parses": 1
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271562:271567:271563:271564:281029&gems=240908&ench=7967",
-            "popularity": 52.5,
+            "popularity": 54.5,
             "parses": 3
           },
           {
             "id": 268252,
             "name": "",
             "params": "bonus=13534&pcs=271562:271567:271563:271564:268252&gems=240908&ench=7967",
-            "popularity": 26,
+            "popularity": 26.3,
             "parses": 1
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271562:271567:271563:271564:271092&ench=8689",
-            "popularity": 81,
+            "popularity": 81.4,
             "parses": 4
           },
           {
             "id": 245769,
             "name": "",
             "params": "bonus=8791&pcs=271562:271567:271563:271564:245769",
-            "popularity": 59.4,
+            "popularity": 58.7,
             "parses": 3
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 49.1,
+            "popularity": 49.8,
             "parses": 2
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 49.1,
+            "popularity": 49.8,
             "parses": 2
           }
         ]
       },
       "mplus": {
-        "m": 1152,
-        "c": 1044,
-        "h": 671,
-        "v": 189,
-        "dps": "422.4k",
+        "m": 1154,
+        "c": 1057,
+        "h": 670,
+        "v": 185,
+        "dps": "421.2k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/YjAWx9FavHJ7LdZc#fight=39",
@@ -4667,29 +4667,29 @@ window.ARCHON_PRESETS = {
             "id": 271564,
             "name": "",
             "params": "pcs=271567:271564:271563:271562&gems=240908&ench=8017",
-            "popularity": 86.5,
+            "popularity": 87.3,
             "parses": 1
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271567:271564:271563:271562:268265&gems=240983",
-            "popularity": 87.2,
+            "popularity": 88.1,
             "parses": 1
           },
           {
             "id": 271562,
             "name": "",
             "params": "pcs=271567:271564:271563:271562&ench=8001",
-            "popularity": 82.8,
-            "parses": 1
+            "popularity": 82.7,
+            "parses": 959
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8791&pcs=271567:271564:271563:271562:239656",
-            "popularity": 38.3,
-            "parses": 473
+            "popularity": 39.2,
+            "parses": 454
           },
           {
             "id": 271567,
@@ -4702,78 +4702,78 @@ window.ARCHON_PRESETS = {
             "id": 239648,
             "name": "",
             "params": "bonus=8791&pcs=271567:271564:271563:271562:239648&gems=240908",
-            "popularity": 71.2,
-            "parses": 879
+            "popularity": 70.3,
+            "parses": 815
           },
           {
             "id": 271565,
             "name": "",
             "params": "pcs=271567:271564:271563:271562:271565",
-            "popularity": 76.7,
-            "parses": 947
+            "popularity": 75.8,
+            "parses": 879
           },
           {
             "id": 239649,
             "name": "",
             "params": "bonus=8791&pcs=271567:271564:271563:271562:239649&gems=240908",
-            "popularity": 56.6,
-            "parses": 699
+            "popularity": 56.7,
+            "parses": 657
           },
           {
             "id": 271563,
             "name": "",
             "params": "pcs=271567:271564:271563:271562&ench=7935",
-            "popularity": 82.9,
-            "parses": 1
+            "popularity": 82.8,
+            "parses": 960
           },
           {
             "id": 239654,
             "name": "",
             "params": "bonus=8791&pcs=271567:271564:271563:271562:239654&ench=7963",
-            "popularity": 27.1,
-            "parses": 335
+            "popularity": 26.8,
+            "parses": 311
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271567:271564:271563:271562:281029&gems=240908&ench=7967",
-            "popularity": 54.6,
-            "parses": 674
+            "popularity": 57.3,
+            "parses": 664
           },
           {
-            "id": 251136,
+            "id": 240949,
             "name": "",
-            "params": "bonus=13534&pcs=271567:271564:271563:271562:251136&gems=240908&ench=7967",
-            "popularity": 26.7,
-            "parses": 330
+            "params": ":8791&pcs=271567:271564:271563:271562:240949&gems=240908&ench=7967",
+            "popularity": 26.1,
+            "parses": 303
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271567:271564:271563:271562:271092&ench=8689",
-            "popularity": 74.5,
-            "parses": 920
+            "popularity": 75.2,
+            "parses": 872
           },
           {
             "id": 245769,
             "name": "",
             "params": "bonus=8791&pcs=271567:271564:271563:271562:245769",
-            "popularity": 52.3,
-            "parses": 646
+            "popularity": 51.9,
+            "parses": 602
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 52.6,
-            "parses": 649
+            "popularity": 55.2,
+            "parses": 640
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 52.6,
-            "parses": 649
+            "popularity": 55.2,
+            "parses": 640
           }
         ]
       }
@@ -4783,13 +4783,13 @@ window.ARCHON_PRESETS = {
     "brewmaster": {
       "raid": {
         "m": 722,
-        "c": 1192,
-        "h": 373,
-        "v": 733,
-        "dps": "157.9k",
+        "c": 1191,
+        "h": 375,
+        "v": 731,
+        "dps": "158.1k",
         "dpsLabel": "DPS",
         "popularity": "",
-        "topLogUrl": "https://www.warcraftlogs.com/reports/WdJjKQZ9bxVR8wTY#fight=5",
+        "topLogUrl": "https://www.warcraftlogs.com/reports/Qt4BJf1q8PC3Y7gN#fight=37",
         "talents": "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAwMbbGzYGWmxGmZMAAAAAAALLYEzMYmhZ2YwMzMDz2wMGLDLb22GzYWAAgNAAAwsNLNzMziZYDgZGmGDAAYA",
         "heroTree": "Shado‑Pan",
         "talentTreeHtml": "<div class=\"builds-talent-tree-build-section__talent-trees\"><div class=\"talent-tree  talent-tree--compact\"><div class=\"talent-tree--container  talent-tree--container--default-layout\"><div data-kind=\"class\" class=\"talent-tree__container talent-tree__container--class\" style=\"--rows:10;--min-cols:9\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"class\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--class\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/monk-2.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--class\"><div class=\"talent-tree__description__icon\"><img src=\"https://wow.zamimg.com/images/wow/icons/large/classicon_monk.jpg\" alt=\"monk\" style=\"width:2.5rem;height:2.5rem;border-radius:9999px;border:2px solid #f59e0b;object-fit:cover;display:block;\" onerror=\"this.src='https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg'\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Monk\">Class</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"10%\" x2=\"33.33333333333333%\" y2=\"20%\"></line><line x1=\"50%\" y1=\"10%\" x2=\"66.66666666666666%\" y2=\"20%\"></line><line x1=\"16.666666666666664%\" y1=\"10%\" x2=\"33.33333333333333%\" y2=\"20%\"></line><line x1=\"16.666666666666664%\" y1=\"10%\" x2=\"0%\" y2=\"20%\"></line><line x1=\"83.33333333333334%\" y1=\"10%\" x2=\"66.66666666666666%\" y2=\"20%\"></line><line x1=\"83.33333333333334%\" y1=\"10%\" x2=\"100%\" y2=\"20%\"></line><line x1=\"0%\" y1=\"20%\" x2=\"0%\" y2=\"40%\"></line><line x1=\"0%\" y1=\"20%\" x2=\"16.666666666666664%\" y2=\"30%\"></line><line x1=\"33.33333333333333%\" y1=\"20%\" x2=\"50%\" y2=\"30%\"></line><line x1=\"33.33333333333333%\" y1=\"20%\" x2=\"33.33333333333333%\" y2=\"30%\"></line><line x1=\"33.33333333333333%\" y1=\"20%\" x2=\"16.666666666666664%\" y2=\"30%\"></line><line x1=\"66.66666666666666%\" y1=\"20%\" x2=\"83.33333333333334%\" y2=\"30%\"></line><line x1=\"66.66666666666666%\" y1=\"20%\" x2=\"50%\" y2=\"30%\"></line><line x1=\"66.66666666666666%\" y1=\"20%\" x2=\"66.66666666666666%\" y2=\"30%\"></line><line x1=\"100%\" y1=\"20%\" x2=\"83.33333333333334%\" y2=\"30%\"></line><line x1=\"100%\" y1=\"20%\" x2=\"100%\" y2=\"40%\"></line><line x1=\"83.33333333333334%\" y1=\"30%\" x2=\"66.66666666666666%\" y2=\"40%\"></line><line x1=\"83.33333333333334%\" y1=\"30%\" x2=\"100%\" y2=\"40%\"></line><line x1=\"83.33333333333334%\" y1=\"30%\" x2=\"83.33333333333334%\" y2=\"40%\"></line><line x1=\"16.666666666666664%\" y1=\"30%\" x2=\"33.33333333333333%\" y2=\"40%\"></line><line x1=\"16.666666666666664%\" y1=\"30%\" x2=\"0%\" y2=\"40%\"></line><line x1=\"16.666666666666664%\" y1=\"30%\" x2=\"16.666666666666664%\" y2=\"40%\"></line><line x1=\"66.66666666666666%\" y1=\"30%\" x2=\"66.66666666666666%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"30%\" x2=\"66.66666666666666%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"30%\" x2=\"33.33333333333333%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"33.33333333333333%\" y1=\"30%\" x2=\"33.33333333333333%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"0%\" y1=\"40%\" x2=\"0%\" y2=\"60%\"></line><line x1=\"0%\" y1=\"40%\" x2=\"16.666666666666664%\" y2=\"50%\"></line><line x1=\"66.66666666666666%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"66.66666666666666%\" y1=\"40%\" x2=\"83.33333333333334%\" y2=\"50%\"></line><line x1=\"66.66666666666666%\" y1=\"40%\" x2=\"66.66666666666666%\" y2=\"50%\"></line><line x1=\"33.33333333333333%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"33.33333333333333%\" y1=\"40%\" x2=\"16.666666666666664%\" y2=\"50%\"></line><line x1=\"100%\" y1=\"40%\" x2=\"83.33333333333334%\" y2=\"50%\"></line><line x1=\"100%\" y1=\"40%\" x2=\"100%\" y2=\"50%\"></line><line x1=\"16.666666666666664%\" y1=\"40%\" x2=\"16.666666666666664%\" y2=\"50%\"></line><line x1=\"83.33333333333334%\" y1=\"40%\" x2=\"83.33333333333334%\" y2=\"50%\"></line><line x1=\"66.66666666666666%\" y1=\"50%\" x2=\"83.33333333333334%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"66.66666666666666%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"33.33333333333333%\" y2=\"60%\"></line><line x1=\"83.33333333333334%\" y1=\"50%\" x2=\"83.33333333333334%\" y2=\"60%\"></line><line x1=\"83.33333333333334%\" y1=\"50%\" x2=\"100%\" y2=\"60%\"></line><line x1=\"16.666666666666664%\" y1=\"50%\" x2=\"16.666666666666664%\" y2=\"70%\"></line><line x1=\"16.666666666666664%\" y1=\"50%\" x2=\"0%\" y2=\"60%\"></line><line x1=\"100%\" y1=\"50%\" x2=\"100%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"66.66666666666666%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"50%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"33.33333333333333%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"60%\" x2=\"66.66666666666666%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"60%\" x2=\"83.33333333333334%\" y2=\"70%\"></line><line x1=\"100%\" y1=\"60%\" x2=\"83.33333333333334%\" y2=\"70%\"></line><line x1=\"100%\" y1=\"60%\" x2=\"100%\" y2=\"80%\"></line><line x1=\"0%\" y1=\"60%\" x2=\"0%\" y2=\"80%\"></line><line x1=\"0%\" y1=\"60%\" x2=\"16.666666666666664%\" y2=\"70%\"></line><line x1=\"33.33333333333333%\" y1=\"60%\" x2=\"16.666666666666664%\" y2=\"70%\"></line><line x1=\"33.33333333333333%\" y1=\"60%\" x2=\"33.33333333333333%\" y2=\"70%\"></line><line x1=\"83.33333333333334%\" y1=\"60%\" x2=\"83.33333333333334%\" y2=\"70%\"></line><line x1=\"16.666666666666664%\" y1=\"70%\" x2=\"16.666666666666664%\" y2=\"80%\"></line><line x1=\"16.666666666666664%\" y1=\"70%\" x2=\"0%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"16.666666666666664%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"33.33333333333333%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"66.66666666666666%\" y1=\"70%\" x2=\"66.66666666666666%\" y2=\"80%\"></line><line x1=\"66.66666666666666%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"66.66666666666666%\" y1=\"70%\" x2=\"83.33333333333334%\" y2=\"80%\"></line><line x1=\"83.33333333333334%\" y1=\"70%\" x2=\"100%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"80%\" x2=\"16.666666666666664%\" y2=\"90%\"></line><line x1=\"33.33333333333333%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"33.33333333333333%\" y1=\"80%\" x2=\"33.33333333333333%\" y2=\"90%\"></line><line x1=\"16.666666666666664%\" y1=\"80%\" x2=\"16.666666666666664%\" y2=\"90%\"></line><line x1=\"0%\" y1=\"80%\" x2=\"16.666666666666664%\" y2=\"90%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"66.66666666666666%\" y1=\"80%\" x2=\"83.33333333333334%\" y2=\"90%\"></line><line x1=\"66.66666666666666%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"66.66666666666666%\" y1=\"80%\" x2=\"66.66666666666666%\" y2=\"90%\"></line><line x1=\"100%\" y1=\"80%\" x2=\"83.33333333333334%\" y2=\"90%\"></line><line x1=\"16.666666666666664%\" y1=\"90%\" x2=\"0%\" y2=\"100%\"></line><line x1=\"16.666666666666664%\" y1=\"90%\" x2=\"33.33333333333333%\" y2=\"100%\"></line><line x1=\"33.33333333333333%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"33.33333333333333%\" y1=\"90%\" x2=\"33.33333333333333%\" y2=\"100%\"></line><line x1=\"50%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"66.66666666666666%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"66.66666666666666%\" y1=\"90%\" x2=\"66.66666666666666%\" y2=\"100%\"></line><line x1=\"83.33333333333334%\" y1=\"90%\" x2=\"66.66666666666666%\" y2=\"100%\"></line><line x1=\"83.33333333333334%\" y1=\"90%\" x2=\"100%\" y2=\"100%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=115078?def=129770&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_paralysis.jpg\" alt=\"Paralysis\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=115175?def=129771&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_soothingmists.jpg\" alt=\"Soothing Mist\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=115069?def=140841&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_stance_drunkenox.jpg\" alt=\"Stagger\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388681?def=129772&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_soothingmists.jpg\" alt=\"Elusive Mists\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=116841?def=129775&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_tigerslust.jpg\" alt=\"Tiger's Lust\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:66.66666666666666%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_blackoutkick.jpg\" alt=\"Crashing Momentum\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_shockwave.jpg\" alt=\"Disable\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1261543?def=140840&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_mightyoxkick.jpg\" alt=\"Fast Feet\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=218164?def=129705&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_rogue_imrovedrecuperate.jpg\" alt=\"Detox\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388811?def=129774&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_ability_cherrymanatea.jpg\" alt=\"Grace of the Crane\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450514?def=129776&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_zenflight.jpg\" alt=\"Wind's Reach\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388664?def=129782&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_orb_01.jpg\" alt=\"Calming Presence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450520?def=129793&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_roll.jpg\" alt=\"Bounding Agility\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450432?def=129769&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_deadlyreach.jpg\" alt=\"Pressure Points\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388812?def=129773&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_vivify.jpg\" alt=\"Vivacious Vivification\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=116705?def=129781&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_spearhand.jpg\" alt=\"Spear Hand Strike\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450553?def=129792&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_lifegivingspeed.jpg\" alt=\"Jade Walk\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=344359?def=129821&amp;rank=2&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_dpsstance.jpg\" alt=\"Ancient Arts\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1266719?def=141290&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_monk_zenpilgrimage.jpg\" alt=\"Silent Sanctuary\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1266740?def=141293&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_quipunch.jpg\" alt=\"Reinvigoration\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450631?def=129780&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_ability_avertharm.jpg\" alt=\"Energy Transfer\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=101643?def=129800&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_ability_transcendence.jpg\" alt=\"Transcendence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=115173?def=129820&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_quipunch.jpg\" alt=\"Celerity\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=123986?def=131327&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_arcanetorrent.jpg\" alt=\"Chi Burst\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1266733?def=141291&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_helm_leather_raidmonkprogenitormythic_d_01.jpg\" alt=\"Stillstep Coil\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=116844?def=129764&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_monk_ringofpeace.jpg\" alt=\"Ring of Peace\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450595?def=129766&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shaman_spectraltransformation.jpg\" alt=\"Spirit's Essence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=322113?def=129768&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_touchofdeath.jpg\" alt=\"Improved Touch of Death\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=328670?def=129788&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_provoke.jpg\" alt=\"Hasty Provocation\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388674?def=129799&amp;rank=2&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mount_pinktiger.jpg\" alt=\"Ferocity of Xuen\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=264348?def=129818&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_legsweep.jpg\" alt=\"Tiger Tail Sweep\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=392900?def=129786&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_expelharm.jpg\" alt=\"Vigorous Expulsion\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450448?def=129795&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_inscription_deck_redcrane.jpg\" alt=\"Peace and Prosperity\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=414131?def=129798&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_dragonkick.jpg\" alt=\"Yu'lon's Grace\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=115203?def=129806&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_fortifyingale_new.jpg\" alt=\"Fortifying Brew\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=414132?def=129817&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_dematerialize.jpg\" alt=\"Dance of the Wind\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387276?def=129762&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_healthsphere.jpg\" alt=\"Strength of Spirit\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450622?def=129785&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_standingkick.jpg\" alt=\"Swift Art\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=389579?def=129787&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_weapon_hand_22.jpg\" alt=\"Save Them All\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=115315?def=129805&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_ability_summonoxstatue.jpg\" alt=\"Summon Black Ox Statue\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388813?def=129807&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_fortifyingale_new.jpg\" alt=\"Expeditious Fortification\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450638?def=129815&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_essencefont.jpg\" alt=\"Celestial Determination\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1243287?def=138812&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_monk_diffusemagic.jpg\" alt=\"Diffuse Magic\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450426?def=129802&amp;rank=2&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_chiswirl.jpg\" alt=\"Chi Proficiency\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450560?def=129804&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_pathofmists.jpg\" alt=\"Healing Winds\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=157411?def=129809&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_stance_whitetiger.jpg\" alt=\"Windwalking\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1272452?def=129812&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_zenmeditation.jpg\" alt=\"Chi Transfer\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450427?def=129814&amp;rank=2&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_palmstrike.jpg\" alt=\"Martial Instincts\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450154?def=129784&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_yulonsgift.jpg\" alt=\"Rushing Reflexes\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449582?def=129801&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_ridethewind.jpg\" alt=\"Lighter Than Air\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450569?def=129803&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_healthsphere.jpg\" alt=\"Flow of Chi\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_ability_transcendence.jpg\" alt=\"Escape from Reality\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_ability_transcendence.jpg\" alt=\"Transcendence: Linked Spirits\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=394123?def=129813&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_touchofdeath.jpg\" alt=\"Fatal Touch\" loading=\"lazy\"></a></div></div></div></div></div><div class=\"talent-tree__container talent-tree__container--hero\" style=\"--rows:1;--talent-count:3\"><div class=\"talent-tree__hero-spacer\"></div><div class=\"talent-tree__container--height-limiter\" data-kind=\"hero\"><div class=\"talent-tree__hero-title do-not-change-color-on-hover Monk talent-tree__hero-title--horizontal \">Shado‑Pan</div><div class=\"talent-tree__hero-icon\"><span class=\"\"><div class=\"talent-tree__hero-icon--wrapper \"><img src=\"https://assets.rpglogs.com/img/warcraft/talents/hero/45_full.png\" alt=\"Shado-Pan\"></div></span></div><div class=\"talent-tree__hero-container talent-tree__hero-container--compact\n          talent-tree__hero-container--horizontal\n          \"><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450979?def=129900&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_staff_2h_pandarenmonk_c_01.jpg\" alt=\"Pride of Pandaria\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450992?def=129896&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_domeofmist.jpg\" alt=\"Predictive Training\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1272844?def=129908&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_roll.jpg\" alt=\"Combat Stance\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div data-kind=\"spec\" class=\"talent-tree__container talent-tree__container--spec\" style=\"--rows:11;--min-cols:12\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"spec\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--spec\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/monk-1.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--spec\"><div class=\"talent-tree__description__icon\"><img class=\"sprite actor-sprite-Monk-Brewmaster\" src=\"https://assets.rpglogs.com/img/warcraft/icons/actors.jpg?v=43\" loading=\"lazy\" alt=\"\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Monk\">Spec</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"37.5%\" y2=\"18.181818181818183%\"></line><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"62.5%\" y2=\"18.181818181818183%\"></line><line x1=\"37.5%\" y1=\"18.181818181818183%\" x2=\"25%\" y2=\"27.27272727272727%\"></line><line x1=\"37.5%\" y1=\"18.181818181818183%\" x2=\"50%\" y2=\"27.27272727272727%\"></line><line x1=\"37.5%\" y1=\"18.181818181818183%\" x2=\"37.5%\" y2=\"27.27272727272727%\"></line><line x1=\"62.5%\" y1=\"18.181818181818183%\" x2=\"75%\" y2=\"27.27272727272727%\"></line><line x1=\"62.5%\" y1=\"18.181818181818183%\" x2=\"50%\" y2=\"27.27272727272727%\"></line><line x1=\"62.5%\" y1=\"18.181818181818183%\" x2=\"62.5%\" y2=\"27.27272727272727%\"></line><line x1=\"75%\" y1=\"27.27272727272727%\" x2=\"75%\" y2=\"36.36363636363637%\"></line><line x1=\"37.5%\" y1=\"27.27272727272727%\" x2=\"25%\" y2=\"36.36363636363637%\"></line><line x1=\"37.5%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"62.5%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"62.5%\" y1=\"27.27272727272727%\" x2=\"75%\" y2=\"36.36363636363637%\"></line><line x1=\"50%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"25%\" y1=\"27.27272727272727%\" x2=\"25%\" y2=\"36.36363636363637%\"></line><line x1=\"25%\" y1=\"36.36363636363637%\" x2=\"25%\" y2=\"45.45454545454545%\"></line><line x1=\"25%\" y1=\"36.36363636363637%\" x2=\"12.5%\" y2=\"45.45454545454545%\"></line><line x1=\"25%\" y1=\"36.36363636363637%\" x2=\"37.5%\" y2=\"45.45454545454545%\"></line><line x1=\"75%\" y1=\"36.36363636363637%\" x2=\"75%\" y2=\"45.45454545454545%\"></line><line x1=\"75%\" y1=\"36.36363636363637%\" x2=\"62.5%\" y2=\"45.45454545454545%\"></line><line x1=\"75%\" y1=\"36.36363636363637%\" x2=\"87.5%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"37.5%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"62.5%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"50%\" y2=\"45.45454545454545%\"></line><line x1=\"25%\" y1=\"45.45454545454545%\" x2=\"25%\" y2=\"63.63636363636363%\"></line><line x1=\"25%\" y1=\"45.45454545454545%\" x2=\"12.5%\" y2=\"54.54545454545454%\"></line><line x1=\"25%\" y1=\"45.45454545454545%\" x2=\"37.5%\" y2=\"54.54545454545454%\"></line><line x1=\"12.5%\" y1=\"45.45454545454545%\" x2=\"12.5%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"37.5%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"62.5%\" y2=\"54.54545454545454%\"></line><line x1=\"62.5%\" y1=\"45.45454545454545%\" x2=\"62.5%\" y2=\"54.54545454545454%\"></line><line x1=\"37.5%\" y1=\"45.45454545454545%\" x2=\"37.5%\" y2=\"54.54545454545454%\"></line><line x1=\"87.5%\" y1=\"45.45454545454545%\" x2=\"87.5%\" y2=\"54.54545454545454%\"></line><line x1=\"75%\" y1=\"45.45454545454545%\" x2=\"75%\" y2=\"63.63636363636363%\"></line><line x1=\"75%\" y1=\"45.45454545454545%\" x2=\"87.5%\" y2=\"54.54545454545454%\"></line><line x1=\"75%\" y1=\"45.45454545454545%\" x2=\"62.5%\" y2=\"54.54545454545454%\"></line><line x1=\"12.5%\" y1=\"54.54545454545454%\" x2=\"12.5%\" y2=\"63.63636363636363%\"></line><line x1=\"12.5%\" y1=\"54.54545454545454%\" x2=\"25%\" y2=\"63.63636363636363%\"></line><line x1=\"62.5%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"62.5%\" y1=\"54.54545454545454%\" x2=\"75%\" y2=\"63.63636363636363%\"></line><line x1=\"62.5%\" y1=\"54.54545454545454%\" x2=\"62.5%\" y2=\"63.63636363636363%\"></line><line x1=\"87.5%\" y1=\"54.54545454545454%\" x2=\"87.5%\" y2=\"63.63636363636363%\"></line><line x1=\"87.5%\" y1=\"54.54545454545454%\" x2=\"75%\" y2=\"63.63636363636363%\"></line><line x1=\"37.5%\" y1=\"54.54545454545454%\" x2=\"25%\" y2=\"63.63636363636363%\"></line><line x1=\"37.5%\" y1=\"54.54545454545454%\" x2=\"37.5%\" y2=\"63.63636363636363%\"></line><line x1=\"37.5%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"25%\" y1=\"63.63636363636363%\" x2=\"25%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"50%\" y2=\"72.72727272727273%\"></line><line x1=\"62.5%\" y1=\"63.63636363636363%\" x2=\"75%\" y2=\"72.72727272727273%\"></line><line x1=\"62.5%\" y1=\"63.63636363636363%\" x2=\"50%\" y2=\"72.72727272727273%\"></line><line x1=\"62.5%\" y1=\"63.63636363636363%\" x2=\"62.5%\" y2=\"81.81818181818183%\"></line><line x1=\"87.5%\" y1=\"63.63636363636363%\" x2=\"100%\" y2=\"72.72727272727273%\"></line><line x1=\"87.5%\" y1=\"63.63636363636363%\" x2=\"75%\" y2=\"72.72727272727273%\"></line><line x1=\"87.5%\" y1=\"63.63636363636363%\" x2=\"87.5%\" y2=\"81.81818181818183%\"></line><line x1=\"75%\" y1=\"63.63636363636363%\" x2=\"75%\" y2=\"72.72727272727273%\"></line><line x1=\"12.5%\" y1=\"63.63636363636363%\" x2=\"0%\" y2=\"72.72727272727273%\"></line><line x1=\"12.5%\" y1=\"63.63636363636363%\" x2=\"25%\" y2=\"72.72727272727273%\"></line><line x1=\"12.5%\" y1=\"63.63636363636363%\" x2=\"12.5%\" y2=\"81.81818181818183%\"></line><line x1=\"37.5%\" y1=\"63.63636363636363%\" x2=\"50%\" y2=\"72.72727272727273%\"></line><line x1=\"37.5%\" y1=\"63.63636363636363%\" x2=\"37.5%\" y2=\"81.81818181818183%\"></line><line x1=\"37.5%\" y1=\"63.63636363636363%\" x2=\"25%\" y2=\"72.72727272727273%\"></line><line x1=\"100%\" y1=\"72.72727272727273%\" x2=\"87.5%\" y2=\"81.81818181818183%\"></line><line x1=\"75%\" y1=\"72.72727272727273%\" x2=\"87.5%\" y2=\"81.81818181818183%\"></line><line x1=\"75%\" y1=\"72.72727272727273%\" x2=\"62.5%\" y2=\"81.81818181818183%\"></line><line x1=\"0%\" y1=\"72.72727272727273%\" x2=\"12.5%\" y2=\"81.81818181818183%\"></line><line x1=\"25%\" y1=\"72.72727272727273%\" x2=\"37.5%\" y2=\"81.81818181818183%\"></line><line x1=\"25%\" y1=\"72.72727272727273%\" x2=\"12.5%\" y2=\"81.81818181818183%\"></line><line x1=\"50%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"72.72727272727273%\" x2=\"37.5%\" y2=\"81.81818181818183%\"></line><line x1=\"50%\" y1=\"72.72727272727273%\" x2=\"62.5%\" y2=\"81.81818181818183%\"></line><line x1=\"87.5%\" y1=\"81.81818181818183%\" x2=\"75%\" y2=\"90.9090909090909%\"></line><line x1=\"87.5%\" y1=\"81.81818181818183%\" x2=\"100%\" y2=\"90.9090909090909%\"></line><line x1=\"62.5%\" y1=\"81.81818181818183%\" x2=\"50%\" y2=\"90.9090909090909%\"></line><line x1=\"12.5%\" y1=\"81.81818181818183%\" x2=\"25%\" y2=\"90.9090909090909%\"></line><line x1=\"12.5%\" y1=\"81.81818181818183%\" x2=\"0%\" y2=\"90.9090909090909%\"></line><line x1=\"37.5%\" y1=\"81.81818181818183%\" x2=\"50%\" y2=\"90.9090909090909%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=121253?def=129703&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/achievement_brewery_2.jpg\" alt=\"Keg Smash\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=119582?def=129676&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_beer_06.jpg\" alt=\"Purifying Brew\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=322120?def=129702&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_shuffle.jpg\" alt=\"Shuffle\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1263346?def=129675&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_rogue_sprint_blue.jpg\" alt=\"Swift as a Coursing River\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388505?def=140903&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/achievement_faction_brewmaster.jpg\" alt=\"Quick Sip\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=383695?def=129684&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_roundhousekick.jpg\" alt=\"Improved Blackout Kick\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=455139?def=129700&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_ability_cherrymanatea.jpg\" alt=\"Elixir of Determination\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=454483?def=140902&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_celestialserpentmount.jpg\" alt=\"August Blessing\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=124502?def=129683&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_giftoftheearthmother.jpg\" alt=\"Gift of the Ox\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=400629?def=129701&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_titankeeper_cleansingorb.jpg\" alt=\"Spirit of the Ox\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=196730?def=129846&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/achievement_brewery_2.jpg\" alt=\"Special Delivery\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1241059?def=140901&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_tigereyebrandy.jpg\" alt=\"Celestial Infusion\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1262334?def=129682&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/shaman_pvp_staticcling.jpg\" alt=\"Jade Flash\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1263353?def=129688&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_volatilefire.jpg\" alt=\"Celestial Flames\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387638?def=129691&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_roundhousekick.jpg\" alt=\"Shadowboxing Treads\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1241097?def=129699&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_ability_monk_renewingmists_active.jpg\" alt=\"Niuzao's Resolve\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=454484?def=130443&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_skyreach_wind.jpg\" alt=\"One With the Wind\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387046?def=140900&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_shuffle.jpg\" alt=\"Elusive Footwork\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=115181?def=129681&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_breathoffire.jpg\" alt=\"Breath of Fire\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=383714?def=129695&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_stance_drunkenox.jpg\" alt=\"Training of Niuzao\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=393516?def=129844&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_archaeology_vrykuldrinkinghorn.jpg\" alt=\"Pretense of Instability\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=383700?def=129697&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_beer_06.jpg\" alt=\"Gai Plin's Imperial Brew\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=322960?def=129680&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_fortifyingale_new.jpg\" alt=\"Fortifying Brew: Determination\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387219?def=129686&amp;rank=2&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_chargingoxwave.jpg\" alt=\"Walk with the Ox\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1241136?def=129689&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_monk_zenpilgrimage.jpg\" alt=\"Zen State\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=389942?def=129693&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_tigerpalm.jpg\" alt=\"Face Palm\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=393357?def=129698&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_chiswirl.jpg\" alt=\"Tranquil Spirit\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=383697?def=129826&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_warrior_unrelentingassault.jpg\" alt=\"Sal'salabim's Strength\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=115399?def=129829&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_chibrew.jpg\" alt=\"Black Ox Brew\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=383785?def=129692&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_palmstrike.jpg\" alt=\"Counterstrike\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=386937?def=129694&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_elusiveale.jpg\" alt=\"Anvil and Stave\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=383994?def=129825&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_fire_burnout.jpg\" alt=\"Dragonfire Brew\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=196737?def=129828&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_ability_avertharm.jpg\" alt=\"High Tolerance\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=196736?def=129834&amp;rank=1&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_blackoutkick.jpg\" alt=\"Blackout Combo\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=132578?def=129687&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_monk_brewmaster_spec.jpg\" alt=\"Invoke Niuzao, the Black Ox\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:62.5%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/achievement_boss_golden_lotus_council.jpg\" alt=\"Awakening Spirit\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/achievement_faction_shadopan.jpg\" alt=\"Vital Flame\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=325153?def=129839&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_ability_monk_explodingkeg.jpg\" alt=\"Exploding Keg\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=455068?def=129842&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_leeroftheox.jpg\" alt=\"Ox Stance\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=322740?def=129685&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_inscription_trinket_ox.jpg\" alt=\"Mighty Stomp\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=383707?def=129837&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/achievement_brewery_2.jpg\" alt=\"Stormstout's Last Keg\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1262017?def=129841&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shaman_stormearthfire.jpg\" alt=\"Fuel on the Fire\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1262329?def=129840&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_vehicle_liquidpyrite.jpg\" alt=\"Empty the Cellar\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1263245?def=140950&amp;rank=1&amp;spellModifier=137023\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_muskox_white.jpg\" alt=\"Heart of the Ox\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:11;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1265129?def=141839&amp;rank=4&amp;spellModifier=137023\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_apextalent_monk_bringmeanother.jpg\" alt=\"Bring Me Another\" loading=\"lazy\"></span><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">4</span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div class=\"talent-tree__interactions-export \"><button class=\"talent-tree__interactions-export__copy-button \"><span>Export</span><i class=\"fa-solid fa-copy ml-1.5 text-amber-400\"></i></button><a href=\"https://www.wowhead.com/talent-calc/blizzard/CwQAAAAAAAAAAAAAAAAAAAAAAAAAAwMbbGzYGWmxGmZMAAAAAAALLYEzMYmhZ2YwMzMDz2wMGLDLb22GzYWAAgNAAAwsNLNzMziZYDgZGmGDAAYA\" target=\"_blank\" rel=\"noreferrer\" class=\"talent-tree__interactions-export__external-link\"><span>Edit</span><i class=\"fa-solid fa-arrow-up-right-from-square ml-1.5 text-amber-400\"></i></a></div></div></div>",
@@ -4798,28 +4798,28 @@ window.ARCHON_PRESETS = {
             "id": 271519,
             "name": "",
             "params": "pcs=271519:271517:271522:271518&gems=240914&ench=7961",
-            "popularity": 90.8,
+            "popularity": 91.1,
             "parses": 6
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271519:271517:271522:271518:268265&gems=240983",
-            "popularity": 79.1,
+            "popularity": 79.6,
             "parses": 5
           },
           {
             "id": 271517,
             "name": "",
             "params": "pcs=271519:271517:271522:271518&ench=8031",
-            "popularity": 89.2,
+            "popularity": 89.3,
             "parses": 6
           },
           {
             "id": 268248,
             "name": "",
             "params": "pcs=271519:271517:271522:271518:268248",
-            "popularity": 43.8,
+            "popularity": 44,
             "parses": 3
           },
           {
@@ -4833,80 +4833,80 @@ window.ARCHON_PRESETS = {
             "id": 244576,
             "name": "",
             "params": "bonus=8795&pcs=271519:271517:271522:271518:244576&gems=240914",
-            "popularity": 59.8,
+            "popularity": 60.5,
             "parses": 4
           },
           {
             "id": 271520,
             "name": "",
             "params": "pcs=271519:271517:271522:271518:271520",
-            "popularity": 82.5,
+            "popularity": 82.6,
             "parses": 6
           },
           {
             "id": 268227,
             "name": "",
             "params": "pcs=271519:271517:271522:271518:268227&gems=240914",
-            "popularity": 34.2,
+            "popularity": 34.9,
             "parses": 2
           },
           {
             "id": 271518,
             "name": "",
             "params": "pcs=271519:271517:271522:271518&ench=8159",
-            "popularity": 85.9,
+            "popularity": 86,
             "parses": 6
           },
           {
             "id": 244569,
             "name": "",
             "params": "bonus=8795&pcs=271519:271517:271522:271518:244569&ench=7993",
-            "popularity": 45.5,
+            "popularity": 44.9,
             "parses": 3
           },
           {
             "id": 251513,
             "name": "",
             "params": ":8795&pcs=271519:271517:271522:271518:251513&gems=240914&ench=7967",
-            "popularity": 55.2,
+            "popularity": 54.8,
             "parses": 4
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8795&pcs=271519:271517:271522:271518:240949&gems=240914&ench=7967",
-            "popularity": 40.5,
+            "popularity": 40.1,
             "parses": 3
           },
           {
             "id": 268215,
             "name": "",
             "params": "pcs=271519:271517:271522:271518:268215&ench=8039",
-            "popularity": 60.9,
+            "popularity": 61.4,
             "parses": 4
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 22.5,
+            "popularity": 22.7,
             "parses": 1
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 22.5,
+            "popularity": 22.7,
             "parses": 1
           }
         ]
       },
       "mplus": {
         "m": 695,
-        "c": 1214,
-        "h": 253,
-        "v": 1064,
-        "dps": "252.0k",
+        "c": 1213,
+        "h": 257,
+        "v": 1026,
+        "dps": "253.7k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/GTX9FJpVA7yBbQYc#fight=4",
@@ -4918,14 +4918,14 @@ window.ARCHON_PRESETS = {
             "id": 271519,
             "name": "",
             "params": "pcs=271519:271522:271517:271520&gems=240910&ench=7961",
-            "popularity": 89.8,
+            "popularity": 90.7,
             "parses": 1
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271519:271522:271517:271520:268265&gems=240983",
-            "popularity": 87.1,
+            "popularity": 89.3,
             "parses": 1
           },
           {
@@ -4939,85 +4939,85 @@ window.ARCHON_PRESETS = {
             "id": 239656,
             "name": "",
             "params": "bonus=8795&pcs=271519:271522:271517:271520:239656",
-            "popularity": 29,
-            "parses": 424
+            "popularity": 29.7,
+            "parses": 398
           },
           {
             "id": 271522,
             "name": "",
             "params": "pcs=271519:271522:271517:271520&ench=7987",
-            "popularity": 82.5,
+            "popularity": 83.9,
             "parses": 1
           },
           {
             "id": 244576,
             "name": "",
             "params": "bonus=8795&pcs=271519:271522:271517:271520:244576&gems=240910",
-            "popularity": 77.9,
+            "popularity": 79.3,
             "parses": 1
           },
           {
             "id": 271520,
             "name": "",
             "params": "pcs=271519:271522:271517:271520",
-            "popularity": 79,
+            "popularity": 80,
             "parses": 1
           },
           {
             "id": 271516,
             "name": "",
             "params": "pcs=271519:271522:271517:271520:271516&gems=240910",
-            "popularity": 24,
-            "parses": 350
+            "popularity": 26,
+            "parses": 349
           },
           {
             "id": 271518,
             "name": "",
             "params": "pcs=271519:271522:271517:271520:271518&ench=8159",
-            "popularity": 73,
-            "parses": 1
+            "popularity": 73.5,
+            "parses": 986
           },
           {
             "id": 244569,
             "name": "",
             "params": "bonus=8795&pcs=271519:271522:271517:271520:244569&ench=7993",
-            "popularity": 67.2,
-            "parses": 982
+            "popularity": 66.4,
+            "parses": 890
           },
           {
             "id": 251513,
             "name": "",
             "params": ":8795&pcs=271519:271522:271517:271520:251513&gems=240910&ench=7967",
-            "popularity": 79.9,
+            "popularity": 79,
             "parses": 1
           },
           {
             "id": 251148,
             "name": "",
             "params": "bonus=13534&pcs=271519:271522:271517:271520:251148&gems=240910&ench=7967",
-            "popularity": 45.1,
-            "parses": 659
+            "popularity": 43,
+            "parses": 577
           },
           {
             "id": 268215,
             "name": "",
             "params": "pcs=271519:271522:271517:271520:268215&ench=8689",
-            "popularity": 81.1,
+            "popularity": 84,
             "parses": 1
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 24.7,
-            "parses": 361
+            "popularity": 26,
+            "parses": 349
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 24.7,
-            "parses": 361
+            "popularity": 26,
+            "parses": 349
           }
         ]
       }
@@ -5025,10 +5025,10 @@ window.ARCHON_PRESETS = {
     "mistweaver": {
       "raid": {
         "m": 267,
-        "c": 994,
-        "h": 1589,
+        "c": 995,
+        "h": 1588,
         "v": 286,
-        "dps": "473.1k",
+        "dps": "475.2k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/m7brY3TvkyD4CwWG#fight=35",
@@ -5040,8 +5040,8 @@ window.ARCHON_PRESETS = {
             "id": 271519,
             "name": "",
             "params": "pcs=271519:271517:271522:271520&gems=240890&ench=7961",
-            "popularity": 90.3,
-            "parses": 6
+            "popularity": 90.2,
+            "parses": 7
           },
           {
             "id": 268265,
@@ -5054,101 +5054,101 @@ window.ARCHON_PRESETS = {
             "id": 271517,
             "name": "",
             "params": "pcs=271519:271517:271522:271520&ench=8031",
-            "popularity": 89.6,
+            "popularity": 89.8,
             "parses": 6
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8790&pcs=271519:271517:271522:271520:239656",
-            "popularity": 41.5,
+            "popularity": 41,
             "parses": 3
           },
           {
             "id": 271522,
             "name": "",
             "params": "pcs=271519:271517:271522:271520&ench=7987",
-            "popularity": 86,
+            "popularity": 86.2,
             "parses": 6
           },
           {
             "id": 244576,
             "name": "",
             "params": "bonus=8790&pcs=271519:271517:271522:271520:244576&gems=240890",
-            "popularity": 41.7,
+            "popularity": 41.3,
             "parses": 3
           },
           {
             "id": 271520,
             "name": "",
             "params": "pcs=271519:271517:271522:271520",
-            "popularity": 85.5,
+            "popularity": 84.9,
             "parses": 6
           },
           {
             "id": 244573,
             "name": "",
             "params": "bonus=8790&pcs=271519:271517:271522:271520:244573&gems=240890",
-            "popularity": 38.3,
+            "popularity": 37.9,
             "parses": 2
           },
           {
             "id": 271518,
             "name": "",
             "params": "pcs=271519:271517:271522:271520:271518&ench=7937",
-            "popularity": 80.4,
+            "popularity": 81.3,
             "parses": 6
           },
           {
             "id": 268247,
             "name": "",
             "params": "pcs=271519:271517:271522:271520:268247&ench=7993",
-            "popularity": 38,
+            "popularity": 38.2,
             "parses": 2
           },
           {
             "id": 268266,
             "name": "",
             "params": "bonus=13534&pcs=271519:271517:271522:271520:268266&gems=240890&ench=8025",
-            "popularity": 53.7,
+            "popularity": 54,
             "parses": 4
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8790&pcs=271519:271517:271522:271520:240949&gems=240890&ench=8025",
-            "popularity": 45.8,
+            "popularity": 46.1,
             "parses": 3
           },
           {
             "id": 245770,
             "name": "",
             "params": "bonus=8790&pcs=271519:271517:271522:271520:245770&ench=8039",
-            "popularity": 65.6,
+            "popularity": 65.4,
             "parses": 5
           },
           {
             "id": 270162,
             "name": "",
             "params": "nofollow",
-            "popularity": 49.6,
+            "popularity": 49,
             "parses": 3
           },
           {
             "id": 270167,
             "name": "",
             "params": "nofollow",
-            "popularity": 49.6,
+            "popularity": 49,
             "parses": 3
           }
         ]
       },
       "mplus": {
-        "m": 908,
-        "c": 502,
-        "h": 1366,
-        "v": 309,
-        "dps": "269.2k",
+        "m": 910,
+        "c": 500,
+        "h": 1367,
+        "v": 311,
+        "dps": "270.5k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/1A9yV7zwv8C6NMgq#fight=2",
@@ -5159,121 +5159,121 @@ window.ARCHON_PRESETS = {
           {
             "id": 271519,
             "name": "",
-            "params": "pcs=271522:271519:271517:271520&gems=240890&ench=8017",
-            "popularity": 85.5,
+            "params": "pcs=271522:271519:271517:271518&gems=240890&ench=8017",
+            "popularity": 85.6,
             "parses": 1
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271522:271519:271517:271520:268265&gems=240983",
-            "popularity": 88.6,
+            "params": "bonus=13534&pcs=271522:271519:271517:271518:268265&gems=240983",
+            "popularity": 88.9,
             "parses": 1
           },
           {
             "id": 271517,
             "name": "",
-            "params": "pcs=271522:271519:271517:271520&ench=8031",
-            "popularity": 84.8,
+            "params": "pcs=271522:271519:271517:271518&ench=8031",
+            "popularity": 84.5,
             "parses": 1
           },
           {
             "id": 239656,
             "name": "",
-            "params": "bonus=8793&pcs=271522:271519:271517:271520:239656",
-            "popularity": 41,
-            "parses": 847
+            "params": "bonus=8793&pcs=271522:271519:271517:271518:239656",
+            "popularity": 40.9,
+            "parses": 781
           },
           {
             "id": 271522,
             "name": "",
-            "params": "pcs=271522:271519:271517:271520&ench=7987",
-            "popularity": 86.8,
+            "params": "pcs=271522:271519:271517:271518&ench=7987",
+            "popularity": 87.1,
             "parses": 1
           },
           {
             "id": 244576,
             "name": "",
-            "params": "bonus=8793&pcs=271522:271519:271517:271520:244576&gems=240890",
-            "popularity": 59.7,
+            "params": "bonus=8793&pcs=271522:271519:271517:271518:244576&gems=240890",
+            "popularity": 60.4,
             "parses": 1
           },
           {
             "id": 271520,
             "name": "",
-            "params": "pcs=271522:271519:271517:271520",
-            "popularity": 73,
+            "params": "pcs=271522:271519:271517:271518:271520",
+            "popularity": 71.9,
             "parses": 1
           },
           {
             "id": 244573,
             "name": "",
-            "params": "bonus=8793&pcs=271522:271519:271517:271520:244573&gems=240890",
-            "popularity": 39.9,
-            "parses": 824
+            "params": "bonus=8793&pcs=271522:271519:271517:271518:244573&gems=240890",
+            "popularity": 39.5,
+            "parses": 755
           },
           {
             "id": 271518,
             "name": "",
-            "params": "pcs=271522:271519:271517:271520:271518&ench=7935",
-            "popularity": 70.7,
+            "params": "pcs=271522:271519:271517:271518&ench=7935",
+            "popularity": 72.8,
             "parses": 1
           },
           {
             "id": 244569,
             "name": "",
-            "params": "bonus=8793&pcs=271522:271519:271517:271520:244569&ench=7993",
-            "popularity": 45.8,
-            "parses": 946
+            "params": "bonus=8793&pcs=271522:271519:271517:271518:244569&ench=7993",
+            "popularity": 45.7,
+            "parses": 872
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271522:271519:271517:271520:281029&gems=240890&ench=8025",
-            "popularity": 53.5,
+            "params": "bonus=13534&pcs=271522:271519:271517:271518:281029&gems=240890&ench=8025",
+            "popularity": 54.7,
             "parses": 1
           },
           {
             "id": 240949,
             "name": "",
-            "params": ":8793&pcs=271522:271519:271517:271520:240949&gems=240890&ench=8025",
-            "popularity": 30.7,
-            "parses": 635
+            "params": ":8793&pcs=271522:271519:271517:271518:240949&gems=240890&ench=8025",
+            "popularity": 29.9,
+            "parses": 570
           },
           {
             "id": 245770,
             "name": "",
-            "params": "bonus=8793&pcs=271522:271519:271517:271520:245770&ench=8039",
-            "popularity": 31.8,
-            "parses": 658
+            "params": "bonus=8793&pcs=271522:271519:271517:271518:245770&ench=8039",
+            "popularity": 30.9,
+            "parses": 589
           },
           {
             "id": 270162,
             "name": "",
             "params": "nofollow",
-            "popularity": 33.4,
-            "parses": 690
+            "popularity": 32.6,
+            "parses": 623
           },
           {
             "id": 270167,
             "name": "",
             "params": "nofollow",
-            "popularity": 33.4,
-            "parses": 690
+            "popularity": 32.6,
+            "parses": 623
           }
         ]
       }
     },
     "windwalker": {
       "raid": {
-        "m": 1286,
-        "c": 800,
+        "m": 1288,
+        "c": 799,
         "h": 965,
         "v": 131,
-        "dps": "285.6k",
+        "dps": "285.8k",
         "dpsLabel": "DPS",
         "popularity": "",
-        "topLogUrl": "https://www.warcraftlogs.com/reports/CrtjJ1GFK8LYXxg2#fight=1",
+        "topLogUrl": "https://www.warcraftlogs.com/reports/dCqVZ4Kjyvm6rD8a#fight=12",
         "talents": "C0QAAAAAAAAAAAAAAAAAAAAAAMzYM2GGsMzMbzAAAAAAAAAAAAsMMaGzwwAGGmZmZY2GmhZZmAAWMz2MzYMzMAAWMzysMmAAAGDgZAGLDgZmZzFA",
         "heroTree": "Conduit of the Celestials",
         "talentTreeHtml": "<div class=\"builds-talent-tree-build-section__talent-trees\"><div class=\"talent-tree  talent-tree--compact\"><div class=\"talent-tree--container  talent-tree--container--default-layout\"><div data-kind=\"class\" class=\"talent-tree__container talent-tree__container--class\" style=\"--rows:10;--min-cols:9\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"class\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--class\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/monk-1.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--class\"><div class=\"talent-tree__description__icon\"><img src=\"https://wow.zamimg.com/images/wow/icons/large/classicon_monk.jpg\" alt=\"monk\" style=\"width:2.5rem;height:2.5rem;border-radius:9999px;border:2px solid #f59e0b;object-fit:cover;display:block;\" onerror=\"this.src='https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg'\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Monk\">Class</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"10%\" x2=\"33.33333333333333%\" y2=\"20%\"></line><line x1=\"50%\" y1=\"10%\" x2=\"66.66666666666666%\" y2=\"20%\"></line><line x1=\"16.666666666666664%\" y1=\"10%\" x2=\"33.33333333333333%\" y2=\"20%\"></line><line x1=\"16.666666666666664%\" y1=\"10%\" x2=\"0%\" y2=\"20%\"></line><line x1=\"83.33333333333334%\" y1=\"10%\" x2=\"66.66666666666666%\" y2=\"20%\"></line><line x1=\"83.33333333333334%\" y1=\"10%\" x2=\"100%\" y2=\"20%\"></line><line x1=\"0%\" y1=\"20%\" x2=\"0%\" y2=\"40%\"></line><line x1=\"0%\" y1=\"20%\" x2=\"16.666666666666664%\" y2=\"30%\"></line><line x1=\"33.33333333333333%\" y1=\"20%\" x2=\"50%\" y2=\"30%\"></line><line x1=\"33.33333333333333%\" y1=\"20%\" x2=\"33.33333333333333%\" y2=\"30%\"></line><line x1=\"33.33333333333333%\" y1=\"20%\" x2=\"16.666666666666664%\" y2=\"30%\"></line><line x1=\"66.66666666666666%\" y1=\"20%\" x2=\"50%\" y2=\"30%\"></line><line x1=\"66.66666666666666%\" y1=\"20%\" x2=\"66.66666666666666%\" y2=\"30%\"></line><line x1=\"66.66666666666666%\" y1=\"20%\" x2=\"83.33333333333334%\" y2=\"30%\"></line><line x1=\"100%\" y1=\"20%\" x2=\"100%\" y2=\"40%\"></line><line x1=\"100%\" y1=\"20%\" x2=\"83.33333333333334%\" y2=\"30%\"></line><line x1=\"16.666666666666664%\" y1=\"30%\" x2=\"33.33333333333333%\" y2=\"40%\"></line><line x1=\"16.666666666666664%\" y1=\"30%\" x2=\"0%\" y2=\"40%\"></line><line x1=\"16.666666666666664%\" y1=\"30%\" x2=\"16.666666666666664%\" y2=\"40%\"></line><line x1=\"66.66666666666666%\" y1=\"30%\" x2=\"66.66666666666666%\" y2=\"40%\"></line><line x1=\"83.33333333333334%\" y1=\"30%\" x2=\"100%\" y2=\"40%\"></line><line x1=\"83.33333333333334%\" y1=\"30%\" x2=\"83.33333333333334%\" y2=\"40%\"></line><line x1=\"83.33333333333334%\" y1=\"30%\" x2=\"66.66666666666666%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"30%\" x2=\"33.33333333333333%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"30%\" x2=\"66.66666666666666%\" y2=\"40%\"></line><line x1=\"33.33333333333333%\" y1=\"30%\" x2=\"33.33333333333333%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"33.33333333333333%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"33.33333333333333%\" y1=\"40%\" x2=\"16.666666666666664%\" y2=\"50%\"></line><line x1=\"100%\" y1=\"40%\" x2=\"83.33333333333334%\" y2=\"50%\"></line><line x1=\"100%\" y1=\"40%\" x2=\"100%\" y2=\"50%\"></line><line x1=\"0%\" y1=\"40%\" x2=\"16.666666666666664%\" y2=\"50%\"></line><line x1=\"0%\" y1=\"40%\" x2=\"0%\" y2=\"60%\"></line><line x1=\"16.666666666666664%\" y1=\"40%\" x2=\"16.666666666666664%\" y2=\"50%\"></line><line x1=\"83.33333333333334%\" y1=\"40%\" x2=\"83.33333333333334%\" y2=\"50%\"></line><line x1=\"66.66666666666666%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"66.66666666666666%\" y1=\"40%\" x2=\"83.33333333333334%\" y2=\"50%\"></line><line x1=\"66.66666666666666%\" y1=\"40%\" x2=\"66.66666666666666%\" y2=\"50%\"></line><line x1=\"16.666666666666664%\" y1=\"50%\" x2=\"0%\" y2=\"60%\"></line><line x1=\"16.666666666666664%\" y1=\"50%\" x2=\"16.666666666666664%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"66.66666666666666%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"33.33333333333333%\" y2=\"60%\"></line><line x1=\"83.33333333333334%\" y1=\"50%\" x2=\"83.33333333333334%\" y2=\"60%\"></line><line x1=\"83.33333333333334%\" y1=\"50%\" x2=\"100%\" y2=\"60%\"></line><line x1=\"100%\" y1=\"50%\" x2=\"100%\" y2=\"60%\"></line><line x1=\"66.66666666666666%\" y1=\"50%\" x2=\"83.33333333333334%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"66.66666666666666%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"50%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"60%\" x2=\"33.33333333333333%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"60%\" x2=\"83.33333333333334%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"60%\" x2=\"66.66666666666666%\" y2=\"70%\"></line><line x1=\"100%\" y1=\"60%\" x2=\"83.33333333333334%\" y2=\"70%\"></line><line x1=\"100%\" y1=\"60%\" x2=\"100%\" y2=\"80%\"></line><line x1=\"0%\" y1=\"60%\" x2=\"0%\" y2=\"80%\"></line><line x1=\"0%\" y1=\"60%\" x2=\"16.666666666666664%\" y2=\"70%\"></line><line x1=\"33.33333333333333%\" y1=\"60%\" x2=\"33.33333333333333%\" y2=\"70%\"></line><line x1=\"33.33333333333333%\" y1=\"60%\" x2=\"16.666666666666664%\" y2=\"70%\"></line><line x1=\"83.33333333333334%\" y1=\"60%\" x2=\"83.33333333333334%\" y2=\"70%\"></line><line x1=\"83.33333333333334%\" y1=\"70%\" x2=\"100%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"16.666666666666664%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"33.33333333333333%\" y2=\"80%\"></line><line x1=\"66.66666666666666%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"66.66666666666666%\" y1=\"70%\" x2=\"66.66666666666666%\" y2=\"80%\"></line><line x1=\"66.66666666666666%\" y1=\"70%\" x2=\"83.33333333333334%\" y2=\"80%\"></line><line x1=\"16.666666666666664%\" y1=\"70%\" x2=\"16.666666666666664%\" y2=\"80%\"></line><line x1=\"16.666666666666664%\" y1=\"70%\" x2=\"0%\" y2=\"80%\"></line><line x1=\"16.666666666666664%\" y1=\"80%\" x2=\"16.666666666666664%\" y2=\"90%\"></line><line x1=\"0%\" y1=\"80%\" x2=\"16.666666666666664%\" y2=\"90%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"66.66666666666666%\" y1=\"80%\" x2=\"83.33333333333334%\" y2=\"90%\"></line><line x1=\"66.66666666666666%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"66.66666666666666%\" y1=\"80%\" x2=\"66.66666666666666%\" y2=\"90%\"></line><line x1=\"100%\" y1=\"80%\" x2=\"83.33333333333334%\" y2=\"90%\"></line><line x1=\"33.33333333333333%\" y1=\"80%\" x2=\"16.666666666666664%\" y2=\"90%\"></line><line x1=\"33.33333333333333%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"33.33333333333333%\" y1=\"80%\" x2=\"33.33333333333333%\" y2=\"90%\"></line><line x1=\"16.666666666666664%\" y1=\"90%\" x2=\"0%\" y2=\"100%\"></line><line x1=\"16.666666666666664%\" y1=\"90%\" x2=\"33.33333333333333%\" y2=\"100%\"></line><line x1=\"33.33333333333333%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"33.33333333333333%\" y1=\"90%\" x2=\"33.33333333333333%\" y2=\"100%\"></line><line x1=\"50%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"66.66666666666666%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"66.66666666666666%\" y1=\"90%\" x2=\"66.66666666666666%\" y2=\"100%\"></line><line x1=\"83.33333333333334%\" y1=\"90%\" x2=\"66.66666666666666%\" y2=\"100%\"></line><line x1=\"83.33333333333334%\" y1=\"90%\" x2=\"100%\" y2=\"100%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=115078?def=129770&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_paralysis.jpg\" alt=\"Paralysis\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=115175?def=129771&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_soothingmists.jpg\" alt=\"Soothing Mist\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=107428?def=129823&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_risingsunkick.jpg\" alt=\"Rising Sun Kick\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388681?def=129772&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_soothingmists.jpg\" alt=\"Elusive Mists\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=116841?def=129775&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_tigerslust.jpg\" alt=\"Tiger's Lust\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:66.66666666666666%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_blackoutkick.jpg\" alt=\"Crashing Momentum\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_shockwave.jpg\" alt=\"Disable\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388809?def=129822&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_risingsunkick.jpg\" alt=\"Fast Feet\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388811?def=129774&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_ability_cherrymanatea.jpg\" alt=\"Grace of the Crane\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450514?def=129776&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_zenflight.jpg\" alt=\"Wind's Reach\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=218164?def=129779&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_rogue_imrovedrecuperate.jpg\" alt=\"Detox\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388664?def=129782&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_orb_01.jpg\" alt=\"Calming Presence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450520?def=129793&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_roll.jpg\" alt=\"Bounding Agility\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450432?def=129769&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_deadlyreach.jpg\" alt=\"Pressure Points\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450553?def=129792&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_lifegivingspeed.jpg\" alt=\"Jade Walk\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=344359?def=129821&amp;rank=2&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_dpsstance.jpg\" alt=\"Ancient Arts\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388812?def=141288&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_vivify.jpg\" alt=\"Vivacious Vivification\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1266719?def=141290&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_monk_zenpilgrimage.jpg\" alt=\"Silent Sanctuary\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1266740?def=141293&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_quipunch.jpg\" alt=\"Reinvigoration\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=116705?def=141372&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_spearhand.jpg\" alt=\"Spear Hand Strike\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1272781?def=129791&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mount_siberiantigermount.jpg\" alt=\"Tiger Fang\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=101643?def=129800&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_ability_transcendence.jpg\" alt=\"Transcendence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=115173?def=129820&amp;rank=1&amp;spellModifier=137025\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_quipunch.jpg\" alt=\"Celerity\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1266733?def=141291&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_helm_leather_raidmonkprogenitormythic_d_01.jpg\" alt=\"Stillstep Coil\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450631?def=141369&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_ability_avertharm.jpg\" alt=\"Energy Transfer\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=116844?def=129764&amp;rank=1&amp;spellModifier=137025\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_monk_ringofpeace.jpg\" alt=\"Ring of Peace\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450595?def=129766&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shaman_spectraltransformation.jpg\" alt=\"Spirit's Essence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=322113?def=129768&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_touchofdeath.jpg\" alt=\"Improved Touch of Death\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:0%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_hurricanestrike.jpg\" alt=\"Quick Footed\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_provoke.jpg\" alt=\"Hasty Provocation\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388674?def=129799&amp;rank=2&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mount_pinktiger.jpg\" alt=\"Ferocity of Xuen\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=264348?def=129818&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_legsweep.jpg\" alt=\"Tiger Tail Sweep\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=432181?def=129765&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_dematerialize.jpg\" alt=\"Dance of the Wind\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450448?def=129795&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_inscription_deck_redcrane.jpg\" alt=\"Peace and Prosperity\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=414131?def=129798&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_dragonkick.jpg\" alt=\"Yu'lon's Grace\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=115203?def=129806&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_fortifyingale_new.jpg\" alt=\"Fortifying Brew\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=392900?def=141284&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_expelharm.jpg\" alt=\"Vigorous Expulsion\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450622?def=129785&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_standingkick.jpg\" alt=\"Swift Art\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=389579?def=129787&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_weapon_hand_22.jpg\" alt=\"Save Them All\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1272694?def=129794&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_ability_monk_jadefirestomp.jpg\" alt=\"Zenith Stomp\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388813?def=129807&amp;rank=1&amp;spellModifier=137025\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_fortifyingale_new.jpg\" alt=\"Expeditious Fortification\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450638?def=129815&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_essencefont.jpg\" alt=\"Celestial Determination\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1243287?def=138812&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_monk_diffusemagic.jpg\" alt=\"Diffuse Magic\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387276?def=141287&amp;rank=1&amp;spellModifier=137025\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_healthsphere.jpg\" alt=\"Strength of Spirit\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450426?def=129802&amp;rank=2&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_chiswirl.jpg\" alt=\"Chi Proficiency\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450560?def=129804&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_pathofmists.jpg\" alt=\"Healing Winds\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=157411?def=129809&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_stance_whitetiger.jpg\" alt=\"Windwalking\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1272452?def=129812&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_zenmeditation.jpg\" alt=\"Chi Transfer\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450427?def=129814&amp;rank=2&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_palmstrike.jpg\" alt=\"Martial Instincts\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450154?def=129784&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_yulonsgift.jpg\" alt=\"Rushing Reflexes\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=449582?def=129801&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_ridethewind.jpg\" alt=\"Lighter Than Air\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=450569?def=129803&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_healthsphere.jpg\" alt=\"Flow of Chi\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_ability_transcendence.jpg\" alt=\"Escape from Reality\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_ability_transcendence.jpg\" alt=\"Transcendence: Linked Spirits\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=394123?def=129813&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_touchofdeath.jpg\" alt=\"Fatal Touch\" loading=\"lazy\"></a></div></div></div></div></div><div class=\"talent-tree__container talent-tree__container--hero\" style=\"--rows:1;--talent-count:3\"><div class=\"talent-tree__hero-spacer\"></div><div class=\"talent-tree__container--height-limiter\" data-kind=\"hero\"><div class=\"talent-tree__hero-title do-not-change-color-on-hover Monk talent-tree__hero-title--horizontal \">Conduit of the Celestials</div><div class=\"talent-tree__hero-icon\"><span class=\"\"><div class=\"talent-tree__hero-icon--wrapper \"><img src=\"https://assets.rpglogs.com/img/warcraft/talents/hero/47_full.png\" alt=\"Conduit of the Celestials\"></div></span></div><div class=\"talent-tree__hero-container talent-tree__hero-container--compact\n          talent-tree__hero-container--horizontal\n          \"><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=442743?def=129886&amp;rank=1&amp;spellModifier=137025\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_provoke.jpg\" alt=\"Temple Training\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=392986?def=141516&amp;rank=1&amp;spellModifier=137025\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_demonhunter_netherbond.jpg\" alt=\"Xuen's Bond\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=442747?def=129889&amp;rank=1&amp;spellModifier=137025\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_chargingoxwave.jpg\" alt=\"Niuzao's Protection\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div data-kind=\"spec\" class=\"talent-tree__container talent-tree__container--spec\" style=\"--rows:11;--min-cols:12\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"spec\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--spec\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/monk-3.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--spec\"><div class=\"talent-tree__description__icon\"><img class=\"sprite actor-sprite-Monk-Windwalker\" src=\"https://assets.rpglogs.com/img/warcraft/icons/actors.jpg?v=43\" loading=\"lazy\" alt=\"\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Monk\">Spec</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"62.5%\" y2=\"18.181818181818183%\"></line><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"37.5%\" y2=\"18.181818181818183%\"></line><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"50%\" y2=\"18.181818181818183%\"></line><line x1=\"62.5%\" y1=\"18.181818181818183%\" x2=\"75%\" y2=\"27.27272727272727%\"></line><line x1=\"62.5%\" y1=\"18.181818181818183%\" x2=\"62.5%\" y2=\"27.27272727272727%\"></line><line x1=\"37.5%\" y1=\"18.181818181818183%\" x2=\"25%\" y2=\"27.27272727272727%\"></line><line x1=\"37.5%\" y1=\"18.181818181818183%\" x2=\"37.5%\" y2=\"27.27272727272727%\"></line><line x1=\"50%\" y1=\"18.181818181818183%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"37.5%\" y1=\"27.27272727272727%\" x2=\"25%\" y2=\"36.36363636363637%\"></line><line x1=\"75%\" y1=\"27.27272727272727%\" x2=\"75%\" y2=\"36.36363636363637%\"></line><line x1=\"62.5%\" y1=\"27.27272727272727%\" x2=\"75%\" y2=\"36.36363636363637%\"></line><line x1=\"25%\" y1=\"27.27272727272727%\" x2=\"25%\" y2=\"36.36363636363637%\"></line><line x1=\"75%\" y1=\"36.36363636363637%\" x2=\"75%\" y2=\"54.54545454545454%\"></line><line x1=\"75%\" y1=\"36.36363636363637%\" x2=\"87.5%\" y2=\"45.45454545454545%\"></line><line x1=\"75%\" y1=\"36.36363636363637%\" x2=\"62.5%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"62.5%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"50%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"37.5%\" y2=\"45.45454545454545%\"></line><line x1=\"25%\" y1=\"36.36363636363637%\" x2=\"25%\" y2=\"45.45454545454545%\"></line><line x1=\"25%\" y1=\"36.36363636363637%\" x2=\"37.5%\" y2=\"45.45454545454545%\"></line><line x1=\"25%\" y1=\"36.36363636363637%\" x2=\"12.5%\" y2=\"45.45454545454545%\"></line><line x1=\"87.5%\" y1=\"45.45454545454545%\" x2=\"75%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"62.5%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"62.5%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"37.5%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"37.5%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"25%\" y1=\"45.45454545454545%\" x2=\"25%\" y2=\"54.54545454545454%\"></line><line x1=\"37.5%\" y1=\"45.45454545454545%\" x2=\"25%\" y2=\"54.54545454545454%\"></line><line x1=\"12.5%\" y1=\"45.45454545454545%\" x2=\"25%\" y2=\"54.54545454545454%\"></line><line x1=\"12.5%\" y1=\"45.45454545454545%\" x2=\"12.5%\" y2=\"54.54545454545454%\"></line><line x1=\"62.5%\" y1=\"45.45454545454545%\" x2=\"75%\" y2=\"54.54545454545454%\"></line><line x1=\"12.5%\" y1=\"54.54545454545454%\" x2=\"25%\" y2=\"63.63636363636363%\"></line><line x1=\"37.5%\" y1=\"54.54545454545454%\" x2=\"37.5%\" y2=\"63.63636363636363%\"></line><line x1=\"37.5%\" y1=\"54.54545454545454%\" x2=\"37.5%\" y2=\"63.63636363636363%\"></line><line x1=\"25%\" y1=\"54.54545454545454%\" x2=\"37.5%\" y2=\"63.63636363636363%\"></line><line x1=\"25%\" y1=\"54.54545454545454%\" x2=\"25%\" y2=\"63.63636363636363%\"></line><line x1=\"75%\" y1=\"54.54545454545454%\" x2=\"75%\" y2=\"72.72727272727273%\"></line><line x1=\"75%\" y1=\"54.54545454545454%\" x2=\"87.5%\" y2=\"63.63636363636363%\"></line><line x1=\"75%\" y1=\"54.54545454545454%\" x2=\"62.5%\" y2=\"63.63636363636363%\"></line><line x1=\"62.5%\" y1=\"63.63636363636363%\" x2=\"62.5%\" y2=\"72.72727272727273%\"></line><line x1=\"62.5%\" y1=\"63.63636363636363%\" x2=\"75%\" y2=\"72.72727272727273%\"></line><line x1=\"25%\" y1=\"63.63636363636363%\" x2=\"25%\" y2=\"72.72727272727273%\"></line><line x1=\"25%\" y1=\"63.63636363636363%\" x2=\"12.5%\" y2=\"72.72727272727273%\"></line><line x1=\"37.5%\" y1=\"63.63636363636363%\" x2=\"25%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"37.5%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"62.5%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"50%\" y2=\"72.72727272727273%\"></line><line x1=\"87.5%\" y1=\"63.63636363636363%\" x2=\"75%\" y2=\"72.72727272727273%\"></line><line x1=\"87.5%\" y1=\"63.63636363636363%\" x2=\"87.5%\" y2=\"81.81818181818183%\"></line><line x1=\"37.5%\" y1=\"72.72727272727273%\" x2=\"25%\" y2=\"81.81818181818183%\"></line><line x1=\"62.5%\" y1=\"72.72727272727273%\" x2=\"75%\" y2=\"81.81818181818183%\"></line><line x1=\"62.5%\" y1=\"72.72727272727273%\" x2=\"62.5%\" y2=\"81.81818181818183%\"></line><line x1=\"12.5%\" y1=\"72.72727272727273%\" x2=\"25%\" y2=\"81.81818181818183%\"></line><line x1=\"12.5%\" y1=\"72.72727272727273%\" x2=\"0%\" y2=\"81.81818181818183%\"></line><line x1=\"50%\" y1=\"72.72727272727273%\" x2=\"62.5%\" y2=\"81.81818181818183%\"></line><line x1=\"50%\" y1=\"72.72727272727273%\" x2=\"37.5%\" y2=\"81.81818181818183%\"></line><line x1=\"50%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"75%\" y1=\"72.72727272727273%\" x2=\"75%\" y2=\"81.81818181818183%\"></line><line x1=\"75%\" y1=\"72.72727272727273%\" x2=\"87.5%\" y2=\"81.81818181818183%\"></line><line x1=\"25%\" y1=\"72.72727272727273%\" x2=\"25%\" y2=\"81.81818181818183%\"></line><line x1=\"37.5%\" y1=\"81.81818181818183%\" x2=\"37.5%\" y2=\"90.9090909090909%\"></line><line x1=\"87.5%\" y1=\"81.81818181818183%\" x2=\"100%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"37.5%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"62.5%\" y2=\"90.9090909090909%\"></line><line x1=\"25%\" y1=\"81.81818181818183%\" x2=\"37.5%\" y2=\"90.9090909090909%\"></line><line x1=\"25%\" y1=\"81.81818181818183%\" x2=\"25%\" y2=\"90.9090909090909%\"></line><line x1=\"25%\" y1=\"81.81818181818183%\" x2=\"12.5%\" y2=\"90.9090909090909%\"></line><line x1=\"62.5%\" y1=\"81.81818181818183%\" x2=\"62.5%\" y2=\"90.9090909090909%\"></line><line x1=\"75%\" y1=\"81.81818181818183%\" x2=\"75%\" y2=\"90.9090909090909%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=113656?def=129864&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_ability_fistoffury.jpg\" alt=\"Fists of Fury\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=261917?def=129644&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_roundhousekick.jpg\" alt=\"Sharp Reflexes\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=451294?def=129658&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_belt_leather_raidmonk_n_01.jpg\" alt=\"Momentum Boost\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=121817?def=129863&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_expelharm.jpg\" alt=\"Combat Wisdom\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=458623?def=129643&amp;rank=2&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mount_whitetiger.jpg\" alt=\"Ferociousness\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=115396?def=129645&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_ascension.jpg\" alt=\"Ascension\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=391383?def=129657&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_roundhousekick.jpg\" alt=\"Hardened Soles\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388856?def=129659&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_tigerpalm.jpg\" alt=\"Touch of the Tiger\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=392958?def=129648&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_mightyoxkick.jpg\" alt=\"Glory of the Dawn\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=116645?def=129665&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/passive_monk_teachingsofmonastery.jpg\" alt=\"Teachings of the Monastery\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=451823?def=129666&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_standingkick.jpg\" alt=\"Dual Threat\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=451485?def=129647&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_staff_2h_artifactmonkeyking_d_03.jpg\" alt=\"Brawler's Intensity\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1249625?def=129664&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_ability_monk_weaponsoforder.jpg\" alt=\"Zenith\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=391330?def=129673&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_touchofdeath.jpg\" alt=\"Meridian Strikes\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388849?def=129850&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_risingsunkick.jpg\" alt=\"Rising Star\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=388848?def=129856&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_cranekick_new.jpg\" alt=\"Crane Vortex\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=196740?def=129861&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_palmstrike.jpg\" alt=\"Hit Combo\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=392979?def=129660&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_chiexplosion.jpg\" alt=\"Jade Ignition\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1249832?def=129661&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_spherediscord.jpg\" alt=\"Obsidian Spiral\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=391370?def=129663&amp;rank=1&amp;spellModifier=137025\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_warrior_unrelentingassault.jpg\" alt=\"Drinking Horn Cover\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1248747?def=139224&amp;rank=1&amp;spellModifier=137025\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_fistofthewhitetiger.jpg\" alt=\"Crashing Fists\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=137384?def=129860&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/pandarenracial_bouncy.jpg\" alt=\"Combo Breaker\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=451498?def=129667&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_blackoutstrike.jpg\" alt=\"Energy Burst\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=325201?def=129672&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_cranekick_new.jpg\" alt=\"Dance of Chi-Ji\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=392982?def=129674&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_roundhousekick.jpg\" alt=\"Shadowboxing Treads\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=152175?def=139223&amp;rank=1&amp;spellModifier=137025\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_hurricanestrike.jpg\" alt=\"Whirling Dragon Punch\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=397768?def=129859&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_jasmineforcetea.jpg\" alt=\"Inner Peace\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=451576?def=129650&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_skyreach_four_wind.jpg\" alt=\"Communion With Wind\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1272175?def=129656&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_chiswirl.jpg\" alt=\"Universal Energy\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=451515?def=129671&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_sparring.jpg\" alt=\"Sequenced Strikes\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=451524?def=129848&amp;rank=1&amp;spellModifier=137025\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_chiswirl.jpg\" alt=\"Revolving Whirl\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=454969?def=129854&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mount_goatmountwhite.jpg\" alt=\"Memory of the Monastery\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1272415?def=129858&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_helm_suncrown_d_01.jpg\" alt=\"Sunfire Spiral\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=392985?def=129649&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_hand_1h_artifactskywall_d_01.jpg\" alt=\"Thunderfist\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=457974?def=129655&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_ability_monk_jadefirestomp.jpg\" alt=\"Jadefire Stomp\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1272678?def=129851&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_tradeskillitem_sorcererswind_tong.jpg\" alt=\"Weapon of Wind\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=392993?def=129855&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_stance_whitetiger.jpg\" alt=\"Xuen's Battlegear\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=451529?def=129857&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_glove_leather_pvpmonk_f_01.jpg\" alt=\"Knowledge of the Broken Temple\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1217413?def=131133&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_skyreach_wind_wall.jpg\" alt=\"Slicing Winds\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250566?def=139311&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_ability_monk_rushingwindkick.jpg\" alt=\"Rushing Wind Kick\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:75%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_tradeskillitem_sorcererswind_tong.jpg\" alt=\"Airborne Rhythm\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_druid_galewinds.jpg\" alt=\"Hurricane's Vault\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=451573?def=130858&amp;rank=1&amp;spellModifier=137025\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_fortuneturned.jpg\" alt=\"Singularly Focused Jade\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=452137?def=129849&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/monk_stance_whitetiger.jpg\" alt=\"Flurry of Xuen\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1272685?def=129853&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_dpsstance.jpg\" alt=\"Martial Agility\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1248704?def=133513&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_1115_warrior_kick.jpg\" alt=\"Skyfire Heel\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250041?def=133514&amp;rank=1&amp;spellModifier=137025\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_monk_serenity.jpg\" alt=\"Harmonic Combo\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:11;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1261844?def=141841&amp;rank=2&amp;spellModifier=137025\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_apextalent_monk_tigereyebrew.jpg\" alt=\"Tigereye Brew\" loading=\"lazy\"></span><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div class=\"talent-tree__interactions-export \"><button class=\"talent-tree__interactions-export__copy-button \"><span>Export</span><i class=\"fa-solid fa-copy ml-1.5 text-amber-400\"></i></button><a href=\"https://www.wowhead.com/talent-calc/blizzard/C0QAAAAAAAAAAAAAAAAAAAAAAMzYM2GGsMzMbzAAAAAAAAAAAAsMMaGzwwAGGmZmZY2GmhZZmAAWMz2MzYMzMAAWMzysMmAAAGDgZAGLDgZmZzFA\" target=\"_blank\" rel=\"noreferrer\" class=\"talent-tree__interactions-export__external-link\"><span>Edit</span><i class=\"fa-solid fa-arrow-up-right-from-square ml-1.5 text-amber-400\"></i></a></div></div></div>",
@@ -5289,49 +5289,49 @@ window.ARCHON_PRESETS = {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271517:271522:271519:271518:268265&gems=240983",
-            "popularity": 93.1,
+            "popularity": 93.2,
             "parses": 9
           },
           {
             "id": 271517,
             "name": "",
             "params": "pcs=271517:271522:271519:271518&ench=8001",
-            "popularity": 93.6,
+            "popularity": 93.8,
             "parses": 9
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271517:271522:271519:271518:268253",
-            "popularity": 41.9,
+            "popularity": 42.7,
             "parses": 4
           },
           {
             "id": 271522,
             "name": "",
             "params": "pcs=271517:271522:271519:271518&ench=7987",
-            "popularity": 92.1,
+            "popularity": 92,
             "parses": 9
           },
           {
             "id": 244576,
             "name": "",
             "params": "bonus=8793&pcs=271517:271522:271519:271518:244576&gems=240900",
-            "popularity": 78.6,
+            "popularity": 78.8,
             "parses": 8
           },
           {
             "id": 271520,
             "name": "",
             "params": "pcs=271517:271522:271519:271518:271520",
-            "popularity": 73.1,
+            "popularity": 72.9,
             "parses": 7
           },
           {
             "id": 268256,
             "name": "",
             "params": "pcs=271517:271522:271519:271518:268256&gems=240900",
-            "popularity": 39.9,
+            "popularity": 40.3,
             "parses": 4
           },
           {
@@ -5345,52 +5345,52 @@ window.ARCHON_PRESETS = {
             "id": 244569,
             "name": "",
             "params": "bonus=8793&pcs=271517:271522:271519:271518:244569&ench=7963",
-            "popularity": 81.4,
+            "popularity": 81.3,
             "parses": 8
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271517:271522:271519:271518:281029&gems=240900&ench=7967",
-            "popularity": 62.9,
+            "popularity": 64.1,
             "parses": 6
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8793&pcs=271517:271522:271519:271518:240949&gems=240900&ench=7967",
-            "popularity": 39,
-            "parses": 4
+            "popularity": 38.4,
+            "parses": 3
           },
           {
             "id": 268215,
             "name": "",
             "params": "pcs=271517:271522:271519:271518:268215&ench=8689",
-            "popularity": 94,
+            "popularity": 93.9,
             "parses": 9
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 54.8,
+            "popularity": 55.2,
             "parses": 5
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 54.8,
+            "popularity": 55.2,
             "parses": 5
           }
         ]
       },
       "mplus": {
-        "m": 1350,
-        "c": 785,
-        "h": 932,
-        "v": 169,
-        "dps": "546.2k",
+        "m": 1352,
+        "c": 786,
+        "h": 931,
+        "v": 168,
+        "dps": "543.9k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/MzARd2W4CrhcGQ3g#fight=8",
@@ -5402,49 +5402,49 @@ window.ARCHON_PRESETS = {
             "id": 271519,
             "name": "",
             "params": "pcs=271519:271522:271517:271518&gems=240900&ench=8017",
-            "popularity": 91.7,
+            "popularity": 91.5,
             "parses": 1
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271519:271522:271517:271518:268265&gems=240983",
-            "popularity": 94.9,
-            "parses": 2
+            "popularity": 94.5,
+            "parses": 1
           },
           {
             "id": 271517,
             "name": "",
             "params": "pcs=271519:271522:271517:271518&ench=8001",
-            "popularity": 88.3,
+            "popularity": 87.7,
             "parses": 1
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8791&pcs=271519:271522:271517:271518:239656",
-            "popularity": 36,
-            "parses": 740
+            "popularity": 35.2,
+            "parses": 663
           },
           {
             "id": 271522,
             "name": "",
             "params": "pcs=271519:271522:271517:271518&ench=7987",
-            "popularity": 91.5,
+            "popularity": 91.1,
             "parses": 1
           },
           {
             "id": 244576,
             "name": "",
             "params": "bonus=8791&pcs=271519:271522:271517:271518:244576&gems=240900",
-            "popularity": 84,
+            "popularity": 84.1,
             "parses": 1
           },
           {
             "id": 271520,
             "name": "",
             "params": "pcs=271519:271522:271517:271518:271520",
-            "popularity": 59.4,
+            "popularity": 58.9,
             "parses": 1
           },
           {
@@ -5452,55 +5452,55 @@ window.ARCHON_PRESETS = {
             "name": "",
             "params": "pcs=271519:271522:271517:271518:268256&gems=240900",
             "popularity": 33.5,
-            "parses": 689
+            "parses": 630
           },
           {
             "id": 271518,
             "name": "",
             "params": "pcs=271519:271522:271517:271518&ench=8159",
-            "popularity": 80.4,
+            "popularity": 80.9,
             "parses": 1
           },
           {
             "id": 244569,
             "name": "",
             "params": "bonus=8791&pcs=271519:271522:271517:271518:244569&ench=7963",
-            "popularity": 84.5,
+            "popularity": 84.8,
             "parses": 1
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271519:271522:271517:271518:281029&gems=240900&ench=7967",
-            "popularity": 75.3,
+            "popularity": 76.6,
             "parses": 1
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8791&pcs=271519:271522:271517:271518:240949&gems=240900&ench=7967",
-            "popularity": 37.1,
-            "parses": 763
+            "popularity": 35.8,
+            "parses": 673
           },
           {
             "id": 268215,
             "name": "",
             "params": "pcs=271519:271522:271517:271518:268215&ench=8689",
-            "popularity": 94.4,
+            "popularity": 94,
             "parses": 1
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 68.8,
+            "popularity": 71.7,
             "parses": 1
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 68.8,
+            "popularity": 71.7,
             "parses": 1
           }
         ]
@@ -5526,125 +5526,125 @@ window.ARCHON_PRESETS = {
             "id": 271465,
             "name": "",
             "params": "pcs=271463:271468:271465:271464&gems=240900&ench=7961",
-            "popularity": 86.1,
+            "popularity": 88.6,
             "parses": 13
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271463:271468:271465:271464:268265&gems=240983",
-            "popularity": 88.9,
+            "popularity": 91.5,
             "parses": 14
           },
           {
             "id": 271463,
             "name": "",
             "params": "pcs=271463:271468:271465:271464&ench=8031",
-            "popularity": 89.3,
+            "popularity": 91.9,
             "parses": 14
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8793&pcs=271463:271468:271465:271464:239656",
-            "popularity": 28.9,
+            "popularity": 29.8,
             "parses": 4
           },
           {
             "id": 271468,
             "name": "",
             "params": "pcs=271463:271468:271465:271464&ench=7987",
-            "popularity": 89.1,
+            "popularity": 91.7,
             "parses": 14
           },
           {
             "id": 237834,
             "name": "",
             "params": "bonus=8793&pcs=271463:271468:271465:271464:237834&gems=240900",
-            "popularity": 57.6,
+            "popularity": 59.3,
             "parses": 9
           },
           {
             "id": 271466,
             "name": "",
             "params": "pcs=271463:271468:271465:271464:271466",
-            "popularity": 71.1,
+            "popularity": 73.2,
             "parses": 11
           },
           {
             "id": 237830,
             "name": "",
             "params": "bonus=8793&pcs=271463:271468:271465:271464:237830&gems=240900",
-            "popularity": 28.1,
+            "popularity": 28.9,
             "parses": 4
           },
           {
             "id": 271464,
             "name": "",
             "params": "pcs=271463:271468:271465:271464&ench=7937",
-            "popularity": 84.6,
+            "popularity": 87.1,
             "parses": 13
           },
           {
             "id": 268260,
             "name": "",
             "params": "pcs=271463:271468:271465:271464:268260&ench=7993",
-            "popularity": 34.5,
+            "popularity": 35.5,
             "parses": 5
           },
           {
             "id": 268249,
             "name": "",
             "params": "bonus=13534&pcs=271463:271468:271465:271464:268249&gems=240900&ench=7969",
-            "popularity": 39.6,
+            "popularity": 40.8,
             "parses": 6
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271463:271468:271465:271464:281029&gems=240900&ench=7969",
-            "popularity": 38,
+            "popularity": 39.1,
             "parses": 6
           },
           {
             "id": 281056,
             "name": "",
             "params": "pcs=271463:271468:271465:271464:281056&ench=8039",
-            "popularity": 26.2,
+            "popularity": 27,
             "parses": 4
           },
           {
             "id": 268262,
             "name": "",
             "params": "pcs=271463:271468:271465:271464:268262&ench=4216",
-            "popularity": 31.3,
+            "popularity": 32.2,
             "parses": 4
           },
           {
             "id": 270162,
             "name": "",
             "params": "nofollow",
-            "popularity": 55.1,
+            "popularity": 56.8,
             "parses": 8
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 55.1,
+            "popularity": 56.8,
             "parses": 8
           }
         ]
       },
       "mplus": {
         "m": 334,
-        "c": 896,
+        "c": 899,
         "h": 1160,
         "v": 884,
-        "dps": "250.4k",
+        "dps": "251.1k",
         "dpsLabel": "DPS",
         "popularity": "",
-        "topLogUrl": "https://www.warcraftlogs.com/reports/HYrDhJX9pAgvTBQR#fight=41",
+        "topLogUrl": "https://www.warcraftlogs.com/reports/vjBP4XywA39J2NZF#fight=8",
         "talents": "CEEAAAAAAAAAAAAAAAAAAAAAAAAAALAwMAAwyAmZWmZmlZMjhFzmZWMTTMLzYmZGjZLDADAbgN2MzAAAAzMLLLWmZYjthBbAzsNAAzMAMjxoB",
         "heroTree": "Lightsmith",
         "talentTreeHtml": "<div class=\"builds-talent-tree-build-section__talent-trees\"><div class=\"talent-tree  talent-tree--compact\"><div class=\"talent-tree--container  talent-tree--container--default-layout\"><div data-kind=\"class\" class=\"talent-tree__container talent-tree__container--class\" style=\"--rows:10;--min-cols:9\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"class\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--class\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/paladin-2.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--class\"><div class=\"talent-tree__description__icon\"><img src=\"https://wow.zamimg.com/images/wow/icons/large/classicon_paladin.jpg\" alt=\"paladin\" style=\"width:2.5rem;height:2.5rem;border-radius:9999px;border:2px solid #f59e0b;object-fit:cover;display:block;\" onerror=\"this.src='https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg'\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Paladin\">Class</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"83.33333333333334%\" y1=\"10%\" x2=\"83.33333333333334%\" y2=\"30%\"></line><line x1=\"83.33333333333334%\" y1=\"10%\" x2=\"100%\" y2=\"20%\"></line><line x1=\"83.33333333333334%\" y1=\"10%\" x2=\"66.66666666666666%\" y2=\"20%\"></line><line x1=\"16.666666666666664%\" y1=\"10%\" x2=\"0%\" y2=\"20%\"></line><line x1=\"16.666666666666664%\" y1=\"10%\" x2=\"33.33333333333333%\" y2=\"20%\"></line><line x1=\"16.666666666666664%\" y1=\"10%\" x2=\"16.666666666666664%\" y2=\"20%\"></line><line x1=\"50%\" y1=\"10%\" x2=\"66.66666666666666%\" y2=\"20%\"></line><line x1=\"50%\" y1=\"10%\" x2=\"50%\" y2=\"30%\"></line><line x1=\"50%\" y1=\"10%\" x2=\"33.33333333333333%\" y2=\"20%\"></line><line x1=\"0%\" y1=\"20%\" x2=\"0%\" y2=\"30%\"></line><line x1=\"0%\" y1=\"20%\" x2=\"16.666666666666664%\" y2=\"30%\"></line><line x1=\"66.66666666666666%\" y1=\"20%\" x2=\"83.33333333333334%\" y2=\"30%\"></line><line x1=\"66.66666666666666%\" y1=\"20%\" x2=\"66.66666666666666%\" y2=\"30%\"></line><line x1=\"66.66666666666666%\" y1=\"20%\" x2=\"50%\" y2=\"30%\"></line><line x1=\"100%\" y1=\"20%\" x2=\"100%\" y2=\"30%\"></line><line x1=\"16.666666666666664%\" y1=\"20%\" x2=\"16.666666666666664%\" y2=\"30%\"></line><line x1=\"33.33333333333333%\" y1=\"20%\" x2=\"16.666666666666664%\" y2=\"30%\"></line><line x1=\"33.33333333333333%\" y1=\"20%\" x2=\"50%\" y2=\"30%\"></line><line x1=\"33.33333333333333%\" y1=\"20%\" x2=\"33.33333333333333%\" y2=\"30%\"></line><line x1=\"16.666666666666664%\" y1=\"30%\" x2=\"0%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"30%\" x2=\"33.33333333333333%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"30%\" x2=\"66.66666666666666%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"83.33333333333334%\" y1=\"30%\" x2=\"83.33333333333334%\" y2=\"50%\"></line><line x1=\"83.33333333333334%\" y1=\"30%\" x2=\"100%\" y2=\"40%\"></line><line x1=\"100%\" y1=\"30%\" x2=\"100%\" y2=\"40%\"></line><line x1=\"0%\" y1=\"30%\" x2=\"0%\" y2=\"40%\"></line><line x1=\"33.33333333333333%\" y1=\"40%\" x2=\"33.33333333333333%\" y2=\"60%\"></line><line x1=\"33.33333333333333%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"33.33333333333333%\" y1=\"40%\" x2=\"16.666666666666664%\" y2=\"50%\"></line><line x1=\"66.66666666666666%\" y1=\"40%\" x2=\"66.66666666666666%\" y2=\"50%\"></line><line x1=\"66.66666666666666%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"66.66666666666666%\" y1=\"40%\" x2=\"83.33333333333334%\" y2=\"50%\"></line><line x1=\"0%\" y1=\"40%\" x2=\"0%\" y2=\"60%\"></line><line x1=\"0%\" y1=\"40%\" x2=\"16.666666666666664%\" y2=\"50%\"></line><line x1=\"100%\" y1=\"40%\" x2=\"83.33333333333334%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"66.66666666666666%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"33.33333333333333%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"50%\" y2=\"60%\"></line><line x1=\"16.666666666666664%\" y1=\"50%\" x2=\"0%\" y2=\"60%\"></line><line x1=\"16.666666666666664%\" y1=\"50%\" x2=\"33.33333333333333%\" y2=\"60%\"></line><line x1=\"16.666666666666664%\" y1=\"50%\" x2=\"16.666666666666664%\" y2=\"60%\"></line><line x1=\"83.33333333333334%\" y1=\"50%\" x2=\"66.66666666666666%\" y2=\"60%\"></line><line x1=\"83.33333333333334%\" y1=\"50%\" x2=\"100%\" y2=\"60%\"></line><line x1=\"83.33333333333334%\" y1=\"50%\" x2=\"83.33333333333334%\" y2=\"60%\"></line><line x1=\"66.66666666666666%\" y1=\"50%\" x2=\"66.66666666666666%\" y2=\"60%\"></line><line x1=\"100%\" y1=\"60%\" x2=\"83.33333333333334%\" y2=\"70%\"></line><line x1=\"100%\" y1=\"60%\" x2=\"100%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"60%\" x2=\"33.33333333333333%\" y2=\"70%\"></line><line x1=\"33.33333333333333%\" y1=\"60%\" x2=\"16.666666666666664%\" y2=\"70%\"></line><line x1=\"33.33333333333333%\" y1=\"60%\" x2=\"50%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"60%\" x2=\"66.66666666666666%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"60%\" x2=\"83.33333333333334%\" y2=\"70%\"></line><line x1=\"66.66666666666666%\" y1=\"60%\" x2=\"50%\" y2=\"70%\"></line><line x1=\"0%\" y1=\"60%\" x2=\"0%\" y2=\"80%\"></line><line x1=\"0%\" y1=\"60%\" x2=\"16.666666666666664%\" y2=\"70%\"></line><line x1=\"83.33333333333334%\" y1=\"60%\" x2=\"83.33333333333334%\" y2=\"70%\"></line><line x1=\"16.666666666666664%\" y1=\"60%\" x2=\"16.666666666666664%\" y2=\"70%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"33.33333333333333%\" y2=\"80%\"></line><line x1=\"33.33333333333333%\" y1=\"70%\" x2=\"16.666666666666664%\" y2=\"80%\"></line><line x1=\"16.666666666666664%\" y1=\"70%\" x2=\"0%\" y2=\"80%\"></line><line x1=\"16.666666666666664%\" y1=\"70%\" x2=\"16.666666666666664%\" y2=\"80%\"></line><line x1=\"83.33333333333334%\" y1=\"70%\" x2=\"83.33333333333334%\" y2=\"80%\"></line><line x1=\"83.33333333333334%\" y1=\"70%\" x2=\"100%\" y2=\"80%\"></line><line x1=\"66.66666666666666%\" y1=\"70%\" x2=\"83.33333333333334%\" y2=\"80%\"></line><line x1=\"66.66666666666666%\" y1=\"70%\" x2=\"66.66666666666666%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"50%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"66.66666666666666%\" y2=\"80%\"></line><line x1=\"100%\" y1=\"80%\" x2=\"100%\" y2=\"90%\"></line><line x1=\"0%\" y1=\"80%\" x2=\"0%\" y2=\"90%\"></line><line x1=\"83.33333333333334%\" y1=\"80%\" x2=\"66.66666666666666%\" y2=\"90%\"></line><line x1=\"83.33333333333334%\" y1=\"80%\" x2=\"100%\" y2=\"90%\"></line><line x1=\"83.33333333333334%\" y1=\"80%\" x2=\"83.33333333333334%\" y2=\"90%\"></line><line x1=\"33.33333333333333%\" y1=\"80%\" x2=\"33.33333333333333%\" y2=\"90%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"66.66666666666666%\" y2=\"90%\"></line><line x1=\"50%\" y1=\"80%\" x2=\"33.33333333333333%\" y2=\"90%\"></line><line x1=\"16.666666666666664%\" y1=\"80%\" x2=\"0%\" y2=\"90%\"></line><line x1=\"16.666666666666664%\" y1=\"80%\" x2=\"33.33333333333333%\" y2=\"90%\"></line><line x1=\"16.666666666666664%\" y1=\"80%\" x2=\"16.666666666666664%\" y2=\"90%\"></line><line x1=\"66.66666666666666%\" y1=\"80%\" x2=\"66.66666666666666%\" y2=\"90%\"></line><line x1=\"0%\" y1=\"90%\" x2=\"16.666666666666664%\" y2=\"100%\"></line><line x1=\"33.33333333333333%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"33.33333333333333%\" y1=\"90%\" x2=\"16.666666666666664%\" y2=\"100%\"></line><line x1=\"83.33333333333334%\" y1=\"90%\" x2=\"83.33333333333334%\" y2=\"100%\"></line><line x1=\"66.66666666666666%\" y1=\"90%\" x2=\"83.33333333333334%\" y2=\"100%\"></line><line x1=\"66.66666666666666%\" y1=\"90%\" x2=\"50%\" y2=\"100%\"></line><line x1=\"100%\" y1=\"90%\" x2=\"83.33333333333334%\" y2=\"100%\"></line><line x1=\"16.666666666666664%\" y1=\"90%\" x2=\"16.666666666666664%\" y2=\"100%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1241288?def=138267&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_ability_paladin_hammerofwrath.jpg\" alt=\"Hammer of Wrath\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=633?def=107588&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_layonhands.jpg\" alt=\"Lay on Hands\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=385633?def=107592&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_devotionaura.jpg\" alt=\"Auras of the Resolute\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=393024?def=107482&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_purify.jpg\" alt=\"Improved Cleanse\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=115750?def=107589&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_blindinglight.jpg\" alt=\"Blinding Light\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=10326?def=107628&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_turnevil.jpg\" alt=\"Turn Evil\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387791?def=133062&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_layonhands.jpg\" alt=\"Empyreal Ward\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=234299?def=141260&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_fistofjustice.jpg\" alt=\"Fist of Justice\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=385414?def=107606&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_aspiration.jpg\" alt=\"Afterimage\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=190784?def=107630&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_divinesteed.jpg\" alt=\"Divine Steed\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=231644?def=119297&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_righteousfury.jpg\" alt=\"Greater Judgment\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=469325?def=133054&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_shoulder_raidpaladindragon_d_01.jpg\" alt=\"Light's Countenance\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:100%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_turnevil.jpg\" alt=\"Wrench Evil\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_excorcism.jpg\" alt=\"Stand Against Evil\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=469411?def=133061&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_blindingheal.jpg\" alt=\"A Just Reward\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=404357?def=141276&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_crown_of_the_heavens_icon.jpg\" alt=\"Guided Prayer\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=230332?def=107597&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_divinesteed.jpg\" alt=\"Cavalier\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1044?def=133058&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_sealofvalor.jpg\" alt=\"Blessing of Freedom\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=469409?def=133060&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mount_charger.jpg\" alt=\"Divine Spurs\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=469445?def=133063&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_sealofsalvation.jpg\" alt=\"Holy Reprieve\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1277443?def=141366&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_ability_paladin_sentinel.jpg\" alt=\"Armory of Light\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=375576?def=107470&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_ability_paladin_divinetoll.jpg\" alt=\"Divine Toll\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=385427?def=107627&amp;rank=2&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_speedoflight.jpg\" alt=\"Obduracy\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=402964?def=120041&amp;rank=2&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_chest_plate_raidpaladin_s_01.jpg\" alt=\"Sanctified Plates\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=305394?def=136239&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_sealofvalor.jpg\" alt=\"Unbound Freedom\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=204054?def=107523&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_righteousvengeance.jpg\" alt=\"Consecrated Ground\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=6940?def=107607&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_sealofsacrifice.jpg\" alt=\"Blessing of Sacrifice\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1022?def=107609&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_sealofprotection.jpg\" alt=\"Blessing of Protection\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=469476?def=120459&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_mindvision.jpg\" alt=\"Divine Reach\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=379391?def=120477&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_pureofheart.jpg\" alt=\"Quickened Invocation\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1265541?def=141258&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_bracer_plate_raidpaladin_r_01mythic.jpg\" alt=\"Fear No Evil\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1265549?def=141259&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/paladin_holy.jpg\" alt=\"Brought to Light\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=384820?def=107600&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_sealofsacrifice.jpg\" alt=\"Sacrifice of the Just\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=385515?def=107602&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_touchedbylight.jpg\" alt=\"Holy Aegis\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=114154?def=107608&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_holyguidance.jpg\" alt=\"Unbreakable Spirit\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=384909?def=107611&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_sealofprotection.jpg\" alt=\"Improved Blessing of Protection\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=223817?def=133053&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_divinepurpose.jpg\" alt=\"Divine Purpose\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=146956?def=107601&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_divineshield.jpg\" alt=\"Light's Revocation\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=406468?def=133049&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_circleofrenewal.jpg\" alt=\"Lightforged Blessing\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=469439?def=133067&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_divineprotection.jpg\" alt=\"Inspired Guard\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=469321?def=133055&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_blessingofprotection.jpg\" alt=\"Righteous Protection\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=199422?def=133069&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_relics_libramoftruth.jpg\" alt=\"Holy Ritual\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=469780?def=133070&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_helm_plate_raidpaladin_r_01mythic.jpg\" alt=\"Lead the Charge\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=469770?def=133071&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_judgementofthepure.jpg\" alt=\"Blessed Calling\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=406101?def=107469&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_shield_1h_newplayer_a_01.jpg\" alt=\"Faith's Armor\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=385450?def=107617&amp;rank=2&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_sealofwrath.jpg\" alt=\"Seal of Might\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=469309?def=107625&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_eyeforaneye.jpg\" alt=\"Eye for an Eye\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1241958?def=133048&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_paladin_hammerofwrath.jpg\" alt=\"Vengeful Wrath\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=469434?def=133116&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_gaurdedbythelight.jpg\" alt=\"Selfless Healer\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=469316?def=133065&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_magic_magearmor.jpg\" alt=\"Stoicism\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=183416?def=120685&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/achievement_zone_valeofeternalblossoms.jpg\" alt=\"Blessing of Dawn\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=469416?def=133064&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_paladin_clarityofpurpose.jpg\" alt=\"Lightbearer\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1241945?def=133066&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/achievement_zone_newshadowmoonvalley.jpg\" alt=\"Blessing of Dusk\" loading=\"lazy\"></a></div></div></div></div></div><div class=\"talent-tree__container talent-tree__container--hero\" style=\"--rows:1;--talent-count:4\"><div class=\"talent-tree__hero-spacer\"></div><div class=\"talent-tree__container--height-limiter\" data-kind=\"hero\"><div class=\"talent-tree__hero-title do-not-change-color-on-hover Paladin talent-tree__hero-title--horizontal \">Lightsmith</div><div class=\"talent-tree__hero-icon\"><span class=\"\"><div class=\"talent-tree__hero-icon--wrapper \"><img src=\"https://assets.rpglogs.com/img/warcraft/talents/hero/49_full.png\" alt=\"Lightsmith\"></div></span></div><div class=\"talent-tree__hero-container talent-tree__hero-container--compact\n          talent-tree__hero-container--horizontal\n          \"><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=433568?def=122893&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_inscription_weaponscroll01.jpg\" alt=\"Rite of Sanctification\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=433106?def=122896&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_lightsgrace.jpg\" alt=\"Divine Guidance\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=432964?def=122889&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_flashoflight.jpg\" alt=\"Divine Inspiration\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=469886?def=122891&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_misc_symbolofkings_01.jpg\" alt=\"Authoritative Rebuke\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div data-kind=\"spec\" class=\"talent-tree__container talent-tree__container--spec\" style=\"--rows:11;--min-cols:12\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"spec\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--spec\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/paladin-1.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--spec\"><div class=\"talent-tree__description__icon\"><img class=\"sprite actor-sprite-Paladin-Holy\" src=\"https://assets.rpglogs.com/img/warcraft/icons/actors.jpg?v=43\" loading=\"lazy\" alt=\"\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Paladin\">Spec</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"37.5%\" y2=\"18.181818181818183%\"></line><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"62.5%\" y2=\"18.181818181818183%\"></line><line x1=\"62.5%\" y1=\"18.181818181818183%\" x2=\"75%\" y2=\"27.27272727272727%\"></line><line x1=\"62.5%\" y1=\"18.181818181818183%\" x2=\"50%\" y2=\"27.27272727272727%\"></line><line x1=\"37.5%\" y1=\"18.181818181818183%\" x2=\"25%\" y2=\"27.27272727272727%\"></line><line x1=\"37.5%\" y1=\"18.181818181818183%\" x2=\"50%\" y2=\"27.27272727272727%\"></line><line x1=\"50%\" y1=\"27.27272727272727%\" x2=\"37.5%\" y2=\"36.36363636363637%\"></line><line x1=\"50%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"45.45454545454545%\"></line><line x1=\"50%\" y1=\"27.27272727272727%\" x2=\"62.5%\" y2=\"36.36363636363637%\"></line><line x1=\"75%\" y1=\"27.27272727272727%\" x2=\"75%\" y2=\"45.45454545454545%\"></line><line x1=\"75%\" y1=\"27.27272727272727%\" x2=\"87.5%\" y2=\"36.36363636363637%\"></line><line x1=\"25%\" y1=\"27.27272727272727%\" x2=\"12.5%\" y2=\"36.36363636363637%\"></line><line x1=\"25%\" y1=\"27.27272727272727%\" x2=\"25%\" y2=\"45.45454545454545%\"></line><line x1=\"87.5%\" y1=\"36.36363636363637%\" x2=\"87.5%\" y2=\"54.54545454545454%\"></line><line x1=\"87.5%\" y1=\"36.36363636363637%\" x2=\"100%\" y2=\"45.45454545454545%\"></line><line x1=\"62.5%\" y1=\"36.36363636363637%\" x2=\"75%\" y2=\"45.45454545454545%\"></line><line x1=\"12.5%\" y1=\"36.36363636363637%\" x2=\"12.5%\" y2=\"54.54545454545454%\"></line><line x1=\"12.5%\" y1=\"36.36363636363637%\" x2=\"0%\" y2=\"45.45454545454545%\"></line><line x1=\"37.5%\" y1=\"36.36363636363637%\" x2=\"37.5%\" y2=\"54.54545454545454%\"></line><line x1=\"37.5%\" y1=\"36.36363636363637%\" x2=\"25%\" y2=\"45.45454545454545%\"></line><line x1=\"75%\" y1=\"45.45454545454545%\" x2=\"75%\" y2=\"54.54545454545454%\"></line><line x1=\"75%\" y1=\"45.45454545454545%\" x2=\"62.5%\" y2=\"54.54545454545454%\"></line><line x1=\"75%\" y1=\"45.45454545454545%\" x2=\"87.5%\" y2=\"54.54545454545454%\"></line><line x1=\"100%\" y1=\"45.45454545454545%\" x2=\"100%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"62.5%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"37.5%\" y2=\"54.54545454545454%\"></line><line x1=\"25%\" y1=\"45.45454545454545%\" x2=\"25%\" y2=\"63.63636363636363%\"></line><line x1=\"25%\" y1=\"45.45454545454545%\" x2=\"37.5%\" y2=\"54.54545454545454%\"></line><line x1=\"25%\" y1=\"45.45454545454545%\" x2=\"12.5%\" y2=\"54.54545454545454%\"></line><line x1=\"0%\" y1=\"45.45454545454545%\" x2=\"0%\" y2=\"63.63636363636363%\"></line><line x1=\"0%\" y1=\"45.45454545454545%\" x2=\"12.5%\" y2=\"54.54545454545454%\"></line><line x1=\"75%\" y1=\"54.54545454545454%\" x2=\"75%\" y2=\"63.63636363636363%\"></line><line x1=\"87.5%\" y1=\"54.54545454545454%\" x2=\"75%\" y2=\"63.63636363636363%\"></line><line x1=\"37.5%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"37.5%\" y1=\"54.54545454545454%\" x2=\"25%\" y2=\"63.63636363636363%\"></line><line x1=\"37.5%\" y1=\"54.54545454545454%\" x2=\"37.5%\" y2=\"63.63636363636363%\"></line><line x1=\"62.5%\" y1=\"54.54545454545454%\" x2=\"75%\" y2=\"63.63636363636363%\"></line><line x1=\"62.5%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"62.5%\" y1=\"54.54545454545454%\" x2=\"62.5%\" y2=\"63.63636363636363%\"></line><line x1=\"12.5%\" y1=\"54.54545454545454%\" x2=\"25%\" y2=\"63.63636363636363%\"></line><line x1=\"12.5%\" y1=\"54.54545454545454%\" x2=\"0%\" y2=\"63.63636363636363%\"></line><line x1=\"12.5%\" y1=\"54.54545454545454%\" x2=\"12.5%\" y2=\"63.63636363636363%\"></line><line x1=\"100%\" y1=\"63.63636363636363%\" x2=\"100%\" y2=\"81.81818181818183%\"></line><line x1=\"100%\" y1=\"63.63636363636363%\" x2=\"87.5%\" y2=\"72.72727272727273%\"></line><line x1=\"12.5%\" y1=\"63.63636363636363%\" x2=\"12.5%\" y2=\"72.72727272727273%\"></line><line x1=\"37.5%\" y1=\"63.63636363636363%\" x2=\"37.5%\" y2=\"72.72727272727273%\"></line><line x1=\"62.5%\" y1=\"63.63636363636363%\" x2=\"62.5%\" y2=\"72.72727272727273%\"></line><line x1=\"25%\" y1=\"63.63636363636363%\" x2=\"12.5%\" y2=\"72.72727272727273%\"></line><line x1=\"25%\" y1=\"63.63636363636363%\" x2=\"37.5%\" y2=\"72.72727272727273%\"></line><line x1=\"25%\" y1=\"63.63636363636363%\" x2=\"25%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"37.5%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"62.5%\" y2=\"72.72727272727273%\"></line><line x1=\"75%\" y1=\"63.63636363636363%\" x2=\"62.5%\" y2=\"72.72727272727273%\"></line><line x1=\"75%\" y1=\"63.63636363636363%\" x2=\"87.5%\" y2=\"72.72727272727273%\"></line><line x1=\"0%\" y1=\"63.63636363636363%\" x2=\"12.5%\" y2=\"72.72727272727273%\"></line><line x1=\"12.5%\" y1=\"72.72727272727273%\" x2=\"25%\" y2=\"81.81818181818183%\"></line><line x1=\"12.5%\" y1=\"72.72727272727273%\" x2=\"0%\" y2=\"81.81818181818183%\"></line><line x1=\"12.5%\" y1=\"72.72727272727273%\" x2=\"12.5%\" y2=\"90.9090909090909%\"></line><line x1=\"87.5%\" y1=\"72.72727272727273%\" x2=\"100%\" y2=\"81.81818181818183%\"></line><line x1=\"87.5%\" y1=\"72.72727272727273%\" x2=\"87.5%\" y2=\"81.81818181818183%\"></line><line x1=\"37.5%\" y1=\"72.72727272727273%\" x2=\"25%\" y2=\"81.81818181818183%\"></line><line x1=\"62.5%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"62.5%\" y1=\"72.72727272727273%\" x2=\"62.5%\" y2=\"90.9090909090909%\"></line><line x1=\"62.5%\" y1=\"72.72727272727273%\" x2=\"75%\" y2=\"81.81818181818183%\"></line><line x1=\"25%\" y1=\"72.72727272727273%\" x2=\"25%\" y2=\"81.81818181818183%\"></line><line x1=\"75%\" y1=\"81.81818181818183%\" x2=\"87.5%\" y2=\"90.9090909090909%\"></line><line x1=\"75%\" y1=\"81.81818181818183%\" x2=\"62.5%\" y2=\"90.9090909090909%\"></line><line x1=\"100%\" y1=\"81.81818181818183%\" x2=\"87.5%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"37.5%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"50%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"62.5%\" y2=\"90.9090909090909%\"></line><line x1=\"25%\" y1=\"81.81818181818183%\" x2=\"37.5%\" y2=\"90.9090909090909%\"></line><line x1=\"87.5%\" y1=\"81.81818181818183%\" x2=\"87.5%\" y2=\"90.9090909090909%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=20473?def=107539&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_searinglight.jpg\" alt=\"Holy Shock\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=85222?def=107550&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_paladin_lightofdawn.jpg\" alt=\"Light of Dawn\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=53576?def=107555&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_infusionoflight.jpg\" alt=\"Infusion of Light\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=31821?def=107553&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_auramastery.jpg\" alt=\"Aura Mastery\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=197446?def=107554&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_paladin_clarityofpurpose.jpg\" alt=\"Beacon of the Lightbringer\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=414073?def=121388&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/paladin_holy.jpg\" alt=\"Light's Conviction\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=417855?def=107549&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_blindinglight2.jpg\" alt=\"Awestruck\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1271221?def=107563&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_holybolt.jpg\" alt=\"Unending Light\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=461278?def=107580&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_spiritualguidence.jpg\" alt=\"Extrication\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1241542?def=138265&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/paladin_protection.jpg\" alt=\"Ringing of the Heavens\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=392961?def=107541&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_flashoflight.jpg\" alt=\"Imbued Infusions\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=447985?def=107545&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_lightofthemartyr.jpg\" alt=\"Light of the Martyr\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=392911?def=107552&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_fanaticism.jpg\" alt=\"Unwavering Spirit\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1270916?def=107556&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_heal.jpg\" alt=\"Divine Favor\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387786?def=107558&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_flashheal.jpg\" alt=\"Moment of Compassion\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=461244?def=107540&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_holyguidance.jpg\" alt=\"Overflowing Light\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=414443?def=107546&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_holynova.jpg\" alt=\"Shining Righteousness\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=157047?def=107562&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_savedbythelight.jpg\" alt=\"Saved by the Light\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=461243?def=120886&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_absolution.jpg\" alt=\"Light's Protection\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=414113?def=120887&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_holybolts01.jpg\" alt=\"Righteous Judgment\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=448040?def=107544&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_sheathoflight.jpg\" alt=\"Bestow Light\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=414720?def=107561&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_revivechampion.jpg\" alt=\"Tirion's Devotion\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1241805?def=107564&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_paladin_divinecircle.jpg\" alt=\"Glistening Radiance\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387808?def=107567&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_infusionoflight.jpg\" alt=\"Divine Revelations\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387781?def=107569&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_beaconoflight.jpg\" alt=\"Commanding Light\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387879?def=107572&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_rune.jpg\" alt=\"Breaking Dawn\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=387805?def=107575&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_healingaura.jpg\" alt=\"Divine Glimpse\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=196926?def=141347&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_swiftretribution.jpg\" alt=\"Crusader's Might\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=156910?def=107538&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_beaconsoflight.jpg\" alt=\"Beacon of Faith\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=415364?def=107542&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_longarmofthelaw.jpg\" alt=\"Reclamation\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=392938?def=107570&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_crown_of_the_heavens_icon.jpg\" alt=\"Veneration\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=31884?def=107574&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_avenginewrath.jpg\" alt=\"Avenging Wrath\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1241358?def=107581&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/item_holyspark.jpg\" alt=\"Empyrean Legacy\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1232616?def=107568&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_helm_plate_raidpaladindragon_d_01.jpg\" alt=\"Pillars of Light\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1241511?def=107577&amp;rank=2&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_gaurdedbythelight.jpg\" alt=\"Call of the Righteous\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1271077?def=107579&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_surgeoflight.jpg\" alt=\"Divine Overload\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=53376?def=107583&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_judgementsofthejust.jpg\" alt=\"Sanctified Wrath\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1271016?def=107585&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_blessedresillience.jpg\" alt=\"Seek Deliverance\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=461273?def=138193&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_artofwar.jpg\" alt=\"Truth Prevails\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1242008?def=138287&amp;rank=1&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_vindication.jpg\" alt=\"Hand of Divinity\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=392907?def=107582&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_lfieblood.jpg\" alt=\"Inflorescence of the Sunwell\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1241714?def=107584&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_protectoroftheinnocent.jpg\" alt=\"Seraphic Barrier\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1277651?def=107586&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_priest_divinestar_holy.jpg\" alt=\"Rising Sunlight\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=461246?def=120885&amp;rank=1&amp;spellModifier=137029\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_holyavenger.jpg\" alt=\"Glorious Dawn\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:11;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1244878?def=141782&amp;rank=4&amp;spellModifier=137029\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_apextalent_paladin_beaconofthesavior.jpg\" alt=\"Beacon of the Savior\" loading=\"lazy\"></span><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">4</span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div class=\"talent-tree__interactions-export \"><button class=\"talent-tree__interactions-export__copy-button \"><span>Export</span><i class=\"fa-solid fa-copy ml-1.5 text-amber-400\"></i></button><a href=\"https://www.wowhead.com/talent-calc/blizzard/CEEAAAAAAAAAAAAAAAAAAAAAAAAAALAwMAAwyAmZWmZmlZMjhFzmZWMTTMLzYmZGjZLDADAbgN2MzAAAAzMLLLWmZYjthBbAzsNAAzMAMjxoB\" target=\"_blank\" rel=\"noreferrer\" class=\"talent-tree__interactions-export__external-link\"><span>Edit</span><i class=\"fa-solid fa-arrow-up-right-from-square ml-1.5 text-amber-400\"></i></a></div></div></div>",
@@ -5653,124 +5653,124 @@ window.ARCHON_PRESETS = {
             "id": 271465,
             "name": "",
             "params": "pcs=271465:271463:271464:271468&gems=240894&ench=8017",
-            "popularity": 89.5,
-            "parses": 10
+            "popularity": 89.7,
+            "parses": 9
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271465:271463:271464:271468:268265&gems=240983",
-            "popularity": 95.9,
-            "parses": 11
+            "popularity": 96,
+            "parses": 10
           },
           {
             "id": 271463,
             "name": "",
             "params": "pcs=271465:271463:271464:271468&ench=8001",
-            "popularity": 89,
-            "parses": 10
+            "popularity": 89.1,
+            "parses": 9
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8792&pcs=271465:271463:271464:271468:239656",
-            "popularity": 32.3,
+            "popularity": 31.7,
             "parses": 3
           },
           {
             "id": 271468,
             "name": "",
             "params": "pcs=271465:271463:271464:271468&ench=7987",
-            "popularity": 77.5,
+            "popularity": 78.3,
             "parses": 8
           },
           {
             "id": 237834,
             "name": "",
             "params": "bonus=8792&pcs=271465:271463:271464:271468:237834&gems=240894",
-            "popularity": 82.7,
-            "parses": 9
+            "popularity": 83.2,
+            "parses": 8
           },
           {
             "id": 271466,
             "name": "",
             "params": "pcs=271465:271463:271464:271468:271466",
-            "popularity": 65.4,
-            "parses": 7
+            "popularity": 65.2,
+            "parses": 6
           },
           {
             "id": 268259,
             "name": "",
             "params": "pcs=271465:271463:271464:271468:268259&gems=240894",
-            "popularity": 24.1,
+            "popularity": 25.2,
             "parses": 2
           },
           {
             "id": 271464,
             "name": "",
             "params": "pcs=271465:271463:271464:271468&ench=7935",
-            "popularity": 84.8,
-            "parses": 9
+            "popularity": 84.7,
+            "parses": 8
           },
           {
             "id": 237828,
             "name": "",
             "params": "bonus=8792&pcs=271465:271463:271464:271468:237828&ench=7963",
-            "popularity": 46.5,
-            "parses": 5
+            "popularity": 46.8,
+            "parses": 4
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8792&pcs=271465:271463:271464:271468:240949&gems=240894&ench=8025",
-            "popularity": 74.1,
-            "parses": 8
+            "popularity": 74,
+            "parses": 7
           },
           {
             "id": 268266,
             "name": "",
             "params": "bonus=13534&pcs=271465:271463:271464:271468:268266&gems=240894&ench=8025",
-            "popularity": 46.3,
+            "popularity": 47.4,
             "parses": 5
           },
           {
             "id": 268211,
             "name": "",
             "params": "pcs=271465:271463:271464:271468:268211&ench=8689",
-            "popularity": 37.1,
+            "popularity": 38.7,
             "parses": 4
           },
           {
             "id": 268196,
             "name": "",
-            "params": "pcs=271465:271463:271464:271468:268196&ench=4216",
-            "popularity": 47.8,
+            "params": "pcs=271465:271463:271464:271468:268196",
+            "popularity": 48.2,
             "parses": 5
           },
           {
             "id": 270162,
             "name": "",
             "params": "nofollow",
-            "popularity": 61.8,
-            "parses": 7
+            "popularity": 63.6,
+            "parses": 6
           },
           {
             "id": 270171,
             "name": "",
             "params": "nofollow",
-            "popularity": 61.8,
-            "parses": 7
+            "popularity": 63.6,
+            "parses": 6
           }
         ]
       }
     },
     "protection": {
       "raid": {
-        "m": 681,
+        "m": 684,
         "c": 1094,
         "h": 1098,
         "v": 218,
-        "dps": "178.8k",
+        "dps": "179.8k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/vfm7dFLMGy2tCawY#fight=50",
@@ -5781,123 +5781,123 @@ window.ARCHON_PRESETS = {
           {
             "id": 271465,
             "name": "",
-            "params": "pcs=271468:271463:271465:271464&gems=240890&ench=7961",
-            "popularity": 87.9,
+            "params": "pcs=271468:271465:271464:271463&gems=240890&ench=7961",
+            "popularity": 88.2,
             "parses": 7
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271468:271463:271465:271464:268265&gems=240983",
-            "popularity": 87.4,
+            "params": "bonus=13534&pcs=271468:271465:271464:271463:268265&gems=240983",
+            "popularity": 87.7,
             "parses": 7
           },
           {
             "id": 271463,
             "name": "",
-            "params": "pcs=271468:271463:271465:271464&ench=8031",
-            "popularity": 87.9,
+            "params": "pcs=271468:271465:271464:271463&ench=8031",
+            "popularity": 87.7,
             "parses": 7
           },
           {
             "id": 268253,
             "name": "",
-            "params": "pcs=271468:271463:271465:271464:268253",
-            "popularity": 40.1,
+            "params": "pcs=271468:271465:271464:271463:268253",
+            "popularity": 40.3,
             "parses": 3
           },
           {
             "id": 271468,
             "name": "",
-            "params": "pcs=271468:271463:271465:271464&ench=7987",
-            "popularity": 91.1,
+            "params": "pcs=271468:271465:271464:271463&ench=7987",
+            "popularity": 91.2,
             "parses": 7
           },
           {
             "id": 237834,
             "name": "",
-            "params": "bonus=8790&pcs=271468:271463:271465:271464:237834&gems=240890",
+            "params": "bonus=8790&pcs=271468:271465:271464:271463:237834&gems=240890",
             "popularity": 77.2,
             "parses": 6
           },
           {
             "id": 271466,
             "name": "",
-            "params": "pcs=271468:271463:271465:271464:271466",
-            "popularity": 78.6,
+            "params": "pcs=271468:271465:271464:271463:271466",
+            "popularity": 78.5,
             "parses": 6
           },
           {
             "id": 268259,
             "name": "",
-            "params": "pcs=271468:271463:271465:271464:268259&gems=240890",
-            "popularity": 49.4,
+            "params": "pcs=271468:271465:271464:271463:268259&gems=240890",
+            "popularity": 50,
             "parses": 4
           },
           {
             "id": 271464,
             "name": "",
-            "params": "pcs=271468:271463:271465:271464&ench=8159",
-            "popularity": 87.8,
+            "params": "pcs=271468:271465:271464:271463&ench=8159",
+            "popularity": 88,
             "parses": 7
           },
           {
             "id": 237828,
             "name": "",
-            "params": "bonus=8790&pcs=271468:271463:271465:271464:237828&ench=7993",
-            "popularity": 49.2,
+            "params": "bonus=8790&pcs=271468:271465:271464:271463:237828&ench=7993",
+            "popularity": 49.7,
             "parses": 4
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271468:271463:271465:271464:281029&gems=240890&ench=7967",
-            "popularity": 44.7,
+            "params": "bonus=13534&pcs=271468:271465:271464:271463:281029&gems=240890&ench=7967",
+            "popularity": 45.7,
             "parses": 3
           },
           {
             "id": 240949,
             "name": "",
-            "params": ":8790&pcs=271468:271463:271465:271464:240949&gems=240890&ench=7967",
-            "popularity": 36.8,
+            "params": ":8790&pcs=271468:271465:271464:271463:240949&gems=240890&ench=7967",
+            "popularity": 37,
             "parses": 3
           },
           {
             "id": 268209,
             "name": "",
-            "params": "pcs=271468:271463:271465:271464:268209&ench=8039",
-            "popularity": 68.5,
+            "params": "pcs=271468:271465:271464:271463:268209&ench=8039",
+            "popularity": 69.2,
             "parses": 5
           },
           {
             "id": 268196,
             "name": "",
-            "params": "pcs=271468:271463:271465:271464:268196&ench=4216",
-            "popularity": 45.1,
+            "params": "pcs=271468:271465:271464:271463:268196&ench=4216",
+            "popularity": 45.6,
             "parses": 3
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 60.6,
+            "popularity": 61.4,
             "parses": 5
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 60.6,
+            "popularity": 61.4,
             "parses": 5
           }
         ]
       },
       "mplus": {
-        "m": 636,
-        "c": 1132,
-        "h": 1057,
-        "v": 355,
-        "dps": "253.4k",
+        "m": 639,
+        "c": 1130,
+        "h": 1055,
+        "v": 358,
+        "dps": "255.4k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/Z3BrCWK4kcDGPhvN#fight=30",
@@ -5909,112 +5909,112 @@ window.ARCHON_PRESETS = {
             "id": 271465,
             "name": "",
             "params": "pcs=271464:271468:271465:271463&gems=240890&ench=7961",
-            "popularity": 87.1,
-            "parses": 6
+            "popularity": 87.6,
+            "parses": 5
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271464:271468:271465:271463:268265&gems=240983",
-            "popularity": 87.7,
-            "parses": 6
+            "popularity": 88.9,
+            "parses": 5
           },
           {
             "id": 271463,
             "name": "",
             "params": "pcs=271464:271468:271465:271463&ench=8031",
-            "popularity": 79.7,
+            "popularity": 79.5,
             "parses": 5
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8790&pcs=271464:271468:271465:271463:239656",
-            "popularity": 34,
+            "popularity": 34.1,
             "parses": 2
           },
           {
             "id": 271468,
             "name": "",
             "params": "pcs=271464:271468:271465:271463&ench=7987",
-            "popularity": 87.5,
-            "parses": 6
+            "popularity": 87.8,
+            "parses": 5
           },
           {
             "id": 237834,
             "name": "",
             "params": "bonus=8790&pcs=271464:271468:271465:271463:237834&gems=240890",
-            "popularity": 70.2,
-            "parses": 5
+            "popularity": 70.4,
+            "parses": 4
           },
           {
             "id": 271466,
             "name": "",
             "params": "pcs=271464:271468:271465:271463:271466",
-            "popularity": 68.6,
+            "popularity": 67.9,
             "parses": 4
           },
           {
             "id": 268259,
             "name": "",
             "params": "pcs=271464:271468:271465:271463:268259&gems=240890",
-            "popularity": 33,
+            "popularity": 33.4,
             "parses": 2
           },
           {
             "id": 271464,
             "name": "",
             "params": "pcs=271464:271468:271465:271463&ench=8159",
-            "popularity": 87.8,
-            "parses": 6
+            "popularity": 88.2,
+            "parses": 5
           },
           {
             "id": 237828,
             "name": "",
             "params": "bonus=8790&pcs=271464:271468:271465:271463:237828&ench=7993",
-            "popularity": 53.1,
+            "popularity": 53.5,
             "parses": 3
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8790&pcs=271464:271468:271465:271463:240949&gems=240890&ench=7967",
-            "popularity": 49.8,
+            "popularity": 50.5,
             "parses": 3
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271464:271468:271465:271463:281029&gems=240890&ench=7967",
-            "popularity": 45.2,
+            "popularity": 47.4,
             "parses": 3
           },
           {
             "id": 268209,
             "name": "",
             "params": "pcs=271464:271468:271465:271463:268209&ench=8039",
-            "popularity": 56.3,
-            "parses": 4
+            "popularity": 57.2,
+            "parses": 3
           },
           {
             "id": 237831,
             "name": "",
             "params": "bonus=8790&pcs=271464:271468:271465:271463:237831&ench=4216",
-            "popularity": 45,
-            "parses": 3
+            "popularity": 43.7,
+            "parses": 2
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 32.5,
+            "popularity": 32.2,
             "parses": 2
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 32.5,
+            "popularity": 32.2,
             "parses": 2
           }
         ]
@@ -6142,11 +6142,11 @@ window.ARCHON_PRESETS = {
         ]
       },
       "mplus": {
-        "m": 1244,
-        "c": 989,
-        "h": 861,
-        "v": 193,
-        "dps": "501.7k",
+        "m": 1248,
+        "c": 985,
+        "h": 864,
+        "v": 197,
+        "dps": "505.2k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/hxz6ZmybBR91XDd4#fight=20",
@@ -6158,36 +6158,36 @@ window.ARCHON_PRESETS = {
             "id": 271465,
             "name": "",
             "params": "pcs=271468:271464:271465:271463&gems=240892&ench=8017",
-            "popularity": 86,
+            "popularity": 86.1,
             "parses": 7
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271468:271464:271465:271463:268265&gems=240983",
-            "popularity": 94.6,
+            "popularity": 94.5,
             "parses": 8
           },
           {
             "id": 271463,
             "name": "",
             "params": "pcs=271468:271464:271465:271463&ench=8001",
-            "popularity": 83.8,
+            "popularity": 83.4,
             "parses": 7
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271468:271464:271465:271463:268253",
-            "popularity": 44,
-            "parses": 4
+            "popularity": 43.6,
+            "parses": 3
           },
           {
             "id": 271468,
             "name": "",
             "params": "pcs=271468:271464:271465:271463&ench=7987",
-            "popularity": 93.2,
-            "parses": 8
+            "popularity": 93,
+            "parses": 7
           },
           {
             "id": 237834,
@@ -6200,14 +6200,14 @@ window.ARCHON_PRESETS = {
             "id": 271466,
             "name": "",
             "params": "pcs=271468:271464:271465:271463:271466",
-            "popularity": 64.8,
+            "popularity": 65.3,
             "parses": 5
           },
           {
             "id": 268259,
             "name": "",
             "params": "pcs=271468:271464:271465:271463:268259&gems=240892",
-            "popularity": 52.5,
+            "popularity": 52,
             "parses": 4
           },
           {
@@ -6215,49 +6215,49 @@ window.ARCHON_PRESETS = {
             "name": "",
             "params": "pcs=271468:271464:271465:271463&ench=8159",
             "popularity": 87.5,
-            "parses": 8
+            "parses": 7
           },
           {
             "id": 237828,
             "name": "",
             "params": "bonus=8793&pcs=271468:271464:271465:271463:237828&ench=7963",
-            "popularity": 49.1,
+            "popularity": 49,
             "parses": 4
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271468:271464:271465:271463:281029&gems=240892&ench=7967",
-            "popularity": 60.4,
+            "popularity": 63,
             "parses": 5
           },
           {
             "id": 251513,
             "name": "",
             "params": ":8793&pcs=271468:271464:271465:271463:251513&gems=240892&ench=7967",
-            "popularity": 54.6,
-            "parses": 5
+            "popularity": 53.3,
+            "parses": 4
           },
           {
             "id": 268213,
             "name": "",
             "params": "pcs=271468:271464:271465:271463:268213&ench=8689",
             "popularity": 90.2,
-            "parses": 8
+            "parses": 7
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 81.8,
-            "parses": 7
+            "popularity": 81.7,
+            "parses": 6
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 81.8,
-            "parses": 7
+            "popularity": 81.7,
+            "parses": 6
           }
         ]
       }
@@ -6393,11 +6393,11 @@ window.ARCHON_PRESETS = {
         ]
       },
       "mplus": {
-        "m": 858,
-        "c": 896,
-        "h": 1238,
-        "v": 246,
-        "dps": "269.3k",
+        "m": 861,
+        "c": 919,
+        "h": 1236,
+        "v": 242,
+        "dps": "271.5k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/VxFtGRafyAbKmnd9#fight=15",
@@ -6408,114 +6408,114 @@ window.ARCHON_PRESETS = {
           {
             "id": 271555,
             "name": "",
-            "params": "pcs=271553:271554:271555:271558&gems=240890&ench=8017",
-            "popularity": 85.2,
+            "params": "pcs=271555:271554:271553:271558&gems=240890&ench=8017",
+            "popularity": 85.9,
             "parses": 1
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271553:271554:271555:271558:268265&gems=240983",
-            "popularity": 93.2,
+            "params": "bonus=13534&pcs=271555:271554:271553:271558:268265&gems=240983",
+            "popularity": 93.7,
             "parses": 1
           },
           {
             "id": 271553,
             "name": "",
-            "params": "pcs=271553:271554:271555:271558&ench=8001",
-            "popularity": 86.1,
+            "params": "pcs=271555:271554:271553:271558&ench=8001",
+            "popularity": 85.3,
             "parses": 1
           },
           {
             "id": 239656,
             "name": "",
-            "params": "bonus=8790&pcs=271553:271554:271555:271558:239656",
-            "popularity": 47.7,
-            "parses": 710
+            "params": "bonus=8790&pcs=271555:271554:271553:271558:239656",
+            "popularity": 48.1,
+            "parses": 667
           },
           {
             "id": 271558,
             "name": "",
-            "params": "pcs=271553:271554:271555:271558&ench=7987",
-            "popularity": 79.5,
+            "params": "pcs=271555:271554:271553:271558&ench=7987",
+            "popularity": 79.4,
             "parses": 1
           },
           {
             "id": 239648,
             "name": "",
-            "params": "bonus=8790&pcs=271553:271554:271555:271558:239648&gems=240890",
-            "popularity": 84.6,
+            "params": "bonus=8790&pcs=271555:271554:271553:271558:239648&gems=240890",
+            "popularity": 84.9,
             "parses": 1
           },
           {
             "id": 271556,
             "name": "",
-            "params": "pcs=271553:271554:271555:271558:271556",
-            "popularity": 74.4,
+            "params": "pcs=271555:271554:271553:271558:271556",
+            "popularity": 74.6,
             "parses": 1
           },
           {
             "id": 239649,
             "name": "",
-            "params": "bonus=8790&pcs=271553:271554:271555:271558:239649&gems=240890",
-            "popularity": 48.3,
-            "parses": 719
+            "params": "bonus=8790&pcs=271555:271554:271553:271558:239649&gems=240890",
+            "popularity": 48.8,
+            "parses": 677
           },
           {
             "id": 271554,
             "name": "",
-            "params": "pcs=271553:271554:271555:271558&ench=7937",
-            "popularity": 86.1,
+            "params": "pcs=271555:271554:271553:271558&ench=7937",
+            "popularity": 85.5,
             "parses": 1
           },
           {
             "id": 268255,
             "name": "",
-            "params": "pcs=271553:271554:271555:271558:268255&ench=7963",
-            "popularity": 20.4,
-            "parses": 303
+            "params": "pcs=271555:271554:271553:271558:268255&ench=7963",
+            "popularity": 20.6,
+            "parses": 286
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271553:271554:271555:271558:281029&gems=240890&ench=8025",
-            "popularity": 45,
-            "parses": 670
+            "params": "bonus=13534&pcs=271555:271554:271553:271558:281029&gems=240890&ench=8025",
+            "popularity": 45.6,
+            "parses": 632
           },
           {
             "id": 240949,
             "name": "",
-            "params": ":8790&pcs=271553:271554:271555:271558:240949&gems=240890&ench=8025",
-            "popularity": 36.7,
-            "parses": 546
+            "params": ":8790&pcs=271555:271554:271553:271558:240949&gems=240890&ench=8025",
+            "popularity": 37.3,
+            "parses": 517
           },
           {
             "id": 271092,
             "name": "",
-            "params": "pcs=271553:271554:271555:271558:271092&ench=8689",
-            "popularity": 87,
+            "params": "pcs=271555:271554:271553:271558:271092&ench=8689",
+            "popularity": 87.4,
             "parses": 1
           },
           {
             "id": 245769,
             "name": "",
-            "params": "bonus=8790&pcs=271553:271554:271555:271558:245769",
-            "popularity": 34.7,
-            "parses": 516
+            "params": "bonus=8790&pcs=271555:271554:271553:271558:245769",
+            "popularity": 33.4,
+            "parses": 463
           },
           {
             "id": 270162,
             "name": "",
             "params": "nofollow",
-            "popularity": 48.5,
-            "parses": 722
+            "popularity": 48.1,
+            "parses": 666
           },
           {
             "id": 270167,
             "name": "",
             "params": "nofollow",
-            "popularity": 48.5,
-            "parses": 722
+            "popularity": 48.1,
+            "parses": 666
           }
         ]
       }
@@ -6649,51 +6649,51 @@ window.ARCHON_PRESETS = {
         ]
       },
       "mplus": {
-        "m": 672,
+        "m": 721,
         "c": 916,
-        "h": 1055,
-        "v": 368,
-        "dps": "251.2k",
+        "h": 1057,
+        "v": 369,
+        "dps": "250.6k",
         "dpsLabel": "DPS",
         "popularity": "",
-        "topLogUrl": "https://www.warcraftlogs.com/reports/7Ff8dByPXLJgVz2b#fight=4",
-        "talents": "CEQAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAMzMmlxMjZGDzALzMzMAAAAGzsMDmZmhZMzAYmCgZWwQYMLDwYgFjZWAYGzMGDmBYmZGYA",
+        "topLogUrl": "https://www.warcraftlogs.com/reports/RNDpA8qncYZkJgfL#fight=2",
+        "talents": "CEQAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAMzMmlxMjZGDzALzMzMAAAAGmlZYmZmhZMzAYmCgZWwQYMLDwYgFjZWAYGzMGDmBYmZGYA",
         "heroTree": "Oracle",
-        "talentTreeHtml": "<div class=\"builds-talent-tree-build-section__talent-trees\"><div class=\"talent-tree  talent-tree--compact\"><div class=\"talent-tree--container  talent-tree--container--default-layout\"><div data-kind=\"class\" class=\"talent-tree__container talent-tree__container--class\" style=\"--rows:10;--min-cols:12\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"class\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--class\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/priest-1.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--class\"><div class=\"talent-tree__description__icon\"><img src=\"https://wow.zamimg.com/images/wow/icons/large/classicon_priest.jpg\" alt=\"priest\" style=\"width:2.5rem;height:2.5rem;border-radius:9999px;border:2px solid #f59e0b;object-fit:cover;display:block;\" onerror=\"this.src='https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg'\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Priest\">Class</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"10%\" x2=\"37.5%\" y2=\"20%\"></line><line x1=\"50%\" y1=\"10%\" x2=\"62.5%\" y2=\"20%\"></line><line x1=\"25%\" y1=\"10%\" x2=\"37.5%\" y2=\"20%\"></line><line x1=\"25%\" y1=\"10%\" x2=\"12.5%\" y2=\"20%\"></line><line x1=\"75%\" y1=\"10%\" x2=\"62.5%\" y2=\"20%\"></line><line x1=\"75%\" y1=\"10%\" x2=\"87.5%\" y2=\"20%\"></line><line x1=\"62.5%\" y1=\"20%\" x2=\"50%\" y2=\"30%\"></line><line x1=\"62.5%\" y1=\"20%\" x2=\"75%\" y2=\"30%\"></line><line x1=\"87.5%\" y1=\"20%\" x2=\"100%\" y2=\"30%\"></line><line x1=\"87.5%\" y1=\"20%\" x2=\"87.5%\" y2=\"40%\"></line><line x1=\"87.5%\" y1=\"20%\" x2=\"75%\" y2=\"30%\"></line><line x1=\"12.5%\" y1=\"20%\" x2=\"25%\" y2=\"30%\"></line><line x1=\"12.5%\" y1=\"20%\" x2=\"12.5%\" y2=\"40%\"></line><line x1=\"12.5%\" y1=\"20%\" x2=\"0%\" y2=\"30%\"></line><line x1=\"37.5%\" y1=\"20%\" x2=\"50%\" y2=\"30%\"></line><line x1=\"37.5%\" y1=\"20%\" x2=\"25%\" y2=\"30%\"></line><line x1=\"37.5%\" y1=\"20%\" x2=\"37.5%\" y2=\"30%\"></line><line x1=\"50%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"30%\" x2=\"62.5%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"30%\" x2=\"37.5%\" y2=\"40%\"></line><line x1=\"100%\" y1=\"30%\" x2=\"100%\" y2=\"40%\"></line><line x1=\"37.5%\" y1=\"30%\" x2=\"37.5%\" y2=\"40%\"></line><line x1=\"25%\" y1=\"30%\" x2=\"12.5%\" y2=\"40%\"></line><line x1=\"25%\" y1=\"30%\" x2=\"37.5%\" y2=\"40%\"></line><line x1=\"25%\" y1=\"30%\" x2=\"25%\" y2=\"40%\"></line><line x1=\"75%\" y1=\"30%\" x2=\"62.5%\" y2=\"40%\"></line><line x1=\"75%\" y1=\"30%\" x2=\"87.5%\" y2=\"40%\"></line><line x1=\"62.5%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"62.5%\" y1=\"40%\" x2=\"75%\" y2=\"50%\"></line><line x1=\"100%\" y1=\"40%\" x2=\"100%\" y2=\"50%\"></line><line x1=\"87.5%\" y1=\"40%\" x2=\"75%\" y2=\"50%\"></line><line x1=\"87.5%\" y1=\"40%\" x2=\"100%\" y2=\"50%\"></line><line x1=\"87.5%\" y1=\"40%\" x2=\"87.5%\" y2=\"50%\"></line><line x1=\"12.5%\" y1=\"40%\" x2=\"12.5%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"37.5%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"37.5%\" y1=\"40%\" x2=\"37.5%\" y2=\"50%\"></line><line x1=\"25%\" y1=\"40%\" x2=\"25%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"37.5%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"62.5%\" y2=\"60%\"></line><line x1=\"100%\" y1=\"50%\" x2=\"87.5%\" y2=\"60%\"></line><line x1=\"25%\" y1=\"50%\" x2=\"12.5%\" y2=\"60%\"></line><line x1=\"25%\" y1=\"50%\" x2=\"37.5%\" y2=\"60%\"></line><line x1=\"12.5%\" y1=\"50%\" x2=\"12.5%\" y2=\"60%\"></line><line x1=\"87.5%\" y1=\"50%\" x2=\"87.5%\" y2=\"60%\"></line><line x1=\"37.5%\" y1=\"50%\" x2=\"37.5%\" y2=\"60%\"></line><line x1=\"75%\" y1=\"50%\" x2=\"62.5%\" y2=\"60%\"></line><line x1=\"75%\" y1=\"50%\" x2=\"87.5%\" y2=\"60%\"></line><line x1=\"37.5%\" y1=\"60%\" x2=\"25%\" y2=\"70%\"></line><line x1=\"37.5%\" y1=\"60%\" x2=\"50%\" y2=\"70%\"></line><line x1=\"12.5%\" y1=\"60%\" x2=\"25%\" y2=\"70%\"></line><line x1=\"62.5%\" y1=\"60%\" x2=\"50%\" y2=\"70%\"></line><line x1=\"62.5%\" y1=\"60%\" x2=\"75%\" y2=\"70%\"></line><line x1=\"62.5%\" y1=\"60%\" x2=\"62.5%\" y2=\"70%\"></line><line x1=\"87.5%\" y1=\"60%\" x2=\"75%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"37.5%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"62.5%\" y2=\"80%\"></line><line x1=\"62.5%\" y1=\"70%\" x2=\"62.5%\" y2=\"80%\"></line><line x1=\"25%\" y1=\"70%\" x2=\"37.5%\" y2=\"80%\"></line><line x1=\"25%\" y1=\"70%\" x2=\"12.5%\" y2=\"80%\"></line><line x1=\"75%\" y1=\"70%\" x2=\"62.5%\" y2=\"80%\"></line><line x1=\"75%\" y1=\"70%\" x2=\"75%\" y2=\"80%\"></line><line x1=\"75%\" y1=\"70%\" x2=\"87.5%\" y2=\"80%\"></line><line x1=\"37.5%\" y1=\"80%\" x2=\"25%\" y2=\"90%\"></line><line x1=\"37.5%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"12.5%\" y1=\"80%\" x2=\"25%\" y2=\"90%\"></line><line x1=\"12.5%\" y1=\"80%\" x2=\"12.5%\" y2=\"90%\"></line><line x1=\"87.5%\" y1=\"80%\" x2=\"87.5%\" y2=\"100%\"></line><line x1=\"87.5%\" y1=\"80%\" x2=\"75%\" y2=\"90%\"></line><line x1=\"62.5%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"75%\" y1=\"80%\" x2=\"75%\" y2=\"90%\"></line><line x1=\"75%\" y1=\"90%\" x2=\"62.5%\" y2=\"100%\"></line><line x1=\"75%\" y1=\"90%\" x2=\"87.5%\" y2=\"100%\"></line><line x1=\"12.5%\" y1=\"90%\" x2=\"12.5%\" y2=\"100%\"></line><line x1=\"25%\" y1=\"90%\" x2=\"12.5%\" y2=\"100%\"></line><line x1=\"25%\" y1=\"90%\" x2=\"37.5%\" y2=\"100%\"></line><line x1=\"50%\" y1=\"90%\" x2=\"62.5%\" y2=\"100%\"></line><line x1=\"50%\" y1=\"90%\" x2=\"37.5%\" y2=\"100%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=121536?def=108858&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_angelicfeather.jpg\" alt=\"Angelic Feather\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=393870?def=108874&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_heal.jpg\" alt=\"Improved Flash Heal\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=14914?def=139056&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_searinglight.jpg\" alt=\"Holy Fire\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250818?def=108823&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_spiritualguidence.jpg\" alt=\"Spiritual Guidance\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=8122?def=108856&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_psychicscream.jpg\" alt=\"Psychic Scream\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=132157?def=108875&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_holynova.jpg\" alt=\"Holy Nova\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=528?def=108682&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_nullifydisease.jpg\" alt=\"Dispel Magic\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=10060?def=108839&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_powerinfusion.jpg\" alt=\"Power Infusion\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:100%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nzinsanity_fearofdeath.jpg\" alt=\"Sheer Terror\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_psychichorrors.jpg\" alt=\"Petrifying Scream\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390632?def=108860&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_nullifydisease.jpg\" alt=\"Improved Purify\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=73325?def=108872&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/priest_spell_leapoffaith_a.jpg\" alt=\"Leap of Faith\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1246549?def=108876&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_ability_holyfire_nova.jpg\" alt=\"Lightburst\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1251030?def=119742&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_mindsooth.jpg\" alt=\"Painful Invocation\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250820?def=108842&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_ashestoashes.jpg\" alt=\"Strength of Resolve\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:100%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_warrior_commandingshout.jpg\" alt=\"Psychic Voice\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_priest_voidtendrils.jpg\" alt=\"Void Tendrils\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:87.5%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_shadowworddominate.jpg\" alt=\"Mind Control\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_priest_void-flay.jpg\" alt=\"Dominate Mind\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=109186?def=108873&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_surgeoflight.jpg\" alt=\"Surge of Light\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=373466?def=139057&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_fire_felflamering_red.jpg\" alt=\"Twins of the Sun Priestess\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=32375?def=140912&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_massdispel.jpg\" alt=\"Mass Dispel\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=64129?def=140958&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_symbolofhope.jpg\" alt=\"Body and Soul\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1251077?def=108845&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_innerlightandshadow.jpg\" alt=\"Twin Disciplines\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=9484?def=108848&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_slow.jpg\" alt=\"Shackle Horror\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390620?def=108854&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_savinggrace.jpg\" alt=\"Move with Grace\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1249233?def=108857&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_greaterheal.jpg\" alt=\"Everlasting Light\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250806?def=139609&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_mindmastery.jpg\" alt=\"False Autonomy\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=341167?def=139620&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_dispelmagic.jpg\" alt=\"Mental Agility\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250835?def=139627&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_darkness.jpg\" alt=\"Dark Enlightenment\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=368275?def=108830&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_blindingheal.jpg\" alt=\"Binding Heals\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390676?def=108851&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_layonhands.jpg\" alt=\"Inspiration\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=32379?def=108869&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_demonicfortitude.jpg\" alt=\"Shadow Word: Death\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=373218?def=139628&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_archaeology_80_zandalari_sanguinetotem.jpg\" alt=\"Sanguine Teachings\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390972?def=108838&amp;rank=2&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_mindtwisting.jpg\" alt=\"Twist of Fate\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=373223?def=108868&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nzinsanity_bloodthirst.jpg\" alt=\"Tithe Evasion\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=19236?def=139614&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_testoffaith.jpg\" alt=\"Desperate Prayer\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=586?def=139617&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_magic_lesserinvisibilty.jpg\" alt=\"Fade\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=193063?def=108828&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_holyprotection.jpg\" alt=\"Protective Light\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=238100?def=108836&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_testoffaith.jpg\" alt=\"Angel's Mercy\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390670?def=108841&amp;rank=2&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_magic_lesserinvisibilty.jpg\" alt=\"Improved Fade\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1251029?def=139613&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_mindshear.jpg\" alt=\"Mindpierce\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250378?def=139616&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_priest_spectralguise.jpg\" alt=\"Spectral Illusion\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=108942?def=120895&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_phantasm.jpg\" alt=\"Phantasm\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=373450?def=108831&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_restoration.jpg\" alt=\"Light's Inspiration\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=373456?def=108852&amp;rank=2&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_warrior_unrelentingassault.jpg\" alt=\"Unwavering Will\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390667?def=139612&amp;rank=2&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_spellwarding.jpg\" alt=\"Spell Warding\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=459559?def=108824&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_chilltouch.jpg\" alt=\"Phantom Reach\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=108945?def=108826&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_angelicbulwark.jpg\" alt=\"Angelic Bulwark\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=415416?def=120896&amp;rank=1&amp;spellModifier=137031\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_spiritoftheredeemer.jpg\" alt=\"Benevolence\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=373446?def=108840&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_twistedfaith.jpg\" alt=\"Translucent Image\" loading=\"lazy\"></a></div></div></div></div></div><div class=\"talent-tree__container talent-tree__container--hero\" style=\"--rows:1;--talent-count:2\"><div class=\"talent-tree__hero-spacer\"></div><div class=\"talent-tree__container--height-limiter\" data-kind=\"hero\"><div class=\"talent-tree__hero-title do-not-change-color-on-hover Priest talent-tree__hero-title--horizontal \">Oracle</div><div class=\"talent-tree__hero-icon\"><span class=\"\"><div class=\"talent-tree__hero-icon--wrapper \"><img src=\"https://assets.rpglogs.com/img/warcraft/talents/hero/20_full.png\" alt=\"Oracle\"></div></span></div><div class=\"talent-tree__hero-container talent-tree__hero-container--compact\n          talent-tree__hero-container--horizontal\n          \"><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=440670?def=122290&amp;rank=1&amp;spellModifier=137031\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_angelicfeather.jpg\" alt=\"Divine Feathers\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=433905?def=122305&amp;rank=1&amp;spellModifier=137031\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_clarityofpurpose.jpg\" alt=\"Prophet's Will\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div data-kind=\"spec\" class=\"talent-tree__container talent-tree__container--spec\" style=\"--rows:11;--min-cols:9\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"spec\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--spec\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/priest-2.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--spec\"><div class=\"talent-tree__description__icon\"><img class=\"sprite actor-sprite-Priest-Holy\" src=\"https://assets.rpglogs.com/img/warcraft/icons/actors.jpg?v=43\" loading=\"lazy\" alt=\"\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Priest\">Spec</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"50%\" y2=\"18.181818181818183%\"></line><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"66.66666666666666%\" y2=\"18.181818181818183%\"></line><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"33.33333333333333%\" y2=\"18.181818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"16.666666666666664%\" y2=\"27.27272727272727%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"33.33333333333333%\" y2=\"36.36363636363637%\"></line><line x1=\"50%\" y1=\"18.181818181818183%\" x2=\"50%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"83.33333333333334%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"66.66666666666666%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"27.27272727272727%\" x2=\"66.66666666666666%\" y2=\"36.36363636363637%\"></line><line x1=\"16.666666666666664%\" y1=\"27.27272727272727%\" x2=\"16.666666666666664%\" y2=\"45.45454545454545%\"></line><line x1=\"16.666666666666664%\" y1=\"27.27272727272727%\" x2=\"33.33333333333333%\" y2=\"36.36363636363637%\"></line><line x1=\"16.666666666666664%\" y1=\"27.27272727272727%\" x2=\"0%\" y2=\"36.36363636363637%\"></line><line x1=\"50%\" y1=\"27.27272727272727%\" x2=\"66.66666666666666%\" y2=\"36.36363636363637%\"></line><line x1=\"50%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"83.33333333333334%\" y1=\"27.27272727272727%\" x2=\"66.66666666666666%\" y2=\"36.36363636363637%\"></line><line x1=\"83.33333333333334%\" y1=\"27.27272727272727%\" x2=\"100%\" y2=\"36.36363636363637%\"></line><line x1=\"100%\" y1=\"36.36363636363637%\" x2=\"83.33333333333334%\" y2=\"45.45454545454545%\"></line><line x1=\"66.66666666666666%\" y1=\"36.36363636363637%\" x2=\"50%\" y2=\"45.45454545454545%\"></line><line x1=\"66.66666666666666%\" y1=\"36.36363636363637%\" x2=\"83.33333333333334%\" y2=\"45.45454545454545%\"></line><line x1=\"66.66666666666666%\" y1=\"36.36363636363637%\" x2=\"66.66666666666666%\" y2=\"45.45454545454545%\"></line><line x1=\"33.33333333333333%\" y1=\"36.36363636363637%\" x2=\"50%\" y2=\"45.45454545454545%\"></line><line x1=\"33.33333333333333%\" y1=\"36.36363636363637%\" x2=\"33.33333333333333%\" y2=\"45.45454545454545%\"></line><line x1=\"33.33333333333333%\" y1=\"36.36363636363637%\" x2=\"16.666666666666664%\" y2=\"45.45454545454545%\"></line><line x1=\"0%\" y1=\"36.36363636363637%\" x2=\"0%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"50%\" y2=\"45.45454545454545%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"66.66666666666666%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"66.66666666666666%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"33.33333333333333%\" y2=\"54.54545454545454%\"></line><line x1=\"16.666666666666664%\" y1=\"45.45454545454545%\" x2=\"33.33333333333333%\" y2=\"54.54545454545454%\"></line><line x1=\"16.666666666666664%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"83.33333333333334%\" y1=\"45.45454545454545%\" x2=\"66.66666666666666%\" y2=\"54.54545454545454%\"></line><line x1=\"83.33333333333334%\" y1=\"45.45454545454545%\" x2=\"100%\" y2=\"54.54545454545454%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"33.33333333333333%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"66.66666666666666%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"66.66666666666666%\" y1=\"54.54545454545454%\" x2=\"83.33333333333334%\" y2=\"63.63636363636363%\"></line><line x1=\"0%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"0%\" y1=\"54.54545454545454%\" x2=\"0%\" y2=\"72.72727272727273%\"></line><line x1=\"33.33333333333333%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"33.33333333333333%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"100%\" y1=\"54.54545454545454%\" x2=\"100%\" y2=\"72.72727272727273%\"></line><line x1=\"100%\" y1=\"54.54545454545454%\" x2=\"83.33333333333334%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"50%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"100%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"0%\" y2=\"72.72727272727273%\"></line><line x1=\"0%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"0%\" y1=\"72.72727272727273%\" x2=\"0%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"33.33333333333333%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"100%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"100%\" y1=\"72.72727272727273%\" x2=\"100%\" y2=\"81.81818181818183%\"></line><line x1=\"50%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"100%\" y1=\"81.81818181818183%\" x2=\"83.33333333333334%\" y2=\"90.9090909090909%\"></line><line x1=\"83.33333333333334%\" y1=\"81.81818181818183%\" x2=\"66.66666666666666%\" y2=\"90.9090909090909%\"></line><line x1=\"83.33333333333334%\" y1=\"81.81818181818183%\" x2=\"83.33333333333334%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"50%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"66.66666666666666%\" y2=\"90.9090909090909%\"></line><line x1=\"0%\" y1=\"81.81818181818183%\" x2=\"16.666666666666664%\" y2=\"90.9090909090909%\"></line><line x1=\"16.666666666666664%\" y1=\"81.81818181818183%\" x2=\"16.666666666666664%\" y2=\"90.9090909090909%\"></line><line x1=\"16.666666666666664%\" y1=\"81.81818181818183%\" x2=\"33.33333333333333%\" y2=\"90.9090909090909%\"></line><line x1=\"33.33333333333333%\" y1=\"81.81818181818183%\" x2=\"50%\" y2=\"90.9090909090909%\"></line><line x1=\"33.33333333333333%\" y1=\"81.81818181818183%\" x2=\"33.33333333333333%\" y2=\"90.9090909090909%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=2050?def=108780&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_persuitofjustice.jpg\" alt=\"Holy Word: Serenity\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=34861?def=108771&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_divineprovidence.jpg\" alt=\"Holy Word: Sanctify\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=47788?def=108779&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_guardianspirit.jpg\" alt=\"Guardian Spirit\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=88625?def=108781&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_chastise.jpg\" alt=\"Holy Word: Chastise\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=200199?def=108758&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_eyeforaneye.jpg\" alt=\"Censure\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=596?def=108772&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_prayerofhealing02.jpg\" alt=\"Prayer of Healing\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=391124?def=108778&amp;rank=1&amp;spellModifier=137031\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_staff_2h_artifactheartofkure_d_03.jpg\" alt=\"Restitution\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=372616?def=108782&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_empyrealblaze.jpg\" alt=\"Empyreal Blaze\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=372307?def=108744&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_sacredcleansing.jpg\" alt=\"Burning Vehemence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390994?def=108759&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_heavanlyvoice.jpg\" alt=\"Voice of Harmony\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=238136?def=108770&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_ability_holyfire_nova.jpg\" alt=\"Cosmic Ripple\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=391209?def=108774&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_prayerofhealing02.jpg\" alt=\"Prayerful Litany\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=196707?def=108776&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_enchant_essencemagiclarge.jpg\" alt=\"Afterlife\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=193155?def=108757&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_mindmastery.jpg\" alt=\"Enlightenment\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=64843?def=108760&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_divinehymn.jpg\" alt=\"Divine Hymn\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250562?def=108761&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_persecution.jpg\" alt=\"Uplifting Words\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=193157?def=108784&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_monk_diffusemagic.jpg\" alt=\"Light's Resurgence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1248418?def=133140&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_ability_holyfire_wave.jpg\" alt=\"Cosmic Wave\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=419110?def=108752&amp;rank=1&amp;spellModifier=137031\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_divinehymn.jpg\" alt=\"Seraphic Crescendo\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=391233?def=108756&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_prayerofspirit.jpg\" alt=\"Divine Service\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1247131?def=108762&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_priest_finalprayer.jpg\" alt=\"Efficient Prayers\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1247166?def=108775&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_healingfocus.jpg\" alt=\"Healing Focus\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=341997?def=108785&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_pvp_innerrenewal.jpg\" alt=\"Renewed Faith\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=200183?def=108753&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_ascension.jpg\" alt=\"Apotheosis\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390977?def=108755&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_prayerofmendingtga.jpg\" alt=\"Prayers of the Virtuous\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250565?def=108767&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_hopeandgrace.jpg\" alt=\"Angelic Touch\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:0%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_spiritoftheredeemer.jpg\" alt=\"Dispersing Light\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_wordsofmeaning.jpg\" alt=\"Trail of Light\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=235587?def=108748&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_persuitofjustice.jpg\" alt=\"Miracle Worker\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1246517?def=108750&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_holywordlife.jpg\" alt=\"Ultimate Serenity\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=391186?def=108754&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_bindingprayers.jpg\" alt=\"Say Your Prayers\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1215245?def=133415&amp;rank=1&amp;spellModifier=137031\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_archangel.jpg\" alt=\"Eternal Sanctity\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250684?def=108743&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_priest_pontifex.jpg\" alt=\"Radiant Plea\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=391381?def=108746&amp;rank=2&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_pvp_defenderoftheweak.jpg\" alt=\"Desperate Times\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390967?def=108749&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_aspiration.jpg\" alt=\"Prismatic Echoes\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390954?def=108768&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_flashheal.jpg\" alt=\"Crisis Management\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=196985?def=108769&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_pet_naaru.jpg\" alt=\"Light of the Naaru\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=471668?def=133138&amp;rank=2&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_divineprovidence.jpg\" alt=\"Light in the Darkness\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=392988?def=108680&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_staff_2h_artifactheartofkure_d_04.jpg\" alt=\"Divine Image\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390992?def=108739&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_greaterheal.jpg\" alt=\"Lightweaver\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=414553?def=108745&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_studentofthemind.jpg\" alt=\"Epiphany\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1215275?def=108738&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_priest_pathofdevout.jpg\" alt=\"Holy Celerity\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=471504?def=108681&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_renew.jpg\" alt=\"Lasting Words\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:11;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1262755?def=141758&amp;rank=4&amp;spellModifier=137031\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_apextalent_priest_benediction.jpg\" alt=\"Benediction\" loading=\"lazy\"></span><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">4</span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div class=\"talent-tree__interactions-export \"><button class=\"talent-tree__interactions-export__copy-button \"><span>Export</span><i class=\"fa-solid fa-copy ml-1.5 text-amber-400\"></i></button><a href=\"https://www.wowhead.com/talent-calc/blizzard/CEQAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAMzMmlxMjZGDzALzMzMAAAAGzsMDmZmhZMzAYmCgZWwQYMLDwYgFjZWAYGzMGDmBYmZGYA\" target=\"_blank\" rel=\"noreferrer\" class=\"talent-tree__interactions-export__external-link\"><span>Edit</span><i class=\"fa-solid fa-arrow-up-right-from-square ml-1.5 text-amber-400\"></i></a></div></div></div>",
+        "talentTreeHtml": "<div class=\"builds-talent-tree-build-section__talent-trees\"><div class=\"talent-tree  talent-tree--compact\"><div class=\"talent-tree--container  talent-tree--container--default-layout\"><div data-kind=\"class\" class=\"talent-tree__container talent-tree__container--class\" style=\"--rows:10;--min-cols:12\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"class\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--class\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/priest-1.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--class\"><div class=\"talent-tree__description__icon\"><img src=\"https://wow.zamimg.com/images/wow/icons/large/classicon_priest.jpg\" alt=\"priest\" style=\"width:2.5rem;height:2.5rem;border-radius:9999px;border:2px solid #f59e0b;object-fit:cover;display:block;\" onerror=\"this.src='https://wow.zamimg.com/images/wow/icons/large/inv_misc_questionmark.jpg'\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Priest\">Class</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"10%\" x2=\"37.5%\" y2=\"20%\"></line><line x1=\"50%\" y1=\"10%\" x2=\"62.5%\" y2=\"20%\"></line><line x1=\"25%\" y1=\"10%\" x2=\"37.5%\" y2=\"20%\"></line><line x1=\"25%\" y1=\"10%\" x2=\"12.5%\" y2=\"20%\"></line><line x1=\"75%\" y1=\"10%\" x2=\"62.5%\" y2=\"20%\"></line><line x1=\"75%\" y1=\"10%\" x2=\"87.5%\" y2=\"20%\"></line><line x1=\"62.5%\" y1=\"20%\" x2=\"50%\" y2=\"30%\"></line><line x1=\"62.5%\" y1=\"20%\" x2=\"75%\" y2=\"30%\"></line><line x1=\"87.5%\" y1=\"20%\" x2=\"100%\" y2=\"30%\"></line><line x1=\"87.5%\" y1=\"20%\" x2=\"87.5%\" y2=\"40%\"></line><line x1=\"87.5%\" y1=\"20%\" x2=\"75%\" y2=\"30%\"></line><line x1=\"12.5%\" y1=\"20%\" x2=\"25%\" y2=\"30%\"></line><line x1=\"12.5%\" y1=\"20%\" x2=\"12.5%\" y2=\"40%\"></line><line x1=\"12.5%\" y1=\"20%\" x2=\"0%\" y2=\"30%\"></line><line x1=\"37.5%\" y1=\"20%\" x2=\"50%\" y2=\"30%\"></line><line x1=\"37.5%\" y1=\"20%\" x2=\"25%\" y2=\"30%\"></line><line x1=\"37.5%\" y1=\"20%\" x2=\"37.5%\" y2=\"30%\"></line><line x1=\"50%\" y1=\"30%\" x2=\"50%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"30%\" x2=\"62.5%\" y2=\"40%\"></line><line x1=\"50%\" y1=\"30%\" x2=\"37.5%\" y2=\"40%\"></line><line x1=\"100%\" y1=\"30%\" x2=\"100%\" y2=\"40%\"></line><line x1=\"37.5%\" y1=\"30%\" x2=\"37.5%\" y2=\"40%\"></line><line x1=\"25%\" y1=\"30%\" x2=\"12.5%\" y2=\"40%\"></line><line x1=\"25%\" y1=\"30%\" x2=\"37.5%\" y2=\"40%\"></line><line x1=\"25%\" y1=\"30%\" x2=\"25%\" y2=\"40%\"></line><line x1=\"75%\" y1=\"30%\" x2=\"62.5%\" y2=\"40%\"></line><line x1=\"75%\" y1=\"30%\" x2=\"87.5%\" y2=\"40%\"></line><line x1=\"62.5%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"62.5%\" y1=\"40%\" x2=\"75%\" y2=\"50%\"></line><line x1=\"100%\" y1=\"40%\" x2=\"100%\" y2=\"50%\"></line><line x1=\"87.5%\" y1=\"40%\" x2=\"75%\" y2=\"50%\"></line><line x1=\"87.5%\" y1=\"40%\" x2=\"100%\" y2=\"50%\"></line><line x1=\"87.5%\" y1=\"40%\" x2=\"87.5%\" y2=\"50%\"></line><line x1=\"12.5%\" y1=\"40%\" x2=\"12.5%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"37.5%\" y1=\"40%\" x2=\"50%\" y2=\"50%\"></line><line x1=\"37.5%\" y1=\"40%\" x2=\"37.5%\" y2=\"50%\"></line><line x1=\"25%\" y1=\"40%\" x2=\"25%\" y2=\"50%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"37.5%\" y2=\"60%\"></line><line x1=\"50%\" y1=\"50%\" x2=\"62.5%\" y2=\"60%\"></line><line x1=\"100%\" y1=\"50%\" x2=\"87.5%\" y2=\"60%\"></line><line x1=\"25%\" y1=\"50%\" x2=\"12.5%\" y2=\"60%\"></line><line x1=\"25%\" y1=\"50%\" x2=\"37.5%\" y2=\"60%\"></line><line x1=\"12.5%\" y1=\"50%\" x2=\"12.5%\" y2=\"60%\"></line><line x1=\"87.5%\" y1=\"50%\" x2=\"87.5%\" y2=\"60%\"></line><line x1=\"37.5%\" y1=\"50%\" x2=\"37.5%\" y2=\"60%\"></line><line x1=\"75%\" y1=\"50%\" x2=\"62.5%\" y2=\"60%\"></line><line x1=\"75%\" y1=\"50%\" x2=\"87.5%\" y2=\"60%\"></line><line x1=\"37.5%\" y1=\"60%\" x2=\"25%\" y2=\"70%\"></line><line x1=\"37.5%\" y1=\"60%\" x2=\"50%\" y2=\"70%\"></line><line x1=\"12.5%\" y1=\"60%\" x2=\"25%\" y2=\"70%\"></line><line x1=\"62.5%\" y1=\"60%\" x2=\"50%\" y2=\"70%\"></line><line x1=\"62.5%\" y1=\"60%\" x2=\"75%\" y2=\"70%\"></line><line x1=\"62.5%\" y1=\"60%\" x2=\"62.5%\" y2=\"70%\"></line><line x1=\"87.5%\" y1=\"60%\" x2=\"75%\" y2=\"70%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"37.5%\" y2=\"80%\"></line><line x1=\"50%\" y1=\"70%\" x2=\"62.5%\" y2=\"80%\"></line><line x1=\"62.5%\" y1=\"70%\" x2=\"62.5%\" y2=\"80%\"></line><line x1=\"25%\" y1=\"70%\" x2=\"37.5%\" y2=\"80%\"></line><line x1=\"25%\" y1=\"70%\" x2=\"12.5%\" y2=\"80%\"></line><line x1=\"75%\" y1=\"70%\" x2=\"62.5%\" y2=\"80%\"></line><line x1=\"75%\" y1=\"70%\" x2=\"75%\" y2=\"80%\"></line><line x1=\"75%\" y1=\"70%\" x2=\"87.5%\" y2=\"80%\"></line><line x1=\"37.5%\" y1=\"80%\" x2=\"25%\" y2=\"90%\"></line><line x1=\"37.5%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"12.5%\" y1=\"80%\" x2=\"25%\" y2=\"90%\"></line><line x1=\"12.5%\" y1=\"80%\" x2=\"12.5%\" y2=\"90%\"></line><line x1=\"87.5%\" y1=\"80%\" x2=\"87.5%\" y2=\"100%\"></line><line x1=\"87.5%\" y1=\"80%\" x2=\"75%\" y2=\"90%\"></line><line x1=\"62.5%\" y1=\"80%\" x2=\"50%\" y2=\"90%\"></line><line x1=\"75%\" y1=\"80%\" x2=\"75%\" y2=\"90%\"></line><line x1=\"75%\" y1=\"90%\" x2=\"62.5%\" y2=\"100%\"></line><line x1=\"75%\" y1=\"90%\" x2=\"87.5%\" y2=\"100%\"></line><line x1=\"12.5%\" y1=\"90%\" x2=\"12.5%\" y2=\"100%\"></line><line x1=\"25%\" y1=\"90%\" x2=\"12.5%\" y2=\"100%\"></line><line x1=\"25%\" y1=\"90%\" x2=\"37.5%\" y2=\"100%\"></line><line x1=\"50%\" y1=\"90%\" x2=\"62.5%\" y2=\"100%\"></line><line x1=\"50%\" y1=\"90%\" x2=\"37.5%\" y2=\"100%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=121536?def=108858&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_angelicfeather.jpg\" alt=\"Angelic Feather\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=393870?def=108874&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_heal.jpg\" alt=\"Improved Flash Heal\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=14914?def=139056&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_searinglight.jpg\" alt=\"Holy Fire\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250818?def=108823&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_spiritualguidence.jpg\" alt=\"Spiritual Guidance\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=8122?def=108856&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_psychicscream.jpg\" alt=\"Psychic Scream\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=132157?def=108875&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_holynova.jpg\" alt=\"Holy Nova\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=528?def=108682&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_nullifydisease.jpg\" alt=\"Dispel Magic\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=10060?def=108839&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_powerinfusion.jpg\" alt=\"Power Infusion\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:100%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nzinsanity_fearofdeath.jpg\" alt=\"Sheer Terror\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_psychichorrors.jpg\" alt=\"Petrifying Scream\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390632?def=108860&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_nullifydisease.jpg\" alt=\"Improved Purify\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=73325?def=108872&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/priest_spell_leapoffaith_a.jpg\" alt=\"Leap of Faith\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1246549?def=108876&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_ability_holyfire_nova.jpg\" alt=\"Lightburst\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1251030?def=119742&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_mindsooth.jpg\" alt=\"Painful Invocation\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250820?def=108842&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_ashestoashes.jpg\" alt=\"Strength of Resolve\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:100%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_warrior_commandingshout.jpg\" alt=\"Psychic Voice\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_priest_voidtendrils.jpg\" alt=\"Void Tendrils\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:87.5%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_shadowworddominate.jpg\" alt=\"Mind Control\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_priest_void-flay.jpg\" alt=\"Dominate Mind\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=109186?def=108873&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_surgeoflight.jpg\" alt=\"Surge of Light\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=373466?def=139057&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_fire_felflamering_red.jpg\" alt=\"Twins of the Sun Priestess\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=32375?def=140912&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_massdispel.jpg\" alt=\"Mass Dispel\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=64129?def=140958&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_symbolofhope.jpg\" alt=\"Body and Soul\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1251077?def=108845&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_innerlightandshadow.jpg\" alt=\"Twin Disciplines\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=9484?def=108848&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nature_slow.jpg\" alt=\"Shackle Horror\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390620?def=108854&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_savinggrace.jpg\" alt=\"Move with Grace\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1249233?def=108857&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_greaterheal.jpg\" alt=\"Everlasting Light\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250806?def=139609&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_mindmastery.jpg\" alt=\"False Autonomy\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=341167?def=139620&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_dispelmagic.jpg\" alt=\"Mental Agility\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250835?def=139627&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_darkness.jpg\" alt=\"Dark Enlightenment\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=368275?def=108830&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_blindingheal.jpg\" alt=\"Binding Heals\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390676?def=108851&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_layonhands.jpg\" alt=\"Inspiration\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=32379?def=108869&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_demonicfortitude.jpg\" alt=\"Shadow Word: Death\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=373218?def=139628&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_archaeology_80_zandalari_sanguinetotem.jpg\" alt=\"Sanguine Teachings\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390972?def=108838&amp;rank=2&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_mindtwisting.jpg\" alt=\"Twist of Fate\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=373223?def=108868&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_nzinsanity_bloodthirst.jpg\" alt=\"Tithe Evasion\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=19236?def=139614&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_testoffaith.jpg\" alt=\"Desperate Prayer\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=586?def=139617&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_magic_lesserinvisibilty.jpg\" alt=\"Fade\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=193063?def=108828&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_holyprotection.jpg\" alt=\"Protective Light\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=238100?def=108836&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_testoffaith.jpg\" alt=\"Angel's Mercy\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390670?def=108841&amp;rank=2&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_magic_lesserinvisibilty.jpg\" alt=\"Improved Fade\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1251029?def=139613&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_mindshear.jpg\" alt=\"Mindpierce\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250378?def=139616&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_priest_spectralguise.jpg\" alt=\"Spectral Illusion\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=108942?def=120895&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_phantasm.jpg\" alt=\"Phantasm\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=373450?def=108831&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_restoration.jpg\" alt=\"Light's Inspiration\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=373456?def=108852&amp;rank=2&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_warrior_unrelentingassault.jpg\" alt=\"Unwavering Will\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390667?def=139612&amp;rank=2&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_spellwarding.jpg\" alt=\"Spell Warding\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:62.5%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=459559?def=108824&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_chilltouch.jpg\" alt=\"Phantom Reach\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:12.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=108945?def=108826&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_angelicbulwark.jpg\" alt=\"Angelic Bulwark\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:37.5%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=415416?def=120896&amp;rank=1&amp;spellModifier=137031\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_spiritoftheredeemer.jpg\" alt=\"Benevolence\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:87.5%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=373446?def=108840&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_shadow_twistedfaith.jpg\" alt=\"Translucent Image\" loading=\"lazy\"></a></div></div></div></div></div><div class=\"talent-tree__container talent-tree__container--hero\" style=\"--rows:1;--talent-count:2\"><div class=\"talent-tree__hero-spacer\"></div><div class=\"talent-tree__container--height-limiter\" data-kind=\"hero\"><div class=\"talent-tree__hero-title do-not-change-color-on-hover Priest talent-tree__hero-title--horizontal \">Oracle</div><div class=\"talent-tree__hero-icon\"><span class=\"\"><div class=\"talent-tree__hero-icon--wrapper \"><img src=\"https://assets.rpglogs.com/img/warcraft/talents/hero/20_full.png\" alt=\"Oracle\"></div></span></div><div class=\"talent-tree__hero-container talent-tree__hero-container--compact\n          talent-tree__hero-container--horizontal\n          \"><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:25%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=440670?def=122290&amp;rank=1&amp;spellModifier=137031\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_angelicfeather.jpg\" alt=\"Divine Feathers\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:0.5;--posX:75%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=433905?def=122305&amp;rank=1&amp;spellModifier=137031\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_clarityofpurpose.jpg\" alt=\"Prophet's Will\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div data-kind=\"spec\" class=\"talent-tree__container talent-tree__container--spec\" style=\"--rows:11;--min-cols:9\"><div class=\"talent-tree__container--height-limiter\" data-expanded=\"true\" data-kind=\"spec\" data-exportable=\"true\"><div class=\"talent-tree__artwork talent-tree__artwork--spec\" style=\"background-image:url(https://assets.rpglogs.com/img/warcraft/talents/priest-2.jpg)\"></div><div class=\"talent-tree__description talent-tree__description--spec\"><div class=\"talent-tree__description__icon\"><img class=\"sprite actor-sprite-Priest-Holy\" src=\"https://assets.rpglogs.com/img/warcraft/icons/actors.jpg?v=43\" loading=\"lazy\" alt=\"\"></div><span class=\"talent-tree__description__label\"><span class=\"talent-tree__description__label--kind Priest\">Spec</span><span class=\"talent-tree__description__label--generic\">Talents</span></span></div><div class=\"talent-tree__implementation talent-tree__implementation--expanded \" data-expanded=\"true\"><svg class=\"talent-tree__implementation__svg\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"50%\" y2=\"18.181818181818183%\"></line><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"66.66666666666666%\" y2=\"18.181818181818183%\"></line><line x1=\"50%\" y1=\"9.090909090909092%\" x2=\"33.33333333333333%\" y2=\"18.181818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"16.666666666666664%\" y2=\"27.27272727272727%\"></line><line x1=\"33.33333333333333%\" y1=\"18.181818181818183%\" x2=\"33.33333333333333%\" y2=\"36.36363636363637%\"></line><line x1=\"50%\" y1=\"18.181818181818183%\" x2=\"50%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"83.33333333333334%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"18.181818181818183%\" x2=\"66.66666666666666%\" y2=\"27.27272727272727%\"></line><line x1=\"66.66666666666666%\" y1=\"27.27272727272727%\" x2=\"66.66666666666666%\" y2=\"36.36363636363637%\"></line><line x1=\"16.666666666666664%\" y1=\"27.27272727272727%\" x2=\"16.666666666666664%\" y2=\"45.45454545454545%\"></line><line x1=\"16.666666666666664%\" y1=\"27.27272727272727%\" x2=\"33.33333333333333%\" y2=\"36.36363636363637%\"></line><line x1=\"16.666666666666664%\" y1=\"27.27272727272727%\" x2=\"0%\" y2=\"36.36363636363637%\"></line><line x1=\"50%\" y1=\"27.27272727272727%\" x2=\"66.66666666666666%\" y2=\"36.36363636363637%\"></line><line x1=\"50%\" y1=\"27.27272727272727%\" x2=\"50%\" y2=\"36.36363636363637%\"></line><line x1=\"83.33333333333334%\" y1=\"27.27272727272727%\" x2=\"66.66666666666666%\" y2=\"36.36363636363637%\"></line><line x1=\"83.33333333333334%\" y1=\"27.27272727272727%\" x2=\"100%\" y2=\"36.36363636363637%\"></line><line x1=\"100%\" y1=\"36.36363636363637%\" x2=\"83.33333333333334%\" y2=\"45.45454545454545%\"></line><line x1=\"66.66666666666666%\" y1=\"36.36363636363637%\" x2=\"50%\" y2=\"45.45454545454545%\"></line><line x1=\"66.66666666666666%\" y1=\"36.36363636363637%\" x2=\"83.33333333333334%\" y2=\"45.45454545454545%\"></line><line x1=\"66.66666666666666%\" y1=\"36.36363636363637%\" x2=\"66.66666666666666%\" y2=\"45.45454545454545%\"></line><line x1=\"33.33333333333333%\" y1=\"36.36363636363637%\" x2=\"50%\" y2=\"45.45454545454545%\"></line><line x1=\"33.33333333333333%\" y1=\"36.36363636363637%\" x2=\"33.33333333333333%\" y2=\"45.45454545454545%\"></line><line x1=\"33.33333333333333%\" y1=\"36.36363636363637%\" x2=\"16.666666666666664%\" y2=\"45.45454545454545%\"></line><line x1=\"0%\" y1=\"36.36363636363637%\" x2=\"0%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"36.36363636363637%\" x2=\"50%\" y2=\"45.45454545454545%\"></line><line x1=\"66.66666666666666%\" y1=\"45.45454545454545%\" x2=\"66.66666666666666%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"66.66666666666666%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"50%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"45.45454545454545%\" x2=\"33.33333333333333%\" y2=\"54.54545454545454%\"></line><line x1=\"16.666666666666664%\" y1=\"45.45454545454545%\" x2=\"33.33333333333333%\" y2=\"54.54545454545454%\"></line><line x1=\"16.666666666666664%\" y1=\"45.45454545454545%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"83.33333333333334%\" y1=\"45.45454545454545%\" x2=\"66.66666666666666%\" y2=\"54.54545454545454%\"></line><line x1=\"83.33333333333334%\" y1=\"45.45454545454545%\" x2=\"100%\" y2=\"54.54545454545454%\"></line><line x1=\"33.33333333333333%\" y1=\"45.45454545454545%\" x2=\"33.33333333333333%\" y2=\"54.54545454545454%\"></line><line x1=\"50%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"66.66666666666666%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"66.66666666666666%\" y1=\"54.54545454545454%\" x2=\"83.33333333333334%\" y2=\"63.63636363636363%\"></line><line x1=\"0%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"0%\" y1=\"54.54545454545454%\" x2=\"0%\" y2=\"72.72727272727273%\"></line><line x1=\"33.33333333333333%\" y1=\"54.54545454545454%\" x2=\"50%\" y2=\"63.63636363636363%\"></line><line x1=\"33.33333333333333%\" y1=\"54.54545454545454%\" x2=\"16.666666666666664%\" y2=\"63.63636363636363%\"></line><line x1=\"100%\" y1=\"54.54545454545454%\" x2=\"100%\" y2=\"72.72727272727273%\"></line><line x1=\"100%\" y1=\"54.54545454545454%\" x2=\"83.33333333333334%\" y2=\"63.63636363636363%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"50%\" y1=\"63.63636363636363%\" x2=\"50%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"66.66666666666666%\" y2=\"72.72727272727273%\"></line><line x1=\"83.33333333333334%\" y1=\"63.63636363636363%\" x2=\"100%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"33.33333333333333%\" y2=\"72.72727272727273%\"></line><line x1=\"16.666666666666664%\" y1=\"63.63636363636363%\" x2=\"0%\" y2=\"72.72727272727273%\"></line><line x1=\"0%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"0%\" y1=\"72.72727272727273%\" x2=\"0%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"33.33333333333333%\" y2=\"81.81818181818183%\"></line><line x1=\"33.33333333333333%\" y1=\"72.72727272727273%\" x2=\"16.666666666666664%\" y2=\"81.81818181818183%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"66.66666666666666%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"100%\" y1=\"72.72727272727273%\" x2=\"83.33333333333334%\" y2=\"81.81818181818183%\"></line><line x1=\"100%\" y1=\"72.72727272727273%\" x2=\"100%\" y2=\"81.81818181818183%\"></line><line x1=\"50%\" y1=\"72.72727272727273%\" x2=\"50%\" y2=\"81.81818181818183%\"></line><line x1=\"100%\" y1=\"81.81818181818183%\" x2=\"83.33333333333334%\" y2=\"90.9090909090909%\"></line><line x1=\"83.33333333333334%\" y1=\"81.81818181818183%\" x2=\"66.66666666666666%\" y2=\"90.9090909090909%\"></line><line x1=\"83.33333333333334%\" y1=\"81.81818181818183%\" x2=\"83.33333333333334%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"50%\" y2=\"90.9090909090909%\"></line><line x1=\"50%\" y1=\"81.81818181818183%\" x2=\"66.66666666666666%\" y2=\"90.9090909090909%\"></line><line x1=\"0%\" y1=\"81.81818181818183%\" x2=\"16.666666666666664%\" y2=\"90.9090909090909%\"></line><line x1=\"16.666666666666664%\" y1=\"81.81818181818183%\" x2=\"16.666666666666664%\" y2=\"90.9090909090909%\"></line><line x1=\"16.666666666666664%\" y1=\"81.81818181818183%\" x2=\"33.33333333333333%\" y2=\"90.9090909090909%\"></line><line x1=\"33.33333333333333%\" y1=\"81.81818181818183%\" x2=\"50%\" y2=\"90.9090909090909%\"></line><line x1=\"33.33333333333333%\" y1=\"81.81818181818183%\" x2=\"33.33333333333333%\" y2=\"90.9090909090909%\"></line></svg><div class=\"talent-tree__implementation__nodes\"><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:1;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=2050?def=108780&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_persuitofjustice.jpg\" alt=\"Holy Word: Serenity\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=34861?def=108771&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_divineprovidence.jpg\" alt=\"Holy Word: Sanctify\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=47788?def=108779&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_guardianspirit.jpg\" alt=\"Guardian Spirit\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:2;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=88625?def=108781&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_chastise.jpg\" alt=\"Holy Word: Chastise\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=200199?def=108758&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_eyeforaneye.jpg\" alt=\"Censure\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-active talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=596?def=108772&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_prayerofhealing02.jpg\" alt=\"Prayer of Healing\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=391124?def=108778&amp;rank=1&amp;spellModifier=137031\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_staff_2h_artifactheartofkure_d_03.jpg\" alt=\"Restitution\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:3;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=372616?def=108782&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_empyrealblaze.jpg\" alt=\"Empyreal Blaze\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=372307?def=108744&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_paladin_sacredcleansing.jpg\" alt=\"Burning Vehemence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390994?def=108759&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_heavanlyvoice.jpg\" alt=\"Voice of Harmony\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=238136?def=108770&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_ability_holyfire_nova.jpg\" alt=\"Cosmic Ripple\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=391209?def=108774&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_prayerofhealing02.jpg\" alt=\"Prayerful Litany\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:4;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=196707?def=108776&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_enchant_essencemagiclarge.jpg\" alt=\"Afterlife\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=193155?def=108757&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_arcane_mindmastery.jpg\" alt=\"Enlightenment\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=64843?def=108760&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_divinehymn.jpg\" alt=\"Divine Hymn\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250562?def=108761&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_persecution.jpg\" alt=\"Uplifting Words\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=193157?def=108784&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_monk_diffusemagic.jpg\" alt=\"Light's Resurgence\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:5;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1248418?def=133140&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_ability_holyfire_wave.jpg\" alt=\"Cosmic Wave\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=419110?def=108752&amp;rank=1&amp;spellModifier=137031\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_divinehymn.jpg\" alt=\"Seraphic Crescendo\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=391233?def=108756&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_prayerofspirit.jpg\" alt=\"Divine Service\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1247131?def=108762&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_priest_finalprayer.jpg\" alt=\"Efficient Prayers\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1247166?def=108775&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_healingfocus.jpg\" alt=\"Healing Focus\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:6;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=341997?def=108785&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_pvp_innerrenewal.jpg\" alt=\"Renewed Faith\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-active  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=200183?def=108753&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_ascension.jpg\" alt=\"Apotheosis\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390977?def=108755&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_prayerofmendingtga.jpg\" alt=\"Prayers of the Virtuous\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:7;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250565?def=108767&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_hopeandgrace.jpg\" alt=\"Angelic Touch\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:0%\"><span class=\"talent-tree-node talent-tree-node-choice talent-tree-node--inactive \"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--inactive\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_spiritoftheredeemer.jpg\" alt=\"Dispersing Light\" loading=\"lazy\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_wordsofmeaning.jpg\" alt=\"Trail of Light\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay\"></div></span></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=235587?def=108748&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_persuitofjustice.jpg\" alt=\"Miracle Worker\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1246517?def=108750&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_holywordlife.jpg\" alt=\"Ultimate Serenity\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=391186?def=108754&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_bindingprayers.jpg\" alt=\"Say Your Prayers\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:8;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1215245?def=133415&amp;rank=1&amp;spellModifier=137031\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_priest_archangel.jpg\" alt=\"Eternal Sanctity\" loading=\"lazy\"></span><div class=\"talent-tree-node-choice__overlay \"></div></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:100%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1250684?def=108743&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_priest_pontifex.jpg\" alt=\"Radiant Plea\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=391381?def=108746&amp;rank=2&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_pvp_defenderoftheweak.jpg\" alt=\"Desperate Times\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390967?def=108749&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_aspiration.jpg\" alt=\"Prismatic Echoes\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:0%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390954?def=108768&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_flashheal.jpg\" alt=\"Crisis Management\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=196985?def=108769&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_pet_naaru.jpg\" alt=\"Light of the Naaru\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:9;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=471668?def=133138&amp;rank=2&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_divineprovidence.jpg\" alt=\"Light in the Darkness\" loading=\"lazy\"><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">2</span></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=392988?def=108680&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv_staff_2h_artifactheartofkure_d_04.jpg\" alt=\"Divine Image\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:16.666666666666664%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=390992?def=108739&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_greaterheal.jpg\" alt=\"Lightweaver\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:83.33333333333334%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=414553?def=108745&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/ability_mage_studentofthemind.jpg\" alt=\"Epiphany\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:33.33333333333333%\"><a class=\"talent-tree-node talent-tree-node-passive  \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1215275?def=108738&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_priest_pathofdevout.jpg\" alt=\"Holy Celerity\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:10;--posX:66.66666666666666%\"><a class=\"talent-tree-node talent-tree-node-passive talent-tree-node--inactive \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=471504?def=108681&amp;rank=1&amp;spellModifier=137031\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/spell_holy_renew.jpg\" alt=\"Lasting Words\" loading=\"lazy\"></a></div><div class=\"talent-tree__implementation__nodes--item\" style=\"--row:11;--posX:50%\"><a class=\"talent-tree-node talent-tree-node-choice talent-tree-node-choice--selected \" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.wowhead.com/spell=1262755?def=141758&amp;rank=4&amp;spellModifier=137031\"><span class=\"tooltip__trigger talent-tree-node-choice__tooltip-trigger--active\"><img src=\"https://assets.rpglogs.com/img/warcraft/abilities/inv12_apextalent_priest_benediction.jpg\" alt=\"Benediction\" loading=\"lazy\"></span><span class=\"talent-tree-node-multiple-points\" aria-hidden=\"true\">4</span><div class=\"talent-tree-node-choice__overlay \"></div></a></div></div></div></div></div></div><div class=\"talent-tree__interactions-export \"><button class=\"talent-tree__interactions-export__copy-button \"><span>Export</span><i class=\"fa-solid fa-copy ml-1.5 text-amber-400\"></i></button><a href=\"https://www.wowhead.com/talent-calc/blizzard/CEQAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAMzMmlxMjZGDzALzMzMAAAAGmlZYmZmhZMzAYmCgZWwQYMLDwYgFjZWAYGzMGDmBYmZGYA\" target=\"_blank\" rel=\"noreferrer\" class=\"talent-tree__interactions-export__external-link\"><span>Edit</span><i class=\"fa-solid fa-arrow-up-right-from-square ml-1.5 text-amber-400\"></i></a></div></div></div>",
         "bisGear": [
           {
             "id": 271555,
             "name": "",
             "params": "pcs=271553:271558:271555:271554&gems=240890&ench=8017",
-            "popularity": 82.4,
+            "popularity": 82.5,
             "parses": 5
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271553:271558:271555:271554:268265&gems=240983",
-            "popularity": 90.7,
-            "parses": 6
+            "popularity": 90.6,
+            "parses": 5
           },
           {
             "id": 271553,
             "name": "",
             "params": "pcs=271553:271558:271555:271554&ench=8001",
-            "popularity": 87.5,
+            "popularity": 87.4,
             "parses": 5
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8790&pcs=271553:271558:271555:271554:239656",
-            "popularity": 38.9,
+            "popularity": 39.5,
             "parses": 2
           },
           {
             "id": 271558,
             "name": "",
             "params": "pcs=271553:271558:271555:271554&ench=7987",
-            "popularity": 84.6,
+            "popularity": 84.3,
             "parses": 5
           },
           {
@@ -6701,27 +6701,27 @@ window.ARCHON_PRESETS = {
             "name": "",
             "params": "bonus=8790&pcs=271553:271558:271555:271554:239648&gems=240890",
             "popularity": 78.2,
-            "parses": 5
+            "parses": 4
           },
           {
             "id": 271556,
             "name": "",
             "params": "pcs=271553:271558:271555:271554:271556",
-            "popularity": 74.2,
-            "parses": 5
+            "popularity": 73.6,
+            "parses": 4
           },
           {
             "id": 239649,
             "name": "",
             "params": "bonus=8790&pcs=271553:271558:271555:271554:239649&gems=240890",
-            "popularity": 58.9,
-            "parses": 4
+            "popularity": 58.7,
+            "parses": 3
           },
           {
             "id": 271554,
             "name": "",
             "params": "pcs=271553:271558:271555:271554&ench=7935",
-            "popularity": 82.3,
+            "popularity": 82.1,
             "parses": 5
           },
           {
@@ -6742,35 +6742,35 @@ window.ARCHON_PRESETS = {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271553:271558:271555:271554:281029&gems=240890&ench=8025",
-            "popularity": 24.1,
+            "popularity": 25,
             "parses": 1
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271553:271558:271555:271554:271092&ench=8039",
-            "popularity": 83.1,
+            "popularity": 83.6,
             "parses": 5
           },
           {
             "id": 245769,
             "name": "",
             "params": "bonus=8790&pcs=271553:271558:271555:271554:245769",
-            "popularity": 42.5,
+            "popularity": 42.3,
             "parses": 2
           },
           {
             "id": 270162,
             "name": "",
             "params": "nofollow",
-            "popularity": 50.2,
+            "popularity": 49.6,
             "parses": 3
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 50.2,
+            "popularity": 49.6,
             "parses": 3
           }
         ]
@@ -6778,11 +6778,11 @@ window.ARCHON_PRESETS = {
     },
     "shadow": {
       "raid": {
-        "m": 1308,
-        "c": 776,
+        "m": 1310,
+        "c": 775,
         "h": 924,
-        "v": 136,
-        "dps": "316.3k",
+        "v": 137,
+        "dps": "317.1k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/1VD8cgfTrdyZLzKP#fight=41",
@@ -6794,8 +6794,8 @@ window.ARCHON_PRESETS = {
             "id": 271555,
             "name": "",
             "params": "pcs=271558:271555:271553:271556&gems=240892&ench=8017",
-            "popularity": 90.9,
-            "parses": 10
+            "popularity": 91.2,
+            "parses": 9
           },
           {
             "id": 268265,
@@ -6808,14 +6808,14 @@ window.ARCHON_PRESETS = {
             "id": 271553,
             "name": "",
             "params": "pcs=271558:271555:271553:271556&ench=8001",
-            "popularity": 89.3,
+            "popularity": 89.5,
             "parses": 9
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271558:271555:271553:271556:268253",
-            "popularity": 34.7,
+            "popularity": 35.2,
             "parses": 3
           },
           {
@@ -6829,87 +6829,87 @@ window.ARCHON_PRESETS = {
             "id": 239648,
             "name": "",
             "params": "bonus=8793&pcs=271558:271555:271553:271556:239648&gems=240892",
-            "popularity": 77.6,
+            "popularity": 77.4,
             "parses": 8
           },
           {
             "id": 271556,
             "name": "",
             "params": "pcs=271558:271555:271553:271556",
-            "popularity": 84.8,
+            "popularity": 85.1,
             "parses": 9
           },
           {
             "id": 239649,
             "name": "",
             "params": "bonus=8793&pcs=271558:271555:271553:271556:239649&gems=240892",
-            "popularity": 60.1,
+            "popularity": 60.2,
             "parses": 6
           },
           {
             "id": 271554,
             "name": "",
             "params": "pcs=271558:271555:271553:271556:271554&ench=7935",
-            "popularity": 81.2,
+            "popularity": 81.5,
             "parses": 8
           },
           {
             "id": 268255,
             "name": "",
             "params": "pcs=271558:271555:271553:271556:268255&ench=7963",
-            "popularity": 38.6,
+            "popularity": 39.2,
             "parses": 4
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271558:271555:271553:271556:281029&gems=240892&ench=7967",
-            "popularity": 66.6,
+            "popularity": 68.3,
             "parses": 7
           },
           {
             "id": 268249,
             "name": "",
             "params": "bonus=13534&pcs=271558:271555:271553:271556:268249&gems=240892&ench=7967",
-            "popularity": 34.4,
+            "popularity": 34.2,
             "parses": 3
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271558:271555:271553:271556:271092&ench=8689",
-            "popularity": 84.6,
+            "popularity": 84.3,
             "parses": 9
           },
           {
             "id": 268197,
             "name": "",
             "params": "pcs=271558:271555:271553:271556:268197",
-            "popularity": 33.5,
+            "popularity": 33.7,
             "parses": 3
           },
           {
             "id": 270169,
             "name": "",
             "params": "nofollow",
-            "popularity": 21.8,
+            "popularity": 23,
             "parses": 2
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 21.8,
+            "popularity": 23,
             "parses": 2
           }
         ]
       },
       "mplus": {
-        "m": 1288,
-        "c": 771,
-        "h": 958,
-        "v": 181,
-        "dps": "432.3k",
+        "m": 1291,
+        "c": 772,
+        "h": 960,
+        "v": 184,
+        "dps": "434.0k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/gm8Z1W2HRqAaYDzT#fight=13",
@@ -6921,56 +6921,56 @@ window.ARCHON_PRESETS = {
             "id": 271555,
             "name": "",
             "params": "pcs=271558:271555:271553:271554&gems=240892&ench=8017",
-            "popularity": 87.8,
+            "popularity": 88.3,
             "parses": 1
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271558:271555:271553:271554:268265&gems=240983",
-            "popularity": 95.1,
-            "parses": 2
+            "popularity": 95.2,
+            "parses": 1
           },
           {
             "id": 271553,
             "name": "",
             "params": "pcs=271558:271555:271553:271554&ench=8001",
-            "popularity": 81.9,
+            "popularity": 82.8,
             "parses": 1
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8793&pcs=271558:271555:271553:271554:239656",
-            "popularity": 33.3,
-            "parses": 689
+            "popularity": 32.9,
+            "parses": 629
           },
           {
             "id": 271558,
             "name": "",
             "params": "pcs=271558:271555:271553:271554&ench=7987",
-            "popularity": 88.8,
+            "popularity": 89.3,
             "parses": 1
           },
           {
             "id": 239648,
             "name": "",
             "params": "bonus=8793&pcs=271558:271555:271553:271554:239648&gems=240892",
-            "popularity": 83.3,
+            "popularity": 82.7,
             "parses": 1
           },
           {
             "id": 271556,
             "name": "",
             "params": "pcs=271558:271555:271553:271554:271556",
-            "popularity": 79,
+            "popularity": 78.6,
             "parses": 1
           },
           {
             "id": 239649,
             "name": "",
             "params": "bonus=8793&pcs=271558:271555:271553:271554:239649&gems=240892",
-            "popularity": 57.8,
+            "popularity": 58.3,
             "parses": 1
           },
           {
@@ -6984,50 +6984,50 @@ window.ARCHON_PRESETS = {
             "id": 268255,
             "name": "",
             "params": "pcs=271558:271555:271553:271554:268255&ench=7963",
-            "popularity": 24.9,
-            "parses": 515
+            "popularity": 26.4,
+            "parses": 505
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271558:271555:271553:271554:281029&gems=240892&ench=7967",
-            "popularity": 78.8,
+            "popularity": 81.2,
             "parses": 1
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8793&pcs=271558:271555:271553:271554:240949&gems=240892&ench=7967",
-            "popularity": 26.5,
-            "parses": 547
+            "popularity": 26.8,
+            "parses": 511
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271558:271555:271553:271554:271092&ench=8689",
-            "popularity": 91.1,
+            "popularity": 91.4,
             "parses": 1
           },
           {
             "id": 245769,
             "name": "",
             "params": "bonus=8793&pcs=271558:271555:271553:271554:245769",
-            "popularity": 37.3,
-            "parses": 772
+            "popularity": 37.2,
+            "parses": 711
           },
           {
             "id": 270169,
             "name": "",
             "params": "nofollow",
-            "popularity": 27.9,
-            "parses": 577
+            "popularity": 29.4,
+            "parses": 562
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 27.9,
-            "parses": 577
+            "popularity": 29.4,
+            "parses": 562
           }
         ]
       }
@@ -7039,8 +7039,8 @@ window.ARCHON_PRESETS = {
         "m": 832,
         "c": 1253,
         "h": 963,
-        "v": 151,
-        "dps": "283.1k",
+        "v": 150,
+        "dps": "284.0k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/gAL8njhHGt1fvdTD#fight=15",
@@ -7051,123 +7051,123 @@ window.ARCHON_PRESETS = {
           {
             "id": 271510,
             "name": "",
-            "params": "pcs=271513:271510:271508:271511&gems=240906&ench=8017",
-            "popularity": 87,
+            "params": "pcs=271513:271510:271511:271509&gems=240906&ench=8017",
+            "popularity": 87.3,
             "parses": 6
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271513:271510:271508:271511:268265&gems=240983",
-            "popularity": 90.4,
+            "params": "bonus=13534&pcs=271513:271510:271511:271509:268265&gems=240983",
+            "popularity": 90.3,
             "parses": 6
           },
           {
             "id": 271508,
             "name": "",
-            "params": "pcs=271513:271510:271508:271511&ench=8001",
-            "popularity": 86.8,
+            "params": "pcs=271513:271510:271511:271509:271508&ench=8001",
+            "popularity": 86.5,
             "parses": 6
           },
           {
             "id": 268253,
             "name": "",
-            "params": "pcs=271513:271510:271508:271511:268253",
-            "popularity": 32.8,
+            "params": "pcs=271513:271510:271511:271509:268253",
+            "popularity": 33.1,
             "parses": 2
           },
           {
             "id": 271513,
             "name": "",
-            "params": "pcs=271513:271510:271508:271511&ench=7987",
-            "popularity": 87.9,
+            "params": "pcs=271513:271510:271511:271509&ench=7987",
+            "popularity": 88.3,
             "parses": 6
           },
           {
             "id": 244576,
             "name": "",
-            "params": "bonus=8790&pcs=271513:271510:271508:271511:244576&gems=240906",
-            "popularity": 73.2,
+            "params": "bonus=8790&pcs=271513:271510:271511:271509:244576&gems=240906",
+            "popularity": 72.5,
             "parses": 5
           },
           {
             "id": 271511,
             "name": "",
-            "params": "pcs=271513:271510:271508:271511",
-            "popularity": 86.8,
+            "params": "pcs=271513:271510:271511:271509",
+            "popularity": 86.6,
             "parses": 6
           },
           {
             "id": 268256,
             "name": "",
-            "params": "pcs=271513:271510:271508:271511:268256&gems=240906",
-            "popularity": 32.6,
+            "params": "pcs=271513:271510:271511:271509:268256&gems=240906",
+            "popularity": 33.1,
             "parses": 2
           },
           {
             "id": 271509,
             "name": "",
-            "params": "pcs=271513:271510:271508:271511:271509&ench=8159",
-            "popularity": 86.7,
+            "params": "pcs=271513:271510:271511:271509&ench=8159",
+            "popularity": 86.5,
             "parses": 6
           },
           {
             "id": 244569,
             "name": "",
-            "params": "bonus=8790&pcs=271513:271510:271508:271511:244569&ench=7963",
-            "popularity": 52.1,
+            "params": "bonus=8790&pcs=271513:271510:271511:271509:244569&ench=7963",
+            "popularity": 52.5,
             "parses": 3
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271513:271510:271508:271511:281029&gems=240906&ench=7967",
-            "popularity": 58.9,
+            "params": "bonus=13534&pcs=271513:271510:271511:271509:281029&gems=240906&ench=7967",
+            "popularity": 60.7,
             "parses": 4
           },
           {
             "id": 268252,
             "name": "",
-            "params": "bonus=13534&pcs=271513:271510:271508:271511:268252&gems=240906&ench=7967",
-            "popularity": 41.7,
+            "params": "bonus=13534&pcs=271513:271510:271511:271509:268252&gems=240906&ench=7967",
+            "popularity": 41.6,
             "parses": 2
           },
           {
             "id": 271093,
             "name": "",
-            "params": "pcs=271513:271510:271508:271511:271093&ench=8689",
-            "popularity": 70,
+            "params": "pcs=271513:271510:271511:271509:271093&ench=8689",
+            "popularity": 70.4,
             "parses": 4
           },
           {
             "id": 237837,
             "name": "",
-            "params": "bonus=8790&pcs=271513:271510:271508:271511:237837&ench=8689",
-            "popularity": 71.2,
-            "parses": 4
+            "params": "bonus=8790&pcs=271513:271510:271511:271509:237837&ench=8689",
+            "popularity": 70.9,
+            "parses": 5
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 52.7,
+            "popularity": 54.4,
             "parses": 3
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 52.7,
+            "popularity": 54.4,
             "parses": 3
           }
         ]
       },
       "mplus": {
-        "m": 992,
+        "m": 997,
         "c": 1177,
-        "h": 922,
-        "v": 220,
-        "dps": "653.5k",
+        "h": 924,
+        "v": 218,
+        "dps": "659.7k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/2QwHtKvcGNCBbJak#fight=13",
@@ -7179,124 +7179,124 @@ window.ARCHON_PRESETS = {
             "id": 271510,
             "name": "",
             "params": "pcs=271510:271513:271509:271508&gems=240898&ench=8017",
-            "popularity": 90.4,
-            "parses": 1
+            "popularity": 90.7,
+            "parses": 993
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271510:271513:271509:271508:268265&gems=240983",
-            "popularity": 94.1,
+            "popularity": 94.3,
             "parses": 1
           },
           {
             "id": 271508,
             "name": "",
             "params": "pcs=271510:271513:271509:271508&ench=8001",
-            "popularity": 76.6,
-            "parses": 886
+            "popularity": 76.2,
+            "parses": 834
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8791&pcs=271510:271513:271509:271508:239656",
-            "popularity": 42.1,
-            "parses": 487
+            "popularity": 39.9,
+            "parses": 437
           },
           {
             "id": 271513,
             "name": "",
             "params": "pcs=271510:271513:271509:271508&ench=7987",
-            "popularity": 84.4,
-            "parses": 976
+            "popularity": 84.9,
+            "parses": 930
           },
           {
             "id": 244576,
             "name": "",
             "params": "bonus=8791&pcs=271510:271513:271509:271508:244576&gems=240898",
-            "popularity": 79.8,
-            "parses": 923
+            "popularity": 79,
+            "parses": 865
           },
           {
             "id": 271511,
             "name": "",
             "params": "pcs=271510:271513:271509:271508:271511",
-            "popularity": 73.1,
-            "parses": 846
+            "popularity": 73.2,
+            "parses": 802
           },
           {
             "id": 268256,
             "name": "",
             "params": "pcs=271510:271513:271509:271508:268256&gems=240898",
-            "popularity": 27.7,
-            "parses": 321
+            "popularity": 28.9,
+            "parses": 317
           },
           {
             "id": 271509,
             "name": "",
             "params": "pcs=271510:271513:271509:271508&ench=8159",
-            "popularity": 81.1,
-            "parses": 938
+            "popularity": 82.2,
+            "parses": 900
           },
           {
             "id": 244569,
             "name": "",
             "params": "bonus=8791&pcs=271510:271513:271509:271508:244569&ench=7963",
-            "popularity": 72.1,
-            "parses": 834
+            "popularity": 71,
+            "parses": 777
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271510:271513:271509:271508:281029&gems=240898&ench=7967",
-            "popularity": 81.5,
-            "parses": 943
+            "popularity": 82.9,
+            "parses": 908
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8791&pcs=271510:271513:271509:271508:240949&gems=240898&ench=7967",
-            "popularity": 35.6,
-            "parses": 412
+            "popularity": 35.4,
+            "parses": 388
           },
           {
             "id": 271093,
             "name": "",
             "params": "pcs=271510:271513:271509:271508:271093&ench=8689",
-            "popularity": 85.7,
-            "parses": 991
+            "popularity": 87,
+            "parses": 953
           },
           {
             "id": 237837,
             "name": "",
             "params": "bonus=8791&pcs=271510:271513:271509:271508:237837&ench=8689",
-            "popularity": 75.7,
-            "parses": 876
+            "popularity": 75.6,
+            "parses": 828
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 84.4,
-            "parses": 976
+            "popularity": 85.9,
+            "parses": 941
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 84.4,
-            "parses": 976
+            "popularity": 85.9,
+            "parses": 941
           }
         ]
       }
     },
     "outlaw": {
       "raid": {
-        "m": 249,
-        "c": 1323,
-        "h": 1033,
-        "v": 489,
-        "dps": "263.9k",
+        "m": 254,
+        "c": 1310,
+        "h": 1019,
+        "v": 484,
+        "dps": "263.1k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/aHkvYKVx9d6bwMfr#fight=27",
@@ -7308,122 +7308,122 @@ window.ARCHON_PRESETS = {
             "id": 271510,
             "name": "",
             "params": "pcs=271508:271513:271509:271510&gems=240890&ench=7961",
-            "popularity": 76.7,
-            "parses": 634
+            "popularity": 75.6,
+            "parses": 602
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271508:271513:271509:271510:268265&gems=240983",
-            "popularity": 88.6,
-            "parses": 733
+            "popularity": 87.2,
+            "parses": 694
           },
           {
             "id": 271508,
             "name": "",
             "params": "pcs=271508:271513:271509:271510&ench=8031",
-            "popularity": 91.5,
-            "parses": 757
+            "popularity": 90.1,
+            "parses": 717
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8790&pcs=271508:271513:271509:271510:239656",
-            "popularity": 29.5,
-            "parses": 244
+            "popularity": 28.6,
+            "parses": 228
           },
           {
             "id": 271513,
             "name": "",
             "params": "pcs=271508:271513:271509:271510&ench=7987",
-            "popularity": 90,
-            "parses": 744
+            "popularity": 89.1,
+            "parses": 709
           },
           {
             "id": 244576,
             "name": "",
             "params": "bonus=8790&pcs=271508:271513:271509:271510:244576&gems=240890",
-            "popularity": 38.9,
-            "parses": 322
+            "popularity": 38.6,
+            "parses": 307
           },
           {
             "id": 271511,
             "name": "",
             "params": "pcs=271508:271513:271509:271510:271511",
-            "popularity": 71.5,
-            "parses": 591
+            "popularity": 72.1,
+            "parses": 574
           },
           {
             "id": 244573,
             "name": "",
             "params": "bonus=8790&pcs=271508:271513:271509:271510:244573&gems=240890",
-            "popularity": 49,
-            "parses": 405
+            "popularity": 48.2,
+            "parses": 384
           },
           {
             "id": 271509,
             "name": "",
             "params": "pcs=271508:271513:271509:271510&ench=8159",
-            "popularity": 88.6,
-            "parses": 733
+            "popularity": 87.7,
+            "parses": 698
           },
           {
             "id": 244569,
             "name": "",
             "params": "bonus=8790&pcs=271508:271513:271509:271510:244569&ench=7993",
-            "popularity": 62.4,
-            "parses": 516
+            "popularity": 63.6,
+            "parses": 506
           },
           {
             "id": 268252,
             "name": "",
             "params": "bonus=13534&pcs=271508:271513:271509:271510:268252&gems=240890&ench=7967",
-            "popularity": 50.9,
-            "parses": 421
+            "popularity": 51,
+            "parses": 406
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8790&pcs=271508:271513:271509:271510:240949&gems=240890&ench=7967",
-            "popularity": 40.4,
-            "parses": 334
+            "popularity": 38.6,
+            "parses": 307
           },
           {
             "id": 268209,
             "name": "",
             "params": "pcs=271508:271513:271509:271510:268209&ench=8689",
-            "popularity": 87.4,
-            "parses": 723
+            "popularity": 86.9,
+            "parses": 692
           },
           {
             "id": 271093,
             "name": "",
             "params": "pcs=271508:271513:271509:271510:271093&ench=8689",
-            "popularity": 65.9,
-            "parses": 545
+            "popularity": 65.3,
+            "parses": 520
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 67.4,
-            "parses": 557
+            "popularity": 65.6,
+            "parses": 522
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 67.4,
-            "parses": 557
+            "popularity": 65.6,
+            "parses": 522
           }
         ]
       },
       "mplus": {
-        "m": 319,
+        "m": 330,
         "c": 1242,
-        "h": 877,
-        "v": 628,
-        "dps": "489.1k",
+        "h": 873,
+        "v": 653,
+        "dps": "487.4k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/QLtTN4Kqj89d3MXD#fight=8",
@@ -7434,113 +7434,113 @@ window.ARCHON_PRESETS = {
           {
             "id": 271510,
             "name": "",
-            "params": "pcs=271508:271510:271513:271509&gems=240910&ench=7961",
-            "popularity": 96.5,
-            "parses": 251
+            "params": "pcs=271510:271508:271513:271509&gems=240910&ench=7961",
+            "popularity": 95.9,
+            "parses": 234
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271508:271510:271513:271509:268265&gems=240983",
-            "popularity": 94.2,
-            "parses": 245
+            "params": "bonus=13534&pcs=271510:271508:271513:271509:268265&gems=240983",
+            "popularity": 94.3,
+            "parses": 230
           },
           {
             "id": 271508,
             "name": "",
-            "params": "pcs=271508:271510:271513:271509&ench=8031",
-            "popularity": 96.9,
-            "parses": 252
+            "params": "pcs=271510:271508:271513:271509&ench=8031",
+            "popularity": 95.5,
+            "parses": 233
           },
           {
             "id": 239656,
             "name": "",
-            "params": "bonus=8795&pcs=271508:271510:271513:271509:239656",
-            "popularity": 31.2,
-            "parses": 81
+            "params": "bonus=8795&pcs=271510:271508:271513:271509:239656",
+            "popularity": 31.1,
+            "parses": 76
           },
           {
             "id": 271513,
             "name": "",
-            "params": "pcs=271508:271510:271513:271509&ench=7987",
-            "popularity": 95,
-            "parses": 247
+            "params": "pcs=271510:271508:271513:271509&ench=7987",
+            "popularity": 93.9,
+            "parses": 229
           },
           {
             "id": 244576,
             "name": "",
-            "params": "bonus=8795&pcs=271508:271510:271513:271509:244576&gems=240910",
-            "popularity": 54.6,
-            "parses": 142
+            "params": "bonus=8795&pcs=271510:271508:271513:271509:244576&gems=240910",
+            "popularity": 52,
+            "parses": 127
           },
           {
-            "id": 244575,
+            "id": 271511,
             "name": "",
-            "params": "bonus=8795&pcs=271508:271510:271513:271509:244575",
-            "popularity": 48.1,
-            "parses": 125
+            "params": "pcs=271510:271508:271513:271509:271511",
+            "popularity": 46.7,
+            "parses": 114
           },
           {
             "id": 244573,
             "name": "",
-            "params": "bonus=8795&pcs=271508:271510:271513:271509:244573&gems=240910",
-            "popularity": 43.5,
-            "parses": 113
+            "params": "bonus=8795&pcs=271510:271508:271513:271509:244573&gems=240910",
+            "popularity": 44.3,
+            "parses": 108
           },
           {
             "id": 271509,
             "name": "",
-            "params": "pcs=271508:271510:271513:271509&ench=8159",
-            "popularity": 78.1,
-            "parses": 203
+            "params": "pcs=271510:271508:271513:271509&ench=8159",
+            "popularity": 77.9,
+            "parses": 190
           },
           {
             "id": 244569,
             "name": "",
-            "params": "bonus=8795&pcs=271508:271510:271513:271509:244569&ench=7993",
-            "popularity": 70.4,
-            "parses": 183
+            "params": "bonus=8795&pcs=271510:271508:271513:271509:244569&ench=7993",
+            "popularity": 67.2,
+            "parses": 164
           },
           {
             "id": 240949,
             "name": "",
-            "params": ":8795&pcs=271508:271510:271513:271509:240949&gems=240910&ench=7967",
-            "popularity": 65.8,
-            "parses": 171
+            "params": ":8795&pcs=271510:271508:271513:271509:240949&gems=240910&ench=7967",
+            "popularity": 66.4,
+            "parses": 162
           },
           {
             "id": 268252,
             "name": "",
-            "params": "bonus=13534&pcs=271508:271510:271513:271509:268252&gems=240910&ench=7967",
-            "popularity": 49.6,
-            "parses": 129
+            "params": "bonus=13534&pcs=271510:271508:271513:271509:268252&gems=240910&ench=7967",
+            "popularity": 48.8,
+            "parses": 119
           },
           {
             "id": 268209,
             "name": "",
-            "params": "pcs=271508:271510:271513:271509:268209&ench=8689",
-            "popularity": 95.8,
-            "parses": 249
+            "params": "pcs=271510:271508:271513:271509:268209&ench=8689",
+            "popularity": 95.5,
+            "parses": 233
           },
           {
             "id": 271093,
             "name": "",
-            "params": "pcs=271508:271510:271513:271509:271093&ench=8689",
-            "popularity": 77.7,
-            "parses": 202
+            "params": "pcs=271510:271508:271513:271509:271093&ench=8689",
+            "popularity": 80.7,
+            "parses": 197
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 63.1,
+            "popularity": 67.2,
             "parses": 164
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 63.1,
+            "popularity": 67.2,
             "parses": 164
           }
         ]
@@ -7548,11 +7548,11 @@ window.ARCHON_PRESETS = {
     },
     "subtlety": {
       "raid": {
-        "m": 1223,
-        "c": 995,
-        "h": 811,
-        "v": 170,
-        "dps": "379.6k",
+        "m": 1244,
+        "c": 994,
+        "h": 812,
+        "v": 168,
+        "dps": "378.2k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/x7gDj9bmdAy8YNah#fight=20",
@@ -7564,91 +7564,91 @@ window.ARCHON_PRESETS = {
             "id": 271510,
             "name": "",
             "params": "pcs=271510:271513:271508:271511&gems=240898&ench=8017",
-            "popularity": 91.1,
+            "popularity": 91,
             "parses": 16
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271510:271513:271508:271511:268265&gems=240983",
-            "popularity": 94.2,
-            "parses": 17
+            "popularity": 94.4,
+            "parses": 16
           },
           {
             "id": 271508,
             "name": "",
             "params": "pcs=271510:271513:271508:271511&ench=8001",
-            "popularity": 84.8,
-            "parses": 15
+            "popularity": 84.7,
+            "parses": 14
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271510:271513:271508:271511:268253",
-            "popularity": 35.7,
+            "popularity": 36.8,
             "parses": 6
           },
           {
             "id": 271513,
             "name": "",
             "params": "pcs=271510:271513:271508:271511&ench=7987",
-            "popularity": 88.5,
-            "parses": 16
+            "popularity": 89,
+            "parses": 15
           },
           {
             "id": 244576,
             "name": "",
             "params": "bonus=8791&pcs=271510:271513:271508:271511:244576&gems=240898",
-            "popularity": 79.3,
-            "parses": 14
+            "popularity": 79.1,
+            "parses": 13
           },
           {
             "id": 271511,
             "name": "",
             "params": "pcs=271510:271513:271508:271511",
-            "popularity": 84.5,
-            "parses": 15
+            "popularity": 84.4,
+            "parses": 14
           },
           {
             "id": 268256,
             "name": "",
             "params": "pcs=271510:271513:271508:271511:268256&gems=240898",
-            "popularity": 34.5,
+            "popularity": 35.2,
             "parses": 6
           },
           {
             "id": 271509,
             "name": "",
             "params": "pcs=271510:271513:271508:271511:271509&ench=8159",
-            "popularity": 83.7,
-            "parses": 15
+            "popularity": 84.1,
+            "parses": 14
           },
           {
             "id": 244569,
             "name": "",
             "params": "bonus=8791&pcs=271510:271513:271508:271511:244569&ench=7963",
-            "popularity": 55.9,
-            "parses": 10
+            "popularity": 55.3,
+            "parses": 9
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271510:271513:271508:271511:281029&gems=240898&ench=7967",
-            "popularity": 70,
+            "popularity": 72.3,
             "parses": 12
           },
           {
-            "id": 240949,
+            "id": 268249,
             "name": "",
-            "params": ":8791&pcs=271510:271513:271508:271511:240949&gems=240898&ench=7967",
-            "popularity": 37.4,
+            "params": "bonus=13534&pcs=271510:271513:271508:271511:268249&gems=240898&ench=7967",
+            "popularity": 37.1,
             "parses": 6
           },
           {
             "id": 271093,
             "name": "",
             "params": "pcs=271510:271513:271508:271511:271093&ench=8689",
-            "popularity": 76,
+            "popularity": 76.1,
             "parses": 13
           },
           {
@@ -7662,24 +7662,24 @@ window.ARCHON_PRESETS = {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 52.3,
+            "popularity": 54.1,
             "parses": 9
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 52.3,
+            "popularity": 54.1,
             "parses": 9
           }
         ]
       },
       "mplus": {
-        "m": 1355,
-        "c": 984,
-        "h": 765,
-        "v": 216,
-        "dps": "612.2k",
+        "m": 1370,
+        "c": 982,
+        "h": 766,
+        "v": 212,
+        "dps": "611.3k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/31F8rbhd7VtWTxCH#fight=1",
@@ -7691,113 +7691,113 @@ window.ARCHON_PRESETS = {
             "id": 271510,
             "name": "",
             "params": "pcs=271510:271513:271511:271509&gems=240898&ench=8017",
-            "popularity": 89.2,
-            "parses": 11
+            "popularity": 89.3,
+            "parses": 10
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271510:271513:271511:271509:268265&gems=240983",
-            "popularity": 93.5,
-            "parses": 12
+            "popularity": 93.8,
+            "parses": 10
           },
           {
             "id": 271508,
             "name": "",
             "params": "pcs=271510:271513:271511:271509:271508&ench=8001",
-            "popularity": 77.2,
-            "parses": 10
+            "popularity": 77.3,
+            "parses": 9
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8791&pcs=271510:271513:271511:271509:239656",
-            "popularity": 44.4,
+            "popularity": 43.2,
             "parses": 5
           },
           {
             "id": 271513,
             "name": "",
             "params": "pcs=271510:271513:271511:271509&ench=7987",
-            "popularity": 86.6,
-            "parses": 11
+            "popularity": 86.9,
+            "parses": 10
           },
           {
             "id": 244576,
             "name": "",
             "params": "bonus=8791&pcs=271510:271513:271511:271509:244576&gems=240898",
-            "popularity": 82.7,
-            "parses": 10
+            "popularity": 82.9,
+            "parses": 9
           },
           {
             "id": 271511,
             "name": "",
             "params": "pcs=271510:271513:271511:271509",
-            "popularity": 80.8,
-            "parses": 10
+            "popularity": 80.7,
+            "parses": 9
           },
           {
             "id": 268256,
             "name": "",
             "params": "pcs=271510:271513:271511:271509:268256&gems=240898",
-            "popularity": 33.5,
+            "popularity": 34.7,
             "parses": 4
           },
           {
             "id": 271509,
             "name": "",
             "params": "pcs=271510:271513:271511:271509&ench=8159",
-            "popularity": 79.5,
-            "parses": 10
+            "popularity": 80.2,
+            "parses": 9
           },
           {
             "id": 244569,
             "name": "",
             "params": "bonus=8791&pcs=271510:271513:271511:271509:244569&ench=7963",
-            "popularity": 68.3,
-            "parses": 8
+            "popularity": 67,
+            "parses": 7
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271510:271513:271511:271509:281029&gems=240898&ench=7967",
-            "popularity": 72.1,
-            "parses": 9
+            "popularity": 74.8,
+            "parses": 8
           },
           {
-            "id": 240949,
+            "id": 268249,
             "name": "",
-            "params": ":8791&pcs=271510:271513:271511:271509:240949&gems=240898&ench=7967",
-            "popularity": 46,
-            "parses": 6
+            "params": "bonus=13534&pcs=271510:271513:271511:271509:268249&gems=240898&ench=7967",
+            "popularity": 44.4,
+            "parses": 5
           },
           {
             "id": 271093,
             "name": "",
             "params": "pcs=271510:271513:271511:271509:271093&ench=8689",
-            "popularity": 78.4,
-            "parses": 10
+            "popularity": 79,
+            "parses": 9
           },
           {
             "id": 237837,
             "name": "",
             "params": "bonus=8791&pcs=271510:271513:271511:271509:237837&ench=8689",
-            "popularity": 77.4,
-            "parses": 10
+            "popularity": 77.8,
+            "parses": 9
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 74.1,
-            "parses": 9
+            "popularity": 76.2,
+            "parses": 8
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 74.1,
-            "parses": 9
+            "popularity": 76.2,
+            "parses": 8
           }
         ]
       }
@@ -7806,11 +7806,11 @@ window.ARCHON_PRESETS = {
   "shaman": {
     "elemental": {
       "raid": {
-        "m": 1091,
-        "c": 1040,
-        "h": 740,
+        "m": 1092,
+        "c": 1039,
+        "h": 747,
         "v": 144,
-        "dps": "272.3k",
+        "dps": "273.1k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/v3ZQ2r8zpTjnfqPh#fight=50",
@@ -7822,15 +7822,15 @@ window.ARCHON_PRESETS = {
             "id": 271483,
             "name": "",
             "params": "pcs=271481:271486:271483:271484&gems=240908&ench=8017",
-            "popularity": 91.7,
-            "parses": 15
+            "popularity": 91.6,
+            "parses": 14
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271481:271486:271483:271484:268265&gems=240983",
             "popularity": 96.8,
-            "parses": 16
+            "parses": 15
           },
           {
             "id": 271481,
@@ -7843,14 +7843,14 @@ window.ARCHON_PRESETS = {
             "id": 239656,
             "name": "",
             "params": "bonus=8790&pcs=271481:271486:271483:271484:239656",
-            "popularity": 39.8,
+            "popularity": 39.1,
             "parses": 6
           },
           {
             "id": 271486,
             "name": "",
             "params": "pcs=271481:271486:271483:271484&ench=7987",
-            "popularity": 92.3,
+            "popularity": 92.2,
             "parses": 15
           },
           {
@@ -7864,14 +7864,14 @@ window.ARCHON_PRESETS = {
             "id": 271484,
             "name": "",
             "params": "pcs=271481:271486:271483:271484",
-            "popularity": 88.3,
+            "popularity": 88.6,
             "parses": 14
           },
           {
             "id": 244581,
             "name": "",
             "params": "bonus=8790&pcs=271481:271486:271483:271484:244581&gems=240908",
-            "popularity": 43,
+            "popularity": 43.1,
             "parses": 7
           },
           {
@@ -7879,7 +7879,7 @@ window.ARCHON_PRESETS = {
             "name": "",
             "params": "pcs=271481:271486:271483:271484:271482&ench=7935",
             "popularity": 67.1,
-            "parses": 11
+            "parses": 10
           },
           {
             "id": 268258,
@@ -7892,52 +7892,52 @@ window.ARCHON_PRESETS = {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271481:271486:271483:271484:281029&gems=240908&ench=7967",
-            "popularity": 65.3,
+            "popularity": 66.9,
             "parses": 10
           },
           {
             "id": 268252,
             "name": "",
             "params": "bonus=13534&pcs=271481:271486:271483:271484:268252&gems=240908&ench=7967",
-            "popularity": 39.4,
+            "popularity": 39.9,
             "parses": 6
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271481:271486:271483:271484:271092&ench=8689",
-            "popularity": 87,
+            "popularity": 86.9,
             "parses": 14
           },
           {
             "id": 268196,
             "name": "",
             "params": "pcs=271481:271486:271483:271484:268196&ench=4216",
-            "popularity": 38.9,
+            "popularity": 39.4,
             "parses": 6
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 41.5,
-            "parses": 6
+            "popularity": 43.3,
+            "parses": 7
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 41.5,
-            "parses": 6
+            "popularity": 43.3,
+            "parses": 7
           }
         ]
       },
       "mplus": {
-        "m": 1075,
-        "c": 1106,
-        "h": 742,
-        "v": 258,
-        "dps": "520.0k",
+        "m": 1074,
+        "c": 1105,
+        "h": 745,
+        "v": 255,
+        "dps": "522.1k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/JGXt7TkQ2gm3FWfR#fight=24",
@@ -7949,112 +7949,112 @@ window.ARCHON_PRESETS = {
             "id": 271483,
             "name": "",
             "params": "pcs=271481:271483:271486:271484&gems=240890&ench=8017",
-            "popularity": 90.5,
+            "popularity": 90.6,
             "parses": 9
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271481:271483:271486:271484:268265&gems=240967",
-            "popularity": 95.4,
-            "parses": 10
+            "popularity": 95.5,
+            "parses": 9
           },
           {
             "id": 271481,
             "name": "",
             "params": "pcs=271481:271483:271486:271484&ench=8001",
-            "popularity": 90.9,
+            "popularity": 91,
             "parses": 9
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8790&pcs=271481:271483:271486:271484:239656",
-            "popularity": 36.7,
+            "popularity": 36.1,
             "parses": 3
           },
           {
             "id": 271486,
             "name": "",
             "params": "pcs=271481:271483:271486:271484&ench=7987",
-            "popularity": 88.1,
-            "parses": 9
+            "popularity": 88.2,
+            "parses": 8
           },
           {
             "id": 244584,
             "name": "",
             "params": "bonus=8790&pcs=271481:271483:271486:271484:244584&gems=240890",
-            "popularity": 83.8,
-            "parses": 9
+            "popularity": 84.2,
+            "parses": 8
           },
           {
             "id": 271484,
             "name": "",
             "params": "pcs=271481:271483:271486:271484",
-            "popularity": 84.4,
-            "parses": 9
+            "popularity": 85,
+            "parses": 8
           },
           {
             "id": 244581,
             "name": "",
             "params": "bonus=8790&pcs=271481:271483:271486:271484:244581&gems=240890",
-            "popularity": 53.6,
+            "popularity": 55.3,
             "parses": 5
           },
           {
             "id": 271482,
             "name": "",
             "params": "pcs=271481:271483:271486:271484:271482&ench=7935",
-            "popularity": 64.6,
+            "popularity": 65.1,
             "parses": 6
           },
           {
             "id": 268258,
             "name": "",
             "params": "pcs=271481:271483:271486:271484:268258&ench=7963",
-            "popularity": 35,
+            "popularity": 34.4,
             "parses": 3
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271481:271483:271486:271484:281029&gems=240890&ench=7967",
-            "popularity": 62,
+            "popularity": 64.8,
             "parses": 6
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8790&pcs=271481:271483:271486:271484:240949&gems=240890&ench=7967",
-            "popularity": 37.9,
-            "parses": 4
+            "popularity": 36.3,
+            "parses": 3
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271481:271483:271486:271484:271092&ench=8689",
-            "popularity": 93.7,
-            "parses": 10
+            "popularity": 94.1,
+            "parses": 9
           },
           {
             "id": 268196,
             "name": "",
             "params": "pcs=271481:271483:271486:271484:268196",
             "popularity": 47.8,
-            "parses": 5
+            "parses": 4
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 41.2,
+            "popularity": 43.7,
             "parses": 4
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 41.2,
+            "popularity": 43.7,
             "parses": 4
           }
         ]
@@ -8189,11 +8189,11 @@ window.ARCHON_PRESETS = {
         ]
       },
       "mplus": {
-        "m": 1195,
-        "c": 876,
-        "h": 938,
-        "v": 168,
-        "dps": "493.6k",
+        "m": 1196,
+        "c": 875,
+        "h": 942,
+        "v": 170,
+        "dps": "497.4k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/znj6fKrm4CTpQWB1#fight=2",
@@ -8205,85 +8205,85 @@ window.ARCHON_PRESETS = {
             "id": 271483,
             "name": "",
             "params": "pcs=271481:271486:271484:271483&gems=240890&ench=8017",
-            "popularity": 81.2,
+            "popularity": 80.6,
             "parses": 1
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271481:271486:271484:271483:268265&gems=240983",
-            "popularity": 93.6,
-            "parses": 2
+            "popularity": 93.7,
+            "parses": 1
           },
           {
             "id": 271481,
             "name": "",
             "params": "pcs=271481:271486:271484:271483&ench=8001",
-            "popularity": 89.7,
+            "popularity": 89.5,
             "parses": 1
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271481:271486:271484:271483:268253",
-            "popularity": 43.5,
-            "parses": 933
+            "popularity": 43.9,
+            "parses": 877
           },
           {
             "id": 271486,
             "name": "",
             "params": "pcs=271481:271486:271484:271483&ench=7987",
-            "popularity": 87.7,
+            "popularity": 87.6,
             "parses": 1
           },
           {
             "id": 244584,
             "name": "",
             "params": "bonus=8793&pcs=271481:271486:271484:271483:244584&gems=240890",
-            "popularity": 84.7,
+            "popularity": 85.2,
             "parses": 1
           },
           {
             "id": 271484,
             "name": "",
             "params": "pcs=271481:271486:271484:271483",
-            "popularity": 82.4,
+            "popularity": 81.8,
             "parses": 1
           },
           {
             "id": 244581,
             "name": "",
             "params": "bonus=8793&pcs=271481:271486:271484:271483:244581&gems=240890",
-            "popularity": 45.4,
-            "parses": 975
+            "popularity": 45.8,
+            "parses": 915
           },
           {
             "id": 271482,
             "name": "",
             "params": "pcs=271481:271486:271484:271483:271482&ench=8159",
-            "popularity": 73.9,
+            "popularity": 74.7,
             "parses": 1
           },
           {
             "id": 244577,
             "name": "",
             "params": "bonus=8793&pcs=271481:271486:271484:271483:244577&ench=7963",
-            "popularity": 29.5,
-            "parses": 633
+            "popularity": 29.2,
+            "parses": 583
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271481:271486:271484:271483:281029&gems=240890&ench=7967",
-            "popularity": 71,
+            "popularity": 73.2,
             "parses": 1
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8793&pcs=271481:271486:271484:271483:240949&gems=240890&ench=7967",
-            "popularity": 42.1,
-            "parses": 904
+            "popularity": 41.6,
+            "parses": 831
           },
           {
             "id": 268209,
@@ -8296,21 +8296,21 @@ window.ARCHON_PRESETS = {
             "id": 237850,
             "name": "",
             "params": "bonus=8793&pcs=271481:271486:271484:271483:237850&ench=8689",
-            "popularity": 67.3,
+            "popularity": 66.8,
             "parses": 1
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 54.6,
+            "popularity": 56.8,
             "parses": 1
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 54.6,
+            "popularity": 56.8,
             "parses": 1
           }
         ]
@@ -8318,11 +8318,11 @@ window.ARCHON_PRESETS = {
     },
     "restoration": {
       "raid": {
-        "m": 350,
-        "c": 1377,
-        "h": 734,
-        "v": 519,
-        "dps": "402.6k",
+        "m": 351,
+        "c": 1378,
+        "h": 733,
+        "v": 520,
+        "dps": "403.8k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/GQk8KVvaBjRNDWgM#fight=28",
@@ -8334,36 +8334,36 @@ window.ARCHON_PRESETS = {
             "id": 271483,
             "name": "",
             "params": "pcs=271486:271483:271481:271484&gems=240910&ench=7961",
-            "popularity": 88.3,
+            "popularity": 88.5,
             "parses": 15
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271486:271483:271481:271484:268265&gems=240983",
-            "popularity": 90.8,
-            "parses": 16
+            "popularity": 91,
+            "parses": 15
           },
           {
             "id": 271481,
             "name": "",
             "params": "pcs=271486:271483:271481:271484&ench=8031",
-            "popularity": 87.7,
+            "popularity": 87.6,
             "parses": 15
           },
           {
             "id": 268248,
             "name": "",
             "params": "pcs=271486:271483:271481:271484:268248",
-            "popularity": 41.4,
+            "popularity": 40.7,
             "parses": 7
           },
           {
             "id": 271486,
             "name": "",
             "params": "pcs=271486:271483:271481:271484&ench=8013",
-            "popularity": 91.4,
-            "parses": 16
+            "popularity": 91.5,
+            "parses": 15
           },
           {
             "id": 244584,
@@ -8376,80 +8376,80 @@ window.ARCHON_PRESETS = {
             "id": 271484,
             "name": "",
             "params": "pcs=271486:271483:271481:271484",
-            "popularity": 86.5,
-            "parses": 15
+            "popularity": 86.4,
+            "parses": 14
           },
           {
             "id": 268216,
             "name": "",
             "params": "pcs=271486:271483:271481:271484:268216&gems=240910",
-            "popularity": 57.5,
-            "parses": 10
+            "popularity": 57.1,
+            "parses": 9
           },
           {
             "id": 271482,
             "name": "",
             "params": "pcs=271486:271483:271481:271484:271482&ench=7937",
-            "popularity": 80.6,
-            "parses": 14
+            "popularity": 80.7,
+            "parses": 13
           },
           {
             "id": 244577,
             "name": "",
             "params": "bonus=8795&pcs=271486:271483:271481:271484:244577&ench=7993",
-            "popularity": 29.8,
+            "popularity": 30.1,
             "parses": 5
           },
           {
             "id": 268252,
             "name": "",
             "params": "bonus=13534&pcs=271486:271483:271481:271484:268252&gems=240910&ench=7967",
-            "popularity": 55.3,
+            "popularity": 55.8,
             "parses": 9
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8795&pcs=271486:271483:271481:271484:240949&gems=240910&ench=7967",
-            "popularity": 48.2,
+            "popularity": 48.6,
             "parses": 8
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271486:271483:271481:271484:271092&ench=8039",
-            "popularity": 80,
-            "parses": 14
+            "popularity": 80.1,
+            "parses": 13
           },
           {
             "id": 268196,
             "name": "",
             "params": "pcs=271486:271483:271481:271484:268196",
-            "popularity": 43.9,
+            "popularity": 44.7,
             "parses": 7
           },
           {
             "id": 270162,
             "name": "",
             "params": "nofollow",
-            "popularity": 48.7,
+            "popularity": 48.2,
             "parses": 8
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 48.7,
+            "popularity": 48.2,
             "parses": 8
           }
         ]
       },
       "mplus": {
-        "m": 299,
-        "c": 1267,
-        "h": 725,
-        "v": 789,
-        "dps": "235.5k",
+        "m": 301,
+        "c": 1268,
+        "h": 724,
+        "v": 790,
+        "dps": "236.3k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/2QwHtKvcGNCBbJak#fight=13",
@@ -8460,113 +8460,113 @@ window.ARCHON_PRESETS = {
           {
             "id": 271483,
             "name": "",
-            "params": "pcs=271486:271483:271484:271481&gems=240910&ench=8017",
+            "params": "pcs=271483:271486:271484:271481&gems=240910&ench=8017",
             "popularity": 87.2,
-            "parses": 7
+            "parses": 6
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271486:271483:271484:271481:268265&gems=240983",
-            "popularity": 93.8,
-            "parses": 7
+            "params": "bonus=13534&pcs=271483:271486:271484:271481:268265&gems=240983",
+            "popularity": 93.7,
+            "parses": 6
           },
           {
             "id": 271481,
             "name": "",
-            "params": "pcs=271486:271483:271484:271481&ench=8001",
+            "params": "pcs=271483:271486:271484:271481&ench=8001",
             "popularity": 75.8,
-            "parses": 6
+            "parses": 5
           },
           {
             "id": 268248,
             "name": "",
-            "params": "pcs=271486:271483:271484:271481:268248",
-            "popularity": 36.9,
-            "parses": 3
+            "params": "pcs=271483:271486:271484:271481:268248",
+            "popularity": 36.1,
+            "parses": 2
           },
           {
             "id": 271486,
             "name": "",
-            "params": "pcs=271486:271483:271484:271481&ench=8013",
-            "popularity": 87.3,
-            "parses": 7
+            "params": "pcs=271483:271486:271484:271481&ench=8013",
+            "popularity": 87.2,
+            "parses": 6
           },
           {
             "id": 244584,
             "name": "",
-            "params": "bonus=8795&pcs=271486:271483:271484:271481:244584&gems=240910",
-            "popularity": 89,
-            "parses": 7
+            "params": "bonus=8795&pcs=271483:271486:271484:271481:244584&gems=240910",
+            "popularity": 88.9,
+            "parses": 6
           },
           {
             "id": 271484,
             "name": "",
-            "params": "pcs=271486:271483:271484:271481",
-            "popularity": 80.2,
-            "parses": 6
+            "params": "pcs=271483:271486:271484:271481",
+            "popularity": 79.9,
+            "parses": 5
           },
           {
             "id": 268216,
             "name": "",
-            "params": "pcs=271486:271483:271484:271481:268216&gems=240910",
-            "popularity": 49,
-            "parses": 4
+            "params": "pcs=271483:271486:271484:271481:268216&gems=240910",
+            "popularity": 48.7,
+            "parses": 3
           },
           {
             "id": 271482,
             "name": "",
-            "params": "pcs=271486:271483:271484:271481:271482&ench=7937",
-            "popularity": 75,
-            "parses": 6
+            "params": "pcs=271483:271486:271484:271481:271482&ench=7937",
+            "popularity": 75.3,
+            "parses": 5
           },
           {
             "id": 244577,
             "name": "",
-            "params": "bonus=8795&pcs=271486:271483:271484:271481:244577&ench=7963",
+            "params": "bonus=8795&pcs=271483:271486:271484:271481:244577&ench=7963",
             "popularity": 36.3,
             "parses": 2
           },
           {
             "id": 240949,
             "name": "",
-            "params": ":8795&pcs=271486:271483:271484:271481:240949&gems=240910&ench=7967",
-            "popularity": 61.5,
-            "parses": 5
+            "params": ":8795&pcs=271483:271486:271484:271481:240949&gems=240910&ench=7967",
+            "popularity": 60.8,
+            "parses": 4
           },
           {
             "id": 268252,
             "name": "",
-            "params": "bonus=13534&pcs=271486:271483:271484:271481:268252&gems=240910&ench=7967",
-            "popularity": 45.7,
+            "params": "bonus=13534&pcs=271483:271486:271484:271481:268252&gems=240910&ench=7967",
+            "popularity": 46,
             "parses": 3
           },
           {
             "id": 271092,
             "name": "",
-            "params": "pcs=271486:271483:271484:271481:271092&ench=8039",
-            "popularity": 90.1,
-            "parses": 7
+            "params": "pcs=271483:271486:271484:271481:271092&ench=8039",
+            "popularity": 90.2,
+            "parses": 6
           },
           {
-            "id": 237831,
+            "id": 268196,
             "name": "",
-            "params": "bonus=8795&pcs=271486:271483:271484:271481:237831",
-            "popularity": 39.2,
-            "parses": 3
+            "params": "pcs=271483:271486:271484:271481:268196",
+            "popularity": 38.5,
+            "parses": 2
           },
           {
             "id": 250255,
             "name": "",
             "params": "nofollow",
-            "popularity": 56.1,
+            "popularity": 56.4,
             "parses": 4
           },
           {
             "id": 270162,
             "name": "",
             "params": "nofollow",
-            "popularity": 56.1,
+            "popularity": 56.4,
             "parses": 4
           }
         ]
@@ -8576,11 +8576,11 @@ window.ARCHON_PRESETS = {
   "warlock": {
     "affliction": {
       "raid": {
-        "m": 761,
-        "c": 1075,
+        "m": 764,
+        "c": 1076,
         "h": 1097,
         "v": 192,
-        "dps": "332.0k",
+        "dps": "332.5k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/C8DMqL6NXFB24mwQ#fight=13",
@@ -8592,7 +8592,7 @@ window.ARCHON_PRESETS = {
             "id": 271546,
             "name": "",
             "params": "pcs=271549:271545:271547:271544:271546&gems=240906&ench=8017",
-            "popularity": 85,
+            "popularity": 84.7,
             "parses": 5
           },
           {
@@ -8606,42 +8606,42 @@ window.ARCHON_PRESETS = {
             "id": 271544,
             "name": "",
             "params": "pcs=271549:271545:271547:271544&ench=8001",
-            "popularity": 86.4,
-            "parses": 5
+            "popularity": 86.5,
+            "parses": 6
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8790&pcs=271549:271545:271547:271544:239656",
-            "popularity": 36.7,
+            "popularity": 36.6,
             "parses": 2
           },
           {
             "id": 271549,
             "name": "",
             "params": "pcs=271549:271545:271547:271544&ench=7987",
-            "popularity": 91.1,
+            "popularity": 91.4,
             "parses": 6
           },
           {
             "id": 239648,
             "name": "",
             "params": "bonus=8790&pcs=271549:271545:271547:271544:239648&gems=240906",
-            "popularity": 78.2,
+            "popularity": 78.4,
             "parses": 5
           },
           {
             "id": 271547,
             "name": "",
             "params": "pcs=271549:271545:271547:271544",
-            "popularity": 87.4,
+            "popularity": 87,
             "parses": 6
           },
           {
             "id": 239649,
             "name": "",
             "params": "bonus=8790&pcs=271549:271545:271547:271544:239649&gems=240906",
-            "popularity": 44.2,
+            "popularity": 43.7,
             "parses": 3
           },
           {
@@ -8655,59 +8655,59 @@ window.ARCHON_PRESETS = {
             "id": 268255,
             "name": "",
             "params": "pcs=271549:271545:271547:271544:268255&ench=7963",
-            "popularity": 27.1,
+            "popularity": 27.5,
             "parses": 1
           },
           {
             "id": 268252,
             "name": "",
             "params": "bonus=13534&pcs=271549:271545:271547:271544:268252&gems=240906&ench=7967",
-            "popularity": 61.3,
+            "popularity": 61.5,
             "parses": 4
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8790&pcs=271549:271545:271547:271544:240949&gems=240906&ench=7967",
-            "popularity": 44.7,
+            "popularity": 45,
             "parses": 3
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271549:271545:271547:271544:271092&ench=8689",
-            "popularity": 72.7,
+            "popularity": 72.8,
             "parses": 5
           },
           {
             "id": 245769,
             "name": "",
             "params": "bonus=8790&pcs=271549:271545:271547:271544:245769",
-            "popularity": 56.7,
-            "parses": 3
+            "popularity": 57,
+            "parses": 4
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 22,
+            "popularity": 22.5,
             "parses": 1
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 22,
+            "popularity": 22.5,
             "parses": 1
           }
         ]
       },
       "mplus": {
-        "m": 680,
-        "c": 1014,
-        "h": 1176,
-        "v": 211,
-        "dps": "444.3k",
+        "m": 687,
+        "c": 1009,
+        "h": 1178,
+        "v": 210,
+        "dps": "445.7k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/GLwnf4HydZD3FV8p#fight=6",
@@ -8719,124 +8719,124 @@ window.ARCHON_PRESETS = {
             "id": 271546,
             "name": "",
             "params": "pcs=271545:271549:271544:271546&gems=240906&ench=8017",
-            "popularity": 79.8,
-            "parses": 671
+            "popularity": 80.5,
+            "parses": 631
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271545:271549:271544:271546:268265&gems=240983",
-            "popularity": 89.8,
-            "parses": 755
+            "popularity": 90.1,
+            "parses": 706
           },
           {
             "id": 271544,
             "name": "",
             "params": "pcs=271545:271549:271544:271546&ench=8001",
-            "popularity": 83.4,
-            "parses": 701
+            "popularity": 82.3,
+            "parses": 645
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8790&pcs=271545:271549:271544:271546:239656",
-            "popularity": 48,
-            "parses": 404
+            "popularity": 47.7,
+            "parses": 374
           },
           {
             "id": 271549,
             "name": "",
             "params": "pcs=271545:271549:271544:271546&ench=7987",
-            "popularity": 88.6,
-            "parses": 745
+            "popularity": 89.3,
+            "parses": 700
           },
           {
             "id": 239648,
             "name": "",
             "params": "bonus=8790&pcs=271545:271549:271544:271546:239648&gems=240906",
-            "popularity": 80.7,
-            "parses": 679
+            "popularity": 82,
+            "parses": 643
           },
           {
             "id": 271547,
             "name": "",
             "params": "pcs=271545:271549:271544:271546:271547",
-            "popularity": 76.7,
-            "parses": 645
+            "popularity": 77.6,
+            "parses": 608
           },
           {
             "id": 239649,
             "name": "",
             "params": "bonus=8790&pcs=271545:271549:271544:271546:239649&gems=240906",
             "popularity": 54.3,
-            "parses": 457
+            "parses": 426
           },
           {
             "id": 271545,
             "name": "",
             "params": "pcs=271545:271549:271544:271546&ench=7935",
-            "popularity": 91.7,
-            "parses": 771
+            "popularity": 91.5,
+            "parses": 717
           },
           {
             "id": 239654,
             "name": "",
             "params": "bonus=8790&pcs=271545:271549:271544:271546:239654&ench=7963",
-            "popularity": 27.6,
-            "parses": 232
+            "popularity": 26.7,
+            "parses": 209
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271545:271549:271544:271546:281029&gems=240906&ench=7967",
-            "popularity": 46.5,
-            "parses": 391
+            "popularity": 49.4,
+            "parses": 387
           },
           {
-            "id": 273792,
+            "id": 240949,
             "name": "",
-            "params": "bonus=13534&pcs=271545:271549:271544:271546:273792&gems=240906&ench=7967",
-            "popularity": 38,
-            "parses": 320
+            "params": ":8790&pcs=271545:271549:271544:271546:240949&gems=240906&ench=7967",
+            "popularity": 38.6,
+            "parses": 303
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271545:271549:271544:271546:271092&ench=8689",
-            "popularity": 81.9,
-            "parses": 689
+            "popularity": 83.3,
+            "parses": 653
           },
           {
             "id": 245769,
             "name": "",
             "params": "bonus=8790&pcs=271545:271549:271544:271546:245769",
-            "popularity": 62.8,
-            "parses": 528
+            "popularity": 63.4,
+            "parses": 497
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 27,
-            "parses": 227
+            "popularity": 27.7,
+            "parses": 217
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 27,
-            "parses": 227
+            "popularity": 27.7,
+            "parses": 217
           }
         ]
       }
     },
     "demonology": {
       "raid": {
-        "m": 792,
-        "c": 1152,
+        "m": 794,
+        "c": 1151,
         "h": 926,
-        "v": 189,
-        "dps": "351.6k",
+        "v": 187,
+        "dps": "353.3k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/HpzWj6Tt3gf4BVrZ#fight=42",
@@ -8856,20 +8856,20 @@ window.ARCHON_PRESETS = {
             "name": "",
             "params": "bonus=13534&pcs=271549:271545:271547:271544:268265&gems=240983",
             "popularity": 91.6,
-            "parses": 20
+            "parses": 19
           },
           {
             "id": 271544,
             "name": "",
             "params": "pcs=271549:271545:271547:271544&ench=8001",
-            "popularity": 86.4,
-            "parses": 19
+            "popularity": 86.5,
+            "parses": 18
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8790&pcs=271549:271545:271547:271544:239656",
-            "popularity": 37.3,
+            "popularity": 37.2,
             "parses": 8
           },
           {
@@ -8877,48 +8877,48 @@ window.ARCHON_PRESETS = {
             "name": "",
             "params": "pcs=271549:271545:271547:271544&ench=7987",
             "popularity": 91.2,
-            "parses": 20
+            "parses": 19
           },
           {
             "id": 239648,
             "name": "",
             "params": "bonus=8790&pcs=271549:271545:271547:271544:239648&gems=240906",
             "popularity": 76.7,
-            "parses": 17
+            "parses": 16
           },
           {
             "id": 271547,
             "name": "",
             "params": "pcs=271549:271545:271547:271544",
-            "popularity": 87.3,
-            "parses": 19
+            "popularity": 87.2,
+            "parses": 18
           },
           {
             "id": 239649,
             "name": "",
             "params": "bonus=8790&pcs=271549:271545:271547:271544:239649&gems=240906",
-            "popularity": 41.9,
+            "popularity": 42.3,
             "parses": 9
           },
           {
             "id": 271545,
             "name": "",
             "params": "pcs=271549:271545:271547:271544&ench=7935",
-            "popularity": 87.7,
+            "popularity": 87.9,
             "parses": 19
           },
           {
             "id": 268218,
             "name": "",
             "params": "pcs=271549:271545:271547:271544:268218&ench=7963",
-            "popularity": 27,
-            "parses": 6
+            "popularity": 26.6,
+            "parses": 5
           },
           {
             "id": 268252,
             "name": "",
             "params": "bonus=13534&pcs=271549:271545:271547:271544:268252&gems=240906&ench=7967",
-            "popularity": 60.5,
+            "popularity": 61.3,
             "parses": 13
           },
           {
@@ -8926,44 +8926,44 @@ window.ARCHON_PRESETS = {
             "name": "",
             "params": ":8790&pcs=271549:271545:271547:271544:240949&gems=240906&ench=7967",
             "popularity": 41.1,
-            "parses": 9
+            "parses": 8
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271549:271545:271547:271544:271092&ench=8689",
-            "popularity": 71.1,
+            "popularity": 70.8,
             "parses": 15
           },
           {
             "id": 245769,
             "name": "",
             "params": "bonus=8790&pcs=271549:271545:271547:271544:245769",
-            "popularity": 52.2,
+            "popularity": 51.5,
             "parses": 11
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 24.3,
+            "popularity": 25.2,
             "parses": 5
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 24.3,
+            "popularity": 25.2,
             "parses": 5
           }
         ]
       },
       "mplus": {
-        "m": 804,
+        "m": 807,
         "c": 1155,
-        "h": 939,
-        "v": 261,
-        "dps": "518.8k",
+        "h": 938,
+        "v": 262,
+        "dps": "520.3k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/zBcZFTaCHVb7PApg#fight=9",
@@ -8974,113 +8974,113 @@ window.ARCHON_PRESETS = {
           {
             "id": 271546,
             "name": "",
-            "params": "pcs=271545:271546:271549:271544&gems=240906&ench=8017",
+            "params": "pcs=271545:271549:271546:271544&gems=240906&ench=8017",
             "popularity": 85,
-            "parses": 6
+            "parses": 5
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271545:271546:271549:271544:268265&gems=240983",
-            "popularity": 94.8,
-            "parses": 7
+            "params": "bonus=13534&pcs=271545:271549:271546:271544:268265&gems=240983",
+            "popularity": 94.7,
+            "parses": 6
           },
           {
             "id": 271544,
             "name": "",
-            "params": "pcs=271545:271546:271549:271544&ench=8001",
-            "popularity": 82.6,
-            "parses": 6
+            "params": "pcs=271545:271549:271546:271544&ench=8001",
+            "popularity": 82.8,
+            "parses": 5
           },
           {
             "id": 239656,
             "name": "",
-            "params": "bonus=8790&pcs=271545:271546:271549:271544:239656",
-            "popularity": 51.7,
+            "params": "bonus=8790&pcs=271545:271549:271546:271544:239656",
+            "popularity": 52.1,
             "parses": 3
           },
           {
             "id": 271549,
             "name": "",
-            "params": "pcs=271545:271546:271549:271544&ench=7987",
-            "popularity": 85,
-            "parses": 6
+            "params": "pcs=271545:271549:271546:271544&ench=7987",
+            "popularity": 85.4,
+            "parses": 5
           },
           {
             "id": 239648,
             "name": "",
-            "params": "bonus=8790&pcs=271545:271546:271549:271544:239648&gems=240906",
-            "popularity": 82.6,
-            "parses": 6
+            "params": "bonus=8790&pcs=271545:271549:271546:271544:239648&gems=240906",
+            "popularity": 82.4,
+            "parses": 5
           },
           {
             "id": 271547,
             "name": "",
-            "params": "pcs=271545:271546:271549:271544:271547",
-            "popularity": 80.4,
-            "parses": 6
+            "params": "pcs=271545:271549:271546:271544:271547",
+            "popularity": 80,
+            "parses": 5
           },
           {
             "id": 239649,
             "name": "",
-            "params": "bonus=8790&pcs=271545:271546:271549:271544:239649&gems=240906",
+            "params": "bonus=8790&pcs=271545:271549:271546:271544:239649&gems=240906",
             "popularity": 47.6,
             "parses": 3
           },
           {
             "id": 271545,
             "name": "",
-            "params": "pcs=271545:271546:271549:271544&ench=7935",
-            "popularity": 86.1,
-            "parses": 6
+            "params": "pcs=271545:271549:271546:271544&ench=7935",
+            "popularity": 85.6,
+            "parses": 5
           },
           {
             "id": 239654,
             "name": "",
-            "params": "bonus=8790&pcs=271545:271546:271549:271544:239654&ench=7963",
-            "popularity": 19.8,
+            "params": "bonus=8790&pcs=271545:271549:271546:271544:239654&ench=7963",
+            "popularity": 20.1,
             "parses": 1
           },
           {
             "id": 268252,
             "name": "",
-            "params": "bonus=13534&pcs=271545:271546:271549:271544:268252&gems=240906&ench=7967",
-            "popularity": 54.9,
-            "parses": 4
+            "params": "bonus=13534&pcs=271545:271549:271546:271544:268252&gems=240906&ench=7967",
+            "popularity": 55.6,
+            "parses": 3
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271545:271546:271549:271544:281029&gems=240906&ench=7967",
-            "popularity": 49.4,
+            "params": "bonus=13534&pcs=271545:271549:271546:271544:281029&gems=240906&ench=7967",
+            "popularity": 51.4,
             "parses": 3
           },
           {
             "id": 271092,
             "name": "",
-            "params": "pcs=271545:271546:271549:271544:271092&ench=8689",
-            "popularity": 87.6,
+            "params": "pcs=271545:271549:271546:271544:271092&ench=8689",
+            "popularity": 87.9,
             "parses": 6
           },
           {
             "id": 245769,
             "name": "",
-            "params": "bonus=8790&pcs=271545:271546:271549:271544:245769",
-            "popularity": 66.6,
-            "parses": 5
+            "params": "bonus=8790&pcs=271545:271549:271546:271544:245769",
+            "popularity": 66.3,
+            "parses": 4
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 23.4,
+            "popularity": 23.9,
             "parses": 1
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 23.4,
+            "popularity": 23.9,
             "parses": 1
           }
         ]
@@ -9088,11 +9088,11 @@ window.ARCHON_PRESETS = {
     },
     "destruction": {
       "raid": {
-        "m": 874,
-        "c": 1079,
-        "h": 928,
-        "v": 182,
-        "dps": "303.1k",
+        "m": 876,
+        "c": 1077,
+        "h": 919,
+        "v": 183,
+        "dps": "303.3k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/LtByJkQGf8FRd4qM#fight=1",
@@ -9103,123 +9103,123 @@ window.ARCHON_PRESETS = {
           {
             "id": 271546,
             "name": "",
-            "params": "pcs=271549:271545:271547:271544:271546&gems=240906&ench=8017",
-            "popularity": 82.3,
+            "params": "pcs=271549:271545:271544:271547:271546&gems=240906&ench=8017",
+            "popularity": 81.9,
             "parses": 3
           },
           {
             "id": 268265,
             "name": "",
-            "params": "bonus=13534&pcs=271549:271545:271547:271544:268265&gems=240983",
-            "popularity": 94.4,
+            "params": "bonus=13534&pcs=271549:271545:271544:271547:268265&gems=240983",
+            "popularity": 94.3,
             "parses": 3
           },
           {
             "id": 271544,
             "name": "",
-            "params": "pcs=271549:271545:271547:271544&ench=8001",
-            "popularity": 86.6,
+            "params": "pcs=271549:271545:271544:271547&ench=8001",
+            "popularity": 87.1,
             "parses": 3
           },
           {
             "id": 239656,
             "name": "",
-            "params": "bonus=8790&pcs=271549:271545:271547:271544:239656",
-            "popularity": 38.6,
+            "params": "bonus=8790&pcs=271549:271545:271544:271547:239656",
+            "popularity": 37.9,
             "parses": 1
           },
           {
             "id": 271549,
             "name": "",
-            "params": "pcs=271549:271545:271547:271544&ench=7987",
-            "popularity": 92.4,
+            "params": "pcs=271549:271545:271544:271547&ench=7987",
+            "popularity": 92.1,
             "parses": 3
           },
           {
             "id": 239648,
             "name": "",
-            "params": "bonus=8790&pcs=271549:271545:271547:271544:239648&gems=240906",
-            "popularity": 75.6,
+            "params": "bonus=8790&pcs=271549:271545:271544:271547:239648&gems=240906",
+            "popularity": 75,
             "parses": 2
           },
           {
             "id": 271547,
             "name": "",
-            "params": "pcs=271549:271545:271547:271544",
-            "popularity": 86.6,
+            "params": "pcs=271549:271545:271544:271547",
+            "popularity": 86.5,
             "parses": 3
           },
           {
             "id": 239649,
             "name": "",
-            "params": "bonus=8790&pcs=271549:271545:271547:271544:239649&gems=240906",
-            "popularity": 40.7,
+            "params": "bonus=8790&pcs=271549:271545:271544:271547:239649&gems=240906",
+            "popularity": 41,
             "parses": 1
           },
           {
             "id": 271545,
             "name": "",
-            "params": "pcs=271549:271545:271547:271544&ench=7935",
-            "popularity": 87.6,
+            "params": "pcs=271549:271545:271544:271547&ench=7935",
+            "popularity": 87.5,
             "parses": 3
           },
           {
             "id": 268218,
             "name": "",
-            "params": "pcs=271549:271545:271547:271544:268218&ench=7963",
-            "popularity": 28.7,
+            "params": "pcs=271549:271545:271544:271547:268218&ench=7963",
+            "popularity": 28.5,
             "parses": 1
           },
           {
             "id": 268252,
             "name": "",
-            "params": "bonus=13534&pcs=271549:271545:271547:271544:268252&gems=240906&ench=7967",
-            "popularity": 58.5,
+            "params": "bonus=13534&pcs=271549:271545:271544:271547:268252&gems=240906&ench=7967",
+            "popularity": 59.5,
             "parses": 2
           },
           {
             "id": 281029,
             "name": "",
-            "params": "bonus=13534&pcs=271549:271545:271547:271544:281029&gems=240906&ench=7967",
-            "popularity": 47.6,
+            "params": "bonus=13534&pcs=271549:271545:271544:271547:281029&gems=240906&ench=7967",
+            "popularity": 49.1,
             "parses": 1
           },
           {
             "id": 271092,
             "name": "",
-            "params": "pcs=271549:271545:271547:271544:271092&ench=8689",
-            "popularity": 75.7,
+            "params": "pcs=271549:271545:271544:271547:271092&ench=8689",
+            "popularity": 75.1,
             "parses": 2
           },
           {
             "id": 245769,
             "name": "",
-            "params": "bonus=8790&pcs=271549:271545:271547:271544:245769",
-            "popularity": 54.1,
+            "params": "bonus=8790&pcs=271549:271545:271544:271547:245769",
+            "popularity": 53.5,
             "parses": 2
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 39.5,
+            "popularity": 40.4,
             "parses": 1
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 39.5,
+            "popularity": 40.4,
             "parses": 1
           }
         ]
       },
       "mplus": {
         "m": 899,
-        "c": 1044,
-        "h": 930,
-        "v": 231,
-        "dps": "469.9k",
+        "c": 1042,
+        "h": 929,
+        "v": 233,
+        "dps": "467.4k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/AJHF2j1nqxCapcGv#fight=10",
@@ -9231,113 +9231,113 @@ window.ARCHON_PRESETS = {
             "id": 271546,
             "name": "",
             "params": "pcs=271549:271545:271546:271544&gems=240906&ench=8017",
-            "popularity": 83.3,
-            "parses": 543
+            "popularity": 83.4,
+            "parses": 516
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271549:271545:271546:271544:268265&gems=240983",
-            "popularity": 92.8,
-            "parses": 605
+            "popularity": 93.2,
+            "parses": 577
           },
           {
             "id": 271544,
             "name": "",
             "params": "pcs=271549:271545:271546:271544&ench=8001",
-            "popularity": 81.1,
-            "parses": 529
+            "popularity": 81.9,
+            "parses": 507
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8790&pcs=271549:271545:271546:271544:239656",
-            "popularity": 41.7,
-            "parses": 272
+            "popularity": 43.5,
+            "parses": 269
           },
           {
             "id": 271549,
             "name": "",
             "params": "pcs=271549:271545:271546:271544&ench=7987",
-            "popularity": 93.6,
-            "parses": 610
+            "popularity": 93.7,
+            "parses": 580
           },
           {
             "id": 239648,
             "name": "",
             "params": "bonus=8790&pcs=271549:271545:271546:271544:239648&gems=240906",
-            "popularity": 74.7,
-            "parses": 487
+            "popularity": 75.3,
+            "parses": 466
           },
           {
             "id": 271547,
             "name": "",
             "params": "pcs=271549:271545:271546:271544:271547",
-            "popularity": 74.5,
-            "parses": 486
+            "popularity": 73.5,
+            "parses": 455
           },
           {
             "id": 239649,
             "name": "",
             "params": "bonus=8790&pcs=271549:271545:271546:271544:239649&gems=240906",
-            "popularity": 66.1,
-            "parses": 431
+            "popularity": 65.9,
+            "parses": 408
           },
           {
             "id": 271545,
             "name": "",
             "params": "pcs=271549:271545:271546:271544&ench=7935",
-            "popularity": 87.6,
-            "parses": 571
+            "popularity": 87.7,
+            "parses": 543
           },
           {
             "id": 271548,
             "name": "",
             "params": "pcs=271549:271545:271546:271544:271548&ench=7963",
-            "popularity": 32.7,
-            "parses": 213
+            "popularity": 33.6,
+            "parses": 208
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271549:271545:271546:271544:281029&gems=240906&ench=7967",
-            "popularity": 59.7,
-            "parses": 389
+            "popularity": 60.1,
+            "parses": 372
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8790&pcs=271549:271545:271546:271544:240949&gems=240906&ench=7967",
-            "popularity": 30.1,
-            "parses": 196
+            "popularity": 32,
+            "parses": 198
           },
           {
             "id": 271092,
             "name": "",
             "params": "pcs=271549:271545:271546:271544:271092&ench=8689",
-            "popularity": 76.1,
-            "parses": 496
+            "popularity": 77.5,
+            "parses": 480
           },
           {
             "id": 245769,
             "name": "",
             "params": "bonus=8790&pcs=271549:271545:271546:271544:245769",
-            "popularity": 52.8,
-            "parses": 344
+            "popularity": 53.6,
+            "parses": 332
           },
           {
             "id": 270164,
             "name": "",
             "params": "nofollow",
-            "popularity": 36.8,
-            "parses": 240
+            "popularity": 37.5,
+            "parses": 232
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 36.8,
-            "parses": 240
+            "popularity": 37.5,
+            "parses": 232
           }
         ]
       }
@@ -9362,115 +9362,115 @@ window.ARCHON_PRESETS = {
             "id": 271456,
             "name": "",
             "params": "pcs=271459:271456:271454:271455&gems=240890&ench=8017",
-            "popularity": 87.4,
+            "popularity": 89,
             "parses": 20
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271455:268265&gems=240983",
-            "popularity": 90.5,
+            "popularity": 92.1,
             "parses": 21
           },
           {
             "id": 271454,
             "name": "",
             "params": "pcs=271459:271456:271454:271455&ench=8001",
-            "popularity": 86.4,
+            "popularity": 87.9,
             "parses": 20
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271459:271456:271454:271455:268253",
-            "popularity": 45.6,
+            "popularity": 46.4,
             "parses": 10
           },
           {
             "id": 271459,
             "name": "",
             "params": "pcs=271459:271456:271454:271455&ench=7987",
-            "popularity": 89.1,
+            "popularity": 90.6,
             "parses": 20
           },
           {
             "id": 237834,
             "name": "",
             "params": "bonus=8790&pcs=271459:271456:271454:271455:237834&gems=240890",
-            "popularity": 85.3,
+            "popularity": 86.8,
             "parses": 19
           },
           {
             "id": 271457,
             "name": "",
             "params": "pcs=271459:271456:271454:271455:271457",
-            "popularity": 80.9,
+            "popularity": 82.3,
             "parses": 18
           },
           {
             "id": 268259,
             "name": "",
             "params": "pcs=271459:271456:271454:271455:268259&gems=240890",
-            "popularity": 48.5,
+            "popularity": 49.4,
             "parses": 11
           },
           {
             "id": 271455,
             "name": "",
             "params": "pcs=271459:271456:271454:271455&ench=8163",
-            "popularity": 83.2,
+            "popularity": 84.6,
             "parses": 19
           },
           {
             "id": 237828,
             "name": "",
             "params": "bonus=8790&pcs=271459:271456:271454:271455:237828&ench=7963",
-            "popularity": 63,
+            "popularity": 64.1,
             "parses": 14
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271455:281029&gems=240890&ench=7967",
-            "popularity": 52,
+            "popularity": 52.9,
             "parses": 12
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8790&pcs=271459:271456:271454:271455:240949&gems=240890&ench=7967",
-            "popularity": 49.3,
+            "popularity": 50.1,
             "parses": 11
           },
           {
             "id": 268213,
             "name": "",
             "params": "pcs=271459:271456:271454:271455:268213&ench=8689",
-            "popularity": 92.1,
+            "popularity": 93.8,
             "parses": 21
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 54.1,
+            "popularity": 55.1,
             "parses": 12
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 54.1,
+            "popularity": 55.1,
             "parses": 12
           }
         ]
       },
       "mplus": {
-        "m": 814,
-        "c": 1222,
-        "h": 1008,
-        "v": 255,
-        "dps": "538.4k",
+        "m": 818,
+        "c": 1218,
+        "h": 1009,
+        "v": 254,
+        "dps": "540.0k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/1AWhVvdLbpy2gPak#fight=59",
@@ -9482,15 +9482,15 @@ window.ARCHON_PRESETS = {
             "id": 271456,
             "name": "",
             "params": "pcs=271459:271454:271456:271455&gems=240890&ench=8017",
-            "popularity": 85,
+            "popularity": 84.9,
             "parses": 8
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271459:271454:271456:271455:268265&gems=240983",
-            "popularity": 95,
-            "parses": 9
+            "popularity": 95.2,
+            "parses": 8
           },
           {
             "id": 271454,
@@ -9503,7 +9503,7 @@ window.ARCHON_PRESETS = {
             "id": 268253,
             "name": "",
             "params": "pcs=271459:271454:271456:271455:268253",
-            "popularity": 46.7,
+            "popularity": 46.5,
             "parses": 4
           },
           {
@@ -9511,76 +9511,76 @@ window.ARCHON_PRESETS = {
             "name": "",
             "params": "pcs=271459:271454:271456:271455&ench=7987",
             "popularity": 90.5,
-            "parses": 9
+            "parses": 8
           },
           {
             "id": 237834,
             "name": "",
             "params": "bonus=8790&pcs=271459:271454:271456:271455:237834&gems=240890",
-            "popularity": 84.5,
+            "popularity": 84.8,
             "parses": 8
           },
           {
             "id": 271457,
             "name": "",
             "params": "pcs=271459:271454:271456:271455:271457",
-            "popularity": 71.6,
-            "parses": 7
+            "popularity": 72.4,
+            "parses": 6
           },
           {
             "id": 268259,
             "name": "",
             "params": "pcs=271459:271454:271456:271455:268259&gems=240890",
-            "popularity": 47.7,
+            "popularity": 47.3,
             "parses": 4
           },
           {
             "id": 271455,
             "name": "",
             "params": "pcs=271459:271454:271456:271455&ench=8163",
-            "popularity": 84,
-            "parses": 8
+            "popularity": 84.2,
+            "parses": 7
           },
           {
             "id": 237828,
             "name": "",
             "params": "bonus=8790&pcs=271459:271454:271456:271455:237828&ench=7963",
-            "popularity": 59.6,
-            "parses": 6
+            "popularity": 59.1,
+            "parses": 5
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271459:271454:271456:271455:281029&gems=240890&ench=7967",
-            "popularity": 53.4,
+            "popularity": 55.4,
             "parses": 5
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8790&pcs=271459:271454:271456:271455:240949&gems=240890&ench=7967",
-            "popularity": 51,
-            "parses": 5
+            "popularity": 49.7,
+            "parses": 4
           },
           {
             "id": 268213,
             "name": "",
             "params": "pcs=271459:271454:271456:271455:268213&ench=8689",
-            "popularity": 93.9,
-            "parses": 9
+            "popularity": 94.1,
+            "parses": 8
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 39.9,
+            "popularity": 42.9,
             "parses": 4
           },
           {
             "id": 281215,
             "name": "",
             "params": "nofollow",
-            "popularity": 39.9,
+            "popularity": 42.9,
             "parses": 4
           }
         ]
@@ -9588,11 +9588,11 @@ window.ARCHON_PRESETS = {
     },
     "fury": {
       "raid": {
-        "m": 1158,
-        "c": 860,
-        "h": 1069,
-        "v": 136,
-        "dps": "319.2k",
+        "m": 1161,
+        "c": 861,
+        "h": 1067,
+        "v": 135,
+        "dps": "320.1k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/kXJKLxNWm3dZzPQ2#fight=2",
@@ -9611,21 +9611,21 @@ window.ARCHON_PRESETS = {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271457:268265&gems=240983",
-            "popularity": 87,
+            "popularity": 86.6,
             "parses": 2
           },
           {
             "id": 271454,
             "name": "",
             "params": "pcs=271459:271456:271454:271457&ench=8001",
-            "popularity": 84.9,
+            "popularity": 85,
             "parses": 2
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271459:271456:271454:271457:268253",
-            "popularity": 45.8,
+            "popularity": 46.2,
             "parses": 1
           },
           {
@@ -9639,21 +9639,21 @@ window.ARCHON_PRESETS = {
             "id": 237834,
             "name": "",
             "params": "bonus=8793&pcs=271459:271456:271454:271457:237834&gems=240892",
-            "popularity": 86.1,
+            "popularity": 85.9,
             "parses": 2
           },
           {
             "id": 271457,
             "name": "",
             "params": "pcs=271459:271456:271454:271457",
-            "popularity": 82.2,
+            "popularity": 81.6,
             "parses": 2
           },
           {
             "id": 268259,
             "name": "",
             "params": "pcs=271459:271456:271454:271457:268259&gems=240892",
-            "popularity": 43.3,
+            "popularity": 43.5,
             "parses": 1
           },
           {
@@ -9674,52 +9674,52 @@ window.ARCHON_PRESETS = {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271457:281029&gems=240892&ench=7967",
-            "popularity": 61.6,
+            "popularity": 63.5,
             "parses": 1
           },
           {
             "id": 252258,
             "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271457:252258&gems=240892&ench=7967",
-            "popularity": 32.5,
-            "parses": 938
+            "popularity": 31.4,
+            "parses": 881
           },
           {
             "id": 268213,
             "name": "",
             "params": "pcs=271459:271456:271454:271457:268213&ench=8689",
-            "popularity": 89.6,
+            "popularity": 89.5,
             "parses": 2
           },
           {
             "id": 280799,
             "name": "",
             "params": "pcs=271459:271456:271454:271457:280799&ench=8689",
-            "popularity": 56.2,
+            "popularity": 57.7,
             "parses": 1
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 63.7,
+            "popularity": 63.5,
             "parses": 1
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 63.7,
+            "popularity": 63.5,
             "parses": 1
           }
         ]
       },
       "mplus": {
-        "m": 1188,
-        "c": 819,
-        "h": 1074,
-        "v": 177,
-        "dps": "452.8k",
+        "m": 1190,
+        "c": 815,
+        "h": 1069,
+        "v": 175,
+        "dps": "453.2k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/6qJM78yWz3RnjYKp#fight=13",
@@ -9731,29 +9731,29 @@ window.ARCHON_PRESETS = {
             "id": 271456,
             "name": "",
             "params": "pcs=271459:271456:271455:271454&gems=240900&ench=8017",
-            "popularity": 88.3,
+            "popularity": 88.5,
             "parses": 1
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271459:271456:271455:271454:268265&gems=240983",
-            "popularity": 91.5,
+            "popularity": 93.1,
             "parses": 1
           },
           {
             "id": 271454,
             "name": "",
             "params": "pcs=271459:271456:271455:271454&ench=8001",
-            "popularity": 79.7,
-            "parses": 1
+            "popularity": 79.9,
+            "parses": 979
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271459:271456:271455:271454:268253",
-            "popularity": 41.4,
-            "parses": 552
+            "popularity": 40.4,
+            "parses": 495
           },
           {
             "id": 271459,
@@ -9766,78 +9766,78 @@ window.ARCHON_PRESETS = {
             "id": 237834,
             "name": "",
             "params": "bonus=8793&pcs=271459:271456:271455:271454:237834&gems=240900",
-            "popularity": 91.2,
+            "popularity": 91.3,
             "parses": 1
           },
           {
             "id": 271457,
             "name": "",
             "params": "pcs=271459:271456:271455:271454:271457",
-            "popularity": 74.8,
-            "parses": 997
+            "popularity": 75.8,
+            "parses": 929
           },
           {
             "id": 268259,
             "name": "",
             "params": "pcs=271459:271456:271455:271454:268259&gems=240900",
-            "popularity": 37.5,
-            "parses": 500
+            "popularity": 37.2,
+            "parses": 456
           },
           {
             "id": 271455,
             "name": "",
             "params": "pcs=271459:271456:271455:271454&ench=8159",
-            "popularity": 82.4,
+            "popularity": 82.7,
             "parses": 1
           },
           {
             "id": 237828,
             "name": "",
             "params": "bonus=8793&pcs=271459:271456:271455:271454:237828&ench=7963",
-            "popularity": 68.8,
-            "parses": 917
+            "popularity": 68.6,
+            "parses": 840
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271459:271456:271455:271454:281029&gems=240900&ench=7967",
-            "popularity": 61.3,
-            "parses": 816
+            "popularity": 64.5,
+            "parses": 790
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8793&pcs=271459:271456:271455:271454:240949&gems=240900&ench=7967",
-            "popularity": 43.8,
-            "parses": 583
+            "popularity": 43.1,
+            "parses": 528
           },
           {
             "id": 268213,
             "name": "",
             "params": "pcs=271459:271456:271455:271454:268213&ench=8689",
-            "popularity": 87.6,
+            "popularity": 88.2,
             "parses": 1
           },
           {
             "id": 280799,
             "name": "",
             "params": "pcs=271459:271456:271455:271454:280799&ench=8689",
-            "popularity": 57.1,
-            "parses": 760
+            "popularity": 59.3,
+            "parses": 726
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 48.9,
-            "parses": 652
+            "popularity": 48,
+            "parses": 588
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 48.9,
-            "parses": 652
+            "popularity": 48,
+            "parses": 588
           }
         ]
       }
@@ -9846,9 +9846,9 @@ window.ARCHON_PRESETS = {
       "raid": {
         "m": 686,
         "c": 1018,
-        "h": 1182,
+        "h": 1181,
         "v": 222,
-        "dps": "141.5k",
+        "dps": "141.4k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/7yTXwhBDzF4N2kqR#fight=8",
@@ -9860,35 +9860,35 @@ window.ARCHON_PRESETS = {
             "id": 271456,
             "name": "",
             "params": "pcs=271459:271456:271454:271457&gems=240890&ench=7961",
-            "popularity": 88.9,
+            "popularity": 89.1,
             "parses": 5
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271457:268265&gems=240983",
-            "popularity": 80.3,
+            "popularity": 80.5,
             "parses": 4
           },
           {
             "id": 271454,
             "name": "",
             "params": "pcs=271459:271456:271454:271457&ench=8031",
-            "popularity": 85.2,
+            "popularity": 84.8,
             "parses": 4
           },
           {
             "id": 268253,
             "name": "",
             "params": "pcs=271459:271456:271454:271457:268253",
-            "popularity": 38.5,
+            "popularity": 38.9,
             "parses": 2
           },
           {
             "id": 271459,
             "name": "",
             "params": "pcs=271459:271456:271454:271457&ench=7987",
-            "popularity": 90.6,
+            "popularity": 90.5,
             "parses": 5
           },
           {
@@ -9902,14 +9902,14 @@ window.ARCHON_PRESETS = {
             "id": 271457,
             "name": "",
             "params": "pcs=271459:271456:271454:271457",
-            "popularity": 84.1,
+            "popularity": 83.9,
             "parses": 4
           },
           {
             "id": 268259,
             "name": "",
             "params": "pcs=271459:271456:271454:271457:268259&gems=240890",
-            "popularity": 38.6,
+            "popularity": 38.4,
             "parses": 2
           },
           {
@@ -9923,59 +9923,59 @@ window.ARCHON_PRESETS = {
             "id": 237828,
             "name": "",
             "params": "bonus=8790&pcs=271459:271456:271454:271457:237828&ench=7993",
-            "popularity": 47.4,
+            "popularity": 47.1,
             "parses": 2
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271459:271456:271454:271457:281029&gems=240890&ench=7967",
-            "popularity": 44.8,
+            "popularity": 45.9,
             "parses": 2
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8790&pcs=271459:271456:271454:271457:240949&gems=240890&ench=7967",
-            "popularity": 28.6,
+            "popularity": 28.4,
             "parses": 1
           },
           {
             "id": 268209,
             "name": "",
             "params": "pcs=271459:271456:271454:271457:268209&ench=8039",
-            "popularity": 57.4,
+            "popularity": 58.2,
             "parses": 3
           },
           {
             "id": 268196,
             "name": "",
             "params": "pcs=271459:271456:271454:271457:268196&ench=4216",
-            "popularity": 47.9,
+            "popularity": 48,
             "parses": 2
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 47.9,
+            "popularity": 47.8,
             "parses": 2
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 47.9,
+            "popularity": 47.8,
             "parses": 2
           }
         ]
       },
       "mplus": {
-        "m": 714,
-        "c": 914,
-        "h": 1229,
-        "v": 324,
-        "dps": "257.9k",
+        "m": 717,
+        "c": 913,
+        "h": 1228,
+        "v": 321,
+        "dps": "257.3k",
         "dpsLabel": "DPS",
         "popularity": "",
         "topLogUrl": "https://www.warcraftlogs.com/reports/ACd8TVkNH4Q7BRZG#fight=1",
@@ -9987,49 +9987,49 @@ window.ARCHON_PRESETS = {
             "id": 271456,
             "name": "",
             "params": "pcs=271456:271459:271455:271454&gems=240890&ench=7961",
-            "popularity": 86.8,
+            "popularity": 86.7,
             "parses": 2
           },
           {
             "id": 268265,
             "name": "",
             "params": "bonus=13534&pcs=271456:271459:271455:271454:268265&gems=240983",
-            "popularity": 83.3,
+            "popularity": 83.9,
             "parses": 2
           },
           {
             "id": 271454,
             "name": "",
             "params": "pcs=271456:271459:271455:271454&ench=8031",
-            "popularity": 83,
+            "popularity": 82.7,
             "parses": 2
           },
           {
             "id": 239656,
             "name": "",
             "params": "bonus=8790&pcs=271456:271459:271455:271454:239656",
-            "popularity": 27.8,
-            "parses": 845
+            "popularity": 28,
+            "parses": 790
           },
           {
             "id": 271459,
             "name": "",
             "params": "pcs=271456:271459:271455:271454&ench=7987",
-            "popularity": 85.6,
+            "popularity": 84.9,
             "parses": 2
           },
           {
             "id": 237834,
             "name": "",
             "params": "bonus=8790&pcs=271456:271459:271455:271454:237834&gems=240890",
-            "popularity": 79.5,
+            "popularity": 80.8,
             "parses": 2
           },
           {
             "id": 271457,
             "name": "",
             "params": "pcs=271456:271459:271455:271454:271457",
-            "popularity": 70.1,
+            "popularity": 69.8,
             "parses": 2
           },
           {
@@ -10037,63 +10037,63 @@ window.ARCHON_PRESETS = {
             "name": "",
             "params": "pcs=271456:271459:271455:271454:271453&gems=240890",
             "popularity": 25.9,
-            "parses": 788
+            "parses": 730
           },
           {
             "id": 271455,
             "name": "",
             "params": "pcs=271456:271459:271455:271454&ench=8159",
-            "popularity": 84.3,
+            "popularity": 84.5,
             "parses": 2
           },
           {
             "id": 237828,
             "name": "",
             "params": "bonus=8790&pcs=271456:271459:271455:271454:237828&ench=7993",
-            "popularity": 58.9,
+            "popularity": 58.7,
             "parses": 1
           },
           {
             "id": 281029,
             "name": "",
             "params": "bonus=13534&pcs=271456:271459:271455:271454:281029&gems=240890&ench=8025",
-            "popularity": 46.9,
+            "popularity": 49.1,
             "parses": 1
           },
           {
             "id": 240949,
             "name": "",
             "params": ":8790&pcs=271456:271459:271455:271454:240949&gems=240890&ench=8025",
-            "popularity": 44,
+            "popularity": 43.5,
             "parses": 1
           },
           {
             "id": 268202,
             "name": "",
             "params": "pcs=271456:271459:271455:271454:268202&ench=8689",
-            "popularity": 41.9,
+            "popularity": 42,
             "parses": 1
           },
           {
             "id": 237831,
             "name": "",
             "params": "bonus=8790&pcs=271456:271459:271455:271454:237831&ench=4216",
-            "popularity": 38.2,
+            "popularity": 36.5,
             "parses": 1
           },
           {
             "id": 270173,
             "name": "",
             "params": "nofollow",
-            "popularity": 25.4,
-            "parses": 774
+            "popularity": 25.1,
+            "parses": 708
           },
           {
             "id": 270175,
             "name": "",
             "params": "nofollow",
-            "popularity": 25.4,
-            "parses": 774
+            "popularity": 25.1,
+            "parses": 708
           }
         ]
       }
@@ -10108,42 +10108,42 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 61.8,
+          "popularity": 63.6,
           "maxKey": "+24",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 16.4,
+          "popularity": 15.1,
           "maxKey": "+24",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 4.7,
+          "popularity": 4.8,
           "maxKey": "+24",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 4.5,
+          "popularity": 4.2,
           "maxKey": "+24",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 250255,
           "name": "",
-          "popularity": 3.2,
+          "popularity": 3.4,
           "maxKey": "+24",
           "icon": "tooltip_crystallizedfel"
         },
         {
           "itemId": 250255,
           "name": "",
-          "popularity": 2.5,
+          "popularity": 2.3,
           "maxKey": "+24",
           "icon": "tooltip_crystallizedfel"
         },
@@ -10157,14 +10157,14 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270171,
           "name": "Preternatural Antivenom",
-          "popularity": 66,
+          "popularity": 67.9,
           "maxKey": "+24",
           "icon": "inv_11_0_dungeon_tentaclevial_green"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 17.6,
+          "popularity": 16.3,
           "maxKey": "+24",
           "icon": "inv_10_tailoring_bag1_color2"
         },
@@ -10185,7 +10185,7 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 4.9,
+          "popularity": 4.6,
           "maxKey": "+24",
           "icon": "inv_tradeskillitem_sorcererswater"
         }
@@ -10284,84 +10284,84 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 48.5,
+          "popularity": 48.1,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 13.6,
+          "popularity": 13.2,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 7.9,
-          "maxKey": "+22",
+          "popularity": 8.2,
+          "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270167,
           "name": "",
-          "popularity": 5.8,
-          "maxKey": "+22",
+          "popularity": 6.3,
+          "maxKey": "+23",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 5,
+          "popularity": 5.5,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 2.8,
+          "popularity": 2.7,
           "maxKey": "+21",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 81.9,
+          "popularity": 81.2,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270167,
           "name": "",
-          "popularity": 59.4,
+          "popularity": 59,
           "maxKey": "+23",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 17.7,
+          "popularity": 17.2,
           "maxKey": "+23",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 281215,
           "name": "Twisted Horror's Tendril",
-          "popularity": 15.9,
-          "maxKey": "+22",
+          "popularity": 17,
+          "maxKey": "+23",
           "icon": "8268563"
         },
         {
           "itemId": 270171,
           "name": "Preternatural Antivenom",
-          "popularity": 6.3,
+          "popularity": 6.7,
           "maxKey": "+23",
           "icon": "inv_11_0_dungeon_tentaclevial_green"
         },
         {
           "itemId": 280835,
           "name": "Sigil of the Impending Eclipse",
-          "popularity": 3.7,
+          "popularity": 3.5,
           "maxKey": "+21",
           "icon": "8268562"
         }
@@ -10370,16 +10370,9 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270167,
           "name": "",
-          "popularity": 23.9,
+          "popularity": 24.2,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
-        },
-        {
-          "itemId": 270162,
-          "name": "",
-          "popularity": 21.4,
-          "maxKey": "",
-          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
@@ -10391,14 +10384,21 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 5.9,
+          "popularity": 20.9,
+          "maxKey": "",
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+        },
+        {
+          "itemId": 270162,
+          "name": "",
+          "popularity": 6.1,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270167,
           "name": "",
-          "popularity": 5.6,
+          "popularity": 5.9,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
@@ -10412,44 +10412,44 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270167,
           "name": "",
-          "popularity": 78.3,
+          "popularity": 78.4,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 33.1,
+          "popularity": 32.9,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 32.2,
+          "popularity": 32.1,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 270169,
           "name": "Hex Lord's Dooming Idol",
-          "popularity": 28.9,
+          "popularity": 29.1,
           "maxKey": "",
           "icon": "inv_archaeology_orcclans_crackedidol"
         },
         {
-          "itemId": 280835,
-          "name": "Sigil of the Impending Eclipse",
-          "popularity": 8.8,
-          "maxKey": "",
-          "icon": "8268562"
-        },
-        {
           "itemId": 281215,
           "name": "Twisted Horror's Tendril",
-          "popularity": 8.4,
+          "popularity": 8.8,
           "maxKey": "",
           "icon": "8268563"
+        },
+        {
+          "itemId": 280835,
+          "name": "Sigil of the Impending Eclipse",
+          "popularity": 8.7,
+          "maxKey": "",
+          "icon": "8268562"
         }
       ]
     },
@@ -10458,21 +10458,21 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 50.2,
+          "popularity": 49.6,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 15,
+          "popularity": 15.3,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 13.3,
+          "popularity": 13.4,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
@@ -10500,28 +10500,28 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 89.7,
+          "popularity": 89.3,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 53.8,
+          "popularity": 53,
           "maxKey": "+23",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 270171,
           "name": "Preternatural Antivenom",
-          "popularity": 16.9,
+          "popularity": 17.4,
           "maxKey": "+23",
           "icon": "inv_11_0_dungeon_tentaclevial_green"
         },
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 14.6,
+          "popularity": 14.8,
           "maxKey": "+23",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
@@ -10634,7 +10634,7 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 250255,
           "name": "",
-          "popularity": 56.1,
+          "popularity": 56.4,
           "maxKey": "+24",
           "icon": "tooltip_crystallizedfel"
         },
@@ -10648,42 +10648,42 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 10.8,
+          "popularity": 10.2,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 9.1,
+          "popularity": 9.5,
           "maxKey": "+24",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 2,
+          "popularity": 1.8,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
-          "itemId": 270164,
+          "itemId": 250255,
           "name": "",
-          "popularity": 0.8,
-          "maxKey": "+23",
-          "icon": "inv_10_tailoring_bag1_color2"
+          "popularity": 0.9,
+          "maxKey": "+24",
+          "icon": "tooltip_crystallizedfel"
         },
         {
           "itemId": 270162,
           "name": "Soulcoiler Ritual Vessel",
-          "popularity": 93.3,
+          "popularity": 92.9,
           "maxKey": "+24",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 250255,
           "name": "Unstable Felheart Crystal",
-          "popularity": 57.3,
+          "popularity": 57.8,
           "maxKey": "+24",
           "icon": "tooltip_crystallizedfel"
         },
@@ -10697,21 +10697,21 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 12.1,
+          "popularity": 11.5,
           "maxKey": "+23",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 270171,
           "name": "Preternatural Antivenom",
-          "popularity": 10.4,
+          "popularity": 11,
           "maxKey": "+24",
           "icon": "inv_11_0_dungeon_tentaclevial_green"
         },
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 2,
+          "popularity": 1.8,
           "maxKey": "+23",
           "icon": "inv_tradeskillitem_sorcererswater"
         }
@@ -10720,14 +10720,14 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 48.7,
+          "popularity": 48.2,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 15.8,
+          "popularity": 16.5,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
@@ -10741,42 +10741,42 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 6.2,
+          "popularity": 6,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 2.9,
+          "popularity": 3.2,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 2.2,
+          "popularity": 2,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 270162,
           "name": "Soulcoiler Ritual Vessel",
-          "popularity": 87,
+          "popularity": 86.9,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 58.5,
+          "popularity": 57.9,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 281215,
           "name": "Twisted Horror's Tendril",
-          "popularity": 20,
+          "popularity": 21.1,
           "maxKey": "",
           "icon": "8268563"
         },
@@ -10790,14 +10790,14 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 9.5,
+          "popularity": 9.1,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 280835,
           "name": "Sigil of the Impending Eclipse",
-          "popularity": 2.2,
+          "popularity": 2.1,
           "maxKey": "",
           "icon": "8268562"
         }
@@ -10810,21 +10810,21 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 47.7,
+          "popularity": 46.7,
           "maxKey": "+22",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 11.3,
+          "popularity": 11.6,
           "maxKey": "+21",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 250255,
           "name": "",
-          "popularity": 10.3,
+          "popularity": 10.8,
           "maxKey": "+23",
           "icon": "tooltip_crystallizedfel"
         },
@@ -10852,14 +10852,14 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "Soulcoiler Ritual Vessel",
-          "popularity": 83.3,
+          "popularity": 83.4,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 55.2,
+          "popularity": 54.4,
           "maxKey": "+22",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
@@ -10873,21 +10873,21 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 250255,
           "name": "Unstable Felheart Crystal",
-          "popularity": 13.8,
+          "popularity": 14.6,
           "maxKey": "+23",
           "icon": "tooltip_crystallizedfel"
         },
         {
           "itemId": 270171,
           "name": "Preternatural Antivenom",
-          "popularity": 7.5,
+          "popularity": 7.7,
           "maxKey": "+22",
           "icon": "inv_11_0_dungeon_tentaclevial_green"
         },
         {
           "itemId": 280835,
           "name": "Sigil of the Impending Eclipse",
-          "popularity": 7.2,
+          "popularity": 7.3,
           "maxKey": "+21",
           "icon": "8268562"
         }
@@ -10896,84 +10896,84 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 43.3,
+          "popularity": 43.7,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 11.1,
+          "popularity": 10.8,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 10.5,
+          "popularity": 10.1,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270167,
           "name": "",
-          "popularity": 9.2,
+          "popularity": 9.6,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 270167,
           "name": "",
-          "popularity": 3.8,
+          "popularity": 4,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 3.7,
+          "popularity": 3.6,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 69.8,
+          "popularity": 70.6,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 270162,
           "name": "Soulcoiler Ritual Vessel",
-          "popularity": 62,
+          "popularity": 61.6,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 29.5,
+          "popularity": 28.8,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 270169,
           "name": "Hex Lord's Dooming Idol",
-          "popularity": 14.9,
+          "popularity": 15.3,
           "maxKey": "",
           "icon": "inv_archaeology_orcclans_crackedidol"
         },
         {
           "itemId": 280835,
           "name": "Sigil of the Impending Eclipse",
-          "popularity": 10.3,
+          "popularity": 10.2,
           "maxKey": "",
           "icon": "8268562"
         },
         {
           "itemId": 270171,
           "name": "Preternatural Antivenom",
-          "popularity": 3.2,
+          "popularity": 3.3,
           "maxKey": "",
           "icon": "inv_11_0_dungeon_tentaclevial_green"
         }
@@ -10986,84 +10986,84 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 33.4,
+          "popularity": 32.6,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 250255,
           "name": "",
-          "popularity": 17.2,
+          "popularity": 17.9,
           "maxKey": "+24",
           "icon": "tooltip_crystallizedfel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 15.6,
+          "popularity": 16.5,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 13,
+          "popularity": 12.5,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 5.5,
+          "popularity": 4.7,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 250255,
           "name": "",
-          "popularity": 1.8,
-          "maxKey": "+21",
+          "popularity": 1.9,
+          "maxKey": "+22",
           "icon": "tooltip_crystallizedfel"
         },
         {
           "itemId": 270162,
           "name": "Soulcoiler Ritual Vessel",
-          "popularity": 88.5,
+          "popularity": 88.3,
           "maxKey": "+24",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 36.3,
+          "popularity": 35.8,
           "maxKey": "+23",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
           "itemId": 250255,
           "name": "Unstable Felheart Crystal",
-          "popularity": 19.8,
+          "popularity": 20.8,
           "maxKey": "+24",
           "icon": "tooltip_crystallizedfel"
         },
         {
           "itemId": 270171,
           "name": "Preternatural Antivenom",
-          "popularity": 18.9,
+          "popularity": 19.9,
           "maxKey": "+23",
           "icon": "inv_11_0_dungeon_tentaclevial_green"
         },
         {
           "itemId": 281215,
           "name": "Twisted Horror's Tendril",
-          "popularity": 14,
+          "popularity": 13.5,
           "maxKey": "+23",
           "icon": "8268563"
         },
         {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 6.5,
+          "popularity": 5.6,
           "maxKey": "+23",
           "icon": "inv_10_tailoring_bag1_color2"
         }
@@ -11162,77 +11162,77 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 26.5,
+          "popularity": 26.1,
           "maxKey": "+22",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 22.6,
+          "popularity": 24,
           "maxKey": "+24",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 20.8,
+          "popularity": 20.1,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 9.3,
+          "popularity": 9,
           "maxKey": "+23",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270167,
           "name": "",
-          "popularity": 2.8,
+          "popularity": 3,
           "maxKey": "+22",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
         {
-          "itemId": 270164,
+          "itemId": 270162,
           "name": "",
-          "popularity": 1.5,
+          "popularity": 1.6,
           "maxKey": "+21",
-          "icon": "inv_10_tailoring_bag1_color2"
+          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "Soulcoiler Ritual Vessel",
-          "popularity": 85.3,
+          "popularity": 85.2,
           "maxKey": "+24",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "Gebbo's Bottomless Bag",
-          "popularity": 29.7,
+          "popularity": 28.8,
           "maxKey": "+22",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
-          "itemId": 270167,
-          "name": "Wavecaller's Seastone",
-          "popularity": 27,
-          "maxKey": "+23",
-          "icon": "inv_tradeskillitem_sorcererswater"
-        },
-        {
           "itemId": 270171,
           "name": "Preternatural Antivenom",
-          "popularity": 26.5,
+          "popularity": 27.8,
           "maxKey": "+24",
           "icon": "inv_11_0_dungeon_tentaclevial_green"
         },
         {
+          "itemId": 270167,
+          "name": "Wavecaller's Seastone",
+          "popularity": 26.6,
+          "maxKey": "+23",
+          "icon": "inv_tradeskillitem_sorcererswater"
+        },
+        {
           "itemId": 281215,
           "name": "Twisted Horror's Tendril",
-          "popularity": 11.1,
+          "popularity": 11,
           "maxKey": "+23",
           "icon": "8268563"
         },
@@ -11248,7 +11248,7 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 58.9,
+          "popularity": 58.8,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
@@ -11262,30 +11262,30 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 7.5,
+          "popularity": 7.6,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270162,
           "name": "",
-          "popularity": 4.4,
+          "popularity": 4.3,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270164,
           "name": "",
-          "popularity": 3.6,
+          "popularity": 3.7,
           "maxKey": "",
           "icon": "inv_10_tailoring_bag1_color2"
         },
         {
-          "itemId": 270162,
+          "itemId": 270164,
           "name": "",
-          "popularity": 1.1,
+          "popularity": 1.2,
           "maxKey": "",
-          "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+          "icon": "inv_10_tailoring_bag1_color2"
         },
         {
           "itemId": 270164,
@@ -11297,14 +11297,14 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 270162,
           "name": "Soulcoiler Ritual Vessel",
-          "popularity": 76.2,
+          "popularity": 75.8,
           "maxKey": "",
           "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
         },
         {
           "itemId": 270167,
           "name": "Wavecaller's Seastone",
-          "popularity": 18.7,
+          "popularity": 18.9,
           "maxKey": "",
           "icon": "inv_tradeskillitem_sorcererswater"
         },
@@ -11318,14 +11318,14 @@ window.ARCHON_HEALER_TRINKETS = {
         {
           "itemId": 248583,
           "name": "Drum of Renewed Bonds",
-          "popularity": 2.9,
+          "popularity": 3.1,
           "maxKey": "",
           "icon": "inv_archaeology_70_tauren_drum"
         },
         {
           "itemId": 274493,
           "name": "Effigy of Ula'tek's Faithful",
-          "popularity": 2.8,
+          "popularity": 2.6,
           "maxKey": "",
           "icon": "ability_fomor_boss_rune_green"
         }
