@@ -3839,5 +3839,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Add the Living Heartsbane Cauldron mount to your collection in Azeroth."
     }
+  },
+  "wh-383801": {
+    "es": {
+      "tldr": [
+        "Completa la cadena de misiones para obtener el Saco de Dormir.",
+        "Proporciona un bono de experiencia al descansar en él.",
+        "Los jugadores de la Alianza tardan 89 minutos, los de la Horda 103."
+      ],
+      "seo_description": "Consigue el Saco de Dormir en WoW: Forever y acelera tu nivelación."
+    },
+    "en": {
+      "tldr": [
+        "Complete the quest chain to obtain the Cozy Sleeping Bag.",
+        "Provides an experience bonus when resting inside.",
+        "Alliance players take 89 minutes, Horde players 103."
+      ],
+      "seo_description": "Get the Cozy Sleeping Bag in WoW: Forever and speed up your leveling."
+    }
   }
 };
