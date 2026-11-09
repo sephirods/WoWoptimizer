@@ -2921,5 +2921,923 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Discover World of Warcraft: Forever, now available for all adventurers."
     }
+  },
+  "blizz-24302546": {
+    "es": {
+      "tldr": [
+        "El equipo de WoW: Forever busca preservar la estética original.",
+        "Se actualizarán elementos visuales, como las formas de druida de los cielonatos.",
+        "Se mejorará la fidelidad visual y la cohesión con otras criaturas."
+      ],
+      "seo_description": "Descubre las actualizaciones visuales de los cielonatos en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "The WoW: Forever team aims to preserve the original aesthetic.",
+        "Visual elements like Skyborne Druid forms will be updated.",
+        "Improved visual fidelity and cohesion with other creatures."
+      ],
+      "seo_description": "Explore visual updates for Skyborne in WoW: Forever."
+    }
+  },
+  "blizz-24307308": {
+    "es": {
+      "tldr": [
+        "Las Islas Lanza Negra son un nuevo campo de batalla 15c15.",
+        "Los equipos luchan por puntos de captura y una bandera central.",
+        "El primer equipo en alcanzar 2000 puntos gana."
+      ],
+      "seo_description": "Lucha en las Islas Lanza Negra en el nuevo campo de batalla 15c15."
+    },
+    "en": {
+      "tldr": [
+        "Darkspear Islands is a new 15v15 battleground.",
+        "Teams fight for capture points and a central flag.",
+        "First team to reach 2000 points wins."
+      ],
+      "seo_description": "Battle in Darkspear Islands in the new 15v15 battleground."
+    }
+  },
+  "blizz-24303316": {
+    "es": {
+      "tldr": [
+        "La progresión JcJ en WoW: Forever se centra en Honor y puntos de rango.",
+        "Se simplificó el sistema de honor original.",
+        "Los jugadores ganan honor al participar en contenido JcJ."
+      ],
+      "seo_description": "Descubre cómo funciona la progresión JcJ en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "PvP progression in WoW: Forever focuses on Honor and Rank Points.",
+        "The original Honor System was simplified.",
+        "Players earn Honor by participating in PvP content."
+      ],
+      "seo_description": "Learn how PvP progression works in WoW: Forever."
+    }
+  },
+  "wh-383727": {
+    "es": {
+      "tldr": [
+        "Guías de Wowhead disponibles para el lanzamiento de WoW: Forever.",
+        "Incluyen cambios de clase, zonas, profesiones y más.",
+        "Prepárate para el lanzamiento y elige tu clase."
+      ],
+      "seo_description": "Accede a las guías de Wowhead para el lanzamiento de WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Wowhead guides are live for the launch of WoW: Forever.",
+        "Includes class changes, zones, professions, and more.",
+        "Get ready for launch and choose your class."
+      ],
+      "seo_description": "Access Wowhead guides for the launch of WoW: Forever."
+    }
+  },
+  "wh-383722": {
+    "es": {
+      "tldr": [
+        "Las herramientas de Wowhead están actualizadas para WoW: Forever.",
+        "Incluyen mapa del mundo, calculadora de talentos y más.",
+        "Prepárate para tu aventura en Azeroth."
+      ],
+      "seo_description": "Las herramientas de Wowhead ya están disponibles para WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Wowhead tools are updated for WoW: Forever.",
+        "Includes world map, talent calculator, and more.",
+        "Prepare for your adventure in Azeroth."
+      ],
+      "seo_description": "Wowhead tools are now live for WoW: Forever."
+    }
+  },
+  "wh-383728": {
+    "es": {
+      "tldr": [
+        "WoW: Forever se lanza hoy a las 3 PM PST.",
+        "Habrá un mantenimiento prolongado antes del lanzamiento.",
+        "Consulta los horarios según tu zona horaria."
+      ],
+      "seo_description": "Consulta cuándo se lanza WoW: Forever en tu zona horaria."
+    },
+    "en": {
+      "tldr": [
+        "WoW: Forever launches today at 3 PM PST.",
+        "There will be extended maintenance before launch.",
+        "Check the times based on your time zone."
+      ],
+      "seo_description": "Find out when WoW: Forever launches in your time zone."
+    }
+  },
+  "wh-383724": {
+    "es": {
+      "tldr": [
+        "El Discord de Chamán Clásico reabrió tras 13 horas de cierre.",
+        "Se discutieron problemas de diseño de la clase Chamán en WoW: Forever.",
+        "WoW: Forever se lanza en menos de 24 horas."
+      ],
+      "seo_description": "El Discord de Chamán Clásico reabre tras 13 horas, justo antes del lanzamiento de WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Classic Shaman Discord reopened after 13 hours.",
+        "Design issues with Shaman class in WoW: Forever discussed.",
+        "WoW: Forever launches in less than 24 hours."
+      ],
+      "seo_description": "Classic Shaman Discord reopens after 13 hours, just before WoW: Forever launch."
+    }
+  },
+  "wh-383723": {
+    "es": {
+      "tldr": [
+        "Blizzard aborda problemas con el montura Hot Motocross Bunmover.",
+        "Se están preparando soluciones antes del mantenimiento de la próxima semana.",
+        "Los jugadores reportaron problemas de funcionamiento con la montura."
+      ],
+      "seo_description": "Blizzard trabaja en soluciones para problemas del montura Hot Motocross Bunmover antes del mantenimiento."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard addresses issues with the Hot Motocross Bunmover mount.",
+        "Fixes are being prepared ahead of next week's maintenance.",
+        "Players reported functionality issues with the mount."
+      ],
+      "seo_description": "Blizzard is working on fixes for Hot Motocross Bunmover mount issues before maintenance."
+    }
+  },
+  "wh-383720": {
+    "es": {
+      "tldr": [
+        "WoW: Forever ahora soporta el uso de gamepads.",
+        "Se han refinado las mecánicas para una mejor experiencia con gamepad.",
+        "Compatible con controladores XInput y botones de Xbox y PlayStation."
+      ],
+      "seo_description": "WoW: Forever ahora soporta gamepads, mejorando la experiencia de juego."
+    },
+    "en": {
+      "tldr": [
+        "WoW: Forever now supports gamepad use.",
+        "Mechanics refined for better gamepad experience.",
+        "Compatible with XInput controllers and Xbox/PlayStation buttons."
+      ],
+      "seo_description": "WoW: Forever now supports gamepads, enhancing the gaming experience."
+    }
+  },
+  "wh-383714": {
+    "es": {
+      "tldr": [
+        "Calculadoras de talentos de Wowhead actualizadas para WoW: Forever.",
+        "Incluyen cambios recientes en clases como Pícaros y Guerreros.",
+        "Prepárate para el lanzamiento y planifica tu construcción."
+      ],
+      "seo_description": "Las calculadoras de talentos de Wowhead se actualizan para WoW: Forever, incluyendo cambios de clase."
+    },
+    "en": {
+      "tldr": [
+        "Wowhead's talent calculators updated for WoW: Forever.",
+        "Includes recent class changes for Rogues and Warriors.",
+        "Get ready for launch and plan your build."
+      ],
+      "seo_description": "Wowhead's talent calculators updated for WoW: Forever, including class changes."
+    }
+  },
+  "wh-383716": {
+    "es": {
+      "tldr": [
+        "Los Tokens de Nivel desbloquean misiones para obtener piezas de nivel.",
+        "Las bandas volverán a soltar piezas de nivel con bonificaciones.",
+        "Se requiere contenido de grupo para completar las misiones."
+      ],
+      "seo_description": "Los Tokens de Nivel en WoW: Forever desbloquean misiones para obtener piezas de nivel."
+    },
+    "en": {
+      "tldr": [
+        "Tier Tokens unlock quests to earn Tier Pieces.",
+        "Raids will drop Tier pieces with bonuses.",
+        "Group content required to complete quests."
+      ],
+      "seo_description": "Tier Tokens in WoW: Forever unlock quests to earn Tier Pieces."
+    }
+  },
+  "wh-383713": {
+    "es": {
+      "tldr": [
+        "Los paquetes D&D: World of Warcraft están en acceso anticipado.",
+        "Los jugadores pueden reclamar recompensas en el juego.",
+        "Incluyen montura, mascota, juguete y decoración."
+      ],
+      "seo_description": "Los paquetes D&D: World of Warcraft en acceso anticipado ofrecen recompensas en el juego."
+    },
+    "en": {
+      "tldr": [
+        "D&D: World of Warcraft bundles are in early access.",
+        "Players can claim in-game rewards.",
+        "Includes mount, pet, toy, and decor."
+      ],
+      "seo_description": "D&D: World of Warcraft bundles in early access offer in-game rewards."
+    }
+  },
+  "wh-383712": {
+    "es": {
+      "tldr": [
+        "Blizzard presenta novedades y similitudes en WoW: Forever.",
+        "Se ofrecen opciones de configuración visual: Clásico y Mejorado.",
+        "Elementos familiares para jugadores de WoW moderno y Classic."
+      ],
+      "seo_description": "Descubre las novedades y similitudes en WoW: Forever, incluyendo opciones de configuración y elementos familiares."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard highlights new and familiar aspects in WoW: Forever.",
+        "Visual settings options: Classic and Enhanced.",
+        "Familiar elements for modern and Classic WoW players."
+      ],
+      "seo_description": "Explore new and familiar aspects in WoW: Forever, including visual settings and familiar elements."
+    }
+  },
+  "wh-383704": {
+    "es": {
+      "tldr": [
+        "Blizzard publica notas de desarrollo y ajustes de clase para WoW: Forever.",
+        "Se han solucionado problemas y se han refinado clases desde la Beta.",
+        "Los cambios incluyen ajustes en talentos raciales y estadísticas base."
+      ],
+      "seo_description": "Conoce las notas de desarrollo y ajustes de clase para WoW: Forever, incluyendo correcciones y mejoras."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard releases development notes and class tuning for WoW: Forever.",
+        "Issues have been addressed and classes refined since the Beta.",
+        "Changes include adjustments to racial talents and base stats."
+      ],
+      "seo_description": "Learn about development notes and class tuning for WoW: Forever, including fixes and improvements."
+    }
+  },
+  "wh-383702": {
+    "es": {
+      "tldr": [
+        "Los cazadores reciben mejoras en WoW: Forever.",
+        "Se han aplicado hotfixes que aumentan el daño de habilidades.",
+        "Trueshot Aura y Aspect of the Hawk han sido potenciados."
+      ],
+      "seo_description": "Los cazadores en WoW: Forever reciben mejoras significativas en sus habilidades y pasivas."
+    },
+    "en": {
+      "tldr": [
+        "Hunters receive buffs in WoW: Forever.",
+        "Hotfixes increase damage of various abilities.",
+        "Trueshot Aura and Aspect of the Hawk have been enhanced."
+      ],
+      "seo_description": "Hunters in WoW: Forever receive significant buffs to their abilities and passives."
+    }
+  },
+  "wh-383698": {
+    "es": {
+      "tldr": [
+        "Se lanza el tercer episodio de Planet Azeroth con Bill Bailey.",
+        "El episodio cubre las extremidades de Azeroth y sus criaturas.",
+        "La espera por WoW: Forever se reduce a 48 horas."
+      ],
+      "seo_description": "Disfruta del tercer episodio de Planet Azeroth, donde Bill Bailey narra sobre las criaturas de Azeroth."
+    },
+    "en": {
+      "tldr": [
+        "The third episode of Planet Azeroth with Bill Bailey is released.",
+        "The episode covers the extremes of Azeroth and its critters.",
+        "The wait for WoW: Forever is down to 48 hours."
+      ],
+      "seo_description": "Enjoy the third episode of Planet Azeroth, where Bill Bailey narrates about Azeroth's creatures."
+    }
+  },
+  "wh-383699": {
+    "es": {
+      "tldr": [
+        "Se añade una nueva pasiva para druidas y pícaros en WoW: Forever.",
+        "La pasiva reduce el coste de energía en un primer ataque.",
+        "Mejora el daño inicial en PvP y mazmorras."
+      ],
+      "seo_description": "Nueva pasiva para druidas y pícaros en WoW: Forever que reduce el coste de energía en el primer ataque."
+    },
+    "en": {
+      "tldr": [
+        "A new passive is added for Druids and Rogues in WoW: Forever.",
+        "The passive reduces energy cost on a first strike.",
+        "Enhances initial damage in PvP and dungeons."
+      ],
+      "seo_description": "New passive for Druids and Rogues in WoW: Forever reduces energy cost on the first strike."
+    }
+  },
+  "wh-383696": {
+    "es": {
+      "tldr": [
+        "Xbox UK confirma que WoW: Forever no llegará a Xbox en noviembre.",
+        "Un anuncio previo fue eliminado y corregido.",
+        "El juego solo estará disponible en Battle.net para PC y Mac."
+      ],
+      "seo_description": "WoW: Forever no llegará a Xbox en noviembre, solo estará disponible en Battle.net para PC y Mac."
+    },
+    "en": {
+      "tldr": [
+        "Xbox UK confirms WoW: Forever not coming to Xbox in November.",
+        "A previous announcement was removed and corrected.",
+        "The game will only be available on Battle.net for PC and Mac."
+      ],
+      "seo_description": "WoW: Forever will not be coming to Xbox in November, only available on Battle.net for PC and Mac."
+    }
+  },
+  "wh-383695": {
+    "es": {
+      "tldr": [
+        "Mantenimiento largo antes del lanzamiento de WoW: Forever.",
+        "Los jugadores pueden pre-descargar el juego.",
+        "El mantenimiento podría extenderse debido a la congestión."
+      ],
+      "seo_description": "Mantenimiento largo antes del lanzamiento de WoW: Forever el 4 de noviembre."
+    },
+    "en": {
+      "tldr": [
+        "Long maintenance before WoW: Forever launch.",
+        "Players can pre-download the game.",
+        "Maintenance may extend due to congestion."
+      ],
+      "seo_description": "Long maintenance ahead of WoW: Forever launch on November 4."
+    }
+  },
+  "wh-383652": {
+    "es": {
+      "tldr": [
+        "Blizzard aborda problemas del ciclo diurno y nocturno.",
+        "Jugadores de Oceanía comparten servidores con NA.",
+        "Se discute cómo afecta esto a la experiencia de juego."
+      ],
+      "seo_description": "Blizzard discute problemas del ciclo diurno y nocturno para jugadores de Oceanía."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard addresses day-night cycle issues.",
+        "Oceanic players share servers with NA.",
+        "Discussion on how this affects gameplay experience."
+      ],
+      "seo_description": "Blizzard discusses day and night cycle issues for Oceanic players."
+    }
+  },
+  "wh-383482": {
+    "es": {
+      "tldr": [
+        "Los jugadores regresan a Dornogal en el parche 12.1.7.",
+        "La historia se centra en la búsqueda de Xal'atath.",
+        "Se revelan detalles sobre la trama y personajes."
+      ],
+      "seo_description": "Regreso a Dornogal en el parche 12.1.7, buscando a Xal'atath."
+    },
+    "en": {
+      "tldr": [
+        "Players return to Dornogal in patch 12.1.7.",
+        "The story focuses on the pursuit of Xal'atath.",
+        "Details about the plot and characters are revealed."
+      ],
+      "seo_description": "Returning to Dornogal in patch 12.1.7, pursuing Xal'atath."
+    }
+  },
+  "wh-383659": {
+    "es": {
+      "tldr": [
+        "Talebound ofrece recompensas como Venomstones y tiradas de bonificación.",
+        "Nuevos logros en el parche 12.1.7.",
+        "Recompensas comprables en Silvermoon City."
+      ],
+      "seo_description": "Recompensas de Talebound incluyen Venomstones y tiradas de bonificación."
+    },
+    "en": {
+      "tldr": [
+        "Talebound offers rewards like Venomstones and bonus rolls.",
+        "New achievements in patch 12.1.7.",
+        "Rewards purchasable in Silvermoon City."
+      ],
+      "seo_description": "Talebound rewards include Venomstones and bonus rolls."
+    }
+  },
+  "wh-383664": {
+    "es": {
+      "tldr": [
+        "Resumen semanal incluye el lanzamiento de WoW: Forever.",
+        "Demostración de Talebound comienza hoy.",
+        "Nuevos paquetes de decoración en la tienda."
+      ],
+      "seo_description": "Resumen semanal de WoW: Forever y novedades de Talebound."
+    },
+    "en": {
+      "tldr": [
+        "Weekly recap includes WoW: Forever launch.",
+        "Talebound demo starts today.",
+        "New shop decor packs available."
+      ],
+      "seo_description": "Weekly recap of WoW: Forever and Talebound updates."
+    }
+  },
+  "wh-383660": {
+    "es": {
+      "tldr": [
+        "Se descubren nuevas personalizaciones exteriores de viviendas.",
+        "Opciones: Icy Cabin y Cozy Cabin.",
+        "Posible vinculación con decoraciones de la tienda."
+      ],
+      "seo_description": "Nuevas personalizaciones exteriores de viviendas en el parche 12.1.7."
+    },
+    "en": {
+      "tldr": [
+        "New housing exterior customizations discovered.",
+        "Options: Icy Cabin and Cozy Cabin.",
+        "Possible link to shop decorations."
+      ],
+      "seo_description": "New housing exterior customizations in patch 12.1.7."
+    }
+  },
+  "wh-383658": {
+    "es": {
+      "tldr": [
+        "Talebound ofrece dos piezas de botín mítico de Venomous Abyss.",
+        "Requiere completar logros en dificultad Mítica.",
+        "Nuevo modo de juego roguelite en el parche 12.1.7."
+      ],
+      "seo_description": "Descubre cómo obtener botín mítico en Talebound con nuevos logros en WoW."
+    },
+    "en": {
+      "tldr": [
+        "Talebound offers two pieces of Mythic Venomous Abyss loot.",
+        "Requires completing achievements on Mythic difficulty.",
+        "New roguelite game mode in Patch 12.1.7."
+      ],
+      "seo_description": "Learn how to obtain Mythic loot in Talebound with new achievements in WoW."
+    }
+  },
+  "wh-383649": {
+    "es": {
+      "tldr": [
+        "Las actualizaciones forzosas se reducirán en WoW: Forever.",
+        "No se cambiará automáticamente de fase al unirse a un grupo.",
+        "Nueva tecnología de capas para mejorar la experiencia de juego."
+      ],
+      "seo_description": "Menos actualizaciones forzosas en WoW: Forever mejorarán la experiencia de juego."
+    },
+    "en": {
+      "tldr": [
+        "Forced updates will be reduced in WoW: Forever.",
+        "Joining a group won't automatically phase you.",
+        "New layering technology to enhance gameplay experience."
+      ],
+      "seo_description": "Fewer forced updates in WoW: Forever will enhance the gameplay experience."
+    }
+  },
+  "wh-383653": {
+    "es": {
+      "tldr": [
+        "WoW: Forever regresa a Azeroth el 4 de noviembre.",
+        "Nuevas zonas, misiones y sistemas en un mundo reimaginado.",
+        "Explora eventos y personajes del periodo original del juego."
+      ],
+      "seo_description": "Prepárate para el regreso a Azeroth en WoW: Forever con nuevas aventuras."
+    },
+    "en": {
+      "tldr": [
+        "WoW: Forever returns to Azeroth on November 4.",
+        "New zones, quests, and systems in a reimagined world.",
+        "Explore events and characters from the original game period."
+      ],
+      "seo_description": "Get ready for the return to Azeroth in WoW: Forever with new adventures."
+    }
+  },
+  "wh-383651": {
+    "es": {
+      "tldr": [
+        "Notas de desarrollo del parche 12.1.7 disponibles.",
+        "Demo de Talebound se lanzará mañana.",
+        "Explora un mundo macabro en un nuevo modo RPG de acción."
+      ],
+      "seo_description": "Prepárate para la demo de Talebound en el parche 12.1.7 de WoW."
+    },
+    "en": {
+      "tldr": [
+        "Patch 12.1.7 development notes are available.",
+        "Talebound demo will launch tomorrow.",
+        "Explore a macabre world in a new action RPG mode."
+      ],
+      "seo_description": "Get ready for the Talebound demo in WoW's Patch 12.1.7."
+    }
+  },
+  "wh-383650": {
+    "es": {
+      "tldr": [
+        "Blizzard aborda problemas de capas en WoW: Forever.",
+        "Se probaron batallas PvP a gran escala en la Beta.",
+        "Se están considerando mejoras para la detección de PvP."
+      ],
+      "seo_description": "Blizzard trabaja en problemas de capas para mejorar PvP en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard addresses layering issues in WoW: Forever.",
+        "Large-scale PvP battles were tested in the Beta.",
+        "Improvements for PvP detection are being considered."
+      ],
+      "seo_description": "Blizzard is working on layering issues to improve PvP in WoW: Forever."
+    }
+  },
+  "wh-383648": {
+    "es": {
+      "tldr": [
+        "El episodio 6 del podcast WoW: Forever ya está disponible.",
+        "Se discute tecnología y construcción de comunidad.",
+        "Invitados especiales incluyen a ingenieros de software."
+      ],
+      "seo_description": "Escucha el episodio 6 del podcast WoW: Forever sobre tecnología y comunidad."
+    },
+    "en": {
+      "tldr": [
+        "Episode 6 of the WoW: Forever podcast is now live.",
+        "Discussing tech and community building.",
+        "Special guests include software engineers."
+      ],
+      "seo_description": "Listen to Episode 6 of the WoW: Forever podcast on tech and community."
+    }
+  },
+  "wh-383640": {
+    "es": {
+      "tldr": [
+        "WoW: Forever tendrá parches cada 4 meses.",
+        "Se planean desbloqueos de contenido entre parches.",
+        "Las temporadas de PvP también durarán 4 meses."
+      ],
+      "seo_description": "WoW: Forever apunta a parches cada 4 meses con contenido desbloqueado entre ellos."
+    },
+    "en": {
+      "tldr": [
+        "WoW: Forever will have patches every 4 months.",
+        "Content will unlock between patches.",
+        "PvP seasons will also last 4 months."
+      ],
+      "seo_description": "WoW: Forever aims for a 4-month patch cadence with content unlocking in between."
+    }
+  },
+  "blizz-6463320": {
+    "es": {
+      "tldr": [
+        "Regresa a Azeroth en WoW: Forever.",
+        "Nuevas aventuras y viejos amigos te esperan.",
+        "Información útil para reiniciar tu viaje."
+      ],
+      "seo_description": "Regresa a Azeroth en WoW: Forever con nuevas aventuras y amigos."
+    },
+    "en": {
+      "tldr": [
+        "Return to Azeroth in WoW: Forever.",
+        "New adventures and old friends await.",
+        "Helpful info to restart your journey."
+      ],
+      "seo_description": "Return to Azeroth in WoW: Forever with new adventures and friends."
+    }
+  },
+  "blizz-6462927": {
+    "es": {
+      "tldr": [
+        "Escucha el episodio 6 del podcast de WoW: Forever.",
+        "Invitado especial: @Shobek.",
+        "Temas tecnológicos en el episodio."
+      ],
+      "seo_description": "Episodio 6 del podcast de WoW: Forever con @Shobek y temas tecnológicos."
+    },
+    "en": {
+      "tldr": [
+        "Listen to episode 6 of the WoW: Forever podcast.",
+        "Special guest: @Shobek.",
+        "Tech topics discussed in the episode."
+      ],
+      "seo_description": "Episode 6 of the WoW: Forever podcast featuring @Shobek and tech topics."
+    }
+  },
+  "blizz-6460879": {
+    "es": {
+      "tldr": [
+        "Guía para nuevos jugadores en WoW: Forever.",
+        "Explora un Azeroth reimaginado.",
+        "Comienza desde el nivel uno y aprende lo esencial."
+      ],
+      "seo_description": "Guía para nuevos jugadores en WoW: Forever para explorar Azeroth."
+    },
+    "en": {
+      "tldr": [
+        "Starter guide for new players in WoW: Forever.",
+        "Explore a reimagined Azeroth.",
+        "Start at level one and learn the essentials."
+      ],
+      "seo_description": "Starter guide for new players in WoW: Forever to explore Azeroth."
+    }
+  },
+  "blizz-1235439": {
+    "es": {
+      "tldr": [
+        "Explora WoW: Forever usando un mando.",
+        "Aprende a moverte y lanzar hechizos.",
+        "Compatibilidad con mandos en fase beta."
+      ],
+      "seo_description": "Explora WoW: Forever con un mando y descubre nuevas formas de jugar."
+    },
+    "en": {
+      "tldr": [
+        "Explore WoW: Forever using a controller.",
+        "Learn to move and cast spells.",
+        "Controller compatibility in beta phase."
+      ],
+      "seo_description": "Explore WoW: Forever with a controller and discover new ways to play."
+    }
+  },
+  "blizz-30649379": {
+    "es": {
+      "tldr": [
+        "Actualización de correcciones en The Burning Crusade.",
+        "Las llaves de mazmorras heroicas ahora requieren Honrado.",
+        "Actualización del 27 de octubre de 2026."
+      ],
+      "seo_description": "Correcciones en The Burning Crusade: llaves heroicas requieren Honrado."
+    },
+    "en": {
+      "tldr": [
+        "Update on hotfixes for The Burning Crusade.",
+        "Heroic dungeon keys now require Honored.",
+        "Update from October 27, 2026."
+      ],
+      "seo_description": "Hotfixes for The Burning Crusade: heroic keys now require Honored."
+    }
+  },
+  "blizz-1234493": {
+    "es": {
+      "tldr": [
+        "Añade la montura caldera viviente Aterracorazón a tu colección.",
+        "Montura encantadoramente macabra para recorrer Azeroth.",
+        "Disponible para aventuras por tierra o aire."
+      ],
+      "seo_description": "Añade la montura caldera viviente Aterracorazón a tu colección y recorre Azeroth con estilo siniestro."
+    },
+    "en": {
+      "tldr": [
+        "Add the Living Cauldron mount Heart of the Abyss to your collection.",
+        "Charming and macabre mount to traverse Azeroth.",
+        "Available for land or air adventures."
+      ],
+      "seo_description": "Add the Living Cauldron mount Heart of the Abyss to your collection and traverse Azeroth in sinister style."
+    }
+  },
+  "blizz-1234458": {
+    "es": {
+      "tldr": [
+        "Descubre WoW Portal Room, un servidor de Discord.",
+        "Conéctate con otros aventureros en Azeroth.",
+        "Ideal para nuevos jugadores y veteranos."
+      ],
+      "seo_description": "Únete a WoW Portal Room y encuentra tu próxima comunidad en Azeroth."
+    },
+    "en": {
+      "tldr": [
+        "Discover WoW Portal Room, a Discord server.",
+        "Connect with other adventurers in Azeroth.",
+        "Perfect for new and veteran players."
+      ],
+      "seo_description": "Join WoW Portal Room and find your next community in Azeroth."
+    }
+  },
+  "blizz-6459348": {
+    "es": {
+      "tldr": [
+        "Corrección de la lista de nombres restringidos en WoW Forever.",
+        "Se solucionará un error que restringía nombres incorrectamente.",
+        "Prueba nuevamente si tu nombre fue bloqueado."
+      ],
+      "seo_description": "Corrección de nombres restringidos en WoW Forever llegará el 28 de octubre."
+    },
+    "en": {
+      "tldr": [
+        "Fix for the restricted name list in WoW Forever.",
+        "A bug causing incorrect name restrictions will be resolved.",
+        "Try again if your name was blocked."
+      ],
+      "seo_description": "Fix for restricted names in WoW Forever coming on October 28."
+    }
+  },
+  "blizz-6459323": {
+    "es": {
+      "tldr": [
+        "Actualización de correcciones para The Burning Crusade.",
+        "Las llaves de mazmorras heroicas ahora requieren reputación Honored.",
+        "Mejoras en la experiencia de juego."
+      ],
+      "seo_description": "Actualización de correcciones en The Burning Crusade: llaves heroicas requieren reputación Honored."
+    },
+    "en": {
+      "tldr": [
+        "Update on hotfixes for The Burning Crusade.",
+        "Heroic dungeon keys now require Honored reputation.",
+        "Improvements to gameplay experience."
+      ],
+      "seo_description": "Update on hotfixes for The Burning Crusade: heroic keys now require Honored reputation."
+    }
+  },
+  "blizz-30649354": {
+    "es": {
+      "tldr": [
+        "Correcciones en vivo para World of Warcraft: Midnight.",
+        "Aumentos de daño para varias clases.",
+        "Mejoras en habilidades de sanación y daño."
+      ],
+      "seo_description": "Correcciones en vivo para WoW: Midnight incluyen aumentos de daño y mejoras de sanación."
+    },
+    "en": {
+      "tldr": [
+        "Live hotfixes for World of Warcraft: Midnight.",
+        "Damage increases for various classes.",
+        "Improvements to healing and damage abilities."
+      ],
+      "seo_description": "Live hotfixes for WoW: Midnight include damage increases and healing improvements."
+    }
+  },
+  "blizz-6459320": {
+    "es": {
+      "tldr": [
+        "Más correcciones en vivo para World of Warcraft: Midnight.",
+        "Aumentos de daño y mejoras en habilidades de sanación.",
+        "Ajustes para varias clases."
+      ],
+      "seo_description": "Más correcciones en vivo para WoW: Midnight incluyen aumentos de daño y ajustes de clases."
+    },
+    "en": {
+      "tldr": [
+        "More live hotfixes for World of Warcraft: Midnight.",
+        "Damage increases and improvements to healing abilities.",
+        "Adjustments for various classes."
+      ],
+      "seo_description": "More live hotfixes for WoW: Midnight include damage increases and class adjustments."
+    }
+  },
+  "blizz-30644593": {
+    "es": {
+      "tldr": [
+        "Acciones contra cuentas que compraron oro ilícito.",
+        "El oro de intermediarios es probablemente ilícito.",
+        "Transfiere oro directamente para evitar sanciones."
+      ],
+      "seo_description": "Evita sanciones: transfiere oro directamente entre jugadores."
+    },
+    "en": {
+      "tldr": [
+        "Actions taken against accounts buying illicit gold.",
+        "Gold from intermediaries is likely illicit.",
+        "Transfer gold directly to avoid penalties."
+      ],
+      "seo_description": "Avoid penalties: transfer gold directly between players."
+    }
+  },
+  "blizz-6458976": {
+    "es": {
+      "tldr": [
+        "Acciones contra cuentas que compraron oro ilícito.",
+        "El oro de intermediarios es probablemente ilícito.",
+        "Transfiere oro directamente para evitar sanciones."
+      ],
+      "seo_description": "Evita sanciones: transfiere oro directamente entre jugadores."
+    },
+    "en": {
+      "tldr": [
+        "Actions taken against accounts buying illicit gold.",
+        "Gold from intermediaries is likely illicit.",
+        "Transfer gold directly to avoid penalties."
+      ],
+      "seo_description": "Avoid penalties: transfer gold directly between players."
+    }
+  },
+  "blizz-30640021": {
+    "es": {
+      "tldr": [
+        "Nueva colección Grimtide para la vivienda en WoW.",
+        "Incluye el exterior y el interior del Grimtide Manse.",
+        "Pack de decoración náutica disponible."
+      ],
+      "seo_description": "Descubre la colección Grimtide para la vivienda en WoW."
+    },
+    "en": {
+      "tldr": [
+        "New Grimtide collection for WoW housing.",
+        "Features Grimtide Manse exterior and interior.",
+        "Eerie nautical decor pack available."
+      ],
+      "seo_description": "Explore the Grimtide collection for WoW housing."
+    }
+  },
+  "blizz-1234238": {
+    "es": {
+      "tldr": [
+        "Demo de Historias de leyenda disponible el 30 de octubre.",
+        "Incluye la Hondonada Roja y tres historias inquietantes.",
+        "Prueba las clases: asesino, inquisidor y bruja."
+      ],
+      "seo_description": "Únete a la demo de Historias de leyenda el 30 de octubre."
+    },
+    "en": {
+      "tldr": [
+        "Legend Stories demo available on October 30.",
+        "Features the Red Hollow and three eerie stories.",
+        "Try the classes: assassin, inquisitor, and witch."
+      ],
+      "seo_description": "Join the Legend Stories demo on October 30."
+    }
+  },
+  "blizz-1234232": {
+    "es": {
+      "tldr": [
+        "Nuevo relato corto «Inquebrantable» de WoW: Forever.",
+        "Explora si los Renegados pueden servir a la Luz.",
+        "Acompaña a Cormack, un cruzado caído."
+      ],
+      "seo_description": "No te pierdas el relato corto «Inquebrantable» de WoW."
+    },
+    "en": {
+      "tldr": [
+        "New short story «Unbreakable» from WoW: Forever.",
+        "Explore if the Forsaken can serve the Light.",
+        "Join Cormack, a fallen crusader."
+      ],
+      "seo_description": "Don't miss the short story «Unbreakable» from WoW."
+    }
+  },
+  "blizz-6458043": {
+    "es": {
+      "tldr": [
+        "Nueva colección Grimtide para la vivienda en WoW.",
+        "Incluye el exterior y el interior del Grimtide Manse.",
+        "Pack de decoración náutica disponible."
+      ],
+      "seo_description": "Descubre la colección Grimtide para la vivienda en WoW."
+    },
+    "en": {
+      "tldr": [
+        "New Grimtide collection for WoW housing.",
+        "Features Grimtide Manse exterior and interior.",
+        "Eerie nautical decor pack available."
+      ],
+      "seo_description": "Explore the Grimtide collection for WoW housing."
+    }
+  },
+  "blizz-30639364": {
+    "es": {
+      "tldr": [
+        "Problema de reserva de nombres para jugadores de Oceanía.",
+        "Crear personajes en Roleplay antes de Normal o PvP.",
+        "Se está trabajando en una solución urgente."
+      ],
+      "seo_description": "Problema de reserva de nombres para jugadores de Oceanía en servidores australianos."
+    },
+    "en": {
+      "tldr": [
+        "Name reservation issue for Oceanic players.",
+        "Create characters in Roleplay before Normal or PvP.",
+        "A fix is being worked on urgently."
+      ],
+      "seo_description": "Name reservation issue for Oceanic players on Australian servers."
+    }
+  },
+  "blizz-1234001": {
+    "es": {
+      "tldr": [
+        "Novedades de WoW: Forever y Zul'Aman.",
+        "Eventos espeluznantes y nuevas recompensas.",
+        "Aventuras por descubrir en Azeroth."
+      ],
+      "seo_description": "Descubre las novedades de WoW: Forever y eventos de Halloween en Azeroth."
+    },
+    "en": {
+      "tldr": [
+        "Updates on WoW: Forever and Zul'Aman.",
+        "Spooky events and new rewards.",
+        "Adventures to discover in Azeroth."
+      ],
+      "seo_description": "Discover updates on WoW: Forever and Halloween events in Azeroth."
+    }
+  },
+  "blizz-6457345": {
+    "es": {
+      "tldr": [
+        "Añade el montura Living Heartsbane Cauldron a tu colección.",
+        "Montura macabra lista para aventuras.",
+        "Viaja por Azeroth con estilo."
+      ],
+      "seo_description": "Añade la montura Living Heartsbane Cauldron a tu colección en Azeroth."
+    },
+    "en": {
+      "tldr": [
+        "Add the Living Heartsbane Cauldron mount to your collection.",
+        "Macabre mount ready for adventures.",
+        "Travel across Azeroth in style."
+      ],
+      "seo_description": "Add the Living Heartsbane Cauldron mount to your collection in Azeroth."
+    }
   }
 };
