@@ -254,34 +254,6 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-prep%C3%A1rate-para-forever-prueba-historias-de-leyenda-de-midnight-y-descubre%E2%80%A6/80819/1"
     },
     {
-      "id": "blizz-1236184",
-      "postId": 1236184,
-      "topicId": 80818,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-10T00:26:55.781Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Esta semana en WoW: Prepárate para Forever, prueba Historias de leyenda de Midnight y descubre…",
-        "es": "Esta semana en WoW: Prepárate para Forever, prueba Historias de leyenda de Midnight y descubre…"
-      },
-      "summary": {
-        "en": "[Esta semana en WoW: Prepárate para Forever, prueba Historias de leyenda de Midnight y descubre…] Las noticias de esta semana vienen cargadas de guías útiles, historias inéditas, n...",
-        "es": "[Esta semana en WoW: Prepárate para Forever, prueba Historias de leyenda de Midnight y descubre…] Las noticias de esta semana vienen cargadas de guías útiles, historias inéditas, n..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\" alt=\"Esta semana en WoW: Prepárate para Forever, prueba Historias de leyenda de Midnight y descubre…\" width=\"833\" height=\"468\"></a></p><p>Las noticias de esta semana vienen cargadas de guías útiles, historias inéditas, nuevas recompensas y espeluznantes opciones que añadir a tu colección con el lanzamiento en todo el mundo de World of Warcraft: Forever el 5 de noviembre, las inquietantes aventuras de la demo de Historias de leyenda de Midnight y el puesto comercial de golosa temática de noviembre. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316094\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\" alt=\"Esta semana en WoW: Prepárate para Forever, prueba Historias de leyenda de Midnight y descubre…\" width=\"833\" height=\"468\"></a></p><p>Las noticias de esta semana vienen cargadas de guías útiles, historias inéditas, nuevas recompensas y espeluznantes opciones que añadir a tu colección con el lanzamiento en todo el mundo de World of Warcraft: Forever el 5 de noviembre, las inquietantes aventuras de la demo de Historias de leyenda de Midnight y el puesto comercial de golosa temática de noviembre. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316094\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-prep%C3%A1rate-para-forever-prueba-historias-de-leyenda-de-midnight-y-descubre%E2%80%A6/80818/1"
-    },
-    {
       "id": "blizz-1236183",
       "postId": 1236183,
       "topicId": 80817,
@@ -448,6 +420,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/wow-forever-%E2%80%94-entre-novedades-y-cosas-que-ya-conoces/80698/1"
+    },
+    {
+      "id": "blizz-1234830",
+      "postId": 1234830,
+      "topicId": 80641,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-10-29T21:03:05.143Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "¡World of Warcraft: Forever ya está disponible!",
+        "es": "¡World of Warcraft: Forever ya está disponible!"
+      },
+      "summary": {
+        "en": "[¡World of Warcraft: Forever ya está disponible!] Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que ya está disponible en todo el mundo...",
+        "es": "[¡World of Warcraft: Forever ya está disponible!] Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que ya está disponible en todo el mundo..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\" alt=\"¡World of Warcraft: Forever ya está disponible!\" width=\"833\" height=\"468\"></a></p><p>Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que ya está disponible en todo el mundo. Emprende tu aventura hasta el nivel 60 a través de los continentes originales, descubre nuevas historias y conoce a otros aventureros en un nuevo hogar permanente junto al WoW moderno y WoW Classic, donde la comunidad es prioritaria y el viaje es tan importante como el destino.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315820\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\" alt=\"¡World of Warcraft: Forever ya está disponible!\" width=\"833\" height=\"468\"></a></p><p>Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que ya está disponible en todo el mundo. Emprende tu aventura hasta el nivel 60 a través de los continentes originales, descubre nuevas historias y conoce a otros aventureros en un nuevo hogar permanente junto al WoW moderno y WoW Classic, donde la comunidad es prioritaria y el viaje es tan importante como el destino.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315820\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1world-of-warcraft-forever-ya-est%C3%A1-disponible/80641/1"
     },
     {
       "id": "blizz-6488098",
@@ -674,6 +674,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/class-tuning-incoming-10-november/640100/1"
     },
     {
+      "id": "blizz-1236184",
+      "postId": 1236184,
+      "topicId": 80818,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-10T00:26:55.781Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Esta semana en WoW: Prepárate para Forever, prueba Historias de leyenda de Midnight y descubre…",
+        "es": "Esta semana en WoW: Prepárate para Forever, prueba Historias de leyenda de Midnight y descubre…"
+      },
+      "summary": {
+        "en": "[Esta semana en WoW: Prepárate para Forever, prueba Historias de leyenda de Midnight y descubre…] Las noticias de esta semana vienen cargadas de guías útiles, historias inéditas, n...",
+        "es": "[Esta semana en WoW: Prepárate para Forever, prueba Historias de leyenda de Midnight y descubre…] Las noticias de esta semana vienen cargadas de guías útiles, historias inéditas, n..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\" alt=\"Esta semana en WoW: Prepárate para Forever, prueba Historias de leyenda de Midnight y descubre…\" width=\"833\" height=\"468\"></a></p><p>Las noticias de esta semana vienen cargadas de guías útiles, historias inéditas, nuevas recompensas y espeluznantes opciones que añadir a tu colección con el lanzamiento en todo el mundo de World of Warcraft: Forever el 5 de noviembre, las inquietantes aventuras de la demo de Historias de leyenda de Midnight y el puesto comercial de golosa temática de noviembre. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316094\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\" alt=\"Esta semana en WoW: Prepárate para Forever, prueba Historias de leyenda de Midnight y descubre…\" width=\"833\" height=\"468\"></a></p><p>Las noticias de esta semana vienen cargadas de guías útiles, historias inéditas, nuevas recompensas y espeluznantes opciones que añadir a tu colección con el lanzamiento en todo el mundo de World of Warcraft: Forever el 5 de noviembre, las inquietantes aventuras de la demo de Historias de leyenda de Midnight y el puesto comercial de golosa temática de noviembre. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316094\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-prep%C3%A1rate-para-forever-prueba-historias-de-leyenda-de-midnight-y-descubre%E2%80%A6/80818/1"
+    },
+    {
       "id": "blizz-30786301",
       "postId": 30786301,
       "topicId": 2382684,
@@ -868,34 +896,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-venomous-abyss-raid-tuning-incoming/2402937/1"
-    },
-    {
-      "id": "blizz-1234830",
-      "postId": 1234830,
-      "topicId": 80641,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-29T21:03:05.143Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "¡World of Warcraft: Forever ya está disponible!",
-        "es": "¡World of Warcraft: Forever ya está disponible!"
-      },
-      "summary": {
-        "en": "[¡World of Warcraft: Forever ya está disponible!] Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que ya está disponible en todo el mundo...",
-        "es": "[¡World of Warcraft: Forever ya está disponible!] Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que ya está disponible en todo el mundo..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\" alt=\"¡World of Warcraft: Forever ya está disponible!\" width=\"833\" height=\"468\"></a></p><p>Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que ya está disponible en todo el mundo. Emprende tu aventura hasta el nivel 60 a través de los continentes originales, descubre nuevas historias y conoce a otros aventureros en un nuevo hogar permanente junto al WoW moderno y WoW Classic, donde la comunidad es prioritaria y el viaje es tan importante como el destino.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315820\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\" alt=\"¡World of Warcraft: Forever ya está disponible!\" width=\"833\" height=\"468\"></a></p><p>Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que ya está disponible en todo el mundo. Emprende tu aventura hasta el nivel 60 a través de los continentes originales, descubre nuevas historias y conoce a otros aventureros en un nuevo hogar permanente junto al WoW moderno y WoW Classic, donde la comunidad es prioritaria y el viaje es tan importante como el destino.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315820\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1world-of-warcraft-forever-ya-est%C3%A1-disponible/80641/1"
     },
     {
       "id": "blizz-1234829",
