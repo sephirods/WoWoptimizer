@@ -4091,5 +4091,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Updates on PvP faction balance and player population changes."
     }
+  },
+  "blizz-30831545": {
+    "es": {
+      "tldr": [
+        "Correcciones en habilidades de Druida y Cazador.",
+        "Ajustes en el Mago y Paladín para mejorar el rendimiento.",
+        "Problemas de visualización en el Sacerdote han sido solucionados."
+      ],
+      "seo_description": "Actualizaciones de correcciones en vivo para clases en WoW el 9 de noviembre de 2026."
+    },
+    "en": {
+      "tldr": [
+        "Fixes for Druid and Hunter abilities.",
+        "Adjustments for Mage and Paladin to enhance performance.",
+        "Priest display issues have been resolved."
+      ],
+      "seo_description": "Live hotfix updates for classes in WoW on November 9, 2026."
+    }
+  },
+  "blizz-6488098": {
+    "es": {
+      "tldr": [
+        "Correcciones en habilidades de Druida y Cazador.",
+        "Ajustes en el Mago y Paladín para mejorar el rendimiento.",
+        "Problemas de visualización en el Sacerdote han sido solucionados."
+      ],
+      "seo_description": "Actualizaciones de correcciones en vivo para clases en WoW el 6 de noviembre de 2026."
+    },
+    "en": {
+      "tldr": [
+        "Fixes for Druid and Hunter abilities.",
+        "Adjustments for Mage and Paladin to enhance performance.",
+        "Priest display issues have been resolved."
+      ],
+      "seo_description": "Live hotfix updates for classes in WoW on November 6, 2026."
+    }
   }
 };
