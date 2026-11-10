@@ -4145,5 +4145,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Nerfs in the Drowned City and adjustments in zone populations in WoW hotfixes for November 9th."
     }
+  },
+  "blizz-24302576": {
+    "es": {
+      "tldr": [
+        "Nuevo modo de juego 'Historias de leyenda' en Midnight.",
+        "Explora niveles temáticos llenos de enemigos y rompecabezas.",
+        "Regresa a la aldea de Tumbaspina entre aventuras."
+      ],
+      "seo_description": "Descubre 'Historias de leyenda' en Midnight: un nuevo modo lleno de aventuras y horrores."
+    },
+    "en": {
+      "tldr": [
+        "New game mode 'Talebound' in Midnight.",
+        "Explore themed levels filled with enemies and puzzles.",
+        "Return to Quillgrave village between adventures."
+      ],
+      "seo_description": "Discover 'Talebound' in Midnight: a new mode filled with adventures and horrors."
+    }
   }
 };
