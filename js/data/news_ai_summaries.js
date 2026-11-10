@@ -3857,5 +3857,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Get the Cozy Sleeping Bag in WoW: Forever and speed up your leveling."
     }
+  },
+  "wh-383817": {
+    "es": {
+      "tldr": [
+        "Blizzard ajusta la creación de personajes en facciones más pobladas.",
+        "Se busca un equilibrio 50/50 en servidores PvP.",
+        "Horda en NA y Alianza en EU son las facciones más pobladas."
+      ],
+      "seo_description": "Blizzard dificulta la creación de personajes en facciones más pobladas para equilibrar PvP."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard adjusts character creation on higher populated factions.",
+        "Aiming for a 50/50 balance on PvP servers.",
+        "Horde in NA and Alliance in EU are the most populated factions."
+      ],
+      "seo_description": "Blizzard makes character creation harder on higher population factions to balance PvP."
+    }
+  },
+  "wh-383815": {
+    "es": {
+      "tldr": [
+        "Blizzard anuncia el cierre temporal de los servidores WoW: Forever.",
+        "Los servidores estarán fuera de línea brevemente.",
+        "Murlocs traviesos han invadido la sala de servidores."
+      ],
+      "seo_description": "Blizzard cerrará temporalmente los servidores de WoW: Forever debido a murlocs traviesos."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard announces a brief shutdown of WoW: Forever servers.",
+        "Servers will be offline for a short time.",
+        "Mischievous murlocs have invaded the server room."
+      ],
+      "seo_description": "Blizzard will briefly take down WoW: Forever servers due to mischievous murlocs."
+    }
   }
 };
