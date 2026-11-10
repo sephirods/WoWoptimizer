@@ -4127,5 +4127,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Live hotfix updates for classes in WoW on November 6, 2026."
     }
+  },
+  "wh-383819": {
+    "es": {
+      "tldr": [
+        "Nerfs aplicados a la Ciudad Ahogada.",
+        "Reducción de población en zonas con alta densidad.",
+        "Correcciones de errores para varias clases."
+      ],
+      "seo_description": "Nerfs en la Ciudad Ahogada y ajustes en la población de zonas en las correcciones de WoW del 9 de noviembre."
+    },
+    "en": {
+      "tldr": [
+        "Nerfs applied to the Drowned City.",
+        "Population reduced in high-density zones.",
+        "Bug fixes for various classes."
+      ],
+      "seo_description": "Nerfs in the Drowned City and adjustments in zone populations in WoW hotfixes for November 9th."
+    }
   }
 };
