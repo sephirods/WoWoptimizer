@@ -4073,5 +4073,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Purchase upgrades in WoW: Forever and start your adventure in Azeroth."
     }
+  },
+  "blizz-30830930": {
+    "es": {
+      "tldr": [
+        "Se redujo la población de jugadores en zonas congestionadas.",
+        "Cambios en las reglas de PvP tras el feedback de los jugadores.",
+        "Se seguirán monitoreando las zonas para más ajustes."
+      ],
+      "seo_description": "Actualizaciones sobre el balance de facciones PvP y cambios en la población de jugadores."
+    },
+    "en": {
+      "tldr": [
+        "Player population reduced in congested zones.",
+        "Changes to PvP ruleset based on player feedback.",
+        "Zones will be monitored for further adjustments."
+      ],
+      "seo_description": "Updates on PvP faction balance and player population changes."
+    }
   }
 };
