@@ -3893,5 +3893,185 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Blizzard will briefly take down WoW: Forever servers due to mischievous murlocs."
     }
+  },
+  "blizz-30830868": {
+    "es": {
+      "tldr": [
+        "No hay evidencia de que las cuentas de prueba afecten el balance de facciones.",
+        "El balance actual es de 55/45 entre facciones.",
+        "Se analiza la población activa para determinar el balance."
+      ],
+      "seo_description": "Actualizaciones sobre el balance de facciones PvP en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "No evidence that trial accounts affect faction balance.",
+        "Current balance is 55/45 between factions.",
+        "Active population is analyzed to determine balance."
+      ],
+      "seo_description": "Updates on PvP faction balance in WoW: Forever."
+    }
+  },
+  "blizz-30830227": {
+    "es": {
+      "tldr": [
+        "Se busca un balance de facciones 50/50 en PvP.",
+        "Dificultades para crear personajes en facciones populares.",
+        "Ajustes en el sistema de creación de personajes para mejorar el balance."
+      ],
+      "seo_description": "Ajustes para mejorar el balance de facciones en PvP en WoW."
+    },
+    "en": {
+      "tldr": [
+        "Aiming for a 50/50 faction balance in PvP.",
+        "Difficulties in creating characters in popular factions.",
+        "Adjustments to character creation system to improve balance."
+      ],
+      "seo_description": "Adjustments to improve faction balance in PvP in WoW."
+    }
+  },
+  "blizz-30829178": {
+    "es": {
+      "tldr": [
+        "Lanzamiento global de WoW: Forever el 4 de noviembre.",
+        "Demo de Midnight’s Talebound y Trading Post temático de noviembre.",
+        "Noticias con guías útiles y nuevas recompensas."
+      ],
+      "seo_description": "Descubre las novedades de WoW: Forever y Midnight’s Talebound."
+    },
+    "en": {
+      "tldr": [
+        "Global launch of WoW: Forever on November 4.",
+        "Midnight’s Talebound demo and November's themed Trading Post.",
+        "News with helpful guides and new rewards."
+      ],
+      "seo_description": "Discover the news of WoW: Forever and Midnight’s Talebound."
+    }
+  },
+  "blizz-30829081": {
+    "es": {
+      "tldr": [
+        "Lanzamiento global de WoW: Forever el 4 de noviembre.",
+        "Demo de Midnight’s Talebound y Trading Post temático de noviembre.",
+        "Noticias con guías útiles y nuevas recompensas."
+      ],
+      "seo_description": "Descubre las novedades de WoW: Forever y Midnight’s Talebound."
+    },
+    "en": {
+      "tldr": [
+        "Global launch of WoW: Forever on November 4.",
+        "Midnight’s Talebound demo and November's themed Trading Post.",
+        "News with helpful guides and new rewards."
+      ],
+      "seo_description": "Discover the news of WoW: Forever and Midnight’s Talebound."
+    }
+  },
+  "blizz-1236186": {
+    "es": {
+      "tldr": [
+        "Lanzamiento de WoW: Forever el 5 de noviembre.",
+        "Demo de Historias de leyenda de Midnight.",
+        "Nuevas recompensas y opciones espeluznantes."
+      ],
+      "seo_description": "Prepárate para el lanzamiento de WoW: Forever y más."
+    },
+    "en": {
+      "tldr": [
+        "Launch of WoW: Forever on November 5.",
+        "Midnight's Legend Stories demo.",
+        "New rewards and spooky options."
+      ],
+      "seo_description": "Get ready for the launch of WoW: Forever and more."
+    }
+  },
+  "blizz-1236184": {
+    "es": {
+      "tldr": [
+        "Lanzamiento de WoW: Forever el 5 de noviembre.",
+        "Demo de Historias de leyenda de Midnight.",
+        "Nuevas recompensas y opciones espeluznantes."
+      ],
+      "seo_description": "Prepárate para el lanzamiento de WoW: Forever y más."
+    },
+    "en": {
+      "tldr": [
+        "Launch of WoW: Forever on November 5.",
+        "Midnight's Legend Stories demo.",
+        "New rewards and spooky options."
+      ],
+      "seo_description": "Get ready for the launch of WoW: Forever and more."
+    }
+  },
+  "blizz-1236183": {
+    "es": {
+      "tldr": [
+        "Compra mejoras para WoW: Forever.",
+        "Desbloquea ventajas y prepárate para la beta.",
+        "Invita a un amigo con códigos de lanzamiento."
+      ],
+      "seo_description": "Compra mejoras en WoW: Forever y prepárate para tu aventura en Azeroth."
+    },
+    "en": {
+      "tldr": [
+        "Purchase upgrades for WoW: Forever.",
+        "Unlock benefits and prepare for beta.",
+        "Invite a friend with launch codes."
+      ],
+      "seo_description": "Purchase upgrades in WoW: Forever and prepare for your adventure in Azeroth."
+    }
+  },
+  "blizz-6488007": {
+    "es": {
+      "tldr": [
+        "Actualizaciones de equilibrio de facciones PvP.",
+        "Objetivo de balance 50/50 entre facciones.",
+        "Dificultades para crear personajes en facciones populares."
+      ],
+      "seo_description": "Actualizaciones de equilibrio de facciones PvP en WoW: Forever para una mejor experiencia de juego."
+    },
+    "en": {
+      "tldr": [
+        "PvP faction balance updates.",
+        "Goal of 50/50 balance between factions.",
+        "Difficulties creating characters in popular factions."
+      ],
+      "seo_description": "PvP faction balance updates in WoW: Forever for a better gaming experience."
+    }
+  },
+  "blizz-6487866": {
+    "es": {
+      "tldr": [
+        "Lanzamiento global de WoW: Forever el 4 de noviembre.",
+        "Demo de Midnight’s Talebound disponible.",
+        "Nuevas recompensas y guías en el Trading Post."
+      ],
+      "seo_description": "Prepárate para WoW: Forever y descubre novedades en la semana de WoW."
+    },
+    "en": {
+      "tldr": [
+        "Global launch of WoW: Forever on November 4.",
+        "Midnight’s Talebound demo available.",
+        "New rewards and guides in the Trading Post."
+      ],
+      "seo_description": "Prepare for WoW: Forever and discover new updates in this week's news."
+    }
+  },
+  "blizz-6487849": {
+    "es": {
+      "tldr": [
+        "Compra mejoras para WoW: Forever.",
+        "Desbloquea beneficios y prepárate para la beta.",
+        "Invita a un amigo con códigos de lanzamiento."
+      ],
+      "seo_description": "Compra mejoras en WoW: Forever y comienza tu aventura en Azeroth."
+    },
+    "en": {
+      "tldr": [
+        "Purchase upgrades for WoW: Forever.",
+        "Unlock benefits and prepare for beta.",
+        "Invite a friend with launch codes."
+      ],
+      "seo_description": "Purchase upgrades in WoW: Forever and start your adventure in Azeroth."
+    }
   }
 };
