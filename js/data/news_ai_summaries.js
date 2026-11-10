@@ -4163,5 +4163,113 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Discover 'Talebound' in Midnight: a new mode filled with adventures and horrors."
     }
+  },
+  "wh-383828": {
+    "es": {
+      "tldr": [
+        "Cambios en los precios de los proveedores en WoW: Forever.",
+        "Se afecta el famoso 'Iron Grenade Shuffle'.",
+        "Algunos precios de materiales aumentan mientras otros disminuyen."
+      ],
+      "seo_description": "Cambios en precios de proveedores en WoW: Forever afectan el 'Iron Grenade Shuffle'."
+    },
+    "en": {
+      "tldr": [
+        "Vendor price changes in WoW: Forever.",
+        "Impact on the famous 'Iron Grenade Shuffle'.",
+        "Some material prices increase while others decrease."
+      ],
+      "seo_description": "Vendor price changes in WoW: Forever affect the 'Iron Grenade Shuffle'."
+    }
+  },
+  "wh-383826": {
+    "es": {
+      "tldr": [
+        "Ajustes de clase para Brujos y Cazadores ahora en vivo.",
+        "Cambios en el costo de maná de algunos hechizos.",
+        "Mejoras en habilidades de Brujos para reducir el spam."
+      ],
+      "seo_description": "Ajustes de clase para Brujos y Cazadores ahora en vivo en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Class tuning for Warlocks and Hunters now live.",
+        "Mana cost changes for some spells.",
+        "Improvements for Warlocks to reduce spam."
+      ],
+      "seo_description": "Class tuning for Warlocks and Hunters now live in WoW: Forever."
+    }
+  },
+  "wh-383824": {
+    "es": {
+      "tldr": [
+        "Arma de clase chamán 'Rage of the Storm' ajustada.",
+        "Cambio en velocidad de ataque y estadísticas.",
+        "Mejoras para Shamans de Mejora en WoW: Forever."
+      ],
+      "seo_description": "Arma de clase chamán 'Rage of the Storm' ajustada en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Shaman class weapon 'Rage of the Storm' hotfixed.",
+        "Change in attack speed and stats.",
+        "Improvements for Enhancement Shamans in WoW: Forever."
+      ],
+      "seo_description": "Shaman class weapon 'Rage of the Storm' hotfixed in WoW: Forever."
+    }
+  },
+  "wh-383145": {
+    "es": {
+      "tldr": [
+        "Nueva búsqueda secreta en WoW: Forever con la antorcha del vigilante nocturno.",
+        "Ubicación de la antorcha en Duskwood.",
+        "Elemento útil para iluminar áreas oscuras."
+      ],
+      "seo_description": "Nueva búsqueda secreta en WoW: Forever con la antorcha del vigilante nocturno."
+    },
+    "en": {
+      "tldr": [
+        "New secret hunt in WoW: Forever with the Night Watchman's Torch.",
+        "Torch location in Duskwood.",
+        "Useful item to light up dark areas."
+      ],
+      "seo_description": "New secret hunt in WoW: Forever with the Night Watchman's Torch."
+    }
+  },
+  "wh-383814": {
+    "es": {
+      "tldr": [
+        "Guía de todas las misiones de mazmorras de nivel 20 a 30.",
+        "Importancia de las misiones para ganar experiencia.",
+        "Actualización de misiones desde el nivel 20."
+      ],
+      "seo_description": "Guía de todas las misiones de mazmorras de nivel 20 a 30 en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Guide to all level 20 to 30 dungeon quests.",
+        "Importance of quests for gaining experience.",
+        "Updated quests from level 20."
+      ],
+      "seo_description": "Guide to all level 20 to 30 dungeon quests in WoW: Forever."
+    }
+  },
+  "wh-383813": {
+    "es": {
+      "tldr": [
+        "Nuevo secreto 'Dawn Waker' descubierto en WoW: Forever.",
+        "Cadena de secretos que comienza en Zephras Isle.",
+        "Recompensa inicial incluye la espada Eluvi'ana."
+      ],
+      "seo_description": "Nuevo secreto 'Dawn Waker' descubierto en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "New 'Dawn Waker' secret found in WoW: Forever.",
+        "Secret chain starts at Zephras Isle.",
+        "Initial reward includes the sword Eluvi'ana."
+      ],
+      "seo_description": "New 'Dawn Waker' secret found in WoW: Forever."
+    }
   }
 };
