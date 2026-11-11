@@ -4361,5 +4361,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Dungeon experience in WoW: Forever is now 60% of Classic era values."
     }
+  },
+  "wh-383829": {
+    "es": {
+      "tldr": [
+        "Elige entre los clanes Gelkis o Magram en WoW: Forever.",
+        "Ganar reputación con uno significa perderla con el otro.",
+        "Los requisitos para recetas de artesanía varían según el clan."
+      ],
+      "seo_description": "Elige entre Gelkis o Magram en WoW: Forever y descubre cómo afecta tu experiencia de juego."
+    },
+    "en": {
+      "tldr": [
+        "Choose between the Gelkis or Magram clans in WoW: Forever.",
+        "Gaining reputation with one means losing it with the other.",
+        "Crafting recipe requirements vary by clan."
+      ],
+      "seo_description": "Choose between Gelkis or Magram in WoW: Forever and see how it impacts your gameplay."
+    }
+  },
+  "wh-383827": {
+    "es": {
+      "tldr": [
+        "Obtén un potenciador de 2 horas en la Feria de la Luna Negra.",
+        "Las opciones de potenciadores varían en efectividad.",
+        "Los jugadores veteranos ya conocen las mejores elecciones."
+      ],
+      "seo_description": "Descubre qué potenciador elegir en la Feria de la Luna Negra en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Get a 2-hour buff at the Darkmoon Faire.",
+        "Buff options vary in effectiveness.",
+        "Veteran players already know the best choices."
+      ],
+      "seo_description": "Find out which buff to choose at the Darkmoon Faire in WoW: Forever."
+    }
   }
 };
