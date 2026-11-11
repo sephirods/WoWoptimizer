@@ -4397,5 +4397,59 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Find out which buff to choose at the Darkmoon Faire in WoW: Forever."
     }
+  },
+  "wh-383843": {
+    "es": {
+      "tldr": [
+        "Jokerd, uno de los 5 primeros nivel 60 en WoW: Forever, revela secretos de la carrera.",
+        "El pódcast Pull 10 analiza la preparación y diferencias con otros Classic y MMOs.",
+        "Incluye enlaces a YouTube, Twitter, Patreon y el proyecto Classic+ para votar contenido."
+      ],
+      "seo_description": "Jokerd revela secretos del World First 60 en WoW: Forever en el pódcast Pull 10. Preparación, comparativas y proyecto Classic+."
+    },
+    "en": {
+      "tldr": [
+        "Jokerd, one of 5 World First level 60 in WoW: Forever, shares race secrets.",
+        "Pull 10 podcast analyzes preparation and differences from other Classic games/MMOs.",
+        "Links to YouTube, Twitter, Patreon, and Classic+ project for community voting."
+      ],
+      "seo_description": "Jokerd shares World First 60 secrets in WoW: Forever on Pull 10 podcast. Prep, comparisons, and Classic+ project."
+    }
+  },
+  "wh-383835": {
+    "es": {
+      "tldr": [
+        "La especialización dual cuesta 50 de oro al nivel 40 en WoW: Forever.",
+        "Permite dos builds de talentos intercambiables (tanque/DPS, JcE/JcJ) sin coste de reespec.",
+        "Compite con la montura (150 oro total), pero se facilita al subir de nivel y vender objetos."
+      ],
+      "seo_description": "Dual Spec en WoW: Forever: 50 oro al nivel 40 para segundo árbol de talentos. Builds intercambiables JcE/JcJ, compite con montura."
+    },
+    "en": {
+      "tldr": [
+        "Dual spec costs 50 gold at level 40 in WoW: Forever.",
+        "Allows two swappable talent builds (tank/DPS, PvE/PvP) without respec costs.",
+        "Competes with mount (150 gold total), but eases at higher levels with better gold income."
+      ],
+      "seo_description": "Dual Spec in WoW: Forever: 50 gold at level 40 for second talent tree. Swappable PvE/PvP builds, competes with mount cost."
+    }
+  },
+  "wh-383825": {
+    "es": {
+      "tldr": [
+        "Nueva mazmorra \"Ciudad Sumergida\" en Valle de Stranglethorn para niveles 37-42.",
+        "5 misiones (8-10k XP), 6 jefes (2 raros con botín potente), mayor dificultad y mecánicas.",
+        "Misiones en Bahía del Botín y cadena previa; no se completan en una sola carrera."
+      ],
+      "seo_description": "Guía de la Ciudad Sumergida en WoW: Forever: mazmorra 37-42 con 5 misiones, 6 jefes, botín raro y mecánicas exigentes."
+    },
+    "en": {
+      "tldr": [
+        "New \"Drowned City\" dungeon in Stranglethorn Vale for levels 37-42.",
+        "5 quests (8-10k XP), 6 bosses (2 rare with powerful loot), higher difficulty and mechanics.",
+        "Quests in Booty Bay and prerequisite chain; cannot complete all in one run."
+      ],
+      "seo_description": "Drowned City guide in WoW: Forever: level 37-42 dungeon with 5 quests, 6 bosses, rare loot, and demanding mechanics."
+    }
   }
 };
