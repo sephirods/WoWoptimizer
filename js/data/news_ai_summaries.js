@@ -4289,5 +4289,77 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Live hotfixes for WoW on November 10, 2026, including Auction House adjustments and class improvements."
     }
+  },
+  "wh-383837": {
+    "es": {
+      "tldr": [
+        "Nerf a mascotas de cazadores y mejoras para chamanes.",
+        "Ajustes en costos de maná para Arcane Shot.",
+        "Correcciones en la casa de subastas y problemas de correo."
+      ],
+      "seo_description": "Nerf a mascotas de cazadores y cambios en chamanes en las correcciones de WoW: Forever del 10 de noviembre de 2026."
+    },
+    "en": {
+      "tldr": [
+        "Pet nerf for Hunters and buffs for Warlocks.",
+        "Mana cost adjustments for Arcane Shot.",
+        "Fixes for Auction House and mail issues."
+      ],
+      "seo_description": "Hunter pet nerf and Shaman changes in WoW: Forever hotfixes for November 10, 2026."
+    }
+  },
+  "wh-383833": {
+    "es": {
+      "tldr": [
+        "Problemas de tótems de chamanes solucionados.",
+        "Mantenimiento de emergencia en servidores el lunes.",
+        "Tótems restaurados en las bolsas de los chamanes."
+      ],
+      "seo_description": "Blizzard soluciona el problema de tótems desaparecidos de chamanes en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Missing Shaman totems issue resolved.",
+        "Emergency server maintenance on Monday.",
+        "Totems restored in Shamans' bags."
+      ],
+      "seo_description": "Blizzard addresses missing Shaman totems issue in WoW: Forever."
+    }
+  },
+  "wh-383832": {
+    "es": {
+      "tldr": [
+        "Se añade oro a misiones por encima del nivel 48.",
+        "Eliminación de la conversión de XP a oro.",
+        "Hotfix para aumentar recompensas de oro en misiones."
+      ],
+      "seo_description": "Blizzard añade oro a misiones en WoW: Forever para mejorar ingresos cerca del nivel 60."
+    },
+    "en": {
+      "tldr": [
+        "Gold added to quests above level 48.",
+        "XP-to-Gold conversion removed.",
+        "Hotfix to increase gold rewards in quests."
+      ],
+      "seo_description": "Blizzard adding gold to quests in WoW: Forever to improve income near max level."
+    }
+  },
+  "wh-383831": {
+    "es": {
+      "tldr": [
+        "Experiencia de mazmorras ajustada al 60% de la era clásica.",
+        "Blizzard satisfecho con las velocidades de nivel.",
+        "Hotfix implementado el 8 de noviembre."
+      ],
+      "seo_description": "La experiencia de mazmorras en WoW: Forever ahora es el 60% de la era clásica."
+    },
+    "en": {
+      "tldr": [
+        "Dungeon experience set to 60% of Classic era values.",
+        "Blizzard pleased with leveling speeds.",
+        "Hotfix deployed on November 8."
+      ],
+      "seo_description": "Dungeon experience in WoW: Forever is now 60% of Classic era values."
+    }
   }
 };
