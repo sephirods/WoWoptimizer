@@ -4271,5 +4271,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "New 'Dawn Waker' secret found in WoW: Forever."
     }
+  },
+  "blizz-30849309": {
+    "es": {
+      "tldr": [
+        "Ajuste en el depósito mínimo del Auction House a 1 cobre.",
+        "Corrección de errores en la salud de mascotas y coste de maná de habilidades.",
+        "Mejoras en habilidades de clases como Druida y Cazador."
+      ],
+      "seo_description": "Correcciones en vivo de WoW del 10 de noviembre de 2026, incluyendo ajustes en el Auction House y mejoras de clases."
+    },
+    "en": {
+      "tldr": [
+        "Adjusted minimum deposit in Auction House to 1 copper.",
+        "Fixed bugs related to pet health and mana costs.",
+        "Improvements to class abilities for Druid and Hunter."
+      ],
+      "seo_description": "Live hotfixes for WoW on November 10, 2026, including Auction House adjustments and class improvements."
+    }
   }
 };
