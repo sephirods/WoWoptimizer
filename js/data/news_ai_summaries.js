@@ -4649,5 +4649,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Explore the lore of WoW: Forever in the podcast with developers and experts."
     }
+  },
+  "blizz-30874280": {
+    "es": {
+      "tldr": [
+        "Nuevo episodio del podcast WoW Forever",
+        "Invitados especiales: @Nobbel87 y Platinum WoW",
+        "Exploración profunda de la historia de WoW"
+      ],
+      "seo_description": "Descubre el episodio 7 del podcast WoW Forever con Nobbel87 y Platinum WoW."
+    },
+    "en": {
+      "tldr": [
+        "New episode of the WoW Forever podcast",
+        "Special guests: @Nobbel87 and Platinum WoW",
+        "Deep dive into WoW lore"
+      ],
+      "seo_description": "Check out episode 7 of the WoW Forever podcast featuring Nobbel87 and Platinum WoW."
+    }
+  },
+  "blizz-6497525": {
+    "es": {
+      "tldr": [
+        "Nuevo episodio del podcast WoW Forever",
+        "Invitados especiales: @Nobbel87 y Platinum WoW",
+        "Exploración profunda de la historia de WoW"
+      ],
+      "seo_description": "Descubre el episodio 7 del podcast WoW Forever con Nobbel87 y Platinum WoW."
+    },
+    "en": {
+      "tldr": [
+        "New episode of the WoW Forever podcast",
+        "Special guests: @Nobbel87 and Platinum WoW",
+        "Deep dive into WoW lore"
+      ],
+      "seo_description": "Check out episode 7 of the WoW Forever podcast featuring Nobbel87 and Platinum WoW."
+    }
   }
 };
