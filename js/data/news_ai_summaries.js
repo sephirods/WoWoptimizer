@@ -4577,5 +4577,59 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Changes to tailoring bags and fixes in WoW: Forever."
     }
+  },
+  "wh-383842": {
+    "es": {
+      "tldr": [
+        "Las botas de la Ocarina del Tiempo están en WoW: Forever.",
+        "Se obtienen de cualquier jefe en la Ciudad Sumergida.",
+        "Referencias a The Legend of Zelda en el juego."
+      ],
+      "seo_description": "Descubre las botas de la Ocarina del Tiempo en WoW: Forever, una divertida referencia a Zelda."
+    },
+    "en": {
+      "tldr": [
+        "Ocarina of Time boots are in WoW: Forever.",
+        "They drop from any boss in Drowned City.",
+        "References to The Legend of Zelda in the game."
+      ],
+      "seo_description": "Discover Ocarina of Time boots in WoW: Forever, a fun reference to Zelda."
+    }
+  },
+  "wh-383807": {
+    "es": {
+      "tldr": [
+        "Usa sacos de dormir de otros jugadores para obtener un potenciador de experiencia.",
+        "El saco de dormir otorga un 3% de experiencia extra.",
+        "Se puede conseguir el saco de dormir en varias zonas."
+      ],
+      "seo_description": "Únete a otros jugadores y usa sus sacos de dormir para obtener un potenciador de experiencia en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Use other players' sleeping bags for an experience buff.",
+        "The sleeping bag grants a 3% extra experience.",
+        "Can be obtained across multiple zones."
+      ],
+      "seo_description": "Join other players and use their sleeping bags for an experience buff in WoW: Forever."
+    }
+  },
+  "wh-383818": {
+    "es": {
+      "tldr": [
+        "Entrevista sobre mecánicas de puesta al día y economía en WoW: Forever.",
+        "Se busca evitar mecánicas que disminuyan logros de jugadores.",
+        "Se esperan nuevos contenidos en futuros parches."
+      ],
+      "seo_description": "Entrevista sobre mecánicas y economía en WoW: Forever, con novedades y futuros contenidos."
+    },
+    "en": {
+      "tldr": [
+        "Interview on catch-up mechanics and economy in WoW: Forever.",
+        "They aim to avoid mechanics that diminish player achievements.",
+        "New content is expected in future patches."
+      ],
+      "seo_description": "Interview on mechanics and economy in WoW: Forever, with news and future content."
+    }
   }
 };
