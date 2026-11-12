@@ -4685,5 +4685,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Check out episode 7 of the WoW Forever podcast featuring Nobbel87 and Platinum WoW."
     }
+  },
+  "blizz-30876030": {
+    "es": {
+      "tldr": [
+        "Correcciones en vivo para CHAMÁN y mejoras en habilidades.",
+        "Daño de Stormstrike reducido y cooldown aumentado.",
+        "Actualización en la activación de Maelstrom Weapon."
+      ],
+      "seo_description": "Correcciones en vivo para WoW: cambios en CHAMÁN y habilidades el 11 de noviembre de 2026."
+    },
+    "en": {
+      "tldr": [
+        "Live hotfixes for SHAMAN and ability improvements.",
+        "Stormstrike damage reduced and cooldown increased.",
+        "Update on Maelstrom Weapon activation."
+      ],
+      "seo_description": "Live hotfixes for WoW: changes to SHAMAN and abilities on November 11, 2026."
+    }
+  },
+  "blizz-6497741": {
+    "es": {
+      "tldr": [
+        "Correcciones en vivo para CHAMÁN y mejoras en habilidades.",
+        "Daño de Stormstrike reducido y cooldown aumentado.",
+        "Actualización en la activación de Maelstrom Weapon."
+      ],
+      "seo_description": "Correcciones en vivo para WoW: cambios en CHAMÁN y habilidades el 11 de noviembre de 2026."
+    },
+    "en": {
+      "tldr": [
+        "Live hotfixes for SHAMAN and ability improvements.",
+        "Stormstrike damage reduced and cooldown increased.",
+        "Update on Maelstrom Weapon activation."
+      ],
+      "seo_description": "Live hotfixes for WoW: changes to SHAMAN and abilities on November 11, 2026."
+    }
   }
 };
