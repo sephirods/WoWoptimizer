@@ -4451,5 +4451,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Drowned City guide in WoW: Forever: level 37-42 dungeon with 5 quests, 6 bosses, rare loot, and demanding mechanics."
     }
+  },
+  "blizz-24317866": {
+    "es": {
+      "tldr": [
+        "World of Warcraft: Forever ofrece un Azeroth reimaginado.",
+        "Precompra ediciones de mejora en la Tienda Battle.net.",
+        "Incluye nuevos contenidos y objetos cosméticos."
+      ],
+      "seo_description": "Compra mejoras de World of Warcraft: Forever y explora un Azeroth reimaginado con nuevas experiencias."
+    },
+    "en": {
+      "tldr": [
+        "World of Warcraft: Forever features a reimagined Azeroth.",
+        "Pre-order upgrade editions on the Battle.net Shop.",
+        "Includes new content and cosmetic items."
+      ],
+      "seo_description": "Purchase upgrades for World of Warcraft: Forever and explore a reimagined Azeroth with new experiences."
+    }
   }
 };
