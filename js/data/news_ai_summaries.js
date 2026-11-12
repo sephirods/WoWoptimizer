@@ -4469,5 +4469,77 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Purchase upgrades for World of Warcraft: Forever and explore a reimagined Azeroth with new experiences."
     }
+  },
+  "blizz-30863849": {
+    "es": {
+      "tldr": [
+        "Correcciones para clases como Druida y Paladín.",
+        "Se solucionaron problemas con habilidades de Cazador y Sacerdote.",
+        "Reducción de daño en enemigos de Riverglades."
+      ],
+      "seo_description": "Actualizaciones de correcciones en vivo para clases y enemigos en WoW."
+    },
+    "en": {
+      "tldr": [
+        "Fixes for classes like Druid and Paladin.",
+        "Issues with Hunter and Priest abilities resolved.",
+        "Damage reduction for Riverglades enemies."
+      ],
+      "seo_description": "Live hotfix updates for classes and enemies in WoW."
+    }
+  },
+  "blizz-30863846": {
+    "es": {
+      "tldr": [
+        "Cambios en la Casa de Subastas eliminados temporalmente.",
+        "Los cambios se implementarán el 17 de noviembre.",
+        "Aparecerán en la próxima actualización de correcciones."
+      ],
+      "seo_description": "Cambios en la Casa de Subastas de WoW se retrasan hasta el 17 de noviembre."
+    },
+    "en": {
+      "tldr": [
+        "Auction House changes temporarily removed.",
+        "Changes will go live on November 17.",
+        "Will appear in the next hotfix update."
+      ],
+      "seo_description": "WoW Auction House changes delayed until November 17."
+    }
+  },
+  "blizz-6495278": {
+    "es": {
+      "tldr": [
+        "Correcciones para clases como Druida y Paladín.",
+        "Se solucionaron problemas con habilidades de Cazador y Sacerdote.",
+        "Reducción de daño en enemigos de Riverglades."
+      ],
+      "seo_description": "Actualizaciones de correcciones en vivo para clases y enemigos en WoW."
+    },
+    "en": {
+      "tldr": [
+        "Fixes for classes like Druid and Paladin.",
+        "Issues with Hunter and Priest abilities resolved.",
+        "Damage reduction for Riverglades enemies."
+      ],
+      "seo_description": "Live hotfix updates for classes and enemies in WoW."
+    }
+  },
+  "blizz-6495276": {
+    "es": {
+      "tldr": [
+        "Cambios en la Casa de Subastas eliminados temporalmente.",
+        "Los cambios se implementarán el 18 de noviembre.",
+        "Aparecerán en la próxima actualización de correcciones."
+      ],
+      "seo_description": "Cambios en la Casa de Subastas de WoW se retrasan hasta el 18 de noviembre."
+    },
+    "en": {
+      "tldr": [
+        "Auction House changes temporarily removed.",
+        "Changes will go live on November 18.",
+        "Will appear in the next hotfix update."
+      ],
+      "seo_description": "WoW Auction House changes delayed until November 18."
+    }
   }
 };
