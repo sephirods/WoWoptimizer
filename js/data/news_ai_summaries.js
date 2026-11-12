@@ -4631,5 +4631,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Interview on mechanics and economy in WoW: Forever, with news and future content."
     }
+  },
+  "blizz-24316981": {
+    "es": {
+      "tldr": [
+        "Pódcast de WoW: Forever sobre la historia del juego.",
+        "Invitados especiales discuten el trasfondo del juego.",
+        "Entrevista con diseñadores y historiadores del juego."
+      ],
+      "seo_description": "Descubre la historia de WoW: Forever en el pódcast con desarrolladores y expertos."
+    },
+    "en": {
+      "tldr": [
+        "WoW: Forever podcast episode focused on game lore.",
+        "Special guests discuss the game's background.",
+        "Interview with game designers and historians."
+      ],
+      "seo_description": "Explore the lore of WoW: Forever in the podcast with developers and experts."
+    }
   }
 };
