@@ -4541,5 +4541,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "WoW Auction House changes delayed until November 18."
     }
+  },
+  "wh-383851": {
+    "es": {
+      "tldr": [
+        "Cambio en el talento Crecimiento Salvaje de los Druidas Restauración.",
+        "Ya no se puede lanzar mientras se mueve.",
+        "Aumento del coeficiente de poder de hechizo al 100%."
+      ],
+      "seo_description": "Los Druidas Restauración en WoW: Forever reciben cambios en Crecimiento Salvaje."
+    },
+    "en": {
+      "tldr": [
+        "Change to Wild Growth talent for Restoration Druids.",
+        "Cannot be cast while moving anymore.",
+        "Spell power coefficient increased by 100%."
+      ],
+      "seo_description": "Restoration Druids in WoW: Forever receive changes to Wild Growth."
+    }
+  },
+  "wh-383848": {
+    "es": {
+      "tldr": [
+        "Aumento en el coste y tamaño de algunas bolsas de sastrería.",
+        "Nerfeo de varios mobs en Riverglades.",
+        "Correcciones de errores y cambios de clase."
+      ],
+      "seo_description": "Cambios en bolsas de sastrería y correcciones en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Increased cost and size of some Tailoring bags.",
+        "Nerf to various mobs in Riverglades.",
+        "Bug fixes and class changes."
+      ],
+      "seo_description": "Changes to tailoring bags and fixes in WoW: Forever."
+    }
   }
 };
