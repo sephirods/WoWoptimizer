@@ -5,33 +5,34 @@ window.WOWHEAD_STAT_PRIORITIES = {
       "name": "Blood Death Knight",
       "guideUrl": "https://www.wowhead.com/guide/classes/death-knight/blood/stat-priority-pve-tank",
       "heroTrees": {
-        "San'layn": {
-          "rawList": [
-            "Strength",
-            "Haste",
-            "Mastery / Critical Strike / Versatility"
-          ],
-          "secondaryOrder": "Haste > Mastery = Crit = Vers",
-          "weights": {
-            "m": 1.3,
-            "c": 1.3,
-            "h": 1.6,
-            "v": 1.3
-          }
-        },
         "Deathbringer": {
           "rawList": [
-            "Strength",
+            "Mastery",
+            "Haste",
             "Critical Strike",
-            "Mastery / Versatility",
-            "Haste"
+            "Versatility"
           ],
-          "secondaryOrder": "Crit > Mastery = Vers > Haste",
+          "secondaryOrder": "Mastery > Haste > Crit > Vers",
           "weights": {
-            "m": 1.3,
-            "c": 1.6,
-            "h": 1,
-            "v": 1.3
+            "m": 1.6,
+            "h": 1.3,
+            "c": 1,
+            "v": 0.7
+          }
+        },
+        "San'layn": {
+          "rawList": [
+            "Mastery",
+            "Haste",
+            "Critical Strike",
+            "Versatility"
+          ],
+          "secondaryOrder": "Mastery > Haste > Crit > Vers",
+          "weights": {
+            "m": 1.6,
+            "h": 1.3,
+            "c": 1,
+            "v": 0.7
           }
         }
       }
