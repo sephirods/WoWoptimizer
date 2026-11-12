@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30874280",
+      "postId": 30874280,
+      "topicId": 2412856,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-12T17:46:04.799Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "The WoW Forever Podcast: Episode 7 - Turbo Nerds Lore-ing Out ft. @Nobbel87 & Platinum WoW",
+        "es": "The WoW Forever Podcast: Episode 7 - Turbo Nerds Lore-ing Out ft. @Nobbel87 & Platinum WoW"
+      },
+      "summary": {
+        "en": "[Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast]...",
+        "es": "[Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast]..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"a_fLWei5KwE\" data-video-title=\"Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=a_fLWei5KwE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/a_fLWei5KwE/maxresdefault.jpg\" title=\"Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"a_fLWei5KwE\" data-video-title=\"Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=a_fLWei5KwE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/a_fLWei5KwE/maxresdefault.jpg\" title=\"Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-7-turbo-nerds-lore-ing-out-ft-nobbel87-platinum-wow/2412856/1"
+    },
+    {
       "id": "blizz-30863849",
       "postId": 30863849,
       "topicId": 2403040,
@@ -196,34 +224,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/pvp-faction-balance-updates-november-10/2408781/1"
-    },
-    {
-      "id": "blizz-30829178",
-      "postId": 30829178,
-      "topicId": 2408677,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-10T00:36:27.237Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly",
-        "es": "Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly"
-      },
-      "summary": {
-        "en": "[Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly] From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures ...",
-        "es": "[Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly] From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\" alt=\"Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures of Midnight’s Talebound demo and November’s sweet-themed Trading Post, this week’s news is packed with helpful guides, fresh stories, new rewards, and haunting additions to your collection. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316094\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\" alt=\"Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures of Midnight’s Talebound demo and November’s sweet-themed Trading Post, this week’s news is packed with helpful guides, fresh stories, new rewards, and haunting additions to your collection. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316094\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/prepare-for-forever-try-midnight%E2%80%99s-talebound-and-discover-sweet-treats-in-wow-weekly/2408677/1"
     },
     {
       "id": "blizz-1236186",
@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1world-of-warcraft-forever-ya-est%C3%A1-disponible/80641/1"
     },
     {
+      "id": "blizz-6497525",
+      "postId": 6497525,
+      "topicId": 642185,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-12T17:46:28.256Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "The WoW Forever Podcast: Episode 7 - Turbo Nerds Lore-ing Out ft. @Nobbel87 & Platinum WoW",
+        "es": "The WoW Forever Podcast: Episode 7 - Turbo Nerds Lore-ing Out ft. @Nobbel87 & Platinum WoW"
+      },
+      "summary": {
+        "en": "[Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast]...",
+        "es": "[Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast]..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"a_fLWei5KwE\" data-video-title=\"Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=a_fLWei5KwE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/a_fLWei5KwE/maxresdefault.jpg\" title=\"Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"a_fLWei5KwE\" data-video-title=\"Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=a_fLWei5KwE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/a_fLWei5KwE/maxresdefault.jpg\" title=\"Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-7-turbo-nerds-lore-ing-out-ft-nobbel87-platinum-wow/642185/1"
+    },
+    {
       "id": "blizz-6495278",
       "postId": 6495278,
       "topicId": 639885,
@@ -644,6 +672,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/dungeon-enemy-xp-increased-8-november/640598/1"
+    },
+    {
+      "id": "blizz-30829178",
+      "postId": 30829178,
+      "topicId": 2408677,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-10T00:36:27.237Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly",
+        "es": "Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly"
+      },
+      "summary": {
+        "en": "[Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly] From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures ...",
+        "es": "[Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly] From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\" alt=\"Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures of Midnight’s Talebound demo and November’s sweet-themed Trading Post, this week’s news is packed with helpful guides, fresh stories, new rewards, and haunting additions to your collection. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316094\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\" alt=\"Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures of Midnight’s Talebound demo and November’s sweet-themed Trading Post, this week’s news is packed with helpful guides, fresh stories, new rewards, and haunting additions to your collection. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316094\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/prepare-for-forever-try-midnight%E2%80%99s-talebound-and-discover-sweet-treats-in-wow-weekly/2408677/1"
     },
     {
       "id": "blizz-6479547",
@@ -1344,62 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/language-and-social-settings/639555/1"
-    },
-    {
-      "id": "blizz-30768128",
-      "postId": 30768128,
-      "topicId": 2402319,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-05T15:22:45.960Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW Forever Bug Report Forum Guidelines",
-        "es": "WoW Forever Bug Report Forum Guíalines"
-      },
-      "summary": {
-        "en": "Welcome! \nPlease read this before posting in this forum. What follows are guidelines for how this forum should and shouldn’t be used. \n\nWoW Forever Bug Report Forum Guidelines: \nPl...",
-        "es": "Welcome! \nPlease read this before posting in this forum. What follows are Guíalines for how this forum should and shouldn’t be used. \n\nWoW Forever Bug Report Forum Guíalines: \nPlea..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Welcome!</p>\n<p>Please read this before posting in this forum. What follows are guidelines for how this forum should and shouldn’t be used.</p>\n<hr>\n<p><strong>WoW Forever Bug Report Forum Guidelines:</strong></p>\n<p><em>Please do not post off-topic banter or discussions.</em></p>\n<ul>\n<li>The purpose of this forum is to report bugs which our Quality Assurance team may review, reproduce, and work to fix. Unproductive conjecture or discourse distracts our analysts from finding and reproducing bugs.</li>\n<li>Topics or replies that are not focused on reporting bugs or providing steps or other evidence to reproduce the issue will be removed.</li>\n</ul>\n<p><em>Please provide clear steps to reproduce your issue.</em></p>\n<ul>\n<li>If possible, please provide links to videos, screenshots, or some other explanatory details. This saves a great deal of time.</li>\n</ul>\n<p><em>Please do not ask for a Blizzard/Blue response in your posts.</em></p>\n<ul>\n<li>Not getting a Blizzard/Blue reply does not mean that your issue is or is not a bug, and it does not mean that your post has been ignored. We read every single post in this forum. We cannot reply to all (or even most) threads.</li>\n</ul>\n<p>Please keep these guidelines in mind before making a post in this forum. We intend to strictly remove unproductive posts.</p>\n<hr>\n<p><strong>How to Report Bugs:</strong></p>\n<ol>\n<li>Start with a brief summary of the issue you are reporting. Try to keep this to one sentence if possible.</li>\n<li>Provide detailed, numbered steps listing out the actions required to reproduce the issue you encountered.</li>\n<li>Provide a conclusion at the end highlighting the expected behavior as well as the incorrect or bugged behavior.</li>\n<li>It’s also always a good idea to include the full name of your character and the ruleset you were playing on when you encountered the issue.</li>\n</ol>\n<hr>\n<p>Our goal is to make this forum a valuable resource for players to use to report bugs and help us squash as many bugs as we can. Thank you very much for your reports!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Welcome!</p>\n<p>Please read this before posting in this forum. What follows are guidelines for how this forum should and shouldn’t be used.</p>\n<hr>\n<p><strong>WoW Forever Bug Report Forum Guidelines:</strong></p>\n<p><em>Please do not post off-topic banter or discussions.</em></p>\n<ul>\n<li>The purpose of this forum is to report bugs which our Quality Assurance team may review, reproduce, and work to fix. Unproductive conjecture or discourse distracts our analysts from finding and reproducing bugs.</li>\n<li>Topics or replies that are not focused on reporting bugs or providing steps or other evidence to reproduce the issue will be removed.</li>\n</ul>\n<p><em>Please provide clear steps to reproduce your issue.</em></p>\n<ul>\n<li>If possible, please provide links to videos, screenshots, or some other explanatory details. This saves a great deal of time.</li>\n</ul>\n<p><em>Please do not ask for a Blizzard/Blue response in your posts.</em></p>\n<ul>\n<li>Not getting a Blizzard/Blue reply does not mean that your issue is or is not a bug, and it does not mean that your post has been ignored. We read every single post in this forum. We cannot reply to all (or even most) threads.</li>\n</ul>\n<p>Please keep these guidelines in mind before making a post in this forum. We intend to strictly remove unproductive posts.</p>\n<hr>\n<p><strong>How to Report Bugs:</strong></p>\n<ol>\n<li>Start with a brief summary of the issue you are reporting. Try to keep this to one sentence if possible.</li>\n<li>Provide detailed, numbered steps listing out the actions required to reproduce the issue you encountered.</li>\n<li>Provide a conclusion at the end highlighting the expected behavior as well as the incorrect or bugged behavior.</li>\n<li>It’s also always a good idea to include the full name of your character and the ruleset you were playing on when you encountered the issue.</li>\n</ol>\n<hr>\n<p>Our goal is to make this forum a valuable resource for players to use to report bugs and help us squash as many bugs as we can. Thank you very much for your reports!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-bug-report-forum-guidelines/2402319/1"
-    },
-    {
-      "id": "blizz-6475066",
-      "postId": 6475066,
-      "topicId": 631316,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-04T19:36:09.529Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW Forever Beta Development Notes – Updated 3 November",
-        "es": "WoW Forever Beta Development Notes – Updated 3 November"
-      },
-      "summary": {
-        "en": "We’ve added this section to the previous post. \nUser Interface and Accessibility \n\nSwing Timer bar will no longer fade out due to distance until the swing finishes.\nWhen combined b...",
-        "es": "We’ve added this section to the previous post. \nUser Interface and Accessibility \n\nSwing Timer bar will no longer fade out due to distance until the swing finishes.\nWhen combined b..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve added this section to the previous post.</p>\n<p><strong>User Interface and Accessibility</strong></p>\n<ul>\n<li>Swing Timer bar will no longer fade out due to distance until the swing finishes.</li>\n<li>When combined bag is enabled, the background art of the inventory slots are updated to show which bag the slot is from.</li>\n<li>Fixed an issue where Nameplates did not display Elite enemy status.</li>\n<li>Debuff icons on the Nameplate can now be clicked through.</li>\n<li>Spellbook and Talents frame now opens at the same height as other panels.</li>\n<li>Combat mode for the Spellbook frame has been reduced in size.</li>\n<li>PvP scoreboard display has been updated.</li>\n<li>Killing a player while at Honor cap will no longer show honor gained in floating text or chat messages.</li>\n<li>While in keybinds menu, hovering over an action bar keybind will now highlight the button on the action bar.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>We’ve added this section to the previous post.</p>\n<p><strong>User Interface and Accessibility</strong></p>\n<ul>\n<li>Swing Timer bar will no longer fade out due to distance until the swing finishes.</li>\n<li>When combined bag is enabled, the background art of the inventory slots are updated to show which bag the slot is from.</li>\n<li>Fixed an issue where Nameplates did not display Elite enemy status.</li>\n<li>Debuff icons on the Nameplate can now be clicked through.</li>\n<li>Spellbook and Talents frame now opens at the same height as other panels.</li>\n<li>Combat mode for the Spellbook frame has been reduced in size.</li>\n<li>PvP scoreboard display has been updated.</li>\n<li>Killing a player while at Honor cap will no longer show honor gained in floating text or chat messages.</li>\n<li>While in keybinds menu, hovering over an action bar keybind will now highlight the button on the action bar.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-3-november/631316/10"
     }
   ],
   "blizzardNews": [
