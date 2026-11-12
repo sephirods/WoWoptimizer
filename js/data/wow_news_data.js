@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30876030",
+      "postId": 30876030,
+      "topicId": 2403040,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-12T19:10:52.697Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever Hotfixes - November 11, 2026",
+        "es": "WoW: Forever Correcciones en Vivo - November 11, 2026"
+      },
+      "summary": {
+        "en": "Please note: \nDue to an unexpected delay in deployment, the following changes went live to all regions at 10:45 a.m. PST today. \nClasses\nShaman \n\nWeapon imbues and Weapon totems ca...",
+        "es": "Please note: \nDue to an unexpected delay in deployment, the following changes went live to all regions at 10:45 a.m. PST today. \nClasses\nShaman \n\nWeapon imbues and Weapon totems ca..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Please note:<br>\nDue to an unexpected delay in deployment, the following changes went live to all regions at 10:45 a.m. PST today.</p>\n<h2><a name=\"p-30876030-classes-1\" class=\"anchor\" href=\"#p-30876030-classes-1\" aria-label=\"Heading link\"></a>Classes</h2>\n<p><strong>Shaman</strong></p>\n<ul>\n<li>Weapon imbues and Weapon totems can now be used at the same time.</li>\n<li><strong>Enhancement</strong>\n<ul>\n<li>Stormstrike damage reduced to 100% weapon damage (was 150%), and cooldown increased to 8 seconds (was 6 seconds).</li>\n<li>Mental Dexterity: Intellect to Attack Power conversion ratio reduced to 33/66/100% (was 50/100/150%).</li>\n<li>Maelstrom Weapon now grants 20% reduced cast time and Mana cost per application at all ranks (was 4/8/12/16/20% reduced cast time and Mana cost), and chance to activate now increases with rank and activates 6/7/8/9/10 times per minute (was 20 times per minute regardless of rank).</li>\n<li>Maelstrom Weapon tooltip updated to display the Shaman’s % chance to activate it based on their Main Hand Weapon’s speed. For example, if the Shaman has the 5 points into Maelstrom Weapon and has a 3.6 speed weapon it will display a 60% chance to activate on swing, compared to if the Shaman is wielding a 2.0 speed weapon it will display a 33% chance to activate on swing.</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Please note:<br>\nDue to an unexpected delay in deployment, the following changes went live to all regions at 10:45 a.m. PST today.</p>\n<h2><a name=\"p-30876030-classes-1\" class=\"anchor\" href=\"#p-30876030-classes-1\" aria-label=\"Heading link\"></a>Classes</h2>\n<p><strong>CHAMÁN</strong></p>\n<ul>\n<li>Weapon imbues and Weapon totems can now be used at the same time.</li>\n<li><strong>Mejora</strong>\n<ul>\n<li>Stormstrike damage reduced to 100% weapon damage (antes era 150%), and cooldown increased to 8 seconds (was 6 seconds).</li>\n<li>Mental Dexterity: Intellect to Attack Power conversion ratio reduced to 33/66/100% (was 50/100/150%).</li>\n<li>Maelstrom Weapon now grants 20% reduced cast time and Mana cost per application at all ranks (was 4/8/12/16/20% reduced cast time and Mana cost), and chance to activate ahora aumenta with rank and activates 6/7/8/9/10 times per minute (was 20 times per minute regardless of rank).</li>\n<li>Maelstrom Weapon tooltip updated to display the Shaman’s % chance to activate it based on their Main Hand Weapon’s speed. For example, if the Shaman has the 5 points into Maelstrom Weapon and has a 3.6 speed weapon it will display a 60% chance to activate on swing, compared to if the Shaman is wielding a 2.0 speed weapon it will display a 33% chance to activate on swing.</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-11-2026/2403040/9"
+    },
+    {
       "id": "blizz-30874280",
       "postId": 30874280,
       "topicId": 2412856,
@@ -196,34 +224,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/pvp-faction-balance-updates-november-10/2408781/158"
-    },
-    {
-      "id": "blizz-30830227",
-      "postId": 30830227,
-      "topicId": 2408781,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-10T02:05:13.558Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "PvP Faction Balance Updates - November 10",
-        "es": "PvP Faction Balance Updates - November 10"
-      },
-      "summary": {
-        "en": "It’s vitally important that the PvP rulesets in WoW: Forever have balanced factions where both factions vie for supremacy, creating memories of epic victories and stunning defeats ...",
-        "es": "It’s vitally important that the PvP rulesets in WoW: Forever have balanced factions where both factions vie for supremacy, creating memories of epic victories and stunning defeats ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>It’s vitally important that the PvP rulesets in WoW: Forever have balanced factions where both factions vie for supremacy, creating memories of epic victories and stunning defeats that we all remember for years to come. While even the most extreme case in a region is currently at roughly a 55/45 split, that is not as close as we want it to be.</p>\n<p>To better set the stage for the neck-and-neck conflicts we all want, we’ve adjusted the character creation system to better recognize the overall state of faction balance in each region’s PvP rulesets, rather than what may feel like snapshots of points in time. Our goal is to bring things as close to a 50/50 faction balance as possible.</p>\n<p>In the short term, that means that it will become increasingly difficult to create characters on the more populous faction in each region – currently Horde on North American PvP rulesets or Alliance in EU Roleplay-PvP. As everyone settles and shifts, these may flip to the other side. We recognize that while restrictions are in place, it can be frustrating to not be able to start playing a specific faction in that moment, but this is a necessary trade-off for the long-term health of the ruleset, especially early on when guilds are being established and rivalries developed.</p>\n<p>World of Warcraft: Forever’s PvP is at its best when the Alliance and Horde are on equal footing, and we are dedicated to helping maintain that balance so that we can all witness battles at the epic scale that has made WoW Forever PvP so memorable thus far.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>It’s vitally important that the PvP rulesets in WoW: Forever have balanced factions where both factions vie for supremacy, creating memories of epic victories and stunning defeats that we all remember for years to come. While even the most extreme case in a region is currently at roughly a 55/45 split, that is not as close as we want it to be.</p>\n<p>To better set the stage for the neck-and-neck conflicts we all want, we’ve adjusted the character creation system to better recognize the overall state of faction balance in each region’s PvP rulesets, rather than what may feel like snapshots of points in time. Our goal is to bring things as close to a 50/50 faction balance as possible.</p>\n<p>In the short term, that means that it will become increasingly difficult to create characters on the more populous faction in each region – currently Horde on North American PvP rulesets or Alliance in EU Roleplay-PvP. As everyone settles and shifts, these may flip to the other side. We recognize that while restrictions are in place, it can be frustrating to not be able to start playing a specific faction in that moment, but this is a necessary trade-off for the long-term health of the ruleset, especially early on when guilds are being established and rivalries developed.</p>\n<p>World of Warcraft: Forever’s PvP is at its best when the Alliance and Horde are on equal footing, and we are dedicated to helping maintain that balance so that we can all witness battles at the epic scale that has made WoW Forever PvP so memorable thus far.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/pvp-faction-balance-updates-november-10/2408781/1"
     },
     {
       "id": "blizz-1236186",
@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1world-of-warcraft-forever-ya-est%C3%A1-disponible/80641/1"
     },
     {
+      "id": "blizz-6497741",
+      "postId": 6497741,
+      "topicId": 639885,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-12T19:10:54.868Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever Hotfixes - November 11, 2026",
+        "es": "WoW: Forever Correcciones en Vivo - November 11, 2026"
+      },
+      "summary": {
+        "en": "Please note: \nDue to an unexpected delay in deployment, the following changes went live to all regions at 19:45 CET today. \nClasses\nShaman \n\nWeapon imbues and Weapon totems can now...",
+        "es": "Please note: \nDue to an unexpected delay in deployment, the following changes went live to all regions at 19:45 CET today. \nClasses\nShaman \n\nWeapon imbues and Weapon totems can now..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Please note:<br>\nDue to an unexpected delay in deployment, the following changes went live to all regions at 19:45 CET today.</p>\n<h2><a name=\"p-6497741-classes-1\" class=\"anchor\" href=\"#p-6497741-classes-1\" aria-label=\"Heading link\"></a>Classes</h2>\n<p><strong>Shaman</strong></p>\n<ul>\n<li>Weapon imbues and Weapon totems can now be used at the same time.</li>\n<li><strong>Enhancement</strong>\n<ul>\n<li>Stormstrike damage reduced to 100% weapon damage (was 150%), and cooldown increased to 8 seconds (was 6 seconds).</li>\n<li>Mental Dexterity: Intellect to Attack Power conversion ratio reduced to 33/66/100% (was 50/100/150%).</li>\n<li>Maelstrom Weapon now grants 20% reduced cast time and Mana cost per application at all ranks (was 4/8/12/16/20% reduced cast time and Mana cost), and chance to activate now increases with rank and activates 6/7/8/9/10 times per minute (was 20 times per minute regardless of rank).</li>\n<li>Maelstrom Weapon tooltip updated to display the Shaman’s % chance to activate it based on their Main Hand Weapon’s speed. For example, if the Shaman has the 5 points into Maelstrom Weapon and has a 3.6 speed weapon it will display a 60% chance to activate on swing, compared to if the Shaman is wielding a 2.0 speed weapon it will display a 33% chance to activate on swing.</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Please note:<br>\nDue to an unexpected delay in deployment, the following changes went live to all regions at 19:45 CET today.</p>\n<h2><a name=\"p-6497741-classes-1\" class=\"anchor\" href=\"#p-6497741-classes-1\" aria-label=\"Heading link\"></a>Classes</h2>\n<p><strong>CHAMÁN</strong></p>\n<ul>\n<li>Weapon imbues and Weapon totems can now be used at the same time.</li>\n<li><strong>Mejora</strong>\n<ul>\n<li>Stormstrike damage reduced to 100% weapon damage (antes era 150%), and cooldown increased to 8 seconds (was 6 seconds).</li>\n<li>Mental Dexterity: Intellect to Attack Power conversion ratio reduced to 33/66/100% (was 50/100/150%).</li>\n<li>Maelstrom Weapon now grants 20% reduced cast time and Mana cost per application at all ranks (was 4/8/12/16/20% reduced cast time and Mana cost), and chance to activate ahora aumenta with rank and activates 6/7/8/9/10 times per minute (was 20 times per minute regardless of rank).</li>\n<li>Maelstrom Weapon tooltip updated to display the Shaman’s % chance to activate it based on their Main Hand Weapon’s speed. For example, if the Shaman has the 5 points into Maelstrom Weapon and has a 3.6 speed weapon it will display a 60% chance to activate on swing, compared to if the Shaman is wielding a 2.0 speed weapon it will display a 33% chance to activate on swing.</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-11-2026/639885/8"
+    },
+    {
       "id": "blizz-6497525",
       "postId": 6497525,
       "topicId": 642185,
@@ -644,6 +672,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth/641159/1"
+    },
+    {
+      "id": "blizz-30830227",
+      "postId": 30830227,
+      "topicId": 2408781,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-10T02:05:13.558Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "PvP Faction Balance Updates - November 10",
+        "es": "PvP Faction Balance Updates - November 10"
+      },
+      "summary": {
+        "en": "It’s vitally important that the PvP rulesets in WoW: Forever have balanced factions where both factions vie for supremacy, creating memories of epic victories and stunning defeats ...",
+        "es": "It’s vitally important that the PvP rulesets in WoW: Forever have balanced factions where both factions vie for supremacy, creating memories of epic victories and stunning defeats ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>It’s vitally important that the PvP rulesets in WoW: Forever have balanced factions where both factions vie for supremacy, creating memories of epic victories and stunning defeats that we all remember for years to come. While even the most extreme case in a region is currently at roughly a 55/45 split, that is not as close as we want it to be.</p>\n<p>To better set the stage for the neck-and-neck conflicts we all want, we’ve adjusted the character creation system to better recognize the overall state of faction balance in each region’s PvP rulesets, rather than what may feel like snapshots of points in time. Our goal is to bring things as close to a 50/50 faction balance as possible.</p>\n<p>In the short term, that means that it will become increasingly difficult to create characters on the more populous faction in each region – currently Horde on North American PvP rulesets or Alliance in EU Roleplay-PvP. As everyone settles and shifts, these may flip to the other side. We recognize that while restrictions are in place, it can be frustrating to not be able to start playing a specific faction in that moment, but this is a necessary trade-off for the long-term health of the ruleset, especially early on when guilds are being established and rivalries developed.</p>\n<p>World of Warcraft: Forever’s PvP is at its best when the Alliance and Horde are on equal footing, and we are dedicated to helping maintain that balance so that we can all witness battles at the epic scale that has made WoW Forever PvP so memorable thus far.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>It’s vitally important that the PvP rulesets in WoW: Forever have balanced factions where both factions vie for supremacy, creating memories of epic victories and stunning defeats that we all remember for years to come. While even the most extreme case in a region is currently at roughly a 55/45 split, that is not as close as we want it to be.</p>\n<p>To better set the stage for the neck-and-neck conflicts we all want, we’ve adjusted the character creation system to better recognize the overall state of faction balance in each region’s PvP rulesets, rather than what may feel like snapshots of points in time. Our goal is to bring things as close to a 50/50 faction balance as possible.</p>\n<p>In the short term, that means that it will become increasingly difficult to create characters on the more populous faction in each region – currently Horde on North American PvP rulesets or Alliance in EU Roleplay-PvP. As everyone settles and shifts, these may flip to the other side. We recognize that while restrictions are in place, it can be frustrating to not be able to start playing a specific faction in that moment, but this is a necessary trade-off for the long-term health of the ruleset, especially early on when guilds are being established and rivalries developed.</p>\n<p>World of Warcraft: Forever’s PvP is at its best when the Alliance and Horde are on equal footing, and we are dedicated to helping maintain that balance so that we can all witness battles at the epic scale that has made WoW Forever PvP so memorable thus far.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/pvp-faction-balance-updates-november-10/2408781/1"
     },
     {
       "id": "blizz-6482935",
@@ -1344,62 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/known-issues-wow-forever-updated-nov-5/2402363/1"
-    },
-    {
-      "id": "blizz-6475978",
-      "postId": 6475978,
-      "topicId": 639571,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-05T00:30:06.630Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Set Your Campfire Ablaze with the Pouch of Violet Dust!",
-        "es": "Set Your Campfire Ablaze with the Pouch of Violet Dust!"
-      },
-      "summary": {
-        "en": "[Set Your Campfire Ablaze with the Pouch of Violet Dust!] Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to c...",
-        "es": "[Set Your Campfire Ablaze with the Pouch of Violet Dust!] Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to c..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\" alt=\"Set Your Campfire Ablaze with the Pouch of Violet Dust!\" width=\"833\" height=\"468\"></a></p><p>Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to collect the Pouch of Violet Dust toy. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24317678\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\" alt=\"Set Your Campfire Ablaze with the Pouch of Violet Dust!\" width=\"833\" height=\"468\"></a></p><p>Watch 4 hours of any eligible World of Warcraft stream on Twitch.tv during the World of Warcraft: Forever launch week to collect the Pouch of Violet Dust toy. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24317678\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/set-your-campfire-ablaze-with-the-pouch-of-violet-dust/639571/1"
-    },
-    {
-      "id": "blizz-6475874",
-      "postId": 6475874,
-      "topicId": 639555,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-04T23:44:07.214Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Language and Social Settings",
-        "es": "Language and Social Settings"
-      },
-      "summary": {
-        "en": "It’s always a good idea to go over your settings in-game when you first get started. Today, we’d like to suggest that players take a close look at these settings in particular. \n [...",
-        "es": "It’s always a good idea to go over your settings in-game when you first get started. Today, we’d like to suggest that players take a close look at these settings in particular. \n [..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>It’s always a good idea to go over your settings in-game when you first get started. Today, we’d like to suggest that players take a close look at these settings in particular.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8.jpeg\" data-download-href=\"/en/wow/uploads/short-url/8D4qBjNBOW9kNO2AIGRfC3VVSTS.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/optimized/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8_2_629x500.jpeg\" alt=\"image\" data-base62-sha1=\"8D4qBjNBOW9kNO2AIGRfC3VVSTS\" width=\"629\" height=\"500\" srcset=\"https://d176jfkp3gfyt8.cloudfront.net/optimized/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8_2_629x500.jpeg, https://d176jfkp3gfyt8.cloudfront.net/original/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8.jpeg 1.5x, https://d176jfkp3gfyt8.cloudfront.net/original/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8.jpeg 2x\" data-dominant-color=\"26221C\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">898×713 128 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>If any of them are not defaulted to your preferred language, you can change them and log out and back in to improve your in-game experience.</p>\n<p>Thank you!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>It’s always a good idea to go over your settings in-game when you first get started. Today, we’d like to suggest that players take a close look at these settings in particular.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://d176jfkp3gfyt8.cloudfront.net/original/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8.jpeg\" data-download-href=\"/en/wow/uploads/short-url/8D4qBjNBOW9kNO2AIGRfC3VVSTS.jpeg?dl=1\" title=\"image\"><img src=\"https://d176jfkp3gfyt8.cloudfront.net/optimized/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8_2_629x500.jpeg\" alt=\"image\" data-base62-sha1=\"8D4qBjNBOW9kNO2AIGRfC3VVSTS\" width=\"629\" height=\"500\" srcset=\"https://d176jfkp3gfyt8.cloudfront.net/optimized/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8_2_629x500.jpeg, https://d176jfkp3gfyt8.cloudfront.net/original/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8.jpeg 1.5x, https://d176jfkp3gfyt8.cloudfront.net/original/1X/3c7c0d63d1dfcb177b90bd63d6677bd3f8ccfbc8.jpeg 2x\" data-dominant-color=\"26221C\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">898×713 128 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>If any of them are not defaulted to your preferred language, you can change them and log out and back in to improve your in-game experience.</p>\n<p>Thank you!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/language-and-social-settings/639555/1"
     }
   ],
   "blizzardNews": [
