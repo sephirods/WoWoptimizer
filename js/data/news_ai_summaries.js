@@ -4721,5 +4721,131 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Live hotfixes for WoW: changes to SHAMAN and abilities on November 11, 2026."
     }
+  },
+  "wh-383863": {
+    "es": {
+      "tldr": [
+        "Nuevos conjuntos de transfiguración de armaduras brutales en el parche 12.1.7.",
+        "Los conjuntos de acero y hierro están disponibles en el Puesto de Comercio.",
+        "Las fuentes de los conjuntos de plata y oro son desconocidas."
+      ],
+      "seo_description": "Descubre los nuevos conjuntos de transfiguración de armaduras brutales en WoW: Midnight."
+    },
+    "en": {
+      "tldr": [
+        "New Brutal Armor transmog sets in Patch 12.1.7.",
+        "Steel and Iron sets available from the Trading Post.",
+        "Sources for Silver and Gold sets are currently unknown."
+      ],
+      "seo_description": "Discover new Brutal Armor transmog sets in WoW: Midnight."
+    }
+  },
+  "wh-383862": {
+    "es": {
+      "tldr": [
+        "Un bug puede borrar habilidades de las barras de acción al cerrar sesión.",
+        "La especialización dual se puede aprender a nivel 40 por 50 de oro.",
+        "El addon Myslot ayuda a restaurar las barras de acción perdidas."
+      ],
+      "seo_description": "Un bug en WoW: Forever puede vaciar tus barras de acción al cerrar sesión."
+    },
+    "en": {
+      "tldr": [
+        "A bug can wipe abilities from Action Bars when logging out.",
+        "Dual Spec can be learned at level 40 for 50 Gold.",
+        "The Myslot addon helps restore missing Action Bars."
+      ],
+      "seo_description": "A bug in WoW: Forever can empty your Action Bars when logging out."
+    }
+  },
+  "wh-383855": {
+    "es": {
+      "tldr": [
+        "La banda del Enclave Escarlata regresará a WoW: Forever.",
+        "Aggrend menciona personajes y lore favoritos para el juego.",
+        "La historia del Ashbringer también regresará en algún momento."
+      ],
+      "seo_description": "El Enclave Escarlata y la historia del Ashbringer volverán a WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "The Scarlet Enclave raid will return to WoW: Forever.",
+        "Aggrend mentions favorite characters and lore for the game.",
+        "The Ashbringer's story will also return at some point."
+      ],
+      "seo_description": "The Scarlet Enclave and Ashbringer's story will return to WoW: Forever."
+    }
+  },
+  "wh-383860": {
+    "es": {
+      "tldr": [
+        "Se ha descubierto una nueva arma de mago de batalla llamada Wit's Edge.",
+        "Esta arma permite a los magos mezclar ataques cuerpo a cuerpo y hechizos.",
+        "Wit's Edge tiene efectos únicos que benefician a los magos."
+      ],
+      "seo_description": "Descubre la nueva arma de mago de batalla Wit's Edge en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "A new Battle Mage weapon called Wit's Edge has been discovered.",
+        "This weapon allows Mages to mix melee attacks and spells.",
+        "Wit's Edge has unique effects that benefit Mages."
+      ],
+      "seo_description": "Discover the new Battle Mage weapon Wit's Edge in WoW: Forever."
+    }
+  },
+  "wh-383858": {
+    "es": {
+      "tldr": [
+        "Los cambios en el chamán Mejora ya están disponibles.",
+        "El daño de Stormstrike se ha reducido y su tiempo de reutilización aumentado.",
+        "Los cambios buscan mejorar el equilibrio en el juego."
+      ],
+      "seo_description": "Los cambios en la clase de chamán Mejora ya están activos en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Enhancement Shaman changes are now live.",
+        "Stormstrike damage reduced and cooldown increased.",
+        "Changes aim to improve game balance."
+      ],
+      "seo_description": "Enhancement Shaman class changes are now active in WoW: Forever."
+    }
+  },
+  "wh-383854": {
+    "es": {
+      "tldr": [
+        "Josh Greenfield habla sobre el bloqueo de creación de personajes en PvP.",
+        "Se dificulta crear personajes en la facción más popular, la Horda.",
+        "Se recomienda a los jugadores hacer otros planes para crear personajes."
+      ],
+      "seo_description": "Josh Greenfield comenta sobre el bloqueo de creación de personajes en PvP en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Josh Greenfield discusses locking character creation on PvP.",
+        "Creating characters in the popular faction, Horde, is now harder.",
+        "Players are advised to make other arrangements for character creation."
+      ],
+      "seo_description": "Josh Greenfield comments on locking character creation in PvP in WoW: Forever."
+    }
+  },
+  "wh-383853": {
+    "es": {
+      "tldr": [
+        "El episodio 7 del pódcast «WoW: Forever» ya está disponible.",
+        "Se discute la historia y el lore del juego.",
+        "Invitados especiales incluyen a Sean Copeland y Nobbel87."
+      ],
+      "seo_description": "Escucha el episodio 7 del pódcast «WoW: Forever» sobre la historia y el lore de World of Warcraft."
+    },
+    "en": {
+      "tldr": [
+        "Episode 7 of the «WoW: Forever» podcast is now available.",
+        "The team discusses the game's lore.",
+        "Special guests include Sean Copeland and Nobbel87."
+      ],
+      "seo_description": "Listen to Episode 7 of the «WoW: Forever» podcast discussing the lore of World of Warcraft."
+    }
   }
 };
