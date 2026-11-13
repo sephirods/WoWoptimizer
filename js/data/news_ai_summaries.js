@@ -4847,5 +4847,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Listen to Episode 7 of the «WoW: Forever» podcast discussing the lore of World of Warcraft."
     }
+  },
+  "wh-383846": {
+    "es": {
+      "tldr": [
+        "Nueva misión semanal para jugadores de nivel máximo en WoW: Forever.",
+        "Recompensas de hasta 100 de oro y cambios en la economía del oro.",
+        "Misión en Booty Bay para recolectar objetos de Dire Maul."
+      ],
+      "seo_description": "Descubre las nuevas recompensas semanales de hasta 100 de oro en WoW: Forever y los cambios en la economía del juego."
+    },
+    "en": {
+      "tldr": [
+        "New weekly quest for max level players in WoW: Forever.",
+        "Rewards up to 100 gold and changes in the gold economy.",
+        "Quest in Booty Bay to collect items from Dire Maul."
+      ],
+      "seo_description": "Explore new weekly rewards of up to 100 gold in WoW: Forever and the changes in the game's economy."
+    }
   }
 };
