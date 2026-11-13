@@ -5117,5 +5117,59 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Join Demar Brant for the telling of 'Cost of Honor', a story about sacrifice and courage."
     }
+  },
+  "blizz-30896792": {
+    "es": {
+      "tldr": [
+        "Se redujo el daño en el Abismo Venenoso para evitar muertes por errores individuales.",
+        "Malicia tiene una reducción de daño del 45% en Mítico y 63% en Normal/Heroico.",
+        "El objetivo es hacer que los errores sean menos punitivos para los jugadores."
+      ],
+      "seo_description": "Ajustes en el Abismo Venenoso para reducir muertes por errores individuales en la Temporada 3."
+    },
+    "en": {
+      "tldr": [
+        "Damage in The Venomous Abyss was reduced to prevent deaths from individual mistakes.",
+        "Malice damage reduced by 45% on Mythic and 63% on Normal/Heroic.",
+        "The goal is to make player mistakes less punishing."
+      ],
+      "seo_description": "Adjustments in The Venomous Abyss to reduce deaths from individual mistakes in Season 3."
+    }
+  },
+  "blizz-1237002": {
+    "es": {
+      "tldr": [
+        "Se ajustó el Abismo Venenoso para disminuir el daño por errores individuales.",
+        "Malicia tiene una reducción de daño del 45% en Mítico y 63% en Normal/Heroico.",
+        "Se busca mejorar la experiencia de los jugadores en la Temporada 3."
+      ],
+      "seo_description": "Ajustes en el Abismo Venenoso para mejorar la experiencia de los jugadores en la Temporada 3."
+    },
+    "en": {
+      "tldr": [
+        "The Venomous Abyss was adjusted to reduce damage from individual mistakes.",
+        "Malice damage reduced by 45% on Mythic and 63% on Normal/Heroic.",
+        "Aim to enhance player experience in Season 3."
+      ],
+      "seo_description": "Adjustments in The Venomous Abyss to enhance player experience in Season 3."
+    }
+  },
+  "blizz-6502122": {
+    "es": {
+      "tldr": [
+        "Se redujo el daño en el Abismo Venenoso para evitar muertes por errores individuales.",
+        "Malicia tiene una reducción de daño del 45% en Mítico y 63% en Normal/Heroico.",
+        "El objetivo es hacer que los errores sean menos punitivos para los jugadores."
+      ],
+      "seo_description": "Ajustes en el Abismo Venenoso para reducir muertes por errores individuales en la Temporada 3."
+    },
+    "en": {
+      "tldr": [
+        "Damage in The Venomous Abyss was reduced to prevent deaths from individual mistakes.",
+        "Malice damage reduced by 45% on Mythic and 63% on Normal/Heroic.",
+        "The goal is to make player mistakes less punishing."
+      ],
+      "seo_description": "Adjustments in The Venomous Abyss to reduce deaths from individual mistakes in Season 3."
+    }
   }
 };
