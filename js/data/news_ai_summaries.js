@@ -4865,5 +4865,257 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Explore new weekly rewards of up to 100 gold in WoW: Forever and the changes in the game's economy."
     }
+  },
+  "blizz-24315205": {
+    "es": {
+      "tldr": [
+        "Destacan el pódcast WoW: Forever y un nuevo relato corto.",
+        "Sean Copeland explora la historia en el pódcast.",
+        "El relato 'Coste del Honor' enseña sobre sacrificio y valentía."
+      ],
+      "seo_description": "Descubre el pódcast WoW: Forever y el relato 'Coste del Honor' en WoW Weekly."
+    },
+    "en": {
+      "tldr": [
+        "Highlights include the WoW: Forever podcast and a new short story.",
+        "Sean Copeland explores lore in the podcast.",
+        "The story 'Cost of Honor' teaches about sacrifice and courage."
+      ],
+      "seo_description": "Explore the WoW: Forever podcast and the short story 'Cost of Honor' in this week's WoW Weekly."
+    }
+  },
+  "blizz-24316096": {
+    "es": {
+      "tldr": [
+        "Nuevo relato corto 'El coste del honor' disponible.",
+        "Demar Brant narra historias legendarias junto a la hoguera.",
+        "El relato explora la fuerza de un pueblo en tiempos difíciles."
+      ],
+      "seo_description": "Lee el nuevo relato corto 'El coste del honor' narrado por Demar Brant."
+    },
+    "en": {
+      "tldr": [
+        "New short story 'Cost of Honor' available.",
+        "Demar Brant tells legendary stories by the campfire.",
+        "The story explores the strength of a people in tough times."
+      ],
+      "seo_description": "Read the new short story 'Cost of Honor' narrated by Demar Brant."
+    }
+  },
+  "wh-383870": {
+    "es": {
+      "tldr": [
+        "Mantenimiento urgente de servidores WoW: Forever en 30 minutos.",
+        "Se solucionará un fallo crítico del servidor.",
+        "Los servidores estarán fuera de servicio temporalmente."
+      ],
+      "seo_description": "Mantenimiento urgente en WoW: Forever para solucionar un fallo del servidor."
+    },
+    "en": {
+      "tldr": [
+        "Emergency maintenance for WoW: Forever realms in 30 minutes.",
+        "Fixing an urgent server crash.",
+        "Servers will be temporarily unavailable."
+      ],
+      "seo_description": "Emergency maintenance for WoW: Forever to fix a server crash."
+    }
+  },
+  "wh-383869": {
+    "es": {
+      "tldr": [
+        "Resumen semanal de WoW destaca el pódcast y un nuevo relato.",
+        "Sean Copeland explora la historia en el pódcast.",
+        "El relato 'Coste del Honor' enseña sobre sacrificio y valentía."
+      ],
+      "seo_description": "Descubre el resumen semanal de WoW con el pódcast y el relato 'Coste del Honor'."
+    },
+    "en": {
+      "tldr": [
+        "Weekly recap highlights the podcast and a new short story.",
+        "Sean Copeland explores lore in the podcast.",
+        "The story 'Cost of Honor' teaches about sacrifice and courage."
+      ],
+      "seo_description": "Discover the weekly recap of WoW featuring the podcast and the short story 'Cost of Honor'."
+    }
+  },
+  "wh-383868": {
+    "es": {
+      "tldr": [
+        "Nuevo relato corto 'El precio del honor' lanzado.",
+        "Demar Brant narra historias legendarias junto a la hoguera.",
+        "El relato explora la fuerza de un pueblo en tiempos difíciles."
+      ],
+      "seo_description": "Lee el nuevo relato corto 'El precio del honor' narrado por Demar Brant."
+    },
+    "en": {
+      "tldr": [
+        "New short story 'Cost of Honor' released.",
+        "Demar Brant tells legendary stories by the campfire.",
+        "The story explores the strength of a people in tough times."
+      ],
+      "seo_description": "Read the new short story 'Cost of Honor' narrated by Demar Brant."
+    }
+  },
+  "wh-383857": {
+    "es": {
+      "tldr": [
+        "El potenciador 'Poder de Ventormenta' regresa para la Alianza.",
+        "Se introdujo en la Temporada de Descubrimiento.",
+        "Los jugadores deben completar una misión para obtenerlo."
+      ],
+      "seo_description": "El potenciador 'Poder de Ventormenta' vuelve en WoW: Forever para la Alianza."
+    },
+    "en": {
+      "tldr": [
+        "The 'Might of Stormwind' buff returns for Alliance players.",
+        "Introduced in Season of Discovery.",
+        "Players must complete a quest to obtain it."
+      ],
+      "seo_description": "The 'Might of Stormwind' buff returns in WoW: Forever for Alliance players."
+    }
+  },
+  "wh-383864": {
+    "es": {
+      "tldr": [
+        "Nuevos objetos del Puesto Comercial en el parche 12.1.7.",
+        "Incluye la antigua montura de SteelSeries.",
+        "Tres nuevas monturas y varios objetos de transfiguración."
+      ],
+      "seo_description": "Descubre nuevos objetos del Puesto Comercial en el parche 12.1.7, incluyendo la montura de SteelSeries."
+    },
+    "en": {
+      "tldr": [
+        "New Trading Post items in Patch 12.1.7.",
+        "Includes the old SteelSeries mount.",
+        "Three new mounts and various transmog items."
+      ],
+      "seo_description": "Discover new Trading Post items in Patch 12.1.7, including the SteelSeries mount."
+    }
+  },
+  "wh-383859": {
+    "es": {
+      "tldr": [
+        "Nuevo juguete secreto encontrado en WoW: Forever.",
+        "Se obtiene en la mazmorras Alcaz Prison.",
+        "No matar al primer jefe para completar la misión."
+      ],
+      "seo_description": "Descubre el nuevo juguete secreto en WoW: Forever, obtenido en la mazmorras Alcaz Prison."
+    },
+    "en": {
+      "tldr": [
+        "New secret toy found in WoW: Forever.",
+        "Obtained in the Alcaz Prison dungeon.",
+        "Do not kill the first boss to complete the quest."
+      ],
+      "seo_description": "Discover the new secret toy in WoW: Forever, obtained in the Alcaz Prison dungeon."
+    }
+  },
+  "wh-383633": {
+    "es": {
+      "tldr": [
+        "Especulaciones sobre los titanes en Azeroth.",
+        "La historia se explora en la misión de Lorewalking.",
+        "Los titanes pueden no ser siempre una fuerza positiva."
+      ],
+      "seo_description": "Explora las especulaciones sobre los titanes en Azeroth y su impacto en la historia."
+    },
+    "en": {
+      "tldr": [
+        "Speculations about the Titans in Azeroth.",
+        "The story is explored in the Lorewalking quest.",
+        "Titans may not always be a positive force."
+      ],
+      "seo_description": "Explore speculations about the Titans in Azeroth and their impact on history."
+    }
+  },
+  "blizz-30892136": {
+    "es": {
+      "tldr": [
+        "Resumen semanal de WoW con nuevos contenidos.",
+        "Incluye el podcast WoW: Forever.",
+        "Relatos legendarios y videos destacados."
+      ],
+      "seo_description": "Descubre el resumen semanal de WoW con el podcast WoW: Forever y relatos legendarios."
+    },
+    "en": {
+      "tldr": [
+        "Weekly WoW summary with new content.",
+        "Includes the WoW: Forever podcast.",
+        "Legendary tales and featured videos."
+      ],
+      "seo_description": "Discover the weekly WoW summary with the WoW: Forever podcast and legendary tales."
+    }
+  },
+  "blizz-30892102": {
+    "es": {
+      "tldr": [
+        "Nuevo relato corto 'El coste del honor'.",
+        "Narrado por Demar Brant junto a la hoguera.",
+        "Explora temas de guerra y sacrificio."
+      ],
+      "seo_description": "Disfruta del nuevo relato corto 'El coste del honor' narrado por Demar Brant."
+    },
+    "en": {
+      "tldr": [
+        "New short story 'Cost of Honor'.",
+        "Told by Demar Brant by the fireside.",
+        "Explores themes of war and sacrifice."
+      ],
+      "seo_description": "Enjoy the new short story 'Cost of Honor' narrated by Demar Brant."
+    }
+  },
+  "blizz-1236907": {
+    "es": {
+      "tldr": [
+        "No te pierdas el relato corto 'El coste del honor'.",
+        "Narrado por Demar Brant junto a la hoguera.",
+        "Temas de sacrificio y protección mutua."
+      ],
+      "seo_description": "No te pierdas el relato corto 'El coste del honor' narrado por Demar Brant."
+    },
+    "en": {
+      "tldr": [
+        "Don't miss the short story 'Cost of Honor'.",
+        "Told by Demar Brant by the fireside.",
+        "Themes of sacrifice and mutual protection."
+      ],
+      "seo_description": "Don't miss the short story 'Cost of Honor' narrated by Demar Brant."
+    }
+  },
+  "blizz-6501200": {
+    "es": {
+      "tldr": [
+        "Destacan el podcast WoW: Forever",
+        "Nueva historia corta 'Cost of Honor'",
+        "Videos y más contenido esta semana"
+      ],
+      "seo_description": "Descubre el podcast WoW: Forever y la nueva historia 'Cost of Honor' en los destacados de WoW Weekly."
+    },
+    "en": {
+      "tldr": [
+        "Highlights the WoW: Forever podcast",
+        "New short story 'Cost of Honor'",
+        "Videos and more content this week"
+      ],
+      "seo_description": "Discover the WoW: Forever podcast and the new short story 'Cost of Honor' in this week's WoW Weekly highlights."
+    }
+  },
+  "blizz-6501195": {
+    "es": {
+      "tldr": [
+        "Narración especial de 'Cost of Honor'",
+        "Historias de guerra y sacrificio",
+        "La verdadera fuerza radica en la protección mutua"
+      ],
+      "seo_description": "Únete a Demar Brant en la narración de 'Cost of Honor', una historia sobre sacrificio y valentía."
+    },
+    "en": {
+      "tldr": [
+        "Special telling of 'Cost of Honor'",
+        "Tales of war and sacrifice",
+        "True strength lies in mutual protection"
+      ],
+      "seo_description": "Join Demar Brant for the telling of 'Cost of Honor', a story about sacrifice and courage."
+    }
   }
 };
