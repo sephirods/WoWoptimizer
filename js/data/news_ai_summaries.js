@@ -5333,5 +5333,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Blizzard refunds gold to players affected by server issues."
     }
+  },
+  "wh-383880": {
+    "es": {
+      "tldr": [
+        "Los enemigos triviales no otorgan experiencia en mazmorras.",
+        "Si un miembro del grupo es de nivel alto, todos pierden experiencia.",
+        "Los mobs se vuelven grises y se consideran triviales."
+      ],
+      "seo_description": "Los enemigos triviales en mazmorras no otorgan experiencia a los jugadores de WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Trivial enemies grant no experience in dungeons.",
+        "If a party member is high-level, everyone loses experience.",
+        "Mobs turn grey and are considered trivial."
+      ],
+      "seo_description": "Trivial enemies in dungeons grant no experience to players in WoW: Forever."
+    }
+  },
+  "wh-383861": {
+    "es": {
+      "tldr": [
+        "El nuevo conjunto Krol'dok convierte a los jugadores en ogros.",
+        "Se requiere equipar todas las piezas del Krol'dok Battlegear.",
+        "Los conjuntos de mazmorras son más poderosos que en Classic WoW."
+      ],
+      "seo_description": "El nuevo conjunto Krol'dok en WoW: Forever transforma a los jugadores en ogros."
+    },
+    "en": {
+      "tldr": [
+        "The new Krol'dok set transforms players into ogres.",
+        "All pieces of Krol'dok Battlegear must be equipped.",
+        "Dungeon sets are more powerful than in Classic WoW."
+      ],
+      "seo_description": "The new Krol'dok set in WoW: Forever transforms players into ogres."
+    }
   }
 };
