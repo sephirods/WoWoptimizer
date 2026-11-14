@@ -5171,5 +5171,59 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Adjustments in The Venomous Abyss to reduce deaths from individual mistakes in Season 3."
     }
+  },
+  "wh-383849": {
+    "es": {
+      "tldr": [
+        "Riverglades es una nueva zona en WoW: Forever.",
+        "Ideal para jugadores de nivel 38 a 44.",
+        "Acceso principal a través de un barco en Tanaris."
+      ],
+      "seo_description": "Descubre Riverglades, una de las mejores zonas para subir de nivel en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Riverglades is a new zone in WoW: Forever.",
+        "Ideal for players level 38 to 44.",
+        "Main access via a ship in Tanaris."
+      ],
+      "seo_description": "Explore Riverglades, one of the best leveling zones in WoW: Forever."
+    }
+  },
+  "wh-383874": {
+    "es": {
+      "tldr": [
+        "Blizzard reducirá las penalizaciones mecánicas en la temporada 3.",
+        "Menos mecánicas que pueden eliminar a toda la banda.",
+        "Respuesta a las quejas de los jugadores de Mythic."
+      ],
+      "seo_description": "Blizzard ajusta el diseño de encuentros en la temporada 3 para mejorar la experiencia de los jugadores."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard will reduce mechanical penalties in Season 3.",
+        "Fewer mechanics that can wipe the entire raid.",
+        "Response to player complaints in Mythic."
+      ],
+      "seo_description": "Blizzard adjusts encounter design in Season 3 to enhance player experience."
+    }
+  },
+  "wh-383873": {
+    "es": {
+      "tldr": [
+        "Skyborne no recibe descuento de reputación para monturas.",
+        "Requiere nivel y costo en oro para aprender habilidades de montura.",
+        "No hay misiones para aumentar la reputación de Skyborne."
+      ],
+      "seo_description": "Skyborne no tiene descuento de reputación para aprender monturas en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Skyborne don't get a reputation discount for mounts.",
+        "Requires level and gold cost to learn riding skills.",
+        "No quests to increase Skyborne reputation."
+      ],
+      "seo_description": "Skyborne don't have a reputation discount for learning mounts in WoW: Forever."
+    }
   }
 };
