@@ -5225,5 +5225,77 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Skyborne don't have a reputation discount for learning mounts in WoW: Forever."
     }
+  },
+  "blizz-30899768": {
+    "es": {
+      "tldr": [
+        "Correcciones de errores en clases de WoW: Forever.",
+        "Aumento del coeficiente de curación de Wild Growth.",
+        "Judgement of Command ahora cuenta como ataque cuerpo a cuerpo."
+      ],
+      "seo_description": "Correcciones de clases en WoW: Forever, incluyendo cambios en Wild Growth y Judgement of Command."
+    },
+    "en": {
+      "tldr": [
+        "Class bug fixes in WoW: Forever.",
+        "Wild Growth healing coefficient increased.",
+        "Judgement of Command now counts as a melee attack."
+      ],
+      "seo_description": "Class fixes in WoW: Forever, including changes to Wild Growth and Judgement of Command."
+    }
+  },
+  "blizz-30899567": {
+    "es": {
+      "tldr": [
+        "Reembolsos por compras de habilidades perdidas.",
+        "Los jugadores afectados recibirán oro en el correo del juego.",
+        "Problemas ocurrieron el 9 de noviembre entre 1:17 p.m. y 2:17 p.m. PST."
+      ],
+      "seo_description": "Reembolsos por habilidades perdidas en WoW: Forever. Verifica tu correo del juego."
+    },
+    "en": {
+      "tldr": [
+        "Refunds for lost skill purchases.",
+        "Affected players will receive gold in in-game mail.",
+        "Issues occurred on November 9 between 1:17 p.m. and 2:17 p.m. PST."
+      ],
+      "seo_description": "Refunds for lost skills in WoW: Forever. Check your in-game mail."
+    }
+  },
+  "blizz-6502386": {
+    "es": {
+      "tldr": [
+        "Correcciones de errores en clases de WoW: Forever.",
+        "Aumento del coeficiente de curación de Wild Growth.",
+        "Judgement of Command ahora cuenta como ataque cuerpo a cuerpo."
+      ],
+      "seo_description": "Correcciones de clases en WoW: Forever, incluyendo cambios en Wild Growth y Judgement de Command."
+    },
+    "en": {
+      "tldr": [
+        "Class bug fixes in WoW: Forever.",
+        "Wild Growth healing coefficient increased.",
+        "Judgement of Command now counts as a melee attack."
+      ],
+      "seo_description": "Class fixes in WoW: Forever, including changes to Wild Growth and Judgement of Command."
+    }
+  },
+  "blizz-6502369": {
+    "es": {
+      "tldr": [
+        "Reembolsos por compras de habilidades perdidas.",
+        "Los jugadores afectados recibirán oro en el correo del juego.",
+        "Problemas ocurrieron el 9 de noviembre entre 22:17 y 23:17 CET."
+      ],
+      "seo_description": "Reembolsos por habilidades perdidas en WoW: Forever. Verifica tu correo del juego."
+    },
+    "en": {
+      "tldr": [
+        "Refunds for lost skill purchases.",
+        "Affected players will receive gold in in-game mail.",
+        "Issues occurred on November 9 between 10:17 p.m. and 11:17 p.m. CET."
+      ],
+      "seo_description": "Refunds for lost skills in WoW: Forever. Check your in-game mail."
+    }
   }
 };
