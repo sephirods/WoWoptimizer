@@ -5297,5 +5297,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Refunds for lost skills in WoW: Forever. Check your in-game mail."
     }
+  },
+  "wh-383876": {
+    "es": {
+      "tldr": [
+        "Correcciones en mazmorras, misiones y clases.",
+        "Ajustes en el crecimiento de habilidades de los Druidas.",
+        "Más jugadores pueden ganar el evento de pesca de Stranglethorn."
+      ],
+      "seo_description": "Actualizaciones de correcciones en WoW: Forever para mazmorras, misiones y clases."
+    },
+    "en": {
+      "tldr": [
+        "Fixes for dungeons, quests, and classes.",
+        "Druid healing growth adjustment.",
+        "More players can win the Stranglethorn Fishing event."
+      ],
+      "seo_description": "Hotfix updates for dungeons, quests, and classes in WoW: Forever."
+    }
+  },
+  "wh-383875": {
+    "es": {
+      "tldr": [
+        "Blizzard reembolsa oro a jugadores por habilidades compradas.",
+        "Problemas en servidores causaron pérdidas de compras.",
+        "Los jugadores afectados recibirán el reembolso por correo."
+      ],
+      "seo_description": "Blizzard devuelve oro a jugadores afectados por problemas en servidores."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard refunds gold for skills purchased.",
+        "Server issues caused purchase losses.",
+        "Affected players will receive refunds via in-game mail."
+      ],
+      "seo_description": "Blizzard refunds gold to players affected by server issues."
+    }
   }
 };
