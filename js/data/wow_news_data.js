@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30912982",
+      "postId": 30912982,
+      "topicId": 2416343,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-15T01:18:23.191Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Player-Level Dungeon XP Adjustment - November 14",
+        "es": "Player-Level Mazmorra XP Adjustment - November 14"
+      },
+      "summary": {
+        "en": "Yesterday, we updated dungeon play so that experience granted by an enemy in an instance is nullified if a high level player is in the group and enemy is trivial to that player. Fo...",
+        "es": "Yesterday, we updated Mazmorra play so that experience granted by an enemy in an instance is nullified if a high level player is in the group and enemy is trivial to that player. F..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Yesterday, we updated dungeon play so that experience granted by an enemy in an instance is nullified if a high level player is in the group and enemy is trivial to that player. For some dungeons, the new restriction missed the mark because of the overall level range of the enemies in the dungeon.</p>\n<p>With hotfixes that are now live, we’ve just deployed a further change to this restriction, making it so that the XP nullification only kicks in when the high-level player is more than 12 levels above the level of the enemies.</p>\n<p>Please note that this adjustment will not apply in instances that were already underway when it was deployed (a few minutes ago).</p>\n<p>Thank you very much!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Yesterday, we updated dungeon play so that experience granted by an enemy in an instance is nullified if a high level player is in the group and enemy is trivial to that player. For some dungeons, the new restriction missed the mark because of the overall level range of the enemies in the dungeon.</p>\n<p>With hotfixes that are now live, we’ve just deployed a further change to this restriction, making it so that the XP nullification only kicks in when the high-level player is more than 12 levels above the level of the enemies.</p>\n<p>Please note that this adjustment will not apply in instances that were already underway when it was deployed (a few minutes ago).</p>\n<p>Thank you very much!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/player-level-dungeon-xp-adjustment-november-14/2416343/1"
+    },
+    {
       "id": "blizz-30899768",
       "postId": 30899768,
       "topicId": 2403040,
@@ -196,34 +224,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-7-turbo-nerds-lore-ing-out-ft-nobbel87-platinum-wow/2412856/1"
-    },
-    {
-      "id": "blizz-30863849",
-      "postId": 30863849,
-      "topicId": 2403040,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-12T00:48:47.076Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW: Forever Hotfixes - November 13, 2026",
-        "es": "WoW: Forever Correcciones en Vivo - November 13, 2026"
-      },
-      "summary": {
-        "en": "November 11, 2026 \nClasses \n\nDruid\n\nFeral\n\nRend and Tear now works on Pounce Bleed.\n\n\n\n\nHunter\n\nFixed an issue where Volley was activating procs.\nFixed an issue where Volley would ...",
-        "es": "November 11, 2026 \nClasses \n\nDruid\n\nFeral\n\nRend and Tear now works on Pounce Bleed.\n\n\n\n\nHunter\n\nFixed an issue where Volley was activating procs.\nFixed an issue where Volley would ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 11, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>Druid</strong>\n<ul>\n<li><strong>Feral</strong>\n<ul>\n<li>Rend and Tear now works on Pounce Bleed.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Hunter</strong>\n<ul>\n<li>Fixed an issue where Volley was activating procs.</li>\n<li>Fixed an issue where Volley would continue to channel even when the Hunter had started moving.</li>\n</ul>\n</li>\n<li><strong>Paladin</strong>\n<ul>\n<li>Judgement changed to now be considered a Ranged Attack. This means it no longer counts as a Melee attack for the purposes of item and effect procs and uses the Paladin’s Ranged Hit chance.</li>\n<li><strong>Retribution</strong>\n<ul>\n<li>With the fix to Windfury Totem activating from Holy Strike, we have changed Unsealed Fury. Unsealed Fury no longer generates echoes from Windfury Totem attacks.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Priest</strong>\n<ul>\n<li>Confounding Flash (Gnome) can now correctly be used while in Shadowform.</li>\n<li><strong>Holy</strong>\n<ul>\n<li>The Twilight Focus talent will now correctly work while in Shadowform.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Shaman</strong>\n<ul>\n<li>Fixed a bug where Flametongue Totem Rank 2 was not working.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Customer Support</strong></p>\n<ul>\n<li>The Item Restoration service has been disabled while we investigate and address a critical bug.</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Riverglades - Significantly reduced the amount of damage dealt by the Twilight Enforcer’s “Smash” ability.</li>\n<li>Riverglades - Lowered the damage dealt by Executioner Morg.</li>\n<li>Riverglades - Twilight Forgemaster’s “Mark of Flames” now increases damage dealt by 50 (was 1000).</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Bloody Claws of Attack now correctly add +1 Fist/Unarmed Weapon skill.</li>\n<li>Earthen Silk Slippers no longer give more spell damage than intended.</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li><strong>Tailoring</strong>\n<ul>\n<li>Adjusted the required materials and slot size of several bags that were unintentionally smaller than intended.\n<ul>\n<li>Red Mageweave Bag now requires 5 bolts of mageweave (was 4 bolts) and is now 14 slots.</li>\n<li>Green Silk Pack now requires 5 bolts of silk (was 4 bolts) and is now 12 slots.</li>\n<li>Black Silk Pack now requires 6 bolts of silk (was 5 bolts) and is now 12 slots.</li>\n<li>Green Woolen Bag now requires 5 bolts of wool (was 4 bolts) and is now 10 slots.</li>\n<li>Red Woolen Bag now requires 5 bolts of wool (was 4 bolts) and is now 10 slots.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Western Plaguelands - Players should now be able to properly interact with the Command Tent while on the quest “Scarlet Diversions”.</li>\n<li>Arathi Highlands - Fixed an issue where the Witherbark Mallet did not function, preventing players from proceeding to “The Giant in the Den”.</li>\n<li>Feralas - Fixed an issue where the Cage Door for the quest “Freedom for All Creatures” would not reset. It feels wrong to close it, but…</li>\n</ul>\n<p><strong>World</strong></p>\n<ul>\n<li>Fixed a bug that prevented the ability to mount in named areas of Shen’dralas.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 11, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>DRUIDA</strong>\n<ul>\n<li><strong>Feral</strong>\n<ul>\n<li>Rend and Tear now works on Pounce Bleed.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR</strong>\n<ul>\n<li>Fixed an issue where Volley was activating procs.</li>\n<li>Fixed an issue where Volley would continue to channel even when the Hunter had started moving.</li>\n</ul>\n</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li>Judgement changed to now be considered a Ranged Attack. This means it no longer counts as a Melee attack for the purposes of item and effect procs and uses the Paladin’s Ranged Hit chance.</li>\n<li><strong>Reprensión</strong>\n<ul>\n<li>With the fix to Windfury Totem activating from Sagrado Strike, we have changed Unsealed Furia. Unsealed Furia no longer generates echoes from Windfury Totem attacks.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>SACERDOTE</strong>\n<ul>\n<li>Confounding Flash (Gnome) can now correctly be used while in Shadowform.</li>\n<li><strong>Sagrado</strong>\n<ul>\n<li>The Twilight Focus talent will now correctly work while in Shadowform.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li>Fixed a bug where Flametongue Totem Rank 2 was not working.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Customer Support</strong></p>\n<ul>\n<li>The Item Restauración service has been disabled while we investigate and address a critical bug.</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Riverglades - Significantly reduced the amount of damage dealt by the Twilight Enforcer’s “Smash” ability.</li>\n<li>Riverglades - Lowered the damage dealt by Executioner Morg.</li>\n<li>Riverglades - Twilight Forgemaster’s “Mark of Flames” ahora aumenta damage dealt by 50 (was 1000).</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Bloody Claws of Attack now correctly add +1 Fist/Unarmed Weapon skill.</li>\n<li>Earthen Silk Slippers no longer give more spell damage than intended.</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li><strong>Tailoring</strong>\n<ul>\n<li>Adjusted the required materials and slot size of several bags that were unintentionally smaller than intended.\n<ul>\n<li>Red Mageweave Bag now requires 5 bolts of mageweave (was 4 bolts) and ahora es 14 slots.</li>\n<li>Green Silk Pack now requires 5 bolts of silk (was 4 bolts) and ahora es 12 slots.</li>\n<li>Black Silk Pack now requires 6 bolts of silk (was 5 bolts) and ahora es 12 slots.</li>\n<li>Green Woolen Bag now requires 5 bolts of wool (was 4 bolts) and ahora es 10 slots.</li>\n<li>Red Woolen Bag now requires 5 bolts of wool (was 4 bolts) and ahora es 10 slots.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Western Plaguelands - Players should now be able to properly interact with the Command Tent while on the quest “Scarlet Diversions”.</li>\n<li>Arathi Highlands - Fixed an issue where the Witherbark Mallet did not function, preventing players from proceeding to “The Giant in the Den”.</li>\n<li>Feralas - Fixed an issue where the Cage Door for the quest “Freedom for All Creatures” would not reset. It feels wrong to close it, but…</li>\n</ul>\n<p><strong>World</strong></p>\n<ul>\n<li>Fixed a bug that prevented the ability to mount in named areas of Shen’dralas.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8"
     },
     {
       "id": "blizz-1237002",
@@ -672,6 +672,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-11-2026/639885/7"
+    },
+    {
+      "id": "blizz-30863849",
+      "postId": 30863849,
+      "topicId": 2403040,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-12T00:48:47.076Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever Hotfixes - November 13, 2026",
+        "es": "WoW: Forever Correcciones en Vivo - November 13, 2026"
+      },
+      "summary": {
+        "en": "November 11, 2026 \nClasses \n\nDruid\n\nFeral\n\nRend and Tear now works on Pounce Bleed.\n\n\n\n\nHunter\n\nFixed an issue where Volley was activating procs.\nFixed an issue where Volley would ...",
+        "es": "November 11, 2026 \nClasses \n\nDruid\n\nFeral\n\nRend and Tear now works on Pounce Bleed.\n\n\n\n\nHunter\n\nFixed an issue where Volley was activating procs.\nFixed an issue where Volley would ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 11, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>Druid</strong>\n<ul>\n<li><strong>Feral</strong>\n<ul>\n<li>Rend and Tear now works on Pounce Bleed.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Hunter</strong>\n<ul>\n<li>Fixed an issue where Volley was activating procs.</li>\n<li>Fixed an issue where Volley would continue to channel even when the Hunter had started moving.</li>\n</ul>\n</li>\n<li><strong>Paladin</strong>\n<ul>\n<li>Judgement changed to now be considered a Ranged Attack. This means it no longer counts as a Melee attack for the purposes of item and effect procs and uses the Paladin’s Ranged Hit chance.</li>\n<li><strong>Retribution</strong>\n<ul>\n<li>With the fix to Windfury Totem activating from Holy Strike, we have changed Unsealed Fury. Unsealed Fury no longer generates echoes from Windfury Totem attacks.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Priest</strong>\n<ul>\n<li>Confounding Flash (Gnome) can now correctly be used while in Shadowform.</li>\n<li><strong>Holy</strong>\n<ul>\n<li>The Twilight Focus talent will now correctly work while in Shadowform.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Shaman</strong>\n<ul>\n<li>Fixed a bug where Flametongue Totem Rank 2 was not working.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Customer Support</strong></p>\n<ul>\n<li>The Item Restoration service has been disabled while we investigate and address a critical bug.</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Riverglades - Significantly reduced the amount of damage dealt by the Twilight Enforcer’s “Smash” ability.</li>\n<li>Riverglades - Lowered the damage dealt by Executioner Morg.</li>\n<li>Riverglades - Twilight Forgemaster’s “Mark of Flames” now increases damage dealt by 50 (was 1000).</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Bloody Claws of Attack now correctly add +1 Fist/Unarmed Weapon skill.</li>\n<li>Earthen Silk Slippers no longer give more spell damage than intended.</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li><strong>Tailoring</strong>\n<ul>\n<li>Adjusted the required materials and slot size of several bags that were unintentionally smaller than intended.\n<ul>\n<li>Red Mageweave Bag now requires 5 bolts of mageweave (was 4 bolts) and is now 14 slots.</li>\n<li>Green Silk Pack now requires 5 bolts of silk (was 4 bolts) and is now 12 slots.</li>\n<li>Black Silk Pack now requires 6 bolts of silk (was 5 bolts) and is now 12 slots.</li>\n<li>Green Woolen Bag now requires 5 bolts of wool (was 4 bolts) and is now 10 slots.</li>\n<li>Red Woolen Bag now requires 5 bolts of wool (was 4 bolts) and is now 10 slots.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Western Plaguelands - Players should now be able to properly interact with the Command Tent while on the quest “Scarlet Diversions”.</li>\n<li>Arathi Highlands - Fixed an issue where the Witherbark Mallet did not function, preventing players from proceeding to “The Giant in the Den”.</li>\n<li>Feralas - Fixed an issue where the Cage Door for the quest “Freedom for All Creatures” would not reset. It feels wrong to close it, but…</li>\n</ul>\n<p><strong>World</strong></p>\n<ul>\n<li>Fixed a bug that prevented the ability to mount in named areas of Shen’dralas.</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 11, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>DRUIDA</strong>\n<ul>\n<li><strong>Feral</strong>\n<ul>\n<li>Rend and Tear now works on Pounce Bleed.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR</strong>\n<ul>\n<li>Fixed an issue where Volley was activating procs.</li>\n<li>Fixed an issue where Volley would continue to channel even when the Hunter had started moving.</li>\n</ul>\n</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li>Judgement changed to now be considered a Ranged Attack. This means it no longer counts as a Melee attack for the purposes of item and effect procs and uses the Paladin’s Ranged Hit chance.</li>\n<li><strong>Reprensión</strong>\n<ul>\n<li>With the fix to Windfury Totem activating from Sagrado Strike, we have changed Unsealed Furia. Unsealed Furia no longer generates echoes from Windfury Totem attacks.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>SACERDOTE</strong>\n<ul>\n<li>Confounding Flash (Gnome) can now correctly be used while in Shadowform.</li>\n<li><strong>Sagrado</strong>\n<ul>\n<li>The Twilight Focus talent will now correctly work while in Shadowform.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li>Fixed a bug where Flametongue Totem Rank 2 was not working.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Customer Support</strong></p>\n<ul>\n<li>The Item Restauración service has been disabled while we investigate and address a critical bug.</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Riverglades - Significantly reduced the amount of damage dealt by the Twilight Enforcer’s “Smash” ability.</li>\n<li>Riverglades - Lowered the damage dealt by Executioner Morg.</li>\n<li>Riverglades - Twilight Forgemaster’s “Mark of Flames” ahora aumenta damage dealt by 50 (was 1000).</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Bloody Claws of Attack now correctly add +1 Fist/Unarmed Weapon skill.</li>\n<li>Earthen Silk Slippers no longer give more spell damage than intended.</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li><strong>Tailoring</strong>\n<ul>\n<li>Adjusted the required materials and slot size of several bags that were unintentionally smaller than intended.\n<ul>\n<li>Red Mageweave Bag now requires 5 bolts of mageweave (was 4 bolts) and ahora es 14 slots.</li>\n<li>Green Silk Pack now requires 5 bolts of silk (was 4 bolts) and ahora es 12 slots.</li>\n<li>Black Silk Pack now requires 6 bolts of silk (was 5 bolts) and ahora es 12 slots.</li>\n<li>Green Woolen Bag now requires 5 bolts of wool (was 4 bolts) and ahora es 10 slots.</li>\n<li>Red Woolen Bag now requires 5 bolts of wool (was 4 bolts) and ahora es 10 slots.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Western Plaguelands - Players should now be able to properly interact with the Command Tent while on the quest “Scarlet Diversions”.</li>\n<li>Arathi Highlands - Fixed an issue where the Witherbark Mallet did not function, preventing players from proceeding to “The Giant in the Den”.</li>\n<li>Feralas - Fixed an issue where the Cage Door for the quest “Freedom for All Creatures” would not reset. It feels wrong to close it, but…</li>\n</ul>\n<p><strong>World</strong></p>\n<ul>\n<li>Fixed a bug that prevented the ability to mount in named areas of Shen’dralas.</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8"
     },
     {
       "id": "blizz-30863846",
@@ -1372,34 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/class-tuning-incoming-november-10/2404092/1"
-    },
-    {
-      "id": "blizz-30782728",
-      "postId": 30782728,
-      "topicId": 2402937,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-11-06T18:58:44.850Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The Venomous Abyss Raid Tuning Incoming",
-        "es": "The Venomous Abyss Banda Tuning Próximamente"
-      },
-      "summary": {
-        "en": "The Ula’tek adjustments have recently been pushed live. I’ll be sure to add them to the hotfixes post later today....",
-        "es": "The Ula’tek adjustments have recently been pushed live. I’ll be sure to add them to the Correcciones en Vivo post later today...."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><aside class=\"quote no-group quote-modified\" data-username=\"Aceheart-moon-guard\" data-display-name=\"Aceheart\" data-post=\"55\" data-topic=\"2402937\" data-full=\"true\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/moon-guard/215/182490839-avatar.jpg?alt=/wow/static/images/2d/avatar/86-0.jpg\" class=\"avatar\"> Aceheart:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>Hi - Ula’tek’s nerfs aren’t listed in the linked <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24307310/\">hotfixes page</a>. Are they live? If not, when will they be?</p>\n</blockquote>\n</aside>\n<p>The Ula’tek adjustments have recently been pushed live. I’ll be sure to add them to the hotfixes post later today. <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/smiley.png?v=15\" title=\":smiley:\" class=\"emoji\" alt=\":smiley:\" loading=\"lazy\" width=\"20\" height=\"20\"></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><aside class=\"quote no-group quote-modified\" data-username=\"Aceheart-moon-guard\" data-display-name=\"Aceheart\" data-post=\"55\" data-topic=\"2402937\" data-full=\"true\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/moon-guard/215/182490839-avatar.jpg?alt=/wow/static/images/2d/avatar/86-0.jpg\" class=\"avatar\"> Aceheart:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>Hi - Ula’tek’s nerfs aren’t listed in the linked <a href=\"https://worldofwarcraft.blizzard.com/en-us/news/24307310/\">hotfixes page</a>. Are they live? If not, when will they be?</p>\n</blockquote>\n</aside>\n<p>The Ula’tek adjustments have recently been pushed live. I’ll be sure to add them to the hotfixes post later today. <img src=\"https://d38bqls1q93fod.cloudfront.net/en/wow/images/emoji/twitter/smiley.png?v=15\" title=\":smiley:\" class=\"emoji\" alt=\":smiley:\" loading=\"lazy\" width=\"20\" height=\"20\"></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-venomous-abyss-raid-tuning-incoming/2402937/56"
     }
   ],
   "blizzardNews": [
