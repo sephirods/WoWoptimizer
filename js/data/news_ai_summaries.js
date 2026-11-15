@@ -5459,5 +5459,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Discover new rewards in WoW: Forever, including the Traveler's Symbols toy and more."
     }
+  },
+  "wh-383845": {
+    "es": {
+      "tldr": [
+        "Aumenta tu espacio en bolsas con recompensas de misiones.",
+        "Obtén bolsas de 6 espacios al inicio del juego.",
+        "Ahorra oro mientras mejoras tu inventario."
+      ],
+      "seo_description": "Descubre cómo ganar espacio en tus bolsas y ahorrar oro en WoW: Forever con recompensas de misiones."
+    },
+    "en": {
+      "tldr": [
+        "Increase your bag space with quest rewards.",
+        "Get 6-slot bags at the start of the game.",
+        "Save gold while upgrading your inventory."
+      ],
+      "seo_description": "Learn how to gain bag space and save gold in WoW: Forever with quest rewards."
+    }
   }
 };
