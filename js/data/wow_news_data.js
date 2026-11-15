@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/explora-wow-forever-con-un-mando/80701/1"
     },
     {
+      "id": "blizz-6505388",
+      "postId": 6505388,
+      "topicId": 642962,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-15T01:18:42.118Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Player-Level Dungeon XP Adjustment -15 November",
+        "es": "Player-Level Mazmorra XP Adjustment -15 November"
+      },
+      "summary": {
+        "en": "Yesterday, we updated dungeon play so that experience gains in instances are nullified if a high level player is in the group and enemies are trivial to that player. For some dunge...",
+        "es": "Yesterday, we updated Mazmorra play so that experience gains in instances are nullified if a high level player is in the group and enemies are trivial to that player. For some Mazm..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Yesterday, we updated dungeon play so that experience gains in instances are nullified if a high level player is in the group and enemies are trivial to that player. For some dungeons, the new restriction missed the mark because of the overall level range of the enemies in the dungeon.</p>\n<p>With hotfixes that are now live, we’ve just deployed a further change to this restriction, making it so that the XP nullification only kicks in when the high-level player is more than 12 levels above the level of the enemies.</p>\n<p>Please note that this adjustment will not apply in instances that were already underway when it was deployed (a few minutes ago).</p>\n<p>Thank you very much!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Yesterday, we updated dungeon play so that experience gains in instances are nullified if a high level player is in the group and enemies are trivial to that player. For some dungeons, the new restriction missed the mark because of the overall level range of the enemies in the dungeon.</p>\n<p>With hotfixes that are now live, we’ve just deployed a further change to this restriction, making it so that the XP nullification only kicks in when the high-level player is more than 12 levels above the level of the enemies.</p>\n<p>Please note that this adjustment will not apply in instances that were already underway when it was deployed (a few minutes ago).</p>\n<p>Thank you very much!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/player-level-dungeon-xp-adjustment-15-november/642962/1"
+    },
+    {
       "id": "blizz-6502386",
       "postId": 6502386,
       "topicId": 639885,
@@ -1372,34 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-venomous-abyss-raid-tuning-incoming/639867/14"
-    },
-    {
-      "id": "blizz-30783956",
-      "postId": 30783956,
-      "topicId": 2404092,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-06T21:11:39.116Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Class Tuning Incoming - November 10",
-        "es": "Ajustes de Balance de Clases Próximamente - November 10"
-      },
-      "summary": {
-        "en": "Now that players around the world are leveling up in WoW: Forever, we’ve identified a few class issues that we feel need some immediate changes. Today, we’re still investigating th...",
-        "es": "Now that players around the world are leveling up in WoW: Forever, we’ve identified a few class issues that we feel need some immediate changes. Today, we’re still investigating th..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Now that players around the world are leveling up in WoW: Forever, we’ve identified a few class issues that we feel need some immediate changes. Today, we’re still investigating these issues and working through them with a plan to release hotfixes on Tuesday, November 10 to address:</p>\n<ul>\n<li>We’ve seen that Hunter pets and Warlock Voidwalkers are not as durable as tanks as we would like them to be. Our intent is for their effectiveness to be relatively the same as in Classic Era. We will adjust their stats as necessary to accomplish this.</li>\n<li>Affliction Warlock reports indicate that always channeling Wrack is superior to also casting damage-over-time abilities like Siphon Life, Corruption, and Bane of Agony. We will make adjustments to make sure those are always worthwhile to cast combined with Wrack, without affecting Affliction Warlocks’ total damage output.</li>\n<li>Enhancement Shamans are finding that Intellect and Spellpower are superior stats compared to Strength and Attack Power. We plan to make changes so that Strength is always their strongest stat, and Enhancement Shamans will not prefer gear intended for Mages and Warlocks. Ideally, Enhancement’s best items have Strength or Attack Power, along with some Intellect and/or Spell Power.</li>\n</ul>\n<p><strong>Please note: Enhancement Shaman players who are leveling up will want to collect Strength and Attack Power gear from now on.</strong></p>\n<p>We may find new issues over the weekend, and we will keep you updated. Our plan is to make class balance changes on Tuesday, and then on future Tuesdays if necessary. Thank you very much for your feedback!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Now that players around the world are leveling up in WoW: Forever, we’ve identified a few class issues that we feel need some immediate changes. Today, we’re still investigating these issues and working through them with a plan to release hotfixes on Tuesday, November 10 to address:</p>\n<ul>\n<li>We’ve seen that Hunter pets and Warlock Voidwalkers are not as durable as tanks as we would like them to be. Our intent is for their effectiveness to be relatively the same as in Classic Era. We will adjust their stats as necessary to accomplish this.</li>\n<li>Aflicción Warlock reports indicate that always channeling Wrack is superior to also casting damage-over-time abilities like Siphon Life, Corruption, and Bane of Agony. We will make adjustments to make sure those are always worthwhile to cast combined with Wrack, without affecting Aflicción Warlocks’ total damage output.</li>\n<li>Mejora Shamans are finding that Intellect and Spellpower are superior stats compared to Strength and Attack Power. We plan to make changes so that Strength is always their strongest stat, and Mejora Shamans will not prefer gear intended for Mages and Warlocks. Ideally, Mejora’s best items have Strength or Attack Power, along with some Intellect and/or Spell Power.</li>\n</ul>\n<p><strong>Please note: Mejora Shaman players who are leveling up will want to collect Strength and Attack Power gear from now on.</strong></p>\n<p>We may find new issues over the weekend, and we will keep you updated. Our plan is to make class balance changes on Tuesday, and then on future Tuesdays if necessary. Thank you very much for your feedback!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/class-tuning-incoming-november-10/2404092/1"
     }
   ],
   "blizzardNews": [
