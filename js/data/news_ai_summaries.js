@@ -5441,5 +5441,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Dungeon XP adjustment for high-level players now activates only if they are 12 levels above."
     }
+  },
+  "wh-383879": {
+    "es": {
+      "tldr": [
+        "Nuevas recompensas en Blackrock Depths.",
+        "Incluye el juguete Traveler's Symbols.",
+        "Premo's Poise-Demanding Uniform también disponible."
+      ],
+      "seo_description": "Descubre nuevas recompensas en WoW: Forever, incluyendo el juguete Traveler's Symbols y más."
+    },
+    "en": {
+      "tldr": [
+        "New rewards in Blackrock Depths.",
+        "Includes the Traveler's Symbols toy.",
+        "Premo's Poise-Demanding Uniform also available."
+      ],
+      "seo_description": "Discover new rewards in WoW: Forever, including the Traveler's Symbols toy and more."
+    }
   }
 };
