@@ -5387,5 +5387,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Explore the new Krol'dok Stronghold dungeon in WoW: Forever, featuring challenging quests and bosses."
     }
+  },
+  "blizz-30912982": {
+    "es": {
+      "tldr": [
+        "Ajuste en la experiencia de mazmorras para jugadores de alto nivel.",
+        "La nulificación de XP se activa solo si el jugador está más de 12 niveles por encima.",
+        "Los cambios no afectan a instancias ya en curso."
+      ],
+      "seo_description": "Ajuste en la experiencia de mazmorras para jugadores de alto nivel, aplicando nuevas restricciones."
+    },
+    "en": {
+      "tldr": [
+        "Adjustment in dungeon XP for high-level players.",
+        "XP nullification activates only if the player is more than 12 levels above.",
+        "Changes do not affect instances already in progress."
+      ],
+      "seo_description": "Adjustment in dungeon XP for high-level players, applying new restrictions."
+    }
   }
 };
