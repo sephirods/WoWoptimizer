@@ -5405,5 +5405,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Adjustment in dungeon XP for high-level players, applying new restrictions."
     }
+  },
+  "wh-383883": {
+    "es": {
+      "tldr": [
+        "Las criaturas de mazmorras no dan experiencia si el jugador más alto está 13 niveles por encima.",
+        "Cambio en respuesta a críticas de jugadores sobre la experiencia en mazmorras.",
+        "Blizzard admite que la restricción anterior no funcionó como se esperaba."
+      ],
+      "seo_description": "Las criaturas de mazmorras ya no dan experiencia si el jugador más alto está 13 niveles por encima."
+    },
+    "en": {
+      "tldr": [
+        "Dungeon mobs grant no experience if the highest player is 13 levels above.",
+        "Change made in response to player criticism about dungeon experience.",
+        "Blizzard admits the previous restriction missed the mark."
+      ],
+      "seo_description": "Dungeon mobs no longer grant experience if the highest player is 13 levels above."
+    }
   }
 };
