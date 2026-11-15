@@ -5369,5 +5369,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "The new Krol'dok set in WoW: Forever transforms players into ogres."
     }
+  },
+  "wh-383871": {
+    "es": {
+      "tldr": [
+        "Nueva mazmorras Krol'dok Stronghold para niveles 40-45.",
+        "Ofrece 4-5 misiones por facción con más de 10,000 XP.",
+        "Incluye 6 jefes y un set de equipo de tanque de placa."
+      ],
+      "seo_description": "Descubre la nueva mazmorras Krol'dok Stronghold en WoW: Forever, con misiones y jefes desafiantes."
+    },
+    "en": {
+      "tldr": [
+        "New dungeon Krol'dok Stronghold for levels 40-45.",
+        "Features 4-5 quests per faction granting over 10,000 XP.",
+        "Includes 6 bosses and a strong plate tank gearset."
+      ],
+      "seo_description": "Explore the new Krol'dok Stronghold dungeon in WoW: Forever, featuring challenging quests and bosses."
+    }
   }
 };
