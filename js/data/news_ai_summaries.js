@@ -5423,5 +5423,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Dungeon mobs no longer grant experience if the highest player is 13 levels above."
     }
+  },
+  "blizz-6505388": {
+    "es": {
+      "tldr": [
+        "Ajuste en la experiencia de mazmorras para jugadores de alto nivel.",
+        "La nulificación de XP se activa solo si el jugador está más de 12 niveles por encima.",
+        "No se aplica a instancias ya en curso."
+      ],
+      "seo_description": "Ajuste en la experiencia de mazmorras para jugadores de alto nivel, ahora solo si están 12 niveles por encima."
+    },
+    "en": {
+      "tldr": [
+        "Adjustment in dungeon XP for high-level players.",
+        "XP nullification activates only if the player is more than 12 levels above.",
+        "Does not apply to instances already in progress."
+      ],
+      "seo_description": "Dungeon XP adjustment for high-level players now activates only if they are 12 levels above."
+    }
   }
 };
