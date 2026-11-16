@@ -5477,5 +5477,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Learn how to gain bag space and save gold in WoW: Forever with quest rewards."
     }
+  },
+  "wh-383895": {
+    "es": {
+      "tldr": [
+        "El precio de la ficha de WoW alcanza 640k de oro en servidores de la UE.",
+        "Aumento de precios debido a la baja en contenido de Retail y el lanzamiento de Forever.",
+        "El precio ha subido 100k de oro en comparación con el día anterior."
+      ],
+      "seo_description": "El precio de la ficha de WoW alcanza un pico de 640k de oro en servidores de la UE."
+    },
+    "en": {
+      "tldr": [
+        "WoW Token price hits 640k gold on EU servers.",
+        "Price surge linked to Retail content lull and Forever launch.",
+        "Price increased by 100k gold compared to the previous day."
+      ],
+      "seo_description": "WoW Token price hits a peak of 640k gold on EU servers."
+    }
+  },
+  "wh-383806": {
+    "es": {
+      "tldr": [
+        "¿Deberían las mazmorras de WoW: Forever permitir completar misiones en una sola partida?",
+        "Los jugadores deben reiniciar la mazmorras para completar ciertas misiones.",
+        "Desarrolladores afirman que buscan que los jugadores repitan las mazmorras."
+      ],
+      "seo_description": "Debate sobre si las mazmorras de WoW: Forever deberían permitir completar misiones en una sola partida."
+    },
+    "en": {
+      "tldr": [
+        "Should WoW: Forever dungeons allow quest completion in one run?",
+        "Players must reset dungeons to complete certain quests.",
+        "Developers aim for players to run dungeons multiple times."
+      ],
+      "seo_description": "Debate on whether WoW: Forever dungeons should allow quest completion in one run."
+    }
   }
 };
