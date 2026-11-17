@@ -5639,5 +5639,59 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Blizzard presents a video for new players of WoW: Forever, covering essential features and content."
     }
+  },
+  "wh-383901": {
+    "es": {
+      "tldr": [
+        "Última oportunidad para reservar D&D: World of Warcraft.",
+        "Incluye recompensas en el juego como monturas y mascotas.",
+        "Lanzamiento el 17 de noviembre con nuevas clases y hechizos."
+      ],
+      "seo_description": "Reserva D&D: World of Warcraft y obtén recompensas en el juego antes del 17 de noviembre."
+    },
+    "en": {
+      "tldr": [
+        "Last chance to pre-order D&D: World of Warcraft.",
+        "Includes in-game rewards like mounts and pets.",
+        "Releasing on November 17 with new classes and spells."
+      ],
+      "seo_description": "Pre-order D&D: World of Warcraft for in-game rewards before November 17."
+    }
+  },
+  "blizz-30941234": {
+    "es": {
+      "tldr": [
+        "Correcciones en vivo para WoW el 16 de noviembre de 2026.",
+        "Ajustes en clases como Druida y Sacerdote.",
+        "Mejoras en la mecánica de pesca y objetos."
+      ],
+      "seo_description": "Descubre las correcciones en vivo de WoW del 16 de noviembre de 2026."
+    },
+    "en": {
+      "tldr": [
+        "Live hotfixes for WoW on November 16, 2026.",
+        "Adjustments for classes like Druid and Priest.",
+        "Improvements in fishing mechanics and items."
+      ],
+      "seo_description": "Check out the live hotfixes for WoW on November 16, 2026."
+    }
+  },
+  "blizz-6511114": {
+    "es": {
+      "tldr": [
+        "Correcciones en vivo para WoW el 16 de noviembre de 2026.",
+        "Ajustes en clases como Druida y Sacerdote.",
+        "Mejoras en la mecánica de pesca y objetos."
+      ],
+      "seo_description": "Descubre las correcciones en vivo de WoW del 16 de noviembre de 2026."
+    },
+    "en": {
+      "tldr": [
+        "Live hotfixes for WoW on November 16, 2026.",
+        "Adjustments for classes like Druid and Priest.",
+        "Improvements in fishing mechanics and items."
+      ],
+      "seo_description": "Check out the live hotfixes for WoW on November 16, 2026."
+    }
   }
 };
