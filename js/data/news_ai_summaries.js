@@ -5549,5 +5549,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Pre-purchase D&D: World of Warcraft for WoW rewards. Offer ends November 17."
     }
+  },
+  "blizz-24316983": {
+    "es": {
+      "tldr": [
+        "Nueva expansión de D&D ambientada en Azeroth se lanza el 17 de noviembre.",
+        "Incluye 13 clases, 16 especies jugables y más de 60 nuevos hechizos.",
+        "Ediciones especiales disponibles en tiendas locales con recompensas en el juego."
+      ],
+      "seo_description": "Descubre la nueva expansión de D&D en Azeroth, disponible el 17 de noviembre con clases y recompensas únicas."
+    },
+    "en": {
+      "tldr": [
+        "New D&D expansion set in Azeroth launches on November 17.",
+        "Includes 13 classes, 16 playable species, and over 60 new spells.",
+        "Special editions available at local stores with in-game rewards."
+      ],
+      "seo_description": "Explore the new D&D expansion in Azeroth, launching November 17 with unique classes and rewards."
+    }
   }
 };
