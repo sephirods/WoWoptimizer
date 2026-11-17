@@ -5981,5 +5981,77 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Talebound arrives December 1, immerse in dark tales."
     }
+  },
+  "wh-383910": {
+    "es": {
+      "tldr": [
+        "Blizzard elimina oro de la Granja de la Fortaleza de Hocico Negro.",
+        "Cuentas de usuarios que abusaron serán suspendidas.",
+        "Se ajusta la economía del juego para mantener el equilibrio."
+      ],
+      "seo_description": "Blizzard suspende cuentas y elimina oro de la Granja de la Fortaleza de Hocico Negro por abusos significativos."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard is removing gold from the Blackmaw Hold farm.",
+        "Accounts of significant abusers will be suspended.",
+        "Game economy adjustments are made to maintain balance."
+      ],
+      "seo_description": "Blizzard suspends accounts and removes gold from Blackmaw Hold farm due to significant abuses."
+    }
+  },
+  "wh-383909": {
+    "es": {
+      "tldr": [
+        "Se añade poder mágico a la armadura de paladín de la Forja de Almas.",
+        "Se eliminó la Fuerza y se aumentó el Intelecto.",
+        "Cambios en las estadísticas de varias piezas de armadura."
+      ],
+      "seo_description": "La armadura de paladín de la Forja de Almas recibe mejoras en poder mágico y estadísticas."
+    },
+    "en": {
+      "tldr": [
+        "Spell power added to Soulforge Paladin Armor.",
+        "Strength removed and Intellect increased.",
+        "Stat changes across various armor pieces."
+      ],
+      "seo_description": "Soulforge Paladin Armor receives spell power enhancements and stat adjustments."
+    }
+  },
+  "wh-383908": {
+    "es": {
+      "tldr": [
+        "El parche 12.1.7 se lanza el 1 de diciembre.",
+        "Incluye la nueva campaña de historia 'El regreso a Dornogal'.",
+        "Nuevas misiones de Lorewalking y expansión del Omnium Folio."
+      ],
+      "seo_description": "El parche 12.1.7 trae nuevas historias y misiones a WoW: Midnight el 1 de diciembre."
+    },
+    "en": {
+      "tldr": [
+        "Patch 12.1.7 releases on December 1.",
+        "Includes new story campaign 'The Return to Dornogal'.",
+        "New Lorewalking quests and expansion of the Omnium Folio."
+      ],
+      "seo_description": "Patch 12.1.7 brings new stories and quests to WoW: Midnight on December 1."
+    }
+  },
+  "wh-383907": {
+    "es": {
+      "tldr": [
+        "Talebound se lanza el 1 de diciembre.",
+        "Modo RPG Roguelite con tres nuevas clases.",
+        "Explora cuentos temáticos con amigos o solo."
+      ],
+      "seo_description": "Talebound, un nuevo modo RPG, se lanza el 1 de diciembre en WoW: Midnight."
+    },
+    "en": {
+      "tldr": [
+        "Talebound releases on December 1.",
+        "Standalone Roguelite RPG mode with three new classes.",
+        "Explore themed tales alone or with friends."
+      ],
+      "seo_description": "Talebound, a new RPG mode, launches on December 1 in WoW: Midnight."
+    }
   }
 };
