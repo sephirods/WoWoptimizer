@@ -5729,5 +5729,59 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Celebrate World of Warcraft's 22nd anniversary with activities and rewards."
     }
+  },
+  "wh-383906": {
+    "es": {
+      "tldr": [
+        "Los jugadores están molestos por la granja de oro en la Fortaleza de Hocanegra.",
+        "La inyección de oro afecta la economía del juego.",
+        "Se pide a Blizzard que tome medidas ante la situación."
+      ],
+      "seo_description": "Jugadores de WoW: Forever molestos por la granja de oro en la Fortaleza de Hocanegra que afecta la economía del juego."
+    },
+    "en": {
+      "tldr": [
+        "Players are upset about the gold farm in Blackmaw Hold.",
+        "The gold injection affects the game's economy.",
+        "Players are asking Blizzard to take action."
+      ],
+      "seo_description": "WoW: Forever players upset about the Blackmaw Hold gold farm affecting the game's economy."
+    }
+  },
+  "wh-383905": {
+    "es": {
+      "tldr": [
+        "Los servidores de WoW: Forever están inactivos por mantenimiento.",
+        "El mantenimiento está programado para durar 1 hora.",
+        "Se espera que los servidores vuelvan a estar en línea pronto."
+      ],
+      "seo_description": "Los servidores de WoW: Forever en NA están inactivos por mantenimiento programado de 1 hora."
+    },
+    "en": {
+      "tldr": [
+        "WoW: Forever servers are down for maintenance.",
+        "The maintenance is scheduled to last 1 hour.",
+        "Servers are expected to be back online soon."
+      ],
+      "seo_description": "NA WoW: Forever servers are down for scheduled maintenance for 1 hour."
+    }
+  },
+  "wh-383903": {
+    "es": {
+      "tldr": [
+        "Comienza la celebración del 22.º aniversario de WoW.",
+        "Incluye un aumento del 20% en experiencia y reputación.",
+        "El evento se lleva a cabo del 17 de noviembre al 8 de diciembre."
+      ],
+      "seo_description": "Celebra el 22.º aniversario de WoW con un 20% de aumento en experiencia y reputación."
+    },
+    "en": {
+      "tldr": [
+        "The 22nd Anniversary Celebration of WoW is live.",
+        "Includes a 20% experience and reputation boost.",
+        "Event runs from November 17 to December 8."
+      ],
+      "seo_description": "Join the 22nd Anniversary Celebration of WoW with a 20% experience and reputation boost."
+    }
   }
 };
