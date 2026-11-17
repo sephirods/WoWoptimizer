@@ -5693,5 +5693,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Check out the live hotfixes for WoW on November 16, 2026."
     }
+  },
+  "blizz-1237389": {
+    "es": {
+      "tldr": [
+        "Celebra el 22.º aniversario de WoW",
+        "Participa en diversas actividades",
+        "Obtén divisas para comprar objetos"
+      ],
+      "seo_description": "Celebra el 22.º aniversario de World of Warcraft con actividades y recompensas."
+    },
+    "en": {
+      "tldr": [
+        "Celebrate WoW's 22nd anniversary",
+        "Join various activities",
+        "Earn currency to buy items"
+      ],
+      "seo_description": "Celebrate World of Warcraft's 22nd anniversary with activities and rewards."
+    }
+  },
+  "blizz-6511666": {
+    "es": {
+      "tldr": [
+        "Celebra el 22.º aniversario de WoW",
+        "Participa en diversas actividades",
+        "Obtén divisas para comprar objetos"
+      ],
+      "seo_description": "Celebra el 22.º aniversario de World of Warcraft con actividades y recompensas."
+    },
+    "en": {
+      "tldr": [
+        "Celebrate WoW's 22nd anniversary",
+        "Join various activities",
+        "Earn currency to buy items"
+      ],
+      "seo_description": "Celebrate World of Warcraft's 22nd anniversary with activities and rewards."
+    }
   }
 };
