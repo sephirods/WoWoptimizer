@@ -2,6 +2,146 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30953089",
+      "postId": 30953089,
+      "topicId": 2419757,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-17T18:38:11.984Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Actions For Blackmaw Hold Abuse - November 17",
+        "es": "Actions For Blackmaw Hold Abuse - November 17"
+      },
+      "summary": {
+        "en": "As players continue their journey into WoW Forever’s higher-level content, we are closely monitoring the game economy to ensure that gold sources and costs are well balanced. Findi...",
+        "es": "As players continue their journey into WoW Forever’s higher-level content, we are closely monitoring the game economy to ensure that gold sources and costs are well balanced. Findi..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>As players continue their journey into WoW Forever’s higher-level content, we are closely monitoring the game economy to ensure that gold sources and costs are well balanced. Finding efficient farming spots has always been part of the game, and is how most players have earned their epic mounts since 2004. When a single location proves so lucrative that it overshadows all other sources, we generally adjust it to bring it in line with the rest.</p>\n<p>Over the past weekend, some players discovered a large group of non-elite enemies in the Blackmaw Hold dungeon that were incorrectly dropping the full amount of dungeon loot that would be expected from an elite. Early yesterday, we addressed this with a hotfix, and since then, we have been investigating the overall economic impact.</p>\n<p>Players who simply ran Blackmaw Hold a few times and benefited organically from the extra loot did nothing wrong, and no one should worry that they’re putting their account at risk if they accidentally benefit from a bug. But there were a couple hundred players worldwide who recognized that this was unintended and spent significant time exclusively farming that group of enemies.</p>\n<p>Yesterday, we put an economy lock on their accounts to prevent broader impact to the game economy while we investigated the extent of the exploitative gains, including gold earned by vendoring bugged drops. Today, we are in the process of removing all such gold earned, as well as applying account suspensions to significant abusers.</p>\n<p>As always, we advise all players to refrain from abusing game mechanics that are clearly unintended. We will continue to take action against intentional abuse.</p>\n<p>Thank you very much for your feedback!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>As players continue their journey into WoW Forever’s higher-level content, we are closely monitoring the game economy to ensure that gold sources and costs are well balanced. Finding efficient farming spots has always been part of the game, and is how most players have earned their epic mounts since 2004. When a single location proves so lucrative that it overshadows all other sources, we generally adjust it to bring it in line with the rest.</p>\n<p>Over the past weekend, some players discovered a large group of non-elite enemies in the Blackmaw Hold dungeon that were incorrectly dropping the full amount of dungeon loot that would be expected from an elite. Early yesterday, we addressed this with a hotfix, and since then, we have been investigating the overall economic impact.</p>\n<p>Players who simply ran Blackmaw Hold a few times and benefited organically from the extra loot did nothing wrong, and no one should worry that they’re putting their account at risk if they accidentally benefit from a bug. But there were a couple hundred players worldwide who recognized that this was unintended and spent significant time exclusively farming that group of enemies.</p>\n<p>Yesterday, we put an economy lock on their accounts to prevent broader impact to the game economy while we investigated the extent of the exploitative gains, including gold earned by vendoring bugged drops. Today, we are in the process of removing all such gold earned, as well as applying account suspensions to significant abusers.</p>\n<p>As always, we advise all players to refrain from abusing game mechanics that are clearly unintended. We will continue to take action against intentional abuse.</p>\n<p>Thank you very much for your feedback!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/actions-for-blackmaw-hold-abuse-november-17/2419757/1"
+    },
+    {
+      "id": "blizz-30952324",
+      "postId": 30952324,
+      "topicId": 2419660,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-17T18:00:07.603Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Join the World of Warcraft 22nd Anniversary Celebration",
+        "es": "Join the World of Warcraft 22nd Anniversary Celebración"
+      },
+      "summary": {
+        "en": "[Join the World of Warcraft 22nd Anniversary Celebration] Join the celebration as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to ea...",
+        "es": "[Join the World of Warcraft 22nd Anniversary Celebración] Join the Celebración as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to ea..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\" alt=\"Join the World of Warcraft 22nd Anniversary Celebration\" width=\"833\" height=\"468\"></a></p><p>Join the celebration as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to earn currency to buy a wide range of items. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316098\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\" alt=\"Join the World of Warcraft 22nd Anniversary Celebration\" width=\"833\" height=\"468\"></a></p><p>Join the celebration as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to earn currency to buy a wide range of items. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316098\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/join-the-world-of-warcraft-22nd-anniversary-celebration/2419660/1"
+    },
+    {
+      "id": "blizz-30952323",
+      "postId": 30952323,
+      "topicId": 2419659,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-17T18:00:07.383Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Join the World of Warcraft 22nd Anniversary Celebration",
+        "es": "Join the World of Warcraft 22nd Anniversary Celebración"
+      },
+      "summary": {
+        "en": "[Join the World of Warcraft 22nd Anniversary Celebration] Join the celebration as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to ea...",
+        "es": "[Join the World of Warcraft 22nd Anniversary Celebración] Join the Celebración as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to ea..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\" alt=\"Join the World of Warcraft 22nd Anniversary Celebration\" width=\"833\" height=\"468\"></a></p><p>Join the celebration as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to earn currency to buy a wide range of items. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316098\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\" alt=\"Join the World of Warcraft 22nd Anniversary Celebration\" width=\"833\" height=\"468\"></a></p><p>Join the celebration as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to earn currency to buy a wide range of items. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316098\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/join-the-world-of-warcraft-22nd-anniversary-celebration/2419659/1"
+    },
+    {
+      "id": "blizz-30952321",
+      "postId": 30952321,
+      "topicId": 2419657,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-17T18:00:04.088Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Midnight: Echoes of the Worldcore Arrives on December 1",
+        "es": "Midnight: Echoes of the Worldcore Arrives on December 1"
+      },
+      "summary": {
+        "en": "[Midnight: Echoes of the Worldcore Arrives on December 1] Azeroth’s history is waiting beneath the Coreway. Return to Dornogal, face the Storyteller’s macabre tales in Talebound, a...",
+        "es": "[Midnight: Echoes of the Worldcore Arrives on December 1] Azeroth’s history is waiting beneath the Coreway. Return to Dornogal, face the Storyteller’s macabre tales in Talebound, a..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png\" alt=\"Midnight: Echoes of the Worldcore Arrives on December 1\" width=\"833\" height=\"468\"></a></p><p>Azeroth’s history is waiting beneath the Coreway. Return to Dornogal, face the Storyteller’s macabre tales in Talebound, and join Li Li Stormstout for a Lorewalk through the stories that shaped Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24317679\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png\" alt=\"Midnight: Echoes of the Worldcore Arrives on December 1\" width=\"833\" height=\"468\"></a></p><p>Azeroth’s history is waiting beneath the Coreway. Return to Dornogal, face the Storyteller’s macabre tales in Talebound, and join Li Li Stormstout for a Lorewalk through the stories that shaped Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24317679\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/midnight-echoes-of-the-worldcore-arrives-on-december-1/2419657/1"
+    },
+    {
+      "id": "blizz-30952294",
+      "postId": 30952294,
+      "topicId": 2419653,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-17T17:59:09.178Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Talebound’s Twisted Tales and Deadly Fates Arrive December 1",
+        "es": "Talebound’s Twisted Tales and Deadly Fates Arrive December 1"
+      },
+      "summary": {
+        "en": "[Talebound’s Twisted Tales and Deadly Fates Arrive December 1] Step into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, c...",
+        "es": "[Talebound’s Twisted Tales and Deadly Fates Arrive December 1] Step into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, c..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\" alt=\"Talebound’s Twisted Tales and Deadly Fates Arrive December 1\" width=\"833\" height=\"468\"></a></p><p>Step into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, chillingly brought to life. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316569\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\" alt=\"Talebound’s Twisted Tales and Deadly Fates Arrive December 1\" width=\"833\" height=\"468\"></a></p><p>Step into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, chillingly brought to life. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316569\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/talebound%E2%80%99s-twisted-tales-and-deadly-fates-arrive-december-1/2419653/1"
+    },
+    {
       "id": "blizz-30941234",
       "postId": 30941234,
       "topicId": 2403040,
@@ -86,144 +226,88 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/last-call-to-pre-purchase-craft-new-adventures-with-dd-world-of-warcraft/2418407/1"
     },
     {
-      "id": "blizz-30912982",
-      "postId": 30912982,
-      "topicId": 2416343,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-15T01:18:23.191Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Player-Level Dungeon XP Adjustment - November 14",
-        "es": "Player-Level Mazmorra XP Adjustment - November 14"
-      },
-      "summary": {
-        "en": "Yesterday, we updated dungeon play so that experience granted by an enemy in an instance is nullified if a high level player is in the group and enemy is trivial to that player. Fo...",
-        "es": "Yesterday, we updated Mazmorra play so that experience granted by an enemy in an instance is nullified if a high level player is in the group and enemy is trivial to that player. F..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Yesterday, we updated dungeon play so that experience granted by an enemy in an instance is nullified if a high level player is in the group and enemy is trivial to that player. For some dungeons, the new restriction missed the mark because of the overall level range of the enemies in the dungeon.</p>\n<p>With hotfixes that are now live, we’ve just deployed a further change to this restriction, making it so that the XP nullification only kicks in when the high-level player is more than 12 levels above the level of the enemies.</p>\n<p>Please note that this adjustment will not apply in instances that were already underway when it was deployed (a few minutes ago).</p>\n<p>Thank you very much!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Yesterday, we updated dungeon play so that experience granted by an enemy in an instance is nullified if a high level player is in the group and enemy is trivial to that player. For some dungeons, the new restriction missed the mark because of the overall level range of the enemies in the dungeon.</p>\n<p>With hotfixes that are now live, we’ve just deployed a further change to this restriction, making it so that the XP nullification only kicks in when the high-level player is more than 12 levels above the level of the enemies.</p>\n<p>Please note that this adjustment will not apply in instances that were already underway when it was deployed (a few minutes ago).</p>\n<p>Thank you very much!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/player-level-dungeon-xp-adjustment-november-14/2416343/1"
-    },
-    {
-      "id": "blizz-30899768",
-      "postId": 30899768,
-      "topicId": 2403040,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-14T01:54:07.244Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW: Forever Hotfixes - November 16, 2026",
-        "es": "WoW: Forever Correcciones en Vivo - November 16, 2026"
-      },
-      "summary": {
-        "en": "November 13, 2026 \nClasses \n\nFixed a bug causing players to have no diminishing returns against creature stuns.\nFixed a bug causing players to have no diminishing returns when usin...",
-        "es": "November 13, 2026 \nClasses \n\nFixed a bug causing players to have no diminishing returns against creature stuns.\nFixed a bug causing players to have no diminishing returns when usin..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 13, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li>Fixed a bug causing players to have no diminishing returns against creature stuns.</li>\n<li>Fixed a bug causing players to have no diminishing returns when using stuns against creatures.</li>\n<li><strong>Druid</strong>\n<ul>\n<li><strong>Restoration</strong>\n<ul>\n<li>Fixed a bug incorrectly allowing Wild Growth to be cast while moving.</li>\n<li>Wild Growth spell healing coefficient increased to 6.6% (was 3.3%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Mage</strong>\n<ul>\n<li>Frost Nova is now correctly broken by damage from procs and damage from Blizzard.</li>\n</ul>\n</li>\n<li><strong>Paladin</strong>\n<ul>\n<li>Judgement of Command now activates on-hit effects and counts as a melee attack.</li>\n<li><em>Developers’ notes: All other judgements will continue to be considered Ranged attacks. This matches Command’s uniqueness across the Judgements, where it was the only one considered a Melee attack. All other seals were considered Spells, but in WoW: Forever they are being considered Ranged attacks.</em></li>\n</ul>\n</li>\n<li><strong>Priest</strong>\n<ul>\n<li>The Legacy Perk <em>The Quick and the Dead</em> will now correctly reduce the Mana cost of Divine Spirit.</li>\n</ul>\n</li>\n<li><strong>Shaman</strong>\n<ul>\n<li>Windfury Totem is now correctly activated by all melee abilities even if it doesn’t involve your main hand weapon.\n<ul>\n<li><em>Developers’ notes: Strikes from abilities that involve your offhand weapon like Whirlwind or Mutilate do not have a chance to activate Windfury. The main-hand strike from those abilities still does.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Warlock</strong>\n<ul>\n<li>Siphon Life Rank 1 can no longer be cast while silenced.</li>\n</ul>\n</li>\n<li><strong>Warrior</strong>\n<ul>\n<li>Fixed an issue where Berserker Rage was not removing Sap.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li>Killing enemies in dungeons now awards zero experience to all party members if the level of the enemy is trivial to the level of one or more of the party members.</li>\n<li><strong>The Deadmines</strong>\n<ul>\n<li>Sneed should now properly eject if the Sneed’s Shredder is stunned when reaching 0% health.</li>\n</ul>\n</li>\n<li><strong>The Drowned City</strong>\n<ul>\n<li>Non-boss enemies now respawn 2 hours after being killed (was 1 hour).</li>\n</ul>\n</li>\n<li><strong>Stratholme</strong>\n<ul>\n<li>Defeating Balnazzar should now correctly count toward the Legacy Challenge <em>Master Spelunker</em>.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Gnomeregan - Techbot’s respawn time reduced for the quest “Save Techbot’s Brain!”</li>\n<li>Badlands - Lesser Rock Elemental spawns should now appear more frequently.</li>\n<li>Eastern Plaguelands - Fixed an issue that caused enemies to sometimes aggro unexpectedly in Stratholme and Eastern Plaguelands, particularly when resurrecting.</li>\n<li>Mulgore - Quillboar spawning rates have been reduced in the starting area and should now be less aggressive.</li>\n<li>Mulgore - Venture Co. spawn rates have been reduced in the starting area and should now be less aggressive.</li>\n<li>Blasted Lands - Nethergarde Keep guards no longer drop loot and should have behavior consistent with other guards.</li>\n<li>Stranglethorn Vale - Tiger, panther, and raptor spawns should now appear more frequently.</li>\n<li>Zephras Isle - Nyalah Brightfire in Valanaar should now provide a more extensive array of cooking supplies for aspiring culinary artists.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Gloves of Holy Might now have the correct text description. Gloves of Holy Might is now only activated by spells and abilities that are harmful and deal damage.</li>\n<li>The Glimmering Mithril Insignia trinket no longer requires the ability to wear Mail armor.</li>\n<li>Fixed an issue where Cloak of the Fleshborer had no texture.</li>\n<li>Taran Icebreaker now correctly behaves as a 2-handed Mace (was incorrectly behaving as a 1-handed Mace).</li>\n<li>Darkspear signet rings have had their Mp5 corrected and now match Alliance-equivalent rings.</li>\n<li>Everstaring Abomination Eye’s Spirit stats corrected.</li>\n<li>The Bad Hat no longer provides an incorrect amount of spell power.</li>\n<li>The Souvenir Sea Shell’s stats have been corrected.</li>\n<li>Blessed Band of Light’s Hit stat has been removed.</li>\n<li>Channeler’s Ring now has Spell Power (was Spirit).\n<ul>\n<li><em>Developers’ notes: Players may exchange their Blessed Band of Light for a Channeler’s Ring if they wish to. Until raids open, this exchange will be the first item on Pix Xizzix’s vendor list if you have a Blessed Band of Light. This exchange cannot be reversed.</em></li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Fixed an issue during the quest “The Talisman of Kazdor” where rogues would enter the wrong version of Zul’Farrak.</li>\n<li>Deadwood Key, Drop of Stolen Life, Ring of the Fallen Soldier, Venom-dripping heart, and Blackthorne Intelligence should now drop for all players in the party who have the associated quest(s).</li>\n<li>On “A Quick Grocery Run”, Skonk’s list can be read by everyone.</li>\n<li>Pix Xizzix’s weekly dungeon quests are now properly removed from the quest log on weekly reset.</li>\n<li>When you’re “Coyote Huntin’”, Sootfur’s pelt should now be shared for all members of your party.</li>\n<li>The Crow Effigy should now be visible if you meet the quest requirements to interact with it on Mount Hyjal.</li>\n<li>Unstable Package should no longer have a chance to proc while on a taxi during “Crate Expectations” and the misfire damage has been reduced.</li>\n<li>Fixed a bug that caused a player picking up the quest “Return to the Port” to delete nearby players’ quest items for “The Cook in the Cage”.</li>\n<li>Doomguard Xarkul kill credit should now be granted to healers who assist Yashiro on “Yashiro’s Windwalk”.</li>\n<li>Riverglades - Resolved an issue with Jezap Jinglesprocket refusing to offer quests to players attempting the Bloodmaster’s Ring.</li>\n<li>Feralas - Fixed several issues during the quest “Gordunni Cobalt.”</li>\n<li>Riverglades - “Gaseous Gold” now denotes the correct amount required for the quest.</li>\n<li>Riverglades woodpiles are no longer lootable when not on the associated quests.</li>\n<li>Undercity and Stormwind - Fixed an issue where Owen Thadd and Garion Wendell would refuse to accept any books. Our outstanding library fees have been paid and we’re all back in good standing!</li>\n</ul>\n<p><strong>Stranglethorn Fishing Extravaganza</strong></p>\n<ul>\n<li>Improved the weekly fishing tournament by greatly increasing the number of players per ruleset who can win.\n<ul>\n<li><em>Developers’ notes: We continue to work on performance issues with the tournament, and we will deploy additional fixes in the weeks to come.</em></li>\n</ul>\n</li>\n</ul>\n<p><strong>User Interface</strong></p>\n<ul>\n<li>Fixed a bug that caused Action Bar settings to reset every time players who acquired Secondary Talents logged out of the game.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 13, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li>Fixed a bug causing players to have no diminishing returns against creature stuns.</li>\n<li>Fixed a bug causing players to have no diminishing returns when using stuns against creatures.</li>\n<li><strong>DRUIDA</strong>\n<ul>\n<li><strong>Restauración</strong>\n<ul>\n<li>Fixed a bug incorrectly allowing Wild Growth to be cast while moving.</li>\n<li>Wild Growth spell healing coefficient increased to 6.6% (was 3.3%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MAGO</strong>\n<ul>\n<li>Escarcha Nova ahora es correctly broken by damage from procs and damage from Blizzard.</li>\n</ul>\n</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li>Judgement of Command now activates on-hit effects and counts as a melee attack.</li>\n<li><em>Developers’ notes: All other judgements will continue to be considered Ranged attacks. This matches Command’s uniqueness across the Judgements, where it was the only one considered a Melee attack. All other seals were considered Spells, but in WoW: Forever they are being considered Ranged attacks.</em></li>\n</ul>\n</li>\n<li><strong>SACERDOTE</strong>\n<ul>\n<li>The Legacy Perk <em>The Quick and the Dead</em> will now correctly reduce the Mana cost of Divine Spirit.</li>\n</ul>\n</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li>Windfury Totem ahora es correctly activated by all melee abilities even if it doesn’t involve your main hand weapon.\n<ul>\n<li><em>Developers’ notes: Strikes from abilities that involve your offhand weapon like Whirlwind or Mutilate do not have a chance to activate Windfury. The main-hand strike from those abilities still does.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>BRUJO</strong>\n<ul>\n<li>Siphon Life Rank 1 can no longer be cast while silenced.</li>\n</ul>\n</li>\n<li><strong>GUERRERO</strong>\n<ul>\n<li>Fixed an issue where Berserker Rage was not removing Sap.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li>Killing enemies in dungeons now awards zero experience to all party members if the level of the enemy is trivial to the level of one or more of the party members.</li>\n<li><strong>The Deadmines</strong>\n<ul>\n<li>Sneed should now properly eject if the Sneed’s Shredder is stunned when reaching 0% health.</li>\n</ul>\n</li>\n<li><strong>The Drowned City</strong>\n<ul>\n<li>Non-boss enemies now respawn 2 hours after being killed (was 1 hour).</li>\n</ul>\n</li>\n<li><strong>Stratholme</strong>\n<ul>\n<li>Defeating Balnazzar should now correctly count toward the Legacy Challenge <em>Master Spelunker</em>.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Gnomeregan - Techbot’s respawn time reduced for the quest “Save Techbot’s Brain!”</li>\n<li>Badlands - Lesser Rock Elemental spawns should now appear more frequently.</li>\n<li>Eastern Plaguelands - Fixed an issue that caused enemies to sometimes aggro unexpectedly in Stratholme and Eastern Plaguelands, particularly when resurrecting.</li>\n<li>Mulgore - Quillboar spawning rates have been reduced in the starting area and should now be less aggressive.</li>\n<li>Mulgore - Venture Co. spawn rates have been reduced in the starting area and should now be less aggressive.</li>\n<li>Blasted Lands - Nethergarde Keep guards no longer drop loot and should have behavior consistent with other guards.</li>\n<li>Stranglethorn Vale - Tiger, panther, and raptor spawns should now appear more frequently.</li>\n<li>Zephras Isle - Nyalah Brightfire in Valanaar should now provide a more extensive array of cooking supplies for aspiring culinary artists.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Gloves of Sagrado Might now have the correct text description. Gloves of Sagrado Might ahora es only activated by spells and abilities that are harmful and deal damage.</li>\n<li>The Glimmering Mithril Insignia trinket no longer requires the ability to wear Mail armor.</li>\n<li>Fixed an issue where Cloak of the Fleshborer had no texture.</li>\n<li>Taran Icebreaker now correctly behaves as a 2-handed Mace (was incorrectly behaving as a 1-handed Mace).</li>\n<li>Darkspear signet rings have had their Mp5 corrected and now match Alliance-equivalent rings.</li>\n<li>Everstaring Abomination Eye’s Spirit stats corrected.</li>\n<li>The Bad Hat no longer provides an incorrect amount of spell power.</li>\n<li>The Souvenir Sea Shell’s stats have been corrected.</li>\n<li>Blessed Band of Light’s Hit stat has been removed.</li>\n<li>Channeler’s Ring now has Spell Power (was Spirit).\n<ul>\n<li><em>Developers’ notes: Players may exchange their Blessed Band of Light for a Channeler’s Ring if they wish to. Until raids open, this exchange will be the first item on Pix Xizzix’s vendor list if you have a Blessed Band of Light. This exchange cannot be reversed.</em></li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Fixed an issue during the quest “The Talisman of Kazdor” where rogues would enter the wrong version of Zul’Farrak.</li>\n<li>Deadwood Key, Drop of Stolen Life, Ring of the Fallen Soldier, Venom-dripping heart, and Blackthorne Intelligence should now drop for all players in the party who have the associated quest(s).</li>\n<li>On “A Quick Grocery Run”, Skonk’s list can be read by everyone.</li>\n<li>Pix Xizzix’s weekly dungeon quests are now properly removed from the quest log on weekly reset.</li>\n<li>When you’re “Coyote Huntin’”, Sootfur’s pelt should now be shared for all members of your party.</li>\n<li>The Crow Effigy should now be visible if you meet the quest requirements to interact with it on Mount Hyjal.</li>\n<li>Unstable Package should no longer have a chance to proc while on a taxi during “Crate Expectations” and the misfire damage has been reduced.</li>\n<li>Fixed a bug that caused a player picking up the quest “Return to the Port” to delete nearby players’ quest items for “The Cook in the Cage”.</li>\n<li>Doomguard Xarkul kill credit should now be granted to healers who assist Yashiro on “Yashiro’s Windwalk”.</li>\n<li>Riverglades - Resolved an issue with Jezap Jinglesprocket refusing to offer quests to players attempting the Bloodmaster’s Ring.</li>\n<li>Feralas - Fixed several issues during the quest “Gordunni Cobalt.”</li>\n<li>Riverglades - “Gaseous Gold” now denotes the correct amount required for the quest.</li>\n<li>Riverglades woodpiles are no longer lootable when not on the associated quests.</li>\n<li>Undercity and Stormwind - Fixed an issue where Owen Thadd and Garion Wendell would refuse to accept any books. Our outstanding library fees have been paid and we’re all back in good standing!</li>\n</ul>\n<p><strong>Stranglethorn Fishing Extravaganza</strong></p>\n<ul>\n<li>Improved the weekly fishing tournament by greatly increasing the number of players per ruleset who can win.\n<ul>\n<li><em>Developers’ notes: We continue to work on performance issues with the tournament, and we will deploy additional fixes in the weeks to come.</em></li>\n</ul>\n</li>\n</ul>\n<p><strong>User Interface</strong></p>\n<ul>\n<li>Fixed a bug that caused Action Bar settings to reset every time players who acquired Secondary Talents logged out of the game.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10"
-    },
-    {
-      "id": "blizz-30899567",
-      "postId": 30899567,
-      "topicId": 2415068,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-14T01:36:48.839Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Lost Training Purchase Refunds - November 13",
-        "es": "Lost Training Purchase Refunds - November 13"
-      },
-      "summary": {
-        "en": "With in-game mail that has now gone out to all affected players, we have refunded the cost of skill purchases that were made on Monday, November 9 between 1:17 p.m. PST and 2:17 p....",
-        "es": "With in-game mail that has now gone out to all affected players, we have refunded the cost of skill purchases that were made on Monday, November 9 between 1:17 p.m. PST and 2:17 p...."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>With in-game mail that has now gone out to all affected players, we have refunded the cost of skill purchases that were made on Monday, November 9 between 1:17 p.m. PST and 2:17 p.m. PST (8:17-9:17 a.m. on November 10 AEDT) when the WoW: Forever servers experienced issues that caused some players to lose training they purchased.</p>\n<p>If you were affected by this issue during that timeframe, check your in-game mail for gold equaling the cost of training that you purchased and lost.</p>\n<p>Thank you very much for your patience and understanding.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>With in-game mail that has now gone out to all affected players, we have refunded the cost of skill purchases that were made on Monday, November 9 between 1:17 p.m. PST and 2:17 p.m. PST (8:17-9:17 a.m. on November 10 AEDT) when the WoW: Forever servers experienced issues that caused some players to lose training they purchased.</p>\n<p>If you were affected by this issue during that timeframe, check your in-game mail for gold equaling the cost of training that you purchased and lost.</p>\n<p>Thank you very much for your patience and understanding.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/lost-training-purchase-refunds-november-13/2415068/1"
-    },
-    {
-      "id": "blizz-30896792",
-      "postId": 30896792,
-      "topicId": 2414817,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Limestone (WoW Developer)",
-      "dateRaw": "2026-11-13T21:36:41.078Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Raid Encounter Design in Season 3",
-        "es": "Banda Encounter Design in Temporada 3"
-      },
-      "summary": {
-        "en": "Last week we made several adjustments to The Venomous Abyss with the intent of reducing the number of damage events that could kill you or your entire raid with a single individual...",
-        "es": "Last week we made several adjustments to The Venomous Abyss with the intent of reducing the number of damage events that could kill you or your entire Banda with a single individua..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Last week we made several adjustments to The Venomous Abyss with the intent of reducing the number of damage events that could kill you or your entire raid with a single individual mistake. We believe this type of severe mechanical penalty was used too often in The Venomous Abyss, causing the associated mechanics to become frustrating as the season wore on. Our goal with these changes was to ensure that damage events feel more proportional to player mistakes and to reduce the number of instances where individual mistakes could easily trigger group wipes. A couple examples from that list of changes:</p>\n<ul>\n<li>Malice damage was reduced by 45% on Mythic and 63% on Normal/Heroic, which should now help a failed interrupt feel like a punishing but recoverable group mistake.</li>\n<li>Reductions to Noxious Splash’s initial damage (33%) and damage-over-time component (84%) should help ensure that a single individual’s mistake no longer feels like a death sentence.</li>\n</ul>\n<p>We feel that our design has shifted over time at the expense of the average Mythic player’s experience. Going forward into Season 3, we’d like to intentionally pull back on some of these severe mechanical penalties, even at the start of the season. Once Season 3 launches on the Public Test Realm, we’d like to invite you to test each difficulty of the new raid and see for yourselves.</p>\n<p><strong>What is a “mechanical penalty”?</strong><br>\nGenerally, when an encounter designer creates a mechanic, they also design a corresponding penalty to reinforce the gameplay that the mechanic is intended to incentivize.</p>\n<p>Sometimes this can be very simple. If an add spawns in the encounter and the tank doesn’t establish threat on it quickly, it can melee and endanger other players. The tank needs to pick that add up quickly, which is hopefully fun gameplay for the tank. That’s pretty straightforward.</p>\n<p>Other times, these penalties can be complex. Let’s use Heroic Ula’tek as an example. If enough individual players don’t contribute to soaking Stone Venom, a player will be affected by Calcified Corpse and very likely wipe the raid. Players need to split into roughly equal groups, react quickly, and ensure that they’re staying with their assigned player until the Stone Venom aura has expired. Calcified Corpse exists only to reinforce gameplay that we want players to enjoy in that phase.</p>\n<p><strong>“The Punishment Must Fit the Crime”</strong><br>\nWhen we design mechanics and their corresponding penalties, it’s important for them to be proportional to each other. For example, a small missile landing on a character should generally not kill an appropriately geared character from 100% HP. However, if every player in the raid collectively ignores Malacrass’ cast of Eternal Nightfall, he will eventually complete his cast and destroy the raid.</p>\n<p>When mechanics and their penalties are out of proportion, a sense of frustration usually sets in. This threshold (what feels “unfair”) can be very different from player to player, and we spend a lot of time internally discussing what will feel right for each raid difficulty.</p>\n<p>We’ve heard a lot of player feedback about this element of raid difficulty. Going forward, we want to be more lenient in places where we’ve previously killed players in a single damage event or quickly wiped the raid as a result of a single point of failure. Our hope is to retain the challenge and sense of achievement you feel from completing encounters - but allow for more satisfying progression along the way. Fewer wipes that feel like “instant death” and more wipes that feel like a slow unraveling as the group makes mistakes and productively learns from them.</p>\n<p>Again, we invite you to join us on the Season 3 PTR once it begins. Please join us for raid testing and let us know your thoughts.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Last week we made several adjustments to The Venomous Abyss with the intent of reducing the number of damage events that could kill you or your entire raid with a single individual mistake. We believe this type of severe mechanical penalty was used too often in The Venomous Abyss, causing the associated mechanics to become frustrating as the season wore on. Our goal with these changes was to ensure that damage events feel more proportional to player mistakes and to reduce the number of instances where individual mistakes could easily trigger group wipes. A couple examples from that list of changes:</p>\n<ul>\n<li>Malice damage was reduced by 45% on Mythic and 63% on Normal/Heroic, which should now help a failed interrupt feel like a punishing but recoverable group mistake.</li>\n<li>Reductions to Noxious Splash’s initial damage (33%) and damage-over-time component (84%) should help ensure that a single individual’s mistake no longer feels like a death sentence.</li>\n</ul>\n<p>We feel that our design has shifted over time at the expense of the average Mythic player’s experience. Going forward into Season 3, we’d like to intentionally pull back on some of these severe mechanical penalties, even at the start of the season. Once Season 3 launches on the Public Test Realm, we’d like to invite you to test each difficulty of the new raid and see for yourselves.</p>\n<p><strong>What is a “mechanical penalty”?</strong><br>\nGenerally, when an encounter designer creates a mechanic, they also design a corresponding penalty to reinforce the gameplay that the mechanic is intended to incentivize.</p>\n<p>Sometimes this can be very simple. If an add spawns in the encounter and the tank doesn’t establish threat on it quickly, it can melee and endanger other players. The tank needs to pick that add up quickly, which is hopefully fun gameplay for the tank. That’s pretty straightforward.</p>\n<p>Other times, these penalties can be complex. Let’s use Heroic Ula’tek as an example. If enough individual players don’t contribute to soaking Stone Venom, a player will be affected by Calcified Corpse and very likely wipe the raid. Players need to split into roughly equal groups, react quickly, and ensure that they’re staying with their assigned player until the Stone Venom aura has expired. Calcified Corpse exists only to reinforce gameplay that we want players to enjoy in that phase.</p>\n<p><strong>“The Punishment Must Fit the Crime”</strong><br>\nWhen we design mechanics and their corresponding penalties, it’s important for them to be proportional to each other. For example, a small missile landing on a character should generally not kill an appropriately geared character from 100% HP. However, if every player in the raid collectively ignores Malacrass’ cast of Eternal Nightfall, he will eventually complete his cast and destroy the raid.</p>\n<p>When mechanics and their penalties are out of proportion, a sense of frustration usually sets in. This threshold (what feels “unfair”) can be very different from player to player, and we spend a lot of time internally discussing what will feel right for each raid difficulty.</p>\n<p>We’ve heard a lot of player feedback about this element of raid difficulty. Going forward, we want to be more lenient in places where we’ve previously killed players in a single damage event or quickly wiped the raid as a result of a single point of failure. Our hope is to retain the challenge and sense of achievement you feel from completing encounters - but allow for more satisfying progression along the way. Fewer wipes that feel like “instant death” and more wipes that feel like a slow unraveling as the group makes mistakes and productively learns from them.</p>\n<p>Again, we invite you to join us on the Season 3 PTR once it begins. Please join us for raid testing and let us know your thoughts.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/raid-encounter-design-in-season-3/2414817/1"
-    },
-    {
-      "id": "blizz-30892136",
-      "postId": 30892136,
-      "topicId": 2414430,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
+      "id": "blizz-1237484",
+      "postId": 1237484,
+      "topicId": 80957,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-13T18:03:52.527Z",
+      "dateRaw": "2026-11-17T18:00:10.180Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "WoW Weekly Highlights the WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More!",
-        "es": "WoW Weekly Highlights the WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More!"
+        "en": "Midnight: Ecos del Núcleo del Mundo estará disponible el 2 de diciembre",
+        "es": "Midnight: Ecos del Núcleo del Mundo estará disponible el 2 de diciembre"
       },
       "summary": {
-        "en": "[WoW Weekly Highlights the WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More!] This week’s WoW Weekly is packed with lore, stories, and more! Join Sean Copeland...",
-        "es": "[WoW Weekly Highlights the WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More!] This week’s WoW Weekly is packed with lore, stories, and more! Join Sean Copeland..."
+        "en": "[Midnight: Ecos del Núcleo del Mundo estará disponible el 2 de diciembre] La historia de Azeroth aguarda bajo la Vía del Núcleo. Vuelve a Dornogal, afronta los macabros relatos del...",
+        "es": "[Midnight: Ecos del Núcleo del Mundo estará disponible el 2 de diciembre] La historia de Azeroth aguarda bajo la Vía del Núcleo. Vuelve a Dornogal, afronta los macabros relatos del..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ix/IX5TRF04TSJ61794529090820.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ix/IX5TRF04TSJ61794529090820.png\" alt=\"WoW Weekly Highlights the WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More!\" width=\"833\" height=\"468\"></a></p><p>This week’s WoW Weekly is packed with lore, stories, and more! Join Sean Copeland as we dive deeper into the lore on the World of Warcraft: Forever Podcast, gather around the campfire for legendary tales from Demar Brant in the “Cost of Honor” short story, and enjoy this week’s videos and more! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315205\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ix/IX5TRF04TSJ61794529090820.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ix/IX5TRF04TSJ61794529090820.png\" alt=\"WoW Weekly Highlights the WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More!\" width=\"833\" height=\"468\"></a></p><p>This week’s WoW Weekly is packed with lore, stories, and more! Join Sean Copeland as we dive deeper into the lore on the World of Warcraft: Forever Podcast, gather around the campfire for legendary tales from Demar Brant in the “Cost of Honor” short story, and enjoy this week’s videos and more! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315205\">View Full Article</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png\" alt=\"Midnight: Ecos del Núcleo del Mundo estará disponible el 2 de diciembre\" width=\"833\" height=\"468\"></a></p><p>La historia de Azeroth aguarda bajo la Vía del Núcleo. Vuelve a Dornogal, afronta los macabros relatos del narrador en Historias de leyenda y da un Paseo por la historia a través de los acontecimientos que han dado forma a Azeroth con Li Li Cerveza de Trueno. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24317679\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png\" alt=\"Midnight: Ecos del Núcleo del Mundo estará disponible el 2 de diciembre\" width=\"833\" height=\"468\"></a></p><p>La historia de Azeroth aguarda bajo la Vía del Núcleo. Vuelve a Dornogal, afronta los macabros relatos del narrador en Historias de leyenda y da un Paseo por la historia a través de los acontecimientos que han dado forma a Azeroth con Li Li Cerveza de Trueno. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24317679\">Ver artículo completo</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-weekly-highlights-the-wow-forever-podcast-a-new-short-story-this-week%E2%80%99s-videos-and-more/2414430/1"
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/midnight-ecos-del-n%C3%BAcleo-del-mundo-estar%C3%A1-disponible-el-2-de-diciembre/80957/1"
+    },
+    {
+      "id": "blizz-1237483",
+      "postId": 1237483,
+      "topicId": 80956,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-17T18:00:09.203Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Midnight: Ecos del Núcleo del Mundo estará disponible el 2 de diciembre",
+        "es": "Midnight: Ecos del Núcleo del Mundo estará disponible el 2 de diciembre"
+      },
+      "summary": {
+        "en": "[Midnight: Ecos del Núcleo del Mundo estará disponible el 2 de diciembre] La historia de Azeroth aguarda bajo la Vía del Núcleo. Vuelve a Dornogal, afronta los macabros relatos del...",
+        "es": "[Midnight: Ecos del Núcleo del Mundo estará disponible el 2 de diciembre] La historia de Azeroth aguarda bajo la Vía del Núcleo. Vuelve a Dornogal, afronta los macabros relatos del..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png\" alt=\"Midnight: Ecos del Núcleo del Mundo estará disponible el 2 de diciembre\" width=\"833\" height=\"468\"></a></p><p>La historia de Azeroth aguarda bajo la Vía del Núcleo. Vuelve a Dornogal, afronta los macabros relatos del narrador en Historias de leyenda y da un Paseo por la historia a través de los acontecimientos que han dado forma a Azeroth con Li Li Cerveza de Trueno. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24317679\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png\" alt=\"Midnight: Ecos del Núcleo del Mundo estará disponible el 2 de diciembre\" width=\"833\" height=\"468\"></a></p><p>La historia de Azeroth aguarda bajo la Vía del Núcleo. Vuelve a Dornogal, afronta los macabros relatos del narrador en Historias de leyenda y da un Paseo por la historia a través de los acontecimientos que han dado forma a Azeroth con Li Li Cerveza de Trueno. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24317679\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/midnight-ecos-del-n%C3%BAcleo-del-mundo-estar%C3%A1-disponible-el-2-de-diciembre/80956/1"
+    },
+    {
+      "id": "blizz-1237482",
+      "postId": 1237482,
+      "topicId": 80955,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-17T17:59:13.519Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Los relatos retorcidos y azares fatales de Historias de leyenda llegan el 2 de diciembre",
+        "es": "Los relatos retorcidos y azares fatales de Historias de leyenda llegan el 2 de diciembre"
+      },
+      "summary": {
+        "en": "[Los relatos retorcidos y azares fatales de Historias de leyenda llegan el 2 de diciembre] Adéntrate en el macabro mundo de Historias de leyenda, un lugar donde formarás parte de l...",
+        "es": "[Los relatos retorcidos y azares fatales de Historias de leyenda llegan el 2 de diciembre] Adéntrate en el macabro mundo de Historias de leyenda, un lugar donde formarás parte de l..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\" alt=\"Los relatos retorcidos y azares fatales de Historias de leyenda llegan el 2 de diciembre\" width=\"833\" height=\"468\"></a></p><p>Adéntrate en el macabro mundo de Historias de leyenda, un lugar donde formarás parte de los oscuros relatos de un misterioso narrador y que cobran vida de forma escalofriante. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316569\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\" alt=\"Los relatos retorcidos y azares fatales de Historias de leyenda llegan el 2 de diciembre\" width=\"833\" height=\"468\"></a></p><p>Adéntrate en el macabro mundo de Historias de leyenda, un lugar donde formarás parte de los oscuros relatos de un misterioso narrador y que cobran vida de forma escalofriante. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316569\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/los-relatos-retorcidos-y-azares-fatales-de-historias-de-leyenda-llegan-el-2-de-diciembre/80955/1"
     },
     {
       "id": "blizz-1237389",
@@ -366,88 +450,88 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/compra-las-mejoras-de-world-of-warcraft-forever-y-comienza-tu-pr%C3%B3ximo-viaje-en-azeroth/80817/1"
     },
     {
-      "id": "blizz-1235695",
-      "postId": 1235695,
-      "topicId": 80754,
+      "id": "blizz-6513699",
+      "postId": 6513699,
+      "topicId": 643759,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-06T18:10:07.775Z",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-17T18:38:30.194Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y…",
-        "es": "Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y…"
+        "en": "Actions For Blackmaw Hold Abuse - 17 November",
+        "es": "Actions For Blackmaw Hold Abuse - 17 November"
       },
       "summary": {
-        "en": "[Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y Taldramir toma forma] ¡Azeroth tiene un nuevo hogar y la aventura acaba de empezar! Esta...",
-        "es": "[Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y Taldramir toma forma] ¡Azeroth tiene un nuevo hogar y la aventura acaba de empezar! Esta..."
+        "en": "As players continue their journey into WoW Forever’s higher-level content, we are closely monitoring the game economy to ensure that gold sources and costs are well balanced. Findi...",
+        "es": "As players continue their journey into WoW Forever’s higher-level content, we are closely monitoring the game economy to ensure that gold sources and costs are well balanced. Findi..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qh/QH2TTG9EVNTI1793925835070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qh/QH2TTG9EVNTI1793925835070.png\" alt=\"Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y Taldramir toma forma\" width=\"833\" height=\"468\"></a></p><p>¡Azeroth tiene un nuevo hogar y la aventura acaba de empezar! Esta semana en WoW descubrirás que World of Warcraft: Forever ya está disponible, podrás unirte a la conversación en Discord tanto dentro como fuera del juego, explorarás otra forma de jugar gracias a la compatibilidad con mandos y mucho más.   \n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316097\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qh/QH2TTG9EVNTI1793925835070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qh/QH2TTG9EVNTI1793925835070.png\" alt=\"Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y Taldramir toma forma\" width=\"833\" height=\"468\"></a></p><p>¡Azeroth tiene un nuevo hogar y la aventura acaba de empezar! Esta semana en WoW descubrirás que World of Warcraft: Forever ya está disponible, podrás unirte a la conversación en Discord tanto dentro como fuera del juego, explorarás otra forma de jugar gracias a la compatibilidad con mandos y mucho más.   \n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316097\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>As players continue their journey into WoW Forever’s higher-level content, we are closely monitoring the game economy to ensure that gold sources and costs are well balanced. Finding efficient farming spots has always been part of the game, and is how most players have earned their epic mounts since 2004. When a single location proves so lucrative that it overshadows all other sources, we generally adjust it to bring it in line with the rest.</p>\n<p>Over the past weekend, some players discovered a large group of non-elite enemies in the Blackmaw Hold dungeon that were incorrectly dropping the full amount of dungeon loot that would be expected from an elite. Early yesterday, we addressed this with a hotfix, and since then, we have been investigating the overall economic impact.</p>\n<p>Players who simply ran Blackmaw Hold a few times and benefited organically from the extra loot did nothing wrong, and no one should worry that they’re putting their account at risk if they accidentally benefit from a bug. But there were a couple hundred players worldwide who recognized that this was unintended and spent significant time exclusively farming that group of enemies.</p>\n<p>Yesterday, we put an economy lock on their accounts to prevent broader impact to the game economy while we investigated the extent of the exploitative gains, including gold earned by vendoring bugged drops. Today, we are in the process of removing all such gold earned, as well as applying account suspensions to significant abusers.</p>\n<p>As always, we advise all players to refrain from abusing game mechanics that are clearly unintended. We will continue to take action against intentional abuse.</p>\n<p>Thank you very much for your feedback!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>As players continue their journey into WoW Forever’s higher-level content, we are closely monitoring the game economy to ensure that gold sources and costs are well balanced. Finding efficient farming spots has always been part of the game, and is how most players have earned their epic mounts since 2004. When a single location proves so lucrative that it overshadows all other sources, we generally adjust it to bring it in line with the rest.</p>\n<p>Over the past weekend, some players discovered a large group of non-elite enemies in the Blackmaw Hold dungeon that were incorrectly dropping the full amount of dungeon loot that would be expected from an elite. Early yesterday, we addressed this with a hotfix, and since then, we have been investigating the overall economic impact.</p>\n<p>Players who simply ran Blackmaw Hold a few times and benefited organically from the extra loot did nothing wrong, and no one should worry that they’re putting their account at risk if they accidentally benefit from a bug. But there were a couple hundred players worldwide who recognized that this was unintended and spent significant time exclusively farming that group of enemies.</p>\n<p>Yesterday, we put an economy lock on their accounts to prevent broader impact to the game economy while we investigated the extent of the exploitative gains, including gold earned by vendoring bugged drops. Today, we are in the process of removing all such gold earned, as well as applying account suspensions to significant abusers.</p>\n<p>As always, we advise all players to refrain from abusing game mechanics that are clearly unintended. We will continue to take action against intentional abuse.</p>\n<p>Thank you very much for your feedback!</p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-la-aventura-comienza-en-wow-forever-mant%C3%A9n-el-contacto-con-discord-y%E2%80%A6/80754/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/actions-for-blackmaw-hold-abuse-17-november/643759/1"
     },
     {
-      "id": "blizz-1235688",
-      "postId": 1235688,
-      "topicId": 80753,
+      "id": "blizz-6513607",
+      "postId": 6513607,
+      "topicId": 643740,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-06T15:56:38.859Z",
+      "dateRaw": "2026-11-17T18:00:04.613Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "WoW: Forever – No te pierdas «La forja de Forever»",
-        "es": "WoW: Forever – No te pierdas «La forja de Forever»"
+        "en": "Midnight: Echoes of the Worldcore Arrives on 1 December",
+        "es": "Midnight: Echoes of the Worldcore Arrives on 1 December"
       },
       "summary": {
-        "en": "[WoW: Forever – No te pierdas «La forja de Forever»] Contempla la creación del primer objeto legendario de World of Warcraft: Forever: Taldramir, el Bosque Susurrante. \n Ver artícu...",
-        "es": "[WoW: Forever – No te pierdas «La forja de Forever»] Contempla la creación del primer objeto legendario de World of Warcraft: Forever: Taldramir, el Bosque Susurrante. \n Ver artícu..."
+        "en": "[Midnight: Echoes of the Worldcore Arrives on 1 December] Azeroth’s history is waiting beneath the Coreway. Return to Dornogal, face the Storyteller’s macabre tales in Talebound, a...",
+        "es": "[Midnight: Echoes of the Worldcore Arrives on 1 December] Azeroth’s history is waiting beneath the Coreway. Return to Dornogal, face the Storyteller’s macabre tales in Talebound, a..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\" alt=\"WoW: Forever – No te pierdas «La forja de Forever»\" width=\"833\" height=\"468\"></a></p><p>Contempla la creación del primer objeto legendario de World of Warcraft: Forever: Taldramir, el Bosque Susurrante. \n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24317865\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\" alt=\"WoW: Forever – No te pierdas «La forja de Forever»\" width=\"833\" height=\"468\"></a></p><p>Contempla la creación del primer objeto legendario de World of Warcraft: Forever: Taldramir, el Bosque Susurrante. \n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24317865\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png\" alt=\"Midnight: Echoes of the Worldcore Arrives on 1 December\" width=\"833\" height=\"468\"></a></p><p>Azeroth’s history is waiting beneath the Coreway. Return to Dornogal, face the Storyteller’s macabre tales in Talebound, and join Li Li Stormstout for a Lorewalk through the stories that shaped Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24317679\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png\" alt=\"Midnight: Echoes of the Worldcore Arrives on 1 December\" width=\"833\" height=\"468\"></a></p><p>Azeroth’s history is waiting beneath the Coreway. Return to Dornogal, face the Storyteller’s macabre tales in Talebound, and join Li Li Stormstout for a Lorewalk through the stories that shaped Azeroth. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24317679\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/wow-forever-%E2%80%93-no-te-pierdas-%C2%ABla-forja-de-forever%C2%BB/80753/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/midnight-echoes-of-the-worldcore-arrives-on-1-december/643740/1"
     },
     {
-      "id": "blizz-1235624",
-      "postId": 1235624,
-      "topicId": 80732,
+      "id": "blizz-6513603",
+      "postId": 6513603,
+      "topicId": 643739,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-05T16:23:52.716Z",
+      "dateRaw": "2026-11-17T17:59:14.267Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "¡Haz que salten chispas de tu hoguera con la faltriquera de polvo violeta!",
-        "es": "¡Haz que salten chispas de tu hoguera con la faltriquera de polvo violeta!"
+        "en": "Talebound’s Twisted Tales and Deadly Fates Arrive December 1",
+        "es": "Talebound’s Twisted Tales and Deadly Fates Arrive December 1"
       },
       "summary": {
-        "en": "[¡Haz que salten chispas de tu hoguera con la faltriquera de polvo violeta!] Solo tienes que ver 4 horas de cualquier retransmisión de World of Warcraft válida en Twitch.tv durante...",
-        "es": "[¡Haz que salten chispas de tu hoguera con la faltriquera de polvo violeta!] Solo tienes que ver 4 horas de cualquier retransmisión de World of Warcraft válida en Twitch.tv durante..."
+        "en": "[Talebound’s Twisted Tales and Deadly Fates Arrive December 1] Step into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, c...",
+        "es": "[Talebound’s Twisted Tales and Deadly Fates Arrive December 1] Step into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, c..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\" alt=\"¡Haz que salten chispas de tu hoguera con la faltriquera de polvo violeta!\" width=\"833\" height=\"468\"></a></p><p>Solo tienes que ver 4 horas de cualquier retransmisión de World of Warcraft válida en Twitch.tv durante el fin de semana de lanzamiento de World of Warcraft: Forever para conseguir el juguete faltriquera de polvo violeta. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24317678\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\" alt=\"¡Haz que salten chispas de tu hoguera con la faltriquera de polvo violeta!\" width=\"833\" height=\"468\"></a></p><p>Solo tienes que ver 4 horas de cualquier retransmisión de World of Warcraft válida en Twitch.tv durante el fin de semana de lanzamiento de World of Warcraft: Forever para conseguir el juguete faltriquera de polvo violeta. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24317678\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\" alt=\"Talebound’s Twisted Tales and Deadly Fates Arrive December 1\" width=\"833\" height=\"468\"></a></p><p>Step into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, chillingly brought to life. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24316569\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\" alt=\"Talebound’s Twisted Tales and Deadly Fates Arrive December 1\" width=\"833\" height=\"468\"></a></p><p>Step into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, chillingly brought to life. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24316569\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1haz-que-salten-chispas-de-tu-hoguera-con-la-faltriquera-de-polvo-violeta/80732/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/talebound%E2%80%99s-twisted-tales-and-deadly-fates-arrive-december-1/643739/1"
     },
     {
       "id": "blizz-6511666",
@@ -588,6 +672,230 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/lost-training-purchase-refunds-13-november/642655/1"
+    },
+    {
+      "id": "blizz-30912982",
+      "postId": 30912982,
+      "topicId": 2416343,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-15T01:18:23.191Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Player-Level Dungeon XP Adjustment - November 14",
+        "es": "Player-Level Mazmorra XP Adjustment - November 14"
+      },
+      "summary": {
+        "en": "Yesterday, we updated dungeon play so that experience granted by an enemy in an instance is nullified if a high level player is in the group and enemy is trivial to that player. Fo...",
+        "es": "Yesterday, we updated Mazmorra play so that experience granted by an enemy in an instance is nullified if a high level player is in the group and enemy is trivial to that player. F..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Yesterday, we updated dungeon play so that experience granted by an enemy in an instance is nullified if a high level player is in the group and enemy is trivial to that player. For some dungeons, the new restriction missed the mark because of the overall level range of the enemies in the dungeon.</p>\n<p>With hotfixes that are now live, we’ve just deployed a further change to this restriction, making it so that the XP nullification only kicks in when the high-level player is more than 12 levels above the level of the enemies.</p>\n<p>Please note that this adjustment will not apply in instances that were already underway when it was deployed (a few minutes ago).</p>\n<p>Thank you very much!</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Yesterday, we updated dungeon play so that experience granted by an enemy in an instance is nullified if a high level player is in the group and enemy is trivial to that player. For some dungeons, the new restriction missed the mark because of the overall level range of the enemies in the dungeon.</p>\n<p>With hotfixes that are now live, we’ve just deployed a further change to this restriction, making it so that the XP nullification only kicks in when the high-level player is more than 12 levels above the level of the enemies.</p>\n<p>Please note that this adjustment will not apply in instances that were already underway when it was deployed (a few minutes ago).</p>\n<p>Thank you very much!</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/player-level-dungeon-xp-adjustment-november-14/2416343/1"
+    },
+    {
+      "id": "blizz-30899768",
+      "postId": 30899768,
+      "topicId": 2403040,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-14T01:54:07.244Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever Hotfixes - November 16, 2026",
+        "es": "WoW: Forever Correcciones en Vivo - November 16, 2026"
+      },
+      "summary": {
+        "en": "November 13, 2026 \nClasses \n\nFixed a bug causing players to have no diminishing returns against creature stuns.\nFixed a bug causing players to have no diminishing returns when usin...",
+        "es": "November 13, 2026 \nClasses \n\nFixed a bug causing players to have no diminishing returns against creature stuns.\nFixed a bug causing players to have no diminishing returns when usin..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 13, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li>Fixed a bug causing players to have no diminishing returns against creature stuns.</li>\n<li>Fixed a bug causing players to have no diminishing returns when using stuns against creatures.</li>\n<li><strong>Druid</strong>\n<ul>\n<li><strong>Restoration</strong>\n<ul>\n<li>Fixed a bug incorrectly allowing Wild Growth to be cast while moving.</li>\n<li>Wild Growth spell healing coefficient increased to 6.6% (was 3.3%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Mage</strong>\n<ul>\n<li>Frost Nova is now correctly broken by damage from procs and damage from Blizzard.</li>\n</ul>\n</li>\n<li><strong>Paladin</strong>\n<ul>\n<li>Judgement of Command now activates on-hit effects and counts as a melee attack.</li>\n<li><em>Developers’ notes: All other judgements will continue to be considered Ranged attacks. This matches Command’s uniqueness across the Judgements, where it was the only one considered a Melee attack. All other seals were considered Spells, but in WoW: Forever they are being considered Ranged attacks.</em></li>\n</ul>\n</li>\n<li><strong>Priest</strong>\n<ul>\n<li>The Legacy Perk <em>The Quick and the Dead</em> will now correctly reduce the Mana cost of Divine Spirit.</li>\n</ul>\n</li>\n<li><strong>Shaman</strong>\n<ul>\n<li>Windfury Totem is now correctly activated by all melee abilities even if it doesn’t involve your main hand weapon.\n<ul>\n<li><em>Developers’ notes: Strikes from abilities that involve your offhand weapon like Whirlwind or Mutilate do not have a chance to activate Windfury. The main-hand strike from those abilities still does.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Warlock</strong>\n<ul>\n<li>Siphon Life Rank 1 can no longer be cast while silenced.</li>\n</ul>\n</li>\n<li><strong>Warrior</strong>\n<ul>\n<li>Fixed an issue where Berserker Rage was not removing Sap.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li>Killing enemies in dungeons now awards zero experience to all party members if the level of the enemy is trivial to the level of one or more of the party members.</li>\n<li><strong>The Deadmines</strong>\n<ul>\n<li>Sneed should now properly eject if the Sneed’s Shredder is stunned when reaching 0% health.</li>\n</ul>\n</li>\n<li><strong>The Drowned City</strong>\n<ul>\n<li>Non-boss enemies now respawn 2 hours after being killed (was 1 hour).</li>\n</ul>\n</li>\n<li><strong>Stratholme</strong>\n<ul>\n<li>Defeating Balnazzar should now correctly count toward the Legacy Challenge <em>Master Spelunker</em>.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Gnomeregan - Techbot’s respawn time reduced for the quest “Save Techbot’s Brain!”</li>\n<li>Badlands - Lesser Rock Elemental spawns should now appear more frequently.</li>\n<li>Eastern Plaguelands - Fixed an issue that caused enemies to sometimes aggro unexpectedly in Stratholme and Eastern Plaguelands, particularly when resurrecting.</li>\n<li>Mulgore - Quillboar spawning rates have been reduced in the starting area and should now be less aggressive.</li>\n<li>Mulgore - Venture Co. spawn rates have been reduced in the starting area and should now be less aggressive.</li>\n<li>Blasted Lands - Nethergarde Keep guards no longer drop loot and should have behavior consistent with other guards.</li>\n<li>Stranglethorn Vale - Tiger, panther, and raptor spawns should now appear more frequently.</li>\n<li>Zephras Isle - Nyalah Brightfire in Valanaar should now provide a more extensive array of cooking supplies for aspiring culinary artists.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Gloves of Holy Might now have the correct text description. Gloves of Holy Might is now only activated by spells and abilities that are harmful and deal damage.</li>\n<li>The Glimmering Mithril Insignia trinket no longer requires the ability to wear Mail armor.</li>\n<li>Fixed an issue where Cloak of the Fleshborer had no texture.</li>\n<li>Taran Icebreaker now correctly behaves as a 2-handed Mace (was incorrectly behaving as a 1-handed Mace).</li>\n<li>Darkspear signet rings have had their Mp5 corrected and now match Alliance-equivalent rings.</li>\n<li>Everstaring Abomination Eye’s Spirit stats corrected.</li>\n<li>The Bad Hat no longer provides an incorrect amount of spell power.</li>\n<li>The Souvenir Sea Shell’s stats have been corrected.</li>\n<li>Blessed Band of Light’s Hit stat has been removed.</li>\n<li>Channeler’s Ring now has Spell Power (was Spirit).\n<ul>\n<li><em>Developers’ notes: Players may exchange their Blessed Band of Light for a Channeler’s Ring if they wish to. Until raids open, this exchange will be the first item on Pix Xizzix’s vendor list if you have a Blessed Band of Light. This exchange cannot be reversed.</em></li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Fixed an issue during the quest “The Talisman of Kazdor” where rogues would enter the wrong version of Zul’Farrak.</li>\n<li>Deadwood Key, Drop of Stolen Life, Ring of the Fallen Soldier, Venom-dripping heart, and Blackthorne Intelligence should now drop for all players in the party who have the associated quest(s).</li>\n<li>On “A Quick Grocery Run”, Skonk’s list can be read by everyone.</li>\n<li>Pix Xizzix’s weekly dungeon quests are now properly removed from the quest log on weekly reset.</li>\n<li>When you’re “Coyote Huntin’”, Sootfur’s pelt should now be shared for all members of your party.</li>\n<li>The Crow Effigy should now be visible if you meet the quest requirements to interact with it on Mount Hyjal.</li>\n<li>Unstable Package should no longer have a chance to proc while on a taxi during “Crate Expectations” and the misfire damage has been reduced.</li>\n<li>Fixed a bug that caused a player picking up the quest “Return to the Port” to delete nearby players’ quest items for “The Cook in the Cage”.</li>\n<li>Doomguard Xarkul kill credit should now be granted to healers who assist Yashiro on “Yashiro’s Windwalk”.</li>\n<li>Riverglades - Resolved an issue with Jezap Jinglesprocket refusing to offer quests to players attempting the Bloodmaster’s Ring.</li>\n<li>Feralas - Fixed several issues during the quest “Gordunni Cobalt.”</li>\n<li>Riverglades - “Gaseous Gold” now denotes the correct amount required for the quest.</li>\n<li>Riverglades woodpiles are no longer lootable when not on the associated quests.</li>\n<li>Undercity and Stormwind - Fixed an issue where Owen Thadd and Garion Wendell would refuse to accept any books. Our outstanding library fees have been paid and we’re all back in good standing!</li>\n</ul>\n<p><strong>Stranglethorn Fishing Extravaganza</strong></p>\n<ul>\n<li>Improved the weekly fishing tournament by greatly increasing the number of players per ruleset who can win.\n<ul>\n<li><em>Developers’ notes: We continue to work on performance issues with the tournament, and we will deploy additional fixes in the weeks to come.</em></li>\n</ul>\n</li>\n</ul>\n<p><strong>User Interface</strong></p>\n<ul>\n<li>Fixed a bug that caused Action Bar settings to reset every time players who acquired Secondary Talents logged out of the game.</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 13, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li>Fixed a bug causing players to have no diminishing returns against creature stuns.</li>\n<li>Fixed a bug causing players to have no diminishing returns when using stuns against creatures.</li>\n<li><strong>DRUIDA</strong>\n<ul>\n<li><strong>Restauración</strong>\n<ul>\n<li>Fixed a bug incorrectly allowing Wild Growth to be cast while moving.</li>\n<li>Wild Growth spell healing coefficient increased to 6.6% (was 3.3%).</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>MAGO</strong>\n<ul>\n<li>Escarcha Nova ahora es correctly broken by damage from procs and damage from Blizzard.</li>\n</ul>\n</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li>Judgement of Command now activates on-hit effects and counts as a melee attack.</li>\n<li><em>Developers’ notes: All other judgements will continue to be considered Ranged attacks. This matches Command’s uniqueness across the Judgements, where it was the only one considered a Melee attack. All other seals were considered Spells, but in WoW: Forever they are being considered Ranged attacks.</em></li>\n</ul>\n</li>\n<li><strong>SACERDOTE</strong>\n<ul>\n<li>The Legacy Perk <em>The Quick and the Dead</em> will now correctly reduce the Mana cost of Divine Spirit.</li>\n</ul>\n</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li>Windfury Totem ahora es correctly activated by all melee abilities even if it doesn’t involve your main hand weapon.\n<ul>\n<li><em>Developers’ notes: Strikes from abilities that involve your offhand weapon like Whirlwind or Mutilate do not have a chance to activate Windfury. The main-hand strike from those abilities still does.</em></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>BRUJO</strong>\n<ul>\n<li>Siphon Life Rank 1 can no longer be cast while silenced.</li>\n</ul>\n</li>\n<li><strong>GUERRERO</strong>\n<ul>\n<li>Fixed an issue where Berserker Rage was not removing Sap.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li>Killing enemies in dungeons now awards zero experience to all party members if the level of the enemy is trivial to the level of one or more of the party members.</li>\n<li><strong>The Deadmines</strong>\n<ul>\n<li>Sneed should now properly eject if the Sneed’s Shredder is stunned when reaching 0% health.</li>\n</ul>\n</li>\n<li><strong>The Drowned City</strong>\n<ul>\n<li>Non-boss enemies now respawn 2 hours after being killed (was 1 hour).</li>\n</ul>\n</li>\n<li><strong>Stratholme</strong>\n<ul>\n<li>Defeating Balnazzar should now correctly count toward the Legacy Challenge <em>Master Spelunker</em>.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Gnomeregan - Techbot’s respawn time reduced for the quest “Save Techbot’s Brain!”</li>\n<li>Badlands - Lesser Rock Elemental spawns should now appear more frequently.</li>\n<li>Eastern Plaguelands - Fixed an issue that caused enemies to sometimes aggro unexpectedly in Stratholme and Eastern Plaguelands, particularly when resurrecting.</li>\n<li>Mulgore - Quillboar spawning rates have been reduced in the starting area and should now be less aggressive.</li>\n<li>Mulgore - Venture Co. spawn rates have been reduced in the starting area and should now be less aggressive.</li>\n<li>Blasted Lands - Nethergarde Keep guards no longer drop loot and should have behavior consistent with other guards.</li>\n<li>Stranglethorn Vale - Tiger, panther, and raptor spawns should now appear more frequently.</li>\n<li>Zephras Isle - Nyalah Brightfire in Valanaar should now provide a more extensive array of cooking supplies for aspiring culinary artists.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Gloves of Sagrado Might now have the correct text description. Gloves of Sagrado Might ahora es only activated by spells and abilities that are harmful and deal damage.</li>\n<li>The Glimmering Mithril Insignia trinket no longer requires the ability to wear Mail armor.</li>\n<li>Fixed an issue where Cloak of the Fleshborer had no texture.</li>\n<li>Taran Icebreaker now correctly behaves as a 2-handed Mace (was incorrectly behaving as a 1-handed Mace).</li>\n<li>Darkspear signet rings have had their Mp5 corrected and now match Alliance-equivalent rings.</li>\n<li>Everstaring Abomination Eye’s Spirit stats corrected.</li>\n<li>The Bad Hat no longer provides an incorrect amount of spell power.</li>\n<li>The Souvenir Sea Shell’s stats have been corrected.</li>\n<li>Blessed Band of Light’s Hit stat has been removed.</li>\n<li>Channeler’s Ring now has Spell Power (was Spirit).\n<ul>\n<li><em>Developers’ notes: Players may exchange their Blessed Band of Light for a Channeler’s Ring if they wish to. Until raids open, this exchange will be the first item on Pix Xizzix’s vendor list if you have a Blessed Band of Light. This exchange cannot be reversed.</em></li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Fixed an issue during the quest “The Talisman of Kazdor” where rogues would enter the wrong version of Zul’Farrak.</li>\n<li>Deadwood Key, Drop of Stolen Life, Ring of the Fallen Soldier, Venom-dripping heart, and Blackthorne Intelligence should now drop for all players in the party who have the associated quest(s).</li>\n<li>On “A Quick Grocery Run”, Skonk’s list can be read by everyone.</li>\n<li>Pix Xizzix’s weekly dungeon quests are now properly removed from the quest log on weekly reset.</li>\n<li>When you’re “Coyote Huntin’”, Sootfur’s pelt should now be shared for all members of your party.</li>\n<li>The Crow Effigy should now be visible if you meet the quest requirements to interact with it on Mount Hyjal.</li>\n<li>Unstable Package should no longer have a chance to proc while on a taxi during “Crate Expectations” and the misfire damage has been reduced.</li>\n<li>Fixed a bug that caused a player picking up the quest “Return to the Port” to delete nearby players’ quest items for “The Cook in the Cage”.</li>\n<li>Doomguard Xarkul kill credit should now be granted to healers who assist Yashiro on “Yashiro’s Windwalk”.</li>\n<li>Riverglades - Resolved an issue with Jezap Jinglesprocket refusing to offer quests to players attempting the Bloodmaster’s Ring.</li>\n<li>Feralas - Fixed several issues during the quest “Gordunni Cobalt.”</li>\n<li>Riverglades - “Gaseous Gold” now denotes the correct amount required for the quest.</li>\n<li>Riverglades woodpiles are no longer lootable when not on the associated quests.</li>\n<li>Undercity and Stormwind - Fixed an issue where Owen Thadd and Garion Wendell would refuse to accept any books. Our outstanding library fees have been paid and we’re all back in good standing!</li>\n</ul>\n<p><strong>Stranglethorn Fishing Extravaganza</strong></p>\n<ul>\n<li>Improved the weekly fishing tournament by greatly increasing the number of players per ruleset who can win.\n<ul>\n<li><em>Developers’ notes: We continue to work on performance issues with the tournament, and we will deploy additional fixes in the weeks to come.</em></li>\n</ul>\n</li>\n</ul>\n<p><strong>User Interface</strong></p>\n<ul>\n<li>Fixed a bug that caused Action Bar settings to reset every time players who acquired Secondary Talents logged out of the game.</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/2403040/10"
+    },
+    {
+      "id": "blizz-30899567",
+      "postId": 30899567,
+      "topicId": 2415068,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-14T01:36:48.839Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Lost Training Purchase Refunds - November 13",
+        "es": "Lost Training Purchase Refunds - November 13"
+      },
+      "summary": {
+        "en": "With in-game mail that has now gone out to all affected players, we have refunded the cost of skill purchases that were made on Monday, November 9 between 1:17 p.m. PST and 2:17 p....",
+        "es": "With in-game mail that has now gone out to all affected players, we have refunded the cost of skill purchases that were made on Monday, November 9 between 1:17 p.m. PST and 2:17 p...."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>With in-game mail that has now gone out to all affected players, we have refunded the cost of skill purchases that were made on Monday, November 9 between 1:17 p.m. PST and 2:17 p.m. PST (8:17-9:17 a.m. on November 10 AEDT) when the WoW: Forever servers experienced issues that caused some players to lose training they purchased.</p>\n<p>If you were affected by this issue during that timeframe, check your in-game mail for gold equaling the cost of training that you purchased and lost.</p>\n<p>Thank you very much for your patience and understanding.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>With in-game mail that has now gone out to all affected players, we have refunded the cost of skill purchases that were made on Monday, November 9 between 1:17 p.m. PST and 2:17 p.m. PST (8:17-9:17 a.m. on November 10 AEDT) when the WoW: Forever servers experienced issues that caused some players to lose training they purchased.</p>\n<p>If you were affected by this issue during that timeframe, check your in-game mail for gold equaling the cost of training that you purchased and lost.</p>\n<p>Thank you very much for your patience and understanding.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/lost-training-purchase-refunds-november-13/2415068/1"
+    },
+    {
+      "id": "blizz-30896792",
+      "postId": 30896792,
+      "topicId": 2414817,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Limestone (WoW Developer)",
+      "dateRaw": "2026-11-13T21:36:41.078Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Raid Encounter Design in Season 3",
+        "es": "Banda Encounter Design in Temporada 3"
+      },
+      "summary": {
+        "en": "Last week we made several adjustments to The Venomous Abyss with the intent of reducing the number of damage events that could kill you or your entire raid with a single individual...",
+        "es": "Last week we made several adjustments to The Venomous Abyss with the intent of reducing the number of damage events that could kill you or your entire Banda with a single individua..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Last week we made several adjustments to The Venomous Abyss with the intent of reducing the number of damage events that could kill you or your entire raid with a single individual mistake. We believe this type of severe mechanical penalty was used too often in The Venomous Abyss, causing the associated mechanics to become frustrating as the season wore on. Our goal with these changes was to ensure that damage events feel more proportional to player mistakes and to reduce the number of instances where individual mistakes could easily trigger group wipes. A couple examples from that list of changes:</p>\n<ul>\n<li>Malice damage was reduced by 45% on Mythic and 63% on Normal/Heroic, which should now help a failed interrupt feel like a punishing but recoverable group mistake.</li>\n<li>Reductions to Noxious Splash’s initial damage (33%) and damage-over-time component (84%) should help ensure that a single individual’s mistake no longer feels like a death sentence.</li>\n</ul>\n<p>We feel that our design has shifted over time at the expense of the average Mythic player’s experience. Going forward into Season 3, we’d like to intentionally pull back on some of these severe mechanical penalties, even at the start of the season. Once Season 3 launches on the Public Test Realm, we’d like to invite you to test each difficulty of the new raid and see for yourselves.</p>\n<p><strong>What is a “mechanical penalty”?</strong><br>\nGenerally, when an encounter designer creates a mechanic, they also design a corresponding penalty to reinforce the gameplay that the mechanic is intended to incentivize.</p>\n<p>Sometimes this can be very simple. If an add spawns in the encounter and the tank doesn’t establish threat on it quickly, it can melee and endanger other players. The tank needs to pick that add up quickly, which is hopefully fun gameplay for the tank. That’s pretty straightforward.</p>\n<p>Other times, these penalties can be complex. Let’s use Heroic Ula’tek as an example. If enough individual players don’t contribute to soaking Stone Venom, a player will be affected by Calcified Corpse and very likely wipe the raid. Players need to split into roughly equal groups, react quickly, and ensure that they’re staying with their assigned player until the Stone Venom aura has expired. Calcified Corpse exists only to reinforce gameplay that we want players to enjoy in that phase.</p>\n<p><strong>“The Punishment Must Fit the Crime”</strong><br>\nWhen we design mechanics and their corresponding penalties, it’s important for them to be proportional to each other. For example, a small missile landing on a character should generally not kill an appropriately geared character from 100% HP. However, if every player in the raid collectively ignores Malacrass’ cast of Eternal Nightfall, he will eventually complete his cast and destroy the raid.</p>\n<p>When mechanics and their penalties are out of proportion, a sense of frustration usually sets in. This threshold (what feels “unfair”) can be very different from player to player, and we spend a lot of time internally discussing what will feel right for each raid difficulty.</p>\n<p>We’ve heard a lot of player feedback about this element of raid difficulty. Going forward, we want to be more lenient in places where we’ve previously killed players in a single damage event or quickly wiped the raid as a result of a single point of failure. Our hope is to retain the challenge and sense of achievement you feel from completing encounters - but allow for more satisfying progression along the way. Fewer wipes that feel like “instant death” and more wipes that feel like a slow unraveling as the group makes mistakes and productively learns from them.</p>\n<p>Again, we invite you to join us on the Season 3 PTR once it begins. Please join us for raid testing and let us know your thoughts.</p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Last week we made several adjustments to The Venomous Abyss with the intent of reducing the number of damage events that could kill you or your entire raid with a single individual mistake. We believe this type of severe mechanical penalty was used too often in The Venomous Abyss, causing the associated mechanics to become frustrating as the season wore on. Our goal with these changes was to ensure that damage events feel more proportional to player mistakes and to reduce the number of instances where individual mistakes could easily trigger group wipes. A couple examples from that list of changes:</p>\n<ul>\n<li>Malice damage was reduced by 45% on Mythic and 63% on Normal/Heroic, which should now help a failed interrupt feel like a punishing but recoverable group mistake.</li>\n<li>Reductions to Noxious Splash’s initial damage (33%) and damage-over-time component (84%) should help ensure that a single individual’s mistake no longer feels like a death sentence.</li>\n</ul>\n<p>We feel that our design has shifted over time at the expense of the average Mythic player’s experience. Going forward into Season 3, we’d like to intentionally pull back on some of these severe mechanical penalties, even at the start of the season. Once Season 3 launches on the Public Test Realm, we’d like to invite you to test each difficulty of the new raid and see for yourselves.</p>\n<p><strong>What is a “mechanical penalty”?</strong><br>\nGenerally, when an encounter designer creates a mechanic, they also design a corresponding penalty to reinforce the gameplay that the mechanic is intended to incentivize.</p>\n<p>Sometimes this can be very simple. If an add spawns in the encounter and the tank doesn’t establish threat on it quickly, it can melee and endanger other players. The tank needs to pick that add up quickly, which is hopefully fun gameplay for the tank. That’s pretty straightforward.</p>\n<p>Other times, these penalties can be complex. Let’s use Heroic Ula’tek as an example. If enough individual players don’t contribute to soaking Stone Venom, a player will be affected by Calcified Corpse and very likely wipe the raid. Players need to split into roughly equal groups, react quickly, and ensure that they’re staying with their assigned player until the Stone Venom aura has expired. Calcified Corpse exists only to reinforce gameplay that we want players to enjoy in that phase.</p>\n<p><strong>“The Punishment Must Fit the Crime”</strong><br>\nWhen we design mechanics and their corresponding penalties, it’s important for them to be proportional to each other. For example, a small missile landing on a character should generally not kill an appropriately geared character from 100% HP. However, if every player in the raid collectively ignores Malacrass’ cast of Eternal Nightfall, he will eventually complete his cast and destroy the raid.</p>\n<p>When mechanics and their penalties are out of proportion, a sense of frustration usually sets in. This threshold (what feels “unfair”) can be very different from player to player, and we spend a lot of time internally discussing what will feel right for each raid difficulty.</p>\n<p>We’ve heard a lot of player feedback about this element of raid difficulty. Going forward, we want to be more lenient in places where we’ve previously killed players in a single damage event or quickly wiped the raid as a result of a single point of failure. Our hope is to retain the challenge and sense of achievement you feel from completing encounters - but allow for more satisfying progression along the way. Fewer wipes that feel like “instant death” and more wipes that feel like a slow unraveling as the group makes mistakes and productively learns from them.</p>\n<p>Again, we invite you to join us on the Season 3 PTR once it begins. Please join us for raid testing and let us know your thoughts.</p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/raid-encounter-design-in-season-3/2414817/1"
+    },
+    {
+      "id": "blizz-30892136",
+      "postId": 30892136,
+      "topicId": 2414430,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-13T18:03:52.527Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW Weekly Highlights the WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More!",
+        "es": "WoW Weekly Highlights the WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More!"
+      },
+      "summary": {
+        "en": "[WoW Weekly Highlights the WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More!] This week’s WoW Weekly is packed with lore, stories, and more! Join Sean Copeland...",
+        "es": "[WoW Weekly Highlights the WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More!] This week’s WoW Weekly is packed with lore, stories, and more! Join Sean Copeland..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ix/IX5TRF04TSJ61794529090820.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ix/IX5TRF04TSJ61794529090820.png\" alt=\"WoW Weekly Highlights the WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More!\" width=\"833\" height=\"468\"></a></p><p>This week’s WoW Weekly is packed with lore, stories, and more! Join Sean Copeland as we dive deeper into the lore on the World of Warcraft: Forever Podcast, gather around the campfire for legendary tales from Demar Brant in the “Cost of Honor” short story, and enjoy this week’s videos and more! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315205\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ix/IX5TRF04TSJ61794529090820.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/ix/IX5TRF04TSJ61794529090820.png\" alt=\"WoW Weekly Highlights the WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More!\" width=\"833\" height=\"468\"></a></p><p>This week’s WoW Weekly is packed with lore, stories, and more! Join Sean Copeland as we dive deeper into the lore on the World of Warcraft: Forever Podcast, gather around the campfire for legendary tales from Demar Brant in the “Cost of Honor” short story, and enjoy this week’s videos and more! </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24315205\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-weekly-highlights-the-wow-forever-podcast-a-new-short-story-this-week%E2%80%99s-videos-and-more/2414430/1"
+    },
+    {
+      "id": "blizz-1235695",
+      "postId": 1235695,
+      "topicId": 80754,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-06T18:10:07.775Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y…",
+        "es": "Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y…"
+      },
+      "summary": {
+        "en": "[Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y Taldramir toma forma] ¡Azeroth tiene un nuevo hogar y la aventura acaba de empezar! Esta...",
+        "es": "[Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y Taldramir toma forma] ¡Azeroth tiene un nuevo hogar y la aventura acaba de empezar! Esta..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qh/QH2TTG9EVNTI1793925835070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qh/QH2TTG9EVNTI1793925835070.png\" alt=\"Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y Taldramir toma forma\" width=\"833\" height=\"468\"></a></p><p>¡Azeroth tiene un nuevo hogar y la aventura acaba de empezar! Esta semana en WoW descubrirás que World of Warcraft: Forever ya está disponible, podrás unirte a la conversación en Discord tanto dentro como fuera del juego, explorarás otra forma de jugar gracias a la compatibilidad con mandos y mucho más.   \n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316097\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qh/QH2TTG9EVNTI1793925835070.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/qh/QH2TTG9EVNTI1793925835070.png\" alt=\"Esta semana en WoW: La aventura comienza en WoW: Forever, mantén el contacto con Discord y Taldramir toma forma\" width=\"833\" height=\"468\"></a></p><p>¡Azeroth tiene un nuevo hogar y la aventura acaba de empezar! Esta semana en WoW descubrirás que World of Warcraft: Forever ya está disponible, podrás unirte a la conversación en Discord tanto dentro como fuera del juego, explorarás otra forma de jugar gracias a la compatibilidad con mandos y mucho más.   \n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316097\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-la-aventura-comienza-en-wow-forever-mant%C3%A9n-el-contacto-con-discord-y%E2%80%A6/80754/1"
+    },
+    {
+      "id": "blizz-1235688",
+      "postId": 1235688,
+      "topicId": 80753,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-06T15:56:38.859Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever – No te pierdas «La forja de Forever»",
+        "es": "WoW: Forever – No te pierdas «La forja de Forever»"
+      },
+      "summary": {
+        "en": "[WoW: Forever – No te pierdas «La forja de Forever»] Contempla la creación del primer objeto legendario de World of Warcraft: Forever: Taldramir, el Bosque Susurrante. \n Ver artícu...",
+        "es": "[WoW: Forever – No te pierdas «La forja de Forever»] Contempla la creación del primer objeto legendario de World of Warcraft: Forever: Taldramir, el Bosque Susurrante. \n Ver artícu..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\" alt=\"WoW: Forever – No te pierdas «La forja de Forever»\" width=\"833\" height=\"468\"></a></p><p>Contempla la creación del primer objeto legendario de World of Warcraft: Forever: Taldramir, el Bosque Susurrante. \n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24317865\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/vf/VFUYSZS4A64R1793915016216.png\" alt=\"WoW: Forever – No te pierdas «La forja de Forever»\" width=\"833\" height=\"468\"></a></p><p>Contempla la creación del primer objeto legendario de World of Warcraft: Forever: Taldramir, el Bosque Susurrante. \n</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24317865\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/wow-forever-%E2%80%93-no-te-pierdas-%C2%ABla-forja-de-forever%C2%BB/80753/1"
+    },
+    {
+      "id": "blizz-1235624",
+      "postId": 1235624,
+      "topicId": 80732,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-05T16:23:52.716Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "¡Haz que salten chispas de tu hoguera con la faltriquera de polvo violeta!",
+        "es": "¡Haz que salten chispas de tu hoguera con la faltriquera de polvo violeta!"
+      },
+      "summary": {
+        "en": "[¡Haz que salten chispas de tu hoguera con la faltriquera de polvo violeta!] Solo tienes que ver 4 horas de cualquier retransmisión de World of Warcraft válida en Twitch.tv durante...",
+        "es": "[¡Haz que salten chispas de tu hoguera con la faltriquera de polvo violeta!] Solo tienes que ver 4 horas de cualquier retransmisión de World of Warcraft válida en Twitch.tv durante..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\" alt=\"¡Haz que salten chispas de tu hoguera con la faltriquera de polvo violeta!\" width=\"833\" height=\"468\"></a></p><p>Solo tienes que ver 4 horas de cualquier retransmisión de World of Warcraft válida en Twitch.tv durante el fin de semana de lanzamiento de World of Warcraft: Forever para conseguir el juguete faltriquera de polvo violeta. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24317678\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/xx/XXAWH0HK1QBX1793835768074.png\" alt=\"¡Haz que salten chispas de tu hoguera con la faltriquera de polvo violeta!\" width=\"833\" height=\"468\"></a></p><p>Solo tienes que ver 4 horas de cualquier retransmisión de World of Warcraft válida en Twitch.tv durante el fin de semana de lanzamiento de World of Warcraft: Forever para conseguir el juguete faltriquera de polvo violeta. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24317678\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1haz-que-salten-chispas-de-tu-hoguera-con-la-faltriquera-de-polvo-violeta/80732/1"
     },
     {
       "id": "blizz-6502122",
@@ -1092,314 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/pvp-faction-balance-updates-11-november/641169/1"
-    },
-    {
-      "id": "blizz-30830930",
-      "postId": 30830930,
-      "topicId": 2408781,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-10T03:11:34.974Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "PvP Faction Balance Updates - November 10",
-        "es": "PvP Faction Balance Updates - November 10"
-      },
-      "summary": {
-        "en": "It’s worth adding that earlier today, we implemented this change: \n\nLowered the population of players in various zones where there was significant congestion.\n\nDevelopers’ notes: W...",
-        "es": "It’s worth adding that earlier today, we implemented this change: \n\nLowered the population of players in various zones where there was significant congestion.\n\nDevelopers’ notes: W..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>It’s worth adding that earlier today, we implemented this change:</p>\n<ul>\n<li>Lowered the population of players in various zones where there was significant congestion.\n<ul>\n<li><em>Developers’ notes: We’ve made this an even bigger change on the PvP ruleset, following feedback from players that they felt overcrowded in several places. We will continue to monitor how zones feel and make further adjustments as necessary.</em></li>\n</ul>\n</li>\n</ul>\n<p>You’ll see it also posted in our <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-6-2026/2403040/\">Hotfixes Update</a> shortly.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>It’s worth adding that earlier today, we implemented this change:</p>\n<ul>\n<li>Lowered the population of players in various zones where there was significant congestion.\n<ul>\n<li><em>Developers’ notes: We’ve made this an even bigger change on the PvP ruleset, following feedback from players that they felt overcrowded in several places. We will continue to monitor how zones feel and make further adjustments as necessary.</em></li>\n</ul>\n</li>\n</ul>\n<p>You’ll see it also posted in our <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-6-2026/2403040/\">Hotfixes Update</a> shortly.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/pvp-faction-balance-updates-november-10/2408781/174"
-    },
-    {
-      "id": "blizz-30830868",
-      "postId": 30830868,
-      "topicId": 2408781,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-10T03:04:13.020Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "PvP Faction Balance Updates - November 10",
-        "es": "PvP Faction Balance Updates - November 10"
-      },
-      "summary": {
-        "en": "We did significant investigation into that, and there is no evidence that trial characters had any impact at all. \nWhen we say 55/45, we’re looking at the active logged-in populati...",
-        "es": "We did significant investigation into that, and there is no evidence that trial characters had any impact at all. \nWhen we say 55/45, we’re looking at the active logged-in populati..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><aside class=\"quote no-group\" data-username=\"Peeknsap-frostmourne\" data-display-name=\"Peeknsap\" data-post=\"16\" data-topic=\"2408781\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/frostmourne/198/200351174-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg\" class=\"avatar\"> Peeknsap:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>when taking into account the trial accounts.</p>\n</blockquote>\n</aside>\n<p>We did significant investigation into that, and there is no evidence that trial characters had any impact at all.</p>\n<p>When we say 55/45, we’re looking at the active logged-in population across all levels over a specific period of time.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><aside class=\"quote no-group\" data-username=\"Peeknsap-frostmourne\" data-display-name=\"Peeknsap\" data-post=\"16\" data-topic=\"2408781\">\n<div class=\"title\"><img alt=\"\" width=\"20\" height=\"20\" src=\"https://render.worldofwarcraft.com/us/character/frostmourne/198/200351174-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg\" class=\"avatar\"> Peeknsap:<div class=\"quote-controls\"></div></div>\n<blockquote>\n<p>when taking into account the trial accounts.</p>\n</blockquote>\n</aside>\n<p>We did significant investigation into that, and there is no evidence that trial characters had any impact at all.</p>\n<p>When we say 55/45, we’re looking at the active logged-in population across all levels over a specific period of time.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/pvp-faction-balance-updates-november-10/2408781/158"
-    },
-    {
-      "id": "blizz-1234830",
-      "postId": 1234830,
-      "topicId": 80641,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-10-29T21:03:05.143Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "¡World of Warcraft: Forever ya está disponible!",
-        "es": "¡World of Warcraft: Forever ya está disponible!"
-      },
-      "summary": {
-        "en": "[¡World of Warcraft: Forever ya está disponible!] Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que ya está disponible en todo el mundo...",
-        "es": "[¡World of Warcraft: Forever ya está disponible!] Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que ya está disponible en todo el mundo..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\" alt=\"¡World of Warcraft: Forever ya está disponible!\" width=\"833\" height=\"468\"></a></p><p>Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que ya está disponible en todo el mundo. Emprende tu aventura hasta el nivel 60 a través de los continentes originales, descubre nuevas historias y conoce a otros aventureros en un nuevo hogar permanente junto al WoW moderno y WoW Classic, donde la comunidad es prioritaria y el viaje es tan importante como el destino.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315820\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bx/BXPRPCQR5J551793833689036.png\" alt=\"¡World of Warcraft: Forever ya está disponible!\" width=\"833\" height=\"468\"></a></p><p>Vive tu primera aventura o regresa a un Azeroth reinventado en World of Warcraft: Forever, que ya está disponible en todo el mundo. Emprende tu aventura hasta el nivel 60 a través de los continentes originales, descubre nuevas historias y conoce a otros aventureros en un nuevo hogar permanente junto al WoW moderno y WoW Classic, donde la comunidad es prioritaria y el viaje es tan importante como el destino.</p><p><a href=\"https://worldofwarcraft.com/es-es/news/24315820\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1world-of-warcraft-forever-ya-est%C3%A1-disponible/80641/1"
-    },
-    {
-      "id": "blizz-6487866",
-      "postId": 6487866,
-      "topicId": 641161,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-10T00:35:46.543Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly",
-        "es": "Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly"
-      },
-      "summary": {
-        "en": "[Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly] From the global launch of World of Warcraft: Forever on 4 November to the eerie adventures ...",
-        "es": "[Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly] From the global launch of World of Warcraft: Forever on 4 November to the eerie adventures ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\" alt=\"Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the global launch of World of Warcraft: Forever on 4 November to the eerie adventures of Midnight’s Talebound demo and November’s sweet-themed Trading Post, this week’s news is packed with helpful guides, fresh stories, new rewards, and haunting additions to your collection. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24316094\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\" alt=\"Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the global launch of World of Warcraft: Forever on 4 November to the eerie adventures of Midnight’s Talebound demo and November’s sweet-themed Trading Post, this week’s news is packed with helpful guides, fresh stories, new rewards, and haunting additions to your collection. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24316094\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/prepare-for-forever-try-midnight%E2%80%99s-talebound-and-discover-sweet-treats-in-wow-weekly/641161/1"
-    },
-    {
-      "id": "blizz-6487849",
-      "postId": 6487849,
-      "topicId": 641159,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-10T00:27:02.801Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Purchase World of Warcraft: Forever Upgrades and Begin Your Next Journey in Azeroth",
-        "es": "Purchase World of Warcraft: Forever Upgrades and Begin Your Next Journey in Azeroth"
-      },
-      "summary": {
-        "en": "[Purchase World of Warcraft: Forever Upgrades and Begin Your Next Journey in Azeroth] Answer the call to a reimagined Azeroth with World of Warcraft: Forever. Purchase the Skyborne...",
-        "es": "[Purchase World of Warcraft: Forever Upgrades and Begin Your Next Journey in Azeroth] Answer the call to a reimagined Azeroth with World of Warcraft: Forever. Purchase the Skyborne..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/4f/4FC5K327AVF01789243118942.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/4f/4FC5K327AVF01789243118942.png\" alt=\"Purchase World of Warcraft: Forever Upgrades and Begin Your Next Journey in Azeroth\" width=\"833\" height=\"468\"></a></p><p>Answer the call to a reimagined Azeroth with World of Warcraft: Forever. Purchase the Skyborne Heroic Pack, Skyborne Epic Pack, or Warcraft Forever Collection on the Battle.net Shop to unlock upgrade benefits, prepare for beta, and bring a friend along with Invite-A-Friend Launch Codes when it goes live. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24301508\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/4f/4FC5K327AVF01789243118942.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/4f/4FC5K327AVF01789243118942.png\" alt=\"Purchase World of Warcraft: Forever Upgrades and Begin Your Next Journey in Azeroth\" width=\"833\" height=\"468\"></a></p><p>Answer the call to a reimagined Azeroth with World of Warcraft: Forever. Purchase the Skyborne Heroic Pack, Skyborne Epic Pack, or Warcraft Forever Collection on the Battle.net Shop to unlock upgrade benefits, prepare for beta, and bring a friend along with Invite-A-Friend Launch Codes when it goes live. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24301508\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth/641159/1"
-    },
-    {
-      "id": "blizz-30830227",
-      "postId": 30830227,
-      "topicId": 2408781,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-10T02:05:13.558Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "PvP Faction Balance Updates - November 10",
-        "es": "PvP Faction Balance Updates - November 10"
-      },
-      "summary": {
-        "en": "It’s vitally important that the PvP rulesets in WoW: Forever have balanced factions where both factions vie for supremacy, creating memories of epic victories and stunning defeats ...",
-        "es": "It’s vitally important that the PvP rulesets in WoW: Forever have balanced factions where both factions vie for supremacy, creating memories of epic victories and stunning defeats ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>It’s vitally important that the PvP rulesets in WoW: Forever have balanced factions where both factions vie for supremacy, creating memories of epic victories and stunning defeats that we all remember for years to come. While even the most extreme case in a region is currently at roughly a 55/45 split, that is not as close as we want it to be.</p>\n<p>To better set the stage for the neck-and-neck conflicts we all want, we’ve adjusted the character creation system to better recognize the overall state of faction balance in each region’s PvP rulesets, rather than what may feel like snapshots of points in time. Our goal is to bring things as close to a 50/50 faction balance as possible.</p>\n<p>In the short term, that means that it will become increasingly difficult to create characters on the more populous faction in each region – currently Horde on North American PvP rulesets or Alliance in EU Roleplay-PvP. As everyone settles and shifts, these may flip to the other side. We recognize that while restrictions are in place, it can be frustrating to not be able to start playing a specific faction in that moment, but this is a necessary trade-off for the long-term health of the ruleset, especially early on when guilds are being established and rivalries developed.</p>\n<p>World of Warcraft: Forever’s PvP is at its best when the Alliance and Horde are on equal footing, and we are dedicated to helping maintain that balance so that we can all witness battles at the epic scale that has made WoW Forever PvP so memorable thus far.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>It’s vitally important that the PvP rulesets in WoW: Forever have balanced factions where both factions vie for supremacy, creating memories of epic victories and stunning defeats that we all remember for years to come. While even the most extreme case in a region is currently at roughly a 55/45 split, that is not as close as we want it to be.</p>\n<p>To better set the stage for the neck-and-neck conflicts we all want, we’ve adjusted the character creation system to better recognize the overall state of faction balance in each region’s PvP rulesets, rather than what may feel like snapshots of points in time. Our goal is to bring things as close to a 50/50 faction balance as possible.</p>\n<p>In the short term, that means that it will become increasingly difficult to create characters on the more populous faction in each region – currently Horde on North American PvP rulesets or Alliance in EU Roleplay-PvP. As everyone settles and shifts, these may flip to the other side. We recognize that while restrictions are in place, it can be frustrating to not be able to start playing a specific faction in that moment, but this is a necessary trade-off for the long-term health of the ruleset, especially early on when guilds are being established and rivalries developed.</p>\n<p>World of Warcraft: Forever’s PvP is at its best when the Alliance and Horde are on equal footing, and we are dedicated to helping maintain that balance so that we can all witness battles at the epic scale that has made WoW Forever PvP so memorable thus far.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/pvp-faction-balance-updates-november-10/2408781/1"
-    },
-    {
-      "id": "blizz-6482935",
-      "postId": 6482935,
-      "topicId": 640598,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-08T19:48:33.052Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Dungeon Enemy XP Increased - 8 November",
-        "es": "Mazmorra Enemy XP Increased - 8 November"
-      },
-      "summary": {
-        "en": "At about 20:05 CET today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs. \nHappy dungeon crawling, and good ...",
-        "es": "At about 20:05 CET today, we deployed a hotfix that increased kill experience in Mazmorras by 50%, so it feels better to go back in for more runs. \nHappy Mazmorra crawling, and goo..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>At about 20:05 CET today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs.</p>\n<p>Happy dungeon crawling, and good luck with those Deviate Hides!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>At about 20:05 CET today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs.</p>\n<p>Happy dungeon crawling, and good luck with those Deviate Hides!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/dungeon-enemy-xp-increased-8-november/640598/1"
-    },
-    {
-      "id": "blizz-30829178",
-      "postId": 30829178,
-      "topicId": 2408677,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-10T00:36:27.237Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly",
-        "es": "Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly"
-      },
-      "summary": {
-        "en": "[Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly] From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures ...",
-        "es": "[Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly] From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\" alt=\"Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures of Midnight’s Talebound demo and November’s sweet-themed Trading Post, this week’s news is packed with helpful guides, fresh stories, new rewards, and haunting additions to your collection. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316094\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\" alt=\"Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures of Midnight’s Talebound demo and November’s sweet-themed Trading Post, this week’s news is packed with helpful guides, fresh stories, new rewards, and haunting additions to your collection. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316094\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/prepare-for-forever-try-midnight%E2%80%99s-talebound-and-discover-sweet-treats-in-wow-weekly/2408677/1"
-    },
-    {
-      "id": "blizz-6479547",
-      "postId": 6479547,
-      "topicId": 635623,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-11-07T01:08:17.056Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - 6 November",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - 6 November"
-      },
-      "summary": {
-        "en": "November 6, 2026 \nDungeons and Raids \n\nThe Venomous Abyss\n\nVashnik, the Malignant\n\nMalignance damage reduced by 37% on Mythic difficulty.\nMalignance damage over time duration reduc...",
-        "es": "November 6, 2026 \nMazmorras and Bandas \n\nThe Venomous Abyss\n\nVashnik, the Malignant\n\nMalignance damage reduced by 37% on Mítica+ difficulty.\nMalignance damage over time duration re..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 6, 2026</strong></p>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Vashnik, the Malignant</strong>\n<ul>\n<li>Malignance damage reduced by 37% on Mythic difficulty.</li>\n<li>Malignance damage over time duration reduced to 16 seconds on Mythic difficulty.</li>\n</ul>\n</li>\n<li><strong>Ula’tek</strong>\n<ul>\n<li>Adjusted the health scaling on the following enemies on Raid Finder, Normal, and Heroic difficulties to better account for smaller raid sizes. Their base health has also been reduced on these difficulties to ensure the health scaling does not increase their health with larger raid sizes.\n<ul>\n<li>Ula’tek</li>\n<li>Blightscale Rawling</li>\n<li>Blightscale Viper</li>\n<li>Blightscale Shrieker</li>\n<li>Weakened Doomscale</li>\n</ul>\n</li>\n<li>Ula’tek health reduced by 15% on Heroic difficulty.</li>\n<li>Unchecked Rage damage reduced by 61% on all difficulties.</li>\n<li>Caustic Waves impact damage reduced by 32% on Heroic and Mythic difficulties.</li>\n<li>Caustic Waves damage over time reduced by 75% on Normal, 61% on Heroic, and 89% on Mythic difficulties.</li>\n<li>Malice damage reduced by 63% on Normal and Heroic difficulty, and 45% on Mythic difficulty.</li>\n<li>Virulent Spit damage reduced by 46% on Raid Finder, 33% on Normal and Heroic, and 36% on Mythic difficulties.</li>\n<li>Falling Debris damage reduced by 46% on Raid Finder, 33% on Normal and Heroic, and 77% on Mythic difficulties.</li>\n<li>Viscous Echoes impact damage reduced by 53% and damage over time reduced by 25% on all difficulties.</li>\n<li>Reduced the number of eggs summoned by Call of the Serpent on Normal and Heroic difficulty.</li>\n<li>Reduced the number of targets selected by Serpent’s Bite on all difficulties.</li>\n<li>Reduced the number of targets selected by Grasping Fangs on Normal and Heroic difficulty.</li>\n<li>Removed 2 eggs from each side during Phase 2, reducing the total to 8 eggs per side on Heroic difficulty.</li>\n<li>Ula’tek no longer generates additional Caustic Waves from Spectral Tails when sending walls of waves across the platforms during Phase 3 on Heroic difficulty.</li>\n<li>Noxious Splash initial damage reduced by 33% and damage over time reduced by 84% on Mythic difficulty.</li>\n<li>Putrid Membrane duration reduced to 20 seconds (was 30 seconds) on Mythic difficulty.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 6, 2026</strong></p>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Vashnik, the Malignant</strong>\n<ul>\n<li>Malignance daño reducido un 37% on Mythic difficulty.</li>\n<li>Malignance damage over time duration reduced to 16 seconds on Mythic difficulty.</li>\n</ul>\n</li>\n<li><strong>Ula’tek</strong>\n<ul>\n<li>Adjusted the health scaling on the following enemies on Raid Finder, Normal, and Heroic difficulties to better account for smaller raid sizes. Their base health has also been reduced on these difficulties to ensure the health scaling does not increase their health with larger raid sizes.\n<ul>\n<li>Ula’tek</li>\n<li>Blightscale Rawling</li>\n<li>Blightscale Viper</li>\n<li>Blightscale Shrieker</li>\n<li>Weakened Doomscale</li>\n</ul>\n</li>\n<li>Ula’tek health reduced by 15% on Heroic difficulty.</li>\n<li>Unchecked Rage daño reducido un 61% on all difficulties.</li>\n<li>Caustic Waves impact daño reducido un 32% on Heroic and Mythic difficulties.</li>\n<li>Caustic Waves damage over time reduced by 75% on Normal, 61% on Heroic, and 89% on Mythic difficulties.</li>\n<li>Malice daño reducido un 63% on Normal and Heroic difficulty, and 45% on Mythic difficulty.</li>\n<li>Virulent Spit daño reducido un 46% on Raid Finder, 33% on Normal and Heroic, and 36% on Mythic difficulties.</li>\n<li>Falling Debris daño reducido un 46% on Raid Finder, 33% on Normal and Heroic, and 77% on Mythic difficulties.</li>\n<li>Viscous Echoes impact daño reducido un 53% and damage over time reduced by 25% on all difficulties.</li>\n<li>Reduced the number of eggs summoned by Call of the Serpent on Normal and Heroic difficulty.</li>\n<li>Reduced the number of targets selected by Serpent’s Bite on all difficulties.</li>\n<li>Reduced the number of targets selected by Grasping Fangs on Normal and Heroic difficulty.</li>\n<li>Removed 2 eggs from each side during Phase 2, reducing the total to 8 eggs per side on Heroic difficulty.</li>\n<li>Ula’tek no longer generates additional Caustic Waves from Spectral Tails when sending walls of waves across the platforms during Phase 3 on Heroic difficulty.</li>\n<li>Noxious Splash initial daño reducido un 33% and damage over time reduced by 84% on Mythic difficulty.</li>\n<li>Putrid Membrane duration reduced to 20 seconds (was 30 seconds) on Mythic difficulty.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-6-november/635623/33"
-    },
-    {
-      "id": "blizz-30829081",
-      "postId": 30829081,
-      "topicId": 2408668,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-10T00:26:57.074Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly",
-        "es": "Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly"
-      },
-      "summary": {
-        "en": "[Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly] From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures ...",
-        "es": "[Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly] From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\" alt=\"Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures of Midnight’s Talebound demo and November’s sweet-themed Trading Post, this week’s news is packed with helpful guides, fresh stories, new rewards, and haunting additions to your collection. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316094\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/e2/E2JLBYT6REX11793371355279.png\" alt=\"Prepare for Forever, Try Midnight’s Talebound, and Discover Sweet Treats in WoW Weekly\" width=\"833\" height=\"468\"></a></p><p>From the global launch of World of Warcraft: Forever on November 4 to the eerie adventures of Midnight’s Talebound demo and November’s sweet-themed Trading Post, this week’s news is packed with helpful guides, fresh stories, new rewards, and haunting additions to your collection. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316094\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/prepare-for-forever-try-midnight%E2%80%99s-talebound-and-discover-sweet-treats-in-wow-weekly/2408668/1"
-    },
-    {
-      "id": "blizz-30808041",
-      "postId": 30808041,
-      "topicId": 2406595,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-08T19:47:33.475Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Dungeon Enemy XP Increased - November 8",
-        "es": "Mazmorra Enemy XP Increased - November 8"
-      },
-      "summary": {
-        "en": "At about 11:05 PST today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs. \nHappy dungeon crawling, and good ...",
-        "es": "At about 11:05 PST today, we deployed a hotfix that increased kill experience in Mazmorras by 50%, so it feels better to go back in for more runs. \nHappy Mazmorra crawling, and goo..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>At about 11:05 PST today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs.</p>\n<p>Happy dungeon crawling, and good luck with those Deviate Hides!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>At about 11:05 PST today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs.</p>\n<p>Happy dungeon crawling, and good luck with those Deviate Hides!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/dungeon-enemy-xp-increased-november-8/2406595/1"
     }
   ],
   "blizzardNews": [
