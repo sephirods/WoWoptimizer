@@ -5567,5 +5567,77 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Explore the new D&D expansion in Azeroth, launching November 17 with unique classes and rewards."
     }
+  },
+  "wh-383900": {
+    "es": {
+      "tldr": [
+        "Blizzard anuncia correcciones para clases, misiones y objetos.",
+        "Se ajustan las tasas de caída de peces y habilidades de clases.",
+        "Cambios en el Priest y Rogue para mejorar la jugabilidad."
+      ],
+      "seo_description": "Correcciones de clases y objetos en WoW: Forever, incluyendo ajustes en habilidades y tasas de caída."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard announces hotfixes for classes, quests, and items.",
+        "Drop rates for fish and class abilities are adjusted.",
+        "Changes to Priest and Rogue enhance gameplay."
+      ],
+      "seo_description": "Class and item hotfixes in WoW: Forever, including adjustments to abilities and drop rates."
+    }
+  },
+  "wh-383893": {
+    "es": {
+      "tldr": [
+        "Descubierta una nueva piedra de hogar cosmética en WoW: Forever.",
+        "La piedra de hogar escarlata ofrece una animación única.",
+        "Se obtiene de High General Abbendis en las Tierras de la Plaga."
+      ],
+      "seo_description": "Nueva piedra de hogar escarlata en WoW: Forever, con animación única y obtenible en las Tierras de la Plaga."
+    },
+    "en": {
+      "tldr": [
+        "A new cosmetic Hearthstone found in WoW: Forever.",
+        "Scarlet Hearthstone provides a unique animation.",
+        "Obtained from High General Abbendis in the Plaguelands."
+      ],
+      "seo_description": "New Scarlet Hearthstone in WoW: Forever, featuring a unique animation and obtainable in the Plaguelands."
+    }
+  },
+  "wh-383898": {
+    "es": {
+      "tldr": [
+        "Nerfeo de la granja de más de 100 oros por hora en Blackmaw Hold.",
+        "Los jugadores generaron grandes cantidades de oro rápidamente.",
+        "Se descubrieron nuevas estrategias de farmeo en la mazmorras."
+      ],
+      "seo_description": "Nerfeo de la granja de oro en Blackmaw Hold en WoW: Forever, tras el descubrimiento de estrategias eficientes."
+    },
+    "en": {
+      "tldr": [
+        "Nerf to the 100+ gold per hour farm in Blackmaw Hold.",
+        "Players generated large amounts of gold quickly.",
+        "New farming strategies discovered in the dungeon."
+      ],
+      "seo_description": "Nerf to the gold farm in Blackmaw Hold in WoW: Forever, following the discovery of efficient strategies."
+    }
+  },
+  "wh-383897": {
+    "es": {
+      "tldr": [
+        "Blizzard lanza un vídeo de presentación para nuevos jugadores.",
+        "El vídeo cubre características sociales y contenido de nivel máximo.",
+        "Incluye información sobre ciudades capitales y gremios."
+      ],
+      "seo_description": "Blizzard presenta un vídeo para nuevos jugadores de WoW: Forever, cubriendo características y contenido esencial."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard releases an overview video for new players.",
+        "The video covers social features and max level content.",
+        "Includes information on capital cities and guilds."
+      ],
+      "seo_description": "Blizzard presents a video for new players of WoW: Forever, covering essential features and content."
+    }
   }
 };
