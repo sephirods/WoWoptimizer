@@ -5513,5 +5513,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Debate on whether WoW: Forever dungeons should allow quest completion in one run."
     }
+  },
+  "blizz-30937988": {
+    "es": {
+      "tldr": [
+        "Última oportunidad para pre-comprar D&D: World of Warcraft.",
+        "Incluye nuevas especies, clases y mazmorras.",
+        "La oferta termina el 17 de noviembre."
+      ],
+      "seo_description": "Pre-compra D&D: World of Warcraft y obtén recompensas en WoW. Oferta termina el 17 de noviembre."
+    },
+    "en": {
+      "tldr": [
+        "Last chance to pre-purchase D&D: World of Warcraft.",
+        "Includes new species, subclasses, and dungeons.",
+        "Offer ends on November 17."
+      ],
+      "seo_description": "Pre-purchase D&D: World of Warcraft for WoW rewards. Offer ends November 17."
+    }
+  },
+  "blizz-30937987": {
+    "es": {
+      "tldr": [
+        "Última oportunidad para pre-comprar D&D: World of Warcraft.",
+        "Incluye nuevas especies, clases y mazmorras.",
+        "La oferta termina el 17 de noviembre."
+      ],
+      "seo_description": "Pre-compra D&D: World of Warcraft y obtén recompensas en WoW. Oferta termina el 17 de noviembre."
+    },
+    "en": {
+      "tldr": [
+        "Last chance to pre-purchase D&D: World of Warcraft.",
+        "Includes new species, subclasses, and dungeons.",
+        "Offer ends on November 17."
+      ],
+      "seo_description": "Pre-purchase D&D: World of Warcraft for WoW rewards. Offer ends November 17."
+    }
   }
 };
