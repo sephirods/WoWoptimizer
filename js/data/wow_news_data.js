@@ -226,6 +226,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-weekly-highlights-the-wow-forever-podcast-a-new-short-story-this-week%E2%80%99s-videos-and-more/2414430/1"
     },
     {
+      "id": "blizz-1237389",
+      "postId": 1237389,
+      "topicId": 80943,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-17T09:00:10.734Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Únete a la celebración del 22.º aniversario de World of Warcraft",
+        "es": "Únete a la celebración del 22.º aniversario de World of Warcraft"
+      },
+      "summary": {
+        "en": "[Únete a la celebración del 22.º aniversario de World of Warcraft] Únete a la celebración del 22.º aniversario de World of Warcraft con gran variedad de actividades y numerosas for...",
+        "es": "[Únete a la celebración del 22.º aniversario de World of Warcraft] Únete a la celebración del 22.º aniversario de World of Warcraft con gran variedad de actividades y numerosas for..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\" alt=\"Únete a la celebración del 22.º aniversario de World of Warcraft\" width=\"833\" height=\"468\"></a></p><p>Únete a la celebración del 22.º aniversario de World of Warcraft con gran variedad de actividades y numerosas formas de obtener divisas para comprar un montón de objetos. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316098\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\" alt=\"Únete a la celebración del 22.º aniversario de World of Warcraft\" width=\"833\" height=\"468\"></a></p><p>Únete a la celebración del 22.º aniversario de World of Warcraft con gran variedad de actividades y numerosas formas de obtener divisas para comprar un montón de objetos. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316098\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C3%BAnete-a-la-celebraci%C3%B3n-del-22%C2%BA-aniversario-de-world-of-warcraft/80943/1"
+    },
+    {
       "id": "blizz-1237002",
       "postId": 1237002,
       "topicId": 80901,
@@ -422,32 +450,32 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/%C2%A1haz-que-salten-chispas-de-tu-hoguera-con-la-faltriquera-de-polvo-violeta/80732/1"
     },
     {
-      "id": "blizz-1235440",
-      "postId": 1235440,
-      "topicId": 80701,
+      "id": "blizz-6511666",
+      "postId": 6511666,
+      "topicId": 643574,
       "forumDomain": "eu.forums.blizzard.com",
       "region": "EU",
-      "postLang": "es",
+      "postLang": "en",
       "source": "blizzard",
       "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-03T20:00:08.915Z",
+      "dateRaw": "2026-11-17T09:00:06.362Z",
       "tag": "Blue Post",
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "Explora WoW: Forever con un mando",
-        "es": "Explora WoW: Forever con un mando"
+        "en": "Join the World of Warcraft 22nd Anniversary Celebration",
+        "es": "Join the World of Warcraft 22nd Anniversary Celebración"
       },
       "summary": {
-        "en": "[Explora WoW: Forever con un mando] ¿Prefieres usar un mando? Descubre otro modo de jugar a World of Warcraft: Forever, desde cómo moverte y lanzar hechizos hasta los ajustes de co...",
-        "es": "[Explora WoW: Forever con un mando] ¿Prefieres usar un mando? Descubre otro modo de jugar a World of Warcraft: Forever, desde cómo moverte y lanzar hechizos hasta los ajustes de co..."
+        "en": "[Join the World of Warcraft 22nd Anniversary Celebration] Join the celebration as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to ea...",
+        "es": "[Join the World of Warcraft 22nd Anniversary Celebración] Join the Celebración as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to ea..."
       },
       "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\" alt=\"Explora WoW: Forever con un mando\" width=\"833\" height=\"468\"></a></p><p>¿Prefieres usar un mando? Descubre otro modo de jugar a World of Warcraft: Forever, desde cómo moverte y lanzar hechizos hasta los ajustes de configuración. La compatibilidad con los mandos está disponible en fase beta e iremos implementando mejoras. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316974\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\" alt=\"Explora WoW: Forever con un mando\" width=\"833\" height=\"468\"></a></p><p>¿Prefieres usar un mando? Descubre otro modo de jugar a World of Warcraft: Forever, desde cómo moverte y lanzar hechizos hasta los ajustes de configuración. La compatibilidad con los mandos está disponible en fase beta e iremos implementando mejoras. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316974\">Ver artículo completo</a></p></div>"
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\" alt=\"Join the World of Warcraft 22nd Anniversary Celebration\" width=\"833\" height=\"468\"></a></p><p>Join the celebration as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to earn currency to buy a wide range of items. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24316098\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\" alt=\"Join the World of Warcraft 22nd Anniversary Celebration\" width=\"833\" height=\"468\"></a></p><p>Join the celebration as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to earn currency to buy a wide range of items. </p><p><a href=\"https://worldofwarcraft.com/en-gb/news/24316098\">View Full Article</a></p></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/explora-wow-forever-con-un-mando/80701/1"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/join-the-world-of-warcraft-22nd-anniversary-celebration/643574/1"
     },
     {
       "id": "blizz-6511114",
@@ -644,6 +672,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/watch-the-wow-forever-short-story-%E2%80%9Ccost-of-honor%E2%80%9D/642544/1"
+    },
+    {
+      "id": "blizz-1235440",
+      "postId": 1235440,
+      "topicId": 80701,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "es",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-03T20:00:08.915Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Explora WoW: Forever con un mando",
+        "es": "Explora WoW: Forever con un mando"
+      },
+      "summary": {
+        "en": "[Explora WoW: Forever con un mando] ¿Prefieres usar un mando? Descubre otro modo de jugar a World of Warcraft: Forever, desde cómo moverte y lanzar hechizos hasta los ajustes de co...",
+        "es": "[Explora WoW: Forever con un mando] ¿Prefieres usar un mando? Descubre otro modo de jugar a World of Warcraft: Forever, desde cómo moverte y lanzar hechizos hasta los ajustes de co..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\" alt=\"Explora WoW: Forever con un mando\" width=\"833\" height=\"468\"></a></p><p>¿Prefieres usar un mando? Descubre otro modo de jugar a World of Warcraft: Forever, desde cómo moverte y lanzar hechizos hasta los ajustes de configuración. La compatibilidad con los mandos está disponible en fase beta e iremos implementando mejoras. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316974\">Ver artículo completo</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\" alt=\"Explora WoW: Forever con un mando\" width=\"833\" height=\"468\"></a></p><p>¿Prefieres usar un mando? Descubre otro modo de jugar a World of Warcraft: Forever, desde cómo moverte y lanzar hechizos hasta los ajustes de configuración. La compatibilidad con los mandos está disponible en fase beta e iremos implementando mejoras. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316974\">Ver artículo completo</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/explora-wow-forever-con-un-mando/80701/1"
     },
     {
       "id": "blizz-6497741",
@@ -1344,62 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/dungeon-enemy-xp-increased-november-8/2406595/1"
-    },
-    {
-      "id": "blizz-6479538",
-      "postId": 6479538,
-      "topicId": 639885,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-07T01:02:28.062Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW: Forever Hotfixes - November 10, 2026",
-        "es": "WoW: Forever Correcciones en Vivo - November 10, 2026"
-      },
-      "summary": {
-        "en": "November 6, 2026 \nClasses \n\nFixed an issue with the Quick and the Dead Legacy Talent where it sometimes did not work as intended.\nCooldown Manager\n\nThe Cooldown Manager will now co...",
-        "es": "November 6, 2026 \nClasses \n\nFixed an issue with the Quick and the Dead Legacy Talent where it sometimes did not work as intended.\nCooldown Manager\n\nThe Cooldown Manager will now co..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><hr>\n<p><strong>November 6, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li>Fixed an issue with the Quick and the Dead Legacy Talent where it sometimes did not work as intended.</li>\n<li><strong>Cooldown Manager</strong>\n<ul>\n<li>The Cooldown Manager will now correctly display the duration of crowd control spells at all times, even when diminishing returns or mechanic reductions (like orc stun reduction) are factors.</li>\n</ul>\n</li>\n<li><strong>Druid</strong>\n<ul>\n<li>Bloom will now correctly heal the target.</li>\n<li>Fixed a bug where the tooltip of Bear Form claimed an incorrect health value increase. The functionality was correct, but the wrong value was reported.</li>\n<li>The tooltip for Ravage reported an incorrect value for its damage, and the tooltip has been corrected. There was no change made to damage done.</li>\n<li>Fixed the tooltip for Swiftmend to no longer incorrectly mention consuming the effect.</li>\n</ul>\n</li>\n<li><strong>Mage</strong>\n<ul>\n<li>Fixed an issue where Mages were still learning the Research spell and then losing it upon relogging. This spell should not exist, and you should only have the Study spell after completing the relevant quest.</li>\n<li>Fixed an issue with Arcane Blast where its duration was not properly 18 seconds.</li>\n</ul>\n</li>\n<li><strong>Rogue</strong>\n<ul>\n<li>Shank will now display Rank 1 and Rank 2 in the tooltips.</li>\n<li>While Boot Knife is talented, Shank will now correctly display the number of Combo Points it grants.</li>\n</ul>\n</li>\n<li><strong>Warlock</strong>\n<ul>\n<li>Voidwalker base health increased by about 40 at all levels.</li>\n<li>The Soul Siphon talent no longer incorrectly causes Wrack to increase its own damage.</li>\n</ul>\n</li>\n<li><strong>Warrior</strong>\n<ul>\n<li>Fixed the tooltip for Reckless Swings to mention that it activates Gore Drinker.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li>Fixed an issue that would prevent Zaetar’s Spirit from spawning after defeating Princess Theradras in Maraudon.</li>\n<li>Fixed an issue that could cause some creatures inside Blackmaw Hold and The Drowned City to erroneously disengage.</li>\n<li>The instance portal should now correctly teleport you inside The Drowned City</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Dun Morogh - Fixed an issue where the troggs in Grol’bolar Quarry would respawn too quickly.</li>\n<li>Durotar - Ridgeshade Lurkers now correctly have loot.</li>\n<li>Riverglades - Krek the Noxious now has correct loot when defeated.</li>\n<li>Swamp of Sorrows - Fixed an issue where Pelluk would sometimes not spawn.</li>\n<li>Teldrassil - Fixed an issue where Lasher Sproutlings, Blooming Lashers, and Wrathvine were immune to nature damage.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Searing Dagger is now only activated by spells that have a damaging component.</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li><strong>Leatherworking</strong>\n<ul>\n<li>Tanning Rack skill requirement lowered to 125 (was 140). This prevents it from being an obstacle to crafting various Leatherworking patterns that require 125 skill. Tanning Rack skill-ups lowered by 15 skill points to account for this.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Resolved an issue with the quest “Vorsha the Lasher” rudely lashing everyone in the zone.</li>\n<li>Brewed a fresh pot of Darnassus’s finest coffee for Kerlonian Evershade so he falls asleep less often during “The Sleeper Has Awakened”. Players now also start with the Horn of Awakening item to wake him up when needed.</li>\n<li>The quest “Rough Wolf Pelts” is now automatically cancelled if you unlearn the Skinning skill.</li>\n<li>Resolved an issue with “Rediscovering the Light” where players were sometimes unable to heal NPCs.</li>\n<li>Fixed an issue during the quest “Ammo for Rumbleshot” where players could not see loot if interacting immediately following another player.</li>\n<li>Resolved an issue where some quest item drops in Riverglades were not shared by players in a party.</li>\n<li>“Never Saddle on Quality” spawns and quest item drops should now be more plentiful.</li>\n<li>The Abomimable Head dropped from The Baron in the Ruins of Lordaeron dungeon will now properly offer the quest “Unending Torment” for Horde players at level 15 (was level 16).</li>\n<li>Damp Note drop rate increased. Eww.</li>\n</ul>\n<p><strong>Races</strong></p>\n<ul>\n<li><strong>Night Elf</strong>\n<ul>\n<li>Fixed a bug granting Shadowmelded Druids access to Ravage and Pounce.</li>\n</ul>\n</li>\n<li><strong>Orc</strong>\n<ul>\n<li>Fixes an issue where some Warlock pet abilities were benefitting too much from the Orc Command racial ability.</li>\n</ul>\n</li>\n</ul>\n<p><strong>World</strong></p>\n<ul>\n<li>Deployed some improvements to the visibility of other players and their targets across relatively large distances.</li>\n<li>Thunder Bluff - Fixed an issue where the Barbershop was darker than intended. We moooved the lights around.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><hr>\n<p><strong>November 6, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li>Fixed an issue with the Quick and the Dead Legacy Talent where it sometimes did not work as intended.</li>\n<li><strong>Cooldown Manager</strong>\n<ul>\n<li>The Cooldown Manager will now correctly display the duration of crowd control spells at all times, even when diminishing returns or mechanic reductions (like orc stun reduction) are factors.</li>\n</ul>\n</li>\n<li><strong>DRUIDA</strong>\n<ul>\n<li>Bloom will now correctly heal the target.</li>\n<li>Fixed a bug where the tooltip of Bear Form claimed an incorrect health value increase. The functionality was correct, but the wrong value was reported.</li>\n<li>The tooltip for Ravage reported an incorrect value for its damage, and the tooltip has been corrected. There was no change made to damage done.</li>\n<li>Fixed the tooltip for Swiftmend to no longer incorrectly mention consuming the effect.</li>\n</ul>\n</li>\n<li><strong>MAGO</strong>\n<ul>\n<li>Fixed an issue where Mages were still learning the Research spell and then losing it upon relogging. This spell should not exist, and you should only have the Study spell after completing the relevant quest.</li>\n<li>Fixed an issue with Arcano Blast where its duration was not properly 18 seconds.</li>\n</ul>\n</li>\n<li><strong>PÍCARO</strong>\n<ul>\n<li>Shank will now display Rank 1 and Rank 2 in the tooltips.</li>\n<li>While Boot Knife is talented, Shank will now correctly display the number of Combo Points it grants.</li>\n</ul>\n</li>\n<li><strong>BRUJO</strong>\n<ul>\n<li>Voidwalker base health increased by about 40 at all levels.</li>\n<li>The Soul Siphon talent no longer incorrectly causes Wrack to increase its own damage.</li>\n</ul>\n</li>\n<li><strong>GUERRERO</strong>\n<ul>\n<li>Fixed the tooltip for Reckless Swings to mention that it activates Gore Drinker.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li>Fixed an issue that would prevent Zaetar’s Spirit from spawning after defeating Princess Theradras in Maraudon.</li>\n<li>Fixed an issue that could cause some creatures inside Blackmaw Hold and The Drowned City to erroneously disengage.</li>\n<li>The instance portal should now correctly teleport you inside The Drowned City</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Dun Morogh - Fixed an issue where the troggs in Grol’bolar Quarry would respawn too quickly.</li>\n<li>Durotar - Ridgeshade Lurkers now correctly have loot.</li>\n<li>Riverglades - Krek the Noxious now has correct loot when defeated.</li>\n<li>Swamp of Sorrows - Fixed an issue where Pelluk would sometimes not spawn.</li>\n<li>Teldrassil - Fixed an issue where Lasher Sproutlings, Blooming Lashers, and Wrathvine were immune to nature damage.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Searing Dagger ahora es only activated by spells that have a damaging component.</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li><strong>Leatherworking</strong>\n<ul>\n<li>Tanning Rack skill requirement lowered to 125 (was 140). This prevents it from being an obstacle to crafting various Leatherworking patterns that require 125 skill. Tanning Rack skill-ups lowered by 15 skill points to account for this.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Resolved an issue with the quest “Vorsha the Lasher” rudely lashing everyone in the zone.</li>\n<li>Brewed a fresh pot of Darnassus’s finest coffee for Kerlonian Evershade so he falls asleep less often during “The Sleeper Has Awakened”. Players now also start with the Horn of Awakening item to wake him up when needed.</li>\n<li>The quest “Rough Wolf Pelts” ahora es automatically cancelled if you unlearn the Skinning skill.</li>\n<li>Resolved an issue with “Rediscovering the Light” where players were sometimes unable to heal NPCs.</li>\n<li>Fixed an issue during the quest “Ammo for Rumbleshot” where players could not see loot if interacting immediately following another player.</li>\n<li>Resolved an issue where some quest item drops in Riverglades were not shared by players in a party.</li>\n<li>“Never Saddle on Quality” spawns and quest item drops should now be more plentiful.</li>\n<li>The Abomimable Head dropped from The Baron in the Ruins of Lordaeron dungeon will now properly offer the quest “Unending Torment” for Horde players at level 15 (was level 16).</li>\n<li>Damp Note drop rate increased. Eww.</li>\n</ul>\n<p><strong>Races</strong></p>\n<ul>\n<li><strong>Night Elf</strong>\n<ul>\n<li>Fixed a bug granting Shadowmelded Druids access to Ravage and Pounce.</li>\n</ul>\n</li>\n<li><strong>Orc</strong>\n<ul>\n<li>Fixes an issue where some Warlock pet abilities were benefitting too much from the Orc Command racial ability.</li>\n</ul>\n</li>\n</ul>\n<p><strong>World</strong></p>\n<ul>\n<li>Deployed some improvements to the visibility of other players and their targets across relatively large distances.</li>\n<li>Thunder Bluff - Fixed an issue where the Barbershop was darker than intended. We moooved the lights around.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-10-2026/639885/4"
-    },
-    {
-      "id": "blizz-6479236",
-      "postId": 6479236,
-      "topicId": 640100,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-06T21:12:54.951Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Class Tuning Incoming - 10 November",
-        "es": "Ajustes de Balance de Clases Próximamente - 10 November"
-      },
-      "summary": {
-        "en": "Now that players around the world are leveling up in WoW: Forever, we’ve identified a few class issues that we feel need some immediate changes. Today, we’re still investigating th...",
-        "es": "Now that players around the world are leveling up in WoW: Forever, we’ve identified a few class issues that we feel need some immediate changes. Today, we’re still investigating th..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Now that players around the world are leveling up in WoW: Forever, we’ve identified a few class issues that we feel need some immediate changes. Today, we’re still investigating these issues and working through them with a plan to release hotfixes on Tuesday, November 10 to address:</p>\n<ul>\n<li>We’ve seen that Hunter pets and Warlock Voidwalkers are not as durable as tanks as we would like them to be. Our intent is for their effectiveness to be relatively the same as in Classic Era. We will adjust their stats as necessary to accomplish this.</li>\n<li>Affliction Warlock reports indicate that always channeling Wrack is superior to also casting damage-over-time abilities like Siphon Life, Corruption, and Bane of Agony. We will make adjustments to make sure those are always worthwhile to cast combined with Wrack, without affecting Affliction Warlocks’ total damage output.</li>\n<li>Enhancement Shamans are finding that Intellect and Spellpower are superior stats compared to Strength and Attack Power. We plan to make changes so that Strength is always their strongest stat, and Enhancement Shamans will not prefer gear intended for Mages and Warlocks. Ideally, Enhancement’s best items have Strength or Attack Power, along with some Intellect and/or Spell Power.</li>\n</ul>\n<p><strong>Please note: Enhancement Shaman players who are leveling up will want to collect Strength and Attack Power gear from now on.</strong></p>\n<p>We may find new issues over the weekend, and we will keep you updated. Our plan is to make class balance changes on Tuesday, and then on future Tuesdays if necessary. Thank you very much for your feedback!</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Now that players around the world are leveling up in WoW: Forever, we’ve identified a few class issues that we feel need some immediate changes. Today, we’re still investigating these issues and working through them with a plan to release hotfixes on Tuesday, November 10 to address:</p>\n<ul>\n<li>We’ve seen that Hunter pets and Warlock Voidwalkers are not as durable as tanks as we would like them to be. Our intent is for their effectiveness to be relatively the same as in Classic Era. We will adjust their stats as necessary to accomplish this.</li>\n<li>Aflicción Warlock reports indicate that always channeling Wrack is superior to also casting damage-over-time abilities like Siphon Life, Corruption, and Bane of Agony. We will make adjustments to make sure those are always worthwhile to cast combined with Wrack, without affecting Aflicción Warlocks’ total damage output.</li>\n<li>Mejora Shamans are finding that Intellect and Spellpower are superior stats compared to Strength and Attack Power. We plan to make changes so that Strength is always their strongest stat, and Mejora Shamans will not prefer gear intended for Mages and Warlocks. Ideally, Mejora’s best items have Strength or Attack Power, along with some Intellect and/or Spell Power.</li>\n</ul>\n<p><strong>Please note: Mejora Shaman players who are leveling up will want to collect Strength and Attack Power gear from now on.</strong></p>\n<p>We may find new issues over the weekend, and we will keep you updated. Our plan is to make class balance changes on Tuesday, and then on future Tuesdays if necessary. Thank you very much for your feedback!</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/class-tuning-incoming-10-november/640100/1"
     }
   ],
   "blizzardNews": [
