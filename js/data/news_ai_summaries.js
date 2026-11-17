@@ -5783,5 +5783,203 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Join the 22nd Anniversary Celebration of WoW with a 20% experience and reputation boost."
     }
+  },
+  "blizz-30953089": {
+    "es": {
+      "tldr": [
+        "Se descubrió un grupo de enemigos no élite en Blackmaw Hold.",
+        "Estos enemigos estaban soltando loot como si fueran élite.",
+        "Se aplicó un hotfix y se investiga el impacto económico."
+      ],
+      "seo_description": "Hotfix aplicado tras abuso en Blackmaw Hold. Se investiga el impacto en la economía del juego."
+    },
+    "en": {
+      "tldr": [
+        "A group of non-elite enemies was found in Blackmaw Hold.",
+        "They were dropping loot as if they were elite.",
+        "A hotfix was applied, and the economic impact is being investigated."
+      ],
+      "seo_description": "Hotfix applied after abuse in Blackmaw Hold. Investigating the impact on the game's economy."
+    }
+  },
+  "blizz-30952324": {
+    "es": {
+      "tldr": [
+        "Celebración del 22º aniversario de World of Warcraft.",
+        "Actividades variadas y formas de ganar moneda.",
+        "Oportunidades para adquirir una amplia gama de artículos."
+      ],
+      "seo_description": "Únete a la celebración del 22º aniversario de WoW con actividades y recompensas."
+    },
+    "en": {
+      "tldr": [
+        "Celebrating World of Warcraft's 22nd anniversary.",
+        "Variety of activities and ways to earn currency.",
+        "Opportunities to acquire a wide range of items."
+      ],
+      "seo_description": "Join the 22nd anniversary celebration of WoW with activities and rewards."
+    }
+  },
+  "blizz-30952323": {
+    "es": {
+      "tldr": [
+        "Celebración del 22º aniversario de World of Warcraft.",
+        "Actividades variadas y formas de ganar moneda.",
+        "Oportunidades para adquirir una amplia gama de artículos."
+      ],
+      "seo_description": "Únete a la celebración del 22º aniversario de WoW con actividades y recompensas."
+    },
+    "en": {
+      "tldr": [
+        "Celebrating World of Warcraft's 22nd anniversary.",
+        "Variety of activities and ways to earn currency.",
+        "Opportunities to acquire a wide range of items."
+      ],
+      "seo_description": "Join the 22nd anniversary celebration of WoW with activities and rewards."
+    }
+  },
+  "blizz-30952321": {
+    "es": {
+      "tldr": [
+        "Llega Midnight: Ecos del Núcleo del Mundo el 1 de diciembre.",
+        "Explora la historia de Azeroth bajo la Vía del Núcleo.",
+        "Únete a Li Li Cerveza de Trueno en un Paseo por la historia."
+      ],
+      "seo_description": "Midnight: Ecos del Núcleo del Mundo llega el 1 de diciembre. Explora la historia de Azeroth."
+    },
+    "en": {
+      "tldr": [
+        "Midnight: Echoes of the Worldcore arrives on December 1.",
+        "Explore Azeroth's history beneath the Coreway.",
+        "Join Li Li Stormstout for a Lorewalk."
+      ],
+      "seo_description": "Midnight: Echoes of the Worldcore arrives December 1. Explore Azeroth's history."
+    }
+  },
+  "blizz-30952294": {
+    "es": {
+      "tldr": [
+        "Talebound presenta relatos retorcidos y destinos mortales el 1 de diciembre.",
+        "Sumérgete en el mundo macabro de Talebound.",
+        "Conviértete en parte de las crónicas oscuras de un narrador misterioso."
+      ],
+      "seo_description": "Talebound llega el 1 de diciembre. Sumérgete en relatos oscuros y misteriosos."
+    },
+    "en": {
+      "tldr": [
+        "Talebound's Twisted Tales and Deadly Fates arrive December 1.",
+        "Step into the macabre world of Talebound.",
+        "Become part of the dark chronicles of a mysterious Storyteller."
+      ],
+      "seo_description": "Talebound arrives December 1. Step into dark and mysterious tales."
+    }
+  },
+  "blizz-1237484": {
+    "es": {
+      "tldr": [
+        "Ecos del Núcleo del Mundo estará disponible el 2 de diciembre.",
+        "Explora la historia de Azeroth bajo la Vía del Núcleo.",
+        "Únete a Li Li Cerveza de Trueno en un Paseo por la historia."
+      ],
+      "seo_description": "Ecos del Núcleo del Mundo llega el 2 de diciembre. Explora la historia de Azeroth."
+    },
+    "en": {
+      "tldr": [
+        "Echoes of the Worldcore will be available on December 2.",
+        "Explore Azeroth's history beneath the Coreway.",
+        "Join Li Li Stormstout for a Lorewalk."
+      ],
+      "seo_description": "Echoes of the Worldcore arrives December 2. Explore Azeroth's history."
+    }
+  },
+  "blizz-1237483": {
+    "es": {
+      "tldr": [
+        "Ecos del Núcleo del Mundo se lanza el 2 de diciembre.",
+        "Explora la historia de Azeroth bajo la Vía del Núcleo.",
+        "Acompaña a Li Li Cerveza de Trueno en un Paseo por la historia."
+      ],
+      "seo_description": "Ecos del Núcleo del Mundo llega el 2 de diciembre, explorando la historia de Azeroth."
+    },
+    "en": {
+      "tldr": [
+        "Worldcore Echoes launches on December 2.",
+        "Explore Azeroth's history beneath the Coreway.",
+        "Join Li Li Stormstout for a Lorewalk."
+      ],
+      "seo_description": "Worldcore Echoes arrives December 2, exploring Azeroth's history."
+    }
+  },
+  "blizz-1237482": {
+    "es": {
+      "tldr": [
+        "Historias de leyenda se lanzan el 2 de diciembre.",
+        "Adéntrate en relatos oscuros de un narrador misterioso.",
+        "Experimenta un mundo macabro y escalofriante."
+      ],
+      "seo_description": "Historias de leyenda llega el 2 de diciembre, sumérgete en relatos oscuros."
+    },
+    "en": {
+      "tldr": [
+        "Tales of Legend launches on December 2.",
+        "Dive into dark stories from a mysterious narrator.",
+        "Experience a chilling and macabre world."
+      ],
+      "seo_description": "Tales of Legend arrives December 2, immerse in dark stories."
+    }
+  },
+  "blizz-6513699": {
+    "es": {
+      "tldr": [
+        "Se monitorea la economía del juego tras un abuso en Blackmaw Hold.",
+        "Un grupo de enemigos no élite daba loot excesivo.",
+        "Se aplicó un hotfix y se investiga el impacto económico."
+      ],
+      "seo_description": "Se toman acciones tras abuso en Blackmaw Hold, se investiga el impacto económico."
+    },
+    "en": {
+      "tldr": [
+        "Game economy monitored after abuse in Blackmaw Hold.",
+        "Non-elite enemies dropped excessive loot.",
+        "Hotfix applied and economic impact investigated."
+      ],
+      "seo_description": "Actions taken after abuse in Blackmaw Hold, investigating economic impact."
+    }
+  },
+  "blizz-6513607": {
+    "es": {
+      "tldr": [
+        "Ecos del Núcleo del Mundo llega el 1 de diciembre.",
+        "Explora la historia de Azeroth bajo la Vía del Núcleo.",
+        "Enfrenta relatos macabros en Talebound."
+      ],
+      "seo_description": "Ecos del Núcleo del Mundo llega el 1 de diciembre, explora la historia de Azeroth."
+    },
+    "en": {
+      "tldr": [
+        "Worldcore Echoes arrives on December 1.",
+        "Explore Azeroth's history beneath the Coreway.",
+        "Face macabre tales in Talebound."
+      ],
+      "seo_description": "Worldcore Echoes arrives December 1, explore Azeroth's history."
+    }
+  },
+  "blizz-6513603": {
+    "es": {
+      "tldr": [
+        "Talebound llega el 1 de diciembre.",
+        "Sumérgete en relatos oscuros de un narrador misterioso.",
+        "Experimenta un mundo macabro y escalofriante."
+      ],
+      "seo_description": "Talebound llega el 1 de diciembre, sumérgete en relatos oscuros."
+    },
+    "en": {
+      "tldr": [
+        "Talebound arrives December 1.",
+        "Immerse in dark tales from a mysterious storyteller.",
+        "Experience a chilling and macabre world."
+      ],
+      "seo_description": "Talebound arrives December 1, immerse in dark tales."
+    }
   }
 };
