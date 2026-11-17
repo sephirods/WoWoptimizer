@@ -2,6 +2,62 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30937988",
+      "postId": 30937988,
+      "topicId": 2418408,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-16T22:10:47.060Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Last Call to Pre-Purchase: Craft New Adventures with D&D: World of Warcraft",
+        "es": "Last Call to Pre-Purchase: Craft New Adventures with D&D: World of Warcraft"
+      },
+      "summary": {
+        "en": "[Last Call to Pre-Purchase: Craft New Adventures with D&amp;D: World of Warcraft] Cross from desktop to tabletop with D&amp;D: World of Warcraft. Build your character, gather your ...",
+        "es": "[Last Call to Pre-Purchase: Craft New Adventures with D&amp;D: World of Warcraft] Cross from desktop to tabletop with D&amp;D: World of Warcraft. Build your character, gather your ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/28/28G6DBLHGOAI1785448076967.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/28/28G6DBLHGOAI1785448076967.png\" alt=\"Last Call to Pre-Purchase: Craft New Adventures with D&amp;D: World of Warcraft\" width=\"833\" height=\"468\"></a></p><p>Cross from desktop to tabletop with D&amp;D: World of Warcraft. Build your character, gather your party, and craft your story in Azeroth with new species, subclasses, dungeons, and the iconic Icecrown Citadel raid to plunder for rewards. Last call to pre-purchase D&amp;D: World of Warcraft Bundles for an epic haul of treasures, including World of Warcraft in-game items—the pre-purchase offer ends November 17. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316983\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/28/28G6DBLHGOAI1785448076967.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/28/28G6DBLHGOAI1785448076967.png\" alt=\"Last Call to Pre-Purchase: Craft New Adventures with D&amp;D: World of Warcraft\" width=\"833\" height=\"468\"></a></p><p>Cross from desktop to tabletop with D&amp;D: World of Warcraft. Build your character, gather your party, and craft your story in Azeroth with new species, subclasses, dungeons, and the iconic Icecrown Citadel raid to plunder for rewards. Last call to pre-purchase D&amp;D: World of Warcraft Bundles for an epic haul of treasures, including World of Warcraft in-game items—the pre-purchase offer ends November 17. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316983\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/last-call-to-pre-purchase-craft-new-adventures-with-dd-world-of-warcraft/2418408/1"
+    },
+    {
+      "id": "blizz-30937987",
+      "postId": 30937987,
+      "topicId": 2418407,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-16T22:10:45.982Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Last Call to Pre-Purchase: Craft New Adventures with D&D: World of Warcraft",
+        "es": "Last Call to Pre-Purchase: Craft New Adventures with D&D: World of Warcraft"
+      },
+      "summary": {
+        "en": "[Last Call to Pre-Purchase: Craft New Adventures with D&amp;D: World of Warcraft] Cross from desktop to tabletop with D&amp;D: World of Warcraft. Build your character, gather your ...",
+        "es": "[Last Call to Pre-Purchase: Craft New Adventures with D&amp;D: World of Warcraft] Cross from desktop to tabletop with D&amp;D: World of Warcraft. Build your character, gather your ..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/28/28G6DBLHGOAI1785448076967.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/28/28G6DBLHGOAI1785448076967.png\" alt=\"Last Call to Pre-Purchase: Craft New Adventures with D&amp;D: World of Warcraft\" width=\"833\" height=\"468\"></a></p><p>Cross from desktop to tabletop with D&amp;D: World of Warcraft. Build your character, gather your party, and craft your story in Azeroth with new species, subclasses, dungeons, and the iconic Icecrown Citadel raid to plunder for rewards. Last call to pre-purchase D&amp;D: World of Warcraft Bundles for an epic haul of treasures, including World of Warcraft in-game items—the pre-purchase offer ends November 17. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316983\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/28/28G6DBLHGOAI1785448076967.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/28/28G6DBLHGOAI1785448076967.png\" alt=\"Last Call to Pre-Purchase: Craft New Adventures with D&amp;D: World of Warcraft\" width=\"833\" height=\"468\"></a></p><p>Cross from desktop to tabletop with D&amp;D: World of Warcraft. Build your character, gather your party, and craft your story in Azeroth with new species, subclasses, dungeons, and the iconic Icecrown Citadel raid to plunder for rewards. Last call to pre-purchase D&amp;D: World of Warcraft Bundles for an epic haul of treasures, including World of Warcraft in-game items—the pre-purchase offer ends November 17. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316983\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/last-call-to-pre-purchase-craft-new-adventures-with-dd-world-of-warcraft/2418407/1"
+    },
+    {
       "id": "blizz-30912982",
       "postId": 30912982,
       "topicId": 2416343,
@@ -168,62 +224,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/watch-the-wow-forever-short-story-%E2%80%9Ccost-of-honor%E2%80%9D/2414424/1"
-    },
-    {
-      "id": "blizz-30876030",
-      "postId": 30876030,
-      "topicId": 2403040,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-12T19:10:52.697Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW: Forever Hotfixes - November 13, 2026",
-        "es": "WoW: Forever Correcciones en Vivo - November 13, 2026"
-      },
-      "summary": {
-        "en": "Please note: \nDue to an unexpected delay in deployment, the following changes went live to all regions at 10:45 a.m. PST today. \nClasses\nShaman \n\nWeapon imbues and Weapon totems ca...",
-        "es": "Please note: \nDue to an unexpected delay in deployment, the following changes went live to all regions at 10:45 a.m. PST today. \nClasses\nShaman \n\nWeapon imbues and Weapon totems ca..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Please note:<br>\nDue to an unexpected delay in deployment, the following changes went live to all regions at 10:45 a.m. PST today.</p>\n<h2><a name=\"p-30876030-classes-1\" class=\"anchor\" href=\"#p-30876030-classes-1\" aria-label=\"Heading link\"></a>Classes</h2>\n<p><strong>Shaman</strong></p>\n<ul>\n<li>Weapon imbues and Weapon totems can now be used at the same time.</li>\n<li><strong>Enhancement</strong>\n<ul>\n<li>Stormstrike damage reduced to 100% weapon damage (was 150%), and cooldown increased to 8 seconds (was 6 seconds).</li>\n<li>Mental Dexterity: Intellect to Attack Power conversion ratio reduced to 33/66/100% (was 50/100/150%).</li>\n<li>Maelstrom Weapon now grants 20% reduced cast time and Mana cost per application at all ranks (was 4/8/12/16/20% reduced cast time and Mana cost), and chance to activate now increases with rank and activates 6/7/8/9/10 times per minute (was 20 times per minute regardless of rank).</li>\n<li>Maelstrom Weapon tooltip updated to display the Shaman’s % chance to activate it based on their Main Hand Weapon’s speed. For example, if the Shaman has the 5 points into Maelstrom Weapon and has a 3.6 speed weapon it will display a 60% chance to activate on swing, compared to if the Shaman is wielding a 2.0 speed weapon it will display a 33% chance to activate on swing.</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Please note:<br>\nDue to an unexpected delay in deployment, the following changes went live to all regions at 10:45 a.m. PST today.</p>\n<h2><a name=\"p-30876030-classes-1\" class=\"anchor\" href=\"#p-30876030-classes-1\" aria-label=\"Heading link\"></a>Classes</h2>\n<p><strong>CHAMÁN</strong></p>\n<ul>\n<li>Weapon imbues and Weapon totems can now be used at the same time.</li>\n<li><strong>Mejora</strong>\n<ul>\n<li>Stormstrike damage reduced to 100% weapon damage (antes era 150%), and cooldown increased to 8 seconds (was 6 seconds).</li>\n<li>Mental Dexterity: Intellect to Attack Power conversion ratio reduced to 33/66/100% (was 50/100/150%).</li>\n<li>Maelstrom Weapon now grants 20% reduced cast time and Mana cost per application at all ranks (was 4/8/12/16/20% reduced cast time and Mana cost), and chance to activate ahora aumenta with rank and activates 6/7/8/9/10 times per minute (was 20 times per minute regardless of rank).</li>\n<li>Maelstrom Weapon tooltip updated to display the Shaman’s % chance to activate it based on their Main Hand Weapon’s speed. For example, if the Shaman has the 5 points into Maelstrom Weapon and has a 3.6 speed weapon it will display a 60% chance to activate on swing, compared to if the Shaman is wielding a 2.0 speed weapon it will display a 33% chance to activate on swing.</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/9"
-    },
-    {
-      "id": "blizz-30874280",
-      "postId": 30874280,
-      "topicId": 2412856,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-12T17:46:04.799Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The WoW Forever Podcast: Episode 7 - Turbo Nerds Lore-ing Out ft. @Nobbel87 & Platinum WoW",
-        "es": "The WoW Forever Podcast: Episode 7 - Turbo Nerds Lore-ing Out ft. @Nobbel87 & Platinum WoW"
-      },
-      "summary": {
-        "en": "[Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast]...",
-        "es": "[Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast]..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"a_fLWei5KwE\" data-video-title=\"Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=a_fLWei5KwE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/a_fLWei5KwE/maxresdefault.jpg\" title=\"Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"a_fLWei5KwE\" data-video-title=\"Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=a_fLWei5KwE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/a_fLWei5KwE/maxresdefault.jpg\" title=\"Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-7-turbo-nerds-lore-ing-out-ft-nobbel87-platinum-wow/2412856/1"
     },
     {
       "id": "blizz-1237002",
@@ -672,6 +672,62 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-7-turbo-nerds-lore-ing-out-ft-nobbel87-platinum-wow/642185/1"
+    },
+    {
+      "id": "blizz-30876030",
+      "postId": 30876030,
+      "topicId": 2403040,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-12T19:10:52.697Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever Hotfixes - November 13, 2026",
+        "es": "WoW: Forever Correcciones en Vivo - November 13, 2026"
+      },
+      "summary": {
+        "en": "Please note: \nDue to an unexpected delay in deployment, the following changes went live to all regions at 10:45 a.m. PST today. \nClasses\nShaman \n\nWeapon imbues and Weapon totems ca...",
+        "es": "Please note: \nDue to an unexpected delay in deployment, the following changes went live to all regions at 10:45 a.m. PST today. \nClasses\nShaman \n\nWeapon imbues and Weapon totems ca..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Please note:<br>\nDue to an unexpected delay in deployment, the following changes went live to all regions at 10:45 a.m. PST today.</p>\n<h2><a name=\"p-30876030-classes-1\" class=\"anchor\" href=\"#p-30876030-classes-1\" aria-label=\"Heading link\"></a>Classes</h2>\n<p><strong>Shaman</strong></p>\n<ul>\n<li>Weapon imbues and Weapon totems can now be used at the same time.</li>\n<li><strong>Enhancement</strong>\n<ul>\n<li>Stormstrike damage reduced to 100% weapon damage (was 150%), and cooldown increased to 8 seconds (was 6 seconds).</li>\n<li>Mental Dexterity: Intellect to Attack Power conversion ratio reduced to 33/66/100% (was 50/100/150%).</li>\n<li>Maelstrom Weapon now grants 20% reduced cast time and Mana cost per application at all ranks (was 4/8/12/16/20% reduced cast time and Mana cost), and chance to activate now increases with rank and activates 6/7/8/9/10 times per minute (was 20 times per minute regardless of rank).</li>\n<li>Maelstrom Weapon tooltip updated to display the Shaman’s % chance to activate it based on their Main Hand Weapon’s speed. For example, if the Shaman has the 5 points into Maelstrom Weapon and has a 3.6 speed weapon it will display a 60% chance to activate on swing, compared to if the Shaman is wielding a 2.0 speed weapon it will display a 33% chance to activate on swing.</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Please note:<br>\nDue to an unexpected delay in deployment, the following changes went live to all regions at 10:45 a.m. PST today.</p>\n<h2><a name=\"p-30876030-classes-1\" class=\"anchor\" href=\"#p-30876030-classes-1\" aria-label=\"Heading link\"></a>Classes</h2>\n<p><strong>CHAMÁN</strong></p>\n<ul>\n<li>Weapon imbues and Weapon totems can now be used at the same time.</li>\n<li><strong>Mejora</strong>\n<ul>\n<li>Stormstrike damage reduced to 100% weapon damage (antes era 150%), and cooldown increased to 8 seconds (was 6 seconds).</li>\n<li>Mental Dexterity: Intellect to Attack Power conversion ratio reduced to 33/66/100% (was 50/100/150%).</li>\n<li>Maelstrom Weapon now grants 20% reduced cast time and Mana cost per application at all ranks (was 4/8/12/16/20% reduced cast time and Mana cost), and chance to activate ahora aumenta with rank and activates 6/7/8/9/10 times per minute (was 20 times per minute regardless of rank).</li>\n<li>Maelstrom Weapon tooltip updated to display the Shaman’s % chance to activate it based on their Main Hand Weapon’s speed. For example, if the Shaman has the 5 points into Maelstrom Weapon and has a 3.6 speed weapon it will display a 60% chance to activate on swing, compared to if the Shaman is wielding a 2.0 speed weapon it will display a 33% chance to activate on swing.</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/9"
+    },
+    {
+      "id": "blizz-30874280",
+      "postId": 30874280,
+      "topicId": 2412856,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-12T17:46:04.799Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "The WoW Forever Podcast: Episode 7 - Turbo Nerds Lore-ing Out ft. @Nobbel87 & Platinum WoW",
+        "es": "The WoW Forever Podcast: Episode 7 - Turbo Nerds Lore-ing Out ft. @Nobbel87 & Platinum WoW"
+      },
+      "summary": {
+        "en": "[Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast]...",
+        "es": "[Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast]..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"a_fLWei5KwE\" data-video-title=\"Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=a_fLWei5KwE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/a_fLWei5KwE/maxresdefault.jpg\" title=\"Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"a_fLWei5KwE\" data-video-title=\"Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=a_fLWei5KwE\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener\">\n    <img class=\"youtube-thumbnail\" src=\"https://img.youtube.com/vi/a_fLWei5KwE/maxresdefault.jpg\" title=\"Turbo Nerds Lore-ing Out | Episode 7 - The WoW: Forever Podcast\" width=\"833\" height=\"468\">\n  </a>\n</div>\n</div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-7-turbo-nerds-lore-ing-out-ft-nobbel87-platinum-wow/2412856/1"
     },
     {
       "id": "blizz-6495278",
@@ -1344,62 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-prep%C3%A1rate-para-forever-prueba-historias-de-leyenda-de-midnight-y-descubre%E2%80%A6/80818/1"
-    },
-    {
-      "id": "blizz-30786301",
-      "postId": 30786301,
-      "topicId": 2382684,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-11-07T01:07:46.529Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "World of Warcraft: Midnight Hotfixes - November 6",
-        "es": "World of Warcraft: Midnight Correcciones en Vivo - November 6"
-      },
-      "summary": {
-        "en": "November 6, 2026 \nDungeons and Raids \n\nThe Venomous Abyss\n\nVashnik, the Malignant\n\nMalignance damage reduced by 37% on Mythic difficulty.\nMalignance damage over time duration reduc...",
-        "es": "November 6, 2026 \nMazmorras and Bandas \n\nThe Venomous Abyss\n\nVashnik, the Malignant\n\nMalignance damage reduced by 37% on Mítica+ difficulty.\nMalignance damage over time duration re..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 6, 2026</strong></p>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Vashnik, the Malignant</strong>\n<ul>\n<li>Malignance damage reduced by 37% on Mythic difficulty.</li>\n<li>Malignance damage over time duration reduced to 16 seconds on Mythic difficulty.</li>\n</ul>\n</li>\n<li><strong>Ula’tek</strong>\n<ul>\n<li>Adjusted the health scaling on the following enemies on Raid Finder, Normal, and Heroic difficulties to better account for smaller raid sizes. Their base health has also been reduced on these difficulties to ensure the health scaling does not increase their health with larger raid sizes.\n<ul>\n<li>Ula’tek</li>\n<li>Blightscale Rawling</li>\n<li>Blightscale Viper</li>\n<li>Blightscale Shrieker</li>\n<li>Weakened Doomscale</li>\n</ul>\n</li>\n<li>Ula’tek health reduced by 15% on Heroic difficulty.</li>\n<li>Unchecked Rage damage reduced by 61% on all difficulties.</li>\n<li>Caustic Waves impact damage reduced by 32% on Heroic and Mythic difficulties.</li>\n<li>Caustic Waves damage over time reduced by 75% on Normal, 61% on Heroic, and 89% on Mythic difficulties.</li>\n<li>Malice damage reduced by 63% on Normal and Heroic difficulty, and 45% on Mythic difficulty.</li>\n<li>Virulent Spit damage reduced by 46% on Raid Finder, 33% on Normal and Heroic, and 36% on Mythic difficulties.</li>\n<li>Falling Debris damage reduced by 46% on Raid Finder, 33% on Normal and Heroic, and 77% on Mythic difficulties.</li>\n<li>Viscous Echoes impact damage reduced by 53% and damage over time reduced by 25% on all difficulties.</li>\n<li>Reduced the number of eggs summoned by Call of the Serpent on Normal and Heroic difficulty.</li>\n<li>Reduced the number of targets selected by Serpent’s Bite on all difficulties.</li>\n<li>Reduced the number of targets selected by Grasping Fangs on Normal and Heroic difficulty.</li>\n<li>Removed 2 eggs from each side during Phase 2, reducing the total to 8 eggs per side on Heroic difficulty.</li>\n<li>Ula’tek no longer generates additional Caustic Waves from Spectral Tails when sending walls of waves across the platforms during Phase 3 on Heroic difficulty.</li>\n<li>Noxious Splash initial damage reduced by 33% and damage over time reduced by 84% on Mythic difficulty.</li>\n<li>Putrid Membrane duration reduced to 20 seconds (was 30 seconds) on Mythic difficulty.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 6, 2026</strong></p>\n<p><strong>Dungeons and Raids</strong></p>\n<ul>\n<li><strong>The Venomous Abyss</strong>\n<ul>\n<li><strong>Vashnik, the Malignant</strong>\n<ul>\n<li>Malignance daño reducido un 37% on Mythic difficulty.</li>\n<li>Malignance damage over time duration reduced to 16 seconds on Mythic difficulty.</li>\n</ul>\n</li>\n<li><strong>Ula’tek</strong>\n<ul>\n<li>Adjusted the health scaling on the following enemies on Raid Finder, Normal, and Heroic difficulties to better account for smaller raid sizes. Their base health has also been reduced on these difficulties to ensure the health scaling does not increase their health with larger raid sizes.\n<ul>\n<li>Ula’tek</li>\n<li>Blightscale Rawling</li>\n<li>Blightscale Viper</li>\n<li>Blightscale Shrieker</li>\n<li>Weakened Doomscale</li>\n</ul>\n</li>\n<li>Ula’tek health reduced by 15% on Heroic difficulty.</li>\n<li>Unchecked Rage daño reducido un 61% on all difficulties.</li>\n<li>Caustic Waves impact daño reducido un 32% on Heroic and Mythic difficulties.</li>\n<li>Caustic Waves damage over time reduced by 75% on Normal, 61% on Heroic, and 89% on Mythic difficulties.</li>\n<li>Malice daño reducido un 63% on Normal and Heroic difficulty, and 45% on Mythic difficulty.</li>\n<li>Virulent Spit daño reducido un 46% on Raid Finder, 33% on Normal and Heroic, and 36% on Mythic difficulties.</li>\n<li>Falling Debris daño reducido un 46% on Raid Finder, 33% on Normal and Heroic, and 77% on Mythic difficulties.</li>\n<li>Viscous Echoes impact daño reducido un 53% and damage over time reduced by 25% on all difficulties.</li>\n<li>Reduced the number of eggs summoned by Call of the Serpent on Normal and Heroic difficulty.</li>\n<li>Reduced the number of targets selected by Serpent’s Bite on all difficulties.</li>\n<li>Reduced the number of targets selected by Grasping Fangs on Normal and Heroic difficulty.</li>\n<li>Removed 2 eggs from each side during Phase 2, reducing the total to 8 eggs per side on Heroic difficulty.</li>\n<li>Ula’tek no longer generates additional Caustic Waves from Spectral Tails when sending walls of waves across the platforms during Phase 3 on Heroic difficulty.</li>\n<li>Noxious Splash initial daño reducido un 33% and damage over time reduced by 84% on Mythic difficulty.</li>\n<li>Putrid Membrane duration reduced to 20 seconds (was 30 seconds) on Mythic difficulty.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/world-of-warcraft-midnight-hotfixes-november-6/2382684/163"
-    },
-    {
-      "id": "blizz-6479077",
-      "postId": 6479077,
-      "topicId": 639867,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Linxy (Community Manager)",
-      "dateRaw": "2026-11-06T19:03:24.418Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "The Venomous Abyss Raid Tuning Incoming",
-        "es": "The Venomous Abyss Banda Tuning Próximamente"
-      },
-      "summary": {
-        "en": "The Ula’tek adjustments are now live. I’ll be sure to add them to the hotfixes post later today....",
-        "es": "The Ula’tek adjustments are Ya Disponible. I’ll be sure to add them to the Correcciones en Vivo post later today...."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The Ula’tek adjustments are now live. I’ll be sure to add them to the hotfixes post later today.</p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>The Ula’tek adjustments are now live. I’ll be sure to add them to the hotfixes post later today.</p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/the-venomous-abyss-raid-tuning-incoming/639867/14"
     }
   ],
   "blizzardNews": [
