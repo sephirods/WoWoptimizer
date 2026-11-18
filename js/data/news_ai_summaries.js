@@ -6107,5 +6107,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Join the WoW 22nd Anniversary celebration from November 17 to December 8."
     }
+  },
+  "blizz-30961910": {
+    "es": {
+      "tldr": [
+        "Los jugadores montados ya no pueden dormir en la Bolsa de Dormir.",
+        "La Bolsa de Dormir ahora indica su área de efecto.",
+        "Se corrigieron problemas de dificultad en Upper Blackrock Spire."
+      ],
+      "seo_description": "Correcciones en vivo de WoW del 17 de noviembre de 2026, incluyendo cambios en la Bolsa de Dormir y ajustes en UBRS."
+    },
+    "en": {
+      "tldr": [
+        "Mounted players can no longer sleep on the Cozy Sleeping Bag.",
+        "The Cozy Sleeping Bag now indicates its area of effect.",
+        "Issues in Upper Blackrock Spire difficulty have been corrected."
+      ],
+      "seo_description": "Live hotfixes for WoW on November 17, 2026, including changes to the Cozy Sleeping Bag and adjustments in UBRS."
+    }
+  },
+  "blizz-6514847": {
+    "es": {
+      "tldr": [
+        "Los jugadores montados ya no pueden dormir en la Bolsa de Dormir.",
+        "La Bolsa de Dormir ahora indica su área de efecto.",
+        "Se corrigieron problemas de dificultad en Upper Blackrock Spire."
+      ],
+      "seo_description": "Correcciones en vivo de WoW del 17 de noviembre de 2026, incluyendo cambios en la Bolsa de Dormir y ajustes en UBRS."
+    },
+    "en": {
+      "tldr": [
+        "Mounted players can no longer sleep on the Cozy Sleeping Bag.",
+        "The Cozy Sleeping Bag now indicates its area of effect.",
+        "Issues in Upper Blackrock Spire difficulty have been corrected."
+      ],
+      "seo_description": "Live hotfixes for WoW on November 17, 2026, including changes to the Cozy Sleeping Bag and adjustments in UBRS."
+    }
   }
 };
