@@ -6179,5 +6179,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "WoW: Forever breaks records with over 15 million characters created and 1.5 billion quests completed."
     }
+  },
+  "wh-383917": {
+    "es": {
+      "tldr": [
+        "El depósito mínimo en la casa de subastas se reduce a 1 cobre.",
+        "El cambio se implementa tras el reinicio semanal.",
+        "Beneficia a los materiales baratos en niveles iniciales."
+      ],
+      "seo_description": "El depósito mínimo en la casa de subastas de WoW: Forever se reduce a 1 cobre, facilitando el comercio de materiales baratos."
+    },
+    "en": {
+      "tldr": [
+        "Minimum deposit in the Auction House reduced to 1 Copper.",
+        "Change implemented after the weekly reset.",
+        "Benefits cheaper materials in early levels."
+      ],
+      "seo_description": "The minimum deposit in the Auction House of WoW: Forever is reduced to 1 Copper, easing trade for cheaper materials."
+    }
   }
 };
