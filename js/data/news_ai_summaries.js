@@ -6053,5 +6053,59 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Talebound, a new RPG mode, launches on December 1 in WoW: Midnight."
     }
+  },
+  "blizz-24317679": {
+    "es": {
+      "tldr": [
+        "Disponible el 2 de diciembre.",
+        "Nueva campaña: 'Vuelve a Dornogal'.",
+        "Explora Historias de leyenda con un narrador misterioso."
+      ],
+      "seo_description": "Descubre Midnight: Ecos del Núcleo del Mundo el 2 de diciembre con nuevas historias y misiones."
+    },
+    "en": {
+      "tldr": [
+        "Arrives December 1.",
+        "New campaign: 'The Return to Dornogal'.",
+        "Explore Talebound with a mysterious storyteller."
+      ],
+      "seo_description": "Discover Midnight: Echoes of the Worldcore on December 1 with new stories and quests."
+    }
+  },
+  "blizz-24316569": {
+    "es": {
+      "tldr": [
+        "Disponible el 2 de diciembre.",
+        "Modo de juego RPG de acción JcE.",
+        "Explora niveles temáticos con amigos o en solitario."
+      ],
+      "seo_description": "Adéntrate en Historias de leyenda el 2 de diciembre, un RPG de acción lleno de peligros."
+    },
+    "en": {
+      "tldr": [
+        "Available December 1.",
+        "PvE action RPG game mode.",
+        "Explore themed tales solo or with friends."
+      ],
+      "seo_description": "Step into Talebound on December 1, a PvE action RPG filled with dangers."
+    }
+  },
+  "blizz-24316098": {
+    "es": {
+      "tldr": [
+        "Celebración del 22.º aniversario de WoW.",
+        "Del 17 de noviembre al 8 de diciembre.",
+        "Bonificaciones de experiencia y reputación acumulativas."
+      ],
+      "seo_description": "Únete a la celebración del 22.º aniversario de WoW del 17 de noviembre al 8 de diciembre."
+    },
+    "en": {
+      "tldr": [
+        "22nd Anniversary celebration of WoW.",
+        "November 17–December 8.",
+        "Stackable experience and reputation bonuses."
+      ],
+      "seo_description": "Join the WoW 22nd Anniversary celebration from November 17 to December 8."
+    }
   }
 };
