@@ -6143,5 +6143,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Live hotfixes for WoW on November 17, 2026, including changes to the Cozy Sleeping Bag and adjustments in UBRS."
     }
+  },
+  "wh-383914": {
+    "es": {
+      "tldr": [
+        "Aumento de daño y salud en UBRS.",
+        "Mejoras en misiones de Shen'dralas.",
+        "Nuevas características para sacos de dormir."
+      ],
+      "seo_description": "Hotfixes del 17 de noviembre de 2026: mejoras en UBRS y Shen'dralas, además de cambios en los sacos de dormir."
+    },
+    "en": {
+      "tldr": [
+        "Damage and health increases in UBRS.",
+        "Improvements to Shen'dralas quests.",
+        "New features for sleeping bags."
+      ],
+      "seo_description": "November 17, 2026 hotfixes: improvements in UBRS and Shen'dralas, plus changes to sleeping bags."
+    }
+  },
+  "wh-383912": {
+    "es": {
+      "tldr": [
+        "Más de 15 millones de personajes creados.",
+        "Casi 1.5 mil millones de misiones completadas.",
+        "Más jugadores activos que en 15 años."
+      ],
+      "seo_description": "WoW: Forever rompe récords con más de 15 millones de personajes creados y 1.5 mil millones de misiones completadas."
+    },
+    "en": {
+      "tldr": [
+        "Over 15 million characters created.",
+        "Nearly 1.5 billion quests completed.",
+        "More active players than in 15 years."
+      ],
+      "seo_description": "WoW: Forever breaks records with over 15 million characters created and 1.5 billion quests completed."
+    }
   }
 };
