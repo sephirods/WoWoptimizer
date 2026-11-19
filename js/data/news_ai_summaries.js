@@ -6197,5 +6197,77 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "The minimum deposit in the Auction House of WoW: Forever is reduced to 1 Copper, easing trade for cheaper materials."
     }
+  },
+  "wh-383924": {
+    "es": {
+      "tldr": [
+        "Los marcadores de objetivos de misión están disponibles en WoW: Forever.",
+        "Se pueden activar con el comando /console showInGameNavigation 1.",
+        "El marcador amarillo ayuda a localizar objetivos en el mundo sin abrir el mapa."
+      ],
+      "seo_description": "Activa los marcadores de misión en WoW: Forever para una navegación más fácil."
+    },
+    "en": {
+      "tldr": [
+        "In-game quest objective markers are available in WoW: Forever.",
+        "Activate them with the command /console showInGameNavigation 1.",
+        "The yellow marker helps locate objectives in the world without opening the map."
+      ],
+      "seo_description": "Turn on quest markers in WoW: Forever for easier navigation."
+    }
+  },
+  "wh-383920": {
+    "es": {
+      "tldr": [
+        "Se han eliminado todos los logros de dificultad Mítica de Talebound.",
+        "No se confirma si la dificultad Mítica aún existe.",
+        "Nuevos títulos han sido añadidos en el parche 12.1.7 PTR."
+      ],
+      "seo_description": "Todos los logros de dificultad Mítica han sido eliminados de Talebound en el parche 12.1.7."
+    },
+    "en": {
+      "tldr": [
+        "All Mythic difficulty achievements have been removed from Talebound.",
+        "It's unconfirmed if Mythic difficulty still exists.",
+        "New titles have been added in Patch 12.1.7 PTR."
+      ],
+      "seo_description": "All Mythic achievements have been removed from Talebound in Patch 12.1.7."
+    }
+  },
+  "wh-383919": {
+    "es": {
+      "tldr": [
+        "La misión semanal de oro requiere completar Blackrock Spire y Blackrock Depths.",
+        "Los jugadores deben recoger tres documentos específicos.",
+        "Completar la misión otorga una bolsa con hasta 100 de oro y materiales."
+      ],
+      "seo_description": "Completa Blackrock Spire y Depths para la misión semanal de oro en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "The weekly Gold Quest requires completing Blackrock Spire and Blackrock Depths.",
+        "Players must collect three specific documents.",
+        "Completing the quest grants a bag with up to 100 gold and materials."
+      ],
+      "seo_description": "Complete Blackrock Spire and Depths for the weekly Gold Quest in WoW: Forever."
+    }
+  },
+  "wh-383918": {
+    "es": {
+      "tldr": [
+        "Blizzard lanzó un video sobre el sistema PvP de WoW: Forever.",
+        "Los puntos de Honor ya no determinan el rango del jugador.",
+        "Los puntos de rango se obtienen a través de diversas actividades semanales."
+      ],
+      "seo_description": "Descubre el sistema PvP de WoW: Forever y sus recompensas en el nuevo video."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard released a video about WoW: Forever's PvP system.",
+        "Honor points no longer determine player rank.",
+        "Rank points are earned through various weekly activities."
+      ],
+      "seo_description": "Explore WoW: Forever's PvP system and rewards in the new video."
+    }
   }
 };
