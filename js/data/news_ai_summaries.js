@@ -6269,5 +6269,257 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Explore WoW: Forever's PvP system and rewards in the new video."
     }
+  },
+  "blizz-24317867": {
+    "es": {
+      "tldr": [
+        "Historias de leyenda ofrece recompensas cosméticas.",
+        "Gana plata vinculada al completar misiones.",
+        "Canjea ducados por plata vinculada y otros objetos."
+      ],
+      "seo_description": "Descubre las macabras recompensas en Historias de leyenda y cómo obtenerlas."
+    },
+    "en": {
+      "tldr": [
+        "Talebound offers dark cosmetic rewards.",
+        "Earn Bound Silver by completing quests.",
+        "Trade Ducats for Bound Silver and other items."
+      ],
+      "seo_description": "Explore macabre rewards in Talebound and how to earn them."
+    }
+  },
+  "blizz-24317086": {
+    "es": {
+      "tldr": [
+        "Nuevo pódcast de WoW: Forever sobre diseño de clases.",
+        "Aidan Moon y Kris Zierhut discuten el tema.",
+        "No te lo pierdas para conocer las novedades."
+      ],
+      "seo_description": "Escucha el pódcast de WoW: Forever sobre el diseño de clases."
+    },
+    "en": {
+      "tldr": [
+        "New WoW: Forever podcast on class design.",
+        "Aidan Moon and Kris Zierhut discuss insights.",
+        "Don't miss it to catch up on class updates."
+      ],
+      "seo_description": "Watch the WoW: Forever podcast on class design."
+    }
+  },
+  "wh-383935": {
+    "es": {
+      "tldr": [
+        "Las partículas de magia inestable ahora son vinculadas al alma.",
+        "Imposible vender en la Casa de Subastas.",
+        "Los jugadores deben farmear las partículas para sí mismos."
+      ],
+      "seo_description": "Las partículas de magia inestable ahora son vinculadas al alma en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Motes of Unstable Magic are now soulbound.",
+        "Cannot be sold on the Auction House.",
+        "Players must farm the motes for themselves."
+      ],
+      "seo_description": "Motes of Unstable Magic are now soulbound in WoW: Forever."
+    }
+  },
+  "wh-383931": {
+    "es": {
+      "tldr": [
+        "Blizzard quiere eliminar el concepto de 'BiS'.",
+        "Aidan Moon propone un enfoque diferente en el diseño.",
+        "Se introducen nuevos sistemas de biomas y subtipos."
+      ],
+      "seo_description": "Blizzard busca eliminar los objetos 'BiS' en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard aims to eliminate the 'BiS' concept.",
+        "Aidan Moon proposes a new design approach.",
+        "New biome and subtype systems introduced."
+      ],
+      "seo_description": "Blizzard wants to get rid of 'BiS' items in WoW: Forever."
+    }
+  },
+  "wh-383929": {
+    "es": {
+      "tldr": [
+        "Un mensaje en el pódcast sugiere estudiar un pozo.",
+        "Los jugadores investigan un pozo en Monte Hyjal.",
+        "Se esperan nuevos rompecabezas en el juego."
+      ],
+      "seo_description": "Estudia el pozo: un nuevo rompecabezas en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "A podcast message hints to study a well.",
+        "Players investigate a well in Mount Hyjal.",
+        "New brainteasers expected in the game."
+      ],
+      "seo_description": "Study the well: a new puzzle in WoW: Forever."
+    }
+  },
+  "wh-383930": {
+    "es": {
+      "tldr": [
+        "Blizzard presenta recompensas de Talebound en el parche 12.1.7.",
+        "Incluye transmogs, monturas y logros.",
+        "Los jugadores pueden obtener pociones de experiencia."
+      ],
+      "seo_description": "Blizzard revela recompensas de Talebound en el parche 12.1.7."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard previews Talebound rewards in Patch 12.1.7.",
+        "Includes transmogs, mounts, and achievements.",
+        "Players can earn experience potions."
+      ],
+      "seo_description": "Blizzard previews Talebound rewards in Patch 12.1.7."
+    }
+  },
+  "wh-383927": {
+    "es": {
+      "tldr": [
+        "Zirene bromea sobre un nuevo objeto que otorga estadísticas adicionales.",
+        "El objeto se activa cuando las bolsas del jugador están llenas.",
+        "Se discute si vale la pena el inconveniente de tener bolsas llenas."
+      ],
+      "seo_description": "Zirene bromea sobre un objeto que otorga estadísticas cuando las bolsas están llenas en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Zirene teases a new item granting bonus stats.",
+        "The item activates when players' bags are full.",
+        "Discussion on whether the trade-off is worth it."
+      ],
+      "seo_description": "Zirene teases an item that grants stats when bags are full in WoW: Forever."
+    }
+  },
+  "wh-383926": {
+    "es": {
+      "tldr": [
+        "El episodio 8 del podcast WoW: Forever cubre clases y objetos.",
+        "Se discute el poder de hechizo en el equipo y PvP.",
+        "No habrá nuevo episodio la próxima semana por Thanksgiving."
+      ],
+      "seo_description": "El episodio 8 del podcast WoW: Forever aborda clases, objetos y más."
+    },
+    "en": {
+      "tldr": [
+        "Episode 8 of the WoW: Forever podcast covers classes and itemization.",
+        "Discussion includes spellpower on gear and PvP.",
+        "No new episode next week due to Thanksgiving."
+      ],
+      "seo_description": "Episode 8 of the WoW: Forever podcast discusses classes, itemization, and more."
+    }
+  },
+  "wh-383896": {
+    "es": {
+      "tldr": [
+        "Completa una antigua cadena de misiones para obtener una bolsa de 16 ranuras.",
+        "La bolsa reduce el nivel de sigilo para Pícaros y Druidas.",
+        "La misión culmina en un enfrentamiento con un élite de 200,000 de salud."
+      ],
+      "seo_description": "Consigue una bolsa de 16 ranuras gratis en WoW: Forever a través de una misión."
+    },
+    "en": {
+      "tldr": [
+        "Complete an old questline to earn a 16-slot bag.",
+        "The bag reduces stealth level for Rogues and Druids.",
+        "The quest culminates in a fight against a 200,000 health elite."
+      ],
+      "seo_description": "Earn a free 16-slot bag in WoW: Forever through a questline."
+    }
+  },
+  "blizz-30984954": {
+    "es": {
+      "tldr": [
+        "Recompensas macabras esperan en Talebound.",
+        "Usa la plata vinculada para obtener recompensas cosméticas.",
+        "Gana plata completando misiones y logros."
+      ],
+      "seo_description": "Recompensas macabras esperan en Talebound con plata vinculada en WoW."
+    },
+    "en": {
+      "tldr": [
+        "Macabre rewards await in Talebound.",
+        "Use Bound Silver for cosmetic rewards.",
+        "Earn silver by completing quests and achievements."
+      ],
+      "seo_description": "Macabre rewards await in Talebound with Bound Silver in WoW."
+    }
+  },
+  "blizz-30984557": {
+    "es": {
+      "tldr": [
+        "Episodio 8 del podcast WoW: Forever se centra en las clases.",
+        "Se discuten actualizaciones y cambios en las clases.",
+        "Escucha para ponerte al día con el juego."
+      ],
+      "seo_description": "Episodio 8 del podcast WoW: Forever: actualizaciones sobre clases."
+    },
+    "en": {
+      "tldr": [
+        "Episode 8 of the WoW: Forever podcast focuses on classes.",
+        "Updates and changes to classes are discussed.",
+        "Listen to catch up on the game."
+      ],
+      "seo_description": "Episode 8 of the WoW: Forever podcast: updates on classes."
+    }
+  },
+  "blizz-1237746": {
+    "es": {
+      "tldr": [
+        "Recompensas macabras en Historias de leyenda.",
+        "Usa plata vinculada para obtener cosméticos.",
+        "Completa misiones y logros para ganar plata."
+      ],
+      "seo_description": "Recompensas macabras esperan en Historias de leyenda con plata vinculada."
+    },
+    "en": {
+      "tldr": [
+        "Macabre rewards in Tales of Legend.",
+        "Use Bound Silver for cosmetics.",
+        "Complete quests and achievements to earn silver."
+      ],
+      "seo_description": "Macabre rewards await in Tales of Legend with Bound Silver."
+    }
+  },
+  "blizz-6519318": {
+    "es": {
+      "tldr": [
+        "Descubre recompensas macabras en Talebound.",
+        "Utiliza Bound Silver para obtener cosméticos.",
+        "Completa misiones y logros para ganar recompensas."
+      ],
+      "seo_description": "Recompensas macabras en Talebound con Bound Silver."
+    },
+    "en": {
+      "tldr": [
+        "Discover macabre rewards in Talebound.",
+        "Use Bound Silver for cosmetics.",
+        "Complete quests and achievements for rewards."
+      ],
+      "seo_description": "Macabre rewards await in Talebound with Bound Silver."
+    }
+  },
+  "blizz-6519271": {
+    "es": {
+      "tldr": [
+        "Episodio 8 del podcast WoW Forever.",
+        "Discusión sobre las clases en WoW.",
+        "Actualizaciones y novedades sobre clases."
+      ],
+      "seo_description": "Episodio 8 del podcast WoW Forever sobre clases."
+    },
+    "en": {
+      "tldr": [
+        "Episode 8 of the WoW Forever podcast.",
+        "Discussion on WoW classes.",
+        "Updates and news about classes."
+      ],
+      "seo_description": "Episode 8 of the WoW Forever podcast on classes."
+    }
   }
 };
