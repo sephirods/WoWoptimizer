@@ -6701,5 +6701,113 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Discover the new Winter Veil music and its possible mini-game in Patch 12.1.7."
     }
+  },
+  "blizz-24317681": {
+    "es": {
+      "tldr": [
+        "Análisis del diseño de clases en WoW: Forever.",
+        "Llegada de Midnight: Ecos del Núcleo del Mundo el 2 de diciembre.",
+        "Celebración del 22.º aniversario de World of Warcraft."
+      ],
+      "seo_description": "Novedades sobre diseño de clases, Midnight y el aniversario de WoW."
+    },
+    "en": {
+      "tldr": [
+        "Focus on class design in WoW: Forever.",
+        "Midnight: Echoes of the Worldcore arrives December 1.",
+        "Celebrating World of Warcraft's 22nd anniversary."
+      ],
+      "seo_description": "Updates on class design, Midnight, and WoW's anniversary."
+    }
+  },
+  "wh-383944": {
+    "es": {
+      "tldr": [
+        "Recapitulación de eventos importantes en WoW.",
+        "Detalles sobre el parche 12.1.7.",
+        "Celebración del aniversario de World of Warcraft."
+      ],
+      "seo_description": "Resumen de eventos, parche 12.1.7 y aniversario de WoW."
+    },
+    "en": {
+      "tldr": [
+        "Recap of major WoW events this week.",
+        "Details on Patch 12.1.7.",
+        "World of Warcraft Anniversary celebration."
+      ],
+      "seo_description": "Summary of events, Patch 12.1.7, and WoW anniversary."
+    }
+  },
+  "blizz-30998278": {
+    "es": {
+      "tldr": [
+        "Enfoque en el diseño de clases en WoW: Forever.",
+        "Llegada de Midnight: Ecos del Núcleo del Mundo el 1 de diciembre.",
+        "Recompensas macabras en Talebound."
+      ],
+      "seo_description": "Novedades sobre diseño de clases y Midnight en WoW."
+    },
+    "en": {
+      "tldr": [
+        "Focus on class design in WoW: Forever.",
+        "Midnight: Echoes of the Worldcore arrives December 1.",
+        "Macabre rewards in Talebound."
+      ],
+      "seo_description": "Updates on class design and Midnight in WoW."
+    }
+  },
+  "blizz-1237832": {
+    "es": {
+      "tldr": [
+        "Análisis del diseño de clases en WoW: Forever.",
+        "Llegada de Midnight: Ecos del Núcleo del Mundo el 2 de diciembre.",
+        "Celebración del 22.º aniversario de World of Warcraft."
+      ],
+      "seo_description": "Novedades sobre diseño de clases, Midnight y el aniversario de WoW."
+    },
+    "en": {
+      "tldr": [
+        "Focus on class design in WoW: Forever.",
+        "Midnight: Echoes of the Worldcore arrives December 2.",
+        "Celebrating World of Warcraft's 22nd anniversary."
+      ],
+      "seo_description": "Updates on class design, Midnight, and WoW's anniversary."
+    }
+  },
+  "blizz-6521783": {
+    "es": {
+      "tldr": [
+        "Enfoque en el diseño de clases en WoW: Forever.",
+        "Llegada de Midnight: Ecos del Núcleo del Mundo el 1 de diciembre.",
+        "Recompensas macabras en Talebound."
+      ],
+      "seo_description": "Novedades sobre diseño de clases y Midnight en WoW."
+    },
+    "en": {
+      "tldr": [
+        "Focus on class design in WoW: Forever.",
+        "Midnight: Echoes of the Worldcore arrives December 1.",
+        "Macabre rewards in Talebound."
+      ],
+      "seo_description": "Updates on class design and Midnight in WoW."
+    }
+  },
+  "blizz-6521781": {
+    "es": {
+      "tldr": [
+        "Enfoque en el diseño de clases en WoW: Forever.",
+        "Llegada de Midnight: Ecos del Núcleo del Mundo el 1 de diciembre.",
+        "Recompensas macabras en Talebound."
+      ],
+      "seo_description": "Novedades sobre diseño de clases y Midnight en WoW."
+    },
+    "en": {
+      "tldr": [
+        "Focus on class design in WoW: Forever.",
+        "Midnight: Echoes of the Worldcore arrives December 1.",
+        "Macabre rewards in Talebound."
+      ],
+      "seo_description": "Updates on class design and Midnight in WoW."
+    }
   }
 };
