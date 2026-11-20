@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-30992551",
+      "postId": 30992551,
+      "topicId": 2403040,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-20T04:00:55.888Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever Hotfixes - November 19, 2026",
+        "es": "WoW: Forever Correcciones en Vivo - November 19, 2026"
+      },
+      "summary": {
+        "en": "November 19, 2026 \nCamping \n\nSeed Hybridizer has been re-enabled.\nSeed Hybridization now has adjusted values, as well as a chance of failure when combining seeds.\nScarce Herb Seeds...",
+        "es": "November 19, 2026 \nCamping \n\nSeed Hybridizer has been re-enabled.\nSeed Hybridization now has adjusted values, as well as a chance of failure when combining seeds.\nScarce Herb Seeds..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 19, 2026</strong></p>\n<p><strong>Camping</strong></p>\n<ul>\n<li>Seed Hybridizer has been re-enabled.</li>\n<li>Seed Hybridization now has adjusted values, as well as a chance of failure when combining seeds.</li>\n<li>Scarce Herb Seeds are no longer able to be used in the Seed Hybridizer.</li>\n</ul>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>Paladin</strong>\n<ul>\n<li><strong>Retribution</strong>\n<ul>\n<li>Two-Handed Weapon Specialization now correctly increases all Holy Damage you deal while a two-handed weapon is equipped.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li><strong>City of Dalaran</strong>\n<ul>\n<li>Shade of the Archmage should no longer despawn immediately upon entering combat.</li>\n</ul>\n</li>\n<li><strong>The Shaper’s Terrace</strong>\n<ul>\n<li>Vitrix’s Poison Shock now deals less damage.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Shimmering Flats - Fixed a Silithid Hive Drone that would stuck under the world near the Rustmaul Dig Site.</li>\n<li>Riverglades – Fixed a bug preventing Mosh’gra’s from ever dropping rare loot.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Motes of Unstable Magic are now soulbound.</li>\n<li>Squall-breaker’s Potion can now be deleted.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Booty Bay - Rix Xizzix should no longer incorrectly provide access to a strange tome after completing the quest “Rift Away”.</li>\n<li>Alterac Mountains - Fixed an issue where players could not obtain a new Ensorcelled Parchment while on the quest “Stormpike’s Deciphering” if destroyed from their inventory.</li>\n<li>Resolved an issue with “Hunting for Ectoplasm” quest where the wrong creature type was used to gather ectoplasm.</li>\n</ul>\n<p><strong>Races</strong></p>\n<ul>\n<li><strong>Skyborne</strong>\n<ul>\n<li>Fixed an issue preventing the Skyborne from being able to receive the Honored reputation 10% gold discount on their Apprentice and Journeyman Riding skills sold by Genn Fairweather on Zephras Isle.</li>\n</ul>\n</li>\n<li><strong>Tauren</strong>\n<ul>\n<li>Cultivation should now succeed more reliably when used on herbs you have the Herbalism skill for.</li>\n<li>Fixed a bug that prevented Cultivation from working correctly with Purple Lotus.</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 19, 2026</strong></p>\n<p><strong>Camping</strong></p>\n<ul>\n<li>Seed Hybridizer has been re-enabled.</li>\n<li>Seed Hybridization now has adjusted values, as well as a chance of failure when combining seeds.</li>\n<li>Scarce Herb Seeds are no longer able to be used in the Seed Hybridizer.</li>\n</ul>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>PALADÍN</strong>\n<ul>\n<li><strong>Reprensión</strong>\n<ul>\n<li>Two-Handed Weapon Specialization now correctly increases all Sagrado Damage you deal while a two-handed weapon is equipped.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li><strong>City of Dalaran</strong>\n<ul>\n<li>Shade of the Archmage should no longer despawn immediately upon entering combat.</li>\n</ul>\n</li>\n<li><strong>The Shaper’s Terrace</strong>\n<ul>\n<li>Vitrix’s Poison Shock now deals less damage.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Shimmering Flats - Fixed a Silithid Hive Drone that would stuck under the world near the Rustmaul Dig Site.</li>\n<li>Riverglades – Fixed a bug preventing Mosh’gra’s from ever dropping rare loot.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Motes of Unstable Magic are now soulbound.</li>\n<li>Squall-breaker’s Potion can now be deleted.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Booty Bay - Rix Xizzix should no longer incorrectly provide access to a strange tome after completing the quest “Rift Away”.</li>\n<li>Alterac Mountains - Fixed an issue where players could not obtain a new Ensorcelled Parchment while on the quest “Stormpike’s Deciphering” if destroyed from their inventory.</li>\n<li>Resolved an issue with “Hunting for Ectoplasm” quest where the wrong creature type was used to gather ectoplasm.</li>\n</ul>\n<p><strong>Races</strong></p>\n<ul>\n<li><strong>Skyborne</strong>\n<ul>\n<li>Fixed an issue preventing the Skyborne from being able to receive the Honored reputation 10% gold discount on their Apprentice and Journeyman Riding skills sold by Genn Fairweather on Zephras Isle.</li>\n</ul>\n</li>\n<li><strong>Tauren</strong>\n<ul>\n<li>Cultivation should now succeed more reliably when used on herbs you have the Herbalism skill for.</li>\n<li>Fixed a bug that prevented Cultivation from working correctly with Purple Lotus.</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-19-2026/2403040/13"
+    },
+    {
       "id": "blizz-30984954",
       "postId": 30984954,
       "topicId": 2422557,
@@ -71,8 +99,8 @@ window.WOW_NEWS_DATABASE = {
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "WoW: Forever Hotfixes - November 17, 2026",
-        "es": "WoW: Forever Correcciones en Vivo - November 17, 2026"
+        "en": "WoW: Forever Hotfixes - November 19, 2026",
+        "es": "WoW: Forever Correcciones en Vivo - November 19, 2026"
       },
       "summary": {
         "en": "November 17, 2026 \nCamping \n\nMounted Players will no longer be permitted to sleep while saddled up atop the Cozy Sleeping Bag.\nCozy Sleeping Bag can now be placed in specific locat...",
@@ -83,7 +111,7 @@ window.WOW_NEWS_DATABASE = {
         "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 17, 2026</strong></p>\n<p><strong>Camping</strong></p>\n<ul>\n<li>Mounted Players will no longer be permitted to sleep while saddled up atop the Cozy Sleeping Bag.</li>\n<li>Cozy Sleeping Bag can now be placed in specific locations, like hunter traps.</li>\n<li>Cozy Sleeping Bag will now provide a Resting aura indicating when you are within its area of effect.</li>\n</ul>\n<p><strong>Classes</strong></p>\n<ul>\n<li>Might of Stormwind and Warchief’s Blessing should now always correctly cancel on death.</li>\n<li>Might of Stormwind and Warchief’s Blessing are no longer applied to non-players.</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li>Fixed an issue where Flurry incorrectly lost stacks when Windfury totem attacks landed.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li><strong>Upper Blackrock Spire</strong>\n<ul>\n<li>Corrected an issue causing enemy health and damage to be significantly lower than intended.</li>\n<li><em>Developers’ notes: This should bring UBRS back in line with its intended difficulty, and it again requires a full complement of diligent players to complete.</em></li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Thousand Needles - Fixed an issue where a Pesterhide Snarler or Needles Cougar could spawn inside a rock.</li>\n<li>Thousand Needles - Fixed an issue where a Gravelysnout Digger or Surveyour could path inside a rock.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Sombras Priests can now hold a Night Watchman’s Torch.</li>\n<li>Escape Plan now has correct range and damage values.</li>\n<li>Corrected Whiteout Staff and Crackling Staff so that they have the same stats: 25 Stamina, 25 Intellect, 74 Spell Power from Weapon damage.</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li>Soulforge Armor (upgraded Dungeon Set for tanks) now has Spell Power (was Strength).</li>\n<li><em>Developers’ notes: We are leaning more into Paladin tanks favoring Spell Power as their primary stat for dealing damage.</em></li>\n</ul>\n</li>\n</ul>\n<p><strong>Legacy</strong></p>\n<ul>\n<li>Reagent Economy should no longer randomly stop working.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li>Fixed an issue allowing players to mount up in the starting rooms in Warsong Gulch.</li>\n<li>The Battle for Alterac Valley quests now require level 58 to accept.</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li>Fixed a bug that allowed for certain Waylaid Crate conversions to reward an obsolete turn-in item. Players affected can now turn these crates in for the intended reward.</li>\n<li>Various Paletusks can no longer be pickpocketed</li>\n<li><strong>Blacksmithing</strong>\n<ul>\n<li>The quest “The Old Ways” now grants the Orcish War Leggings recipe via an item. Players who did not receive their recipe, or lose it, can acquire a replacement from Sumi inside the nearby blacksmithing hut once the quest is completed.</li>\n<li>Bronze Mace ahora es Bind on Equip (was unbound). This also allows it to be added to the Transmog Collection.</li>\n<li>Craftsman’s Writ: Golden Scale Gauntlets now correctly directs players to the completion NPC when ready to turn-in.</li>\n</ul>\n</li>\n<li><strong>Herbalism</strong>\n<ul>\n<li>Fixed a bug that prevented Cultivation from working correctly on Mageroyal.</li>\n<li>Wildflowers for the quest “Her World” will no longer be tracked by Find Herb unless you are on the quest.</li>\n</ul>\n</li>\n<li><strong>Skinning</strong>\n<ul>\n<li>Skinners can no longer skin a few creatures that typically are not skinnable.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>A bin of mail has been discovered in SI:7 quarters and Mathias Shaw can now give rogues the letter that they’ve been expecting for “The Manor, Ravenholdt”.</li>\n<li>“Show Them How It’s Done” can now be properly seen on your map.</li>\n<li>Questing players should now encounter more Fen Creepers in Wetlands for “Blisters on the Land”.</li>\n<li>Quest “Step One: Rock” rockpiles will now be tracked via Find Minerals (was Find Treasure) while on the quest.</li>\n<li>There are now more Gravelsnout Diggers and Surveyors available for the quest “A New Ore Sample”. You may take ore sample, but we strongly advise you do <strong>not</strong> take candle.</li>\n<li><strong>Shen’dralas</strong>\n<ul>\n<li>Repairing pylon objectives for “Powering the Pylons” ahora es shared with nearby party members.</li>\n<li>The Depleted Crystal Heart for the quest “Heart of Crystal” now drops for all players in a party.</li>\n<li>Rokren for the Gelkis escort quest “Going Home” has had his escape speed reduced.</li>\n<li>Miners can now track “Spectral Iron Ore”.</li>\n<li>Spectral Iron Ore spawn rate increased.</li>\n<li>Reduced the frequency that Bristleback Skullcrushers cast their abilities.</li>\n<li>Reduced the frequency that Decrepit Pylon Protectors cast their abilities.</li>\n<li>Summon Undead Ravager cast by various necromancers can now be interrupted.</li>\n<li>The quest “Agamaggan’s Sangre” is no longer a Dungeon Quest and can be completed in the elite area outside of Razorfen Downs.</li>\n</ul>\n</li>\n</ul>\n<p><strong>User Interface</strong></p>\n<ul>\n<li>Fixed a bug preventing players’ ignore lists from persisting through logging out of the game.</li>\n<li>Fix a UI bug with Master Swordsmith, Master Axesmith, Master Hammersmith.</li>\n</ul></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-17-2026/2403040/12"
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-19-2026/2403040/12"
     },
     {
       "id": "blizz-30953089",
@@ -196,34 +224,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/midnight-echoes-of-the-worldcore-arrives-on-december-1/2419657/1"
-    },
-    {
-      "id": "blizz-30952294",
-      "postId": 30952294,
-      "topicId": 2419653,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-17T17:59:09.178Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Talebound’s Twisted Tales and Deadly Fates Arrive December 1",
-        "es": "Talebound’s Twisted Tales and Deadly Fates Arrive December 1"
-      },
-      "summary": {
-        "en": "[Talebound’s Twisted Tales and Deadly Fates Arrive December 1] Step into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, c...",
-        "es": "[Talebound’s Twisted Tales and Deadly Fates Arrive December 1] Step into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, c..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\" alt=\"Talebound’s Twisted Tales and Deadly Fates Arrive December 1\" width=\"833\" height=\"468\"></a></p><p>Step into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, chillingly brought to life. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316569\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\" alt=\"Talebound’s Twisted Tales and Deadly Fates Arrive December 1\" width=\"833\" height=\"468\"></a></p><p>Step into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, chillingly brought to life. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316569\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/talebound%E2%80%99s-twisted-tales-and-deadly-fates-arrive-december-1/2419653/1"
     },
     {
       "id": "blizz-1237746",
@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/esta-semana-en-wow-prep%C3%A1rate-para-forever-prueba-historias-de-leyenda-de-midnight-y-descubre%E2%80%A6/80819/1"
     },
     {
+      "id": "blizz-6520167",
+      "postId": 6520167,
+      "topicId": 639885,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-20T04:02:28.151Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever Hotfixes - November 19, 2026",
+        "es": "WoW: Forever Correcciones en Vivo - November 19, 2026"
+      },
+      "summary": {
+        "en": "November 19, 2026 \nCamping \n\nSeed Hybridizer has been re-enabled.\nSeed Hybridization now has adjusted values, as well as a chance of failure when combining seeds.\nScarce Herb Seeds...",
+        "es": "November 19, 2026 \nCamping \n\nSeed Hybridizer has been re-enabled.\nSeed Hybridization now has adjusted values, as well as a chance of failure when combining seeds.\nScarce Herb Seeds..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 19, 2026</strong></p>\n<p><strong>Camping</strong></p>\n<ul>\n<li>Seed Hybridizer has been re-enabled.</li>\n<li>Seed Hybridization now has adjusted values, as well as a chance of failure when combining seeds.</li>\n<li>Scarce Herb Seeds are no longer able to be used in the Seed Hybridizer.</li>\n</ul>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>Paladin</strong>\n<ul>\n<li><strong>Retribution</strong>\n<ul>\n<li>Two-Handed Weapon Specialization now correctly increases all Holy Damage you deal while a two-handed weapon is equipped.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li><strong>City of Dalaran</strong>\n<ul>\n<li>Shade of the Archmage should no longer despawn immediately upon entering combat.</li>\n</ul>\n</li>\n<li><strong>The Shaper’s Terrace</strong>\n<ul>\n<li>Vitrix’s Poison Shock now deals less damage.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Shimmering Flats - Fixed a Silithid Hive Drone that would stuck under the world near the Rustmaul Dig Site.</li>\n<li>Riverglades – Fixed a bug preventing Mosh’gra’s from ever dropping rare loot.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Motes of Unstable Magic are now soulbound.</li>\n<li>Squall-breaker’s Potion can now be deleted.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Booty Bay - Rix Xizzix should no longer incorrectly provide access to a strange tome after completing the quest “Rift Away”.</li>\n<li>Alterac Mountains - Fixed an issue where players could not obtain a new Ensorcelled Parchment while on the quest “Stormpike’s Deciphering” if destroyed from their inventory.</li>\n<li>Resolved an issue with “Hunting for Ectoplasm” quest where the wrong creature type was used to gather ectoplasm.</li>\n</ul>\n<p><strong>Races</strong></p>\n<ul>\n<li><strong>Skyborne</strong>\n<ul>\n<li>Fixed an issue preventing the Skyborne from being able to receive the Honored reputation 10% gold discount on their Apprentice and Journeyman Riding skills sold by Genn Fairweather on Zephras Isle.</li>\n</ul>\n</li>\n<li><strong>Tauren</strong>\n<ul>\n<li>Cultivation should now succeed more reliably when used on herbs you have the Herbalism skill for.</li>\n<li>Fixed a bug that prevented Cultivation from working correctly with Purple Lotus.</li>\n</ul>\n</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 19, 2026</strong></p>\n<p><strong>Camping</strong></p>\n<ul>\n<li>Seed Hybridizer has been re-enabled.</li>\n<li>Seed Hybridization now has adjusted values, as well as a chance of failure when combining seeds.</li>\n<li>Scarce Herb Seeds are no longer able to be used in the Seed Hybridizer.</li>\n</ul>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>PALADÍN</strong>\n<ul>\n<li><strong>Reprensión</strong>\n<ul>\n<li>Two-Handed Weapon Specialization now correctly increases all Sagrado Damage you deal while a two-handed weapon is equipped.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li><strong>City of Dalaran</strong>\n<ul>\n<li>Shade of the Archmage should no longer despawn immediately upon entering combat.</li>\n</ul>\n</li>\n<li><strong>The Shaper’s Terrace</strong>\n<ul>\n<li>Vitrix’s Poison Shock now deals less damage.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Shimmering Flats - Fixed a Silithid Hive Drone that would stuck under the world near the Rustmaul Dig Site.</li>\n<li>Riverglades – Fixed a bug preventing Mosh’gra’s from ever dropping rare loot.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Motes of Unstable Magic are now soulbound.</li>\n<li>Squall-breaker’s Potion can now be deleted.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Booty Bay - Rix Xizzix should no longer incorrectly provide access to a strange tome after completing the quest “Rift Away”.</li>\n<li>Alterac Mountains - Fixed an issue where players could not obtain a new Ensorcelled Parchment while on the quest “Stormpike’s Deciphering” if destroyed from their inventory.</li>\n<li>Resolved an issue with “Hunting for Ectoplasm” quest where the wrong creature type was used to gather ectoplasm.</li>\n</ul>\n<p><strong>Races</strong></p>\n<ul>\n<li><strong>Skyborne</strong>\n<ul>\n<li>Fixed an issue preventing the Skyborne from being able to receive the Honored reputation 10% gold discount on their Apprentice and Journeyman Riding skills sold by Genn Fairweather on Zephras Isle.</li>\n</ul>\n</li>\n<li><strong>Tauren</strong>\n<ul>\n<li>Cultivation should now succeed more reliably when used on herbs you have the Herbalism skill for.</li>\n<li>Fixed a bug that prevented Cultivation from working correctly with Purple Lotus.</li>\n</ul>\n</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-19-2026/639885/12"
+    },
+    {
       "id": "blizz-6519318",
       "postId": 6519318,
       "topicId": 644361,
@@ -519,8 +547,8 @@ window.WOW_NEWS_DATABASE = {
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "WoW: Forever Hotfixes - November 17, 2026",
-        "es": "WoW: Forever Correcciones en Vivo - November 17, 2026"
+        "en": "WoW: Forever Hotfixes - November 19, 2026",
+        "es": "WoW: Forever Correcciones en Vivo - November 19, 2026"
       },
       "summary": {
         "en": "November 17, 2026 \nCamping \n\nMounted Players will no longer be permitted to sleep while saddled up atop the Cozy Sleeping Bag.\nCozy Sleeping Bag can now be placed in specific locat...",
@@ -531,7 +559,7 @@ window.WOW_NEWS_DATABASE = {
         "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 17, 2026</strong></p>\n<p><strong>Camping</strong></p>\n<ul>\n<li>Mounted Players will no longer be permitted to sleep while saddled up atop the Cozy Sleeping Bag.</li>\n<li>Cozy Sleeping Bag can now be placed in specific locations, like hunter traps.</li>\n<li>Cozy Sleeping Bag will now provide a Resting aura indicating when you are within its area of effect.</li>\n</ul>\n<p><strong>Classes</strong></p>\n<ul>\n<li>Might of Stormwind and Warchief’s Blessing should now always correctly cancel on death.</li>\n<li>Might of Stormwind and Warchief’s Blessing are no longer applied to non-players.</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li>Fixed an issue where Flurry incorrectly lost stacks when Windfury totem attacks landed.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li><strong>Upper Blackrock Spire</strong>\n<ul>\n<li>Corrected an issue causing enemy health and damage to be significantly lower than intended.</li>\n<li><em>Developers’ notes: This should bring UBRS back in line with its intended difficulty, and it again requires a full complement of diligent players to complete.</em></li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Thousand Needles - Fixed an issue where a Pesterhide Snarler or Needles Cougar could spawn inside a rock.</li>\n<li>Thousand Needles - Fixed an issue where a Gravelysnout Digger or Surveyour could path inside a rock.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Sombras Priests can now hold a Night Watchman’s Torch.</li>\n<li>Escape Plan now has correct range and damage values.</li>\n<li>Corrected Whiteout Staff and Crackling Staff so that they have the same stats: 25 Stamina, 25 Intellect, 74 Spell Power from Weapon damage.</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li>Soulforge Armor (upgraded Dungeon Set for tanks) now has Spell Power (was Strength).</li>\n<li><em>Developers’ notes: We are leaning more into Paladin tanks favoring Spell Power as their primary stat for dealing damage.</em></li>\n</ul>\n</li>\n</ul>\n<p><strong>Legacy</strong></p>\n<ul>\n<li>Reagent Economy should no longer randomly stop working.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li>Fixed an issue allowing players to mount up in the starting rooms in Warsong Gulch.</li>\n<li>The Battle for Alterac Valley quests now require level 58 to accept.</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li>Fixed a bug that allowed for certain Waylaid Crate conversions to reward an obsolete turn-in item. Players affected can now turn these crates in for the intended reward.</li>\n<li>Various Paletusks can no longer be pickpocketed</li>\n<li><strong>Blacksmithing</strong>\n<ul>\n<li>The quest “The Old Ways” now grants the Orcish War Leggings recipe via an item. Players who did not receive their recipe, or lose it, can acquire a replacement from Sumi inside the nearby blacksmithing hut once the quest is completed.</li>\n<li>Bronze Mace ahora es Bind on Equip (was unbound). This also allows it to be added to the Transmog Collection.</li>\n<li>Craftsman’s Writ: Golden Scale Gauntlets now correctly directs players to the completion NPC when ready to turn-in.</li>\n</ul>\n</li>\n<li><strong>Herbalism</strong>\n<ul>\n<li>Fixed a bug that prevented Cultivation from working correctly on Mageroyal.</li>\n<li>Wildflowers for the quest “Her World” will no longer be tracked by Find Herb unless you are on the quest.</li>\n</ul>\n</li>\n<li><strong>Skinning</strong>\n<ul>\n<li>Skinners can no longer skin a few creatures that typically are not skinnable.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>A bin of mail has been discovered in SI:7 quarters and Mathias Shaw can now give rogues the letter that they’ve been expecting for “The Manor, Ravenholdt”.</li>\n<li>“Show Them How It’s Done” can now be properly seen on your map.</li>\n<li>Questing players should now encounter more Fen Creepers in Wetlands for “Blisters on the Land”.</li>\n<li>Quest “Step One: Rock” rockpiles will now be tracked via Find Minerals (was Find Treasure) while on the quest.</li>\n<li>There are now more Gravelsnout Diggers and Surveyors available for the quest “A New Ore Sample”. You may take ore sample, but we strongly advise you do <strong>not</strong> take candle.</li>\n<li><strong>Shen’dralas</strong>\n<ul>\n<li>Repairing pylon objectives for “Powering the Pylons” ahora es shared with nearby party members.</li>\n<li>The Depleted Crystal Heart for the quest “Heart of Crystal” now drops for all players in a party.</li>\n<li>Rokren for the Gelkis escort quest “Going Home” has had his escape speed reduced.</li>\n<li>Miners can now track “Spectral Iron Ore”.</li>\n<li>Spectral Iron Ore spawn rate increased.</li>\n<li>Reduced the frequency that Bristleback Skullcrushers cast their abilities.</li>\n<li>Reduced the frequency that Decrepit Pylon Protectors cast their abilities.</li>\n<li>Summon Undead Ravager cast by various necromancers can now be interrupted.</li>\n<li>The quest “Agamaggan’s Sangre” is no longer a Dungeon Quest and can be completed in the elite area outside of Razorfen Downs.</li>\n</ul>\n</li>\n</ul>\n<p><strong>User Interface</strong></p>\n<ul>\n<li>Fixed a bug preventing players’ ignore lists from persisting through logging out of the game.</li>\n<li>Fix a UI bug with Master Swordsmith, Master Axesmith, Master Hammersmith.</li>\n</ul></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-17-2026/639885/11"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-19-2026/639885/11"
     },
     {
       "id": "blizz-6513699",
@@ -644,6 +672,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/join-the-world-of-warcraft-22nd-anniversary-celebration/643574/1"
+    },
+    {
+      "id": "blizz-30952294",
+      "postId": 30952294,
+      "topicId": 2419653,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-17T17:59:09.178Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Talebound’s Twisted Tales and Deadly Fates Arrive December 1",
+        "es": "Talebound’s Twisted Tales and Deadly Fates Arrive December 1"
+      },
+      "summary": {
+        "en": "[Talebound’s Twisted Tales and Deadly Fates Arrive December 1] Step into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, c...",
+        "es": "[Talebound’s Twisted Tales and Deadly Fates Arrive December 1] Step into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, c..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\" alt=\"Talebound’s Twisted Tales and Deadly Fates Arrive December 1\" width=\"833\" height=\"468\"></a></p><p>Step into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, chillingly brought to life. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316569\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg\" alt=\"Talebound’s Twisted Tales and Deadly Fates Arrive December 1\" width=\"833\" height=\"468\"></a></p><p>Step into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, chillingly brought to life. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316569\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/talebound%E2%80%99s-twisted-tales-and-deadly-fates-arrive-december-1/2419653/1"
     },
     {
       "id": "blizz-6511114",
@@ -1344,62 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-7-turbo-nerds-lore-ing-out-ft-nobbel87-platinum-wow/2412856/1"
-    },
-    {
-      "id": "blizz-6495278",
-      "postId": 6495278,
-      "topicId": 639885,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-12T00:50:13.708Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW: Forever Hotfixes - November 11, 2026",
-        "es": "WoW: Forever Correcciones en Vivo - November 11, 2026"
-      },
-      "summary": {
-        "en": "November 11, 2026 \nClasses \n\nDruid\n\nFeral\n\nRend and Tear now works on Pounce Bleed.\n\n\n\n\nHunter\n\nFixed an issue where Volley was activating procs.\nFixed an issue where Volley would ...",
-        "es": "November 11, 2026 \nClasses \n\nDruid\n\nFeral\n\nRend and Tear now works on Pounce Bleed.\n\n\n\n\nHunter\n\nFixed an issue where Volley was activating procs.\nFixed an issue where Volley would ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 11, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>Druid</strong>\n<ul>\n<li><strong>Feral</strong>\n<ul>\n<li>Rend and Tear now works on Pounce Bleed.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Hunter</strong>\n<ul>\n<li>Fixed an issue where Volley was activating procs.</li>\n<li>Fixed an issue where Volley would continue to channel even when the Hunter had started moving.</li>\n</ul>\n</li>\n<li><strong>Paladin</strong>\n<ul>\n<li>Judgement changed to now be considered a Ranged Attack. This means it no longer counts as a Melee attack for the purposes of item and effect procs and uses the Paladin’s Ranged Hit chance.</li>\n<li><strong>Retribution</strong>\n<ul>\n<li>With the fix to Windfury Totem activating from Holy Strike, we have changed Unsealed Fury. Unsealed Fury no longer generates echoes from Windfury Totem attacks.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Priest</strong>\n<ul>\n<li>Confounding Flash (Gnome) can now correctly be used while in Shadowform.</li>\n<li><strong>Holy</strong>\n<ul>\n<li>The Twilight Focus talent will now correctly work while in Shadowform.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Shaman</strong>\n<ul>\n<li>Fixed a bug where Flametongue Totem Rank 2 was not working.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Customer Support</strong></p>\n<ul>\n<li>The Item Restoration service has been disabled while we investigate and address a critical bug.</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Riverglades - Significantly reduced the amount of damage dealt by the Twilight Enforcer’s “Smash” ability.</li>\n<li>Riverglades - Lowered the damage dealt by Executioner Morg.</li>\n<li>Riverglades - Twilight Forgemaster’s “Mark of Flames” now increases damage dealt by 50 (was 1000).</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Bloody Claws of Attack now correctly add +1 Fist/Unarmed Weapon skill.</li>\n<li>Earthen Silk Slippers no longer give more spell damage than intended.</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li><strong>Tailoring</strong>\n<ul>\n<li>Adjusted the required materials and slot size of several bags that were unintentionally smaller than intended.\n<ul>\n<li>Red Mageweave Bag now requires 5 bolts of mageweave (was 4 bolts) and is now 14 slots.</li>\n<li>Green Silk Pack now requires 5 bolts of silk (was 4 bolts) and is now 12 slots.</li>\n<li>Black Silk Pack now requires 6 bolts of silk (was 5 bolts) and is now 12 slots.</li>\n<li>Green Woolen Bag now requires 5 bolts of wool (was 4 bolts) and is now 10 slots.</li>\n<li>Red Woolen Bag now requires 5 bolts of wool (was 4 bolts) and is now 10 slots.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Western Plaguelands - Players should now be able to properly interact with the Command Tent while on the quest “Scarlet Diversions”.</li>\n<li>Arathi Highlands - Fixed an issue where the Witherbark Mallet did not function, preventing players from proceeding to “The Giant in the Den”.</li>\n<li>Feralas - Fixed an issue where the Cage Door for the quest “Freedom for All Creatures” would not reset. It feels wrong to close it, but…</li>\n</ul>\n<p><strong>World</strong></p>\n<ul>\n<li>Fixed a bug that prevented the ability to mount in named areas of Shen’dralas.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 11, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>DRUIDA</strong>\n<ul>\n<li><strong>Feral</strong>\n<ul>\n<li>Rend and Tear now works on Pounce Bleed.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR</strong>\n<ul>\n<li>Fixed an issue where Volley was activating procs.</li>\n<li>Fixed an issue where Volley would continue to channel even when the Hunter had started moving.</li>\n</ul>\n</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li>Judgement changed to now be considered a Ranged Attack. This means it no longer counts as a Melee attack for the purposes of item and effect procs and uses the Paladin’s Ranged Hit chance.</li>\n<li><strong>Reprensión</strong>\n<ul>\n<li>With the fix to Windfury Totem activating from Sagrado Strike, we have changed Unsealed Furia. Unsealed Furia no longer generates echoes from Windfury Totem attacks.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>SACERDOTE</strong>\n<ul>\n<li>Confounding Flash (Gnome) can now correctly be used while in Shadowform.</li>\n<li><strong>Sagrado</strong>\n<ul>\n<li>The Twilight Focus talent will now correctly work while in Shadowform.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li>Fixed a bug where Flametongue Totem Rank 2 was not working.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Customer Support</strong></p>\n<ul>\n<li>The Item Restauración service has been disabled while we investigate and address a critical bug.</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Riverglades - Significantly reduced the amount of damage dealt by the Twilight Enforcer’s “Smash” ability.</li>\n<li>Riverglades - Lowered the damage dealt by Executioner Morg.</li>\n<li>Riverglades - Twilight Forgemaster’s “Mark of Flames” ahora aumenta damage dealt by 50 (was 1000).</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Bloody Claws of Attack now correctly add +1 Fist/Unarmed Weapon skill.</li>\n<li>Earthen Silk Slippers no longer give more spell damage than intended.</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li><strong>Tailoring</strong>\n<ul>\n<li>Adjusted the required materials and slot size of several bags that were unintentionally smaller than intended.\n<ul>\n<li>Red Mageweave Bag now requires 5 bolts of mageweave (was 4 bolts) and ahora es 14 slots.</li>\n<li>Green Silk Pack now requires 5 bolts of silk (was 4 bolts) and ahora es 12 slots.</li>\n<li>Black Silk Pack now requires 6 bolts of silk (was 5 bolts) and ahora es 12 slots.</li>\n<li>Green Woolen Bag now requires 5 bolts of wool (was 4 bolts) and ahora es 10 slots.</li>\n<li>Red Woolen Bag now requires 5 bolts of wool (was 4 bolts) and ahora es 10 slots.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Western Plaguelands - Players should now be able to properly interact with the Command Tent while on the quest “Scarlet Diversions”.</li>\n<li>Arathi Highlands - Fixed an issue where the Witherbark Mallet did not function, preventing players from proceeding to “The Giant in the Den”.</li>\n<li>Feralas - Fixed an issue where the Cage Door for the quest “Freedom for All Creatures” would not reset. It feels wrong to close it, but…</li>\n</ul>\n<p><strong>World</strong></p>\n<ul>\n<li>Fixed a bug that prevented the ability to mount in named areas of Shen’dralas.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-11-2026/639885/7"
-    },
-    {
-      "id": "blizz-30863849",
-      "postId": 30863849,
-      "topicId": 2403040,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-12T00:48:47.076Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW: Forever Hotfixes - November 13, 2026",
-        "es": "WoW: Forever Correcciones en Vivo - November 13, 2026"
-      },
-      "summary": {
-        "en": "November 11, 2026 \nClasses \n\nDruid\n\nFeral\n\nRend and Tear now works on Pounce Bleed.\n\n\n\n\nHunter\n\nFixed an issue where Volley was activating procs.\nFixed an issue where Volley would ...",
-        "es": "November 11, 2026 \nClasses \n\nDruid\n\nFeral\n\nRend and Tear now works on Pounce Bleed.\n\n\n\n\nHunter\n\nFixed an issue where Volley was activating procs.\nFixed an issue where Volley would ..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 11, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>Druid</strong>\n<ul>\n<li><strong>Feral</strong>\n<ul>\n<li>Rend and Tear now works on Pounce Bleed.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Hunter</strong>\n<ul>\n<li>Fixed an issue where Volley was activating procs.</li>\n<li>Fixed an issue where Volley would continue to channel even when the Hunter had started moving.</li>\n</ul>\n</li>\n<li><strong>Paladin</strong>\n<ul>\n<li>Judgement changed to now be considered a Ranged Attack. This means it no longer counts as a Melee attack for the purposes of item and effect procs and uses the Paladin’s Ranged Hit chance.</li>\n<li><strong>Retribution</strong>\n<ul>\n<li>With the fix to Windfury Totem activating from Holy Strike, we have changed Unsealed Fury. Unsealed Fury no longer generates echoes from Windfury Totem attacks.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Priest</strong>\n<ul>\n<li>Confounding Flash (Gnome) can now correctly be used while in Shadowform.</li>\n<li><strong>Holy</strong>\n<ul>\n<li>The Twilight Focus talent will now correctly work while in Shadowform.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Shaman</strong>\n<ul>\n<li>Fixed a bug where Flametongue Totem Rank 2 was not working.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Customer Support</strong></p>\n<ul>\n<li>The Item Restoration service has been disabled while we investigate and address a critical bug.</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Riverglades - Significantly reduced the amount of damage dealt by the Twilight Enforcer’s “Smash” ability.</li>\n<li>Riverglades - Lowered the damage dealt by Executioner Morg.</li>\n<li>Riverglades - Twilight Forgemaster’s “Mark of Flames” now increases damage dealt by 50 (was 1000).</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Bloody Claws of Attack now correctly add +1 Fist/Unarmed Weapon skill.</li>\n<li>Earthen Silk Slippers no longer give more spell damage than intended.</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li><strong>Tailoring</strong>\n<ul>\n<li>Adjusted the required materials and slot size of several bags that were unintentionally smaller than intended.\n<ul>\n<li>Red Mageweave Bag now requires 5 bolts of mageweave (was 4 bolts) and is now 14 slots.</li>\n<li>Green Silk Pack now requires 5 bolts of silk (was 4 bolts) and is now 12 slots.</li>\n<li>Black Silk Pack now requires 6 bolts of silk (was 5 bolts) and is now 12 slots.</li>\n<li>Green Woolen Bag now requires 5 bolts of wool (was 4 bolts) and is now 10 slots.</li>\n<li>Red Woolen Bag now requires 5 bolts of wool (was 4 bolts) and is now 10 slots.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Western Plaguelands - Players should now be able to properly interact with the Command Tent while on the quest “Scarlet Diversions”.</li>\n<li>Arathi Highlands - Fixed an issue where the Witherbark Mallet did not function, preventing players from proceeding to “The Giant in the Den”.</li>\n<li>Feralas - Fixed an issue where the Cage Door for the quest “Freedom for All Creatures” would not reset. It feels wrong to close it, but…</li>\n</ul>\n<p><strong>World</strong></p>\n<ul>\n<li>Fixed a bug that prevented the ability to mount in named areas of Shen’dralas.</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 11, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>DRUIDA</strong>\n<ul>\n<li><strong>Feral</strong>\n<ul>\n<li>Rend and Tear now works on Pounce Bleed.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CAZADOR</strong>\n<ul>\n<li>Fixed an issue where Volley was activating procs.</li>\n<li>Fixed an issue where Volley would continue to channel even when the Hunter had started moving.</li>\n</ul>\n</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li>Judgement changed to now be considered a Ranged Attack. This means it no longer counts as a Melee attack for the purposes of item and effect procs and uses the Paladin’s Ranged Hit chance.</li>\n<li><strong>Reprensión</strong>\n<ul>\n<li>With the fix to Windfury Totem activating from Sagrado Strike, we have changed Unsealed Furia. Unsealed Furia no longer generates echoes from Windfury Totem attacks.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>SACERDOTE</strong>\n<ul>\n<li>Confounding Flash (Gnome) can now correctly be used while in Shadowform.</li>\n<li><strong>Sagrado</strong>\n<ul>\n<li>The Twilight Focus talent will now correctly work while in Shadowform.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li>Fixed a bug where Flametongue Totem Rank 2 was not working.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Customer Support</strong></p>\n<ul>\n<li>The Item Restauración service has been disabled while we investigate and address a critical bug.</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Riverglades - Significantly reduced the amount of damage dealt by the Twilight Enforcer’s “Smash” ability.</li>\n<li>Riverglades - Lowered the damage dealt by Executioner Morg.</li>\n<li>Riverglades - Twilight Forgemaster’s “Mark of Flames” ahora aumenta damage dealt by 50 (was 1000).</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Bloody Claws of Attack now correctly add +1 Fist/Unarmed Weapon skill.</li>\n<li>Earthen Silk Slippers no longer give more spell damage than intended.</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li><strong>Tailoring</strong>\n<ul>\n<li>Adjusted the required materials and slot size of several bags that were unintentionally smaller than intended.\n<ul>\n<li>Red Mageweave Bag now requires 5 bolts of mageweave (was 4 bolts) and ahora es 14 slots.</li>\n<li>Green Silk Pack now requires 5 bolts of silk (was 4 bolts) and ahora es 12 slots.</li>\n<li>Black Silk Pack now requires 6 bolts of silk (was 5 bolts) and ahora es 12 slots.</li>\n<li>Green Woolen Bag now requires 5 bolts of wool (was 4 bolts) and ahora es 10 slots.</li>\n<li>Red Woolen Bag now requires 5 bolts of wool (was 4 bolts) and ahora es 10 slots.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Western Plaguelands - Players should now be able to properly interact with the Command Tent while on the quest “Scarlet Diversions”.</li>\n<li>Arathi Highlands - Fixed an issue where the Witherbark Mallet did not function, preventing players from proceeding to “The Giant in the Den”.</li>\n<li>Feralas - Fixed an issue where the Cage Door for the quest “Freedom for All Creatures” would not reset. It feels wrong to close it, but…</li>\n</ul>\n<p><strong>World</strong></p>\n<ul>\n<li>Fixed a bug that prevented the ability to mount in named areas of Shen’dralas.</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/8"
     }
   ],
   "blizzardNews": [
