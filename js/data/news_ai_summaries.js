@@ -6611,5 +6611,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Issues with PvP queues and honor gains in WoW: Forever for EU players."
     }
+  },
+  "blizz-30992551": {
+    "es": {
+      "tldr": [
+        "Reactivación del Camping Seed Hybridizer con nuevos valores.",
+        "Corrección en el daño del Paladín y en la mecánica de Dalaran.",
+        "Arreglos en misiones y objetos, incluyendo Motes de Magia Inestable."
+      ],
+      "seo_description": "Correcciones en vivo de WoW del 19 de noviembre de 2026, incluyendo ajustes en el Seed Hybridizer y mejoras en clases."
+    },
+    "en": {
+      "tldr": [
+        "Camping Seed Hybridizer re-enabled with new values.",
+        "Paladin damage and Dalaran mechanics fixed.",
+        "Quest and item fixes, including Motes of Unstable Magic."
+      ],
+      "seo_description": "Live hotfixes for WoW on November 19, 2026, featuring adjustments to the Seed Hybridizer and class improvements."
+    }
+  },
+  "blizz-6520167": {
+    "es": {
+      "tldr": [
+        "Reactivación del Camping Seed Hybridizer con nuevos valores.",
+        "Corrección en el daño del Paladín y en la mecánica de Dalaran.",
+        "Arreglos en misiones y objetos, incluyendo Motes de Magia Inestable."
+      ],
+      "seo_description": "Correcciones en vivo de WoW del 19 de noviembre de 2026, incluyendo ajustes en el Seed Hybridizer y mejoras en clases."
+    },
+    "en": {
+      "tldr": [
+        "Camping Seed Hybridizer re-enabled with new values.",
+        "Paladin damage and Dalaran mechanics fixed.",
+        "Quest and item fixes, including Motes of Unstable Magic."
+      ],
+      "seo_description": "Live hotfixes for WoW on November 19, 2026, featuring adjustments to the Seed Hybridizer and class improvements."
+    }
   }
 };
