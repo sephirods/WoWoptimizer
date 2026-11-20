@@ -6521,5 +6521,95 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Episode 8 of the WoW Forever podcast on classes."
     }
+  },
+  "wh-383940": {
+    "es": {
+      "tldr": [
+        "Skyborne recibe un descuento del 10% en monturas al alcanzar Honored.",
+        "Se requiere entregar tela rúnica para ganar reputación.",
+        "Las monturas épicas ahora cuestan 900."
+      ],
+      "seo_description": "Skyborne obtiene un descuento del 10% en monturas en WoW: Forever al alcanzar Honored."
+    },
+    "en": {
+      "tldr": [
+        "Skyborne get a 10% mount discount upon reaching Honored.",
+        "Runecloth turn-ins are needed to gain reputation.",
+        "Epic mounts now cost 900."
+      ],
+      "seo_description": "Skyborne now get a 10% discount on mounts in WoW: Forever when reaching Honored."
+    }
+  },
+  "wh-383939": {
+    "es": {
+      "tldr": [
+        "Se han publicado correcciones para el paladín de Reprensión.",
+        "El Hibridizador de semillas ha sido reactivado.",
+        "Se ajustaron valores y se añadió una posibilidad de fallo al combinar semillas."
+      ],
+      "seo_description": "Correcciones de errores para el paladín y reactivación del Hibridizador de semillas en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Hotfixes include a Ret Paladin bug fix.",
+        "Seed Hybridizer has been re-enabled.",
+        "Adjusted values and failure chance added for seed combining."
+      ],
+      "seo_description": "Ret Paladin bug fix and Seed Hybridizer re-enabled in WoW: Forever hotfixes."
+    }
+  },
+  "wh-383938": {
+    "es": {
+      "tldr": [
+        "Blizzard investiga varias misiones con errores.",
+        "Tres misiones específicas están siendo revisadas.",
+        "Se reportan problemas con recompensas y mecánicas de misiones."
+      ],
+      "seo_description": "Blizzard investiga errores en varias misiones de WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard is investigating several bugged quests.",
+        "Three specific quests are under review.",
+        "Issues reported with rewards and quest mechanics."
+      ],
+      "seo_description": "Blizzard is investigating bugs in several quests in WoW: Forever."
+    }
+  },
+  "wh-383928": {
+    "es": {
+      "tldr": [
+        "Desarrolladores abordan la falta de equipo de poder mágico.",
+        "Se busca mejorar la experiencia de los lanzadores de hechizos.",
+        "Se planea añadir más equipo de poder mágico en futuras actualizaciones."
+      ],
+      "seo_description": "Blizzard aborda la escasez de equipo de poder mágico en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Developers address the lack of Spell Power gear.",
+        "Aim to improve spellcaster experience.",
+        "More Spell Power gear planned for future updates."
+      ],
+      "seo_description": "Blizzard addresses Spell Power gear shortage in WoW: Forever."
+    }
+  },
+  "wh-383937": {
+    "es": {
+      "tldr": [
+        "Jugadores de la UE reportan problemas con colas JcJ.",
+        "Las colas de campos de batalla no aparecen.",
+        "Se sospecha de un bug en la capa específica 'Capa 15'."
+      ],
+      "seo_description": "Problemas con colas JcJ y ganancias de honor en WoW: Forever para jugadores de la UE."
+    },
+    "en": {
+      "tldr": [
+        "EU players report issues with PvP queues.",
+        "Battleground queues are not popping.",
+        "Suspected bug in specific layer 'Layer 15'."
+      ],
+      "seo_description": "Issues with PvP queues and honor gains in WoW: Forever for EU players."
+    }
   }
 };
