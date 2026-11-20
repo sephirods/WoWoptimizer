@@ -6647,5 +6647,59 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Live hotfixes for WoW on November 19, 2026, featuring adjustments to the Seed Hybridizer and class improvements."
     }
+  },
+  "wh-383890": {
+    "es": {
+      "tldr": [
+        "Desbloquea un atajo en Krol'dok Stronghold con la llave compuesta.",
+        "Completa la misión de Tunk y entrega el objeto a Kreza o Alphonse.",
+        "Usa la llave en dos puertas para acceder al jefe final."
+      ],
+      "seo_description": "Descubre cómo desbloquear un atajo en Krol'dok Stronghold con la llave compuesta en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Unlock a shortcut in Krol'dok Stronghold with the Compound Key.",
+        "Complete Tunk's quest and deliver the item to Kreza or Alphonse.",
+        "Use the key on two doors to access the final boss."
+      ],
+      "seo_description": "Learn how to unlock a shortcut in Krol'dok Stronghold with the Compound Key in WoW: Forever."
+    }
+  },
+  "wh-383933": {
+    "es": {
+      "tldr": [
+        "Guía de misiones para mazmorras de niveles 30 a 40 en WoW: Forever.",
+        "Incluye la nueva mazmorras Drowned City.",
+        "Prepárate para un recorrido de al menos una hora."
+      ],
+      "seo_description": "Consulta todas las misiones de mazmorras de niveles 30 a 40 en WoW: Forever para mejorar tu experiencia."
+    },
+    "en": {
+      "tldr": [
+        "Quest guide for level 30 to 40 dungeons in WoW: Forever.",
+        "Includes the new dungeon Drowned City.",
+        "Prepare for an average run time of at least one hour."
+      ],
+      "seo_description": "Check all quests for level 30 to 40 dungeons in WoW: Forever to enhance your gameplay."
+    }
+  },
+  "wh-383922": {
+    "es": {
+      "tldr": [
+        "Nueva música del Festival del Velo Invernal en el parche 12.1.7.",
+        "Se menciona un posible minijuego relacionado con el festival.",
+        "Incluye nuevas monturas, mascotas y decoraciones."
+      ],
+      "seo_description": "Descubre la nueva música del Festival del Velo Invernal y su posible minijuego en el parche 12.1.7."
+    },
+    "en": {
+      "tldr": [
+        "New Winter Veil music in Patch 12.1.7.",
+        "References a possible mini-game related to the festival.",
+        "Includes new mounts, pets, and decorations."
+      ],
+      "seo_description": "Discover the new Winter Veil music and its possible mini-game in Patch 12.1.7."
+    }
   }
 };
