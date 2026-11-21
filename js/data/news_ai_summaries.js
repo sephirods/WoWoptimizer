@@ -6899,5 +6899,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Targeted layering addons will be disabled. API showing realm ID will be obfuscated."
     }
+  },
+  "wh-383950": {
+    "es": {
+      "tldr": [
+        "Se reduce el número máximo de mazmorras a cinco por hora.",
+        "El cambio busca limitar la entrada de oro en la economía.",
+        "No afectará a quienes hagan clears completos de mazmorras."
+      ],
+      "seo_description": "Blizzard reduce el límite de mazmorras en WoW: Forever a cinco por hora, afectando el farmeo de oro."
+    },
+    "en": {
+      "tldr": [
+        "Maximum dungeons reduced to five per hour.",
+        "Change aims to limit gold influx into the economy.",
+        "Won't affect full dungeon clears for leveling."
+      ],
+      "seo_description": "Blizzard reduces dungeon limit in WoW: Forever to five per hour, impacting solo gold farming."
+    }
+  },
+  "wh-383934": {
+    "es": {
+      "tldr": [
+        "Alcaz Prison es una nueva mazmorras para jugadores de nivel 50.",
+        "Ofrece tres misiones por facción y una misión secreta.",
+        "La mazmorras se completa en aproximadamente 30 minutos."
+      ],
+      "seo_description": "Descubre todas las misiones de la nueva mazmorras Alcaz Prison en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Alcaz Prison is a new dungeon for level 50 players.",
+        "Features three faction quests and one secret quest.",
+        "Dungeon can be completed in about 30 minutes."
+      ],
+      "seo_description": "Find all quests for the new Alcaz Prison dungeon in WoW: Forever."
+    }
   }
 };
