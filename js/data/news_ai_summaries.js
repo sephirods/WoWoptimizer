@@ -6845,5 +6845,59 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Live hotfix updates for WoW on November 20, 2026."
     }
+  },
+  "wh-383949": {
+    "es": {
+      "tldr": [
+        "Corrección de un error en el buscador de grupos LFG.",
+        "Los jugadores verán más grupos disponibles.",
+        "Ajustes en clases y dungeons también implementados."
+      ],
+      "seo_description": "Corrección de error en LFG permite ver más grupos. Ajustes en clases y dungeons también aplicados."
+    },
+    "en": {
+      "tldr": [
+        "Bug fix in LFG allows players to see more groups.",
+        "Adjustments made to classes and dungeons.",
+        "Players can now reset dungeons fewer times per hour."
+      ],
+      "seo_description": "LFG bug fix allows players to see more groups. Adjustments to classes and dungeons also implemented."
+    }
+  },
+  "wh-383946": {
+    "es": {
+      "tldr": [
+        "Revelados los stats de los conjuntos de equipo fabricados.",
+        "Los bonus de set son temporales y se actualizarán.",
+        "Lanzamiento del primer tier de raid el 9 de diciembre."
+      ],
+      "seo_description": "Stats de conjuntos de equipo fabricados revelados. Bonus de set temporales. Lanzamiento el 9 de diciembre."
+    },
+    "en": {
+      "tldr": [
+        "Stats for crafted tier sets revealed.",
+        "Set bonuses are placeholders and will be updated.",
+        "First raid tier launches on December 9."
+      ],
+      "seo_description": "Crafted tier set stats revealed. Set bonuses are placeholders. First raid tier launches December 9."
+    }
+  },
+  "wh-383943": {
+    "es": {
+      "tldr": [
+        "Complementos de capas específicas dejarán de funcionar.",
+        "API que muestra ID de reino será ofuscada.",
+        "Addon Layer Swap facilitará el cambio de capas."
+      ],
+      "seo_description": "Complementos de capas específicas se desactivarán. API de ID de reino será ofuscada."
+    },
+    "en": {
+      "tldr": [
+        "Targeted layering addons will be disabled soon.",
+        "API showing realm ID will be obfuscated.",
+        "Layer Swap addon helps with layer hopping."
+      ],
+      "seo_description": "Targeted layering addons will be disabled. API showing realm ID will be obfuscated."
+    }
   }
 };
