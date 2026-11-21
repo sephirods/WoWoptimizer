@@ -6809,5 +6809,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Updates on class design and Midnight in WoW."
     }
+  },
+  "blizz-31002979": {
+    "es": {
+      "tldr": [
+        "Correcciones en clases como PÍCARO y BRUJO.",
+        "Los jugadores pueden reiniciar mazmorras 5 veces por hora.",
+        "Mejoras en objetos y profesiones."
+      ],
+      "seo_description": "Actualizaciones de correcciones en vivo para WoW del 20 de noviembre de 2026."
+    },
+    "en": {
+      "tldr": [
+        "Fixes for classes like Rogue and Warlock.",
+        "Players can reset dungeons 5 times per hour.",
+        "Improvements in items and professions."
+      ],
+      "seo_description": "Live hotfix updates for WoW on November 20, 2026."
+    }
+  },
+  "blizz-6522387": {
+    "es": {
+      "tldr": [
+        "Correcciones en clases como PÍCARO y BRUJO.",
+        "Los jugadores pueden reiniciar mazmorras 5 veces por hora.",
+        "Mejoras en objetos y profesiones."
+      ],
+      "seo_description": "Actualizaciones de correcciones en vivo para WoW del 20 de noviembre de 2026."
+    },
+    "en": {
+      "tldr": [
+        "Fixes for classes like Rogue and Warlock.",
+        "Players can reset dungeons 5 times per hour.",
+        "Improvements in items and professions."
+      ],
+      "seo_description": "Live hotfix updates for WoW on November 20, 2026."
+    }
   }
 };
