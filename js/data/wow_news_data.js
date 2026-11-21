@@ -2,6 +2,34 @@
 window.WOW_NEWS_DATABASE = {
   "blueTracker": [
     {
+      "id": "blizz-31002979",
+      "postId": 31002979,
+      "topicId": 2403040,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-21T00:18:29.701Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever Hotfixes - November 20, 2026",
+        "es": "WoW: Forever Correcciones en Vivo - November 20, 2026"
+      },
+      "summary": {
+        "en": "November 20, 2026 \nClasses \n\nRogue\n\nCombat\n\nBlade Flurry will now correctly cause Shank’s damage to hit an additional target.\n\n\n\n\nWarlock\n\nDemonology\n\nFixed a bug where the effects...",
+        "es": "November 20, 2026 \nClasses \n\nRogue\n\nCombat\n\nBlade Flurry will now correctly cause Shank’s damage to hit an additional target.\n\n\n\n\nWarlock\n\nDemonology\n\nFixed a bug where the effects..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 20, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>Rogue</strong>\n<ul>\n<li><strong>Combat</strong>\n<ul>\n<li>Blade Flurry will now correctly cause Shank’s damage to hit an additional target.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Warlock</strong>\n<ul>\n<li><strong>Demonology</strong>\n<ul>\n<li>Fixed a bug where the effects of the Demonic Aegis talent could be snapshotted into your Demon Armor or Demon Skin and then untalented to retain the effects. Demonic Aegis and Demon Skin are removed when your talents are unlearned.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li>Players can now reset and enter each dungeon a maximum of 5 times per hour (was 10).</li>\n<li><strong>Blackrock Spire</strong>\n<ul>\n<li>A rebel stone pillar should no longer trap unsuspecting adventurers.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Orgrimmar - Mayhoa Skyhoof no longer has glowing eyes.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Stormshroud Armor 3-piece bonus changed to a 3% chance (was 4%) on melee attack of restoring 18 energy (was 30).</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li>Toron Rockhoof has repaired his forge and anvil in Summit of Eternity and they should now be usable for blacksmithing and smelting.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>The Hinterlands - Witch Doctor Ti’ik now drops multiple copies of his head when killed by a group that have the quest “Witch Doctor Ti’ik.” It be da voodoo, mon.</li>\n<li>Feralas - Fixed an issue where Perfect Yeti Hide could drop again while you’re already on the quest it starts, “Perfect Yeti Hide.”</li>\n<li>Tanaris - Gor’marok now respawns more quickly for the quest “The Dunemaul Compound.”</li>\n<li>Riverglades - Dunston Willis no longer runs partway through the quest “Dunston Checks Out.”</li>\n</ul>\n<p><strong>User Interface</strong></p>\n<ul>\n<li>Resolved an issue that caused some players to see fewer groups than intended when looking for a group.</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 20, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>PÍCARO</strong>\n<ul>\n<li><strong>Combat</strong>\n<ul>\n<li>Blade Flurry will now correctly cause Shank’s damage to hit an additional target.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>BRUJO</strong>\n<ul>\n<li><strong>Demonología</strong>\n<ul>\n<li>Fixed a bug where the effects of the Demonic Aegis talent could be snapshotted into your Demon Armor or Demon Skin and then untalented to retain the effects. Demonic Aegis and Demon Skin are removed when your talents are unlearned.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li>Players can now reset and enter each dungeon a maximum of 5 times per hour (was 10).</li>\n<li><strong>Blackrock Spire</strong>\n<ul>\n<li>A rebel stone pillar should no longer trap unsuspecting adventurers.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Orgrimmar - Mayhoa Skyhoof no longer has glowing eyes.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Stormshroud Armor 3-piece bonus changed to a 3% chance (antes era 4%) on melee attack of restoring 18 energy (was 30).</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li>Toron Rockhoof has repaired his forge and anvil in Summit of Eternity and they should now be usable for blacksmithing and smelting.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>The Hinterlands - Witch Doctor Ti’ik now drops multiple copies of his head when killed by a group that have the quest “Witch Doctor Ti’ik.” It be da voodoo, mon.</li>\n<li>Feralas - Fixed an issue where Perfect Yeti Hide could drop again while you’re already on the quest it starts, “Perfect Yeti Hide.”</li>\n<li>Tanaris - Gor’marok now respawns more quickly for the quest “The Dunemaul Compound.”</li>\n<li>Riverglades - Dunston Willis no longer runs partway through the quest “Dunston Checks Out.”</li>\n</ul>\n<p><strong>User Interface</strong></p>\n<ul>\n<li>Resolved an issue that caused some players to see fewer groups than intended when looking for a group.</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-20-2026/2403040/14"
+    },
+    {
       "id": "blizz-30998278",
       "postId": 30998278,
       "topicId": 2423714,
@@ -43,8 +71,8 @@ window.WOW_NEWS_DATABASE = {
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "WoW: Forever Hotfixes - November 19, 2026",
-        "es": "WoW: Forever Correcciones en Vivo - November 19, 2026"
+        "en": "WoW: Forever Hotfixes - November 20, 2026",
+        "es": "WoW: Forever Correcciones en Vivo - November 20, 2026"
       },
       "summary": {
         "en": "November 19, 2026 \nCamping \n\nSeed Hybridizer has been re-enabled.\nSeed Hybridization now has adjusted values, as well as a chance of failure when combining seeds.\nScarce Herb Seeds...",
@@ -55,7 +83,7 @@ window.WOW_NEWS_DATABASE = {
         "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 19, 2026</strong></p>\n<p><strong>Camping</strong></p>\n<ul>\n<li>Seed Hybridizer has been re-enabled.</li>\n<li>Seed Hybridization now has adjusted values, as well as a chance of failure when combining seeds.</li>\n<li>Scarce Herb Seeds are no longer able to be used in the Seed Hybridizer.</li>\n</ul>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>PALADÍN</strong>\n<ul>\n<li><strong>Reprensión</strong>\n<ul>\n<li>Two-Handed Weapon Specialization now correctly increases all Sagrado Damage you deal while a two-handed weapon is equipped.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li><strong>City of Dalaran</strong>\n<ul>\n<li>Shade of the Archmage should no longer despawn immediately upon entering combat.</li>\n</ul>\n</li>\n<li><strong>The Shaper’s Terrace</strong>\n<ul>\n<li>Vitrix’s Poison Shock now deals less damage.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Shimmering Flats - Fixed a Silithid Hive Drone that would stuck under the world near the Rustmaul Dig Site.</li>\n<li>Riverglades – Fixed a bug preventing Mosh’gra’s from ever dropping rare loot.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Motes of Unstable Magic are now soulbound.</li>\n<li>Squall-breaker’s Potion can now be deleted.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Booty Bay - Rix Xizzix should no longer incorrectly provide access to a strange tome after completing the quest “Rift Away”.</li>\n<li>Alterac Mountains - Fixed an issue where players could not obtain a new Ensorcelled Parchment while on the quest “Stormpike’s Deciphering” if destroyed from their inventory.</li>\n<li>Resolved an issue with “Hunting for Ectoplasm” quest where the wrong creature type was used to gather ectoplasm.</li>\n</ul>\n<p><strong>Races</strong></p>\n<ul>\n<li><strong>Skyborne</strong>\n<ul>\n<li>Fixed an issue preventing the Skyborne from being able to receive the Honored reputation 10% gold discount on their Apprentice and Journeyman Riding skills sold by Genn Fairweather on Zephras Isle.</li>\n</ul>\n</li>\n<li><strong>Tauren</strong>\n<ul>\n<li>Cultivation should now succeed more reliably when used on herbs you have the Herbalism skill for.</li>\n<li>Fixed a bug that prevented Cultivation from working correctly with Purple Lotus.</li>\n</ul>\n</li>\n</ul></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-19-2026/2403040/13"
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-20-2026/2403040/13"
     },
     {
       "id": "blizz-30984954",
@@ -127,8 +155,8 @@ window.WOW_NEWS_DATABASE = {
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "WoW: Forever Hotfixes - November 19, 2026",
-        "es": "WoW: Forever Correcciones en Vivo - November 19, 2026"
+        "en": "WoW: Forever Hotfixes - November 20, 2026",
+        "es": "WoW: Forever Correcciones en Vivo - November 20, 2026"
       },
       "summary": {
         "en": "November 17, 2026 \nCamping \n\nMounted Players will no longer be permitted to sleep while saddled up atop the Cozy Sleeping Bag.\nCozy Sleeping Bag can now be placed in specific locat...",
@@ -139,7 +167,7 @@ window.WOW_NEWS_DATABASE = {
         "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 17, 2026</strong></p>\n<p><strong>Camping</strong></p>\n<ul>\n<li>Mounted Players will no longer be permitted to sleep while saddled up atop the Cozy Sleeping Bag.</li>\n<li>Cozy Sleeping Bag can now be placed in specific locations, like hunter traps.</li>\n<li>Cozy Sleeping Bag will now provide a Resting aura indicating when you are within its area of effect.</li>\n</ul>\n<p><strong>Classes</strong></p>\n<ul>\n<li>Might of Stormwind and Warchief’s Blessing should now always correctly cancel on death.</li>\n<li>Might of Stormwind and Warchief’s Blessing are no longer applied to non-players.</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li>Fixed an issue where Flurry incorrectly lost stacks when Windfury totem attacks landed.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li><strong>Upper Blackrock Spire</strong>\n<ul>\n<li>Corrected an issue causing enemy health and damage to be significantly lower than intended.</li>\n<li><em>Developers’ notes: This should bring UBRS back in line with its intended difficulty, and it again requires a full complement of diligent players to complete.</em></li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Thousand Needles - Fixed an issue where a Pesterhide Snarler or Needles Cougar could spawn inside a rock.</li>\n<li>Thousand Needles - Fixed an issue where a Gravelysnout Digger or Surveyour could path inside a rock.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Sombras Priests can now hold a Night Watchman’s Torch.</li>\n<li>Escape Plan now has correct range and damage values.</li>\n<li>Corrected Whiteout Staff and Crackling Staff so that they have the same stats: 25 Stamina, 25 Intellect, 74 Spell Power from Weapon damage.</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li>Soulforge Armor (upgraded Dungeon Set for tanks) now has Spell Power (was Strength).</li>\n<li><em>Developers’ notes: We are leaning more into Paladin tanks favoring Spell Power as their primary stat for dealing damage.</em></li>\n</ul>\n</li>\n</ul>\n<p><strong>Legacy</strong></p>\n<ul>\n<li>Reagent Economy should no longer randomly stop working.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li>Fixed an issue allowing players to mount up in the starting rooms in Warsong Gulch.</li>\n<li>The Battle for Alterac Valley quests now require level 58 to accept.</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li>Fixed a bug that allowed for certain Waylaid Crate conversions to reward an obsolete turn-in item. Players affected can now turn these crates in for the intended reward.</li>\n<li>Various Paletusks can no longer be pickpocketed</li>\n<li><strong>Blacksmithing</strong>\n<ul>\n<li>The quest “The Old Ways” now grants the Orcish War Leggings recipe via an item. Players who did not receive their recipe, or lose it, can acquire a replacement from Sumi inside the nearby blacksmithing hut once the quest is completed.</li>\n<li>Bronze Mace ahora es Bind on Equip (was unbound). This also allows it to be added to the Transmog Collection.</li>\n<li>Craftsman’s Writ: Golden Scale Gauntlets now correctly directs players to the completion NPC when ready to turn-in.</li>\n</ul>\n</li>\n<li><strong>Herbalism</strong>\n<ul>\n<li>Fixed a bug that prevented Cultivation from working correctly on Mageroyal.</li>\n<li>Wildflowers for the quest “Her World” will no longer be tracked by Find Herb unless you are on the quest.</li>\n</ul>\n</li>\n<li><strong>Skinning</strong>\n<ul>\n<li>Skinners can no longer skin a few creatures that typically are not skinnable.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>A bin of mail has been discovered in SI:7 quarters and Mathias Shaw can now give rogues the letter that they’ve been expecting for “The Manor, Ravenholdt”.</li>\n<li>“Show Them How It’s Done” can now be properly seen on your map.</li>\n<li>Questing players should now encounter more Fen Creepers in Wetlands for “Blisters on the Land”.</li>\n<li>Quest “Step One: Rock” rockpiles will now be tracked via Find Minerals (was Find Treasure) while on the quest.</li>\n<li>There are now more Gravelsnout Diggers and Surveyors available for the quest “A New Ore Sample”. You may take ore sample, but we strongly advise you do <strong>not</strong> take candle.</li>\n<li><strong>Shen’dralas</strong>\n<ul>\n<li>Repairing pylon objectives for “Powering the Pylons” ahora es shared with nearby party members.</li>\n<li>The Depleted Crystal Heart for the quest “Heart of Crystal” now drops for all players in a party.</li>\n<li>Rokren for the Gelkis escort quest “Going Home” has had his escape speed reduced.</li>\n<li>Miners can now track “Spectral Iron Ore”.</li>\n<li>Spectral Iron Ore spawn rate increased.</li>\n<li>Reduced the frequency that Bristleback Skullcrushers cast their abilities.</li>\n<li>Reduced the frequency that Decrepit Pylon Protectors cast their abilities.</li>\n<li>Summon Undead Ravager cast by various necromancers can now be interrupted.</li>\n<li>The quest “Agamaggan’s Sangre” is no longer a Dungeon Quest and can be completed in the elite area outside of Razorfen Downs.</li>\n</ul>\n</li>\n</ul>\n<p><strong>User Interface</strong></p>\n<ul>\n<li>Fixed a bug preventing players’ ignore lists from persisting through logging out of the game.</li>\n<li>Fix a UI bug with Master Swordsmith, Master Axesmith, Master Hammersmith.</li>\n</ul></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-19-2026/2403040/12"
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-20-2026/2403040/12"
     },
     {
       "id": "blizz-30953089",
@@ -196,34 +224,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://us.forums.blizzard.com/en/wow/t/join-the-world-of-warcraft-22nd-anniversary-celebration/2419660/1"
-    },
-    {
-      "id": "blizz-30952323",
-      "postId": 30952323,
-      "topicId": 2419659,
-      "forumDomain": "us.forums.blizzard.com",
-      "region": "US",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-17T18:00:07.383Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Join the World of Warcraft 22nd Anniversary Celebration",
-        "es": "Join the World of Warcraft 22nd Anniversary Celebración"
-      },
-      "summary": {
-        "en": "[Join the World of Warcraft 22nd Anniversary Celebration] Join the celebration as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to ea...",
-        "es": "[Join the World of Warcraft 22nd Anniversary Celebración] Join the Celebración as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to ea..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\" alt=\"Join the World of Warcraft 22nd Anniversary Celebration\" width=\"833\" height=\"468\"></a></p><p>Join the celebration as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to earn currency to buy a wide range of items. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316098\">View Full Article</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\" alt=\"Join the World of Warcraft 22nd Anniversary Celebration\" width=\"833\" height=\"468\"></a></p><p>Join the celebration as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to earn currency to buy a wide range of items. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316098\">View Full Article</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/join-the-world-of-warcraft-22nd-anniversary-celebration/2419659/1"
     },
     {
       "id": "blizz-1237832",
@@ -450,6 +450,34 @@ window.WOW_NEWS_DATABASE = {
       "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/no-te-pierdas-el-relato-corto-%C2%ABel-coste-del-honor%C2%BB-de-wow-forever/80895/1"
     },
     {
+      "id": "blizz-6522387",
+      "postId": 6522387,
+      "topicId": 639885,
+      "forumDomain": "eu.forums.blizzard.com",
+      "region": "EU",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Kaivax (Community Manager)",
+      "dateRaw": "2026-11-21T00:19:23.672Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "WoW: Forever Hotfixes - November 20, 2026",
+        "es": "WoW: Forever Correcciones en Vivo - November 20, 2026"
+      },
+      "summary": {
+        "en": "November 20, 2026 \nClasses \n\nRogue\n\nCombat\n\nBlade Flurry will now correctly cause Shank’s damage to hit an additional target.\n\n\n\n\nWarlock\n\nDemonology\n\nFixed a bug where the effects...",
+        "es": "November 20, 2026 \nClasses \n\nRogue\n\nCombat\n\nBlade Flurry will now correctly cause Shank’s damage to hit an additional target.\n\n\n\n\nWarlock\n\nDemonology\n\nFixed a bug where the effects..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 20, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>Rogue</strong>\n<ul>\n<li><strong>Combat</strong>\n<ul>\n<li>Blade Flurry will now correctly cause Shank’s damage to hit an additional target.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Warlock</strong>\n<ul>\n<li><strong>Demonology</strong>\n<ul>\n<li>Fixed a bug where the effects of the Demonic Aegis talent could be snapshotted into your Demon Armor or Demon Skin and then untalented to retain the effects. Demonic Aegis and Demon Skin are removed when your talents are unlearned.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li>Players can now reset and enter each dungeon a maximum of 5 times per hour (was 10).</li>\n<li><strong>Blackrock Spire</strong>\n<ul>\n<li>A rebel stone pillar should no longer trap unsuspecting adventurers.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Orgrimmar - Mayhoa Skyhoof no longer has glowing eyes.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Stormshroud Armor 3-piece bonus changed to a 3% chance (was 4%) on melee attack of restoring 18 energy (was 30).</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li>Toron Rockhoof has repaired his forge and anvil in Summit of Eternity and they should now be usable for blacksmithing and smelting.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>The Hinterlands - Witch Doctor Ti’ik now drops multiple copies of his head when killed by a group that have the quest “Witch Doctor Ti’ik.” It be da voodoo, mon.</li>\n<li>Feralas - Fixed an issue where Perfect Yeti Hide could drop again while you’re already on the quest it starts, “Perfect Yeti Hide.”</li>\n<li>Tanaris - Gor’marok now respawns more quickly for the quest “The Dunemaul Compound.”</li>\n<li>Riverglades - Dunston Willis no longer runs partway through the quest “Dunston Checks Out.”</li>\n</ul>\n<p><strong>User Interface</strong></p>\n<ul>\n<li>Resolved an issue that caused some players to see fewer groups than intended when looking for a group.</li>\n</ul></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 20, 2026</strong></p>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>PÍCARO</strong>\n<ul>\n<li><strong>Combat</strong>\n<ul>\n<li>Blade Flurry will now correctly cause Shank’s damage to hit an additional target.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>BRUJO</strong>\n<ul>\n<li><strong>Demonología</strong>\n<ul>\n<li>Fixed a bug where the effects of the Demonic Aegis talent could be snapshotted into your Demon Armor or Demon Skin and then untalented to retain the effects. Demonic Aegis and Demon Skin are removed when your talents are unlearned.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li>Players can now reset and enter each dungeon a maximum of 5 times per hour (was 10).</li>\n<li><strong>Blackrock Spire</strong>\n<ul>\n<li>A rebel stone pillar should no longer trap unsuspecting adventurers.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Orgrimmar - Mayhoa Skyhoof no longer has glowing eyes.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Stormshroud Armor 3-piece bonus changed to a 3% chance (antes era 4%) on melee attack of restoring 18 energy (was 30).</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li>Toron Rockhoof has repaired his forge and anvil in Summit of Eternity and they should now be usable for blacksmithing and smelting.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>The Hinterlands - Witch Doctor Ti’ik now drops multiple copies of his head when killed by a group that have the quest “Witch Doctor Ti’ik.” It be da voodoo, mon.</li>\n<li>Feralas - Fixed an issue where Perfect Yeti Hide could drop again while you’re already on the quest it starts, “Perfect Yeti Hide.”</li>\n<li>Tanaris - Gor’marok now respawns more quickly for the quest “The Dunemaul Compound.”</li>\n<li>Riverglades - Dunston Willis no longer runs partway through the quest “Dunston Checks Out.”</li>\n</ul>\n<p><strong>User Interface</strong></p>\n<ul>\n<li>Resolved an issue that caused some players to see fewer groups than intended when looking for a group.</li>\n</ul></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-20-2026/639885/13"
+    },
+    {
       "id": "blizz-6521783",
       "postId": 6521783,
       "topicId": 644663,
@@ -519,8 +547,8 @@ window.WOW_NEWS_DATABASE = {
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "WoW: Forever Hotfixes - November 19, 2026",
-        "es": "WoW: Forever Correcciones en Vivo - November 19, 2026"
+        "en": "WoW: Forever Hotfixes - November 20, 2026",
+        "es": "WoW: Forever Correcciones en Vivo - November 20, 2026"
       },
       "summary": {
         "en": "November 19, 2026 \nCamping \n\nSeed Hybridizer has been re-enabled.\nSeed Hybridization now has adjusted values, as well as a chance of failure when combining seeds.\nScarce Herb Seeds...",
@@ -531,7 +559,7 @@ window.WOW_NEWS_DATABASE = {
         "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 19, 2026</strong></p>\n<p><strong>Camping</strong></p>\n<ul>\n<li>Seed Hybridizer has been re-enabled.</li>\n<li>Seed Hybridization now has adjusted values, as well as a chance of failure when combining seeds.</li>\n<li>Scarce Herb Seeds are no longer able to be used in the Seed Hybridizer.</li>\n</ul>\n<p><strong>Classes</strong></p>\n<ul>\n<li><strong>PALADÍN</strong>\n<ul>\n<li><strong>Reprensión</strong>\n<ul>\n<li>Two-Handed Weapon Specialization now correctly increases all Sagrado Damage you deal while a two-handed weapon is equipped.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li><strong>City of Dalaran</strong>\n<ul>\n<li>Shade of the Archmage should no longer despawn immediately upon entering combat.</li>\n</ul>\n</li>\n<li><strong>The Shaper’s Terrace</strong>\n<ul>\n<li>Vitrix’s Poison Shock now deals less damage.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Shimmering Flats - Fixed a Silithid Hive Drone that would stuck under the world near the Rustmaul Dig Site.</li>\n<li>Riverglades – Fixed a bug preventing Mosh’gra’s from ever dropping rare loot.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Motes of Unstable Magic are now soulbound.</li>\n<li>Squall-breaker’s Potion can now be deleted.</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>Booty Bay - Rix Xizzix should no longer incorrectly provide access to a strange tome after completing the quest “Rift Away”.</li>\n<li>Alterac Mountains - Fixed an issue where players could not obtain a new Ensorcelled Parchment while on the quest “Stormpike’s Deciphering” if destroyed from their inventory.</li>\n<li>Resolved an issue with “Hunting for Ectoplasm” quest where the wrong creature type was used to gather ectoplasm.</li>\n</ul>\n<p><strong>Races</strong></p>\n<ul>\n<li><strong>Skyborne</strong>\n<ul>\n<li>Fixed an issue preventing the Skyborne from being able to receive the Honored reputation 10% gold discount on their Apprentice and Journeyman Riding skills sold by Genn Fairweather on Zephras Isle.</li>\n</ul>\n</li>\n<li><strong>Tauren</strong>\n<ul>\n<li>Cultivation should now succeed more reliably when used on herbs you have the Herbalism skill for.</li>\n<li>Fixed a bug that prevented Cultivation from working correctly with Purple Lotus.</li>\n</ul>\n</li>\n</ul></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-19-2026/639885/12"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-20-2026/639885/12"
     },
     {
       "id": "blizz-6519318",
@@ -603,8 +631,8 @@ window.WOW_NEWS_DATABASE = {
       "category": "Blizzard Tracker",
       "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
       "title": {
-        "en": "WoW: Forever Hotfixes - November 19, 2026",
-        "es": "WoW: Forever Correcciones en Vivo - November 19, 2026"
+        "en": "WoW: Forever Hotfixes - November 20, 2026",
+        "es": "WoW: Forever Correcciones en Vivo - November 20, 2026"
       },
       "summary": {
         "en": "November 17, 2026 \nCamping \n\nMounted Players will no longer be permitted to sleep while saddled up atop the Cozy Sleeping Bag.\nCozy Sleeping Bag can now be placed in specific locat...",
@@ -615,7 +643,7 @@ window.WOW_NEWS_DATABASE = {
         "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><strong>November 17, 2026</strong></p>\n<p><strong>Camping</strong></p>\n<ul>\n<li>Mounted Players will no longer be permitted to sleep while saddled up atop the Cozy Sleeping Bag.</li>\n<li>Cozy Sleeping Bag can now be placed in specific locations, like hunter traps.</li>\n<li>Cozy Sleeping Bag will now provide a Resting aura indicating when you are within its area of effect.</li>\n</ul>\n<p><strong>Classes</strong></p>\n<ul>\n<li>Might of Stormwind and Warchief’s Blessing should now always correctly cancel on death.</li>\n<li>Might of Stormwind and Warchief’s Blessing are no longer applied to non-players.</li>\n<li><strong>CHAMÁN</strong>\n<ul>\n<li>Fixed an issue where Flurry incorrectly lost stacks when Windfury totem attacks landed.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Dungeons</strong></p>\n<ul>\n<li><strong>Upper Blackrock Spire</strong>\n<ul>\n<li>Corrected an issue causing enemy health and damage to be significantly lower than intended.</li>\n<li><em>Developers’ notes: This should bring UBRS back in line with its intended difficulty, and it again requires a full complement of diligent players to complete.</em></li>\n</ul>\n</li>\n</ul>\n<p><strong>Enemies and NPCs</strong></p>\n<ul>\n<li>Thousand Needles - Fixed an issue where a Pesterhide Snarler or Needles Cougar could spawn inside a rock.</li>\n<li>Thousand Needles - Fixed an issue where a Gravelysnout Digger or Surveyour could path inside a rock.</li>\n</ul>\n<p><strong>Items</strong></p>\n<ul>\n<li>Sombras Priests can now hold a Night Watchman’s Torch.</li>\n<li>Escape Plan now has correct range and damage values.</li>\n<li>Corrected Whiteout Staff and Crackling Staff so that they have the same stats: 25 Stamina, 25 Intellect, 74 Spell Power from Weapon damage.</li>\n<li><strong>PALADÍN</strong>\n<ul>\n<li>Soulforge Armor (upgraded Dungeon Set for tanks) now has Spell Power (was Strength).</li>\n<li><em>Developers’ notes: We are leaning more into Paladin tanks favoring Spell Power as their primary stat for dealing damage.</em></li>\n</ul>\n</li>\n</ul>\n<p><strong>Legacy</strong></p>\n<ul>\n<li>Reagent Economy should no longer randomly stop working.</li>\n</ul>\n<p><strong>JUGADOR CONTRA JUGADOR (JcJ)</strong></p>\n<ul>\n<li>Fixed an issue allowing players to mount up in the starting rooms in Warsong Gulch.</li>\n<li>The Battle for Alterac Valley quests now require level 58 to accept.</li>\n</ul>\n<p><strong>Professions</strong></p>\n<ul>\n<li>Fixed a bug that allowed for certain Waylaid Crate conversions to reward an obsolete turn-in item. Players affected can now turn these crates in for the intended reward.</li>\n<li>Various Paletusks can no longer be pickpocketed</li>\n<li><strong>Blacksmithing</strong>\n<ul>\n<li>The quest “The Old Ways” now grants the Orcish War Leggings recipe via an item. Players who did not receive their recipe, or lose it, can acquire a replacement from Sumi inside the nearby blacksmithing hut once the quest is completed.</li>\n<li>Bronze Mace ahora es Bind on Equip (was unbound). This also allows it to be added to the Transmog Collection.</li>\n<li>Craftsman’s Writ: Golden Scale Gauntlets now correctly directs players to the completion NPC when ready to turn-in.</li>\n</ul>\n</li>\n<li><strong>Herbalism</strong>\n<ul>\n<li>Fixed a bug that prevented Cultivation from working correctly on Mageroyal.</li>\n<li>Wildflowers for the quest “Her World” will no longer be tracked by Find Herb unless you are on the quest.</li>\n</ul>\n</li>\n<li><strong>Skinning</strong>\n<ul>\n<li>Skinners can no longer skin a few creatures that typically are not skinnable.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Quests</strong></p>\n<ul>\n<li>A bin of mail has been discovered in SI:7 quarters and Mathias Shaw can now give rogues the letter that they’ve been expecting for “The Manor, Ravenholdt”.</li>\n<li>“Show Them How It’s Done” can now be properly seen on your map.</li>\n<li>Questing players should now encounter more Fen Creepers in Wetlands for “Blisters on the Land”.</li>\n<li>Quest “Step One: Rock” rockpiles will now be tracked via Find Minerals (was Find Treasure) while on the quest.</li>\n<li>There are now more Gravelsnout Diggers and Surveyors available for the quest “A New Ore Sample”. You may take ore sample, but we strongly advise you do <strong>not</strong> take candle.</li>\n<li><strong>Shen’dralas</strong>\n<ul>\n<li>Repairing pylon objectives for “Powering the Pylons” ahora es shared with nearby party members.</li>\n<li>The Depleted Crystal Heart for the quest “Heart of Crystal” now drops for all players in a party.</li>\n<li>Rokren for the Gelkis escort quest “Going Home” has had his escape speed reduced.</li>\n<li>Miners can now track “Spectral Iron Ore”.</li>\n<li>Spectral Iron Ore spawn rate increased.</li>\n<li>Reduced the frequency that Bristleback Skullcrushers cast their abilities.</li>\n<li>Reduced the frequency that Decrepit Pylon Protectors cast their abilities.</li>\n<li>Summon Undead Ravager cast by various necromancers can now be interrupted.</li>\n<li>The quest “Agamaggan’s Sangre” is no longer a Dungeon Quest and can be completed in the elite area outside of Razorfen Downs.</li>\n</ul>\n</li>\n</ul>\n<p><strong>User Interface</strong></p>\n<ul>\n<li>Fixed a bug preventing players’ ignore lists from persisting through logging out of the game.</li>\n<li>Fix a UI bug with Master Swordsmith, Master Axesmith, Master Hammersmith.</li>\n</ul></div>"
       },
       "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-19-2026/639885/11"
+      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-20-2026/639885/11"
     },
     {
       "id": "blizz-6513699",
@@ -644,6 +672,34 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/actions-for-blackmaw-hold-abuse-17-november/643759/1"
+    },
+    {
+      "id": "blizz-30952323",
+      "postId": 30952323,
+      "topicId": 2419659,
+      "forumDomain": "us.forums.blizzard.com",
+      "region": "US",
+      "postLang": "en",
+      "source": "blizzard",
+      "author": "Blizzard Entertainment (Blizzard News)",
+      "dateRaw": "2026-11-17T18:00:07.383Z",
+      "tag": "Blue Post",
+      "category": "Blizzard Tracker",
+      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
+      "title": {
+        "en": "Join the World of Warcraft 22nd Anniversary Celebration",
+        "es": "Join the World of Warcraft 22nd Anniversary Celebración"
+      },
+      "summary": {
+        "en": "[Join the World of Warcraft 22nd Anniversary Celebration] Join the celebration as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to ea...",
+        "es": "[Join the World of Warcraft 22nd Anniversary Celebración] Join the Celebración as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to ea..."
+      },
+      "content": {
+        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\" alt=\"Join the World of Warcraft 22nd Anniversary Celebration\" width=\"833\" height=\"468\"></a></p><p>Join the celebration as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to earn currency to buy a wide range of items. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316098\">View Full Article</a></p></div>",
+        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/t8/T8OJTHYRZC9B1762889373861.png\" alt=\"Join the World of Warcraft 22nd Anniversary Celebration\" width=\"833\" height=\"468\"></a></p><p>Join the celebration as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to earn currency to buy a wide range of items. </p><p><a href=\"https://worldofwarcraft.com/en-us/news/24316098\">View Full Article</a></p></div>"
+      },
+      "hasFullContent": true,
+      "originalUrl": "https://us.forums.blizzard.com/en/wow/t/join-the-world-of-warcraft-22nd-anniversary-celebration/2419659/1"
     },
     {
       "id": "blizz-6513607",
@@ -1344,62 +1400,6 @@ window.WOW_NEWS_DATABASE = {
       },
       "hasFullContent": true,
       "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/watch-the-wow-forever-short-story-%E2%80%9Ccost-of-honor%E2%80%9D/642544/1"
-    },
-    {
-      "id": "blizz-1235440",
-      "postId": 1235440,
-      "topicId": 80701,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "es",
-      "source": "blizzard",
-      "author": "Blizzard Entertainment (Blizzard News)",
-      "dateRaw": "2026-11-03T20:00:08.915Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "Explora WoW: Forever con un mando",
-        "es": "Explora WoW: Forever con un mando"
-      },
-      "summary": {
-        "en": "[Explora WoW: Forever con un mando] ¿Prefieres usar un mando? Descubre otro modo de jugar a World of Warcraft: Forever, desde cómo moverte y lanzar hechizos hasta los ajustes de co...",
-        "es": "[Explora WoW: Forever con un mando] ¿Prefieres usar un mando? Descubre otro modo de jugar a World of Warcraft: Forever, desde cómo moverte y lanzar hechizos hasta los ajustes de co..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\" alt=\"Explora WoW: Forever con un mando\" width=\"833\" height=\"468\"></a></p><p>¿Prefieres usar un mando? Descubre otro modo de jugar a World of Warcraft: Forever, desde cómo moverte y lanzar hechizos hasta los ajustes de configuración. La compatibilidad con los mandos está disponible en fase beta e iremos implementando mejoras. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316974\">Ver artículo completo</a></p></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p><a href=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\"><img src=\"https://bnetcmsus-a.akamaihd.net/cms/blog_header/bg/BGQ7RN9RQG4B1793736408627.png\" alt=\"Explora WoW: Forever con un mando\" width=\"833\" height=\"468\"></a></p><p>¿Prefieres usar un mando? Descubre otro modo de jugar a World of Warcraft: Forever, desde cómo moverte y lanzar hechizos hasta los ajustes de configuración. La compatibilidad con los mandos está disponible en fase beta e iremos implementando mejoras. </p><p><a href=\"https://worldofwarcraft.com/es-es/news/24316974\">Ver artículo completo</a></p></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/es/wow/t/explora-wow-forever-con-un-mando/80701/1"
-    },
-    {
-      "id": "blizz-6497741",
-      "postId": 6497741,
-      "topicId": 639885,
-      "forumDomain": "eu.forums.blizzard.com",
-      "region": "EU",
-      "postLang": "en",
-      "source": "blizzard",
-      "author": "Kaivax (Community Manager)",
-      "dateRaw": "2026-11-12T19:10:54.868Z",
-      "tag": "Blue Post",
-      "category": "Blizzard Tracker",
-      "badgeColor": "border-sky-500/60 bg-sky-950/80 text-sky-300",
-      "title": {
-        "en": "WoW: Forever Hotfixes - November 16, 2026",
-        "es": "WoW: Forever Correcciones en Vivo - November 16, 2026"
-      },
-      "summary": {
-        "en": "Please note: \nDue to an unexpected delay in deployment, the following changes went live to all regions at 19:45 CET today. \nClasses\nShaman \n\nWeapon imbues and Weapon totems can now...",
-        "es": "Please note: \nDue to an unexpected delay in deployment, the following changes went live to all regions at 19:45 CET today. \nClasses\nShaman \n\nWeapon imbues and Weapon totems can now..."
-      },
-      "content": {
-        "en": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Please note:<br>\nDue to an unexpected delay in deployment, the following changes went live to all regions at 19:45 CET today.</p>\n<h2><a name=\"p-6497741-classes-1\" class=\"anchor\" href=\"#p-6497741-classes-1\" aria-label=\"Heading link\"></a>Classes</h2>\n<p><strong>Shaman</strong></p>\n<ul>\n<li>Weapon imbues and Weapon totems can now be used at the same time.</li>\n<li><strong>Enhancement</strong>\n<ul>\n<li>Stormstrike damage reduced to 100% weapon damage (was 150%), and cooldown increased to 8 seconds (was 6 seconds).</li>\n<li>Mental Dexterity: Intellect to Attack Power conversion ratio reduced to 33/66/100% (was 50/100/150%).</li>\n<li>Maelstrom Weapon now grants 20% reduced cast time and Mana cost per application at all ranks (was 4/8/12/16/20% reduced cast time and Mana cost), and chance to activate now increases with rank and activates 6/7/8/9/10 times per minute (was 20 times per minute regardless of rank).</li>\n<li>Maelstrom Weapon tooltip updated to display the Shaman’s % chance to activate it based on their Main Hand Weapon’s speed. For example, if the Shaman has the 5 points into Maelstrom Weapon and has a 3.6 speed weapon it will display a 60% chance to activate on swing, compared to if the Shaman is wielding a 2.0 speed weapon it will display a 33% chance to activate on swing.</li>\n</ul>\n</li>\n</ul></div>",
-        "es": "<div class=\"blizzard-full-post space-y-4 text-xs sm:text-sm leading-relaxed text-slate-200\"><p>Please note:<br>\nDue to an unexpected delay in deployment, the following changes went live to all regions at 19:45 CET today.</p>\n<h2><a name=\"p-6497741-classes-1\" class=\"anchor\" href=\"#p-6497741-classes-1\" aria-label=\"Heading link\"></a>Classes</h2>\n<p><strong>CHAMÁN</strong></p>\n<ul>\n<li>Weapon imbues and Weapon totems can now be used at the same time.</li>\n<li><strong>Mejora</strong>\n<ul>\n<li>Stormstrike damage reduced to 100% weapon damage (antes era 150%), and cooldown increased to 8 seconds (was 6 seconds).</li>\n<li>Mental Dexterity: Intellect to Attack Power conversion ratio reduced to 33/66/100% (was 50/100/150%).</li>\n<li>Maelstrom Weapon now grants 20% reduced cast time and Mana cost per application at all ranks (was 4/8/12/16/20% reduced cast time and Mana cost), and chance to activate ahora aumenta with rank and activates 6/7/8/9/10 times per minute (was 20 times per minute regardless of rank).</li>\n<li>Maelstrom Weapon tooltip updated to display the Shaman’s % chance to activate it based on their Main Hand Weapon’s speed. For example, if the Shaman has the 5 points into Maelstrom Weapon and has a 3.6 speed weapon it will display a 60% chance to activate on swing, compared to if the Shaman is wielding a 2.0 speed weapon it will display a 33% chance to activate on swing.</li>\n</ul>\n</li>\n</ul></div>"
-      },
-      "hasFullContent": true,
-      "originalUrl": "https://eu.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-16-2026/639885/8"
     }
   ],
   "blizzardNews": [
