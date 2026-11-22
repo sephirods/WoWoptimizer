@@ -6953,5 +6953,59 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Learn how to maximize Lockpicking skill in WoW: Forever."
     }
+  },
+  "wh-383956": {
+    "es": {
+      "tldr": [
+        "Los jugadores ya no pueden mirar dentro de las cajas fuertes en WoW: Forever.",
+        "Se descubrió un exploit relacionado con el contenido de las cajas.",
+        "Las recientes actualizaciones impiden el 'peek' y los objetos se lootearán automáticamente."
+      ],
+      "seo_description": "Los jugadores ya no pueden mirar dentro de las cajas fuertes en WoW: Forever debido a un exploit."
+    },
+    "en": {
+      "tldr": [
+        "Players can no longer peek inside lockboxes in WoW: Forever.",
+        "An exploit related to lockbox contents was discovered.",
+        "Recent hotfixes prevent peeking and items will be automatically looted."
+      ],
+      "seo_description": "Players can no longer peek inside lockboxes in WoW: Forever due to an exploit."
+    }
+  },
+  "wh-383954": {
+    "es": {
+      "tldr": [
+        "Los beneficios del mundo se eliminan al activar una pantalla de carga.",
+        "Esto impide su uso en mazmorras y continentes opuestos.",
+        "Los jugadores ya no pueden usar beneficios como la Bendición del Jefe de Guerra."
+      ],
+      "seo_description": "Los beneficios del mundo se eliminan al activar una pantalla de carga en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "World Buffs are removed when a loading screen triggers.",
+        "This prevents their use in dungeons and on opposite continents.",
+        "Players can no longer use buffs like Warchief's Blessing."
+      ],
+      "seo_description": "World Buffs are removed when a loading screen triggers in WoW: Forever."
+    }
+  },
+  "wh-383947": {
+    "es": {
+      "tldr": [
+        "Taliesin y Evitel discuten las últimas noticias de WoW: Forever.",
+        "Se aborda la controversia del exploit de la granja de oro en Blackmaw Hold.",
+        "Se esperan decisiones sobre sanciones para los infractores."
+      ],
+      "seo_description": "Taliesin y Evitel analizan la controversia del oro en WoW: Forever en su repaso semanal."
+    },
+    "en": {
+      "tldr": [
+        "Taliesin and Evitel discuss the latest news in WoW: Forever.",
+        "They cover the gold farm exploit controversy in Blackmaw Hold.",
+        "Decisions on sanctions for offenders are anticipated."
+      ],
+      "seo_description": "Taliesin and Evitel analyze the gold controversy in WoW: Forever in their weekly reset."
+    }
   }
 };
