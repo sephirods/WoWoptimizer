@@ -6935,5 +6935,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Find all quests for the new Alcaz Prison dungeon in WoW: Forever."
     }
+  },
+  "wh-383884": {
+    "es": {
+      "tldr": [
+        "La habilidad de ganzúa es esencial para los pícaros en WoW.",
+        "El método clásico ha sido nerfeado, buscando nuevas formas de subir.",
+        "La mejor opción ahora es Tyr’s Hand en Plaguelands Este."
+      ],
+      "seo_description": "Descubre cómo maximizar la habilidad de ganzúa en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Lockpicking is essential for Rogues in WoW.",
+        "The classic method has been nerfed, requiring new leveling strategies.",
+        "The best option now is Tyr’s Hand in Eastern Plaguelands."
+      ],
+      "seo_description": "Learn how to maximize Lockpicking skill in WoW: Forever."
+    }
   }
 };
