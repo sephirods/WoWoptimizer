@@ -7007,5 +7007,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Taliesin and Evitel analyze the gold controversy in WoW: Forever in their weekly reset."
     }
+  },
+  "wh-383955": {
+    "es": {
+      "tldr": [
+        "El jefe Obsidian Sentinel de Uldaman ya no da botín.",
+        "El cambio afecta a los jugadores que hacían 'gold farming'.",
+        "Blizzard no ha comunicado oficialmente esta modificación."
+      ],
+      "seo_description": "El jefe de Uldaman ya no da botín, afectando el 'gold farming' y el nivelado de personajes."
+    },
+    "en": {
+      "tldr": [
+        "The Obsidian Sentinel boss in Uldaman no longer drops loot.",
+        "This change impacts players engaged in gold farming.",
+        "Blizzard has not officially announced this modification."
+      ],
+      "seo_description": "The Uldaman boss no longer drops loot, affecting gold farming and character leveling."
+    }
+  },
+  "wh-383959": {
+    "es": {
+      "tldr": [
+        "Aidan Moon confirma que los 'World Buffs' en la pantalla de carga es un error.",
+        "El bug será corregido mañana.",
+        "Los jugadores podrán disfrutar de los 'World Buffs' en mazmorras nuevamente."
+      ],
+      "seo_description": "Aidan Moon anuncia que los 'World Buffs' en la carga son un error que será corregido."
+    },
+    "en": {
+      "tldr": [
+        "Aidan Moon confirms that World Buffs dropping on loading screens is a bug.",
+        "The bug will be fixed tomorrow.",
+        "Players will be able to enjoy World Buffs in dungeons again."
+      ],
+      "seo_description": "Aidan Moon announces that World Buffs dropping on loading screens is a bug that will be fixed."
+    }
   }
 };
