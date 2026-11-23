@@ -7043,5 +7043,59 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Aidan Moon announces that World Buffs dropping on loading screens is a bug that will be fixed."
     }
+  },
+  "wh-383967": {
+    "es": {
+      "tldr": [
+        "Los potenciadores del mundo ahora persisten durante las pantallas de carga.",
+        "Se ha debilitado el potenciador del Tributo de la Mazmorras de Dire Maul.",
+        "Los jugadores pueden usar potenciadores antes de las mazmorras."
+      ],
+      "seo_description": "Los potenciadores del mundo ahora persisten en WoW: Forever, pero el del Tributo de Dire Maul ha sido debilitado."
+    },
+    "en": {
+      "tldr": [
+        "World Buffs now persist through loading screens.",
+        "The Dire Maul Tribute buff has been nerfed.",
+        "Players can use buffs before dungeons."
+      ],
+      "seo_description": "World Buffs now persist in WoW: Forever, but the Dire Maul Tribute buff has been nerfed."
+    }
+  },
+  "wh-383965": {
+    "es": {
+      "tldr": [
+        "Blizzard trabaja en una solución para Paladines y brujos.",
+        "El problema impide desbloquear la monta épica.",
+        "Se espera una solución en uno o dos días."
+      ],
+      "seo_description": "Blizzard busca solucionar el problema de desbloqueo de la monta épica para Paladines y brujos."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard is working on a fix for Paladins and Warlocks.",
+        "The issue prevents unlocking Epic Riding.",
+        "A fix is expected in one or two days."
+      ],
+      "seo_description": "Blizzard is addressing the Epic Riding unlock issue for Paladins and Warlocks."
+    }
+  },
+  "wh-383963": {
+    "es": {
+      "tldr": [
+        "El cambio en las cajas fuertes es temporal.",
+        "Blizzard trabaja en una solución adecuada.",
+        "Se restaurará la capacidad de mirar dentro de las cajas."
+      ],
+      "seo_description": "Blizzard confirma que el cambio en las cajas fuertes es temporal y se restaurará la vista previa."
+    },
+    "en": {
+      "tldr": [
+        "The lockbox change is temporary.",
+        "Blizzard is working on a proper fix.",
+        "Peeking inside lockboxes will be restored."
+      ],
+      "seo_description": "Blizzard confirms the lockbox change is temporary and peeking will return."
+    }
   }
 };
