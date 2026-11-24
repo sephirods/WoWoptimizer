@@ -7097,5 +7097,59 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Blizzard confirms the lockbox change is temporary and peeking will return."
     }
+  },
+  "wh-383972": {
+    "es": {
+      "tldr": [
+        "Blizzard lanza correcciones para clases y profesiones.",
+        "Se solucionan errores en habilidades de Druidas y Sacerdotes.",
+        "Los Buffs de Mundo ahora persisten al cambiar de área."
+      ],
+      "seo_description": "Correcciones de errores en clases y profesiones de WoW: Forever del 23 de noviembre de 2026."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard releases fixes for classes and professions.",
+        "Issues with Druid and Priest abilities are resolved.",
+        "World Buffs now persist when changing areas."
+      ],
+      "seo_description": "Class and profession bug fixes for WoW: Forever on November 23, 2026."
+    }
+  },
+  "wh-383969": {
+    "es": {
+      "tldr": [
+        "Los efectos de Romper Armadura no funcionan en Mazmorras Eternas.",
+        "Los jugadores reportan que los debuffs no afectan el daño en dungeons.",
+        "Efectos funcionan en el mundo abierto, pero no en mazmorras."
+      ],
+      "seo_description": "Reportes indican que Romper Armadura no funciona en Mazmorras Eternas de WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Sunder Armor effects don't work in Forever Dungeons.",
+        "Players report debuffs not affecting damage in dungeons.",
+        "Effects work in the open world but not in dungeons."
+      ],
+      "seo_description": "Reports indicate Sunder Armor doesn't work in WoW: Forever Dungeons."
+    }
+  },
+  "wh-383968": {
+    "es": {
+      "tldr": [
+        "El jefe de Uldaman vuelve a soltar botín.",
+        "El precio de venta de los objetos ha sido reducido en un 50%.",
+        "Los jugadores pueden obtener nuevamente el Pendulum of Doom."
+      ],
+      "seo_description": "El jefe de Uldaman vuelve a soltar botín, pero con precios de venta reducidos."
+    },
+    "en": {
+      "tldr": [
+        "Uldaman boss drops loot again.",
+        "Item vendor prices slashed by 50%.",
+        "Players can obtain Pendulum of Doom again."
+      ],
+      "seo_description": "Uldaman boss drops loot again, but vendor prices are nerfed."
+    }
   }
 };
