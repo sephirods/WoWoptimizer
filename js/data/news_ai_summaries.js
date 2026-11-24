@@ -7151,5 +7151,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Uldaman boss drops loot again, but vendor prices are nerfed."
     }
+  },
+  "blizz-31039019": {
+    "es": {
+      "tldr": [
+        "Correcciones en habilidades de Druida, Sacerdote, Brujo y Guerrero.",
+        "Mejoras en la recolección de objetos en Uldaman.",
+        "Actualización de recetas de cocina para ofrecer bonificaciones correctas."
+      ],
+      "seo_description": "Actualizaciones de correcciones en vivo para clases y profesiones en WoW."
+    },
+    "en": {
+      "tldr": [
+        "Fixes for Druid, Priest, Warlock, and Warrior abilities.",
+        "Loot improvements in Uldaman dungeon.",
+        "Cooking recipes updated to provide correct bonuses."
+      ],
+      "seo_description": "Live hotfix updates for classes and professions in WoW."
+    }
+  },
+  "blizz-6529860": {
+    "es": {
+      "tldr": [
+        "Correcciones en habilidades de Druida, Sacerdote, Brujo y Guerrero.",
+        "Mejoras en la recolección de objetos en Uldaman.",
+        "Actualización de recetas de cocina para ofrecer bonificaciones correctas."
+      ],
+      "seo_description": "Actualizaciones de correcciones en vivo para clases y profesiones en WoW."
+    },
+    "en": {
+      "tldr": [
+        "Fixes for Druid, Priest, Warlock, and Warrior abilities.",
+        "Loot improvements in Uldaman dungeon.",
+        "Cooking recipes updated to provide correct bonuses."
+      ],
+      "seo_description": "Live hotfix updates for classes and professions in WoW."
+    }
   }
 };
