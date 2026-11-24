@@ -7187,5 +7187,149 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Live hotfix updates for classes and professions in WoW."
     }
+  },
+  "blizz-24317680": {
+    "es": {
+      "tldr": [
+        "La condestable Aonda investiga un asentamiento remoto.",
+        "Se enfrenta a planes ocultos y devoción fanática.",
+        "El cómic animado «La ascensión de los Al'Aketh» está disponible."
+      ],
+      "seo_description": "Descubre el cómic animado «La ascensión de los Al'Aketh» y acompaña a Aonda en su peligrosa misión."
+    },
+    "en": {
+      "tldr": [
+        "Constable Aonda investigates a remote settlement.",
+        "She faces hidden agendas and fanatic devotion.",
+        "The animated comic «Al'Aketh Rising» is now available."
+      ],
+      "seo_description": "Explore the animated comic «Al'Aketh Rising» and join Aonda on her perilous mission."
+    }
+  },
+  "wh-383980": {
+    "es": {
+      "tldr": [
+        "Blizzard lanza el cómic animado «Al'Aketh Rising».",
+        "Aonda investiga un asentamiento bajo control estricto.",
+        "La devoción ciega puede desatar una tormenta."
+      ],
+      "seo_description": "Mira el nuevo cómic animado «Al'Aketh Rising» y acompaña a Aonda en su investigación."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard releases the animated comic «Al'Aketh Rising».",
+        "Aonda investigates a tightly controlled settlement.",
+        "Blind devotion can unleash a storm."
+      ],
+      "seo_description": "Watch the new animated comic «Al'Aketh Rising» and join Aonda in her investigation."
+    }
+  },
+  "wh-383977": {
+    "es": {
+      "tldr": [
+        "Última semana para obtener logros de la invasión aqir.",
+        "Los logros desaparecerán con el parche 12.1.7.",
+        "Aprovecha el aumento de reputación antes de que se eliminen."
+      ],
+      "seo_description": "No pierdas la oportunidad de conseguir logros de la invasión aqir antes de su eliminación."
+    },
+    "en": {
+      "tldr": [
+        "Last week to obtain Aqir Invasion achievements.",
+        "Achievements will be removed with Patch 12.1.7.",
+        "Take advantage of the reputation boost before removal."
+      ],
+      "seo_description": "Don't miss your chance to earn Aqir Invasion achievements before they are removed."
+    }
+  },
+  "wh-383961": {
+    "es": {
+      "tldr": [
+        "Necesitas estaciones de trabajo para fabricar objetos de alto nivel.",
+        "Las estaciones son creadas por jugadores y consumidas al usarse.",
+        "Lista de planos de nivel 3 y sus fuentes disponibles."
+      ],
+      "seo_description": "Descubre todas las fuentes de planos de nivel 3 para fabricar en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "You need work stations to craft high-level items.",
+        "Stations are player-created and consumed on use.",
+        "List of Tier 3 blueprints and their sources available."
+      ],
+      "seo_description": "Find all Tier 3 blueprint sources for crafting in WoW: Forever."
+    }
+  },
+  "blizz-31047605": {
+    "es": {
+      "tldr": [
+        "Aonda investiga un asentamiento remoto.",
+        "Se enfrenta a una creciente amenaza.",
+        "La devoción ciega puede desatar una tormenta."
+      ],
+      "seo_description": "No te pierdas el cómic «Al'Aketh Rising» y acompaña a Aonda en su investigación."
+    },
+    "en": {
+      "tldr": [
+        "Aonda investigates a remote settlement.",
+        "She faces a growing threat.",
+        "Blind devotion can unleash a storm."
+      ],
+      "seo_description": "Don't miss the comic «Al'Aketh Rising» and join Aonda in her investigation."
+    }
+  },
+  "blizz-1238266": {
+    "es": {
+      "tldr": [
+        "Aonda viaja a un asentamiento remoto.",
+        "Rodeada de planes ocultos y devoción fanática.",
+        "La devoción ciega puede transformarse en tormenta."
+      ],
+      "seo_description": "No te pierdas el cómic «La ascensión de los Al'Aketh» y acompaña a Aonda en su misión."
+    },
+    "en": {
+      "tldr": [
+        "Aonda travels to a remote settlement.",
+        "Surrounded by hidden agendas and fanatic devotion.",
+        "Blind devotion can turn into a storm."
+      ],
+      "seo_description": "Don't miss the comic «Al'Aketh Rising» and join Aonda on her mission."
+    }
+  },
+  "blizz-1238265": {
+    "es": {
+      "tldr": [
+        "Aonda de los cielonatos investiga una amenaza en un asentamiento remoto.",
+        "Se enfrenta a planes ocultos y devoción fanática.",
+        "La historia explora cómo la devoción ciega puede desatar tormentas."
+      ],
+      "seo_description": "Descubre el cómic «La ascensión de los Al'Aketh» y acompaña a Aonda en su peligrosa misión."
+    },
+    "en": {
+      "tldr": [
+        "Aonda of the Skyborne investigates a threat in a remote settlement.",
+        "She faces hidden agendas and fanatic devotion.",
+        "The story explores how blind devotion can unleash storms."
+      ],
+      "seo_description": "Discover the comic “Al'Aketh Rising” and join Aonda on her perilous mission."
+    }
+  },
+  "blizz-6531548": {
+    "es": {
+      "tldr": [
+        "Aonda de los cielonatos viaja a un asentamiento remoto bajo una amenaza creciente.",
+        "Se ve atrapada en agendas ocultas y devoción fanática.",
+        "La historia muestra cómo la devoción ciega puede convertirse en tormenta."
+      ],
+      "seo_description": "No te pierdas el cómic “Al'Aketh Rising” y acompaña a Aonda en su viaje lleno de peligros."
+    },
+    "en": {
+      "tldr": [
+        "Aonda of the Skyborne travels to a remote settlement under a growing threat.",
+        "She gets caught in hidden agendas and fanatic devotion.",
+        "The story shows how blind devotion can turn into a storm."
+      ],
+      "seo_description": "Don’t miss the comic “Al'Aketh Rising” and join Aonda on her perilous journey."
+    }
   }
 };
