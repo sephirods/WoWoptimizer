@@ -7331,5 +7331,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Don’t miss the comic “Al'Aketh Rising” and join Aonda on her perilous journey."
     }
+  },
+  "blizz-31053351": {
+    "es": {
+      "tldr": [
+        "Los Ascendant Venomstones ahora caen en mayores cantidades.",
+        "La cantidad depende de la dificultad del contenido.",
+        "Detalles adicionales se compartirán en un próximo artículo."
+      ],
+      "seo_description": "Ascendant Venomstones ahora caen más según la dificultad del contenido en WoW: Midnight."
+    },
+    "en": {
+      "tldr": [
+        "Ascendant Venomstones now drop in greater quantities.",
+        "The amount depends on content difficulty.",
+        "More details will be shared in an upcoming article."
+      ],
+      "seo_description": "Ascendant Venomstones now drop more based on content difficulty in WoW: Midnight."
+    }
+  },
+  "blizz-6532275": {
+    "es": {
+      "tldr": [
+        "Los Ascendant Venomstones ahora caen en mayores cantidades.",
+        "La cantidad depende de la dificultad del contenido.",
+        "Detalles adicionales se compartirán en un próximo artículo."
+      ],
+      "seo_description": "Ascendant Venomstones ahora caen más según la dificultad del contenido en WoW: Midnight."
+    },
+    "en": {
+      "tldr": [
+        "Ascendant Venomstones now drop in greater quantities.",
+        "The amount depends on content difficulty.",
+        "More details will be shared in an upcoming article."
+      ],
+      "seo_description": "Ascendant Venomstones now drop more based on content difficulty in WoW: Midnight."
+    }
   }
 };
