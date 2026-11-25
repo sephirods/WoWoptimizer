@@ -7367,5 +7367,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Ascendant Venomstones now drop more based on content difficulty in WoW: Midnight."
     }
+  },
+  "wh-383983": {
+    "es": {
+      "tldr": [
+        "Aumento en las gotas de piedra de veneno ascendente de los jefes del Abismo Venenoso.",
+        "Las mazmorras míticas +14 o superiores también ofrecen más piedras.",
+        "Detalles adicionales se compartirán en un futuro artículo."
+      ],
+      "seo_description": "Aumentan las gotas de piedra de veneno ascendente en el Abismo Venenoso y mazmorras míticas +14."
+    },
+    "en": {
+      "tldr": [
+        "Increased drops of Ascendant Venomstones from Venomous Abyss bosses.",
+        "Mythic dungeons +14 or higher also yield more stones.",
+        "More details will be shared in a future article."
+      ],
+      "seo_description": "Ascendant Venomstone drops increased from Venomous Abyss and Mythic dungeons +14."
+    }
+  },
+  "wh-383978": {
+    "es": {
+      "tldr": [
+        "Gana un 10% de bonificación de reputación durante el Festín de las Cosechas.",
+        "Se añade Voidlight Marl a varias misiones en 2026.",
+        "Completa dailies para obtener recompensas y materiales."
+      ],
+      "seo_description": "Obtén un 10% de bonificación de reputación en el Festín de las Cosechas 2026."
+    },
+    "en": {
+      "tldr": [
+        "Earn a 10% reputation bonus during Pilgrim's Bounty.",
+        "Voidlight Marl added to various quests in 2026.",
+        "Complete dailies for rewards and materials."
+      ],
+      "seo_description": "Get a 10% reputation bonus during Pilgrim's Bounty 2026."
+    }
   }
 };
