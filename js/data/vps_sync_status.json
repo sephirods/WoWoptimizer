@@ -1,12 +1,12 @@
 {
-  "state": "completed",
-  "lastRunAt": "2026-11-25T04:12:17Z",
-  "lastRunEpochMs": 1795579937767,
-  "nextScheduledAt": "2026-11-25T16:12:17Z",
-  "durationSec": 215.2,
+  "state": "error",
+  "lastRunAt": "2026-11-25T16:15:42Z",
+  "lastRunEpochMs": 1795623342805,
+  "nextScheduledAt": "2026-11-26T04:15:42Z",
+  "durationSec": 197.3,
   "triggerRequestedAt": 0,
   "triggerTarget": "all",
-  "currentStep": "Sincronización completada con éxito en 215.2s",
+  "currentStep": "Con errores parciales — revisa las tarjetas",
   "modules": {
     "archon": {
       "name": "Archon.gg (Presets, BiS, Talentos 1:1 & Healers)",
@@ -14,20 +14,20 @@
         "archon_data.js",
         "archon_healers.js"
       ],
-      "status": "ok",
+      "status": "error",
       "updatedAt": "2026-11-25T04:12:16Z",
       "summary": "40/40 specs (Raid + M+) + 7 Healers",
-      "error": null
+      "error": "Error: Error HTTP 500 al crear commit en GitHub"
     },
     "stats": {
       "name": "Prioridades de Estadísticas & Hero Trees (Wowhead)",
       "files": [
         "wow_stat_priorities.js"
       ],
-      "status": "ok",
+      "status": "error",
       "updatedAt": "2026-11-25T04:12:16Z",
       "summary": "40/40 guías extraídas",
-      "error": null
+      "error": "Error: Error HTTP 500 al crear commit en GitHub"
     },
     "wowhead": {
       "name": "Encantamientos, Gemas & Consumibles (Wowhead)",
@@ -35,7 +35,7 @@
         "wowhead_data.js"
       ],
       "status": "ok",
-      "updatedAt": "2026-11-25T04:12:16Z",
+      "updatedAt": "2026-11-25T16:15:41Z",
       "summary": "40/40 specs con iconos oficiales",
       "error": null
     },
@@ -44,10 +44,10 @@
       "files": [
         "bloodmallet_data.js"
       ],
-      "status": "ok",
+      "status": "error",
       "updatedAt": "2026-11-25T04:12:16Z",
       "summary": "80/80 simulaciones (1T y 5T)",
-      "error": null
+      "error": "Error al publicar Bloodmallet: NetworkError when attempting to fetch resource."
     }
   }
 }
