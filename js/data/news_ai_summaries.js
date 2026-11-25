@@ -7403,5 +7403,437 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Get a 10% reputation bonus during Pilgrim's Bounty 2026."
     }
+  },
+  "blizz-24316570": {
+    "es": {
+      "tldr": [
+        "Consigue el adorno mrgluche adorable del 1 al 29 de diciembre.",
+        "Mira 4 horas de retransmisiones de WoW en Twitch.",
+        "Vincula tu cuenta de Twitch para participar."
+      ],
+      "seo_description": "Consigue el adorno mrgluche adorable en Twitch del 1 al 29 de diciembre viendo 4 horas de WoW."
+    },
+    "en": {
+      "tldr": [
+        "Get the Cuddly Seafoam Grrgle item from December 1 to 29.",
+        "Watch 4 hours of WoW streams on Twitch.",
+        "Link your Twitch account to participate."
+      ],
+      "seo_description": "Claim the Cuddly Seafoam Grrgle item on Twitch from December 1 to 29 by watching 4 hours of WoW."
+    }
+  },
+  "blizz-24315647": {
+    "es": {
+      "tldr": [
+        "Celebra WoW: Forever con 365 días de tiempo de juego a un precio especial.",
+        "Llega el cómic 'La ascensión de los Al'Aketh' y el puesto comercial de diciembre.",
+        "Incluye el Drop de Twitch mrgluche adorable."
+      ],
+      "seo_description": "Celebra WoW: Forever con 365 días de juego y descubre el cómic 'La ascensión de los Al'Aketh'."
+    },
+    "en": {
+      "tldr": [
+        "Celebrate WoW: Forever with 365 days of game time at a special price.",
+        "The 'Al'Aketh Rising' comic and December Trading Post are here.",
+        "Includes the Cuddly Seafoam Grrgle Twitch Drop."
+      ],
+      "seo_description": "Celebrate WoW: Forever with 365 days of game time and check out the 'Al'Aketh Rising' comic."
+    }
+  },
+  "blizz-24315646": {
+    "es": {
+      "tldr": [
+        "Obtén 365 días de tiempo de juego a un precio excepcional.",
+        "Acceso a WoW: Forever, WoW: Classic y WoW moderno.",
+        "Oferta válida hasta el 7 de diciembre de 2026."
+      ],
+      "seo_description": "Aprovecha 365 días de tiempo de juego a un precio excepcional hasta el 7 de diciembre de 2026."
+    },
+    "en": {
+      "tldr": [
+        "Get 365 days of game time at an exceptional price.",
+        "Access WoW: Forever, WoW: Classic, and Modern WoW.",
+        "Offer valid through December 7, 2026."
+      ],
+      "seo_description": "Take advantage of 365 days of game time at an exceptional price until December 7, 2026."
+    }
+  },
+  "wh-383997": {
+    "es": {
+      "tldr": [
+        "La estrategia zerg en el Valle de Alterac ha sido nerfeada.",
+        "Los generales ahora tienen mejoras de torre.",
+        "Los jugadores están preocupados por los cambios en las recompensas de reputación."
+      ],
+      "seo_description": "La estrategia zerg en el Valle de Alterac ha sido nerfeada, afectando las recompensas de reputación."
+    },
+    "en": {
+      "tldr": [
+        "The zerg strategy in Alterac Valley has been nerfed.",
+        "Generals now have tower buffs.",
+        "Players are concerned about reputation rewards changes."
+      ],
+      "seo_description": "The zerg strategy in Alterac Valley has been nerfed, impacting reputation rewards."
+    }
+  },
+  "wh-383995": {
+    "es": {
+      "tldr": [
+        "Blizzard presenta el puesto comercial de diciembre de 2026.",
+        "Incluye nuevas mascotas y conjuntos de transfiguración.",
+        "Visita los puestos en las ciudades capitales."
+      ],
+      "seo_description": "Descubre el puesto comercial de diciembre de 2026 con nuevas mascotas y conjuntos de transfiguración."
+    },
+    "en": {
+      "tldr": [
+        "Blizzard previews the December 2026 Trading Post.",
+        "Includes new pets and transmog sets.",
+        "Visit the posts in capital cities."
+      ],
+      "seo_description": "Check out the December 2026 Trading Post featuring new pets and transmog sets."
+    }
+  },
+  "wh-383992": {
+    "es": {
+      "tldr": [
+        "Cambios en talentos de Druida Equilibrio ya disponibles.",
+        "Aumento del 10% de daño en forma de Águila Búho.",
+        "Mejoras en la experiencia de juego al subir de nivel."
+      ],
+      "seo_description": "Los cambios en talentos de Druida Equilibrio incluyen un aumento del 10% de daño en forma de Águila Búho."
+    },
+    "en": {
+      "tldr": [
+        "Balance Druid talent changes are now live.",
+        "10% damage buff in Moonkin Form.",
+        "Improvements to leveling experience."
+      ],
+      "seo_description": "Balance Druid talent changes include a 10% damage buff in Moonkin Form."
+    }
+  },
+  "wh-383991": {
+    "es": {
+      "tldr": [
+        "Descuento del 23% en 365 días de tiempo de juego.",
+        "Oferta válida hasta el 7 de diciembre de 2026.",
+        "Acceso a WoW: Forever, WoW: Classic y Modern WoW."
+      ],
+      "seo_description": "Compra 365 días de tiempo de juego por solo 120 $ USD. Oferta válida hasta el 7 de diciembre de 2026."
+    },
+    "en": {
+      "tldr": [
+        "23% discount on 365 days of game time.",
+        "Offer valid until December 7, 2026.",
+        "Access to WoW: Forever, WoW: Classic, and Modern WoW."
+      ],
+      "seo_description": "Buy 365 days of game time for just $120 USD. Offer valid until December 7, 2026."
+    }
+  },
+  "wh-383990": {
+    "es": {
+      "tldr": [
+        "Nuevo Twitch Drop: Cuddly Seafoam Grrgle el 1 de diciembre.",
+        "Mira 4 horas de streams de WoW en Twitch.",
+        "Requiere vincular tu cuenta de Twitch."
+      ],
+      "seo_description": "Consigue el Cuddly Seafoam Grrgle en Twitch del 1 al 29 de diciembre. Mira 4 horas de streams de WoW."
+    },
+    "en": {
+      "tldr": [
+        "New Twitch Drop: Cuddly Seafoam Grrgle on December 1.",
+        "Watch 4 hours of WoW streams on Twitch.",
+        "Requires linking your Twitch account."
+      ],
+      "seo_description": "Get the Cuddly Seafoam Grrgle on Twitch from December 1 to 29. Watch 4 hours of WoW streams."
+    }
+  },
+  "wh-383988": {
+    "es": {
+      "tldr": [
+        "La antorcha del vigilante nocturno se puede usar montado.",
+        "Corrección reciente permite su uso mientras se está montado.",
+        "Se obtiene en Duskwood tras completar una misión."
+      ],
+      "seo_description": "La antorcha del vigilante nocturno ahora se puede usar montado en WoW: Forever. Consíguela en Duskwood."
+    },
+    "en": {
+      "tldr": [
+        "Night Watchman's Torch can be used while mounted.",
+        "Recent fix allows its use while mounted.",
+        "Obtained in Duskwood by completing a quest."
+      ],
+      "seo_description": "The Night Watchman's Torch can now be used while mounted in WoW: Forever. Get it in Duskwood."
+    }
+  },
+  "wh-383986": {
+    "es": {
+      "tldr": [
+        "El encantamiento de Revelación ha sido debilitado.",
+        "Afecta el daño de área de Magos, Brujos y Druidas.",
+        "Se obtiene de la Autoridad de Comercio de Azeroth."
+      ],
+      "seo_description": "El encantamiento de Revelación ha sido debilitado en WoW: Forever, afectando el daño de área de varias clases."
+    },
+    "en": {
+      "tldr": [
+        "Revelation enchant has been nerfed.",
+        "Affects AoE damage of Mages, Warlocks, and Druids.",
+        "Obtained from the Azeroth Commerce Authority."
+      ],
+      "seo_description": "The Revelation enchant has been nerfed in WoW: Forever, affecting AoE damage for several classes."
+    }
+  },
+  "blizz-31062986": {
+    "es": {
+      "tldr": [
+        "Ajustes en Alterac Valley para mejorar el enfoque en objetivos.",
+        "Reputación y honor de objetivos aumentados.",
+        "Dificultad de criaturas enemigas incrementada."
+      ],
+      "seo_description": "Ajustes en Alterac Valley para incentivar la captura de objetivos y aumentar la dificultad de enemigos."
+    },
+    "en": {
+      "tldr": [
+        "Adjustments in Alterac Valley to improve focus on objectives.",
+        "Reputation and honor from objectives increased.",
+        "Enemy creature difficulty increased."
+      ],
+      "seo_description": "Adjustments in Alterac Valley to incentivize capturing objectives and increase enemy difficulty."
+    }
+  },
+  "blizz-31062075": {
+    "es": {
+      "tldr": [
+        "Celebración de WoW: Forever con 365 días de tiempo de juego.",
+        "Lanzamiento del cómic \"Al'Aketh Rising\".",
+        "Nuevos drops y equipo en el Laberinto de Kindo'jan."
+      ],
+      "seo_description": "Celebra WoW: Forever con 365 días de tiempo de juego y nuevos contenidos como el cómic \"Al'Aketh Rising\"."
+    },
+    "en": {
+      "tldr": [
+        "Celebrate WoW: Forever with 365 days of game time.",
+        "Launch of the \"Al'Aketh Rising\" comic.",
+        "New drops and gear in the Labyrinth of Kindo'jan."
+      ],
+      "seo_description": "Celebrate WoW: Forever with 365 days of game time and new content like the \"Al'Aketh Rising\" comic."
+    }
+  },
+  "blizz-31061969": {
+    "es": {
+      "tldr": [
+        "Ajustes en talentos de Druida Equilibrio.",
+        "Renombramiento de habilidades y reducción de puntos requeridos.",
+        "Mejoras en daño y tiempo de lanzamiento de hechizos."
+      ],
+      "seo_description": "Ajustes en talentos de Druida Equilibrio para mejorar la experiencia de juego."
+    },
+    "en": {
+      "tldr": [
+        "Adjustments to Balance Druid talents.",
+        "Renaming abilities and reducing required points.",
+        "Improvements in damage and spell cast time."
+      ],
+      "seo_description": "Adjustments to Balance Druid talents to enhance gameplay experience."
+    }
+  },
+  "blizz-31061756": {
+    "es": {
+      "tldr": [
+        "Descuento limitado en el Pase de Celebración de WoW.",
+        "Acceso a todas las versiones del juego.",
+        "Agradecimiento por el lanzamiento de WoW Forever."
+      ],
+      "seo_description": "Aprovecha el Pase de Celebración de WoW con descuento y accede a todas las versiones del juego."
+    },
+    "en": {
+      "tldr": [
+        "Limited-time discount on the WoW Celebration Pass.",
+        "Access to all versions of the game.",
+        "Thank you for the launch of WoW Forever."
+      ],
+      "seo_description": "Take advantage of the WoW Celebration Pass discount and access all game versions."
+    }
+  },
+  "blizz-31061588": {
+    "es": {
+      "tldr": [
+        "Consigue el decorado Cuddly Seafoam Grrgle.",
+        "Mira 4 horas de streams de WoW en Twitch.",
+        "Disponible del 1 al 29 de diciembre."
+      ],
+      "seo_description": "Mira streams de WoW en Twitch y consigue el decorado Cuddly Seafoam Grrgle."
+    },
+    "en": {
+      "tldr": [
+        "Get the Cuddly Seafoam Grrgle decor item.",
+        "Watch 4 hours of WoW streams on Twitch.",
+        "Available from December 1 to 29."
+      ],
+      "seo_description": "Watch WoW streams on Twitch and claim the Cuddly Seafoam Grrgle decor item."
+    }
+  },
+  "blizz-31061587": {
+    "es": {
+      "tldr": [
+        "Consigue el decorado Cuddly Seafoam Grrgle.",
+        "Mira 4 horas de streams de WoW en Twitch.",
+        "Disponible del 1 al 29 de diciembre."
+      ],
+      "seo_description": "Mira streams de WoW en Twitch y consigue el decorado Cuddly Seafoam Grrgle."
+    },
+    "en": {
+      "tldr": [
+        "Get the Cuddly Seafoam Grrgle decor item.",
+        "Watch 4 hours of WoW streams on Twitch.",
+        "Available from December 1 to 29."
+      ],
+      "seo_description": "Watch WoW streams on Twitch and claim the Cuddly Seafoam Grrgle decor item."
+    }
+  },
+  "blizz-1238339": {
+    "es": {
+      "tldr": [
+        "Celebra WoW: Forever con un año de juego a precio especial.",
+        "Llega el cómic 'La ascensión de los Al'Aketh'.",
+        "Incluye el Drop de Twitch y equipo en el laberinto."
+      ],
+      "seo_description": "Celebra WoW: Forever con un año de juego a precio especial y nuevos contenidos."
+    },
+    "en": {
+      "tldr": [
+        "Celebrate WoW: Forever with a special price for a year of game time.",
+        "The comic 'The Ascension of the Al'Aketh' arrives.",
+        "Includes Twitch Drop and gear in the maze."
+      ],
+      "seo_description": "Celebrate WoW: Forever with a special price for a year of game time and new content."
+    }
+  },
+  "blizz-1238338": {
+    "es": {
+      "tldr": [
+        "Descuento temporal en el Pase de Celebración de WoW.",
+        "Acceso a todas las versiones del juego.",
+        "Agradecimiento por el lanzamiento de WoW Forever."
+      ],
+      "seo_description": "Aprovecha el Pase de Celebración de WoW con descuento y accede a todas las versiones del juego."
+    },
+    "en": {
+      "tldr": [
+        "Temporary discount on the WoW Celebration Pass.",
+        "Access to all versions of the game.",
+        "Thank you for the launch of WoW Forever."
+      ],
+      "seo_description": "Take advantage of the WoW Celebration Pass discount and access all game versions."
+    }
+  },
+  "blizz-1238337": {
+    "es": {
+      "tldr": [
+        "Consigue el adorno mrgluche adorable del 1 al 29 de diciembre.",
+        "Mira 4 horas de retransmisiones de WoW en Twitch.",
+        "Participa para obtener el decorado exclusivo."
+      ],
+      "seo_description": "Consigue el adorno mrgluche adorable en Twitch del 1 al 29 de diciembre."
+    },
+    "en": {
+      "tldr": [
+        "Get the adorable mrgluche decoration from December 1 to 29.",
+        "Watch 4 hours of WoW streams on Twitch.",
+        "Join to earn the exclusive decor item."
+      ],
+      "seo_description": "Get the adorable mrgluche decoration on Twitch from December 1 to 29."
+    }
+  },
+  "blizz-6534386": {
+    "es": {
+      "tldr": [
+        "Ajustes en Alterac Valley para mejorar el enfoque en objetivos.",
+        "Reducción de Honor por matar Generales enemigos.",
+        "Aumento de dificultad de criaturas y reputación por objetivos."
+      ],
+      "seo_description": "Ajustes en Alterac Valley para mejorar la experiencia de juego y la obtención de reputación."
+    },
+    "en": {
+      "tldr": [
+        "Alterac Valley adjustments to improve focus on objectives.",
+        "Reduced Honor for killing enemy Generals.",
+        "Increased difficulty of creatures and reputation from objectives."
+      ],
+      "seo_description": "Alterac Valley adjustments to enhance gameplay experience and reputation gain."
+    }
+  },
+  "blizz-6534260": {
+    "es": {
+      "tldr": [
+        "Celebra WoW Forever con un año de tiempo de juego a precio especial.",
+        "Lanzamiento del cómic \"Al'Aketh Rising\".",
+        "Incluye un Twitch Drop y equipo Mythic en el Laberinto de Kindo'jan."
+      ],
+      "seo_description": "Celebra WoW Forever con un año de juego a precio especial y novedades emocionantes."
+    },
+    "en": {
+      "tldr": [
+        "Celebrate WoW Forever with a year of game time at a special price.",
+        "Launch of the \"Al'Aketh Rising\" comic.",
+        "Includes a Twitch Drop and Mythic gear in the Labyrinth of Kindo'jan."
+      ],
+      "seo_description": "Celebrate WoW Forever with a year of game time at a special price and exciting new content."
+    }
+  },
+  "blizz-6534241": {
+    "es": {
+      "tldr": [
+        "Ajustes en talentos de Druidas para mejorar la experiencia de juego.",
+        "Renombramiento y cambios en habilidades clave.",
+        "Reducción de puntos necesarios para hacer viable Starfire."
+      ],
+      "seo_description": "Ajustes en Druidas para mejorar la jugabilidad y la viabilidad de Starfire."
+    },
+    "en": {
+      "tldr": [
+        "Adjustments to Druid talents to enhance gameplay experience.",
+        "Renaming and changes to key abilities.",
+        "Reduced points needed to make Starfire viable."
+      ],
+      "seo_description": "Druid adjustments to improve gameplay and the viability of Starfire."
+    }
+  },
+  "blizz-6534194": {
+    "es": {
+      "tldr": [
+        "Descuento limitado en el WoW Celebration Pass por el lanzamiento de WoW Forever.",
+        "Acceso a todas las versiones del juego.",
+        "Aventura garantizada con un año de tiempo de juego."
+      ],
+      "seo_description": "Obtén un descuento en el WoW Celebration Pass y accede a todas las versiones del juego."
+    },
+    "en": {
+      "tldr": [
+        "Limited-time discount on the WoW Celebration Pass for WoW Forever launch.",
+        "Access to all versions of the game.",
+        "Guaranteed adventure with a year of game time."
+      ],
+      "seo_description": "Get a discount on the WoW Celebration Pass and access all versions of the game."
+    }
+  },
+  "blizz-6534157": {
+    "es": {
+      "tldr": [
+        "Mira 4 horas de streams de WoW para obtener el decorado Cuddly Seafoam Grrgle.",
+        "Disponible del 1 al 29 de diciembre.",
+        "Participa en Twitch para reclamar el objeto decorativo."
+      ],
+      "seo_description": "Obtén el decorado Cuddly Seafoam Grrgle en Twitch del 1 al 29 de diciembre."
+    },
+    "en": {
+      "tldr": [
+        "Watch 4 hours of WoW streams to claim the Cuddly Seafoam Grrgle decor item.",
+        "Available from December 1 to 29.",
+        "Participate on Twitch to claim the decorative item."
+      ],
+      "seo_description": "Get the Cuddly Seafoam Grrgle decor item on Twitch from December 1 to 29."
+    }
   }
 };
