@@ -7889,5 +7889,41 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Take advantage of profession cooldowns for goldmaking in WoW: Forever."
     }
+  },
+  "blizz-31066529": {
+    "es": {
+      "tldr": [
+        "Correcciones en habilidades de Druida y Cazador.",
+        "Mejoras en el talento de Equilibrio y cambios en Moonkin Form.",
+        "Arreglos de errores en habilidades como Hurricane y Tranquility."
+      ],
+      "seo_description": "Actualizaciones de habilidades para Druida y Cazador en WoW, incluyendo mejoras y correcciones de errores."
+    },
+    "en": {
+      "tldr": [
+        "Fixes for Druid and Hunter abilities.",
+        "Improvements to Balance talent and changes to Moonkin Form.",
+        "Bug fixes for abilities like Hurricane and Tranquility."
+      ],
+      "seo_description": "Ability updates for Druid and Hunter in WoW, including improvements and bug fixes."
+    }
+  },
+  "blizz-6534799": {
+    "es": {
+      "tldr": [
+        "Correcciones en habilidades de Druida y Cazador.",
+        "Mejoras en el talento de Equilibrio y cambios en Moonkin Form.",
+        "Arreglos de errores en habilidades como Hurricane y Tranquility."
+      ],
+      "seo_description": "Actualizaciones de habilidades para Druida y Cazador en WoW, incluyendo mejoras y correcciones de errores."
+    },
+    "en": {
+      "tldr": [
+        "Fixes for Druid and Hunter abilities.",
+        "Improvements to Balance talent and changes to Moonkin Form.",
+        "Bug fixes for abilities like Hurricane and Tranquility."
+      ],
+      "seo_description": "Ability updates for Druid and Hunter in WoW, including improvements and bug fixes."
+    }
   }
 };
