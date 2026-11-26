@@ -7835,5 +7835,59 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Get the Cuddly Seafoam Grrgle decor item on Twitch from December 1 to 29."
     }
+  },
+  "wh-384000": {
+    "es": {
+      "tldr": [
+        "Hotfixes para clases y misiones en WoW: Forever.",
+        "Cambios en talentos de Druida y cazador.",
+        "Mejoras en logros de PvP y correcciones generales."
+      ],
+      "seo_description": "Hotfixes del 25 de noviembre para clases y misiones en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Hotfixes for classes and quests in WoW: Forever.",
+        "Changes to Druid and Hunter talents.",
+        "Improvements to PvP achievements and general fixes."
+      ],
+      "seo_description": "Hotfixes for classes and quests on November 25th in WoW: Forever."
+    }
+  },
+  "wh-383999": {
+    "es": {
+      "tldr": [
+        "Aumento de reputación en el Valle de Alterac.",
+        "Recompensas por derrotar tenientes y mantener puntos.",
+        "Reducción del tiempo para bonificaciones de reputación."
+      ],
+      "seo_description": "Aumento de reputación en el Valle de Alterac en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Alterac Valley reputation increased again.",
+        "Rewards for defeating Lieutenants and holding points.",
+        "Reduced time for reputation bonuses."
+      ],
+      "seo_description": "Alterac Valley reputation increased again in WoW: Forever."
+    }
+  },
+  "wh-383979": {
+    "es": {
+      "tldr": [
+        "Gana oro con los tiempos de reutilización de profesiones.",
+        "Transmutaciones de alquimia y sus beneficios.",
+        "Ejemplos de márgenes de ganancia para la facción Horda."
+      ],
+      "seo_description": "Aprovecha los tiempos de reutilización de profesiones para ganar oro en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Make gold with profession cooldowns.",
+        "Alchemy transmutations and their benefits.",
+        "Examples of profit margins for Horde faction."
+      ],
+      "seo_description": "Take advantage of profession cooldowns for goldmaking in WoW: Forever."
+    }
   }
 };
