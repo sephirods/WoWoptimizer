@@ -7925,5 +7925,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Ability updates for Druid and Hunter in WoW, including improvements and bug fixes."
     }
+  },
+  "wh-383998": {
+    "es": {
+      "tldr": [
+        "Ahorra hasta un 60% en productos de la Gear Store por Black Friday.",
+        "Consigue regalos en el juego con compras mínimas.",
+        "Amplia variedad de camisetas y coleccionables en oferta."
+      ],
+      "seo_description": "Ahorra hasta un 60% en la Gear Store y consigue regalos en el juego por Black Friday."
+    },
+    "en": {
+      "tldr": [
+        "Save up to 60% on Gear Store products for Black Friday.",
+        "Earn in-game goodies with minimum purchases.",
+        "Wide variety of shirts and collectibles on sale."
+      ],
+      "seo_description": "Save up to 60% at the Gear Store and earn in-game goodies for Black Friday."
+    }
   }
 };
