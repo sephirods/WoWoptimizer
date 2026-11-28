@@ -7943,5 +7943,23 @@ window.WOW_NEWS_AI_SUMMARIES = {
       ],
       "seo_description": "Save up to 60% at the Gear Store and earn in-game goodies for Black Friday."
     }
+  },
+  "wh-383989": {
+    "es": {
+      "tldr": [
+        "Las recompensas del cofre de tributo en Dire Maul han sido reducidas.",
+        "Los cambios no han sido confirmados oficialmente por Blizzard.",
+        "El método de la carrera de tributo implica dejar vivos a ciertos jefes."
+      ],
+      "seo_description": "Las recompensas del cofre de tributo en Dire Maul se han reducido en WoW: Forever."
+    },
+    "en": {
+      "tldr": [
+        "Tribute Chest rewards in Dire Maul have been reduced.",
+        "Changes have not been officially confirmed by Blizzard.",
+        "The tribute run method requires leaving certain bosses alive."
+      ],
+      "seo_description": "Dire Maul Tribute Chest rewards have been reduced in WoW: Forever."
+    }
   }
 };
